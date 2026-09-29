@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"MAPK8IP3\" \"corpus callosum\" \"cerebellar\" \"neurodevelopmental\"",
+    "MAPK8IP3 brain MRI abnormalities corpus callosum cerebellar hypoplasia"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "abstract_chars": 1362
+    },
+    {
+      "id": "https://search.proquest.com/openview/6678fb930503fcddaed85fcea256dc98/1?pq-origsite=gscholar&cbl=2044126",
+      "title": "Plenary Sessions",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/6678fb930503fcddaed85fcea256dc98/1?pq-origsite=gscholar&cbl=2044126",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC9540929",
+      "title": "The genetic landscape of polymicrogyria",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9540929/",
+      "abstract_chars": 1367
+    },
+    {
+      "id": "PMC7076331",
+      "title": "Recent advances in epilepsy genomics and genetic testing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+      "abstract_chars": 769
+    },
+    {
+      "id": "31444900",
+      "title": "Associated anomalies in cases with agenesis of the corpus callosum",
+      "pmid": "31444900",
+      "doi": "10.1002/ajmg.a.61330",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61330",
+      "abstract_chars": 1690
+    },
+    {
+      "id": "https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C206532",
+      "title": "C206532 - Neurodevelopmental Disorder with ... - EVS Explore",
+      "pmid": null,
+      "doi": null,
+      "url": "https://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C206532",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/genes/MAPK8IP3",
+      "title": "MAPK8IP3 - PanelApp",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/genes/MAPK8IP3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/618443",
+      "title": "Entry - #618443 - NEURODEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/618443",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2076-3425/11/2/152",
+      "title": "Lysosome function and dysfunction in hereditary spastic paraplegias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2076-3425/11/2/152",
+      "abstract_chars": 1223
+    },
+    {
+      "id": "10.1002/ana.25481",
+      "title": "Recurrent de novo MAPK8IP3 variants cause neurological phenotypes",
+      "pmid": null,
+      "doi": "10.1002/ana.25481",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25481",
+      "abstract_chars": 806
+    }
+  ],
+  "input_tokens": 5354,
+  "output_tokens": 3117,
+  "usd": 0.01203,
+  "seconds": 20.6,
+  "ok": true
+}

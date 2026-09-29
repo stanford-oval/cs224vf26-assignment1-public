@@ -1,0 +1,114 @@
+{
+  "verdict": "supported",
+  "rationale": "The provided literature consistently supports the hypothesis that heterozygous SPTAN1 loss-of-function variants and microdeletions (haploinsufficiency) cause a pleiotropic neuromuscular spectrum with variable expressivity and incomplete penetrance. Initially identified in distal hereditary motor neuropathy (dHMN11), heterozygous nonsense, frameshift, and copy-number loss variants in SPTAN1 have now been confirmed across multiple cohorts and families to cause childhood-onset distal myopathy and mixed neuro-myopathic presentations. A 9q34 microdeletion encompassing SPTAN1 segregated with childhood-onset distal myopathy in four affected patients while exhibiting non-penetrance in two adult relatives, demonstrating reduced penetrance. Comprehensive neuromuscular reviews categorize SPTAN1 among genes presenting with dual neuropathic and myopathic features underpinned by haploinsufficiency, with no contradicting evidence found among the analyzed sources.",
+  "evidence": [
+    {
+      "text": "A heterozygous chromosome 9q34 deletion encompassing SPTAN1 segregated with childhood-onset distal muscle weakness and myopathic features on EMG, muscle MRI, and biopsy across four affected patients, while showing non-penetrance in two relatives, confirming SPTAN1 haploinsufficiency as a cause of distal myopathy alongside its established link to dHMN.",
+      "stance": "supports",
+      "source": {
+        "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "A Monticelli"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-025-01938-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01938-2",
+        "quote": "We report a family affected with childhood onset distal muscle weakness with a heterozygous chromosome 9q34 deletion encompassing the SPTAN1 gene... segregates in four patients and is non-penetrant in two other relatives. Electromyography, muscle MRI and muscle biopsy revealed a myopathic disease phenotype... Here, we confirm the role of SPTAN1 haploinsufficiency as a cause of distal myopathy."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients harboring 9q34 deletion",
+          "value": 4
+        },
+        {
+          "metric": "non-penetrant relatives harboring 9q34 deletion",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Systematic review of neuromuscular genes showing dual neuropathic and myopathic presentations indicates that patients carrying heterozygous loss-of-function variants in SPTAN1 manifest with distal hereditary motor neuropathy or distal myopathy driven by haploinsufficiency.",
+      "stance": "supports",
+      "source": {
+        "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+        "authors": [
+          "C Laurini",
+          "L Bosco",
+          "AA Zambon",
+          "B Sorrenti"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+        "quote": "predominantly distal in disorders linked to HSPB1, SPTAN1, \u2026 Finally, most patients with HMN or distal myopathy carry \u2026 suggesting haploinsufficiency as the underlying mechanism"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Heterozygous nonsense mutations in SPTAN1 were identified causing hereditary motor neuropathy, with haploinsufficiency identified as the pathogenic mechanism based on low predicted tolerance to loss-of-function.",
+      "stance": "supports",
+      "source": {
+        "title": "Hereditary motor neuropathies",
+        "authors": [
+          "MF Dohrn",
+          "M Saporta"
+        ],
+        "year": 2020,
+        "journal": "Current Opinion in Neurology",
+        "doi": "10.1097/WCO.0000000000000848",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+        "quote": "identified heterozygous nonsense mutations in SPTAN1... Based on the low predicted tolerance to haploinsufficiency, this"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Heterozygous SPTAN1 loss-of-function variants cause juvenile-onset distal weakness, establishing SPTAN1 haploinsufficiency as a genetic cause across multiple families.",
+      "stance": "supports",
+      "source": {
+        "title": "2018 Peripheral Nerve Society Annual Meeting 21-25 July, 2018",
+        "authors": [
+          "P Van Doorn\u2014President"
+        ],
+        "year": 2018,
+        "journal": "Journal of the Peripheral Nervous System",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://openurl.ebsco.com/contentitem/gcd:133499999?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:133499999&crl=c&jrnl=10859489",
+        "quote": "in SPTAN1 in three families in with juvenile onset distal \u2026 SPTAN1 haploinsufficiency as a novel genetic cause of"
+      },
+      "numbers": [
+        {
+          "metric": "families identified with juvenile-onset distal presentation",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What tissue-specific compensatory mechanisms or modifier genes prevent clinical manifestation in individuals carrying whole-gene SPTAN1 deletions or loss-of-function mutations?",
+      "rationale": "Non-penetrance was documented in two relatives harboring the complete 9q34/SPTAN1 deletion, demonstrating that secondary genetic modifiers, spectrin paralog compensation, or epigenetic factors regulate disease manifestation.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What diagnostic MRI or EMG criteria best discriminate pure neurogenic dHMN11 from pure myogenic SPTAN1 distal myopathy during early childhood?",
+      "rationale": "Distinguishing pure dHMN from distal myopathy can be challenging because fatty infiltration patterns on muscle MRI and EMG features can overlap, necessitating standardized diagnostic discriminators.",
+      "promise": 0.8,
+      "est_cost": 18000.0
+    }
+  ]
+}

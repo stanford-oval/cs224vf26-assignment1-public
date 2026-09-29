@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"GTPBP2\" \"skeletal\" \"kyphoscoliosis\" phenotype variant",
+    "GTPBP2 Jaberi Elahi syndrome skeletal abnormalities missense truncating"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+      "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+      "abstract_chars": 1460
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0197458015005461",
+      "title": "Identification of mutation in GTPBP2 in patients of a family with neurodegeneration accompanied by iron deposition in the brain",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0197458015005461",
+      "abstract_chars": 1158
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-018-0097-3",
+      "title": "Biallelic inactivating variants in the GTPBP2 gene cause a neurodevelopmental disorder with severe intellectual disability",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-018-0097-3",
+      "abstract_chars": 1381
+    },
+    {
+      "id": "38694398",
+      "title": "Iron chelators: as therapeutic agents in diseases",
+      "pmid": "38694398",
+      "doi": "10.1097/ms9.0000000000001717",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11060230/",
+      "abstract_chars": 1070
+    },
+    {
+      "id": "42501059",
+      "title": "Hyperkinetic Movement Disorders",
+      "pmid": "42501059",
+      "doi": "10.1002/acn3.70474",
+      "url": "https://books.google.com/books?hl=en&lr=&id=5VgMEAAAQBAJ&oi=fnd&pg=PT403&dq=%22GTPBP2%22+%22skeletal%22+%22kyphoscoliosis%22+phenotype+variant&ots=tx29qmHjCe&sig=KuM7IiGJNVBoLPDpcjmf3T1TnOs",
+      "abstract_chars": 2017
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-107075.2",
+      "title": "GTPBP2 | Jaberi-Elahi syndrome | Autosomal recessive by ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-107075.2",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c8e1f8d9-d8e8-428c-9860-f84bb96ff9ea-2024-08-16T16:00:00.000Z",
+      "title": "Gene-Disease Validity Details",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c8e1f8d9-d8e8-428c-9860-f84bb96ff9ea-2024-08-16T16:00:00.000Z",
+      "abstract_chars": 0
+    },
+    {
+      "id": "29449720",
+      "title": "biallelic-inactivating-variants-in-the-gtpbp2-gene-cause-a- ...",
+      "pmid": "29449720",
+      "doi": "10.1038/s41431-018-0097-3",
+      "url": "https://scispace.com/pdf/biallelic-inactivating-variants-in-the-gtpbp2-gene-cause-a-4hztdxf2gs.pdf",
+      "abstract_chars": 1381
+    },
+    {
+      "id": "10.1159/000552675/949444",
+      "title": "A Novel Homozygous Frameshift GTPBP2 Variant in Jaberi-Elahi Syndrome: First Case Report from T\u00fcrkiye",
+      "pmid": null,
+      "doi": "10.1159/000552675/949444",
+      "url": "https://karger.com/msy/article-abstract/doi/10.1159/000552675/949444",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1212/WNL.0000000000216659",
+      "title": "Novel GTPBP2 Mutation-associated Jaberi Elahi Syndrome\u2013A Rare Cause of Syndromic Epilepsy (P7-8.003)",
+      "pmid": null,
+      "doi": "10.1212/WNL.0000000000216659",
+      "url": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000216659",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6079,
+  "output_tokens": 2673,
+  "usd": 0.01106,
+  "seconds": 18.7,
+  "ok": true
+}

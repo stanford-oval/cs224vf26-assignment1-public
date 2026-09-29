@@ -1,0 +1,47 @@
+{
+  "knowledge": "Classic CADASIL (OMIM #125310) is an autosomal dominant disorder caused by stereotypical cysteine-altering missense variants in the EGF-like repeat (EGFr) domains of NOTCH3. More recently, biallelic (homozygous or compound heterozygous) NOTCH3 variants have been documented to cause an autosomal recessive cerebral small vessel disease designated in OMIM as cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1 (OMIM #621295). Some cases involve non-cysteine missense variants, loss-of-function variants, or atypical cysteine variants that do not cause typical autosomal dominant CADASIL in heterozygous relatives. Phenotypically, affected individuals present with early-onset ischemic stroke, transient ischemic attacks, subcortical vascular cognitive impairment, extensive confluent white matter hyperintensities (leukoencephalopathy), and microbleeds, mimicking CADASIL or HTRA1-related CARASIL, but lacking classic CARASIL hallmarks like premature alopecia and severe lumbago/disc degeneration.",
+  "prior_hypothesis": "Differentiating autosomal recessive NOTCH3 arteriopathy from classic CADASIL, CARASIL (HTRA1), and sporadic early-onset cerebral small vessel disease on phenotype alone depends on recognizing early-onset subcortical lacunar infarcts, severe leukoencephalopathy with temporal lobe involvement (CADASIL-like) in the absence of systemic HTRA1 signs (no early alopecia, no severe spondylosis deformans), alongside an absence of dominant family history across multiple generations, though definitive differentiation from CADASIL without genotyping or EGFr cysteine-pairing analysis remains extraordinarily difficult based purely on clinical neuroimaging phenotype.",
+  "candidate_answers": [
+    {
+      "answer": "Biallelic NOTCH3 cases exhibit high penetrance of early-onset recurrent subcortical lacunar strokes and progressive subcortical cognitive impairment, typically beginning in the 3rd to 5th decades of life.",
+      "confidence": 0.85,
+      "aspect": "Core clinical presentation and age of onset"
+    },
+    {
+      "answer": "Severe confluent T2/FLAIR white matter hyperintensities preferentially involve the anterior temporal lobes and external capsule, resembling dominant CADASIL neuroimaging features (HP:0002500, HP:0100702).",
+      "confidence": 0.75,
+      "aspect": "Neuroimaging signature"
+    },
+    {
+      "answer": "Extraneurological features of CARASIL such as premature alopecia (HP:0002297) and degenerative spondylosis deformans/lumbago (HP:0003419) are consistently absent in NOTCH3-related recessive arteriopathy, acting as a crucial negative discriminator against HTRA1 mutations.",
+      "confidence": 0.9,
+      "aspect": "Differential discrimination against CARASIL"
+    },
+    {
+      "answer": "Unlike dominant CADASIL where typical cysteine-altering variants confer disease in heterozygotes, heterozygous carriers of recessive NOTCH3 variants in these pedigrees are largely asymptomatic or show only mild age-related white matter changes on MRI without premature stroke.",
+      "confidence": 0.8,
+      "aspect": "Family history and carrier phenotype"
+    }
+  ],
+  "key_terms": [
+    "NOTCH3",
+    "OMIM #621295",
+    "Cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1",
+    "CADASIL",
+    "CARASIL",
+    "HTRA1",
+    "Anterior temporal lobe white matter hyperintensities",
+    "Granular osmiophilic material (GOM)"
+  ],
+  "open_questions": [
+    "What exact fraction of reported OMIM #621295 cases show anterior temporal pole hyperintensity versus sparing?",
+    "Do biallelic loss-of-function/null NOTCH3 variants produce a distinct neuroimaging or clinical pattern compared to biallelic EGFr missense variants?",
+    "Is granular osmiophilic material (GOM) deposition present on skin biopsy in recessive NOTCH3 cases as it is in classic CADASIL?",
+    "What specific cohort sizes and exact numerators/denominators have been published for OMIM #621295 in peer-reviewed literature?"
+  ],
+  "assumptions": [
+    "OMIM #621295 corresponds specifically to autosomal recessive NOTCH3-associated cerebral arteriopathy / leukoencephalopathy.",
+    "The primary clinical differentials in question are CADASIL (dominant NOTCH3), CARASIL (recessive HTRA1), and sporadic young-onset arteriolosclerosis.",
+    "Reported literature cohorts for recessive NOTCH3 arteriopathy are small and predominantly consist of single pedigrees or small case series."
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"intellectual developmental disorder\" \"facial dysmorphism\" phenotype",
+    "TAF4 de novo variants intellectual disability dysmorphic features cohort"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "PMC13075117",
+      "title": "Genetics of epilepsy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13075117/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1111/ped.70298",
+      "title": "Discovery of novel candidate genes for congenital diaphragmatic hernia via whole exome sequencing",
+      "pmid": null,
+      "doi": "10.1111/ped.70298",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ped.70298",
+      "abstract_chars": 1795
+    },
+    {
+      "id": "https://omim.org/entry/616083",
+      "title": "616083 - INTELLECTUAL DEVELOPMENTAL DISORDER, ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/616083",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41343687",
+      "title": "TAF8-Related Neurodevelopmental Disorder - NCBI - NIH",
+      "pmid": "41343687",
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/n/gene/taf8-ndd/",
+      "abstract_chars": 3002
+    },
+    {
+      "id": "https://order.radboudumc.nl/getmedia/9fc0cc77-b4c4-4384-9e54-26124966951f/2022-12-05-DG-3-5-0.pdf.aspx",
+      "title": "INTELLECTUAL DISABILITY GENE PANEL DG 3.5.0 (1649 genes)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://order.radboudumc.nl/getmedia/9fc0cc77-b4c4-4384-9e54-26124966951f/2022-12-05-DG-3-5-0.pdf.aspx",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/humu.24444",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+      "pmid": null,
+      "doi": "10.1002/humu.24444",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+      "abstract_chars": 897
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02214-7",
+      "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02214-7",
+      "abstract_chars": 1698
+    },
+    {
+      "id": "33875846",
+      "title": "Combining exome/genome sequencing with data repository analysis reveals novel gene\u2013disease associations for a wide range of genetic disorders",
+      "pmid": "33875846",
+      "doi": "10.1038/s41436-021-01159-0",
+      "url": "https://www.nature.com/articles/s41436-021-01159-0",
+      "abstract_chars": 1570
+    },
+    {
+      "id": "https://www.nature.com/articles/s41380-022-01938-4",
+      "title": "Identifying rare genetic variants in 21 highly multiplex autism families: the role of diagnosis and autistic traits",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41380-022-01938-4",
+      "abstract_chars": 1133
+    },
+    {
+      "id": "29784605",
+      "title": "CoDE-seq, an augmented whole-exome sequencing, enables the accurate detection of CNVs and mutations in Mendelian obesity and intellectual disability",
+      "pmid": "29784605",
+      "doi": "10.1016/j.molmet.2018.05.005",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2212877818304277",
+      "abstract_chars": 1587
+    }
+  ],
+  "input_tokens": 6063,
+  "output_tokens": 3282,
+  "usd": 0.01288,
+  "seconds": 24.6,
+  "ok": true
+}

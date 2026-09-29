@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"brain malformations\" neuromuscular dysmorphic facies",
+    "FILIP1 congenital neuromuscular disorder brain MRI CNS malformations"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.mdpi.com/2073-4425/17/6/675",
+      "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/17/6/675",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=filip1",
+      "title": "KEGG Disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=filip1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC13300424",
+      "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13300424/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/138/",
+      "title": "Microcephaly (Version 2.39)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/138/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=CIT",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=CIT",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://openurl.ebsco.com/fulltext/gcd:194911337?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:194911337&crl=f&jrnl=20734425",
+      "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://openurl.ebsco.com/fulltext/gcd:194911337?sid=ebsco:plink:crawler-gcd&id=ebsco:gcd:194911337&crl=f&jrnl=20734425",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S096089662300439X",
+      "title": "O10 Universal genomic newborn screening for early, treatable, and severe conditions-including 33 genes of NMD: Baby Detect",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S096089662300439X",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s00439-023-02528-2",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+      "pmid": null,
+      "doi": "10.1007/s00439-023-02528-2",
+      "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+      "abstract_chars": 1116
+    }
+  ],
+  "input_tokens": 3568,
+  "output_tokens": 1128,
+  "usd": 0.00517,
+  "seconds": 10.7,
+  "ok": true
+}

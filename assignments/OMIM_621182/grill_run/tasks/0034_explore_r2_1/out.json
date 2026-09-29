@@ -1,0 +1,215 @@
+{
+  "hypotheses": [
+    {
+      "text": "Microcephaly is an invariant clinical feature of NAV3-related neurodevelopmental disorder across all variant classes, refuting the dichotomy that microcephaly is confined to biallelic loss-of-function variants and absent in heterozygous cases.",
+      "rationale": "Previous hypotheses proposed that inherited heterozygous NAV3 missense variants present an attenuated phenotype lacking microcephaly, whereas biallelic mutations uniquely present with microcephaly. Directly testing the frequency of microcephaly across heterozygous, de novo, and biallelic cohorts resolves this contested claim.",
+      "aspects": [
+        "binned",
+        "phenotypic-dichotomy",
+        "microcephaly"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Ghaffar et al. (2024) reported eleven individuals from seven families carrying biallelic, de novo, and heterozygous variants in NAV3, observing microcephaly in all 11 affected individuals (100%) regardless of zygosity or variant type.",
+          "stance": "contradicts",
+          "source": {
+            "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+            "authors": [
+              "A Ghaffar",
+              "T Akhter",
+              "P Str\u00f8mme",
+              "D Misceo"
+            ],
+            "year": 2024,
+            "journal": "Communications Biology",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s42003-024-06466-1",
+            "quote": "All affected individuals have intellectual disability (ID), microcephaly, skeletal deformities, ocular anomalies, and behavioral issues."
+          },
+          "numbers": [
+            {
+              "metric": "microcephaly_frequency_all_variants",
+              "value": "11/11"
+            }
+          ]
+        },
+        {
+          "text": "Kakar et al. (2025) identified five patients across three consanguineous families carrying biallelic truncating variants (nonsense and splice site), confirming microcephaly and developmental delay as core features of biallelic NAV3 loss.",
+          "stance": "supports",
+          "source": {
+            "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+            "authors": [
+              "N Kakar",
+              "S Mascarenhas",
+              "A Ali",
+              "Azmatullah"
+            ],
+            "year": 2025,
+            "journal": "Human Genetics",
+            "doi": "10.1007/s00439-024-02718-6",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+            "quote": "microcephaly and impaired neuronal growth. These phenotypes were rescued with human wild-type NAV3"
+          },
+          "numbers": [
+            {
+              "metric": "biallelic_affected_patients",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Expressive speech impairment in NAV3 disorders forms a continuous spectrum (from speech delay and articulation difficulty to total absence) that does not strictly segregate by inheritance mode or zygosity.",
+      "rationale": "Prior assertions suggested that biallelic loss-of-function variants exclusively cause complete speech absence while heterozygous variants only produce ambiguous or articulated speech delay. Demonstrating that homozygous missense mutations can present with residual/ambiguous speech or articulation issues proves that speech absence is not an obligate feature of biallelic NAV3 disruption.",
+      "aspects": [
+        "binned",
+        "speech-phenotype",
+        "genotype-phenotype-correlation"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Umair et al. (2025) documented a patient harboring a biallelic homozygous missense variant in NAV3 (c.3430T>C; p.Ser1144Pro) presenting with autosomal recessive neurodevelopmental disorder, microcephaly, and neurodevelopmental delay with speech impairment rather than complete anarthria.",
+          "stance": "contradicts",
+          "source": {
+            "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+            "authors": [
+              "M Umair",
+              "A Ullah",
+              "Najumuddin",
+              "G Zaman"
+            ],
+            "year": 2025,
+            "journal": "Current Medicinal Chemistry",
+            "doi": "10.2174/0109298673367919250626005640",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+            "quote": "The identification of a novel biallelic missense variant in NAV3 adds a new layer to our understanding of its potential contribution to autosomal recessive neurodevelopmental disorders."
+          },
+          "numbers": [
+            {
+              "metric": "biallelic_missense_probands",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "text": "Masbaum (2026) highlights that NAV3 pathogenic variants produce variable articulation difficulties and microcephaly across heterozygous and biallelic mechanisms.",
+          "stance": "supports",
+          "source": {
+            "title": "Genetic Testing in Autism Spectrum Disorder: Current Understanding of the Genetic Background and its Clinical Application",
+            "authors": [
+              "A Masbaum"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://zir.nsk.hr/object/medri:10172",
+            "quote": "Similarly, NAV3 illustrate how genes associated with ASD ... articulation difficulties and microcephaly rather than the more"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Pathogenic biallelic truncating variants in NAV3 do not represent the majority of clinical cases of OMIM #621182, but rather form an equitable or minority subset alongside de novo monoallelic dominant variants.",
+      "rationale": "It was previously suggested that biallelic loss-of-function variants make up the vast majority of confirmed NEDSFB cases. Tabulating cohort sizes across published literature resolves whether biallelic or monoallelic variants dominate the clinical registry.",
+      "aspects": [
+        "pooled",
+        "variant-spectrum",
+        "inheritance-mode"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "Kakar et al. (2025) note that prior literature documented five biallelic and three monoallelic variants across 12 individuals from eight unrelated families, and they contributed five additional biallelic patients from three families.",
+          "stance": "contradicts",
+          "source": {
+            "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+            "authors": [
+              "N Kakar",
+              "S Mascarenhas",
+              "A Ali",
+              "Azmatullah"
+            ],
+            "year": 2025,
+            "journal": "Human Genetics",
+            "doi": "10.1007/s00439-024-02718-6",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+            "quote": "Recently, five bi-allelic and three mono-allelic variants in NAV3 were reported in 12 individuals from eight unrelated families with neurodevelopmental disorder (NDD). Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD."
+          },
+          "numbers": [
+            {
+              "metric": "previously_reported_biallelic_variants",
+              "value": 5
+            },
+            {
+              "metric": "previously_reported_monoallelic_variants",
+              "value": 3
+            },
+            {
+              "metric": "new_biallelic_families",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "text": "Ghaffar et al. (2024) described a diverse spectrum of eleven individuals containing biallelic, de novo, and heterozygous variants, demonstrating that monoallelic de novo variants are a prominent contributor to the condition.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+            "authors": [
+              "A Ghaffar",
+              "T Akhter",
+              "P Str\u00f8mme",
+              "D Misceo"
+            ],
+            "year": 2024,
+            "journal": "Communications Biology",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s42003-024-06466-1",
+            "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene"
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals_in_cohort",
+              "value": 11
+            },
+            {
+              "metric": "total_families_in_cohort",
+              "value": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "Does the degree of microtubule destabilization in vitro directly correlate with the severity of speech deficit (complete absence vs articulation impairment) in NAV3 missense vs truncating variants?",
+      "rationale": "Functional assays in HEK293T/COS7 cells demonstrated impaired microtubule stabilization by pathogenic NAV3 variants; determining whether residual stabilization activity correlates with speech preservation could explain phenotypic divergence.",
+      "promise": 0.85,
+      "est_cost": 0.8
+    },
+    {
+      "question_text": "Are subtle structural craniofacial anomalies and neuroimaging abnormalities (e.g. cerebellar hypoplasia or thin corpus callosum) distinct between biallelic truncating vs monoallelic missense NAV3 variants?",
+      "rationale": "Clarifying whether biallelic truncating variants generate specific secondary neuroimaging or dysmorphic markers compared to monoallelic dominant variants will improve clinical diagnosis.",
+      "promise": 0.75,
+      "est_cost": 0.65
+    }
+  ],
+  "dead_end": false
+}

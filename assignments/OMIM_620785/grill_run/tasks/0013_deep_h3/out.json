@@ -1,0 +1,92 @@
+{
+  "verdict": "supported",
+  "rationale": "Extensive review of published clinical cohorts harboring biallelic ACBD6 variants confirms that the phenotypic hallmark of ACBD6 deficiency (OMIM #620785) is predominantly central neurological dysfunction characterized by global developmental delay/intellectual disability, progressive complex movement disorders (dystonia, chorea, ataxia, Parkinsonism), pyramidal signs (spasticity, hyperreflexia), and structural brain abnormalities. Primary severe sensory-motor peripheral polyneuropathy, acute episodic metabolic crises (such as acute hyperammonemic encephalopathy or recurrent metabolic ketoacidosis), and classic primary visceral storage organomegaly (e.g., hepatosplenomegaly characteristic of lysosomal storage disorders or primary organic acidurias) have not been documented across reported patient cohorts. While one study (Yeetong et al., 2022) identified adult-onset systemic end-organ complications in two siblings carrying homozygous frameshift variants (including morbid obesity, cirrhosis, pancytopenia, and renal failure leading to early mortality), these represent chronic late-stage systemic degeneration rather than acute metabolic decompensations or primary peripheral neuropathy. Consequently, the presence of acute episodic metabolic ketoacidosis, severe primary demyelinating or axonal peripheral polyneuropathy, or isolated childhood storage organomegaly serves as an exclusionary or strong counter-indicator against ACBD6 deficiency when evaluating patients with overlapping complex movement disorders.",
+  "evidence": [
+    {
+      "text": "Biallelic loss-of-function mutations in ACBD6 present with progressive neurodevelopmental manifestations including movement disorders such as chorea and dystonia, without primary episodic ketoacidosis or acute hyperammonemic metabolic crises.",
+      "stance": "supports",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 gene was found"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Investigation of two Thai siblings with a homozygous 1-bp duplication in ACBD6 revealed adult-stage morbid obesity, cirrhosis, diabetes mellitus, pancytopenia, and renal failure, demonstrating that visceral complications in ACBD6 deficiency reflect late-onset end-organ failure rather than infant-onset primary organomegaly, acute hyperammonemic decompensation, or primary sensory-motor polyneuropathy.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s. Molecular studies identified a novel homozygous 1 base-pair duplication (c.360dup; p.Leu121Thrfs*27) in the ACBD6 gene."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings in cohort",
+          "value": 2
+        },
+        {
+          "metric": "age of death in proband cohort",
+          "value": "early 30s"
+        }
+      ]
+    },
+    {
+      "text": "Bi-allelic ACBD6 variants result in a complex neurodevelopmental disorder with progressive neurological features, requiring biochemical and omics profiling to distinguish from classical inborn errors of metabolism.",
+      "stance": "supports",
+      "source": {
+        "title": "Utility of mass spectrometry in rare disease research and diagnosis",
+        "authors": [
+          "T Zhao",
+          "DH Hock",
+          "J Pitt",
+          "DR Thorburn",
+          "DA Stroud"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1038/s41525-025-00487-3",
+        "pmid": "40164634",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41525-025-00487-3",
+        "quote": "Bi-allelic ACBD6 variants lead to a neurodevelopmental"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does late-stage ACBD6 deficiency consistently precipitate non-alcoholic fatty liver disease leading to cirrhosis and secondary portal-hypertensive splenomegaly?",
+      "rationale": "Yeetong et al. observed hepatic cirrhosis in two siblings in their 30s. Systematic longitudinal abdominal ultrasound tracking across growing patient registries is needed to clarify if cirrhosis represents a secondary progressive complication of ACBD6 acyl-CoA binding loss.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What are the neurophysiological nerve conduction study findings across older ACBD6-deficient individuals to definitively rule out subclinical peripheral axonal involvement?",
+      "rationale": "While prominent primary sensory-motor polyneuropathy is absent, detailed prospective nerve conduction studies across multiple age cohorts have not been systematically published to rule out minor subclinical length-dependent axonal changes.",
+      "promise": 0.75,
+      "est_cost": 18000
+    }
+  ]
+}

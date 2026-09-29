@@ -1,0 +1,126 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from recent genetic and animal model studies confirms that specific TUBA4A missense variants bridge the phenotypic spectrum between spastic ataxia 11 (SPAX11) and myo-tubulinopathies / congenital myopathy (CMYO26). While the majority of myo-tubulinopathy patients (17/19 families in Johari et al., 2026) manifest isolated skeletal myopathy without central nervous system involvement, specific TUBA4A variants cause overlapping multisystem phenotypes. Johari et al. documented two families displaying concomitant cerebellar ataxia, epilepsy, and proximal/axial myopathy with myofibre protein aggregations (defining a multisystem proteinopathy). Furthermore, Hines et al. (2026) demonstrated that the dominant murine Tuba4a p.Gln176Pro missense mutation produces hallmark features of both SPAX11 (Purkinje cell loss, ataxia) and CMYO26 (progressive skeletal muscle wasting and electrophysiological decrement) without motor neuron degeneration. Thus, the clinical and pathological continuum bridging pure spastic ataxia and myopathy is supported for specific missense mutations.",
+  "evidence": [
+    {
+      "text": "Analysis of 31 individuals from 19 unrelated families with TUBA4A missense variants showed that 17 families presented with myopathy without CNS involvement, whereas probands in two families presented with cerebellar ataxia accompanying proximal and axial muscle weakness with protein aggregation, establishing a multisystem proteinopathy bridging neuromuscular and neurodegenerative features.",
+      "stance": "supports",
+      "source": {
+        "title": "Missense variants in TUBA4A cause myo-tubulinopathies.",
+        "authors": [
+          "M Johari",
+          "C Folland",
+          "Y Saito",
+          "MM Oud",
+          "JM Parmar"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awag059/8475507",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag059/8475507",
+        "quote": "In this multi-centre study, we identified one previously reported and 12 novel TUBA4A missense variants in 31 individuals from 19 unrelated families. Remarkably, individuals in 17 families presented with a myopathy without any CNS involvement or history of such disease. In the remaining two families, we observed probands with cerebellar ataxia and epilepsy accompanying proximal and axial muscle weakness along with protein aggregation. The coexistence of neuromuscular and neurodegenerative features with protein aggregation defines a multisystem proteinopathy."
+      },
+      "numbers": [
+        {
+          "metric": "total_families_evaluated",
+          "value": 19
+        },
+        {
+          "metric": "total_individuals_evaluated",
+          "value": 31
+        },
+        {
+          "metric": "isolated_myopathy_families",
+          "value": 17
+        },
+        {
+          "metric": "concomitant_ataxia_and_myopathy_families",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "CRISPR-engineered knock-in mice harboring the dominant Tuba4a p.Gln176Pro variant develop overt ataxia, Purkinje neuron degeneration, and severe skeletal muscle defects with decrement on repetitive nerve stimulation, concurrently recapitulating clinical hallmarks of human SPAX11 and congenital myopathy (CMYO26) without lower motor neuron loss.",
+      "stance": "supports",
+      "source": {
+        "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+        "authors": [
+          "TJ Hines",
+          "JR Funke",
+          "SL Pratt",
+          "AD Rice",
+          "JL Twiss"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1093/hmg/ddag084/8778799",
+        "pmid": null,
+        "pmc": "PMC13014175",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+        "quote": "Mutant mice are normal at 3 weeks, except for decrement in muscle response following repetitive nerve stimulation. However, by 30 days these mice have overt ataxia, Purkinje neuron degeneration, and extensive skeletal muscle defects, which contribute to a decreased lifespan. Dominant TUBA4A mutations in humans are associated with spastic ataxia type 11 (SPAX11), congenital myopathy type 26 (CMYO26), and frontotemporal dementia/amyotrophic lateral sclerosis type 9 (FTDALS9). Our mice exhibit hallmark features of SPAX11 and CMYO26, but do not show motor neuron degeneration."
+      },
+      "numbers": [
+        {
+          "metric": "onset_of_ataxia_and_muscle_defects_days",
+          "value": 30
+        },
+        {
+          "metric": "age_of_neuromuscular_decrement_onset_weeks",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Patients with pathogenic variants in TUBA4A can manifest adult-onset neuromuscular junction defects and myopathy with mild serum CK elevation without overt cerebellar ataxia or spasticity, demonstrating phenotypic divergence depending on the specific mutation.",
+      "stance": "neutral",
+      "source": {
+        "title": "TUBA4A Pathogenic Variant Manifesting With Adulthood\u2010Onset Genetic Myasthenic Syndrome, Myopathy, and Infertility",
+        "authors": [
+          "M Milone",
+          "S Nicolau",
+          "Z Niu",
+          "T Liewluck"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.70753",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.70753",
+        "quote": "A 53-year-old woman with infertility of unknown etiology manifested fatigability and proximal upper limb muscle weakness in her mid-30s, followed by lower limb involvement... Whole genome sequencing identified a heterozygous known TUBA4A pathogenic variant (c.850G>A, p.Glu284Lys)... This patient expands the TUBA4A-disorder spectrum to include overlapping myasthenic syndrome-myopathy and shows that neuromuscular disease and infertility can occur within the same patient."
+      },
+      "numbers": [
+        {
+          "metric": "rns_decrement_range_percent_min",
+          "value": -14
+        },
+        {
+          "metric": "rns_decrement_range_percent_max",
+          "value": -48
+        },
+        {
+          "metric": "trapezius_facilitation_percent",
+          "value": 231
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What structural and biophysical properties distinguish TUBA4A variants that cause isolated myopathy (CMYO26) from those causing SPAX11, ALS/FTD, or combined multisystem proteinopathy?",
+      "rationale": "Understanding how different missense mutations perturb microtubule lattice incorporation, dynamic instability, or kinesin/dynein transport in cerebellar neurons versus sarcomeric structures in myocytes will explain why only specific variants bridge spastic ataxia and myopathy.",
+      "promise": 0.9,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "To what extent do patients clinically diagnosed with SPAX11 have subclinical myofibrillar myopathy, neuromuscular junction transmission defects, or elevated serum creatine kinase?",
+      "rationale": "Systematic neuromuscular assessment (repetitive nerve stimulation, muscle MRI, and CK profiling) in SPAX11 cohorts will determine whether pure spastic ataxia truly lacks muscle involvement or if myopathy is underrecognized.",
+      "promise": 0.85,
+      "est_cost": 120000
+    }
+  ]
+}

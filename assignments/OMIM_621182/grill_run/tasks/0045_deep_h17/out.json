@@ -1,0 +1,136 @@
+{
+  "verdict": "refuted",
+  "rationale": "Direct tabulation of published cohorts demonstrating pathogenic NAV3 variants shows that biallelic variants (predominantly truncating nonsense, frameshift, and splice-site alleles) constitute the clear majority of reported cases and families with OMIM #621182, directly refuting the hypothesis that they represent an equitable or minority subset alongside de novo monoallelic variants. Specifically, Kakar et al. (2025) note that prior literature identified five biallelic and three monoallelic variants across 12 patients in eight families, and they contributed five additional homozygous truncating patients across three consanguineous families. Added to reports such as Umair et al. (2025) reporting further homozygous variants, biallelic cases outnumber monoallelic cases by a substantial margin in clinical registries.",
+  "evidence": [
+    {
+      "text": "Kakar et al. (2025) documented that prior literature identified five biallelic and three monoallelic NAV3 variants across 12 individuals from eight unrelated families, and they described five additional individuals with autosomal recessive neurodevelopmental disorder from three consanguineous families harboring homozygous truncating variants (nonsense c.6325C>T, c.6577C>T, and splice-site c.243+1G>T).",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Recently, five bi-allelic and three mono-allelic variants in NAV3 were reported in 12 individuals from eight unrelated families with neurodevelopmental disorder (NDD). Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD."
+      },
+      "numbers": [
+        {
+          "metric": "previously reported NAV3 biallelic variants",
+          "value": 5
+        },
+        {
+          "metric": "previously reported NAV3 monoallelic variants",
+          "value": 3
+        },
+        {
+          "metric": "new homozygous biallelic truncating patients added",
+          "value": 5
+        },
+        {
+          "metric": "new consanguineous families added",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Ghaffar et al. (2024) described 11 individuals from seven families presenting with intellectual disability, microcephaly, skeletal deformities, and behavioral abnormalities harboring predicted pathogenic biallelic, de novo, and heterozygous variants in NAV3.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": "Communications Biology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s42003-024-06466-1",
+        "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene, which encodes the microtubule positive tip protein neuron navigator 3 (NAV3)."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals described",
+          "value": 11
+        },
+        {
+          "metric": "unrelated families described",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Umair et al. (2025) identified a novel homozygous biallelic missense variant (c.3430T>C; p.Ser1144Pro) in NAV3 in a patient with autosomal recessive neurodevelopmental disorder, further expanding the tally of biallelic NAV3 cases relative to monoallelic cases.",
+      "stance": "contradicts",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": "Current Medicinal Chemistry",
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "A novel biallelic missense variant in the NAV3 (c.3430T>C; p.Ser1144Pro) was detected using WGS and Sanger sequencing."
+      },
+      "numbers": [
+        {
+          "metric": "homozygous biallelic patients reported",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Genomics England PanelApp curates NAV3 under neurodevelopmental disorders as having both monoallelic and biallelic modes of inheritance, confirming that dominant and recessive forms both exist, even though recessive cases predominate in clinical reports.",
+      "stance": "neutral",
+      "source": {
+        "title": "NAV3",
+        "authors": [
+          "PanelApp Curators"
+        ],
+        "year": null,
+        "journal": "NHS GMS PanelApp",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nhsgms-panelapp.genomicsengland.co.uk/entities/NAV3",
+        "quote": "BOTH monoallelic and biallelic, autosomal or pseudoautosomal. Phenotypes. recessive neurodevelopmental disorder."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Ghaffar et al. (2024) highlighted the substantive contribution of heterozygous and de novo monoallelic variants across multiple families, whereas subsequent series (Kakar et al. 2025; Umair et al. 2025) have overwhelmingly enriched the registry with consanguineous, biallelic truncating and missense cases."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence ratio of monoallelic de novo vs. biallelic recessive NAV3 pathogenic variants when ascertained in non-consanguineous, unselected global neurodevelopmental cohorts?",
+      "rationale": "Current registries are heavily enriched for consanguineous pedigrees from Pakistan and the Middle East, which artificially inflates the proportion of homozygous biallelic cases compared to de novo dominant events in broad outbred populations.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do monoallelic de novo missense variants in NAV3 act via dominant-negative mechanisms or haploinsufficiency, and does this delineate OMIM #621182 into two distinct allelic disorders?",
+      "rationale": "Clarifying the molecular mechanism of monoallelic variants will explain why some heterozygous variants cause disease while heterozygous carriers of complete loss-of-function alleles in consanguineous families remain entirely unaffected.",
+      "promise": 0.9,
+      "est_cost": 40000
+    }
+  ]
+}

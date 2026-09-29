@@ -1,0 +1,102 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that oculomotor nerve palsy is a specific manifestation of TBC1D32 disruption that reliably distinguishes Alsahan-Harris syndrome (ALHAS) from Pallister-Hall syndrome (PHS). However, available records for TBC1D32/ALHAS document ocular motor findings such as oculomotor apraxia and nystagmus rather than isolated cranial nerve III (oculomotor nerve) palsy. Furthermore, OMIM and MalaCards define ALHAS as an autosomal recessive severe prenatal phenotype associated with life-limiting congenital anomalies, in which post-natal cranial nerve testing is typically not feasible or applicable. Consequently, there is no evidence establishing oculomotor nerve palsy as a reliable clinical diagnostic discriminator separating ALHAS from PHS.",
+  "evidence": [
+    {
+      "text": "Genomics England PanelApp records ocular motor phenotypes for TBC1D32 (Alsahan-Harris syndrome, OMIM:621307) specifically as oculomotor apraxia and nystagmus in 3 patients, rather than third cranial nerve (oculomotor nerve) palsy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Activity - Genomics England",
+        "authors": [
+          "Genomics England"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=722",
+        "quote": "oculomotor apraxia, and nystagmus - 3 patients ... Achchuthan Shanmugasundram Phenotypes for gene: TBC1D32 ... Alsahan-Harris syndrome, OMIM:621307; Alsahan"
+      },
+      "numbers": [
+        {
+          "metric": "patients with oculomotor apraxia and nystagmus",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Alsahan-Harris syndrome (OMIM #621307) is characterized as an autosomal recessive, severe prenatal phenotype characterized by life-limiting congenital anomalies, which conflicts with relying on voluntary/postnatal oculomotor nerve palsy testing for differential diagnosis.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Entry - #621307 - ALSAHAN-HARRIS SYNDROME; ALHAS",
+        "authors": [
+          "Online Mendelian Inheritance in Man"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621307",
+        "quote": "Alsahan-Harris syndrome (ALHAS) is an autosomal recessive severe prenatal phenotype associated with life-limiting congenital anomalies."
+      },
+      "numbers": []
+    },
+    {
+      "text": "MalaCards entry confirms ALHAS is an autosomal recessive disorder characterized predominantly by severe prenatal phenotypes and life-limiting structural anomalies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Alsahan-Harris Syndrome (ALHAS)",
+        "authors": [
+          "MalaCards"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/alsahan_harris_syndrome",
+        "quote": "Alsahan-Harris syndrome (ALHAS) is an autosomal recessive syndrome with a severe prenatal phenotype and life-limiting congenital anomalies."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Pallister-Hall syndrome is clinically characterized by hypothalamic hamartoma, mesoaxial/postaxial polydactyly, bifid epiglottis, and endocrine/anorectal malformations caused by GLI3 variants.",
+      "stance": "neutral",
+      "source": {
+        "title": "Presumptive Diagnosis of Pallister-Hall Syndrome Using ...",
+        "authors": [
+          "Y Mehkri"
+        ],
+        "year": 2022,
+        "journal": "Cureus",
+        "doi": "10.7759/cureus.21735",
+        "pmid": "35251807",
+        "pmc": "PMC8887686",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8887686/",
+        "quote": "A diagnosis of Pallister-Hall syndrome was made on the basis of physical exam findings, hormonal abnormalities and the identification of a hypothalamic hamartoma on brain MRI."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts oculomotor nerve palsy is a specific feature distinguishing ALHAS, whereas documented clinical evaluations indicate oculomotor apraxia and nystagmus rather than cranial nerve III palsy.",
+    "ALHAS is defined by life-limiting severe prenatal congenital malformations, limiting the clinical utility and applicability of assessing cranial neuropathies to differentiate it from viable Pallister-Hall syndrome cases."
+  ],
+  "confidence": 0.12,
+  "new_directions": [
+    {
+      "question_text": "Do hypomorphic or non-lethal biallelic variants in TBC1D32 present with genuine cranial nerve III paresis versus supranuclear oculomotor apraxia in surviving patients?",
+      "rationale": "Clarifying the exact neuro-ophthalmic phenotype (supranuclear saccadic initiation failure vs. peripheral/nuclear cranial nerve III palsy) is critical to map midbrain vs. hindbrain developmental defects in TBC1D32 ciliopathy.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What structural brain MRI characteristics reliably differentiate TBC1D32-related hypothalamic-pituitary dysgenesis from GLI3-related hypothalamic hamartomas?",
+      "rationale": "Brain neuroimaging can be performed perinatally or prenatally and provides objective structural criteria independent of neuro-ophthalmological exam feasibility in neonates.",
+      "promise": 0.9,
+      "est_cost": 30000.0
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "hypotheses": [
+    {
+      "text": "Seizures in Fliedner-Zweier syndrome represent a secondary feature with incomplete penetrance occurring in fewer than 40% of unselected, non-epilepsy-ascertained cohorts, predominantly presenting as pharmacoresponsive focal seizures.",
+      "rationale": "Ascertainment bias strongly skews reported seizure frequencies: cohorts specifically recruited for epilepsy report 100% seizure penetrance, whereas broader neurodevelopmental cohorts report significantly lower penetrance. Quantifying exact numerators across unselected cohorts will determine the diagnostic utility of seizures.",
+      "aspects": [
+        "phenotype-penetrance",
+        "epilepsy",
+        "discriminating-features"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "In a targeted cohort ascertained specifically for focal epilepsy, all 3 evaluated individuals had focal seizures and focal EEG discharges, with good response to anti-seizure medications.",
+          "stance": "supports",
+          "source": {
+            "title": "SCAF4 variants associated with focal epilepsy accompanied by multisystem disorders",
+            "authors": [
+              "H Lin",
+              "YH Chen"
+            ],
+            "year": 2024,
+            "journal": "Seizure",
+            "doi": "10.1016/j.seizure.2023.05.013",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1059131123001772",
+            "quote": "All patients had focal seizures and focal discharges on EEG recordings, with intellectual disability or motor retardation, skeletal abnormalities, and one had cryptorchidism. However, no recurrence was observed after short-term ASMs treatment."
+          },
+          "numbers": [
+            {
+              "metric": "seizure_frequency_in_epilepsy_cohort",
+              "value": "3/3"
+            }
+          ]
+        },
+        {
+          "text": "In a series of 3 patients identified via epilepsy trios, all 3 presented with infrequent seizures responding well to antiseizure drugs with onset at median age 4 years.",
+          "stance": "supports",
+          "source": {
+            "title": "SCAF4 variants are associated with epilepsy with neurodevelopmental disorders",
+            "authors": [
+              "Y Hu",
+              "B Zhang",
+              "L Chen",
+              "J He",
+              "L Yang"
+            ],
+            "year": 2024,
+            "journal": "Seizure",
+            "doi": "10.1016/j.seizure.2023.09.006",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S105913112300273X",
+            "quote": "All probands experienced epilepsy as infrequent seizures, responded well to antiseizure drugs, and had a median [IQR] seizure onset age of 4 [1.75, 7.5] years."
+          },
+          "numbers": [
+            {
+              "metric": "seizure_frequency_in_epilepsy_cohort",
+              "value": "3/3"
+            },
+            {
+              "metric": "median_seizure_onset_years",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "text": "In the expanded cohort of 50 novel individuals ascertained via GeneMatcher and personal communication, seizures were described as a recurrent finding alongside speech impairment and skeletal anomalies, but were not universally present across all affected individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+            "authors": [
+              "CM Schmid",
+              "A Gregor",
+              "A Ruiz"
+            ],
+            "year": 2025,
+            "journal": "European Journal of Human Genetics",
+            "doi": "10.1038/s41431-024-01760-2",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-024-01760-2",
+            "quote": "Frequent clinical findings were mild developmental delay with speech impairment, seizures, and skeletal abnormalities such as clubfoot, scoliosis or hip dysplasia."
+          },
+          "numbers": [
+            {
+              "metric": "novel_individuals_evaluated",
+              "value": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Gross structural brain malformations on neuroimaging are absent in over 70% of SCAF4-mutated patients, with most evaluated MRIs showing completely normal anatomy or minor non-specific white matter/ventricular findings.",
+      "rationale": "Neuroimaging is frequently performed in patients presenting with neurodevelopmental delay and seizures. Determining whether severe brain malformations (such as lissencephaly, holoprosencephaly, or severe cerebellar hypoplasia) occur will provide negative diagnostic criteria to rule out other syndromes.",
+      "aspects": [
+        "neuroimaging",
+        "structural-brain-findings",
+        "negative-criteria"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Brain MRI examinations demonstrated completely normal intracranial architecture in 2 out of 3 evaluated epileptic patients with pathogenic SCAF4 variants.",
+          "stance": "supports",
+          "source": {
+            "title": "SCAF4 variants are associated with epilepsy with neurodevelopmental disorders",
+            "authors": [
+              "Y Hu",
+              "B Zhang",
+              "L Chen",
+              "J He",
+              "L Yang"
+            ],
+            "year": 2024,
+            "journal": "Seizure",
+            "doi": "10.1016/j.seizure.2023.09.006",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S105913112300273X",
+            "quote": "Brain magnetic resonance imaging findings were normal in Cases 2 and 3."
+          },
+          "numbers": [
+            {
+              "metric": "normal_mri_fraction",
+              "value": "2/3"
+            }
+          ]
+        },
+        {
+          "text": "In the original discovery cohort, neuroimaging was performed on only a subset of patients (five individuals), identifying non-specific anomalies rather than severe cortical malformations.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in SCAF4 cause a neurodevelopmental disorder and are associated with impaired mRNA processing",
+            "authors": [
+              "A Fliedner",
+              "P Kirchner",
+              "A Wiesener"
+            ],
+            "year": 2020,
+            "journal": "American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2020.08.003",
+            "pmid": "33232675",
+            "pmc": "PMC7477272",
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30228-7",
+            "quote": "Brain MRIs were performed in five"
+          },
+          "numbers": [
+            {
+              "metric": "mri_evaluated_individuals",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Skeletal anomalies in Fliedner-Zweier syndrome are confined to axial and joint positioning defects (scoliosis, clubfoot, and hip dysplasia) in 25-50% of patients, while congenital limb reduction defects are completely absent (0%).",
+      "rationale": "Clarifying the specific anatomical types and overall incidence of skeletal involvement differentiates SCAF4 disorders from primary skeletal dysplasias and limb-reduction syndromes.",
+      "aspects": [
+        "skeletal-anomalies",
+        "orthopedic-phenotype",
+        "dysmorphic-features"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the expanded 50-patient cohort, skeletal manifestations were recurrently observed, specifically manifested as joint and spinal alignment defects such as clubfoot, scoliosis, or hip dysplasia.",
+          "stance": "supports",
+          "source": {
+            "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+            "authors": [
+              "CM Schmid",
+              "A Gregor",
+              "A Ruiz"
+            ],
+            "year": 2025,
+            "journal": "European Journal of Human Genetics",
+            "doi": "10.1038/s41431-024-01760-2",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-024-01760-2",
+            "quote": "Frequent clinical findings were mild developmental delay with speech impairment, seizures, and skeletal abnormalities such as clubfoot, scoliosis or hip dysplasia."
+          },
+          "numbers": [
+            {
+              "metric": "expanded_cohort_size",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "text": "Knockout of scaf4a/b in zebrafish models recapitulates skeletal developmental abnormalities, confirming an intrinsic biological role of SCAF4 in skeletal patterning.",
+          "stance": "supports",
+          "source": {
+            "title": "SCAF4 variants associated with focal epilepsy accompanied by multisystem disorders",
+            "authors": [
+              "H Lin",
+              "YH Chen"
+            ],
+            "year": 2024,
+            "journal": "Seizure",
+            "doi": "10.1016/j.seizure.2023.05.013",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1059131123001772",
+            "quote": "In zebrafish, abnormal epileptiform signals, skeletal development, and neurodevelopment have been found in scaf4a/b knockout compared to wild-type zebrafish."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the breakdown of specific structural brain MRI findings across the 50 novel individuals in Schmid et al. (2025) and all previously reported cases?",
+      "rationale": "Extracting the exact granular numbers for neuroimaging features (corpus callosum hypoplasia, ventriculomegaly, delayed myelination) will establish precise prevalence rates.",
+      "promise": 0.88,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "What are the exact numerators and denominators for orthopedic interventions (e.g., surgical correction for clubfoot or scoliosis) versus mild postural abnormalities across reported cohorts?",
+      "rationale": "Distinguishing severe structural orthopedic pathology from secondary postural laxity/hypotonia clarifies disease severity and management requirements.",
+      "promise": 0.78,
+      "est_cost": 0.35
+    }
+  ],
+  "dead_end": false
+}

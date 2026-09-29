@@ -1,0 +1,203 @@
+{
+  "question": "For Ramond-Elliott neurodevelopmental syndrome (OMIM #621421), caused by variants in TRA2B: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.4399204700000001,
+    "by_phase": {
+      "init": 0.0325125,
+      "plan": 0.011088,
+      "explore": 0.0606215,
+      "screen": 0.10425599999999999,
+      "deep": 0.1617755,
+      "measure": 0.01679347,
+      "finalize": 0.052873500000000004,
+      "artifact": 0.0
+    },
+    "embeddings": 0.0007047300000000002
+  },
+  "allocations": [
+    {
+      "direction": "d1",
+      "question": "What are the exact numerators and denominators for every published individual with TRA2B pathogenic variants across primary discovery papers?",
+      "allocated": 1.9498145439999999,
+      "spent": 0.015485499999999985,
+      "rationale": "Directly establishes comprehensive cohort-specific numerators, denominators, and verbatim phenotypic descriptions across all primary discovery papers including Ramond et al. (2023)."
+    },
+    {
+      "direction": "d5",
+      "question": "Resolve the conflict over: Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "allocated": 1.9780683000000001,
+      "spent": 0.01684999999999999,
+      "rationale": "Resolving the cohort denominator discrepancy (12 vs 15 individuals) is critical to establish verified phenotype frequencies and exact numerators/denominators."
+    },
+    {
+      "direction": "d16",
+      "question": "Build on the confirmed prior: Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "allocated": 1.9780683000000001,
+      "spent": 0.01286799999999999,
+      "rationale": "Directly addresses Question 3 by establishing the clinical findings confirmed to be absent that rule against a TRA2B-related diagnosis."
+    },
+    {
+      "direction": "d28",
+      "question": "Resolve the conflict over: Infantile spasms (HP:0012469) and early-onset feeding difficulties (HP:0011968) are present in the majority of TRA2B-related syndrome patients, serving as high-sensitivity positive criteria that distinguish TRA2B from milder non-syndromic microcephalic conditions.",
+      "allocated": 1.9,
+      "spent": 0.015417999999999987,
+      "rationale": "Directly resolves contradictory reports between Shatokhina et al. (2023) and Ramond et al. (2023) regarding the penetrance and discriminating value of infantile spasms and feeding difficulties."
+    }
+  ],
+  "patterns": 5,
+  "artifacts": 0,
+  "avg_explore_cost": 0.015155374999999999,
+  "avg_test_cost": 0.00814425,
+  "snapshots": [
+    {
+      "cost": 0.4399204700000001,
+      "coverage": 0.5,
+      "quality": 0.47058823529411764,
+      "answeredness": 0.23529411764705882,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 17,
+      "n_pooled": 8,
+      "n_binned": 9,
+      "n_conflicted": 5,
+      "n_refuted": 2,
+      "n_evidence": 71,
+      "n_covered": 3,
+      "n_asks": 6,
+      "n_open": 43,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "Cohort-specific frequencies (numerator and denominator, not percentages alone) for each reported clinical phenotype, linked to specific cohorts and cited with a PMID or DOI",
+        "Phenotype differences correlated with variant type, variant position, patient age, or patient sex",
+        "Any clinical findings reported by one paper and explicitly contradicted by another"
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_621421/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "Cohort-specific frequencies (numerator and denominator, not percentages alone) for each reported clinical phenotype, linked to specific cohorts and cited with a PMID or DOI",
+      "Phenotype differences correlated with variant type, variant position, patient age, or patient sex",
+      "Any clinical findings reported by one paper and explicitly contradicted by another"
+    ],
+    "explored_texts": [
+      "Resolve the conflict over: Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "Build on the confirmed prior: Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "What are the exact numerators and denominators for every published individual with TRA2B pathogenic variants across primary discovery papers?",
+      "Resolve the conflict over: Infantile spasms (HP:0012469) and early-onset feeding difficulties (HP:0011968) are present in the majority of TRA2B-related syndrome patients, serving as high-sensitivity positive criteria that distinguish TRA2B from milder non-syndromic microcephalic conditions."
+    ],
+    "explore_costs": [
+      0.01685,
+      0.012868,
+      0.0154855,
+      0.015418
+    ],
+    "test_costs": [
+      0.0040815,
+      0.006906,
+      0.0058485,
+      0.0052885,
+      0.00952,
+      0.010178,
+      0.014232,
+      0.011829,
+      0.0092625,
+      0.0070405,
+      0.0044085,
+      0.005301,
+      0.007101,
+      0.0063135,
+      0.006666,
+      0.0084715,
+      0.0099735,
+      0.0100235,
+      0.016941,
+      0.0141365,
+      0.010405,
+      0.005567,
+      0.00585,
+      0.005533,
+      0.006043,
+      0.0054265,
+      0.0073615,
+      0.0088925,
+      0.009455,
+      0.008168,
+      0.009228,
+      0.0105795
+    ],
+    "task_n": 47,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Ramond-Elliott neurodevelopmental syndrome (OMIM #621421), caused by variants in TRA2B: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.4399204700000001,
+    "budget_by_phase": {
+      "init": 0.0325125,
+      "plan": 0.011088,
+      "explore": 0.0606215,
+      "screen": 0.10425599999999999,
+      "deep": 0.1617755,
+      "measure": 0.01679347,
+      "finalize": 0.052873500000000004,
+      "artifact": 0.0
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While experimental data in zebrafish models confirm that biallelic disruption of GTF3C3 lowers the threshold for provoked seizures upon exposure to proconvulsants such as pentylenetetrazol (PTZ), the adversarial hypothesis that overt clinical seizures *require* secondary environmental or proconvulsant triggers across all individuals is contradicted by both human clinical presentations and animal model observations. In humans, spontaneous unprovoked seizures occur in a subset of patients (e.g., spontaneous generalized tonic-clonic seizures during wakefulness), demonstrating that external triggers are not an absolute prerequisite for clinical manifestation. Additionally, zebrafish F0 knockout larvae exhibited seizure-like behavior even without treatment, conflicting with the claim of mandatory secondary provocation.",
+  "evidence": [
+    {
+      "text": "Biallelic GTF3C3 variants were identified in four patients with microcephaly, brain anomalies, and developmental delay; seizures were observed in half of the patients (2/4). Knockout of gtf3c3 in zebrafish recapitulated seizure susceptibility, and larvae displayed seizure-like behaviour.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Seizures were observed in half of the patients. Knockout of the GTF3C3 ortholog in zebrafish recapitulated the key clinical symptoms including microcephaly, brain anomalies and seizure susceptibility."
+      },
+      "numbers": [
+        {
+          "metric": "seizure penetrance in Abdel cohort",
+          "value": "2/4"
+        },
+        {
+          "metric": "gtf3c3 F0 KO larvae evaluated",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "In gtf3c3 F0 KO zebrafish, larvae exhibited seizure-like behaviour even without treatment, demonstrating that seizure phenotypes can arise spontaneously in the absence of exogenous proconvulsant triggers.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "without treatment showed that gtf3c3 F0 KO (n = 50) larvae exhibited seizure-like behaviour after"
+      },
+      "numbers": [
+        {
+          "metric": "F0 KO larvae tested without treatment",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "A newly reported patient with novel biallelic variants in GTF3C3 manifested spontaneous clinical epilepsy, specifically generalized tonic-clonic seizures during wakefulness, rather than seizures requiring defined proconvulsant triggers.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+        "authors": [
+          "L L\u00f3pez"
+        ],
+        "year": 2026,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2026.1860633/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+        "quote": "generalized tonicclonic seizure during wakefulness."
+      },
+      "numbers": [
+        {
+          "metric": "new reported patient count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Review of monogenic epilepsies notes substantial locus and phenotypic heterogeneity, where biallelic causative variants produce broad variabilities in seizure onset, semiology, and penetrance depending on genetic background rather than obligate external triggers.",
+      "stance": "neutral",
+      "source": {
+        "title": "Heterogeneity of monogenic epilepsy in loci, phenotypes, and treatment approaches",
+        "authors": [
+          "AK Saad",
+          "N Akawi"
+        ],
+        "year": 2026,
+        "journal": "Neurological Sciences",
+        "doi": "10.1007/s10072-026-08936-2",
+        "pmid": "41912906",
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10072-026-08936-2",
+        "quote": "Besides the locus heterogeneity, monogenic epilepsy phenotypes exhibit phenotypic variabilities due to differences in pathogenic causative variants as well as unique genetic backgrounds in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "genes associated with seizures or epilepsy",
+          "value": 2000
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that clinical seizures strictly require secondary environmental or proconvulsant triggers; however, human patients present with spontaneous generalized tonic-clonic seizures during ordinary wakefulness.",
+    "Experimental zebrafish data indicate that gtf3c3 knockout larvae display spontaneous seizure-like behaviour even without proconvulsant treatment, directly challenging the claim of an absolute trigger dependency."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "Do seizure-free human patients with biallelic GTF3C3 variants exhibit subclinical epileptiform discharges on prolonged video-EEG or sleep-deprived EEG?",
+      "rationale": "Directly testing whether asymptomatic or seizure-free GTF3C3 patients have electrographic epileptiform abnormalities would establish whether latent susceptibility exists across all affected genotypes.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does temperature elevation, metabolic stress, or sensory provocation induce epileptiform events in gtf3c3 mutant in vivo models compared to wild-type controls?",
+      "rationale": "Clarifying specific physiological triggers in model organisms will differentiate between lowered seizure thresholds versus obligate environmental trigger dependencies.",
+      "promise": 0.8,
+      "est_cost": 45000
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "hypotheses": [
+    {
+      "text": "Heterozygous truncating or loss-of-function variants in SMAD2 do not exclusively cause mild, late-onset isolated thoracic aortic disease, but can instead manifest perinatally with complex congenital heart disease, heterotaxy, developmental delay, and severe craniofacial/syndromic anomalies.",
+      "rationale": "Prior models posited that truncating variants cause isolated, mild, or late-onset vascular disease via haploinsufficiency, whereas dominant-negative MH2 missense variants cause syndromic presentations. Delineating that truncating variants also cause severe congenital defects resolves a key conflict in SMAD2 genotype-phenotype correlations.",
+      "aspects": [
+        "genotype-phenotype",
+        "variant-type",
+        "congenital-anomalies"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Whole exome sequencing identified pathogenic truncating variants and a splice variant in SMAD2 in patients presenting with complex congenital heart disease (CHD), developmental delay, seizures, dysmorphic features, short stature, and fetal heterotaxy, establishing that truncating SMAD2 alleles are associated with early complex congenital phenotypes.",
+          "stance": "supports",
+          "source": {
+            "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+            "authors": [
+              "JL Granadillo",
+              "WK Chung",
+              "L Hecht"
+            ],
+            "year": 2018,
+            "journal": "Human Mutation",
+            "doi": "10.1002/humu.23627",
+            "pmid": "30157302",
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23627",
+            "quote": "Patients 1 and 2 presented with complex CHD, developmental delay, seizures, dysmorphic features, short stature, and poor weight gain. Patient 3 was a fetus with complex CHD and heterotaxy... WES identified pathogenic truncating variants, a splice variant, and a predicted deleterious missense variant in SMAD2."
+          },
+          "numbers": [
+            {
+              "metric": "Probands with congenital anomalies/CHD and truncating/splice/missense SMAD2 variants",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "text": "A truncating mutation in SMAD2 (c.593dupA) was identified in a cohort of Loeys-Dietz syndrome patients presenting with thoracic aortic aneurysm and dissection, indicating truncating variants can also present as classic adolescent or adult aortopathy.",
+          "stance": "neutral",
+          "source": {
+            "title": "Genetic profiling and cardiovascular phenotypic spectrum in a Chinese cohort of Loeys-Dietz syndrome patients",
+            "authors": [
+              "H Yang",
+              "Y Ma",
+              "M Luo",
+              "G Zhu",
+              "Y Zhang",
+              "B Li"
+            ],
+            "year": 2020,
+            "journal": "Orphanet Journal of Rare Diseases",
+            "doi": "10.1186/s13023-019-1282-3",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1186/s13023-019-1282-3",
+            "quote": "the second case of a SMAD2 truncating mutation (c.593dupA), ... in LDS patients with thoracic aneurysms/dissections"
+          },
+          "numbers": [
+            {
+              "metric": "Chinese cohort unique SMAD2 truncating cases",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Missense variants affecting conserved functional interfaces in the MH2 domain of receptor-regulated SMADs (SMAD2 and homologous SMAD3) accelerate vascular disease progression and lead to earlier major aortic events compared to pure haploinsufficient truncating variants.",
+      "rationale": "While early studies in SMAD3 cohorts suggested no clear categorical genotype-phenotype differences between truncating and missense variants, functional dissection of dominant-negative MH2 vs haploinsufficient alleles reveals differential vascular smooth muscle differentiation and earlier cardiovascular events.",
+      "aspects": [
+        "genotype-phenotype",
+        "MH2-domain",
+        "aortic-events"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "In homologous R-SMAD (SMAD3) Loeys-Dietz syndrome, individuals carrying dominant-negative variants in the MH2 domain experienced a higher frequency of major vascular events occurring at a younger median age (35.0 years) compared to those with haploinsufficient variants (46.0 years).",
+          "stance": "supports",
+          "source": {
+            "title": "Functional analysis of cell lines derived from SMAD3-related Loeys-Dietz syndrome patients provides insights into genotype-phenotype relation",
+            "authors": [
+              "NP de Wagenaar"
+            ],
+            "year": 2024,
+            "journal": "Human Molecular Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/hmg/article/33/12/1090/7636157",
+            "quote": "Individuals with dominant negative (DN) SMAD3 variant in the MH2 domain exhibited more major events (66.7% vs. 44.0%, P = 0.054), occurring at a younger age compared to those with haploinsufficient (HI) variants. The age at first major event was 35.0 years [IQR 29.0-47.0] in individuals with DN variants in MH2, compared to 46.0 years [IQR 40.0-54.0] in those with HI variants (P = 0.065)."
+          },
+          "numbers": [
+            {
+              "metric": "Major event rate in DN MH2 variants (%)",
+              "value": 66.7
+            },
+            {
+              "metric": "Major event rate in HI variants (%)",
+              "value": 44.0
+            },
+            {
+              "metric": "Median age at first major event in DN MH2 variants (years)",
+              "value": 35.0
+            },
+            {
+              "metric": "Median age at first major event in HI variants (years)",
+              "value": 46.0
+            }
+          ]
+        },
+        {
+          "text": "Five families with SMAD2 arterial aneurysm and dissection harbored both a nonsense variant and missense variants, indicating that vascular aneurysms and dissections manifest across both mutational classes without strict exclusion of truncating alleles from vascular pathology.",
+          "stance": "neutral",
+          "source": {
+            "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+            "authors": [
+              "E Cannaerts",
+              "M Kempers",
+              "A Maugeri"
+            ],
+            "year": 2019,
+            "journal": "Journal of Medical Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+            "quote": "Using gene panel sequencing, we identified a SMAD2 nonsense variant and four SMAD2 missense ... Still, limited numbers are available in literature about genotype-phenotype correlation."
+          },
+          "numbers": [
+            {
+              "metric": "SMAD2 nonsense variants identified",
+              "value": 1
+            },
+            {
+              "metric": "SMAD2 missense variants identified",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The phenotypic dichotomy between congenital structural malformations (congenital heart disease/heterotaxy) and isolated late-onset thoracic aortopathy in SMAD2 mutation carriers is governed by variant escape from nonsense-mediated mRNA decay (NMD) rather than variant location in the MH2 versus MH1 domain.",
+      "rationale": "In related connective tissue aortopathies (such as FBN1-related Marfan vs MPLS phenotypes), truncating variants that escape NMD produce dominant-negative truncations causing severe developmental anomalies, whereas canonical NMD leads to classic or milder presentation. Testing whether NMD escape explains severe infant/fetal SMAD2 truncating cases will clarify why certain truncating mutations cause early heterotaxy/CHD.",
+      "aspects": [
+        "NMD-escape",
+        "genotype-phenotype",
+        "molecular-mechanism"
+      ],
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "text": "Allelic truncating mutations in FBN1 cause either classic connective tissue phenotypes or severe syndromic/progeroid phenotypes depending on whether the premature termination codon escapes nonsense-mediated decay (NMD) and acts via a dominant-negative mechanism.",
+          "stance": "supports",
+          "source": {
+            "title": "Genetic and molecular mechanism for distinct clinical phenotypes conveyed by allelic truncating mutations implicated in FBN1",
+            "authors": [
+              "M Lin",
+              "Z Liu",
+              "G Liu",
+              "S Zhao",
+              "C Li",
+              "W Chen"
+            ],
+            "year": 2020,
+            "journal": "Molecular Genetics & Genomic Medicine",
+            "doi": "10.1002/mgg3.1023",
+            "pmid": "31774634",
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.1023",
+            "quote": "We further predict that the MPLS truncating mutation, and others previously reported, is prone to escape the nonsense-mediated decay (NMD), while MFS mutations are predicted to be subjected to NMD... We provide direct evidence that a dominant-negative interaction of FBN1 potentially explains the complex MPLS phenotypes"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "Do truncating SMAD2 mutations identified in fetuses and infants with complex congenital heart disease and heterotaxy cluster in exons predicted to escape nonsense-mediated decay (e.g., penultimate or last exons)?",
+      "rationale": "Resolving whether congenital CHD/heterotaxy variants in SMAD2 produce stable truncated dominant-negative peptides or lead to true haploinsufficiency will settle why some truncations produce early lethal anomalies while others present as adult aortic aneurysms.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "What is the penetrance of craniofacial dysmorphism (hypertelorism, bifid uvula, cleft palate) in SMAD2 carriers harboring MH2 missense variants versus truncating/frameshift variants across all published index cases?",
+      "rationale": "A systematic, cross-cohort numerator/denominator tabulation comparing craniofacial signs between missense and truncating variants will directly test whether syndromic features correlate with variant type.",
+      "promise": 0.8,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

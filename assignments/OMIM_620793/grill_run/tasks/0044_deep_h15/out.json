@@ -1,0 +1,109 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents a clear contradiction between the diagnostic framing in the only published pediatric presentation of pre-weakness LGMDR29 and the objective clinical/imaging findings. Dai et al. (2026) titled and framed their report as LGMDR29 presenting with 'myocardial damage' or 'isolated myocardial injury' based on marked elevations of CK and CK-MB following influenza A infection. However, their objective cardiac evaluations demonstrated completely normal cardiac anatomy and preserved systolic function on echocardiography, in a patient subsequently proven to have biallelic pathogenic SNUPN variants. Furthermore, the foundational natural history and phenotypic characterization of SNUPN-related muscular dystrophy by other cohorts (such as the 5 patients described with childhood-onset proximal weakness, contractures, and respiratory involvement) demonstrates myofibrillar-like skeletal myopathy and respiratory dysfunction without primary cardiomyopathy or antecedent myocardial necrosis. Because the authors of the case report explicitly assert 'isolated myocardial injury' while the clinical facts and broader cohort data point toward skeletal-derived CK/CK-MB release in an evolving muscular dystrophy, the hypothesis is currently conflicted.",
+  "evidence": [
+    {
+      "text": "A 19-month-old male presented following influenza A infection with markedly elevated creatine kinase (CK) and CK-MB and was reported as presenting with isolated myocardial injury as the initial feature of LGMDR29, despite documented normal cardiac structure and systolic function on echocardiography and no initial overt muscular weakness.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report",
+        "authors": [
+          "Q Dai",
+          "X Hu",
+          "B Li",
+          "Q Peng"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+        "quote": "A 19-month-old boy developed myocardial injury following an influenza A infection, which was characterized by significantly elevated serum levels of creatine kinase (CK), creatine kinase-MB (CK-MB), and other relevant biomarkers. Cardiac structure and function, as assessed by echocardiography, were found to be normal, and the patient did not exhibit any typical symptoms of muscle weakness."
+      },
+      "numbers": [
+        {
+          "metric": "patient age in months",
+          "value": 19
+        },
+        {
+          "metric": "affected individuals",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Five patients from two unrelated families harboring biallelic SNUPN variants exhibited a phenotype characterized by childhood-onset proximal muscle weakness, restrictive respiratory impairment, and prominent joint contractures with myofibrillar-like histology and selective muscle MRI involvement, without documentation of primary cardiomyopathy or myocardial necrosis.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "authors not shown"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/378291467_Biallelic_variants_in_SNUPN_cause_a_limb_girdle_muscular_dystrophy_with_myofibrillar-like_features",
+        "quote": "Here, we present five patients from two unrelated families with a limb-girdle muscular dystrophy (LGMD) phenotype carrying a biallelic variant in SNUPN gene... SNUPN patients show a similar phenotype characterized by proximal weakness starting in childhood, restrictive respiratory dysfunction and prominent contractures, although inter-individual variability in terms of severity even in individuals from the same family was found."
+      },
+      "numbers": [
+        {
+          "metric": "number of evaluated patients",
+          "value": 5
+        },
+        {
+          "metric": "number of unrelated families",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive overviews of the 29 recessive limb-girdle muscular dystrophies (LGMDR1 through LGMDR29) emphasize that hyperCKemia and proximal weakness are hallmark features of the disease class, while cardiac surveillance is recommended as part of general management rather than defining early isolated myocardial necrosis.",
+      "stance": "supports",
+      "source": {
+        "title": "Limb-girdle muscular dystrophies",
+        "authors": [
+          "SDMDPD Limb"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.medlink.com/articles/limb-girdle-muscular-dystrophies",
+        "quote": "Progressive proximal weakness and hyperCKemia are hallmark features of LGMDs; however, they are not specific and can also be observed in many acquired and hereditary myopathies... Once a diagnosis of LGMD is established, genetic counseling, symptomatic and supportive care, and cardiopulmonary surveillance remain the cornerstones of management."
+      },
+      "numbers": [
+        {
+          "metric": "number of recessive LGMD subtypes",
+          "value": 29
+        },
+        {
+          "metric": "number of dominant LGMD subtypes",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Dai et al. formally conclude and title their report that LGMDR29 presented with 'isolated myocardial injury'/'myocardial damage' secondary to influenza A, whereas the hypothesis asserts this was an artifact of skeletal muscle biomarker release (false-positive cardiac biomarker elevation) in the presence of normal echocardiographic anatomy and function.",
+    "Established cohorts of SNUPN-related muscular dystrophy present with proximal skeletal myopathy, contractures, and restrictive respiratory disease without reported antecedent myocardial injury or overt cardiomyopathy."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "In pediatric LGMDR29 cases presenting with acute hyperCKemia and elevated CK-MB, do cardiac-specific troponin I (cTnI) assays and cardiac MRI late gadolinium enhancement (LGE) confirm or exclude true myocardial cellular injury?",
+      "rationale": "CK-MB and troponin T are frequently expressed in regenerating skeletal muscle, whereas cardiac troponin I is considerably more specific to myocardium; testing with high-sensitivity cTnI and cardiac MRI would definitively determine whether subclinical myocardial injury exists.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the tissue-specific expression and alternative splicing consequence of SNUPN hypomorphic and null variants in human cardiac tissue versus mature and regenerating skeletal muscle?",
+      "rationale": "Understanding whether Snurportin-1 deficiency causes direct spliceosome disruption in cardiac myocytes or exclusively affects skeletal myofiber stability will establish whether cardiomyopathy is part of the true natural history.",
+      "promise": 0.8,
+      "est_cost": 45000
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"KDM6B\" \"autism\" OR \"ADHD\" missense \"Stolerman\"",
+    "KDM6B missense variants non syndromic autism ADHD Stolerman syndrome"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/s00439-022-02496-z",
+      "title": "Common genetic risk factors in ASD and ADHD co-occurring families",
+      "pmid": null,
+      "doi": "10.1007/s00439-022-02496-z",
+      "url": "https://link.springer.com/article/10.1007/s00439-022-02496-z",
+      "abstract_chars": 1606
+    },
+    {
+      "id": "10.1002/ajmg.a.61173",
+      "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.61173",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+      "abstract_chars": 699
+    },
+    {
+      "id": "https://www.mdpi.com/2079-7737/12/1/74",
+      "title": "KDM6B Variants May Contribute to the Pathophysiology of Human Cerebral Folate Deficiency",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2079-7737/12/1/74",
+      "abstract_chars": 1196
+    },
+    {
+      "id": "10.1080/15548627.2023.2250217",
+      "title": "Epigenetic regulation of autophagy-related genes: Implications for neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.1080/15548627.2023.2250217",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/15548627.2023.2250217",
+      "abstract_chars": 2691
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/25/21/11551",
+      "title": "Genome sequencing identifies 13 novel candidate risk genes for autism spectrum disorder in a Qatari cohort",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/25/21/11551",
+      "abstract_chars": 1701
+    },
+    {
+      "id": "35711692",
+      "title": "Kdm6b Haploinsufficiency Causes ASD/ADHD-Like ... - PMC",
+      "pmid": "35711692",
+      "doi": "10.3389/fnbeh.2022.905783",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9194811/",
+      "abstract_chars": 1090
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0002929723001325",
+      "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0002929723001325",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://gene.sfari.org/database/human-gene/KDM6B",
+      "title": "Gene: KDM6B -",
+      "pmid": null,
+      "doi": null,
+      "url": "https://gene.sfari.org/database/human-gene/KDM6B",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC9855468",
+      "title": "KDM6B Variants May Contribute to the Pathophysiology of ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9855468/",
+      "abstract_chars": 1196
+    },
+    {
+      "id": "https://thegencc.org/submissions/GENCC_000102-HGNC_29012-MONDO_0000508-HP_0000007-GENCC_100004",
+      "title": "KDM6B | syndromic intellectual disability",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/GENCC_000102-HGNC_29012-MONDO_0000508-HP_0000007-GENCC_100004",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5448,
+  "output_tokens": 1538,
+  "usd": 0.00734,
+  "seconds": 13.9,
+  "ok": true
+}

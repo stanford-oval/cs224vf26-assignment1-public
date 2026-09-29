@@ -1,0 +1,126 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits a dichotomy in FILIP1 pathogenesis: missense variants induce myofibrillar filamin C (FLNc) aggregation via a toxic proteostatic mechanism, whereas truncating variants cause deficiency without FLNc aggregation. The available literature confirms that FILIP1 acts as a mediator for FLNc degradation under mechanical stress (Kokot et al., 2024) and that homozygous FILIP1 missense variants (e.g., p.Pro1133Leu) lead to FLNc accumulation, core-like myofibrillar disintegration, and autophagic vacuoles in patient muscle (Grande et al., 2023). However, because FILIP1 physiologically promotes the degradation/turnover of FLNc, complete loss of functional FILIP1 (from truncating/nonsense variants) is predicted to similarly impair FLNc clearance rather than prevent aggregation; Grande et al. (2023) conclude that the syndromic disorder is an autosomal recessive condition where loss of functional FILIP1 broadly causes perturbed proteostasis. Furthermore, current literature lacks biopsy evidence demonstrating an absence of FLNc aggregation in patients with truncating FILIP1 variants, and the dichotomy between truncating and missense variants appears conflated with the distinct genetics of FLNC itself (Song et al., 2022; Goliusova et al., 2024).",
+  "evidence": [
+    {
+      "text": "Analysis of skeletal muscle biopsy from a patient carrying a homozygous FILIP1 missense variant (p.Pro1133Leu) demonstrated core-like zones of myofibrillar disintegration, autophagic vacuoles, and accumulation of filamin C (FLNc), with proteomic dysregulation of FLNc and alpha-B-crystallin.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "V Grande",
+          "K Bois",
+          "FJ Kaiser",
+          "M Vorgerd",
+          "C Schr\u00f6der"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Electron and immunofluorescence microscopy on the muscle biopsy derived from the patient harbouring the homozygous p.[Pro1133Leu] missense variant revealed core-like zones of myofibrillar disintegration, autophagic vacuoles and accumulation of FLNc."
+      },
+      "numbers": [
+        {
+          "metric": "Total affected patients reported in cohort",
+          "value": 5
+        },
+        {
+          "metric": "Number of unrelated consanguineous families",
+          "value": 4
+        },
+        {
+          "metric": "Number of homozygous nonsense variant alleles",
+          "value": 2
+        },
+        {
+          "metric": "Number of homozygous missense variant alleles",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Under mechanical stress, dephosphorylation of FLNc-pS2234 by PP1 promotes binding of FLNc to FILIP1, which functions as a key mediator for filamin degradation in skeletal muscle cells. In patient muscle tissue, aggregated FLNc co-localizes with FILIP1 missense variant protein.",
+      "stance": "supports",
+      "source": {
+        "title": "Protein phosphatase-1 regulates the binding of filamin C to FILIP1 in cultured skeletal muscle cells under mechanical stress",
+        "authors": [
+          "T Kokot",
+          "JP Zimmermann",
+          "AN Schw\u00e4ble",
+          "L Reimann"
+        ],
+        "year": 2024,
+        "journal": "Scientific Reports",
+        "doi": "10.1038/s41598-024-78953-8",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41598-024-78953-8",
+        "quote": "FLNc-pS2234 dephosphorylation promotes the interaction with FILIP1, a mediator for filamin degradation... aggregated FLNc co-localized with FILIP1 missense variant in"
+      },
+      "numbers": []
+    },
+    {
+      "text": "The distinction between protein aggregation and haploinsufficiency is well documented for FLNC (where truncating variants cause haploinsufficiency in DCM/RCM without myofibrillar aggregation, whereas missense mutations cause myofibrillar protein aggregation), but FILIP1 itself acts downstream as a mediator of FLNc degradation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Filamin C in cardiomyopathy: from physiological roles to DNA variants",
+        "authors": [
+          "S Song",
+          "A Shi",
+          "H Lian",
+          "S Hu",
+          "Y Nie"
+        ],
+        "year": 2022,
+        "journal": "Heart Failure Reviews",
+        "doi": "10.1007/s10741-021-10172-z",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10741-021-10172-z",
+        "quote": "Two major pathomechanisms in FLNC-related cardiomyopathy have been described: protein aggregation resulting from non-truncating mutations and haploinsufficiency triggered by filamin C truncation."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Myofibrillar myopathies are defined as Z-disk-opathies involving Z-disk proteostasis collapse and chaperone/clearance dysfunction. Loss of functional FILIP1 broadly leads to perturbed proteostasis in both missense and nonsense variants rather than truncating variants acting via a non-aggregating mechanism.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+        "authors": [
+          "M Inoue",
+          "CC Weihl"
+        ],
+        "year": 2025,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12354002",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+        "quote": "myopathy, importantly linking dysregulation of the Filamin C-"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes truncating FILIP1 variants cause simple deficiency without filamin C aggregation; however, because normal FILIP1 mediates FLNc degradation, complete absence of functional FILIP1 is expected to impair FLNc clearance and promote proteostatic disturbance as well.",
+    "The evidence attributing non-aggregating haploinsufficiency to truncating mutations specifically describes the FLNC gene itself rather than FILIP1; biopsy data verifying an absence of FLNc aggregates in patients with truncating FILIP1 mutations has not been established."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does skeletal muscle from patients or animal models with bi-allelic null/truncating FILIP1 variants display FLNc accumulation and myofibrillar aggregation?",
+      "rationale": "Clarifying whether truncating FILIP1 mutations cause FLNc accumulation due to failure of degradation or whether aggregation requires the presence of a mutant FILIP1 protein scaffold is essential to validate the proposed dichotomy.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the binding affinity and degradation kinetics of FLNc in the presence of FILIP1 nonsense-mediated decay vs. missense mutant FILIP1 in human myotubes under mechanical stretch?",
+      "rationale": "Directly testing whether missense variants exert a dominant-negative effect on myofibrillar stability or if null variants reproduce the identical proteostatic breakdown will define the molecular mechanism of FILIP1-related congenital neuromuscular disorder.",
+      "promise": 0.82,
+      "est_cost": 18000.0
+    }
+  ]
+}

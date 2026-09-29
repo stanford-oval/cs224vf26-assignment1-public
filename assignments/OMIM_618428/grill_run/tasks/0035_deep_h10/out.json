@@ -1,0 +1,108 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature confirms that YWHAZ pathogenic variants cause Popov-Chang syndrome and that the Ser230Trp (p.S230W) allele has been functionally validated as a gain-of-function mutation. However, there is no empirical evidence in literature series establishing that Ser230 variants represent a recurrent hotspot allele responsible for greater than 30% of all reported Popov-Chang syndrome cases. Rather, reports describe heterogeneous de novo missense and truncating variants across YWHAZ in only small numbers of individuals without establishing codon 230 as a dominant hotspot meeting this threshold.",
+  "evidence": [
+    {
+      "text": "OMIM entry 601288 documents Popov-Chang syndrome caused by the YWHAZ Ser230Trp (S230W) variant in helix 6 (allelic variant .0001, rs1554612377).",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - *601288 - TYROSINE 3-MONOOXYGENASE/TRYPTOPHAN 5-MONOOXYGENASE ACTIVATION PROTEIN, ZETA; YWHAZ",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/601288",
+        "quote": "resulting in a ser230-to-trp (S230W) substitution in helix 6. ... 0001 POPOV-CHANG SYNDROME. YWHAZ, SER230TRP SNP: rs1554612377"
+      },
+      "numbers": [
+        {
+          "metric": "allelic variant number",
+          "value": ".0001"
+        }
+      ]
+    },
+    {
+      "text": "Functional studies in Xenopus laevis demonstrate that the YWHAZ S230W variant is a gain-of-function allele that induces severe embryonic defects, enhances Raf-stimulated Erk phosphorylation, and binds more Raf while escaping phosphorylation by casein kinase 1a. However, it was evaluated as one specific novel variant among variants identified, without demonstrating recurrent clustering exceeding 30% across clinical series.",
+      "stance": "neutral",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous Syndrome Activates the RAF-ERK Pathway",
+        "authors": [
+          "IK Popov"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6465419",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+        "quote": "We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially be deleterious and disease-causing. In the current study, we take advantage of the vertebrate model Xenopus laevis to analyze the functional consequence of a particular YWHAZ variant, S230W"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Popov et al. (2019) reported 5 unrelated patients with neurodevelopmental disorder manifestations, but clinical series emphasize broad clinical and molecular heterogeneity rather than a single focal hotspot.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Popov-Chang Syndrome",
+        "authors": [],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+        "quote": "Popov et al. (2019) reported 5 unrelated patients, ranging in age from 9 to 17 years, with variable manifestations of a neurodevelopmental disorder."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 5
+        },
+        {
+          "metric": "age range lower bound (years)",
+          "value": 9
+        },
+        {
+          "metric": "age range upper bound (years)",
+          "value": 17
+        }
+      ]
+    },
+    {
+      "text": "Studies investigating YWHAZ-related disorders describe both heterozygous missense and truncating variants occurring de novo across individuals, demonstrating molecular variability rather than allelic restriction to codon Ser230.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Exploring the clinical heterogeneity and molecular variability of YWHAZ-related disorders",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://ern-ithaca.eu/our-research-activities/calls-for-collaboration/exploring-the-clinical-heterogeneity-and-molecular-variability-of-ywhaz-related-disorders/",
+        "quote": "Heterozygous missense and truncating variants in YWHAZ, encoding 14-3-3z, have recently been reported as de novo events in a few individuals with isolated or"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While Ser230Trp is a recognized pathogenic variant in YWHAZ, the available literature describes molecular variability with multiple distinct missense and truncating variants across small patient cohorts, lacking evidence that Ser230 variants account for >30% of all reported Popov-Chang syndrome cases."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the complete mutational distribution and allele frequency of Ser230 missense and frameshift variants across international cohorts of YWHAZ-related neurodevelopmental disorder?",
+      "rationale": "Systematic collection of all published and registry-held YWHAZ cases is necessary to establish exact variant frequencies and determine whether codon Ser230 is an actual statistical hotspot.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do C-terminal truncating or frameshift variants at Ser230 cause disease via haploinsufficiency or a dominant-negative/gain-of-function mechanism comparable to Ser230Trp?",
+      "rationale": "Ser230Trp causes enhanced Raf/ERK pathway activation, whereas truncating variants may trigger nonsense-mediated decay or loss of function, suggesting possible distinct pathophysiological mechanisms.",
+      "promise": 0.78,
+      "est_cost": 45000.0
+    }
+  ]
+}

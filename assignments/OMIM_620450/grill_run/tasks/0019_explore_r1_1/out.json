@@ -1,0 +1,187 @@
+{
+  "hypotheses": [
+    {
+      "text": "De novo missense variants in TAF4 produce a broader phenotypic continuum than truncating/pLoF alleles, extending to isolated severe developmental language disorder (DLD) with preserved non-verbal cognitive ability (non-verbal IQ \u2265 70) rather than mandatory global developmental delay or intellectual disability.",
+      "rationale": "Initial cohorts describing autosomal dominant TAF4-related neurodevelopmental disorder (Janssen et al., 2022) evaluated exclusively de novo putative loss-of-function (pLoF) variants, finding 100% penetrance for intellectual disability. In contrast, genome-wide sequencing across selected cohorts enriched for isolated severe developmental language disorder has detected pathogenic de novo missense variants in neurodevelopmental genes such as TAF4 without pervasive intellectual disability, implying missense alleles may preserve baseline cortical function while impairing specific language circuits.",
+      "aspects": [
+        "genotype-phenotype",
+        "missense vs truncating",
+        "neurodevelopment"
+      ],
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "text": "In a prospective trio-based genome sequencing study of 25 individuals with severe developmental language disorder (DLD) and non-verbal IQ >= 70, de novo missense variation in neurodevelopmental disease genes was uncovered, specifically individual 6 harboring a likely pathogenic de novo missense variant in a cohort defined by absence of intellectual disability.",
+          "stance": "supports",
+          "source": {
+            "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+            "authors": [
+              "MGP Kennis",
+              "L van Haaften",
+              "K van Hulst"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-026-02214-7",
+            "quote": "In individual 6, we found a likely pathogenic de novo missense \u2026 intellectual disability. The study is marked by a prospective design and a carefully selected cohort with deep phenotypic"
+          },
+          "numbers": [
+            {
+              "metric": "cohort size",
+              "value": 25
+            },
+            {
+              "metric": "molecular diagnostic yield",
+              "value": "36%"
+            }
+          ]
+        },
+        {
+          "text": "A cohort of eight individuals carrying de novo putative loss-of-function (pLoF) variants in TAF4 all displayed intellectual disability, facial dysmorphisms, and abnormal behavior, establishing haploinsufficiency as the mechanism for syndromic neurodevelopmental disorder.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+            "authors": [
+              "BDE Janssen",
+              "MJH van den Boogaard"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": "10.1002/humu.24444",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+            "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+          },
+          "numbers": [
+            {
+              "metric": "affected individuals with pLoF",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pathogenic missense variants in TAF4 do not cause early-onset refractory epileptic encephalopathy, and their associated seizure frequency does not exceed that seen in truncating/pLoF variants (<30%).",
+      "rationale": "In other TFIID complex disorders such as TAF1-related intellectual disability syndrome, missense variants within conserved structural domains frequently cause severe pleiotropic phenotypes including seizures, brain malformations, and cardiac anomalies. However, in TAF4, neither pLoF variants nor reported missense variants display a dominant-negative epileptic encephalopathy presentation.",
+      "aspects": [
+        "seizures",
+        "genotype-phenotype",
+        "TFIID complex"
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "text": "Phenotypes associated with missense variants in the TFIID subunit gene TAF1 show wide pleiotropy, with prominent novel associations of seizures, structural brain morphological abnormalities, and heart malformations across 27 families.",
+          "stance": "neutral",
+          "source": {
+            "title": "Missense variants in TAF1 and developmental phenotypes",
+            "authors": [
+              "H Cheng"
+            ],
+            "year": 2019,
+            "journal": null,
+            "doi": "10.1002/humu.23936",
+            "pmid": "31646703",
+            "pmc": "PMC7187541",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7187541/",
+            "quote": "Phenotypes associated with TAF1 variants show considerable pleiotropy and clinical variability, but prominent among previously unreported effects were brain morphological abnormalities, seizures, hearing loss, and heart malformations."
+          },
+          "numbers": [
+            {
+              "metric": "additional families identified",
+              "value": 27
+            },
+            {
+              "metric": "standardized HPO terms applied",
+              "value": 51
+            }
+          ]
+        },
+        {
+          "text": "In eight individuals with de novo pLoF variants in TAF4, core shared phenotypes centered on intellectual disability, abnormal behavior, and facial dysmorphisms, without early refractory epileptic encephalopathy as an obligate cardinal manifestation.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+            "authors": [
+              "BDE Janssen",
+              "MJH van den Boogaard"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": "10.1002/humu.24444",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+            "quote": "Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD)."
+          },
+          "numbers": [
+            {
+              "metric": "individuals evaluated",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Missense variants clustering within the conserved TAF4 histone-fold and TAF-homology domains cause transcriptional pause/escape disruption that results in short stature and craniofacial dysmorphisms overlapping indistinguishably with truncating variants.",
+      "rationale": "Neurodevelopmental disorders affecting general transcription machinery components share dysregulation of transcriptional pause and release, leading to convergent developmental delay, short stature, and craniofacial dysmorphism whether driven by truncating or missense mutations.",
+      "aspects": [
+        "protein domain",
+        "craniofacial",
+        "growth delay"
+      ],
+      "confidence": 0.5,
+      "evidence": [
+        {
+          "text": "Neurodevelopmental disorders involving transcriptional pause and release factors show consistent phenotypes comprising intellectual disability, short stature, and craniofacial dysmorphism among individuals carrying missense variants as well as truncating nonsense variants.",
+          "stance": "supports",
+          "source": {
+            "title": "Transcription pause and escape in neurodevelopmental disorders",
+            "authors": [
+              "KN Eigenhuis",
+              "HB Somsen"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": "10.3389/fnins.2022.846272/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+            "quote": "phenotype (intellectual disability, short stature and craniofacial dysmorphism) were identified that carried missense \u2026 two truncating non-sense variants and 6 different missense variants"
+          },
+          "numbers": [
+            {
+              "metric": "truncating nonsense variants",
+              "value": 2
+            },
+            {
+              "metric": "distinct missense variants",
+              "value": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "Do missense variants located in the TAF4 TAFH domain disrupt interaction with transcriptional co-regulators (e.g., ETO, ATN1) to cause a more restricted neurocognitive phenotype than C-terminal histone-fold domain variants?",
+      "rationale": "TAF4 possesses distinct modular domains; the N-terminal TAFH domain interacts with cofactors like ETO and ATN1, whereas the C-terminus mediates TFIID complex integration. Comparing phenotypes based on domain localization will clarify if missense variants act as dominant-negatives or hypomorphs.",
+      "promise": 0.75,
+      "est_cost": 1.2
+    },
+    {
+      "question_text": "What proportion of patients with TAF4 missense variants demonstrate microcephaly or behavioral disturbances compared to the 8 individuals with pLoF variants reported in Janssen et al.?",
+      "rationale": "Quantifying the exact frequencies of microcephaly, ADHD, and autistic behaviors between missense and truncating cohorts will allow clinicians to weight these secondary findings when interpreting variants of uncertain significance.",
+      "promise": 0.65,
+      "est_cost": 0.95
+    }
+  ],
+  "dead_end": false
+}

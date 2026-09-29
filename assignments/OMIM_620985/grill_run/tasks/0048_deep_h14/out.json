@@ -1,0 +1,65 @@
+{
+  "verdict": "refuted",
+  "rationale": "While the sources establish that Karayol et al. (2024) identified a cohort of 25 individuals with de novo MSL2 variants presenting with hypotonia, feeding difficulties, and to a lesser extent sleep disturbances, the provided literature records do not report the granular counts from Table 1 and Table S2 (such as >=13/25 for feeding difficulties or 8/25 to 12/25 for sleep disturbance), nor do they demonstrate a direct statistical correlation with early neonatal truncal hypotonia.",
+  "evidence": [
+    {
+      "text": "Karayol et al. (2024) identified 25 individuals with heterozygous de novo MSL2 variants associated with neurodevelopmental phenotypes including global developmental delay, intellectual disability, hypotonia, coordination problems, feeding difficulties, and gait disturbance, as well as sleep disturbance to a lesser extent.",
+      "stance": "neutral",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.004",
+        "pmid": "38815585",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #620985 documents that affected individuals can present with hypotonia and feeding difficulties in the newborn period alongside facial dysmorphisms.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #620985 - KARAYOL-BORROTO-HAGHSHENAS NEURODEVELOPMENTAL SYNDROME; KBHNDS",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620985",
+        "quote": "In the newborn period she had hypotonia and difficulty feeding. She had dysmorphic facial features including downslanting palpebral fissures"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The provided sources confirm the qualitative occurrence of hypotonia, feeding difficulties, and sleep disturbances in the 25-patient MSL2 cohort, but fail to provide specific numerators (>=13/25 or 8/25 to 12/25) or evidence of a direct correlation with neonatal truncal hypotonia."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for neonatal feeding problems and sleep disorders in the supplementary phenotyping tables of Karayol et al. (2024)?",
+      "rationale": "Directly checking Table 1 and Table S2 full texts will verify whether the hypothesized thresholds and frequencies are accurate.",
+      "promise": 0.9,
+      "est_cost": 0.05
+    },
+    {
+      "question_text": "Is there a statistically significant association between neonatal hypotonia severity and feeding tube requirement in MSL2-related neurodevelopmental disorder?",
+      "rationale": "Determining whether feeding difficulties correlate directly with truncal hypotonia could establish early prognostic markers for clinicians managing neonates.",
+      "promise": 0.75,
+      "est_cost": 0.1
+    }
+  ]
+}

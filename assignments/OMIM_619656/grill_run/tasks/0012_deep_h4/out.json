@@ -1,0 +1,101 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Classical clinical diagnostic criteria for Loeys-Dietz syndrome (LDS) across causative genes\u2014including SMAD2 (LDS6)\u2014state that the absence of ectopia lentis is a hallmark differentiating LDS from Marfan syndrome (FBN1). However, comprehensive reviews of published LDS cohorts (e.g., Gouda et al., 2022) note associations and reported presentations of ectopia lentis across LDS types including SMAD2, indicating that ectopia lentis may rarely occur or be misattributed in broader connective tissue phenotype overlaps, challenging its absolute utility as an infallible rule-out criterion.",
+  "evidence": [
+    {
+      "text": "Absence of ectopia lentis is highlighted as a primary distinguishing feature separating Loeys-Dietz syndrome (which encompasses SMAD2 mutations) from Marfan syndrome, though very few SMAD2 mutation-positive cases had initially been characterized in detail.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys\u2013dietz syndrome",
+        "authors": [
+          "A Verstraeten",
+          "HC Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1002/9781119432692.ch36",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+        "quote": "too few mutation\u2010positive cases have yet been reported to deter\u2011 mine at which end of the phenotypic spectrum SMAD2\u2026 Absence of ectopia lentis in LDS is a major distin\u2011"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Features such as craniofacial abnormalities (cleft palate, bifid uvula, hypertelorism) and craniosynostosis together with the systematic absence of ectopia lentis specifically suggest Loeys-Dietz syndrome (caused by genes including SMAD2) over Marfan syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Marfan syndrome and related disorders",
+        "authors": [
+          "JCS Dean",
+          "B Loeys"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1007/978-3-319-66114-8_19",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-66114-8_19",
+        "quote": "Loeys Dietz Syndrome is a \u2026 SMAD2). Features such as cleft palate, bifid uvula, hypertelorism, craniosynostosis and osteoarthritis and the absence of ectopia lentis suggest Loeys Dietz."
+      },
+      "numbers": []
+    },
+    {
+      "text": "A comprehensive systematic review of 3,896 reported cases of Loeys-Dietz syndrome across databases notes that SMAD2 mutations have been identified in association with atypical features including ectopia lentis, atrophic scars, and other systemic complications.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical features and complications of Loeys-Dietz syndrome",
+        "authors": [
+          "P Gouda"
+        ],
+        "year": 2022,
+        "journal": "International Journal of Cardiology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+        "quote": "Of note, SMAD2 mutations have been identified to be associated with ... ectopia lentis, atrophic scars, Chiari malformation, hydrocephalus, uterine"
+      },
+      "numbers": [
+        {
+          "metric": "Total LDS cases reviewed",
+          "value": 3896
+        }
+      ]
+    },
+    {
+      "text": "Classical clinical summaries of LDS emphasize the diagnostic mnemonic 'Lens OK in Loeys', indicating that ectopia lentis does not occur in LDS, including cases linked to SMAD2.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys-Dietz syndrome | Genetic Conditions",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://studyrare.com/conditions/loeys-dietz-syndrome",
+        "quote": "\"Lens OK in Loeys\": Unlike Marfan, there is no ectopia lentis in Loeys-Dietz."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Established diagnostic dogma asserts that ectopia lentis is universally absent across all LDS subtypes (including SMAD2/LDS6), whereas systematic reviews synthesizing all published clinical cases (e.g., Gouda et al., 2022) document ectopia lentis appearing in reported cohorts of SMAD2/LDS cases."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "Are individual reports of ectopia lentis in SMAD2/LDS patients confirmed by slit-lamp ophthalmologic examination, or do they represent misdiagnosed lens subluxation/myopic spherophakia?",
+      "rationale": "Clarifying ophthalmologic documentation in the primary cases cited by systematic LDS meta-analyses will determine if ectopia lentis truly occurs in SMAD2-mediated disease or reflects diagnostic misclassification.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What is the true prevalence and penetrance of ocular anterior chamber anomalies in prospective cohorts with verified loss-of-function vs dominant-negative SMAD2 variants?",
+      "rationale": "Determining genotype-phenotype correlations among SMAD2 variants will reveal whether specific structural domains can disrupt suspensory zonular fibers.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

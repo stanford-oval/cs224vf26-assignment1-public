@@ -1,0 +1,50 @@
+{
+  "knowledge": "Neuromuscular disorder, congenital, with dysmorphic facies (NMDCF, OMIM #620775) is an ultra-rare genetic condition linked to loss-of-function or pathogenic missense variants in the FILIP1 (filamin A interacting protein 1) gene. From initial family reports and cohort descriptions, the core clinical presentation involves neonatal or congenital hypotonia, generalized muscle weakness predominantly affecting axial and proximal muscle groups, arthrogryposis or congenital joint contractures, respiratory insufficiency, and distinct facial dysmorphisms (such as an elongated face, myopathic facies, high-arched palate, micrognathia, and ptosis). Muscle biopsy findings often demonstrate non-specific myopathic or neurogenic changes with fiber size variation, but lack hallmark structural features seen in specific congenital myopathies (e.g., nemaline rods, central cores).",
+  "prior_hypothesis": "A patient with FILIP1-related NMDCF can be distinguished from overlapping congenital myopathies, arthrogryposis syndromes, and congenital muscular dystrophies by the co-occurrence of early-onset generalized muscle weakness/hypotonia and joint contractures with prominent craniofacial dysmorphism (elongated/myopathic face, ptosis, high arched palate) in the absence of primary structural myopathy hallmarks (like nemaline rods or cores) and normal to only mildly elevated serum creatine kinase levels.",
+  "candidate_answers": [
+    {
+      "answer": "Congenital hypotonia and generalized muscle weakness are near-universal (>90% of reported cases, e.g., HP:0001252, HP:0001324), often presenting at birth with neonatal respiratory distress or feeding difficulties.",
+      "confidence": 0.85,
+      "aspect": "Core neuromuscular phenotype frequency"
+    },
+    {
+      "answer": "Dysmorphic facial features, notably myopathic facies (HP:0000298), bilateral ptosis (HP:0000508), high-arched palate (HP:0000218), and micrognathia (HP:0000347), are present in the majority of affected individuals (>75%), serving as a key phenotypic anchor.",
+      "confidence": 0.8,
+      "aspect": "Dysmorphic facies profile"
+    },
+    {
+      "answer": "Congenital contractures or arthrogryposis multiplex congenita (HP:0002804), particularly involving distal joints (talipes equinovarus/clubfoot, camptodactyly), occur in approximately 60-80% of reported patients.",
+      "confidence": 0.75,
+      "aspect": "Skeletal and articular findings"
+    },
+    {
+      "answer": "Serum creatine kinase (CK) levels are typically normal or only mildly elevated (<3-5x upper limit of normal), distinguishing FILIP1-related disorder from dystrophinopathies or severe congenital muscular dystrophies (e.g., LAMA2-RD).",
+      "confidence": 0.75,
+      "aspect": "Laboratory and biomarker discrimination"
+    },
+    {
+      "answer": "Marked structural central nervous system malformations (e.g., lissencephaly, severe cobblestone cortex) are absent, which helps differentiate NMDCF from congenital muscular dystrophies with brain involvement (e.g., Walker-Warburg, Fukuyama).",
+      "confidence": 0.7,
+      "aspect": "Negative discriminatory findings"
+    }
+  ],
+  "key_terms": [
+    "OMIM #620775",
+    "FILIP1",
+    "Congenital neuromuscular disorder with dysmorphic facies",
+    "Arthrogryposis multiplex congenita",
+    "Myopathic facies",
+    "Congenital myopathy"
+  ],
+  "open_questions": [
+    "What is the exact cohort size and per-feature numerator/denominator across all published peer-reviewed reports of FILIP1 variants to date?",
+    "Is the inheritance strictly autosomal recessive, or have heterozygous de novo dominant-negative or haploinsufficient variants also been established as causative?",
+    "Are there specific cardiac or ocular manifestations consistently present or systematically excluded across reported cohorts?",
+    "What specific histologic or ultrastructural muscle findings, if any, differentiate FILIP1 myopathy from other filamin-interacting proteinopathies (e.g., FLNC, BAG3)?"
+  ],
+  "assumptions": [
+    "OMIM #620775 is currently defined by a small number of published pedigrees and case reports, making robust statistical frequencies cohort-dependent and susceptible to small-sample bias.",
+    "Phenotypic categorization in literature relies on standard Human Phenotype Ontology (HPO) terms corresponding to congenital myopathies and arthrogryposis syndromes.",
+    "Biallelic loss-of-function variants in FILIP1 constitute the primary genetic etiology indexed under OMIM #620775."
+  ]
+}

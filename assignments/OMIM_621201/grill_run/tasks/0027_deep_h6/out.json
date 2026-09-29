@@ -1,0 +1,111 @@
+{
+  "verdict": "supported",
+  "rationale": "Across all currently available literature describing GTF3C3-related neurodevelopmental disorder (OMIM #621201), only approximately 17 patients across three primary studies (Abdel-Hamid et al., 2025 [n=4]; De Hayr et al., 2025 [n=12]; L\u00f3pez et al., 2026 [n=1]) have been clinically and molecularly delineated. Functional assays (RNA polymerase III reporter assays, minigene splicing assays, and animal models in zebrafish and Drosophila) confirm that pathogenic missense, splicing, and truncating variants cause partial or complete loss of function. While phenotypic variability exists (e.g., seizures occurring in approximately 50% of the Abdel-Hamid cohort and variable severity in brain malformations such as simplified gyral pattern or cerebellar hypoplasia), the extremely limited worldwide cohort size strictly precludes establishing statistically powered or definitive genotype-phenotype correlations.",
+  "evidence": [
+    {
+      "text": "Four patients from three unrelated families were identified with biallelic GTF3C3 variants (three missense and one nonsense variant), exhibiting microcephaly, developmental delay, intellectual disability, brain atrophy with cerebellar involvement, and seizures in 50% (2 of 4) of individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Herein, we describe the identification of biallelic variants in GTF3C3, which encodes a key component of the TFIIIC subunit, in four patients from three unrelated families of different ethnicities collected through GeneMatcher. The patients exhibited microcephaly, developmental delay, intellectual disability and distinctive dysmorphic facies... Seizures were observed in half of the patients."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in cohort",
+          "value": 4
+        },
+        {
+          "metric": "Unrelated families",
+          "value": 3
+        },
+        {
+          "metric": "Patients with seizures",
+          "value": "2/4"
+        }
+      ]
+    },
+    {
+      "text": "A cohort of twelve affected individuals across seven unrelated families harbored homozygous or compound heterozygous missense variants in GTF3C3 showing loss of function in RNA polymerase III reporter assays and splicing defects, presenting with intellectual disability, motor impairments, seizures, and variable facial and CNS malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2024.101253",
+        "pmid": "39636576",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39636576/",
+        "quote": "Twelve affected individuals from 7 unrelated families were identified with homozygous or compound heterozygous missense variants in GTF3C3... Consistent with disruptions in intra- and intermolecular interactions observed in molecular modeling, RNA polymerase III reporter assays confirmed that the majority of missense variants resulted in a loss of function."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in cohort",
+          "value": 12
+        },
+        {
+          "metric": "Unrelated families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "A comprehensive literature review accompanying a newly characterized patient confirmed that only 16 patients had been described prior to the report, emphasizing the ultra-rare nature of GTF3C3-related syndromic intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+        "authors": [
+          "L L\u00f3pez"
+        ],
+        "year": 2026,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2026.1860633/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+        "quote": "Biallelic variants in GTF3C3 have been recently associated with an autosomal recessive form of syndromic intellectual disability, with only 16 patients reported to date. Using whole exome sequencing, we identified previously unreported biallelic GTF3C3 variants in a new patient"
+      },
+      "numbers": [
+        {
+          "metric": "Previously reported patients worldwide",
+          "value": 16
+        },
+        {
+          "metric": "Newly reported patients",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "How do quantitative levels of residual Pol III transcriptional activity correlate with the presence or absence of structural cerebral malformations (such as simplified gyral pattern or corpus callosum hypoplasia) across GTF3C3 variant alleles?",
+      "rationale": "Systematic standardized in vitro Pol III transcription assays for all known patient variants would clarify whether differences in severity reflect true allelic gradients or stochastic/genetic background differences.",
+      "promise": 0.85,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "Does international matchmaking (e.g., GeneMatcher expansion) identify individuals harboring biallelic null/nonsense variants, or is complete loss of GTF3C3 embryonic lethal in humans?",
+      "rationale": "Only one nonsense allele (in trans with a missense variant) has been reported in humans, suggesting biallelic complete loss-of-function may not be viable, mirroring severe lethality seen in complete Pol III complex disruption.",
+      "promise": 0.9,
+      "est_cost": 50000
+    }
+  ]
+}

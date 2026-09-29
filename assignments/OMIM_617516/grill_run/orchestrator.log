@@ -1,0 +1,21 @@
+[16:53:46] INIT: parse fields + PRIOR (parallel)
+[16:53:59]   required_fields=6 seed_directions=4 prior_hypotheses=6 terms=4
+[16:53:59] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[16:54:17] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[16:54:45]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[16:55:23]   DEEP: 1 → pool, 4 → bin ($0.06 total)
+[16:55:23]   INIT probe: 1 pooled, 4 binned (+1 directions seeded)
+[16:55:23]   INIT spent $0.13
+[16:55:30]   PLAN: $4.94 pot, $1.97 ceiling → d1 $1.97 (Directly targets the primary unanswered mandate ); d8 $1.97 (Resolves the contested genotype-phenotype diverg)
+[16:55:30] ROUND 1: EXPLORE 2 dirs (d1=$1.97  d8=$1.97; spent $0.13/10.00)
+[16:55:56]   +6 hypotheses from 2 directions
+[16:56:27]   SCREEN: 7 passed / 7 screened ($0.08 total)
+[16:57:21]   DEEP: 3 → pool, 4 → bin ($0.16 total)
+[16:57:43]   PLAN: $4.85 pot, $1.94 ceiling → d11 $1.94 (Directly resolves question requirement 1 by extr); d18 $1.94 (Directly addresses questions 2 and 3 by solidify)
+[16:57:43] ROUND 2: EXPLORE 2 dirs (d11=$1.94  d18=$1.94; spent $0.31/10.00)
+[16:58:07]   +7 hypotheses from 2 directions
+[16:58:34]   SCREEN: 7 passed / 7 screened ($0.13 total)
+[16:59:26]   DEEP: 2 → pool, 5 → bin ($0.26 total)
+[16:59:34] FINALIZE: converged=False spent=$0.50  (init $0.04  plan $0.01  explore $0.06  screen $0.13  deep $0.26  measure $0.00)
+[17:00:23]   outline: 6 sections; report 20KB
+[17:00:41] DONE: coverage 1/6  quality 0.32 (6 pooled / 13 binned, untested 0)  answeredness=0.05  unsourced=0.00  answeredness/$=0.0942

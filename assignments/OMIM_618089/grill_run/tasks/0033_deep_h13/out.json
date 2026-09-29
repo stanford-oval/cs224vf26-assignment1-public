@@ -1,0 +1,128 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits a longitudinal developmental shift in FBXO11-related disorder (IDDFBA) from childhood hyperactive/aggressive dysregulation (ADHD) to adolescent and adult internalizing symptoms (depression, anxiety). While individual longitudinal reports such as Lee et al. (2020) demonstrate childhood ADHD followed by comorbid adolescent/adult depression and anxiety, broader cross-sectional and clinical sequencing cohorts demonstrate persistent externalizing disorders into adolescence (e.g., hyperkinetic disorder in a 14-year-old in Fritzen et al., 2018) and adult presentations retaining ADHD and behavioral dysregulation (Mainali et al., 2023). Furthermore, Jansen et al. (2019) describe anxiety, aggression, and ADHD co-occurring across the wider cohort without establishing an age-dependent transition or extinction of hyperactive symptoms. Thus, the evidence indicates psychiatric comorbidity across the lifespan rather than a deterministic longitudinal transition.",
+  "evidence": [
+    {
+      "text": "In a familial report of IDDFBA with a novel heterozygous FBXO11 frameshift variant (c.2401_2405dup; p.Gly803Leufs*6), an affected patient was treated for childhood ADHD as well as subsequent depression, illustrating comorbid externalizing and internalizing manifestations over development.",
+      "stance": "supports",
+      "source": {
+        "title": "The first familial case of inherited intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (IDDFBA) with a novel FBXO11 variant",
+        "authors": [
+          "CG Lee",
+          "CA Seol",
+          "CS Ki"
+        ],
+        "year": 2020,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.61828",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61828",
+        "quote": "She had been on medication for ADHD as well as depression prescribed by a child"
+      },
+      "numbers": [
+        {
+          "metric": "Affected family members",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Among 24 individuals with de novo variants or deletions in FBXO11, behavioral disturbances were noted in most patients across a broad spectrum including autism spectrum disorder, ADHD, anxiety, and aggression without demonstrating a strict chronological replacement of hyperactive symptoms by internalizing symptoms.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo variants in FBXO11 cause a syndromic form of intellectual disability with behavioral problems and dysmorphisms",
+        "authors": [
+          "S Jansen",
+          "IM van der Werf",
+          "AM Innes"
+        ],
+        "year": 2019,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-018-0292-2",
+        "pmid": null,
+        "pmc": "PMC6462006",
+        "url": "https://www.nature.com/articles/s41431-018-0292-2",
+        "quote": "All individuals had borderline to severe ID and behavioral problems (autism spectrum disorder, attention-deficit/hyperactivity disorder, anxiety, aggression) were observed in most of them."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "A 14-year-old adolescent individual with a de novo FBXO11 splice-site variant exhibited persistent hyperkinetic disorder alongside mild ID and microcephaly, contradicting the assertion that childhood hyperactivity resolves or transitions completely before adulthood.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo FBXO11 mutations are associated with intellectual disability and behavioural anomalies",
+        "authors": [
+          "D Fritzen",
+          "A Kuechler",
+          "M Grimmel",
+          "J Becker",
+          "S Peters"
+        ],
+        "year": 2018,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-018-1892-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-018-1892-1",
+        "quote": "Individual 1, a 14-year-old boy, has mild ID as well as mild microcephaly, corrected cleft lip and alveolus, hyperkinetic disorder, mild brain atrophy and minor facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "Age of Individual 1 with hyperkinetic disorder",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "text": "In a retrospective study evaluating clinical exome sequencing in adulthood (patients >= 18 years), FBXO11 was identified in patients presenting with adult neurodevelopmental and behavioral phenotypes, including ADHD and behavioral disorders, demonstrating that externalizing hyperactivity/behavioral disturbances persist into adulthood.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Diagnostic yield of clinical exome sequencing in adulthood in medical genetics clinics",
+        "authors": [
+          "A Mainali",
+          "T Athey",
+          "S Bahl",
+          "C Hung"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63053",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63053",
+        "quote": "The application of clinical ES has expanded the phenotypic ... deficit hyperactivity (ADHD), behavioral disorders (one or more ... FBXO11 (OMIM#618089)"
+      },
+      "numbers": [
+        {
+          "metric": "Adult cohort size",
+          "value": 77
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Externalizing symptoms (hyperactivity, ADHD, and aggressive behavioral issues) persist into late adolescence (e.g. at 14 years of age in Fritzen et al. 2018) and adulthood (Mainali et al. 2023), contradicting a mandatory evolutionary transition where externalizing traits remit in favor of internalizing symptoms.",
+    "Internalizing symptoms (anxiety) and externalizing symptoms (ADHD, aggression) are reported as co-occurring behavioral characteristics in cross-sectional pediatric/adolescent series (Jansen et al. 2019) rather than chronologically separated stages."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "Does standardized longitudinal psychiatric assessment in a multi-center cohort of FBXO11 mutation carriers reveal true age-dependent symptom evolution versus lifetime cumulative comorbidity?",
+      "rationale": "Available evidence relies on retrospective chart reviews and cross-sectional snapshots; formal prospective tracking using validated instruments across childhood, adolescence, and adulthood is required to assess whether hyperactivity shifts to depression.",
+      "promise": 0.85,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "Do truncating loss-of-function versus missense variants in FBXO11 differentially correlate with persistent externalizing ADHD phenotypes versus predominant affective disorders?",
+      "rationale": "Phenotypic heterogeneity across reported cohorts may stem from allelic heterogeneity (missense vs nonsense/frameshift) rather than strictly chronological patient age.",
+      "promise": 0.75,
+      "est_cost": 120000
+    }
+  ]
+}

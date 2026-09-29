@@ -1,0 +1,84 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from next-generation sequencing and 3D facial phenotyping cohorts in autism spectrum and neurodevelopmental disorders (NDD) demonstrates that while KLHL20 variants associate with facial dysmorphism, early-onset seizures, and intellectual disability (OMIM #621390), the dysmorphic features fall into a subtle, overlapping spectrum rather than establishing a distinctive, standalone gestalt. Consequently, clinical dysmorphology and automated facial analysis flag cases as syndromic NDD/ASD but cannot reliably differentiate KLHL20 mutations from other heterogeneous monogenic syndromic neurodevelopmental conditions without definitive molecular sequencing.",
+  "evidence": [
+    {
+      "text": "Systematic integration of next-generation sequencing and deep facial phenotyping in syndromic autism spectrum disorders identified KLHL20 as a novel causal gene for rare neurodevelopmental disorder with facial dysmorphism within overlapping ASD cohorts.",
+      "stance": "supports",
+      "source": {
+        "title": "MOLECULAR DIAGNOSTICS IN AUTISM SPECTRUM DISORDER: NEXT GENERATION SEQUENCING AND FACIAL PHENOTYPING IN MEDICAL GENETICS",
+        "authors": [
+          "Y Sleyp",
+          "H Peeters",
+          "P Claes"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://lirias.kuleuven.be/handle/20.500.12942/703598",
+        "quote": "associated with ID and facial dysmorphism to conditions associated \u2026 the identification of KLHL20 as a novel gene for a rare NDD. \u2026 with a distinct neurodevelopmental phenotype, clinical"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities is formally recognized under OMIM #621390 and mapped to KLHL20, characterized by broad neurological features and non-specific facial findings.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - *617679 - KELCH-LIKE 20; KLHL20",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/617679",
+        "quote": "Entry - *617679 - KELCH-LIKE 20; KLHL20 - OMIM - (OMIM.ORG) ... Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM phenotype ID",
+          "value": 621390
+        }
+      ]
+    },
+    {
+      "text": "Diagnostic panel categorization curates KLHL20 for neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities, confirming that dysmorphic and neurodevelopmental features present concurrently across cohorts.",
+      "stance": "supports",
+      "source": {
+        "title": "KLHL20",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/entities/KLHL20",
+        "quote": "Phenotypes. Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities, MIM# 621390. Green KLHL20 in Genetic"
+      },
+      "numbers": [
+        {
+          "metric": "MIM entry number",
+          "value": 621390
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Can 3D dense surface facial modeling objectively distinguish KLHL20 facial shape variations from other Kelch-like gene family disorders (such as KLHL15) and chromatin-associated syndromic ASDs?",
+      "rationale": "Direct morphological comparison using computational stereophotogrammetry across Kelch-protein-related encephalopathies would determine if subvisual, quantitative facial signatures exist despite the absence of an obvious clinical gestalt.",
+      "promise": 0.78,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the exact penetrance and semiology of early-onset seizures in KLHL20 patients compared to non-syndromic early infantile epileptic encephalopathies?",
+      "rationale": "Defining the specific seizure types (e.g., focal vs generalized, age of onset) and electroclinical patterns will help clinicians discern whether neurophysiological markers can prioritize KLHL20 ahead of comprehensive panel sequencing.",
+      "promise": 0.82,
+      "est_cost": 35000
+    }
+  ]
+}

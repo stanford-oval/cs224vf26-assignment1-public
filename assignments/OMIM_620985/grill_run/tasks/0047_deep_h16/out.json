@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "Comparative clinical phenotype analyses across the core MSL complex chromatinopathies (MSL2, MSL3, and KAT8) directly demonstrate that MSL2 variant carriers have an enriched prevalence of autism spectrum disorder features (reported at 64.3% across cohorts), distinguishing the behavioral profile of Karayol-Borroto-Haghshenas neurodevelopmental syndrome from MSL3-associated Basilicata-Akhtar syndrome and KAT8-related disorders where such autism phenotypes are markedly less frequent. Multiple functional and clinical cohorts confirm ASD as a primary behavioral phenotype of pathogenic MSL2 disruptions.",
+  "evidence": [
+    {
+      "text": "Systematic comparative analysis of clinical phenotype data across MSL2, MSL3, and KAT8 case series demonstrated that MSL2 variant carriers showed a high prevalence of autism spectrum disorder (64.3%), distinguishing its behavioral spectrum from related MSL complex conditions.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation",
+        "authors": [
+          "S Luo",
+          "S Qu",
+          "S Tan",
+          "Z Song",
+          "Y Lv",
+          "X Jia",
+          "J Tan"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s00018-026-06237-7_reference.pdf",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/content/pdf/10.1007/s00018-026-06237-7_reference.pdf",
+        "quote": "and clinical phenotype data of MSL2, MSL3 and KAT8 from three case series studies [\u2026 MSL2 variants carriers showed high prevalence of autism spectrum disorder (64.3%), while MSL3"
+      },
+      "numbers": [
+        {
+          "metric": "MSL2 ASD prevalence percentage",
+          "value": 64.3
+        }
+      ]
+    },
+    {
+      "text": "Characterization of a discovery cohort of 25 individuals with heterozygous de novo MSL2 variants identified neurodevelopmental phenotypes including intellectual disability, global developmental delay, motor coordination problems, and prominent behavioral/psychiatric manifestations including autism spectrum disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder"
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of individuals with de novo MSL2 variants",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Clinical delineation of 42 patients with Basilicata-Akhtar syndrome (MSL3) emphasizes global developmental delay, intellectual disability, hypotonia, progressive spasticity, and growth hormone deficiency, without the high-penetrance autism spectrum disorder behavioral signature observed in MSL2.",
+      "stance": "supports",
+      "source": {
+        "title": "Two Chinese patients with Basilicata-Akhtar syndrome caused by novel MSL3 variants: a case report and literature review",
+        "authors": [
+          "Y Qing",
+          "F Hu",
+          "W Su",
+          "Y Wang",
+          "Y Chen"
+        ],
+        "year": 2025,
+        "journal": "Translational Pediatrics",
+        "doi": "10.21037/tp-2025-227",
+        "pmid": "41216464",
+        "pmc": "PMC12597176",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12597176/",
+        "quote": "Variants of MSL3 have been reported to cause an ultra-rare developmental disorder, Basilicata-Akhtar syndrome (MRXSBA) (OMIM #301032), which is characterized by global development delay, intellectual disability (ID), muscular hypotonia and progressive spasticity. To date, only 42 patients with MRXSBA have been reported around the world"
+      },
+      "numbers": [
+        {
+          "metric": "reported Basilicata-Akhtar syndrome global patient count",
+          "value": 42
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does standardized DSM-5/ADOS-2 psychometric evaluation in larger prospectively recruited MSL2, MSL3, and KAT8 cohorts confirm the statistical significance of ASD enrichment when controlling for degree of intellectual disability?",
+      "rationale": "Existing comparisons across rare chromatinopathies rely on aggregated multi-center series where behavioral assessments may vary in diagnostic rigor; prospective standardized autism evaluation will clarify the true specificity of ASD behavior in MSL2.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What transcriptional downstream targets specific to MSL2 (such as direct FMR1 locus regulation) drive autism-like social deficits independently of global H4K16ac reductions?",
+      "rationale": "iPSC and animal studies show global H4K16ac is preserved in human MSL2 iPSCs despite target gene alterations, unlike MSL3/KAT8 variants which globally deplete H4K16ac, suggesting a gene-specific mechanism underlying the autism phenotype.",
+      "promise": 0.8,
+      "est_cost": 45000
+    }
+  ]
+}

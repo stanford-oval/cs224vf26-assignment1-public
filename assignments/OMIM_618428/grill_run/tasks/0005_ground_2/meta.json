@@ -1,0 +1,89 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"14-3-3 protein zeta\" YWHAZ \"Popov-Chang syndrome\"",
+    "14-3-3 protein zeta YWHAZ Popov-Chang syndrome OMIM 618428"
+  ],
+  "n_hits": 9,
+  "hits": [
+    {
+      "id": "https://www.genecards.org/card/YWHAZ",
+      "title": "YWHAZ Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/YWHAZ",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genome.jp/dbget-bin/www_bget?hsa:7534",
+      "title": "KEGG T01001: 7534",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genome.jp/dbget-bin/www_bget?hsa:7534",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42786531",
+      "title": "YWHAZ - 14-3-3 protein zeta/delta - Homo sapiens (Human)",
+      "pmid": "42786531",
+      "doi": "10.1186/s13567-026-01840-9",
+      "url": "https://www.uniprot.org/uniprotkb/P63104/entry",
+      "abstract_chars": 1445
+    },
+    {
+      "id": "http://www.phosphosite.org/proteinAction.do?id=3575&showAllSites=true",
+      "title": "14-3-3 zeta (human)",
+      "pmid": null,
+      "doi": null,
+      "url": "http://www.phosphosite.org/proteinAction.do?id=3575&showAllSites=true",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.alliancegenome.org/gene/HGNC:12855",
+      "title": "YWHAZ | Homo sapiens gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.alliancegenome.org/gene/HGNC:12855",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/601288",
+      "title": "Entry - *601288 - TYROSINE 3-MONOOXYGENASE/ ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/601288",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/618428",
+      "title": "618428 - POPOV-CHANG SYNDROME; POPCHAS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/618428",
+      "abstract_chars": 0
+    },
+    {
+      "id": "36001342",
+      "title": "YWHAZ variation causes intellectual disability and global ...",
+      "pmid": "36001342",
+      "doi": "10.1093/hmg/ddac210",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851741/",
+      "abstract_chars": 1425
+    },
+    {
+      "id": "https://gene.sfari.org/database/human-gene/YWHAZ",
+      "title": "Gene: YWHAZ -",
+      "pmid": null,
+      "doi": null,
+      "url": "https://gene.sfari.org/database/human-gene/YWHAZ",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2724,
+  "output_tokens": 1290,
+  "usd": 0.00523,
+  "seconds": 14.4,
+  "ok": true
+}

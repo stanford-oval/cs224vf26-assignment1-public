@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"creatine kinase\" neuromuscular",
+    "FILIP1 congenital neuromuscular disorder serum creatine kinase levels"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40488240",
+      "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+      "pmid": "40488240",
+      "doi": "10.1097/wco.0000000000001397",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+      "abstract_chars": 1554
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(24)01757-7/abstract",
+      "title": "The 2025 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(24)01757-7/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "title": "The 2026 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0960896623004364",
+      "title": "INV10 Genetic discovery and pathomechanisms of repeat disorders in neuromuscular diseases: lessons from RFC1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960896623004364",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39386087",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic ...",
+      "pmid": "39386087",
+      "doi": "10.1093/braincomms/fcae330",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462438/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(23)00438-8/pdf",
+      "title": "PATHOBIOLOGY OF NEUROMUSCULAR EXPANSION ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(23)00438-8/pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0960896624006035",
+      "title": "76VP Myofibrillar myopathy with cardiomyopathy, lipid ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0960896624006035",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41037170",
+      "title": "Limb-Girdle Muscular Dystrophies",
+      "pmid": "41037170",
+      "doi": "10.1212/cont.0000000000001615",
+      "url": "https://neuromuscular.wustl.edu/musdist/lg.html",
+      "abstract_chars": 1697
+    },
+    {
+      "id": "34235269",
+      "title": "FLNC-Associated Myofibrillar Myopathy",
+      "pmid": "34235269",
+      "doi": "10.1212/NXG.0000000000000590",
+      "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000000590",
+      "abstract_chars": 1815
+    }
+  ],
+  "input_tokens": 4125,
+  "output_tokens": 1151,
+  "usd": 0.00552,
+  "seconds": 20.0,
+  "ok": true
+}

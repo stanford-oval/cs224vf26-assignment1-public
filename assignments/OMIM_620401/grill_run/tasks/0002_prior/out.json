@@ -1,0 +1,58 @@
+{
+  "knowledge": "Intellectual developmental disorder, autosomal recessive 84 (MRT84; OMIM #620401) is an ultra-rare neurodevelopmental condition caused by biallelic loss-of-function or pathogenic missense variants in the SGSM3 gene (encoding small G protein signaling modulator 3). SGSM3 interacts with RAP and RAB small GTPases and plays a role in vesicular trafficking and MAP kinase signaling. Phenotypic characterization in published literature is limited to a small number of consanguineous kindreds and affected individuals. Core reported features include global developmental delay, moderate-to-severe intellectual disability, severe speech impairment or absence of speech, behavioral anomalies (including autistic features, hyperactivity, and stereotypies), mild non-specific facial dysmorphisms, and variable motor impairment or hypotonia. Structural brain anomalies and seizures have been documented in a subset of patients, but microcephaly is inconsistent.",
+  "prior_hypothesis": "MRT84 is not readily distinguishable from hundreds of other non-syndromic to mildly syndromic autosomal recessive intellectual developmental disorders on physical examination alone. However, an index of suspicion is raised by the combination of non-progressive moderate-to-severe intellectual disability, pronounced expressive language impairment exceeding motor delay, early-onset hypotonia, and nonspecific behavioral disturbances without severe progressive neurodegeneration, major congenital organ malformations, or pathognomonic craniofacial stigmata.",
+  "candidate_answers": [
+    {
+      "answer": "Intellectual disability and global developmental delay are present in 100% of reported individuals across published cohorts (e.g., severe delay in motor and language milestones; HPO: HP:0001249, HP:0001263).",
+      "confidence": 0.95,
+      "aspect": "Core phenotype frequencies"
+    },
+    {
+      "answer": "Severe expressive speech impairment or complete absence of speech (HPO: HP:0001344 / HP:0000750) is observed in virtually all evaluated individuals (approaching 100% penetrance in index kindreds).",
+      "confidence": 0.9,
+      "aspect": "Core phenotype frequencies"
+    },
+    {
+      "answer": "Behavioral disturbances, including hyperactive behavior, restlessness, and stereotypic movements (HPO: HP:0000752, HP:0000733), occur in a majority (>60%) of affected individuals.",
+      "confidence": 0.75,
+      "aspect": "Behavioral phenotype"
+    },
+    {
+      "answer": "True discriminating clinical features do not exist in isolation; MRT84 must be differentiated from other recessive intellectual disability entities (such as MRT-associated genes like CC2D1A, TUSC3, or TRAPPC9). The absence of progressive spastic paraplegia, retinitis pigmentosa, severe coarse facial features, and progressive microcephaly or brain atrophy helps rule out neurodegenerative metabolic encephalopathies or complex syndromic ciliopathies.",
+      "confidence": 0.7,
+      "aspect": "Differential diagnosis and discriminating features"
+    },
+    {
+      "answer": "Major structural congenital heart disease, renal anomalies, sensorineural hearing loss, and progressive neurodegenerative decline are typically absent, serving as negative criteria that argue against SGSM3-related MRT84 when prominent.",
+      "confidence": 0.8,
+      "aspect": "Pertinent negative findings"
+    },
+    {
+      "answer": "Biallelic truncating variants (frameshift, nonsense, canonical splice site) lead to loss of function and constitute the classic severe presentation, whereas missense variants located in critical conserved functional domains (such as the RUN domain or TBC-like domain) may exhibit subtle phenotypic variation, though current cohort sizes are insufficient to formally prove genotype-phenotype correlations.",
+      "confidence": 0.6,
+      "aspect": "Genotype-phenotype and demographic correlations"
+    }
+  ],
+  "key_terms": [
+    "OMIM #620401",
+    "SGSM3",
+    "Intellectual developmental disorder, autosomal recessive 84",
+    "MRT84",
+    "RUN domain",
+    "RAP/RAB GTPase signaling",
+    "HPO: HP:0001249 (Intellectual disability)",
+    "HPO: HP:0001263 (Global developmental delay)",
+    "HPO: HP:0001344 (Absent speech)"
+  ],
+  "open_questions": [
+    "What is the exact cohort size and numerator/denominator breakdown across the primary discovery publications that established OMIM #620401?",
+    "Are neuroimaging abnormalities (such as thin corpus callosum, delayed myelination, or cerebellar hypoplasia) consistently present on high-resolution MRI, or is neuroimaging normal in most affected individuals?",
+    "What specific facial dysmorphic features, if any, show consistent recurrence across independent families?",
+    "Are epileptic seizures a defining or merely incidental/occasional feature of SGSM3 deficiency?"
+  ],
+  "assumptions": [
+    "The OMIM #620401 designation corresponds exclusively to biallelic SGSM3 pathogenic variants.",
+    "Reported phenotypic data in current literature derive from a very small pool of families (predominantly consanguineous pedigree studies).",
+    "A definitive diagnosis cannot rely solely on clinical phenotyping due to high phenotypic overlap with non-syndromic autosomal recessive intellectual disability, making molecular genetic testing mandatory for clinical differentiation."
+  ]
+}

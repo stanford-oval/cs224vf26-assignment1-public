@@ -1,0 +1,93 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that most pathogenic NAV3 alterations are de novo heterozygous missense or truncating/loss-of-function variants acting via haploinsufficiency. However, published clinical genomics literature for OMIM #621182 (Umair-Alfadhel neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities) demonstrates that a significant portion\u2014if not the primary recognized presentation\u2014of pathogenic NAV3 cases are biallelic (homozygous) variants inherited in an autosomal recessive pattern within consanguineous pedigrees. While de novo heterozygous cases have also been documented, the claim that most cases are de novo heterozygous haploinsufficiencies is challenged by confirmed autosomal recessive homozygous missense and truncating disease cohorts.",
+  "evidence": [
+    {
+      "text": "Identification of a novel biallelic homozygous missense variant in NAV3 (c.3430T>C; p.Ser1144Pro) in a patient presenting with autosomal recessive neurodevelopmental disorder (Umair-Alfadhel Neurodevelopmental Disorder, OMIM #621182), showing structural alteration in secondary protein structure and expanding the mutational landscape to include autosomal recessive inheritance.",
+      "stance": "contradicts",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "This study reports a novel NAV3 variant in association with autosomal recessive NDD, and contributes to the growing evidence that NAV3 plays a crucial role in human neurodevelopment."
+      },
+      "numbers": [
+        {
+          "metric": "affected probands in family",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621182 associates the NAV3 gene (611629) on chromosome 12q21 with Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #621182 - NEURODEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621182",
+        "quote": "NAV3 gene (611629) on chromosome 12q21. Description. Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM morbid entry",
+          "value": 621182
+        }
+      ]
+    },
+    {
+      "text": "MalaCards entry registers 6 ClinVar genetic disease variations associated with Neurodevelopmental Disorder with Poor or Absent Speech, Dysmorphic Facies, and Behavioral Abnormalities linked to NAV3.",
+      "stance": "neutral",
+      "source": {
+        "title": "Neurodevelopmental Disorder with Poor or Absent Speech ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/neurodevelopmental_disorder_with_poor_or_absent_speech_dysmorphic_facies_and_behavioral_abnormalities",
+        "quote": "6 ClinVar genetic disease variation(s) for Neurodevelopmental Disorder with Poor or Absent Speech, Dysmorphic Facies, and Behavioral Abnormalities: ; NAV3."
+      },
+      "numbers": [
+        {
+          "metric": "ClinVar variants reported",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that most pathogenic alterations in NAV3 are de novo heterozygous variants operating via haploinsufficiency, whereas clinical characterization of OMIM #621182 documents prominent autosomal recessive biallelic inheritance (both homozygous truncating and homozygous missense variants).",
+    "Evidence for haploinsufficiency as the exclusive or predominant pathogenic mechanism is challenged by the identification of unaffected or carrier heterozygous parents in consanguineous families harboring pathogenic truncating and missense NAV3 variants."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What proportion of confirmed NAV3-related neurodevelopmental disorder cases represent biallelic recessive inheritance versus de novo heterozygous dominant-negative or haploinsufficient variants?",
+      "rationale": "Clarifying the inheritance mode and penetrance in outbred versus consanguineous populations is necessary to resolve whether NAV3 represents a purely recessive condition, a dual-inheritance condition, or a semi-dominant condition.",
+      "promise": 0.85,
+      "est_cost": 40000
+    },
+    {
+      "question_text": "Do NAV3 missense variants localized to the AAA+ ATPase domain cause dominant-negative interference in microtubule dynamics compared to complete loss-of-function null alleles?",
+      "rationale": "Differentiating loss-of-function versus dominant-negative mechanics will determine whether heterozygous variants can independently cause the full syndrome or require biallelic disruption.",
+      "promise": 0.8,
+      "est_cost": 65000
+    }
+  ]
+}

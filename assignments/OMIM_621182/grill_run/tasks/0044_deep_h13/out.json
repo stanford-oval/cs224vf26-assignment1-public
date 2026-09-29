@@ -1,0 +1,121 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The foundational and expanding literature on NAV3-related neurodevelopmental disorder (OMIM #621182) confirms that expressive speech impairment is a cardinal feature, often manifesting as severe speech delay, non-fluent 1-2 word sentences, or ambiguous/poorly articulated speech rather than total mutism in some individuals (such as probands reported by Umair et al. 2024 and 2025). However, the disease entity is formally designated 'Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities', reflecting that completely absent speech occurs in the cohort spectrum. Furthermore, the provided sources lack objective neuropsychological or clinical data demonstrating that receptive language abilities are selectively or relatively preserved in the defining cohorts.",
+  "evidence": [
+    {
+      "text": "Umair et al. (2025) identified a biallelic missense variant (c.3430T>C; p.Ser1144Pro) in NAV3 in a patient presenting with an autosomal recessive neurodevelopmental disorder and noted ambiguous speech as a distinctive phenotypic feature.",
+      "stance": "supports",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": "Current Medicinal Chemistry",
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "a constellation of features aligning with phenotypes described in several NAV3-... and speech impairment. However, a distinctive feature in our cohort is ambiguous speech linked to..."
+      },
+      "numbers": [
+        {
+          "metric": "proband_count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Umair et al. (2024) described a patient with a biallelic frameshift variant (c.2604_2605delAG; p.Val870SerfsTer12) who exhibited speech delay, speaking initially in single words and progressing to one- to two-word sentences with poor articulation and non-fluent speech, confirming expressive vocal capability rather than total aphonia.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": "PMC11262617",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "speech delay when compared to her peers [speaking in single words]. She currently speaks in one- to twoword sentences with poor articulation and non- fluent speech."
+      },
+      "numbers": [
+        {
+          "metric": "affected_individuals",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "The formal phenotypic designation of OMIM #621182 includes 'absent speech', indicating that complete lack of vocal speech is recognized in the defining clinical spectrum rather than strictly restricted to ambiguous speech or preserved receptive language.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Entry - *611629 - NEURON NAVIGATOR 3; NAV3",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man (OMIM)",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/611629",
+        "quote": "Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral..."
+      },
+      "numbers": [
+        {
+          "metric": "omim_entry",
+          "value": "611629"
+        }
+      ]
+    },
+    {
+      "text": "Ghaffar et al. (2024) described 11 individuals from 7 families with pathogenic NAV3 variants exhibiting intellectual disability, developmental delay, microcephaly, ocular, skeletal, and behavioral anomalies, highlighting a broad multi-system neurodevelopmental syndrome without documenting receptive language sparing.",
+      "stance": "neutral",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": "Communications Biology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s42003-024-06466-1",
+        "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene... All affected individuals have intellectual disability (ID), microcephaly, skeletal deformities, ocular anomalies, and behavioral issues."
+      },
+      "numbers": [
+        {
+          "metric": "individuals_reported",
+          "value": 11
+        },
+        {
+          "metric": "families_reported",
+          "value": 7
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "OMIM #621182 explicitly designates the condition as featuring 'poor or absent speech', indicating that completely absent speech occurs in the cohort spectrum, directly conflicting with the hypothesis that speech impairment is uniformly non-aphonic across the foundational cohort.",
+    "The available literature across foundational cohorts (e.g. Ghaffar et al. 2024, Kakar et al. 2025, Umair et al. 2024/2025) does not provide formal receptive vs. expressive language dissociations or confirm preservation of receptive language abilities."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic breakdown of expressive vs. receptive language scores across all published individuals harboring biallelic versus monoallelic NAV3 variants?",
+      "rationale": "Determining whether a genuine receptive-expressive dissociation exists requires standardized psycholinguistic testing across the expanding worldwide cohort of NAV3 patients.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

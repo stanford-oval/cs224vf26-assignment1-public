@@ -1,0 +1,105 @@
+{
+  "verdict": "supported",
+  "rationale": "Multiple independent genomic and functional studies demonstrate that heterozygous truncating and loss-of-function (LoF) variants in SMAD2 cause a wide spectrum of early developmental phenotypes, including complex congenital heart disease (CHD), heterotaxy/laterality defects, developmental delay, seizures, and dysmorphic features, in addition to adolescent- or adult-onset thoracic aortic aneurysms. Granadillo et al. (2018) documented truncating and splice variants in probands presenting with complex CHD, developmental delay, dysmorphic features, and fetal heterotaxy. Ward et al. (2025) confirmed heterozygous SMAD2 loss-of-function alleles across a large cohort of 11,336 CHD participants, noting significant enrichment in heterotaxy and showing that SMAD2 haploinsufficiency directly disrupts chromatin accessibility and regulatory networks critical for early cardiogenesis.",
+  "evidence": [
+    {
+      "text": "Whole exome sequencing identified pathogenic truncating, splicing, and missense variants in SMAD2 in individuals presenting with complex congenital heart disease, developmental delay, seizures, dysmorphic features, and fetal heterotaxy, demonstrating that truncating alleles cause early complex syndromic/congenital presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+        "authors": [
+          "JL Granadillo",
+          "WK Chung",
+          "L Hecht"
+        ],
+        "year": 2018,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.23627",
+        "pmid": "30157302",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/30157302/",
+        "quote": "Patients 1 and 2 presented with complex CHD, developmental delay, seizures, dysmorphic features, short stature, and poor weight gain. Patient 3 was a fetus with complex CHD and heterotaxy... WES identified pathogenic truncating variants, a splice variant, and a predicted deleterious missense variant in SMAD2."
+      },
+      "numbers": [
+        {
+          "metric": "Probands evaluated with congenital anomalies or aneurysms",
+          "value": 4
+        },
+        {
+          "metric": "Probands presenting with complex CHD and neurodevelopmental/syndromic features or fetal heterotaxy",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Exome sequencing across 11,336 congenital heart disease probands identified 30 participants with heterozygous SMAD2 loss-of-function or missense variants, with marked enrichment of heterotaxy among LoF carriers, and functional assays in isogenic iPSCs demonstrated that SMAD2 haploinsufficiency directly dysregulates 385 target genes and disrupts cardiac development transcription factor binding.",
+      "stance": "supports",
+      "source": {
+        "title": "Modeling SMAD2 Mutations in Induced Pluripotent Stem Cells Provides Insights Into Cardiovascular Disease Pathogenesis",
+        "authors": [
+          "T Ward",
+          "SU Morton",
+          "G Venturini",
+          "W Tai"
+        ],
+        "year": 2025,
+        "journal": "Journal of the American Heart Association",
+        "doi": "10.1161/JAHA.124.036860",
+        "pmid": "40028843",
+        "pmc": null,
+        "url": "https://www.ahajournals.org/doi/abs/10.1161/JAHA.124.036860",
+        "quote": "Rare SMAD2 variants (minor allele frequency \u226410-5) were identified in exome sequencing of 11 336 participants with CHD... Thirty participants with CHD had heterozygous loss-of-function or missense SMAD2 variants... Notably, there were more heterotaxy cases in probands with a SMAD2 LoF... SMAD2 haploinsufficiency altered chromatin accessibility at promoters and dysregulated expression of 385 SMAD regulated genes, including 10 CHD-associated genes."
+      },
+      "numbers": [
+        {
+          "metric": "Total CHD participants screened",
+          "value": 11336
+        },
+        {
+          "metric": "CHD participants harboring heterozygous SMAD2 LoF or missense variants",
+          "value": 30
+        },
+        {
+          "metric": "SMAD-regulated genes dysregulated by SMAD2 haploinsufficiency",
+          "value": 385
+        }
+      ]
+    },
+    {
+      "text": "De novo protein-truncating, splicing, and deleterious missense variants in SMAD2 are recognized as recurrent genetic etiologies in cohorts presenting with heterotaxy, atrioventricular septal defects, and related complex congenital heart malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetics of congenital heart disease",
+        "authors": [
+          "K Williams",
+          "J Carson",
+          "C Lo"
+        ],
+        "year": 2019,
+        "journal": "Biomolecules",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2218-273X/9/12/879",
+        "quote": "De novo protein-truncating, splicing, and deleterious missense variants in SMAD2 were identified in a [cohort of patients with heterotaxy and congenital heart disease]."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What genetic, epigenetic, or developmental modifiers determine whether an individual with a heterozygous SMAD2 truncating allele develops fetal heterotaxy/severe congenital heart disease versus adult-onset isolated thoracic aortic aneurysm?",
+      "rationale": "Because identical or functionally comparable loss-of-function alleles in SMAD2 can manifest either as perinatal complex laterality/cardiac defects or as late-onset aortopathy with normal situs, identifying modifying loci or stochastic epigenetic thresholds is essential for accurate clinical risk stratification.",
+      "promise": 0.88,
+      "est_cost": 75000
+    },
+    {
+      "question_text": "To what degree do nonsense-mediated decay efficiency and exon-junction complex positioning across different SMAD2 truncating variants correlate with embryonic lethality or phenotype severity?",
+      "rationale": "Differences in escape from nonsense-mediated decay could generate truncated peptides with dominant-negative properties versus clean haploinsufficiency, potentially distinguishing the severe developmental phenotypes from isolated vascular disease.",
+      "promise": 0.82,
+      "est_cost": 45000
+    }
+  ]
+}

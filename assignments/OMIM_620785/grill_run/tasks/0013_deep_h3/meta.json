@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"ACBD6\" \"phenotype\" organomegaly neuropathy ketoacidosis",
+    "ACBD6 deficiency clinical features organomegaly peripheral neuropathy metabolic"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://research.nhgri.nih.gov/CGD/organ_system/?cat=manifestation&organ=neuro",
+      "title": "Clinical Genomic Database - NHGRI",
+      "pmid": null,
+      "doi": null,
+      "url": "https://research.nhgri.nih.gov/CGD/organ_system/?cat=manifestation&organ=neuro",
+      "abstract_chars": 2184
+    },
+    {
+      "id": "https://reactome.org/overlays/disgenet",
+      "title": "DisGeNET overlay of gene-disease associations",
+      "pmid": null,
+      "doi": null,
+      "url": "https://reactome.org/overlays/disgenet",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://patents.google.com/patent/WO2018204764A1/en",
+      "title": "WO2018204764A1 - Identification and targeted modulation ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://patents.google.com/patent/WO2018204764A1/en",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://digitalcommons.library.tmc.edu/2025.html",
+      "title": "Content Posted in 2025 | DigitalCommons@TMC",
+      "pmid": null,
+      "doi": null,
+      "url": "https://digitalcommons.library.tmc.edu/2025.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://theses.hal.science/tel-04246521v1/file/DDOC_T_2023_0043_WIEDEMANN.pdf",
+      "title": "Arnaud Wiedemann To cite this version",
+      "pmid": null,
+      "doi": null,
+      "url": "https://theses.hal.science/tel-04246521v1/file/DDOC_T_2023_0043_WIEDEMANN.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1212/nxg.0000000000200046",
+      "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+      "pmid": null,
+      "doi": "10.1212/nxg.0000000000200046",
+      "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+      "abstract_chars": 1224
+    },
+    {
+      "id": "https://discovery.ucl.ac.uk/id/eprint/10174658/",
+      "title": "Defining the Genetic Causes of Rare Paediatric Neurological Diseases in Central Asian and Transcaucasian Populations",
+      "pmid": null,
+      "doi": null,
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10174658/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.academia.edu/download/109876062/42.pdf",
+      "title": "Gut Flora in Autistic Children as Biomarker for Autism in Thi-Qar Province/Iraq",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.academia.edu/download/109876062/42.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s11910-026-01502-5",
+      "title": "Update on Genetic Chorea",
+      "pmid": null,
+      "doi": "10.1007/s11910-026-01502-5",
+      "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+      "abstract_chars": 1648
+    },
+    {
+      "id": "40164634",
+      "title": "Utility of mass spectrometry in rare disease research and diagnosis",
+      "pmid": "40164634",
+      "doi": "10.1038/s41525-025-00487-3",
+      "url": "https://www.nature.com/articles/s41525-025-00487-3",
+      "abstract_chars": 1067
+    }
+  ],
+  "input_tokens": 5114,
+  "output_tokens": 4540,
+  "usd": 0.01618,
+  "seconds": 23.6,
+  "ok": true
+}

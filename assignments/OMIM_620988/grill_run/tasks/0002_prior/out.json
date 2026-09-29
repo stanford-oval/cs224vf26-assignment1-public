@@ -1,0 +1,57 @@
+{
+  "knowledge": "Intellectual developmental disorder, autosomal dominant 75 (OMIM #620988) is caused by heterozygous de novo pathogenic variants in DHX9 (encoding DEAH-box helicase 9, an NTP-dependent RNA/DNA helicase involved in transcription, translation, and R-loop resolution). The disorder is characterized by global developmental delay, intellectual disability ranging from mild to severe, prominent speech and language impairment (often expressive worse than receptive), infantile hypotonia, behavioral abnormalities (autism spectrum features, ADHD, anxiety), and variable dysmorphic facial features. Brain MRI findings frequently include corpus callosum abnormalities, ventriculomegaly, or delayed myelination, while seizures and musculoskeletal issues (such as joint laxity and scoliosis) occur in a subset of patients.",
+  "prior_hypothesis": "A patient cannot be diagnosed with DHX9-related intellectual developmental disorder 75 purely on distinctive dysmorphology alone, because the facial gestalt is subtle and overlaps extensively with other chromatin-remodeling and helicase-related neurodevelopmental disorders (such as DDX3X, SETD5, and Wiedemann-Steiner syndrome). However, clinical suspicion can be strongly focused by the co-occurrence of early-onset axial hypotonia, disproportionately severe expressive speech delay (often nonverbal or limited speech), joint hypermobility, and non-specific structural brain changes (corpus callosum hypoplasia/dysgenesis) in the absence of severe microcephaly, congenital heart disease, or structural limb reduction defects.",
+  "candidate_answers": [
+    {
+      "answer": "Global developmental delay / intellectual disability is present in nearly 100% of reported individuals, with expressive speech impairment being disproportionately severe compared to gross motor development.",
+      "confidence": 0.95,
+      "aspect": "Core developmental phenotype and frequency"
+    },
+    {
+      "answer": "Infantile and persistent axial hypotonia is present in roughly 70-85% of affected individuals across primary published series.",
+      "confidence": 0.85,
+      "aspect": "Neuromuscular phenotypic frequency"
+    },
+    {
+      "answer": "Dysmorphic facial features (including broad forehead, arched eyebrows, epicanthal folds, depressed nasal bridge, and thin upper lip) are present in the majority (>60%) of patients, but lack pathognomonic distinctiveness on visual gestalt alone.",
+      "confidence": 0.8,
+      "aspect": "Craniofacial phenotype"
+    },
+    {
+      "answer": "Structural central nervous system abnormalities on brain MRI (notably corpus callosum dysgenesis/hypoplasia, mild ventricular enlargement, or non-specific white matter reduction) occur in approximately 40-60% of patients who undergo neuroimaging.",
+      "confidence": 0.75,
+      "aspect": "Neuroimaging findings"
+    },
+    {
+      "answer": "Severe congenital microcephaly, major structural congenital heart disease, and limb reduction defects are typically absent, and their presence strongly argues against DHX9-related neurodevelopmental disorder.",
+      "confidence": 0.8,
+      "aspect": "Exclusionary / pertinent negative findings"
+    },
+    {
+      "answer": "Missense variants clustered within the conserved helicase and nucleotide-binding domains often result in a more severe neurodevelopmental and motor phenotype than truncating/loss-of-function variants due to potential dominant-negative or altered substrate interaction effects.",
+      "confidence": 0.7,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "DHX9",
+    "OMIM #620988",
+    "Intellectual developmental disorder, autosomal dominant 75",
+    "DEAH-box helicase 9",
+    "Speech apraxia",
+    "Hypotonia",
+    "Corpus callosum hypoplasia",
+    "R-loop resolution"
+  ],
+  "open_questions": [
+    "What are the exact numerators and denominators for each phenotypic feature in the seminal DHX9 cohort publication(s)?",
+    "Is there a validated facial computer-vision signature (e.g., DeepGestalt/Face2Gene or GestaltMatcher) that statistically separates DHX9 individuals from other syndromic intellectual disability cohorts?",
+    "Does epilepsy present as a distinct electroclinical syndrome in DHX9-associated cases, or is it variable and responsive to first-line anti-seizure medications?",
+    "Are truncating variants subject to complete nonsense-mediated decay causing pure haploinsufficiency, while missense variants cause dominant-negative interference with R-loop homeostasis?"
+  ],
+  "assumptions": [
+    "The clinical query refers specifically to constitutional heterozygous variants in DHX9 underlying autosomal dominant intellectual developmental disorder 75 (OMIM #620988), excluding somatic mutations linked solely to oncogenesis.",
+    "Reported phenotypic frequencies in the literature to date reflect a relatively small primary cohort size (likely 20 to 50 individuals total across initial multi-center series).",
+    "Differential diagnosis primarily encompasses other monogenic neurodevelopmental syndromes presenting with hypotonia, speech impairment, and non-specific dysmorphism."
+  ]
+}

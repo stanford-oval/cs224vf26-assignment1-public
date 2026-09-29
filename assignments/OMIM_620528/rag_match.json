@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620528",
+ "omim": "OMIM:620528",
+ "disease": "Neuronopathy, distal hereditary motor, autosomal dominant 11",
+ "gene": "SPTAN1",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1521,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neuronopathy, distal hereditary motor, autosomal dominant 11 (SPTAN1, OMIM:620528):\n\n[1] 620528 - NEURONOPATHY, DISTAL HEREDITARY ...\nhttps://omim.org/entry/620528\nautosomal dominant distal hereditary motor neuronopathy-11 (HMND11) is caused by heterozygous mutation in the SPTAN1 gene (182810) on chromosome 9q34.\n\n[2] Neuronopathy, Distal Hereditary Motor, Autosomal ...\nhttps://www.malacards.org/card/neuronopathy_distal_hereditary_motor_autosomal_dominant_11\nAutosomal dominant distal hereditary motor neuronopathy 11 (HMND11) is a peripheral axonal motor neuropathy characterized by selective degeneration of motor ...\n\n[3] Neuronopathy, distal hereditary motor, autosomal dominant 1\nhttps://www.ncbi.nlm.nih.gov/gtr/conditions/C1866784\nHMND11 (620528), caused by mutation in the SPTAN1 gene (182810); Finding Abnormality of the nervous system\n\n[4] Autosomal dominant by PanelApp Australia submission ...\nhttps://thegencc.org/submissions/SGC-121328.2\nSPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family. opathy to pure spastic paraplegia and ataxia. to view the public report\n\n[5] autosomal dominant distal hereditary motor neuronopathy 11\nhttps://xenbase.org/xenbase/showDisease.do?doId=0081400&tabId=0\nDefinition:An autosomal dominant distal hereditary motor neuronopathy that is characterized by juvenile or young-adult onset of distal limb muscle weakness\n\n[6] SPTAN1\nhttps://www.abcam.com/en-us/targets/sptan1/7046\nHMND11 is an autosomal dominant form with incomplete penetrance, characterized by juvenile or young-adult onset of distal limb muscle weakness and atrophy\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 20.0, male)\n  observed: Ankle clonus, Babinski sign, Lower limb hyperreflexia, Scissor gait, Lower limb spasticity, Difficulty running, Leg muscle stiffness\n  recorded ABSENT: Saccadic smooth pursuit interruptions, Somatic sensory dysfunction, Intellectual disability, Dysmetria\n\nP02 (age 2.0, female)\n  observed: Microcephaly, Delayed ability to roll over, Delayed ability to sit, Hypotonia, Simplified gyral pattern, Motor axonal neuropathy, Sensory axonal neuropathy, Hyporeflexia\n  recorded ABSENT: Scoliosis, Skeletal muscle atrophy, Proximal muscle weakness, Distal muscle weakness, Nystagmus, Hyperreflexia, Babinski sign, Hypoplasia of the pons, Cerebellar hypoplasia, Hammertoe\n\nP03 (age 18.5, male)\n  observed: Broad-based gait, Delayed ability to walk, Poor fine motor coordination, Hypotonia, Feeding difficulties, Distal joint hypermobility, High palate, Scoliosis, Flexion contracture, Increased variability in muscle fiber diameter, Hypernasal speech, Type 1 muscle fiber predominance, Impaired proprioception, Hip dysplasia, Sensory axonal neuropathy\n  recorded ABSENT: Elevated circulating creatine kinase activity\n\nP04 (age None, male)\n  observed: Weakness of the intrinsic hand muscles, Pes cavus, Areflexia of lower limbs, Distal muscle weakness, Frequent falls, Distal lower limb amyotrophy, Motor axonal neuropathy, Falls, Steppage gait\n  recorded ABSENT: Distal upper limb amyotrophy, Impaired distal tactile sensation\n\nP05 (age 40.0, female)\n  observed: Babinski sign, Impaired distal vibration sensation, Decreased motor nerve conduction velocity, Decreased sensory nerve conduction velocity, Motor conduction block, Gait disturbance, Ankle clonus, Hyperactive Achilles reflex, Hyperactive patellar reflex, Spastic paraplegia, Lower limb muscle weakness\n  recorded ABSENT: Hoffmann sign, Knee clonus\n\nP06 (age 14.0, male)\n  observed: Achilles tendon contracture, Elbow contracture, Spinal rigidity, Highly elevated creatine kinase, Frequent falls, Fatigue, Upper limb amyotrophy, Lower limb amyotrophy, Proximal upper limb muscle weakness, Stiff neck\n  recorded ABSENT: Knee contracture, Hip contracture, Wrist flexion contracture, Finger joint contracture, Scoliosis, Thoracic kyphosis, Hyperlordosis, Loss of ambulation, Arrhythmia, Abnormal left ventricular function, Scapuloperoneal amyotrophy, Scapular muscle atrophy, Distal amyotrophy, Pes cavus, Calf muscle pseudohypertrophy, Proximal amyotrophy, Generalized amyotrophy, Scapular winging, Talipes equinovarus, Distal upper limb muscle weakness, Proximal lower limb muscle weakness, Distal lower limb muscle weakness, Lipodystrophy\n\nP07 (age 52.0, male)\n  observed: Foot dorsiflexor weakness, Distal lower limb muscle weakness, Absent Achilles reflex, Decreased patellar reflex, Decreased compound muscle action potential amplitude, EMG: neuropathic changes, Distal lower limb amyotrophy\n  recorded ABSENT: Proximal upper limb muscle weakness, Proximal lower limb muscle weakness, Absent patellar reflexes, Distal upper limb muscle weakness, Abnormal exteroceptive sensation, Fasciculations, Loss of ambulation, Abnormal sensory nerve conduction velocity, Muscle spasm\n\nP08 (age 54.0, male)\n  observed: Type II diabetes mellitus, Impaired distal proprioception, Impaired vibration sensation in the lower limbs, Impaired pain sensation, Impaired temperature sensation, Impaired tactile sensation, Absent Achilles reflex, Decreased compound muscle action potential amplitude, Decreased amplitude of sensory action potentials, Hammertoe, Distal upper limb muscle weakness, Distal lower limb muscle weakness, Distal upper limb amyotrophy, Distal lower limb amyotrophy, Pes cavus\n  recorded ABSENT: Spastic gait, Babinski sign, Decreased Achilles reflex, Triceps hyperreflexia, Biceps hyperreflexia\n\nP09 (age 11.0, male)\n  observed: Hallux valgus, Hyporeflexia of lower limbs, Motor axonal neuropathy, Steppage gait, Foot dorsiflexor weakness, Lower limb muscle weakness\n  recorded ABSENT: Upper limb amyotrophy, Lower limb amyotrophy, Pes cavus, Hammertoe, Claw toe deformity, Areflexia of upper limbs, Areflexia of lower limbs, Hyporeflexia of upper limbs, Impaired vibratory sensation, Hypoesthesia, Loss of ambulation, Upper limb muscle weakness, Frequent falls, Achilles tendon contracture\n\nP10 (age 17.0, male)\n  observed: Elevated circulating creatine kinase activity, Proximal upper limb muscle weakness, Distal upper limb muscle weakness, Proximal lower limb muscle weakness, Distal lower limb muscle weakness, Ophthalmoplegia, Ptosis, Dysphagia, Feeding difficulties\n  recorded ABSENT: Respiratory insufficiency, Dysphonia, Ankle contracture, Loss of ambulation, Axial muscle weakness\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.78,
+     "for": "Demonstrates motor axonal neuropathy with distal limb weakness, distal lower limb amyotrophy, intrinsic hand muscle weakness, steppage gait, and pes cavus with confirmed preservation of tactile sensation, matching the definition of distal hereditary motor neuronopathy.",
+     "against": "Age of onset is unspecified (recorded as None), and distal upper limb amyotrophy is noted to be absent despite intrinsic hand weakness."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.14,
+     "for": "Exhibits distal lower limb amyotrophy, foot dorsiflexor and distal lower limb weakness, reduced CMAP amplitude, neuropathic EMG, and absent sensory nerve conduction abnormalities, highly consistent with pure distal motor neuronopathy.",
+     "against": "Age is 52.0 years which is older than the classic juvenile or young-adult onset described for HMND11, and upper limb involvement is absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.05,
+     "for": "Presents at juvenile age (11.0 years) with motor axonal neuropathy, steppage gait, and foot dorsiflexor weakness with normal sensory testing.",
+     "against": "Explicitly lacks lower limb and upper limb amyotrophy, which is a cardinal feature of distal hereditary motor neuronopathy."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.02,
+     "for": "Presents in young adulthood with lower limb motor deficits without sensory impairment, aligning with reports of pure spastic paraplegia within the broader SPTAN1 mutational spectrum.",
+     "against": "Presents with upper motor neuron signs (spasticity, clonus, Babinski sign) rather than the peripheral axonal motor neuronopathy defining HMND11."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.01,
+     "for": "Displays motor axonal neuropathy and hyporeflexia, phenotypes associated with SPTAN1 gene variation.",
+     "against": "Features an infantile severe neurodevelopmental presentation with microcephaly, simplified gyral pattern, and sensory axonal involvement rather than juvenile-onset distal hereditary motor neuronopathy."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical information on family history, precise age of onset, and specific SPTAN1 variant types (e.g., loss-of-function vs. dominant-negative) that differentiate the pure dHMN11 presentation from overlapping SPTAN1-associated spastic paraplegia and early-onset neurodevelopmental encephalopathy.",
+   "tokens_in": 1745,
+   "tokens_out": 3321,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.75,
+     "for": "Demonstrates classic distal hereditary motor neuronopathy features including motor axonal neuropathy, distal lower limb amyotrophy, steppage gait, and weakness of intrinsic hand muscles with confirmed absence of sensory tactile deficits.",
+     "against": "Distal upper limb amyotrophy is recorded as absent despite intrinsic hand muscle weakness."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.15,
+     "for": "Presents with a pure distal motor neuropathy pattern featuring distal lower limb amyotrophy, reduced CMAP amplitude, neuropathic EMG changes, and preserved sensory conduction.",
+     "against": "Distal upper limb muscle weakness is explicitly absent, and onset/presentation at age 52 is somewhat late compared to typical juvenile or young-adult onset."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.05,
+     "for": "Young onset (age 11) with motor axonal neuropathy, steppage gait, foot dorsiflexor weakness, and spared sensory modalities.",
+     "against": "Lacks both upper and lower limb amyotrophy, which is a hallmark finding in distal hereditary motor neuronopathy."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.03,
+     "for": "Juvenile/young-adult onset of lower extremity motor dysfunction, relevant given reports that SPTAN1 variants can span motor neuronopathy to spastic paraplegia.",
+     "against": "Presents as an upper motor neuron spastic paraplegia syndrome with hyperreflexia and Babinski sign rather than a peripheral motor axonal neuronopathy."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.02,
+     "for": "Exhibits motor axonal neuropathy caused by early-onset neurodevelopmental pathology associated with SPTAN1.",
+     "against": "Severe early infantile onset with microcephaly, simplified gyral pattern, and concomitant sensory axonal neuropathy is consistent with developmental/epileptic encephalopathy rather than isolated HMND11."
+    }
+   ],
+   "what_the_report_lacked": "Specific age-of-onset details for patient P04, family history showing autosomal dominant inheritance or incomplete penetrance, and explicit clarification of upper motor neuron signs across the distal motor neuropathy cohort.",
+   "tokens_in": 1745,
+   "tokens_out": 2080,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.55,
+     "for": "Demonstrates classic features of distal hereditary motor neuronopathy including motor axonal neuropathy, distal lower limb amyotrophy, distal muscle weakness, intrinsic hand muscle weakness, pes cavus, steppage gait, and preserved tactile sensation.",
+     "against": "Upper limb amyotrophy is recorded as absent despite hand muscle weakness, and exact age of onset is not specified."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.3,
+     "for": "Shows marked distal lower limb weakness, foot dorsiflexor weakness, distal lower limb amyotrophy, reduced CMAP, and neuropathic EMG with preserved sensory nerve conduction.",
+     "against": "The patient is 52 years old, which is older than the juvenile or young-adult onset highlighted in the disease report, and upper limb involvement is absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.08,
+     "for": "Presents at juvenile age (11 years) with motor axonal neuropathy, foot dorsiflexor weakness, and steppage gait, fitting the juvenile-onset motor neuronopathy profile.",
+     "against": "Lacks the characteristic muscle atrophy in both upper and lower limbs, which is a hallmark finding of HMND11."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.05,
+     "for": "Presents with lower limb spasticity and gait disturbance, which aligns with reports noting SPTAN1 can present across a spectrum extending to spastic paraplegia.",
+     "against": "Completely lacks peripheral motor axonal neuropathy, lower motor neuron weakness, or distal muscle atrophy."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.02,
+     "for": "Exhibits motor axonal neuropathy caused by mutations in SPTAN1-associated neurodevelopmental spectrum.",
+     "against": "Shows an early infantile encephalopathy profile with microcephaly, simplified gyral pattern, and sensory involvement, and distal muscle weakness is recorded as absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked granular phenotypic details from the original HMND11 SPTAN1 family reports\u2014such as exact age of onset, presence or absence of upper extremity involvement versus pure lower limb predilection, and distinguishing electrophysiological data\u2014which would help definitively differentiate P04 from P07.",
+   "tokens_in": 1745,
+   "tokens_out": 5106,
+   "round": 3
+  }
+ ]
+}

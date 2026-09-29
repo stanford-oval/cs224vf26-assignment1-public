@@ -1,0 +1,112 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Evidence across Stankiewicz-Isidor syndrome (STISS) cohorts confirms that overt structural palatal anomalies (such as cleft palate and bifid uvula) are uncommon secondary features rather than universal cardinal findings. However, cohort-specific frequencies vary: while large cohorts find cleft palate in only sporadic cases (roughly 5-10%), smaller cohorts such as Feresin et al. (2025) report cleft palate in 1 of 6 individuals (16.7%), directly crossing the proposed 15% threshold. Furthermore, in comparison syndromes like FBXO11 deficiency, cleft palate/bifid uvula is reported in approximately 15% (3/20 in Gregor et al., 2018), meaning the frequency in STISS does not clearly distinguish it from FBXO11-related disorder on phenotype frequency alone.",
+  "evidence": [
+    {
+      "text": "In a study expanding the phenotypic spectrum of STISS by describing six patients from two families with inherited truncating PSMD12 variants, craniofacial anomalies were universal, and one female patient presented at birth with cleft palate (1/6, 16.7%).",
+      "stance": "contradicts",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "At birth, she showed cleft palate"
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in cohort",
+          "value": 6
+        },
+        {
+          "metric": "patients with cleft palate",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 24 additional unrelated patients with STISS carrying truncating SNVs or CNVs in PSMD12, the expressivity of clinical features was highly variable, highlighting neurodevelopmental delay, preaxial hand abnormalities, and cardiac/renal anomalies as major manifestations while severe structural craniofacial malformations remain infrequent.",
+      "stance": "supports",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "The expressivity of most clinical features in STISS is highly variable. In addition to previously reported DD/ID, speech delay, cardiac and renal anomalies, we also confirmed preaxial hand abnormalities as a feature of this syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "newly reported STISS patients",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "Prenatal screening of 95 fetuses with isolated horseshoe kidney identified a pathogenic PSMD12 splice variant in one fetus, demonstrating that renal and internal malformations can be early indicators of STISS in the absence of overt clefting.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinically Significant Genetic Results in Fetuses With Isolated Horseshoe Kidney",
+        "authors": [
+          "QX Yu",
+          "YT Ni",
+          "YL Zhang",
+          "ZQ Xiao",
+          "SY Li"
+        ],
+        "year": 2026,
+        "journal": "Prenatal Diagnosis",
+        "doi": "10.1002/pd.70086",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.70086",
+        "quote": "Notably, two disease-causing variants, c.796-1G > A in PSMD12 and c.11707 C > T (p.Gln3903*) in KMT2D, were detected in each case."
+      },
+      "numbers": [
+        {
+          "metric": "total horseshoe kidney cases screened",
+          "value": 95
+        },
+        {
+          "metric": "PSMD12 variants identified",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "In small cohorts such as Feresin et al. (2025), the incidence of cleft palate is 1 in 6 (16.7%), which exceeds the 15% ceiling asserted in the hypothesis.",
+    "The baseline frequency of overt clefting in comparator syndromes like FBXO11 deficiency is approximately 15% (3/20), meaning an incidence under 15% in STISS is statistically indistinguishable and cannot serve as an effective standalone discriminator."
+  ],
+  "confidence": 0.58,
+  "new_directions": [
+    {
+      "question_text": "Does the presence of preaxial limb defects combined with interferon-stimulated gene signatures provide higher discriminatory accuracy than palatal clefting for STISS versus FBXO11 and other ubiquitin-proteasome disorders?",
+      "rationale": "Preaxial upper-limb anomalies and autoinflammatory/interferonopathy features have emerged consistently across PSMD12 cohorts but are largely absent in FBXO11-related intellectual disability.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the pooled prevalence of submucous cleft palate and velopharyngeal insufficiency in STISS when systematically evaluated by nasopharyngoscopy?",
+      "rationale": "Submucous clefts and bifid uvulae are frequently under-ascertained on standard physical exam without targeted palate inspection, potentially underestimating true midline palatal disruption.",
+      "promise": 0.72,
+      "est_cost": 15000
+    }
+  ]
+}

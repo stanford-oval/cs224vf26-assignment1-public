@@ -1,0 +1,127 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While initial reports linked SPTAN1 loss-of-function variants to autosomal dominant distal hereditary motor neuropathy (dHMN11) characterized by distal lower limb weakness and amyotrophy, subsequent investigations and deep phenotyping reveal significant diagnostic and phenotypic contradictions. Recent studies indicate that heterozygous loss-of-function variants and 9q34 microdeletions encompassing SPTAN1 can manifest as a primary distal myopathy or mixed neuropathic-myopathic disorder rather than a pure motor neuronopathy. Furthermore, incomplete penetrance has been explicitly demonstrated (e.g., 2 non-penetrant carriers in a family of 6 variant carriers), and the literature does not validate an invariant >90% clinical presentation of peroneal-onset bilateral foot drop progressing strictly before intrinsic foot or upper limb involvement in all symptomatic adult individuals.",
+  "evidence": [
+    {
+      "text": "A nonsense variant in SPTAN1 was reported to cause autosomal dominant distal hereditary motor neuropathy characterized by lower limb weakness and muscle atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "autosomal dominant distal hereditary motor neuropathy (... characterized by lower limb weakness and muscle atrophy."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Deep phenotyping of cases with SPTAN1 variants initially resembling hereditary motor neuropathy revealed myopathic or mixed neuro-myopathic features rather than a purely neurogenic presentation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+        "authors": [
+          "C Laurini",
+          "L Bosco",
+          "AA Zambon",
+          "B Sorrenti"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+        "quote": "SPTAN1 variants showing a phenotype resembling previously reported HMN cases. However, deep phenotyping led"
+      },
+      "numbers": []
+    },
+    {
+      "text": "A heterozygous 9q34 deletion encompassing SPTAN1 causing childhood-onset distal muscle weakness demonstrated a myopathic phenotype by EMG, muscle MRI, and muscle biopsy, and showed incomplete penetrance in two relatives.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "A Monticelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1038/s41431-025-01938-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01938-2",
+        "quote": "The deletion was detected through exome-sequencing based copy number variant (CNV) detection, segregates in four patients and is non-penetrant in two other relatives. Electromyography, muscle MRI and muscle biopsy revealed a myopathic disease phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients harboring 9q34 deletion",
+          "value": 4
+        },
+        {
+          "metric": "non-penetrant relatives harboring 9q34 deletion",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "General dHMN cohorts show length-dependent muscle involvement with early, severe intrinsic foot muscle involvement and reticular fat infiltration on MRI, which contrasts with the myopathic presentations observed in SPTAN1 haploinsufficiency.",
+      "stance": "neutral",
+      "source": {
+        "title": "Distal hereditary motor neuropathies",
+        "authors": [
+          "M Tazir"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0035378723011116",
+        "quote": "A length-dependent pattern of muscle involvement, a distal to proximal gradient of fat replacement along the length of the muscles and severe and widespread involvement of foot muscles were more common in patients with dHMNs."
+      },
+      "numbers": [
+        {
+          "metric": "total DM patients assessed",
+          "value": 78
+        },
+        {
+          "metric": "total dHMN patients assessed",
+          "value": 31
+        },
+        {
+          "metric": "muscle islands present in dHMN (%)",
+          "value": 54.8
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "SPTAN1 loss-of-function variants were reported as causing a classic distal hereditary motor neuropathy, but subsequent clinical evaluations including EMG, muscle MRI, and muscle biopsies have demonstrated a distal myopathy or dual neuropathic/myopathic presentation.",
+    "The hypothesis posits nearly 100% penetrance of distal lower limb weakness in symptomatic adults, yet pedigrees with SPTAN1 haploinsufficiency explicitly demonstrate non-penetrant adult carriers.",
+    "The progression sequence (strict initial peroneal involvement sparing intrinsic foot muscles until later) is contradicted by general dHMN and distal myopathy comparative MRI patterns showing severe, early involvement of intrinsic foot muscles."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What proportion of patients diagnosed with dHMN11 vs SPTAN1-related distal myopathy show neurogenic versus myogenic patterns on needle EMG and muscle biopsy?",
+      "rationale": "Clarifying whether SPTAN1 loss of function leads primarily to axonopathy or myopathy requires systematic comparison of electrophysiological and histopathological findings across all documented families.",
+      "promise": 0.85,
+      "est_cost": 12000
+    },
+    {
+      "question_text": "Does lower-extremity muscle MRI (specifically reticular fat infiltration vs moth-eaten patterns and muscle islands) reliably differentiate SPTAN1-related neuromuscular disease from other forms of dHMN?",
+      "rationale": "Tazir et al. demonstrated that MRI textural features differentiate dHMN from distal myopathies; assessing these patterns in SPTAN1 carriers will determine if its imaging phenotype clusters with dHMN or distal myopathy.",
+      "promise": 0.8,
+      "est_cost": 9500
+    }
+  ]
+}

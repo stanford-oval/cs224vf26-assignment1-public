@@ -1,0 +1,92 @@
+{
+  "verdict": "supported",
+  "rationale": "Across published cohorts with biallelic loss-of-function variants in FILIP1 (OMIM #620775), affected individuals consistently present with generalized arthrogryposis multiplex congenita involving multiple major joints across both upper (shoulder, elbow, hand) and lower (hip, knee, foot) limbs, rather than isolated distal contractures or isolated clubfoot. Schnabel et al. (2023) demonstrated congenital contractures involving shoulder, elbow, hand, hip, knee, and foot in 5 out of 5 (100%) individuals across three unrelated families. Additional reports identifying homozygous deletions and truncating variants in FILIP1 also consistently confirm multiple joint contractures and arthrogryposis multiplex congenita across cohorts, with no reported counterexamples displaying isolated clubfoot.",
+  "evidence": [
+    {
+      "text": "Schnabel et al. reported five individuals from three independent families with homozygous truncating variants in FILIP1 who all exhibited generalized congenital contractures involving shoulder, elbow, hand, hip, knee, and foot, accompanied by microcephaly, scoliosis, and dysmorphic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with both upper and lower limb joint contractures",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "Watts et al. identified three individuals from two families with pathogenic FILIP1 alterations within cohorts recruited specifically for arthrogryposis and congenital contractures, confirming multi-joint involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "arthrogryposis as the recruited condition, and 229 individuals with congenital contractures \u2026 identified three individuals from two families with FILIP1 alterations"
+      },
+      "numbers": [
+        {
+          "metric": "individuals identified with FILIP1 alterations from congenital contracture/arthrogryposis cohorts",
+          "value": "3"
+        }
+      ]
+    },
+    {
+      "text": "Chaurasia et al. identified a homozygous deletion spanning exons 3-6 of FILIP1 in a patient presenting with multiple joint contractures, reinforcing the link between FILIP1 biallelic loss of function and syndromic arthrogryposis with microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "exon 3-6 deletion (NM_015687.5), multiple joint contractures, \u2026 the existence of FILIP1-related arthrogryposis with microcephaly"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Do non-truncating missense variants or in-frame alterations in FILIP1 cause milder, non-generalized contracture phenotypes (e.g., isolated clubfoot or distal arthrogryposis)?",
+      "rationale": "Currently described patients predominantly harbor homozygous truncating or gross copy-number deletions resulting in complete loss of function and severe generalized arthrogryposis; exploring hypomorphic missense alleles may reveal an expanded, milder phenotypic spectrum.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What are the key histopathological and imaging markers distinguishing FILIP1-associated congenital myopathy/arthrogryposis from other filamin-pathway and cross-striated muscle-assembly disorders?",
+      "rationale": "Because FILIP1 regulates filamin homeostasis in striated muscle and neuronal migration, differentiating muscle biopsy features from FLNC- and other myopathy-related arthrogryposes will improve diagnostic accuracy.",
+      "promise": 0.8,
+      "est_cost": 30000.0
+    }
+  ]
+}

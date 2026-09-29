@@ -1,0 +1,62 @@
+{
+  "patterns": [
+    {
+      "pattern": "Normocephalic birth transitioning into rapid postnatal microcephaly and secondary callosal thinning discriminates PLAA deficiency from primary microcephalies and congenital agenesis",
+      "abstraction": "In genetically mediated neurodevelopmental disorders, the longitudinal temporal trajectory (progressive neurodegenerative decay versus static congenital malformation) provides stronger diagnostic discrimination than cross-sectional morphologic overlap at later stages.",
+      "instance": "In cohorts reported by Hall et al. (2017) and Falik Zaccai et al. (2017), infants were born with normal or near-normal occipitofrontal circumference but exhibited severe deceleration to below -3 to -4 SD by 2 to 4 months of age, accompanied by secondary corpus callosum thinning rather than primary agenesis of the corpus callosum.",
+      "direction": "Establishing prospective serial cranial ultrasound and MRI screening protocols in early infantile hypotonia cohorts to monitor rapid biometrics and callosal thickness changes prior to exome sequencing completion.",
+      "support": "High consistency across independent cohorts (Hall et al. 2017, Falik Zaccai et al. 2017, Dehghani et al. 2021, Han et al. 2025).",
+      "sources": [
+        "EA Hall et al. (2017) PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins 10.1016/j.ajhg.2017.03.008",
+        "TC Falik Zaccai et al. (2017) Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "JY Han et al. (2025) Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing https://www.mdpi.com/1422-0067/26/7/2929"
+      ],
+      "hypothesis": "Serial neuroimaging measuring the ratio of progressive callosal thinning to total supratentorial volume distinguishes PLAA deficiency from primary MCPH microcephalies within the first 6 months of life with greater than 90% diagnostic accuracy.",
+      "novelty": "Delineates secondary progressive callosal atrophy from primary agenesis, resolving why early normal neuroimaging and normocephaly at birth frequently mislead clinicians into excluding genetic leukoencephalopathies."
+    },
+    {
+      "pattern": "Ascertainment window drives phenotypic divergence between isolated postnatal neurodegeneration and lethal prenatal structural malformation",
+      "abstraction": "The clinical developmental stage at which genetic evaluation occurs fundamentally alters the perceived phenotypic spectrum of loss-of-function variants, segregating viable organ-restricted degeneration from lethal multiorgan dysmorphology.",
+      "instance": "Pediatric cohorts characterize PLAA deficiency as an isolated CNS neurodegenerative disorder with less than 5% non-CNS congenital anomalies (Falik Zaccai et al. 2017, Han et al. 2025), whereas prenatal exome sequencing in deceased fetuses identifies biallelic PLAA variants in cohorts selected for major ultrasound structural defects (Huang et al. 2023).",
+      "direction": "Performing systematic molecular autopsy and dual-molecular diagnosis assessments in fetal deaths to establish whether extraneural malformations reflect severe PLAA nullizygosity or secondary consanguinity-associated recessive variants.",
+      "support": "Strong evidence showing discordance between postnatal pediatric cohorts and prenatal fetal series.",
+      "sources": [
+        "TC Falik Zaccai et al. (2017) Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "W Huang et al. (2023) Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis 10.1186/s12920-022-01427-1",
+        "EA Hall et al. (2017) PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins 10.1016/j.ajhg.2017.03.008"
+      ],
+      "hypothesis": "Complete loss-of-function nullizygosity in PLAA causes embryonic or mid-gestational lethality through early neural tube or structural failure, whereas viable postnatal cases retain hypomorphic activity that permits organogenesis but fails under postnatal synaptic trafficking demands.",
+      "novelty": "Explains the contradictory literature wherein pediatric neurologists consider major extraneural malformations an exclusionary rule-out criterion while prenatal geneticists detect PLAA variants in structurally abnormal deceased fetuses."
+    },
+    {
+      "pattern": "Core synaptic vesicle and endolysosomal degradation failure manifests as multiple distinct syndromic phenocopies",
+      "abstraction": "Disruption of fundamental, ubiquitous intracellular machinery yields diverse clinical diagnoses depending on which secondary symptom\u2014epileptic spasms, motor regression, or white matter loss\u2014predominates at initial specialist evaluation.",
+      "instance": "Patients harboring pathogenic PLAA variants have been diagnosed with PEHO syndrome (Chitre et al. 2018), atypical cerebral palsy (Han et al. 2025), infantile epileptic encephalopathy (Hall et al. 2017), and pontocerebellar hypoplasia type 3 (Dehghani et al. 2021).",
+      "direction": "Synthesizing cross-diagnostic gene curation panels that unite atypical cerebral palsy, progressive microcephaly, and PEHO-like disorders under common endolysosomal trafficking diagnostic workflows.",
+      "support": "Repeated identification of PLAA variants in discrete syndromic cohorts (Chitre 2018, Han 2025, Hall 2017, Dehghani 2021).",
+      "sources": [
+        "M Chitre et al. (2018) PEHO syndrome: the endpoint of different genetic epilepsies 10.1136/jmedgenet-2018-105288",
+        "JY Han et al. (2025) Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing https://www.mdpi.com/1422-0067/26/7/2929",
+        "EA Hall et al. (2017) PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins 10.1016/j.ajhg.2017.03.008",
+        "A Dehghani et al. (2021) New Imaging and Clinical Manifestations of NDMSBA Disorder Caused by a Novel Homozygous Missense Variant of PLAA 10.21203/rs.3.rs-464604/v1"
+      ],
+      "hypothesis": "Infants classified with atypical progressive cerebral palsy lacking perinatal hypoxic-ischemic risk factors show significant enrichment for PLAA and functionally linked endolysosomal degradation genes.",
+      "novelty": "Reframes PLAA deficiency from a narrowly classified leukoencephalopathy into a shared pathophysiological endpoint for multiple diagnostic categories including PEHO-like and spastic cerebral palsy mimics."
+    },
+    {
+      "pattern": "Temporal decoupling of infratentorial cerebellar atrophy from obligate early supratentorial degeneration",
+      "abstraction": "Within multi-focal neurodegenerative syndromes, distinct anatomical subregions can exhibit uncoupled degenerative kinetics, causing conflicting cross-sectional radiological classifications depending on age at imaging.",
+      "instance": "Thin corpus callosum, delayed myelination, and cerebral atrophy are documented in over 90% of post-neonatal scans across cohorts, whereas cerebellar and vermian atrophy show extreme temporal variability, appearing as early as 14 days of age in Dehghani et al. (2021) but absent in 26.2% of PEHO-like presentations (Chitre et al. 2018).",
+      "direction": "Developing longitudinal volumetric neuroimaging studies across standardized infantile timepoints to delineate the temporal sequence of supratentorial versus infratentorial volume loss in PLAA-associated disease.",
+      "support": "Moderate: consistent documentation of supratentorial pathology contrasting with divergent reported onsets of cerebellar atrophy across case series.",
+      "sources": [
+        "EA Hall et al. (2017) PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins 10.1016/j.ajhg.2017.03.008",
+        "M Chitre et al. (2018) PEHO syndrome: the endpoint of different genetic epilepsies 10.1136/jmedgenet-2018-105288",
+        "A Dehghani et al. (2021) New Imaging and Clinical Manifestations of NDMSBA Disorder Caused by a Novel Homozygous Missense Variant of PLAA 10.21203/rs.3.rs-464604/v1",
+        "TC Falik Zaccai et al. (2017) Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy https://academic.oup.com/brain/article-abstract/140/2/370/2731777"
+      ],
+      "hypothesis": "Cerebellar volume loss in PLAA deficiency occurs as a secondary trans-synaptic retrograde degeneration following cortical pyramidal cell death, accounting for its variable onset relative to early universal supratentorial atrophy.",
+      "novelty": "Reconciles the longstanding disagreement over whether PLAA-related disorder should be classified as a primary pontocerebellar hypoplasia or an isolated supratentorial leukoencephalopathy."
+    }
+  ]
+}

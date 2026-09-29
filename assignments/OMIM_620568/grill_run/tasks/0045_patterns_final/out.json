@@ -1,0 +1,60 @@
+{
+  "patterns": [
+    {
+      "pattern": "Atypical/attenuated syndromic presentation characterized by zero penetrance of classic severe structural defects",
+      "abstraction": "Disorders historically grouped under a single eponym due to shared molecular complexes often split into severe canonical forms versus attenuated non-classic forms lacking hallmark malformations.",
+      "instance": "Patients with BRD4 mutations (CdLS6) exhibit absolute zero penetrance (0/N) for severe upper-limb reduction defects (e.g., phocomelia, oligodactyly, acheiria), whereas classical NIPBL-related CdLS frequently displays severe limb amputations. In CdLS6, musculoskeletal anomalies are strictly restricted to minor terminal signs (clinodactyly, small hands).",
+      "direction": "Establish formal clinical scoring exclusion criteria whereby classic structural transverse limb amputations actively de-prioritize BRD4 sequencing in favor of NIPBL.",
+      "support": "Strongly supported across multiple cohorts and reviews (F3, F4, F5).",
+      "sources": [
+        "F Lonardo et al. (2025) Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review 10.3390/children12111440",
+        "V Alesi et al. (2019) Confirmation of BRD4 haploinsufficiency role in Cornelia de Lange\u2013like phenotype and delineation of a 19p13.12p13.11 gene contiguous syndrome 10.1111/ahg.12289",
+        "M Kaur et al. (2023) Genomic analyses in Cornelia de Lange Syndrome and related diagnoses: Novel candidate genes, genotype\u2013phenotype correlations and common mechanisms 10.1002/ajmg.a.63247"
+      ],
+      "hypothesis": "BRD4 modulates transcriptional loading of cohesin rather than structural ring integrity, maintaining sufficient limb bud patterning threshold to completely prevent transverse reduction defects.",
+      "novelty": "High: demonstrates an absolute negative marker (absence of severe limb reduction) to distinguish a specific genetic subtype from classical presentations of the same eponymous syndrome."
+    },
+    {
+      "pattern": "Temporal phenotypic evolution from subtle classic syndromic facial traits to adult coarsening",
+      "abstraction": "Facial dysmorphology in neurodevelopmental syndromes is dynamic over ontogeny, where diagnostic canonical features soften or coarsen with age, shifting gestalt recognition away from canonical pediatric prototypes.",
+      "instance": "Pediatric BRD4 patients present with classic mild CdLS facial signs (thin upper vermilion, arched eyebrows, synophrys), but with age the facial gestalt undergoes progressive coarsening, shifting toward a broader, distinct adult non-classic cohesinopathy appearance.",
+      "direction": "Develop longitudinal computer-aided facial gestalt models (e.g., Face2Gene) trained separately on pediatric vs. adult cohorts harboring non-canonical cohesinopathy variants.",
+      "support": "Moderate-to-strong; substantiated by cohort evaluations and gestalt analysis studies, though limited by adult cohort size (F6, F8).",
+      "sources": [
+        "G Jouret et al. (2022) Understanding the new BRD4-related syndrome: Clinical and genomic delineation with an international cohort study 10.1111/cge.14141",
+        "A Latorre (2020) Evaluating Face2Gene as a tool to identify Cornelia de Lange syndrome by facial phenotypes 10.3390/ijms21031042",
+        "F Lonardo et al. (2025) Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review PMC12650802"
+      ],
+      "hypothesis": "Epigenetic chromatin deregulation mediated by BRD4 mutations progressively alters cranial connective tissue remodeling over development, causing progressive facial coarsening rather than fixed congenital morphology.",
+      "novelty": "Moderate: underscores that clinical diagnostic heuristics developed on pediatric classical CdLS fail when applied to adult non-classic cohesinopathies."
+    },
+    {
+      "pattern": "Discordance between early single-variant mechanism claims and unified cohort-level haploinsufficiency models",
+      "abstraction": "Initial discovery reports often propose functional variant-type bifurcation (e.g., missense dominant interference vs. null loss-of-function), which subsequent expanded cohorts and consensus reviews fail to replicate or flatten into a unified haploinsufficiency spectrum.",
+      "instance": "Early studies hypothesized that missense BRD4 mutations preserving NIPBL interaction lead to classic severe CdLS while truncating variants yield mild non-classic presentations; however, broader international cohorts (Jouret et al. 2022, Lonardo et al. 2025) showed that all BRD4 alterations predominantly cause an atypical, non-classic cohesinopathy phenotype.",
+      "direction": "Systematically test variant classes (missense vs. nonsense vs. microdeletion) in unified chromatin-binding assays to evaluate if residual NIPBL binding creates detectable clinical stratification or converges onto standard haploinsufficiency.",
+      "support": "Moderate; represents an explicit literature debate and consensus revision between Olley et al. 2018 and subsequent large cohort studies (F7, F9, F10, F15).",
+      "sources": [
+        "G Olley et al. (2018) BRD4 interacts with NIPBL and BRD4 is mutated in a Cornelia de Lange\u2013like syndrome 10.1038/s41588-018-0042-y",
+        "G Jouret et al. (2022) Understanding the new BRD4-related syndrome: Clinical and genomic delineation with an international cohort study 10.1111/cge.14141",
+        "F Lonardo et al. (2025) Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review 10.3390/children12111440"
+      ],
+      "hypothesis": "Both missense substitutions in functional bromodomains and heterozygous loss-of-function alleles reduce active functional BRD4 protein complexes below a critical 50% dosage threshold, yielding functionally equivalent transcriptional dysregulation without true dominant-negative gain-of-function.",
+      "novelty": "High: reconciles contradictory literature regarding genotype-phenotype correlations across rare chromatinopathy subtypes."
+    },
+    {
+      "pattern": "Phenotypic overlap among non-canonical cohesinopathies precluding purely clinical differential diagnosis",
+      "abstraction": "When core multiprotein regulatory complexes are disrupted at auxiliary or non-structural regulatory subunits, phenotypes converge onto an indistinguishable mild syndromic baseline that requires molecular confirmation over dysmorphology alone.",
+      "instance": "While CdLS6 (BRD4) can be clinically differentiated from classical NIPBL-CdLS by the absence of severe limb reduction defects, its distinction from other non-classic cohesinopathies (such as RAD21- or SMC3-related CdLS) or related intellectual disability syndromes has low clinical confidence based purely on phenotype.",
+      "direction": "Identify molecular biomarker signatures (such as episignatures or genome-wide DNA methylation episignatures) to differentiate BRD4 from RAD21 and SMC3 cohesinopathies when clinical phenotypes overlap.",
+      "support": "Strongly supported across comparative reviews and cohort studies (F4, F12).",
+      "sources": [
+        "AD Kline (2018) Diagnosis and management of Cornelia de Lange syndrome 10.1038/s41576-018-0031-0",
+        "F Lonardo et al. (2025) Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review https://www.mdpi.com/2227-9067/12/11/1440",
+        "M Kaur et al. (2023) Genomic analyses in Cornelia de Lange Syndrome and related diagnoses: Novel candidate genes, genotype\u2013phenotype correlations and common mechanisms 10.1002/ajmg.a.63247"
+      ],
+      "hypothesis": "Epigenetic profiling of BRD4 variants will yield a specific peripheral blood DNA methylation episignature distinct from both NIPBL and core structural cohesin subunits (SMC1A, SMC3, RAD21).",
+      "novelty": "Moderate: establishes clear diagnostic boundaries where physical dysmorphology reaches its limit and multiomic stratification is mandatory."
+    }
+  ]
+}

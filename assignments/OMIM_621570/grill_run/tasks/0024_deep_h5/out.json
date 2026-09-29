@@ -1,0 +1,130 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature robustly supports the qualitative conclusion that microcephaly (HP:0000252) and short stature represent primary, cardinal manifestations defining the MAU2-related Cornelia de Lange syndrome subtype (CdLS7), as established across 18 individuals by Parenti et al. and confirmed in vivo in Mau2 knockout mice. However, the exact quantitative claim that microcephaly is present in 'at least 14 of the 18 patients, or >=77%' cannot be verified directly from the provided text extracts of the Parenti et al. cohort. Furthermore, external case documentation (Peng et al., 2024) indicates phenotypic expressivity where microcephaly may be absent in MAU2 variant carriers.",
+  "evidence": [
+    {
+      "text": "Parenti et al. describe 18 individuals carrying 15 heterozygous MAU2 variants and report that affected individuals display a wide phenotypic spectrum from classic CdLS to milder presentations, identifying short stature and microcephaly as major, consistent phenotypic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12668068",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+        "quote": "We describe 18 individuals carrying 15 heterozygous MAU2 variants and demonstrate pathogenicity through functional analyses... Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals described",
+          "value": 18
+        },
+        {
+          "metric": "heterozygous MAU2 variants identified",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Parenti et al. report that the most common phenotypic features associated with MAU2 variants were short stature and microcephaly, often present from birth, and demonstrated in a heterozygous Mau2 knockout mouse model.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "In our cohort, the most common phenotypic features associated with MAU2 variants were short stature and microcephaly, often pre- sent from birth... A heterozygous Mau2 knockout mouse model recapitulates these traits, confirming the causal role of MAU2 disruption in vivo."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 18
+        }
+      ]
+    },
+    {
+      "text": "The index proband with an in-frame deletion of seven amino acids in MAU2 described by Parenti et al. presented with microcephaly, brachycephaly, and characteristic CdLS facial features.",
+      "stance": "supports",
+      "source": {
+        "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+        "authors": [
+          "I Parenti",
+          "F Diab",
+          "SR Gil",
+          "E Mulugeta",
+          "V Casa",
+          "R Berutti"
+        ],
+        "year": 2020,
+        "journal": "Cell Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "quote": "His facial features were typical for the syndrome and included microcephaly, brachycephaly"
+      },
+      "numbers": [
+        {
+          "metric": "amino acid deletion length",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "In a phenotypic comparison of CdLS cases including a Chinese patient carrying a novel MAU2 variant c.526C>T (p.Arg176Trp), microcephaly was scored as absent ('-') in one evaluated profile.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange ...",
+        "authors": [
+          "Y Peng"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/mgg3.2318",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mgg3.2318",
+        "quote": "Microcephaly, \u2212, +."
+      },
+      "numbers": [
+        {
+          "metric": "MAU2 patient cases reported in family",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The explicit numerical fraction of 'at least 14 of the 18 patients (>=77%)' is not stated in the available published text excerpts of Parenti et al., precluding strict quantitative validation of the exact cutoff.",
+    "Phenotypic assessments in MAU2 variant carriers (e.g., Peng et al., 2024) document discordance/absence of microcephaly in certain presentations, confirming that microcephaly is not universally obligate in all MAU2 cases."
+  ],
+  "confidence": 0.68,
+  "new_directions": [
+    {
+      "question_text": "What is the exact frequency, severity (SD below mean occipitofrontal circumference), and age of onset of microcephaly across the complete individual patient table of the 18 Parenti et al. subjects?",
+      "rationale": "Determining exact head circumference z-scores will establish whether cranial growth failure is progressive postnatally or congenital across all MAU2 variant classes.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Do truncating MAU2 variants causing haploinsufficiency associate with more severe microcephaly than in-frame variants that disrupt NIPBL-MAU2 heterodimerization?",
+      "rationale": "Parenti et al. identified two distinct episignatures correlated with variant mechanism, suggesting distinct genotype-phenotype correlations may govern cranial growth failure.",
+      "promise": 0.8,
+      "est_cost": 15000
+    }
+  ]
+}

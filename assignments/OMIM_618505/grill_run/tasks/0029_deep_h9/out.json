@@ -1,0 +1,93 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While early literature and OMIM (#618505) designated the condition as 'neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities'\u2014and no cases of fifth digit distal phalanx or nail hypoplasia/aplasia (HP:0001792) have been reported in KDM6B cohorts\u2014recent comprehensive multicenter cohort evaluations (Rots et al., 2023) explicitly found that both coarse facies and distal skeletal abnormalities are rare and atypical, concluding that the OMIM designation is misleading. Furthermore, the claim of 100% specificity against Coffin-Siris syndrome (CSS) fails because phenotypic differentiation cannot rely solely on the absence of distal phalanx/nail hypoplasia (which also exhibits incomplete penetrance across the molecular spectrum of CSS), and distal limb anomalies in KDM6B are too infrequent to serve as a reliable diagnostic discriminator.",
+  "evidence": [
+    {
+      "text": "In a comprehensive study delineating the clinical and molecular spectrum of KDM6B-related neurodevelopmental disorder, coarse facies and mild distal skeletal abnormalities were found to be rare and not typical, suggesting that the initial syndrome designation in OMIM is misleading for clinical assessment.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Rots",
+          "TE Jakub",
+          "C Keung",
+          "A Jackson",
+          "S Banka"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "variants, we see that coarse facies, as well as mild distal skeletal abnormalities, are rare and not typical. As it currently stands, such designation could be misleading to professional and"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of histone methylation disorders notes that KDM6B monoallelic pathogenic variants are officially classified under MIM #618505 as neurodevelopmental disorder with coarse facies and distal skeletal abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Disorders of histone methylation: molecular basis and clinical syndromes",
+        "authors": [
+          "M Al Ojaimi",
+          "BJ Banimortada",
+          "A Othman"
+        ],
+        "year": 2022,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14181",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14181",
+        "quote": "disorder with coarse facies and distal skeletal abnormalities (MIM# 618505) is an autosomal dominant disorder caused by monoallelic pathogenic variants in KDM6B (MIM*611577)."
+      },
+      "numbers": [
+        {
+          "metric": "OMIM phenotypic series entry",
+          "value": 618505
+        }
+      ]
+    },
+    {
+      "text": "Whole exome sequencing in consanguineous families identified a rare bi-allelic variant in KDM6B associated with neurodevelopmental, facial, and cognitive manifestations, referencing the OMIM designation of distal skeletal abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic Heterogeneity in Four Probands Reveals HGSNAT, KDM6B, LMNA and WFS1 Related Neurodevelopmental Disorders",
+        "authors": [
+          "BU Mudassir",
+          "M Mudassir",
+          "JB Williams",
+          "Z Agha"
+        ],
+        "year": 2024,
+        "journal": "Biomedicines",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9059/12/12/2736",
+        "quote": "distal skeletal abnormalities\u201d. Cognitive abnormalities are found in the patients with KDM6B"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "OMIM (#618505) and early cohort descriptions define KDM6B-related disorder by the presence of coarse facial features and mild distal skeletal abnormalities, whereas large systematic cohort re-evaluations (Rots et al., 2023) show these features are rare, atypical, and misleading as diagnostic markers.",
+    "The assertion of 100% clinical specificity against Coffin-Siris syndrome based on the absence of fifth-digit nail/phalanx hypoplasia is invalidated by the infrequency of limb anomalies in KDM6B and variable expressivity in Coffin-Siris syndrome cohorts."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and exact HPO classification of distal limb findings across all published KDM6B pathogenic variant carriers in international databases?",
+      "rationale": "Quantifying the exact numerator and denominator of distal skeletal anomalies will resolve whether any distinctive limb phenotype exists beyond baseline non-specific anomalies in neurodevelopmental cohorts.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Can episignatures (genome-wide DNA methylation profiling) robustly distinguish KDM6B-related neurodevelopmental disorder from BAF-complex chromatinopathies such as Coffin-Siris syndrome?",
+      "rationale": "Because overlapping facial and neurodevelopmental features can render phenotypic differentiation equivocal, peripheral blood DNA methylation signatures provide high diagnostic specificity for chromatin machinery disorders.",
+      "promise": 0.92,
+      "est_cost": 75000
+    }
+  ]
+}

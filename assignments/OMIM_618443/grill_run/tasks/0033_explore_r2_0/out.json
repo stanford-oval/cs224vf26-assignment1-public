@@ -1,0 +1,220 @@
+{
+  "hypotheses": [
+    {
+      "text": "Epileptic seizures are an infrequent secondary manifestation in MAPK8IP3-related neurodevelopmental disorder, affecting fewer than 25% of all molecularly confirmed patients and displaying significant cohort-to-cohort divergence driven by recurrent hotspot missense variants versus loss-of-function variants.",
+      "rationale": "Clinical descriptions differ regarding whether epilepsy represents a bona fide core symptom or a low-penetrance secondary feature. Establishing exact cohort numerators is critical for clinicians using seizure presence/absence as a diagnostic filter.",
+      "aspects": [
+        "epilepsy",
+        "seizure frequency",
+        "phenotype spectrum"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Platzer et al. (2019) noted in their cohort of 13 individuals with de novo variants in MAPK8IP3 that there was 'very limited evidence that seizures are truly part of' the core phenotype.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+            "authors": [
+              "K Platzer",
+              "H Sticht",
+              "SL Edwards",
+              "W Allen"
+            ],
+            "year": 2019,
+            "journal": "The American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2018.12.008",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+            "quote": "very limited evidence that seizures are truly part of"
+          },
+          "numbers": [
+            {
+              "metric": "total cohort size",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "text": "Iwasawa et al. (2019) documented seizures in 40% (2 of 5 individuals) carrying recurrent de novo missense variants p.Arg578Cys and p.Arg1146Cys, whereas the subsequent larger cohort of 32 individuals in Sudnawa et al. (2026) reported a markedly lower prevalence of seizures compared to Iwasawa's 40%.",
+          "stance": "supports",
+          "source": {
+            "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+            "authors": [
+              "KK Sudnawa",
+              "A Geltzeiler",
+              "CH Kanner"
+            ],
+            "year": 2026,
+            "journal": "Clinical Genetics",
+            "doi": "10.1111/cge.70032",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+            "quote": "However, Iwasawa (2) reported a higher prevalence of hypertonia (80%) and seizures (40%) compared to our cohort"
+          },
+          "numbers": [
+            {
+              "metric": "Iwasawa seizure percentage",
+              "value": "40%"
+            },
+            {
+              "metric": "Iwasawa seizure count",
+              "value": "2/5"
+            },
+            {
+              "metric": "Sudnawa cohort size",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Microcephaly (HP:0000252) manifests in approximately 20% to 30% of MAPK8IP3-related disorder cases and is tightly associated with specific recurrent missense alterations (such as p.Arg578Cys) rather than heterozygous truncating alleles.",
+      "rationale": "Determining whether microcephaly is a universal feature or restricted to a specific variant subpopulation helps differentiate MAPK8IP3-related disorder from primary microcephaly syndromes such as DIAPH1-associated disease.",
+      "aspects": [
+        "microcephaly",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "In the Platzer et al. (2019) discovery cohort, microcephaly was documented in exactly 3 out of 13 patients (23.1%), with standard deviations of -2.5, -2.5, and -2.7, specifically occurring in both assessed individuals harboring the recurrent missense variant p.Arg578Cys.",
+          "stance": "supports",
+          "source": {
+            "title": "Article De Novo Variants in MAPK8IP3 Cause Intellectual ...",
+            "authors": [
+              "K Platzer"
+            ],
+            "year": 2019,
+            "journal": "The American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2018.12.008",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0002929718304592",
+            "quote": "two individuals had cortical visual impairment, short stature in two and microcephaly of \u22122.5, \u22122.5, and \u22122.7 standard deviations."
+          },
+          "numbers": [
+            {
+              "metric": "microcephaly numerator in Platzer",
+              "value": 3
+            },
+            {
+              "metric": "microcephaly denominator in Platzer",
+              "value": 13
+            },
+            {
+              "metric": "microcephaly standard deviations",
+              "value": "-2.5 to -2.7 SD"
+            }
+          ]
+        },
+        {
+          "text": "Sudnawa et al. (2026) identified microcephaly as a notable recurrent symptom in their cohort of 32 individuals, while noting that missense variants generally provoked more severe structural neurodevelopmental features than LOF variants.",
+          "stance": "supports",
+          "source": {
+            "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+            "authors": [
+              "KK Sudnawa",
+              "A Geltzeiler",
+              "CH Kanner"
+            ],
+            "year": 2026,
+            "journal": "Clinical Genetics",
+            "doi": "10.1111/cge.70032",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+            "quote": "Common symptoms included cognitive impairment, hypotonia, motor difficulties, strabismus, microcephaly, and attention deficits."
+          },
+          "numbers": [
+            {
+              "metric": "total cohort size",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cortical visual impairment (CVI, HP:0001300) occurs in a minority of MAPK8IP3 patients (approximately 15% to 20%), distinguishing severe syndromic missense presentations from congenital ocular or optic nerve disorders.",
+      "rationale": "CVI can be mistaken for primary ophthalmologic impairment or classic cerebral palsy complications; pinning down its prevalence across cohorts clarifies its predictive value during phenotypic filtering.",
+      "aspects": [
+        "cortical visual impairment",
+        "ophthalmologic features"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Platzer et al. (2019) observed cortical visual impairment in 2 of 13 individuals (15.4%) in their cohort.",
+          "stance": "supports",
+          "source": {
+            "title": "Article De Novo Variants in MAPK8IP3 Cause Intellectual ...",
+            "authors": [
+              "K Platzer"
+            ],
+            "year": 2019,
+            "journal": "The American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2018.12.008",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0002929718304592",
+            "quote": "two individuals had cortical visual impairment, short stature in two and microcephaly of \u22122.5, \u22122.5, and \u22122.7 standard deviations."
+          },
+          "numbers": [
+            {
+              "metric": "cortical visual impairment numerator",
+              "value": 2
+            },
+            {
+              "metric": "cortical visual impairment denominator",
+              "value": 13
+            }
+          ]
+        },
+        {
+          "text": "Sudnawa et al. (2026) highlighted ocular/visual anomalies such as strabismus across their 32-patient series rather than widespread cortical visual blindness.",
+          "stance": "neutral",
+          "source": {
+            "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+            "authors": [
+              "KK Sudnawa",
+              "A Geltzeiler",
+              "CH Kanner"
+            ],
+            "year": 2026,
+            "journal": "Clinical Genetics",
+            "doi": "10.1111/cge.70032",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+            "quote": "Common symptoms included cognitive impairment, hypotonia, motor difficulties, strabismus, microcephaly, and attention deficits."
+          },
+          "numbers": [
+            {
+              "metric": "cohort size",
+              "value": 32
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact breakdown of EEG abnormalities (e.g. background slowing, epileptiform discharges vs. normal tracings) in non-seizure vs. seizure-manifesting MAPK8IP3 patients in the Sudnawa 2026 series?",
+      "rationale": "Sudnawa et al. noted quantitative EEG power accentuated frequency differences; understanding if subclinical epileptiform activity exists without overt seizures can clarify disease mechanism and seizure penetrance.",
+      "promise": 0.8,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "What proportion of familial/inherited heterozygous MAPK8IP3 variant carriers (such as the Yi et al. 2026 splice-site family) display microcephaly, seizures, or CVI compared to de novo missense cohorts?",
+      "rationale": "Inherited truncating/splice variants show substantial intra-familial expressivity; determining secondary feature frequencies in familial cohorts helps test whether these secondary features are strictly de novo missense-associated.",
+      "promise": 0.75,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

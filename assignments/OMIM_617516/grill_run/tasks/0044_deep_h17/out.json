@@ -1,0 +1,112 @@
+{
+  "verdict": "supported",
+  "rationale": "Across the available literature describing Stankiewicz-Isidor syndrome (STISS; OMIM #617516) caused by monoallelic PSMD12 variants, limb manifestations are consistently documented as distal, preaxial, or minor digital anomalies (including brachydactyly, polydactyly, camptodactyly, syndactyly, and minor skeletal anomalies such as ectopic fingernails). No individual with STISS has been reported with severe terminal transverse or longitudinal limb reduction malformations (such as phocomelia, ectrodactyly, or severe oligodactyly seen in Cornelia de Lange or Holt-Oram syndrome cohorts), making the presence of severe terminal limb absence an effective exclusion criterion.",
+  "evidence": [
+    {
+      "text": "PSMD12 alterations in Stankiewicz-Isidor syndrome are characterized by distal digital anomalies such as brachydactyly, polydactyly, or camptodactyly, without severe longitudinal or transverse terminal reduction defects.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodevelopmental disorders (NDD) caused by genomic alterations of the ubiquitin-proteasome system (UPS): the possible contribution of immune dysregulation to \u2026",
+        "authors": [
+          "F Ebstein",
+          "S K\u00fcry",
+          "JJ Papendorf"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.3389/fnmol.2021.733012/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2021.733012/full",
+        "quote": "Herein, limb anomalies such as brachydactyly, polydactyly, or camptodactyly are frequently \u2026 found the PSMD12, PSMC3 and PSMB1 genes that cause the Stankiewicz-Isidor syndrome ("
+      },
+      "numbers": []
+    },
+    {
+      "text": "Expanding cohort analyses in PSMD12-associated neurodevelopmental disorder (Stankiewicz-Isidor syndrome) show minor limb/digital anomalies and chilblains, confirming recurrent mild distal involvement without severe limb reductions.",
+      "stance": "supports",
+      "source": {
+        "title": "Article Stankiewicz-Isidor syndrome: expanding the clinical ...",
+        "authors": [
+          "B Isidor"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "limb abnormalities, and chilblains of the toes suggestive of Stankiewicz-Isidor syndrome. ... clinical suspicion of PSMD12-associated neurodevelopmental disorder."
+      },
+      "numbers": [
+        {
+          "metric": "citations",
+          "value": 26
+        }
+      ]
+    },
+    {
+      "text": "Investigation of inherited truncating PSMD12 variants revealed mild distal/appendicular skeletal anomalies including unilateral ectopic fingernail, without severe terminal limb reduction defects.",
+      "stance": "supports",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating  PSMD12  Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "all individuals presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies. Novel findings in our cohort included unilateral ectopic fingernail, cholesteatoma, oligodontia, and the occurrence of an ovarian teratoma."
+      },
+      "numbers": [
+        {
+          "metric": "patients described",
+          "value": 6
+        },
+        {
+          "metric": "families",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "A patient with Stankiewicz-Isidor syndrome (MIM #617516) exhibited developmental delay, mild craniofacial anomalies, and lower limbs dysmetria without terminal limb reductions.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic diagnosis of patients with neurodevelopmental disorders using array-CGH and whole exome sequencing",
+        "authors": [
+          "E Riberi"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://iris.unito.it/bitstream/2318/2109026/2/Tesi%20PhD%20Evelise%20Riberi%208.pdf",
+        "quote": "lower limbs dysmetria. Magnetic resonance did not show cerebral \u2026 Stankiewicz-Isidor syndrome (MIM# 617516). This is a NDD, including DD/ID, ASD, mild craniofacial anomalies,"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of specific digital anomalies (e.g. preaxial polydactyly vs. brachydactyly vs. syndactyly) across all published PSMD12 variants stratified by variant type (missense vs. nonsense/frameshift)?",
+      "rationale": "Determining precise variant-specific digital anomaly penetrance will confirm if specific PSMD12 protein domains drive particular limb and skeletal findings.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Do mouse or zebrafish models of psmd12 haploinsufficiency display altered sonic hedgehog (SHH) or anterior-posterior limb bud patterning to mechanistically explain the restriction to preaxial digital anomalies?",
+      "rationale": "Clarifying how proteasome subunit insufficiency alters developmental signaling pathways in the limb bud would explain why preaxial digital phenotypes occur while major longitudinal axes remain preserved.",
+      "promise": 0.88,
+      "est_cost": 45000
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621226",
+ "omim": "OMIM:621226",
+ "disease": "Spastic ataxia 11, autosomal dominant",
+ "gene": "TUBA4A",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 1589,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Spastic ataxia 11, autosomal dominant (TUBA4A, OMIM:621226):\n\n[1] 621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; ...\nhttps://omim.org/entry/621226\nAutosomal dominant spastic ataxia-11 (SPAX11) is a progressive neurologic disorder characterized by gait disturbances due to ataxia and ...\n\n[2] A mouse model of autosomal dominant spastic ataxia ... - PMC\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/\nDominant TUBA4A mutations in humans are associated with spastic ataxia type 11 (SPAX11), congenital myopathy type 26 (CMYO26), and frontotemporal dementia ...\n\n[3] A mouse model of autosomal dominant spastic ataxia and ...\nhttps://www.biorxiv.org/content/10.64898/2026.03.06.710113v1\nDominant TUBA4A mutations in humans are associated with spastic ataxia type 11 (SPAX11), congenital myopathy type 26 (CMYO26), and ...\n\n[4] Gene: TUBA4A (Ataxia)\nhttps://panelapp-aus.org/panels/271/gene/TUBA4A/\nSpastic ataxia 11, autosomal dominant, cognitive decline in 4/12, TUBA4A missense showed significant alterations in microtubule organisation and dynamics, ...\n\n[5] Spastic ataxia 11, autosomal dominant | Human diseases\nhttps://www.uniprot.org/diseases/DI-07045\nSPAX11 is an autosomal dominant, progressive form with age at onset usually in the first 2 decades. Brain imaging often shows cerebellar atrophy. Gene: TUBA4A ...\n\n[6] De novo and inherited monoallelic variants in TUBA4A ...\nhttps://mayoclinic.elsevierpure.com/en/publications/de-novo-and-inherited-monoallelic-variants-in-tuba4a-cause-ataxia\nTaken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 46.0, female)\n  observed: Nystagmus, Saccadic smooth pursuit interruptions, Functional abnormality of the bladder, Babinski sign, Dysmetria, Ankle clonus, Dysarthria, Abnormality of somatosensory evoked potentials, Abnormal motor evoked potentials, Gait disturbance, Hyperactive patellar reflex, Cerebellar atrophy, Lower limb muscle weakness, Lower limb hypertonia\n  recorded ABSENT: Dysphagia, Slowed horizontal saccades, Abnormality of visual evoked potentials, Fasciculations, Atypical behavior, Dementia, Abnormal auditory evoked potentials, Impaired distal vibration sensation, Loss of ambulation, Muscle spasm, Upper limb hypertonia\n\nP02 (age 43.0, female)\n  observed: Babinski sign, Hoffmann sign, Impaired distal vibration sensation, Decreased motor nerve conduction velocity, Decreased sensory nerve conduction velocity, Motor conduction block, Gait disturbance, Hyperactive Achilles reflex, Hyperactive patellar reflex, Spastic paraplegia\n  recorded ABSENT: Ankle clonus, Knee clonus, Lower limb muscle weakness\n\nP03 (age 43.0, female)\n  observed: Lower limb amyotrophy, Pes cavus, Motor axonal neuropathy, Foot dorsiflexor weakness, Lower limb muscle weakness, Clumsiness\n  recorded ABSENT: Upper limb amyotrophy, Hammertoe, Hallux valgus, Claw toe deformity, Areflexia of upper limbs, Areflexia of lower limbs, Hyporeflexia of lower limbs, Hyporeflexia of upper limbs, Impaired vibratory sensation, Hypoesthesia, Loss of ambulation, Upper limb muscle weakness, Frequent falls, Achilles tendon contracture\n\nP04 (age 35.0, male)\n  observed: Limb ataxia, Gait ataxia, Cerebellar vermis hypoplasia, Lower limb spasticity, Lower limb hyperreflexia, Babinski sign\n  recorded ABSENT: Cognitive impairment, Cerebellar atrophy, Dysarthria\n\nP05 (age 7.0, female)\n  observed: Elevated circulating creatine kinase activity, Respiratory insufficiency, Dysphonia, Ankle contracture, Proximal upper limb muscle weakness, Distal upper limb muscle weakness, Proximal lower limb muscle weakness, Distal lower limb muscle weakness, Ophthalmoplegia, Ptosis, Dysphagia, Axial muscle weakness\n  recorded ABSENT: Loss of ambulation\n\nP06 (age 25.0, male)\n  observed: Saccadic smooth pursuit interruptions, Nystagmus, Dysphagia, Migraine, Brisk reflexes, Unsteady gait, Ataxia, Cerebellar atrophy\n  recorded ABSENT: Facial shape deformation, Visual impairment, Short stature, Upper limb spasticity, Lower limb spasticity, Upper limb muscle weakness, Lower limb muscle weakness, Skeletal muscle atrophy, Areflexia of lower limbs, Decreased Achilles reflex, Intention tremor, Dysarthria, Dementia\n\nP07 (age 18.0, male)\n  observed: Distal lower limb muscle weakness, Distal upper limb muscle weakness, Weakness of long finger extensor muscles, Lower limb spasticity, Foot dorsiflexor weakness, Distal upper limb amyotrophy, Distal lower limb amyotrophy, Motor axonal neuropathy, Hyperreflexia, Babinski sign, Absent Achilles reflex, Tip-toe gait, Action tremor, Spastic gait, Pes cavus, Hammertoe\n  recorded ABSENT: Proximal lower limb muscle weakness, Urinary urgency, Motor delay, Intellectual disability, Pes planus, Hyperlordosis, Bulbar palsy\n\nP08 (age 15.0, female)\n  observed: Impaired distal vibration sensation, Impaired pain sensation, Babinski sign, Lower limb hyperreflexia, Spasticity, Muscle weakness, Distal amyotrophy\n  recorded ABSENT: Saccadic smooth pursuit interruptions, Dysmetria\n\nP09 (age 66.0, female)\n  observed: Dysmetria, Cerebellar atrophy, CNS demyelination, Hyperreflexia, Dysarthria, Sensory axonal neuropathy, Unsteady gait, Gaze-evoked horizontal nystagmus, Diplopia\n  recorded ABSENT: Oscillopsia, Babinski sign, Vertigo, Loss of ambulation, Strabismus, Ankle clonus, Fasciculations, Seizure, Mental deterioration, Decreased total neutrophil count, Anemia, Pancytopenia, Thrombocytopenia, Abnormality of extrapyramidal motor function\n\nP10 (age 39.0, female)\n  observed: Gait imbalance, Spastic ataxia, Upper limb spasticity, Lower limb spasticity, Dysmetria, Lower limb muscle weakness, Dysarthria, Cerebellar vermis atrophy\n  recorded ABSENT: (none recorded)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.65,
+     "for": "Demonstrates the cardinal features of spastic ataxia type 11, including explicit spastic ataxia, upper and lower limb spasticity, dysmetria, dysarthria, gait disturbance, and cerebellar vermis atrophy.",
+     "against": "No specific negative findings or discordant features are recorded."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.25,
+     "for": "Presents with progressive cerebellar ataxia, cerebellar atrophy, dysmetria, dysarthria, nystagmus, and prominent upper motor neuron signs including lower limb hypertonia, hyperreflexia, and Babinski sign.",
+     "against": "Upper limb hypertonia is recorded as absent, and additional evoked potential abnormalities are prominent."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.05,
+     "for": "Exhibits key features of spastic ataxia including limb and gait ataxia alongside lower limb spasticity, hyperreflexia, and Babinski sign.",
+     "against": "Cerebellar atrophy is explicitly recorded as absent (vermis hypoplasia is noted instead), and dysarthria is absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Displays cerebellar ataxia, cerebellar atrophy, nystagmus, and brisk reflexes with onset in early adulthood.",
+     "against": "Upper and lower limb spasticity are explicitly recorded as absent, and dysarthria is absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.02,
+     "for": "Demonstrates cerebellar ataxia, cerebellar atrophy, dysmetria, dysarthria, and brisk reflexes.",
+     "against": "Age of onset is much older than typical, CNS demyelination and axonal neuropathy are present, and Babinski sign is absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical genetic data, specific age at symptom onset, presence or absence of cognitive decline, and family history of autosomal dominant inheritance across all candidates.",
+   "tokens_in": 1716,
+   "tokens_out": 1780,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.65,
+     "for": "Presents directly with spastic ataxia, upper and lower limb spasticity, dysarthria, cerebellar dysmetria, and cerebellar vermis atrophy, matching SPAX11 hallmark features.",
+     "against": "Onset details and family history are not specified, though no conflicting features are noted or recorded absent."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.2,
+     "for": "Demonstrates progressive cerebellar ataxia and pyramidal tract dysfunction including cerebellar atrophy, dysmetria, dysarthria, gait disturbance, lower limb hypertonia, clonus, and Babinski sign.",
+     "against": "Age of evaluation is 46 years with extensive subclinical neurophysiological abnormalities that may suggest alternative or more diffuse neurodegenerative etiologies."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.08,
+     "for": "Demonstrates key hallmarks of spastic ataxia including limb and gait ataxia alongside lower limb spasticity and hyperreflexia.",
+     "against": "Reports cerebellar vermis hypoplasia rather than progressive cerebellar atrophy, with cerebellar atrophy and dysarthria explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.04,
+     "for": "Shows cerebellar atrophy, cerebellar ataxia signs (dysmetria, unsteady gait, nystagmus), dysarthria, and brisk reflexes.",
+     "against": "Older age of presentation (66 years), prominent CNS demyelination, peripheral axonal neuropathy, and recorded absence of spasticity/Babinski signs argue against typical SPAX11."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Demonstrates early-adulthood onset cerebellar ataxia, unsteady gait, nystagmus, and cerebellar atrophy.",
+     "against": "Both lower and upper limb spasticity are explicitly recorded as absent, which strongly contradicts a diagnosis of spastic ataxia."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of core clinical findings (such as whether peripheral neuropathy or cognitive decline co-occurred), age-of-onset distributions, and typical neuroimaging trajectories to differentiate SPAX11 from other spastic ataxia and hereditary spastic paraplegia syndromes.",
+   "tokens_in": 1716,
+   "tokens_out": 1534,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.65,
+     "for": "Direct presentation of spastic ataxia featuring prominent upper and lower limb spasticity, dysmetria, dysarthria, and cerebellar vermis atrophy, directly mirroring SPAX11 core findings.",
+     "against": "No detailed neurophysiological or cognitive evaluation is documented."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.22,
+     "for": "Exhibits a combination of cerebellar ataxia manifestations (dysmetria, nystagmus, dysarthria, cerebellar atrophy) and pyramidal spastic signs (lower limb hypertonia, Babinski sign, hyperreflexia).",
+     "against": "Upper limb hypertonia is explicitly recorded as absent, and older age without early-onset documentation is less typical."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.06,
+     "for": "Shows gait and limb ataxia combined with lower limb spasticity and Babinski sign.",
+     "against": "Cerebellar atrophy is explicitly recorded as absent (vermis hypoplasia is noted instead), and dysarthria is absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Presents with lower limb spasticity, spastic gait, and hyperreflexia.",
+     "against": "Prominent motor axonal neuropathy, amyotrophy, and absent Achilles reflex point toward a complex hereditary spastic paraplegia or neuropathy rather than pure spastic ataxia."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Presents with progressive cerebellar ataxia, nystagmus, unsteady gait, and cerebellar atrophy.",
+     "against": "Both lower and upper limb spasticity are explicitly recorded as absent, failing to satisfy the spastic component of SPAX11."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical vignettes with specific age-of-onset distributions, family pedigrees demonstrating autosomal dominant inheritance, and distinction between pure spastic ataxia and overlapping TUBA4A neuromuscular phenotypes.",
+   "tokens_in": 1716,
+   "tokens_out": 2655,
+   "round": 3
+  }
+ ]
+}

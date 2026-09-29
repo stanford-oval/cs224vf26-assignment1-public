@@ -1,0 +1,182 @@
+{
+  "hypotheses": [
+    {
+      "text": "Early feeding difficulties (HP:0011968) represent an incomplete and variable manifestation of Ramond-Elliott neurodevelopmental syndrome rather than an obligate diagnostic criterion, and their absence does not exclude pathogenic TRA2B variants in patients with microcephaly and infantile spasms.",
+      "rationale": "While initial cohort reports by Ramond et al. identified feeding difficulties as a common feature, Shatokhina et al. documented a confirmed patient with a de novo pathogenic TRA2B splice variant and infantile spasms who explicitly lacked feeding difficulties. Formulating this resolves whether feeding difficulty can serve as an obligatory sensitivity filter.",
+      "aspects": [
+        "phenotype sensitivity",
+        "feeding difficulties",
+        "diagnostic criteria"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the initial cohort of 12 individuals from 11 unrelated families with clustered 5' monoallelic TRA2B variants, feeding difficulties were listed among the frequently associated clinical findings alongside infantile spasms, microcephaly, and developmental delay.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": [
+            {
+              "metric": "cohort size",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "text": "A second study describing an individual harboring a confirmed pathogenic de novo TRA2B splice variant (c.170+1G>A) in the RS1 domain explicitly documented an absence of feeding difficulties despite the presence of developmental delay, global hypotonia, and pharmacoresistant infantile spasms.",
+          "stance": "contradicts",
+          "source": {
+            "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+            "authors": [
+              "O Shatokhina",
+              "V Kovalskaia",
+              "P Sparber"
+            ],
+            "year": 2023,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": "10.3390/ijms242115572",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+            "quote": "No feeding difficulties or sleep disturbances were reported, while information about delay, global hypotonia, pharmacoresistant infantile spasms, nonspecific brain lesions observed via..."
+          },
+          "numbers": [
+            {
+              "metric": "feeding difficulties presence in proband",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Infantile spasms (HP:0012469) and early epileptic encephalopathy occur in over 70% of individuals with pathogenic 5' coding region or RS1 domain TRA2B variants, establishing epileptic spasms as a sensitive hallmark within this specific mutational hot-spot.",
+      "rationale": "Both the original cohort of 12 individuals reported by Ramond et al. and the single case reported by Shatokhina et al. emphasize pharmacoresistant infantile spasms (often transitioning into Lennox-Gastaut syndrome) as a core neurological presentation linked directly to the dominant-negative overexpression of the noncanonical Tra2\u03b2-3 isoform.",
+      "aspects": [
+        "infantile spasms",
+        "epilepsy",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "In the cohort of 12 patients with clustered 5' TRA2B variants, infantile spasms were frequently observed, and 11 individuals were specifically noted in relation to infantile spasms transitioning to Lennox-Gastaut syndrome.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": "10.1016/j.gim.2022.100010",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+            "quote": "infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties\u2026 11 transitioned from infantile spasms to a Lennox-Gastaut syndrome."
+          },
+          "numbers": [
+            {
+              "metric": "individuals noted transitioning to Lennox-Gastaut syndrome",
+              "value": 11
+            },
+            {
+              "metric": "total cohort size",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "text": "The patient reported by Shatokhina et al. presenting with a confirmed pathogenic RS1-domain splice alteration developed pharmacoresistant infantile spasms alongside global hypotonia and developmental delay.",
+          "stance": "supports",
+          "source": {
+            "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+            "authors": [
+              "O Shatokhina",
+              "V Kovalskaia",
+              "P Sparber"
+            ],
+            "year": 2023,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": "10.3390/ijms242115572",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+            "quote": "The proband harbored a de novo c.170+1G>A variant in the RS1 domain of Tra2\u03b2, which was confirmed to be pathogenic through mRNA analysis... The clinical presentation of the patient was consistent with phenotypes described in one of the previous studies."
+          },
+          "numbers": [
+            {
+              "metric": "proband with pharmacoresistant infantile spasms",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The combination of early-onset feeding difficulties (HP:0011968) and infantile spasms (HP:0012469) differentiates Ramond-Elliott syndrome from non-syndromic/isolated primary microcephalies, but possesses near-zero specificity for distinguishing TRA2B from other microcephalic developmental and epileptic encephalopathies (DEEs).",
+      "rationale": "Microcephalic DEEs (such as ADARB1-related disorders, CDKL5 deficiency, and STXBP1 encephalopathy) commonly feature early intractable spasms and feeding impairment. Therefore, co-occurrence differentiates syndromic microcephalic DEEs from uncomplicated primary microcephalies, but cannot differentiate TRA2B from other epileptic encephalopathies without additional discriminating features (such as callosal hypoplasia or characteristic dysmorphisms).",
+      "aspects": [
+        "differential diagnosis",
+        "microcephalic DEE",
+        "phenotypic specificity"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "Ramond et al. noted that TRA2B patients present with a distinctive complex syndrome characterized by intellectual disability, microcephaly, brain anomalies, and infantile spasms frequently progressing to Lennox-Gastaut syndrome, distinguishing them from mild non-syndromic developmental disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and developmental trajectory of transition from infantile spasms to Lennox-Gastaut syndrome in TRA2B patients compared to other spliceosome-associated neurodevelopmental disorders?",
+      "rationale": "Ramond et al. highlight that individuals with infantile spasms frequently evolved into Lennox-Gastaut syndrome. Clarifying the exact progression dynamics across documented cases will determine whether this electroclinical evolution is specific to TRA2B-related spliceosomopathies.",
+      "promise": 0.78,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "What specific dysmorphic or neuroimaging features best differentiate TRA2B-related epileptic encephalopathy from ADARB1 deficiency and other microcephalic RNA-processing encephalopathies?",
+      "rationale": "Because seizures, microcephaly, and feeding difficulties overlap broadly across RNA-editing and RNA-splicing encephalopathies, establishing the distinguishing power of callosal hypoplasia and specific facial gestalt signs is essential.",
+      "promise": 0.85,
+      "est_cost": 0.55
+    }
+  ],
+  "dead_end": false
+}

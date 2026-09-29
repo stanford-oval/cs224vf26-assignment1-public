@@ -1,0 +1,73 @@
+{
+  "verdict": "supported",
+  "rationale": "OMIM entry *601796 explicitly records that the two unrelated patients with autosomal dominant intellectual developmental disorder-73 (MRD73; OMIM #620450) were identified by Bertoli-Avella et al. (2021). Furthermore, Bertoli-Avella et al. (2021) identified de novo loss-of-function variants in TAF4 leading to neurodevelopmental delay and intellectual disability, establishing causality and early diagnostic panel curation prior to larger phenotypic cohort descriptions.",
+  "evidence": [
+    {
+      "text": "OMIM entry *601796 documents that in two unrelated patients with autosomal dominant intellectual developmental disorder-73 (MRD73; OMIM #620450), Bertoli-Avella et al. (2021) identified two different de novo variants in TAF4.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - *601796 - TAF4 RNA POLYMERASE II, TATA BOX-BINDING PROTEIN-ASSOCIATED FACTOR, 135-KD; TAF4",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/601796",
+        "quote": "In 2 unrelated patients with autosomal dominant intellectual developmental disorder-73 (MRD73; 620450), Bertoli-Avella et al. (2021) identified 2 different"
+      },
+      "numbers": [
+        {
+          "metric": "unrelated patients with MRD73 identified by Bertoli-Avella et al. (2021)",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Bertoli-Avella et al. (2021) identified novel and candidate gene-disease associations for neurodevelopmental delay/intellectual disability, linking TAF4 loss-of-function variants to neurodevelopmental disorders.",
+      "stance": "supports",
+      "source": {
+        "title": "Combining exome/genome sequencing with data repository analysis for gene-disease discovery",
+        "authors": [
+          "Bertoli-Avella AM",
+          "Kandaswamy KK",
+          "Khan S"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC8354858",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8354858/",
+        "quote": "Expression of TAF4 varies during development and in the processes of cell differentiation; TAF4 ... Bertoli-Avella AM, et al."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Curated database entries map TAF4 autosomal dominant loss-of-function intellectual developmental disorder directly to Bertoli-Avella et al., 2021.",
+      "stance": "supports",
+      "source": {
+        "title": "Figures and data in Autosomal allelic inactivation at loci with variable replication timing and dosage sensitivity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://elifesciences.org/articles/109938/figures",
+        "quote": "TAF4, Intellectual developmental disorder (AD, LoF), Bertoli-Avella et al., 2021."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What are the exact phenotypic features and standard HPO terms in the two Bertoli-Avella et al. (2021) probands compared to later cohorts such as Janssen et al.?",
+      "rationale": "Clarifying the specific HPO annotations for the initial probands will enable a rigorous numerator/denominator comparison of hallmark discriminative features across published MRD73 cohorts.",
+      "promise": 0.85,
+      "est_cost": 0.05
+    }
+  ]
+}

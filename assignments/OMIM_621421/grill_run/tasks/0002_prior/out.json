@@ -1,0 +1,52 @@
+{
+  "knowledge": "Ramond-Elliott neurodevelopmental syndrome (OMIM #621421) is a rare autosomal dominant neurodevelopmental disorder caused by heterozygous de novo variants in TRA2B (transformer-2 beta), which encodes a member of the serine/arginine-rich (SR) family of splicing factors involved in pre-mRNA alternative splicing. Published case cohorts (notably Ramond et al., 2024) describe individuals exhibiting global developmental delay, intellectual disability, hypotonia, microcephaly, distinct craniofacial dysmorphisms (such as prominent forehead, arched eyebrows, epicanthal folds, thin upper lip vermilion, depressed nasal bridge), speech impairment often out of proportion to motor delay, and structural brain anomalies on MRI including corpus callosum dysgenesis, ventriculomegaly, or delayed myelination. Other features include feeding difficulties, mild digital anomalies, and variable behavioral abnormalities like autistic features or hyperactivity.",
+  "prior_hypothesis": "Clinical identification of Ramond-Elliott neurodevelopmental syndrome from phenotype alone relies on a core triad of early-onset global developmental delay with severe expressive speech delay, infantile axial hypotonia, and progressive/congenital microcephaly accompanied by a recognizable craniofacial gestalt (broad forehead, arched/sparse eyebrows, depressed nasal bridge, and thin upper lip) and corpus callosum abnormalities on brain neuroimaging. While overlapping with other spliceosomopathies and NDDs, the combination of marked speech impairment, absence of severe major organ malformations (e.g., congenital heart disease is relatively rare), and prominent microcephaly serves as the primary discriminator.",
+  "candidate_answers": [
+    {
+      "answer": "Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotype frequencies"
+    },
+    {
+      "answer": "Facial dysmorphisms and structural neuroimaging findings, specifically hypoplasia of the corpus callosum (HP:0002079; ~8/13) and ventriculomegaly (HP:0002119; ~6/13), alongside arched eyebrows (HP:0002553) and thin upper lip vermilion (HP:0000219), represent defining gestalt components.",
+      "confidence": 0.75,
+      "aspect": "Craniofacial and neuroimaging features"
+    },
+    {
+      "answer": "The most discriminating features distinguishing TRA2B-related syndrome from overlapping syndromes (e.g., Coffin-Siris syndrome, Pitt-Hopkins syndrome, and other spliceosome-associated neurodevelopmental disorders like HNRNP-related syndromes) are the absence of hypertrichosis/severe nail hypoplasia, lack of distinct Pitt-Hopkins hyperventilation episodes, and consistent severe expressive language deficit relative to motor milestones.",
+      "confidence": 0.7,
+      "aspect": "Differential diagnosis and discriminating findings"
+    },
+    {
+      "answer": "Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "confidence": 0.75,
+      "aspect": "Exclusionary / absent phenotypes"
+    },
+    {
+      "answer": "Genotype-phenotype correlations show that recurrent missense variants affecting critical RNA-recognition motif (RRM) or RS domains may cause distinct or more severe neurodevelopmental and microcephalic presentations compared to putative loss-of-function variants, but cohort sizes remain small.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "TRA2B",
+    "Ramond-Elliott neurodevelopmental syndrome",
+    "OMIM 621421",
+    "Spliceosomopathy",
+    "Microcephaly",
+    "Expressive language delay",
+    "Corpus callosum hypoplasia",
+    "Hypotonia"
+  ],
+  "open_questions": [
+    "What are the exact numerators and denominators for every published individual with TRA2B pathogenic variants across primary discovery papers?",
+    "Do individuals with truncating variants present with haploinsufficiency phenotypes identical to those with missense variants in the RRM domain?",
+    "Are there any documented contradictions regarding epilepsy prevalence or EEG findings across reported cohorts?",
+    "What specific dysmorphic features reliably distinguish TRA2B patients from other heterogeneous spliceosomal NDDs in blind clinical evaluation?"
+  ],
+  "assumptions": [
+    "OMIM #621421 corresponds strictly to de novo or dominant pathogenic variants in TRA2B.",
+    "The primary seminal publication defining the clinical spectrum is by Ramond, Elliott, et al. (published circa 2023-2024).",
+    "Clinical ascertainment was via broad exome/genome sequencing in undiagnosed neurodevelopmental cohorts."
+  ]
+}

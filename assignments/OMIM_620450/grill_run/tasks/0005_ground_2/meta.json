@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"intellectual developmental disorder\" clinical phenotypes OMIM 620450",
+    "TAF4 intellectual developmental disorder autosomal dominant 73 phenotype clinical features"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.mdpi.com/2073-4425/17/2/249",
+      "title": "Genetic Traces in Autism Spectrum Disorders: A Whole Exome Sequencing Study from T\u00fcrkiye",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/17/2/249",
+      "abstract_chars": 2335
+    },
+    {
+      "id": "https://omim.org/entry/620450",
+      "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/620450",
+      "title": "Clinical Synopsis - #620450 - INTELLECTUAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "title": "Intellectual Developmental Disorder, Autosomal Dominant 73",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/617863",
+      "title": "617863 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/617863",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/601796",
+      "title": "Entry - *601796 - TAF4 RNA POLYMERASE II, TATA BOX- ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/601796",
+      "abstract_chars": 0
+    },
+    {
+      "id": "35904126",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+      "pmid": "35904126",
+      "doi": "10.1002/humu.24444",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+      "abstract_chars": 897
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02214-7",
+      "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02214-7",
+      "abstract_chars": 1698
+    },
+    {
+      "id": "https://search.proquest.com/openview/856cdf116f043ef9e7b06ef9206eda59/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "title": "TAFopathies Result from Derangements in Transcriptional Regulation of Metabolism",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/856cdf116f043ef9e7b06ef9206eda59/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fnins.2022.846272/full",
+      "title": "Transcription pause and escape in neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fnins.2022.846272/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3365,
+  "output_tokens": 1490,
+  "usd": 0.00615,
+  "seconds": 12.2,
+  "ok": true
+}

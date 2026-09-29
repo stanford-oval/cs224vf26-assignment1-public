@@ -1,0 +1,92 @@
+{
+  "verdict": "supported",
+  "rationale": "Calame et al. (2023) identified a total of 20 individuals with heterozygous de novo or rare DHX9 variants exhibiting a wide phenotypic spectrum that bifurcates based on variant domain and mechanism. Rather than all 20 individuals presenting with neurodevelopmental disorders (OMIM #620988), the cohort explicitly includes individuals with axonal Charcot-Marie-Tooth disease type 2 (CMT2) driven by distinct missense variants in specific domains (such as winged helix and C-terminal RGG domains) that cause nucleolar accumulation rather than nuclear-cytoplasmic mislocalization or LoF-associated NDD phenotypes. Therefore, the denominator of individuals with core NDD phenotypes within the cohort of 20 is strictly less than 20/20.",
+  "evidence": [
+    {
+      "text": "Calame et al. (2023) reported 20 individuals with monoallelic DHX9 variants where phenotypes spanned from severe and mild neurodevelopmental disorders to adult-onset axonal Charcot-Marie-Tooth disease (CMT2), with CMT2-associated variants showing distinct functional cellular consequences.",
+      "stance": "supports",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2023.06.013",
+        "pmid": "37467750",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "Using exome sequencing and family-based rare-variant analyses, we identified 20 individuals with de novo, ultra-rare, heterozygous missense or loss-of-function (LoF) DHX9 variant alleles. Phenotypes ranged from NDDs to the distal symmetric polyneuropathy axonal Charcot-Marie-Tooth disease (CMT2)."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals_in_cohort",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "Variants in specific domains of DHX9, specifically the winged helix and C-terminal RGG domains, associate with hereditary motor and sensory neuropathy / Charcot-Marie-Tooth type 2 disease rather than central neurodevelopmental disorder phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "The role of DEAD-and DExH-box RNA helicases in neurodevelopmental disorders",
+        "authors": [
+          "J Lederbauer",
+          "S Das",
+          "A Piton",
+          "D Lessel"
+        ],
+        "year": 2024,
+        "journal": "Frontiers in Molecular Neuroscience",
+        "doi": "10.3389/fnmol.2024.1414949/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2024.1414949/full",
+        "quote": "in the winged helix and the C-terminal RGG domains of DHX9 which associate with hereditary motor and sensory neuropathy (also known as Charcot\u2013Marie Tooth type 2 disease)."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Neurological disorders caused by DHX9 gene pathogenicity present with distinct phenotypes, segregating into neurodevelopmental disorders affecting the central nervous system versus type 2 Charcot-Marie-Tooth distal symmetric peripheral polyneuropathy.",
+      "stance": "supports",
+      "source": {
+        "title": "O18: Deciphering DHX9 gene pathogenicity in neurological disorders with distinct phenotypes",
+        "authors": [
+          "T Guo",
+          "C Wang",
+          "L Gong",
+          "D Calame",
+          "J Lupski"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2949774426008150",
+        "quote": "Neurodevelopmental disorders (NDDs) encompass a spectrum of conditions affecting brain \u2026 type 2 Charcot-Marie-Tooth (CMT) - a distal symmetric peripheral polyneuropathy."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What is the exact breakdown of individuals presenting with pure NDD, pure CMT2, or overlapping central-peripheral nervous system phenotypes across an expanded multi-center DHX9 cohort?",
+      "rationale": "Clarifying whether any CMT2-harboring individuals manifest subclinical or subtle developmental delay is essential to refine HPO terms for diagnostic gene panels.",
+      "promise": 0.9,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do downstream transcriptional and R-loop profiles differ between fibroblasts from individuals with DHX9-associated NDD versus DHX9-associated CMT2?",
+      "rationale": "Determining functional molecular biomarkers will help classify variants of uncertain significance into either NDD or peripheral neuropathy disease mechanisms.",
+      "promise": 0.85,
+      "est_cost": 40000
+    }
+  ]
+}

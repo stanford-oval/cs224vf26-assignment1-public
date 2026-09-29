@@ -1,0 +1,74 @@
+{
+  "verdict": "refuted",
+  "rationale": "The provided literature does not support the hypothesis. While YWHAZ is linked to neurodevelopmental delay, intellectual disability, and behavioral abnormalities (Popov-Chang syndrome; OMIM #618428), the retrieved sources provide no cohort comparisons, phenotypic frequency breakdowns, or systematic assessments demonstrating that differentiation from Miller-Dieker syndrome or YWHAE-related microdeletion syndromes specifically relies on the absence of classic lissencephaly/pachygyria and severe congenital heart defects.",
+  "evidence": [
+    {
+      "text": "YWHAZ variants are linked to intellectual disability and global developmental delay, with functional modeling showing cognitive and morphological abnormalities in knockin models, but without cohort comparison to Miller-Dieker syndrome or YWHAE microdeletions.",
+      "stance": "neutral",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global ...",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9851741",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851741/",
+        "quote": "To investigate the role of YWHAZ gene in intellectual disability and global developmental delay, we conducted whole-exon sequencing in all of the available members from a large three-generation family and we discovered that a novel variant of the YWHAZ gene was associated with intellectual disability and global developmental delay."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Popov-Chang syndrome is described as presenting with impaired intellectual development, speech impairments, and behavioral abnormalities, but specific discriminating neuroimaging or cardiac comparative data are not provided in the source.",
+      "stance": "neutral",
+      "source": {
+        "title": "Popov-Chang Syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+        "quote": "Affected individuals have impaired intellectual development and poor or absent speech, as well as behavioral abnormalities. Most. Brain imaging tended to be ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "OMIM cataloging establishes Popov-Chang syndrome (OMIM #618428) as an autosomal dominant disorder caused by YWHAZ variants, but lacks phenotype frequency tables or diagnostic algorithms comparing it to 17p13.3 microdeletion syndromes.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry Search - NOT",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/search?index=entry&search=NOT&start=425&limit=10",
+        "quote": "Popov-Chang syndrome, 618428, AD, 3."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes a clinically tested differential framework based on the absence of lissencephaly and congenital heart defects, but the available literature lacks systematic clinical cohort studies comparing YWHAZ patients to Miller-Dieker or YWHAE microdeletion cohorts."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic neuroimaging and echocardiographic spectrum across all molecularly confirmed Popov-Chang syndrome patients in published cohorts?",
+      "rationale": "Evaluating brain MRI findings (e.g., gyration, myelination, corpus callosum) and cardiac evaluations in all known YWHAZ cases will define whether lissencephaly and congenital heart defects are genuinely absent.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "How do clinical features of isolated point mutations in 14-3-3 protein genes (YWHAZ, YWHAE) contrast with contiguous gene deletions on 17p13.3?",
+      "rationale": "Clarifying the specific phenotypic contribution of 14-3-3 isoform dysfunction versus PAFAH1B1 deletion will resolve whether structural brain malformations uniquely distinguish these entities.",
+      "promise": 0.78,
+      "est_cost": 18000.0
+    }
+  ]
+}

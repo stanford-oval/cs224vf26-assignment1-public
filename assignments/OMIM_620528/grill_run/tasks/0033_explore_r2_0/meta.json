@@ -1,0 +1,81 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SPTAN1\" \"distal hereditary motor neuropathy\" \"pes cavus\" \"Dong\"",
+    "SPTAN1 dHMN11 Dong 2021 Syding pes cavus tendon reflexes"
+  ],
+  "n_hits": 8,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+      "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+      "title": "Hereditary motor neuropathies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+      "abstract_chars": 1687
+    },
+    {
+      "id": "https://roderic.uv.es/rest/api/core/bitstreams/c4ff0b7c-b654-4158-8922-81fde1ee9184/content",
+      "title": "ESPECTRO CL\u00cdNICO Y GEN\u00c9TICO DE LAS NEUROPAT\u00cdAS HEREDITARIAS MOTORAS DISTALES EN LA COMUNIDAD VALENCIANA",
+      "pmid": null,
+      "doi": null,
+      "url": "https://roderic.uv.es/rest/api/core/bitstreams/c4ff0b7c-b654-4158-8922-81fde1ee9184/content",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620528",
+      "title": "620528 - NEURONOPATHY, DISTAL HEREDITARY ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620528",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC:11273",
+      "title": "SPTAN1 curation results for Dosage Sensitivity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC:11273",
+      "abstract_chars": 0
+    },
+    {
+      "id": "35150594",
+      "title": "De novo and dominantly inherited SPTAN1 mutations cause ...",
+      "pmid": "35150594",
+      "doi": "10.1002/mds.28959",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9232883/",
+      "abstract_chars": 1905
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/235/gene/SPTAN1/",
+      "title": "Gene: SPTAN1 (Distal myopathies)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/235/gene/SPTAN1/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40023774",
+      "title": "Heterozygous loss-of-function variants in SPTAN1 cause ...",
+      "pmid": "40023774",
+      "doi": "10.1016/j.gim.2025.101399",
+      "url": "https://repository.uantwerpen.be/docstore/d:irua:28696",
+      "abstract_chars": 1585
+    }
+  ],
+  "input_tokens": 6023,
+  "output_tokens": 4111,
+  "usd": 0.01534,
+  "seconds": 22.9,
+  "ok": true
+}

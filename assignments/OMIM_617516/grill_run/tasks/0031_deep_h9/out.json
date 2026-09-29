@@ -1,0 +1,80 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Expanded cohorts confirm that preaxial hand anomalies and skeletal malformations represent recurrent features in individuals with PSMD12 loss-of-function variants (Stankiewicz-Isidor syndrome, STISS). However, the specific quantitative prevalence range asserted in the hypothesis (at least 15-25%) cannot be conclusively verified from the provided abstract and cohort data alone, as exact numerators and denominators for preaxial hand anomalies specifically, as distinct from generalized skeletal abnormalities, are not fully detailed across every reported series.",
+  "evidence": [
+    {
+      "text": "In a study of 24 additional unrelated patients with PSMD12 truncating variants or copy-number deletions, preaxial hand abnormalities were specifically confirmed as a recurrent feature of Stankiewicz-Isidor syndrome alongside developmental delay, speech delay, cardiac, and renal anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": "34906456",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34906456/",
+        "quote": "In addition to previously reported DD/ID, speech delay, cardiac and renal anomalies, we also confirmed preaxial hand abnormalities as a feature of this syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "additional unrelated patients cohort size",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "A clinical report characterizing six individuals with truncating PSMD12 variants observed skeletal anomalies across all six patients (6/6), noting novel digital and ectodermal findings such as unilateral ectopic fingernail (onychoheterotopia), but without specific confirmation of classical preaxial hand polydactyly or thumb duplication across all subjects.",
+      "stance": "neutral",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "Portraying a completely penetrant condition with inter- and intra-familiar clinical variability, all individuals presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "affected familial individuals",
+          "value": 6
+        },
+        {
+          "metric": "patients with skeletal anomalies",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While Isidor et al. (2022) confirm preaxial hand abnormalities as a characteristic hallmark feature of STISS, the specific quantitative assertion that preaxial upper limb anomalies occur in at least 15-25% of individuals is not explicitly enumerated in the accessible literature text, where broader skeletal and digital anomalies are described with high variability."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and phenotypic spectrum of preaxial limb defects (e.g., thumb hypoplasia, preaxial polydactyly, triphalangeal thumbs) across all published PSMD12 cohorts to date?",
+      "rationale": "Clarifying exact numerators and denominators across pooled multi-center cohorts will establish precise positive likelihood ratios for HPO-based prioritization algorithms like LIRICAL.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Does the presence of preaxial hand anomalies correlate with specific PSMD12 variant classes (e.g., contiguous gene microdeletions vs. truncating nonsense/frameshift SNVs)?",
+      "rationale": "Understanding genotype-phenotype correlations could elucidate whether preaxial limb patterning defects require haploinsufficiency of PSMD12 alone or co-occurring regulatory elements on chromosome 17q24.2.",
+      "promise": 0.75,
+      "est_cost": 12000
+    }
+  ]
+}

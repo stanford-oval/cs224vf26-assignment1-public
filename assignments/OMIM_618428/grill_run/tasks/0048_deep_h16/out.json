@@ -1,0 +1,108 @@
+{
+  "verdict": "supported",
+  "rationale": "The hypothesis posits a genotype-phenotype correlation for YWHAZ: gain-of-function (GoF) missense variants (such as p.Ser230Trp) augment RAF-MEK-ERK signaling and cause cardiofaciocutaneous (CFC) syndrome-like features, whereas loss-of-function (LoF) variants lead to non-syndromic intellectual disability or neurodevelopmental disorders lacking classic RASopathy/CFC ectodermal and cardiac manifestations. Functional and clinical evidence from Popov et al. (2019) validates that p.Ser230Trp escapes casein kinase 1a negative regulation, binds excess RAF, and hyperactivates ERK signaling to drive CFC phenotypes. Conversely, curated phenotypic entries (GeneCards, Marrvel, Motta et al. 2024) confirm that YWHAZ is independently linked to autosomal dominant non-syndromic intellectual disability and that YWHAZ has distinct negative versus positive regulatory roles. A minor nosological overlap exists in OMIM/Marrvel where truncating variants (such as the 2-bp insertion 688AT) are co-cataloged under Popov-Chang syndrome, but the clinical distinction between RASopathy/CFC presentations (GoF) and non-RASopathy neurodevelopmental delay (LoF) remains well-supported.",
+  "evidence": [
+    {
+      "text": "Expression of YWHAZ p.Ser230Trp in Xenopus laevis embryos demonstrates a gain-of-function mechanism in the RAS-ERK pathway; the variant binds increased levels of Raf, escapes phosphorylation by casein kinase 1a, and augments Erk phosphorylation, driving a cardiofaciocutaneous (CFC) syndrome phenotype.",
+      "stance": "supports",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous Syndrome Activates the RAF-ERK Pathway",
+        "authors": [
+          "IK Popov",
+          "SM Hiatt",
+          "S Whalen",
+          "B Keren"
+        ],
+        "year": 2019,
+        "journal": "Frontiers in Physiology",
+        "doi": "10.3389/fphys.2019.00388",
+        "pmid": "31024343",
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00388/full",
+        "quote": "Although neither YWHAZ nor the variant promotes membrane recruitment of Raf proteins, the variant binds to more Raf and escapes phosphorylation by casein kinase 1a. Our data provide strong support to the hypothesis that the S230W variant of YWHAZ is a gain-of-function mutation in the RAS-ERK pathway and may underlie a CFC phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "YWHAZ variant position evaluated",
+          "value": "p.Ser230Trp"
+        }
+      ]
+    },
+    {
+      "text": "YWHAZ has both negative and positive roles in the regulation of the RASopathy spectrum and RAF kinase signaling.",
+      "stance": "supports",
+      "source": {
+        "title": "Molecular Genetics of Noonan Syndrome and Other RASopathies",
+        "authors": [
+          "M Motta",
+          "E Flex",
+          "S Martinelli",
+          "M Tartaglia"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1007/978-3-031-62945-7_12",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-031-62945-7_12",
+        "quote": "For clarity, the negative and positive role of YWHAZ in ... RASopathy spectrum characterized by developmental delay"
+      },
+      "numbers": []
+    },
+    {
+      "text": "YWHAZ variation is annotated with distinct clinical entities: Popov-Chang syndrome, otitis media, and autosomal dominant non-syndromic intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "YWHAZ Gene",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/YWHAZ",
+        "quote": "YWHAZ is also associated with Popov-Chang syndrome, autosomal dominant non-syndromic intellectual disability, and otitis media."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Popov-Chang syndrome in OMIM and Marrvel curates both missense GoF (p.Ser230Trp / rs1554612377) and insertion/frameshift variants (2-BP INS, 688AT / rs775309705), showing nosological grouping of different variant classes under a single OMIM title.",
+      "stance": "neutral",
+      "source": {
+        "title": "Chr8:101931257 G>A",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://marrvel.org/human/variant/8:101931257%20G%3EA",
+        "quote": "Disease/Phenotype Associated with YWHAZ curated by OMIM (1 Phenotype) ... rs775309705. POPOV-CHANG SYNDROME, YWHAZ, 2-BP INS, 688AT"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM entry ID",
+          "value": "601288"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "OMIM cataloging groups both gain-of-function missense (p.Ser230Trp) and loss-of-function frameshift variants (2-bp ins, 688AT) under the broad umbrella of Popov-Chang syndrome (OMIM #618428 / *601288), complicating the clinical nomenclature even though the cellular pathway outcomes (RASopathy vs non-RASopathy neurodevelopmental delay) diverge."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of ectodermal, cardiac, and craniofacial anomalies in patients harboring YWHAZ loss-of-function or truncating variants compared to gain-of-function missense variants in the C-terminal phosphorylation domain?",
+      "rationale": "Direct cohort phenotyping across systematically genotyped cohorts will confirm whether ectodermal and cardiac phenotypes can be strictly ruled out in LoF carriers.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do downstream transcriptional signatures of MEK/ERK activation in patient-derived fibroblasts or iPSC-derived neural progenitors differentiate YWHAZ p.Ser230Trp carriers from loss-of-function truncating carriers?",
+      "rationale": "Quantifying phospho-ERK1/2 and downstream target gene expression in human cellular models will clarify whether non-syndromic ID variants have completely normal RAS-ERK signaling.",
+      "promise": 0.82,
+      "est_cost": 40000.0
+    }
+  ]
+}

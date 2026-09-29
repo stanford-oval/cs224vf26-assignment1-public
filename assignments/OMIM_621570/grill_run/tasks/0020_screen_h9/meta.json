@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Cornelia de Lange syndrome\" \"MAU2\" phenotype \"RAD21\" \"SMC3\"",
+    "MAU2 Cornelia de Lange syndrome 7 clinical phenotype overlap RAD21 SMC3"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "title": "Cornelia de Lange spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "abstract_chars": 1660
+    },
+    {
+      "id": "https://jmg.bmj.com/content/57/5/289.abstract",
+      "title": "Cornelia de Lange syndrome: from molecular diagnosis to therapeutic approach",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/57/5/289.abstract",
+      "abstract_chars": 524
+    },
+    {
+      "id": "https://www.mdpi.com/2077-0383/13/8/2423",
+      "title": "Advancing the clinical and molecular understanding of cornelia de lange syndrome: A multidisciplinary pediatric case series and review of the literature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2077-0383/13/8/2423",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/12/7/1075",
+      "title": "Cornelia de Lange syndrome: from a disease to a broader spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/12/7/1075",
+      "abstract_chars": 1201
+    },
+    {
+      "id": "39682772",
+      "title": "Genome instability and senescence are markers of Cornelia de Lange syndrome cells",
+      "pmid": "39682772",
+      "doi": "10.3390/cells13232025",
+      "url": "https://www.mdpi.com/2073-4409/13/23/2025",
+      "abstract_chars": 876
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "https://emedicine.medscape.com/article/942792-overview",
+      "title": "Cornelia De Lange Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://emedicine.medscape.com/article/942792-overview",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "40186517",
+      "title": "Cornelia de Lange Spectrum",
+      "pmid": "40186517",
+      "doi": "10.1002/ajmg.a.64076",
+      "url": "https://analesdepediatria.org/es-download-pdf-S2341287924001388",
+      "abstract_chars": 1660
+    },
+    {
+      "id": "42103099",
+      "title": "Cohesin variants associated with human reproductive and developmental disorders",
+      "pmid": "42103099",
+      "doi": "10.1016/j.jgg.2026.04.024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1673852726001566",
+      "abstract_chars": 1022
+    },
+    {
+      "id": "PMC12668068",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+      "abstract_chars": 1103
+    }
+  ],
+  "input_tokens": 5831,
+  "output_tokens": 1224,
+  "usd": 0.00659,
+  "seconds": 28.7,
+  "ok": true
+}

@@ -1,0 +1,123 @@
+{
+  "verdict": "supported",
+  "rationale": "Direct experimental testing in human proband-derived cells demonstrates that while pathogenic variants in other MSL complex members (such as KAT8/MOF and MSL3 in Basilicata-Akhtar syndrome) produce a pronounced decrease in global bulk H4K16ac histone acetylation, patient-derived iPSCs carrying pathogenic de novo MSL2 variants maintain normal global bulk H4K16ac levels despite reductions in MSL2 protein levels. Consequently, unlike in MSL3- and KAT8-related syndromes, bulk H4K16ac biochemical assays cannot serve as a reliable diagnostic functional biomarker for Karayol-Borroto-Haghshenas syndrome, necessitating alternative molecular approaches such as specific peripheral blood DNA methylation episignatures.",
+  "evidence": [
+    {
+      "text": "In induced pluripotent stem cells (iPSCs) derived from individuals with pathogenic MSL2 variants, MSL2 protein levels were diminished, but bulk global H4K16ac levels remained unchanged compared to controls, directly contrasting with variants in other MSL complex members (MOF and MSL3) which cause pronounced reductions in global H4K16ac.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Patient-derived iPSCs ... MSL2 levels without an effect on bulk H4K16ac levels. On the other hand, the expression levels of putative MSL2 ... Induced pluripotent stem cells (iPSCs) derived from three members of our cohort exhibited reduced MSL2 levels. Remarkably, while NDD-associated variants in two other members of the MSL complex (MOF and MSL3) result in reduced H4K16ac, global H4K16ac levels are unchanged in iPSCs with MSL2 variants."
+      },
+      "numbers": [
+        {
+          "metric": "MSL2 cohort individuals identified",
+          "value": 25
+        },
+        {
+          "metric": "proband iPSC lines functionally characterized for H4K16ac",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Basilicata-Akhtar syndrome, caused by loss-of-function variants in MSL complex member MSL3, leads to perturbation of the histone acetylation equilibrium marked by significant depletion of global H4K16ac.",
+      "stance": "supports",
+      "source": {
+        "title": "Basilicata-Akhtar Syndrome: Unraveling an Ultrarare Cause of Developmental Delay",
+        "authors": [
+          "V Kulkarni",
+          "S Chalipat",
+          "A Gupta",
+          "A Bhosle",
+          "M Bahal"
+        ],
+        "year": 2024,
+        "journal": "Cureus",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cureus.com/articles/278290-basilicata-akhtar-syndrome-unraveling-an-ultrarare-cause-of-developmental-delay.pdf",
+        "quote": "The core MSL complex in mammals comprises MSL1, MSL2, \u2026 by fluctuations in the histone acetylation equilibrium, which \u2026 results in pronounced loss of H4K16ac."
+      },
+      "numbers": [
+        {
+          "metric": "previously documented Basilicata-Akhtar syndrome cases",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "text": "Literature synthesizing chromatinopathies and KAT8/NSL/MSL complex biology reinforces that MSL2 variants leading to Karayol-Borroto-Haghshenas syndrome preserve global H4K16ac levels in patient iPSCs despite causing neurodevelopmental pathology.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous Deletion of the Epigenetic Regulator PHF20 in Individuals With Neurodevelopmental Disorder",
+        "authors": [
+          "SY Dagan",
+          "H Xuan",
+          "J Rips",
+          "E Paz"
+        ],
+        "year": 2025,
+        "journal": "Human Mutation",
+        "doi": "10.1155/humu/6484814",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/humu/6484814",
+        "quote": "Finally, pathogenic variants in MSL2 lead to Karayol\u2013Borroto\u2026 global H4K16ac levels were unchanged in iPSCs with MSL2 \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Studies investigating MSL2 deficiency in experimental neurodevelopmental models note alterations in histone H4K16 acetylation, indicating that although bulk global levels may appear stable in undifferentiated stem cells, locus-specific or differentiated neural tissue-specific H4K16ac modifications may occur.",
+      "stance": "neutral",
+      "source": {
+        "title": "MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation",
+        "authors": [
+          "S Luo",
+          "S Qu",
+          "S Tan",
+          "Z Song",
+          "Y Lv",
+          "X Jia",
+          "J Tan"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s00018-026-06237-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/content/pdf/10.1007/s00018-026-06237-7_reference.pdf",
+        "quote": "Here, we elucidate the role of MSL2 in neurodevelopment and \u2026 Msl2 is a component of the MSL histone acetyltransferase \u2026 of Msl2 deficiency on the histone modification H4K16ac, we \u2026"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Does MSL2 deficiency induce locus-specific H4K16ac alterations at specific neuronal promoter or enhancer regions despite the lack of bulk global changes in total histone extraction assays?",
+      "rationale": "Patient iPSCs showed unchanged bulk H4K16ac by western blot or mass spectrometry, yet targeted dysregulation of MSL2 target genes was observed; ChIP-seq or CUT&RUN for H4K16ac in neural progenitor cells could reveal focal chromatin defects masked in bulk assays.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Can peripheral blood DNA methylation episignatures reliably differentiate Karayol-Borroto-Haghshenas syndrome from Basilicata-Akhtar syndrome and KAT8-related syndromes in clinical cohorts?",
+      "rationale": "Because bulk H4K16ac is uninformative for MSL2, clarifying whether the established blood DNA episignature has 100% specificity against other chromatinopathies within the MSL and NSL complexes is essential for frontline differential diagnosis.",
+      "promise": 0.94,
+      "est_cost": 18000
+    }
+  ]
+}

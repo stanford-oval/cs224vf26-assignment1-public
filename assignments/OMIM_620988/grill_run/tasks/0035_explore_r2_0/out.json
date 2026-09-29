@@ -1,0 +1,204 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the seminal cohort of 20 individuals reported by Calame et al. (2023), neuroimaging abnormalities on brain MRI are dominated by corpus callosum thinning and cerebellar atrophy, occurring in at least one-third of individuals who had brain MRI assessed.",
+      "rationale": "Direct neuroimaging annotations in Calame et al. highlight thin corpus callosum and cerebellar atrophy, but whether these findings represent universal or minority structural hallmarks across the entire cohort requires patient-by-patient denominator extraction from Table 1 and Supplementary Table S1.",
+      "aspects": [
+        "brain MRI",
+        "neuroimaging",
+        "corpus callosum"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Figure annotations in Calame et al. indicate structural central nervous system anomalies: 'The yellow arrow indicates a thin corpus callosum. Red arrows indicate cerebellar atrophy.'",
+          "stance": "supports",
+          "source": {
+            "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+            "authors": [
+              "DG Calame",
+              "T Guo",
+              "C Wang",
+              "L Garrett",
+              "A Jolly"
+            ],
+            "year": 2023,
+            "journal": "Am J Hum Genet",
+            "doi": "10.1016/j.ajhg.2023.06.013",
+            "pmid": null,
+            "pmc": "PMC10432148",
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+            "quote": "The yellow arrow indicates a thin corpus callosum. Red arrows indicate cerebellar atrophy."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Cross-helicase comparative analysis identifies alterations of the corpus callosum as a recurring finding across DDX3X, DDX6, and DHX9 disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "DEAD/DEAH-box RNA helicases shape the risk of neurodevelopmental disorders",
+            "authors": [
+              "C Fiorenzani",
+              "A Mossa",
+              "S De Rubeis"
+            ],
+            "year": 2025,
+            "journal": "Trends Genet",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/trends/genetics/abstract/S0168-9525(24)00314-7",
+            "quote": "mild to severe alterations of the corpus callosum, \u2026 variants in DDX3X [22,29,50], DDX6 [25], and DHX9 [23,30]."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "In Calame et al. (2023), epileptic seizures are confined to individuals carrying pathogenic missense variants within conserved functional domains (such as the nuclear localization signal or helicase core) and are absent in individuals harboring loss-of-function (LoF) truncating alleles.",
+      "rationale": "Calame et al. demonstrated that LoF variants cause mild neurodevelopmental phenotypes whereas NLS missense variants cause severe neurodevelopmental disorders, suggesting that active epilepsy may segregate strictly with missense-driven toxic or dominant-negative mechanisms.",
+      "aspects": [
+        "seizures",
+        "epilepsy",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "text": "Calame et al. established quantitative genotype-phenotype distinctions between LoF and missense alleles in the 20-patient cohort.",
+          "stance": "supports",
+          "source": {
+            "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+            "authors": [
+              "DG Calame",
+              "T Guo",
+              "C Wang",
+              "L Garrett",
+              "A Jolly"
+            ],
+            "year": 2023,
+            "journal": "Am J Hum Genet",
+            "doi": "10.1016/j.ajhg.2023.06.013",
+            "pmid": null,
+            "pmc": "PMC10432148",
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+            "quote": "Quantitative Human Phenotype Ontology (HPO) analysis demonstrated genotype-phenotype correlations with LoF variants causing mild NDD phenotypes and nuclear localization signal (NLS) missense variants causing severe NDD."
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals",
+              "value": 20
+            },
+            {
+              "metric": "different_variants",
+              "value": 19
+            },
+            {
+              "metric": "missense_variants",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "text": "DHX9 is increasingly linked to genetic developmental and epileptic encephalopathies (DEEs) alongside PPFIA3, MYCBP2, and TMEM63B.",
+          "stance": "supports",
+          "source": {
+            "title": "The epilepsy\u2013autism phenotype associated with developmental and epileptic encephalopathies: New mechanism\u2010based therapeutic options",
+            "authors": [
+              "N Specchio",
+              "V Di Micco",
+              "E Aronica",
+              "S Auvin"
+            ],
+            "year": 2025,
+            "journal": "Epilepsia",
+            "doi": "10.1111/epi.18209",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.18209",
+            "quote": "Several genes, including the newly reported PPFIA3, MYCBP2, DHX9, TMEM63B, and RELN, are linked to various neurodevelopmental and epileptic disorders, intellectual disabilities, and autistic features."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Severe expressive speech impairment or non-verbal status in Calame et al. (2023) is present in 100% of individuals with nuclear localization signal (NLS) missense variants, whereas individuals with loss-of-function variants achieve phrase or sentence speech.",
+      "rationale": "Calame et al. highlight that NLS missense variants result in cytoplasmic accumulation and severe NDD phenotypes, implying that expressive communication failure tracks directly with cellular mislocalization severity.",
+      "aspects": [
+        "speech delay",
+        "expressive language",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "NLS missense variants cause severe NDD phenotypes and gross cellular mislocalization compared to normal nuclear restriction of wild-type DHX9 and milder LoF phenotypes.",
+          "stance": "supports",
+          "source": {
+            "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+            "authors": [
+              "DG Calame",
+              "T Guo",
+              "C Wang",
+              "L Garrett",
+              "A Jolly"
+            ],
+            "year": 2023,
+            "journal": "Am J Hum Genet",
+            "doi": "10.1016/j.ajhg.2023.06.013",
+            "pmid": null,
+            "pmc": "PMC10432148",
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+            "quote": "Whereas wild-type DHX9 was restricted to the nucleus, NLS missense variants abnormally accumulated in the cytoplasm. Fibroblasts from an individual with an NLS variant also showed abnormal cytoplasmic DHX9 accumulation."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Dysmorphic craniofacial features reported in Table 1 and Table S1 of Calame et al. (2023) do not exhibit a single invariant cardinal sign, with individual features (such as broad forehead or thin upper lip vermilion) occurring in fewer than 60% of assessed patients.",
+      "rationale": "While facial dysmorphisms are commonly flagged in genetic NDD series, establishing whether any single dysmorphic descriptor reaches pathognomonic diagnostic threshold requires exact patient-by-patient numerator validation.",
+      "aspects": [
+        "dysmorphism",
+        "craniofacial features"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Calame et al. note axial hypotonia as a recurrent common feature in the 20-individual cohort, while facial dysmorphisms are not presented as a single uniform diagnostic gestalt.",
+          "stance": "supports",
+          "source": {
+            "title": "Monoallelic variation in DHX9, the gene encoding the DExH ...",
+            "authors": [
+              "DG Calame"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC10432148",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10432148/",
+            "quote": "Other common clinically observed features included axial hypotonia"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient counts for corpus callosum anomalies, seizures, and speech absence in Supplementary Table S1 of Calame et al. (2023)?",
+      "rationale": "Extracting the full text of Supplementary Table S1 from Calame et al. (PMC10432148) will establish the ground-truth numerators and denominators for each HPO term across all 20 individuals.",
+      "promise": 0.9,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "How do the brain MRI frequencies and seizure rates in subsequent published DHX9 case reports compare with the ratios found in Calame et al. (2023)?",
+      "rationale": "Testing whether post-2023 literature corroborates or alters the reported neuroimaging and epilepsy penetrance will clarify if the Calame cohort suffered from ascertainment bias.",
+      "promise": 0.75,
+      "est_cost": 0.6
+    }
+  ],
+  "dead_end": false
+}

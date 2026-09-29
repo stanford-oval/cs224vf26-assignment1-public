@@ -1,0 +1,68 @@
+{
+  "verdict": "supported",
+  "rationale": "Extensive assessment of the literature demonstrates that isolated intragenic loss-of-function variants in PSMD12 (such as nonsense variants p.Arg289* and p.Tyr111*) are sufficient to recapitulate the complete core triad of Stankiewicz-Isidor syndrome (STISS)\u2014namely developmental delay/intellectual disability, craniofacial dysmorphism, and skeletal/digital anomalies\u2014with complete penetrance. While large microdeletions of 17q24.2 originally identified the locus, cohort studies comparing truncating single-nucleotide variants and copy-number deletions establish that haploinsufficiency of PSMD12 alone drives this syndromic phenotype without requiring disruption of contiguous genes.",
+  "evidence": [
+    {
+      "text": "All six individuals from two unrelated families harboring isolated inherited truncating PSMD12 variants presented with developmental delay, intellectual disability, craniofacial dysmorphisms, and skeletal anomalies, demonstrating 100% penetrance of the core triad from point mutations alone.",
+      "stance": "supports",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "Portraying a completely penetrant condition with inter- and intra-familiar clinical variability, all individuals presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "penetrance of DD/ID, craniofacial, and skeletal anomalies in cohort with truncating variants",
+          "value": "6/6"
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of 24 unrelated patients with STISS harboring truncating single nucleotide variants or CNVs confirmed that isolated truncating variants in PSMD12 disrupt intracellular proteostasis and present with DD/ID, facial dysmorphism, and skeletal hand malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "34906456",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34906456/",
+        "quote": "We report 24 additional unrelated patients with STISS with various truncating single nucleotide variants or copy-number variant deletions involving PSMD12... In addition to previously reported DD/ID, speech delay, cardiac and renal anomalies, we also confirmed preaxial hand abnormalities as a feature of this syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "number of reported STISS patients across SNVs and CNVs",
+          "value": 24
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "Do non-core features of 17q24.2 microdeletions (e.g., specific organ malformations or severity of growth impairment) diverge significantly between intragenic PSMD12 LoF variants and multi-gene contiguous deletions?",
+      "rationale": "While the core triad is recapitulated by PSMD12 haploinsufficiency alone, systematic quantification of secondary phenotypes (such as cardiac, renal, or endocrine anomalies) between isolated SNV LoF cases and microdeletion cases would clarify if contiguous genes act as phenotypic modifiers.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

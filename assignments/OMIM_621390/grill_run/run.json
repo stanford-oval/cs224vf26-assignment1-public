@@ -1,0 +1,203 @@
+{
+  "question": "For Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (OMIM #621390), caused by variants in KLHL20: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.40543633000000007,
+    "by_phase": {
+      "init": 0.03149,
+      "plan": 0.011177,
+      "explore": 0.049819,
+      "screen": 0.098144,
+      "deep": 0.17227200000000004,
+      "measure": 0.00799233,
+      "finalize": 0.034542,
+      "artifact": 0.0
+    },
+    "embeddings": 0.0005825299999999998
+  },
+  "allocations": [
+    {
+      "direction": "d1",
+      "question": "What are the exact numerators and denominators for reported phenotypic features across the definitive discovery papers (e.g., initial cohort description)?",
+      "allocated": 1.98,
+      "spent": 0.009997000000000006,
+      "rationale": "Directly targets the primary gap by extracting exact numerators, denominators, and verbatim phenotypic descriptions from the Sleyp et al. 2022 discovery cohort."
+    },
+    {
+      "direction": "d15",
+      "question": "Build on the confirmed prior: Discriminating features that help distinguish KLHL20-related disease from other DEEs (e.g., CDKL5, SCN1A, STXBP1) include a distinctive combination of dysmorphic facial features alongside prominent behavioral alterations (hyperactivity, stereotypies, or aggressive bursts) rather than pure non-dysmorphic epileptic encephalopathy, though phenotypic discrimination alone is insufficient without molecular testing.",
+      "allocated": 1.98,
+      "spent": 0.012445500000000012,
+      "rationale": "Directly addresses clinical discriminators separating KLHL20-related encephalopathy from major differential diagnoses including CDKL5, SCN1A, and STXBP1."
+    },
+    {
+      "direction": "d22",
+      "question": "What are the exact numerator and denominator frequencies for specific HPO terms (such as Global developmental delay HP:0001263, Seizures HP:0001250, and specific facial dysmorphisms) across all documented KLHL20 patients in the complete Sleyp et al. supplementary clinical table?",
+      "allocated": 1.95,
+      "spent": 0.013868500000000006,
+      "rationale": "Directly extracts exact numerators, denominators, and standardized HPO terms for core clinical features and absent findings from the primary Sleyp et al. cohort tables."
+    },
+    {
+      "direction": "d23",
+      "question": "Does seizure semiology, age of onset, or penetrance differ between carriers of the recurrent Kelch-domain p.Gly357Arg variant versus non-recurrent missense variants in KLHL20?",
+      "allocated": 1.9,
+      "spent": 0.013507999999999992,
+      "rationale": "Directly evaluates phenotypic divergence in seizure severity and DEE classification between recurrent p.Gly357Arg and non-recurrent Kelch missense variants to resolve genotype-phenotype questions."
+    }
+  ],
+  "patterns": 4,
+  "artifacts": 0,
+  "avg_explore_cost": 0.01245475,
+  "avg_test_cost": 0.009216625,
+  "snapshots": [
+    {
+      "cost": 0.40543633000000007,
+      "coverage": 0.5,
+      "quality": 0.5,
+      "answeredness": 0.25,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 16,
+      "n_pooled": 8,
+      "n_binned": 8,
+      "n_conflicted": 4,
+      "n_refuted": 4,
+      "n_evidence": 59,
+      "n_covered": 3,
+      "n_asks": 6,
+      "n_open": 47,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "Reported clinical phenotypes in individuals with KLHL20-related neurodevelopmental disorder (OMIM #621390), including verbatim wording from the paper and standard HPO term if identifiable.",
+        "Frequency of each phenotype reported as numerator and denominator per cohort (not percentage alone), attached to a resolvable source (PMID or DOI).",
+        "Phenotypic findings or claims where one paper reports a finding and another paper explicitly contradicts it."
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_621390/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "Reported clinical phenotypes in individuals with KLHL20-related neurodevelopmental disorder (OMIM #621390), including verbatim wording from the paper and standard HPO term if identifiable.",
+      "Frequency of each phenotype reported as numerator and denominator per cohort (not percentage alone), attached to a resolvable source (PMID or DOI).",
+      "Phenotypic findings or claims where one paper reports a finding and another paper explicitly contradicts it."
+    ],
+    "explored_texts": [
+      "What are the exact numerators and denominators for reported phenotypic features across the definitive discovery papers (e.g., initial cohort description)?",
+      "Build on the confirmed prior: Discriminating features that help distinguish KLHL20-related disease from other DEEs (e.g., CDKL5, SCN1A, STXBP1) include a distinctive combination of dysmorphic facial features alongside prominent behavioral alterations (hyperactivity, stereotypies, or aggressive bursts) rather than pure non-dysmorphic epileptic encephalopathy, though phenotypic discrimination alone is insufficient without molecular testing.",
+      "What are the exact numerator and denominator frequencies for specific HPO terms (such as Global developmental delay HP:0001263, Seizures HP:0001250, and specific facial dysmorphisms) across all documented KLHL20 patients in the complete Sleyp et al. supplementary clinical table?",
+      "Does seizure semiology, age of onset, or penetrance differ between carriers of the recurrent Kelch-domain p.Gly357Arg variant versus non-recurrent missense variants in KLHL20?"
+    ],
+    "explore_costs": [
+      0.009997,
+      0.0124455,
+      0.0138685,
+      0.013508
+    ],
+    "test_costs": [
+      0.0063825,
+      0.0053935,
+      0.005838,
+      0.0076695,
+      0.0095835,
+      0.0132475,
+      0.009064,
+      0.009403,
+      0.0048565,
+      0.005848,
+      0.004889,
+      0.0055545,
+      0.0068715,
+      0.0064715,
+      0.0125625,
+      0.0136365,
+      0.0083155,
+      0.0120935,
+      0.00947,
+      0.01267,
+      0.0064735,
+      0.0067745,
+      0.0055195,
+      0.008095,
+      0.006003,
+      0.005504,
+      0.0092475,
+      0.012654,
+      0.0075535,
+      0.0102615,
+      0.0097685,
+      0.012741
+    ],
+    "task_n": 47,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (OMIM #621390), caused by variants in KLHL20: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.40543633000000007,
+    "budget_by_phase": {
+      "init": 0.03149,
+      "plan": 0.011177,
+      "explore": 0.049819,
+      "screen": 0.098144,
+      "deep": 0.17227200000000004,
+      "measure": 0.00799233,
+      "finalize": 0.034542,
+      "artifact": 0.0
+    }
+  }
+}

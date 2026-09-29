@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Olley\" \"BRD4\" \"Author Correction\" \"Nature Genetics\"",
+    "PMID 30054598 29379197 Olley BRD4 Nature Genetics author correction erratum"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "10.1002/imm3.70005",
+      "title": "FigureYa: a standardized visualization framework for enhancing biomedical data interpretation and research efficiency",
+      "pmid": null,
+      "doi": "10.1002/imm3.70005",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/imm3.70005",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/29379197/",
+      "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29379197/",
+      "abstract_chars": 101
+    },
+    {
+      "id": "https://omim.org/entry/608749",
+      "title": "608749 - BROMODOMAIN-CONTAINING PROTEIN 4; BRD4",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/608749",
+      "abstract_chars": 0
+    },
+    {
+      "id": "34611363",
+      "title": "BRD4 orchestrates genome folding to promote neural crest ...",
+      "pmid": "34611363",
+      "doi": "10.1038/s41588-021-00934-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34611363/",
+      "abstract_chars": 1300
+    },
+    {
+      "id": "https://www.semanticscholar.org/paper/Publisher-Correction%3A-BRD4-interacts-with-NIPBL-and-Olley-Ansari/5eb52c2e065378eee28b1e6dc5db02558bb45fe1",
+      "title": "[PDF] Publisher Correction: BRD4 interacts with NIPBL and ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/Publisher-Correction%3A-BRD4-interacts-with-NIPBL-and-Olley-Ansari/5eb52c2e065378eee28b1e6dc5db02558bb45fe1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9067/12/11/1440",
+      "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+      "abstract_chars": 980
+    }
+  ],
+  "input_tokens": 3943,
+  "output_tokens": 2511,
+  "usd": 0.0095,
+  "seconds": 23.4,
+  "ok": true
+}

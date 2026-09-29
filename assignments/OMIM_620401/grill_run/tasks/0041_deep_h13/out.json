@@ -1,0 +1,72 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature explicitly supports the hypothesis. Birnbaum et al. identified 13 affected individuals across 8 unrelated families of Ashkenazi Jewish origin sharing an identical homozygous frameshift founder variant in SGSM3, confirming multi-kindred segregation. Subsequent studies (e.g., Turkyilmaz et al., 2025) corroborate these findings while identifying distinct loss-of-function variants in independent non-Ashkenazi populations.",
+  "evidence": [
+    {
+      "text": "Birnbaum et al. identified 13 patients from 8 distinct families of Ashkenazi Jewish origin who all harbored the identical homozygous frameshift founder variant in the SGSM3 gene, with complete co-segregation in all available family members.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous ...",
+        "authors": [
+          "Rivka Birnbaum",
+          "Shlomit Ezer",
+          "Nava Shaul-Lotan",
+          "Avital"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://scispace.com/papers/intellectual-disability-syndrome-associated-with-a-2c9j2w16gg",
+        "quote": "We identified 13 patients from 8 families of Ashkenazi Jewish origin who all carried the same homozygous frameshift variant in SGSM3 gene. The variant was predicted to cause a loss of function, potentially leading to impaired protein structure or function. The variant co-segregated with the disease in all available family members."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 13
+        },
+        {
+          "metric": "families",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Turkyilmaz et al. cite Birnbaum et al. as first establishing the Mendelian association between SGSM3 and intellectual disability across multiple Ashkenazi Jewish families carrying a founder variant, while identifying a novel homozygous stop-gain variant in two siblings from an independent pedigree.",
+      "stance": "supports",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14631",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "It was first reported by Birnbaum et al. that the SGSM3 gene might be associated with a Mendelian inherited disease in families of Ashkenazi Jews with clinical manifestations of intellectual disability (ID)."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What is the population carrier frequency of the Ashkenazi Jewish founder frameshift allele in SGSM3 in large population databases such as gnomAD or Dor Yeshorim cohorts?",
+      "rationale": "Determining the population carrier frequency will clarify the disease prevalence and penetrance across homozygotes identified in population screening versus clinical cohorts.",
+      "promise": 0.9,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Does the phenotypic spectrum of non-Ashkenazi individuals with SGSM3 loss-of-function variants (e.g., p.Arg526Ter) overlap systematically in short stature, hypotonia, and behavioral profile with the Ashkenazi founder cohort?",
+      "rationale": "Comparing independent biallelic truncating variants will differentiate true core syndromic features of SGSM3 deficiency from potential genetic background modifiers specific to the Ashkenazi founder kindreds.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

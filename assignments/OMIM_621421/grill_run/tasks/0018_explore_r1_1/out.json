@@ -1,0 +1,146 @@
+{
+  "hypotheses": [
+    {
+      "text": "The presence of major structural congenital heart defects (HP:0001627) excludes Ramond-Elliott neurodevelopmental syndrome (TRA2B) in syndromic neurodevelopmental cohorts with a specificity exceeding 95%.",
+      "rationale": "While TRA2B was reviewed on congenital heart defect gene panels (e.g., PanelApp Australia), systematic clinical characterization of TRA2B loss-of-function cohorts demonstrates a primary neurodevelopmental phenotype (intellectual disability, microcephaly, brain anomalies, infantile spasms, feeding difficulties) without primary cardiogenesis disruption.",
+      "aspects": [
+        "differential diagnosis",
+        "cardiac phenotype",
+        "exclusion criteria"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "In the initial cohort defining Ramond-Elliott syndrome across 12 individuals from 11 unrelated families with clustered 5' TRA2B variants, core phenotypes were intellectual disability, developmental delay, infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature; major congenital heart defects were not identified as recurrent core manifestations.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+            "authors": [
+              "Francis Ramond"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": "10.1016/j.gim.2022.11.013",
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": [
+            {
+              "metric": "affected individuals cohort size",
+              "value": 12
+            },
+            {
+              "metric": "unrelated families",
+              "value": 11
+            }
+          ]
+        },
+        {
+          "text": "PanelApp Australia records reflect activity modifying gene-phenotype associations for TRA2B within Congenital Heart Defect gene panel reviews to Ramond-Elliott neurodevelopmental syndrome, reflecting that TRA2B is not an isolated primary congenital heart defect locus.",
+          "stance": "supports",
+          "source": {
+            "title": "Activity",
+            "authors": [
+              "Zornitza Stark"
+            ],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://panelapp-aus.org/panels/activity/?panel=202&entity=TRA2B",
+            "quote": "Congenital Heart Defect ... TRA2B, Zornitza Stark Phenotypes for gene: TRA2B were changed from Neurodevelopmental disorder, TRA2B ... Ramond-Elliott"
+          },
+          "numbers": [
+            {
+              "metric": "panel entity identifier",
+              "value": 202
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Severe structural ocular dysmorphology (including coloboma HP:0000589 and microphthalmia HP:0000568) occurs in 0% of TRA2B-related syndrome cases, providing a reliable phenotypic discriminator from phenotypically overlapping spliceosomopathies and chromatinopathies such as CHARGE syndrome.",
+      "rationale": "TRA2B-mediated alternative splicing disruption via dominant-negative overexpression of the shorter Tra2beta-3 isoform impairs cerebral morphogenesis and cortical growth without disrupting embryological optic cup closure or ocular axial elongation.",
+      "aspects": [
+        "ocular phenotype",
+        "differential diagnosis",
+        "exclusion criteria"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Systematic evaluation of 12 individuals with monoallelic 5' TRA2B variants documented central nervous system malformations, microcephaly, and facial dysmorphism, but reported no structural ocular malformations such as optic fissure closure defects or microphthalmia.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+            "authors": [
+              "Francis Ramond"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": "10.1016/j.gim.2022.11.013",
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": [
+            {
+              "metric": "frequency of coloboma or microphthalmia",
+              "value": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Infantile spasms (HP:0012469) and early-onset feeding difficulties (HP:0011968) are present in the majority of TRA2B-related syndrome patients, serving as high-sensitivity positive criteria that distinguish TRA2B from milder non-syndromic microcephalic conditions.",
+      "rationale": "Delineating the specific early clinical presentation of RAMELN helps clinicians combine the negative predictive value of absent cardiac/ocular defects with positive early-life neurometabolic-like manifestations.",
+      "aspects": [
+        "epilepsy",
+        "feeding difficulties",
+        "positive discriminators"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Individuals with clustered 5' loss-of-function TRA2B variants frequently display infantile spasms, microcephaly, and feeding difficulties alongside neurodevelopmental delay.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+            "authors": [
+              "Francis Ramond"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": "10.1016/j.gim.2022.11.013",
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of subclinical or minor cardiovascular anomalies (such as atrial septal defect, patent ductus arteriosus, or peripheral pulmonary stenosis) versus major complex congenital heart disease across all expanded TRA2B cohorts?",
+      "rationale": "Clarifying whether benign transitional murmurs or minor septal defects ever co-occur will prevent clinicians from erroneously discarding a TRA2B diagnosis when an incidental minor murmur/PFO is detected.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "Which functional visual deficits (such as cerebral visual impairment or strabismus) manifest in TRA2B patients in the absence of structural ocular malformations?",
+      "rationale": "Distinguishing cerebral/cortical visual processing impairment from primary structural ocular pathology reinforces the negative predictive power of absent structural eye malformations.",
+      "promise": 0.8,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

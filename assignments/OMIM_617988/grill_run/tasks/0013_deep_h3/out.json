@@ -1,0 +1,116 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature generally delineates Jaberi-Elahi syndrome (JABELS) as a neuro-ectodermal condition centered on intellectual disability, motor delay, microcephaly, epilepsy, visual impairment (photoreceptor/retinal degeneration), and ectodermal manifestations (e.g., sparse hair). While primary hepatic or renal failure, renal agenesis, corneal opacities, and classical skeletal dysplasias have not been reported in cohort analyses, the hypothesis is partially conflicted by two key findings: (1) A recently reported patient harboring a homozygous frameshift variant presented with a congenital structural cardiac malformation (secundum atrial septal defect), demonstrating that structural visceral malformations are not completely excluded; and (2) Literature review indicates that 82% (23/28) of individuals exhibit 'skeletal problems' (such as pes equinovarus, scoliosis, and contractures), which clinicians could conflate with skeletal dysplasias if skeletal involvement is assumed to be an exclusionary criterion.",
+  "evidence": [
+    {
+      "text": "A literature review of 28 individuals with Jaberi-Elahi syndrome demonstrates high rates of motor developmental delay, sparse hair, speech disorders, intellectual disability, hypotonia, skeletal problems, and visual impairment, while systemic visceral failure, corneal opacities, and primary skeletal dysplasias were not identified as core features.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1016/j.ejmg.2024.104953",
+        "pmid": "38852771",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38852771/",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+      },
+      "numbers": [
+        {
+          "metric": "motor development delay",
+          "value": "26/28"
+        },
+        {
+          "metric": "sparse hair",
+          "value": "26/28"
+        },
+        {
+          "metric": "speech disorder",
+          "value": "24/28"
+        },
+        {
+          "metric": "intellectual disability",
+          "value": "23/28"
+        },
+        {
+          "metric": "hypotonia",
+          "value": "23/28"
+        },
+        {
+          "metric": "skeletal problems",
+          "value": "23/28"
+        },
+        {
+          "metric": "visual impairment",
+          "value": "18/28"
+        }
+      ]
+    },
+    {
+      "text": "A 4-month-old infant with confirmed Jaberi-Elahi syndrome due to a homozygous GTPBP2 frameshift variant presented with congenital structural heart disease (secundum atrial septal defect) alongside severe microcephaly, developmental delay, hypotonia, and left-sided pes equinovarus, showing that structural cardiovascular anomalies can occur.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Jaberi-Elahi syndrome - NIH Genetic Testing Registry (GTR)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/gtr/conditions/C4693848",
+        "quote": "Additional findings included left-sided pes equinovarus, secundum atrial septal defect, and periventricular white matter abnormalities on brain magnetic resonance imaging (MRI)."
+      },
+      "numbers": [
+        {
+          "metric": "secundum atrial septal defect prevalence in reported Turkish case",
+          "value": "1/1"
+        }
+      ]
+    },
+    {
+      "text": "Loss of function in GTPBP2 selectively impacts photoreceptor survival and causes progressive retinal atrophy rather than anterior segment anomalies such as corneal opacities.",
+      "stance": "supports",
+      "source": {
+        "title": "GTPBP2 in-frame deletion in canine model with non-syndromic progressive retinal atrophy",
+        "authors": [
+          "L Murgiano",
+          "JK Niggel",
+          "EE Aky\u00fcrek",
+          "R Sacchetto"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41598-025-89446-7",
+        "quote": "In this study, we show a retinal-specific phenotype occurring... GTPBP2 is associated with Jaberi-Elahi syndrome (JES) in Homo sapiens, and splice variants in Mus musculus are associated with neurodegeneration; in both cases photoreceptor degeneration may be included in its manifestation."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Presence of congenital heart malformations: The hypothesis posited that structural visceral malformations argue strongly against JABELS, but an infant with molecularly confirmed JABELS presented with a secundum atrial septal defect.",
+    "Skeletal abnormalities: While primary skeletal dysplasias (e.g., osteochondrodysplasia) are absent, generic 'skeletal problems' (such as pes equinovarus, kyphoscoliosis, and joint contractures) are present in 23 of 28 individuals (82.1%), creating a potential diagnostic trap if clinicians interpret any skeletal abnormality as incompatible with the diagnosis."
+  ],
+  "confidence": 0.68,
+  "new_directions": [
+    {
+      "question_text": "What is the detailed anatomical breakdown of the 23/28 reported 'skeletal problems' in Jaberi-Elahi syndrome?",
+      "rationale": "Differentiating whether reported skeletal features represent neurogenic/contractural deformities (e.g., clubfoot, scoliosis) versus intrinsic bone dysplasia is essential to clarify diagnostic exclusionary criteria.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "What is the true incidence of congenital heart defects in JABELS patients undergoing systematic echocardiographic screening?",
+      "rationale": "Only isolated cases document atrial septal defects; comprehensive prospective or retrospective cardiac imaging data across the cohort will determine whether heart defects are incidental or part of the phenotypic spectrum.",
+      "promise": 0.78,
+      "est_cost": 12000
+    }
+  ]
+}

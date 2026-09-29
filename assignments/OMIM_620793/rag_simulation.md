@@ -1,0 +1,194 @@
+# Plain RAG on Muscular dystrophy, limb-girdle, autosomal recessive 29 (SNUPN, OMIM:620793)
+model: gemini-3.8-flash   generated: 2026-09-28 20:49
+
+Everything below is what the notebook's RAG cells produce for this disease,
+pre-computed so you can read it before repeating the exercise with a chat LLM
+
+## 1. The search
+query: `SNUPN gene Muscular dystrophy, limb-girdle, autosomal recessive 29`
+
+[1] **620793 - MUSCULAR DYSTROPHY, LIMB-GIRDLE ...**  
+    https://omim.org/entry/620793  
+    autosomal recessive limb-girdle muscular dystrophy-29 (LGMDR29) is caused by homozygous or compound heterozygous mutation in the SNUPN gene ( ...
+
+[2] **autosomal recessive limb-girdle muscular dystrophy type 29**  
+    https://www.alliancegenome.org/disease/DOID:0061134  
+    An autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...
+
+[3] **autosomal recessive limb-girdle muscular dystrophy type 29**  
+    https://flybase.org/cgi-bin/cvreport.pl?id=DOID:0061134  
+    An autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...
+
+[4] **Gene: SNUPN (Limb girdle muscular dystrophies ...**  
+    https://panelapp.genomicsengland.co.uk/panels/185/gene/SNUPN/  
+    Mode of inheritance. BIALLELIC, autosomal or pseudoautosomal ; Phenotypes Muscular dystrophy, limb-girdle, autosomal recessive 29, OMIM:620793 ; Publications.
+
+[5] **SNUPN deficiency causes a recessive muscular dystrophy ...**  
+    https://pmc.ncbi.nlm.nih.gov/articles/PMC10899626/  
+    by M Nashabat · 2024 · Cited by 10 — Our findings establish SNUPN deficiency as the genetic etiology of a previously unrecognized subtype of muscular dystrophy and provide robust evidence of the ...
+
+[6] **autosomal recessive limb-girdle muscular dystrophy type 29**  
+    https://www.informatics.jax.org/disease/DOID:0061134  
+    An autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...
+
+## 2. The context handed to the model
+```
+[1] 620793 - MUSCULAR DYSTROPHY, LIMB-GIRDLE ...
+https://omim.org/entry/620793
+autosomal recessive limb-girdle muscular dystrophy-29 (LGMDR29) is caused by homozygous or compound heterozygous mutation in the SNUPN gene ( ...
+
+[2] autosomal recessive limb-girdle muscular dystrophy type 29
+https://www.alliancegenome.org/disease/DOID:0061134
+An autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...
+
+[3] autosomal recessive limb-girdle muscular dystrophy type 29
+https://flybase.org/cgi-bin/cvreport.pl?id=DOID:0061134
+An autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...
+
+[4] Gene: SNUPN (Limb girdle muscular dystrophies ...
+https://panelapp.genomicsengland.co.uk/panels/185/gene/SNUPN/
+Mode of inheritance. BIALLELIC, autosomal or pseudoautosomal ; Phenotypes Muscular dystrophy, limb-girdle, autosomal recessive 29, OMIM:620793 ; Publications.
+
+[5] SNUPN deficiency causes a recessive muscular dystrophy ...
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10899626/
+by M Nashabat · 2024 · Cited by 10 — Our findings establish SNUPN deficiency as the genetic etiology of a previously unrecognized subtype of muscular dystrophy and provide robust evidence of the ...
+
+[6] autosomal recessive limb-girdle muscular dystrophy type 29
+https://www.informatics.jax.org/disease/DOID:0061134
+An autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...
+```
+
+## 3. The gene, from the sources
+
+Autosomal recessive limb-girdle muscular dystrophy-29 (LGMDR29) is a condition caused by homozygous or compound heterozygous mutations in the *SNUPN* gene [1]. The disorder follows a biallelic autosomal recessive pattern of inheritance [1, 4]. Clinically, this form of muscular dystrophy is characterized by an onset of muscle weakness that predominantly affects the proximal lower limbs [2, 3, 6]. Research indicates that *SNUPN* deficiency serves as the underlying genetic etiology for this previously unrecognized muscular dystrophy subtype [5]. 
+
+Regarding the molecular specifics, the provided sources do not describe what the *SNUPN* gene product is [1, 5]. Additionally, the normal biological functions of this product within the cell, as well as the detailed cellular mechanisms through which *SNUPN* variants lead to pathology, are not covered in the text [4, 5].
+
+*tokens in 568, out 1327*
+
+## 4. The gene, closed book (no sources; beware hallucinations)
+
+The ***SNUPN*** gene encodes **snurportin-1** (snurportin 1), an RNA-binding nuclear import adapter. In normal cell physiology, snurportin-1 specifically recognizes and binds the 2,2,7-trimethylguanosine ($m_3\text{G}$) 5′-cap of mature spliceosomal uridine-rich small nuclear ribonucleoproteins (U snRNPs: U1, U2, U4, and U5) in the cytoplasm. It then complexes with the nuclear transport receptor importin-$\beta$ (KPNB1) to mediate the translocation of these U snRNPs across the nuclear pore complex into the nucleus, an essential step for spliceosome assembly and pre-mRNA splicing.
+
+## 5. Which patient? Three independent rounds, same prompt
+
+### Round 1  (picked: P10)
+
+Based on the provided sources, limb-girdle muscular dystrophy, autosomal recessive 29 (LGMDR29) is an autosomal recessive disorder caused by biallelic (homozygous or compound heterozygous) mutations in the *SNUPN* gene [1, 4] and is characterized by the onset of muscle weakness predominantly affecting the proximal lower limbs [2, 3, 6]. 
+
+The sources provide very limited clinical descriptions and **do not** include comprehensive phenotypic profiles, muscle biopsy findings, or explicit exclusion criteria [1–6].
+
+---
+
+### 1. Patient Evaluation (Ruling In/Out)
+
+* **P01**: **Cannot be ruled in; likely ruled out.** The patient has lower limb weakness, but the presentation is dominated by upper motor neuron signs (spastic gait, Babinski sign, ankle clonus), cirrhosis, and dementia. The sources state LGMDR29 is characterized by muscle weakness predominantly affecting the proximal lower limbs [2, 3, 6]; they do not mention central nervous system, pyramidal, or hepatic involvement. However, the sources do not explicitly list exclusion criteria.
+* **P02**: **Cannot be ruled in; ruled out based on phenotype.** Presents with microcephaly, developmental delay, short stature, and craniofacial anomalies without reported limb-girdle or proximal lower limb muscle weakness, which conflicts with the core definition of LGMDR29 [2, 3, 6].
+* **P03**: **Cannot be ruled in; ruled out based on phenotype.** Demonstrates motor axonal neuropathy, decreased motor nerve conduction velocities, and distal lower limb weakness/amyotrophy. LGMDR29 is defined as a muscular dystrophy with weakness predominantly affecting the proximal lower limbs [2, 3, 6], not a primary distal motor axonal neuropathy.
+* **P04**: **Cannot be ruled in; ruled out based on phenotype.** Presents with motor axonal neuropathy, hyporeflexia, and distal foot/lower limb weakness rather than a muscular dystrophy predominantly affecting proximal lower limbs [2, 3, 6].
+* **P05**: **Cannot be definitively ruled in or out.** Proximal lower limb muscle weakness and elevated creatine kinase are present, which align with a limb-girdle muscular dystrophy [2, 3, 6]. However, the patient also has prominent ptosis, ophthalmoplegia, and dysphagia, features that are not described in the provided sources [1–6].
+* **P06**: **Cannot be ruled in; ruled out based on phenotype.** Presents primarily with facial, neck, ptosis, and extraocular weakness without documented proximal lower limb weakness [2, 3, 6].
+* **P07**: **Cannot be ruled in; ruled out based on phenotype.** Features motor axonal neuropathy, spasticity, and predominantly distal muscle involvement, which does not match a proximal lower limb muscular dystrophy [2, 3, 6].
+* **P08**: **Cannot be ruled in; ruled out based on phenotype.** Presents with congenital/dysmorphic features (sandal gap, camptodactyly, arachnodactyly) and distal lower limb weakness, failing to match proximal lower limb muscular dystrophy [2, 3, 6].
+* **P09**: **Cannot be definitively ruled in or out.** Exhibits proximal lower and upper limb muscle weakness, gait disturbance, and difficulty running, consistent with the definition in [2, 3, 6]. However, the sources do not mention spinal rigidity, arrhythmia, or contractures [1–6].
+* **P10**: **Cannot be definitively ruled in, but consistent with available criteria.** Displays proximal lower limb muscle weakness, difficulty climbing stairs (a classic consequence of proximal lower limb weakness), proximal upper limb weakness, elevated creatine kinase, and structural muscle changes. This fits the description of a muscular dystrophy affecting proximal lower limbs [2, 3, 6]. However, the provided sources do not mention biopsy findings (myotilin accumulation, Z-disk morphology) or joint contractures [1–6].
+
+---
+
+### 2. Single Most Likely Patient and Probability
+
+* **Most Likely Patient:** **P10**  
+* **Estimated Probability:** **50%**  
+  * *Rationale:* Both P10 and P09 present with proximal lower limb muscle weakness fitting a limb-girdle muscular dystrophy [2, 3, 6]. P10 is marginally more typical of a limb-girdle dystrophy presentation (difficulty climbing stairs, proximal lower and upper limb weakness, elevated creatine kinase, restrictive defect) without the striking extra-muscular/cardiac involvement seen in P09 (arrhythmia, spinal rigidity). Because the provided text does not supply the full clinical spectrum, a definitive choice between P10 and P09 cannot be made with high certainty.
+
+---
+
+### 3. Facts Needed to Be Confident (Not in the Sources)
+
+To establish diagnostic certainty, the following information—which is absent from sources [1–6]—is required:
+1. **Genetic confirmation:** Documentation of biallelic (homozygous or compound heterozygous) pathogenic variants in the *SNUPN* gene in the specific patient [1, 4].
+2. **Detailed clinical features of LGMDR29:** The actual clinical synopsis from OMIM #620793 [1] and the full phenotypic description reported by Nashabat et al. (2024) [5], including:
+   * Age of onset and rate of progression.
+   * Cranial nerve/facial/ocular involvement (present in P05, absent in P10).
+   * Cardiac conduction abnormalities or arrhythmias (present in P09).
+   * Presence of joint contractures or spinal rigidity (present in P09 and P10).
+3. **Histopathology and ultrastructural findings:** Whether *SNUPN* deficiency causes myofibrillar myopathy alterations (such as myotilin accumulation and Z-disk anomalies listed in P10) or standard dystrophic changes.
+
+--------------------------------------------------------------------------------
+
+### Round 2  (picked: P10)
+
+Based on the provided sources [1–6], here is the clinical genetic evaluation:
+
+### 1. Patient Evaluation
+
+* **P01:** The sources define LGMDR29 as an autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs [2, 3, 6]. P01 has non-specific lower limb weakness accompanied by prominent upper motor neuron signs (Babinski sign, spastic gait, ankle clonus), dementia, and cirrhosis. The sources do not describe central nervous system or hepatic involvement [1–6], making LGMDR29 an unlikely match, though the sources do not provide explicit exclusion criteria to definitively rule P01 out.
+* **P02:** **Rule out (presumptively):** P02 presents with microcephaly, cerebral atrophy, severe short stature, global developmental delay, sensorineural hearing impairment, and craniofacial anomalies without any documented muscle weakness or muscular dystrophy. This conflicts directly with LGMDR29 being defined as a limb-girdle muscular dystrophy with proximal lower limb weakness [1, 2, 3, 5, 6].
+* **P03:** **Rule out (presumptively):** P03 presents with distal lower limb muscle weakness, foot dorsiflexor weakness, and motor axonal neuropathy. This contrasts with LGMDR29, which is characterized by muscle weakness predominantly affecting the *proximal* lower limbs and classified as a muscular dystrophy rather than a neuropathy [2, 3, 6].
+* **P04:** **Rule out (presumptively):** P04 has a motor axonal neuropathy with distal features (foot dorsiflexor weakness, steppage gait). The sources define LGMDR29 as a muscular dystrophy with weakness predominantly affecting the proximal lower limbs [2, 3, 6]; the sources do not report peripheral axonal neuropathy [1–6].
+* **P05:** **Cannot definitively rule in or out:** P05 has proximal lower limb muscle weakness and elevated creatine kinase, which is consistent with the limb-girdle presentation described [2, 3, 6]. However, P05 also exhibits ptosis, ophthalmoplegia, and dysphagia; the sources do not indicate whether cranial or extraocular muscles are involved in LGMDR29 [1–6].
+* **P06:** **Rule out (presumptively):** While Gowers sign suggests proximal weakness, proximal lower limb muscle weakness is not explicitly stated. The presentation is dominated by ptosis, ophthalmoplegia, facial weakness, and easy fatigability, none of which are described in the sources [1–6].
+* **P07:** **Rule out (presumptively):** P07 exhibits distal limb weakness, distal amyotrophy, spasticity, and a motor axonal neuropathy, directly conflicting with the proximal lower limb onset defining LGMDR29 [2, 3, 6].
+* **P08:** **Rule out (presumptively):** P08 exhibits distal lower limb weakness, areflexia, motor delay, dysarthria, and dysmorphic skeletal features (camptodactyly, sandal gap), contrasting with the proximal lower limb muscular dystrophy described [2, 3, 6].
+* **P09:** **Cannot definitively rule in or out:** P09 has proximal lower limb and upper limb muscle weakness, difficulty running, and gait disturbance, which align with a limb-girdle muscular dystrophy presentation [2, 3, 6]. However, P09 also has marked contractures, spinal rigidity, and cardiac arrhythmia; the sources do not mention whether these features occur in LGMDR29 [1–6].
+* **P10:** **Cannot definitively rule in or out:** P10 demonstrates difficulty climbing stairs, proximal lower limb weakness, and proximal upper limb weakness, which directly matches the definition of a limb-girdle muscular dystrophy with proximal lower limb weakness [2, 3, 6]. However, the sources do not state whether LGMDR29 features joint contractures, myotilin accumulation, abnormal Z-disks, or restrictive lung defects [1–6].
+
+---
+
+### 2. Single Most Likely Patient and Estimated Probability
+
+* **Most Likely Patient:** **P10** (with **P09** as a close secondary candidate).
+  * *Reasoning:* P10 exhibits classic features of limb-girdle muscular dystrophy (difficulty climbing stairs, proximal lower limb weakness, proximal upper limb weakness, elevated creatine kinase, and hyperlordosis) [2, 3, 6]. P09's prominent spinal rigidity and arrhythmia suggest classic Emery-Dreifuss muscular dystrophy, and P05 has prominent oculobulbar signs not typical for standard limb-girdle definitions [2, 3].
+* **Estimated Probability:** **~45%** (given that strictly based on the provided text, the sources only provide a single sentence defining the phenotype [2, 3, 6], leaving high residual ambiguity between P10, P09, and P05).
+
+---
+
+### 3. Missing Information Needed for Confidence
+
+To establish a definitive diagnosis, the following information is missing from the provided sources [1–6]:
+1. **Genetics:** Confirmation of biallelic (homozygous or compound heterozygous) pathogenic variants in *SNUPN* in the patient [1, 4, 5].
+2. **Detailed Clinical Phenotype:** An expanded clinical synopsis of LGMDR29 detailing whether cranial/extraocular (ptosis/ophthalmoplegia), respiratory, axial, or cardiac involvement can occur [1–6].
+3. **Histopathology:** Detailed muscle biopsy findings for *SNUPN* deficiency (e.g., whether myotilin accumulation, dystrophic changes, or myofibrillar/Z-disk disruptions are part of the spectrum) [1–6].
+4. **Serum Biomarkers:** Typical ranges of serum creatine kinase (CK) levels in confirmed LGMDR29 patients [1–6].
+5. **Phenotypic Exclusions:** Explicit negative findings (features known not to occur in LGMDR29) to rule out overlapping muscular dystrophies [1–6].
+
+--------------------------------------------------------------------------------
+
+### Round 3  (picked: P09)
+
+Based on the provided sources, here is the clinical genetic evaluation:
+
+### 1. Patient-by-Patient Assessment
+
+* **P01: Ruled out / Highly unlikely.** The sources define LGMDR29 as a limb-girdle muscular dystrophy predominantly affecting proximal lower limbs [2, 3, 6]. P01 has non-specific lower limb weakness accompanied by severe upper motor neuron signs (spastic gait, Babinski sign, ankle clonus), dementia, and cirrhosis, none of which are described in the sources for LGMDR29 [1–6].
+* **P02: Ruled out.** P02 exhibits syndromic microcephaly, developmental delay, and failure to thrive without any reported muscle weakness. LGMDR29 is defined by muscle weakness predominantly affecting the proximal lower limbs [2, 3, 6].
+* **P03: Ruled out.** P03 has distal lower limb weakness and a motor axonal neuropathy, which conflicts with a limb-girdle muscular dystrophy characterized by predominantly proximal lower limb weakness [2, 3, 6].
+* **P04: Ruled out.** The weakness is distal (foot dorsiflexors) accompanied by motor axonal neuropathy, inconsistent with the defining proximal lower limb weakness of LGMDR29 [2, 3, 6].
+* **P05: Unlikely.** Although P05 has proximal lower limb weakness [2, 3, 6], the presentation is dominated by prominent oculopharyngeal involvement (ptosis, ophthalmoplegia, dysphagia). The sources do not describe cranial or extraocular involvement in LGMDR29 [1–6].
+* **P06: Ruled out.** P06 presents predominantly with facial, neck, and extraocular weakness (ptosis, ophthalmoplegia) and easy fatigability, lacking the cardinal feature of proximal lower limb weakness specified in the sources [2, 3, 6].
+* **P07: Ruled out.** P07 has a distal motor neuropathy phenotype (distal upper and lower limb weakness, spasticity, tremor) rather than a proximal limb-girdle dystrophy [2, 3, 6].
+* **P08: Ruled out.** P08 has distal weakness, motor delay, dysarthria, and skeletal dysmorphic features (camptodactyly, sandal gap), failing to match the proximal lower limb weakness defining LGMDR29 [2, 3, 6].
+* **P09: Cannot be ruled out / Most consistent candidate.** P09 presents with proximal lower limb muscle weakness, proximal upper limb weakness, proximal amyotrophy, difficulty running, and gait disturbance, fitting the definition of limb-girdle muscular dystrophy affecting predominantly the proximal lower limbs [1, 2, 3, 6]. However, the sources do not mention whether contractures, spinal rigidity, or arrhythmias occur in LGMDR29 [1–6].
+* **P10: Unlikely.** P10 has proximal lower limb weakness [2, 3, 6], but the presence of "Accumulation of muscle fiber myotilin" and "Abnormal Z disk morphology" is classic for a primary myotilinopathy (myofibrillar myopathy). The sources provide no histopathologic details for LGMDR29 to confirm or refute this [1–6].
+
+---
+
+### 2. Single Most Likely Patient and Estimated Probability
+
+* **Most likely patient:** **P09**
+* **Estimated probability:** **~65%** 
+  * *Rationale:* Only P05, P09, and P10 have proximal lower limb weakness [2, 3, 6]. Among these, P10 has pathognomonic biopsy features of myotilinopathy, and P05 has an oculopharyngeal myopathy phenotype. P09 aligns best with a limb-girdle muscular dystrophy phenotype [1, 2, 3, 6], but the probability cannot be higher because the provided sources provide minimal clinical depth.
+
+---
+
+### 3. Facts Needed to Be Confident (Not in the Sources)
+
+The provided sources omit essential clinical and diagnostic details necessary to confirm the diagnosis definitively:
+1. **Full phenotypic spectrum of *SNUPN* deficiency:** The sources mention only that weakness predominantly affects the proximal lower limbs [2, 3, 6]; they do not state whether cardiac conduction defects/arrhythmias, joint contractures, rigid spine, or respiratory insufficiency occur in LGMDR29 [1–6].
+2. **Histopathological and muscle biopsy findings:** The sources do not describe muscle pathology in *SNUPN* deficiency (e.g., dystrophic changes vs. myofibrillar inclusions/myotilin accumulation) [1–6].
+3. **Age of onset and disease progression:** The sources do not provide the typical age of onset or rate of progression for LGMDR29 [1–6].
+4. **Genetic confirmation:** Whether any of these specific patients harbor biallelic pathogenic variants in *SNUPN* [1, 4].
+
+--------------------------------------------------------------------------------
+
+picks across rounds: ['P10', 'P10', 'P09']

@@ -1,0 +1,90 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature confirms that biallelic variants in TBC1D32 cause Alsahan-Harris syndrome (OMIM #621307) and orofaciodigital syndrome IX (OMIM #258865), with phenotypes ranging from severe life-limiting prenatal malformations to complex neurodevelopmental, skeletal, ocular, and endocrine anomalies. However, the available sources do not support the specific hypothesis that null/truncating variants strictly segregate with severe midline and early endocrine failure while hypomorphic missense variants cause exclusively milder retinal and neurodevelopmental presentations. Clinical presentations across published cohorts show broad phenotypic heterogeneity without a clear-cut dichotomy strictly dictated by variant class alone.",
+  "evidence": [
+    {
+      "text": "Harris et al. evaluated 14 individuals with biallelic TBC1D32 variants (including 7 new probands: 4 fetal probands across 3 pedigrees and 3 pediatric probands, alongside 7 previously published individuals), documenting an expanded phenotypic spectrum ranging from severe prenatal life-limiting congenital anomalies to pediatric presentations involving hypothalamic-pituitary and ciliary development.",
+      "stance": "neutral",
+      "source": {
+        "title": "Diagnosis of TBC1D32-associated conditions - PMC - NIH",
+        "authors": [
+          "SC Harris"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10204718",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10204718/",
+        "quote": "We describe a total of 14 affected individuals with TBC1D32 variants, expanding the phenotype of this complex ciliopathy. Prior functional ... We provide additional data to expand the phenotype correlated with TBC1D32 variants, including a severe prenatal phenotype associated with life-limiting congenital anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals_described",
+          "value": 14
+        },
+        {
+          "metric": "fetal_probands",
+          "value": 4
+        },
+        {
+          "metric": "pediatric_probands",
+          "value": 3
+        },
+        {
+          "metric": "previously_published_probands",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "CDK20 and TBC1D32 are linked to overlapping severe ciliopathies involving midline brain anomalies, pituitary/hypothalamic defects, and facial clefting; TBC1D32 variant series describe a mix of missense, early truncating, and frameshift variants without demonstrating a clean genotype-phenotype split between endocrine vs retinal outcomes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Bi-allelic variants in CDK20 cause a severe ciliopathy with midline brain and facial anomalies",
+        "authors": [
+          "G Lemire",
+          "AE Marshall",
+          "TS Patel",
+          "JT Martinez"
+        ],
+        "year": 2026,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2026.00235-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/abstract/S0002-9297(26)00235-1",
+        "quote": "syndrome IX [MIM: 258865] and Alsahan-Harris syndrome [MIM: 621307]).TBC1D32 plays a \u2026 altering variants, one missense variant, two early truncating variants, and one late frameshift"
+      },
+      "numbers": [
+        {
+          "metric": "truncating_variants_noted",
+          "value": 2
+        },
+        {
+          "metric": "missense_variants_noted",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Published cohorts demonstrate that both missense and truncating variants can be found across the spectrum of severe prenatal midline anomalies and multisystem childhood ciliopathy features.",
+    "Endocrine, retinal, and neurodevelopmental manifestations frequently co-occur rather than segregating independently by variant class."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic breakdown of endocrine failure vs retinal dystrophy across all 14 published individuals with TBC1D32 variants stratified by biallelic null vs compound heterozygous missense genotypes?",
+      "rationale": "A formal meta-analysis of all published TBC1D32 cases with molecular confirmation is required to calculate odds ratios for midline brain malformations versus isolated retinal/neurodevelopmental phenotypes.",
+      "promise": 0.85,
+      "est_cost": 5000.0
+    },
+    {
+      "question_text": "Do ciliary transition zone and Hedgehog signaling assays in patient-derived fibroblasts distinguish the functional severity of missense alleles from truncating null alleles in TBC1D32?",
+      "rationale": "Direct cellular assays of ciliogenesis and Sonic Hedgehog signaling responsiveness can quantitatively measure hypomorphic versus complete loss-of-function effects.",
+      "promise": 0.8,
+      "est_cost": 25000.0
+    }
+  ]
+}

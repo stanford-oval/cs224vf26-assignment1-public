@@ -1,0 +1,94 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical and functional characterization of biallelic PLAA mutations across human cohorts and animal models demonstrates that PLAA deficiency primarily causes an infantile neurodegenerative/neurodevelopmental disorder characterized by progressive postnatal microcephaly, seizures, spasticity, and endolysosomal trafficking defects (Hall et al., 2017). Cohort-level reports of prenatal exome sequencing in deceased fetuses (such as Huang et al., 2023) aggregate fetuses with heterogeneous ultrasound abnormalities\u2014including high background rates of skeletal and genitourinary anomalies\u2014but the identified PLAA variants map specifically to the neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies (NDMSBA) phenotype rather than monogenic organogenesis defects. There is no evidence in the provided literature of PLAA directly causing isolated or primary skeletal dysplasia or genitourinary malformations.",
+  "evidence": [
+    {
+      "text": "Hypomorphic mutations in PLAA lead to an infantile-lethal neurodysfunction syndrome with progressive microcephaly, spasticity, and seizures due to disrupted endolysosomal degradation of synaptic proteins, without evidence of intrinsic extraneural organ malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins",
+        "authors": [
+          "EA Hall",
+          "MS Nahorski",
+          "LM Murray",
+          "R Shaheen"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30113-1",
+        "quote": "In both human and mouse, hypomorphic mutations in the ubiquitin adaptor protein PLAA cause an infantile-lethal neurodysfunction syndrome with seizures. Resulting from perturbed endolysosomal degradation, Plaa mutant neurons accumulate K63-polyubiquitylated proteins and synaptic membrane proteins, disrupting synaptic vesicle recycling and neurotransmission."
+      },
+      "numbers": []
+    },
+    {
+      "text": "In a cohort of 61 deceased fetuses with ultrasound abnormalities yielding 28 positive molecular diagnoses, compound heterozygous variants in PLAA were identified as consistent with NDMSBA, while overall cohort ultrasound abnormalities were dominated by skeletal (39.2%) and genitourinary (17.9%) findings.",
+      "stance": "supports",
+      "source": {
+        "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+        "authors": [
+          "W Huang",
+          "X Zhu",
+          "G Sun",
+          "Z Gao",
+          "X Kong"
+        ],
+        "year": 2023,
+        "journal": "BMC Medical Genomics",
+        "doi": "10.1186/s12920-022-01427-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+        "quote": "variants highly consistent with the prenatal ultrasound phenotype. \u2026 microcephaly, spasticity, and brain anomalies (NDMSBA). We identified compound heterozygous variants in the PLAA"
+      },
+      "numbers": [
+        {
+          "metric": "Diagnostic rate across cohort",
+          "value": "45.9% (28/61)"
+        },
+        {
+          "metric": "Skeletal system abnormalities in positive cases",
+          "value": "39.2% (11/28)"
+        },
+        {
+          "metric": "Genitourinary abnormalities in positive cases",
+          "value": "17.9% (5/28)"
+        }
+      ]
+    },
+    {
+      "text": "Expert curation of PLAA in prenatal panels notes that expected antenatal findings are restricted to growth restriction, microcephaly, and abnormal facial profile rather than primary extraneural structural malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: EXOSC1 (Fetal anomalies)",
+        "authors": [],
+        "year": null,
+        "journal": "Genomics England PanelApp",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/478/gene/EXOSC1/",
+        "quote": "PLAA 5 ... One could assume that features such as growth restriction, microcephaly and abnormal facial profile may be detectable antenatally."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "In deceased fetuses harboring biallelic PLAA variants alongside extraneural structural malformations, does re-analysis of genomic data consistently reveal a second pathogenic locus accounting for the non-CNS anomalies?",
+      "rationale": "High rates of consanguinity in autosomal recessive cohorts can lead to multiple independent homozygous diagnoses, which may be misattributed to pleiotropic single-gene effects.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the true prenatal presentation timeline of PLAA-associated neurodegeneration on high-resolution fetal MRI?",
+      "rationale": "Because PLAA typically causes progressive microcephaly postnatally, establishing whether subtle cerebral atrophy or corpus callosum hypoplasia is detectable in the second or third trimester will clarify prenatal ascertainment criteria.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

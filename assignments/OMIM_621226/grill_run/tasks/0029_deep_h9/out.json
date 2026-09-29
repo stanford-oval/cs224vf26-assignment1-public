@@ -1,0 +1,79 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical characterization of autosomal dominant spastic ataxia 11 (SPAX11) caused by TUBA4A mutations (such as p.Glu415Lys) demonstrates that the core, universal manifestations are progressive cerebellar ataxia and lower-limb spasticity. Neurophysiological evidence of peripheral neuropathy\u2014specifically an axonal sensory-motor neuropathy with electromyographic signs of denervation\u2014was identified upon adult evaluation (e.g., at age 40 in the proband), rather than presenting as an early childhood onset polyneuropathy. Furthermore, across reported human pedigrees and animal models (such as the Tuba4a p.Gln176Pro mouse model displaying cerebellar ataxia and myopathy without primary motor neuron degeneration), peripheral neuropathy is not an obligatory or universal early feature, occurring as an adult-manifesting finding in an assessed minority of affected individuals.",
+  "evidence": [
+    {
+      "text": "Torella et al. described two families (one with 11 affected individuals and another with a single patient) harboring the TUBA4A p.Glu415Lys variant presenting with spastic ataxia. Peripheral nerve conduction studies (PNCS) performed in adulthood (age 40) in the proband demonstrated an axonal sensory-motor neuropathy with electromyographic denervation.",
+      "stance": "supports",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": "PMC10511369",
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000). The phenotype, not previously described, is that of spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals across cohorts",
+          "value": 12
+        },
+        {
+          "metric": "age at nerve conduction study showing neuropathy",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "text": "In a Tuba4a Q176P mouse model of autosomal dominant spastic ataxia and myopathy, mutant mice showed overt ataxia, Purkinje neuron degeneration, and myopathy, but lacked primary motor neuron degeneration, corroborating that peripheral neurodegeneration is not an obligate primary early driver across TUBA4A phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+        "authors": [
+          "TJ Hines",
+          "JR Funke",
+          "SL Pratt",
+          "AD Rice",
+          "JL Twiss"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddag084/8778799",
+        "pmid": null,
+        "pmc": "PMC13014175",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+        "quote": "Dominant TUBA4A mutations in humans are associated with spastic ataxia type 11 (SPAX11), congenital myopathy type 26 (CMYO26), and frontotemporal dementia/amyotrophic lateral sclerosis type 9 (FTDALS9). Our mice exhibit hallmark features of SPAX11 and CMYO26, but do not show motor neuron degeneration."
+      },
+      "numbers": [
+        {
+          "metric": "age of onset in mutant mice (weeks)",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.8,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic prevalence and longitudinal progression of subclinical vs. clinical axonal neuropathy across all genetically confirmed SPAX11 pedigrees stratified by age decile?",
+      "rationale": "Currently, detailed nerve conduction studies have only been reported in isolated adult SPAX11 probands. Prospective electrophysiological testing across asymptomatic or younger mutation carriers will delineate whether subclinical axonal loss precedes spastic ataxia.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do different TUBA4A mutations (e.g., p.Glu415Lys vs. p.Gln176Pro vs. FTDALS9-associated variants) exhibit differential disruption of microtubule stability and axonal transport in peripheral motor and sensory axons?",
+      "rationale": "TUBA4A is associated with pure spastic ataxia, myo-tubulinopathy, and ALS/FTD. Comparing axonal transport kinetics in iPSC-derived sensory and motor neurons across variants will clarify the cell-type specific vulnerability.",
+      "promise": 0.9,
+      "est_cost": 65000
+    }
+  ]
+}

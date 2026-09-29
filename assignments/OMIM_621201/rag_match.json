@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621201",
+ "omim": "OMIM:621201",
+ "disease": "Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures",
+ "gene": "GTF3C3",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1786,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures (GTF3C3, OMIM:621201):\n\n[1] Entry - #621201 - NEURODEVELOPMENTAL DISORDER ...\nhttps://omim.org/entry/621201?search=prefix%3A%23&highlight=None\nNeurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures (NEDFBS) is an autosomal recessive disorder characterized by microcephaly, ...\n\n[2] Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC11878552/\nby MS Abdel-Hamid \u00b7 2025 \u00b7 Cited by 5 \u2014 Knockout of the GTF3C3 ortholog in zebrafish recapitulated the key clinical symptoms including microcephaly, brain anomalies and seizure susceptibility. We also ...\n\n[3] Neurodevelopmental Disorder with Dysmorphic Facies ...\nhttps://www.malacards.org/card/neurodevelopmental_disorder_with_dysmorphic_facies_brain_anomalies_and_seizures\nOverall, the disorder is defined by early neurodevelopmental impairment combined with distinctive craniofacial features and structural brain involvement.\n\n[4] GTF3C3\nhttps://panelapp-aus.org/panels/entities/GTF3C3\nPhenotypes. Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures, MIM# 621201. Green GTF3C3 in Genetic Epilepsy. Level 2 ...\n\n[5] Article Biallelic variants in GTF3C3 result in an autosomal ...\nhttps://www.sciencedirect.com/science/article/pii/S1098360024001874\nby L De Hayr \u00b7 2025 \u00b7 Cited by 4 \u2014 This study details a novel syndromic form of autosomal recessive intellectual disability resulting from recessive variants in GTF3C3, encoding a key ...\n\n[6] GTF3C3-related neurodevelopmental disorders\nhttps://ern-ithaca.eu/for-clinicians/calls-for-collaboration/gtf3c3-related-neurodevelopmental-disorders/\nWe have already gathered a group of patients presenting with microcephaly, developmental delay, dysmorphic facies, intelectual disability, and brain anomalies.\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 5.0, female)\n  observed: Pointed chin, Downturned corners of mouth, Exaggerated cupid's bow, Hypertelorism, Epicanthus, Ptosis, Highly arched eyebrow, Depressed nasal bridge, Pear-shaped nose, Midface retrusion, Global developmental delay, Delayed speech and language development, Intellectual disability, Reduced social responsiveness, Low frustration tolerance\n  recorded ABSENT: Microcephaly\n\nP02 (age 28.0, male)\n  observed: Hypotelorism, Long neck, Mandibular prognathia, Wide mouth, Open mouth, Long palpebral fissure, Wide nasal bridge, Narrow nasal bridge, Long nasal bridge, Facial asymmetry, Long face, Low-set ears, Global developmental delay, Motor delay, Absent speech, Intellectual disability, Generalized myoclonic seizure, Autistic behavior, Motor stereotypy, Hypotonia\n  recorded ABSENT: Microcephaly, Bilateral tonic-clonic seizure, Status epilepticus, Epileptic spasm, Tonic seizure, Focal-onset seizure, Febrile seizure (within the age range of 3 months to 6 years), Broad-based gait, Widened subarachnoid space, Gray matter heterotopia, Cerebral atrophy, Abnormal CNS myelination, Cavum septum pellucidum, Short stature, Decreased body weight\n\nP03 (age 34.0, female)\n  observed: Delayed speech and language development, Moderate intellectual disability, Facial-lingual fasciculations, Myoclonus, Hand tremor, Dysmetria, Hyporeflexia, Broad-based gait, Dystonia, Cerebellar vermis atrophy, Globus pallidus hypointensity on susceptibility-weighted imaging, Brittle hair, Sparse hair\n  recorded ABSENT: Developmental cataract, Myopia, Abnormal circulating creatine kinase activity, Bilateral tonic-clonic seizure with generalized onset, Decreased amplitude of sensory action potentials, Compound motor action potential abnormality, Abnormal circulating T4 concentration, Pectus carinatum, Scoliosis, Abnormal muscle tone, Muscle weakness\n\nP04 (age 12.0, male)\n  observed: Long philtrum, Wide mouth, Deeply set eye, Strabismus, Macrotia, Axial hypotonia, Appendicular spasticity, Poor head control, Joint hypermobility, Absent speech, Delayed ability to sit, Severe intellectual disability, Babinski sign, Clonus, Inability to walk, Motor seizure, Interictal EEG abnormality, Self-mutilation, Autistic behavior, Thin corpus callosum, Short stature, Decreased body weight\n  recorded ABSENT: Organic aciduria, Microcephaly, Increased circulating pyruvate concentration, Abnormal circulating fatty acylcarnitine concentration, Increased circulating lactate concentration, Abnormal fundus morphology\n\nP05 (age 4.0, male)\n  observed: Primary microcephaly, Hypotonia, Dysphagia, Polyhydramnios, Severely reduced visual acuity, Epicanthus, Broad nasal tip, Wide nasal bridge, Intellectual disability, Seizure, Severe global developmental delay, Cerebellar vermis hypoplasia, Hypoplasia of the pons, Hypoplasia of the brainstem, Agenesis of corpus callosum, Simplified gyral pattern\n  recorded ABSENT: Short stature, Tall stature\n\nP06 (age 6.0, male)\n  observed: Intellectual disability, Global developmental delay, Feeding difficulties, Delayed ability to walk, Delayed speech and language development, Recurrent infections, Wide nasal bridge\n  recorded ABSENT: Failure to thrive, Gastroesophageal reflux, Chronic constipation, Autistic behavior, Attention deficit hyperactivity disorder, Aggressive behavior, Anxiety, Motor stereotypy, Depression, Compulsive behaviors, Generalized tonic seizure, Bilateral tonic-clonic seizure with generalized onset, Periventricular leukomalacia, Dystonia, Ataxia, Pes cavus, Hypertonia, Hearing impairment, Brachycephaly, Prominent supraorbital ridges, Coarse facial features, Short philtrum, Midface retrusion, Pointed chin, Low posterior hairline (+65 more)\n\nP07 (age 9.0, male)\n  observed: Delayed ability to walk, Tube feeding, Global developmental delay, Intellectual disability, Hypotonia, Optic nerve hypoplasia, Seizure, Primary microcephaly, Absent speech, Reduced circulating growth hormone concentration, Intrauterine growth retardation, Chiari malformation, Enlarged cisterna magna, Thin corpus callosum, Periventricular nodular heterotopia, Short chin, Ectropion of lower eyelids, Sloping forehead, Flat face, Finger clinodactyly\n  recorded ABSENT: Short stature, Strabismus, Nystagmus, Failure to thrive, Constipation, Gastroesophageal reflux, Secondary microcephaly, Hearing impairment, Hypothyroidism, Diabetes insipidus, Autistic behavior, Sensory seeking, Self-injurious behavior, Bipolar affective disorder, Compulsive behaviors, Pain, Anxiety, Sleep disturbance, Motor stereotypy, Aggressive behavior, Pica, Arachnoid cyst, Arachnoid granulation, Hypoplasia of the corpus callosum, Hyperintensity of cerebral white matter on MRI (+98 more)\n\nP08 (age 2.5, male)\n  observed: Secondary microcephaly, Frontal bossing, Downturned corners of mouth, High forehead, High anterior hairline, Upslanted palpebral fissure, Wide nasal bridge, Underdeveloped nasal alae, Blue sclerae, Strabismus, Posteriorly rotated ears, Low-set ears, Bilateral tonic-clonic seizure with focal onset, Epileptic spasm, Status epilepticus, Severe global developmental delay, Delayed ability to sit, Delayed ability to walk, Delayed speech and language development, Developmental regression, Interictal EEG abnormality, Involuntary movements, Sleep disturbance, Brisk reflexes, Brain atrophy, Delayed CNS myelination, Hypoplastic hippocampus, Small basal ganglia, Reduced cerebral white matter volume, Ketosis, Short stature, Failure to thrive, Cafe-au-lait spot, Aspiration pneumonia, Respiratory failure, Abnormal muscle tone\n  recorded ABSENT: Hyperplasia of the maxilla, Dolichocephaly, Parietal bossing, Enlarged cisterna magna, Smooth philtrum, Short philtrum, Tented upper lip vermilion, Thin lower lip vermilion, High palate, Narrow forehead, Prominent forehead, Epicanthus, Long eyelashes, Medial flaring of the eyebrow, Highly arched eyebrow, Thin eyebrow, Bulbous nose, Long face, Ptosis, Macrotia, Somatic sensory dysfunction, Bilateral tonic-clonic seizure with generalized onset, Atonic seizure, Tonic seizure, Myoclonic seizure (+8 more)\n\nP09 (age 24.0, female)\n  observed: Diastema, Macrodontia, High, narrow palate, Broad eyebrow, Microcephaly, Short foot, Overlapping toe, Appendicular spasticity, Severe intellectual disability, Choreoathetosis, Tetraparesis, EEG abnormality, Myoclonic seizure, Bilateral tonic-clonic seizure with generalized onset, Focal impaired awareness seizure, Cerebellar atrophy, Hypoplasia of the corpus callosum, Delayed puberty\n  recorded ABSENT: Smooth philtrum, Long philtrum, Thick vermilion border, Increased overbite, Cleft palate, Pierre-Robin sequence, Narrow forehead, High forehead, Low anterior hairline, Broad chin, Full cheeks, Epicanthus, Almond-shaped palpebral fissure, Downslanted palpebral fissures, Upslanted palpebral fissure, Long palpebral fissure, Narrow palpebral fissure, Thick eyebrow, Horizontal eyebrow, Wide nasal bridge, Wide nose, Bulbous nose, Broad nasal tip, Facial asymmetry, Micrognathia (+10 more)\n\nP10 (age 4.0, female)\n  observed: Global developmental delay, Delayed speech and language development, Delayed ability to walk, Hypotonia, Strabismus, Short stature, Ataxia\n  recorded ABSENT: Absent speech, Seizure, Aggressive behavior, Autism, Scoliosis, Cerebral palsy, Spastic tetraparesis, Sleep apnea\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.75,
+     "for": "Demonstrates the complete cardinal constellation of primary microcephaly, severe global developmental delay/intellectual disability, seizures, dysmorphic facies (epicanthus, broad nasal tip, wide nasal bridge), and profound structural brain anomalies (simplified gyral pattern, corpus callosum agenesis, pontine and brainstem hypoplasia, and cerebellar vermis hypoplasia).",
+     "against": "Lacks detailed seizure characterization in the record."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.12,
+     "for": "Presents with primary microcephaly, seizures, intellectual disability, dysmorphic facial features (short chin, flat face, sloping forehead), and structural brain anomalies (periventricular nodular heterotopia, thin corpus callosum).",
+     "against": "Has atypical features such as periventricular nodular heterotopia, Chiari malformation, and optic nerve hypoplasia rather than a simplified gyral pattern or pontocerebellar hypoplasia."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.06,
+     "for": "Shows microcephaly, severe intellectual disability, multiple seizure types, and structural brain anomalies (cerebellar atrophy, hypoplasia of the corpus callosum).",
+     "against": "Onset includes acquired/progressive neurological findings such as choreoathetosis and appendicular spasticity, with absent facial dysmorphisms common to GTF3C3 disorders."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.04,
+     "for": "Features microcephaly, developmental delay, seizures (epileptic spasms, status epilepticus), dysmorphic facial traits, and brain imaging abnormalities.",
+     "against": "Characterized by secondary (postnatal) microcephaly, developmental regression, and systemic complications (ketosis, cafe-au-lait spot) not typically described in GTF3C3-related disorder."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.01,
+     "for": "Exhibits severe intellectual disability, seizures, dysmorphic facies, and corpus callosum abnormality (thin corpus callosum).",
+     "against": "Microcephaly, a key hallmark of NEDFBS, was specifically evaluated and recorded as absent."
+    }
+   ],
+   "what_the_report_lacked": "Specific details on the exact spectrum and frequencies of congenital brain malformations (such as pontocerebellar hypoplasia vs. heterotopia), electroclinical seizure phenotypes, and specific recurring dysmorphic facial markers associated with GTF3C3 variants.",
+   "tokens_in": 2424,
+   "tokens_out": 1818,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.85,
+     "for": "Demonstrates the complete cardinal triad of NEDFBS including primary microcephaly, seizures, distinctive dysmorphic facial features (epicanthus, broad nasal tip, wide nasal bridge), and profound structural brain anomalies (simplified gyral pattern, corpus callosum agenesis, pontocerebellar/brainstem hypoplasia).",
+     "against": "Lacks reported neurodegenerative features described in some late-onset presentations, though this is expected given the patient's early age."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.08,
+     "for": "Presents with primary microcephaly, seizures, facial dysmorphism (sloping forehead, flat face), and structural brain anomalies (thin corpus callosum, heterotopia).",
+     "against": "Shows features less typical for NEDFBS such as Chiari malformation, optic nerve hypoplasia, and growth hormone deficiency, along with absence of pontocerebellar hypoplasia."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.04,
+     "for": "Exhibits microcephaly, seizures, intellectual disability, and structural brain anomalies including hypoplasia of the corpus callosum and cerebellar atrophy.",
+     "against": "Has prominent choreoathetosis and dental abnormalities (macrodontia, diastema) with explicit recorded absence of characteristic midfacial dysmorphisms."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.02,
+     "for": "Features early-onset seizures/epileptic spasms, developmental delay, facial dysmorphisms, and cerebral structural anomalies.",
+     "against": "Microcephaly is secondary rather than congenital/primary, and the clinical picture includes developmental regression, ketosis, and systemic involvement not characteristic of GTF3C3-related disorder."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.01,
+     "for": "Displays severe intellectual disability, motor seizures, facial dysmorphism, and thin corpus callosum.",
+     "against": "Explicitly recorded as negative for microcephaly, which is a hallmark finding emphasized in the report."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of the specific spectrum of structural brain malformations (such as whether simplified gyral patterns and pontocerebellar hypoplasia are typical) and specific craniofacial gestalt photographs or detailed dysmorphic descriptors associated with biallelic GTF3C3 mutations.",
+   "tokens_in": 2424,
+   "tokens_out": 1807,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.75,
+     "for": "Presents with primary microcephaly, dysmorphic facial features (epicanthus, broad nasal tip, wide nasal bridge), prominent structural brain anomalies (simplified gyral pattern, agenesis of corpus callosum, pontine/brainstem and cerebellar vermis hypoplasia), seizures, and severe global developmental delay.",
+     "against": "None; the phenotype closely aligns with the core diagnostic triad of NEDFBS."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.15,
+     "for": "Exhibits primary microcephaly, seizures, facial dysmorphism, global developmental delay, and structural brain involvement including thin corpus callosum and heterotopia.",
+     "against": "Features such as periventricular nodular heterotopia and growth hormone deficiency are less classic, and absent speech/tube feeding without simplified gyral pattern makes it less typical."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.05,
+     "for": "Presents with microcephaly, facial dysmorphism, severe seizures, developmental delay, and structural brain abnormalities (brain atrophy, reduced white matter, hypoplastic hippocampus).",
+     "against": "Microcephaly is secondary rather than primary, and developmental regression with epileptic spasms and ketosis points toward an alternate epileptic encephalopathy/metabolic syndrome."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.03,
+     "for": "Exhibits microcephaly, severe intellectual disability, multiple seizure types, and brain anomalies including cerebellar atrophy and hypoplasia of the corpus callosum.",
+     "against": "Prominent movement disorder (choreoathetosis), dental abnormalities (macrodontia, diastema), and absence of classical facial features (wide nasal bridge/tip explicitly absent) argue against this disorder."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.01,
+     "for": "Exhibits intellectual disability, seizures, dysmorphic facies, and thin corpus callosum.",
+     "against": "Microcephaly is explicitly recorded as absent, which strongly contradicts NEDFBS."
+    }
+   ],
+   "what_the_report_lacked": "Specific details on the exact neuroimaging pattern (e.g., whether pontocerebellar hypoplasia or simplified gyral pattern specifically characterizes GTF3C3 variants) and specific facial dysmorphic hallmarks from the published cohort.",
+   "tokens_in": 2424,
+   "tokens_out": 1762,
+   "round": 3
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+  "patterns": [
+    {
+      "pattern": "Age-dependent onset of canonical diagnostic hallmarks creates early-life diagnostic discordance",
+      "abstraction": "A condition's signature syndromic features often appear late in progression, rendering cardinal phenotypic markers ineffective for early-stage screening.",
+      "instance": "Basal ganglia iron accumulation is present in only 4 of 28 individuals with GTPBP2 mutations (typically appearing between 19 and 30 years of age), making it absent in young children who instead present with non-specific hypotonia or developmental delay.",
+      "direction": "Establish longitudinal, age-stratified clinical scoring criteria that do not penalize young infants for lacking late-manifesting radiological or ectodermal signs.",
+      "support": "Strong across multiple findings: F1, F3, and F9 consistently report that neuroimaging iron deposition and certain ectodermal abnormalities are late or age-dependent manifestations.",
+      "sources": [
+        "MT Carter et al. (2019) Clinical delineation of GTPBP2\u2010associated neuro\u2010ectodermal syndrome: Report of two new families and review of the literature 10.1111/cge.13523",
+        "E Jaberi et al. (2016) Identification of mutation in GTPBP2 in patients of a family with neurodegeneration accompanied by iron deposition in the brain https://www.sciencedirect.com/science/article/pii/S0197458015005461",
+        "J Manoochehri et al. (2024) Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review https://www.sciencedirect.com/science/article/pii/S1769721224000454"
+      ],
+      "hypothesis": "Serial susceptibility-weighted MRI scans in GTPBP2 patients will remain negative for deep gray matter iron deposition until adolescence or adulthood.",
+      "novelty": "Challenges the nosological categorization of Jaberi-Elahi syndrome as a typical pediatric neurodegeneration with brain iron accumulation (NBIA) disorder."
+    },
+    {
+      "pattern": "Extraneurological ectodermal manifestations serve as the critical discriminating feature against pure neurological phenocopies",
+      "abstraction": "When neurodevelopmental and neuroimaging features overlap indistinguishably across multiple genetic conditions, subtle tissue-specific extraneurological signs provide the primary diagnostic differentiator.",
+      "instance": "Sparse hair (hypotrichosis/alopecia) occurs in 26 of 28 patients (>92%) beyond early infancy, cleanly distinguishing Jaberi-Elahi syndrome from infantile neuroaxonal dystrophy (PLA2G6) and pontocerebellar hypoplasias which share cerebellar atrophy, hypotonia, and optic atrophy.",
+      "direction": "Systematically screen for ectodermal anomalies (hair bulb density, shaft caliber, dental eruption) in infant cohorts undergoing workups for unexplained pontocerebellar hypoplasia or spastic paraplegia.",
+      "support": "Strongly supported by aggregated cohort metrics in F1, F2, F4, F5, and F12 showing sparse hair in 26/28 individuals.",
+      "sources": [
+        "MT Carter et al. (2019) Clinical delineation of GTPBP2-associated neuro-ectodermal syndrome: Report of two new families and review of the literature 10.1111/cge.13523",
+        "J Manoochehri et al. (2024) Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review PMID:38852771",
+        "M So\u011fukp\u0131nar et al. (2026) A Novel Homozygous Frameshift GTPBP2 Variant in Jaberi-Elahi Syndrome: First Case Report from T\u00fcrkiye 10.1159/000552675/949444"
+      ],
+      "hypothesis": "GTPBP2-deficient patients have structural folliculogenesis defects detectable via trichoscopy prior to visible gross alopecia.",
+      "novelty": "Elevates a non-neurological ectodermal sign above traditional central neuroimaging findings in the clinical differential of a severe neurodegenerative disorder."
+    },
+    {
+      "pattern": "Genotype-driven phenotypic pleiotropy: missense vs. truncating variants diverge in non-cerebral manifestations",
+      "abstraction": "Allelic heterogeneity shapes multisystem involvement, where hypomorphic or missense alleles spare secondary organ systems that are consistently damaged in complete loss-of-function states.",
+      "instance": "Skeletal anomalies such as kyphoscoliosis and contractures occur in ~82% of individuals (23/28) harboring biallelic truncating variants, but can be completely absent in patients harboring non-truncating missense variants (e.g., p.Leu430Pro).",
+      "direction": "Perform structural modeling and functional assays comparing missense variants within GTPase domains against null frameshift mutations to map residual protein activity against musculoskeletal and systemic involvement.",
+      "support": "Moderate-to-strong: Supported by F7 and F16 citing both 23/28 aggregate skeletal anomaly prevalence and probands with non-truncating variants lacking these features.",
+      "sources": [
+        "J Manoochehri et al. (2024) Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "AM Bertoli (2018) Biallelic inactivating variants in the GTPBP2 gene cause a neurodevelopmental disorder with severe intellectual disability 10.1038/s41431-018-0097-3",
+        "A Vedula et al. (2026) Novel GTPBP2 Mutation-associated Jaberi Elahi Syndrome\u2013A Rare Cause of Syndromic Epilepsy (P7-8.003) 10.1212/WNL.0000000000216659"
+      ],
+      "hypothesis": "Hypomorphic missense mutations retain sufficient translational elongation fidelity to maintain musculoskeletal development while falling below the threshold required for Purkinje cell survival.",
+      "novelty": "Refutes the earlier assumption that all Jaberi-Elahi cases are driven by uniform loss-of-function null mutations with identical clinical expressivity."
+    },
+    {
+      "pattern": "Variable neuroimaging expressivity precludes single-structure radiological rule-outs",
+      "abstraction": "Absence of a hallmark radiological feature in a multisystem neurodevelopmental syndrome cannot rule out the diagnosis because midline and supratentorial brain structures show incomplete penetrance.",
+      "instance": "Corpus callosum hypogenesis/agenesis is present only in a subpopulation of GTPBP2 cases, meaning an intact corpus callosum on MRI does not exclude the disorder when cerebellar atrophy, microcephaly, and sparse hair are present.",
+      "direction": "Quantify volumetric neuroimaging variations across cohorts to identify consistent subcortical or infratentorial volumetric cutoffs rather than qualitative presence/absence tags.",
+      "support": "Consistent findings across F4, F12, and F15 confirming variable callosal anomalies and occasional pseudo-molar tooth signs.",
+      "sources": [
+        "AM Bertoli (2018) Biallelic inactivating variants in the GTPBP2 gene cause a neurodevelopmental disorder with severe intellectual disability 10.1038/s41431-018-0097-3",
+        "MT Carter et al. (2019) Clinical delineation of GTPBP2\u2010associated neuro\u2010ectodermal syndrome: Report of two new families and review of the literature 10.1111/cge.13523",
+        "F D'Abrusco et al. (2022) Get your molar tooth right: Joubert syndrome misdiagnosis unmasked by whole-exome sequencing 10.1007/s12311-021-01350-8"
+      ],
+      "hypothesis": "The degree of corpus callosum hypogenesis correlates with embryonic codon-specific translational stalling rather than postnatal neurodegenerative progression.",
+      "novelty": "Prevents false-negative diagnostic exclusions by radiologists relying heavily on callosal agenesis as an obligate criterion."
+    }
+  ]
+}

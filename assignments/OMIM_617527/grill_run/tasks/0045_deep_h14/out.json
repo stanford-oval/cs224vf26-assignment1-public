@@ -1,0 +1,118 @@
+{
+  "verdict": "supported",
+  "rationale": "Neuroimaging findings across all documented PLAA-associated cohorts in the provided literature (Hall et al. 2017, Falik Zaccai et al. 2017, Chitre et al. 2018, and Dehghani et al. 2021) consistently identify a thin corpus callosum or progressive thinning of the corpus callosum alongside cerebellar/cerebral atrophy and delayed myelination, rather than primary callosal agenesis. No counter-examples reporting complete agenesis of the corpus callosum or preserved normal callosal morphology post-infancy in PLAA-deficient individuals were identified in the corpus.",
+  "evidence": [
+    {
+      "text": "Neuroimaging in affected individuals harboring PLAA variants in the first year of life demonstrated significant volume reduction and thinning of the corpus callosum accompanying progressive microcephaly and cerebellar volume reduction.",
+      "stance": "supports",
+      "source": {
+        "title": "PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins",
+        "authors": [
+          "EA Hall",
+          "MS Nahorski",
+          "LM Murray",
+          "R Shaheen"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.04.008",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30113-1",
+        "quote": "MRI analysis reveals significant reductions in corpus callosum and cerebellar volumes in"
+      },
+      "numbers": [
+        {
+          "metric": "corpus callosum reduction",
+          "value": "significant"
+        }
+      ]
+    },
+    {
+      "text": "Brain MRI characterization of seven patients presenting with progressive microcephaly and leukoencephalopathy caused by homozygous PLAA loss-of-function variants showed a thin corpus callosum alongside progressive microcephaly and spastic quadriparesis.",
+      "stance": "supports",
+      "source": {
+        "title": "Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy",
+        "authors": [
+          "TC Falik Zaccai",
+          "D Savitzki",
+          "Y Zivony"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": "10.1093/brain/aww300",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "quote": "progressive microcephaly, thin corpus callosum, significant startle \u2026 Brain MRI of Patient VI 3 (Family I), at 14 years, shows"
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "In a study of children presenting with PEHO and PEHO-like syndrome where pathogenic variants were identified across multiple genes including PLAA (c.68G>T, p.Gly23Val), key diagnostic MRI findings included cerebellar hypoplasia and a thin corpus callosum.",
+      "stance": "supports",
+      "source": {
+        "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+        "authors": [
+          "M Chitre",
+          "MS Nahorski",
+          "K Stouffer"
+        ],
+        "year": 2018,
+        "journal": "Journal of Medical Genetics",
+        "doi": "10.1136/jmedgenet-2018-105371",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+        "quote": "cerebellar hypoplasia and thin corpus callosum, (Dv) axial \u2026 pathogenic variant in the gene PLAA; c.68G>T p.Gly23Val."
+      },
+      "numbers": [
+        {
+          "metric": "variant position",
+          "value": "c.68G>T"
+        }
+      ]
+    },
+    {
+      "text": "Brain magnetic resonance imaging in a 2.5-year-old child with a homozygous PLAA missense variant demonstrated thinning of the corpus callosum, white matter signal abnormalities, polymicrogyria/lissencephaly, and severe vermis atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "New Imaging and Clinical Manifestations of NDMSBA Disorder Caused by a Novel Homozygous Missense Variant of PLAA",
+        "authors": [
+          "A Dehghani",
+          "E Razmara",
+          "M Rasoulinezhad",
+          "F Bitarafan"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.21203/rs.3.rs-464604/v1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://scholar.archive.org/work/ua2vpycevfakngoezx2cbdk5dq/access/wayback/https://assets.researchsquare.com/files/rs-464604/v1/c415ce4e-8a00-4479-b517-505ac8b11a88.pdf?c=1637244806",
+        "quote": "magnetic resonance imaging revealed lissencephaly, polymicrogyria, severe subcortical, deep and deep white matter signal abnormalities, thinning of the corpus callosum"
+      },
+      "numbers": [
+        {
+          "metric": "patient age in years",
+          "value": 2.5
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does serial volumetric brain MRI in infants with PLAA mutations establish the exact postnatal velocity of corpus callosum atrophy relative to cerebral white matter loss?",
+      "rationale": "Clarifying whether callosal thinning reflects progressive secondary axonal loss versus hypomyelination or failure of growth will sharpen the differentiation between PLAA-NDMSBA and static congenital callosal hypoplasia syndromes.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    }
+  ]
+}

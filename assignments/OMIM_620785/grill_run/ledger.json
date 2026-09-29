@@ -1,0 +1,3199 @@
+{
+  "question": "For Neurodevelopmental disorder with progressive movement abnormalities (OMIM #620785), caused by variants in ACBD6: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "required_fields": [
+    "Clinical phenotypes reported in affected individuals with ACBD6-related neurodevelopmental disorder (OMIM #620785)",
+    "Phenotype frequency given as numerator and denominator per assessed cohort (not percentage alone)",
+    "Phenotype descriptions as worded in the original paper plus standard HPO term where identifiable",
+    "Resolvable source citation (PMID or DOI) and cohort identification attached to each reported phenotype frequency",
+    "Most discriminating clinical findings (present in most affected individuals but uncommon in disorders usually confused with it)",
+    "Specific disorders commonly confused with this condition",
+    "Confidence level for each distinguishing clinical feature/differential",
+    "Phenotypes assessed and confirmed absent in affected individuals (features arguing against the diagnosis if present)",
+    "Phenotypic differences or correlations by variant type, variant position, patient age, or patient sex",
+    "Phenotypic findings reported by one paper and explicitly contradicted by another"
+  ],
+  "glossary": {
+    "ACBD6": {
+      "definition": "ACBD6 refers to acyl-CoA-binding domain-containing protein 6 and its encoding gene, in which bi-allelic loss-of-function mutations are causative of neurodevelopmental disorder with progressive movement abnormalities (OMIM #620785), characterized clinically by developmental delay accompanied by a wide spectrum of hypo- and hyperkinetic movement abnormalities, including chorea.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": "42400823",
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 gene was found in cases with developmental delay and a broad spectrum of both hypo- and hyperkinetic movement"
+      }
+    },
+    "OMIM #620785": {
+      "definition": "OMIM #620785 refers to Neurodevelopmental disorder with progressive movement abnormalities (NEDPM), a genetic disorder caused by biallelic loss-of-function variants in the ACBD6 gene that manifests with neurodevelopmental delay accompanied by progressive hypo- and hyperkinetic movement manifestations.",
+      "source": {
+        "title": "GA4GH phenopacket-driven characterization of genotype-phenotype correlations in Mendelian disorders",
+        "authors": [
+          "L Rekerle",
+          "D Danis",
+          "F Rehburg",
+          "ASL Graefe"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(25)00472-0",
+        "quote": "diagnosis: Neurodevelopmental disorder with progressive movement abnormalities (OMIM:\u2026 A total of 20 unique variant alleles were found in ACBD6 (transcript: NM 032360.4, protein id\u2026"
+      }
+    },
+    "Global developmental delay (HP:0001263)": {
+      "definition": "A neurodevelopmental condition characterized by delays across multiple developmental domains, involving overlapping phenotypic impairments in cognitive, motor, language, or social skills.",
+      "source": {
+        "title": "Strict network analysis of evolutionary conserved and brain-expressed genes reveals new putative candidates implicated in Intellectual Disability and in Global \u2026",
+        "authors": [
+          "RM Piergiorge",
+          "ATR de Vasconcelos"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1080/15622975.2020.1821916",
+        "pmid": "32914658",
+        "pmc": null,
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/15622975.2020.1821916",
+        "quote": "Intellectual Disability (ID) and Global Development Delay (GDD) are frequent reasons for referral to genetic services and although they present overlapping phenotypes concerning cognitive, motor, language, or social skills, they are not exactly synonymous."
+      }
+    },
+    "Dystonia (HP:0001332)": {
+      "definition": "A movement disorder characterized by increased muscle tone and involuntary, sustained or intermittent muscle contractions that cause twisting, repetitive movements, or abnormal postures.",
+      "source": {
+        "title": "Using Networks and Prior Knowledge to Uncover novel Rare Disease Phenotypes",
+        "authors": [
+          "G Bri\u00e8re",
+          "C Beust",
+          "M T\u00e9r\u00e9zol",
+          "A Baudot"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1101/2025.04.02.25325098.abstract",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.medrxiv.org/content/10.1101/2025.04.02.25325098.abstract",
+        "quote": "Meanwhile, Dystonia (HP:0001332) despite being characterized by increased muscle tone ("
+      }
+    }
+  },
+  "sources": [],
+  "datasets": [],
+  "constraints": [],
+  "assumptions": [],
+  "prior": {
+    "text": "ACBD6-related disorder (OMIM #620785) can be clinically suspected when an infant or young child presents with early neurodevelopmental delay followed by an insidious, progressive mixed extrapyramidal movement disorder\u2014predominantly generalized or focal dystonia combined with choreoathetosis and parkinsonian features\u2014in the absence of early severe systemic involvement, acute metabolic crises, or early peripheral neuropathy. Brain MRI demonstrating progressive non-specific cerebral and cerebellar atrophy with preserved myelination patterns further narrows the differential from primary mitochondrial, lysosomal, or neurodegeneration with brain iron accumulation (NBIA) disorders.",
+    "candidate_answers": [
+      "Biallelic loss-of-function variants in ACBD6 lead to global developmental delay (HP:0001263) and intellectual disability in nearly all reported patients, accompanied by progressive dystonia (HP:0001332) and choreoathetosis (HP:0001266) manifesting between early infancy and adolescence.",
+      "The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "Extraneural visceral organomegaly, severe primary sensory-motor peripheral polyneuropathy, and acute episodic metabolic ketoacidosis or hyperammonemia are absent across reported ACBD6 cohorts, making their presence an exclusionary or strong counter-indicator.",
+      "Complete loss-of-function (nonsense, frameshift, canonical splice-site) variants across ACBD6 cause a severe, early-onset phenotype, whereas hypomorphic missense variants in the acyl-CoA binding domain may lead to a slower progression with later-onset dystonia."
+    ]
+  },
+  "prior_candidates": [
+    {
+      "answer": "Biallelic loss-of-function variants in ACBD6 lead to global developmental delay (HP:0001263) and intellectual disability in nearly all reported patients, accompanied by progressive dystonia (HP:0001332) and choreoathetosis (HP:0001266) manifesting between early infancy and adolescence.",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotypes and frequency"
+    },
+    {
+      "answer": "The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "confidence": 0.75,
+      "aspect": "Discriminative features versus clinical phenocopies"
+    },
+    {
+      "answer": "Extraneural visceral organomegaly, severe primary sensory-motor peripheral polyneuropathy, and acute episodic metabolic ketoacidosis or hyperammonemia are absent across reported ACBD6 cohorts, making their presence an exclusionary or strong counter-indicator.",
+      "confidence": 0.8,
+      "aspect": "Negative or exclusionary clinical findings"
+    },
+    {
+      "answer": "Complete loss-of-function (nonsense, frameshift, canonical splice-site) variants across ACBD6 cause a severe, early-onset phenotype, whereas hypomorphic missense variants in the acyl-CoA binding domain may lead to a slower progression with later-onset dystonia.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlations"
+    }
+  ],
+  "directions": {
+    "d1": {
+      "id": "d1",
+      "question_text": "What are the exact published cohort sizes, exact numerators and denominators for dystonia, ataxia, chorea, and microcephaly across primary discovery papers?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 1.0,
+      "allocated_usd": 1.97,
+      "spent_usd": 0.01574500000000001,
+      "alloc_rationale": "Directly extracts exact numerators, denominators, and HPO terms across published cohorts to satisfy question 1.",
+      "produced_hypotheses": [
+        "h5",
+        "h6",
+        "h7"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d2": {
+      "id": "d2",
+      "question_text": "Does brain MRI consistently show basal ganglia signal abnormalities or iron accumulation, or are imaging findings restricted to volume loss and white matter thinning?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.43440529609937395,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d3": {
+      "id": "d3",
+      "question_text": "Are there any reported adult-onset or non-syndromic presentations of ACBD6 variants?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.5369153607124104,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d4": {
+      "id": "d4",
+      "question_text": "Are specific facial dysmorphic features recurrent and identifiable across distinct ancestral backgrounds?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4652357808470568,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d5": {
+      "id": "d5",
+      "question_text": "How specifically can neuroimaging hallmarks (corpus callosum anomalies, clava hypertrophy, and anterior commissure agenesis) differentiate ACBD6-related disorders from other hereditary dystonia-parkinsonism and chorea syndromes?",
+      "parent_id": null,
+      "rationale": "Neuroimaging abnormalities such as hypoplasia/agenesis of the anterior commissure (66%) and hypertrophy of the clava (24%) may provide pathognomonic diagnostic clues in individuals with ambiguous mixed hyperkinetic/dystonic phenotypes.",
+      "status": "EXPLORED",
+      "promise": 0.92,
+      "est_cost": 25000.0,
+      "allocated_usd": 1.94,
+      "spent_usd": 0.012886000000000009,
+      "alloc_rationale": "Directly targets the key discriminating neuroimaging markers (anterior commissure dysgenesis and claval hypertrophy) needed to distinguish ACBD6 from phenotypically overlapping dystonia-chorea syndromes.",
+      "produced_hypotheses": [
+        "h14",
+        "h15",
+        "h16"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d6": {
+      "id": "d6",
+      "question_text": "What is the therapeutic responsiveness of ACBD6-associated dystonia, chorea, and tremor to dopaminergic modulation, anticholinergics, or deep brain stimulation?",
+      "parent_id": null,
+      "rationale": "Patients present with a progression from hyperkinetic/dystonic features in childhood to parkinsonism in older ages (32%), suggesting possible basal ganglia dopaminergic pathway involvement.",
+      "status": "OPEN",
+      "promise": 0.38807097472239704,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d7": {
+      "id": "d7",
+      "question_text": "Resolve the conflict over: The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: The hypothesis asserts the absence of metabolic decompensation or systemic disease, whereas Yeetong et al. (2022) documented homozygous ACBD6 loss-of-function variants resulting in cirrhosis, diabetes mellitus, and end-stage renal failure.; The hypothesis emphasizes parkinsonism as a primary discriminating feature, but Kaiyrzhanov et al. (2024) found parkinsonism/hypokinesia in only 32% (14/45) of patients, demonstrating that its absence cannot rule out the condition.",
+      "status": "EXPLORED",
+      "promise": 0.92,
+      "est_cost": 1.0,
+      "allocated_usd": 1.97,
+      "spent_usd": 0.017150500000000013,
+      "alloc_rationale": "Resolves key contradictions between Kaiyrzhanov 2024 and Yeetong 2022 regarding systemic findings and distinguishing features.",
+      "produced_hypotheses": [
+        "h8",
+        "h9",
+        "h10"
+      ],
+      "tests_hypothesis_id": "h2",
+      "origin": "agent"
+    },
+    "d8": {
+      "id": "d8",
+      "question_text": "What genetic or molecular modifiers determine whether ACBD6 biallelic loss-of-function leads to isolated neurodevelopmental movement disorders versus severe visceral involvement (hepatic cirrhosis, pancytopenia, renal failure)?",
+      "parent_id": null,
+      "rationale": "Resolving the phenotypic dichotomy between the Kaiyrzhanov et al. neurodevelopmental cohort and the Yeetong et al. multiorgan failure cohort is critical for accurate clinical prognosis and surveillance.",
+      "status": "OPEN",
+      "promise": 0.42015716224922806,
+      "est_cost": 250000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d9": {
+      "id": "d9",
+      "question_text": "Can the combination of clava hypertrophy and anterior commissure agenesis/hypoplasia on brain MRI serve as a definitive radiologic biomarker to distinguish ACBD6 disorder from GNAO1 and NBIA?",
+      "parent_id": null,
+      "rationale": "Phenotypic overlap among hyperkinetic childhood disorders makes clinical separation challenging; quantitative MRI validation of clava hypertrophy could allow precise differentiation without whole-exome sequencing delay.",
+      "status": "OPEN",
+      "promise": 0.38422473188062223,
+      "est_cost": 120000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d10": {
+      "id": "d10",
+      "question_text": "Does late-stage ACBD6 deficiency consistently precipitate non-alcoholic fatty liver disease leading to cirrhosis and secondary portal-hypertensive splenomegaly?",
+      "parent_id": null,
+      "rationale": "Yeetong et al. observed hepatic cirrhosis in two siblings in their 30s. Systematic longitudinal abdominal ultrasound tracking across growing patient registries is needed to clarify if cirrhosis represents a secondary progressive complication of ACBD6 acyl-CoA binding loss.",
+      "status": "OPEN",
+      "promise": 0.4015112873754506,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d11": {
+      "id": "d11",
+      "question_text": "What are the neurophysiological nerve conduction study findings across older ACBD6-deficient individuals to definitively rule out subclinical peripheral axonal involvement?",
+      "parent_id": null,
+      "rationale": "While prominent primary sensory-motor polyneuropathy is absent, detailed prospective nerve conduction studies across multiple age cohorts have not been systematically published to rule out minor subclinical length-dependent axonal changes.",
+      "status": "OPEN",
+      "promise": 0.4021432165901969,
+      "est_cost": 18000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d12": {
+      "id": "d12",
+      "question_text": "Re-investigate (refuted): Complete loss-of-function (nonsense, frameshift, canonical splice-site) variants across ACBD6 cause a severe, early-onset phenotype, whereas hypomorphic missense variants in the acyl-CoA binding domain may lead to a slower progression with later-onset dystonia.",
+      "parent_id": null,
+      "rationale": "deep test refuted it: The literature does not support the hypothesis that hypomorphic missense variants in the acyl-CoA binding domain of ACBD6 cause a distinct, slower-progressing phenotype with later-onset dystonia. In the primary disease-defining cohort of 45 individuals from 28 families (Kaiyrzhanov et al., 2024), 18 of the 20 distinct pathogenic variants were loss-of-function (LOF), with only 1 missense and 1 in-frame insertion identified across the entire international cohort. The phenotype across all patients was uniformly characterized by early-onset disease, moderate-to-severe global developmental delay/intellectual disability (100%), expressive language impairment (98%), and early-onset progressive postural deformities (97%) and dystonia (94%). Screening of 1,924 late-onset isolated dystonia patients (Thomsen et al., 2025) failed to establish ACBD6 missense variants as a confirmed cause of late-onset dystonia. Thus, there is currently no empirical evidence for an attenuated or late-onset dystonia phenotype driven by hypomorphic ACBD6 missense alleles.",
+      "status": "OPEN",
+      "promise": 0.5189479764337543,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h4",
+      "origin": "agent"
+    },
+    "d13": {
+      "id": "d13",
+      "question_text": "Does residual N-myristoyltransferase-regulating activity in ACBD6 missense mutants alter enzymatic function in vitro compared to complete null alleles?",
+      "parent_id": null,
+      "rationale": "Functional assays measuring N-myristoylation via YnMyr chemical proteomics can establish whether candidate missense variants preserve partial acyl-CoA binding activity or act as complete loss-of-function alleles.",
+      "status": "OPEN",
+      "promise": 0.386699895176129,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d14": {
+      "id": "d14",
+      "question_text": "Are biallelic ACBD6 missense variants present in unsolved adult-onset or adolescent-onset dystonia registries after deep re-annotation?",
+      "parent_id": null,
+      "rationale": "Systematic targeted re-analysis of whole-genome/exome datasets from international dystonia consortia can formally confirm or rule out the existence of hypomorphic adult-onset phenotypes.",
+      "status": "OPEN",
+      "promise": 0.39247777563001285,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d15": {
+      "id": "d15",
+      "question_text": "Build on the confirmed prior: Biallelic loss-of-function variants in ACBD6 lead to global developmental delay (HP:0001263) and intellectual disability in nearly all reported patients, accompanied by progressive dystonia (HP:0001332) and choreoathetosis (HP:0001266) manifesting between early infancy and adolescence.",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "OPEN",
+      "promise": 0.5359237666606536,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d16": {
+      "id": "d16",
+      "question_text": "Build on the confirmed prior: Extraneural visceral organomegaly, severe primary sensory-motor peripheral polyneuropathy, and acute episodic metabolic ketoacidosis or hyperammonemia are absent across reported ACBD6 cohorts, making their presence an exclusionary or strong counter-indicator.",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "OPEN",
+      "promise": 0.5167058321248147,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d17": {
+      "id": "d17",
+      "question_text": "What is the exact breakdown of secondary vs primary microcephaly (congenital versus progressive postnatal decline in head circumference percentiles) across the 45 individuals in the Kaiyrzhanov et al. cohort?",
+      "parent_id": "d1",
+      "rationale": "Differentiating congenital microcephaly from progressive postnatal deceleration of head growth will further sharpen the clinical developmental profile.",
+      "status": "OPEN",
+      "promise": 0.4867833993540025,
+      "est_cost": 0.85,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d18": {
+      "id": "d18",
+      "question_text": "Are there published case reports of ACBD6 variants with prominent early choreoathetosis that lacked dystonia at presentation?",
+      "parent_id": "d1",
+      "rationale": "Testing whether chorea can ever precede or occur in the absence of dystonia will establish whether pure chorea can be an initial presentation of ACBD6 disease.",
+      "status": "OPEN",
+      "promise": 0.534137973570218,
+      "est_cost": 0.95,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d19": {
+      "id": "d19",
+      "question_text": "What proportion of adult ACBD6-deficient individuals develop multi-system involvement (cirrhosis, diabetes, nephropathy, or pancytopenia) versus purely neurologic phenotypes?",
+      "parent_id": "d7",
+      "rationale": "Clarifies whether the severe extraneural features described by Yeetong et al. are typical late-stage sequelae in long-surviving adults with biallelic ACBD6 mutations or an atypical isolate.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 0.7,
+      "allocated_usd": 1.94,
+      "spent_usd": 0.017316500000000012,
+      "alloc_rationale": "Directly resolves whether the multi-system involvement reported by Yeetong et al. is an age-dependent or allele-specific finding versus an isolated report contradicted by larger cohorts.",
+      "produced_hypotheses": [
+        "h11",
+        "h12",
+        "h13"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d20": {
+      "id": "d20",
+      "question_text": "Does levodopa responsiveness differentiate ACBD6-associated parkinsonism from other childhood-onset dystonia-parkinsonism disorders?",
+      "parent_id": "d7",
+      "rationale": "Evaluating pharmacological response in the 32% of patients with parkinsonism would provide clinicians with both diagnostic differentiation and direct therapeutic guidance.",
+      "status": "OPEN",
+      "promise": 0.5127937933904757,
+      "est_cost": 0.6,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d21": {
+      "id": "d21",
+      "question_text": "What proportion of ACBD6-associated jerky upper-limb movements represent true chorea versus jerky tremor, myoclonus, or dystonic jerks on quantitative surface electromyography?",
+      "parent_id": "d1",
+      "rationale": "Review articles list ACBD6 under genetic chorea panels due to reports of 'chorea-like jerky movements', but precise electrophysiological phenotyping is necessary to disambiguate cortical/subcortical myoclonus, dystonic jerking, and true chorea.",
+      "status": "OPEN",
+      "promise": 0.4583277480327481,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d22": {
+      "id": "d22",
+      "question_text": "What is the precise median age of onset and progression rate of hypokinesia/parkinsonism in adult ACBD6 patients compared to the onset of axial dystonia?",
+      "parent_id": "d7",
+      "rationale": "Clarifying the longitudinal transition from pure hyperkinetic dystonic-ataxic syndrome to dystonia-parkinsonism will guide age-stratified clinical diagnostics and surveillance.",
+      "status": "OPEN",
+      "promise": 0.4841108370053565,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d23": {
+      "id": "d23",
+      "question_text": "Does dopaminergic imaging (e.g., DaTscan) show pre-synaptic nigrostriatal deficit in ACBD6 patients who develop hypokinesia versus those who exhibit purely hyperkinetic dystonia?",
+      "parent_id": "d7",
+      "rationale": "Determining whether parkinsonism in older ACBD6 patients reflects progressive nigrostriatal degeneration or downstream network dysfunction will inform trial design for dopaminergic therapies.",
+      "status": "OPEN",
+      "promise": 0.4468715846052921,
+      "est_cost": 60000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d24": {
+      "id": "d24",
+      "question_text": "Is the systemic visceral failure (cirrhosis, pancytopenia, renal failure) allele-specific to c.360dup or a cumulative consequence of prolonged morbid obesity and metabolic dysregulation in older adult survivors?",
+      "parent_id": "d7",
+      "rationale": "Kaiyrzhanov et al. included adult patients up to age 50 without universally reporting multi-organ failure, whereas Yeetong et al. observed death from multi-organ failure in their early 30s. Longitudinal metabolic tracking across aging ACBD6 cohorts will clarify allele-specific versus age-dependent disease mechanisms.",
+      "status": "OPEN",
+      "promise": 0.4479684746605268,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d25": {
+      "id": "d25",
+      "question_text": "How do quantitative anterior commissure volumetric measurements compare between ACBD6 deficiency and other early-onset monogenic dystonia-chorea syndromes?",
+      "parent_id": "d7",
+      "rationale": "Anterior commissure hypoplasia or agenesis is frequently missed or under-reported on routine clinical MRI unless specifically sought; prospective quantitative commissural volumetrics could establish precise sensitivity and specificity cutoffs.",
+      "status": "OPEN",
+      "promise": 0.45781058790928586,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d26": {
+      "id": "d26",
+      "question_text": "Does claval hypertrophy (reported in 24% of ACBD6 cases) represent a pathognomonic radiological marker absent across classic NBIA, GNAO1, and NKX2-1 disorders?",
+      "parent_id": "d7",
+      "rationale": "While corpus callosum abnormalities occur in several genetic neurodevelopmental syndromes, claval hypertrophy and anterior commissure dysgenesis are exceptionally rare and could provide almost definitive specificity.",
+      "status": "OPEN",
+      "promise": 0.4783240494917155,
+      "est_cost": 18000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d27": {
+      "id": "d27",
+      "question_text": "To what degree is cerebellar ataxia clinically masked or underdiagnosed when severe lower limb spasticity (76%) or generalized dystonia (94%) dominates the motor presentation in older ACBD6 patients?",
+      "parent_id": "d1",
+      "rationale": "Kaiyrzhanov et al. observed progressive postural deformities and parkinsonism with advancing age, which could hinder formal assessment of appendicular or truncal cerebellar ataxia over time.",
+      "status": "OPEN",
+      "promise": 0.4710755604235861,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d28": {
+      "id": "d28",
+      "question_text": "Does the presence or absence of microcephaly in ACBD6 deficiency correlate with specific variant classes (e.g., complete loss-of-function versus hypomorphic missense variants) or brain malformation patterns?",
+      "parent_id": "d1",
+      "rationale": "Determining genotype-phenotype correlations could explain why approximately 39% develop microcephaly while the remainder remain normocephalic.",
+      "status": "OPEN",
+      "promise": 0.5003969470993873,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d29": {
+      "id": "d29",
+      "question_text": "Is microcephaly in ACBD6 deficiency progressive postnatally, and what are the longitudinal head circumference trajectory z-scores across childhood?",
+      "parent_id": "d1",
+      "rationale": "Birth head circumference was <= 3rd percentile in 33% (7/21) while overall microcephaly was 39%, suggesting deceleration of head growth might occur in a subset of normocephalic neonates.",
+      "status": "OPEN",
+      "promise": 0.46704240525034957,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d30": {
+      "id": "d30",
+      "question_text": "Did the adult ACBD6-deficient individuals aged >30 years in the Kaiyrzhanov et al. (2024) cohort undergo routine abdominal ultrasound, liver biochemistries, and complete blood counts, or were extraneural evaluations omitted due to focusing on the neurodevelopmental phenotype?",
+      "parent_id": "d19",
+      "rationale": "Clarifies whether hepatic cirrhosis, nephropathy, and pancytopenia were truly absent or merely under-ascertained in the broader adult cohort.",
+      "status": "OPEN",
+      "promise": 0.82,
+      "est_cost": 0.75,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d31": {
+      "id": "d31",
+      "question_text": "Could the homozygous c.360dup (p.Leu121Thrfs*27) variant or an adjacent linked homozygous variant unique to the consanguineous Thai pedigree explain the isolated multi-organ extraneural presentation?",
+      "parent_id": "d19",
+      "rationale": "Determines whether homozygosity mapping in the Thai pedigree reveals contiguous gene defects or unmasked recessive alleles in another metabolic or hematologic locus.",
+      "status": "OPEN",
+      "promise": 0.7,
+      "est_cost": 0.65,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d32": {
+      "id": "d32",
+      "question_text": "Does clava hypertrophy correlate with specific clinical features such as proprioceptive deficits, sensory ataxia, or specific ACBD6 variant classes?",
+      "parent_id": "d5",
+      "rationale": "The clava contains the gracile nucleus, mediating dorsal column somatosensory pathway relay; determining if clava hypertrophy correlates with sensory ataxia or LOF variants will refine clinico-radiological phenotyping.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 0.85,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d33": {
+      "id": "d33",
+      "question_text": "What is the sensitivity and specificity of an MRI diagnostic triad (anterior commissure hypoplasia + corpus callosum dysgenesis + clava hypertrophy) across an unselected pediatric movement disorder neuroimaging database?",
+      "parent_id": "d5",
+      "rationale": "Quantifying the false-positive rate of this MRI triad among hereditary dystonias and choreas will establish its diagnostic utility before genetic confirmation.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.05,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d34": {
+      "id": "d34",
+      "question_text": "Do secondary genetic modifiers or digenic inheritance explain the development of pancytopenia and end-stage organ failure in the Thai family reported by Yeetong et al.?",
+      "parent_id": "d19",
+      "rationale": "Because the vast majority of patients with loss-of-function ACBD6 mutations exhibit exclusively neurodevelopmental and neuromotor phenotypes despite reaching ages up to 50, re-analyzing exome or genome data from the Thai pedigree could clarify if co-occurring recessive mutations caused the visceral failure.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d35": {
+      "id": "d35",
+      "question_text": "Is subclinical hepatic steatosis or bone marrow lineage impairment present in older ACBD6-deficient adults who lack overt cirrhosis and pancytopenia?",
+      "parent_id": "d19",
+      "rationale": "ACBD6 regulates N-myristoylation and lipid acylation; longitudinal subclinical screening (liver elastography, hematologic profiling) in adult cohorts would confirm whether visceral involvement exists subclinically or is truly tissue-sparing across genotypes.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d36": {
+      "id": "d36",
+      "question_text": "Do specific ACBD6 truncating variants exhibit distinct effects on adipocyte N-myristoylation and insulin sensitivity compared to missense alleles?",
+      "parent_id": "d19",
+      "rationale": "Differences in residual acyl-CoA-binding or N-myristoylation function across variant classes might explain why extreme metabolic decompensation and visceral failure occurred in specific truncating alleles but not broadly across all loss-of-function cohorts.",
+      "status": "OPEN",
+      "promise": 0.82,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d37": {
+      "id": "d37",
+      "question_text": "What is the incidence of subclinical insulin resistance, hepatic steatosis, and microalbuminuria in non-diabetic ACBD6-deficient individuals who are overweight?",
+      "parent_id": "d19",
+      "rationale": "Prospective metabolic profiling across older ACBD6-deficient cohorts will definitively determine whether diabetes and renal failure are truly absent or merely underdiagnosed prior to adult decompensation.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d38": {
+      "id": "d38",
+      "question_text": "Is the pancytopenia in the Thai siblings described by Yeetong et al. directly caused by ACBD6 loss-of-function or secondary to hypersplenism and cirrhosis/chronic renal disease?",
+      "parent_id": "d19",
+      "rationale": "Cirrhosis and portal hypertension can induce congestive splenomegaly leading to secondary pancytopenia, which would differentiate primary bone marrow failure from non-hematologic multi-organ failure sequelae.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d39": {
+      "id": "d39",
+      "question_text": "Does ACBD6 deficiency affect human hematopoietic stem and progenitor cell proliferation and myristoylation profiles in vitro?",
+      "parent_id": "d19",
+      "rationale": "Testing cord blood or iPSC-derived ACBD6 knockout hematopoiesis models can definitively establish whether human bone marrow lineages depend cell-autonomously on ACBD6-regulated N-myristoylation.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d40": {
+      "id": "d40",
+      "question_text": "Re-investigate (refuted): The combination of anterior commissure hypoplasia or agenesis with corpus callosum dysgenesis constitutes a composite neuroimaging signature present in the majority (>60%) of ACBD6-deficient individuals, reliably distinguishing them from NBIA (neurodegeneration with brain iron accumulation) syndromes where basal ganglia iron accumulation occurs without anterior commissure agenesis.",
+      "parent_id": "d5",
+      "rationale": "deep test refuted it: The hypothesis posits that the combination of anterior commissure hypoplasia/agenesis and corpus callosum dysgenesis constitutes a composite neuroimaging signature present in >60% of ACBD6-deficient individuals that reliably distinguishes them from NBIA syndromes. The available literature provides no support for this claim. While Kaiyrzhanov et al. (2024) document corpus callosum abnormalities in 70% and hypoplasia/agenesis of the anterior commissure in 66% as isolated midline findings in 45 patients, the sources neither report the composite co-occurrence rate of both features together nor provide any comparative or differential validation against NBIA syndromes.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h15",
+      "origin": "agent"
+    },
+    "d41": {
+      "id": "d41",
+      "question_text": "What is the exact pairwise co-occurrence rate of anterior commissure hypoplasia/agenesis and corpus callosum abnormalities in the Kaiyrzhanov et al. cohort?",
+      "parent_id": "d5",
+      "rationale": "Determining the true intersection of both midline anomalies is necessary to establish if a composite radiological sign exceeds 60% sensitivity.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 5000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d42": {
+      "id": "d42",
+      "question_text": "Does anterior commissure hypoplasia or agenesis occur in genetically confirmed NBIA cohorts (e.g., PKAN, PLAN, MPAN)?",
+      "parent_id": "d5",
+      "rationale": "Testing specificity requires systematically reviewing commissural anatomy across NBIA neuroimaging series to verify whether anterior commissure pathology is truly absent in NBIA.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d43": {
+      "id": "d43",
+      "question_text": "What is the true clinical sensitivity of anterior commissure hypoplasia combined with clava hypertrophy versus isolated inferior vermian hypoplasia for differentiating ACBD6 deficiency from PCH2 and PCH1?",
+      "parent_id": "d5",
+      "rationale": "Because short midbrain and inferior vermian hypoplasia are each detected in only 38% of patients, their absence does not exclude ACBD6 deficiency. Determining the diagnostic sensitivity and specificity of the full midline neuroimaging composite (anterior commissure + corpus callosum + clava + vermis) across differential mimic cohorts is needed.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    }
+  },
+  "hypotheses": {
+    "h1": {
+      "id": "h1",
+      "text": "Biallelic loss-of-function variants in ACBD6 lead to global developmental delay (HP:0001263) and intellectual disability in nearly all reported patients, accompanied by progressive dystonia (HP:0001332) and choreoathetosis (HP:0001266) manifesting between early infancy and adolescence.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Core clinical phenotypes and frequency"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e1",
+        "e2",
+        "e9",
+        "e10"
+      ],
+      "conflicts": [],
+      "screen_note": "Biallelic loss-of-function variants in ACBD6 cause a neurodevelopmental disorder with global developmental delay/intellectual disability (100%) and progressive movement disorders, primarily dystonia and chorea.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h2": {
+      "id": "h2",
+      "text": "The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Discriminative features versus clinical phenocopies"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e5",
+        "e6",
+        "e11",
+        "e12"
+      ],
+      "conflicts": [
+        "The hypothesis asserts the absence of metabolic decompensation or systemic disease, whereas Yeetong et al. (2022) documented homozygous ACBD6 loss-of-function variants resulting in cirrhosis, diabetes mellitus, and end-stage renal failure.",
+        "The hypothesis emphasizes parkinsonism as a primary discriminating feature, but Kaiyrzhanov et al. (2024) found parkinsonism/hypokinesia in only 32% (14/45) of patients, demonstrating that its absence cannot rule out the condition."
+      ],
+      "screen_note": "Literature confirms ACBD6 deficiency causes early developmental delay transitioning into complex, progressive movement disorders featuring prominent dystonia and age-dependent parkinsonism/hypokinesia.",
+      "bin_reason": "contested (2 for / 1 against): The hypothesis asserts the absence of metabolic decompensation or systemic disease, whereas Yeetong et al. (2022) documented homozygous ACBD6 loss-of-function variants resulting in cirrhosis, diabetes mellitus, and end-stage renal failure.; The hypothesis emphasizes parkinsonism as a primary discriminating feature, but Kaiyrzhanov et al. (2024) found parkinsonism/hypokinesia in only 32% (14/45) of patients, demonstrating that its absence cannot rule out the condition.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h3": {
+      "id": "h3",
+      "text": "Extraneural visceral organomegaly, severe primary sensory-motor peripheral polyneuropathy, and acute episodic metabolic ketoacidosis or hyperammonemia are absent across reported ACBD6 cohorts, making their presence an exclusionary or strong counter-indicator.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Negative or exclusionary clinical findings"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e3",
+        "e4",
+        "e13",
+        "e14"
+      ],
+      "conflicts": [],
+      "screen_note": "Phenotypic characterization across reported cohorts highlights a predominantly central neurodevelopmental and movement disorder phenotype without reports of primary severe polyneuropathy or episodic metabolic decompensation.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h4": {
+      "id": "h4",
+      "text": "Complete loss-of-function (nonsense, frameshift, canonical splice-site) variants across ACBD6 cause a severe, early-onset phenotype, whereas hypomorphic missense variants in the acyl-CoA binding domain may lead to a slower progression with later-onset dystonia.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Genotype-phenotype correlations"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e7",
+        "e8",
+        "e15"
+      ],
+      "conflicts": [
+        "The hypothesis assumes a hypomorphic missense class causing late-onset, slower-progression dystonia, but 90% (18/20) of reported alleles are loss-of-function, and the only reported cohort demonstrates early childhood onset across all identified genotypes, including the single missense case.",
+        "Large-scale screening of 1,924 late-onset dystonia cases did not validate ACBD6 missense variants as a cause of late-onset isolated dystonia."
+      ],
+      "screen_note": "Most reported ACBD6 pathogenic variants are loss-of-function presenting with early-onset progressive disease, making hypomorphic missense correlations plausible but needing verification.",
+      "bin_reason": "refuted: The literature does not support the hypothesis that hypomorphic missense variants in the acyl-CoA binding domain of ACBD6 cause a distinct, slower-progressing phenotype with later-onset dystonia. In the primary disease-defining cohort of 45 individuals from 28 families (Kaiyrzhanov et al., 2024), 18 of the 20 distinct pathogenic variants were loss-of-function (LOF), with only 1 missense and 1 in-frame insertion identified across the entire international cohort. The phenotype across all patients was uniformly characterized by early-onset disease, moderate-to-severe global developmental delay/intellectual disability (100%), expressive language impairment (98%), and early-onset progressive postural deformities (97%) and dystonia (94%). Screening of 1,924 late-onset isolated dystonia patients (Thomsen et al., 2025) failed to establish ACBD6 missense variants as a confirmed cause of late-onset dystonia. Thus, there is currently no empirical evidence for an attenuated or late-onset dystonia phenotype driven by hypomorphic ACBD6 missense alleles.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h5": {
+      "id": "h5",
+      "text": "Dystonia is the predominant and near-universal movement disorder in ACBD6 deficiency, manifesting in over 90% of affected individuals (specifically 94%, ~42/45), whereas classical chorea is infrequent relative to dystonia and tremor.",
+      "direction_id": "d1",
+      "rationale": "Clarifying the exact frequency of dystonia versus chorea prevents diagnostic confusion, especially since review articles on genetic chorea list ACBD6 alongside chorea syndromes even though dystonia and tremor represent the primary reported hyperkinetic phenomenologies.",
+      "aspects": [
+        "pooled",
+        "phenotype frequency",
+        "dystonia"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e16",
+        "e17",
+        "e28",
+        "e32",
+        "e33"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature confirms dystonia is the primary movement disorder in ACBD6 deficiency (present in 94% of cases, 42/45), with tremor also prominent, while chorea is relatively minor despite its inclusion in genetic chorea panels.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h6": {
+      "id": "h6",
+      "text": "Cerebellar ataxia is present in an overwhelming majority (>80%, specifically 85%, ~38/45) of patients with biallelic ACBD6 mutations and co-occurs with gait impairment in ~94% of cases.",
+      "direction_id": "d1",
+      "rationale": "Ataxia is often overlooked when chorea or dystonia dominates the clinical referral label; confirming the exact numerator and denominator establishes ataxia as a required co-feature of the mixed movement disorder presentation.",
+      "aspects": [
+        "pooled",
+        "phenotype frequency",
+        "ataxia"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e18",
+        "e19"
+      ],
+      "conflicts": [],
+      "screen_note": "Kaiyrzhanov et al. (2024) directly report mild cerebellar ataxia in 85% and gait impairment in 94% in a cohort of 45 patients with biallelic ACBD6 variants.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h7": {
+      "id": "h7",
+      "text": "Microcephaly (HP:0000252) is an inconsistent feature in ACBD6 deficiency, occurring in under 50% of confirmed cases (specifically 39%, ~18/45), meaning normal head circumference does not rule out the condition.",
+      "direction_id": "d1",
+      "rationale": "Many severe pediatric neurometabolic and neurodevelopmental disorders feature primary or progressive microcephaly in >80% of patients; proving that microcephaly is present in only 39% prevents clinicians from excluding ACBD6 in normocephalic individuals.",
+      "aspects": [
+        "pooled",
+        "phenotype frequency",
+        "microcephaly"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e20",
+        "e21",
+        "e31",
+        "e37"
+      ],
+      "conflicts": [],
+      "screen_note": "A cohort study of 45 individuals with bi-allelic ACBD6 variants confirmed microcephaly in exactly 39% of cases.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h8": {
+      "id": "h8",
+      "text": "Parkinsonism and hypokinesia in ACBD6-related neurodevelopmental disorder represent age-dependent manifestations occurring in only a minority (~32%) of patients, such that progressive early-onset dystonia and postural deformities (present in >90%), rather than parkinsonism, constitute the primary discriminating movement disorder phenotype.",
+      "direction_id": "d7",
+      "rationale": "Resolves the conflict where prior formulations overemphasized parkinsonism as an obligatory discriminating sign. In the largest reported cohort, parkinsonism/hypokinesia was detected in only 32% (14/45) and developed with advancing age, whereas dystonia (94%) and progressive postural deformities (97%) were near-universal, showing that the absence of parkinsonism cannot exclude ACBD6 deficiency in children or adolescents.",
+      "aspects": [
+        "phenotypic spectrum",
+        "movement disorders",
+        "differential diagnosis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e22",
+        "e23"
+      ],
+      "conflicts": [],
+      "screen_note": "Kaiyrzhanov et al. (2024) confirm dystonia (94%) and postural deformities (97%) predominate, while parkinsonism/hypokinesia is seen in only 32% and develops with advancing age.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h2",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h9": {
+      "id": "h9",
+      "text": "Severe visceral and metabolic complications reported in ACBD6 deficiency (cirrhosis, diabetes mellitus, pancytopenia, and end-stage renal failure) represent late-adulthood complications of severe metabolic dysregulation or specific truncating alleles rather than paroxysmal acute metabolic decompensations like organic acidurias.",
+      "direction_id": "d7",
+      "rationale": "Resolves the tension between claims that ACBD6 deficiency lacks metabolic/systemic involvement and Yeetong et al.'s findings of multi-organ failure. The systemic manifestations in Yeetong et al. led to death in the patients' 30s rather than childhood episodic metabolic decompensations (e.g., hyperammonemia, lactic acidosis), clarifying that systemic organ failure occurs late in disease progression.",
+      "aspects": [
+        "systemic involvement",
+        "natural history",
+        "differential diagnosis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e24",
+        "e25",
+        "e30",
+        "e34"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature confirms systemic organ failure (cirrhosis, diabetes, renal failure, pancytopenia) causing death in early adulthood in specific truncating ACBD6 variants without acute childhood paroxysmal decompensations.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h2",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h10": {
+      "id": "h10",
+      "text": "Specific midline structural neuroimaging features (corpus callosum hypoplasia/dysgenesis in ~70% and anterior commissure hypoplasia/agenesis in ~66%) combined with progressive dystonia provide a more reliable phenotypic differentiator for ACBD6 deficiency from NBIA, GNAO1, and NKX2-1 disorders than movement disorder phenomenology alone.",
+      "direction_id": "d7",
+      "rationale": "Movement disorders overlap significantly across childhood-onset chorea and dystonia conditions (GNAO1, NKX2-1, classic NBIA). However, GNAO1 and NKX2-1 typically lack the high rates of anterior commissure and corpus callosum commissural hypoplasia seen in ACBD6, while classic NBIA displays basal ganglia iron accumulation that is absent in ACBD6 deficiency.",
+      "aspects": [
+        "neuroimaging",
+        "differential diagnosis",
+        "biomarkers"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e26",
+        "e27",
+        "e29",
+        "e35",
+        "e36"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature confirms high frequencies of dystonia (94%), corpus callosum abnormalities (70%), and anterior commissure hypoplasia/agenesis (66%) in ACBD6 deficiency, supporting their utility as key discriminators.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h2",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h11": {
+      "id": "h11",
+      "text": "Extraneural multi-system organ failure (hepatic cirrhosis, end-stage renal failure, diabetes mellitus, and pancytopenia) occurs in fewer than 10% of adult individuals with biallelic ACBD6 mutations and is restricted to specific familial backgrounds rather than representing an obligatory late-stage sequela in surviving adults.",
+      "direction_id": "d19",
+      "rationale": "Clarifies whether the life-threatening visceral complications reported in Thai adult siblings by Yeetong et al. (2022) represent expected age-dependent natural history across the wider cohort of long-surviving adults (up to 50 years of age in Kaiyrzhanov et al., 2024) or an atypical isolated presentation influenced by secondary genetic or environmental factors.",
+      "aspects": [
+        "phenotypic-spectrum",
+        "adult-phenotype",
+        "extranuclear-features"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e38",
+        "e39",
+        "e48",
+        "e53"
+      ],
+      "conflicts": [],
+      "screen_note": "A cohort of 45 patients aged up to 50 years showed predominantly neurodevelopmental and movement phenotypes with overweight, while multi-organ failure was reported only in two Thai siblings.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h12": {
+      "id": "h12",
+      "text": "Metabolic dysregulation in ACBD6 deficiency frequently causes excessive weight gain/overweight (HP:0001513) in approximately 50-60% of patients across pediatric and adult cohorts, but does not autonomously progress to type 2 diabetes mellitus or diabetic nephropathy in the absence of secondary environmental or genetic co-factors.",
+      "direction_id": "d19",
+      "rationale": "Overweight is documented in 59% of patients across the 45-individual cohort, yet frank diabetes mellitus and renal failure have only been documented in the single sibship from Thailand, suggesting excessive adiposity alone does not inevitably trigger end-organ visceral failure.",
+      "aspects": [
+        "metabolic-phenotype",
+        "overweight",
+        "diabetes"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e40",
+        "e41",
+        "e50",
+        "e54",
+        "e55"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature confirms overweight in 59% of a 45-patient ACBD6 cohort, with diabetes mellitus and renal failure reported only in a single family of 2 siblings.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h13": {
+      "id": "h13",
+      "text": "Hematologic dysfunction (specifically refractory pancytopenia or severe recurring infections) is not a core manifestation of ACBD6 deficiency and does not manifest in non-consanguineous or diverse adult ACBD6 cohorts.",
+      "direction_id": "d19",
+      "rationale": "Pancytopenia is severe and lethal in the Yeetong et al. report, but no hematologic dysfunction was noted as a recurring phenotypic cardinal feature in the international multi-center study of 45 patients.",
+      "aspects": [
+        "hematologic-phenotype",
+        "pancytopenia",
+        "discriminating-features"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e42",
+        "e46",
+        "e47"
+      ],
+      "conflicts": [
+        "Yeetong et al. (2022) reported pancytopenia with severe recurring infections as an expanding feature in 2 affected siblings with ACBD6 deficiency, whereas the larger multi-center study of 45 patients by Kaiyrzhanov et al. (2024) did not report hematologic failure or cytopenia as a recurring feature."
+      ],
+      "screen_note": "A large international multi-center cohort of 45 patients with ACBD6 deficiency did not identify pancytopenia or hematologic dysfunction as a core clinical manifestation, contrasting with an initial report in two siblings.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h14": {
+      "id": "h14",
+      "text": "Hypertrophy of the clava (gracile tubercle) serves as a pathognomonic neuroimaging marker that differentiates ACBD6-related neurodevelopmental disorder from other pediatric dystonia-parkinsonism and chorea syndromes (such as GNAO1-related disorders, NKX2-1 chorea, and NBIA), manifesting in approximately one-quarter of ACBD6 patients while being virtually absent in the differential diagnoses.",
+      "direction_id": "d5",
+      "rationale": "While dystonia and parkinsonism overlap broadly across pediatric neurometabolic and movement disorders, specific lower brainstem anatomical changes such as clava hypertrophy are exceedingly rare and may provide near-definitive imaging discrimination.",
+      "aspects": [
+        "neuroimaging",
+        "differential diagnosis",
+        "brainstem malformations"
+      ],
+      "status": "binned",
+      "verdict": "untested",
+      "confidence": 0.1,
+      "evidence_ids": [
+        "e43",
+        "e52"
+      ],
+      "conflicts": [],
+      "screen_note": "While clava hypertrophy occurs in ~24% of ACBD6 patients, it is a well-established hallmark of infantile neuroaxonal dystrophy (an NBIA subtype), contradicting the claim that it is pathognomonic or absent in NBIA.",
+      "bin_reason": "screen: While clava hypertrophy occurs in ~24% of ACBD6 patients, it is a well-established hallmark of infantile neuroaxonal dystrophy (an NBIA subtype), contradicting the claim that it is pathognomonic or absent in NBIA.",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h15": {
+      "id": "h15",
+      "text": "The combination of anterior commissure hypoplasia or agenesis with corpus callosum dysgenesis constitutes a composite neuroimaging signature present in the majority (>60%) of ACBD6-deficient individuals, reliably distinguishing them from NBIA (neurodegeneration with brain iron accumulation) syndromes where basal ganglia iron accumulation occurs without anterior commissure agenesis.",
+      "direction_id": "d5",
+      "rationale": "NBIA syndromes frequently present with progressive dystonia and parkinsonism but lack anterior commissure agenesis; verifying this commissural pattern eliminates the need to await delayed iron deposition on MRI.",
+      "aspects": [
+        "neuroimaging",
+        "commissural dysgenesis",
+        "differential diagnosis"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e44",
+        "e49",
+        "e56"
+      ],
+      "conflicts": [
+        "The hypothesis asserts a composite co-occurrence rate of >60% for both anterior commissure and corpus callosum defects combined, whereas published data only report marginal individual frequencies (70% CC abnormalities and 66% AC hypoplasia/agenesis) without publishing the intersectional frequency.",
+        "The literature offers zero empirical or cohort comparison demonstrating that anterior commissure agenesis discriminates ACBD6-related disorders from NBIA spectrum disorders."
+      ],
+      "screen_note": "Corpus callosum abnormalities (70%) and anterior commissure hypoplasia/agenesis (66%) are established high-frequency neuroimaging features of bi-allelic ACBD6 deficiency.",
+      "bin_reason": "refuted: The hypothesis posits that the combination of anterior commissure hypoplasia/agenesis and corpus callosum dysgenesis constitutes a composite neuroimaging signature present in >60% of ACBD6-deficient individuals that reliably distinguishes them from NBIA syndromes. The available literature provides no support for this claim. While Kaiyrzhanov et al. (2024) document corpus callosum abnormalities in 70% and hypoplasia/agenesis of the anterior commissure in 66% as isolated midline findings in 45 patients, the sources neither report the composite co-occurrence rate of both features together nor provide any comparative or differential validation against NBIA syndromes.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h16": {
+      "id": "h16",
+      "text": "Posterior fossa and brainstem anomalies in ACBD6 deficiency follow a selective focal pattern (short midbrain in 38% and small inferior cerebellar vermis in 38%) rather than generalized pontocerebellar hypoplasia, allowing clear MRI differentiation from pontocerebellar hypoplasia (PCH) disorders that also present with choreoathetosis and microcephaly.",
+      "direction_id": "d5",
+      "rationale": "PCH subtypes present with progressive microcephaly, developmental delay, and severe chorea or dystonia, but show diffuse pontine flattening and dragonfly cerebellar atrophy, unlike the localized inferior vermian and midbrain shortening seen in ACBD6 deficiency.",
+      "aspects": [
+        "neuroimaging",
+        "posterior fossa malformations",
+        "differential diagnosis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e45",
+        "e51",
+        "e57"
+      ],
+      "conflicts": [],
+      "screen_note": "Kaiyrzhanov et al. (2024) specifically describe short midbrain (38%) and small inferior cerebellar vermis (38%) alongside corpus callosum anomalies rather than generalized pontocerebellar hypoplasia.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    }
+  },
+  "evidence": {
+    "e1": {
+      "id": "e1",
+      "text": "In a cohort of 45 affected individuals with bi-allelic pathogenic variants in ACBD6, 100% presented with global developmental delay/intellectual disability and 97% had movement disorders, of which dystonia was the most common (94%).",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1093/brain/awad380",
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37951597/",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "global developmental delay/intellectual disability frequency": "100%",
+        "dystonia frequency": "94%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e2": {
+      "id": "e2",
+      "text": "ACBD6 mutations are identified as a genetic cause linked to hyperkinetic movement disorders including dystonia and chorea, with prominent axial dystonia.",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/mdc3.70683",
+        "pmid": "42297634",
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia is reported in $90\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e3": {
+      "id": "e3",
+      "text": "The core phenotype of ACBD6 deficiency across 45 patients comprises progressive neurodevelopmental delay, prominent dystonia/movement disorders, ataxia, spasticity, and midline brain anomalies, lacking reports of primary sensory-motor polyneuropathy, organomegaly, or recurrent ketoacidosis/hyperammonemia.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental ...",
+        "authors": [
+          "R Kaiyrzhanov"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1093/brain/awad380",
+        "pmid": "37951597",
+        "pmc": "PMC10994533",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10994533/",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "affected individuals": 45,
+        "intellectual disability percentage": 100
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e4": {
+      "id": "e4",
+      "text": "A case report described two siblings with biallelic ACBD6 variants developing morbid obesity, pancytopenia, diabetes mellitus, cirrhosis, and renal failure, representing rare systemic end-organ complications rather than acute episodic metabolic decompensation or severe peripheral polyneuropathy.",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "affected siblings": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e5": {
+      "id": "e5",
+      "text": "In a cohort of 45 affected individuals with bi-allelic ACBD6 variants, 100% presented with global developmental delay/intellectual disability and 97% had movement disorders, predominantly dystonia (94%), tremor, and parkinsonism/hypokinesia emerging with advancing age (32%).",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%). The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "global developmental delay/intellectual disability percentage": 100,
+        "movement disorders percentage": 97,
+        "dystonia percentage": 94,
+        "parkinsonism/hypokinesia percentage": 32
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e6": {
+      "id": "e6",
+      "text": "Recent evaluations of genetic chorea and hyperkinetic movement disorders in neurodevelopmental syndromes identify ACBD6 variants as a recognized cause of complex childhood-onset hyperkinetic movement phenotypes.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Several novel genetic conditions have been linked to chorea over the last 3 years, including mutations in FTH1, NAA60, ACBD6 or TOR1AIP2.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e7": {
+      "id": "e7",
+      "text": "In a cohort of 45 affected individuals with biallelic ACBD6 variants, 18 of 20 identified pathogenic variants were loss-of-function, presenting with early-onset progressive postural deformities and dystonia in over 90% of individuals.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1093/brain/awad380",
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "identified 45 affected individuals from 28 unrelated families (consanguinity 93%) with bi-allelic pathogenic, predominantly loss-of-function (18/20) variants in ACBD6.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "predominantly loss-of-function variant count": "18/20",
+        "dystonia frequency": "94%",
+        "early-onset progressive postural deformities frequency": "97%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e8": {
+      "id": "e8",
+      "text": "Neurodevelopmental disorder genes including ACBD6 were noted to have unclear or expanding genotype-phenotype relationships across broader dystonia cohorts.",
+      "source": {
+        "title": "Genetic diversity and expanded phenotypes in dystonia: insights from large\u2010scale exome sequencing",
+        "authors": [
+          "M Thomsen",
+          "F Ott",
+          "S Loens"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/acn3.70100",
+        "pmid": "40533913",
+        "pmc": "PMC12343315",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70100",
+        "quote": "neurodevelopmental disorder genes that frequently include \u2026 inconsistent or unclear genotype\u2013phenotype relationships; \u2026 the recently proposed genes ATP5F1B, ACBD6, and \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e9": {
+      "id": "e9",
+      "text": "In a seminal cohort of 45 affected individuals across 28 unrelated families with bi-allelic pathogenic ACBD6 variants, 100% presented with moderate-to-severe global developmental delay/intellectual disability, 97% had movement disorders (with dystonia present in 94%), 98% had expressive language impairment, 97% developed progressive postural deformities, 85% had cerebellar ataxia, and 76% exhibited spasticity/hypertonia.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%)... The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "global_developmental_delay_or_intellectual_disability_frequency": "45/45",
+        "movement_disorders_frequency": "43/45",
+        "dystonia_frequency": "42/45",
+        "early_onset_postural_deformities_frequency": "43/45"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e10": {
+      "id": "e10",
+      "text": "Review of genetic causes of chorea and hyperkinetic disorders identifies bi-allelic loss-of-function variants in ACBD6 as a novel cause of hyperkinetic syndromes presenting with chorea, dystonia, and parkinsonism.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Several novel genetic conditions have been linked to chorea over the last 3 years, including mutations in FTH1, NAA60, ACBD6 or TOR1AIP2.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e11": {
+      "id": "e11",
+      "text": "A phenotypic expansion of ACBD6 deficiency reported two siblings with homozygous truncating variants who exhibited severe systemic and metabolic pathology, specifically morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure leading to death in their early 30s, showing that ACBD6 mutations can cause fatal multisystem visceral disease rather than an isolated neurodevelopmental movement disorder.",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon"
+        ],
+        "year": 2022,
+        "journal": "Neurology: Genetics",
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s. Molecular studies identified a novel homozygous 1 base-pair duplication (c.360dup; p.Leu121Thrfs*27) in the ACBD6 gene.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "cohort size": 2,
+        "systemic multiorgan involvement rate": "2/2"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e12": {
+      "id": "e12",
+      "text": "Systematic cluster analysis of childhood-onset hyperkinetic movement disorders across 210 monogenic conditions highlights that dystonia, chorea, and dyskinesia heavily overlap between neurodevelopmental delay and developmental epileptic encephalopathy clusters. Recessive ACBD6 is noted in hyperkinetic neurodevelopmental syndromic groupings where axial dystonia is a prominent presentation, but dystonia alone does not differentiate it cleanly without genetic or structural markers.",
+      "source": {
+        "title": "Data-Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales-Briceno",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "Across both groups, dystonia was the most frequently reported movement disorder, followed in order by chorea, ataxia, dyskinesia, and myoclonus... suggest recessive ACBD6 mutations, where axial dystonia is...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "total monogenic conditions reviewed": 210
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e13": {
+      "id": "e13",
+      "text": "Biallelic loss-of-function mutations in ACBD6 present with progressive neurodevelopmental manifestations including movement disorders such as chorea and dystonia, without primary episodic ketoacidosis or acute hyperammonemic metabolic crises.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 gene was found",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e14": {
+      "id": "e14",
+      "text": "Bi-allelic ACBD6 variants result in a complex neurodevelopmental disorder with progressive neurological features, requiring biochemical and omics profiling to distinguish from classical inborn errors of metabolism.",
+      "source": {
+        "title": "Utility of mass spectrometry in rare disease research and diagnosis",
+        "authors": [
+          "T Zhao",
+          "DH Hock",
+          "J Pitt",
+          "DR Thorburn",
+          "DA Stroud"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1038/s41525-025-00487-3",
+        "pmid": "40164634",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41525-025-00487-3",
+        "quote": "Bi-allelic ACBD6 variants lead to a neurodevelopmental",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e15": {
+      "id": "e15",
+      "text": "Phenotype clustering across 210 monogenic conditions causing hyperkinetic movement disorders in neurodevelopmental syndromes classified recessive ACBD6 within conditions featuring prominent axial dystonia and neurodevelopmental delay rather than an isolated, late-onset hyperkinetic phenotype.",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "suggest recessive ACBD6 mutations, where axial dystonia is reported",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "Evaluated monogenic conditions": 210
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e16": {
+      "id": "e16",
+      "text": "In the seminal discovery cohort of 45 affected individuals across 28 unrelated families, dystonia was observed in 94% of cases (limb dystonia in 55% and cervical dystonia in 31%), along with postural deformities in 97%, upper limb tremor in 63%, and head tremor in 59%, whereas generalized chorea was not highlighted as a primary finding.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "dystonia frequency percentage": 94,
+        "total cohort size": 45,
+        "unrelated families count": 28
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e17": {
+      "id": "e17",
+      "text": "Review of genetic chorea highlights ACBD6 as a novel gene linked to chorea, alongside dystonia and ataxia, indicating chorea is reported in this spectrum.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Several novel genetic conditions have been linked to chorea over the last 3 years, including mutations in FTH1, NAA60, ACBD6 or TOR1AIP2.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e18": {
+      "id": "e18",
+      "text": "In the Kaiyrzhanov et al. cohort of 45 individuals, mild cerebellar ataxia was documented in 85% of affected individuals and was closely coupled with gait impairment in 94% of patients.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "cerebellar ataxia frequency percentage": 85,
+        "gait impairment frequency percentage": 94
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e19": {
+      "id": "e19",
+      "text": "A meta-synthesis on hyperkinetic disorders notes that the co-occurrence of ataxia and corpus callosal agenesis points directly to recessive ACBD6 mutations with axial dystonia.",
+      "source": {
+        "title": "Data-Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales-Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "Hyperkinetic \u2026 ataxia and corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e20": {
+      "id": "e20",
+      "text": "In the international cohort of 45 patients, microcephaly was documented in only 39% of assessed cases, while overweight/obesity was actually more common (59%).",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "microcephaly frequency percentage": 39,
+        "overweight frequency percentage": 59
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e21": {
+      "id": "e21",
+      "text": "Review of genetic chorea lists microcephaly alongside intellectual disability and brain malformation in patients with bi-allelic loss-of-function ACBD6 mutations.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 \u2026 intellectual disability, microcephaly and brain malformation, \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e22": {
+      "id": "e22",
+      "text": "In a cohort of 45 individuals with biallelic ACBD6 variants, dystonia was observed in 94% (42/45) and progressive postural deformities in 97% (41/42 assessable), whereas parkinsonism/hypokinesia developed with advancing age in only 32% (14/44 assessable).",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "dystonia frequency": "94%",
+        "parkinsonism/hypokinesia frequency": "32%",
+        "postural deformities frequency": "97%"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e23": {
+      "id": "e23",
+      "text": "Literature review identifies axial dystonia as a key hallmark suggesting recessive ACBD6 mutations in children presenting with hyperkinetic movement disorders and neurodevelopmental delay.",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "the presence of 'neurodevelopmental disorder' and 'epileptic \u2026 suggest recessive ACBD6 mutations, where axial dystonia is",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e24": {
+      "id": "e24",
+      "text": "Two Thai siblings with homozygous ACBD6 c.360dup (p.Leu121Thrfs*27) developed morbid obesity, pancytopenia, diabetes mellitus, cirrhosis, and renal failure, resulting in death in their early 30s.",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure Caused by Biallelic Loss-of-Function ACBD6 Variants",
+        "authors": [
+          "P Yeetong"
+        ],
+        "year": 2022,
+        "journal": "Neurology: Genetics",
+        "doi": "10.1212/NXG.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected siblings": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e25": {
+      "id": "e25",
+      "text": "In a 45-patient worldwide cohort, overweight was common (59%) but acute metabolic crises or early primary hepatic/renal failure were not characteristic presenting features.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "overweight frequency": "59%"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e26": {
+      "id": "e26",
+      "text": "Biallelic ACBD6 pathogenic variants produce characteristic midline commissural and brainstem anomalies on MRI, including corpus callosum abnormalities in 70% and hypoplasia or agenesis of the anterior commissure in 66%.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "corpus callosum abnormalities": "70%",
+        "anterior commissure hypoplasia/agenesis": "66%"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e27": {
+      "id": "e27",
+      "text": "Novel monogenic chorea conditions, including ACBD6, present on the background of complex neurodevelopmental phenotypes and structural cerebral changes.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": "Current Neurology and Neuroscience Reports",
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 \u2026 typically linked to neurodevelopmental disorder",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e28": {
+      "id": "e28",
+      "text": "In a cohort of 45 affected individuals with biallelic ACBD6 variants, dystonia was observed in 94%, alongside tremor in 59-63%, with dystonia identified as the most conspicuous and common movement disorder.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "dystonia frequency": "94%",
+        "total cohort size": 45,
+        "upper limb tremor frequency": "63%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e29": {
+      "id": "e29",
+      "text": "In a cohort of 45 individuals with bi-allelic ACBD6 variants, dystonia was observed in 94%, alongside characteristic midline malformations including corpus callosum abnormalities in 70% and hypoplasia/agenesis of the anterior commissure in 66%.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1093/brain/awad380",
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%) ... Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "dystonia prevalence": "94%",
+        "corpus callosum abnormalities prevalence": "70%",
+        "hypoplasia/agenesis of anterior commissure prevalence": "66%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e30": {
+      "id": "e30",
+      "text": "In a comprehensive cohort of 45 individuals across 28 families with bi-allelic ACBD6 variants, patients presented with progressive neurodevelopmental and movement disorders and overweight (59%), rather than paroxysmal childhood metabolic decompensations.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "N Amiri",
+          "N Asilova",
+          "V Shotelersuk",
+          "P Yeetong"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected individuals": 45,
+        "overweight frequency percentage": 59
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e31": {
+      "id": "e31",
+      "text": "In a study of 45 affected individuals with bi-allelic pathogenic ACBD6 variants, microcephaly was present in 39% of patients.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "total affected individuals": 45,
+        "microcephaly percentage": "39%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e32": {
+      "id": "e32",
+      "text": "In the discovery cohort of 45 affected individuals from 28 unrelated families with bi-allelic ACBD6 mutations, dystonia was reported as the most conspicuous and common movement disorder present in 94% of cases, alongside postural deformities in 97%, limb dystonia in 55%, cervical dystonia in 31%, upper limb jerky tremor in 63%, and head tremor in 59%, whereas generalized chorea was not a primary feature.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "dystonia_frequency_percentage": 94,
+        "postural_deformities_percentage": 97,
+        "upper_limb_tremor_percentage": 63,
+        "head_tremor_percentage": 59,
+        "total_cohort_size": 45
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e33": {
+      "id": "e33",
+      "text": "A comprehensive review of hyperkinetic disorders in neurodevelopmental syndromes notes that corpus callosal agenesis suggests recessive ACBD6 mutations, where axial dystonia is reported in approximately 90% of cases.",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia is reported in $90\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "axial_dystonia_frequency_percentage": 90
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e34": {
+      "id": "e34",
+      "text": "In a cohort of 45 affected individuals aged 1 to 50 years across 28 unrelated families with biallelic ACBD6 variants, core manifestations were progressive neurodevelopmental and movement disorders without paroxysmal organic aciduria-like childhood decompensations; overweight was present in 59%.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "Cohort size": 45,
+        "Families": 28,
+        "Overweight frequency": "59%",
+        "Global developmental delay / intellectual disability frequency": "100%",
+        "Movement disorders frequency": "97%",
+        "Dystonia frequency": "94%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e35": {
+      "id": "e35",
+      "text": "In a multicentre cohort of 45 affected individuals with bi-allelic ACBD6 variants, the movement disorder profile was dominated by dystonia (94%), while neuroimaging revealed midline brain malformations including corpus callosum abnormalities (70%) and hypoplasia/agenesis of the anterior commissure (66%).",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%)... Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "dystonia_frequency_percent": 94,
+        "corpus_callosum_abnormalities_percent": 70,
+        "anterior_commissure_hypoplasia_agenesis_percent": 66,
+        "total_cohort_size": 45
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e36": {
+      "id": "e36",
+      "text": "In a comprehensive data-driven review of hyperkinetic movement disorders in neurodevelopmental syndromes, structural imaging features such as corpus callosal dysgenesis/agenesis combined with dystonia and ataxia are highlighted as critical discriminating clues for recessive ACBD6 mutations relative to other childhood hyperkinetic monogenic disorders.",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "ataxia and corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia is",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e37": {
+      "id": "e37",
+      "text": "Detailed measurements across the cohort demonstrate that head circumference at birth was at or below the 3rd percentile in only 7 of 21 assessed patients (33%), confirming that congenital microcephaly is also present in only a minority of cases.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://openaccess.sgul.ac.uk/115881/1/awad380.pdf",
+        "quote": "Head circumference at birth was \u2264 3nd percentile in 7/21 (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "congenital microcephaly count": "7/21",
+        "congenital microcephaly percentage": "33%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e38": {
+      "id": "e38",
+      "text": "Yeetong et al. reported two Thai adult siblings with homozygous ACBD6 c.360dup (p.Leu121Thrfs*27) who exhibited morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure leading to death in their early 30s, which had not been observed in earlier reported ACBD6 cases.",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon",
+          "K Suphapeetiporn",
+          "V Shotelersuk"
+        ],
+        "year": 2022,
+        "journal": "Neurology Genetics",
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": "PMC9709716",
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s. Molecular studies identified a novel homozygous 1 base-pair duplication (c.360dup; p.Leu121Thrfs*27) in the ACBD6 gene.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "affected siblings with pancytopenia, cirrhosis, diabetes, and renal failure": 2,
+        "age at death in affected siblings (years)": "early 30s"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e39": {
+      "id": "e39",
+      "text": "In an international cohort of 45 affected individuals aged 1 to 50 years harboring bi-allelic predominantly loss-of-function ACBD6 mutations, the clinical spectrum centered predominantly on progressive movement disorders, intellectual disability, cerebellar ataxia, and overweight (59%), without consistent reporting of cirrhosis, nephropathy, or pancytopenia across older adults.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "N Amiri",
+          "N Asilova",
+          "V Shotelersuk",
+          "P Yeetong"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37951597/",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "cohort size": 45,
+        "maximum age of evaluated individuals (years)": 50,
+        "prevalence of overweight across cohort": "59%"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e40": {
+      "id": "e40",
+      "text": "Among 45 individuals with bi-allelic ACBD6 variants, overweight was documented in 59% (approx. 26/44), demonstrating high prevalence of metabolic adiposity across the broader disease cohort spanning ages 1 to 50 years.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "N Amiri",
+          "N Asilova",
+          "V Shotelersuk",
+          "P Yeetong"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "overweight frequency": "59%"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e41": {
+      "id": "e41",
+      "text": "Yeetong et al. noted that previous literature reported ACBD6 variants in patients with only neurological and craniofacial findings, whereas their two adult siblings showed morbid obesity alongside diabetes mellitus, cirrhosis, and renal failure.",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon",
+          "K Suphapeetiporn",
+          "V Shotelersuk"
+        ],
+        "year": 2022,
+        "journal": "Neurology Genetics",
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": "PMC9709716",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9709716/",
+        "quote": "Biallelic variants in ACBD6 were previously reported in 7 patients with NDDs. Unfortunately, their clinical information remains very limited with descriptions of only their neurologic and craniofacial features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "previously reported patients with exclusively neurologic/craniofacial features": 7
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e42": {
+      "id": "e42",
+      "text": "The international study of 45 individuals from 28 families detailing the core clinical syndrome of ACBD6 deficiency identified movement disorders, speech delay, ataxia, spasticity, facial dysmorphism, and structural midline brain anomalies without identifying cytopenias or bone marrow failure as recurring cardinal features.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "N Amiri",
+          "N Asilova",
+          "V Shotelersuk",
+          "P Yeetong"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37951597/",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "unrelated families assessed": 28,
+        "total patients characterized": 45
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e43": {
+      "id": "e43",
+      "text": "Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings in 45 individuals with bi-allelic ACBD6 variants.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "prevalence of hypertrophy of the clava": 0.24
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e44": {
+      "id": "e44",
+      "text": "Midline brain malformations including corpus callosum abnormalities (70%) and hypoplasia/agenesis of the anterior commissure (66%) were identified in a cohort of 45 affected individuals harboring bi-allelic ACBD6 variants.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "frequency of corpus callosum abnormalities": 0.7,
+        "frequency of anterior commissure hypoplasia or agenesis": 0.66
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e45": {
+      "id": "e45",
+      "text": "Midline neuroimaging findings revealed short midbrain and small inferior cerebellar vermis in 38% of patients each, alongside clava hypertrophy (24%), in 45 patients with ACBD6 deficiency.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "frequency of short midbrain": 0.38,
+        "frequency of small inferior cerebellar vermis": 0.38
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e46": {
+      "id": "e46",
+      "text": "In a study of 45 affected individuals across 28 unrelated families, core manifestations were neurodevelopmental and progressive movement disorders; hematologic dysfunction or pancytopenia was not listed among recurring clinical cardinal features.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "affected individuals": 45
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e47": {
+      "id": "e47",
+      "text": "Pancytopenia with severe infections was described as a previously unreported finding in two Thai siblings with an ACBD6 homozygous duplication.",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "affected siblings": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e48": {
+      "id": "e48",
+      "text": "In a cohort of 45 affected individuals aged 1 to 50 years with bi-allelic ACBD6 variants, predominant findings were neurological, movement disorders, facial dysmorphism, and overweight (59%), without systemic organ failure reported across the wider cohort.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Using exome sequencing and extensive international data sharing efforts, we identified 45 affected individuals from 28 unrelated families (consanguinity 93%) with bi-allelic pathogenic, predominantly loss-of-function (18/20) variants in ACBD6... The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%)... overweight (59%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "affected individuals": 45,
+        "overweight frequency": "59%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e49": {
+      "id": "e49",
+      "text": "In a cohort of 45 individuals with bi-allelic pathogenic ACBD6 variants, midline brain malformations were frequent, specifically including corpus callosum abnormalities in 70% and hypoplasia or agenesis of the anterior commissure in 66%.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "corpus callosum abnormalities frequency": "70%",
+        "hypoplasia/agenesis of anterior commissure frequency": "66%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e50": {
+      "id": "e50",
+      "text": "In a study of 45 affected individuals with bi-allelic ACBD6 variants aged 1 to 50 years, overweight was documented in 59% of patients alongside complex movement disorders.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) ... overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "overweight frequency": "59%",
+        "total cohort size": 45
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e51": {
+      "id": "e51",
+      "text": "Review of novel genetic chorea etiologies highlights bi-allelic loss-of-function variants in ACBD6 characterized by chorea along with anterior commissure hypoplasia or agenesis, short midbrain, and small cerebellar vermis.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "plasia or agenesis of the anterior commissure, short midbrain, small cerebellar vermis, \u2026 Recently, a bi-allelic loss-of-function mutation in the ACBD6 gene was found in cases with",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e52": {
+      "id": "e52",
+      "text": "Clava hypertrophy is a recognized imaging feature of infantile neuroaxonal dystrophy (INAD/PLA2G6), a major neurodegeneration with brain iron accumulation (NBIA) disorder, present in 8/8 evaluated patients.",
+      "source": {
+        "title": "Validation of the finding of hypertrophy of the clava in infantile neuroaxonal dystrophy/PLA2G6 by biometric analysis",
+        "authors": [
+          "A Al"
+        ],
+        "year": 2016,
+        "journal": null,
+        "doi": "10.1007/s00234-016-1726-6",
+        "pmid": "27516098",
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00234-016-1726-6",
+        "quote": "Infantile neuroaxonal dystrophy (INAD), an autosomal recessive neurodegenerative disorder due to PLA2G6 mutation, is classified both as a PLA2G6-associated neurodegeneration (PLAN) disorder and as one of the neurodegeneration with brain iron accumulation (NBIA) disorders. Age of onset and clinical presentation in INAD is variable... MRI, available in eight, showed clava hypertrophy, regardless of age",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "clava hypertrophy in INAD/NBIA cohort": "8/8"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e53": {
+      "id": "e53",
+      "text": "In a comprehensive international cohort of 45 affected individuals aged 1-50 years harboring bi-allelic ACBD6 mutations from 28 families, the clinical presentation was dominated by neurodevelopmental and progressive neurological manifestations (intellectual disability, language impairment, dystonia, ataxia, tremor) and overweight (59%), without systemic visceral organ failure.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "affected individuals in cohort": 45,
+        "unrelated families": 28,
+        "maximum patient age in years": 50,
+        "frequency of global developmental delay/intellectual disability": "100%",
+        "frequency of movement disorders": "97%",
+        "frequency of overweight": "59%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e54": {
+      "id": "e54",
+      "text": "In an international cohort of 45 individuals from 28 families with bi-allelic loss-of-function ACBD6 variants aged 1 to 50 years, overweight was documented in 59% of patients, while end-stage visceral complications such as diabetes mellitus and renal failure were not established as general recurrent features across the cohort.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) ... overweight (59%), microcephaly (39%) and epilepsy (33%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "overweight prevalence": "59%",
+        "cohort size": 45
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e55": {
+      "id": "e55",
+      "text": "ACBD6 is incorporated into diagnostic targeted gene panels evaluating monogenic obesity loci across large clinical cohorts.",
+      "source": {
+        "title": "Detecting monogenic obesity: a systematic exome-wide workup of over 500 individuals: Genetics and Epigenetics",
+        "authors": [
+          "R K\u00fcnzel",
+          "H Faust",
+          "L Bundalian",
+          "M Bl\u00fcher"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41366-025-01819-0",
+        "quote": "The combined public panel consisted of the following 57 loci: ACBD6, \u2026 The outcome of metabolic and bariatric surgery in morbidly obese patients with different",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "evaluated loci count": 57
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e56": {
+      "id": "e56",
+      "text": "Review of genetic chorea acknowledges ACBD6 mutations and anterior commissure/corpus callosum abnormalities, but does not provide diagnostic discrimination data comparing ACBD6 deficiency to NBIA syndromes.",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 gene was found in cases with",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e57": {
+      "id": "e57",
+      "text": "Detailed morphological evaluation of brain MRIs in the ACBD6 cohort showed short midbrain and small inferior cerebellar vermis in 11 patients each, confirming a localized inferior vermian and midbrain involvement.",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental ...",
+        "authors": [
+          "R Kaiyrzhanov"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article/147/4/1436/7407365",
+        "quote": "Short midbrain and small inferior cerebellar vermis were each detected in 11",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "patients with short midbrain": 11,
+        "patients with small inferior cerebellar vermis": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Core hyperkinetic movement disorder manifestations occur at near-complete penetrance whereas secondary hypokinetic features show low age-dependent penetrance",
+      "abstraction": "In complex progressive neurodevelopmental movement disorders, high-penetrance early hyperkinetic signs form the invariant clinical baseline, whereas secondary hypokinetic or parkinsonian features reflect age-dependent evolution that cannot serve as an obligatory diagnostic requirement.",
+      "instance": "In ACBD6 deficiency, dystonia (42/45, 94%), early-onset postural deformities (43/45, 97%), and cerebellar ataxia (38/45, 85%) are near-universal across all age groups, whereas parkinsonism and hypokinesia manifest in only 32% (14/45) of patients as an age-dependent feature.",
+      "direction": "Longitudinal quantitative motor tracking from infancy to adulthood to determine the precise natural history and chronological progression from hyperkinetic dystonia to secondary hypokinesia.",
+      "support": "High across multi-center cohorts evaluated in 45 patients from 28 families.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders PMID:37951597",
+        "H Morales\u2010Brice\u00f1o et al. (2026) Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies 10.1002/mdc3.70683"
+      ],
+      "hypothesis": "Nigrostriatal dopaminergic failure in ACBD6 deficiency represents a delayed, cumulative consequence of chronic acyl-CoA disruption rather than a primary developmental defect in basal ganglia circuitry.",
+      "novelty": "Corrects a common diagnostic pitfall where classifying ACBD6 deficiency as a dystonia-parkinsonism syndrome leads clinicians to erroneously exclude younger patients who lack parkinsonism."
+    },
+    {
+      "pattern": "Selective midline commissural and focal posterior fossa dysgenesis provides higher discriminative specificity than motor phenomenology alone",
+      "abstraction": "When clinical movement disorder semiology overlaps broadly across multiple monogenic entities, focal structural commissural and brainstem neuroimaging features provide superior diagnostic specificity compared to the movement disorder examination.",
+      "instance": "ACBD6 deficiency exhibits corpus callosum hypoplasia/dysgenesis (70%), anterior commissure hypoplasia/agenesis (66%), short midbrain (38%), and small inferior vermis (38%), separating it from generalized pontocerebellar hypoplasias, NBIA disorders lacking commissural agenesis, and GNAO1- or NKX2-1-related hyperkinetic syndromes.",
+      "direction": "Development of standardized biometric neuroimaging screening protocols measuring anterior commissure caliber and midbrain-vermis dimensions in undiagnosed pediatric movement disorders.",
+      "support": "Moderate to strong support from systematic neuroimaging analysis across 45 confirmed patients.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders 10.1093/brain/awad380",
+        "M Ostrozovicova et al. (2026) Update on Genetic Chorea 10.1007/s11910-026-01502-5"
+      ],
+      "hypothesis": "ACBD6-dependent fatty acid acylation is uniquely critical for midline pioneer axon guidance and commissural decussation during mid-gestational neurodevelopment.",
+      "novelty": "Midline commissural dysgenesis, particularly anterior commissure agenesis, is rarely integrated into movement disorder diagnostic trees, yet outperforms movement phenomenology in separating phenocopies."
+    },
+    {
+      "pattern": "Extreme multiorgan decompensation reflects familial or secondary modifier background rather than the obligate natural history of the single-gene defect",
+      "abstraction": "Severe extraneural multiorgan failure initially reported in isolated pedigrees often represents background modifier loci or extreme end-stage sequelae rather than an obligate feature of the core monogenic syndrome.",
+      "instance": "Fatal hepatic cirrhosis, end-stage renal disease, diabetes mellitus, and refractory pancytopenia occurred exclusively in two adult siblings described by Yeetong et al., whereas the broader international cohort of 45 patients across 28 families showed overweight in 59% but no primary hematologic collapse or autonomous multiorgan failure.",
+      "direction": "Exome-wide and metabolomic modifier mapping in rare ACBD6 individuals presenting with catastrophic multiorgan failure versus isolated neurodevelopmental phenotypes.",
+      "support": "High support reconciling index family reports with a 45-patient international cohort.",
+      "sources": [
+        "P Yeetong et al. (2022) Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report 10.1212/nxg.0000000000200046",
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders PMID:37951597"
+      ],
+      "hypothesis": "Loss of ACBD6 induces a baseline metabolic defect that manifests as weight gain universally, but requires second-hit metabolic or modifier alleles to trigger multi-organ failure and pancytopenia.",
+      "novelty": "Prevents clinicians from excluding ACBD6 deficiency in patients who lack systemic organ dysfunction or cytopenias, establishing that the canonical phenotype is primarily neurodevelopmental."
+    },
+    {
+      "pattern": "Dominance of loss-of-function variants creates an all-or-none syndromic threshold without an allelic severity gradient",
+      "abstraction": "In recessive conditions heavily skewed toward complete null alleles, mutational heterogeneity converges onto a uniform, severe clinical presentation without identifiable genotype-phenotype gradients.",
+      "instance": "In 45 patients across 28 families, 18 of 20 identified variants were loss-of-function (frameshift, nonsense, canonical splice site), resulting in a uniform early-onset phenotype of global developmental delay (100%), expressive language defect (98%), and early postural deformities/dystonia (97%), with screening of 1,924 late-onset isolated dystonia cases failing to validate hypomorphic ACBD6 missense alleles.",
+      "direction": "Saturation mutagenesis and biochemical profiling of ACBD6 acyl-CoA binding capacity to test whether true hypomorphic alleles exist or if partial activity preserves normal neurological development.",
+      "support": "High support from comprehensive cohort sequencing and independent dystonia cohort screening.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders 10.1093/brain/awad380",
+        "H Morales\u2010Brice\u00f1o et al. (2026) Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies 10.1002/mdc3.70683"
+      ],
+      "hypothesis": "ACBD6 operates with minimal functional reserve such that variant-induced drop in protein stability or acyl-CoA binding below a critical threshold triggers identical downstream neurological failure.",
+      "novelty": "Rules out the clinical assumption that variable ages of onset or milder dystonia presentations in ACBD6 could be explained by missense variants or residual hypomorphic enzymatic activity."
+    },
+    {
+      "pattern": "Low penetrance of cranial dysmorphisms contrasts with invariant absence of acute metabolic crises and polyneuropathy",
+      "abstraction": "Effective diagnostic distinction depends on distinguishing low-penetrance non-obligatory clinical signs from consistently absent negative criteria that act as exclusionary boundaries.",
+      "instance": "Microcephaly is present in only 39% of ACBD6 patients (congenital in 33%), proving normocephaly does not exclude the disorder; conversely, acute episodic metabolic ketoacidosis, hyperammonemia, visceral organomegaly, and severe sensorimotor polyneuropathy are absent across cohorts, acting as exclusionary indicators against classic organic acidurias and mitochondrial syndromes.",
+      "direction": "Formulation of automated differential diagnosis matrices that incorporate negative metabolic and neuropathic indicators alongside positive motor and MRI traits.",
+      "support": "High support derived from cross-phenotypic analyses across 45 patients.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders PMID:37951597",
+        "T Zhao et al. (2025) Utility of mass spectrometry in rare disease research and diagnosis 10.1038/s41525-025-00487-3"
+      ],
+      "hypothesis": "ACBD6 functions selectively in structural lipid homeostasis and myelin maintenance rather than primary catabolic energy pathways, preventing episodic metabolic decompensation during physiological stress.",
+      "novelty": "Deregulates head circumference as a gating diagnostic criterion while providing concrete negative exclusionary biochemical indicators for clinical differentiation."
+    }
+  ]
+}

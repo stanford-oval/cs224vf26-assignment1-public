@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_618428",
+ "omim": "OMIM:618428",
+ "disease": "Popov-Chang syndrome",
+ "gene": "YWHAZ",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:52",
+ "report_chars": 1567,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Popov-Chang syndrome (YWHAZ, OMIM:618428):\n\n[1] YWHAZ variation causes intellectual disability and global ...\nhttps://academic.oup.com/hmg/article/32/3/462/6674657\nby RP Wan \u00b7 2023 \u00b7 Cited by 16 \u2014 ... YWHAZ gene was associated with intellectual disability and global developmental delay. ... Cell-type-specific dysregulated gene expression in the frontal cortex ...\n\n[2] A YWHAZ Variant Associated With Cardiofaciocutaneous ...\nhttps://pubmed.ncbi.nlm.nih.gov/31024343/\nby IK Popov \u00b7 2019 \u00b7 Cited by 46 \u2014 We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially ...\n\n[3] Popov-Chang Syndrome\nhttps://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=\nPopov-Chang syndrome (POPCHAS) is a neurodevelopmental disorder characterized by global developmental delay apparent from infancy. Affected individuals have ...\n\n[4] Gene: YWHAZ -\nhttps://gene.sfari.org/database/human-gene/YWHAZ\nYWHAZ was initially proposed as an autism candidate gene based on the discovery of a frameshift variant in this gene in both ASD-affected siblings from a ...\n\n[5] autosomal dominant intellectual developmental disorder\nhttps://flybase.org/reports/DOID:0070709\nAn autosomal dominant intellectual developmental disorder characterized by global developmental delay and impaired intellectual development with poor or absent ...\n\n[6] YWHAZ Gene\nhttps://www.genecards.org/card/YWHAZ\nYWHAZ is also associated with Popov-Chang syndrome, autosomal dominant non-syndromic intellectual disability, and otitis media. Gene Families. 14-3-3 family ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age None, female)\n  observed: Macrodontia, Atrioventricular canal defect, Patent foramen ovale, Ventricular septal defect, Pulmonic stenosis, Bicuspid aortic valve, Conductive hearing impairment\n  recorded ABSENT: Abnormality of the hand, Delayed skeletal maturation\n\nP02 (age 6.0, male)\n  observed: Impaired convergence, Cerebral visual impairment, Macroglossia, High palate, Open mouth, Global developmental delay, Persistent head lag, Delayed ability to walk, Absent speech, Severe intellectual disability, Bilateral tonic-clonic seizure, Infantile spasms, Focal-onset seizure, Constipation, Hypotonia\n  recorded ABSENT: Microcephaly, Bilateral tonic-clonic seizure with focal onset, Tonic seizure, Febrile seizure (within the age range of 3 months to 6 years), Generalized-onset seizure, Broad-based gait, Short stature, Decreased body weight\n\nP03 (age None, female)\n  observed: Myopia, Secondary microcephaly, Delayed ability to walk, Obsessive-compulsive trait, Dural ectasia, Thin corpus callosum, Feeding difficulties, Intrauterine growth retardation, Atrial septal defect, Scoliosis, Pectus excavatum, Camptodactyly\n  recorded ABSENT: Astigmatism, Strabismus, Glaucoma, Hypermetropia, Macrocephaly, Primary microcephaly, Delayed eruption of teeth, Fused teeth, Mild global developmental delay, Moderate global developmental delay, Severe global developmental delay, Delayed speech and language development, Mild intellectual disability, Moderate intellectual disability, Severe intellectual disability, Seizure, Aggressive behavior, Motor stereotypy, Frequent temper tantrums, Self-injurious behavior, Short stature, Talipes equinovarus, Arachnodactyly, Brachydactyly, Limb undergrowth (+1 more)\n\nP04 (age 1.3, male)\n  observed: Microcephaly, Short stature, Small for gestational age, Intellectual disability, Global developmental delay, Motor delay, Delayed speech and language development, Ventriculomegaly, Scoliosis, Hypotonia\n  recorded ABSENT: Macrocephaly, Seizure, Hydrocephalus, Periventricular leukomalacia, Pachygyria, Agenesis of corpus callosum, Hypoplasia of the corpus callosum, Dysgenesis of the hippocampus, Aplasia of the olfactory bulb\n\nP05 (age 9.3, male)\n  observed: Long palpebral fissure, Hypertrophic cardiomyopathy, Cryptorchidism, Posteriorly rotated ears, Low-set ears, Global developmental delay, Intellectual disability, Autistic behavior, Delayed speech and language development, Microcephaly, Pointed chin, Mitral valve prolapse, Prominent fingertip pads, Seizure, Pes planus\n  recorded ABSENT: Downslanted palpebral fissures, Hypertelorism, Ptosis, Prominent nasolabial fold, Curly hair, Midface retrusion, Micrognathia, Retrognathia, Low posterior hairline, High anterior hairline, Coarse facial features, Long face, Delayed ability to walk, Hypotonia, Short stature, Acute lymphoblastic leukemia, Pectus carinatum, Pectus excavatum, Scoliosis, Pulmonic stenosis, Ventricular septal defect, Atrial septal defect, Mitral regurgitation, Anteverted nares, Depressed nasal bridge (+27 more)\n\nP06 (age 15.0, female)\n  observed: Autism, Sleep onset insomnia, Attention deficit hyperactivity disorder, Mild intellectual disability, Developmental regression, Tics, Constipation, Downslanted palpebral fissures, Hypertelorism, Prominent supraorbital ridges\n  recorded ABSENT: Macrocephaly, Psychosis, Borderline intellectual disability, Moderate intellectual disability, Severe intellectual disability, Profound intellectual disability, Cerebral palsy, Anxiety, Depression, Seizure, Hypotonia, Inflammation of the large intestine, Diarrhea, Abdominal distention, Pes planus, Overweight\n\nP07 (age 5.0, male)\n  observed: Intellectual disability, Short stature, Delayed speech and language development, Motor delay, Microcephaly, Opisthotonus, Simplified gyral pattern, Lateral ventricle dilatation, Upslanted palpebral fissure, Epicanthus, High palate, Micrognathia\n  recorded ABSENT: Decreased body weight\n\nP08 (age 8.0, female)\n  observed: Open mouth, Macroglossia, Mandibular prognathia, Hypertelorism, Downslanted palpebral fissures, Brachycephaly, Global developmental delay, Delayed gross motor development, Delayed speech and language development, Intellectual disability, Autistic behavior, Anxiety, Reduced social responsiveness\n  recorded ABSENT: Seizure, Sensorineural hearing impairment\n\nP09 (age None, male)\n  observed: Delayed ability to sit, Delayed ability to roll over, Intellectual disability, Hydrocephalus, Increased body weight, Neonatal asphyxia\n  recorded ABSENT: (none recorded)\n\nP10 (age None, female)\n  observed: Diarrhea, Poor suck, Celiac disease, Hypotonia, High forehead, Highly arched eyebrow, Anteverted nares, Hypertelorism, Apneic episodes in infancy, Low-set ears, Mild global developmental delay, Delayed ability to walk, Moderate intellectual disability, Seizure, Drowsiness, Short stature, Failure to thrive\n  recorded ABSENT: Gastroesophageal reflux, Chronic constipation, Retrognathia, Strabismus, Astigmatism, Hypermetropia, Attention deficit hyperactivity disorder, Low frustration tolerance, Anger, Impulsivity, Anxiety, Obsessive-compulsive trait, Hypoplasia of the corpus callosum, Polyhydramnios\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.75,
+     "for": "Demonstrates global developmental delay, intellectual disability, delayed speech, and autistic behavior alongside features characteristic of a cardiofaciocutaneous (CFC) phenotype such as hypertrophic cardiomyopathy and prominent fingertip pads.",
+     "against": "Lacks some typical facial dysmorphisms of CFC syndrome such as downslanted palpebral fissures and hypertelorism, which were recorded as absent."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.1,
+     "for": "Presents with global developmental delay, intellectual disability, poor speech development, and autistic traits, matching core features of YWHAZ-associated neurodevelopmental disorder.",
+     "against": "Lacks the cardiac abnormalities or other characteristic cardiofaciocutaneous features highlighted in the YWHAZ literature."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.06,
+     "for": "Shows global developmental delay, intellectual disability, delayed speech and language development, and motor delay.",
+     "against": "Lacks autistic features and any cardiac or CFC-like manifestations described in reports of Popov-Chang syndrome."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.04,
+     "for": "Has autism spectrum features and intellectual disability, aligning with the literature identifying YWHAZ as an autism candidate gene and cause of ID.",
+     "against": "Presented with developmental regression and mild intellectual disability rather than early infantile global developmental delay, and lacks cardiac manifestations."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.03,
+     "for": "Shows profound early neurodevelopmental impairment with global developmental delay, delayed walking, severe intellectual disability, and absent speech.",
+     "against": "Presents primarily as an infantile epileptic encephalopathy with infantile spasms, and lacks cardiac or autistic features associated with the syndrome."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical summaries of the spectrum of Popov-Chang syndrome, including specific dysmorphic features, prevalence of seizures, and the precise diagnostic overlap criteria with cardiofaciocutaneous syndrome.",
+   "tokens_in": 1837,
+   "tokens_out": 1559,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.85,
+     "for": "Demonstrates global developmental delay, intellectual disability, delayed speech, autistic behavior, and hallmark cardiofaciocutaneous-like features associated with YWHAZ variants, including hypertrophic cardiomyopathy and prominent fingertip pads.",
+     "against": "Lacks some classical facial dysmorphisms of CFC syndrome such as hypertelorism, ptosis, downslanted palpebral fissures, and curly hair."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.05,
+     "for": "Presents with global developmental delay, intellectual disability, delayed speech, autistic behavior, and dysmorphic craniofacial features.",
+     "against": "Lacks the cardiac abnormalities (such as hypertrophic cardiomyopathy) and prominent fingertip pads associated with the CFC-like phenotype of Popov-Chang syndrome, and has no recorded seizures."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.04,
+     "for": "Exhibits global developmental delay, intellectual disability, motor delay, delayed speech, and microcephaly.",
+     "against": "Has prominent skeletal and central nervous system structural findings (ventriculomegaly, scoliosis) without any cardiac, ectodermal, or autistic features reported for YWHAZ."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.03,
+     "for": "Exhibits profound neurodevelopmental involvement with global developmental delay, severe intellectual disability, and absent speech, which aligns with OMIM descriptions.",
+     "against": "Features predominantly an early-infantile epileptic encephalopathy phenotype with infantile spasms, and lacks cardiac or RASopathy/CFC-like features."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Exhibits autism, attention deficit hyperactivity disorder, and intellectual disability, which aligns with YWHAZ as an autism candidate gene.",
+     "against": "Presents with developmental regression and tics without global developmental delay apparent from early infancy or characteristic syndromic/cardiac manifestations."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of the specific phenotypic spectrum of Popov-Chang syndrome, particularly the degree of clinical overlap with cardiofaciocutaneous (CFC) syndrome (e.g., prevalence of hypertrophic cardiomyopathy, skin/hair ectodermal anomalies) versus non-syndromic neurodevelopmental impairment.",
+   "tokens_in": 1837,
+   "tokens_out": 1559,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.85,
+     "for": "Matches the cardiofaciocutaneous-like phenotype associated with Popov-Chang syndrome, including hypertrophic cardiomyopathy, prominent fingertip pads, autistic behavior, global developmental delay, intellectual disability, and seizures.",
+     "against": "Lacks classic CFC features such as curly hair, short stature, and pulmonic stenosis, which were recorded as absent."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.05,
+     "for": "Presents with core neurodevelopmental features reported in YWHAZ-related disorder including global developmental delay, intellectual disability, and autistic features.",
+     "against": "Lacks characteristic cardiofaciocutaneous findings such as cardiac anomalies or seizures."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.04,
+     "for": "Exhibits global developmental delay, motor delay, speech delay, and intellectual disability consistent with YWHAZ-associated neurodevelopmental impairment.",
+     "against": "Absence of cardiac defects, seizures, or autistic traits, along with prominent ventriculomegaly which is non-specific."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Features autism and intellectual disability, fitting the characterization of YWHAZ as an autism and intellectual developmental disorder candidate gene.",
+     "against": "Lacks cardiac involvement, microcephaly, and seizures, with onset characterized by developmental regression and psychiatric features atypical for POPCHAS."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.02,
+     "for": "Demonstrates severe global developmental delay, intellectual disability, and early-onset seizures consistent with severe neurodevelopmental disruption.",
+     "against": "Features severe epileptic encephalopathy and infantile spasms without reported cardiac or cutaneous manifestations typical of the syndrome."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of skin and ectodermal findings (such as keratosis pilaris or ulerythema ophryogenes) and direct documentation of the specific cardiac manifestations described in the index Popov-Chang cases.",
+   "tokens_in": 1837,
+   "tokens_out": 1827,
+   "round": 3
+  }
+ ]
+}

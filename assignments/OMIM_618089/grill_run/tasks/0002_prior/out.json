@@ -1,0 +1,56 @@
+{
+  "knowledge": "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (IDDFBA; OMIM #618089) is an autosomal dominant condition caused by heterozygous de novo loss-of-function or missense variants in FBXO11. The hallmark description was defined primarily by Gregor et al. (2018, PMID: 30100085), characterizing individuals with global developmental delay, intellectual disability, prominent language impairment, behavioral issues (such as ADHD, autism spectrum disorder, and aggressive behaviors), and distinct craniofacial features (including frontal bossing, hypertelorism/telecanthus, broad nasal tip/bridge, and thin upper lip).",
+  "prior_hypothesis": "A patient with FBXO11-related disorder cannot be uniquely diagnosed purely on a single pathognomonic sign; however, they can be differentiated from clinically overlapping syndromes by a combination of profound speech delay disproportionate to motor delay, severe externalizing behavioral disturbances (ADHD, impulsive/aggressive behaviors, sleep problems), and facial dysmorphisms (prominent forehead, broad/bulbous nasal tip, thin upper vermilion, and downslanting palpebral fissures), coupled with the distinct absence of progressive microcephaly, coarse facial features, severe visceral malformations, or hypoplastic distal phalanges/nails.",
+  "candidate_answers": [
+    {
+      "answer": "In the index cohort reported by Gregor et al. 2018 (PMID: 30100085), speech and language impairment (HP:0000750) is near-universal (~100%, 14/14 individuals assessed), frequently presenting as absent speech or significant expressive language delay compared to motor milestones.",
+      "confidence": 0.85,
+      "aspect": "Core developmental phenotype and frequency"
+    },
+    {
+      "answer": "Behavioral abnormalities (HP:0000708) including hyperactivity/ADHD (HP:0007018), aggressive behavior (HP:0000718), and autistic traits or ASD (HP:0000729) are reported in approximately 70-80% of individuals in initial cohorts (e.g., Gregor et al. 2018), serving as key clinical features separating it from quiet or hypoactive syndromic ID presentations.",
+      "confidence": 0.8,
+      "aspect": "Neurobehavioral characteristics"
+    },
+    {
+      "answer": "Recurrent craniofacial dysmorphisms include prominent forehead/frontal bossing (HP:0002007), broad nasal tip (HP:0000455), hypertelorism (HP:0000316) or telecanthus (HP:0000506), and thin upper lip vermilion (HP:0000219), present in >60-75% of reported cases in Gregor et al. 2018.",
+      "confidence": 0.75,
+      "aspect": "Craniofacial phenotype and discriminators"
+    },
+    {
+      "answer": "Discrimination against Coffin-Siris syndrome (ARID1B and related genes) relies on the absence of hypoplastic or absent fifth fingernails/toenails (HP:0001792/HP:0001800) and lack of generalized hypertrichosis (HP:0000998) in FBXO11 patients; discrimination against Koolen-de Vries syndrome (KANSL1) relies on the absence of a characteristic pear-shaped nose and hyper-affable personality.",
+      "confidence": 0.75,
+      "aspect": "Differential diagnosis and discriminating features"
+    },
+    {
+      "answer": "Features that are consistently absent or rare (acting as negative discriminators) include progressive neurodegeneration, structural congenital limb-reduction deficiencies, complex congenital heart defects, and persistent profound microcephaly (head circumference is typically normal to mildly macrocephalic).",
+      "confidence": 0.7,
+      "aspect": "Negative discriminators and exclusionary findings"
+    },
+    {
+      "answer": "Most variants represent haploinsufficiency via de novo loss-of-function (frameshift, nonsense, canonical splice site mutations), while missense variants clustering in critical functional domains (such as the F-box or UBR domains) yield an indistinguishable core phenotype without proven distinct genotype-phenotype divergence to date.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlations"
+    }
+  ],
+  "key_terms": [
+    "FBXO11",
+    "OMIM #618089",
+    "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities",
+    "IDDFBA",
+    "Gregor et al. 2018 (PMID: 30100085)",
+    "Haploinsufficiency",
+    "Frontal bossing",
+    "Expressive language delay"
+  ],
+  "open_questions": [
+    "What are the precise numerators and denominators for each dysmorphic trait and behavioral symptom across all published FBXO11 cases since 2018?",
+    "Do individuals harboring missense variants in specific functional domains of FBXO11 exhibit a milder or distinct phenotype compared to those with whole-gene deletions or truncating loss-of-function mutations?",
+    "Are there any documented conflicting clinical findings regarding seizures or structural brain anomalies (e.g., corpus callosum hypoplasia) between early and recent cohorts?"
+  ],
+  "assumptions": [
+    "OMIM #618089 represents a single disease entity caused by heterozygous loss-of-function or pathogenic missense variants in FBXO11.",
+    "The primary clinical series establishing initial numerators and denominators is Gregor et al. 2018 (PMID: 30100085), supplemented by small subsequent case reports.",
+    "The clinician is evaluating constitutional germline pediatric and young adult presentations where phenotypic comparisons against common syndromic ID differential diagnoses are required."
+  ]
+}

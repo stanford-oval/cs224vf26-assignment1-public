@@ -1,0 +1,111 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from multiple independent cohorts directly supports that SCAF4 loss-of-function variants can be inherited, exhibit incomplete penetrance, and demonstrate wide variable expressivity across generations. In the initial delineation by Fliedner et al. (2020), one of nine likely gene-disrupting variants was inherited from an unaffected (healthy) mother, establishing non-penetrance/mild parental phenotypes. Schmid et al. (2025) expanded this in a cohort of 50 novel cases where 13 variants were inherited (compared to 23 confirmed de novo), documenting a broad phenotypic spectrum ranging from completely normal IQ to severe intellectual disability with reduced penetrance. Most recently, Chen et al. (2025) confirmed paternal transmission of a novel heterozygous nonsense variant (c.1693C>T, p.Arg565*). No identified literature contradicts the occurrence of inherited variants or variable expressivity.",
+  "evidence": [
+    {
+      "text": "In the initial cohort identifying SCAF4-associated neurodevelopmental disorder, eight of nine truncating/splice-site variants occurred de novo, while one truncating variant was inherited from an unaffected mother.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in SCAF4 cause a neurodevelopmental disorder and are associated with impaired mRNA processing",
+        "authors": [
+          "A Fliedner",
+          "P Kirchner",
+          "A Wiesener"
+        ],
+        "year": 2020,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30228-7",
+        "quote": "Trp604*) was inherited from a healthy mother."
+      },
+      "numbers": [
+        {
+          "metric": "de novo variants",
+          "value": 8
+        },
+        {
+          "metric": "inherited variants",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "In a study of 50 novel individuals with SCAF4 variants, 23 variants arose de novo whereas 13 cases were inherited, with cognitive abilities spanning normal IQ to severe intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+        "authors": [
+          "CM Schmid",
+          "A Gregor",
+          "A Ruiz"
+        ],
+        "year": 2025,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01760-2",
+        "quote": "Twenty-three variants occurred de novo, and variants were inherited in 13 cases. Frequent clinical findings were mild developmental delay with speech impairment, seizures, and skeletal abnormalities such as clubfoot, scoliosis or hip dysplasia. Cognitive abilities ranged from normal IQ to severe intellectual disability (ID), with borderline to mild ID in the majority of individuals."
+      },
+      "numbers": [
+        {
+          "metric": "de novo variants",
+          "value": 23
+        },
+        {
+          "metric": "inherited variants",
+          "value": 13
+        },
+        {
+          "metric": "total novel individuals",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "A heterozygous nonsense variant (c.1693C>T, p.Arg565*) in SCAF4 associated with intellectual disability and speech delay was confirmed to be inherited paternally.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel nonsense mutation in SCAF4 associated with fliedner-zweier syndrome: a case report and review of the literature",
+        "authors": [
+          "Z Chen",
+          "J Zhao",
+          "X Fan",
+          "X Xuan",
+          "X Zhao"
+        ],
+        "year": 2025,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2025.1487352/full",
+        "pmid": null,
+        "pmc": "PMC12021868",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1487352/full",
+        "quote": "Whole exome sequencing (WES) identified a heterozygous nonsense mutation, c.1693C>T (p.Arg565*), located in exon 14 of the SCAF4 gene (NM_020706). Sanger sequencing confirmed paternal inheritance of this mutation."
+      },
+      "numbers": [
+        {
+          "metric": "affected proband age in years",
+          "value": 4.58
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What genetic or epigenetic modifiers account for non-penetrance or milder cognitive phenotypes in transmitting parents carrying truncating SCAF4 mutations?",
+      "rationale": "Given that transmitting parents can present with completely normal IQ or subclinical manifestations, secondary modifiers (e.g., compensation by SCAF8 or alternative polyadenylation regulators) may explain phenotypic variability.",
+      "promise": 0.85,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "Does parental somatic or germline mosaicism account for a fraction of seemingly inherited non-penetrant SCAF4 variants?",
+      "rationale": "Assessing deep sequencing of multiple tissue lineages in transmitting parents with normal cognitive phenotypes could clarify whether apparent reduced penetrance is due to mosaicism.",
+      "promise": 0.8,
+      "est_cost": 120000
+    }
+  ]
+}

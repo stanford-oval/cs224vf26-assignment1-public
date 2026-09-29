@@ -1,0 +1,60 @@
+{
+  "patterns": [
+    {
+      "pattern": "Bifurcation of syndromic versus non-syndromic presentations driven by allele-specific functional mechanisms (gain-of-function vs loss-of-function)",
+      "abstraction": "Different pathogenic variant classes within the same pleiotropic hub gene produce divergent clinical syndromes by selectively hyperactivating downstream cascades versus causing simple dosage haploinsufficiency.",
+      "instance": "YWHAZ p.Ser230Trp functions as a gain-of-function allele activating the RAF-MEK-ERK pathway to induce a cardiofaciocutaneous (CFC)-like phenotype with cardiac and dysmorphic features, whereas loss-of-function variants (e.g., p.Lys49Asn or truncating alleles) cause non-syndromic intellectual disability without classic CFC signs.",
+      "direction": "Perform systematic biochemical pathway profiling across all identified YWHAZ missense alleles to classify them into MAPK-hyperactivating vs haploinsufficient functional groups before assigning clinical syndromic subcategories.",
+      "support": "Strongly supported by convergent biochemical and clinical genetics cohorts contrasting RAF-ERK activation against knockdown/loss-of-function outcomes.",
+      "sources": [
+        "10.3389/fphys.2019.00388/full",
+        "PMC9851741",
+        "10.1007/978-3-031-62945-7_12"
+      ],
+      "hypothesis": "YWHAZ missense variants in the phosphopeptide-binding groove that disrupt RAF autoinhibition cause multisystem RASopathy features, whereas variants disrupting 14-3-3 dimerization exclusively produce isolated neurodevelopmental delay.",
+      "novelty": "Resolves contradictory diagnostic descriptions in the literature where Popov-Chang syndrome was simultaneously classified as a multi-system RASopathy and a non-syndromic intellectual disability disorder."
+    },
+    {
+      "pattern": "Diagnostic distortion caused by co-occurring monogenic variants in small initial discovery cohorts",
+      "abstraction": "When foundational disease cohorts include multi-variant probands harboring variants in known severe disease genes, collateral clinical manifestations are erroneously attributed to the novel candidate gene, inflating phenotypic severity.",
+      "instance": "Early cohorts defining Popov-Chang syndrome included probands with pathogenic co-variants in SCN8A, creating an initial clinical impression that intractable epileptic encephalopathy was an intrinsic hallmark of YWHAZ variation, whereas isolated YWHAZ patients exhibit refractory seizures in under 15% of cases.",
+      "direction": "Re-evaluate published multi-gene probands from initial neurodevelopmental gene discovery reports using isolated single-variant cohorts to strip secondary phenotype contamination from OMIM clinical synopses.",
+      "support": "Supported by the explicit identification of SCN8A pathogenic co-variants in discovery probands and subsequent cohort re-analyses demonstrating low refractory epilepsy frequencies in isolated YWHAZ cohorts.",
+      "sources": [
+        "10.3389/fphys.2019.00388/full",
+        "PMC9851741",
+        "10.1016/j.eplepsyres.2016.11.002"
+      ],
+      "hypothesis": "Epileptic seizures reported in isolated YWHAZ haploinsufficiency represent non-refractory, responsive seizures distinct in electroclinical pattern and severity from the developmental and epileptic encephalopathies induced by SCN8A or YWHAG mutations.",
+      "novelty": "Identifies diagnostic confounding in clinical databases (e.g., OMIM) where symptoms from secondary variants were historically embedded into the core gene phenotype."
+    },
+    {
+      "pattern": "Differential diagnosis by exclusionary severe qualitative structural malformations rather than non-specific dysmorphology",
+      "abstraction": "In syndromes displaying variable non-specific anomalies, reliable differential diagnosis depends on identifying specific high-grade structural malformations that are strictly exclusionary rather than relying on non-specific findings.",
+      "instance": "Patients with YWHAZ mutations often show non-specific neuroimaging findings (ventriculomegaly, corpus callosum abnormalities) and cardiac defects, but the presence of classic grade 1-3 lissencephaly (agyria/pachygyria) or major limb reduction defects consistently excludes Popov-Chang syndrome and points to YWHAE-related/Miller-Dieker syndrome.",
+      "direction": "Establish clear hierarchical exclusionary imaging algorithms to segregate 14-3-3 protein family encephalopathies based on the presence of severe neuronal migration defects.",
+      "support": "Grounded in multiple cohorts demonstrating the occurrence of non-specific brain anomalies in YWHAZ alongside the absolute absence of classical severe lissencephaly across evaluated patients.",
+      "sources": [
+        "10.1093/hmg/ddac210",
+        "PMC9851741",
+        "https://www.malacards.org/card/popov_chang_syndrome"
+      ],
+      "hypothesis": "YWHAZ regulates cellular proliferation and neurite elongation without controlling the cytoplasmic dynein-mediated nuclear translocation required for early cortical lamination that fails in YWHAE-deficient lissencephaly.",
+      "novelty": "Refutes the misconception that all brain malformations exclude Popov-Chang syndrome, while clarifying that only specific classic migration defects (severe lissencephaly) serve as true negative discriminators."
+    },
+    {
+      "pattern": "Cohort-size constraints driving unsupported statistical overgeneralization in rare syndrome characterizations",
+      "abstraction": "Extremely small primary discovery cohorts lead subsequent secondary literature to proliferate speculative percentage estimates of variable physical traits without empirical denominators.",
+      "instance": "Initial series of only 3 to 5 probands carrying YWHAZ variants resulted in published reviews asserting precise 50-85% frequencies for muscular hypotonia, autism spectrum features, and specific facial dysmorphisms, which collapse upon audit of resolvable empirical cohort data.",
+      "direction": "Enforce international registry data aggregation (such as ERN-ITHACA) requiring linked individual-level HPO matrices before assigning population-level penetrance percentages to rare disease synopses.",
+      "support": "Demonstrated by the refutation of specific frequency estimates (e.g., 70-85% hypotonia, 50-75% behavioral issues) when cross-referenced against the actual seminal series containing only 5 individuals.",
+      "sources": [
+        "PMC6465419",
+        "PMC9851741",
+        "https://omim.org/clinicalSynopsis/618428"
+      ],
+      "hypothesis": "Secondary features in Popov-Chang syndrome such as muscular hypotonia and autism exhibit penetrance below 30% when evaluated in expanded, unselected international registries compared to the 100% penetrant core ID and speech delay.",
+      "novelty": "Exposes an information cascade wherein qualitative descriptors in seminal tiny-cohort discovery papers became transmuted into unsupported quantitative frequency claims in downstream biomedical knowledge bases."
+    }
+  ]
+}

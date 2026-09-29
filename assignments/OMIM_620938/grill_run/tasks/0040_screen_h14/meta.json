@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spastic paraplegia 93\" \"NFU1\" \"optic atrophy\"",
+    "NFU1 spastic paraplegia 93 OMIM 620938 optic atrophy clinical phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/615491",
+      "title": "SPASTIC PARAPLEGIA 79B, AUTOSOMAL RECESSIVE ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/615491",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://varsome.com/disease/30010000028633",
+      "title": "Spastic Paraplegia 93, Autosomal Recessive | Disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://varsome.com/disease/30010000028633",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=568&entity=SPAST",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=568&entity=SPAST",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?1258;",
+      "title": "Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?1258;",
+      "abstract_chars": 0
+    },
+    {
+      "id": "23188110",
+      "title": "A homozygous mutation of C12orf65 causes spastic paraplegia with optic atrophy and neuropathy (SPG55)",
+      "pmid": "23188110",
+      "doi": "10.1136/jmedgenet-2012-101212",
+      "url": "https://jmg.bmj.com/content/49/12/777.short",
+      "abstract_chars": 1824
+    },
+    {
+      "id": "23065789",
+      "title": "Spastic paraplegia gene 7 in patients with spasticity and/or optic neuropathy",
+      "pmid": "23065789",
+      "doi": "10.1093/brain/aws240",
+      "url": "https://academic.oup.com/brain/article-abstract/135/10/2980/298366",
+      "abstract_chars": 2686
+    },
+    {
+      "id": "https://amsdottorato.unibo.it/id/eprint/10126/",
+      "title": "Whole Exome Sequencing widens the genetic landscape of Hereditary Optic Neuropathies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://amsdottorato.unibo.it/id/eprint/10126/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620938",
+      "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620938",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/609541",
+      "title": "609541 - SPASTIC PARAPLEGIA, OPTIC ATROPHY, AND ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/609541",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/607259",
+      "title": "Entry - #607259 - SPASTIC PARAPLEGIA 7, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/607259",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3990,
+  "output_tokens": 2462,
+  "usd": 0.00938,
+  "seconds": 20.7,
+  "ok": true
+}

@@ -1,0 +1,93 @@
+{
+  "verdict": "refuted",
+  "rationale": "Under the specified evaluation rubric, a verdict of 'refuted' applies when the literature gives no support or contradicts the hypothesis outright. While the provided literature confirms that de novo pathogenic variants in KDM6B cause Stolerman neurodevelopmental syndrome characterized by developmental delay, intellectual disability, and dysmorphic features (Stolerman et al., 2019; Pineda & Gonz\u00e1lez, 2022), the available sources provide zero empirical data, phenotypic frequencies, or explicit differential diagnostic evaluations regarding the hypothesized discriminatory features: lateral lower eyelid eversion (HP:0000656), persistent fetal fingertip pads (HP:0001212), Bohring-Opitz syndrome posture (HP:0002138), or fifth digit nail/distal phalanx hypoplasia (HP:0001792). Because the literature provided lacks any evidentiary support for these specific negative exclusions and cross-syndrome comparisons, the hypothesis cannot be verified from the cited evidence.",
+  "evidence": [
+    {
+      "text": "Stolerman et al. identified de novo variants in KDM6B in a cohort of 12 unrelated patients presenting with developmental delay, intellectual disability, and dysmorphic facial features, establishing the core syndrome but reporting no granular comparative exclusion metrics for Kabuki, Bohring-Opitz, or Coffin-Siris syndrome cardinal signs.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+        "authors": [
+          "ES Stolerman",
+          "E Francisco",
+          "JL Stallworth"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.61173",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+        "quote": "We have identified a number of de novo alterations in the KDM6B gene via whole exome sequencing (WES) in a cohort of 12 unrelated patients with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings."
+      },
+      "numbers": [
+        {
+          "metric": "unrelated affected individuals assessed",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Pineda and Gonz\u00e1lez described a single clinical case with a KDM6B frameshift variant exhibiting facial and somatic dysmorphism and comorbid ADHD, noting phenotypic overlap with Stolerman's initial cohort but presenting no data on persistent fetal pads, BOS posture, or nail aplasia/hypoplasia.",
+      "stance": "neutral",
+      "source": {
+        "title": "The KDM6B mutation: Phenotype and clinical characteristics\u2014Report of a case",
+        "authors": [
+          "II Pineda",
+          "CLG Gonz\u00e1lez"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S217350502200019X",
+        "quote": "A frameshift variant in the KDM6B gene related to neurodevelopmental disorders with facial and body dysmorphia was obtained. The case was oriented as a neurodevelopmental disorder secondary to a genetic alteration and a comorbid Attention Deficit Hyperactivity Disorder (ADHD)."
+      },
+      "numbers": [
+        {
+          "metric": "case report individual count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Al Ojaimi et al. review disorders of histone methylation including KDM6B, indicating that individuals with milder presentations may escape clinical identification, emphasizing that clinical features are often nonspecific without defining syndrome-specific negative discriminators.",
+      "stance": "neutral",
+      "source": {
+        "title": "Disorders of histone methylation: molecular basis and clinical syndromes",
+        "authors": [
+          "M Al Ojaimi",
+          "BJ Banimortada",
+          "A Othman"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1111/cge.14181",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14181",
+        "quote": "individuals with milder phenotypes may not be diagnosed clinically. Approximately half of \u2026 the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits highly specific negative phenotypic exclusions to discriminate Stolerman syndrome from Kabuki, Bohring-Opitz, and Coffin-Siris syndromes, but the provided literature contains no systematic phenotype frequency tables or documentation verifying the consistent absence of these findings in KDM6B cohorts."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "In comprehensive expanded cohorts of KDM6B-related neurodevelopmental disorder (e.g., Rots et al., 2023), what are the exact numerators and denominators for the presence or absence of persistent fetal fingertip pads, palpebral eversion, and fifth digit anomalies?",
+      "rationale": "Directly testing the presence or absence of HPO features against larger cohorts is necessary to determine whether these signs are genuinely exclusionary for Stolerman syndrome.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Does machine learning-based facial dysmorphology analysis (e.g., GestaltMatcher or Face2Gene) reliably discriminate Stolerman syndrome from Kabuki syndrome and Coffin-Siris syndrome based on 2D/3D photography?",
+      "rationale": "Because manual phenotypic discrimination among epigenetic machinery disorders is challenging due to overlapping dysmorphism, computational facial analysis can quantify distinguishing gestalt features.",
+      "promise": 0.8,
+      "est_cost": 25000.0
+    }
+  ]
+}

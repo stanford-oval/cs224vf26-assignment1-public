@@ -1,0 +1,99 @@
+{
+  "verdict": "supported",
+  "rationale": "Across the published clinical delineations of Karayol-Borroto-Haghshenas neurodevelopmental syndrome (OMIM #620985), core neurological features including motor coordination impairment, hypotonia, gait disturbance, and epileptic seizures are described across individuals carrying both protein-truncating variants (frameshift, nonsense, splice-site) and missense variants. Neither Karayol et al. (2024) nor large-scale trio/Mendelian sequencing analyses (Torene et al., 2024) observe restriction of seizures or motor coordination difficulties exclusively to truncating variant carriers, supporting a common loss-of-function/dosage-sensitivity mechanism across variant classes rather than distinct PTV-exclusive clinical phenotypes.",
+  "evidence": [
+    {
+      "text": "Karayol et al. identified a cohort of 25 individuals with de novo heterozygous missense and protein-truncating variants in MSL2, identifying core phenotypes including global developmental delay, intellectual disability, hypotonia, motor issues (coordination problems, feeding difficulties, gait disturbance), dysmorphisms, and seizures across the spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11267526",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267526/",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Systematic evaluation of variants in neurodevelopmental parent-offspring trios observed that both frameshift and missense variants in MSL2 manifest in neurodevelopmental disorder, hypotonia, and seizures.",
+      "stance": "supports",
+      "source": {
+        "title": "Systematic analysis of variants escaping nonsense-mediated decay uncovers candidate Mendelian diseases",
+        "authors": [
+          "RI Torene",
+          "MJG Sacoto",
+          "F Millan",
+          "Z Zhang"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00402-0",
+        "quote": "Frameshift and missense variants in HDAC2 and MSL2 have \u2026 order manifesting in NDD, seizures, and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "Parent-offspring trios evaluated",
+          "value": 29031
+        }
+      ]
+    },
+    {
+      "text": "Characterization of MSL2-related neurodevelopmental disorder (Karayol-Borroto-Haghshenas syndrome) identifies variable severity across loss-of-function and missense alleles, with expanded cohorts necessary to refine genotype-phenotype correlations.",
+      "stance": "neutral",
+      "source": {
+        "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+        "authors": [
+          "O Zgheib",
+          "T Rio Frio",
+          "JM Pellegrinelli",
+          "S Gimelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1111/cge.70071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+        "quote": "syndrome of variable severity (Karayol-Borroto-Haghshenas \u2026 or frameshift, with only two missense variants reported, arguing \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "Age at clinical follow-up in reported case (months)",
+          "value": 11
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Does quantitative seizure frequency or age-of-onset differ significantly between MSL2 missense variants in specific functional domains (e.g., RING vs. CXC domain) versus protein-truncating variants escaping NMD?",
+      "rationale": "While qualitative presence of seizures and coordination issues spans both PTV and missense carriers, specific electroclinical severity or drug refractoriness may still exhibit subtle domain-specific genotype-phenotype effects.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do blood-based DNA methylation episignature intensities correlate with motor coordination severity or seizure penetrance in MSL2 variant carriers?",
+      "rationale": "An established MSL2 blood episignature exists; evaluating whether episignature deviation correlates with motor or epileptic severity could provide a biomarker for neurodevelopmental prognosis independent of variant type.",
+      "promise": 0.85,
+      "est_cost": 45000
+    }
+  ]
+}

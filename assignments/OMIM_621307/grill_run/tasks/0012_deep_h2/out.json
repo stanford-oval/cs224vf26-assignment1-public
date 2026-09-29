@@ -1,0 +1,107 @@
+{
+  "verdict": "supported",
+  "rationale": "The phenotypic spectrum of biallelic TBC1D32 mutations\u2014encompassing Alsahan-Harris syndrome, syndromic hypopituitarism, and orofaciodigital syndrome type IX (OFD-IX)\u2014is characterized by hypothalamic-pituitary dysgenesis (anterior pituitary hypoplasia or aplasia, panhypopituitarism/growth hormone deficiency), midline craniofacial/oral defects (cleft lip/palate, oral frenula/lobulated tongue), digital anomalies (polydactyly), and ophthalmological/retinal/cerebral ciliary anomalies. Differentiation from Pallister-Hall syndrome (GLI3-related hypothalamic hamartoma and mesoaxial/postaxial polydactyly) relies on the presence of retinal dystrophy/eye colobomas and structural ciliary brain malformations outside isolated hypothalamic hamartoma, while distinction from classic Joubert syndrome (molar tooth sign ciliopathy) relies on prominent congenital hypopituitarism/endocrinopathy and oral clefting/frenula classic to the OFD-like spectrum.",
+  "evidence": [
+    {
+      "text": "Harris et al. describe seven unpublished probands (four fetal probands across three pedigrees and three pediatric probands) with recessive TBC1D32 variants and compare them to seven previously published patients, documenting severe ciliary malformations involving the developing hypothalamus and pituitary gland as well as life-limiting congenital anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy",
+        "authors": [
+          "SC Harris",
+          "K Chong",
+          "D Chitayat"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63150",
+        "pmid": "36826837",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63150",
+        "quote": "We describe seven unpublished probands with rare likely pathogenic variants or variants of uncertain significance that segregate with recessive disease in TBC1D32, including four fetal probands in three unrelated pedigrees and three pediatric probands in unrelated pedigrees. We also report clinical comparisons with seven previously published patients."
+      },
+      "numbers": [
+        {
+          "metric": "Unpublished probands described",
+          "value": 7
+        },
+        {
+          "metric": "Fetal probands in Harris cohort",
+          "value": 4
+        },
+        {
+          "metric": "Pediatric probands in Harris cohort",
+          "value": 3
+        },
+        {
+          "metric": "Previously published comparison patients",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Hietam\u00e4ki et al. identified biallelic loss-of-function TBC1D32 variants in two Finnish siblings presenting with panhypopituitarism, absent anterior pituitary, and mild craniofacial dysmorphism, as well as a Pakistani family with growth hormone deficiency, anterior pituitary hypoplasia, developmental delay, and a fetus with cleft lip and malrotation, demonstrating that TBC1D32 disruption impairs Shh signaling during hypothalamic-pituitary and craniofacial development.",
+      "stance": "supports",
+      "source": {
+        "title": "Loss-of-Function Variants in TBC1D32 Underlie Syndromic ...",
+        "authors": [
+          "Hietam\u00e4ki",
+          "Gregory"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.semanticscholar.org/paper/Loss-of-Function-Variants-in-TBC1D32-Underlie-Hietam%C3%A4ki-Gregory/9e1646fd4b9322ffe4780e9b649c6e3f3a273142",
+        "quote": "A Finnish family of 2 siblings with panhypopituitarism, absent anterior pituitary, and mild craniofacial dysmorphism, and a Pakistani family with a proband with growth hormone deficiency, anterior pituitary hypoplasia, and developmental delay... as did a fetus with a cleft lip and partial intestinal malrotation"
+      },
+      "numbers": [
+        {
+          "metric": "Finnish siblings with panhypopituitarism and absent anterior pituitary",
+          "value": 2
+        },
+        {
+          "metric": "Pakistani probands/affected fetuses reported with hypopituitarism or cleft lip",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Brancati et al. review the differential diagnosis of Joubert syndrome and related disorders (JSRD), noting neurological signs (hypotonia, breathing abnormalities, ocular motility defects) and multi-organ ciliopathy involvement, emphasizing that differentiation among ciliopathies depends on systemic and endocrinological involvement.",
+      "stance": "neutral",
+      "source": {
+        "title": "Joubert Syndrome and related disorders - PMC",
+        "authors": [
+          "F Brancati"
+        ],
+        "year": 2010,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": "10.1186/s40246-026-01046-2",
+        "pmid": "42732063",
+        "pmc": "PMC2913941",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2913941/",
+        "quote": "All conditions displaying neurological (hypotonia, abnormal breathing, abnormal eye movements and developmental delay) and/or organs ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Phenotypic overlap between Alsahan-Harris syndrome and OFD-IX is extensive because both are caused by biallelic TBC1D32 mutations and occupy the same genetic-phenotypic spectrum, making clinical separation between them subjective without molecular genetics."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic frequency of the molar tooth sign (MTS) on brain MRI across all molecularly confirmed TBC1D32 patients?",
+      "rationale": "Clarifying whether TBC1D32 variants ever cause classic molar tooth sign on posterior fossa neuroimaging would conclusively delineate whether Alsahan-Harris syndrome should be classified within Joubert syndrome-related disorders (JSRD) or strictly within the OFD/pituitary ciliopathy spectrum.",
+      "promise": 0.9,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do truncating vs missense/in-frame splice-site mutations in TBC1D32 correlate with perinatal lethality vs viable syndromic hypopituitarism?",
+      "rationale": "Harris et al. identified severe prenatal lethal anomalies while Hietam\u00e4ki et al. documented viable pediatric and adult cases with panhypopituitarism, suggesting an unresolved genotype-phenotype correlation.",
+      "promise": 0.85,
+      "est_cost": 30000
+    }
+  ]
+}

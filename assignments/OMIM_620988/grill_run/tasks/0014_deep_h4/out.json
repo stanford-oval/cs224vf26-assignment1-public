@@ -1,0 +1,95 @@
+{
+  "verdict": "refuted",
+  "rationale": "While structural central nervous system anomalies\u2014predominantly corpus callosum dysgenesis/thinning, ventriculomegaly, and cerebral/cerebellar volume loss\u2014are bona fide features of DHX9-associated neurodevelopmental disorder (OMIM #620988), the specific quantitative claim that these findings occur in 'approximately 40-60% of patients who undergo neuroimaging' is entirely unsupported by the provided literature. The available sources document structural anomalies qualitatively in cohorts and case series (e.g., Calame et al., 2023; Dawidziuk et al., 2021) and report 2/2 (100%) in PanelApp curation data, but none provide evidence establishing a 40-60% frequency in imaged individuals.",
+  "evidence": [
+    {
+      "text": "Brain MRI of individuals with pathogenic monoallelic DHX9 variants demonstrated structural central nervous system anomalies including thin corpus callosum, enlargement of the ventricles, and cerebellar atrophy across affected individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "The yellow arrow indicates a thin corpus callosum. Red arrows indicate cerebellar atrophy. Yellow arrowheads show enlargement of the ventricles, and yellow asterisks (brain MRI, sec\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "total individuals identified with DHX9 variants",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "Curated clinical review of DHX9 documented corpus callosum anomalies in 2 of 2 evaluated patients (100%) and cerebral atrophy in 2 of 2 patients (100%), contradicting the proposed 40-60% penetrance range.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Activity",
+        "authors": [
+          "Sarah Leigh"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=CIT",
+        "quote": "Brain MRI revealed corpus callosum anomalies (2/2) and cerebral atrophy (2/2)"
+      },
+      "numbers": [
+        {
+          "metric": "corpus callosum anomalies",
+          "value": "2/2"
+        },
+        {
+          "metric": "cerebral atrophy",
+          "value": "2/2"
+        }
+      ]
+    },
+    {
+      "text": "A patient with a pathogenic DHX9 variant presenting with severe microcephaly (-2.8 SD) and developmental delay was confirmed to have corpus callosum dysgenesis on brain MRI.",
+      "stance": "supports",
+      "source": {
+        "title": "Exome Sequencing Reveals Novel Variants and Expands ...",
+        "authors": [
+          "M Dawidziuk"
+        ],
+        "year": 2021,
+        "journal": "Genes",
+        "doi": "10.3390/genes12122014",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/12/12/2014",
+        "quote": "DHX9: In patient T91 with SM (\u22122.8 SD), corpus callosum dysgenesis, DD ... brain MRI studies."
+      },
+      "numbers": [
+        {
+          "metric": "patient head circumference standard deviation",
+          "value": -2.8
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The 40-60% prevalence estimate is directly challenged by PanelApp review data indicating 2/2 (100%) of assessed individuals presented with corpus callosum anomalies and cerebral atrophy, and no formal denominator in the primary literature validates the 40-60% interval."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the true penetrance and spectrum of neuroradiological abnormalities among all molecularly confirmed DHX9 patients who have undergone brain MRI?",
+      "rationale": "Existing cohorts are small and report qualitative findings (thin corpus callosum, ventriculomegaly, cerebellar/cerebral atrophy) or small subsets (2/2), leaving the true unbiased neuroimaging frequency unmeasured.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that OMIM #621182 (NEDSFB) is primarily delineated as an autosomal dominant disorder caused by de novo heterozygous variants, with biallelic variants defining an ultra-rare recessive subtype presenting with expanded peripheral neuromotor features. This is refuted by the literature and official nosology: OMIM #621182 explicitly designates NEDSFB as an autosomal recessive disorder. Furthermore, clinical series of patients with biallelic truncating or missense NAV3 variants (e.g., Kakar et al. 2025, Umair et al. 2024, Umair et al. 2025, Ghaffar et al. 2024) present with core central neurodevelopmental features\u2014intellectual disability, global developmental delay, microcephaly, speech impairment, dysmorphism, and behavioral abnormalities\u2014rather than an isolated or expanded peripheral neuromotor phenotype.",
+  "evidence": [
+    {
+      "text": "OMIM entry #621182 designates neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (NEDSFB) as an autosomal recessive disorder rather than an autosomal dominant de novo entity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Entry - #621182 - NEURODEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621182",
+        "quote": "Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (NEDSFB) is an autosomal recessive disorder"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM entry ID",
+          "value": 621182
+        }
+      ]
+    },
+    {
+      "text": "Kakar et al. identified five patients from three unrelated consanguineous families segregating autosomal recessive neurodevelopmental disorder caused by homozygous truncating/splice NAV3 variants presenting with core dysmorphism, developmental delay, intellectual disability, and behavioral abnormalities.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD. Patients have symptoms of dysmorphism, intellectual disability, developmental delay, and behavioral abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with biallelic variants",
+          "value": 5
+        },
+        {
+          "metric": "unrelated consanguineous families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Ghaffar et al. demonstrated that NAV3 variants span biallelic, de novo, and heterozygous states across 11 individuals from seven families, all sharing central features of intellectual disability, microcephaly, skeletal deformities, ocular anomalies, and behavioral issues.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s42003-024-06466-1",
+        "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene... All affected individuals have intellectual disability (ID), microcephaly, skeletal deformities, ocular anomalies, and behavioral issues."
+      },
+      "numbers": [
+        {
+          "metric": "total affected individuals",
+          "value": 11
+        },
+        {
+          "metric": "total families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Umair et al. (2024) described a proband with a homozygous loss-of-function frameshift variant presenting with hallmark recessive NDD phenotypes including intellectual disability and global developmental delay, while heterozygous family members were unaffected carriers.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "present study revealed hallmark phenotypes such as ID, GDD... We describe a Saudi proband presenting a complex recessive neurodevelopmental disorder (NDD)."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "OMIM #621182 is formally defined as an autosomal recessive neurodevelopmental disorder, directly contradicting the premise that NEDSFB is primarily a dominant de novo disorder.",
+    "Biallelic loss-of-function and missense variants account for a central, recurring core of NEDSFB cases rather than an ultra-rare subtype with unique peripheral neuromotor manifestations."
+  ],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "Do heterozygous de novo missense variants in NAV3 act via dominant-negative mechanisms or haploinsufficiency, and how does their expressivity compare quantitatively to biallelic complete loss-of-function?",
+      "rationale": "Both heterozygous and biallelic variants have been reported in NAV3 cohorts; determining whether heterozygous mutations produce distinct phenotypes or milder forms will clarify whether NAV3 represents a dual-inheritance gene.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Is there any measurable subclinical peripheral neuropathy or motor axonopathy in patients harboring homozygous NAV3 truncating variants compared to heterozygous carriers?",
+      "rationale": "Neuron navigator 3 regulates axonal guidance and microtubule plus-end dynamics, warranting formal nerve conduction and electromyographic evaluations to test for peripheral involvement.",
+      "promise": 0.7,
+      "est_cost": 15000
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "verdict": "supported",
+  "rationale": "The hypothesis posits that initial reports linking YWHAZ variants in Popov-Chang syndrome to severe epileptic encephalopathy were confounded by co-occurring pathogenic variants in established epilepsy genes, particularly SCN8A. In Wan et al. (2023), investigators reassessing Popov et al. noted that the specific proband presenting with severe clinical manifestations harbored an SCN8A variant, a well-characterized etiology of early-onset developmental and epileptic encephalopathy (DEE) with gain-of-function kinetics (Butler et al., 2016; Hebbar & Mefford, 2020). Meanwhile, isolated familial YWHAZ variants presented with intellectual disability and developmental delay without intractable epilepsy. Within the available literature, no counter-evidence refutes that SCN8A co-variants confounded early phenotypic attribution.",
+  "evidence": [
+    {
+      "text": "Wan et al. re-evaluated the phenotypic features reported by Popov et al. and noted that the patient presenting with severe clinical symptoms also carried an SCN8A variant, confounding the direct attribution of severe epileptic phenotypes to YWHAZ alone.",
+      "stance": "supports",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global developmental delay with brain malformation",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2023,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article/32/3/462/6674657",
+        "quote": "Popov et al. had reported \u2026 the patient"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Pathogenic variants in SCN8A are predominantly gain-of-function mutations affecting channel inactivation, established as causing severe epileptic encephalopathies, seizures, and developmental delays, confirming its capacity to drive severe epilepsy independently.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo and inherited SCN8A epilepsy mutations detected by gene panel analysis",
+        "authors": [
+          "KM Butler"
+        ],
+        "year": 2016,
+        "journal": "Epilepsy Research",
+        "doi": "10.1016/j.eplepsyres.2016.11.002",
+        "pmid": "27875746",
+        "pmc": "PMC5321682",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5321682/",
+        "quote": "Five variants in SCN8A were identified in five individuals with epilepsy. Three variants were de novo, one was inherited from an affected parent, and one was inherited from an unaffected parent."
+      },
+      "numbers": [
+        {
+          "metric": "epilepsy panels screened",
+          "value": 275
+        },
+        {
+          "metric": "individuals with epilepsy harboring SCN8A variants",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Developmental and epileptic encephalopathies are genetically heterogeneous disorders characterized by refractory seizures and developmental regression, where monogenic culprits like SCN8A confer severe epileptic phenotypes distinct from primary intellectual disability syndromes.",
+      "stance": "neutral",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [
+          "M Hebbar",
+          "HC Mefford"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7076331",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the true baseline prevalence and semiology of seizures in patients with isolated YWHAZ loss-of-function variants across an expanded cohort?",
+      "rationale": "Clarifying the seizure incidence in patients without secondary channelopathy variants (such as SCN8A or SCN1A) is essential to establish accurate HPO frequency metrics for Popov-Chang syndrome.",
+      "promise": 0.9,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does 14-3-3\u03b6 directly modulate NaV1.6 trafficking or channel gating kinetics in mammalian neurons?",
+      "rationale": "Investigating potential direct biochemical or functional crosstalk between YWHAZ and SCN8A will elucidate whether co-occurrence represents pure diagnostic confounding or synergistic digenic pathogenicity.",
+      "promise": 0.82,
+      "est_cost": 45000.0
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz syndrome\" \"arterial tortuosity\"",
+    "SMAD2 Loeys-Dietz syndrome arterial tortuosity phenotype frequency"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "34807423",
+      "title": "Loeys-dietz syndrome",
+      "pmid": "34807423",
+      "doi": "10.1007/978-3-030-80614-9_11",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-80614-9_11",
+      "abstract_chars": 795
+    },
+    {
+      "id": "24355923",
+      "title": "Angiotensin II\u2013dependent TGF-\u03b2 signaling contributes to Loeys-Dietz syndrome vascular pathogenesis",
+      "pmid": "24355923",
+      "doi": "10.1172/jci69666",
+      "url": "https://www.jci.org/articles/view/69666",
+      "abstract_chars": 1463
+    },
+    {
+      "id": "22335518",
+      "title": "Transforming growth factor \u03b2 signaling perturbation in the Loeys-Dietz syndrome",
+      "pmid": "22335518",
+      "doi": "10.2174/092986712803414286",
+      "url": "https://www.ingentaconnect.com/content/ben/cmc/2012/00000019/00000003/art00010",
+      "abstract_chars": 1784
+    },
+    {
+      "id": "10.3389/fgene.2020.00479/full",
+      "title": "Identification of a Pathogenic TGFBR2 Variant in a Patient With Loeys\u2013Dietz Syndrome",
+      "pmid": null,
+      "doi": "10.3389/fgene.2020.00479/full",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2020.00479/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/9781119432692.ch36",
+      "title": "Loeys\u2013dietz syndrome",
+      "pmid": null,
+      "doi": "10.1002/9781119432692.ch36",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+      "title": "Clinical features and complications of Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+      "abstract_chars": 1670
+    },
+    {
+      "id": "https://www.loeysdietz.org/en/medical-information",
+      "title": "WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.loeysdietz.org/en/medical-information",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "title": "Loeys-Dietz Syndrome 6 (LDS6)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/humu.23407",
+      "title": "A mutation update on the LDS-associated genes TGFB2/3 and ...",
+      "pmid": null,
+      "doi": "10.1002/humu.23407",
+      "url": "https://pure.johnshopkins.edu/en/publications/a-mutation-update-on-the-lds-associated-genes-tgfb23-and-smad23/",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "29392890",
+      "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 ...",
+      "pmid": "29392890",
+      "doi": "10.1002/humu.23407",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5947146/",
+      "abstract_chars": 1219
+    }
+  ],
+  "input_tokens": 4937,
+  "output_tokens": 1599,
+  "usd": 0.00727,
+  "seconds": 13.2,
+  "ok": true
+}

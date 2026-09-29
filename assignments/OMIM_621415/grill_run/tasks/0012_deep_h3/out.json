@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "Delineation of the clinical spectrum of LRRC7-related autosomal dominant intellectual developmental disorder 77 (Willim et al., 2024; Khan et al., 2026) indicates a synaptic neurodevelopmental phenotype primarily characterized by intellectual disability, autism spectrum disorder, ADHD, behavioral difficulties (notably aggression and hyperphagia/obesity), hypotonia, and occasional seizures. Severe congenital structural brain malformations (such as holoprosencephaly or lissencephaly), complex visceral organ malformations, progressive microcephaly, and neurodegenerative regression have not been observed in isolated monogenic LRRC7 disruption. Although mild microcephaly and multi-organ anomalies are reported in contiguous 1p31.1 microdeletion syndromes spanning LRRC7 alongside 40 other genes, these features reflect multigenic contiguous deletion rather than isolated LRRC7 dysfunction.",
+  "evidence": [
+    {
+      "text": "In a cohort of 33 individuals with heterozygous missense or loss-of-function variants in LRRC7, the phenotype was characterized by intellectual disability, autism, ADHD, aggression, and hyperphagia-associated obesity, acting as a synaptic scaffold disorder without reports of gross structural brain malformations or neurodegenerative regression.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "A patient with a novel de novo missense variant in LRRC7 presented with global developmental delay, tonic seizures, failure to thrive, mild microcephaly, intellectual disability, and hypotonia, without structural cerebral malformations or progressive neurodegenerative decline.",
+      "stance": "supports",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "The Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "proband_count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Severe structural organ malformations and microcephaly reported in patients with 1p31.1 chromosomal deletions occur in the context of large multi-gene contiguous deletions (such as a 14.385 Mb deletion spanning 41 genes including LRRC7), distinguishing them from isolated monogenic LRRC7 variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Chromosome 1p31. 1 Deletion: A Case With Developmental Delay, Hypotonia, Cryptorchidism, Abnormal Oral Frenulum, and Feet Deformity",
+        "authors": [
+          "T Mikhailova",
+          "R Garg"
+        ],
+        "year": 2025,
+        "journal": "Case Reports in Genetics",
+        "doi": "10.1155/crig/6152118",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/crig/6152118",
+        "quote": "The typical clinical presentation includes intellectual disability, failure to thrive, and craniofacial abnormalities. Some cases may also present with cardiac, gastrointestinal, and genitourinary malformations. Variability in deletion size contributes to a broad spectrum of clinical phenotypes... Here, we report a case featuring a 14.385 Mb deletion isolated to the 1p31.1 region, encompassing 41 genes."
+      },
+      "numbers": [
+        {
+          "metric": "genes_in_deletion",
+          "value": 41
+        },
+        {
+          "metric": "deletion_size_mb",
+          "value": 14.385
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does isolated monogenic LRRC7 pathogenic variation cause primary or secondary microcephaly in a broader cohort beyond the single case reported with mild microcephaly?",
+      "rationale": "Khan et al. reported mild microcephaly in one proband carrying a VUS, whereas Willim et al.'s cohort emphasized neuropsychiatric and behavioral manifestations; formal systematic anthropometric assessment across larger series is needed to clarify head circumference distribution.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What are the exact neuroimaging correlates in individuals with monogenic LRRC7 loss-of-function versus missense variants?",
+      "rationale": "Systematic collection and centralized neuroradiological review of brain MRIs in individuals with confirmed LRRC7 pathogenic variants will formally verify whether minor or subtle neurostructural anomalies occur.",
+      "promise": 0.85,
+      "est_cost": 40000
+    }
+  ]
+}

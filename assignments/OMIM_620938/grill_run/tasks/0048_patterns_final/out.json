@@ -1,0 +1,78 @@
+{
+  "patterns": [
+    {
+      "pattern": "Divergence between allelic identity and clinical expressivity through intrafamilial discordance",
+      "abstraction": "Identical monogenic pathogenic variants in mitochondrial metabolic machinery can manifest as diametrically opposed clinical trajectories, ranging from rapid infantile mortality to chronic survivable spastic neurodegeneration, disproving strict linear genotype-phenotype determinism.",
+      "instance": "In NFU1-related disease, homozygous carriers of the exact same missense variant (e.g., p.Gly189Arg in Uzunhan et al., 2020) presented with discordant outcomes where one sibling died at 16 months from fulminant MMDS1, while the other survived into late childhood with milder spastic paraparesis (SPG93).",
+      "direction": "Perform multi-omic profiling (whole-genome sequencing for modifier loci and RNA-sequencing of respiratory chain pathways) on discordant sibling pairs carrying identical NFU1 variants to identify genetic and epigenetic modifiers of disease severity.",
+      "support": "Moderate: Grounded in findings F3 and F8 detailing homozygous p.Gly189Arg intrafamilial discordance alongside wide phenotypic variation between MMDS1 and SPG93 across cohorts.",
+      "sources": [
+        "TA Uzunhan et al. (2020) A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation 10.1016/j.braindev.2020.06.012",
+        "R Kaiyrzhanov et al. (2022) Phenotypic continuum of NFU1\u2010related disorders 10.1002/acn3.51679",
+        "CR DiFalco et al. (2026) A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature 10.1002/ajmg.a.70213"
+      ],
+      "hypothesis": "Secondary genetic variants affecting mitochondrial quality control or Fe-S transfer efficiency compensate for impaired NFU1 function, determining whether cellular metabolism crosses the catastrophic organ-failure threshold.",
+      "novelty": "Refutes the traditional assumption that attenuated spastic paraplegia (SPG93) results strictly from private hypomorphic alleles while severe MMDS1 is driven by distinct null or specific severe missense alleles."
+    },
+    {
+      "pattern": "Syndromic discrimination defined by obligate negative phenotypic boundaries rather than unique positive motor signs",
+      "abstraction": "In multi-phenotypic disease spectra derived from a single locus, differentiating an attenuated variant from its canonical allelic disorder relies not on unique positive motor findings, but on the obligate absence of systemic, life-threatening hallmark features.",
+      "instance": "SPG93 is distinguished from canonical NFU1-associated MMDS1 primarily by the absence of severe infantile pulmonary arterial hypertension (HPO: HP:0002092) and intractable lactic acidosis (HPO: HP:0003128), which are invariant hallmarks in lethal MMDS1 but consistently unobserved in surviving SPG93 patients.",
+      "direction": "Conduct prospective cardiopulmonary screening (echocardiography and right ventricular strain analysis) in long-surviving SPG93 patients to verify whether pulmonary vascular remodeling is entirely spared or subclinically compensated.",
+      "support": "Strong: Grounded in F2, F3, and F11 showing that surviving spastic paraplegia patients (16/19 in the Kaiyrzhanov cohort) systematically lack the early lethal pulmonary-metabolic crises defining MMDS1.",
+      "sources": [
+        "CR DiFalco et al. (2026) A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature 10.1002/ajmg.a.70213",
+        "D Tonduti et al. (2015) New spastic paraplegia phenotype associated to mutation of NFU1 10.1186/s13023-015-0237-6",
+        "R Kaiyrzhanov et al. (2022) Phenotypic continuum of NFU1\u2010related disorders 10.1002/acn3.51679",
+        "TA Uzunhan et al. (2020) A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation 10.1016/j.braindev.2020.06.012"
+      ],
+      "hypothesis": "Endothelial pulmonary vascular tissue has a higher functional reserve threshold for iron-sulfur cluster lipoylation than distal corticospinal axons, preserving vascular tone in patients harboring residual NFU1 activity.",
+      "novelty": "Clinicians cannot pick out SPG93 based on spasticity alone; discrimination within the NFU1 spectrum depends entirely on negative exclusion of pulmonary arterial hypertension and metabolic lactic acidosis."
+    },
+    {
+      "pattern": "Biochemical and radiological intra-pathway convergence masking etiology-specific differentiation",
+      "abstraction": "Shared molecular pathomechanisms within a singular metabolic pathway generate identical downstream biomarkers and imaging signatures, allowing differentiation from classic structural mimics but preventing intra-pathway enzymatic discrimination without genomic sequencing.",
+      "instance": "Elevated body-fluid glycine and leukoencephalopathy with spinal/white-matter MRI lesions readily distinguish SPG93 from common structural HSPs (SPG4, SPG7, SPG11), yet fail to differentiate SPG93 from other mitochondrial Fe-S cluster lipoylation defects such as GLRX5 or BOLA3 deficiency.",
+      "direction": "Establish untargeted metabolomic and lipidomic profiling targeting specific lipoate-dependent multi-enzyme intermediates (e.g., pyruvate dehydrogenase vs. alpha-ketoglutarate dehydrogenase breakdown products) to identify enzymatic scaffold-specific signatures.",
+      "support": "Strong: Supported by F1, F5, and F7, documenting identical variant nonketotic hyperglycinemia presentations across multiple Fe-S assembly genes.",
+      "sources": [
+        "BP Sankaran et al. (2021) GLRX5-associated [Fe-S] cluster biogenesis disorder: further characterisation of the neurological phenotype and long-term outcome 10.1186/s13023-021-02073-z",
+        "F Tort et al. (2016) Differential diagnosis of lipoic acid synthesis defects 10.1007/s10545-016-9975-4",
+        "PR Baker et al. (2014) Variant non ketotic hyperglycinemia is caused by mutations in LIAS, BOLA3 and the novel gene GLRX5 10.1093/brain/awt328",
+        "D Tonduti et al. (2015) New spastic paraplegia phenotype associated to mutation of NFU1 10.1186/s13023-015-0237-6"
+      ],
+      "hypothesis": "NFU1, BOLA3, and GLRX5 defects converge on identical secondary deficits in glycine cleavage system lipoylation, creating indistinguishable body-fluid glycine elevations regardless of the specific mutated scaffold protein.",
+      "novelty": "Demonstrates a diagnostic paradox: biochemical testing reliably screens in Fe-S cluster lipoylation defects among the broader HSP pool, but has zero specificity for separating NFU1 from BOLA3 or GLRX5."
+    },
+    {
+      "pattern": "Longitudinal evolution from deceptive 'pure' motor paresis to complex multi-system neurodegeneration",
+      "abstraction": "Chronic metabolic neurodegenerative disorders frequently present early in life as isolated, non-progressive spastic diplegia mimicking static cerebral palsy, only to unmask complex multi-system cerebellar and peripheral neurodegeneration over extended disease duration.",
+      "instance": "NFU1-associated SPG93 often presents in infancy or early childhood as isolated spastic diplegia or pure spastic paraparesis, but longitudinally evolves into a complex disorder featuring cerebellar ataxia (HPO: HP:0001251), dysarthria (HPO: HP:0001260), and sensorimotor polyneuropathy (HPO: HP:0009830), accompanied by white matter lesions in 100% (16/16) of patients.",
+      "direction": "Perform early high-resolution brain and spinal cord MRI alongside longitudinal electromyography in children diagnosed with spastic diplegia or 'cerebral palsy' lacking perinatal adverse events.",
+      "support": "Strong: Grounded in F2, F4, F5, F6, and F12 detailing early cerebral palsy misdiagnoses converting over decades into complex spastic-ataxia-neuropathy phenotypes.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2022) Phenotypic continuum of NFU1-related disorders 10.1002/acn3.51679",
+        "MA Mahmoud et al. (2025) A complicated intrathecal baclofen pump implantation in a child with spastic Diplegia: Should a genetic mimic of cerebral palsy be Considered? https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+        "D Tonduti et al. (2015) New spastic paraplegia phenotype associated to mutation of NFU1 10.1186/s13023-015-0237-6",
+        "D Safka Brozkova et al. (2026) Children with suspected hereditary spastic paraplegia clearly benefit from whole exome analysis 10.1186/s40246-026-00935-w"
+      ],
+      "hypothesis": "Corticospinal axonal length renders long central motor tracts the most vulnerable initial targets of sub-lethal mitochondrial dysfunction, with shorter cerebellar and peripheral tracts failing only after cumulative, age-dependent energy failure.",
+      "novelty": "Resolves the clinical dispute between reports of 'pure HSP' and 'complex HSP' in NFU1 patients by establishing them as successive chronological phases of the same degenerative process."
+    },
+    {
+      "pattern": "State-dependent radiological heterogeneity reflecting metabolic crisis versus chronic indolent degeneration",
+      "abstraction": "In neurometabolic disorders, neuroimaging patterns do not remain static anatomical traits; instead, they oscillate between acute destructive lesions during metabolic decompensation and non-destructive white matter alterations during indolent chronic phases.",
+      "instance": "Cavitating leukoencephalopathy in NFU1 variants is not an obligate constant feature: while prominent and cystic during severe infantile or relapsing episodes, adult-onset or stable SPG93 patients exhibit non-cavitating periventricular T2 hyperintensities and white matter signal changes without overt tissue necrosis.",
+      "direction": "Collect serial neuroimaging during and after intercurrent febrile or catabolic illnesses to map the emergence, stabilization, or potential partial reversal of white matter cavitation in SPG93.",
+      "support": "Moderate: Grounded in F4, F5, and F13 highlighting the variability of cavitation between early-onset/relapsing cases and milder chronic spasticity presentations.",
+      "sources": [
+        "TA Uzunhan et al. (2020) A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+        "D Tonduti et al. (2015) New spastic paraplegia phenotype associated to mutation of NFU1 10.1186/s13023-015-0237-6",
+        "PVS de Souza et al. (2018) NFU1-related disorders as key differential diagnosis of cavitating leukoencephalopathy 10.1055/s-0037-1606295",
+        "R Kaiyrzhanov et al. (2022) Phenotypic continuum of NFU1-related disorders 10.1002/acn3.51679"
+      ],
+      "hypothesis": "Acute systemic hypermetabolism during catabolic triggers precipitates focal cystic cavitation through bioenergetic exhaustion of oligodendrocytes, whereas baseline deficiency produces only chronic non-cavitating hypomyelination.",
+      "novelty": "Disproves the diagnostic requirement of cystic cavitation for NFU1-related disease, preventing false exclusion of SPG93 in patients presenting with non-cavitating leukoencephalopathy."
+    }
+  ]
+}

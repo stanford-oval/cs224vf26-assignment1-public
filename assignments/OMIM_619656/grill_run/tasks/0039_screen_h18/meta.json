@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"nonsense-mediated decay\" aortopathy congenital heart disease",
+    "SMAD2 truncating mutations phenotype NMD escape heterotaxy aortopathy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/978-3-7091-4874-7_38",
+      "title": "Genetics of marfan syndrome and loeys-dietz syndrome",
+      "pmid": null,
+      "doi": "10.1007/978-3-7091-4874-7_38",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-7091-4874-7_38",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nature.com/articles/s41572-021-00298-7",
+      "title": "Marfan syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41572-021-00298-7",
+      "abstract_chars": 0
+    },
+    {
+      "id": "36351433",
+      "title": "EMILIN1 deficiency causes arterial tortuosity with osteopenia and connects impaired elastogenesis with defective collagen fibrillogenesis",
+      "pmid": "36351433",
+      "doi": "10.1016/j.ajhg.2022.10.010",
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(22)00458-X",
+      "abstract_chars": 1111
+    },
+    {
+      "id": "https://repositorio.udd.cl/items/d4ff6165-c1af-4580-b489-fa508fb7a42b",
+      "title": "Genetic modifiers associated with the variability of the aortic phenotype in patients with inheritable connective tissue disorders (ICTDs)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://repositorio.udd.cl/items/d4ff6165-c1af-4580-b489-fa508fb7a42b",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fgene.2022.943083/full",
+      "title": "Genotype-phenotype correlations of marfan syndrome and related fibrillinopathies: Phenomenon and molecular relevance",
+      "pmid": null,
+      "doi": "10.3389/fgene.2022.943083/full",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2022.943083/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "title": "Loeys-Dietz Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "abstract_chars": 2593
+    },
+    {
+      "id": "21778426",
+      "title": "Exome Sequencing Identifies SMAD3 Mutations as a ...",
+      "pmid": "21778426",
+      "doi": "10.1161/circresaha.111.248161",
+      "url": "https://www.ahajournals.org/doi/10.1161/circresaha.111.248161",
+      "abstract_chars": 1703
+    },
+    {
+      "id": "31587008",
+      "title": "A Nonsense SMAD3 Mutation in a Girl with Familial ...",
+      "pmid": "31587008",
+      "doi": "10.1159/000502972",
+      "url": "https://karger.com/crd/article/144/1-2/53/97085/A-Nonsense-SMAD3-Mutation-in-a-Girl-with-Familial",
+      "abstract_chars": 1185
+    },
+    {
+      "id": "42193944",
+      "title": "Structural and Signaling Mechanisms of Aortic Wall Failure ...",
+      "pmid": "42193944",
+      "doi": "10.3390/cells15100936",
+      "url": "https://www.mdpi.com/2073-4409/15/10/936",
+      "abstract_chars": 1033
+    },
+    {
+      "id": "27297344",
+      "title": "Hereditary Influence in Thoracic Aortic Aneurysm and ...",
+      "pmid": "27297344",
+      "doi": "10.1161/circulationaha.116.009762",
+      "url": "https://www.myhresyndrome.org/s/Aorta-Lindsay_Circulation-2016-Isselbacher-2516-28.pdf",
+      "abstract_chars": 1131
+    }
+  ],
+  "input_tokens": 5164,
+  "output_tokens": 1407,
+  "usd": 0.0068,
+  "seconds": 21.9,
+  "ok": true
+}

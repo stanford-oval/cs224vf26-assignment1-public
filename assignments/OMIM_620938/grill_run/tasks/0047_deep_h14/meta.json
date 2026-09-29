@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"optic atrophy\"",
+    "NFU1 spastic paraplegia 93 optic atrophy phenotype clinical findings"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://journals.lww.com/co-neurology/fulltext/2018/08000/Hereditary_ataxias_and_paraparesias__clinical_and.16.aspx",
+      "title": "Hereditary ataxias and paraparesias: clinical and genetic update",
+      "pmid": null,
+      "doi": null,
+      "url": "https://journals.lww.com/co-neurology/fulltext/2018/08000/Hereditary_ataxias_and_paraparesias__clinical_and.16.aspx",
+      "abstract_chars": 1324
+    },
+    {
+      "id": "10.3389/fnmol.2025.1548255/full",
+      "title": "Multi-omics-based phenotyping of AFG3L2-mutant lymphoblasts determines key factors of a pathophysiological interplay between mitochondrial vulnerability and\u00a0\u2026",
+      "pmid": null,
+      "doi": "10.3389/fnmol.2025.1548255/full",
+      "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2025.1548255/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "title": "Mitochondrial iron-sulfur cluster biogenesis and neurological disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "abstract_chars": 1244
+    },
+    {
+      "id": "10.1007/s10545-016-9975-4",
+      "title": "Differential diagnosis of lipoic acid synthesis defects",
+      "pmid": null,
+      "doi": "10.1007/s10545-016-9975-4",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-106550.2",
+      "title": "NFU1 | mitochondrial disease | Autosomal recessive by ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-106550.2",
+      "abstract_chars": 0
+    },
+    {
+      "id": "http://www.ncbi.nlm.nih.gov/medgen/18180",
+      "title": "Optic atrophy (Concept Id: C0029124)",
+      "pmid": null,
+      "doi": null,
+      "url": "http://www.ncbi.nlm.nih.gov/medgen/18180",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/activity/?panel=317&entity=NFU1",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/activity/?panel=317&entity=NFU1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/615491",
+      "title": "SPASTIC PARAPLEGIA 79B, AUTOSOMAL RECESSIVE ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/615491",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://providers.genedx.com/Resources/TIS-Files/TIS-941-944.pdf",
+      "title": "Hereditary Spastic Paraplegia (HSP) Panel",
+      "pmid": null,
+      "doi": null,
+      "url": "https://providers.genedx.com/Resources/TIS-Files/TIS-941-944.pdf",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4895,
+  "output_tokens": 2597,
+  "usd": 0.01024,
+  "seconds": 15.8,
+  "ok": true
+}

@@ -1,0 +1,118 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that microcephaly is specific to biallelic truncating loss-of-function variants in FILIP1 and is absent or less severe in individuals with homozygous missense variants. However, the available literature provides zero evidence of any homozygous or biallelic missense variants in FILIP1, nor any comparative cohort demonstrating differential microcephaly severity by variant class. While homozygous truncating loss-of-function variants in FILIP1 are well-documented to cause arthrogryposis multiplex congenita with microcephaly (affecting 5/5 individuals across 3 families in Schnabel et al., 2023), the claim of specificity to truncating variants over missense variants lacks empirical support in the documented literature.",
+  "evidence": [
+    {
+      "text": "Schnabel et al. (2023) identified homozygous truncating variants in FILIP1 in 5 affected individuals from 3 independent families presenting with congenital contractures, scoliosis, microcephaly, and dysmorphic facies, demonstrating that bi-allelic loss-of-function variants cause this syndromic phenotype.",
+      "stance": "neutral",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals assessed with homozygous truncating variants",
+          "value": 5
+        },
+        {
+          "metric": "independent families reported",
+          "value": 3
+        },
+        {
+          "metric": "frequency of microcephaly in truncating cohort",
+          "value": "5/5"
+        },
+        {
+          "metric": "frequency of congenital contractures in truncating cohort",
+          "value": "5/5"
+        },
+        {
+          "metric": "frequency of scoliosis in truncating cohort",
+          "value": "5/5"
+        },
+        {
+          "metric": "frequency of reduced palmar and plantar skin folds",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "Chaurasia et al. confirmed biallelic FILIP1 variants as the cause of syndromic arthrogryposis with microcephaly identified via systematic exome screening of rare homozygous copy-number losses.",
+      "stance": "neutral",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "Further analysis of the data and identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively."
+      },
+      "numbers": [
+        {
+          "metric": "heterogeneous cohort screened",
+          "value": 2021
+        }
+      ]
+    },
+    {
+      "text": "Schnabel et al. (PMC10060356) confirm that bi-allelic truncating variants in FILIP1 produce a distinct autosomal recessive arthrogryposis phenotype with microcephaly, without evaluating or observing missense alleles.",
+      "stance": "neutral",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause ... - PMC",
+        "authors": [
+          "F Schnabel"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10060356",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060356/",
+        "quote": "FILIP1 gene cause a novel autosomal recessive arthrogryposis phenotype with microcephaly."
+      },
+      "numbers": [
+        {
+          "metric": "reported missense cases",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis claims microcephaly is absent or less severe in homozygous missense variants, but no homozygous missense FILIP1 cohort or clinical phenotype comparisons exist in the literature to substantiate this assertion.",
+    "The hypothesis claims microcephaly is specific to truncating variants, but lack of tested missense cohorts prevents establishing specificity."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Do individuals with biallelic missense variants in FILIP1 present with congenital neuromuscular disease, and what is their occipitofrontal circumference standard deviation compared to truncating loss-of-function alleles?",
+      "rationale": "Directly testing whether missense variants in FILIP1 exist and result in hypomorphic versus null phenotypes is essential to assess whether microcephaly and neocortical migration deficits depend on the variant consequence.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does FILIP1 missense protein retain partial binding to filamin A and support neocortical neuronal radial migration in cellular or murine models?",
+      "rationale": "Elucidating the residual biochemical activity of FILIP1 missense changes will define whether incomplete loss of function preserves neocortical expansion.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

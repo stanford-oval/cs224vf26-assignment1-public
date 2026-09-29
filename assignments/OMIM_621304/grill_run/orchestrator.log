@@ -1,0 +1,21 @@
+[18:00:43] INIT: parse fields + PRIOR (parallel)
+[18:00:52]   required_fields=6 seed_directions=5 prior_hypotheses=5 terms=4
+[18:00:52] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[18:01:06] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[18:01:38]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[18:02:23]   DEEP: 1 → pool, 4 → bin ($0.07 total)
+[18:02:23]   INIT probe: 1 pooled, 4 binned (+1 directions seeded)
+[18:02:23]   INIT spent $0.14
+[18:02:28]   PLAN: $4.93 pot, $1.97 ceiling → d1 $1.97 (Directly resolves requirement 1 by extracting ex); d7 $1.97 (Disentangles dominant DEE119 from recessive RNU2)
+[18:02:28] ROUND 1: EXPLORE 2 dirs (d1=$1.97  d7=$1.97; spent $0.14/10.00)
+[18:02:51]   +6 hypotheses from 2 directions
+[18:03:14]   SCREEN: 6 passed / 6 screened ($0.07 total)
+[18:04:00]   DEEP: 2 → pool, 4 → bin ($0.17 total)
+[18:04:17]   PLAN: $4.85 pot, $1.94 ceiling → d21 $1.94 (Directly resolves required clinical phenotype fr); d8 $1.94 (Directly targets the phenotypic discrimination c)
+[18:04:17] ROUND 2: EXPLORE 2 dirs (d21=$1.94  d8=$1.94; spent $0.32/10.00)
+[18:04:44]   +6 hypotheses from 2 directions
+[18:05:11]   SCREEN: 6 passed / 6 screened ($0.12 total)
+[18:05:53]   DEEP: 1 → pool, 5 → bin ($0.25 total)
+[18:05:59] FINALIZE: converged=False spent=$0.48  (init $0.03  plan $0.01  explore $0.07  screen $0.12  deep $0.25  measure $0.00)
+[18:07:00]   outline: 7 sections; report 21KB
+[18:07:07] DONE: coverage 1/6  quality 0.24 (4 pooled / 13 binned, untested 0)  answeredness=0.04  unsourced=0.00  answeredness/$=0.0721

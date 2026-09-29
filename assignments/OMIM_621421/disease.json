@@ -1,0 +1,29 @@
+{
+  "omim": "OMIM:621421",
+  "label": "Ramond-Elliott neurodevelopmental syndrome",
+  "gene": "TRA2B",
+  "gene_info": {
+    "symbol": "TRA2B",
+    "name": "transformer 2 beta homolog",
+    "type_of_gene": "protein-coding",
+    "map_location": "3q27.2",
+    "entrez_id": "6434",
+    "aliases": [
+      "Htra2-beta",
+      "PPP1R156",
+      "RAMELN",
+      "SFRS10",
+      "SRFS10",
+      "TRA2-BETA",
+      "TRAN2B"
+    ],
+    "summary": "This gene encodes a nuclear protein which functions as sequence-specific serine/arginine splicing factor which plays a role in mRNA processing, splicing patterns, and gene expression. Alternative splicing results in multiple transcript variants. [provided by RefSeq, Aug 2011].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 13,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 63,
+  "corpus_query": "\"TRA2B\" OR \"Ramond-Elliott neurodevelopmental syndrome\"",
+  "corpus_query_clinical": "(\"TRA2B\" OR \"Ramond-Elliott neurodevelopmental syndrome\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Ramond-Elliott neurodevelopmental syndrome (OMIM #621421), caused by variants in TRA2B: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

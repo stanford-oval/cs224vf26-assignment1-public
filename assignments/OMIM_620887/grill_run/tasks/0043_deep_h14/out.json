@@ -1,0 +1,130 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from available literature on mitochondrial iron-sulfur cluster assembly defects and FDXR-associated disease indicates that while marked hyperglycinemia is a hallmark of MMDS1-3 due to direct impairment of lipoic acid cofactor synthesis required for the glycine cleavage system, glycine elevation in FDXR deficiency (MMDS9B) is inconsistent and not ubiquitous across the disease spectrum. Reports identifying elevated CSF and plasma glycine and lactate in FDXR deficiency originate primarily from severe early-onset cohorts, whereas broader systemic reviews and cohorts presenting predominantly with optic/acoustic neuropathy and sensorimotor peripheral polyneuropathy do not exhibit persistent or universal hyperglycinemia. However, exact age-stratified metabolic testing rates remain incompletely documented across all reported adult cases.",
+  "evidence": [
+    {
+      "text": "In FDXR deficiency, CSF lactate and to a milder extent plasma lactate was increased, which was also the case for CSF and plasma glycine in an early described cohort.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical and genetic aspects of defects in the mitochondrial iron\u2013sulfur cluster synthesis pathway",
+        "authors": [
+          "AV Vanlander",
+          "R Van Coster"
+        ],
+        "year": 2018,
+        "journal": "Journal of Biological Inorganic Chemistry",
+        "doi": "10.1007/s00775-018-1550-z",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00775-018-1550-z",
+        "quote": "In one paper, \u2026 CSF lactate and to a milder extent plasma lactate was increased. This was also the case for CSF and plasma glycine [59]\u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Defects in iron-sulfur cluster biogenesis can manifest with raised plasma and CSF glycine and lactate, but this metabolic signature is not ubiquitous across patients.",
+      "stance": "supports",
+      "source": {
+        "title": "Mitochondrial iron-sulfur cluster biogenesis and neurological disorders",
+        "authors": [
+          "A Selvanathan",
+          "BP Sankaran"
+        ],
+        "year": 2022,
+        "journal": "Mitochondrion",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/pii/S1567724921001446",
+        "quote": "Patients can have raised plasma and CSF glycine and lactate, but this is not ubiquitous."
+      },
+      "numbers": []
+    },
+    {
+      "text": "MMDS1 characteristically manifests with severe lactic acidosis, refractory epilepsy, and hyperglycinemia, in contrast to MMDS8, MMDS9A, and MMDS9B which exhibit distinct presentations without the uniform glycine cleavage dysfunction presentation of classical MMDS1.",
+      "stance": "supports",
+      "source": {
+        "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+        "authors": [
+          "CR DiFalco",
+          "A Williams",
+          "C Soler-Alfonso"
+        ],
+        "year": 2026,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.70213",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+        "quote": "is specific to the glycine cleavage system, and MMDS8, MMDS9A, and MMDS9B, which are \u2026 Here, we report a case of infantile onset MMDS1 with a clinical course consistent with the \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In a systematic review of 44 patients with FDXR mutations, phenotypes ranged widely with optic and/or auditory neuropathy being typical, peripheral polyneuropathy present in 22.72%, and ataxia in 43.18%, demonstrating a spectrum predominantly marked by neuro-sensory deficits rather than persistent metabolic nonketotic hyperglycinemia.",
+      "stance": "supports",
+      "source": {
+        "title": "FDXR-associated disease: a challenging differential diagnosis",
+        "authors": [
+          "S Masnada"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10096094",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10096094/",
+        "quote": "The review of clinical findings in previously described cases from literature reveals also a significant incidence of sensorimotor peripheral polyneuropathy (22.72%) and ataxia (43.18%). To date, 44 patients with FDXR mutations have been reported."
+      },
+      "numbers": [
+        {
+          "metric": "sensorimotor peripheral polyneuropathy frequency",
+          "value": "22.72%"
+        },
+        {
+          "metric": "ataxia frequency",
+          "value": "43.18%"
+        },
+        {
+          "metric": "total reported patients cohort size",
+          "value": 44
+        }
+      ]
+    },
+    {
+      "text": "Metabolic investigations in iron-sulfur cluster assembly disorders showed a mild increase in lactate and glycine concentrations in CSF and blood in specific early cohorts, rather than the marked and universal nonketotic hyperglycinemia seen in primary GCS defects.",
+      "stance": "neutral",
+      "source": {
+        "title": "Molecular basis of rare diseases associated to the maturation of mitochondrial [4Fe-4S]-containing proteins",
+        "authors": [
+          "F Camponeschi",
+          "S Ciofi"
+        ],
+        "year": 2022,
+        "journal": "Biomolecules",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://mdpi.com/2218-273X/12/7/1009",
+        "quote": "Metabolic investigations showed a mild increase in lactate and glycine concentrations in CSF and blood [79]. Biochemical \u2026 Plasma and CSF lactate levels were high in most patients."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.82,
+  "new_directions": [
+    {
+      "question_text": "What is the exact sensitivity and specificity of plasma versus CSF glycine elevation across infantile versus juvenile/adult FDXR cohorts?",
+      "rationale": "Direct retrospective quantification of CSF:plasma glycine ratios in all 44+ published FDXR patients stratified by age at onset would establish whether normal glycine metabolism definitively rules out infantile MMDS9B versus juvenile optic-acoustic neuropathy.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does residual FDXR oxidoreductase activity directly correlate with glycine cleavage system lipoylation efficiency in patient-derived fibroblasts?",
+      "rationale": "Clarifying the biochemical threshold of ISC disruption required to cause secondary glycine cleavage deficiency will explain why mild neuro-sensory phenotypes spare glycine metabolism.",
+      "promise": 0.84,
+      "est_cost": 45000
+    }
+  ]
+}

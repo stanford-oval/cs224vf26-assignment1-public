@@ -1,0 +1,123 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that systemic lactate elevations in MMDS9B are mild and intermittent and that MRS brain lactate peaks occur in no more than 30% of patients. However, the available literature directly dealing with FDXR-associated disease presents contradictory findings. While general iron-sulfur cluster assembly defects (such as FDX2) show MRS lactate peaks in roughly 25% of evaluated patients (e.g., 1 of 4 in Gurgel 2018), cohorts and neuroimaging reviews specifically evaluating FDXR mitochondriopathy document that blood lactate is frequently increased and cerebral MRS classically demonstrates a markedly elevated lactate peak, particularly during acute decompensations or in the basal ganglia and brainstem. Other reports note variable or absent lactate outside of acute episodes, confirming that lactate elevation is inconsistent, but the specific numerical threshold (<=30%) is contradicted by cohorts where lactate peaks were readily detected.",
+  "evidence": [
+    {
+      "text": "In FDXR-related mitochondriopathy, MR spectroscopy will classically reveal a markedly elevated lactate peak affecting the basal ganglia or brainstem during acute or equivocal presentations, rather than merely mild elevations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Neuroimaging in FDXR-related mitochondriopathy",
+        "authors": [
+          "A Lam",
+          "BD Beutler",
+          "SS Hegde",
+          "MJ Barkovich"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s00247-026-06734-8",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00247-026-06734-8",
+        "quote": "However, MR spectroscopy may be of value in equivocal cases and will classically reveal a markedly elevated lactate peak affecting the basal ganglia or brainstem."
+      },
+      "numbers": []
+    },
+    {
+      "text": "In early reported cohorts of FDXR deficiency (eight individuals across four families), systemic blood lactate was increased and a cerebral lactate peak was observed on MR spectroscopy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical and genetic aspects of defects in the mitochondrial iron\u2013sulfur cluster synthesis pathway",
+        "authors": [
+          "AV Vanlander",
+          "R Van Coster"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1007/s00775-018-1550-z",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00775-018-1550-z",
+        "quote": "FDXR deficiency has only recently been reported. In one paper, eight individuals from four \u2026 , blood lactate was increased and a lactate peak was seen by cerebral MR spectroscopy [57]\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals reported",
+          "value": 8
+        },
+        {
+          "metric": "families",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "In related iron-sulfur cluster biogenesis defects such as FDX2 deficiency, MR spectroscopy identified a lactate peak in only 1 of 4 evaluated patients (25%), illustrating that low penetrance of MRS lactate peaks applies to specific ISC pathway counterparts.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel complex neurological phenotype due to a homozygous mutation in FDX2",
+        "authors": [
+          "J Gurgel"
+        ],
+        "year": 2018,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awy172",
+        "pmid": "30010796",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/141/8/2289/5054138",
+        "quote": "resonance spectroscopy in only one patient (Patient 5), from the four patients who had at least one magnetic resonance spectroscopy exam in our series. In this patient lactate peaks"
+      },
+      "numbers": [
+        {
+          "metric": "MRS lactate positive patients in FDX2 cohort",
+          "value": 1
+        },
+        {
+          "metric": "total MRS evaluated patients in FDX2 cohort",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Neuroimaging reviews in FDXR-related mitochondriopathy note variable presence of lactate ('\u00b1lactate', 'Lactate may be present'), showing that cerebral lactate elevation is not universally present at all stages or in all patients.",
+      "stance": "supports",
+      "source": {
+        "title": "Neuroimaging in FDXR-related mitochondriopathy",
+        "authors": [
+          "A Lam",
+          "BD Beutler",
+          "SS Hegde",
+          "MJ Barkovich"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s00247-026-06734-8",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00247-026-06734-8",
+        "quote": "MR spectroscopy. \u00b1lactate. Lactate peak. Lactate may be present. Lactate peak in both normal and abnormal brain parenchyma."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Lam et al. (2026) report that MRS will 'classically reveal a markedly elevated lactate peak' in decompensated/equivocal FDXR cases, contrasting with the hypothesis that elevations are consistently mild.",
+    "Vanlander and Van Coster (2018) describe elevated blood lactate and cerebral lactate peaks in FDXR cohorts, conflicting with the claim that brain lactate peaks are limited to <=30% of assessed patients.",
+    "The 25% to 30% MRS lactate peak prevalence appears generalized from broader iron-sulfur cluster deficiencies (such as FDX2, where 1 of 4 individuals had an MRS lactate peak) rather than consistently verified in FDXR/MMDS9B cohorts."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true cohort-wide sensitivity and specificity of cerebral MRS lactate detection during baseline vs. infection-triggered acute crises in MMDS9B?",
+      "rationale": "Reports describe marked lactate peaks during post-infectious neuroregression but variable or absent peaks during stable phases; a stratified registry analysis by clinical state is needed.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "How do quantitative CSF and plasma lactate-to-pyruvate ratios compare between MMDS9B and primary oxidative phosphorylation defects?",
+      "rationale": "Clarifying whether the degree of lactate elevation reliably distinguishes accessory Fe-S assembly defects from Complex I/IV deficiencies requires direct matched-cohort biomarker quantification.",
+      "promise": 0.78,
+      "est_cost": 30000
+    }
+  ]
+}

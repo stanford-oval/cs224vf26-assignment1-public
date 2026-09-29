@@ -1,0 +1,207 @@
+{
+  "hypotheses": [
+    {
+      "text": "Hyperphagia-associated obesity is a distinctive but incomplete discriminator for LRRC7-related neurodevelopmental disorder compared to other postsynaptic density synaptopathies, because infant/early childhood presentations can manifest bidirectionally as failure to thrive before the potential emergence of hyperphagia in later childhood.",
+      "rationale": "Resolves the conflict between Willim et al. (2024) highlighting hyperphagia-associated obesity as a hallmark and Khan et al. (2026) reporting an infant proband presenting with failure to thrive and hypotonia. Testing whether growth trajectory shifts with age will clarify if obesity serves as an age-dependent rather than universal discriminator.",
+      "aspects": [
+        "discriminating_findings",
+        "phenotypic_variability",
+        "age_dependent_penetrance"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "The primary clinical cohort of 33 individuals with LRRC7 variants identified intellectual disability, autism, ADHD, aggression, and in several cases, hyperphagia-associated obesity.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+            "authors": [
+              "J Willim",
+              "D Woike",
+              "D Greene",
+              "S Das",
+              "K Pfeifer"
+            ],
+            "year": 2024,
+            "journal": "Nature Communications",
+            "doi": null,
+            "pmid": "39256359",
+            "pmc": "PMC11387733",
+            "url": "https://www.nature.com/articles/s41467-024-52095-x",
+            "quote": "The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size",
+              "value": 33
+            }
+          ]
+        },
+        {
+          "text": "A proband harboring a novel de novo missense variant (p.Pro887Leu) in LRRC7 presented with global developmental delay, tonic seizures, hypotonia, mild microcephaly, and failure to thrive rather than obesity.",
+          "stance": "contradicts",
+          "source": {
+            "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+            "authors": [
+              "S Khan",
+              "M Bilal",
+              "H Khan",
+              "Q Alam"
+            ],
+            "year": 2026,
+            "journal": "Journal of Gene Medicine",
+            "doi": "10.1002/jgm.70090",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+            "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+          },
+          "numbers": [
+            {
+              "metric": "proband_count",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Seizures and hypotonia have negligible negative predictive value for ruling out LRRC7-related neurodevelopmental disorder against SYNGAP1-, SHANK3-, or DLG4-related synaptopathies because both features occur recurrently in LRRC7 cohorts.",
+      "rationale": "Prior diagnostic frameworks attempted to exclude LRRC7 when seizures or hypotonia were present. Demonstrating that hypotonia and seizures are common features of LRRC7 confirms they cannot rule out LRRC7, leaving behavioral phenotypes (aggression, abnormal feeding) as the primary positive discriminators.",
+      "aspects": [
+        "differential_diagnosis",
+        "discriminating_findings",
+        "seizures_and_hypotonia"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the definitive characterization of LRRC7-associated neurodevelopmental disorder, core findings include ID and delayed language development, along with seizures occurring in several cases.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+            "authors": [
+              "J Willim",
+              "D Woike",
+              "D Greene",
+              "S Das",
+              "K Pfeifer"
+            ],
+            "year": 2024,
+            "journal": "Nature Communications",
+            "doi": null,
+            "pmid": "39256359",
+            "pmc": "PMC11387733",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11387733/",
+            "quote": "The core phenotype of these individuals consists of ID and delayed language development, in addition to ADHD, autism and seizures in several cases."
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals",
+              "value": 33
+            }
+          ]
+        },
+        {
+          "text": "An independent de novo LRRC7 missense proband manifested both hypotonia and recurrent tonic seizures in early childhood.",
+          "stance": "supports",
+          "source": {
+            "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+            "authors": [
+              "S Khan",
+              "M Bilal",
+              "H Khan",
+              "Q Alam"
+            ],
+            "year": 2026,
+            "journal": "Journal of Gene Medicine",
+            "doi": "10.1002/jgm.70090",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+            "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+          },
+          "numbers": [
+            {
+              "metric": "affected_proband",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The combination of severe verbal/physical aggression and hyperphagia confers higher positive diagnostic specificity for LRRC7-related disorder than for SYNGAP1 or SHANK3 synaptopathies, where sleep disturbances, motor ataxia, and global regression dominate.",
+      "rationale": "While postsynaptic density synaptopathies share developmental delay, language impairment, and autism, the specific co-occurrence of aggression and dysregulated eating behaviors is recognized as a specific syndromic entity within monogenic obesity and behavioral panels.",
+      "aspects": [
+        "discriminating_findings",
+        "behavioral_phenotype",
+        "differential_diagnosis"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "OMIM entry 621415 details that behavioral abnormalities in autosomal dominant intellectual developmental disorder-77 include hyperphagia resulting in obesity, self-injury, and verbal aggression.",
+          "stance": "supports",
+          "source": {
+            "title": "621415 - INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 77; MRD77",
+            "authors": [
+              "OMIM"
+            ],
+            "year": 2024,
+            "journal": "Online Mendelian Inheritance in Man",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://omim.org/entry/621415",
+            "quote": "Behavioral abnormalities included hyperphagia resulting in obesity, self-injury, and verbal aggression"
+          },
+          "numbers": [
+            {
+              "metric": "omim_disorder_id",
+              "value": 621415
+            }
+          ]
+        },
+        {
+          "text": "LRRC7 has been specifically curated on clinical genetic diagnostic panels for severe early-onset obesity with impaired appetite regulation.",
+          "stance": "supports",
+          "source": {
+            "title": "Gene: LRRC7 (Severe early-onset obesity)",
+            "authors": [
+              "PanelApp Australia"
+            ],
+            "year": 2024,
+            "journal": "PanelApp Australia",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://panelapp-aus.org/panels/3764/gene/LRRC7/",
+            "quote": "Hyperphagia and early-onset obesity is a common feature. ... Phenotypes for gene: LRRC7 were changed from neurodevelopmental disorder"
+          },
+          "numbers": [
+            {
+              "metric": "panel_id",
+              "value": 3764
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the age-dependent progression of feeding and metabolic traits in LRRC7 patients from infancy to adulthood, and does early failure to thrive transition into hyperphagia-associated obesity?",
+      "rationale": "Clarifies whether Khan et al. (failure to thrive in an infant) and Willim et al. (childhood/adolescent hyperphagia and obesity) reflect two temporal stages of the same longitudinal trajectory, similar to Prader-Willi syndrome.",
+      "promise": 0.85,
+      "est_cost": 0.65
+    },
+    {
+      "question_text": "In head-to-head multicenter cohorts of PSD synaptopathies (LRRC7, SYNGAP1, SHANK3, DLG4), what are the formal sensitivity, specificity, and positive predictive values of severe aggression and hyperphagia for identifying LRRC7 variants?",
+      "rationale": "Comparative discriminator accuracy remains unquantified by formal sensitivity/specificity metrics, which clinicians need to confidently choose LRRC7 over other synaptopathies.",
+      "promise": 0.8,
+      "est_cost": 0.75
+    }
+  ],
+  "dead_end": false
+}

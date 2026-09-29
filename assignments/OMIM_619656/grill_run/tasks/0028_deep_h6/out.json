@@ -1,0 +1,162 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits an established genotype-phenotype correlation in SMAD2 (LDS6) where MH2 domain missense variants cause severe early-onset syndromic vasculopathy and truncating/haploinsufficiency variants produce milder, late-onset non-syndromic thoracic aortic aneurysms. However, empirical literature on SMAD2 directly contradicts this clean dichotomy: Granadillo et al. (2018) identified pathogenic truncating variants in infants and fetuses with severe syndromic phenotypes including complex congenital heart defects, heterotaxy, developmental delay, and dysmorphic features, while adult late-onset vascular disease has also been observed across variant types. Furthermore, Verstraeten et al. (2016) highlighted that limited patient numbers have hampered deduction of confident genotype-phenotype correlations for SMAD2. While parallel studies in the homolog SMAD3 (de Wagenaar et al., 2024) suggest dominant-negative MH2 variants show a trend toward earlier vascular events than haploinsufficient alleles, other SMAD3 cohorts (van de Laar et al., 2011; Chesneau et al., 2020) demonstrated a virtual absence of correlation between variant type and aortic phenotype severity.",
+  "evidence": [
+    {
+      "text": "SMAD2 pathogenic variants manifest with two distinct phenotypic spectra\u2014complex CHD with or without heterotaxy and syndromic anomalies, versus late-onset vascular aneurysms with connective tissue abnormalities. However, truncating variants were identified in patients presenting with severe congenital anomalies, dysmorphic features, and developmental delay rather than being restricted to mild late-onset TAAD.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+        "authors": [
+          "JL Granadillo",
+          "WK Chung",
+          "L Hecht"
+        ],
+        "year": 2018,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.23627",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23627",
+        "quote": "Patients 1 and 2 presented with complex CHD, developmental delay, seizures, dysmorphic features, short stature, and poor weight gain. Patient 3 was a fetus with complex CHD and heterotaxy. The fourth patient is an adult female with aortic root aneurysm and physical features suggestive of a connective tissue disorder. WES identified pathogenic truncating variants, a splice variant, and a predicted deleterious missense variant in SMAD2."
+      },
+      "numbers": [
+        {
+          "metric": "Number of probands investigated with complex CHD and other congenital anomalies",
+          "value": 3
+        },
+        {
+          "metric": "Number of patients presenting with adult-onset arterial root aneurysm",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive reviews of Loeys-Dietz and Marfan-related disorders note that for newer genes such as SMAD2, detailed genotypic and phenotypic spectra remain limited, hampering reliable deduction of genotype-phenotype correlations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Marfan syndrome and related disorders : 25 years of gene discovery",
+        "authors": [
+          "A Verstraeten"
+        ],
+        "year": 2016,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.22977",
+        "pmid": "26919284",
+        "pmc": null,
+        "url": "https://repository.uantwerpen.be/docman/irua/d18d65/136053_2017_02_26.pdf",
+        "quote": "... SMAD2) detailed genotypic and phenotypic spectra have yet to emerge, currently hampering deduction of confident genotype-phenotype correlations."
+      },
+      "numbers": []
+    },
+    {
+      "text": "In homologous SMAD3-related Loeys-Dietz syndrome (LDS3), individuals carrying dominant-negative variants in the MH2 domain had earlier onset of major vascular events compared to those carrying haploinsufficient variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Functional analysis of cell lines derived from SMAD3-related Loeys-Dietz syndrome patients provides insights into genotype-phenotype relation",
+        "authors": [
+          "NP de Wagenaar"
+        ],
+        "year": 2024,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/33/12/1090/7636157",
+        "quote": "Individuals with dominant negative (DN) SMAD3 variant in the MH2 domain exhibited more major events (66.7% vs. 44.0%, P = 0.054), occurring at a younger age compared to those with haploinsufficient (HI) variants. The age at first major event was 35.0 years [IQR 29.0-47.0] in individuals with DN variants in MH2, compared to 46.0 years [IQR 40.0-54.0] in those with HI variants (P = 0.065)."
+      },
+      "numbers": [
+        {
+          "metric": "Major vascular events in SMAD3 MH2 DN variants",
+          "value": "66.7%"
+        },
+        {
+          "metric": "Major vascular events in SMAD3 HI variants",
+          "value": "44.0%"
+        },
+        {
+          "metric": "Median age at first major event for SMAD3 MH2 DN variants (years)",
+          "value": 35.0
+        },
+        {
+          "metric": "Median age at first major event for SMAD3 HI variants (years)",
+          "value": 46.0
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 155 individuals with pathogenic SMAD3 variants, analysis showed no statistically significant correlation between the variant type and the presence or severity of an aortic phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical and genetic data of 22 new patients with SMAD3 variants and review of the literature",
+        "authors": [
+          "B Chesneau"
+        ],
+        "year": 2020,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.1132",
+        "pmid": "32154675",
+        "pmc": null,
+        "url": "https://hal.science/hal-04441981v1/document",
+        "quote": "We showed, herein, the absence of correlation between the SMAD3 variant type and the occurrence of an AP in patients."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size of SMAD3 variant carriers assessed",
+          "value": 155
+        }
+      ]
+    },
+    {
+      "text": "Report of a SMAD2 truncating mutation (c.593dupA) identified in an adult patient with thoracic aortic aneurysm/dissection within a cohort of LDS patients.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic profiling and cardiovascular phenotypic spectrum in a Chinese cohort of Loeys-Dietz syndrome patients",
+        "authors": [
+          "H Yang",
+          "Y Ma",
+          "M Luo",
+          "G Zhu",
+          "Y Zhang",
+          "B Li"
+        ],
+        "year": 2020,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": "10.1186/s13023-019-1282-3",
+        "pmid": "31915033",
+        "pmc": "PMC6950884",
+        "url": "https://link.springer.com/article/10.1186/s13023-019-1282-3",
+        "quote": "... the second case of a SMAD2 truncating mutation (c.593dupA) ..."
+      },
+      "numbers": [
+        {
+          "metric": "Unique rare LDS gene variants identified",
+          "value": 54
+        },
+        {
+          "metric": "Patients with thoracic aneurysms/dissections analyzed",
+          "value": 57
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that truncating/haploinsufficiency variants cause mild, late-onset isolated vascular disease without craniofacial or syndromic anomalies; however, Granadillo et al. (2018) documented truncating SMAD2 variants in children and fetuses with severe congenital anomalies, dysmorphic craniofacial features, heterotaxy, and complex congenital heart defects.",
+    "Data extrapolating a domain-specific (MH2 dominant-negative) severity model from SMAD3 to SMAD2 conflicts with SMAD3 clinical literature itself (Chesneau et al., 2020; van de Laar et al., 2011), which demonstrated an absence of robust genotype-phenotype correlation between variant class and vascular risk."
+  ],
+  "confidence": 0.25,
+  "new_directions": [
+    {
+      "question_text": "Does transcript-level nonsense-mediated decay efficiency in SMAD2 truncating variants dictate whether a patient develops early complex congenital heart disease versus adult-onset aneurysms?",
+      "rationale": "Truncating variants have been observed in both severe pediatric CHD/syndromic phenotypes and adult-onset TAAD, suggesting variable escape from nonsense-mediated decay or dominant-negative truncated isoforms may influence outcome.",
+      "promise": 0.8,
+      "est_cost": 45000.0
+    },
+    {
+      "question_text": "Do SMAD2 MH2 domain missense mutations exhibit measurable dominant-negative activity compared to haploinsufficiency in human induced pluripotent stem cell-derived vascular smooth muscle cells?",
+      "rationale": "Testing myofibroblast differentiation and contractile protein isoform expression (similar to de Wagenaar et al.'s SMAD3 assay) will establish whether functional divergent mechanisms exist between missense and loss-of-function SMAD2 alleles.",
+      "promise": 0.85,
+      "est_cost": 65000.0
+    }
+  ]
+}

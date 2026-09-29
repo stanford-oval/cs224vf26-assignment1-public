@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FDXR\" \"multiple mitochondrial dysfunctions\" clinical phenotype spectrum",
+    "FDXR MMDS9B clinical features phenotype pulmonary hypertension leukodystrophy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.cell.com/trends/biochemical-sciences/abstract/S0968-0004(20)30034-7",
+      "title": "Outlining the complex pathway of mammalian Fe-S cluster biogenesis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/trends/biochemical-sciences/abstract/S0968-0004(20)30034-7",
+      "abstract_chars": 852
+    },
+    {
+      "id": "PMC9247042",
+      "title": "Mammalian iron sulfur cluster biogenesis and human diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9247042/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC10235907",
+      "title": "Mammalian mitochondrial iron\u2013sulfur cluster biogenesis and transfer and related human diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10235907/",
+      "abstract_chars": 1347
+    },
+    {
+      "id": "10.1007/978-3-030-67727-5_27",
+      "title": "Disorders of Lipoic Acid and Iron-Sulfur Protein Metabolism",
+      "pmid": null,
+      "doi": "10.1007/978-3-030-67727-5_27",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-67727-5_27",
+      "abstract_chars": 0
+    },
+    {
+      "id": "30200358",
+      "title": "NMR as a tool to investigate the processes of mitochondrial and cytosolic iron-sulfur cluster biosynthesis",
+      "pmid": "30200358",
+      "doi": "10.3390/molecules23092213",
+      "url": "https://www.mdpi.com/1420-3049/23/9/2213",
+      "abstract_chars": 856
+    },
+    {
+      "id": "https://omim.org/entry/620887",
+      "title": "620887 - MULTIPLE MITOCHONDRIAL DYSFUNCTIONS ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620887",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/multiple_mitochondrial_dysfunctions_syndrome_9b",
+      "title": "Multiple Mitochondrial Dysfunctions Syndrome 9b (MMDS9B)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/multiple_mitochondrial_dysfunctions_syndrome_9b",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41436440",
+      "title": "Ferroptosis is a novel pathogenic mechanism of FDXR-related ...",
+      "pmid": "41436440",
+      "doi": "10.1038/s41420-025-02840-y",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12727864/",
+      "abstract_chars": 1117
+    },
+    {
+      "id": "10.1002/ajmg.a.70213",
+      "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 ...",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.70213",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajmg.a.70213",
+      "abstract_chars": 1837
+    },
+    {
+      "id": "https://www.semanticscholar.org/paper/A-Review-of-Multiple-Mitochondrial-Dysfunction-with-Lebigot-Schiff/33a39c2be6471bccd33c431d6e33ffe38073573b",
+      "title": "A Review of Multiple Mitochondrial Dysfunction Syndromes ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/A-Review-of-Multiple-Mitochondrial-Dysfunction-with-Lebigot-Schiff/33a39c2be6471bccd33c431d6e33ffe38073573b",
+      "abstract_chars": 1085
+    }
+  ],
+  "input_tokens": 5120,
+  "output_tokens": 3321,
+  "usd": 0.01252,
+  "seconds": 46.3,
+  "ok": true
+}

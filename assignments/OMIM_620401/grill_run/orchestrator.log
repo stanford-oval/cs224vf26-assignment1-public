@@ -1,0 +1,21 @@
+[17:08:06] INIT: parse fields + PRIOR (parallel)
+[17:08:15]   required_fields=6 seed_directions=4 prior_hypotheses=6 terms=4
+[17:08:15] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:08:27] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[17:08:52]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[17:09:34]   DEEP: 2 → pool, 3 → bin ($0.06 total)
+[17:09:34]   INIT probe: 2 pooled, 3 binned (+2 directions seeded)
+[17:09:34]   INIT spent $0.11
+[17:09:43]   PLAN: $4.94 pot, $1.98 ceiling → d1 $1.98 (Directly targets the primary unanswered requirem); d14 $1.98 (Resolves the contested prior regarding expressiv)
+[17:09:43] ROUND 1: EXPLORE 2 dirs (d1=$1.98  d14=$1.98; spent $0.12/10.00)
+[17:10:01]   +6 hypotheses from 2 directions
+[17:10:28]   SCREEN: 5 passed / 7 screened ($0.07 total)
+[17:11:08]   DEEP: 3 → pool, 2 → bin ($0.11 total)
+[17:11:25]   PLAN: $4.88 pot, $1.95 ceiling → d18 $1.95 (Extracts patient-level numerators, denominators,); d24 $1.95 (Resolves the direct contradiction between Turkyi)
+[17:11:25] ROUND 2: EXPLORE 2 dirs (d18=$1.95  d24=$1.95; spent $0.25/10.00)
+[17:11:46]   +6 hypotheses from 2 directions
+[17:12:09]   SCREEN: 6 passed / 6 screened ($0.11 total)
+[17:12:48]   DEEP: 4 → pool, 2 → bin ($0.18 total)
+[17:12:55] FINALIZE: converged=False spent=$0.38  (init $0.03  plan $0.01  explore $0.05  screen $0.11  deep $0.18  measure $0.00)
+[17:13:49]   outline: 7 sections; report 15KB
+[17:13:57] DONE: coverage 3/6  quality 0.50 (9 pooled / 9 binned, untested 0)  answeredness=0.25  unsourced=0.00  answeredness/$=0.5767

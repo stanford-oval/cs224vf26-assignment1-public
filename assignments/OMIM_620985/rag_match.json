@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620985",
+ "omim": "OMIM:620985",
+ "disease": "Karayol-Borroto-Haghshenas neurodevelopmental syndrome",
+ "gene": "MSL2",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1697,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Karayol-Borroto-Haghshenas neurodevelopmental syndrome (MSL2, OMIM:620985):\n\n[1] MSL2 variants lead to a neurodevelopmental syndrome with ...\nhttps://pubmed.ncbi.nlm.nih.gov/38815585/\nby R Karayol \u00b7 2024 \u00b7 Cited by 16 \u2014 MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature.\n\n[2] Entry - #620985 - KARAYOL-BORROTO-HAGHSHENAS ...\nhttps://omim.org/entry/620985\nKarayol-Borroto-Haghshenas neurodevelopmental syndrome (KBHS) is caused by heterozygous mutation in the MSL2 gene (MSL2; 614802) on chromosome ...\n\n[3] Karayol-Borroto-Haghshenas Neurodevelopmental ...\nhttps://www.malacards.org/card/karayol_borroto_haghshenas_neurodevelopmental_syndrome\nAn autosomal dominant neurodevelopmental disorder characterized by global developmental delay, intellectual disability, psychiatric manifestations including ...\n\n[4] MSL2 variants lead to a neurodevelopmental syndrome ...\nhttps://pure.johnshopkins.edu/en/publications/msl2-variants-lead-to-a-neurodevelopmental-syndrome-with-lack-of-/\nby R Karayol \u00b7 2024 \u00b7 Cited by 16 \u2014 MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues ...\n\n[5] MSL2 Variants Lead to a Neurodevelopmental Syndrome With ...\nhttps://digitalcommons.library.tmc.edu/cgi/viewcontent.cgi?article=5901&context=baylor_docs\nby R Karayol \u00b7 2024 \u00b7 Cited by 12 \u2014 We identify MSL2 variants leading to a neurodevelopmental disorder with intellectual disability, developmental delay, motor issues, seizures, ...\n\n[6] MSL2\nhttps://humandiseasegenes.nl/msl2\nThe Karayol-Borroto-Haghshenas neurodevelopmental syndrome (KBHS) is caused by mutations in the MSL2 gene. KBHS is a multisystem disorder ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 5.0, male)\n  observed: Slender finger, Pes planus, Deeply set eye, Delayed speech and language development, Recurrent hand flapping, Global developmental delay, Triangular face, Thin vermilion border\n  recorded ABSENT: Short stature, Sacral dimple, Dermal translucency, Retrognathia, Abnormal calvaria morphology, Abnormal fontanelle morphology, Pectus excavatum, Inguinal hernia, Anteverted ears, Posteriorly rotated ears, Low-set ears, Macular hypoplasia, Microphthalmia, Hypotelorism, Strabismus, EEG abnormality, Periventricular nodular heterotopia, Polymicrogyria, Schizencephaly, Cavum septum pellucidum, Wide intermamillary distance, Inverted nipples, Long face, Downturned corners of mouth, Ankyloglossia (+7 more)\n\nP02 (age 0.9, female)\n  observed: Prominent forehead, Upslanted palpebral fissure, Square face, Trigonocephaly, Retrognathia, Infantile spasms, Hypsarrhythmia, Global developmental delay, Delayed ability to roll over, Atrial septal defect, Facial hemangioma\n  recorded ABSENT: (none recorded)\n\nP03 (age 16.0, female)\n  observed: Deep philtrum, Thick eyebrow, Depressed nasal bridge, Anteverted nares, Tip-toe gait, Autistic behavior, Self hugging, Recurrent hand flapping, Pica, Self-injurious behavior, Delayed speech and language development, Severe intellectual disability, Delayed ability to sit, Delayed ability to walk, Pes planus\n  recorded ABSENT: Broad philtrum, Smooth philtrum, Short philtrum, Downslanted palpebral fissures, Upslanted palpebral fissure, Long palpebral fissure, Narrow palpebral fissure, Epiblepharon, Secondary microcephaly, Deeply set eye, Posteriorly rotated ears, Low-set ears, Anteverted ears, Macrotia, Overfolded helix, Otitis media, Hearing impairment, Excessive shyness, Aggressive behavior, Premature birth, 2-3 toe syndactyly, Camptodactyly of finger, Clinodactyly of the 5th finger, Prominent interphalangeal joints, Toe clinodactyly (+2 more)\n\nP04 (age None, female)\n  observed: Cogwheel rigidity, Knee osteoarthritis, Bilateral ptosis, Resting tremor, Hand tremor, Bradykinesia, Anxiety, Psychosis, Hallucinations, Dystonia\n  recorded ABSENT: (none recorded)\n\nP05 (age 8.1, female)\n  observed: Drooling, Smooth philtrum, Long philtrum, High forehead, Prominent nasal bridge, Wide nasal bridge, Prominent nose, Coarse facial features, Long face, Secondary microcephaly, Arachnodactyly, Babinski sign, Brisk reflexes, Hyperactivity, Delayed speech and language development, Autistic behavior, Severe intellectual disability, Severe global developmental delay, Thin corpus callosum, Hirsutism\n  recorded ABSENT: Sandal gap, Overlapping fingers, Scoliosis, Hemivertebrae, Hypotonia, Hearing impairment, Decreased total neutrophil count, Seizure, Tip-toe gait, Inability to walk, Unsteady gait, Interictal EEG abnormality, Persistent head lag, Delayed ability to walk, Intrahepatic bile duct dilatation, Hepatomegaly, Increased hepatic echogenicity, Hepatic fibrosis, Feeding difficulties, Short stature\n\nP06 (age 5.0, female)\n  observed: Secondary microcephaly, Plagiocephaly, Hypomimic face, Drooling, Open mouth, Wide nasal bridge, Severe global developmental delay, Delayed ability to walk, Delayed speech and language development, Intellectual disability, Tonic seizure, Epileptic encephalopathy, Gait ataxia, Autistic behavior, Motor stereotypy, Sleep disturbance, Restlessness, Broad-based gait, Short stature, Cutaneous photosensitivity, Generalized hypotonia\n  recorded ABSENT: Bilateral tonic-clonic seizure, Status epilepticus, Epileptic spasm, Focal-onset seizure, Febrile seizure (within the age range of 3 months to 6 years), Generalized-onset seizure, Widened subarachnoid space, Gray matter heterotopia, Cerebral atrophy, Abnormal CNS myelination, Cavum septum pellucidum, Decreased body weight\n\nP07 (age 12.0, male)\n  observed: Global developmental delay, Intellectual disability, Hypotonia, Failure to thrive, Deeply set eye, Horizontal eyebrow, Broad nasal tip, Underdeveloped nasal alae, Self-injurious behavior, Clinodactyly of the 5th finger, Short stature, Cerebral visual impairment, Joint hypermobility, Synophrys, Cerebral atrophy, Aplasia cutis congenita, Soft skin\n  recorded ABSENT: Low-set ears, Simple ear, Cupped ear, Ptosis, Overfolded helix, Thin upper lip vermilion, Short columella, Low hanging columella, Frontal bossing, Narrow forehead, Broad forehead, Short chin, Proptosis, Scoliosis, Lumbar hyperlordosis, Cerebral palsy, Inguinal hernia, Craniosynostosis, Hearing impairment, Hypertonia, Plagiocephaly, Recurrent patellar dislocation\n\nP08 (age 1.5, male)\n  observed: Hypermetropia, Rod-cone dystrophy, Microcephaly, Delayed gross motor development, Delayed speech and language development, Seizure, Autistic behavior\n  recorded ABSENT: Sensorineural hearing impairment\n\nP09 (age 1.3, male)\n  observed: Bilateral tonic-clonic seizure, Global developmental delay, Motor delay, Delayed speech and language development, Delayed CNS myelination, Hypoplasia of the corpus callosum, Microcephaly, Hypotonia, Reduced eye contact\n  recorded ABSENT: Infantile spasms, Febrile seizure (within the age range of 3 months to 6 years), Bilateral tonic-clonic seizure with focal onset, Atonic seizure, Generalized non-motor (absence) seizure, Focal impaired awareness seizure, Focal aware seizure, Focal motor seizure, Myoclonic seizure, Tonic seizure, Absent speech, Diffuse cerebral atrophy, Hippocampal sclerosis, Cerebellar vermis hypoplasia, Reduced cerebral white matter volume, Aggressive behavior, Autistic behavior, Head-banging, Low posterior hairline, Short chin, Frontal bossing, Plagiocephaly, Prominent nasal bridge, High palate, Round face (+31 more)\n\nP10 (age 14.0, female)\n  observed: Narrow face, Long face, Secondary microcephaly, Muscle weakness, Hypotonia, Spasticity, Hip dysplasia, Strabismus, Absent speech, Global developmental delay, Delayed ability to walk, Delayed ability to sit, Intellectual disability, Cerebral palsy, Dystonia, Focal impaired awareness seizure, Tonic seizure, Myoclonic seizure, Tetraplegia, Ataxia, Stereotypical hand wringing, Autism, Syncope, Reduced cerebral white matter volume, Gastroesophageal reflux, Constipation\n  recorded ABSENT: Tongue fasciculations, Smooth philtrum, Dental crowding, Microdontia, Wide mouth, Broad forehead, Narrow forehead, High forehead, Low anterior hairline, Epicanthus, Thick eyebrow, Synophrys, Prominent nasal bridge, Low hanging columella, Square face, Retrognathia, Small hand, Broad hallux, Sacral dimple, Amblyopia, High hypermetropia, Microtia, Thickened helices, Febrile seizure (within the age range of 3 months to 6 years), Encephalopathy (+13 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.65,
+     "for": "Demonstrates cardinal features highlighted in the report including gait ataxia and broad-based gait (lack of coordination), tonic seizures and epileptic encephalopathy (epilepsy), hypotonia, motor and speech delays, intellectual disability, and behavioral disturbances.",
+     "against": "Presents with cutaneous photosensitivity and plagiocephaly which are not mentioned in the syndrome profile, and has several specific seizure subtypes recorded as absent."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.2,
+     "for": "Exhibits neurodevelopmental delay, intellectual disability, ataxia (lack of coordination), multiple seizure types (epilepsy), hypotonia, and autism.",
+     "against": "Presents with severe spastic tetraplegia, hand-wringing stereotypies, and cerebral palsy, which are more classic for Rett-like disorders, and lacks characteristic facial dysmorphisms."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.08,
+     "for": "Presents with bilateral tonic-clonic seizures (epilepsy), global developmental delay, motor delay, and generalized hypotonia.",
+     "against": "Has autistic behavior and numerous dysmorphic facial features explicitly recorded as absent, with no ataxia or coordination deficit noted (partly due to young age)."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Features global developmental delay, intellectual disability, hypotonia, behavioral manifestations (self-injurious behavior), and specific facial dysmorphisms.",
+     "against": "Entirely lacks seizures/epilepsy and ataxia, which are cited as defining core hallmarks of MSL2-related neurodevelopmental syndrome."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.03,
+     "for": "Features seizures, delayed gross motor and speech development, and autistic behavior.",
+     "against": "Exhibits rod-cone dystrophy which is not associated with KBHS, and lacks documented ataxia or specific dysmorphic features."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked granular descriptions of the 'specific dysmorphisms' defining KBHS, details on the specific episignature, and typical seizure semiology or age of onset to more cleanly differentiate between candidates.",
+   "tokens_in": 2356,
+   "tokens_out": 2099,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.75,
+     "for": "Demonstrates the hallmark constellation highlighted in the report: lack of coordination/motor issues (gait ataxia, broad-based gait), epilepsy (tonic seizure, epileptic encephalopathy), generalized hypotonia, intellectual disability, global developmental delay, and behavioral features.",
+     "against": "Lacks specific mention of the exact facial dysmorphisms or episignature defined by the literature."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.15,
+     "for": "Exhibits seizures (focal and tonic), ataxia (lack of coordination), hypotonia, motor delay, intellectual disability, and autism.",
+     "against": "Has severe manifestations like tetraplegia and cerebral palsy not specifically emphasized in the report, and encephalopathy is explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.05,
+     "for": "Presents with seizures, hypotonia, motor delay, and global developmental delay.",
+     "against": "Lacks reported ataxia or specific coordination deficits, and prominent dysmorphic facial features are largely absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.03,
+     "for": "Presents with global developmental delay, intellectual disability, hypotonia, and behavioral/psychiatric manifestations.",
+     "against": "Has no documented seizures or lack of coordination/ataxia, which are highlighted key features in the report, and features aplasia cutis congenita."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.01,
+     "for": "Shows developmental delay, seizures, motor delay, and autistic behavior.",
+     "against": "Presence of rod-cone dystrophy strongly suggests a distinct retinal ciliopathy or neuroretinal disorder not reported for MSL2 syndrome."
+    }
+   ],
+   "what_the_report_lacked": "Specific facial dysmorphic features (the report merely notes 'specific dysmorphisms') and detailed descriptions of the seizure types and behavioral phenotypes associated with MSL2 variants.",
+   "tokens_in": 2356,
+   "tokens_out": 1436,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.65,
+     "for": "Demonstrates cardinal features including global developmental delay, intellectual disability, hypotonia, epilepsy (tonic seizures, epileptic encephalopathy), lack of coordination (gait ataxia, broad-based gait), and psychiatric/behavioral features (autistic behavior, restlessness, sleep disturbance).",
+     "against": "Has recorded absences of several seizure subtypes (such as focal-onset and generalized-onset seizures) and structural brain abnormalities like gray matter heterotopia."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.2,
+     "for": "Features intellectual disability, global developmental delay, hypotonia, epilepsy (tonic, myoclonic, focal impaired awareness seizures), lack of coordination (ataxia), and autism.",
+     "against": "Presents with severe neuromuscular deficits like tetraplegia and spasticity, as well as stereotypical hand wringing, which are less typical or more suggestive of other specific disorders (e.g., Rett-like syndromes)."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.08,
+     "for": "Presents with neurodevelopmental delay, motor delay, hypotonia, and seizures (bilateral tonic-clonic).",
+     "against": "Lacks prominent coordination issues/ataxia at age 1.3 and has recorded absence of autistic behavior and aggressive behavior."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Exhibits global developmental delay, intellectual disability, hypotonia, and behavioral manifestations (self-injurious behavior).",
+     "against": "Lacks documentation of seizures/epilepsy and overt coordination deficits, while presenting with atypical features like aplasia cutis congenita."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Features severe global developmental delay, intellectual disability, and behavioral features including autistic behavior and hyperactivity.",
+     "against": "Explicitly lacks seizures and hypotonia, which are prominent core manifestations of the syndrome."
+    }
+   ],
+   "what_the_report_lacked": "Specific facial dysmorphic criteria, detailed characterization of the distinct DNA methylation episignature, and precise descriptions of the movement/coordination deficits associated with MSL2 variants.",
+   "tokens_in": 2356,
+   "tokens_out": 1686,
+   "round": 3
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TUBA4A\" \"spastic ataxia\" \"Purkinje\" \"cerebellar atrophy\"",
+    "TUBA4A spastic ataxia 11 cerebellar atrophy Purkinje degeneration phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "PMC13014175",
+      "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+      "abstract_chars": 1783
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/21/19/7354",
+      "title": "Microtubule dysfunction: a common feature of neurodegenerative diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/21/19/7354",
+      "abstract_chars": 1253
+    },
+    {
+      "id": "10.1007/s00439-025-02744-y",
+      "title": "The molecular landscape of hereditary ataxia: a single-center study",
+      "pmid": null,
+      "doi": "10.1007/s00439-025-02744-y",
+      "url": "https://link.springer.com/article/10.1007/s00439-025-02744-y",
+      "abstract_chars": 1897
+    },
+    {
+      "id": "36323248",
+      "title": "Multi-omic profiling reveals the ataxia protein sacsin is required for integrin trafficking and synaptic organization",
+      "pmid": "36323248",
+      "doi": "10.1016/j.celrep.2022.111580",
+      "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(22)01441-3",
+      "abstract_chars": 1117
+    },
+    {
+      "id": "10.1007/s00415-024-12506-x",
+      "title": "Spinocerebellar ataxia 27B: a frequent and slowly progressive autosomal-dominant cerebellar ataxia\u2014experience from an Italian cohort",
+      "pmid": null,
+      "doi": "10.1007/s00415-024-12506-x",
+      "url": "https://link.springer.com/article/10.1007/s00415-024-12506-x",
+      "abstract_chars": 1838
+    },
+    {
+      "id": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "title": "Ataxia: Dominant",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "35171680",
+      "title": "A dominant tubulin mutation causes cerebellar neurodegeneration in a genetic model of tubulinopathy",
+      "pmid": "35171680",
+      "doi": "10.1126/sciadv.abf7262",
+      "url": "https://www.science.org/doi/abs/10.1126/sciadv.abf7262",
+      "abstract_chars": 1099
+    },
+    {
+      "id": "10.1007/s00415-023-11816-w",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+      "pmid": null,
+      "doi": "10.1007/s00415-023-11816-w",
+      "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+      "abstract_chars": 716
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "https://mayoclinic.elsevierpure.com/en/publications/de-novo-and-inherited-monoallelic-variants-in-tuba4a-cause-ataxia",
+      "title": "De novo and inherited monoallelic variants in TUBA4A ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mayoclinic.elsevierpure.com/en/publications/de-novo-and-inherited-monoallelic-variants-in-tuba4a-cause-ataxia",
+      "abstract_chars": 1398
+    }
+  ],
+  "input_tokens": 6457,
+  "output_tokens": 3358,
+  "usd": 0.0133,
+  "seconds": 20.3,
+  "ok": true
+}

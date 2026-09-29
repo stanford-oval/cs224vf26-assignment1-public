@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"MSL2\" \"Karayol\" \"ocular\" \"strabismus\"",
+    "Karayol MSL2 syndrome vision strabismus refractive error frequency"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+      "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+      "abstract_chars": 1842
+    },
+    {
+      "id": "26392796",
+      "title": "A clinic-based study of refractive errors, strabismus, and ...",
+      "pmid": "26392796",
+      "doi": "10.4103/2230-8229.163031",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4558737/",
+      "abstract_chars": 1324
+    },
+    {
+      "id": "12601024",
+      "title": "Development of Refractive Error and Strabismus in Children ...",
+      "pmid": "12601024",
+      "doi": "10.1167/iovs.01-0131",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2123668",
+      "abstract_chars": 1496
+    },
+    {
+      "id": "11501216",
+      "title": "Refractive errors and visual anomalies in Down syndrome",
+      "pmid": "11501216",
+      "doi": "10.3104/reports.105",
+      "url": "https://www.down-syndrome.org/en-us/library/research-practice/06/3/refractive-errors-visual-anomalies-down-syndrome/",
+      "abstract_chars": 988
+    },
+    {
+      "id": "39712325",
+      "title": "The Prevalence and Association of Refractive Errors in ...",
+      "pmid": "39712325",
+      "doi": "10.1002/hsr2.70296",
+      "url": "https://ssrpublisher.com/the-prevalence-and-association-of-refractive-errors-in-pediatric-strabismus-a-prospective-observational-study/",
+      "abstract_chars": 2222
+    },
+    {
+      "id": "https://www.academia.edu/85188652/Pattern_of_Refractive_Errors_and_Strabismus_in_Children",
+      "title": "(PDF) Pattern of Refractive Errors and Strabismus in Children",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.academia.edu/85188652/Pattern_of_Refractive_Errors_and_Strabismus_in_Children",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5019,
+  "output_tokens": 3440,
+  "usd": 0.01283,
+  "seconds": 22.8,
+  "ok": true
+}

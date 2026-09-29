@@ -1,0 +1,63 @@
+{
+  "patterns": [
+    {
+      "pattern": "Convergence of truncating and missense variants onto uniform phenotypic severity without linear allelic dosage gradients",
+      "abstraction": "In monogenic epigenetic neurodevelopmental disorders, diverse variant classes (protein-truncating vs domain-specific missense) converge onto an identical phenotypic threshold via haploinsufficiency, preventing severity stratification by variant type.",
+      "instance": "Individuals with MSL2 protein-truncating variants exhibit global developmental delay, hypotonia, and dysmorphisms of comparable severity to missense variants, with neither seizure penetrance nor severe motor coordination impairment enriched in truncating carriers.",
+      "direction": "Investigate whether missense variants destabilize MSL complex assembly or mimic null alleles through accelerated proteasomal degradation rather than exerting dominant-negative effects.",
+      "support": "Strong; multiple independent cohort analyses (Karayol et al., 2024; Lu et al., 2024; Torene et al., 2024) demonstrate indistinguishable phenotypic expression between missense and loss-of-function variants across 25 probands.",
+      "sources": [
+        "R Karayol et al. (2024) MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature 10.1016/j.ajhg.2024.05.004",
+        "X Lu et al. (2024) Novel protein-truncating variants of a chromatin-modifying gene MSL2 in syndromic neurodevelopmental disorders 10.1038/s41431-024-01576-0",
+        "RI Torene et al. (2024) Systematic analysis of variants escaping nonsense-mediated decay uncovers candidate Mendelian diseases https://www.cell.com/ajhg/fulltext/S0002-9297(23)00402-0",
+        "O Zgheib et al. (2026) Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication 10.1111/cge.70071"
+      ],
+      "hypothesis": "MSL2 missense variants cause loss of interaction with MSL complex components or destabilize the RING/CXC domains, resulting in steady-state protein levels equivalent to heterozygous gene knockout.",
+      "novelty": "High; challenges the assumption that missense mutations in multi-domain epigenetic factors produce milder or distinct clinical phenotypes compared to whole-gene loss-of-function variants."
+    },
+    {
+      "pattern": "Disconnection between global enzymatic chromatin marks and high-dimensional DNA methylation signatures across complex-sharing subunits",
+      "abstraction": "Disruption of individual components within a shared multi-protein chromatin-modifying machinery can leave the primary bulk enzymatic modification unaltered while generating a discrete, highly specific downstream methylome signature.",
+      "instance": "Pathogenic MSL2 variants preserve normal bulk H4K16ac histone acetylation levels\u2014unlike MSL3- or KAT8-associated syndromes where H4K16ac is globally reduced\u2014yet MSL2 produces a diagnostic peripheral blood DNA methylation episignature separating it completely (MVP score near 1.0) from other MSL complex disorders.",
+      "direction": "Map the specific locus-dependent histone modification and chromatin-accessibility alterations that bridge normal global H4K16ac to genome-wide DNA hyper- and hypomethylation patterns in MSL2 deficiency.",
+      "support": "Strong; validated across patient-derived cellular lines, biochemical assays, and peripheral blood DNA methylation classifiers in Karayol et al. (2024) and comparative cohorts.",
+      "sources": [
+        "R Karayol et al. (2024) MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature PMID:38815585",
+        "R Karayol et al. (2024) MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature 10.1016/j.ajhg.2024.05.001",
+        "V Kulkarni et al. (2024) Basilicata-Akhtar Syndrome: Unraveling an Ultrarare Cause of Developmental Delay https://www.cureus.com/articles/278290-basilicata-akhtar-syndrome-unraveling-an-ultrarare-cause-of-developmental-delay.pdf",
+        "SY Dagan et al. (2025) Homozygous Deletion of the Epigenetic Regulator PHF20 in Individuals With Neurodevelopmental Disorder 10.1155/humu/6484814"
+      ],
+      "hypothesis": "MSL2 regulates target gene transcription via ubiquitination of histone H2B (H2BK34ub) or localized recruitment rather than global H4K16 acetylation catalysis, driving a distinct DNA methylome signature without lowering total cellular H4K16ac.",
+      "novelty": "High; demonstrates that lack of alterations in the complex's canonical catalytic output does not rule out chromatinopathy pathogenicity, positioning episignatures above bulk biochemical assays for definitive diagnostic classification."
+    },
+    {
+      "pattern": "Selective vulnerability of neural connectivity and motor coordination relative to structural morphogenetic organogenesis",
+      "abstraction": "Broadly expressed epigenetic regulators can be dispensable for gross embryologic organ formation while being critical for post-mitotic neurodevelopmental circuit maintenance, feeding regulation, and motor coordination.",
+      "instance": "Probands with MSL2 mutations have a very low penetrance (<20%) of congenital heart or kidney anomalies, contrasting with high penetrance (>60-100%) of global developmental delay, truncal hypotonia, feeding difficulties, and gait coordination ataxia.",
+      "direction": "Perform cell-type-specific chromatin and transcriptomic profiling in cerebellar and striatal neuronal lineages versus cardiac/renal mesenchyme during early development.",
+      "support": "Moderate-to-high; demonstrated across the 25-individual discovery cohort and functional mouse models reported by Karayol et al. (2024) and Luo et al. (2026).",
+      "sources": [
+        "R Karayol et al. (2024) MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature PMC11267526",
+        "S Luo et al. (2026) MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation 10.1007/s00018-026-06237-7",
+        "OMIM (n.d.) Entry - #620985 - KARAYOL-BORROTO-HAGHSHENAS NEURODEVELOPMENTAL SYNDROME; KBHNDS https://omim.org/entry/620985"
+      ],
+      "hypothesis": "MSL2-mediated epigenetic control regulates critical synaptic maturation and axonal pathfinding gene programs that are hypersensitive to dosage, whereas general organogenesis pathways utilize redundant epigenetic compensations.",
+      "novelty": "Moderate; refutes the expectation that central chromatin regulators uniformly disrupt early structural morphogenetic organogenesis."
+    },
+    {
+      "pattern": "Distinctive neuropsychiatric and neuromotor profile divergence among homologous chromatinopathy pathway members",
+      "abstraction": "Syndromes arising from the same epigenetic pathway or molecular complex diverge phenotypically through specific behavioral and qualitative motor modalities rather than generalized developmental delay.",
+      "instance": "Within the MSL complex disorders, MSL2 syndrome is clinically differentiated from MSL3 (Basilicata-Akhtar syndrome) and KAT8-related syndromes by a markedly high rate of autism spectrum disorder behaviors (~64%) and prominent gait/coordination ataxia rather than early intractable epilepsy or severe spasticity.",
+      "direction": "Conduct systematic, standardized neurobehavioral and motion-tracking comparisons between MSL2-, MSL3-, and KAT8-deficient patient cohorts and animal models.",
+      "support": "Moderate-to-high; supported by comparative cohort phenotypic frequencies in Karayol et al. (2024), Luo et al. (2026), and recent Basilicata-Akhtar syndrome case series.",
+      "sources": [
+        "S Luo et al. (2026) MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation 10.1007/s00018-026-06237-7",
+        "R Karayol et al. (2024) MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature PMID:38815585",
+        "Y Qing et al. (2025) Two Chinese patients with Basilicata-Akhtar syndrome caused by novel MSL3 variants: a case report and literature review 10.21037/tp-2025-227",
+        "Z Wang et al. (2026) KAT8-mediated epigenetic modifications: Physiological functions, heterogeneity in disease, and advances in targeted development https://www.cell.com/iscience/fulltext/S2589-0042(26)02056-0"
+      ],
+      "hypothesis": "Subunit-specific interactions between MSL2 and neural-specific transcription factors selectively alter social-communication and cerebellar circuits independently of the KAT8/MSL3 catalytic core.",
+      "novelty": "High; provides a practical clinical framework for phenotypic distinction among clinically overlapping epigenetic chromatinopathies of the same complex."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"MAPK8IP3\" \"seizures\" OR \"epilepsy\" cohort phenotype",
+    "MAPK8IP3 neurodevelopmental disorder seizure frequency clinical cohort"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1059131125002183",
+      "title": "ADAM23 haploinsufficiency as a putative oligogenic contributor in an individual with focal epilepsy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1059131125002183",
+      "abstract_chars": 1499
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "abstract_chars": 1362
+    },
+    {
+      "id": "39031459",
+      "title": "Utility of genome sequencing in exome\u2010negative pediatric patients with neurodevelopmental phenotypes",
+      "pmid": "39031459",
+      "doi": "10.1002/ajmg.a.63817",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63817",
+      "abstract_chars": 1390
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+      "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+      "abstract_chars": 2022
+    },
+    {
+      "id": "10.64898/2026.07.20.739682.abstract",
+      "title": "Pathogenic MAPK8IP3 variants drive distinct motor and behavioral phenotypes in humans and mice",
+      "pmid": null,
+      "doi": "10.64898/2026.07.20.739682.abstract",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.07.20.739682.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC6369540",
+      "title": "De Novo Variants in MAPK8IP3 Cause Intellectual Disability ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6369540/",
+      "abstract_chars": 1362
+    },
+    {
+      "id": "10.3389/fneur.2023.1218706/full",
+      "title": "Epilepsy phenotype and gene ontology analysis of the 129 ...",
+      "pmid": null,
+      "doi": "10.3389/fneur.2023.1218706/full",
+      "url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2023.1218706/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/618443",
+      "title": "Entry - #618443 - NEURODEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/618443",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://cegat.com/de-novo-variants-in-mapk8ip3-cause-intellectual-disability-with-variable-brain-anomalies/",
+      "title": "De Novo Variants in MAPK8IP3 Cause Intellectual ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://cegat.com/de-novo-variants-in-mapk8ip3-cause-intellectual-disability-with-variable-brain-anomalies/",
+      "abstract_chars": 1362
+    },
+    {
+      "id": "10.21203/rs.3.rs-9983885/v1",
+      "title": "\u2026\u00a0Landscape and Diagnostic Yield of Chromosomal Microarray Analysis in 471 Turkish Children with Neurodevelopmental Disorders and Congenital Anomalies",
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-9983885/v1",
+      "url": "https://assets-eu.researchsquare.com/files/rs-9983885/v1/cf9a57c0-c8a9-4c1d-a915-9030567b759f.pdf",
+      "abstract_chars": 2372
+    }
+  ],
+  "input_tokens": 6466,
+  "output_tokens": 4344,
+  "usd": 0.01627,
+  "seconds": 22.4,
+  "ok": true
+}

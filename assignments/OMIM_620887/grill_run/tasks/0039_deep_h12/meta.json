@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FDXR\" \"neuropathy\" \"Guillain-Barre\" OR \"CIDP\"",
+    "FDXR deficiency acute peripheral neuropathy Guillain Barre mimic presentation"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://jov.arvojournals.org/article.aspx?articleid=2772552",
+      "title": "Expanding the FDXR-associated disease phenotype: retinal dystrophy is a recurrent ocular feature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jov.arvojournals.org/article.aspx?articleid=2772552",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s10072-023-06790-0",
+      "title": "FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy",
+      "pmid": null,
+      "doi": "10.1007/s10072-023-06790-0",
+      "url": "https://link.springer.com/article/10.1007/s10072-023-06790-0",
+      "abstract_chars": 1419
+    },
+    {
+      "id": "PMC11377048",
+      "title": "The evolving spectrum of complex inherited neuropathies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11377048/",
+      "abstract_chars": 1070
+    },
+    {
+      "id": "34506042",
+      "title": "Pain in acute motor axonal neuropathy",
+      "pmid": "34506042",
+      "doi": "10.1002/mus.27414",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mus.27414",
+      "abstract_chars": 1237
+    },
+    {
+      "id": "https://www.patentsencyclopedia.com/app/20150079046",
+      "title": "Patent application title: STEM CELL MICROPARTICLES Inventors: John Sinden (Guildford, GB) Lara Stevanato (Guildford, GB) Randolph Corteling (Guildford\u00a0\u2026",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.patentsencyclopedia.com/app/20150079046",
+      "abstract_chars": 0
+    },
+    {
+      "id": "33386210",
+      "title": "Genetic neuropathies presenting with CIDP-like features in ...",
+      "pmid": "33386210",
+      "doi": "10.1016/j.nmd.2020.11.013",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0960896620306787",
+      "abstract_chars": 1483
+    },
+    {
+      "id": "PMC10096094",
+      "title": "FDXR-associated disease: a challenging differential diagnosis ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10096094/",
+      "abstract_chars": 1419
+    },
+    {
+      "id": "https://www.researchgate.net/publication/369988106_FDXR-associated_disease_a_challenging_differential_diagnosis_with_inflammatory_peripheral_neuropathy",
+      "title": "(PDF) FDXR-associated disease: a challenging differential ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/369988106_FDXR-associated_disease_a_challenging_differential_diagnosis_with_inflammatory_peripheral_neuropathy",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.semanticscholar.org/paper/FDXR-associated-disease%3A-a-challenging-differential-Masnada-Previtali/0f1e1e89782ae324c48da44b52d62069c67a40ee",
+      "title": "FDXR-associated disease: a challenging differential diagnosis ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/FDXR-associated-disease%3A-a-challenging-differential-Masnada-Previtali/0f1e1e89782ae324c48da44b52d62069c67a40ee",
+      "abstract_chars": 1419
+    },
+    {
+      "id": "33938912",
+      "title": "Expanding the FDXR-Associated Disease Phenotype - IOVS",
+      "pmid": "33938912",
+      "doi": "10.1167/iovs.62.6.2",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2772552",
+      "abstract_chars": 1559
+    }
+  ],
+  "input_tokens": 6273,
+  "output_tokens": 2659,
+  "usd": 0.01111,
+  "seconds": 18.2,
+  "ok": true
+}

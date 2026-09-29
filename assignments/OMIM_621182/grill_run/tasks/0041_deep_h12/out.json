@@ -1,0 +1,85 @@
+{
+  "verdict": "supported",
+  "rationale": "OMIM entry #621182 (Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities; also referenced as Umair-Alfadhel Neurodevelopmental Disorder) is officially classified as an autosomal recessive condition. Literature characterizing this entity, including the index reports by Umair and colleagues documenting homozygous/biallelic NAV3 variants (e.g., c.3430T>C, p.Ser1144Pro) in consanguineous pedigrees and associated functional assays, demonstrates an autosomal recessive (AR) mode of inheritance rather than an exclusively de novo autosomal dominant etiology.",
+  "evidence": [
+    {
+      "text": "Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (NEDSFB; OMIM #621182) is documented as an autosomal recessive disorder caused by biallelic NAV3 variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #621182 - NEURODEVELOPMENTAL DISORDER WITH POOR OR ABSENT SPEECH, DYSMORPHIC FACIES, AND BEHAVIORAL ABNORMALITIES; NEDSFB",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621182",
+        "quote": "Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (NEDSFB) is an autosomal recessive disorder ..."
+      },
+      "numbers": [
+        {
+          "metric": "OMIM phenotypic series entry",
+          "value": 621182
+        }
+      ]
+    },
+    {
+      "text": "Whole-genome sequencing in an autosomal recessive neurodevelopmental disorder family identified a novel biallelic homozygous missense variant in NAV3 (c.3430T>C; p.Ser1144Pro) causing structural alterations and phenotypic manifestations linked to OMIM #621182.",
+      "stance": "supports",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": "Current Medicinal Chemistry",
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": "40734429",
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "A novel biallelic missense variant in the NAV3 (c.3430T>C; p.Ser1144Pro) was detected using WGS and Sanger sequencing... This study reports a novel NAV3 variant in association with autosomal recessive NDD, and contributes to the growing evidence that NAV3 plays a crucial role in human neurodevelopment."
+      },
+      "numbers": [
+        {
+          "metric": "Homozygous variant cDNA position",
+          "value": "c.3430T>C"
+        }
+      ]
+    },
+    {
+      "text": "Characterization of variants in NAV3 establishing Umair-Alfadhel Neurodevelopmental Disorder (OMIM: 621182) confirmed autosomal recessive inheritance with features including intellectual disability, developmental delay, speech impairment, dysmorphism, and microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/382081247_Variants_of_NAV3_a_neuronal_morphogenesis_protein_cause_intellectual_disability_developmental_delay_and_microcephaly",
+        "quote": "Umair-Alfadhel Neurodevelopmental Disorder (OMIM: 621182), as demonstrated ... autosomal recessive NDD. Patients have symptoms of dysmorphism ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.98,
+  "new_directions": [
+    {
+      "question_text": "Could heterozygous loss-of-function or dominant-negative NAV3 variants cause a distinct, milder dominant neurodevelopmental phenotype that has been masked by incomplete penetrance?",
+      "rationale": "Many neurodevelopmental genes originally identified in consanguineous homozygous cohorts (recessive) later demonstrate distinct dominant de novo phenotypes, such as haploinsufficiency or dominant-negative effects.",
+      "promise": 0.75,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the complete mutational and phenotypic spectrum of NAV3-associated neurodevelopmental disorder across international non-consanguineous cohorts?",
+      "rationale": "Existing literature is predominantly focused on homozygous missense and truncating variants from consanguineous families; identifying compound heterozygous individuals will help delineate whether specific functional domains dictate the severity of microcephaly, speech absence, or structural brain anomalies.",
+      "promise": 0.85,
+      "est_cost": 40000
+    }
+  ]
+}

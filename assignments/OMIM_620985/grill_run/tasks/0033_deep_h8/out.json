@@ -1,0 +1,101 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Recent prenatal case reports demonstrate that structural fetal anomalies\u2014specifically bilateral ventriculomegaly, thickened nuchal translucency, and cystic hygroma/lymphangioma\u2014do occur in fetuses with de novo MSL2 variants (Zgheib et al., 2026; Xiang et al., 2026). However, the assertion that these anomalies define an established 10\u201320% subgroup or can serve as a discriminating diagnostic marker for MSL2-related neurodevelopmental syndrome is challenged by the literature. In the definitive initial cohort of 25 individuals characterized by Karayol et al. (2024), the syndrome was defined predominantly by postnatal neurodevelopmental findings (global developmental delay, hypotonia, motor and coordination defects, specific dysmorphisms, and an episignature), and Zgheib et al. explicitly reported their patient as the very first identified prenatal case of MSL2-related pathology. Furthermore, ventriculomegaly, thickened nuchal translucency, and lymphangioma are highly non-specific sonographic findings shared by numerous chromosomal, RASopathy, and epigenetic neurodevelopmental disorders, precluding them from serving as distinct clinical markers without molecular confirmation.",
+  "evidence": [
+    {
+      "text": "The discovery study defined MSL2-related neurodevelopmental disorder across 25 individuals, identifying core manifestations of global developmental delay, intellectual disability, hypotonia, coordination problems, feeding difficulties, dysmorphisms, and a specific DNA methylation episignature, without establishing penetrant prenatal ultrasound anomalies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Reported the first prenatal case of an MSL2-related pathology, involving a de novo splice variant (c.142+1G>T) in a fetus presenting with bilateral moderate ventriculomegaly alongside a paternally inherited 15q13 microduplication.",
+      "stance": "supports",
+      "source": {
+        "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+        "authors": [
+          "O Zgheib",
+          "T Rio Frio",
+          "JM Pellegrinelli",
+          "S Gimelli"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+        "quote": "We report the first prenatal case of an MSL2-related pathology caused by a de novo MSL2 splice variant (c.142+1G>T). RNA study on amniotic fluid cells showed an intronic inclusion and frameshift, consistent with loss-of-function intolerance. The fetus, who presented with bilateral moderate ventriculomegaly, also carried a paternally inherited 15q13 microduplication."
+      },
+      "numbers": [
+        {
+          "metric": "prenatal_cases_reported",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Identified prenatal ultrasound findings including thickened nuchal translucency, lymphangioma, and ventriculomegaly in patients harboring de novo MSL2 variants, expanding the recognized prenatal phenotype.",
+      "stance": "supports",
+      "source": {
+        "title": "Thickened Nuchal Translucency, Lymphangioma, and Ventriculomegaly: Prenatal Phenotypes for MSL2\u2010Related Disorders",
+        "authors": [
+          "Q Xiang",
+          "J Wang",
+          "M Yang"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13446537",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13446537/",
+        "quote": "Additionally, it identified this variant as de novo in four patients diagnosed with MSL2\u2010associated neurodevelopmental"
+      },
+      "numbers": [
+        {
+          "metric": "de_novo_patients_identified",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Zgheib et al. (2026) emphasize that prenatal presentation of MSL2-related pathology had not been characterized until their report, conflicting with the assertion that a clear 10-20% penetrant subgroup has been systematically quantified.",
+    "Sonographic findings such as ventriculomegaly, increased nuchal translucency, and cystic hygroma/lymphangioma are common, non-specific fetal presentations across hundreds of genetic conditions, conflicting with the claim that they can serve as distinguishing phenotypic markers for MSL2 prior to molecular testing."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence of fetal ultrasound anomalies (ventriculomegaly, increased nuchal translucency, lymphatic dysplasia) in unselected cohorts undergoing prenatal trio exome/genome sequencing?",
+      "rationale": "Current prenatal data for MSL2 derive from isolated case reports; systematically querying large prospective prenatal exome sequencing cohorts will establish accurate penetrance and clinical utility.",
+      "promise": 0.85,
+      "est_cost": 35000.0
+    },
+    {
+      "question_text": "Can amniotic fluid cell DNA methylation profiling differentiate MSL2-related ventriculomegaly from other genetic causes of fetal ventriculomegaly?",
+      "rationale": "Given that Karayol et al. demonstrated a specific peripheral blood episignature for MSL2 variants, testing whether this episignature is detectable prenatally in amniocytes could resolve ambiguous ultrasound presentations.",
+      "promise": 0.8,
+      "est_cost": 25000.0
+    }
+  ]
+}

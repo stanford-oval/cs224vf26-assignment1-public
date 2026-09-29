@@ -1,0 +1,102 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature on Ramond-Elliott neurodevelopmental syndrome (OMIM #621421, caused by monoallelic 5' clustering variants in TRA2B) demonstrates that infantile spasms and early feeding difficulties frequently occur alongside secondary/progressive microcephaly, global developmental delay, and structural brain anomalies. While this combination clearly delineates the disorder from non-syndromic/isolated primary autosomal recessive microcephalies (which lack hypsarrhythmia, infantile spasms, and early epileptic encephalopathy), infantile spasms and feeding difficulties represent a shared common final pathway seen across many genetic developmental and epileptic encephalopathies (DEEs) and syndromic microcephalies (e.g., STXBP1, ARX, CDKL5). Consequently, the dyad of infantile spasms and feeding difficulties cannot reliably single out TRA2B variants among the broad group of microcephalic DEEs without comprehensive genomic sequencing or secondary discriminating findings.",
+  "evidence": [
+    {
+      "text": "In a defining cohort of 12 individuals from 11 unrelated families with monoallelic TRA2B variants, all affected individuals presented with developmental delay or intellectual disability, frequently associated with infantile spasms, microcephaly, feeding difficulties, brain anomalies, and short stature.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://portal.findresearcher.sdu.dk/en/publications/clustered-variants-in-the-5-coding-region-of-tra2b-cause-a-distin/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 12
+        },
+        {
+          "metric": "unrelated_families",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Ramond-Elliott neurodevelopmental syndrome features infantile spasms as a hallmark manifestation, alongside more variable features including feeding difficulties, poor overall growth, and brain atrophy, differentiating it from uncomplicated developmental phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "More variable features include poor overall growth, dysmorphic facial features, feeding difficulties, and brain atrophy on neuroimaging."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Expert curation for severe microcephaly and epilepsy panels indicates infantile spasms were documented in 6 evaluated individuals alongside unclassified epileptic encephalopathy in Ramond-Elliott syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: TRA2B (Severe microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/162/gene/TRA2B/",
+        "quote": "infantile spasms in 6 and unclassified epileptic encephalopathy ... microcephaly, MONDO:0001149 to Ramond-Elliott neurodevelopmental syndrome, OMIM:621421."
+      },
+      "numbers": [
+        {
+          "metric": "infantile_spasms_cases",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "text": "Infantile spasms syndrome represents an epileptic encephalopathy characterized by clinical epileptic spasms, hypsarrhythmia, developmental regression, and systemic/developmental findings such as feeding impairment and progressive microcephaly across diverse genetic etiologies, demonstrating low etiologic specificity.",
+      "stance": "supports",
+      "source": {
+        "title": "Infantile Spasms Syndrome (West Syndrome)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1016/j.braindev.2013.10.008",
+        "pmid": "24268986",
+        "pmc": null,
+        "url": "https://www.chop.edu/conditions-diseases/infantile-spasms-syndrome-west-syndrome",
+        "quote": "Infantile spasms syndrome is considered an epileptic encephalopathy, conditions in which children have both seizures and cognitive and developmental impairments"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Does the presence of structural corpus callosum hypoplasia or specific facial dysmorphisms provide higher discriminative specificity for TRA2B compared to other DEE genes like STXBP1 and CDKL5?",
+      "rationale": "Because epileptic spasms and early feeding difficulties are broadly shared among DEEs, deep phenotyping of brain MRI abnormalities and dysmorphic features could identify phenotypic clusters unique to TRA2B.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What proportion of TRA2B-related Ramond-Elliott patients fail to develop infantile spasms, presenting instead with milder intellectual disability and autism spectrum disorder?",
+      "rationale": "Clarifying the penetrance of infantile spasms across a broader international cohort of TRA2B variant carriers will define whether spasms are an obligatory diagnostic clue or restricted to specific truncating/dominant-negative mutations in the 5' region.",
+      "promise": 0.8,
+      "est_cost": 35000.0
+    }
+  ]
+}

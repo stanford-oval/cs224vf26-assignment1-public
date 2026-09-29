@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"nonsense-mediated mRNA decay\" \"heterotaxy\"",
+    "SMAD2 Loeys-Dietz syndrome 6 genotype phenotype heterotaxy aortopathy NMD"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/humu.23627",
+      "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+      "pmid": null,
+      "doi": "10.1002/humu.23627",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23627",
+      "abstract_chars": 1297
+    },
+    {
+      "id": "17517692",
+      "title": "Left-sided embryonic expression of the BCL-6 corepressor, BCOR, is required for vertebrate laterality determination",
+      "pmid": "17517692",
+      "doi": "10.1093/hmg/ddm125",
+      "url": "https://academic.oup.com/hmg/article-abstract/16/14/1773/2356193",
+      "abstract_chars": 1388
+    },
+    {
+      "id": "38884729",
+      "title": "Human genetics of ventricular septal defect",
+      "pmid": "38884729",
+      "doi": "10.1007/978-3-031-44087-8_27",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-44087-8_27",
+      "abstract_chars": 1310
+    },
+    {
+      "id": "32660784",
+      "title": "The consequences of abnormal gene dosage: lessons from chromosome 18",
+      "pmid": "32660784",
+      "doi": "10.1016/j.tig.2020.06.006",
+      "url": "https://www.cell.com/trends/genetics/abstract/S0168-9525(20)30152-9",
+      "abstract_chars": 759
+    },
+    {
+      "id": "37673932",
+      "title": "Clinical exome sequencing efficacy and phenotypic expansions involving anomalous pulmonary venous return",
+      "pmid": "37673932",
+      "doi": "10.1038/s41431-023-01451-4",
+      "url": "https://www.nature.com/articles/s41431-023-01451-4",
+      "abstract_chars": 1589
+    },
+    {
+      "id": "17517692",
+      "title": "Left-sided embryonic expression of the BCL-6...",
+      "pmid": "17517692",
+      "doi": "10.1093/hmg/ddm125",
+      "url": "https://www.ovid.com/00008563-200707150-00012",
+      "abstract_chars": 1388
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/10/10/764",
+      "title": "Genotypic categorization of Loeys-Dietz syndrome based on 24 novel families and literature data",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/10/10/764",
+      "abstract_chars": 1515
+    },
+    {
+      "id": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/9781119432692.ch36",
+      "title": "Loeys\u2013dietz syndrome",
+      "pmid": null,
+      "doi": "10.1002/9781119432692.ch36",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://tesidottorato.depositolegale.it/handle/20.500.14242/363459",
+      "title": "Molecular characterisation of heritable thoracic aortic diseases at the Tuscany referral centre for Marfan syndrome and related disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://tesidottorato.depositolegale.it/handle/20.500.14242/363459",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5958,
+  "output_tokens": 3035,
+  "usd": 0.01208,
+  "seconds": 19.9,
+  "ok": true
+}

@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across published cohorts demonstrates that the phenotypic spectrum of biallelic NFU1 variants ranges from classical multiple mitochondrial dysfunctions syndrome 1 (MMDS1; OMIM #605711) to autosomal recessive spastic paraplegia 93 (SPG93; OMIM #620938). Classical MMDS1 is characterized by severe early-infantile pulmonary arterial hypertension (PAH), intractable lactic acidosis, neurological regression, and early lethality (typically within the first 1-2 years of life). In contrast, patients classified with the SPG93 phenotype (such as reported by Tonduti et al. 2015 and Uzunhan et al. 2020) present with childhood-to-adult-onset slowly progressive or relapsing-remitting spastic paraparesis/diplegia, leukoencephalopathy, mixed sensorimotor neuropathy, and long-term survival into adulthood without infantile-onset pulmonary arterial hypertension or intractable metabolic decompensation. Therefore, the absence of severe infantile PAH and refractory lactic acidosis reliably differentiates SPG93 from classical MMDS1.",
+  "evidence": [
+    {
+      "text": "SPG93 represents a milder, later-onset presentation of NFU1 deficiency characterized by slowly progressive spastic paraparesis, relapsing-remitting episodes, mild cognitive impairment, leukoencephalopathy, and prolonged survival, presenting without the severe infantile pulmonary arterial hypertension characteristic of early-onset NFU1 encephalopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+        "authors": [
+          "D Tonduti",
+          "I Dorboz",
+          "A Imbard",
+          "A Slama"
+        ],
+        "year": 2015,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": "10.1186/s13023-015-0237-6",
+        "pmid": "25918518",
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+        "quote": "Our case clearly suggests the importance of considering NFU1 mutation not only in early onset leukoencephalopathy or in presence of a severe pulmonary hypertension but also in a slowly evolving leukoencephalopathy with high glycine concentration."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in report",
+          "value": 1
+        },
+        {
+          "metric": "survival into adulthood (decades)",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "A 27-month-old girl with homozygous NFU1 c.565G>A (p.Gly189Arg) presented with a spastic paraparesis phenotype mimicking cerebral palsy with relapsing-remitting course and cavitating leukoencephalopathy, surviving infancy without classical MMDS1 pulmonary hypertension, whereas her sibling with classical presentation died at 16 months.",
+      "stance": "supports",
+      "source": {
+        "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+        "authors": [
+          "TA Uzunhan",
+          "NE \u00c7akar",
+          "S Seyhan",
+          "K Aydin"
+        ],
+        "year": 2020,
+        "journal": "Brain and Development",
+        "doi": "10.1016/j.braindev.2020.06.012",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+        "quote": "Key phenotypic features of NFU1 mutations are failure to thrive, pulmonary hypertension, infantile encephalopathy, and neurological regression... Presenting with spasticity as a rare phenotype, NFU1 mutations could be considered a genetic mimic of cerebral palsy."
+      },
+      "numbers": [
+        {
+          "metric": "age of patient with spastic paraparesis presentation in months",
+          "value": 27
+        },
+        {
+          "metric": "age of sibling mortality with severe phenotype in months",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "text": "Review of the NFU1 disease spectrum delineates classical MMDS1\u2014characterized by early infantile onset lactic acidosis, severe refractory pulmonary arterial hypertension, and early mortality\u2014from the milder allelic autosomal recessive hereditary spastic paraplegia phenotype.",
+      "stance": "supports",
+      "source": {
+        "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+        "authors": [
+          "CR DiFalco",
+          "A Williams",
+          "C Soler\u2010Alfonso"
+        ],
+        "year": 2026,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.70213",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+        "quote": "One unique feature of this mitochondrial disorder is the common manifestation of pulmonary arterial hypertension (PAH)... Identification of the clinical combination of lactic acidosis, PAH, and hyperglycinemia during diagnostic evaluation should raise suspicion for a defect of the ISC pathway"
+      },
+      "numbers": [
+        {
+          "metric": "cohort cases described",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Intrafamilial variability has been reported where identical homozygous or compound heterozygous NFU1 mutations cause classic lethal MMDS1 in one sibling and a protracted spastic diplegia/paraparesis phenotype in another, indicating non-Mendelian modifiers can soften the phenotype without altering the primary genotype."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What biochemical or genetic modifiers prevent the development of pulmonary arterial hypertension and fatal lactic acidosis in NFU1-mutated patients presenting with SPG93 versus MMDS1?",
+      "rationale": "Elucidating why individuals with hypomorphic or identical NFU1 variants avoid pulmonary vascular endothelial proliferation and fatal metabolic decompensation will guide therapeutic targeting of Fe-S cluster biogenesis and lipoic acid cofactor synthesis.",
+      "promise": 0.85,
+      "est_cost": 150000
+    }
+  ]
+}

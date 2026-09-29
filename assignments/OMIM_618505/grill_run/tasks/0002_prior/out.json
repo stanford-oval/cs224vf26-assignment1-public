@@ -1,0 +1,49 @@
+{
+  "knowledge": "Stolerman neurodevelopmental syndrome (OMIM #618505), also designated neurodevelopmental disorder with or without coarse facies, seizures, and abnormal gait (NEDCFSAG), is caused by heterozygous de novo or inherited pathogenic variants in KDM6B (encoding lysine-specific demethylase 6B, also known as JMJD3). The seminal characterization by Stolerman et al. (2019, PMID: 31201726) delineated a recurrent neurodevelopmental phenotype featuring developmental delay/intellectual disability, language delay, behavioral problems (ADHD, ASD, aggression), hypotonia, feeding difficulties, subtle/variable dysmorphic facial features (such as broad forehead, hypertelorism, arched eyebrows, low-set or prominent ears, downslanting palpebral fissures, bulbous nasal tip), musculoskeletal features (joint hypermobility, scoliosis, gait abnormalities), and variable seizures or EEG abnormalities. Given the overlap with other epigenetic machinery/chromatin-remodeling syndromes (such as Kabuki syndrome from KMT2D/KDM6A, Bohring-Opitz syndrome from ASXL1, or Coffin-Siris syndrome from SWI/SNF complex genes), clinical diagnosis purely by gestalt is exceptionally challenging without molecular testing.",
+  "prior_hypothesis": "Identification of Stolerman neurodevelopmental syndrome based on phenotype alone is limited by broad phenotypic pleiotropy and non-specific dysmorphisms; however, a composite clinical triad of global developmental delay with disproportionate expressive speech delay, infantile/childhood hypotonia with unsteady/ataxic-like gait, and mild non-specific facial features (prominent forehead, deep-set/hyperteloric eyes, bulbous nose) coupled with normal growth parameters (or absence of profound microcephaly/cardiac defects that typify related chromatinopathies like Kabuki syndrome or Bohring-Opitz syndrome) provides the highest discriminatory index to prioritize KDM6B sequencing or prioritize KDM6B VUS interpretation.",
+  "candidate_answers": [
+    {
+      "answer": "In Stolerman et al. (2019, PMID: 31201726; cohort N=63 individuals with KDM6B variants), the most prevalent clinical phenotypes include: global developmental delay / intellectual disability (HP:0001263; 57/61, 93%), speech/language impairment (HP:0000750; 52/56, 93%), hypotonia (HP:0001252; 34/54, 63%), behavioral anomalies including ADHD/autism/aggression (HP:0000708; 32/52, 62%), abnormal gait / ataxia (HP:0001288; 26/45, 58%), and gastrointestinal/feeding difficulties (HP:0011968; 26/51, 51%). Dysmorphic facial features are noted in over 70% but lack a single pathognomonic sign, most often showing broad forehead (HP:0000337), hypertelorism (HP:0000316), and low-set ears (HP:0000369).",
+      "confidence": 0.85,
+      "aspect": "cohort_phenotype_frequencies"
+    },
+    {
+      "answer": "Discrimination from closely related epigenetic disorders: Unlike Kabuki syndrome (KDM6A/KMT2D), Stolerman syndrome lacks prominent eversion of the lateral third of the lower eyelid (HP:0000656), persistent fetal fingertip pads (HP:0001212), and frequent congenital heart defects. Unlike Bohring-Opitz syndrome (ASXL1), Stolerman syndrome lacks the characteristic 'BOS posture' (HP:0002138) and profound intrauterine growth restriction. Unlike Coffin-Siris syndrome (SMARCA4/ARID1B), hypoplasia or aplasia of the fifth digit nail/distal phalanx (HP:0001792) is absent.",
+      "confidence": 0.75,
+      "aspect": "discriminating_features"
+    },
+    {
+      "answer": "Features consistently absent or exceptionally rare that argue against Stolerman syndrome include: severe congenital limb reduction defects (HP:0009804), prominent lower eyelid eversion (HP:0000656), fifth digit aplasia/hypoplasia (HP:0001792), corneal clouding (HP:0007957), and profound prenatal microcephaly with intrauterine dwarfism.",
+      "confidence": 0.7,
+      "aspect": "negative_discriminators"
+    },
+    {
+      "answer": "Genotype-phenotype correlations: Truncating/loss-of-function variants (nonsense, frameshift) across the gene generally lead to a relatively consistent, moderate neurodevelopmental delay phenotype through haploinsufficiency, whereas missense variants clustering within or adjacent to the catalytic Jumonji C (JmjC) domain frequently present with more severe intellectual disability, higher penetrance of seizures (HP:0001250), and pronounced structural CNS or musculoskeletal anomalies.",
+      "confidence": 0.65,
+      "aspect": "genotype_phenotype_correlation"
+    }
+  ],
+  "key_terms": [
+    "Stolerman neurodevelopmental syndrome",
+    "KDM6B",
+    "JMJD3",
+    "NEDCFSAG",
+    "OMIM 618505",
+    "JmjC domain",
+    "Epigenetic machinery disorders",
+    "Developmental delay and intellectual disability",
+    "HP:0001263",
+    "HP:0000750"
+  ],
+  "open_questions": [
+    "What exact percentage of affected individuals harbor distinct electroencephalographic or neuroimaging (MRI) signatures (e.g., corpus callosum hypoplasia, ventriculomegaly)?",
+    "Are missense variants acting as dominant-negative or loss-of-function alleles, and do they produce statistically distinct phenotypic scores in validation cohorts published after 2019?",
+    "What is the prevalence of adult-onset neurological features, such as progressive movement disorders, spasticity, or psychiatric manifestations, given that most cohorts consist of pediatric probands?",
+    "Are there specific facial recognition algorithms (e.g., Face2Gene / GestaltMatcher) that achieve statistically significant accuracy in segregating KDM6B-associated facies from other chromatin remodeling disorders?"
+  ],
+  "assumptions": [
+    "Stolerman et al. (2019) represents the foundational primary cohort establishing the OMIM #618505 phenotype and accounts for the majority of systematically reported numerators and denominators.",
+    "Inheritance is autosomal dominant, primarily de novo, though rare familial transmissions with incomplete penetrance or variable expressivity exist.",
+    "The clinical presentation is sufficiently heterogeneous that absolute discrimination based on clinical gestalt alone is rare in medical genetics, necessitating molecular confirmation for definitive diagnosis."
+  ]
+}

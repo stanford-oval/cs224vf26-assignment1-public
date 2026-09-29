@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"HP:0001627\" \"congenital heart defect\" \"Human Phenotype Ontology\"",
+    "HP:0001627 congenital heart defect Human Phenotype Ontology term definition"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1515/medgen-2025-2008/html",
+      "title": "Current and future diagnostics of congenital heart disease (CHD)",
+      "pmid": null,
+      "doi": "10.1515/medgen-2025-2008/html",
+      "url": "https://www.degruyterbrill.com/document/doi/10.1515/medgen-2025-2008/html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39600096",
+      "title": "MGA-related syndrome: A proposed novel disorder",
+      "pmid": "39600096",
+      "doi": "10.1016/j.xhgg.2024.100387",
+      "url": "https://www.cell.com/hgg-advances/fulltext/S2666-2477(24)00127-1",
+      "abstract_chars": 1068
+    },
+    {
+      "id": "39138116",
+      "title": "Prenatal exome sequencing, a powerful tool for improving the description of prenatal features associated with genetic disorders",
+      "pmid": "39138116",
+      "doi": "10.1002/pd.6623",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.6623",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "32553838",
+      "title": "The impact of rapid exome sequencing on medical management of critically ill children",
+      "pmid": "32553838",
+      "doi": "10.1016/j.jpeds.2020.06.020",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022347620307216",
+      "abstract_chars": 1736
+    },
+    {
+      "id": "41139957",
+      "title": "Splicing and frameshift variants in QSER1 may be involved in developmental phenotypes",
+      "pmid": "41139957",
+      "doi": "10.1016/j.xhgg.2025.100539",
+      "url": "https://www.cell.com/hgg-advances/fulltext/S2666-2477(25)00142-3",
+      "abstract_chars": 1509
+    },
+    {
+      "id": "40207043",
+      "title": "Current and future diagnostics of congenital heart disease ...",
+      "pmid": "40207043",
+      "doi": "10.1515/medgen-2025-2008",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11976401/",
+      "abstract_chars": 1607
+    },
+    {
+      "id": "https://www.researchgate.net/publication/390586342_Current_and_future_diagnostics_of_congenital_heart_disease_CHD",
+      "title": "(PDF) Current and future diagnostics of congenital heart ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/390586342_Current_and_future_diagnostics_of_congenital_heart_disease_CHD",
+      "abstract_chars": 0
+    },
+    {
+      "id": "35026772",
+      "title": "High-risk phenotypes of genetic disease in a Neonatal Intensive Care Unit population",
+      "pmid": "35026772",
+      "doi": "10.1097/CM9.0000000000001959",
+      "url": "https://mednexus.org/doi/full/10.1097/CM9.0000000000001959",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://search.proquest.com/openview/369b17efd3f91728558354b66a78974e/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+      "title": "Analysis of Next Generation Sequencing Data in Two Complementary UK Populations with Congenital Heart Disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/369b17efd3f91728558354b66a78974e/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(25)00472-0",
+      "title": "GA4GH phenopacket-driven characterization of genotype-phenotype correlations in Mendelian disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(25)00472-0",
+      "abstract_chars": 1272
+    }
+  ],
+  "input_tokens": 4419,
+  "output_tokens": 1804,
+  "usd": 0.00762,
+  "seconds": 27.5,
+  "ok": true
+}

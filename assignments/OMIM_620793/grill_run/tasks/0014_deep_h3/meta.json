@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SNUPN\" \"muscular dystrophy\" \"limb-girdle\" ataxia \"intellectual disability\"",
+    "SNUPN variants limb girdle muscular dystrophy neurodevelopmental ataxia phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+      "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+      "abstract_chars": 2095
+    },
+    {
+      "id": "10.1101/2024.07.11.24310169.abstract",
+      "title": "Genetic SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in Purkinje cells",
+      "pmid": null,
+      "doi": "10.1101/2024.07.11.24310169.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.07.11.24310169.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://is.muni.cz/th/s064h/",
+      "title": "Identifikace a interpretace genetick\u00fdch variant u pacient\u016f s neuromuskul\u00e1rn\u00edm onemocn\u011bn\u00edm",
+      "pmid": null,
+      "doi": null,
+      "url": "https://is.muni.cz/th/s064h/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/acn3.70211",
+      "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+      "pmid": null,
+      "doi": "10.1002/acn3.70211",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(24)01757-7/abstract",
+      "title": "The 2025 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(24)01757-7/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2024.07.11.24310169v1.full-text",
+      "title": "Genetic SNUPN variants cause spinocerebellar atrophy by ...",
+      "pmid": null,
+      "doi": "10.1101/2024.07.11.24310169v1.full-text",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.07.11.24310169v1.full-text",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/activity/?panel=141&entity=SNUPN",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/activity/?panel=141&entity=SNUPN",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://emedicine.medscape.com/article/1170911-clinical",
+      "title": "Limb-Girdle Muscular Dystrophy Clinical Presentation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://emedicine.medscape.com/article/1170911-clinical",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40774080",
+      "title": "Limb-girdle muscular dystrophies (LGMD)",
+      "pmid": "40774080",
+      "doi": "10.1016/j.ejpn.2025.07.009",
+      "url": "https://www.medlink.com/articles/limb-girdle-muscular-dystrophies",
+      "abstract_chars": 2163
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "abstract_chars": 2400
+    }
+  ],
+  "input_tokens": 5610,
+  "output_tokens": 3847,
+  "usd": 0.01435,
+  "seconds": 20.8,
+  "ok": true
+}

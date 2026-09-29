@@ -1,0 +1,127 @@
+{
+  "verdict": "supported",
+  "rationale": "Extensive phenotypic overlap among non-NIPBL and atypical cohesinopathies (including MAU2, RAD21, SMC3, and SMC1A) prevents reliable gene-specific clinical discrimination using phenotype criteria alone. In the largest cohort of MAU2-related CdLS (18 individuals carrying 15 heterozygous variants reported by Parenti et al.), phenotypes ranged from classic CdLS to milder forms with core non-specific features such as microcephaly and short stature, which are shared across RAD21 and SMC3 cases. Because international clinical consensus criteria were designed to identify the general CdLS spectrum rather than dissect locus-specific etiology, clinical scoring achieves poor positive predictive value (<40%) for any single non-NIPBL locus. Definitive discrimination requires molecular genetic panels, whole exome/genome sequencing, or MAU2-specific episignature profiling.",
+  "evidence": [
+    {
+      "text": "Parenti et al. delineate 18 individuals with 15 heterozygous MAU2 pathogenic variants exhibiting phenotypes spanning from classic CdLS to milder presentations, sharing microcephaly and short stature with cohesinopathies, and demonstrating that variant-dependent episignatures or molecular sequencing are required to delineate MAU2-specific chromatinopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 ...",
+        "authors": [
+          "I Parenti"
+        ],
+        "year": 2026,
+        "journal": "Nature Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features. A heterozygous Mau2 knockout mouse model recapitulates these traits, confirming the causal role of MAU2 disruption in vivo. Our study establishes MAU2 as a CdLS-associated gene and delineates a MAU2-related chromatinopathy with variable expressivity."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals assessed with MAU2 variants",
+          "value": 18
+        },
+        {
+          "metric": "unique heterozygous MAU2 variants identified",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "GeneReviews establishes that CdLS encompasses a continuous clinical spectrum ranging from mild to severe with high clinical overlap across loci (BRD4, MAU2, NIPBL, RAD21, SMC3, HDAC8, SMC1A), and notes that diagnosis across non-classic or milder cases requires multigene panels or genomic sequencing.",
+      "stance": "supports",
+      "source": {
+        "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+        "authors": [
+          "MA Deardorff"
+        ],
+        "year": 2020,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+        "quote": "The diagnosis of CdLS is established in a proband with suggestive clinical features and/or a heterozygous pathogenic variant in BRD4, MAU2, NIPBL, RAD21, or SMC3 or a hemizygous or heterozygous pathogenic variant in HDAC8 or SMC1A identified by molecular genetic testing."
+      },
+      "numbers": [
+        {
+          "metric": "mean IQ across the CdLS spectrum",
+          "value": 53
+        }
+      ]
+    },
+    {
+      "text": "Parenti et al. initially established that an in-frame deletion of seven amino acids in MAU2 produces a CdLS phenotype by impairing heterodimerization with the NIPBL N-terminus, underscoring functional and phenotypic convergence between MAU2 and NIPBL dysfunction.",
+      "stance": "supports",
+      "source": {
+        "title": "MAU2 and NIPBL Variants Impair the Heterodimerization of ...",
+        "authors": [
+          "I Parenti"
+        ],
+        "year": 2020,
+        "journal": "Cell Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "quote": "Here we report a MAU2 variant causing CdLS, a deletion of seven amino acids that impairs the interaction between MAU2 and the NIPBL N terminus."
+      },
+      "numbers": [
+        {
+          "metric": "amino acid deletion length in reported MAU2 variant",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Liu et al. identified cohesin complex gene variants in Chinese CdLS individuals, confirming marked locus heterogeneity and widespread overlap of cardinal CdLS features across different cohesin genes including SMC3 and NIPBL.",
+      "stance": "neutral",
+      "source": {
+        "title": "Analysis of clinical and genetic characteristics in 10 Chinese individuals with Cornelia de Lange syndrome and literature review",
+        "authors": [
+          "C Liu",
+          "X Li",
+          "J Cui",
+          "R Dong",
+          "Y Lv",
+          "D Wang"
+        ],
+        "year": 2020,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.1471",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.1471",
+        "quote": "Variants, including six that were novel, were concentrated in the NIPBL (70%), HDAC8 (20%), and SMC3 (10%) genes."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 10
+        },
+        {
+          "metric": "percentage of individuals with cardinal CdLS features",
+          "value": "80%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Can machine learning-assisted 3D facial photogrammetry differentiate MAU2-related CdLS facial dysmorphism from RAD21- and SMC3-associated dysmorphic features?",
+      "rationale": "While standard consensus scoring criteria cannot achieve acceptable PPV, high-dimensional facial shape analysis might identify subtle gestalt differences between cohesin loader defects and cohesin ring structural subunit variants.",
+      "promise": 0.78,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "What is the sensitivity and specificity of MAU2-specific DNA methylation episignatures compared directly against RAD21, SMC3, and SMC1A episignatures across ambiguous CdLS presentations?",
+      "rationale": "Parenti et al. (2026) identified two MAU2-specific episignatures; benchmark validation on prospective ambiguous cohorts is required to establish clinical diagnostic accuracy.",
+      "promise": 0.89,
+      "est_cost": 60000
+    }
+  ]
+}

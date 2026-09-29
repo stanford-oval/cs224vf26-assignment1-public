@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"RAB3A\" \"SCA52\" spastic paraplegia ataxia",
+    "RAB3A SCA52 spastic paraplegia phenotype OMIM 621535"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "abstract_chars": 455
+    },
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621535",
+      "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=pnp",
+      "title": "KEGG Disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=pnp",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.omim.org/entry/179490?search=rab3a&highlight=rab3a",
+      "title": "Entry - *179490 - RAS-ASSOCIATED PROTEIN RAB3A",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.omim.org/entry/179490?search=rab3a&highlight=rab3a",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=otor",
+      "title": "Search Result",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=otor",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/182600",
+      "title": "SPASTIC PARAPLEGIA 3, AUTOSOMAL DOMINANT ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/182600",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/605280",
+      "title": "605280 - SPASTIC PARAPLEGIA 13, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/605280",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/607259",
+      "title": "Entry - #607259 - SPASTIC PARAPLEGIA 7, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/607259",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/600363",
+      "title": "SPASTIC PARAPLEGIA 6, AUTOSOMAL DOMINANT; SPG6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/600363",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3123,
+  "output_tokens": 1120,
+  "usd": 0.00492,
+  "seconds": 11.7,
+  "ok": true
+}

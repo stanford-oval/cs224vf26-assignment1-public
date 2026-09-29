@@ -1,0 +1,77 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive phenotypic profiling of the defining cohort of 45 individuals with bi-allelic pathogenic ACBD6 variants confirms that microcephaly is an inconsistent manifestation, presenting in only 39% of patients overall (and congenital microcephaly in 33%, 7/21). Consequently, normal head circumference is present in the majority (>60%) of affected individuals and does not exclude ACBD6-related neurodevelopmental disorder.",
+  "evidence": [
+    {
+      "text": "In an international cohort of 45 affected individuals harboring bi-allelic ACBD6 mutations, microcephaly was documented in only 39% of patients, whereas features like global developmental delay (100%), movement disorders (97%), facial dysmorphism (95%), and even overweight status (59%) were substantially more frequent.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%)."
+      },
+      "numbers": [
+        {
+          "metric": "microcephaly prevalence",
+          "value": "39%"
+        },
+        {
+          "metric": "total cohort size",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "text": "Detailed measurements across the cohort demonstrate that head circumference at birth was at or below the 3rd percentile in only 7 of 21 assessed patients (33%), confirming that congenital microcephaly is also present in only a minority of cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://openaccess.sgul.ac.uk/115881/1/awad380.pdf",
+        "quote": "Head circumference at birth was \u2264 3nd percentile in 7/21 (33%)."
+      },
+      "numbers": [
+        {
+          "metric": "congenital microcephaly count",
+          "value": "7/21"
+        },
+        {
+          "metric": "congenital microcephaly percentage",
+          "value": "33%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "Does the presence or absence of microcephaly in ACBD6 deficiency correlate with specific variant classes (e.g., complete loss-of-function versus hypomorphic missense variants) or brain malformation patterns?",
+      "rationale": "Determining genotype-phenotype correlations could explain why approximately 39% develop microcephaly while the remainder remain normocephalic.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Is microcephaly in ACBD6 deficiency progressive postnatally, and what are the longitudinal head circumference trajectory z-scores across childhood?",
+      "rationale": "Birth head circumference was <= 3rd percentile in 33% (7/21) while overall microcephaly was 39%, suggesting deceleration of head growth might occur in a subset of normocephalic neonates.",
+      "promise": 0.8,
+      "est_cost": 15000
+    }
+  ]
+}

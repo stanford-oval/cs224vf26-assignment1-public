@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"filamin C\" aggregation \"myopathy\" missense truncating",
+    "FILIP1 congenital neuromuscular disorder dysmorphic facies muscle biopsy filamin C"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1134/S0006297924090025",
+      "title": "Role of filamin C in muscle cells",
+      "pmid": null,
+      "doi": "10.1134/S0006297924090025",
+      "url": "https://link.springer.com/article/10.1134/S0006297924090025",
+      "abstract_chars": 1559
+    },
+    {
+      "id": "10.1007/s10741-021-10172-z",
+      "title": "Filamin C in cardiomyopathy: from physiological roles to DNA variants",
+      "pmid": null,
+      "doi": "10.1007/s10741-021-10172-z",
+      "url": "https://link.springer.com/article/10.1007/s10741-021-10172-z",
+      "abstract_chars": 1303
+    },
+    {
+      "id": "PMC12354002",
+      "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+      "abstract_chars": 1554
+    },
+    {
+      "id": "https://www.nature.com/articles/s41598-024-78953-8",
+      "title": "Protein phosphatase-1 regulates the binding of filamin C to FILIP1 in cultured skeletal muscle cells under mechanical stress",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41598-024-78953-8",
+      "abstract_chars": 1037
+    },
+    {
+      "id": "https://academic.oup.com/hmg/article-abstract/34/8/726/7996972",
+      "title": "Sudden cardiac death, arrhythmogenic cardiomyopathy and intercalated disc pathology due to reduced filamin C protein levels: a matter of life and death",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/hmg/article-abstract/34/8/726/7996972",
+      "abstract_chars": 0
+    },
+    {
+      "id": "34405687",
+      "title": "Filamin C cardiomyopathy variants cause protein and ... - PMC",
+      "pmid": "34405687",
+      "doi": "10.1161/circresaha.120.317076",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9053646/",
+      "abstract_chars": 19
+    },
+    {
+      "id": "10.1161/circresaha.120.317076",
+      "title": "Filamin C Cardiomyopathy Variants Cause Protein and ...",
+      "pmid": null,
+      "doi": "10.1161/circresaha.120.317076",
+      "url": "https://www.ahajournals.org/doi/10.1161/circresaha.120.317076?doi=10.1161/CIRCRESAHA.120.317076",
+      "abstract_chars": 19
+    },
+    {
+      "id": "23109048",
+      "title": "Filamin C-related myopathies: Pathology and mechanisms",
+      "pmid": "23109048",
+      "doi": "10.1007/s00401-012-1054-9",
+      "url": "https://www.researchgate.net/publication/232738860_Filamin_C-related_myopathies_Pathology_and_mechanisms",
+      "abstract_chars": 2063
+    },
+    {
+      "id": "https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000420213&type2=-26&id2=DOID:11720",
+      "title": "DISEASES - FLNB",
+      "pmid": null,
+      "doi": null,
+      "url": "https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000420213&type2=-26&id2=DOID:11720",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    }
+  ],
+  "input_tokens": 6143,
+  "output_tokens": 3531,
+  "usd": 0.01366,
+  "seconds": 21.2,
+  "ok": true
+}

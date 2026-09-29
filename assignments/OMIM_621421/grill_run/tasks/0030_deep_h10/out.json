@@ -1,0 +1,90 @@
+{
+  "verdict": "supported",
+  "rationale": "In the initial cohort defining Ramond-Elliott neurodevelopmental syndrome (Ramond et al., 2023, PMID 36549593), 12 individuals across 11 unrelated families with monoallelic 5' clustering TRA2B variants were evaluated. The clinical phenotype consists of intellectual disability/developmental delay (12/12, 100%), hypotonia, microcephaly, seizures/infantile spasms, brain anomalies, autism spectrum disorder, feeding difficulties, short stature, and variable facial dysmorphisms (such as a rectangular chin and open mouth with fleshy lower lip). Severe structural ocular malformations of the anterior/posterior segment or optic fissure closure defects\u2014such as uveal coloboma (HP:0000589) or microphthalmia (HP:0000568)\u2014were observed in 0 of 12 patients (0%). This absence contrasts sharply with conditions that share overlapping features (e.g., CHARGE syndrome or other spliceosome/chromatin disorders), where ocular coloboma and microphthalmia are cardinal diagnostic indicators. However, because the total published cohort currently comprises only 12 individuals, the 95% confidence upper bound for rare ocular defects remains approximately 25%.",
+  "evidence": [
+    {
+      "text": "Initial description and characterization of 12 patients from 11 families with monoallelic 5' TRA2B variants causing Ramond-Elliott neurodevelopmental syndrome identified core features including neurodevelopmental delay/intellectual disability, microcephaly, infantile spasms, and brain anomalies, with 0/12 patients presenting with structural ocular malformations such as coloboma or microphthalmia.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals_evaluated",
+          "value": 12
+        },
+        {
+          "metric": "intellectual_disability_or_developmental_delay_numerator",
+          "value": 12
+        },
+        {
+          "metric": "structural_ocular_malformations_coloboma_microphthalmia_numerator",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "Clinical synopsis and phenotypic entry for Ramond-Elliott neurodevelopmental syndrome documents global developmental delay, hypotonia, microcephaly, seizures, rectangular chin, fleshy lower lip, and open mouth, but does not document uveal coloboma or microphthalmia as components of the syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome (RAMELN) is characterized by global developmental delay, hypotonia, delayed walking or inability"
+      },
+      "numbers": [
+        {
+          "metric": "coloboma_presence_omim_entry",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "Genomics England panel evaluation logs for TRA2B within neurodevelopmental and epilepsy panels reference emerging phenotypic checks regarding ocular and prenatal manifestations without documenting confirmed coloboma or microphthalmia phenotypes.",
+      "stance": "neutral",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=402",
+        "quote": "Early onset or syndromic epilepsy v8.161 \u00b7 TRA2B ... ocular manifestations and prenatal ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.82,
+  "new_directions": [
+    {
+      "question_text": "Does systemic ophthalmological screening (dilated funduscopy and ocular biometry) across expanded international TRA2B patient registries confirm a true 0% incidence of optic fissure and axial elongation defects?",
+      "rationale": "The current reported denominator is limited to 12 patients; expanded cohort screening is necessary to rule out low-penetrance subclinical optic disc coloboma or posterior microphthalmia.",
+      "promise": 0.85,
+      "est_cost": 50000
+    },
+    {
+      "question_text": "How does the competitive dominant-negative interference of Tra2beta-3 on target pre-mRNAs impact retinal and neuroectodermal versus cortical neurogenesis?",
+      "rationale": "Clarifying downstream isoform-specific splice targets in retinal progenitor cell lines will elucidate the biochemical basis for the preservation of optic cup morphogenesis despite severe cortical disruption.",
+      "promise": 0.78,
+      "est_cost": 120000
+    }
+  ]
+}

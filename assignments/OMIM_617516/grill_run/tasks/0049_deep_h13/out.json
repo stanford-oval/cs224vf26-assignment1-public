@@ -1,0 +1,113 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not provide quantitative evidence that broad forehead (HP:0000337) and high-arched eyebrows (HP:0002553) reach a cumulative penetrance exceeding 75% in molecularly confirmed PSMD12 variant cohorts, nor that they represent the most sensitive craniofacial screening signs. While broad forehead or high forehead is repeatedly observed among craniofacial descriptions in individual case series, eyebrow findings are inconsistently characterized (e.g., described as lateral flaring rather than high-arched eyebrows), and large expansion cohorts emphasize that clinical expressivity of craniofacial anomalies in Stankiewicz-Isidor syndrome is marked by high variable expressivity rather than a single invariant upper craniofacial presentation.",
+  "evidence": [
+    {
+      "text": "In a cohort study expanding the clinical and molecular spectrum of Stankiewicz-Isidor syndrome (STISS) with 24 additional unrelated patients, the expressivity of most clinical features in STISS was documented to be highly variable, with various dysmorphic facial features noted rather than an invariant high-penetrance upper-craniofacial sign.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "S B\u00e9zieau",
+          "E Kr\u00fcger",
+          "S K\u00fcry",
+          "P Stankiewicz"
+        ],
+        "year": 2022,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "The expressivity of most clinical features in STISS is highly variable. In addition to previously reported DD/ID, speech delay, cardiac and renal anomalies, we also confirmed preaxial hand abnormalities as a feature of this syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "additional unrelated patients evaluated",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "In the initial cohort defining de novo PSMD12 disruption, specific eyebrow dysmorphisms were noted as lateral flaring of eyebrows rather than high-arched eyebrows.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Pawe\u0142 Stankiewicz,* Tahir N. Khan, 3, 19 Przemyslaw Szafranski, Leah Slattery, 4 Haley Streff",
+        "authors": [
+          "F Vetrini",
+          "JA Bernstein",
+          "CW Brown",
+          "JA Rosenfeld"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.academia.edu/download/87735252/pdf.pdf",
+        "quote": "Note the lateral flaring of eyebrows, long nasal bridge, \u2026 of the proteasome regulatory subunit PSMD12 (MIM: 604450)."
+      },
+      "numbers": []
+    },
+    {
+      "text": "In six patients from two families with inherited truncating PSMD12 variants, craniofacial findings included broad forehead and frontal bossing with complete penetrance for general neurodevelopmental and craniofacial involvement, but marked inter- and intrafamilial variability.",
+      "stance": "neutral",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "Portraying a completely penetrant condition with inter- and intra-familiar clinical variability, all individuals presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in kindreds",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "text": "The Genetic Testing Registry indexes broad forehead as an head and neck abnormality associated with Stankiewicz-Isidor syndrome, supporting its presence as a recognized sign without verifying a cumulative penetrance >75%.",
+      "stance": "supports",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome - NIH Genetic Testing Registry",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/gtr/conditions/C4479599",
+        "quote": "Clinical features \u00b7 Abnormality of head or neck. Broad forehead \u00b7 Abnormality of limbs. 2-3 toe syndactyly \u00b7 Abnormality of the cardiovascular system. Atrial ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits high-arched eyebrows as a core >75% sensitive sign, but original molecular descriptions specifically note lateral flaring of eyebrows, and eyebrow shape is not uniformly reported across series.",
+    "Comprehensive expansion cohorts characterize STISS craniofacial features as displaying significant variable expressivity rather than an invariant upper-craniofacial screening constellation sufficient for diagnostic exclusion."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic frequency of standardized upper craniofacial HPO terms across all published PSMD12 cohorts when re-evaluated using objective facial photogrammetry or 3D morphometrics?",
+      "rationale": "Subjective dysmorphic evaluations lead to discordant terms (e.g., broad vs. tall forehead, arched vs. laterally flared eyebrows); computational phenotyping would provide verifiable penetrance statistics.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do non-craniofacial manifestations, such as preaxial limb defects and type I interferon-stimulated gene signatures, demonstrate higher discriminatory diagnostic sensitivity than facial dysmorphisms in distinguishing STISS from overlapping neurodevelopmental disorders?",
+      "rationale": "Clinical expressivity of craniofacial signs is variable, whereas biochemical biomarkers (interferon signatures) and distinctive limb/renal anomalies may provide higher diagnostic specificity.",
+      "promise": 0.9,
+      "est_cost": 45000.0
+    }
+  ]
+}

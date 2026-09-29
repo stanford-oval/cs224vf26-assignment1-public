@@ -1,0 +1,90 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis asserts that primary features occurring in >75% of patients include 'severe to profound' intellectual disability/developmental delay, early-onset seizures, generalized hypotonia, and specific facial dysmorphisms (broad nasal bridge, thin upper lip vermilion). However, the primary delineating publication (Sleyp et al., 2022) describes intellectual disability across a wider severity spectrum ('mild to severe', not consistently severe to profound), alongside autism spectrum disorder, hyperactivity, and febrile seizures or epilepsy. Furthermore, dysmorphic facial features are noted as 'subtle' and variable across the cohort rather than pathognomonic, conflicting with the claim of high-penetrance severe-to-profound impairment and specific facial hallmarks alone enabling phenotype-only diagnosis.",
+  "evidence": [
+    {
+      "text": "Sleyp et al. evaluated 14 patients with de novo missense variants in KLHL20 and identified mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features. Eleven of 14 patients carried the recurrent p.Gly357Arg variant.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a developmental disorder with intellectual disability, epilepsy, and autism spectrum \u2026",
+        "authors": [
+          "Y Sleyp",
+          "I Valenzuela",
+          "A Accogli",
+          "K Ballon"
+        ],
+        "year": 2022,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36214804",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200911X",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features. We observed a recurrent de novo missense variant in 11 patients (NM_014458.4:c.1069G>A p.[Gly357Arg])."
+      },
+      "numbers": [
+        {
+          "metric": "total_patients_evaluated",
+          "value": 14
+        },
+        {
+          "metric": "patients_with_recurrent_p_Gly357Arg_variant",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Abstracts from ESHG presentations reporting on KLHL20 cohorts note intellectual disability and developmental delay of variable presentation, brachycephaly, and subtle dysmorphic facial features.",
+      "stance": "neutral",
+      "source": {
+        "title": "Abstracts from the 55th European Society of Human Genetics (ESHG) Conference: Oral Presentations",
+        "authors": [
+          "KRM van der Meij",
+          "MN Bekker"
+        ],
+        "year": 2023,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://pure.amsterdamumc.nl/files/139830288/Abstracts-from-the-55th-european-society-of-human-genetics-eshg-conference.pdf",
+        "quote": "intellectual disability and developmental delay, variable non-\u2026 , brachycephaly and subtle dysmorphic facial features."
+      },
+      "numbers": []
+    },
+    {
+      "text": "ClinGen/GenCC curations note that heterozygous KLHL20 variants present with developmental delay and intellectual disability ranging from mild to severe, contradicting an assumption of uniform severe-to-profound impairment.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Autosomal dominant by ClinGen submission information facts",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://thegencc.org/submissions/SGC-107240.2",
+        "quote": "Phenotypic features in individuals with heterozygous KLHL20 variants include developmental delay, intellectual disability (ranging from mild to severe)"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that ID is severe-to-profound in >75% of individuals, whereas Sleyp et al. and ClinGen document mild to severe ID.",
+    "The hypothesis assumes distinct recurrent facial features (broad nasal bridge, thin upper lip vermilion) at >75% frequency, whereas clinical cohorts classify facial dysmorphisms as subtle and non-specific, preventing reliable phenotype-only clinical identification."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What exact proportions of individuals with the recurrent KLHL20 p.Gly357Arg variant exhibit specific facial metrics using objective 3D facial imaging?",
+      "rationale": "Because facial features are currently described as 'subtle' and non-specific, quantitative 3D photogrammetry could determine whether true discriminating facial signatures exist compared to other Cullin-RING ligase complex neurodevelopmental disorders.",
+      "promise": 0.75,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does seizure semiology, electroencephalographic pattern, or response to specific anti-seizure medications distinguish KLHL20-related disorder from other early infantile epileptic encephalopathies?",
+      "rationale": "Determining whether seizures present as febrile-plus, infantile spasms, or focal motor seizures could provide clinicians with actionable discriminatory criteria prior to exome sequencing results.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

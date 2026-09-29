@@ -1,0 +1,75 @@
+{
+  "fields": [
+    {
+      "field": "Clinical phenotypes reported in individuals with TAF4-related autosomal dominant intellectual developmental disorder 73 (OMIM #620450)",
+      "covered": true,
+      "contributing_aspects": [
+        "Core phenotype frequencies",
+        "craniofacial",
+        "delineation",
+        "penetrance"
+      ]
+    },
+    {
+      "field": "Frequencies for each phenotype expressed as numerator and denominator per cohort (not percentage alone)",
+      "covered": true,
+      "contributing_aspects": [
+        "craniofacial",
+        "delineation",
+        "penetrance"
+      ]
+    },
+    {
+      "field": "Phenotype descriptions using the paper's original wording plus standard HPO terms where identifiable",
+      "covered": true,
+      "contributing_aspects": [
+        "Core phenotype frequencies",
+        "craniofacial",
+        "delineation",
+        "penetrance"
+      ]
+    },
+    {
+      "field": "PMID or DOI identifying the source paper and specific cohort for each reported phenotype frequency",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating clinical findings (frequent in affected individuals but uncommon in phenotypically overlapping/confused disorders)",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Names of the differential disorders usually confused with this condition",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Confidence level of the distinction between this condition and the confused disorders based on discriminating findings",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Clinical findings systematically assessed and found absent in affected individuals (findings that argue against the diagnosis)",
+      "covered": true,
+      "contributing_aspects": [
+        "Exclusionary findings"
+      ]
+    },
+    {
+      "field": "Phenotype differences correlated with variant type, variant position, patient age, or patient sex",
+      "covered": true,
+      "contributing_aspects": [
+        "genotype-phenotype",
+        "missense vs truncating",
+        "neurodevelopment",
+        "seizures"
+      ]
+    },
+    {
+      "field": "Any findings where reports across papers explicitly contradict one another",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

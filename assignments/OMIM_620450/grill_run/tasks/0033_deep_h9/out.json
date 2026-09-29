@@ -1,0 +1,92 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While the primary discovery cohort of T4NDD (Janssen et al., 2022) characterized eight individuals with de novo putative loss-of-function variants and noted a core phenotype dominated by intellectual disability, behavioral abnormalities, and facial dysmorphism rather than major visceral structural defects, claiming an incidence rate of <5% is statistically unsupportable with only eight patients (0/8 yields an upper 95% CI of ~37%). Furthermore, emergent genomic studies assessing broader neurodevelopmental disorders, developmental language disorders, and fetal anomaly cohorts link TAF4 alterations to congenital abnormalities and stillbirths, while sister TFIID-complex TAF-opathies frequently manifest congenital cardiac and craniofacial malformations.",
+  "evidence": [
+    {
+      "text": "The primary clinical discovery paper described eight individuals harboring de novo putative loss-of-function variants in TAF4 presenting with intellectual disability, abnormal behavior, and facial dysmorphisms, without establishing recurrent major non-neurological malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort sample size of individuals with de novo pLoF TAF4 variants",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Genomic sequencing studies evaluating developmental disorders linking TAF4 (OMIM #620450) note comorbidities including congenital structural abnormalities, contradicting the premise that structural anomalies are negligible or entirely excluded from the clinical presentation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "K van Hulst",
+          "R Pfundt",
+          "N de Leeuw"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "medical comorbidities, including congenital abnormalities (3/\u2026 of TAF4 is associated with a developmental disorder (OMIM #"
+      },
+      "numbers": [
+        {
+          "metric": "Diagnostic cohort size for severe sporadic developmental language disorder",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Genomic copy number screening in fetal demise and congenital anomalies identified homozygous loss in TAF4, suggesting severe disruption may produce structural malformations incompatible with post-natal survival.",
+      "stance": "neutral",
+      "source": {
+        "title": "Microarray analysis on spontaneous abortions",
+        "authors": [
+          "H Hauksd\u00f3ttir"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://skemman.is/handle/1946/18567",
+        "quote": "exonic homozygous loss in the TAF4 gene and an apparent \u2026 analysis on stillbirths with congenital anomalies where it also"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Sample size limitation: The definitive primary cohort describing de novo pLoF variants in TAF4 comprises only 8 patients (Janssen et al., 2022); statistically, a 0/8 observation cannot rule out a true population frequency of malformations between 5% and 37%.",
+    "Broader clinical cohorts evaluating developmental delay and speech/language disorders note presence of congenital anomalies in patients with neurodevelopmental diagnoses including TAF4-associated disorders."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence of congenital heart defects and craniosynostosis in an expanded international multi-center registry of individuals with verified pathogenic TAF4 variants?",
+      "rationale": "The initial cohort size of 8 patients is severely underpowered to establish low-frequency (<5%) or moderately low-frequency (5-15%) structural anomalies, requiring systematic ultrasound/imaging phenotyping across larger cohorts.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do missense or in-frame variants in specific functional domains of TAF4 (such as the histone-fold domain or TAF4-TAF12 interaction interface) cause different syndromic structural anomalies compared to truncating loss-of-function variants?",
+      "rationale": "Determining genotype-phenotype correlations across variant classes will establish whether dominant-negative or hypomorphic alleles produce visceral or skeletal malformations absent in pure haploinsufficiency.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

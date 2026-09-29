@@ -1,0 +1,154 @@
+{
+  "hypotheses": [
+    {
+      "text": "The true clinical penetrance of epilepsy (HP:0001250) in GTF3C3-related neurodevelopmental disorder (NEDFABS) is incomplete and falls between 50% and 75%, rather than representing a near-obligatory (>80\u201390%) hallmark of the condition.",
+      "rationale": "Deep testing revealed a direct contradiction between initial cohorts ascertained via developmental and epileptic encephalopathy pipelines (reporting high seizure rates) and broader NDD cohorts, notably Abdel-Hamid et al. (2025), which explicitly documented seizures in only 2 of 4 (50%) individuals.",
+      "aspects": [
+        "epilepsy",
+        "penetrance",
+        "phenotype-spectrum"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "In a human cohort of four patients from three unrelated families with biallelic GTF3C3 variants identified via GeneMatcher for neurodevelopmental features, seizures were documented in only half of the affected individuals.",
+          "stance": "contradicts",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel-Hamid"
+            ],
+            "year": 2025,
+            "journal": "Brain Communications",
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11878552",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11878552/",
+            "quote": "Seizures were observed in half of the patients."
+          },
+          "numbers": [
+            {
+              "metric": "patients with seizures",
+              "value": 2
+            },
+            {
+              "metric": "total cohort size",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "text": "A comprehensive review of the 16 total published individuals with biallelic GTF3C3 variants highlights epilepsy alongside CNS malformations as common but syndromic features in differential diagnosis.",
+          "stance": "supports",
+          "source": {
+            "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+            "authors": [
+              "L L\u00f3pez"
+            ],
+            "year": 2026,
+            "journal": "Frontiers in Genetics",
+            "doi": "10.3389/fgene.2026.1860633/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+            "quote": "GTF3C3 in the differential diagnosis of syndromic NDDs, particularly in patients presenting with central nervous system malformations, seizures"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Ascertainment bias accounts for the discrepancy in reported seizure frequency between cohorts: individuals ascertained through primary epileptic encephalopathy sequencing panels show >80% epilepsy rates, whereas cohorts ascertained primarily for syndromic intellectual disability and dysmorphic features exhibit significantly lower penetrance (<=50%).",
+      "rationale": "Differences in recruitment criteria (e.g., DEE panels vs. GeneMatcher/exome cohorts for general dysmorphology or intellectual disability) explain why initial cohorts reported early-onset refractory seizures in nearly all subjects, while generalized NDD ascertainment identifies non-epileptic individuals.",
+      "aspects": [
+        "ascertainment-bias",
+        "epilepsy",
+        "cohort-variability"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Biallelic GTF3C3 patients collected through GeneMatcher based on microcephaly, developmental delay, and dysmorphic facies showed seizures in only 50% (2/4), contrasting with early cohort ascertainments focused on developmental epileptic encephalopathies.",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel-Hamid"
+            ],
+            "year": 2025,
+            "journal": "Brain Communications",
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11878552",
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "four patients from three unrelated families of different ethnicities collected through GeneMatcher. The patients exhibited microcephaly, developmental delay, intellectual disability and distinctive dysmorphic facies... Seizures were observed in half of the patients."
+          },
+          "numbers": [
+            {
+              "metric": "patients with seizures",
+              "value": 2
+            },
+            {
+              "metric": "total patients",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Biallelic GTF3C3 loss confers a latent, subclinical seizure susceptibility in all affected individuals that requires secondary environmental or proconvulsant triggers to manifest overt clinical epilepsy.",
+      "rationale": "Even when human patients do not develop spontaneous seizures, in vivo animal models demonstrate that loss of GTF3C3 function induces heightened susceptibility to seizure provocation, indicating that GTF3C3 deficiency inherently lowers seizure threshold even if spontaneous clinical penetrance is incomplete.",
+      "aspects": [
+        "pathophysiology",
+        "epilepsy",
+        "animal-models"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Zebrafish gtf3c3 knockout models displayed significantly heightened seizure susceptibility and seizure-like behavior upon exposure to proconvulsant treatment (pentylenetetrazol, PTZ).",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel-Hamid"
+            ],
+            "year": 2025,
+            "journal": "Brain Communications",
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11878552",
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "Quantification of swimming distance with PTZ treatment normalized to fish without treatment showed that gtf3c3 F0 KO (n = 50) larvae exhibited seizure-like behaviour after 15 min"
+          },
+          "numbers": [
+            {
+              "metric": "larvae sample size",
+              "value": 50
+            },
+            {
+              "metric": "time to seizure-like behavior (minutes)",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "Across the complete set of 16 individuals published up to 2026 (De Hayr et al., Abdel-Hamid et al., and L\u00f3pez et al.), what is the exact pooled prevalence, age of onset, and response to anti-seizure medications for epilepsy?",
+      "rationale": "A unified meta-analysis of all 16 described individuals will provide an exact, unbiased denominator and clarify whether seizure onset is strictly infantile or develops later during childhood/adolescence.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "Do GTF3C3 missense variants in specific TFIIIC complex interaction domains preserve enough Pol III transcription to prevent early infantile refractory epilepsy compared to truncating/null alleles?",
+      "rationale": "Differences in residual Pol III target gene expression between missense alleles (such as p.Cys172Gly or p.Val427Phe) and severe loss-of-function variants could explain why only 50% of the Abdel-Hamid cohort had seizures.",
+      "promise": 0.75,
+      "est_cost": 0.7
+    }
+  ],
+  "dead_end": false
+}

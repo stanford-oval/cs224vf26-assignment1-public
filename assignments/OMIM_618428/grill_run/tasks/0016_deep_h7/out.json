@@ -1,0 +1,90 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that severe congenital malformations, specifically complex congenital heart disease and severe brain malformations, are consistently absent or atypical in Popov-Chang syndrome and argue strongly against the diagnosis. However, the literature reveals that the index characterization of pathogenic YWHAZ variants (Popov et al., 2019) was identified in patients presenting with phenotypes consistent with cardiofaciocutaneous (CFC) syndrome\u2014a condition classical for congenital heart defects alongside dysmorphic and neurodevelopmental features. Furthermore, expanding cohorts (e.g., Wan et al., 2023) show broad phenotypic heterogeneity in YWHAZ-related disorders including structural and morphological neurodevelopmental abnormalities, conflicting with the assertion that congenital heart disease or structural brain anomalies reliably rule out YWHAZ-related pathology.",
+  "evidence": [
+    {
+      "text": "Variants in YWHAZ (such as S230W) were identified in patients presenting with clinical phenotypes consistent with cardiofaciocutaneous (CFC) syndrome, a RASopathy canonically characterized by congenital heart defects, distinctive craniofacial dysmorphism, and ectodermal anomalies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous Syndrome Induces Severe Embryonic Defects in Xenopus laevis",
+        "authors": [
+          "IK Popov"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6465419",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+        "quote": "Cardiofaciocutaneous (CFC) syndrome is a genetic disorder characterized by distinctive facial features, congenital heart defects, and skin abnormalities... We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially be deleterious and disease-causing."
+      },
+      "numbers": [
+        {
+          "metric": "Variant position",
+          "value": "S230W"
+        }
+      ]
+    },
+    {
+      "text": "YWHAZ variation (c.147A>T, p.Lys49Asn) causes intellectual disability and global developmental delay with demonstrated neuronal morphological abnormalities (mushroom body defects in knockin models), illustrating significant central nervous system developmental consequences.",
+      "stance": "neutral",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global developmental delay",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2023,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article/32/3/462/6674657",
+        "quote": "Cognitive defects and mushroom body morphological abnormalities were observed in YWHAZ c.147A > T knockin flies. The YWHAZ knockdown flies also manifested serious cognitive defects with hyperactivity behaviors, which is consistent with the clinical features."
+      },
+      "numbers": [
+        {
+          "metric": "Coding variant",
+          "value": "c.147A>T"
+        }
+      ]
+    },
+    {
+      "text": "Popov-Chang syndrome is categorized among genetic etiologies linked with developmental and epileptic encephalopathies (DEEs) and neurodevelopmental syndromes in genomic reviews.",
+      "stance": "neutral",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [
+          "M Hebbar",
+          "HC Mefford"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7076331",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity, and generally poor prognosis."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that congenital heart disease is consistently absent or atypical in Popov-Chang syndrome, but Popov et al. (2019) described YWHAZ variants in patients presenting with cardiofaciocutaneous (CFC) syndrome phenotypes, which typically encompass congenital heart defects.",
+    "The hypothesis claims severe structural brain malformations reliably argue against the disorder, whereas YWHAZ governs critical cellular migration and proliferation pathways (14-3-3\u03b6), with documented neuroarchitectural and morphological impacts in model systems and human developmental delay cohorts."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and spectrum of congenital cardiac anomalies in patients with confirmed pathogenic de novo versus inherited YWHAZ variants across all reported international cohorts?",
+      "rationale": "Clarifying whether congenital heart defects segregate specifically with gain-of-function RAS/MAPK-activating missense mutations (such as S230W) or also occur in loss-of-function variants will determine the negative predictive value of cardiac evaluations.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What proportion of patients harboring pathogenic YWHAZ mutations demonstrate subtle or overt cerebral cortical dysplasias or migration defects on high-resolution 3T volumetric brain MRI?",
+      "rationale": "Given the role of 14-3-3\u03b6 in neuronal migration, a systematic neuroimaging re-review of all molecularly confirmed patients is necessary to ascertain whether malformations of cortical development represent an exclusion criterion or an under-recognized phenotypic feature.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

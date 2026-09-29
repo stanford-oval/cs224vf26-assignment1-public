@@ -1,0 +1,89 @@
+{
+  "verdict": "supported",
+  "rationale": "Across all identified clinical reports and genetic series, pathogenic heterozygous variants in MAPK8IP3 (including truncating/loss-of-function variants) manifest as a complex neurodevelopmental disorder (NEDBA; OMIM #618443) characterized by intellectual disability, developmental delay, and structural brain abnormalities, rather than an isolated lower motor neuron disease or pure hereditary spastic paraplegia (HSP). While spasticity or spastic diplegia/paraplegia is frequently noted as a motor manifestation, it invariably occurs in conjunction with supratentorial developmental features such as cognitive impairment and cerebral/corpus callosum anomalies.",
+  "evidence": [
+    {
+      "text": "In a cohort of 13 unrelated individuals with de novo MAPK8IP3 variants (comprising missense and three truncating variants), all individuals presented with an overlapping phenotype of mild to severe intellectual disability, alongside brain anomalies such as corpus callosum hypoplasia and cerebral/cerebellar atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6369540",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "Using exome sequencing, we have identified de novo variants in MAPK8IP3 in 13 unrelated individuals presenting with an overlapping phenotype of mild to severe intellectual disability. The de novo variants comprise six missense variants, three of which are recurrent, and three truncating variants."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals with intellectual disability",
+          "value": "13/13"
+        },
+        {
+          "metric": "Truncating de novo variants in cohort",
+          "value": "3/13"
+        }
+      ]
+    },
+    {
+      "text": "Individuals with pathogenic de novo MAPK8IP3 variants exhibited core neurological phenotypes consisting of spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia, demonstrating that spastic diplegia occurs in the context of a syndromic neurodevelopmental presentation rather than isolated spastic paraplegia.",
+      "stance": "supports",
+      "source": {
+        "title": "Recurrent de novo MAPK8IP3 variants cause neurological phenotypes",
+        "authors": [],
+        "year": 2019,
+        "journal": "Annals of Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.semanticscholar.org/paper/fc855efac9c629acca828a40d3b2f8eff841d25e",
+        "quote": "We identified 5 individuals from four families with recurrent de novo variants c.1732C>T (p.Arg578Cys) and c.3436C>T (p.Arg1146Cys) in MAPK8IP3. The core phenotype includes spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia."
+      },
+      "numbers": [
+        {
+          "metric": "Individuals with intellectual disability and spastic diplegia",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "Clinical curation panels list MAPK8IP3 under complex/childhood-onset hereditary spastic paraplegia and malformations of cortical development, reflecting its syndromic presentation involving supratentorial and cortical architecture rather than isolated spastic paraplegia.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: MAPK8IP3 (Malformations of cortical development)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/96/gene/MAPK8IP3/",
+        "quote": "Hereditary spastic paraplegia, childhood onset \u00b7 Malformations of cortical ... gene: MAPK8IP3 was added"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Do any families or cohorts with pure adult-onset or uncomplicated hereditary spastic paraplegia harbor pathogenic heterozygous truncating variants in MAPK8IP3 upon dedicated re-analysis of large HSP exome/genome sequencing databases?",
+      "rationale": "While current cohorts exclusively describe syndromic neurodevelopmental disease with intellectual disability, systematic screening of non-syndromic/pure HSP cohorts is required to rule out incomplete penetrance or mild adult presentations of truncating alleles.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does nonsense-mediated mRNA decay (NMD) efficiency of heterozygous truncating MAPK8IP3 variants correlate with the severity of cortical malformations and cognitive impairment compared to dominant-negative missense variants?",
+      "rationale": "Understanding whether truncating variants act primarily through haploinsufficiency versus dominant-negative or gain-of-function mechanisms (which often associate with distinct severities of polymicrogyria and axonal lysosome accumulation) will clarify genotype-phenotype divergence.",
+      "promise": 0.8,
+      "est_cost": 40000.0
+    }
+  ]
+}

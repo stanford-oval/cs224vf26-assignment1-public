@@ -1,0 +1,107 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature directly supports the hypothesis. Van Oirsouw et al. (2025) analyzed a cohort of 19 individuals with KDM2B CxxC zinc-finger domain variants and reported that congenital heart defects were documented in up to 78% of individuals (which corresponds to 14/19 to 15/19, i.e., 73.7% to 78.9%). The authors explicitly noted that the core phenotype of individuals carrying CxxC domain variants is significantly more extensive with higher penetrance of congenital anomalies (including cardiac defects) compared to individuals with general KDM2B haploinsufficiency and loss-of-function variants.",
+  "evidence": [
+    {
+      "text": "Analysis of 19 individuals harboring KDM2B CxxC zinc-finger domain variants demonstrated that congenital heart defects were observed in up to 78% of individuals, representing a more extensive phenotype than that seen in general KDM2B haploinsufficiency.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "MA Hadders"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1093/hmg/ddaf082",
+        "pmid": "40420380",
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/34/16/1353/8150966",
+        "quote": "We analyzed clinical data from 19 individuals, including ten previously undescribed individuals with seven novel CxxC variants. The core phenotype of the KDM2B-CxxC cohort is more extensive as compared to that of individuals with KDM2B haploinsufficiency. All individuals with CxxC variants presented with developmental delay, mainly in the speech and motor domain, in addition to variable intellectual disability and mild facial dysmorphism. Congenital heart defects were observed in up to 78% of individuals, with additional common findings including musculoskeletal, ophthalmological, and urogenital anomalies"
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 19
+        },
+        {
+          "metric": "congenital_heart_defect_frequency_percent_max",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "text": "A comprehensive genotype-phenotype assessment confirmed a highly penetrant phenotype specifically related to CxxC domain variants in contrast to incomplete penetrance and variable expressivity observed with general loss-of-function variants and JmjC domain variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "TC Hsieh",
+          "M Koetsier"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1111/cge.70169",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70169",
+        "quote": "We observe a highly penetrant CxxC-related phenotype with distinct facial features supported by GestaltMatcher. In contrast, our findings point to variable expressivity and incomplete penetrance of loss-of-function variants and JmjC domain variants complicating variant classification and genetic counseling."
+      },
+      "numbers": [
+        {
+          "metric": "total_cohort_evaluated",
+          "value": 68
+        },
+        {
+          "metric": "pathogenic_or_likely_pathogenic_individuals",
+          "value": 47
+        }
+      ]
+    },
+    {
+      "text": "Patients with variants in the KDM2B CxxC domain consistently show congenital organ malformations, including cardiac defects such as atrial septal defect and ventricular septal defect, along with ocular and renal findings.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B\u2010Related Neurodevelopmental Disorder A Case\u2010Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features",
+        "authors": [
+          "A Gomes",
+          "\u00c1 Mart\u00edn\u2010Rodr\u00edguez"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/ajmga.70036",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmga.70036",
+        "quote": "We present three children with KDM2B-related neurodevelopmental disorder, each with a heterozygous variant in the CxxC domain of KDM2B. Patient 1 is a 2-year-old boy with developmental delay, solitary kidney, atrial septal defect... Patient 3 is a 5-year-old girl with autism, developmental delay, atrial septal defect, and ventricular septal defect"
+      },
+      "numbers": [
+        {
+          "metric": "reported_cxxc_cases",
+          "value": 3
+        },
+        {
+          "metric": "cardiac_defect_cases",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What exact structural cardiac subtypes (e.g., septal defects vs. conotruncal defects) constitute the ~78% penetrance in CxxC domain variants?",
+      "rationale": "Breaking down the congenital heart defect spectrum in KDM2B CxxC variants into specific anatomic classifications will assist targeted echocardiographic screening protocols.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Does dominant-negative interference or altered Polycomb Repressive Complex 1.1 recruitment mediate the heightened cardiac penetrance in CxxC variants compared to haploinsufficiency?",
+      "rationale": "Clarifying why CxxC missense variants yield a significantly more severe cardiac phenotype than loss-of-function alleles will define whether non-haploinsufficient mechanisms drive organogenesis defects.",
+      "promise": 0.9,
+      "est_cost": 65000.0
+    }
+  ]
+}

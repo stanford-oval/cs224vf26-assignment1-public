@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>methodology_v2 — documentation</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="vendor/highlight-github.min.css" id="hljs-light" disabled />
+    <link rel="stylesheet" href="vendor/highlight-github-dark.min.css" id="hljs-dark" />
+</head>
+<body>
+    <header class="topbar">
+        <div class="brand">methodology_v2 <span class="brand-sub">documentation</span></div>
+        <input id="filter" type="search" placeholder="Filter pages…" autocomplete="off" spellcheck="false" />
+        <div class="spacer"></div>
+        <button id="theme-btn" type="button" class="secondary" title="Toggle light / dark">◐</button>
+    </header>
+
+    <main class="main">
+        <nav class="sidebar" id="sidebar" aria-label="Documentation navigation"></nav>
+        <section class="reader" id="reader">
+            <div class="doc-md" id="doc"></div>
+        </section>
+    </main>
+
+    <!-- vendored, offline: markdown + syntax highlight -->
+    <script src="vendor/marked.min.js"></script>
+    <script src="vendor/highlight.min.js"></script>
+    <script src="vendor/highlight-python.min.js"></script>
+    <!-- generated content bundle: window.MANIFEST + window.DOCS (run build.py) -->
+    <script src="docs-data.js"></script>
+    <script src="app.js" defer></script>
+</body>
+</html>

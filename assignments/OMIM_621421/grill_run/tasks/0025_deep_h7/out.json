@@ -1,0 +1,68 @@
+{
+  "verdict": "supported",
+  "rationale": "Direct peer-reviewed clinical and functional characterization of Ramond-Elliott neurodevelopmental syndrome (RAMELN, OMIM #621421) establishes that monoallelic predicted loss-of-function variants clustered in the 5' region of TRA2B cause intellectual disability/developmental delay, microcephaly, hypotonia, and early-onset seizures that frequently manifest specifically as infantile spasms. In the defining clinical cohort of 12 individuals from 11 families, infantile spasms represent a hallmark neurological finding occurring in a substantial subset of patients, distinguishing this splicing-factor disorder from non-specific epileptic encephalopathies.",
+  "evidence": [
+    {
+      "text": "In a cohort of 12 individuals from 11 unrelated families with monoallelic loss-of-function variants clustered in the 5' coding region of TRA2B, all affected individuals presented with intellectual disability and/or developmental delay, frequently accompanied by infantile spasms, microcephaly, and brain anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "total affected individuals evaluated",
+          "value": 12
+        },
+        {
+          "metric": "unrelated families",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Ramond-Elliott neurodevelopmental syndrome is cataloged as a distinct mendelian entity characterized by global developmental delay, hypotonia, microcephaly, and seizure phenotypes predominantly presenting in infancy.",
+      "stance": "supports",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome (RAMELN) is characterized by global developmental delay, hypotonia, delayed walking or inability"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the electroclinical responsiveness of TRA2B-associated infantile spasms to first-line therapies such as ACTH, high-dose oral corticosteroids, or vigabatrin compared to other genetic epileptic spasms syndromes?",
+      "rationale": "Infantile spasms in genetic neurodevelopmental syndromes often demonstrate etiology-dependent treatment response profiles; delineating this can optimize neurodevelopmental outcomes in RAMELN.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do pathogenic variants located downstream of the alternative translation start site in TRA2B cause an attenuated or non-epileptic phenotype, or do they escape the dominant-negative mechanism observed with 5' variants?",
+      "rationale": "Ramond et al. demonstrated that 5' variants drive pathological overexpression of the repressive Tra2\u03b2-3 isoform; determining whether 3' variants act via simple haploinsufficiency will clarify genotype-phenotype correlations regarding seizure penetrance.",
+      "promise": 0.8,
+      "est_cost": 45000
+    }
+  ]
+}

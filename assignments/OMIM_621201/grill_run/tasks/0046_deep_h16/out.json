@@ -1,0 +1,119 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While initial detailed cohort reports of GTF3C3-related neurodevelopmental disorder (Abdel 2025) describe primary neurodevelopmental features characterized by microcephaly, developmental delay, facial dysmorphism, seizures, and focal structural brain anomalies (predominant cerebellar atrophy, frontal lobe hypoplasia, and simplified gyral pattern in 1/4 patients) without establishing diffuse cerebral hypomyelination as the cardinal presentation, broader classification in neurogenetics and white matter disorder literature directly conflicts with the hypothesis. Multiple sources (Chapleau et al. 2026, Genomics England PanelApp) classify GTF3C3 under hereditary white matter disorders and report hypomyelination of white matter and demyelination alongside cerebellar atrophy. Therefore, one cannot reliably rule in or out GTF3C3-related disorder purely by the presumed absence of hypomyelination or preserved supratentorial myelin signal.",
+  "evidence": [
+    {
+      "text": "Biallelic GTF3C3 variants in 4 patients from 3 families caused microcephaly (4/4), developmental delay/intellectual disability (4/4), distinctive dysmorphic facies (4/4), seizures (2/4), and brain imaging showing brain atrophy with predominant cerebellar involvement, hypoplasia of frontal lobes, and moderate-to-severe simplified gyral pattern in 1 patient.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern. Seizures were observed in half of the patients."
+      },
+      "numbers": [
+        {
+          "metric": "Microcephaly frequency",
+          "value": "4/4"
+        },
+        {
+          "metric": "Developmental delay / intellectual disability frequency",
+          "value": "4/4"
+        },
+        {
+          "metric": "Dysmorphic facies frequency",
+          "value": "4/4"
+        },
+        {
+          "metric": "Seizure frequency",
+          "value": "2/4"
+        },
+        {
+          "metric": "Simplified gyral pattern frequency",
+          "value": "1/4"
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive review of hereditary white matter disorders identifies TFIIIC complex subunits (GTF3C5 and GTF3C3) as causes of white matter disorders and progressive demyelination/hypomyelination with cerebellar atrophy, directly implicating GTF3C3 in white matter/hypomyelinating disease.",
+      "stance": "contradicts",
+      "source": {
+        "title": "White matter disorders at the intersection of transcription, RNA processing and translation",
+        "authors": [
+          "A Chapleau",
+          "F Villa Tob\u00f3n",
+          "G Bernard"
+        ],
+        "year": 2026,
+        "journal": "Nature Reviews Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-026-01248-1",
+        "quote": "of the TFIIIC complex (GTF3C5and GTF3C3), a key initiator of Pol \u2026 progressive demyelination with cerebellar atrophy70,74. \u2026 Hypomyelination and cerebellar atrophy has been reported"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Genomics curation updates for GTF3C3 documented clinical phenotypes including cerebellar atrophy alongside hypomyelination of white matter on MRI.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Activity",
+        "authors": [
+          "Eleanor Williams"
+        ],
+        "year": null,
+        "journal": "PanelApp Genomics England",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285",
+        "quote": "Eleanor Williams Phenotypes for gene: GTF3C3 were changed from ... MRI findings included cerebellar atrophy, hypomyelination of white matter"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Analysis of TFIIIC/Pol III-related conditions notes that missense, nonsense, or splicing variants across TFIIIC components including GTF3C3 have variable clinical presentations and phenotypic spectrums.",
+      "stance": "neutral",
+      "source": {
+        "title": "Biallelic variants in GTF3C5, a regulator of RNA polymerase III-mediated transcription, cause a multisystem developmental disorder",
+        "authors": [
+          "A Iwata"
+        ],
+        "year": 2024,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-024-02656-3",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02656-3",
+        "quote": "III-related leukodystrophy, hypomyelination, hypodontia, and \u2026 or splicing variants of GTF3C3 have variable phenotypes"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Abdel et al. (2025) characterize GTF3C3 neuroimaging findings as brain atrophy with predominant cerebellar involvement, frontal lobe hypoplasia, and simplified gyral pattern rather than diffuse hypomyelinating leukodystrophy, whereas Chapleau et al. (2026) and Genomics England PanelApp explicitly report white matter abnormalities including hypomyelination and demyelination in GTF3C3-affected individuals."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does the presence or severity of hypomyelination in GTF3C3-related disorder depend on patient age at neuroimaging or specific functional consequences of missense versus truncating variants?",
+      "rationale": "Because hypomyelination is reported in some literature records (Chapleau et al. 2026, PanelApp) but not highlighted as the primary feature in the Abdel (2025) cohort, longitudinal brain MRI series across different ages and variant classes are required to determine whether myelination delay is transient, progressive, or genotype-dependent.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Can extraneurological manifestations (such as abnormal dentition or hypogonadotropic hypogonadism seen in classical 4H leukodystrophy) discriminate GTF3C3-related disorder from POLR3-related leukodystrophies?",
+      "rationale": "If MRI white matter signatures overlap between TFIIIC and Pol III defects, non-neurological features of the Pol III transcription defect spectrum (e.g., dental agenesis/oligodontia or endocrine anomalies seen in GTF3C5 and POLR3A/B) may provide clearer clinical discrimination.",
+      "promise": 0.8,
+      "est_cost": 15000.0
+    }
+  ]
+}

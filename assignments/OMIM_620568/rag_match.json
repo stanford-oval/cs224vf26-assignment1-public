@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620568",
+ "omim": "OMIM:620568",
+ "disease": "Cornelia de Lange syndrome 6",
+ "gene": "BRD4",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1531,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Cornelia de Lange syndrome 6 (BRD4, OMIM:620568):\n\n[1] Non-Classic Cornelia de Lange Syndrome Due to BRD4 ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12650802/\nby F Lonardo \u00b7 2025 \u00b7 Cited by 2 \u2014 Patients with CdLS who have a pathogenic variant in the BRD4 gene are extremely rare. They represent less than 1% of the patients with CdLS.\n\n[2] 620568 - CORNELIA DE LANGE SYNDROME 6; CDLS6\nhttps://omim.org/entry/620568\nCornelia de Lange syndrome (CDLS) is a genetically heterogeneous developmental disorder characterized by malformations affecting multiple systems.\n\n[3] Cornelia de Lange syndrome-associated mutations cause ...\nhttps://www.nature.com/articles/s41467-021-23500-6\nby G Olley \u00b7 2021 \u00b7 Cited by 31 \u2014 Recently, we identified a missense mutation in BRD4 associated with a Cornelia de Lange-like syndrome that reduces BRD4 binding to acetylated ...\n\n[4] Cornelia De Lange Syndrome 6 (CDLS6)\nhttps://www.malacards.org/card/cornelia_de_lange_syndrome_6\nA Cornelia de Lange syndrome characterized by malformations affecting multiple systems that has material basis in heterozygous mutation in the BRD4 gene on ...\n\n[5] Cornelia de Lange syndrome 6\nhttps://www.alliancegenome.org/disease/DOID:0060970\nA Cornelia de Lange syndrome characterized by malformations affecting multiple systems that has_material_basis_in heterozygous mutation in the BRD4 gene on ...\n\n[6] None\nhttps://disease-ontology.org/term/DOID:0060970\nA Cornelia de Lange syndrome characterized by malformations affecting multiple systems that has_material_basis_in heterozygous mutation in the BRD4 gene on ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 7.0, female)\n  observed: Coarse facial features, Hypertelorism, Hypermetropia, Abnormally large globe, Upslanted palpebral fissure, Sparse lateral eyebrow, Anteverted nares, Broad nasal tip, Widely spaced teeth, Persistence of primary teeth, Thick vermilion border, Wide mouth, Absent cupid's bow, Constipation, Failure to thrive, Recurrent otitis media, Hypotonia, Intellectual disability\n  recorded ABSENT: Narrow forehead, Frontal bossing, Prominent supraorbital ridges, Midface retrusion, Brachycephaly, Myopia, Proptosis, Deeply set eye, Strabismus, Depressed nasal bridge, Short nasal bridge, Narrow naris, Hyperplasia of the maxilla, Short philtrum, Full cheeks, Micrognathia, Thin vermilion border, Gingival overgrowth, Small hand, Proximal placement of thumb, Clinodactyly of the 5th finger, Ventricular septal defect, Right aortic arch, Gastroesophageal reflux, Thin corpus callosum (+2 more)\n\nP02 (age 2.0, male)\n  observed: Postnatal growth retardation, Global developmental delay, Cleft palate, Cryptorchidism, Sensorineural hearing impairment, Micrognathia, Intrauterine growth retardation, Oligodactyly, Syndactyly, Clinodactyly, Brachydactyly\n  recorded ABSENT: Proximal placement of thumb, Hirsutism, High palate, Renal cyst, Gastroesophageal reflux, Small hand, Feeding difficulties, Seizure, Cerebral cortical atrophy, Hypotonia, Anteriorly placed anus, Horseshoe kidney, Hypoplastic labia minora, Camptodactyly, Pulmonic stenosis, Heart murmur, Cardiomegaly, Ventricular septal defect, Atrial septal defect\n\nP03 (age 11.0, male)\n  observed: Vesicoureteral reflux, Renal duplication, Long philtrum, Thin upper lip vermilion, High palate, Frontal hirsutism, Highly arched eyebrow, Short stature, Atrial septal defect, Ptosis, Myopia, Vertigo, Mild intellectual disability, Frequent temper tantrums, Attention deficit hyperactivity disorder, Clinodactyly of the 5th finger\n  recorded ABSENT: Thick eyebrow, Depressed nasal bridge, Short nose, Microcephaly\n\nP04 (age 29.0, male)\n  observed: Macrodontia of permanent maxillary central incisor, Downslanted palpebral fissures, Highly arched eyebrow, Synophrys, Short nose, Anteverted nares, Global developmental delay, Psychosis, Clinodactyly of the 5th finger, Scoliosis, Hip dysplasia, Frontal upsweep of hair\n  recorded ABSENT: Strabismus, Macrotia, Low-set ears, Long philtrum, Sparse eyebrow, Microcephaly, Compulsive behaviors, Hypoplasia of the corpus callosum, Intrauterine growth retardation, Ventricular septal defect\n\nP05 (age 9.0, female)\n  observed: Axial hypotonia, Global developmental delay, Fatigue, Delayed ability to walk, Myopia, Macrodontia, High forehead, Ptosis, Posteriorly rotated ears, Hypertelorism, Thin upper lip vermilion, Short distal phalanx of finger, Short toe, Clinodactyly, Slender finger, Hyperlordosis, Delayed speech and language development, Central sleep apnea, Spastic paraplegia\n  recorded ABSENT: Microcephaly, Appendicular hypotonia, Developmental regression, Attention deficit hyperactivity disorder, Anxiety, Seizure, Autism, Obsessive-compulsive trait, Constipation, Intrauterine growth retardation, Strabismus, Short stature, Delayed skeletal maturation, Dysphagia, Long eyelashes, Short neck, Low posterior hairline, Pointed chin, Anteverted nares, Mandibular prognathia, Thick eyebrow, Depressed nasal bridge, Osteopenia, Kyphosis, Genu recurvatum (+7 more)\n\nP06 (age None, unknown_sex)\n  observed: Brachydactyly, Clinodactyly, Mesomelia, Hemivertebrae, Rib fusion, Wide nasal bridge, Midface retrusion, Prominent forehead, Short nose, Anteverted nares, Long palpebral fissure, Upslanted palpebral fissure, Proptosis, Hypertelorism, Short stature, Abnormal heart morphology\n  recorded ABSENT: Single transverse palmar crease, Nail dysplasia, Sacral dimple, Melanocytic nevus, Broad hallux, Broad thumb, Camptodactyly, Hip dislocation, Short palm, Pectus excavatum, Syndactyly, Scoliosis, Gingival overgrowth, Depressed nasal bridge, Micrognathia, Retrognathia, Orofacial cleft, Long philtrum, Short philtrum, Downturned corners of mouth, Short neck, Downslanted palpebral fissures, Thin upper lip vermilion, Triangular mouth, Long eyelashes (+11 more)\n\nP07 (age 4.2, male)\n  observed: Decreased body weight, Ventricular septal defect, Facial asymmetry, Deeply set eye, Ptosis, Microtia, Microcephaly, Intrauterine growth retardation\n  recorded ABSENT: Epicanthus, Upslanted palpebral fissure, Long palpebral fissure, Atrial septal defect, Feeding difficulties, Hypertelorism, Hypodontia, Underdeveloped nasal alae, Choanal atresia, Seizure, Myoclonus, Epileptic encephalopathy, Global developmental delay, Developmental regression, High palate, Cleft palate, Cleft upper lip, Low-set ears, Anteverted nares, Micrognathia, Duane anomaly, Scoliosis, Vocal cord paralysis, Clinodactyly of the 5th finger, Short stature (+9 more)\n\nP08 (age 3.8, male)\n  observed: Short stature, Postnatal growth retardation, Epicanthus, Smooth philtrum, Long philtrum, Telecanthus, Microcephaly, Broad nasal tip, Depressed nasal bridge, Posteriorly rotated ears, Low-set ears, Global developmental delay, Delayed ability to walk, Delayed speech and language development, Intellectual disability, Small hand, Sacral dimple, Pes planus, Nevus flammeus of the forehead, Malar rash\n  recorded ABSENT: Decreased body weight, Intrauterine growth retardation, Synophrys, Wide nasal bridge, Downslanted palpebral fissures, Triangular face, Torticollis, High palate, Short chin, Hyperactivity, Seizure, Broad-based gait, Thin corpus callosum, Ventriculomegaly, Clinodactyly, Deep palmar crease, Bilateral single transverse palmar creases, Atrial septal defect, Joint hypermobility, Broad hallux, Macrodontia, Brachycephaly, Pointed chin, Malar flattening, Strabismus\n\nP09 (age 9.0, female)\n  observed: Mandibular prognathia, Narrow palpebral fissure, Short philtrum, Thickened calvaria, Short long bone, Enlarged vertebral pedicles, Cone-shaped epiphysis, Delayed skeletal maturation, Generalized muscle hypertrophy, Short stature, Limitation of joint mobility, Short palm, Short foot, Global developmental delay, Hearing impairment, Thickened skin, Velopharyngeal insufficiency\n  recorded ABSENT: Patent ductus arteriosus, Pulmonic stenosis, Platyspondyly, Strabismus, Clinodactyly of the 5th finger, Hyperactivity, Psychosis, Microtia, Duodenal stenosis, Sacral dimple\n\nP10 (age 20.0, male)\n  observed: Absent speech, Feeding difficulties, Autistic behavior, Intellectual disability, Global developmental delay, Ataxia, Seizure, Hypotonia\n  recorded ABSENT: 2-3 toe syndactyly, Hallux valgus, Echolalia, Clinodactyly of the 5th finger, Carious teeth, Proptosis, Broad nasal tip, Low-set ears, Smooth philtrum, Hypertelorism, Micrognathia, Frontal bossing, Downslanted palpebral fissures, Anteverted nares, Gait disturbance, Coarctation of aorta, Ventricular septal defect, Atrial septal defect, Microcephaly, Posterior embryotoxon, Strabismus, Pectus excavatum\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.82,
+     "for": "Demonstrates the non-classic Cornelia de Lange syndrome phenotype characteristic of BRD4 variants, including highly arched eyebrows, long philtrum, thin upper lip vermilion, frontal hirsutism, ptosis, short stature, atrial septal defect, clinodactyly, renal anomalies, and mild intellectual disability with ADHD.",
+     "against": "Lacks classical facial signs such as microcephaly, synophrys, thick eyebrows, and depressed nasal bridge, which are explicitly noted as absent."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.1,
+     "for": "Features severe, classic CdLS manifestations including oligodactyly, cleft palate, micrognathia, intrauterine and postnatal growth retardation, cryptorchidism, and global developmental delay.",
+     "against": "BRD4-related CdLS is typically non-classic and milder, without severe limb reduction defects such as oligodactyly; also lacks hirsutism, feeding difficulties, and cardiac defects."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.04,
+     "for": "Exhibits facial features seen in CdLS spectrum such as synophrys, highly arched eyebrows, anteverted nares, short nose, and clinodactyly.",
+     "against": "Macrodontia of central incisors and psychosis are distinctive for KBG syndrome, and key features like microcephaly, long philtrum, and growth retardation were explicitly absent."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.02,
+     "for": "Presents with microcephaly, short stature, postnatal growth retardation, intellectual disability, long philtrum, and small hands.",
+     "against": "Synophrys and clinodactyly are recorded as absent, and facial features like nevus flammeus and smooth philtrum point toward alternative etiologies."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.01,
+     "for": "Shows anteverted nares, short nose, short stature, clinodactyly, and heart malformations.",
+     "against": "Marked mesomelia, rib fusions, and hemivertebrae strongly point to Robinow syndrome, and classic CdLS lip and philtrum features are recorded absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical descriptions of specific BRD4 variant cases highlighting the precise distinctions between classic CdLS (NIPBL-related) and non-classic CdLS 6, including expected limb, renal, and neurodevelopmental severity.",
+   "tokens_in": 2421,
+   "tokens_out": 4060,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.9,
+     "for": "Exhibits facial and systemic features characteristic of non-classic CdLS including highly arched eyebrows, long philtrum, thin upper lip vermilion, frontal hirsutism, ptosis, atrial septal defect, renal anomalies, and 5th finger clinodactyly.",
+     "against": "Lacks classic CdLS hallmarks such as synophrys/thick eyebrows, depressed nasal bridge, and microcephaly, though this milder atypical profile is characteristic of BRD4 variants."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.04,
+     "for": "Presents with prominent CdLS-like dysmorphisms including synophrys, highly arched eyebrows, short nose, anteverted nares, and 5th finger clinodactyly.",
+     "against": "The presence of permanent maxillary central incisor macrodontia suggests KBG syndrome, while classic CdLS features like long philtrum, microcephaly, and intrauterine growth retardation are explicitly absent."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.03,
+     "for": "Displays marked pre- and postnatal growth retardation, micrognathia, cleft palate, and severe limb anomalies (oligodactyly, clinodactyly).",
+     "against": "Hirsutism is recorded absent, and severe limb reduction defects like oligodactyly are more suggestive of Roberts syndrome or classic severe CdLS1 rather than non-classic CDLS6."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.015,
+     "for": "Demonstrates postnatal growth restriction, microcephaly, long philtrum, intellectual disability, and small hands.",
+     "against": "Synophrys and clinodactyly are recorded absent, which strongly argues against CdLS spectrum disorders."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.015,
+     "for": "Presents with developmental delay/intellectual disability, hypotonia, failure to thrive, and anteverted nares.",
+     "against": "Has coarse facial features and a thick vermilion border (thin vermilion is recorded absent), along with absent clinodactyly of the 5th finger and micrognathia."
+    }
+   ],
+   "what_the_report_lacked": "The provided text lacked detailed phenotypic information and specific organ system involvement for CDLS6 (such as the non-classic facial gestalt, cardiac/renal malformations, and behavioral manifestations associated with BRD4 mutations).",
+   "tokens_in": 2421,
+   "tokens_out": 3958,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.88,
+     "for": "Demonstrates the non-classic Cornelia de Lange phenotype characteristic of CDLS6 (BRD4), including highly arched eyebrows, long philtrum, thin upper lip vermilion, frontal hirsutism, short stature, clinodactyly of the 5th finger, cardiac defect (ASD), renal anomalies, and mild intellectual disability with ADHD.",
+     "against": "Features typical of classic CdLS such as thick eyebrows, microcephaly, depressed nasal bridge, and short nose are recorded as absent, though this milder/atypical presentation is precisely consistent with BRD4 variants."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.05,
+     "for": "Presents with classic CdLS-overlapping facial features such as synophrys, highly arched eyebrows, anteverted nares, and clinodactyly of the 5th finger alongside developmental delay.",
+     "against": "Macrodontia of permanent maxillary central incisors and psychosis are hallmark features of KBG syndrome, while microcephaly and intrauterine growth retardation are explicitly absent."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.04,
+     "for": "Exhibits intrauterine and postnatal growth retardation, global developmental delay, micrognathia, cleft palate, and severe limb reduction defects (oligodactyly, clinodactyly, syndactyly) typical of severe cohesinopathies.",
+     "against": "Severe reduction defects like oligodactyly are typical of classic NIPBL-related CdLS or Roberts syndrome rather than CDLS6, and hirsutism is recorded as absent."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.015,
+     "for": "Shows intellectual disability, failure to thrive, anteverted nares, and hypotonia.",
+     "against": "Features coarse facial characteristics, wide mouth, and thick vermilion border, while classic CdLS features like thin vermilion border and clinodactyly are recorded as absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.015,
+     "for": "Shares mild features like thin upper lip vermilion, ptosis, clinodactyly, and global developmental delay.",
+     "against": "Prominent spastic paraplegia and central sleep apnea are atypical for CdLS6, and characteristic signs like microcephaly, short stature, thick eyebrows, and anteverted nares are explicitly absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed phenotypic delineations of BRD4-specific presentations (such as the frequency of renal abnormalities, typical non-classic craniofacial contours, and absence of major limb reductions) that differentiate CDLS6 from classic CdLS subtypes.",
+   "tokens_in": 2421,
+   "tokens_out": 4508,
+   "round": 3
+  }
+ ]
+}

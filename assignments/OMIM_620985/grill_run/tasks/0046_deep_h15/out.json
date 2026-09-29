@@ -1,0 +1,100 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While Karayol et al. (2024) report a cohort of 25 individuals with de novo MSL2 variants and qualitatively list vision problems among secondary features observed 'to a lesser extent' (alongside seizures, sleep disturbance, and connective tissue signs), the specific quantitative range of 25% to 45% (6/25 to 11/25) cannot be verified from the provided source text. Furthermore, pediatric ophthalmic literature indicates that refractive errors and strabismus occur at baseline frequencies of 25% to 44% in clinic-referred pediatric populations and non-specific developmental cohorts, which conflicts with using non-specific vision problems as a reliable discriminating feature against other chromatinopathies without detailed structural eye phenotyping.",
+  "evidence": [
+    {
+      "text": "In a cohort of 25 individuals with de novo heterozygous MSL2 variants, global developmental delay, intellectual disability, hypotonia, and motor coordination problems were core features, while vision problems, seizures, connective tissue disease signs, sleep disturbance, and other organ anomalies were reported 'to a lesser extent'.",
+      "stance": "neutral",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.018",
+        "pmid": null,
+        "pmc": "PMC11267526",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Refractive errors were present in 44.4% and strabismus in 38% of children presenting to a pediatric ophthalmic clinic, demonstrating that general refractive/strabismus issues have a high baseline prevalence in pediatric patients.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A clinic-based study of refractive errors, strabismus, and ...",
+        "authors": [
+          "ER Al-Tamimi"
+        ],
+        "year": 2015,
+        "journal": "Journal of Family and Community Medicine",
+        "doi": "10.4103/2230-8229.163031",
+        "pmid": "26392796",
+        "pmc": "PMC4558737",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4558737/",
+        "quote": "Refractive errors accounted for 44.4% of the cases, the predominant refractive error being hypermetropia which represented 83%. Strabismus and amblyopia were present in 38% and 9.1% of children, respectively."
+      },
+      "numbers": [
+        {
+          "metric": "refractive error percentage",
+          "value": 44.4
+        },
+        {
+          "metric": "strabismus percentage",
+          "value": 38
+        }
+      ]
+    },
+    {
+      "text": "In children with Down syndrome, strabismus prevalence reached 29% to 41% and significant refractive errors occurred in the majority of individuals, illustrating that non-specific ocular alignment and refractive anomalies are standard across diverse neurodevelopmental disorders.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Development of Refractive Error and Strabismus in Children ...",
+        "authors": [
+          "M Cregg"
+        ],
+        "year": 2003,
+        "journal": "Investigative Ophthalmology & Visual Science",
+        "doi": "10.1167/iovs.01-0131",
+        "pmid": "12601024",
+        "pmc": null,
+        "url": "https://iovs.arvojournals.org/article.aspx?articleid=2123668",
+        "quote": "There is a high prevalence of strabismus in children with Down syndrome (29% of the total group), which cannot be attributed to the presence of hypermetropia or anisometropia."
+      },
+      "numbers": [
+        {
+          "metric": "Down syndrome strabismus percentage",
+          "value": 29
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The source text from Karayol et al. (2024) qualitatively confirms vision problems as a secondary feature occurring 'to a lesser extent', but does not provide an explicit numerator and denominator confirming the 6/25 to 11/25 (25% to 45%) range in the available extract.",
+    "Refractive errors and strabismus are highly prevalent in general pediatric and neurodevelopmental populations (25% to 45%), making non-specific visual problems non-discriminating unless defined by specific structural pathologies (e.g., coloboma, aniridia, or lacrimal duct anomalies)."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the exact granular breakdown and HPO terminology of ocular phenotypes (e.g., strabismus HP:0000486, astigmatism HP:0000483, myopia HP:0000545, or structural anomalies) in the supplementary data of Karayol et al. (2024)?",
+      "rationale": "Clarifying the specific numerators and denominators for distinct ocular sub-phenotypes is required to validate the exact penetrance in MSL2 syndrome.",
+      "promise": 0.9,
+      "est_cost": 100
+    },
+    {
+      "question_text": "Do individuals with MSL2 syndrome systematically lack major structural anterior/posterior segment malformations (e.g., coloboma, optic nerve hypoplasia) compared to Wiedemann-Steiner or Rubinstein-Taybi syndromes?",
+      "rationale": "A negative predictive marker (absence of structural ocular malformations) provides much stronger differential diagnostic power than generic refractive errors.",
+      "promise": 0.85,
+      "est_cost": 250
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis attributes a cohort size of N=63 and specific phenotypic frequencies (e.g., intellectual disability 57/61, speech impairment 52/56, hypotonia 34/54) directly to Stolerman et al. (2019, DOI: 10.1002/ajmg.a.61173). However, the original Stolerman et al. (2019) study was an initial description of only 12 unrelated patients with de novo KDM6B alterations, not 63 individuals. The larger cohort of ~60-90 patients was described in subsequent collaborative follow-up literature (such as Rots et al. / Stolerman et al. 2023 in the American Journal of Human Genetics). Furthermore, the syndrome demonstrates significant clinical heterogeneity with lack of pathognomonic dysmorphic features, making identification solely from phenotype challenging without molecular testing.",
+  "evidence": [
+    {
+      "text": "Stolerman et al. (2019) reported on a cohort of 12 unrelated patients (rather than 63) with de novo alterations in KDM6B who presented with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+        "authors": [
+          "ES Stolerman",
+          "E Francisco",
+          "JL Stallworth"
+        ],
+        "year": 2019,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.61173",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+        "quote": "We have identified a number of de novo alterations in the KDM6B gene via whole exome sequencing (WES) in a cohort of 12 unrelated patients with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings."
+      },
+      "numbers": [
+        {
+          "metric": "Stolerman 2019 cohort size",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Expanded multi-center studies describing the clinical and molecular spectrum of KDM6B-related neurodevelopmental disorder note cognitive deficits consistently, but emphasize that the overall phenotype is highly variable without reliable pathognomonic features, observing coarse facies in only 4% and mild distal skeletal signs in 9%.",
+      "stance": "neutral",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Top",
+          "F Di Cara",
+          "RJ Louie",
+          "E Stolerman"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "cohort with only 4% incidence of coarse facies and 9% incidence of very mild distal \u2026 -phenotype correlation observed that could explain the variable expressivity of clinical phenotypes."
+      },
+      "numbers": [
+        {
+          "metric": "incidence of coarse facies",
+          "value": "4%"
+        },
+        {
+          "metric": "incidence of mild distal abnormalities",
+          "value": "9%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Stolerman et al. (2019) describes 12 patients, contradicting the hypothesis claim that Stolerman et al. (2019) evaluated an N=63 cohort with the cited denominators."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What are the exact phenotype frequencies and denominators in the expanded 2023 international KDM6B cohort (Rots/Stolerman et al.) versus the original 2019 cohort?",
+      "rationale": "Clarifying the denominators in the expanded cohort will allow accurate reporting of diagnostic sensitivity for specific HPO terms across both studies.",
+      "promise": 0.85,
+      "est_cost": 0.05
+    },
+    {
+      "question_text": "Can machine learning or gestalt facial analysis reliably distinguish Stolerman syndrome from other chromatin-modifier neurodevelopmental disorders?",
+      "rationale": "Because facial dysmorphisms lack a single pathognomonic sign and overlap with other epigenetic syndromes, objective facial gestalt classification could determine whether phenotypic distinction alone is feasible.",
+      "promise": 0.75,
+      "est_cost": 0.12
+    }
+  ]
+}

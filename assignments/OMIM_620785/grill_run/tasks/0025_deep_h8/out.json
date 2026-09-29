@@ -1,0 +1,75 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from the largest comprehensive cohort of ACBD6 deficiency (45 affected individuals across 28 families reported by Kaiyrzhanov et al., 2024) directly confirms that dystonia is present in 94% of patients and progressive postural deformities in 97%, whereas parkinsonism/hypokinesia occurs in only 32% of individuals and develops with advancing age. Furthermore, hyperkinetic movement disorder landscape analyses (Morales-Brice\u00f1o et al.) emphasize axial dystonia rather than parkinsonism as the primary diagnostic hallmark of recessive ACBD6 variants in pediatric neurodevelopmental cohorts. No literature refutes these phenotypic frequencies.",
+  "evidence": [
+    {
+      "text": "In a multicenter international cohort of 45 individuals with bi-allelic ACBD6 pathogenic variants, dystonia was observed in 94% (42/45), early-onset progressive postural deformities in 97%, while parkinsonism/hypokinesia was detected in only 32% (14/44 assessable) and emerged with advancing age.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders."
+      },
+      "numbers": [
+        {
+          "metric": "dystonia_frequency_percentage",
+          "value": 94
+        },
+        {
+          "metric": "postural_deformity_frequency_percentage",
+          "value": 97
+        },
+        {
+          "metric": "parkinsonism_hypokinesia_frequency_percentage",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "text": "Review and data-driven clustering of hyperkinetic movement disorders in neurodevelopmental syndromes identify axial dystonia as a key phenotypic finding suggesting recessive ACBD6 mutations.",
+      "stance": "supports",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "suggest recessive ACBD6 mutations, where axial dystonia is"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the precise median age of onset and progression rate of hypokinesia/parkinsonism in adult ACBD6 patients compared to the onset of axial dystonia?",
+      "rationale": "Clarifying the longitudinal transition from pure hyperkinetic dystonic-ataxic syndrome to dystonia-parkinsonism will guide age-stratified clinical diagnostics and surveillance.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does dopaminergic imaging (e.g., DaTscan) show pre-synaptic nigrostriatal deficit in ACBD6 patients who develop hypokinesia versus those who exhibit purely hyperkinetic dystonia?",
+      "rationale": "Determining whether parkinsonism in older ACBD6 patients reflects progressive nigrostriatal degeneration or downstream network dysfunction will inform trial design for dopaminergic therapies.",
+      "promise": 0.8,
+      "est_cost": 60000
+    }
+  ]
+}

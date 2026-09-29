@@ -1,0 +1,47 @@
+{
+  "knowledge": "Neurodevelopmental disorder with progressive movement abnormalities (OMIM #620785) is an autosomal recessive condition caused by biallelic loss-of-function or pathogenic missense variants in the ACBD6 gene (encoding Acyl-CoA Binding Domain Containing 6). ACBD6 functions in acyl-CoA handling and works closely with N-terminal myristoylation machinery (NMT1/NMT2). Clinically, individuals present in infancy or early childhood with global developmental delay and motor delay, followed by the emergence of a complex, progressive movement disorder that frequently features prominent dystonia, choreoathetosis, spasticity, parkinsonism, and ataxia. Neuroradiological findings often reveal progressive cerebral or cerebellar atrophy, thinning of the corpus callosum, and variable basal ganglia involvement.",
+  "prior_hypothesis": "ACBD6-related disorder (OMIM #620785) can be clinically suspected when an infant or young child presents with early neurodevelopmental delay followed by an insidious, progressive mixed extrapyramidal movement disorder\u2014predominantly generalized or focal dystonia combined with choreoathetosis and parkinsonian features\u2014in the absence of early severe systemic involvement, acute metabolic crises, or early peripheral neuropathy. Brain MRI demonstrating progressive non-specific cerebral and cerebellar atrophy with preserved myelination patterns further narrows the differential from primary mitochondrial, lysosomal, or neurodegeneration with brain iron accumulation (NBIA) disorders.",
+  "candidate_answers": [
+    {
+      "answer": "Biallelic loss-of-function variants in ACBD6 lead to global developmental delay (HP:0001263) and intellectual disability in nearly all reported patients, accompanied by progressive dystonia (HP:0001332) and choreoathetosis (HP:0001266) manifesting between early infancy and adolescence.",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotypes and frequency"
+    },
+    {
+      "answer": "The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "confidence": 0.75,
+      "aspect": "Discriminative features versus clinical phenocopies"
+    },
+    {
+      "answer": "Extraneural visceral organomegaly, severe primary sensory-motor peripheral polyneuropathy, and acute episodic metabolic ketoacidosis or hyperammonemia are absent across reported ACBD6 cohorts, making their presence an exclusionary or strong counter-indicator.",
+      "confidence": 0.8,
+      "aspect": "Negative or exclusionary clinical findings"
+    },
+    {
+      "answer": "Complete loss-of-function (nonsense, frameshift, canonical splice-site) variants across ACBD6 cause a severe, early-onset phenotype, whereas hypomorphic missense variants in the acyl-CoA binding domain may lead to a slower progression with later-onset dystonia.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlations"
+    }
+  ],
+  "key_terms": [
+    "ACBD6",
+    "OMIM #620785",
+    "Global developmental delay (HP:0001263)",
+    "Dystonia (HP:0001332)",
+    "Choreoathetosis (HP:0001266)",
+    "Parkinsonism (HP:0001300)",
+    "Cerebellar atrophy (HP:0001272)",
+    "N-myristoylation pathway"
+  ],
+  "open_questions": [
+    "What are the exact published cohort sizes, exact numerators and denominators for dystonia, ataxia, chorea, and microcephaly across primary discovery papers?",
+    "Does brain MRI consistently show basal ganglia signal abnormalities or iron accumulation, or are imaging findings restricted to volume loss and white matter thinning?",
+    "Are there any reported adult-onset or non-syndromic presentations of ACBD6 variants?",
+    "Are specific facial dysmorphic features recurrent and identifiable across distinct ancestral backgrounds?"
+  ],
+  "assumptions": [
+    "OMIM #620785 represents a discrete monogenic entity driven strictly by biallelic mutations in ACBD6.",
+    "The clinical presentation is dominated by central nervous system extrapyramidal and cognitive manifestations rather than systemic, hepatic, or cardiac failure.",
+    "Literature reports for ACBD6 are primarily derived from small family pedigrees and targeted international cohort studies published within the last 5 years."
+  ]
+}

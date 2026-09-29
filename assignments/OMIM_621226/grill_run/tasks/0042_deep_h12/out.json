@@ -1,0 +1,75 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not substantiate a strict correlation between the appearance of cerebellar dysarthria and a disease duration of >10 years in TUBA4A-associated spastic ataxia (SPAX11). In the primary describing study (Torella et al., 2023), dysarthria is described inconsistently across affected individuals and is not universally present even in long-standing disease, nor is there systematic prospective or cross-sectional natural history data establishing a 10-year threshold before bulbar/speech manifestations can emerge.",
+  "evidence": [
+    {
+      "text": "Torella et al. identified the TUBA4A p.Glu415Lys variant in two families (12 affected individuals total) causing spastic ataxia. While disease duration spanned from short duration to up to 33 years, dysarthria was documented only inconsistently rather than following a strict temporal timeline exceeding 10 years.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": "37418012",
+        "pmc": "PMC10511369",
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000). The phenotype, not previously described, is that of spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals in family 1",
+          "value": 11
+        },
+        {
+          "metric": "affected individuals in family 2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "General cohorts of hereditary ataxia show marked clinical and temporal heterogeneity, demonstrating that spastic ataxia phenotypes frequently display variable rates of dysarthria progression across differing genetic etiologies.",
+      "stance": "neutral",
+      "source": {
+        "title": "The molecular landscape of hereditary ataxia: a single-center study",
+        "authors": [
+          "E Bregant",
+          "E Betto",
+          "C Dal Secco",
+          "J Zucco",
+          "F Baldan"
+        ],
+        "year": 2025,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-025-02744-y",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-025-02744-y",
+        "quote": "Indeed, patients displaying pure cerebellar ataxia, spastic ataxia ... represent a diagnostic challenge due to their diverse phenotypes and genetic etiologies."
+      },
+      "numbers": [
+        {
+          "metric": "total hereditary ataxia cohort size",
+          "value": 70
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "No prospective or natural history study demonstrates that dysarthria emerges strictly after 10 years of disease duration in SPAX11; dysarthria expression is variable rather than strictly time-dependent."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic cross-sectional frequency and onset timing of speech/bulbar involvement across all known TUBA4A mutation carriers?",
+      "rationale": "Standardized longitudinal speech assessments and SARA speech subscores across multi-center cohorts are necessary to define whether dysarthria onset correlates with duration, variant locus, or overall disease severity.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

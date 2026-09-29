@@ -1,0 +1,98 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from Popov et al. (2019) and recent RASopathy reviews (Scorrano et al., 2023; Rauen et al., 2024) confirms that specific gain-of-function missense variants in YWHAZ (specifically p.Ser230Trp) hyperactivate the RAF-MEK-ERK pathway and produce a phenotype overlapping cardiofaciocutaneous (CFC) syndrome. While earlier series noted that non-gain-of-function or loss-of-function YWHAZ variants in Popov-Chang syndrome lacked cardiac defects, the presentation of CFC-spectrum phenotypes associated with activating YWHAZ variants establishes that congenital heart defects can indeed occur within the phenotypic spectrum of pathogenic YWHAZ variants. Therefore, the presence of congenital cardiac anomalies cannot serve as an absolute exclusionary criterion against YWHAZ-related disease.",
+  "evidence": [
+    {
+      "text": "Popov et al. characterized the de novo YWHAZ p.Ser230Trp variant in a proband with a cardiofaciocutaneous syndrome phenotype, establishing through functional Xenopus assays that S230W acts as a gain-of-function mutation activating the RAF-ERK cascade.",
+      "stance": "supports",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous Syndrome Activates the RAF-ERK Pathway",
+        "authors": [
+          "IK Popov",
+          "SM Hiatt",
+          "S Whalen",
+          "B Keren",
+          "C Chang"
+        ],
+        "year": 2019,
+        "journal": "Frontiers in Physiology",
+        "doi": "10.3389/fphys.2019.00388/full",
+        "pmid": null,
+        "pmc": "PMC6465419",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+        "quote": "Our data provide strong support to the hypothesis that the S230W variant of YWHAZ is a gain-of-function mutation in the RAS-ERK pathway and may underlie a CFC phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "Proband cohort with S230W CFC phenotype",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Cardiofaciocutaneous syndrome is an autosomal dominant RASopathy characterized by cardiac abnormalities, distinct facies, and ectodermal defects, and YWHAZ is recognized as an atypical causative gene within this pathway alongside BRAF, MAP2K1, MAP2K2, and KRAS.",
+      "stance": "supports",
+      "source": {
+        "title": "The Cardiofaciocutaneous Syndrome: From Genetics to Prognostic\u2013Therapeutic Implications",
+        "authors": [
+          "G Scorrano",
+          "E David",
+          "E Cal\u00ec",
+          "R Chimenz",
+          "S La Bella"
+        ],
+        "year": 2023,
+        "journal": "Genes",
+        "doi": "10.3390/genes14122111",
+        "pmid": "38136934",
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/14/12/2111",
+        "quote": "It is an autosomal dominant syndrome, with complete penetrance, caused by heterozygous pathogenic variants in the genes BRAF, MAP2K1/MEK1, MAP2K2/MEK2, KRAS or, rarely, YWHAZ, all part of the RAS-MAPK pathway."
+      },
+      "numbers": [
+        {
+          "metric": "Core genes identified causing CFC",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Popov et al. observed that among several other evaluated individuals carrying different YWHAZ variants, cardiac and cutaneous abnormalities were absent, indicating that cardiac defects are variant-specific rather than universal across all YWHAZ-associated presentations.",
+      "stance": "neutral",
+      "source": {
+        "title": "A YWHAZ variant associated with cardiofaciocutaneous syndrome activates the RAF-ERK pathway",
+        "authors": [
+          "IK Popov",
+          "SM Hiatt",
+          "S Whalen",
+          "B Keren"
+        ],
+        "year": 2019,
+        "journal": "Frontiers in Physiology",
+        "doi": "10.3389/fphys.2019.00388/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00388/full",
+        "quote": "none has cardiac or skin abnormalities"
+      },
+      "numbers": [
+        {
+          "metric": "Evaluated non-S230W individuals without cardiac anomalies",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Most individuals described with classic Popov-Chang syndrome (OMIM #618428) exhibit neurodevelopmental delay and dysmorphism without cardiac malformations (0/4 in comparison cohorts), whereas specific gain-of-function variants like p.Ser230Trp elicit full CFC-spectrum manifestations including cardiac involvement."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic structural and biochemical threshold for YWHAZ variants to switch from loss-of-function/haploinsufficiency (neurodevelopmental phenotype without cardiac defects) to gain-of-function RAF activation (CFC-like phenotype with cardiac involvement)?",
+      "rationale": "Clarifying the genotype-phenotype boundary will allow clinicians to predict whether a novel YWHAZ variant carries congenital cardiac risk requiring echocardiographic surveillance.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

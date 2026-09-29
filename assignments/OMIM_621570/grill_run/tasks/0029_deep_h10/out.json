@@ -1,0 +1,105 @@
+{
+  "verdict": "supported",
+  "rationale": "Across the definitive cohort describing Cornelia de Lange syndrome 7 (CdLS7) caused by pathogenic MAU2 variants (18 individuals carrying 15 heterozygous variants), short stature and microcephaly constitute the hallmark clinical features, spanning classic craniofacial dysmorphism to milder presentations without severe structural transverse limb reduction defects (such as oligodactyly, forearm aplasia, or absence of the ulna/radius). In contrast to classic CdLS (primarily driven by NIPBL variants), where severe upper-limb reduction anomalies occur in roughly 25% of affected individuals, individuals with disruptions affecting the MAU2 cohesin loader subunit do not present with severe structural limb reductions (0/18 in the primary MAU2 series). Consequently, the presence of severe structural limb reduction defects yields a very low diagnostic likelihood of MAU2-related CdLS (CdLS7).",
+  "evidence": [
+    {
+      "text": "Characterization of 18 individuals with 15 heterozygous MAU2 variants established that affected individuals display phenotypes ranging from classic CdLS to milder presentations, with short stature and microcephaly identified as the consistent primary features, without severe structural transverse limb reduction deficiencies.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "L de Polli Cellin",
+          "AR Clause",
+          "AA de Lima Jorge"
+        ],
+        "year": 2026,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-71177-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features."
+      },
+      "numbers": [
+        {
+          "metric": "MAU2 individuals evaluated",
+          "value": 18
+        },
+        {
+          "metric": "heterozygous MAU2 variants reported",
+          "value": 15
+        },
+        {
+          "metric": "prevalence of severe limb reduction anomalies in MAU2 cohort",
+          "value": "0/18"
+        }
+      ]
+    },
+    {
+      "text": "In the broader Cornelia de Lange syndrome population, severe limb reduction abnormalities (e.g., complete absence of elbow and forearms, oligodactyly) characterize approximately 25% of individuals, typically associated with severe classic forms, whereas milder forms and alternative non-NIPBL cohesin loader disruptions present with less severe limb involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+        "authors": [
+          "MA Deardorff",
+          "SE Noon",
+          "ID Krantz"
+        ],
+        "year": 2020,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": "NBK1104",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+        "quote": "Severe abnormalities of the upper extremities are seen in 25% of individuals with CdLS. Upper extremity deficiencies range from subtle phalangeal abnormalities to oligodactyly."
+      },
+      "numbers": [
+        {
+          "metric": "CdLS overall severe upper extremity abnormality prevalence",
+          "value": "25%"
+        }
+      ]
+    },
+    {
+      "text": "Investigation of missense mutations altering the minimal NIPBL-MAU2 interaction domain in CdLS demonstrated that patients with disrupted NIPBL-MAU2 binding lacked severe clinical limb reduction malformations, indicating that cohesin loader interaction defects do not typically induce severe transverse limb reductions.",
+      "stance": "supports",
+      "source": {
+        "title": "Isolated NIBPL missense mutations that cause Cornelia de Lange syndrome alter MAU2 interaction",
+        "authors": [
+          "D Braunholz",
+          "M Hullings",
+          "MC Gil"
+        ],
+        "year": 2012,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/ejhg2011175",
+        "quote": "For example, none of the patients in this report have severe..."
+      },
+      "numbers": [
+        {
+          "metric": "prevalence of severe limb defects among patients with NIPBL-MAU2 binding mutations",
+          "value": "0%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of minor digital anomalies (such as fifth-finger clinodactyly or subtle brachydactyly) in expanded MAU2 patient cohorts compared to classic NIPBL and SMC1A cohorts?",
+      "rationale": "While severe structural limb reductions (absent forearms/oligodactyly) appear to be absent in MAU2 variants, determining whether minor digit anomalies occur at high frequency would refine the clinical scoring algorithm for CdLS7.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "How do MAU2 truncating versus in-frame variants differentiate in craniofacial severity score and growth restriction?",
+      "rationale": "De Polli Cellin et al. noted two distinct episignatures corresponding to in-frame variants impairing NIPBL interaction versus truncating variants causing haploinsufficiency, which may correlate with distinct phenotypic sub-clusters.",
+      "promise": 0.78,
+      "est_cost": 35000
+    }
+  ]
+}

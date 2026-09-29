@@ -1,0 +1,36 @@
+{
+  "fields": [
+    {
+      "field": "Clinical phenotypes reported in affected individuals with GTF3C3-related neurodevelopmental disorder (OMIM #621201), including numerator and denominator per cohort (not just percentage), exact wording from the paper, and corresponding standard HPO term",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "PMID or DOI citation attached to each reported cohort and phenotype frequency",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating clinical findings present in most affected individuals but uncommon in overlapping disorders, along with the names of those disorders and the confidence level of the distinction",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Findings looked for and found absent in affected individuals whose presence would argue against the diagnosis",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Assessment of whether phenotype differs by variant type, variant position, age, or sex",
+      "covered": true,
+      "contributing_aspects": [
+        "Genotype-phenotype and demographic correlations"
+      ]
+    },
+    {
+      "field": "Any findings where one paper reports presence and another explicitly contradicts it",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

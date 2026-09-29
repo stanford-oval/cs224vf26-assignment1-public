@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_619656",
+ "omim": "OMIM:619656",
+ "disease": "Loeys-Dietz syndrome 6",
+ "gene": "SMAD2",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:53",
+ "report_chars": 1598,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Loeys-Dietz syndrome 6 (SMAD2, OMIM:619656):\n\n[1] Entry - #619656 - LOEYS-DIETZ SYNDROME 6; LDS6\nhttps://omim.org/entry/619656\nA number sign (#) is used with this entry because of evidence that Loeys-Dietz syndrome-6 (LDS6) is caused by heterozygous mutation in the SMAD2 gene (601366) ...\n\n[2] Loeys-Dietz Syndrome 6 (LDS6)\nhttps://www.malacards.org/card/loeys_dietz_syndrome_6\nIt is associated with heterozygous mutation in the SMAD2 gene on chromosome 18q21 and is inherited in an autosomal dominant pattern. ... 104 Mouse Phenotypes for ...\n\n[3] WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS\nhttps://www.loeysdietz.org/en/medical-information\nLDS is caused by genetic changes affecting the TGF-\u03b2 signaling pathway. The genes associated with LDS include TGFBR1, TGFBR2, SMAD2, SMAD3, TGFB2, and TGFB3, as ...\n\n[4] A mutation update on the LDS\u2010associated genes TGFB2/3 ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC5947146/\nby D Schepers \u00b7 2018 \u00b7 Cited by 206 \u2014 The Loeys\u2013Dietz syndrome (LDS) is a connective tissue disorder affecting the cardiovascular, skeletal, and ocular system. Most typically, LDS patients present ...\n\n[5] Genetics\nhttps://loeysdietzcanada.org/about-loeys-dietz-syndrome/genetics/\nLoeys-Dietz syndrome 6 (LDS6) caused by mutations in the SMAD2 gene (mothers against decapentaplegic homolog 2). Researchers continue to explore if and how the ...\n\n[6] Autosomal dominant by ClinGen submission information facts\nhttps://thegencc.org/submissions/SGC-107494.4\nSMAD2 was first reported in relation to autosomal dominant inheritance of Loeys-Dietz syndrome (LDS) and thoracic aortic aneurysm and dissection (TAAD) in 2015 ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 25.0, female)\n  observed: Retrognathia, Relative macrocephaly, Prominent nasal bridge, High palate, High myopia, Ectopia lentis, Proptosis, Intrauterine growth retardation, Small for gestational age, Generalized lipodystrophy, Arachnodactyly, Hyperextensibility of the finger joints, Dural ectasia, Reduced subcutaneous adipose tissue, Progeroid facial appearance, Bruising susceptibility, Mitral valve prolapse, Aortic root aneurysm, Prominent superficial veins, Kyphosis, Feeding difficulties\n  recorded ABSENT: Downslanted palpebral fissures, Low-set ears, Tall stature, Pectus excavatum, Reduced upper to lower segment ratio, Arthrogryposis multiplex congenita, Premature birth\n\nP02 (age None, male)\n  observed: Depressed nasal bridge, Retrognathia, Abdominal situs ambiguus, Levotransposition of the great arteries, Perimembranous ventricular septal defect, Pulmonary valve atresia, Pectus excavatum\n  recorded ABSENT: Pulmonary artery atresia, Anomalous pulmonary venous return, Bilateral trilobed lung, Bilobed right lung, Horseshoe kidney, Accessory spleen, Polysplenia, Midline liver, Intestinal malrotation, Bilateral superior vena cava, Interrupted inferior vena cava with azygous continuation, Preductal coarctation of the aorta, Hypoplastic aortic arch, Double outlet right ventricle, Patent ductus arteriosus, Pulmonic regurgitation, Left ventricular outflow tract obstruction, Dextrocardia, Atrial septal defect, Atrioventricular canal defect, Hypoplastic left ventricle, Abnormal atrial arrangement, Coronary sinus enlargement, Mitral atresia, Aortic valve atresia\n\nP03 (age 44.0, male)\n  observed: Retrognathia, High palate, Bifid uvula, Downslanted palpebral fissures, Arachnodactyly, Pes planus, Talipes equinovarus, Bruising susceptibility, Inguinal hernia, Aortic root aneurysm, Aortic dissection\n  recorded ABSENT: Hypertelorism, Scoliosis, Abnormal sternum morphology, Spondylolisthesis, Joint hypermobility, Striae distensae, Bicuspid aortic valve, Tall stature, Soft skin, Varicose veins\n\nP04 (age 7.0, male)\n  observed: Hypertelorism, Low-set ears, Micrognathia, Abnormal facial shape, Hypoparathyroidism, Sensorineural hearing impairment\n  recorded ABSENT: Blepharophimosis, Narrow nose, Cleft palate, Velopharyngeal insufficiency, Abnormality of the cardiovascular system, Decreased total T cell count, Global developmental delay, Polydactyly, Syndactyly, Short stature, Graves disease\n\nP05 (age 16.0, female)\n  observed: Arachnodactyly, High palate, Dental crowding, Scoliosis, Ectopia lentis, Myopia, Joint hypermobility, Tall stature\n  recorded ABSENT: Pectus carinatum, Pectus excavatum, Striae distensae, Limited elbow extension, Lens coloboma, Dolichocephaly, Pes planus, Inguinal hernia, Malar flattening, Deeply set eye, Retinal detachment, Disproportionate tall stature, Short stature, Stiff skin\n\nP06 (age 44.0, male)\n  observed: High palate, Striae distensae, Dilatation of the cerebral artery, Thoracic aortic aneurysm, Tall stature, Migraine, Hypertelorism, Bruising susceptibility\n  recorded ABSENT: Broad uvula, Dolichocephaly, Downslanted palpebral fissures, Abnormal sternum morphology, Congenital diaphragmatic hernia, Scoliosis, Arachnodactyly, Carotid artery dissection, Varicose veins, Abdominal aortic aneurysm, Spontaneous pneumothorax, Transient ischemic attack, Inguinal hernia, Pes planus, Arthralgia, Bifid uvula, Dermal translucency\n\nP07 (age 9.0, male)\n  observed: Arterial tortuosity, High palate, Micrognathia, Prominent nose, Malar flattening, Low-set ears, Bifid uvula, Joint hypermobility, Scoliosis, Pectus excavatum, Milia, Atrophic scars, Talipes equinovarus, Pes planus, Strabismus, Epicanthus, Downslanted palpebral fissures, Dural ectasia, Dilatation of the cerebral artery, Disproportionate tall stature\n  recorded ABSENT: Patent ductus arteriosus, Mitral regurgitation, Mitral valve prolapse, Cleft palate, Pectus carinatum, Arachnodactyly, Genu valgum, Soft skin, Bruising susceptibility, Dermal translucency, Blue sclerae, Inguinal hernia, Recurrent joint dislocation, Osteoarthritis, Cervical spine instability, Varicose veins, Food allergy, Reduced bone mineral density, Keratoconus\n\nP08 (age 14.0, male)\n  observed: Hypertelorism, Bifid uvula, Vertebral artery tortuosity, Carotid artery tortuosity, Aortic root aneurysm, Dilatation of superior mesenteric artery, Aortic dissection, Hemopericardium, Aortic regurgitation, Chest pain\n  recorded ABSENT: (none recorded)\n\nP09 (age 24.0, male)\n  observed: Aortic root aneurysm, Mitral valve prolapse, Patent foramen ovale, Pectus carinatum, Cleft palate, Bifid uvula, Talipes equinovarus, Pes planus, Hypertelorism\n  recorded ABSENT: Aortic rupture, Abdominal aortic aneurysm, Ascending aortic dissection, Pectus excavatum, Scoliosis, Motor delay, Short stature, Soft skin, Bruising susceptibility\n\nP10 (age 39.0, male)\n  observed: Thin vermilion border, Gingival recession, Narrow nasal ridge, Bruising susceptibility, Spontaneous pneumothorax, Absent earlobe, Dermal translucency, Arterial rupture, Small joint hypermobility\n  recorded ABSENT: Colon perforation, Talipes equinovarus, Congenital hip dislocation, Aortic rupture, Aortic dissection, Arterial dissection, Carotid cavernous fistula, Tendon rupture\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.55,
+     "for": "Exhibits classic hallmarks of Loeys-Dietz syndrome including thoracic aortic aneurysm and dissection (TAAD), widespread arterial tortuosity, and craniofacial signs (bifid uvula and hypertelorism).",
+     "against": "Lacks explicitly recorded skeletal or ocular manifestations mentioned in the report's general description of LDS."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.2,
+     "for": "Features thoracic aortic aneurysm and dissection (TAAD), bifid uvula, and connective tissue/skeletal involvement (arachnodactyly, talipes equinovarus).",
+     "against": "Hypertelorism is explicitly recorded as absent, and arterial tortuosity is not noted."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.12,
+     "for": "Shows cardiovascular disease with an aortic root aneurysm, characteristic craniofacial LDS features (hypertelorism, cleft palate, bifid uvula), and skeletal findings (pectus carinatum, clubfoot).",
+     "against": "Aortic dissection is recorded as absent, which is a major defining feature of LDS/SMAD2-related TAAD highlighted in the report."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.08,
+     "for": "Presents with thoracic aortic aneurysm, dilatation of cerebral arteries, hypertelorism, and tall stature.",
+     "against": "Bifid uvula and broad uvula are explicitly recorded as absent, with no skeletal or ocular deformities."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.05,
+     "for": "Displays prominent vascular and craniofacial LDS features such as arterial tortuosity, dilatation of the cerebral artery, bifid uvula, and extensive skeletal findings.",
+     "against": "Lacks thoracic aortic aneurysm and dissection, the primary cardiovascular manifestation associated with SMAD2 in the provided evidence."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed, specific phenotypic delineations distinguishing LDS6 (SMAD2) from other LDS types (TGFBR1/2, SMAD3, TGFB2/3), such as the specific prevalence of arterial tortuosity, craniofacial severity, or age of onset of dissection.",
+   "tokens_in": 2054,
+   "tokens_out": 3054,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.75,
+     "for": "Presents classic manifestations of Loeys-Dietz syndrome including aortic root aneurysm, early-onset aortic dissection with hemopericardium, widespread arterial tortuosity (carotid and vertebral), dilatation of the superior mesenteric artery, hypertelorism, and a bifid uvula.",
+     "against": "None of the cardinal features of Loeys-Dietz syndrome are recorded as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.12,
+     "for": "Features signature craniofacial and systemic characteristics of Loeys-Dietz syndrome, including bifid uvula, cleft palate, hypertelorism, aortic root aneurysm, and talipes equinovarus.",
+     "against": "Lacks arterial tortuosity or non-aortic aneurysms, and ascending aortic dissection is recorded as absent."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.06,
+     "for": "Demonstrates aortic root aneurysm and dissection alongside typical connective tissue findings such as bifid uvula, arachnodactyly, and talipes equinovarus.",
+     "against": "Hypertelorism, which is one of the classic triad signs of Loeys-Dietz syndrome, is recorded as absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Shows marked arterial tortuosity, bifid uvula, skeletal findings (scoliosis, talipes equinovarus, pectus excavatum), and cerebral artery dilatation.",
+     "against": "Aortic aneurysm and aortic dissection are not identified, and prominent dermal features suggest alternative connective tissue diagnoses."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Presents with thoracic aortic aneurysm, dilatation of cerebral artery, and hypertelorism.",
+     "against": "Bifid uvula is explicitly recorded as absent, as are arterial tortuosity and other hallmark skeletal signs."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical and phenotypic summaries specifically distinguishing LDS6 (SMAD2) from other LDS types (e.g., TGFBR1/2, TGFB2/3, SMAD3), including specific prevalence rates of visceral aneurysms, arterial tortuosity patterns, and exact age-of-onset distributions for SMAD2-related dissections.",
+   "tokens_in": 2054,
+   "tokens_out": 1984,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.75,
+     "for": "Demonstrates hallmark features of Loeys-Dietz syndrome including craniofacial findings (hypertelorism, bifid uvula), widespread arterial tortuosity (carotid and vertebral arteries), visceral artery involvement (superior mesenteric artery dilatation), and severe aortic disease (aortic root aneurysm, dissection, and hemopericardium).",
+     "against": "Lacks reported skeletal manifestations often seen across the Loeys-Dietz syndrome spectrum, such as pectus deformity, scoliosis, or foot deformities."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.12,
+     "for": "Presents with quintessential Loeys-Dietz features including aortic root aneurysm, bifid uvula, cleft palate, hypertelorism, and talipes equinovarus.",
+     "against": "Lacks documented arterial tortuosity and peripheral/cerebral vascular aneurysms; explicitly recorded as negative for aortic dissection."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.06,
+     "for": "Exhibits aortic root aneurysm and aortic dissection together with bifid uvula, talipes equinovarus, and retrognathia.",
+     "against": "Explicitly lacks hypertelorism, joint hypermobility, and scoliosis, and lacks documentation of systemic arterial tortuosity."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Features prominent arterial tortuosity, cerebral arterial dilatation, bifid uvula, dural ectasia, and skeletal findings characteristic of LDS.",
+     "against": "Aortic aneurysm or dissection is not observed, and several vascular complications typical of LDS are absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Presents with thoracic aortic aneurysm, dilatation of cerebral artery, and hypertelorism.",
+     "against": "Explicitly recorded as negative for bifid or broad uvula, arterial dissection, and skeletal manifestations."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical and molecular descriptions specifically distinguishing SMAD2-related Loeys-Dietz syndrome 6 from other LDS subtypes (such as TGFBR1/2, TGFB2/3, or SMAD3), including specific prevalence rates of branch vessel aneurysms versus craniofacial severity in LDS6.",
+   "tokens_in": 2054,
+   "tokens_out": 1797,
+   "round": 3
+  }
+ ]
+}

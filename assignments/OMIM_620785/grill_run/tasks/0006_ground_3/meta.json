@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Dystonia\" \"HP:0001332\" \"Human Phenotype Ontology\"",
+    "Human Phenotype Ontology HP 0001332 Dystonia term definition"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "35587627",
+      "title": "Expanded Genetic Spectrum and Variable Disease Onset in AOPEP\u2010Associated Dystonia",
+      "pmid": "35587627",
+      "doi": "10.1002/mds.29021",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mds.29021",
+      "abstract_chars": 0
+    },
+    {
+      "id": "33619735",
+      "title": "De novo variants in neurodevelopmental disorders\u2014experiences from a tertiary care center",
+      "pmid": "33619735",
+      "doi": "10.1111/cge.13946",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13946",
+      "abstract_chars": 1215
+    },
+    {
+      "id": "33776624",
+      "title": "Dystonia and Contractures are Potential Early Signs of CACNA1E-Related Epileptic Encephalopathy",
+      "pmid": "33776624",
+      "doi": "10.1159/000511926",
+      "url": "https://karger.com/msy/article-abstract/12/1/25/205101",
+      "abstract_chars": 1092
+    },
+    {
+      "id": "10.1101/2025.04.02.25325098.abstract",
+      "title": "Using Networks and Prior Knowledge to Uncover novel Rare Disease Phenotypes",
+      "pmid": null,
+      "doi": "10.1101/2025.04.02.25325098.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.04.02.25325098.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1186/s12859-022-05122-x",
+      "title": "PhenoExam: gene set analyses through integration of different phenotype databases",
+      "pmid": null,
+      "doi": "10.1186/s12859-022-05122-x",
+      "url": "https://link.springer.com/article/10.1186/s12859-022-05122-x",
+      "abstract_chars": 1713
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?31959;",
+      "title": "Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?31959;",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.gsea-msigdb.org/gsea/msigdb/cards/HP_DYSTONIA",
+      "title": "Human Gene Set: HP_DYSTONIA",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.gsea-msigdb.org/gsea/msigdb/cards/HP_DYSTONIA",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mseqdr.org/diag.php?3921;;",
+      "title": "MSeqDR Mitochondrial disease browser phenotype ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.org/diag.php?3921;;",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.orpha.net/en/disease/sign/98807",
+      "title": "Rare diseases > Clinical Signs and Symptoms",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.orpha.net/en/disease/sign/98807",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/clinvar/RCV003298030.1/",
+      "title": "NC_012920.1(MT-ND1):m.3697G>A AND multiple ... - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV003298030.1/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3272,
+  "output_tokens": 1766,
+  "usd": 0.00693,
+  "seconds": 18.5,
+  "ok": true
+}

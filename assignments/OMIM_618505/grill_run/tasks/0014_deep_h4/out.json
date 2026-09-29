@@ -1,0 +1,95 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits a distinct genotype-phenotype correlation in Stolerman neurodevelopmental syndrome (KDM6B-related disorder), suggesting that catalytic JmjC missense variants result in more severe intellectual disability, higher seizure penetrance, and pronounced structural anomalies compared to truncating variants. However, the definitive systematic cohort study evaluating the clinical and molecular spectrum of KDM6B (Rots et al., 2023) explicitly found no genotype-phenotype correlation explaining clinical severity or phenotypic manifestations between variant types (truncating vs. missense/in-frame indels). While missense mutations indeed cluster around the catalytic JmjC/Zn-finger domains, empirical cohort evaluations refute the existence of the hypothesized distinct, more severe clinical trajectory.",
+  "evidence": [
+    {
+      "text": "A comprehensive study characterizing the clinical and molecular spectrum of KDM6B-related disorder analyzed truncating variants as well as 11 missense/in-frame indels in or near the enzymatic JmjC or Zn-containing domains and explicitly concluded that there was no genotype-phenotype correlation observed.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Rots",
+          "TE Jakub",
+          "C Keung",
+          "A Jackson",
+          "S Banka"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "11 missense/in-frame indels located in or near the enzymatic JmJC or Zn-containing domain of KDM6B. \u2026 There was no genotype-phenotype correlation observed that could explain the"
+      },
+      "numbers": [
+        {
+          "metric": "missense or in-frame indels evaluated in or near the JmjC or Zn-containing domain",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Initial cohort characterization identified de novo KDM6B variants in 12 unrelated individuals, noting that missense alterations cluster specifically within the functional JmjC catalytic domain, but did not establish a distinct severe sub-phenotype regarding seizure penetrance or ID severity relative to truncating variants.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+        "authors": [
+          "ES Stolerman",
+          "E Francisco",
+          "JL Stallworth"
+        ],
+        "year": 2019,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.61173",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+        "quote": "Although the gene constraint metrics indicate that missense alterations are tolerated in this gene (missense \u2026 vidual's missense alterations are located in the JmjC catalytic"
+      },
+      "numbers": [
+        {
+          "metric": "unrelated patients evaluated",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "A clinical review confirmed that truncating alterations represent the prevalent class of genetic alteration distributed throughout KDM6B while missense variants cluster, yet wide phenotypic variability remains a hallmark without distinct variant-type dichotomies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cerebellar heterotopia in an 11\u2010year\u2010old child with KDM6B\u2010related neurodevelopmental disorder: A case report and review of the literature",
+        "authors": [
+          "D Politano",
+          "F D'Abrusco",
+          "L Pasca"
+        ],
+        "year": 2024,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63555",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63555",
+        "quote": "truncating variants represent the prevalent type of genetic alteration, and appear to be scat- tered throughout the gene, while missense and"
+      },
+      "numbers": [
+        {
+          "metric": "patient age in years",
+          "value": 11
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Prior assumptions hypothesized that catalytic domain missense variants cause a dominant-negative or more severe phenotype (higher seizure frequency, severe ID, CNS malformations), whereas large systematic cohort evaluations (Rots et al., 2023) find no significant genotype-phenotype correlation between truncating and missense variants."
+  ],
+  "confidence": 0.9,
+  "new_directions": [
+    {
+      "question_text": "Do specific missense variants in the catalytic iron-binding or alpha-ketoglutarate-binding residues of the JmjC domain exert dominant-negative vs. pure loss-of-function enzymatic effects in functional assays?",
+      "rationale": "Although gross clinical classification shows no broad genotype-phenotype correlation, functional biochemical profiling of specific JmjC active site substitutions may explain outlier clinical presentations such as structural brain heterotopias.",
+      "promise": 0.75,
+      "est_cost": 25000
+    }
+  ]
+}

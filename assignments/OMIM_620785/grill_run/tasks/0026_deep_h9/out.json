@@ -1,0 +1,85 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from Yeetong et al. (2022) and the large multi-center cohort by Kaiyrzhanov et al. (2023/2024) indicates that ACBD6 deficiency manifests primarily as a progressive neurodevelopmental and complex movement disorder. Across 45 individuals aged 1-50 years in Kaiyrzhanov et al., childhood presentations lacked recurrent paroxysmal acute metabolic decompensations (such as hyperammonemia, severe lactic acidosis, or organic aciduria-like crises), while overweight was observed in 59% (26/44) of evaluated individuals. The severe multi-organ visceral failure, including liver cirrhosis, diabetes mellitus, pancytopenia, and renal failure, was documented by Yeetong et al. in two Thai siblings harboring a homozygous truncating frameshift variant (c.360dup, p.Leu121Thrfs*27) who survived into adulthood and died in their early 30s, confirming these as late-onset progressive/chronic multi-system complications rather than early childhood acute metabolic crises.",
+  "evidence": [
+    {
+      "text": "Two Thai siblings with ACBD6 deficiency carrying a homozygous frameshift variant (c.360dup; p.Leu121Thrfs*27) presented with morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to death in their early 30s.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome A Case Report",
+        "authors": [
+          "P Yeetong"
+        ],
+        "year": 2022,
+        "journal": "Neurology: Genetics",
+        "doi": "10.1212/NXG.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s. Molecular studies identified a novel homozygous 1 base-pair duplication (c.360dup; p.Leu121Thrfs*27) in the ACBD6 gene."
+      },
+      "numbers": [
+        {
+          "metric": "Affected siblings with late visceral failure",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 45 affected individuals aged 1 to 50 years across 28 unrelated families with biallelic ACBD6 variants, core manifestations were progressive neurodevelopmental and movement disorders without paroxysmal organic aciduria-like childhood decompensations; overweight was present in 59%.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%), oculomotor (71%) and behavioural abnormalities (65%), overweight (59%), microcephaly (39%) and epilepsy (33%)."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 45
+        },
+        {
+          "metric": "Families",
+          "value": 28
+        },
+        {
+          "metric": "Overweight frequency",
+          "value": "59%"
+        },
+        {
+          "metric": "Global developmental delay / intellectual disability frequency",
+          "value": "100%"
+        },
+        {
+          "metric": "Movement disorders frequency",
+          "value": "97%"
+        },
+        {
+          "metric": "Dystonia frequency",
+          "value": "94%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Is the systemic visceral failure (cirrhosis, pancytopenia, renal failure) allele-specific to c.360dup or a cumulative consequence of prolonged morbid obesity and metabolic dysregulation in older adult survivors?",
+      "rationale": "Kaiyrzhanov et al. included adult patients up to age 50 without universally reporting multi-organ failure, whereas Yeetong et al. observed death from multi-organ failure in their early 30s. Longitudinal metabolic tracking across aging ACBD6 cohorts will clarify allele-specific versus age-dependent disease mechanisms.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "knowledge": "Developmental and epileptic encephalopathy 119 (DEE119, OMIM #621304) is an ultra-rare, recently delineated severe neurodevelopmental disorder associated with de novo non-coding RNA variants in RNU2-2 (or related small nuclear RNA locus, following recent breakthroughs identifying snRNA-associated neurodevelopmental disorders such as RNU4-2 and RNU2-2). Typical presentations of DEEs involve early-onset drug-resistant seizures (such as infantile spasms, focal seizures, or myoclonic seizures), profound global developmental delay/intellectual disability, hypotonia, microcephaly or poor head growth, cortical visual impairment, and non-specific dysmorphic features. Because non-coding snRNA genes have only recently been analyzed in large genome-sequencing cohorts (such as the 100,000 Genomes Project and international DEE consortia), detailed phenotype-genotype tables with exact HPO frequencies across multi-center cohorts are actively emerging.",
+  "prior_hypothesis": "DEE119 cannot be reliably distinguished from other monogenic early-onset DEEs (e.g., STXBP1, SCN1A, KCNQ2, or RNU4-2-related DEE) by clinical phenotype alone, as the hallmark features (infantile-onset refractory epilepsy, severe developmental regression/arrest, axial hypotonia, and microcephaly) overlap broadly across epileptic encephalopathies. However, a pattern of early infantile epileptic spasms or tonic seizures paired with severe secondary microcephaly, stereotypic hand movements, and lack of structural brain malformations on MRI increases clinical suspicion in whole-genome negative DEE cases.",
+  "candidate_answers": [
+    {
+      "answer": "Global developmental delay / intellectual disability (HP:0001263) and intractable early-onset seizures (HP:0001250) are present in virtually all (>90-95%) documented individuals with RNU2-2-associated DEE119.",
+      "confidence": 0.9,
+      "aspect": "Core clinical phenotype frequency"
+    },
+    {
+      "answer": "Progressive or postnatal microcephaly (HP:0005484) and severe axial hypotonia (HP:0008936) are present in over 60-80% of affected patients.",
+      "confidence": 0.75,
+      "aspect": "Neurological phenotype frequency"
+    },
+    {
+      "answer": "No single clinical finding uniquely discriminates DEE119 from other severe non-coding or coding DEEs (such as RNU4-2-related neurodevelopmental disorder, CDKL5 deficiency, or STXBP1 encephalopathy); diagnosis requires molecular genetic confirmation via whole-genome sequencing.",
+      "confidence": 0.85,
+      "aspect": "Phenotypic discrimination"
+    },
+    {
+      "answer": "Normal developmental milestones prior to seizure onset or completely normal baseline EEG in infancy are expected to be absent in affected individuals; their presence strongly argues against DEE119.",
+      "confidence": 0.8,
+      "aspect": "Exclusionary findings"
+    },
+    {
+      "answer": "Variants cluster at specific, invariant functional bases (e.g., branchpoint recognition or spliceosomal catalytic core interaction domains of the snRNA), with recurrent de novo single nucleotide changes exhibiting highly congruent, severe phenotypes across sexes.",
+      "confidence": 0.7,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "DEE119",
+    "OMIM #621304",
+    "RNU2-2",
+    "U2 small nuclear RNA (snRNA)",
+    "Developmental and epileptic encephalopathy",
+    "Spliceosomopathy",
+    "Infantile spasms (HP:0012461)",
+    "Postnatal microcephaly (HP:0005484)",
+    "Axial hypotonia (HP:0008936)"
+  ],
+  "open_questions": [
+    "What are the precise published cohort sizes (numerators and denominators) and exact HPO frequencies in the primary discovery papers defining DEE119 (OMIM #621304)?",
+    "Does RNU2-2-related encephalopathy have distinguishing dysmorphic, ocular, or skeletal features compared to RNU4-2-associated neurodevelopmental disorder?",
+    "Are there recurrent hotspot positions in RNU2-2 (analogous to the 18-bp structural element hotspots seen in RNU4-2), and do specific variants correlate with milder or non-epileptic presentations?",
+    "What specific EEG patterns (e.g., hypsarrhythmia, burst-suppression, multifocal epileptiform discharges) predominate in the reported cohorts?",
+    "Have any contradictory clinical findings been described between initial case series regarding structural neuroimaging abnormalities (e.g., cerebral atrophy or delayed myelination vs. normal initial MRI)?"
+  ],
+  "assumptions": [
+    "OMIM #621304 specifically corresponds to Developmental and epileptic encephalopathy 119 and is linked to the RNU2-2 locus.",
+    "The clinical presentation adheres to standard DEE criteria including severe psychomotor delay and medically refractory seizures beginning in infancy or early childhood.",
+    "Phenotypic documentation in the literature is derived primarily from high-throughput whole-genome sequencing cohort studies identifying non-coding snRNA mutations."
+  ]
+}

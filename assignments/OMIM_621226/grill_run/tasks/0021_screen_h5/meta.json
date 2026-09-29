@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TUBA4A\" \"spastic ataxia\" \"cerebellar atrophy\"",
+    "TUBA4A spastic ataxia cerebellar atrophy Torella Benkirane MRI"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "10.1007/s00415-023-11816-w",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+      "pmid": null,
+      "doi": "10.1007/s00415-023-11816-w",
+      "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+      "abstract_chars": 716
+    },
+    {
+      "id": "PMC13014175",
+      "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+      "abstract_chars": 1783
+    },
+    {
+      "id": "10.1093/brain/awag059/8475507",
+      "title": "Missense variants in TUBA4A cause myo-tubulinopathies",
+      "pmid": null,
+      "doi": "10.1093/brain/awag059/8475507",
+      "url": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag059/8475507",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s00439-025-02744-y",
+      "title": "The molecular landscape of hereditary ataxia: a single-center study",
+      "pmid": null,
+      "doi": "10.1007/s00439-025-02744-y",
+      "url": "https://link.springer.com/article/10.1007/s00439-025-02744-y",
+      "abstract_chars": 1897
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/38884572/",
+      "title": "De novo and inherited monoallelic variants in TUBA4A ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38884572/",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "https://mayoclinic.elsevierpure.com/en/publications/de-novo-and-inherited-monoallelic-variants-in-tuba4a-cause-ataxia",
+      "title": "De novo and inherited monoallelic variants in TUBA4A cause ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mayoclinic.elsevierpure.com/en/publications/de-novo-and-inherited-monoallelic-variants-in-tuba4a-cause-ataxia",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "10.1093/hmg/ddag084/8778799",
+      "title": "mouse model of autosomal dominant spastic ataxia and ...",
+      "pmid": null,
+      "doi": "10.1093/hmg/ddag084/8778799",
+      "url": "https://academic.oup.com/hmg/article/doi/10.1093/hmg/ddag084/8778799",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://hal.science/hal-04615151v1",
+      "title": "De novo and inherited monoallelic variants in TUBA4A ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://hal.science/hal-04615151v1",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "https://hal.science/hal-04615151v1/file/2024%20Benkirane%20et%20al.%2C%20De%20novo%20and%20inherited.pdf",
+      "title": "De novo and inherited monoallelic variants in TUBA4A ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://hal.science/hal-04615151v1/file/2024%20Benkirane%20et%20al.%2C%20De%20novo%20and%20inherited.pdf",
+      "abstract_chars": 1398
+    }
+  ],
+  "input_tokens": 5813,
+  "output_tokens": 1642,
+  "usd": 0.00783,
+  "seconds": 10.4,
+  "ok": true
+}

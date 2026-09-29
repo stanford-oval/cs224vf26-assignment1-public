@@ -1,0 +1,140 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While neuroimaging and clinical features such as cerebellar vermis/hemispheric atrophy, thin corpus callosum, hypotonia, and optic/retinal abnormalities are confirmed manifestations in GTPBP2 deficiency (Manoochehri et al., 2024; Carter et al., 2019; Gregory et al., 2025), claiming this constellation is the primary discriminator against PLA2G6 disorders or spastic paraplegias is contradicted by the literature. PLA2G6-associated neurodegeneration (INAD/PLAN) presents with an almost identical neurological phenotype (infantile hypotonia evolving to spasticity, early cerebellar atrophy, optic atrophy, and corpus callosum thinning, with brain iron accumulation). The literature establishes that GTPBP2 deficiency is a neuro-ectodermal syndrome where distinctive ectodermal dysplasia (notably sparse hair in 26/28 individuals) and skeletal abnormalities constitute key discriminating hallmarks separating it from PLA2G6 and isolated pontocerebellar hypoplasias.",
+  "evidence": [
+    {
+      "text": "In a comprehensive literature review of 28 individuals with Jaberi-Elahi syndrome, the most prevalent clinical phenotypes were motor developmental delay (26/28), sparse hair (26/28), speech disorders (24/28), intellectual disability (23/28), hypotonia (23/28), skeletal abnormalities (23/28), and visual impairment (18/28).",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+      },
+      "numbers": [
+        {
+          "metric": "motor_development_delay_frequency",
+          "value": "26/28"
+        },
+        {
+          "metric": "sparse_hair_frequency",
+          "value": "26/28"
+        },
+        {
+          "metric": "speech_disorder_frequency",
+          "value": "24/28"
+        },
+        {
+          "metric": "intellectual_disability_frequency",
+          "value": "23/28"
+        },
+        {
+          "metric": "hypotonia_frequency",
+          "value": "23/28"
+        },
+        {
+          "metric": "skeletal_problems_frequency",
+          "value": "23/28"
+        },
+        {
+          "metric": "visual_impairment_frequency",
+          "value": "18/28"
+        }
+      ]
+    },
+    {
+      "text": "GTPBP2 biallelic loss-of-function variants produce a distinct neuro-ectodermal syndrome characterized by prenatal onset microcephaly, tone abnormalities, movement disorders, epilepsy, dysmorphic features, retinal dysfunction, ectodermal dysplasia, and progressive brain iron accumulation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical delineation of GTPBP2-associated neuro-ectodermal syndrome: Report of two new families and review of the literature",
+        "authors": [
+          "MT Carter",
+          "S Venkateswaran"
+        ],
+        "year": 2019,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13523",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13523",
+        "quote": "Key features of this clinically recognizable condition include prenatal onset microcephaly, tone abnormalities, and movement disorders, epilepsy, dysmorphic features, retinal dysfunction, ectodermal dysplasia, and brain iron accumulation."
+      },
+      "numbers": [
+        {
+          "metric": "new_families_described",
+          "value": 2
+        },
+        {
+          "metric": "new_individuals_described",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "GTPBP2 is classified as a rare cause of neurodegeneration with brain iron accumulation (NBIA), which directly overlaps with PLA2G6-associated neurodegeneration (PLAN/INAD), both demonstrating early cerebellar atrophy and progressive iron accumulation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Neurodegeneration with brain iron accumulation",
+        "authors": [
+          "SA Schneider"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/B9780443191763000558",
+        "quote": "GTPBP2 mutations 20 are another rare cause of NBIA, sometimes referred to as Jaberi-Elahi ... In PLAN neuroimaging shows cerebellar atrophy occurring in early stages of INAD"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Selective cerebellar vermis hypoplasia and atrophy with thin corpus callosum are documented in NBIA disorders, and GTPBP2 variants are recognized as an NBIA etiology alongside PLA2G6.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodegeneration with brain iron accumulation disorders overview",
+        "authors": [
+          "A Gregory",
+          "MA Kurian",
+          "J Wilson"
+        ],
+        "year": 2025,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK121988/",
+        "quote": "hypoplasia & selective cerebellar atrophy of vermis, thin"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that cerebellar atrophy, thin corpus callosum, hypotonia-to-spasticity, and optic atrophy are the most discriminating features separating GTPBP2 disorders from PLA2G6; however, PLA2G6-associated neurodegeneration (INAD/PLAN) presents with this exact combination of early cerebellar atrophy, optic atrophy, corpus callosum thinning, and hypotonia transitioning to spasticity/rigidity.",
+    "The hypothesis omits ectodermal dysplasia and sparse hair, even though systematic literature reviews demonstrate sparse hair is present in 26/28 (93%) of GTPBP2 patients and represents the primary clinical feature distinguishing Jaberi-Elahi neuro-ectodermal syndrome from purely neurological mimic conditions like PLA2G6 and PCH."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic sensitivity and specificity of ectodermal dysplasia (specifically trichological findings) in discriminating GTPBP2-related disorder from PLA2G6-associated neurodegeneration in infants presenting with cerebellar atrophy?",
+      "rationale": "Because neuroimaging findings and motor regression substantially overlap between GTPBP2 and INAD/PLAN, establishing the diagnostic power of ectodermal markers can avoid diagnostic delay before genetic confirmation.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "At what median age does brain iron accumulation become detectable on gradient-echo/SWI MRI in patients with GTPBP2 pathogenic variants?",
+      "rationale": "Carter et al. noted that iron accumulation is age-dependent and may be absent in infancy/early childhood; determining the temporal imaging trajectory will clarify when GTPBP2 mimics PCH versus classic NBIA.",
+      "promise": 0.8,
+      "est_cost": 30000.0
+    }
+  ]
+}

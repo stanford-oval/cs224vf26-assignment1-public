@@ -1,0 +1,92 @@
+{
+  "verdict": "supported",
+  "rationale": "The defining cohort study of Karayol-Borroto-Haghshenas neurodevelopmental syndrome (Karayol et al., 2024; OMIM #620985) delineating 25 individuals with heterozygous de novo MSL2 variants demonstrates that motor dysfunction is prominent in almost all affected individuals (motor delay in 21/25, accompanied by hypotonia, gait disturbance, coordination difficulties, and feeding problems). Conversely, seizures occur in a minority (9/25, ~36%) and are characterized as occurring 'to a lesser extent' rather than presenting as severe early intractable epileptic encephalopathy or progressive spasticity, thereby supporting the phenotypic distinction of MSL2-related neurodevelopmental disorder from other severe MSL/NSL complex disorders.",
+  "evidence": [
+    {
+      "text": "In a cohort of 25 individuals with heterozygous de novo MSL2 variants, clinical presentation featured global developmental delay, intellectual disability, hypotonia, and motor issues including coordination problems, feeding difficulties, and gait disturbance, whereas seizures occurred to a lesser extent.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #620985 confirms that motor delay was documented in 21 individuals while seizures were reported in 9 individuals across the characterized patient cohort.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #620985 - KARAYOL-BORROTO-HAGHSHENAS NEURODEVELOPMENTAL SYNDROME; KBHNDS",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620985",
+        "quote": "Twenty-one patients had motor delay, Nine patients had seizures seizures, and behavioral abnormalities including self-injurious and aggressive ..."
+      },
+      "numbers": [
+        {
+          "metric": "motor_delay_count",
+          "value": 21
+        },
+        {
+          "metric": "seizures_count",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "Functional models and reviews of KAT8 and MSL complex disorders emphasize that KAT8- and MSL3-related presentations frequently involve severe epigenetic loss of H4K16ac associated with prominent epilepsy, whereas MSL2 patient iPSCs maintain global H4K16ac levels and exhibit a distinct clinical profile.",
+      "stance": "supports",
+      "source": {
+        "title": "KAT8-mediated epigenetic modifications: Physiological functions, heterogeneity in disease, and advances in targeted development",
+        "authors": [
+          "Z Wang",
+          "G Ren",
+          "P Gao"
+        ],
+        "year": 2026,
+        "journal": "iScience",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/iscience/fulltext/S2589-0042(26)02056-0",
+        "quote": "by intellectual disability and epilepsy.Aberrant KAT8-mediated \u2026 H4K16ac and interacts with ataxia telangiectasia mutated"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the detailed semiology, age of onset, and drug-responsiveness of seizures in the subset of MSL2 patients who develop epilepsy compared to KAT8/MSL3 cohorts?",
+      "rationale": "Although only 9 of 25 patients exhibited seizures, precise electroclinical phenotyping will determine whether MSL2 seizures represent benign/focal events or can evolve into epileptic encephalopathy under specific genetic modifiers.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does the severity of coordination deficit and cerebellar-like gait ataxia correlate with specific MSL2 protein domains (e.g., RING vs CXC/coiled-coil domains) or episignature intensity?",
+      "rationale": "Clarifying domain-specific genotype-phenotype correlations could explain why motor coordination problems and hypotonia predominate over spasticity in this syndrome.",
+      "promise": 0.8,
+      "est_cost": 40000.0
+    }
+  ]
+}

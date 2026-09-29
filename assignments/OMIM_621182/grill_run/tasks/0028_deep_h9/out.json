@@ -1,0 +1,144 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents an unresolved mechanistic conflict regarding the inheritance pattern and pathogenicity model of NAV3 in neurodevelopmental disorders (OMIM #621182). Multiple consanguineous families with biallelic complete loss-of-function variants (homozygous nonsense, frameshift, and essential splice-site variants) establish an autosomal recessive model where heterozygous carrier parents are documented as completely unaffected, arguing against simple haploinsufficiency as sufficient to cause the full syndromic presentation. However, other foundational studies (such as Ghaffar et al., 2024 and cohorts cited in Kakar et al., 2025) report affected individuals harboring monoallelic de novo heterozygous variants, including not only missense but also monoallelic protein-truncating variants (frameshift, nonsense, splice-site). Functional rescue assays in zebrafish and overexpression assays demonstrate dominant cellular and loss-of-function phenotypes without definitive confirmation of a pure dominant-negative vs. haploinsufficiency threshold mechanism.",
+  "evidence": [
+    {
+      "text": "Biallelic frameshift variant (c.2604_2605delAG; p.Val870SerfsTer12) in exon 12 of NAV3 identified in an affected patient with recessive neurodevelopmental disorder, resulting in significantly decreased NAV3 mRNA expression, with unaffected heterozygous carrier parents.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "WES revealed a bi-allelic frameshift variant (c.2604_2605delAG; p.Val870SerfsTer12) in exon 12 of the NAV3 gene. Furthermore, RT-qPCR revealed a significant decrease in the NAV3 mRNA expression in the patient sample"
+      },
+      "numbers": [
+        {
+          "metric": "affected probands",
+          "value": 1
+        },
+        {
+          "metric": "homozygous frameshift variants",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Five patients across three consanguineous families harbored homozygous protein-truncating nonsense and splice-site variants (p.Gln2109Ter, p.Arg2193Ter, c.243+1G>T) segregating an autosomal recessive neurodevelopmental disorder, while heterozygous carrier parents were unaffected.",
+      "stance": "supports",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD... ES revealed two homozygous nonsense c.6325C > T; p.(Gln2109Ter) and c.6577C > T; p.(Arg2193Ter) and a homozygous splice site (c.243 + 1G > T) variants in the NAV3"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 5
+        },
+        {
+          "metric": "consanguineous families",
+          "value": 3
+        },
+        {
+          "metric": "homozygous nonsense/splice variants",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Eleven individuals from seven families exhibited intellectual disability, microcephaly, and behavioral abnormalities harboring predicted pathogenic biallelic, de novo, and heterozygous variants in NAV3, with functional assays showing microtubule instability and failure to rescue nav3 morphant phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": "Communications Biology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s42003-024-06466-1",
+        "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene, which encodes the microtubule positive tip protein neuron navigator 3 (NAV3). All affected individuals have intellectual disability (ID), microcephaly, skeletal deformities, ocular anomalies, and behavioral issues."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 11
+        },
+        {
+          "metric": "unrelated families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Identification of a novel biallelic missense variant (c.3430T>C; p.Ser1144Pro) in NAV3 in a patient with autosomal recessive neurodevelopmental disorder, demonstrating that recessive forms are not restricted solely to truncating variants.",
+      "stance": "neutral",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": "Current Medicinal Chemistry",
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "A novel biallelic missense variant in the NAV3 (c.3430T>C; p.Ser1144Pro) was detected using WGS and Sanger sequencing. Subsequently, 3D protein modeling revealed significant alterations in the secondary structure of NAV3"
+      },
+      "numbers": [
+        {
+          "metric": "affected probands",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Heterozygous carrier parents of homozygous severe truncating/frameshift variants (p.Val870SerfsTer12, p.Gln2109Ter, p.Arg2193Ter, c.243+1G>T) are phenotypically normal, demonstrating that 50% loss of NAV3 expression does not invariably cause the syndromic phenotype.",
+    "Multiple cohorts and sequencing series report de novo monoallelic variants\u2014including heterozygous truncating, nonsense, and splice-site variants in addition to missense variants\u2014in affected individuals with neurodevelopmental delay, arguing against the model that dominant disease is exclusively driven by dominant-negative missense alterations."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Do monoallelic de novo truncating variants escape nonsense-mediated decay (NMD) to produce stable truncated dominant-negative peptides, or do they induce variable penetrance of haploinsufficiency?",
+      "rationale": "Evaluating NMD efficiency across monoallelic vs. biallelic truncating variants will clarify whether monoallelic pathogenicity requires stable dominant-negative/neomorphic proteins or if modifier loci dictate penetrance in heterozygous carriers.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do missense variants in specific NAV3 domains (AAA ATPase vs. coiled-coil vs. CH domains) exhibit dominant-negative behavior in microtubule plus-end tracking and neurite outgrowth assays compared to null alleles?",
+      "rationale": "Systematic cellular co-expression assays of mutant and wild-type NAV3 can test whether pathogenic missense variants actively poison wild-type NAV3 oligomerization or microtubule plus-end binding.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

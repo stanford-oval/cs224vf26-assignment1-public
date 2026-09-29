@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"cerebellar ataxia\"",
+    "NFU1 spastic paraplegia phenotype cerebellar ataxia dysarthria SPG93"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41436-021-01250-6",
+      "title": "High rate of hypomorphic variants as the cause of inherited ataxia and related diseases: study of a cohort of 366 families",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41436-021-01250-6",
+      "abstract_chars": 1587
+    },
+    {
+      "id": "https://discovery.ucl.ac.uk/id/eprint/10174658/",
+      "title": "Defining the Genetic Causes of Rare Paediatric Neurological Diseases in Central Asian and Transcaucasian Populations",
+      "pmid": null,
+      "doi": null,
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10174658/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fnmol.2025.1548255/full",
+      "title": "Multi-omics-based phenotyping of AFG3L2-mutant lymphoblasts determines key factors of a pathophysiological interplay between mitochondrial vulnerability and\u00a0\u2026",
+      "pmid": null,
+      "doi": "10.3389/fnmol.2025.1548255/full",
+      "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2025.1548255/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://journals.lww.com/co-neurology/fulltext/2018/08000/Hereditary_ataxias_and_paraparesias__clinical_and.16.aspx",
+      "title": "Hereditary ataxias and paraparesias: clinical and genetic update",
+      "pmid": null,
+      "doi": null,
+      "url": "https://journals.lww.com/co-neurology/fulltext/2018/08000/Hereditary_ataxias_and_paraparesias__clinical_and.16.aspx",
+      "abstract_chars": 1324
+    },
+    {
+      "id": "10.1007/978-3-030-67727-5_27",
+      "title": "Disorders of Lipoic Acid and Iron-Sulfur Protein Metabolism",
+      "pmid": null,
+      "doi": "10.1007/978-3-030-67727-5_27",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-67727-5_27",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620938",
+      "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620938",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/20882",
+      "title": "Spastic paraplegia (Concept Id: C0037772)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/20882",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620538",
+      "title": "620538 - SPASTIC PARAPLEGIA 91, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620538",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genome.jp/dbget-bin/www_bget?hsa:51324+H00266",
+      "title": "KEGG T01001: 51324",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genome.jp/dbget-bin/www_bget?hsa:51324+H00266",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39304850",
+      "title": "Hereditary spastic paraplegia with cerebellar ataxia",
+      "pmid": "39304850",
+      "doi": "10.1186/s12883-024-03855-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15667412/",
+      "abstract_chars": 2565
+    }
+  ],
+  "input_tokens": 5278,
+  "output_tokens": 3728,
+  "usd": 0.01382,
+  "seconds": 18.6,
+  "ok": true
+}

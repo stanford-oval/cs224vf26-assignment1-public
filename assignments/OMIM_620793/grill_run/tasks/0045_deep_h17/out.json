@@ -1,0 +1,106 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While phenotypic characterization of SNUPN-related muscular dystrophy (LGMD R29) highlights prominent early axial and respiratory muscle weakness with restrictive respiratory failure as the primary driver of cardiopulmonary compromise, evidence shows cardiac muscle involvement can occur. Nashabat et al. noted rare cardiomyopathy among pediatric cohorts, and Dai et al. specifically reported an individual presenting with myocardial damage as the primary initial clinical manifestation of LGMD R29, contradicting the hypothesis that cardiac involvement is strictly secondary to respiratory pump failure or cor pulmonale.",
+  "evidence": [
+    {
+      "text": "In a cohort of 18 children from 15 unrelated families with biallelic SNUPN variants, patients demonstrated muscle weakness, respiratory insufficiency requiring respiratory assistance (leading to death in two patients), and documented rare cardiomyopathy alongside sarcolemmal component disruption.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+        "authors": [
+          "M Nashabat",
+          "N Nabavizadeh",
+          "HP Sara\u00e7o\u011flu"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1038/s41467-024-45933-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-45933-5",
+        "quote": "respiratory insufficiency requiring respiratory assistance; two (F3-II:4 and F7-II:1) died due to respiratory \u2026 weakness, respiratory abnormalities, and rare cardiomyopathy."
+      },
+      "numbers": [
+        {
+          "metric": "affected children evaluated",
+          "value": 18
+        },
+        {
+          "metric": "unrelated families",
+          "value": 15
+        },
+        {
+          "metric": "biallelic SNUPN variants identified",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "A clinical report describes a patient with limb-girdle muscular dystrophy type R29 presenting with myocardial damage as the initial clinical manifestation, suggesting primary cardiomyopathy can emerge independently of advanced respiratory failure.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report",
+        "authors": [
+          "Q Dai",
+          "X Hu",
+          "B Li",
+          "Q Peng"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+        "quote": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report"
+      },
+      "numbers": [
+        {
+          "metric": "patient count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Drosophila disease models of muscular dystrophy highlight that snurportin-1 homolog studies and related nuclear envelope/sarcolemmal-linked muscular dystrophies frequently entail cardiac complications, including cardiomyopathy and conduction defects.",
+      "stance": "neutral",
+      "source": {
+        "title": "Drosophila melanogaster: A Model Organism in Muscular Dystrophy Studies",
+        "authors": [
+          "Y Zhao",
+          "Y Wang",
+          "A Tulehalede",
+          "Z Meng",
+          "L Xu"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/26/4/1459",
+        "quote": "of human SNUPN in Drosophila, \u2026 cardiac complications. Typically, EDMD is characterized by muscle weakness, early contractures, cardiac conduction defects, and cardiomyopathy"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that cardiac dysfunction is exclusively restricted to secondary respiratory pump failure/cor pulmonale, but clinical reports document direct myocardial injury presenting as the initial manifestation of LGMD R29.",
+    "Nashabat et al. identify rare primary cardiomyopathy in pediatric patients with hypomorphic SNUPN mutations, challenging the idea that cardiac myocytes are entirely spared from snurportin-1 deficiency."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the incidence of subclinical myocardial fibrosis by cardiac MRI late gadolinium enhancement in adult and pediatric LGMD R29 cohorts?",
+      "rationale": "Prospective cardiac MRI profiling would clarify whether occult primary myocardial remodeling occurs independently of pulmonary hypertension or hypoxia.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do human iPSC-derived cardiomyocytes with SNUPN mutations exhibit Cajal body disintegration and sarcolemmal mis-splicing comparable to skeletal myofibers?",
+      "rationale": "Directly testing cardiomyocyte cell lines will determine if alternative nuclear import pathways genuinely compensate for SNUPN deficiency in cardiac muscle.",
+      "promise": 0.9,
+      "est_cost": 45000
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_617527",
+ "omim": "OMIM:617527",
+ "disease": "Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies",
+ "gene": "PLAA",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:53",
+ "report_chars": 1850,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies (PLAA, OMIM:617527):\n\n[1] Neurodevelopmental disorder with progressive microcephaly ...\nhttps://rarediseases.info.nih.gov/diseases/17960/neurodevelopmental-disorder-with-progressive-microcephaly-spasticity-and-brain-anomalies\nA rare genetic neurological disorder characterized by infantile onset of progressive leukoencephalopathy, microcephaly, severe global developmental delay, and ...\n\n[2] Entry - #617527 - NEURODEVELOPMENTAL DISORDER ...\nhttps://omim.org/entry/617527\n... PLAA gene (603873) on chromosome 9p21. \u25bd Description. Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies (NDMSBA) is ...\n\n[3] Neurodevelopmental disorder with progressive...\nhttps://www.ovid.com/journals/clge/fulltext/10.1111/cge.13608~neurodevelopmental-disorder-with-progressive-microcephaly\nby C Dai \u00b7 2019 \u00b7 Cited by 5 \u2014 Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies in China caused by novel mutations of PLAA. Congling Dai; Sicong ...\n\n[4] PLAA\nhttps://panelapp.genomicsengland.co.uk/panels/entities/PLAA\nRed PLAA in Severe microcephaly. Level 2: Neurology ... Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies 617527 ...\n\n[5] Neurodevelopmental disorder with progressive ...\nhttps://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13608\nby C Dai \u00b7 2019 \u00b7 Cited by 5 \u2014 PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated Endolysosomal degradation of synaptic ...\n\n[6] Neurodevelopmental Disorder with Progressive Microcephaly ...\nhttps://disorders.eyes.arizona.edu/disorders/neurodevelopmental-disorder-progressive-microcephaly-spasticity-and-brain-anomalies\nNeurodevelopmental Disorder with Progressive Microcephaly, Spasticity, and Brain Anomalies ... disorder results from homozygous mutations in the PLAA gene (9p21).\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 6.5, female)\n  observed: Thick vermilion border, Narrow forehead, Periventricular leukomalacia, Absent speech, Motor delay, Global developmental delay, Hyporeflexia, Hypotonia, Feeding difficulties\n  recorded ABSENT: Macroglossia, Gingival overgrowth, Coarse facial features, Sloping forehead, Tented upper lip vermilion, Upslanted palpebral fissure, Epicanthus, Hypertelorism, Synophrys, Prominent nasal bridge, Wide nasal bridge, Exaggerated cupid's bow, Anteverted nares, Bulbous nose, Prominent metopic ridge, Brachycephaly\n\nP02 (age 7.5, female)\n  observed: Aspiration, High, narrow palate, Microcephaly, Micrognathia, Optic disc pallor, Abnormal visual fixation, Hypsarrhythmia, Intellectual disability, Global developmental delay, Spasticity, Thin corpus callosum, Short stature, Failure to thrive, Axial hypotonia\n  recorded ABSENT: Seizure, Cerebral palsy, Appendicular spasticity, Cyanosis, Vomiting\n\nP03 (age 4.0, male)\n  observed: Short stature, Decreased body weight, Intrauterine growth retardation, Postnatal growth retardation, Epicanthus, Long philtrum, Telecanthus, Microcephaly, Broad nasal tip, Depressed nasal bridge, Downslanted palpebral fissures, Triangular face, Torticollis, Short chin, Posteriorly rotated ears, Low-set ears, Hyperactivity, Global developmental delay, Delayed ability to walk, Delayed speech and language development, Intellectual disability, Small hand, Deep palmar crease, Macrodontia\n  recorded ABSENT: Smooth philtrum, Synophrys, Wide nasal bridge, High palate, Seizure, Broad-based gait, Thin corpus callosum, Ventriculomegaly, Clinodactyly, Sacral dimple, Bilateral single transverse palmar creases, Atrial septal defect, Joint hypermobility, Broad hallux, Pes planus, Nevus flammeus of the forehead, Malar rash, Brachycephaly, Pointed chin, Malar flattening, Strabismus\n\nP04 (age 5.2, male)\n  observed: Epileptic spasm, Epileptic encephalopathy, Hypokinesia, Global developmental delay, Reduced eye contact, Narrow forehead, Upslanted palpebral fissure, Uplifted earlobe\n  recorded ABSENT: Optic atrophy, Thin corpus callosum, Cerebral atrophy, Generalized non-motor (absence) seizure, Bilateral tonic-clonic seizure, Generalized clonic seizure, Focal clonic seizure, Focal tonic seizure, Delayed CNS myelination, Decreased fetal movement, Round face, Frontal bossing, Short neck, Micrognathia, Anteverted nares\n\nP05 (age 1.5, male)\n  observed: Postaxial polydactyly, Hypotonia, Hypertonia, Thin corpus callosum, Delayed fine motor development, Delayed gross motor development, Absent speech, Cessation of head growth, Ventriculomegaly, Wide cavum septum pellucidum, Bulbar palsy, Global developmental delay, Delayed CNS myelination, Abnormal cortical gyration, Single transverse palmar crease, Optic atrophy, Coarse facial features, Micrognathia, Smooth philtrum, High palate, Low-set ears, Posteriorly rotated ears, Edema of the dorsum of feet\n  recorded ABSENT: Long philtrum, Short nose, Highly arched eyebrow, Narrow forehead, Deeply set eye, Edema of the dorsum of hands, Congenital hypothyroidism\n\nP06 (age 8.0, female)\n  observed: Microcephaly, Micrognathia, Hypertelorism, Generalized-onset seizure, Interictal EEG abnormality, Absent speech, Babinski sign, Brisk reflexes, Thin corpus callosum, Hypotonia, Poor head control\n  recorded ABSENT: (none recorded)\n\nP07 (age 13.0, female)\n  observed: Hypotonia, Delayed CNS myelination, Delayed ability to walk, Delayed speech and language development, Severe intellectual disability, Bicuspid aortic valve, Long hallux, Arachnodactyly, Joint hypermobility, Abnormal facial shape, Microcephaly\n  recorded ABSENT: Ventriculomegaly, Cerebral atrophy, Dysplastic corpus callosum, Periventricular leukomalacia, Chiari malformation, Cerebral palsy, Cerebellar vermis hypoplasia, Seizure, Mild intellectual disability, Moderate intellectual disability, Feeding difficulties, Pulmonic stenosis, Atrial septal defect, Coarctation of aorta, Ventricular septal defect, Persistent left superior vena cava, Left ventricular hypertrophy, Patent ductus arteriosus, Decreased body weight, Short stature\n\nP08 (age 15.0, female)\n  observed: Elbow contracture, Knee contracture, Global developmental delay, Delayed speech and language development, Motor delay, Intellectual disability, Scapular winging, Spinal rigidity, Scoliosis, Kyphosis, Ptosis, Facial hypotonia, Webbed neck, High palate, Gowers sign, Exercise-induced myalgia, Mildly elevated creatine kinase\n  recorded ABSENT: Adducted thumb, Joint hypermobility, Single transverse palmar crease, Narrow mouth, Microcephaly, Cerebral palsy, Cleft lip, Cleft palate, Ventricular septal defect, Secundum atrial septal defect, Semilobar holoprosencephaly, Parietal encephalocele, Seizure, Visual impairment, Diabetes insipidus, Oligohydramnios\n\nP09 (age None, female)\n  observed: Optic atrophy, Severe global developmental delay, Motor delay, Delayed speech and language development, Severe intellectual disability, Delayed CNS myelination, Coarse facial features, Depressed nasal bridge, Wide nose, Hypotonia\n  recorded ABSENT: Astigmatism, Retinal dystrophy, Hypertelorism, Strabismus, Hypermetropia, Myopia, Low-set ears, Mild intellectual disability, Seizure, Craniosynostosis, Retrognathia, Triangular face, Macroglossia, Wide mouth, Bifid uvula, Narrow palate, Prominent glabella, Sloping forehead, Epicanthus, Prominent nose\n\nP10 (age 2.2, female)\n  observed: Smooth philtrum, Triangular face, Microcephaly, Retinal arterial tortuosity, Caesarean section, Moderate to late preterm birth, Intracranial hemorrhage, Vitreous hemorrhage, Preretinal hemorrhage, Severe global developmental delay, Delayed speech and language development, Seizure, Spasticity, Hydrocephalus, Lateral ventricle dilatation, Periventricular leukomalacia, Thin corpus callosum, Short stature, Hypotonia\n  recorded ABSENT: Everted lower lip vermilion, Narrow palate, High palate, Broad forehead, Narrow forehead, Mandibular prognathia, Telecanthus, Upslanted palpebral fissure, Highly arched eyebrow, Wide nasal bridge, Anteverted nares, Bulbous nose, Primary microcephaly, Microretrognathia, Retinal detachment, Amblyopia, Posteriorly rotated ears, Polymicrogyria, Abnormal CNS myelination, Reduced cerebral white matter volume, Focal white matter lesions, Small for gestational age, Hammertoe, Talipes, Hypertrichosis (+1 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.85,
+     "for": "Demonstrates cessation of head growth (the hallmark progressive microcephaly), hypertonia/bulbar palsy, and prominent brain anomalies including delayed CNS myelination, thin corpus callosum, and ventriculomegaly.",
+     "against": "Seizures are not explicitly documented in the observed phenotype despite being frequently associated with PLAA-related encephalopathy."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.08,
+     "for": "Features microcephaly, spasticity, thin corpus callosum, global developmental delay, and hypsarrhythmia consistent with severe epileptic encephalopathy.",
+     "against": "Seizures and appendicular spasticity are explicitly recorded as absent, and microcephaly is not specified as progressive."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.04,
+     "for": "Presents with microcephaly, thin corpus callosum, brisk reflexes/Babinski sign reflecting upper motor neuron involvement, and generalized seizures.",
+     "against": "Lacks explicit confirmation of progressive leukoencephalopathy or delayed myelination, and the clinical description is relatively sparse."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.02,
+     "for": "Has microcephaly, spasticity, seizures, thin corpus callosum, and white matter involvement (periventricular leukomalacia).",
+     "against": "Extensive hemorrhages (intracranial, vitreous, preretinal) and preterm birth point strongly toward COL4A1/vascular perinatal pathology rather than primary PLAA deficiency."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.01,
+     "for": "Shows epileptic encephalopathy with epileptic spasms and global developmental delay.",
+     "against": "Key cardinal features of PLAA including thin corpus callosum, cerebral atrophy, and delayed myelination are explicitly recorded as absent."
+    }
+   ],
+   "what_the_report_lacked": "Serial occipital frontal circumference (OFC) trajectory measurements to definitively capture the postnatal progressive nature of the microcephaly, as well as specific neuroimaging details on white matter loss/leukoencephalopathy progression.",
+   "tokens_in": 2283,
+   "tokens_out": 1500,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P02",
+     "probability": 0.75,
+     "for": "Presents with the disease's core triad of microcephaly, spasticity, and brain anomalies (thin corpus callosum), alongside hypsarrhythmia indicating epileptic encephalopathy and optic disc pallor.",
+     "against": "Seizure is recorded as absent despite hypsarrhythmia, and appendicular spasticity is listed as absent despite generalized spasticity."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.12,
+     "for": "Features microcephaly, thin corpus callosum, seizures with interictal EEG abnormalities, and signs of upper motor neuron involvement (brisk reflexes, Babinski sign).",
+     "against": "Lacks an explicit diagnosis of spasticity and documentation of progressive leukoencephalopathy or optic nerve involvement."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.06,
+     "for": "Demonstrates progressive microcephaly (cessation of head growth), brain anomalies (thin corpus callosum, delayed myelination, abnormal gyration), bulbar palsy, and optic atrophy.",
+     "against": "The presence of postaxial polydactyly and pedal edema strongly suggests an alternative syndromic diagnosis such as a ciliopathy."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.04,
+     "for": "Exhibits microcephaly, spasticity, thin corpus callosum, seizures, and white matter involvement (periventricular leukomalacia).",
+     "against": "Extensive intracranial, retinal, and vitreous hemorrhages along with retinal arterial tortuosity are indicative of a vascular collagenopathy rather than NDMSBA."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.02,
+     "for": "Demonstrates early-onset epileptic encephalopathy with epileptic spasms and severe neurodevelopmental impairment.",
+     "against": "Key cardinal features of the disorder, specifically thin corpus callosum, delayed CNS myelination, and optic atrophy, are documented as absent."
+    }
+   ],
+   "what_the_report_lacked": "Serial occipital frontal circumference measurements to document whether the microcephaly was progressive/postnatal in onset, neuroimaging details explicitly characterizing progressive leukoencephalopathy/hypomyelination, and confirmation of biallelic pathogenic variants in PLAA.",
+   "tokens_in": 2283,
+   "tokens_out": 2558,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P02",
+     "probability": 0.7,
+     "for": "Demonstrates the core triad defining the condition: microcephaly, spasticity, and brain anomalies (thin corpus callosum), along with epileptic features (hypsarrhythmia), optic disc pallor, global developmental delay, and axial hypotonia.",
+     "against": "Recorded absence of overt clinical seizures (despite hypsarrhythmia) and appendicular spasticity."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.15,
+     "for": "Features microcephaly, structural brain abnormality (thin corpus callosum), seizures with interictal EEG abnormalities, and upper motor neuron signs (Brisk reflexes, Babinski sign).",
+     "against": "Lacks an explicit finding of spasticity (only hypotonia and hyperreflexia noted) and has no documented progressive course or leukoencephalopathy."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.08,
+     "for": "Presents with progressive microcephaly (cessation of head growth), multiple brain anomalies (delayed myelination, thin corpus callosum, ventriculomegaly), hypertonia, and optic atrophy.",
+     "against": "Presence of postaxial polydactyly and edema of the feet strongly points toward an alternative syndromic diagnosis."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.04,
+     "for": "Exhibits microcephaly, spasticity, seizures, severe global developmental delay, and white matter/brain anomalies (thin corpus callosum, periventricular leukomalacia).",
+     "against": "Presence of intracranial and retinal hemorrhages with retinal arterial tortuosity is characteristic of COL4A1/2-related angiopathy rather than PLAA deficiency."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.02,
+     "for": "Exhibits early-onset epileptic encephalopathy with epileptic spasms and global developmental delay.",
+     "against": "Recorded absence of microcephaly, thin corpus callosum, delayed CNS myelination, and optic atrophy."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed neuroimaging follow-up documenting progressive leukoencephalopathy, specific age-of-onset records for microcephaly to demonstrate its progressive nature, and targeted genetic testing data for the PLAA gene.",
+   "tokens_in": 2283,
+   "tokens_out": 4526,
+   "round": 3
+  }
+ ]
+}

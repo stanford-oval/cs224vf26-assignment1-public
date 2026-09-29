@@ -1,0 +1,116 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that severe congenital microcephaly and major structural congenital heart disease are typically absent in DHX9-related neurodevelopmental disorder and that their presence strongly argues against the diagnosis. However, clinical and genetic reports in the literature contradict this claim. Microcephaly is an established feature of severe DHX9-related phenotypes (specifically those harboring nuclear localization signal missense variants or group 2 severe neurodevelopmental disorders, as well as curated on Genomics England PanelApp). Furthermore, cardiac defects, including ventricular non-compaction cardiomyopathy and cardiac arrhythmias/cardiac concerns, have been documented in individuals harboring pathogenic de novo DHX9 variants.",
+  "evidence": [
+    {
+      "text": "In a study describing 20 individuals with de novo DHX9 variants, individuals with nuclear localization signal missense variants exhibited severe neurodevelopmental disorder phenotypes characterized by microcephaly and structural brain abnormalities, whereas mild/LoF cases lacked microcephaly.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "microcephaly or brain abnormalities, whereas group 2 contained the most severe phenotypes (severe DD/ID, \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "total individuals with de novo DHX9 variants",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "A patient with a de novo heterozygous missense variant p.(Gly414Arg) in the ATP-binding site of DHX9 presented with intellectual disability, short stature, and ventricular non-compaction cardiomyopathy, with corresponding cardiac conduction defects recapitulated in animal models.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Heterozygous loss-of-function DHX9 variants are associated with neurodevelopmental disorders: Human genetic and experimental evidences",
+        "authors": [
+          "M Yamada",
+          "Y Nitta",
+          "T Uehara",
+          "H Suzuki",
+          "F Miya"
+        ],
+        "year": 2023,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721223001106",
+        "quote": "Herein, we report a patients with a heterozygous de novo missense variant, p.(Gly414Arg) of DHX9 who presented with a short stature, intellectual disability, and ventricular non-compaction cardiomyopathy."
+      },
+      "numbers": [
+        {
+          "metric": "patient count with ventricular non-compaction cardiomyopathy",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Expert curation for Genomics England PanelApp lists 'Severe microcephaly' and 'Cardiac arrhythmias' among the recognized clinical phenotype associations for the DHX9 gene.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Activity",
+        "authors": [
+          "Genomics England PanelApp"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=DHX9",
+        "quote": "Cardiac arrhythmias, Cardiac arrhythmias ... Severe microcephaly, Severe multi-system atopic disease with ... Phenotypes for gene: DHX9 were set to ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Clinical reports note cardiac concerns, microcephaly, and abnormal brain MRI findings in individuals carrying pathogenic DHX9 variants.",
+      "stance": "contradicts",
+      "source": {
+        "title": "P415: Congenital methemoglobinemia with concurrent hemoglobin M and SC disease",
+        "authors": [
+          "M Dulchavsky",
+          "S Quinonez",
+          "S Singh"
+        ],
+        "year": 2026,
+        "journal": "Genetics in Medicine Open",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.gimopen.org/article/S2949-7744(26)00419-X/fulltext",
+        "quote": "cases with cardiac concerns in individuals with DHX9 variants\u2026 (ID), and autism; microcephaly and abnormal brain MRI"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that severe congenital microcephaly and major congenital heart disease are typically absent and argue against DHX9-related disorder, whereas published cohorts identify microcephaly in severe/NLS missense groups and document structural cardiomyopathy (ventricular non-compaction) and arrhythmias."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and spectrum of congenital cardiac anomalies (including cardiomyopathy and conduction abnormalities) in expanded DHX9 cohorts stratified by variant domain?",
+      "rationale": "Reports have identified ventricular non-compaction cardiomyopathy and cardiac arrhythmias in specific missense variants, but broader cohort data are required to establish systematic screening guidelines.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does microcephaly in DHX9-related neurodevelopmental disorder strictly correlate with nuclear localization signal (NLS) missense variants leading to cytoplasmic accumulation, versus loss-of-function variants?",
+      "rationale": "Calame et al. observed genotype-phenotype divergence where group 1 LoF variants lacked microcephaly while severe NLS missense variants caused microcephaly; verifying this across all known cases will refine genotype-guided prognostic counseling.",
+      "promise": 0.9,
+      "est_cost": 20000.0
+    }
+  ]
+}

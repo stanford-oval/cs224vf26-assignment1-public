@@ -1,0 +1,69 @@
+{
+  "patterns": [
+    {
+      "pattern": "Core hyperkinetic movement disorder manifestations occur at near-complete penetrance whereas secondary hypokinetic features show low age-dependent penetrance",
+      "abstraction": "In complex progressive neurodevelopmental movement disorders, high-penetrance early hyperkinetic signs form the invariant clinical baseline, whereas secondary hypokinetic or parkinsonian features reflect age-dependent evolution that cannot serve as an obligatory diagnostic requirement.",
+      "instance": "In ACBD6 deficiency, dystonia (42/45, 94%), early-onset postural deformities (43/45, 97%), and cerebellar ataxia (38/45, 85%) are near-universal across all age groups, whereas parkinsonism and hypokinesia manifest in only 32% (14/45) of patients as an age-dependent feature.",
+      "direction": "Longitudinal quantitative motor tracking from infancy to adulthood to determine the precise natural history and chronological progression from hyperkinetic dystonia to secondary hypokinesia.",
+      "support": "High across multi-center cohorts evaluated in 45 patients from 28 families.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders PMID:37951597",
+        "H Morales\u2010Brice\u00f1o et al. (2026) Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies 10.1002/mdc3.70683"
+      ],
+      "hypothesis": "Nigrostriatal dopaminergic failure in ACBD6 deficiency represents a delayed, cumulative consequence of chronic acyl-CoA disruption rather than a primary developmental defect in basal ganglia circuitry.",
+      "novelty": "Corrects a common diagnostic pitfall where classifying ACBD6 deficiency as a dystonia-parkinsonism syndrome leads clinicians to erroneously exclude younger patients who lack parkinsonism."
+    },
+    {
+      "pattern": "Selective midline commissural and focal posterior fossa dysgenesis provides higher discriminative specificity than motor phenomenology alone",
+      "abstraction": "When clinical movement disorder semiology overlaps broadly across multiple monogenic entities, focal structural commissural and brainstem neuroimaging features provide superior diagnostic specificity compared to the movement disorder examination.",
+      "instance": "ACBD6 deficiency exhibits corpus callosum hypoplasia/dysgenesis (70%), anterior commissure hypoplasia/agenesis (66%), short midbrain (38%), and small inferior vermis (38%), separating it from generalized pontocerebellar hypoplasias, NBIA disorders lacking commissural agenesis, and GNAO1- or NKX2-1-related hyperkinetic syndromes.",
+      "direction": "Development of standardized biometric neuroimaging screening protocols measuring anterior commissure caliber and midbrain-vermis dimensions in undiagnosed pediatric movement disorders.",
+      "support": "Moderate to strong support from systematic neuroimaging analysis across 45 confirmed patients.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders 10.1093/brain/awad380",
+        "M Ostrozovicova et al. (2026) Update on Genetic Chorea 10.1007/s11910-026-01502-5"
+      ],
+      "hypothesis": "ACBD6-dependent fatty acid acylation is uniquely critical for midline pioneer axon guidance and commissural decussation during mid-gestational neurodevelopment.",
+      "novelty": "Midline commissural dysgenesis, particularly anterior commissure agenesis, is rarely integrated into movement disorder diagnostic trees, yet outperforms movement phenomenology in separating phenocopies."
+    },
+    {
+      "pattern": "Extreme multiorgan decompensation reflects familial or secondary modifier background rather than the obligate natural history of the single-gene defect",
+      "abstraction": "Severe extraneural multiorgan failure initially reported in isolated pedigrees often represents background modifier loci or extreme end-stage sequelae rather than an obligate feature of the core monogenic syndrome.",
+      "instance": "Fatal hepatic cirrhosis, end-stage renal disease, diabetes mellitus, and refractory pancytopenia occurred exclusively in two adult siblings described by Yeetong et al., whereas the broader international cohort of 45 patients across 28 families showed overweight in 59% but no primary hematologic collapse or autonomous multiorgan failure.",
+      "direction": "Exome-wide and metabolomic modifier mapping in rare ACBD6 individuals presenting with catastrophic multiorgan failure versus isolated neurodevelopmental phenotypes.",
+      "support": "High support reconciling index family reports with a 45-patient international cohort.",
+      "sources": [
+        "P Yeetong et al. (2022) Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report 10.1212/nxg.0000000000200046",
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders PMID:37951597"
+      ],
+      "hypothesis": "Loss of ACBD6 induces a baseline metabolic defect that manifests as weight gain universally, but requires second-hit metabolic or modifier alleles to trigger multi-organ failure and pancytopenia.",
+      "novelty": "Prevents clinicians from excluding ACBD6 deficiency in patients who lack systemic organ dysfunction or cytopenias, establishing that the canonical phenotype is primarily neurodevelopmental."
+    },
+    {
+      "pattern": "Dominance of loss-of-function variants creates an all-or-none syndromic threshold without an allelic severity gradient",
+      "abstraction": "In recessive conditions heavily skewed toward complete null alleles, mutational heterogeneity converges onto a uniform, severe clinical presentation without identifiable genotype-phenotype gradients.",
+      "instance": "In 45 patients across 28 families, 18 of 20 identified variants were loss-of-function (frameshift, nonsense, canonical splice site), resulting in a uniform early-onset phenotype of global developmental delay (100%), expressive language defect (98%), and early postural deformities/dystonia (97%), with screening of 1,924 late-onset isolated dystonia cases failing to validate hypomorphic ACBD6 missense alleles.",
+      "direction": "Saturation mutagenesis and biochemical profiling of ACBD6 acyl-CoA binding capacity to test whether true hypomorphic alleles exist or if partial activity preserves normal neurological development.",
+      "support": "High support from comprehensive cohort sequencing and independent dystonia cohort screening.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders 10.1093/brain/awad380",
+        "H Morales\u2010Brice\u00f1o et al. (2026) Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies 10.1002/mdc3.70683"
+      ],
+      "hypothesis": "ACBD6 operates with minimal functional reserve such that variant-induced drop in protein stability or acyl-CoA binding below a critical threshold triggers identical downstream neurological failure.",
+      "novelty": "Rules out the clinical assumption that variable ages of onset or milder dystonia presentations in ACBD6 could be explained by missense variants or residual hypomorphic enzymatic activity."
+    },
+    {
+      "pattern": "Low penetrance of cranial dysmorphisms contrasts with invariant absence of acute metabolic crises and polyneuropathy",
+      "abstraction": "Effective diagnostic distinction depends on distinguishing low-penetrance non-obligatory clinical signs from consistently absent negative criteria that act as exclusionary boundaries.",
+      "instance": "Microcephaly is present in only 39% of ACBD6 patients (congenital in 33%), proving normocephaly does not exclude the disorder; conversely, acute episodic metabolic ketoacidosis, hyperammonemia, visceral organomegaly, and severe sensorimotor polyneuropathy are absent across cohorts, acting as exclusionary indicators against classic organic acidurias and mitochondrial syndromes.",
+      "direction": "Formulation of automated differential diagnosis matrices that incorporate negative metabolic and neuropathic indicators alongside positive motor and MRI traits.",
+      "support": "High support derived from cross-phenotypic analyses across 45 patients.",
+      "sources": [
+        "R Kaiyrzhanov et al. (2024) Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders PMID:37951597",
+        "T Zhao et al. (2025) Utility of mass spectrometry in rare disease research and diagnosis 10.1038/s41525-025-00487-3"
+      ],
+      "hypothesis": "ACBD6 functions selectively in structural lipid homeostasis and myelin maintenance rather than primary catabolic energy pathways, preventing episodic metabolic decompensation during physiological stress.",
+      "novelty": "Deregulates head circumference as a gating diagnostic criterion while providing concrete negative exclusionary biochemical indicators for clinical differentiation."
+    }
+  ]
+}

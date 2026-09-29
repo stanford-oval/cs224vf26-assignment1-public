@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621548",
+ "omim": "OMIM:621548",
+ "disease": "Retinitis pigmentosa 101",
+ "gene": "CLN3",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:57",
+ "report_chars": 1418,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Retinitis pigmentosa 101 (CLN3, OMIM:621548):\n\n[1] Entry - #621548 - RETINITIS PIGMENTOSA 101; RP101\nhttps://omim.org/entry/621548\nRetinitis pigmentosa-101 (RP101) is an autosomal recessive progressive rod-cone dystrophy, with onset ranging from the first to fourth decades of life.\n\n[2] Retinal Phenotype of Patients With Isolated ... - PMC - NIH\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC7844693/\nby VM Smirnov \u00b7 2021 \u00b7 Cited by 56 \u2014 Variants in CLN3 typically lead to the juvenile form of neuronal ceroid lipofuscinosis (JNCL), also known as Batten disease or Vogt-Spielmeyer ...\n\n[3] Retinitis Pigmentosa 101\nhttps://www.malacards.org/card/retinitis_pigmentosa_101\nThe provided description identifies biallelic mutations in CLN3 as the genetic basis associated with this disease entity.\n\n[4] retinitis pigmentosa 101 - ZFIN Human Disease\nhttps://zfin.org/DOID:0061299\nA retinitis pigmentosa charaterized by macular edema, mild intraretinal pigment migration, and eventual widespread retinal atrophy \u2026 us mutation in the CLN3 ...\n\n[5] CLN3 Gene\nhttps://www.genecards.org/card/CLN3\nDiseases associated with CLN3 include Ceroid Lipofuscinosis, Neuronal, 3 and Retinitis Pigmentosa 101. Among its related pathways is Glycosphingolipid ...\n\n[6] retinitis pigmentosa\nhttps://flybase.org/reports/DOID:0061299\nA retinitis pigmentosa charaterized by macular edema, mild intraretinal pigment migration, and eventual widespread retinal atrophy \u2026 us mutation in the CLN3 ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age None, male)\n  observed: Pseudophakia, Rod-cone dystrophy, Peripheral visual field loss, Mildly reduced visual acuity, Nyctalopia, Myopia\n  recorded ABSENT: Obesity, Seizure, Right hemiplegia, Autism\n\nP02 (age 2.0, male)\n  observed: Nystagmus, Visual acuity no light perception, Abnormal electroretinogram, Attenuation of retinal blood vessels, Eye poking, Retinal degeneration\n  recorded ABSENT: Photophobia, Absent foveal reflex\n\nP03 (age 37.0, male)\n  observed: Attenuation of retinal blood vessels, Macular atrophy, Hypoautofluorescent retinal lesion, Reduced visual acuity, Visual loss, Nyctalopia, Undetectable dark-adapted electroretinogram\n  recorded ABSENT: Keratoconus, Posterior subcapsular cataract, Amblyopia, High myopia\n\nP04 (age 3.6, female)\n  observed: Focal segmental glomerulosclerosis, Renal insufficiency, Nephrotic syndrome, Mesangial hypercellularity, Cataract, Glomerulonephritis, Retinal detachment, Reduced visual acuity\n  recorded ABSENT: Podocyte foot process effacement, Renal interstitial foam cells, Nystagmus, Pigmentary retinopathy, Microphthalmia, Optic nerve hypoplasia, Macular hypoplasia\n\nP05 (age 30.0, male)\n  observed: Nuclear cataract, Chorioretinal atrophy, Retinal perforation, Optic disc coloboma, Microphthalmia, Nystagmus, Strabismus, High myopia\n  recorded ABSENT: (none recorded)\n\nP06 (age 2.0, male)\n  observed: White eyelashes, White eyebrow, Hypopigmentation of hair, Blue irides, Iris transillumination defect, Nystagmus\n  recorded ABSENT: Nevus, Strabismus\n\nP07 (age 24.0, unknown_sex)\n  observed: Postaxial polydactyly, Cataract, Myopia, Reduced visual acuity, Nyctalopia, Intellectual disability, Obesity\n  recorded ABSENT: Scoliosis\n\nP08 (age 4.0, female)\n  observed: Hypoventilation, Decreased activity of mitochondrial complex I, Decreased activity of mitochondrial complex III, Decreased activity of mitochondrial complex II, Elongated mitochondria, Short stature, Increased body weight, Sacral dimple, Dysphagia, Constipation, Gastrostomy tube feeding in infancy, Asthenia, Microcephaly, Optic atrophy, Cerebral visual impairment, Interictal EEG abnormality, Global developmental delay, Developmental regression, Spasticity, Drowsiness, Agitation, Irritability, Dystonia, Cerebellar atrophy, Reduced cerebral white matter volume, Scoliosis, Hypotonia\n  recorded ABSENT: Seizure\n\nP09 (age None, female)\n  observed: Micrognathia, Hemorrhoids, Iris coloboma, Chorioretinal coloboma, Retinal perforation, Optic disc coloboma, Strabismus, Amblyopia, Spina bifida occulta, Absent thoracic vertebra, Scoliosis, Mitral valve prolapse\n  recorded ABSENT: Unilateral renal agenesis\n\nP10 (age 22.0, female)\n  observed: Progressive visual loss, Nystagmus, Nyctalopia, Constriction of peripheral visual field, Abnormal electroretinogram, Very low visual acuity\n  recorded ABSENT: (none recorded)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.55,
+     "for": "Demonstrates classic progressive rod-cone dystrophy, peripheral visual field loss, nyctalopia, and reduced visual acuity, while the explicit absence of seizures and autism confirms an isolated nonsyndromic retinal phenotype distinct from typical CLN3-associated Batten disease.",
+     "against": "Mildly reduced visual acuity without documented macular involvement or retinal imaging findings at presentation."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.3,
+     "for": "Presents with macular atrophy, hypoautofluorescent retinal lesions, nyctalopia, undetectable dark-adapted electroretinogram, and onset by age 37, matching the characteristic macular changes and progressive retinal degeneration of RP101.",
+     "against": "Rod-cone dystrophy is not explicitly diagnostic in the recorded terms, though findings are strongly compatible."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.1,
+     "for": "Exhibits adult-onset progressive visual loss with nyctalopia, constricted peripheral visual fields, and abnormal electroretinography.",
+     "against": "The presence of nystagmus is more typical of early infantile presentations, and no fundus details (e.g., macular changes or retinal atrophy) are specified."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.03,
+     "for": "Exhibits retinal degeneration, vessel attenuation, and an abnormal electroretinogram.",
+     "against": "Severe presentation at age 2 with complete lack of light perception and eye poking points to Leber congenital amaurosis rather than the adolescent/adult-onset rod-cone dystrophy of RP101."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.01,
+     "for": "Features nyctalopia, reduced visual acuity, and cataracts indicative of a retinal dystrophy.",
+     "against": "Presence of postaxial polydactyly, obesity, and intellectual disability is characteristic of syndromic ciliopathies such as Bardet-Biedl syndrome, which rules against isolated RP101."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed funduscopic and optical coherence tomography descriptions (such as macular edema or specific intraretinal pigment migration patterns) and electroretinogram differentiation between rod vs. cone responses.",
+   "tokens_in": 1381,
+   "tokens_out": 1737,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.65,
+     "for": "Presents directly with rod-cone dystrophy, peripheral visual field loss, and nyctalopia, which matches RP101's definition as a progressive rod-cone dystrophy.",
+     "against": "Features like pseudophakia and myopia are non-specific secondary ocular changes, and specific retinal imaging findings such as macular atrophy or pigment migration are not detailed."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.2,
+     "for": "Exhibits macular atrophy, nyctalopia, attenuation of retinal blood vessels, and undetectable dark-adapted electroretinogram, aligning well with the widespread retinal and macular involvement characteristic of RP101.",
+     "against": "Does not specifically code rod-cone dystrophy by name, and lacks explicit exclusion of systemic/neurological features."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.1,
+     "for": "Demonstrates progressive visual loss, nyctalopia, constriction of peripheral visual field, and an abnormal electroretinogram typical of progressive retinitis pigmentosa.",
+     "against": "Features early prominent nystagmus and very low visual acuity without specific documentation of rod-cone dystrophy or macular pathology."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.03,
+     "for": "Displays retinal degeneration with vessel attenuation and an abnormal electroretinogram.",
+     "against": "Very early onset at age 2 with complete lack of light perception and eye poking points toward Leber congenital amaurosis rather than the progressive rod-cone dystrophy seen in RP101."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.02,
+     "for": "Presents with nyctalopia and reduced visual acuity indicating retinal dystrophy.",
+     "against": "Presence of postaxial polydactyly, obesity, and intellectual disability indicates a syndromic ciliopathy (e.g., Bardet-Biedl syndrome) rather than isolated RP101."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed ophthalmoscopic and imaging descriptions (such as macular edema or intraretinal pigment deposits) and confirmation of inheritance pattern or molecular testing of CLN3 to definitively differentiate isolated RP101 from other non-syndromic retinitis pigmentosa subtypes.",
+   "tokens_in": 1381,
+   "tokens_out": 1606,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.55,
+     "for": "Exhibits rod-cone dystrophy, peripheral visual field loss, and nyctalopia, which directly matches the defining progressive rod-cone dystrophy described for RP101; the absence of seizures and neurological findings also supports isolated CLN3-associated retinal disease.",
+     "against": "Lacks detailed documentation of macular status or retinal atrophy patterns mentioned in the disease description."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.28,
+     "for": "Presents with macular atrophy, attenuation of retinal blood vessels, nyctalopia, and an undetectable dark-adapted electroretinogram, aligning with the reported progression toward widespread retinal and macular involvement in adulthood.",
+     "against": "The specific term rod-cone dystrophy is not explicitly coded, though the functional rod defect (nyctalopia, undetectable dark-adapted ERG) is consistent."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.12,
+     "for": "Features progressive visual loss, nyctalopia, constricted visual fields, and an abnormal electroretinogram with onset/manifestation in early adulthood (22 years).",
+     "against": "Presence of nystagmus and very low visual acuity early in life may point toward earlier-onset or congenital retinal dystrophies rather than standard RP101."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.03,
+     "for": "Has retinal degeneration, vessel attenuation, and an abnormal electroretinogram denoting an early tapetoretinal dystrophy.",
+     "against": "Presentation at age 2 with complete absence of light perception and eye poking indicates Leber congenital amaurosis rather than progressive rod-cone dystrophy starting in the first to fourth decades."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.02,
+     "for": "Demonstrates nyctalopia and reduced visual acuity presenting by adulthood.",
+     "against": "Extensive syndromic features including postaxial polydactyly, intellectual disability, and obesity indicate a ciliopathy (such as Bardet-Biedl syndrome) rather than non-syndromic RP101."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed retinal imaging descriptions (such as optical coherence tomography demonstrating macular edema or fundus autofluorescence documenting patterns of intraretinal pigment migration) and targeted genetic testing data for CLN3.",
+   "tokens_in": 1381,
+   "tokens_out": 1886,
+   "round": 3
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits a dichotomous age-dependent weakness topography for LGMDR29: purely proximal limb-girdle weakness in childhood-onset cases versus proximo-distal and axial weakness mimicking inclusion body myositis (IBM) in adult-onset cases. While adult-onset presentations with proximo-distal and axial weakness mimicking IBM are supported by a recent report of two siblings (Muelas et al., 2026), the claim that childhood-onset cases manifest purely proximal weakness is contradicted by clinical and imaging data. In childhood-onset LGMDR29 patients, muscle MRI explicitly demonstrates prominent distal (peroneal, medial gastrocnemius) and axial (paravertebral) involvement alongside proximal muscles (Iruzubieta et al., 2024), and pediatric cohorts display atypical muscular dystrophy with complex neurological defects rather than restricted proximal weakness (Nashabat et al., 2024).",
+  "evidence": [
+    {
+      "text": "Adult-onset SNUPN-related muscular dystrophy presented in two siblings with proximo-distal and axial weakness alongside early respiratory involvement, clinically reminiscent of inclusion body myositis (IBM).",
+      "stance": "supports",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+        "authors": [
+          "N Muelas",
+          "P Iruzubieta",
+          "A Damborenea"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/acn3.70211",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+        "quote": "Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement."
+      },
+      "numbers": [
+        {
+          "metric": "affected adult siblings reported",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Childhood-onset SNUPN muscular dystrophy cases do not exhibit purely proximal weakness; muscle MRI confirms significant involvement of axial (paravertebral) and distal (peroneal, medial gastrocnemius) musculature.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "P Iruzubieta",
+          "A Damborenea",
+          "M Ioghen",
+          "S Bajew"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "38366623",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+        "quote": "MRI showed predominant impairment of paravertebral, vasti, sartorius, gracilis, peroneal and medial gastrocnemius muscles."
+      },
+      "numbers": [
+        {
+          "metric": "pediatric/early-onset cohort size",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Pediatric SNUPN deficiency presents as an atypical muscular dystrophy associated with widespread systemic and neurological defects rather than an isolated purely proximal limb-girdle weakness syndrome.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+        "authors": [
+          "M Nashabat",
+          "N Nabavizadeh",
+          "HP Sara\u00e7o\u011flu"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-45933-5",
+        "quote": "In this study, we investigate 18 children from 15 unrelated families who present with atypical muscular dystrophy and neurological defects."
+      },
+      "numbers": [
+        {
+          "metric": "children assessed",
+          "value": 18
+        },
+        {
+          "metric": "unrelated families",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "SNUPN pathogenic variants can also cause spinocerebellar atrophy with variable, diverse, or absent skeletal muscle weakness, indicating that phenotypic variations depend on variant-specific effects rather than a simple age-dependent limb weakness pattern.",
+      "stance": "neutral",
+      "source": {
+        "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+        "authors": [
+          "M Okubo",
+          "M Ogawa",
+          "N Eura",
+          "YU Inoue",
+          "K Dewa",
+          "T Owa"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+        "quote": "We identified pathogenic variants in the SNUPN gene in two families with spinocerebellar atrophy. One patient exhibited mild changes in skeletal muscle, while the other did not."
+      },
+      "numbers": [
+        {
+          "metric": "families with spinocerebellar atrophy",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that childhood-onset cases have purely proximal limb-girdle weakness, but muscle imaging in childhood-onset cohorts clearly demonstrates axial (paravertebral) and distal (peroneal, medial gastrocnemius) involvement (Iruzubieta et al., 2024).",
+    "Pediatric-onset cohorts exhibit multisystem/atypical muscular dystrophy with neurological defects (Nashabat et al., 2024), conflicting with the claim that early-onset disease presents as an isolated proximal limb-girdle weakness."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "Is the adult-onset IBM-like presentation of LGMDR29 driven by specific missense alleles (such as p.Arg27Cys and p.Cys174Tyr) rather than age at onset alone?",
+      "rationale": "Only two adult siblings have been reported with this presentation, both sharing specific compound heterozygous variants affecting importin-beta binding and protein folding, suggesting genotype-phenotype correlation may dictate IBM mimicry.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the systematic whole-body muscle MRI pattern across childhood vs. adult-onset SNUPN-related myopathies?",
+      "rationale": "Direct comparative radiological assessment of axial, proximal, and distal compartment fatty replacement in all molecularly confirmed cases would definitively establish whether topographical distribution correlates with disease duration or age at onset.",
+      "promise": 0.9,
+      "est_cost": 40000
+    }
+  ]
+}

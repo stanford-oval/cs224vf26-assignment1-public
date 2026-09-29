@@ -1,0 +1,121 @@
+{
+  "verdict": "supported",
+  "rationale": "The initial discovery cohort of Stolerman neurodevelopmental syndrome (Stolerman et al., 2019) characterized 12 individuals who all exhibited developmental delay, intellectual disability, and dysmorphic facial features. However, expanded multicenter ascertainment and broader disease cohorts (Rots et al., 2023; Han et al., 2022) demonstrated that the phenotype comprises a heterogeneous neurodevelopmental spectrum without a single pathognomonic facial gestalt, and identified pathogenic/likely pathogenic KDM6B variants in individuals without uniform or distinct craniofacial features. Consequently, clinical dysmorphology alone cannot be relied upon to rule in or rule out KDM6B-related disorder in the absence of unbiased exome/genome sequencing.",
+  "evidence": [
+    {
+      "text": "In the discovery study establishing Stolerman neurodevelopmental syndrome, whole exome sequencing identified de novo KDM6B alterations across 12 unrelated patients, all presenting with neurodevelopmental delay, intellectual disability, and dysmorphic facial features.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+        "authors": [
+          "ES Stolerman",
+          "E Francisco",
+          "JL Stallworth"
+        ],
+        "year": 2019,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.61173",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+        "quote": "We have identified a number of de novo alterations in the KDM6B gene via whole exome sequencing (WES) in a cohort of 12 unrelated patients with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "To establish the true clinical spectrum and reduce ascertainment bias inherent to early syndromic case series, an international cohort was assembled, confirming diverse phenotypic presentations across KDM6B-related neurodevelopmental disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Top",
+          "F Di Cara",
+          "RJ Louie",
+          "E Stolerman"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "phenotypic spectrum of the KDM6B-related NDD and to reduce bias, we recruited a large cohort \u2026 diagnostic testing and research cohorts focusing on various phenotypes."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Screening of an unselected cohort of 48 cerebral folate deficiency cases revealed KDM6B loss-of-function and missense variants in 5 patients (10%), highlighting that pathogenic KDM6B alterations occur in broader non-syndromic metabolic/neurological contexts without classic syndromic facial dysmorphology.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM6B Variants May Contribute to the Pathophysiology of Human Cerebral Folate Deficiency",
+        "authors": [
+          "X Han",
+          "X Cao",
+          "RM Cabrera",
+          "PA Pimienta Ramirez"
+        ],
+        "year": 2022,
+        "journal": "Biology",
+        "doi": "10.3390/biology12010074",
+        "pmid": null,
+        "pmc": "PMC9855468",
+        "url": "https://www.mdpi.com/2079-7737/12/1/74",
+        "quote": "Six KDM6B variants were identified in five CFD patients, which accounts for 10% of our CFD cohort cases. Functional experiments indicated that these KDM6B variants decreased the amount of KDM6B protein, which resulted in elevated H3K27me2, lower H3K27Ac and decreased FOLR1 protein concentrations."
+      },
+      "numbers": [
+        {
+          "metric": "cfd_cohort_size",
+          "value": 48
+        },
+        {
+          "metric": "affected_cfd_patients",
+          "value": 5
+        },
+        {
+          "metric": "prevalence_in_cfd",
+          "value": "10%"
+        }
+      ]
+    },
+    {
+      "text": "Individual clinical characterizations highlight that while dysmorphic traits frequently co-occur with neurodevelopmental impairment and ADHD in KDM6B variant carriers, these features vary widely and require molecular confirmation rather than gestalt evaluation.",
+      "stance": "supports",
+      "source": {
+        "title": "The KDM6B mutation: Phenotype and clinical characteristics\u2014Report of a case",
+        "authors": [
+          "II Pineda",
+          "CLG Gonz\u00e1lez"
+        ],
+        "year": 2022,
+        "journal": "Revista de Psiquiatr\u00eda y Salud Mental",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S217350502200019X",
+        "quote": "A frameshift variant in the KDM6B gene related to neurodevelopmental disorders with facial and body dysmorphia was obtained. The case was oriented as a neurodevelopmental disorder secondary to a genetic alteration and a comorbid Attention Deficit Hyperactivity Disorder (ADHD)."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does computer-aided 3D facial phenotyping (e.g., DeepGestalt / Face2Gene) discern a statistically significant subtle metric deviation in KDM6B patients compared to epigenetic chromatin-modifier disorder controls (e.g., Kabuki, Rubinstein-Taybi)?",
+      "rationale": "While subjective human clinical examination fails to yield a uniform pathognomonic gestalt, automated facial analysis algorithms may quantify sub-clinical facial feature clusters that differentiate KDM6B from overlapping histone demethylase/methyltransferase syndromes.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the penetrance and severity spectrum of KDM6B loss-of-function versus catalytic domain missense variants in unselected population biobanks (such as All of Us or UK Biobank)?",
+      "rationale": "Evaluating unselected population-scale cohorts will establish the true baseline penetrance of dysmorphic and neurodevelopmental traits, mitigating clinical referral and diagnostic ascertainment bias.",
+      "promise": 0.9,
+      "est_cost": 40000
+    }
+  ]
+}

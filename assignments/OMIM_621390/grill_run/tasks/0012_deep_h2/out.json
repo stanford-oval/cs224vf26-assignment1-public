@@ -1,0 +1,79 @@
+{
+  "verdict": "supported",
+  "rationale": "The hypothesis is supported by the curated disease nomenclature and gene discovery literature in the provided sources. The disorder caused by KLHL20 variants (OMIM #621390) is officially defined as 'neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities'. The co-occurrence of dysmorphic facial features and behavioral abnormalities in an individual presenting with early-onset epilepsy provides clinical features that differentiate this entity from traditional non-dysmorphic developmental and epileptic encephalopathies (DEEs), while the extreme phenotypic overlap across DEEs means molecular diagnostic testing remains mandatory. However, the provided literature lacks granular cohort-level numerators and denominators, formal HPO-term frequency tables, and head-to-head discriminatory metrics against CDKL5, SCN1A, or STXBP1 cohorts.",
+  "evidence": [
+    {
+      "text": "KLHL20 was delineated as a novel disease gene associated with a rare neurodevelopmental disorder characterized by intellectual disability, behavioral problems, and facial dysmorphism.",
+      "stance": "supports",
+      "source": {
+        "title": "MOLECULAR DIAGNOSTICS IN AUTISM SPECTRUM DISORDER: NEXT GENERATION SEQUENCING AND FACIAL PHENOTYPING IN MEDICAL GENETICS",
+        "authors": [
+          "Y Sleyp",
+          "H Peeters",
+          "P Claes"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://lirias.kuleuven.be/handle/20.500.12942/703598",
+        "quote": "with ID and facial dysmorphism to conditions associated with \u2026 the identification of KLHL20 as a novel gene for a rare NDD."
+      },
+      "numbers": []
+    },
+    {
+      "text": "The clinical condition linked to the KLHL20 gene is defined nosologically as neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (MIM #621390).",
+      "stance": "supports",
+      "source": {
+        "title": "KLHL20",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/entities/KLHL20",
+        "quote": "Phenotypes. Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities, MIM# 621390."
+      },
+      "numbers": [
+        {
+          "metric": "OMIM phenotype identifier",
+          "value": 621390
+        }
+      ]
+    },
+    {
+      "text": "Genomics England PanelApp curates KLHL20-related developmental disorder with seizures, designating the condition as neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "KLHL20",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/genes/KLHL20",
+        "quote": "KLHL20-related developmental disorder with seizures \u00b7 Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.75,
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-level frequencies and standard HPO terms for specific craniofacial and behavioral traits in published KLHL20 cohorts?",
+      "rationale": "The current provided literature names the syndromic triad but does not supply the numerators, denominators, or standard HPO breakdowns needed for objective differential diagnosis.",
+      "promise": 0.9,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Can automated 3D facial analysis objectively separate KLHL20-related syndrome from other syndromic and non-syndromic epileptic encephalopathies?",
+      "rationale": "Quantitative gestalt phenotyping could validate whether the facial dysmorphisms are sufficiently distinct from overlapping genetic DEEs (such as CDKL5 or STXBP1) to serve as a pre-test clinical discriminator.",
+      "promise": 0.85,
+      "est_cost": 45000.0
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across cohort and proband studies confirms that seizures (e.g., absence, tonic) and hypotonia occur recurrently in individuals with pathogenic LRRC7 variants (including 6/33 individuals with seizures in Willim et al. 2024, along with proband reports in Popp et al. 2017 and Khan et al. 2026). Because both seizures and muscular hypotonia can be present in LRRC7-related disorder (OMIM #621415), the presence of these features cannot rule out LRRC7 when evaluating a differential diagnosis against other postsynaptic scaffolding synaptopathies such as SYNGAP1, SHANK3, or DLG4, and their absence similarly cannot reliably exclude LRRC7 since neither is fully penetrant.",
+  "evidence": [
+    {
+      "text": "In a cohort of 33 individuals with heterozygous missense or loss-of-function variants in LRRC7, varying types of seizures were reported in six patients, demonstrating that seizures are part of the phenotypic spectrum rather than an exclusionary feature.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "Varying types of seizures were reported in six patients; and five patients"
+      },
+      "numbers": [
+        {
+          "metric": "patients with seizures",
+          "value": "6/33"
+        }
+      ]
+    },
+    {
+      "text": "A proband with a de novo missense variant in LRRC7 presented with global developmental delay, tonic seizures, failure to thrive, mild microcephaly, intellectual disability, and hypotonia.",
+      "stance": "supports",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "affected probands with seizures and hypotonia",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Exome pool sequencing identified a de novo loss-of-function variant in LRRC7 in an individual presenting with mild intellectual disability and absence seizures in early childhood.",
+      "stance": "supports",
+      "source": {
+        "title": "Exome Pool-Seq in neurodevelopmental disorders",
+        "authors": [
+          "B Popp",
+          "AB Ekici",
+          "CT Thiel",
+          "J Hoyer"
+        ],
+        "year": 2017,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-017-0022-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-017-0022-1",
+        "quote": "in LRRC7 in a patient with mild ID, absence seizures in early"
+      },
+      "numbers": [
+        {
+          "metric": "patients with absence seizures",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Systematic cross-cohort genomic and clinical analysis of undiagnosed ultra-rare cases links the brain-expressed LRRC7 locus to presentations exhibiting phenotypic overlap including hypotonia.",
+      "stance": "supports",
+      "source": {
+        "title": "Joint, multifaceted genomic analysis enables diagnosis of diverse, ultra-rare monogenic presentations",
+        "authors": [
+          "SN Kobren",
+          "MA Moldovan",
+          "R Reimers"
+        ],
+        "year": 2025,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-025-61712-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-025-61712-2",
+        "quote": "region of LRRC7, a gene expressed in the brain, had phenotypic overlap of hypotonia and"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the precise semiology, age of onset, and EEG signature of seizures in LRRC7-related disorder compared to SYNGAP1-related encephalopathy?",
+      "rationale": "While seizures occur in LRRC7 (~18-20% in published series), SYNGAP1 exhibits much higher penetrance (>80%) often with eyelid myoclonia and atonic/myoclonic seizures; detailed electroclinical profiling could clarify whether specific seizure types discriminate between these synaptopathies.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do behavioral profiles\u2014specifically hyperphagia/abnormal eating behaviors and severe aggression\u2014provide sufficient specificity to distinguish LRRC7 variants from SHANK3 or DLG4 variants?",
+      "rationale": "Willim et al. noted prominent aggression, hyperphagia, and abnormal eating patterns as core discriminating behavioral manifestations of LRRC7, which may serve as superior positive discriminators than non-specific neurological findings like hypotonia.",
+      "promise": 0.85,
+      "est_cost": 30000
+    }
+  ]
+}

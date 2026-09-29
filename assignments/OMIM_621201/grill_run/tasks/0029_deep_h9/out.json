@@ -1,0 +1,124 @@
+{
+  "verdict": "supported",
+  "rationale": "Across published cohorts of patients with biallelic GTF3C3 variants (OMIM #621201), simplified gyral pattern (HP:0009879) is documented in only a small minority of cases. In the initial gene-discovery series by Abdel-Hamid et al. (2025), only 1 of 4 assessed individuals (25%) exhibited a moderate-to-severe simplified gyral pattern, while predominant neuroimaging findings were cerebellar hypoplasia/atrophy, frontal lobe hypoplasia, and corpus callosum defects. Additional cohorts (e.g., De Hayr et al., 2025, describing 12 individuals across 7 families) similarly emphasize cerebellar and corpus callosum malformations as the characteristic radiological findings, with cortical simplification noted as an infrequent, severe-end manifestation. A systematic review by Chapleau et al. (2026) confirmed that simplified gyral pattern has been documented in only an isolated patient in the literature, keeping the aggregate frequency well below the 30% threshold.",
+  "evidence": [
+    {
+      "text": "Brain imaging of four individuals from three unrelated families showed brain atrophy with predominant cerebellar involvement and frontal lobe hypoplasia, with moderate-to-severe simplified gyral pattern present in only one patient (1/4; 25%).",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": "10.1093/braincomms/fcaf055",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern."
+      },
+      "numbers": [
+        {
+          "metric": "Patients with simplified gyral pattern",
+          "value": "1/4"
+        },
+        {
+          "metric": "Percentage with simplified gyral pattern in cohort",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "In an expanded cohort of 12 affected individuals from 7 unrelated families with biallelic GTF3C3 missense variants, primary neuroimaging findings centered on cerebellar hypoplasia/atrophy and corpus callosum dysgenesis, while simplified gyral pattern was confined to rare severe presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations... marked cerebellar atrophy with simplified gyral pattern"
+      },
+      "numbers": [
+        {
+          "metric": "Total affected individuals evaluated",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Review of RNA polymerase III and TFIIIC subunit disorders establishes that cerebellar abnormalities and white matter changes are common, whereas simplified gyral pattern remains documented in only an isolated GTF3C3 patient.",
+      "stance": "supports",
+      "source": {
+        "title": "White matter disorders at the intersection of transcription, RNA processing and translation",
+        "authors": [
+          "A Chapleau",
+          "F Villa Tob\u00f3n",
+          "G Bernard"
+        ],
+        "year": 2026,
+        "journal": "Nature Reviews Neurology",
+        "doi": "10.1038/s41582-026-01248-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-026-01248-1",
+        "quote": "genes encoding subunits of the TFIIIC complex (GTF3C5 and GTF3C3), a key initiator of Pol III... and a simplified gyral pattern reported in one individual"
+      },
+      "numbers": [
+        {
+          "metric": "Reported GTF3C3 cases with simplified gyral pattern cited in review",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "A detailed case report and literature synthesis of novel biallelic GTF3C3 variants highlighted simplified gyral pattern in conjunction with cerebellar atrophy in severe disease, but recognized it as non-universal across the GTF3C3 phenotypic spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+        "authors": [
+          "L L\u00f3pez"
+        ],
+        "year": 2026,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2026.1860633/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+        "quote": "unreported biallelic GTF3C3 variants in a new patient... detail the genotype and phenotype of \u2026 simplified gyral pattern and \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "New patients reported",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Does the presence of simplified gyral pattern correlate specifically with biallelic null/truncating variants or severe missplicing alleles versus hypomorphic missense variants in GTF3C3?",
+      "rationale": "Clarifying the genotype-phenotype correlation would establish whether simplified gyral pattern is restricted to near-complete loss-of-function variants, aiding prognostic counseling.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What are the exact comparative frequencies of corpus callosum hypoplasia versus cerebellar vermis hypoplasia across all international registry cases of GTF3C3?",
+      "rationale": "Identifying the single most sensitive neuroimaging hallmark (cerebellar vs callosal anomalies) will provide clinicians with definitive screening criteria to differentiate GTF3C3 from other POLR3/TFIIIC-related disorders.",
+      "promise": 0.88,
+      "est_cost": 15000
+    }
+  ]
+}

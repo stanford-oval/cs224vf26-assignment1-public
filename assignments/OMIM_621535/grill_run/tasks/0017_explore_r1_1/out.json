@@ -1,0 +1,115 @@
+{
+  "hypotheses": [
+    {
+      "text": "SCA52 caused by the recurrent heterozygous RAB3A p.Arg83Trp mutation predominantly manifests as adult-onset, gradually progressive cerebellar ataxia with cerebellar cortical atrophy, rather than obligate early-infantile-onset ataxia with universal muscular hypotonia.",
+      "rationale": "The original proposition characterized SCA52 as universally early-onset with infantile hypotonia and mandatory intellectual disability. However, the seminal discovery study by Miyamoto et al. (2026) demonstrates adult-onset presentations across two independent families carrying the c.247C>T (p.Arg83Trp) mutation.",
+      "aspects": [
+        "phenotypic spectrum",
+        "age of onset",
+        "core features"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Affected individuals in two families carrying the heterozygous c.247C>T p.(Arg83Trp) variant in RAB3A presented with adult-onset, gradually progressive cerebellar symptoms, accompanied by mild spasticity and tremors, while brain MRI consistently revealed cerebellar atrophy accentuated in the vermis.",
+          "stance": "supports",
+          "source": {
+            "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+            "authors": [
+              "R Miyamoto",
+              "A Sakane",
+              "H Morino"
+            ],
+            "year": 2026,
+            "journal": "Human Molecular Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+            "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis, and neuropathological examinations demonstrated diffuse cerebellar cortical degeneration."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Neurodevelopmental manifestations (developmental delay, cognitive impairment, or infantile hypotonia) in heterozygous RAB3A pathogenic variant carriers represent variable, non-obligate features that demonstrate intrafamilial phenotypic heterogeneity rather than invariant core signs.",
+      "rationale": "Clarifies whether intellectual disability and infantile hypotonia can be used as required inclusion criteria to diagnose or pick out SCA52 individuals from a cohort of ataxia patients.",
+      "aspects": [
+        "neurodevelopmental features",
+        "penetrance",
+        "phenotypic heterogeneity"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Miyamoto et al. noted that variable features of neurodevelopmental disorders were observed and that RAB3A variants contributed to intrafamilial phenotypic heterogeneity among affected family members.",
+          "stance": "supports",
+          "source": {
+            "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+            "authors": [
+              "R Miyamoto",
+              "A Sakane",
+              "H Morino"
+            ],
+            "year": 2026,
+            "journal": "Human Molecular Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+            "quote": "Variable features of neurodevelopmental disorders were also observed... contributed to intrafamilial phenotypic heterogeneity."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Concomitant mild gait spasticity and tremor occurring alongside progressive adult-onset cerebellar ataxia and vermian cerebellar atrophy serve as discriminating clinical clues distinguishing SCA52 from pure cerebellar cortical ataxias.",
+      "rationale": "Delineates positive discriminating neurological findings in adult individuals suspected of harboring pathogenic RAB3A variants when compared to pure degenerative spinocerebellar ataxias.",
+      "aspects": [
+        "discriminating features",
+        "spasticity",
+        "tremor"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "In the described SCA52 families, adult-onset cerebellar symptoms were often accompanied by mild gait spasticity and tremors, with neuropathology demonstrating presynaptic parallel fiber-Purkinje cell dysfunction.",
+          "stance": "supports",
+          "source": {
+            "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+            "authors": [
+              "R Miyamoto",
+              "A Sakane",
+              "H Morino"
+            ],
+            "year": 2026,
+            "journal": "Human Molecular Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+            "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact frequency of infantile-onset versus adult-onset presentations across all sequenced probands and affected family members carrying pathogenic RAB3A variants?",
+      "rationale": "Determining exact numerator/denominator counts across all published cohorts will establish whether early-onset cases represent a distinct variant subtype or rare severe end of an intrafamilial spectrum.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "Do mutations in other domains of RAB3A outside the switch II R83 codon produce distinct congenital or severe neurodevelopmental phenotypes versus late-onset degeneration?",
+      "rationale": "Assessing genotype-phenotype correlations across different functional residues (switch I, switch II, GTP-binding pocket) could explain reported differences in disease severity and onset age.",
+      "promise": 0.75,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

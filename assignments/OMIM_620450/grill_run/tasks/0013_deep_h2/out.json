@@ -1,0 +1,89 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature confirms that TAF4 variants cause intellectual developmental disorder, autosomal dominant 73 (OMIM #620450) and that facial dysmorphisms are a common feature among affected individuals (described in a discovery cohort of 8 individuals). However, OMIM describes the facial dysmorphism as 'variable', and the provided literature provides no evidence or frequency data demonstrating that specific features such as high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219) occur in >70% of patients. Furthermore, phenotypic heterogeneity is documented, including individuals with TAF4 alterations identified in non-syndromic/language disorder cohorts without characteristic dysmorphic facies.",
+  "evidence": [
+    {
+      "text": "In a discovery cohort of eight individuals carrying de novo putative loss-of-function variants in TAF4, core clinical features included intellectual disability, abnormal behavior, and facial dysmorphisms, but specific itemized phenotypic frequencies for individual dysmorphic traits were not established as invariant or diagnostic.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry for Intellectual Developmental Disorder, Autosomal Dominant 73 (#620450) categorizes facial features as 'Facial dysmorphism, variable', contradicting the hypothesis of a uniform, distinct >70% recurrent facial gestalt.",
+      "stance": "contradicts",
+      "source": {
+        "title": "616083 - INTELLECTUAL DEVELOPMENTAL DISORDER, ...",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/616083",
+        "quote": "Facial dysmorphism, variable [UMLS: C4015170] [SNOMEDCT ... AD, 3, 620450 \u00b7 TAF4 \u00b7 601796 \u00b7 20q13.33 \u00b7 Intellectual developmental disorder, autosomal dominant"
+      },
+      "numbers": []
+    },
+    {
+      "text": "TAF4 variants are also identified in cohorts presenting with severe sporadic developmental language disorder without classical severe intellectual disability or reported syndromic facial features, demonstrating broader phenotypic variability across TAF4-associated presentations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "K van Hulst",
+          "R Pfundt",
+          "N de Leeuw"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "of TAF4 is associated with a developmental disorder (OMIM #\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "diagnostic_yield_percentage",
+          "value": 36
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While Janssen et al. 2022 notes facial dysmorphisms as common among 8 individuals, the OMIM classification designates the facial presentation as variable rather than a uniform, defining facial gestalt, and the specific itemized rates (>70% for forehead, eyebrows, nasal bridge, and lip vermilion) are unsubstantiated."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic HPO breakdown and exact prevalence of individual craniofacial traits across an expanded international cohort of individuals with TAF4 pathogenic variants?",
+      "rationale": "The initial cohort consisted of only 8 individuals, which is insufficient to define statistically robust penetrance of individual minor facial anomalies.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Can automated computer-vision facial phenotyping distinguish TAF4-related neurodevelopmental disorder from other TFIID-complex subunit disorders (such as TAF8-related disorder)?",
+      "rationale": "Given the overlap in generalized neurodevelopmental delay and nonspecific facial dysmorphism across TAF-opathies, quantitative 3D facial analysis could determine whether a distinct signature exists.",
+      "promise": 0.75,
+      "est_cost": 15000.0
+    }
+  ]
+}

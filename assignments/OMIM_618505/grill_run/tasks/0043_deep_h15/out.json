@@ -1,0 +1,60 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that extraneurological features (specifically feeding dysfunction and gastrointestinal difficulties) underwent significant phenotypic dilution between the initial cohort and the expanded cohort reported by Rots et al. (2023), claiming the ~51% prevalence was from the initial discovery cohorts. However, the literature source for the expanded cohort study itself (Rots et al. 2023, AJHG) directly establishes that 'feeding difficulties or gastroesophageal reflux was present in half (51%)' within this cohort. Thus, the 51% rate describes the expanded KDM6B cohort rather than being diluted away from an initial high ascertainment rate, refuting the premise of substantial dilution.",
+  "evidence": [
+    {
+      "text": "In the expanded study delineating the clinical and molecular spectrum of KDM6B-related neurodevelopmental disorder, gastrointestinal and feeding issues remained highly prevalent, with feeding difficulties or gastroesophageal reflux documented in 51% of evaluated individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Top",
+          "F Di Cara",
+          "RJ Louie",
+          "E Stolerman"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "feeding difficulties or gastroesophageal reflux was present in half (51%). For several individuals, severe neonatal feeding difficulties required nasogastric tube feeding \u2026 gastrointestinal \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "prevalence of feeding difficulties or GERD",
+          "value": 0.51
+        }
+      ]
+    },
+    {
+      "text": "Stolerman neurodevelopmental syndrome (NEDSST) clinical summaries note that gastrointestinal involvement presenting with early poor feeding or gastroesophageal reflux characterizes a consistent clinical subset of patients rather than being absent or negligible.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Stolerman Neurodevelopmental Syndrome (NEDSST)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/stolerman_neurodevelopmental_syndrome",
+        "quote": "A subset of patients may have involvement of other organ systems, including gastrointestinal with poor early feeding or gastroesophageal reflux, Rots et al., ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis attributes the 51% prevalence of feeding/gastrointestinal symptoms to an earlier discovery cohort and suggests dilution in Rots et al. (2023), whereas Rots et al. (2023) directly observes and reports that 51% of their expanded cohort experienced feeding difficulties or gastroesophageal reflux."
+  ],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Are neonatal feeding problems in KDM6B variants primarily driven by oropharyngeal hypotonia or intrinsic gastrointestinal dysmotility?",
+      "rationale": "Determining whether feeding dysfunction arises from muscular hypotonia versus autonomic/enteric chromatin dysregulation will clarify its pathophysiological classification in Stolerman syndrome.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

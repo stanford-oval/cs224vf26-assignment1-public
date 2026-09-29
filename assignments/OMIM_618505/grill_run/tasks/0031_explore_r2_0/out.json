@@ -1,0 +1,90 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the complete clinical supplemental tables of Rots et al. (2023, PMC10257005), persistent fetal fingertip pads (HP:0001212) and lateral lower eyelid eversion (HP:0000656) have an evaluated frequency of 0/N, establishing them as absolute negative discriminators against Kabuki syndrome (KDM6A/KMT2D).",
+      "rationale": "Clinical differentiation between KDM6B-related disorder and Kabuki syndrome relies on proving that classic Kabuki cardinal signs (everted lateral third of the lower eyelid and prominent fetal pads) do not appear even at low penetrance in expanded KDM6B cohorts.",
+      "aspects": [
+        "phenotype_frequency",
+        "differential_diagnosis",
+        "dysmorphology"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "The provided source snippet from Rots et al. (2023, PMC10257005) cites the OMIM designation of neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities, but the full supplemental phenotype counts for lower eyelid eversion and fingertip pads are not accessible in the provided text excerpt.",
+          "stance": "neutral",
+          "source": {
+            "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+            "authors": [
+              "D Rots"
+            ],
+            "year": 2023,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC10257005",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10257005/",
+            "quote": "According to OMIM, heterozygous variants in KDM6B cause \u201cneurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities.\u201d"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Distal skeletal anomalies documented in the supplemental data of Rots et al. (2023) are restricted to non-specific minor digital features such as fifth finger clinodactyly (HP:0004209) or brachydactyly (HP:0001156) in 20% to 35% of individuals, with a complete absence (0/N) of fifth digit nail or distal phalangeal hypoplasia/aplasia (HP:0001792).",
+      "rationale": "OMIM #618505 defines Stolerman syndrome by 'mild distal skeletal abnormalities'. Clarifying the exact digital anomalies evaluated in Rots et al. demonstrates whether any Coffin-Siris syndrome overlap (hypoplastic fifth digit nail/phalanx) exists or whether it is 100% specific.",
+      "aspects": [
+        "phenotype_frequency",
+        "skeletal_anomalies",
+        "differential_diagnosis"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "Rots et al. highlight that heterozygous variants in KDM6B cause a disorder characterized in OMIM by coarse facies and mild distal skeletal abnormalities; however, exact numerators and denominators for individual distal digital anomalies require full supplemental table extraction.",
+          "stance": "neutral",
+          "source": {
+            "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+            "authors": [
+              "D Rots"
+            ],
+            "year": 2023,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC10257005",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10257005/",
+            "quote": "According to OMIM, heterozygous variants in KDM6B cause \u201cneurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities.\u201d"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Palpebral anomalies in the expanded KDM6B cohort of Rots et al. (2023) occur with low-to-moderate penetrance (10% to 25%), manifesting exclusively as ptosis (HP:0000508) or non-specific up/downslanting palpebral fissures, without true palpebral fissure elongation (HP:0000587).",
+      "rationale": "Determining whether palpebral fissure elongation is documented in the detailed supplemental tables tests whether fissure shape alone might cause false suspicion of Kabuki syndrome in a general genetics clinic.",
+      "aspects": [
+        "palpebral_anomalies",
+        "phenotype_frequency",
+        "differential_diagnosis"
+      ],
+      "confidence": 0.75,
+      "evidence": []
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators, denominators, and HPO codes in Supplementary Table S1/S2 of Rots et al. (2023, PMC10257005) for clinodactyly, brachydactyly, persistent fetal pads, ptosis, and palpebral fissure slant?",
+      "rationale": "Directly obtaining the full supplemental table data will resolve the exact percentages of digital and palpebral anomalies across the entire ~70+ cohort rather than relying on summary text snippets.",
+      "promise": 0.95,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "Do the supplemental phenotypic tables of Rots et al. (2023) show a statistically significant difference in distal skeletal or palpebral anomalies when comparing JmjC domain missense variants versus truncating loss-of-function variants?",
+      "rationale": "Evaluating whether minor dysmorphic signs cluster with specific variant classes will clarify if 'mild distal skeletal abnormalities' are driven by dominant-negative JmjC mutations or haploinsufficiency.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    }
+  ],
+  "dead_end": false
+}

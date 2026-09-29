@@ -1,0 +1,209 @@
+{
+  "hypotheses": [
+    {
+      "text": "Biallelic pathogenic FDXR variants confer near-complete penetrance for optic atrophy and retinal degeneration (demonstrated in 100% of ophthalmologically assessed cohorts: 11/11 in Yi et al. 2023 and 5/5 in Wei et al. 2023), whereas auditory neuropathy shows incomplete penetrance or delayed manifestation in ocular-ascertained cases.",
+      "rationale": "Clarifying the exact penetrance of sensory manifestations resolves whether normal auditory electrophysiology excludes FDXR deficiency in patients presenting with early-onset optic atrophy or retinal dystrophy.",
+      "aspects": [
+        "pooled",
+        "discriminators"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In a cohort of 11 unrelated patients with biallelic FDXR variants, fundus examination revealed optic disc pallor/optic atrophy and generalized retinal degeneration in 11/11 individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR-Associated Oculopathy: Congenital Amaurosis ... - PMC",
+            "authors": [
+              "S Yi"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC10137360",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10137360/",
+            "quote": "Biallelic pathogenic or likely pathogenic FDXR variants were identified in 11 unrelated patients... Fundus observation showed complete optic disc pallor, silver wiring or severe attenuation of retinal vessels, and varying degrees of generalized retinal degeneration."
+          },
+          "numbers": [
+            {
+              "metric": "optic disc pallor and retinal degeneration penetrance in cohort",
+              "value": "11/11"
+            }
+          ]
+        },
+        {
+          "text": "In 5 unrelated individuals with biallelic FDXR variants, all 5 presented with optic atrophy and retinal dystrophy with severely impaired cone and rod responses.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR-associated disease in a Chinese cohort: Unraveling expanded ocular phenotypes and genetic spectrum",
+            "authors": [
+              "X Wei",
+              "H Li",
+              "T Zhu",
+              "F Yao",
+              "R Sui"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1016/j.exer.2023.109600",
+            "pmid": "37481223",
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S001448352300221X",
+            "quote": "Five individuals from unrelated non-consanguineous Chinese families with biallelic FDXR variants were identified... In addition to optic atrophy and diverse extraocular manifestations, all patients presented with retinal dystrophy, and electroretinogram showed severely impaired cone and rod functions in their first decades."
+          },
+          "numbers": [
+            {
+              "metric": "retinal dystrophy and optic atrophy penetrance in cohort",
+              "value": "5/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Elevated CSF/plasma lactate and microcephaly are specific to the severe infantile-onset Leigh-like encephalopathy presentation of FDXR deficiency and are absent in juvenile-onset isolated optic-acoustic neuropathy.",
+      "rationale": "Determining whether elevated lactate and microcephaly are invariant or subgroup-restricted prevents clinicians from rejecting an FDXR diagnosis in normocephalic patients with normal baseline serum lactate.",
+      "aspects": [
+        "binned",
+        "negative_discriminators"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "In a series expanding the phenotypic spectrum of FDXR deficiency to severe infantile encephalopathy/Leigh syndrome, physical examination demonstrated microcephaly and elevated CSF lactate.",
+          "stance": "supports",
+          "source": {
+            "title": "Expanding the clinical and genetic spectrum of FDXR deficiency by functional validation of variants of uncertain significance",
+            "authors": [
+              "SL Stenton",
+              "D Piekutowska-Abramczuk"
+            ],
+            "year": 2021,
+            "journal": null,
+            "doi": "10.1002/humu.24160",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24160",
+            "quote": "Physical examination revealed microcephaly, slight facial dysmorphism with frontal bossing, ... CSF lactate, in addition to features frequent to FDXR deficiency, such as optic atrophy."
+          },
+          "numbers": [
+            {
+              "metric": "patients reported in series across 6 families",
+              "value": 7
+            }
+          ]
+        },
+        {
+          "text": "In older children and adolescents presenting with sensory neuropathy, hearing loss onset ranged up to 25 years without reported early infantile microcephaly or lactic acidosis crises.",
+          "stance": "supports",
+          "source": {
+            "title": "Identification of genetic mechanisms of non-isolated auditory neuropathy with various phenotypes in Chinese families",
+            "authors": [
+              "Y Cao",
+              "X Zhang",
+              "L Lan",
+              "D Li",
+              "J Li",
+              "L Xie",
+              "F Xiong"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": "10.1186/s13023-025-03540-7",
+            "pmid": "39780253",
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1186/s13023-025-03540-7",
+            "quote": "Patients' age of hearing loss onset ranged from 2 to 25 years, averaging 11 years. Hearing loss varied from mild to profound, with 57.1%(4/7) of patients having risk factors and 71.4%(5/7) exhibiting additional systemic symptoms such as muscle weakness, ataxia, and high arches."
+          },
+          "numbers": [
+            {
+              "metric": "additional systemic symptoms (ataxia, muscle weakness, pes cavus)",
+              "value": "5/7"
+            },
+            {
+              "metric": "mean age of hearing loss onset (years)",
+              "value": 11
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Retinal vascular attenuation ('silver wiring' or complete vessel occlusion on fluorescein angiography) is present in over 60% of FDXR ocular assessments (3/5 in Wei et al. and a majority in Yi et al.), distinguishing FDXR disease from other primary mitochondrial optic neuropathies such as LHON or OPA1-related dominant optic atrophy.",
+      "rationale": "LHON and OPA1 typically cause optic atrophy without primary retinal arteriolar occlusion or severe peripheral chorioretinal degeneration. Documenting the prevalence of vascular attenuation gives ophthalmologists a distinct sign for FDXR.",
+      "aspects": [
+        "discriminators",
+        "pooled"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Three of five patients showed attenuated retinal vessels appearing as white lines, with fluorescein angiography demonstrating vascular occlusions and nonperfusion.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR-associated disease in a Chinese cohort: Unraveling expanded ocular phenotypes and genetic spectrum",
+            "authors": [
+              "X Wei",
+              "H Li",
+              "T Zhu",
+              "F Yao",
+              "R Sui"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1016/j.exer.2023.109600",
+            "pmid": "37481223",
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S001448352300221X",
+            "quote": "Three of the five patients showed attenuated retinal vessels that appeared as white lines on the fundus, and fundus fluorescein angiography (FFA) further revealed vascular abnormalities including delayed filling, completely occluded retinal vasculature, and severe retinal vascular nonperfusion of the peripheral retina."
+          },
+          "numbers": [
+            {
+              "metric": "attenuated retinal vessels appearing as white lines",
+              "value": "3/5"
+            }
+          ]
+        },
+        {
+          "text": "In 11 patients with biallelic FDXR variants, fundus examination confirmed silver wiring or severe attenuation of retinal vessels alongside diffuse retinal degeneration.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR-Associated Oculopathy: Congenital Amaurosis ... - PMC",
+            "authors": [
+              "S Yi"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC10137360",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10137360/",
+            "quote": "Fundus observation showed complete optic disc pallor, silver wiring or severe attenuation of retinal vessels, and varying degrees of generalized retinal degeneration."
+          },
+          "numbers": [
+            {
+              "metric": "cohort size evaluating fundus changes",
+              "value": 11
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for elevated CSF versus blood lactate in Leigh-like infantile FDXR presentations compared to IBA57, BOLA3, and NFU1 cohorts?",
+      "rationale": "MMDS1-3 frequently feature severe persistent lactic acidosis and early lethality, whereas FDXR may only transiently elevate lactate during decompensation.",
+      "promise": 0.85,
+      "est_cost": 1.15
+    },
+    {
+      "question_text": "Across all reported FDXR patients with auditory neuropathy, what is the prevalence of absent distortion product otoacoustic emissions (DPOAE) versus preserved DPOAE with absent ABR?",
+      "rationale": "True auditory neuropathy spectrum disorder classically spares outer hair cells (preserved OAE) while disrupting synchronized neural transmission; testing whether OAEs are universally spared in FDXR clarifies diagnostic electrophysiology.",
+      "promise": 0.78,
+      "est_cost": 0.95
+    }
+  ],
+  "dead_end": false
+}

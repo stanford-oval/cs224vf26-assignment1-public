@@ -1,0 +1,123 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis correctly captures that BRD4-related syndrome (CDLS6) is caused by missense and loss-of-function/truncating variants and presents with non-classic or milder Cornelia de Lange syndrome phenotypes whose genotype-phenotype correlations remain challenging to establish. However, the claim that there are fewer than 10-15 published individuals globally is contradicted by Jouret et al. (2022), who published an international cohort of 14 new individuals (including 2 fetuses) on top of the previously reported cases (e.g., Olley et al. and Alesi et al.), bringing the global total well above 15. Furthermore, Jouret et al. specifically delineated phenotypic and dysmorphic evolution across age groups (prenatal/fetuses, pediatrics, adults) to establish a distinct, clinically recognizable pattern.",
+  "evidence": [
+    {
+      "text": "Jouret et al. published an international cohort study identifying 14 new patients (including two fetuses) with BRD4-related disorder, combining prenatal fetopathological examinations with pediatric and adult clinical data to delineate age-specific dysmorphic features and define a clinically recognizable pattern distinct from other cohesinopathies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Understanding the new BRD4\u2010related syndrome: Clinical and genomic delineation with an international cohort study",
+        "authors": [
+          "G Jouret",
+          "S Heide",
+          "A Sorlin",
+          "L Faivre"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1111/cge.14141",
+        "pmid": "35470444",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14141",
+        "quote": "However, no cohort study has been conducted to delineate the clinical and molecular spectrum of BRD4-related disorder. We formed an international collaborative study, and collected 14 new patients, including two fetuses. We performed phenotype and genotype analysis, integrated prenatal findings from fetopathological examinations, phenotypes of pediatric patients and adults. We report the first cohort of patients with BRD4-related disorder and delineate the dysmorphic features at different ages."
+      },
+      "numbers": [
+        {
+          "metric": "new cohort size",
+          "value": 14
+        },
+        {
+          "metric": "fetal cases in cohort",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Lonardo et al. review the clinical spectrum of CDLS6, noting that BRD4 variations cause non-classic or milder forms of CdLS and that none of the reported individuals exhibit classic CdLS, demonstrating that the full spectrum and clinical correlations remain actively delineated.",
+      "stance": "supports",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12650802",
+        "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+        "quote": "None of the patients reported has the classic phenotype of CdLS: in ... variations in several other genes, including BRD4, have been identified as causative factors for non-classic or milder forms of the syndrome. This review aims to analyse the roles that BRD4 plays in the various pathways in which it is involved and to summarise current knowledge on atypical CdLS associated with BRD4 gene alterations"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Olley et al. established that BRD4 interacts directly with NIPBL and that heterozygous loss-of-function variants cause a CdLS-like phenotype, whereas a de novo missense variant exhibited a more typical CdLS phenotype, providing initial evidence for variant-dependent phenotypic divergence.",
+      "stance": "supports",
+      "source": {
+        "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a Cornelia de Lange\u2013like syndrome",
+        "authors": [
+          "G Olley",
+          "M Ansari",
+          "H Bengani",
+          "GR Grimes",
+          "J Rhodes"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-018-0042-y",
+        "quote": "phenotype associated with BRD4 haploinsufficiency overlapped with that of Cornelia de Lange syndrome (... More typical CdLS was observed with a de novo BRD4 missense variant"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Alesi et al. reported a patient with a 19p13.12p13.11 microdeletion spanning BRD4 and neighboring genes, confirming the role of BRD4 haploinsufficiency in presenting Cornelia de Lange-like features within contiguous gene deletion syndromes.",
+      "stance": "supports",
+      "source": {
+        "title": "Confirmation of BRD4 haploinsufficiency role in Cornelia de Lange\u2013like phenotype and delineation of a 19p13.12p13.11 gene contiguous syndrome",
+        "authors": [
+          "V Alesi",
+          "ML Dentici",
+          "S Loddo"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1111/ahg.12289",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ahg.12289",
+        "quote": "We report a new 19p deletion in a patient clinically diagnosed as CdLS, partially overlapping with previously published cases with the aim to support the role of BRD4 haploinsufficiency in a CdL-like phenotype and to improve the delineation of 19p13.12p13.11 deletion as a new nonrecurrent gene contiguous syndrome"
+      },
+      "numbers": [
+        {
+          "metric": "new reported deletion cases",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts there are fewer than 10-15 published individuals globally, whereas the literature contains at least 14 individuals in Jouret et al. (2022) alone, in addition to cases previously documented by Olley et al. (2018), Alesi et al. (2019), and others.",
+    "The hypothesis claims that age-specific phenotypic divergence has not been characterized, whereas Jouret et al. (2022) explicitly examined fetuses, pediatric cases, and adults to delineate age-dependent facial and systemic manifestations."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What are the exact clinical sensitivity and specificity of individual HPO facial and limb features distinguishing CDLS6 (BRD4) from CDLS1 (NIPBL) across pediatric cohorts?",
+      "rationale": "Because BRD4 individuals lack classic CdLS limb reduction anomalies and show atypical facial features, a formal discriminant analysis across aggregated cohorts is needed to quantify diagnostic accuracy from phenotype alone.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do missense variants localized to bromodomain 1 (BD1) versus bromodomain 2 (BD2) versus the extraterminal (ET) domain result in quantifiable differences in neurodevelopmental severity or structural malformations?",
+      "rationale": "Olley et al. suggested de novo missense variants could present with a more typical CdLS phenotype than truncating haploinsufficient variants, but domain-level stratification across the expanded cohort has not been comprehensively mapped.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

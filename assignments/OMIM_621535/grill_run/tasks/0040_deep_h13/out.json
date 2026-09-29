@@ -1,0 +1,91 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature confirms that heterozygous RAB3A p.Arg83Trp causes spinocerebellar ataxia 52 (SCA52) characterized by adult-onset progressive cerebellar ataxia with 'variable features of neurodevelopmental disorders' (Miyamoto et al., 2026). However, the specific quantitative assertion that neurodevelopmental features, cognitive delay, or intellectual disability exhibit a penetrance of 'less than 40 percent' in Family T and Family K is not verified or documented within the provided text. Furthermore, OMIM #621535 notes that cognitive/neuropsychiatric symptoms are reported 'usually later in the' course rather than primarily presenting as early-onset neurodevelopmental disorders, while PanelApp records neurodevelopmental delay among affected carriers without providing a <40% penetrance cutoff. Because the literature provided gives no numerical or segregation data supporting the specific 40% penetrance threshold, the hypothesis cannot be confirmed as stated.",
+  "evidence": [
+    {
+      "text": "Miyamoto et al. (2026) report that affected individuals with the RAB3A c.247C>T p.(Arg83Trp) variant presented with adult-onset, gradually progressive cerebellar ataxia with cerebellar atrophy, and that 'variable features of neurodevelopmental disorders were also observed' rather than being invariant.",
+      "stance": "supports",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": "41492970",
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed."
+      },
+      "numbers": [
+        {
+          "metric": "SCA patients screened for RAB3A variants",
+          "value": 320
+        },
+        {
+          "metric": "Number of families identified with cerebellar ataxia and c.247C>T variant",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621535 indicates that SCA52 is an autosomal dominant disorder characterized by cerebellar ataxia, but notes that mild cognitive deficits and neuropsychiatric features are usually reported later rather than as classic early neurodevelopmental features.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Mild cognitive deficits and/or neuropsychiatric features have also been reported, usually later in the..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "PanelApp Hereditary Ataxia panel records the RAB3A Arg83Trp variant and lists phenotypes including cerebellar ataxia, pyramidal features, and neurodevelopmental delay, but does not substantiate a sub-40% penetrance threshold.",
+      "stance": "neutral",
+      "source": {
+        "title": "Gene: RAB3A (Hereditary ataxia)",
+        "authors": [],
+        "year": null,
+        "journal": "Genomics England PanelApp",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/20/gene/RAB3A/",
+        "quote": "Arg83Trp) was seen in 14 members from nine ... neurodevelopmental delay to RAB3A associated cerebellar ataxia; pyramidal features; neurodevelopmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "Affected members reported with Arg83Trp variant",
+          "value": 14
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "OMIM #621535 reports cognitive deficits as emerging later in the disease course, whereas Miyamoto et al. and PanelApp report variable features of neurodevelopmental disorders/delay.",
+    "The hypothesis posits a penetrance strictly below 40% for neurodevelopmental phenotypes in Family T and Family K, but published sources lack explicit cohort numerator/denominator breakdowns to validate this threshold."
+  ],
+  "confidence": 0.25,
+  "new_directions": [
+    {
+      "question_text": "What is the exact frequency and clinical spectrum of early-childhood developmental delay versus late-onset cognitive impairment across all known families carrying RAB3A p.Arg83Trp?",
+      "rationale": "Clarifying whether cognitive manifestations represent developmental delay versus secondary degenerative cerebellar cognitive affective syndrome requires standardized longitudinal neuropsychological assessments across pedigrees.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does the defective interaction of Rab3A p.Arg83Trp with RIM1 and Rabphilin-3A alter presynaptic parallel fiber plasticity during development or cause progressive synaptopathy in adulthood?",
+      "rationale": "Investigating whether Rab3A p.Arg83Trp disrupts developmental synapse formation or leads strictly to age-dependent synaptic degeneration will resolve the biological basis of variable neurodevelopmental penetrance.",
+      "promise": 0.9,
+      "est_cost": 75000
+    }
+  ]
+}

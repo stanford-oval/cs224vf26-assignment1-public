@@ -1,0 +1,99 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature confirms that biallelic variants in SGSM3 cause intellectual developmental disorder, autosomal recessive 84 (OMIM #620401), presenting predominantly as a nonsyndromic or minimally syndromic neurodevelopmental/intellectual disability phenotype (with intellectual disability, language delay/quotient alterations, ASD susceptibility, and in some individuals short stature). Because the presentation lacks distinct pathognomonic physical anomalies or organ involvement, it cannot be reliably diagnosed on clinical grounds alone against other autosomal recessive intellectual disability (ARID/MRT) entities without molecular testing. Furthermore, affected individuals lack progressive neurodegenerative features, retinitis pigmentosa, severe coarse facial features, and progressive neurodegenerative signs seen in complex neurometabolic or ciliopathic disorders.",
+  "evidence": [
+    {
+      "text": "Birnbaum et al. first described an intellectual disability syndrome segregating with a homozygous founder variant in SGSM3 in Ashkenazi Jewish families, where developmental quotient and language skills were evaluated without progressive neurological regression.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "SGSM3, which segregated with the phenotype in available family members. We describe the clinical \u2026 (language) skills were appropriate for his age, with a developmental quotient of 84."
+      },
+      "numbers": [
+        {
+          "metric": "developmental quotient",
+          "value": 84
+        }
+      ]
+    },
+    {
+      "text": "A homozygous stop-gain variant (c.1576C>T: p.(Arg526Ter)) in SGSM3 was identified in two siblings presenting with nonsyndromic intellectual disability and short stature, confirming SGSM3 as an AR candidate gene for nonsyndromic intellectual disability across distinct populations.",
+      "stance": "supports",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14631",
+        "pmid": "39390489",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "In this study, a novel homozygous stop-gain (NM_015705.6: c.1576C>T: p.(Arg526Ter)) variation was detected in the SGSM3 gene in two siblings with short stature and ID findings. The report of two cases with bi-allelic LOF variants in the SGSM3 gene from different populations with similar clinical manifestations strengthens the potential of this gene as a candidate gene for the nonsyndromic ID phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings in cohort",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Exome sequencing in consanguineous ASD and NDD cohorts identified rare biallelic candidate variants in SGSM3, placing it within the spectrum of autosomal recessive neurodevelopmental disorders without distinguishing syndromic dysmorphology.",
+      "stance": "supports",
+      "source": {
+        "title": "Autism spectrum disorder trios from consanguineous populations are enriched for rare homozygous variants, identifying 32 new candidate genes",
+        "authors": [
+          "R Harripaul",
+          "A Rabia",
+          "N Vasli",
+          "A Mikhailov"
+        ],
+        "year": 2026,
+        "journal": "Scientific Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41598-026-44288-9",
+        "quote": "candidate AR genes, SGSM3 and VPS16, have recently \u2026 We present 32 new candidate autosomal recessive variants"
+      },
+      "numbers": [
+        {
+          "metric": "total trios assessed in study",
+          "value": 115
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does short stature represent an invariant or partially penetrant feature across additional ethnically diverse SGSM3 cohorts?",
+      "rationale": "Turkyilmaz et al. reported short stature alongside intellectual disability in two siblings with a homozygous stop-gain variant, whereas Birnbaum et al. reported a founder variant in Ashkenazi Jews. Evaluating height measurements across all emerging cohorts will establish if short stature is an obligate discriminator.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What neuronal functional pathways interact with SGSM3 during neurodevelopment, and do missense versus loss-of-function variants produce discernible phenotypic variation?",
+      "rationale": "SGSM3 interacts with RAP/RAS small GTPase signaling; defining variant effects in human iPSC-derived neurons will establish whether full LOF vs. partial hypomorphs alter severity or syndromic features.",
+      "promise": 0.78,
+      "est_cost": 75000
+    }
+  ]
+}

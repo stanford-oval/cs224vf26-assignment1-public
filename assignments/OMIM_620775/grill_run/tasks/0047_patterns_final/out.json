@@ -1,0 +1,76 @@
+{
+  "patterns": [
+    {
+      "pattern": "Co-occurrence of generalized arthrogryposis multiplex congenita, microcephaly, and distal cutaneous crease obliteration as an obligate phenotypic triad",
+      "abstraction": "A multisystem syndrome distinctively combines musculoskeletal contractures, neurocranial restriction, and distal dermatoglyphic/cutaneous markers, separating it from isolated structural or neuromuscular defects.",
+      "instance": "Homozygous loss-of-function FILIP1 cases exhibit 100% penetrance of generalized multi-joint contractures (5/5), microcephaly (5/5), and reduced palmar/plantar skin folds (5/5) across discovery cohorts.",
+      "direction": "Establishing systematic dermatoglyphic and joint-mobility screening protocols in neonatal cohorts with syndromic microcephaly to prompt targeted FILIP1 testing.",
+      "support": "Strong; consistently documented across independent families in primary discovery cohorts.",
+      "sources": [
+        "10.1007/s00439-023-02528-2",
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821"
+      ],
+      "hypothesis": "Absence of palmar and plantar crease obliteration in a newborn with generalized arthrogryposis strongly indicates a non-FILIP1 genetic etiology.",
+      "novelty": "Distal skin crease obliteration is rarely recognized as a primary diagnostic discriminator in genetic arthrogryposis evaluations compared to cranial and joint abnormalities."
+    },
+    {
+      "pattern": "Biomarker dissociation of normal-to-mildly elevated creatine kinase and preservation of immediate neonatal respiration distinguishing FILIP1 disease from classic severe congenital myopathies",
+      "abstraction": "Syndromic neuromuscular conditions may lack classic enzymatic muscle breakdown and early respiratory failure, providing critical negative discriminators against clinically overlapping fatal infantile disorders.",
+      "instance": "Patients with biallelic FILIP1 variants show normal or only mildly elevated serum CK levels (<3-5x ULN) and absent immediate neonatal respiratory distress (0/5 at birth), contrasting sharply with SMARD1 and severe congenital muscular dystrophies like LAMA2-RD.",
+      "direction": "Comparative clinical algorithmic modeling measuring the specificity of preserved neonatal respiratory drive paired with severe arthrogryposis in distinguishing FILIP1 disorders from spinal muscular atrophies.",
+      "support": "Moderate to strong; consistently supported across neuromuscular reviews and clinical case series.",
+      "sources": [
+        "10.1097/wco.0000000000001397",
+        "10.7759/cureus.19006",
+        "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317"
+      ],
+      "hypothesis": "In infants presenting with multi-joint contractures and facial weakness, a serum CK below 300 U/L and unassisted initial ventilation differentiates FILIP1-related disorder from dystrophin-glycoprotein complex defects and SMARD1.",
+      "novelty": "Directly overturns expectations that severe congenital arthrogryposis and generalized weakness must involve elevated muscle enzymes or catastrophic early diaphragmatic failure."
+    },
+    {
+      "pattern": "Emergence of structural central nervous system anomalies challenging the classification of the condition as a pure peripheral myopathy",
+      "abstraction": "Disorders initially classified as pure peripheral neuromuscular syndromes frequently exhibit unrecognized central structural dysmorphisms as neuroimaging cohort evaluation broadens.",
+      "instance": "Initial classifications assumed structural brain malformations were absent, but comprehensive neuroimaging by Roos et al. revealed overt structural CNS anomalies alongside microcephaly in FILIP1 cohorts.",
+      "direction": "High-resolution neuroimaging characterization of cortical and subcortical architecture in all newly diagnosed FILIP1 patients to delineate filamin-mediated neuroblast migration defects.",
+      "support": "Moderate; supported by detailed imaging findings in 5 affected individuals, directly resolving earlier negative presumptions.",
+      "sources": [
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "PMID:37163662",
+        "PMC10545528",
+        "10.1007/s00439-023-02528-2"
+      ],
+      "hypothesis": "FILIP1 pathogenesis directly impairs filamin A/C-mediated cortical neuronal migration, generating identifiable microstructural cortical dysplasia visible on high-field 3T brain MRI.",
+      "novelty": "Directly contradicts initial disease descriptions stating that marked central nervous system structural anomalies are absent."
+    },
+    {
+      "pattern": "Diagnostic under-ascertainment driven by homozygous structural copy-number variants in consanguineous populations",
+      "abstraction": "Ultra-rare recessive syndromic diseases can remain undetected when standard diagnostic exome pipelines focus solely on single-nucleotide variants rather than homozygous microdeletions.",
+      "instance": "Systematic deletion analysis identified homozygous autosomal copy number losses (e.g., an 86 kb deletion) covering FILIP1 as the causative lesion in previously unsolved syndromic AMC cohorts.",
+      "direction": "Incorporating systematic copy-number variation algorithms directly into frontline clinical exome sequencing for consanguineous cohorts with unassigned neuromuscular disorders.",
+      "support": "Strong; validated by systematic exome cohort re-analyses in large cohorts (n=2021).",
+      "sources": [
+        "https://www.nature.com/articles/s41431-026-02158-y",
+        "10.1007/s00439-023-02528-2"
+      ],
+      "hypothesis": "A non-trivial fraction of unresolved autosomal recessive arthrogryposis with microcephaly stems from homozygous non-coding or intragenic structural deletions in FILIP1 missed by standard SNV-focused exome filtering.",
+      "novelty": "Highlights that rare non-coding or multi-exon structural CNVs, rather than point mutations alone, contribute significantly to the molecular epidemiology of FILIP1 deficiency."
+    },
+    {
+      "pattern": "Divergent neuromuscular manifestations ranging from rigid contracture-dominated akinesia to core-like congenital myopathy without uniform generalized flaccidity",
+      "abstraction": "Genetically identical gene disruptions produce distinct clinical poles: one manifesting as rigid contracture-dominated prenatal akinesia and facial hypotonia, and another displaying progressive limb weakness and core myopathy.",
+      "instance": "While Roos et al. documented core-like congenital myopathy with weakness in all assessed patients, Schnabel et al. and Watts et al. highlighted rigid arthrogryposis and facial/axial hypotonia with preservation of generalized limb strength or absence of classic congenital myopathy.",
+      "direction": "Multi-center deep phenotyping correlating skeletal muscle ultrastructure (myofibrillar integrity and Z-disk architecture) with motor exam scores across diverse variant positions.",
+      "support": "Moderate; evidenced by conflicting clinical presentations reported between major discovery and single-case series.",
+      "sources": [
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "10.1007/s00439-023-02528-2",
+        "PMC12354002"
+      ],
+      "hypothesis": "The clinical divergence between generalized limb flaccidity and rigid distal contractures correlates with the timing and extent of prenatal filamin C degradation disruption during myofibrillar assembly.",
+      "novelty": "Resolves the clinical paradox wherein a condition titled 'neuromuscular disorder' can present primarily with rigid contractures and facial weakness rather than generalized limb flaccid hypotonia."
+    }
+  ]
+}

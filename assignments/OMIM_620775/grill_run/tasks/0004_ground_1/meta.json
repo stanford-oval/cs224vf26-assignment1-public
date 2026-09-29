@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"congenital neuromuscular disorder\" \"dysmorphic facies\"",
+    "FILIP1 congenital neuromuscular disorder dysmorphic facies OMIM 620775 clinical phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02158-y",
+      "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02158-y",
+      "abstract_chars": 1803
+    },
+    {
+      "id": "https://omim.org/entry/620775",
+      "title": "Entry - #620775 - NEUROMUSCULAR DISORDER, ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620775",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies",
+      "title": "Neuromuscular Disorder, Congenital, with Dysmorphic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/1857169",
+      "title": "Neuromuscular disorder, congenital, with dysmorphic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/1857169",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=filip1",
+      "title": "KEGG Disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=filip1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/FILIP1",
+      "title": "FILIP1 gene Filamin A Interacting Protein 1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/FILIP1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "37163662",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": "37163662",
+      "doi": "10.1093/brain/awad152",
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "39386087",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": "39386087",
+      "doi": "10.1093/braincomms/fcae330",
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "36943452",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+      "pmid": "36943452",
+      "doi": "10.1007/s00439-023-02528-2",
+      "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+      "abstract_chars": 1116
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "title": "The 2026 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3312,
+  "output_tokens": 1373,
+  "usd": 0.00577,
+  "seconds": 14.1,
+  "ok": true
+}

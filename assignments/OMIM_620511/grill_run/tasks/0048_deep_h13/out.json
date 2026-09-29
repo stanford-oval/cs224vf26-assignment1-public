@@ -1,0 +1,126 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While reports from cohorts ascertained specifically for epilepsy (such as Hu et al.) confirm that SCAF4-associated epilepsy predominantly presents with infrequent seizures responding well to antiseizure medications, broad unselected cohorts present mixed characterizations. In the 50-patient GeneMatcher cohort reported by Schmid et al., seizures are described as a 'frequent clinical finding' rather than an infrequent secondary feature, and the review by Yan et al. categorizes epilepsy as one of the 'main clinical features' across 69 aggregated individuals. Because the available texts confirm incomplete penetrance and pharmacoresponsiveness but do not provide an explicit numerical frequency below 40% in unselected cohorts, the quantitative threshold remains contested.",
+  "evidence": [
+    {
+      "text": "In a targeted cohort of three individuals with de novo SCAF4 variants ascertained via epilepsy trios, all three presented with infrequent seizures that responded well to antiseizure drugs, with a median age of onset of 4 years.",
+      "stance": "supports",
+      "source": {
+        "title": "SCAF4 variants are associated with epilepsy with neurodevelopmental disorders",
+        "authors": [
+          "Hu",
+          "Zhang"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.semanticscholar.org/paper/SCAF4-variants-are-associated-with-epilepsy-with-Hu-Zhang/fb6c5c43ae271bd0b900f71c563cc08490d123c1",
+        "quote": "All probands experienced epilepsy as infrequent seizures, responded well to antiseizure drugs, and had a median [IQR] seizure onset age of 4 [1.75, 7.5] years."
+      },
+      "numbers": [
+        {
+          "metric": "seizure penetrance in epilepsy-ascertained cohort",
+          "value": 1
+        },
+        {
+          "metric": "median age of seizure onset (years)",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "In an unselected international cohort of 50 novel individuals with SCAF4 variants ascertained through GeneMatcher, seizures are identified as a frequent clinical finding alongside developmental delay, speech impairment, and skeletal anomalies, rather than a universal or strictly minor feature.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+        "authors": [
+          "CM Schmid",
+          "A Gregor",
+          "A Ruiz"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01760-2",
+        "quote": "Frequent clinical findings were mild developmental delay with speech impairment, seizures, and skeletal abnormalities such as clubfoot, scoliosis or hip dysplasia."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "A comprehensive review of 69 Fliedner-Zweier syndrome patients indicates that epilepsy is consistently documented as one of the primary cardinal features of the condition alongside intellectual disability, behavioral abnormalities, and facial dysmorphism.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical features and genetic etiology analysis in a patient with Fliedner-Zweier syndrome caused by a de novo SCAF4 variant",
+        "authors": [
+          "L Yan",
+          "C Chen",
+          "Y Zhang",
+          "J Cao",
+          "C Han"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/article/med/41811042",
+        "quote": "Together with the patient in this study, a total of 69 FZS patients were involved (including 7 from China). The main clinical features have included intellectual disability, epilepsy, behavioral abnormalities, and facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "total reviewed patients",
+          "value": 69
+        }
+      ]
+    },
+    {
+      "text": "Literature review and functional studies in SCAF4 animal models confirm abnormal epileptic phenotypes, while human cases present with a variable spectrum including seizures, intellectual disability, and structural anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel nonsense mutation in SCAF4 associated with fliedner-zweier syndrome: a case report and review of the literature",
+        "authors": [
+          "Z Chen",
+          "J Zhao",
+          "X Fan",
+          "X Xuan",
+          "X Zhao"
+        ],
+        "year": 2025,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2025.1487352/full",
+        "pmid": null,
+        "pmc": "PMC12021868",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1487352/full",
+        "quote": "In SCAF4 knockout zebrafish models, abnormal epileptic ... Variants in the SR-related C-terminal domain-Associated factor 4 (SCAF4) gene are linked to Fliedner-Zweier syndrome (FZS), which presents with diverse symptoms, including mild intellectual disability, seizures, behavioral abnormalities, and various skeletal and structural anomalies."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Epilepsy cohorts document 100% seizure occurrence and pharmacoresponsiveness, whereas broad multicenter cohorts (Schmid et al., Yan et al.) list seizures/epilepsy as a frequent core clinical feature without verifying an overall penetrance rate below 40%."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "What is the exact numerator and denominator of confirmed clinical seizures in unselected SCAF4 cohorts ascertained strictly outside of epilepsy panels?",
+      "rationale": "Resolving the exact penetrance requires disaggregating individuals recruited through general neurodevelopmental delay and exome-first sequencing from those recruited through epilepsy genetic clinics.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Do domain-specific SCAF4 variants (e.g., CTD-interacting domain vs. downstream truncating variants) correlate with the presence or absence of epilepsy?",
+      "rationale": "Schmid et al. and Hu et al. observed domain-specific functional consequences, which could explain why some patients manifest severe epilepsy while others remain seizure-free.",
+      "promise": 0.8,
+      "est_cost": 25000.0
+    }
+  ]
+}

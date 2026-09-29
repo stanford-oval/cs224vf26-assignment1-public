@@ -1,0 +1,74 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While earlier descriptions of Alsahan-Harris syndrome and TBC1D32-associated ciliopathies emphasized survivable pediatric phenotypes (e.g., hypothalamic/pituitary dysfunction, facial dysmorphism, polydactyly, retinal disease), subsequent cohort expansions report life-limiting prenatal presentations. Specifically, Harris et al. (2023) identified four fetal probands with life-limiting congenital anomalies among 14 total cases, and curation databases like PanelApp have reviewed TBC1D32 within cystic kidney disease panels. Consequently, while renal dysplasia and neonatal lethality are absent in classic mild/pediatric presentations, they cannot be reliably treated as absolute negative discriminators across the full TBC1D32 phenotypic spectrum.",
+  "evidence": [
+    {
+      "text": "Harris et al. describe seven newly identified probands with biallelic TBC1D32 variants, including four fetal probands from three unrelated pedigrees with life-limiting congenital anomalies, alongside three pediatric probands and comparisons to seven previously published individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy",
+        "authors": [
+          "SC Harris",
+          "K Chong",
+          "D Chitayat"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63150",
+        "pmid": null,
+        "pmc": "PMC10204718",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63150",
+        "quote": "We describe seven unpublished probands with rare likely pathogenic variants or variants of uncertain significance that segregate with recessive disease in TBC1D32, including four fetal probands in three unrelated pedigrees and three pediatric probands in unrelated pedigrees. We also report clinical comparisons with seven previously published patients... We provide additional data to expand the phenotype correlated with TBC1D32 variants, including a severe prenatal phenotype associated with life-limiting congenital anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "newly reported fetal probands with life-limiting anomalies",
+          "value": 4
+        },
+        {
+          "metric": "total affected individuals evaluated in study cohort",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "text": "Genomics England PanelApp lists TBC1D32 for review under cystic kidney disease and cystic renal phenotypes in the context of Alsahan-Harris syndrome (OMIM:621307).",
+      "stance": "neutral",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=722&entity=TBC1D32",
+        "quote": "Cystic kidney disease, Cystic renal ... Alsahan-Harris syndrome, OMIM:621307; Alsahan ... TBC1D32, Achchuthan Shanmugasundram reviewed gene: TBC1D32"
+      },
+      "numbers": [
+        {
+          "metric": "panel entity identifier",
+          "value": 722
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Harris et al. (2023) documented 4 fetal probands among 14 affected individuals with severe prenatal phenotypes and life-limiting congenital anomalies, challenging the assumption that lethal perinatal presentations and structural organ dysplasias are universally excluded in TBC1D32 ciliopathy."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and histological characterization of renal cystic dysplasia and pulmonary hypoplasia among prenatally ascertained TBC1D32 fetal cases?",
+      "rationale": "Clarifying whether life-limiting fetal presentations feature true Meckel-Gruber-like multicystic renal disease or distinct developmental abnormalities is crucial for prenatal diagnostic algorithms.",
+      "promise": 0.85,
+      "est_cost": 0.05
+    },
+    {
+      "question_text": "Do null/truncating bi-allelic TBC1D32 variants correlate with fetal lethality and renal phenotypes compared to hypomorphic missense variants seen in surviving pediatric Alsahan-Harris patients?",
+      "rationale": "Genotype-phenotype correlations across the reported 14+ patients may explain why severe life-limiting anomalies occur in some pedigrees while others survive into late childhood.",
+      "promise": 0.8,
+      "est_cost": 0.04
+    }
+  ]
+}

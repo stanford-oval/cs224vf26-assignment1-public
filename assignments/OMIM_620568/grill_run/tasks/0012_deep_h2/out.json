@@ -1,0 +1,109 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across cohorts and international consensus demonstrates that pathogenic variants in BRD4 (causing Cornelia de Lange syndrome 6, CDLS6) lead to an atypical or non-classic CdLS phenotype. Unlike classical NIPBL-related CdLS, which is frequently defined by severe structural upper-limb reduction defects (such as oligodactyly or phocomelia) and severe visceral anomalies (such as diaphragmatic hernia), BRD4-related disorder is characterized by milder or atypical craniofacial features, developmental delay/intellectual disability of milder to moderate severity, and the absence of severe limb amputations or major structural reduction defects. Furthermore, differentiating BRD4-related CdLS from other non-classic cohesinopathy subtypes (such as those caused by RAD21 or SMC3) or overlapping chromatinopathies based on physical presentation alone has very low diagnostic specificity, necessitating molecular sequencing.",
+  "evidence": [
+    {
+      "text": "BRD4 pathogenic variants cause non-classic or milder presentations of Cornelia de Lange syndrome compared to classical forms predominantly caused by NIPBL alterations.",
+      "stance": "supports",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+        "quote": "Pathogenic variations in the NIPBL gene account for the majority of cases, but variations in several other genes, including BRD4, have been identified as causative factors for non-classic or milder forms of the syndrome."
+      },
+      "numbers": []
+    },
+    {
+      "text": "An international cohort of 14 patients with BRD4 alterations delineated the clinical dysmorphisms and developmental features across ages, demonstrating a recognizable non-classical cohesinopathy pattern distinct from classical presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Understanding the new BRD4\u2010related syndrome: Clinical and genomic delineation with an international cohort study",
+        "authors": [
+          "G Jouret",
+          "S Heide",
+          "A Sorlin",
+          "L Faivre"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1111/cge.14141",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14141",
+        "quote": "We formed an international collaborative study, and collected 14 new patients, including two fetuses. We performed phenotype and genotype analysis, integrated prenatal findings from fetopathological examinations, phenotypes of pediatric patients and adults... This work extends the phenotypic spectrum of cohesinopathies and characterize a new clinically relevant and recognizable pattern, distinguishable from the other cohesinopathies."
+      },
+      "numbers": [
+        {
+          "metric": "new cohort size",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous disruption and haploinsufficiency of BRD4 causes an overlapping Cornelia de Lange-like syndrome, with patients showing mild-to-moderate features of the cohesinopathy spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a Cornelia de Lange\u2013like syndrome",
+        "authors": [
+          "G Olley",
+          "M Ansari",
+          "H Bengani",
+          "GR Grimes",
+          "J Rhodes"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-018-0042-y",
+        "quote": "clinical phenotype associated with BRD4 haploinsufficiency overlapped with that of Cornelia de Lange syndrome"
+      },
+      "numbers": []
+    },
+    {
+      "text": "International consensus on Cornelia de Lange syndrome establishes diagnostic criteria defining classic versus non-classic presentations across seven causative cohesin-machinery genes, underscoring the non-classic, milder nature of non-NIPBL cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Diagnosis and management of Cornelia de Lange syndrome",
+        "authors": [
+          "AD Kline"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41576-018-0031-0",
+        "quote": "Here, we outline a series of recommendations that document the consensus of a group of international experts on clinical diagnostic criteria, both for classic CdLS and non-classic CdLS phenotypes, molecular investigations, long-term management and care planning."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What specific facial feature metric thresholds reliably separate BRD4-related CdLS6 from RAD21- and SMC3-associated non-classic CdLS using 3D deep-learning phenotyping?",
+      "rationale": "Both BRD4 and other non-NIPBL variants generate non-classic cohesinopathy phenotypes lacking major reduction defects; objective facial recognition algorithms could determine whether subtle morphological differences exist.",
+      "promise": 0.78,
+      "est_cost": 35000.0
+    },
+    {
+      "question_text": "Do truncating versus missense BRD4 variants exhibit distinct domain-specific expressivity in human neural crest organoid models?",
+      "rationale": "Clarifying whether the degree of intellectual disability or facial dysmorphism correlates with variant position or mechanism (haploinsufficiency vs. dominant-negative) will improve genotype-phenotype predictions.",
+      "promise": 0.85,
+      "est_cost": 65000.0
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "verdict": "refuted",
+  "rationale": "While the primary discovery cohort of TAF4-related neurodevelopmental disorder (Janssen et al., 2022) identifies 8 individuals with de novo putative loss-of-function variants and describes microcephaly, thin corpus callosum, intellectual disability, and facial dysmorphisms, the provided literature sources do not substantiate the specific quantitative boundaries in the hypothesis (namely that microcephaly occurs in 30-50% and seizures/epilepsy in <25-30% of assessed patients). Under the strict evaluation standard where claims not corroborated by the provided text cannot be assumed, the quantitative hypothesis lacks direct evidentiary support.",
+  "evidence": [
+    {
+      "text": "Janssen et al. (2022) reported a discovery cohort of eight individuals harboring de novo putative loss-of-function (pLoF) variants in TAF4 manifesting neurodevelopmental disorder (T4NDD). Common features included intellectual disability, abnormal behavior, and facial dysmorphisms, with shared phenotypic links to microcephaly and thin corpus callosum syndromes seen in other TFIID subunit disorders; however, exact frequency breakdowns for head circumference and seizure occurrence are not detailed in the provided text.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Staykova et al. (2024) note that variants in TAF complex genes including TAF4 disrupt normal brain development and impair cognitive function, but do not provide phenotypic frequencies or seizure incidence specifically for TAF4.",
+      "stance": "neutral",
+      "source": {
+        "title": "Pathogenic Variant in the TAF6 Gene in a Bulgarian Patient with the Ultrarare Alazami-Yuan Syndrome",
+        "authors": [
+          "SY Staykova",
+          "M Atanasoska"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1055/s-0043-1772575",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0043-1772575",
+        "quote": "TAF4 are known to disrupt normal brain development and impair cognitive function"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits specific quantitative frequency brackets (30-50% for microcephaly/borderline head circumference and <25-30% for seizures), but the provided literature only establishes an initial cohort of 8 individuals without providing accessible exact numerical rates in the available source text."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for microcephaly (HP:0000252) and seizures (HP:0001250) across all published TAF4 pLoF cases to date?",
+      "rationale": "Determining exact proportions in the initial Janssen et al. cohort and subsequent reports is necessary to test whether microcephaly and epilepsy are core versus secondary features.",
+      "promise": 0.85,
+      "est_cost": 0.05
+    },
+    {
+      "question_text": "Do missense variants in TAF4 cause a distinct phenotypic spectrum compared to truncating/pLoF variants?",
+      "rationale": "Clarifying whether gain-of-function or dominant-negative missense variants produce severe early-onset epileptic encephalopathy versus milder NDD phenotypes will refine genotype-phenotype correlations.",
+      "promise": 0.75,
+      "est_cost": 0.1
+    }
+  ]
+}

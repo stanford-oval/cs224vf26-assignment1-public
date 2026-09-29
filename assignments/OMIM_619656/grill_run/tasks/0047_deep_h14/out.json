@@ -1,0 +1,112 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Clinical authorities and consensus diagnostic descriptions (such as GeneReviews and reviews by Verstraeten & Dietz) maintain that ectopia lentis is not a feature of Loeys-Dietz syndrome (LDS) and serves as a primary discriminator distinguishing LDS from Marfan syndrome. However, aggregated cohort and systematic review data (such as Loomba et al., 2022) identify documented ectopia lentis in 2 out of 275 LDS patients. The available literature does not provide definitive slit-lamp re-evaluations proving that these specific documented instances were misattributions or phenocopies (such as microspherophakia or high myopia) rather than true lens subluxation, creating a direct conflict between clinical diagnostic dogma and aggregated empirical reports.",
+  "evidence": [
+    {
+      "text": "In a comprehensive review of ocular manifestations across Loeys-Dietz syndrome cohorts, documented ectopia lentis was identified in a small minority of patients (2 out of 275), demonstrating that the finding is occasionally recorded in LDS literature despite standard diagnostic exclusion criteria.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Ocular manifestations of Loeys-Dietz syndrome",
+        "authors": [
+          "K Loomba",
+          "D Lin",
+          "W Lin",
+          "B Riley"
+        ],
+        "year": 2022,
+        "journal": "EMJ Rheumatology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.emjreviews.com/wp-content/uploads/2022/03/Ocular-Manifestations-of-Loeys%E2%80%93Dietz-Syndrome-1.pdf",
+        "quote": "with ectopia lentis.A total of two out of 275 patients with LDS had documented ectopia lentis."
+      },
+      "numbers": [
+        {
+          "metric": "LDS patients with documented ectopia lentis",
+          "value": "2/275"
+        }
+      ]
+    },
+    {
+      "text": "Authoritative clinical gene reviews state unequivocally that ectopia lentis is not observed in Loeys-Dietz syndrome, contrasting it with Marfan syndrome and defining it as an exclusionary criterion.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys-Dietz Syndrome Synonym: Loeys-Dietz Aortic Aneurysm Syndrome",
+        "authors": [
+          "BL Loeys"
+        ],
+        "year": null,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/n/gene/loeys-dietz/?extid=20301469&src=med",
+        "quote": "Retinal detachment has been reported in rare cases. Ectopia lentis is not observed."
+      },
+      "numbers": [
+        {
+          "metric": "Reported frequency of ectopia lentis",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "The absence of ectopia lentis is characterized as a major distinguishing ocular feature between Loeys-Dietz syndrome and other connective tissue disorders with overlapping vascular and skeletal phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys\u2013dietz syndrome",
+        "authors": [
+          "A Verstraeten",
+          "HC Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1002/9781119432692.ch36",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+        "quote": "SMAD2, too few mutation\u2010positive cases have yet been reported to deter\u2011 mine at which end of the phenotypic spectrum SMAD2\u2026 of ectopia lentis in LDS is a major distin\u2011 guishing ocular"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Clinical reviews evaluating syndromic thoracic aortic aneurysm conditions reinforce that LDS presents without ectopia lentis while sharing aortic and skeletal features.",
+      "stance": "supports",
+      "source": {
+        "title": "The Loeys\u2013Dietz syndrome: an update for the clinician",
+        "authors": [
+          "C Van Hemelrijk",
+          "M Renard"
+        ],
+        "year": 2010,
+        "journal": "Current Opinion in Cardiology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-cardiology/fulltext/2010/11000/the_loeys_dietz_syndrome__an_update_for_the.4.aspx",
+        "quote": "without ectopia lentis, but with aortic and skeletal features not"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "GeneReviews and core clinical references state that ectopia lentis is never observed in Loeys-Dietz syndrome and serves as an exclusion criterion, whereas systematic aggregation of LDS cohorts reports documented ectopia lentis in 2/275 individuals.",
+    "The literature currently lacks granular slit-lamp or genetic re-evaluations confirming whether the 2 reported cases were diagnostic misclassifications, phenocopies (such as microspherophakia), dual pathology (e.g., co-occurring FBN1 variant), or true secondary zonular failure."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "Do patients in multi-gene aortopathy registries with SMAD2 mutations and reported ectopia lentis carry unrecognized secondary variants in FBN1, ADAMTS10, or LTBP2?",
+      "rationale": "Testing for dual molecular diagnoses in reported atypical cases would resolve whether ectopia lentis can be genuinely driven by perturbed TGF-beta signaling or represents co-inherited fibrillinopathy.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the true frequency of microspherophakia and severe axial myopia mimicking lens dislocation upon dilated slit-lamp biomicroscopy in confirmed LDS6 cohorts?",
+      "rationale": "High myopia and abnormal lens sphericity are known phenocopies of ectopia lentis; formal ophthalmic re-evaluation across characterized SMAD2/3 cohorts will define the anatomical basis of lens abnormalities.",
+      "promise": 0.8,
+      "est_cost": 15000.0
+    }
+  ]
+}

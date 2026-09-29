@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"glycine\" MRI",
+    "NFU1 SPG93 glycine cavitating leukoencephalopathy hereditary spastic paraplegia"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1186/s13023-015-0237-6",
+      "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+      "pmid": null,
+      "doi": "10.1186/s13023-015-0237-6",
+      "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "34732213",
+      "title": "GLRX5-associated [Fe-S] cluster biogenesis disorder: further characterisation of the neurological phenotype and long-term outcome",
+      "pmid": "34732213",
+      "doi": "10.1186/s13023-021-02073-z",
+      "url": "https://link.springer.com/article/10.1186/s13023-021-02073-z",
+      "abstract_chars": 2335
+    },
+    {
+      "id": "10.1007/s10545-016-9975-4",
+      "title": "Differential diagnosis of lipoic acid synthesis defects",
+      "pmid": null,
+      "doi": "10.1007/s10545-016-9975-4",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1096719217303359",
+      "title": "Impact of mutations within the [Fe-S] cluster or the lipoic acid biosynthesis pathways on mitochondrial protein expression profiles in fibroblasts from patients",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1096719217303359",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC4333890",
+      "title": "New spastic paraplegia phenotype associated to mutation of ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333890/",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://omim.org/entry/620938",
+      "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620938",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://d-nb.info/1239172095/34",
+      "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://d-nb.info/1239172095/34",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://www.researchgate.net/publication/272374033_New_spastic_paraplegia_phenotype_associated_to_mutation_of_NFU1",
+      "title": "New spastic paraplegia phenotype associated to mutation ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/272374033_New_spastic_paraplegia_phenotype_associated_to_mutation_of_NFU1",
+      "abstract_chars": 653
+    },
+    {
+      "id": "10.3389/fgene.2014.00412/full",
+      "title": "Cavitating leukoencephalopathy with multiple mitochondrial dysfunction syndrome and NFU1 mutations",
+      "pmid": null,
+      "doi": "10.3389/fgene.2014.00412/full",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2014.00412/full",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6062,
+  "output_tokens": 5259,
+  "usd": 0.01881,
+  "seconds": 26.6,
+  "ok": true
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FDXR\" \"genotype-phenotype\" \"optic atrophy\" encephalopathy",
+    "FDXR phenotype genotype correlation optic atrophy encephalopathy severity"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/148/5/1604/7826698",
+      "title": "Clinical and genetic landscape of optic atrophy in 826 families: insights from 50 nuclear genes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/148/5/1604/7826698",
+      "abstract_chars": 2420
+    },
+    {
+      "id": "PMC11383170",
+      "title": "FDXR variants cause adrenal insufficiency and atypical sexual development",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11383170/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/14/4/952",
+      "title": "FDXR-Associated Oculopathy: Congenital Amaurosis and Early-Onset Severe Retinal Dystrophy as Common Presenting Features in a Chinese Population",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/14/4/952",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "10.1007/s44448-026-00005-x",
+      "title": "Mitochondrial Retinopathies and Optic Neuropathies: Role of Imaging in Diagnosis, Follow-up and Clinical Management",
+      "pmid": null,
+      "doi": "10.1007/s44448-026-00005-x",
+      "url": "https://link.springer.com/article/10.1007/s44448-026-00005-x",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://synapse.koreamed.org/articles/1516085617",
+      "title": "Steroidogenic electron-transfer factors and their diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://synapse.koreamed.org/articles/1516085617",
+      "abstract_chars": 1762
+    },
+    {
+      "id": "PMC10137360",
+      "title": "FDXR-Associated Oculopathy: Congenital Amaurosis ... - PMC",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10137360/",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "https://www.ovid.com/00002423-202505000-00018",
+      "title": "Clinical and genetic landscape of optic atrophy... : Brain",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ovid.com/00002423-202505000-00018",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/149/gene/TBCD/",
+      "title": "Gene: TBCD (Optic Atrophy)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/149/gene/TBCD/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.semanticscholar.org/paper/Novel-compound-heterozygous-ACO2-mutations-in-an-A-Park-Kim/1f720ceb4c27cf563716c1de88c452d952a453a5",
+      "title": "Novel compound heterozygous ACO2 mutations in an infant with ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/Novel-compound-heterozygous-ACO2-mutations-in-an-A-Park-Kim/1f720ceb4c27cf563716c1de88c452d952a453a5",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://www.nature.com/articles/s10038-018-0515-y",
+      "title": "Biallelic mutations in FDXR cause neurodegeneration associated with inflammation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s10038-018-0515-y",
+      "abstract_chars": 1384
+    }
+  ],
+  "input_tokens": 5791,
+  "output_tokens": 3423,
+  "usd": 0.01316,
+  "seconds": 19.4,
+  "ok": true
+}

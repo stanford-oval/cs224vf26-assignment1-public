@@ -1,0 +1,21 @@
+[17:00:41] INIT: parse fields + PRIOR (parallel)
+[17:00:49]   required_fields=6 seed_directions=3 prior_hypotheses=5 terms=4
+[17:00:49] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:01:11] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[17:01:41]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[17:02:28]   DEEP: 0 → pool, 5 → bin ($0.07 total)
+[17:02:28]   INIT probe: 0 pooled, 5 binned (+0 directions seeded)
+[17:02:28]   INIT spent $0.14
+[17:02:34]   PLAN: $4.93 pot, $1.97 ceiling → d15 $1.97 (Directly resolves critical genotype-phenotype co); d4 $1.97 (Resolves key cohort denominator errors and quant)
+[17:02:34] ROUND 1: EXPLORE 2 dirs (d15=$1.97  d4=$1.97; spent $0.15/10.00)
+[17:03:16]   +6 hypotheses from 2 directions
+[17:03:50]   SCREEN: 6 passed / 6 screened ($0.07 total)
+[17:04:32]   DEEP: 4 → pool, 2 → bin ($0.15 total)
+[17:04:54]   PLAN: $4.85 pot, $1.94 ceiling → d1 $1.94 (Extracts exact cohort-specific numerators, denom); d25 $1.94 (Directly resolves the contested genotype-phenoty)
+[17:04:54] ROUND 2: EXPLORE 2 dirs (d1=$1.94  d25=$1.94; spent $0.31/10.00)
+[17:05:15]   +6 hypotheses from 2 directions
+[17:05:45]   SCREEN: 6 passed / 6 screened ($0.11 total)
+[17:06:39]   DEEP: 3 → pool, 3 → bin ($0.25 total)
+[17:06:49] FINALIZE: converged=False spent=$0.48  (init $0.04  plan $0.01  explore $0.07  screen $0.11  deep $0.25  measure $0.00)
+[17:07:34]   outline: 5 sections; report 20KB
+[17:07:43] DONE: coverage 1/6  quality 0.41 (7 pooled / 10 binned, untested 0)  answeredness=0.07  unsourced=0.00  answeredness/$=0.1282

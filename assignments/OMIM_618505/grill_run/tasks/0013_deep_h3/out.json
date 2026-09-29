@@ -1,0 +1,71 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature characterizes Stolerman neurodevelopmental syndrome (caused by pathogenic KDM6B variants) primarily by global developmental delay, intellectual disability, ADHD/autistic traits, and non-specific craniofacial dysmorphisms. Features such as severe congenital limb reduction defects, prominent lower eyelid eversion (hallmark of Kabuki syndrome associated with KDM6A/KMT2D), fifth digit aplasia, corneal clouding, and profound prenatal dwarfism are consistently absent across reported clinical cohorts and case series.",
+  "evidence": [
+    {
+      "text": "Stolerman et al. evaluated 12 unrelated individuals with de novo KDM6B alterations who exhibited intellectual disability, developmental delay, and mild/variable dysmorphic facial features without evidence of severe congenital limb reductions, corneal clouding, or primordial dwarfism.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+        "authors": [
+          "ES Stolerman",
+          "E Francisco",
+          "JL Stallworth"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.61173",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+        "quote": "We have identified a number of de novo alterations in the KDM6B gene via whole exome sequencing (WES) in a cohort of 12 unrelated patients with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "A clinical case report of an individual harboring a de novo KDM6B frameshift variant identified neurodevelopmental disorder with ADHD and subtle dysmorphic facial features, confirming absence of severe ectodermal, limb reduction, or ocular clouding abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "The KDM6B mutation: Phenotype and clinical characteristics\u2014Report of a case",
+        "authors": [
+          "II Pineda",
+          "CLG Gonz\u00e1lez"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S217350502200019X",
+        "quote": "A frameshift variant in the KDM6B gene related to neurodevelopmental disorders with facial and body dysmorphia was obtained. The case was oriented as a neurodevelopmental disorder secondary to a genetic alteration and a comorbid Attention Deficit Hyperactivity Disorder (ADHD)."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What specific facial dysmorphic metrics reliably distinguish Stolerman syndrome (KDM6B) from Kabuki syndrome types 1 and 2 (KMT2D and KDM6A)?",
+      "rationale": "KDM6A and KDM6B share related demethylase functions, but Kabuki syndrome features lower eyelid eversion and fingertip pads which are putative exclusion criteria for Stolerman syndrome.",
+      "promise": 0.88,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Does the frequency of ophthalmologic and digital anomalies differ significantly between truncating/loss-of-function and missense variants in KDM6B?",
+      "rationale": "Establishing genotype-phenotype correlations will confirm whether hypomorphic or dominant-negative missense variants can produce atypical anomalies that mimic other chromatin-remodeling disorders.",
+      "promise": 0.82,
+      "est_cost": 22000
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While Miyamoto et al. (2026) report that affected individuals harboring the RAB3A switch II p.Arg83Trp variant in two families presented with cerebellar ataxia 'often accompanied by mild gait spasticity and tremors' (including postural/action neck and hand tremors), the available literature does not substantiate the specific numerical range of 50% to 80% across designated 'Family T' and 'Family K'. Furthermore, Hengel et al. (2025) identified 18 individuals across 10 families harboring heterozygous RAB3A variants (9 with p.Arg83Trp) presenting primarily with cerebellar ataxia without establishing prominent extrapyramidal or basal ganglia tremor across most cohorts, and OMIM #621535 highlights ataxia, nystagmus, and atrophy with tremor being an inconsistent feature rather than a validated 50-80% hallmark.",
+  "evidence": [
+    {
+      "text": "Identified the c.247C>T p.(Arg83Trp) variant in RAB3A in two families with cerebellar ataxia; affected individuals presented with adult-onset cerebellar symptoms often accompanied by mild gait spasticity and tremors, with neck tremor showing mild response to clonazepam.",
+      "stance": "supports",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors."
+      },
+      "numbers": [
+        {
+          "metric": "screened ataxia cohort size",
+          "value": 320
+        },
+        {
+          "metric": "families evaluated in primary study",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Screening of 18 individuals from 10 unrelated families with dominant cerebellar ataxia (9 harboring recurrent p.Arg83Trp) identified a predominantly cerebellar phenotype, demonstrating that classical cerebellar signs dominate without verifying a consistent 50-80% tremor frequency.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+        "authors": [
+          "H Hengel",
+          "SB Hannan",
+          "S Reich",
+          "D Beijer",
+          "J Roller"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awae387",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+        "quote": "In total, we identified 18 individuals from 10 unrelated families all sharing a cerebellar ataxia phenotype. Notably, 9 of the 10 families carried a recurrent variant in RAB3A, p.Arg83Trp... Besides these findings, no additional clinical features were"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 18
+        },
+        {
+          "metric": "unrelated families",
+          "value": 10
+        },
+        {
+          "metric": "families with recurrent p.Arg83Trp",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "OMIM synopsis for SCA52 lists core features including gait and limb ataxia, nystagmus, dysarthria, and cerebellar atrophy, noting tremors variably rather than as an obligate defining feature of the condition.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [
+          "OMIM"
+        ],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Features include gait and limb ataxia, nystagmus, and cerebellar atrophy, with variable dysarthria, dysphagia, and urinary urgency."
+      },
+      "numbers": [
+        {
+          "metric": "OMIM entry ID",
+          "value": 621535
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Miyamoto et al. (2026) report that tremors (such as neck and hand tremor) frequently accompany ataxia and mild spasticity in p.Arg83Trp carriers, whereas Hengel et al. (2025) delineate a predominantly pure cerebellar syndrome across 10 families (18 individuals) without finding high-frequency extrapyramidal tremor.",
+    "The specific quantitative frequency band (50% to 80%) asserted for Family T and Family K lacks explicit statistical validation in published cohort descriptions."
+  ],
+  "confidence": 0.42,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and electrophysiological characterization (kinetic vs. postural vs. resting) of tremor across all 12 reported families with RAB3A p.Arg83Trp variants?",
+      "rationale": "Differentiating cerebellar intention tremor from parkinsonian resting or essential-like postural tremor is critical to establishing whether RAB3A variants affect basal ganglia circuits or pure cerebello-thalamocortical loops.",
+      "promise": 0.88,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Does presynaptic parallel fiber-to-Purkinje cell synaptic dysfunction caused by impaired RAB3A-RIM1 binding provoke downstream deep cerebellar nuclear oscillations independent of nigrostriatal involvement?",
+      "rationale": "Clarifying the molecular mechanism of tremor in SCA52 will reveal whether pharmacological treatments should target cerebellar outflow (e.g., clonazepam) or dopaminergic/basal ganglia pathways.",
+      "promise": 0.81,
+      "est_cost": 45000
+    }
+  ]
+}

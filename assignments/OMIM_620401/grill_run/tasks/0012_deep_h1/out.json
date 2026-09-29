@@ -1,0 +1,93 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms that global developmental delay (HP:0001263) and intellectual disability (HP:0001249) are present in 100% (13/13) of documented patients with homozygous loss-of-function variants in SGSM3 (Birnbaum et al., 2024). However, the hypothesis assertion that this manifests as 'severe delay in motor and language milestones' is directly contradicted by the published clinical findings: the intellectual disability is mild-to-moderate (not severe), global developmental delay is characterized as mild, and motor delay is specifically documented as absent in at least one patient ('He did not have motor delay').",
+  "evidence": [
+    {
+      "text": "In a cohort of 13 patients from 8 families of Ashkenazi Jewish origin homozygous for an SGSM3 loss-of-function founder variant, 100% (13/13) presented with global developmental delay and mild to moderate intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1136/jmg-2023-109504",
+        "pmid": "37833060",
+        "pmc": null,
+        "url": "https://scispace.com/papers/intellectual-disability-syndrome-associated-with-a-2c9j2w16gg",
+        "quote": "The affected individuals displayed mild global developmental delay and mild to moderate intellectual disability."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with intellectual disability and global developmental delay",
+          "value": "13/13"
+        }
+      ]
+    },
+    {
+      "text": "Detailed clinical assessment in the SGSM3 cohort notes that affected individuals had mild developmental delay rather than severe delay, and motor milestone delay was explicitly absent in at least one affected individual.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "He did not have motor delay. In summary, all affected individuals displayed mild global developmental delay"
+      },
+      "numbers": [
+        {
+          "metric": "patients assessed lacking motor delay",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "text": "SGSM3 has been confirmed as an autosomal recessive candidate gene implicated across multiple neurodevelopmental disorder (NDD) cohorts.",
+      "stance": "neutral",
+      "source": {
+        "title": "Autism spectrum disorder trios from consanguineous populations are enriched for rare homozygous variants, identifying 32 new candidate genes",
+        "authors": [
+          "R Harripaul",
+          "A Rabia",
+          "N Vasli",
+          "A Mikhailov"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41598-026-44288-9",
+        "quote": "candidate AR genes, SGSM3 and VPS16, have recently been confirmed in multiple NDD"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Severity of cognitive/developmental impairment: The hypothesis specifies severe delay in motor and language milestones, whereas published cohort data characterises the presentation as mild global developmental delay and mild-to-moderate intellectual disability.",
+    "Universality of motor milestone delay: The hypothesis posits universal delay across motor milestones, but clinical descriptions demonstrate that motor delay is not universally present (e.g., one patient was specifically documented without motor delay)."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the true penetrance and spectrum of motor milestone delay versus expressive language impairment across diverse non-Ashkenazi SGSM3 cohorts?",
+      "rationale": "Current systematic phenotypic descriptions are dominated by the Ashkenazi Jewish founder cohort with a specific loss-of-function variant; delineating whether motor milestone delay is consistently milder or absent compared to speech/language delay across diverse alleles will refine diagnostic criteria.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Which comorbid features (e.g., short stature, hypotonia, behavioral issues) most reliably differentiate SGSM3-related intellectual disability from overlapping autosomal recessive neurodevelopmental syndromes?",
+      "rationale": "Since mild-to-moderate ID and mild developmental delay are non-specific, identifying discriminating secondary phenotypes (such as short stature observed in Birnbaum et al.) will enable clinicians to prioritize SGSM3 testing.",
+      "promise": 0.82,
+      "est_cost": 18000
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "patterns": [
+    {
+      "pattern": "Core syndromic sufficiency of monogenic loss-of-function versus contiguous gene modifier discrepancies",
+      "abstraction": "Intragenic haploinsufficiency of a single gene reliably recapitulates the core clinical triad, whereas contiguous microdeletions introduce conflicting claims of augmented severity due to linked loci.",
+      "instance": "Isolated truncating PSMD12 variants are fully sufficient to produce intellectual disability, craniofacial dysmorphism, and skeletal defects (seen in 6/6 individuals in Feresin et al. 2025 and across 24 patients in Isidor et al. 2022), whereas larger 17q24.2 deletions encompassing BPTF generate unresolved contradictions regarding whether postnatal microcephaly and severe dysmorphisms are distinct contiguous-gene effects or within the natural expressivity of PSMD12 alone.",
+      "direction": "Direct comparative phenotyping of matched cohorts with isolated PSMD12 truncating variants versus multi-gene 17q24.2 microdeletions controlling for age and genetic background.",
+      "support": "Moderate to strong for core PSMD12 sufficiency across multiple cohorts (Feresin et al. 2025, Isidor et al. 2022), but conflicted regarding BPTF-driven phenotypic escalation.",
+      "sources": [
+        "10.1002/ajmg.a.63953",
+        "PMID:34906456",
+        "10.1016/j.ajhg.2017.08.014"
+      ],
+      "hypothesis": "Postnatal microcephaly severity in 17q24.2 deletions correlates with synergistic disruption of both PSMD12 proteasomal processing and BPTF chromatin remodeling rather than PSMD12 dosage loss alone.",
+      "novelty": "High; challenges the clinical assumption that contiguous microdeletion syndromes always exhibit more severe core organ malformations than isolated monogenic loss-of-function variants."
+    },
+    {
+      "pattern": "Exclusionary structural defects delineate clinical boundaries more reliably than variable positive hallmarks",
+      "abstraction": "When positive syndromic manifestations show incomplete expressivity and high clinical overlap, negative or absent features provide stronger diagnostic discrimination.",
+      "instance": "While mild preaxial or distal digital anomalies (such as hypoplastic thumbs or 2-3 toe syndactyly) occur in only 15-35% of STISS patients (and 2-3 toe syndactyly in only 5/24 in B\u00e9zieau et al. 2022), the explicit absence of severe terminal limb reduction defects, dense generalized hypertrichosis (synophrys with hirsutism), and broad angulated halluces/thumbs reliably excludes Cornelia de Lange and Rubinstein-Taybi syndromes.",
+      "direction": "Formalize negative likelihood ratios and rule-out criteria into automated clinical decision support algorithms for neurodevelopmental syndromes.",
+      "support": "Strong; consistently emphasized across differential diagnostic frameworks (Isidor et al. 2022, B\u00e9zieau et al. 2022, Robinson 2020).",
+      "sources": [
+        "PMID:34906456",
+        "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "10.1002/ajmg.a.63953",
+        "PMID:28132691"
+      ],
+      "hypothesis": "Algorithmic weighting of hard exclusion criteria (e.g., absence of phocomelia/ectrodactyly) yields higher positive predictive value than matching positive dysmorphic facial features in suspected STISS.",
+      "novelty": "Moderate; reframes dysmorphology triage away from pattern matching of non-specific positive traits toward systematic verification of absent exclusionary phenotypes."
+    },
+    {
+      "pattern": "Tissue-specific penetrance divergence between obligate neurodevelopmental and low-frequency autoinflammatory phenotypes",
+      "abstraction": "Ubiquitous constitutional disruption of the ubiquitin-proteasome system manifests as near-complete penetrance in embryonic neural-crest and neuroectodermal tissues, but exhibits incomplete, low-frequency penetrance in inflammatory and cutaneous systems.",
+      "instance": "Intellectual disability and developmental delay manifest in near 100% of PSMD12 variant carriers, whereas autoinflammatory manifestations such as chilblains occur in only 8.3% (2/24 in Isidor et al. 2022) and were completely absent (0/6) in familial cohorts (Feresin et al. 2025).",
+      "direction": "Investigate secondary genetic modifiers or environmental triggers (e.g., viral exposures, cold exposure) that elicit clinical autoinflammation or elevated interferon signatures in proteasomopathy carriers.",
+      "support": "Strong across multiple cohorts confirming near-total developmental penetrance alongside rare, variable autoinflammatory manifestations.",
+      "sources": [
+        "PMID:34906456",
+        "10.1002/ajmg.a.63953",
+        "10.1002/art.42070",
+        "10.1016/j.ero.2025.12.005"
+      ],
+      "hypothesis": "Subclinical proteasome dysfunction requires a second hit (such as type I interferon pathway induction by viral infection) to trigger overt autoinflammatory cutaneous lesions in STISS.",
+      "novelty": "High; links proteasome subunit haploinsufficiency to the broader class of proteasome-associated autoinflammatory syndromes while explaining why clinical immune phenotypes remain rare in STISS."
+    },
+    {
+      "pattern": "Transient prenatal isolation of structural anomalies preceding syndromic multisystem manifestation",
+      "abstraction": "Prenatally detected isolated visceral anomalies frequently misclassify complex multisystem proteasomopathies as isolated organ dysplasias due to the latency of neurodevelopmental and subtle facial manifestations.",
+      "instance": "Isolated fetal horseshoe kidney accounts for ~1-2% of prenatal CAKUT exome cohorts (1/45 exome-sequenced cases in Yu et al. 2026), but affected fetuses invariably transition postnatally to a syndromic presentation involving developmental delay and craniofacial dysmorphism.",
+      "direction": "Incorporate neurodevelopmental proteasomopathy genes like PSMD12 into prenatal screening panels for isolated horseshoe kidney to inform postnatal developmental monitoring.",
+      "support": "Moderate; demonstrated in prospective prenatal cohorts (Yu et al. 2026) and reinforced by longitudinal follow-up in established series (K\u00fcry et al. 2017).",
+      "sources": [
+        "10.1002/pd.70086",
+        "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30003-4",
+        "https://www.sciencedirect.com/science/article/pii/S1098360021041320"
+      ],
+      "hypothesis": "Renal fusion anomalies in PSMD12 haploinsufficiency share early developmental timing with branchial arch patterning, but facial and cognitive markers become detectable only during postnatal maturation.",
+      "novelty": "Moderate; highlights the temporal evolution of diagnostic ascertainment from isolated prenatal organ findings to syndromic proteasomopathies."
+    },
+    {
+      "pattern": "Failure of individual facial and digital dysmorphic signs to reach discriminative diagnostic specificity",
+      "abstraction": "High reporting frequency of non-specific dysmorphic traits often leads to unjustified claims of diagnostic specificity that dissolve upon comparative analysis against overlapping mechanistic disease classes.",
+      "instance": "Features such as broad forehead, bulbous nasal tip, thin upper lip vermilion, and minor digital anomalies (brachydactyly, clinodactyly, 2-3 toe syndactyly) are recurrently noted in STISS, but claims of >80-85% diagnostic specificity fail because identical features occur at similar rates in related proteasomal and chromatinopathies such as FBXO11 deficiency and BPTF haploinsufficiency.",
+      "direction": "Utilize 3D facial imaging and unbiased computer-vision phenotyping (e.g., GestaltMatcher) across unified proteasomopathy cohorts to identify quantitative facial shape discriminators.",
+      "support": "Strong; literature reviews and comparative cohorts explicitly refute the specificity of individual facial markers (e.g., Gregor et al. 2018, Isidor et al. 2022).",
+      "sources": [
+        "10.1016/j.ajhg.2018.07.003",
+        "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "10.1002/ajmg.a.63953",
+        "10.1016/j.gim.2021.11.007"
+      ],
+      "hypothesis": "No single categorical dysmorphic HPO term distinguishes PSMD12-related STISS from FBXO11-related disorder; discrimination requires dense continuous 3D facial geometric morphometrics.",
+      "novelty": "Moderate to high; directly challenges literature claims that mid- and lower-facial dysmorphic combinations provide pathognomonic diagnostic specificity for STISS."
+    }
+  ]
+}

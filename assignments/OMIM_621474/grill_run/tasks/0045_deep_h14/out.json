@@ -1,0 +1,123 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While all sources agree that renal structural anomalies are an ancillary rather than an obligate feature of OMIM #621474 (KDM2B CxxC domain-related neurodevelopmental disorder), the specific quantitative range proposed in the hypothesis (33% to under 45%) is conflicted by literature data. In the cohort reported by Gomes et al., exactly 1 of 3 individuals (33.3%) exhibited a solitary kidney. However, the larger cohort analysis of 19 individuals with CxxC variants (van Oirsouw et al., cited in PanelApp Australia) documented unilateral renal agenesis in 5 of 19 individuals (26.3%), falling below the hypothesized 33% lower threshold.",
+  "evidence": [
+    {
+      "text": "In a series of three pediatric cases with KDM2B CxxC domain variants, solitary kidney/renal agenesis was documented in exactly 1 of 3 patients (Patient 1), whereas cardiac septal defects were present in 2 of 3 and neurodevelopmental delay in 3 of 3.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B-Related Neurodevelopmental Disorder A Case-Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features",
+        "authors": [
+          "A Gomes",
+          "\u00c1 Mart\u00edn-Rodr\u00edguez"
+        ],
+        "year": 2026,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmga.70036",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmga.70036",
+        "quote": "Patient 1 is a 2-year-old boy with developmental delay, solitary kidney, atrial septal defect, feeding difficulties, hemangiomas, and myopic astigmatism."
+      },
+      "numbers": [
+        {
+          "metric": "solitary kidney prevalence in Gomes cohort",
+          "value": "1/3"
+        }
+      ]
+    },
+    {
+      "text": "In an evaluation of individuals with pathogenic CxxC variants in KDM2B, exactly 5 out of 19 individuals were reported to have unilateral renal agenesis, corresponding to 26.3%, which is lower than the hypothesized minimum of 33%.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Gene: KDM2B (Congenital anomalies of the kidney and urinary tract)",
+        "authors": [],
+        "year": null,
+        "journal": "PanelApp Australia",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/63/gene/KDM2B/",
+        "quote": "5/19 patients with variants in the CxxC domain were reported to have unilateral renal agenesis along with the typical syndromic ID phenotype associated with"
+      },
+      "numbers": [
+        {
+          "metric": "unilateral renal agenesis prevalence in van Oirsouw CxxC cohort",
+          "value": "5/19"
+        }
+      ]
+    },
+    {
+      "text": "Characterization of 19 individuals with KDM2B CxxC domain variants demonstrated congenital heart defects in up to 78% of individuals, while urogenital, ophthalmological, and musculoskeletal anomalies were variable additional features rather than universal.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "MA Hadders"
+        ],
+        "year": 2025,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/34/16/1353/8150966",
+        "quote": "Congenital heart defects were observed in up to 78% of individuals, with additional common findings including musculoskeletal, ophthalmological, and urogenital anomalies, as well as behavioral challenges and feeding difficulties."
+      },
+      "numbers": [
+        {
+          "metric": "total CxxC cohort size",
+          "value": 19
+        },
+        {
+          "metric": "congenital heart defect frequency",
+          "value": "up to 78%"
+        }
+      ]
+    },
+    {
+      "text": "Two individuals identified with KDM2B CxxC missense variants presenting with complex developmental eye disorders had cardiac and renal anomalies variably present, confirming that renal anomalies are ancillary and not strictly penetrant.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+        "authors": [
+          "F Ceroni",
+          "LM Reis",
+          "F Watkins",
+          "DA Bax"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13247248",
+        "url": "https://www.nature.com/articles/s41431-026-02090-1",
+        "quote": "Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present."
+      },
+      "numbers": [
+        {
+          "metric": "CxxC eye anomaly cases evaluated",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits a prevalence of exactly 33% to under 45% for structural renal anomalies in KDM2B CxxC variants. While Gomes et al. observed 1/3 (33.3%), the larger curated cohort of 19 CxxC variant patients (van Oirsouw et al. / PanelApp Australia) demonstrates unilateral renal agenesis in 5/19 patients (26.3%), directly contradicting the proposed lower bound of 33%."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the true aggregate penetrance of structural CAKUT versus functional renal anomalies across all published KDM2B CxxC domain variant carriers?",
+      "rationale": "Larger pooled prospective cohorts are necessary to establish precise 95% confidence intervals for renal phenotypes to ascertain whether renal imaging is discriminatory or solely for clinical surveillance.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do non-CxxC KDM2B variants (such as JmjC domain missense or loss-of-function variants) cause structural renal anomalies at a non-zero frequency?",
+      "rationale": "Clarifying domain-specific renal phenotype expression will determine whether CAKUT is exclusively restricted to CxxC zinc-finger disruptions.",
+      "promise": 0.78,
+      "est_cost": 30000
+    }
+  ]
+}

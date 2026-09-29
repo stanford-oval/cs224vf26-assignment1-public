@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620887",
+ "omim": "OMIM:620887",
+ "disease": "Multiple mitochondrial dysfunctions syndrome 9B",
+ "gene": "FDXR",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1452,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Multiple mitochondrial dysfunctions syndrome 9B (FDXR, OMIM:620887):\n\n[1] 620887 - MULTIPLE MITOCHONDRIAL DYSFUNCTIONS ...\nhttps://omim.org/entry/620887\nmultiple mitochondrial dysfunctions syndrome-9B (MMDS9B) is caused by homozygous or compound heterozygous mutation in the FDXR gene (103270), ...\n\n[2] Multiple Mitochondrial Dysfunctions Syndrome 9b (MMDS9B)\nhttps://www.malacards.org/card/multiple_mitochondrial_dysfunctions_syndrome_9b\nMultiple mitochondrial dysfunctions syndrome-9B (MMDS9B) is an autosomal recessive disorder characterized by optic atrophy and/or auditory neuropathy.\n\n[3] multiple mitochondrial dysfunctions syndrome 9B\nhttps://zfin.org/DOID:0070736\nA multiple mitochondrial dysfunctions syndrome characterized by optic atrophy and/or auditory neuropathy variably associated with developmental delay\n\n[4] Multiple mitochondrial dysfunctions syndrome 9b (Concept Id\nhttps://www.ncbi.nlm.nih.gov/medgen/1860851\nFDXR (17q25.1) is characterized by optic atrophy and/or auditory neuropathy variably associated with developmental delay or regression, global hypotonia,\n\n[5] FDXR\nhttps://panelapp.genomicsengland.co.uk/panels/genes/FDXR\nPhenotypes Multiple mitochondrial dysfunctions syndrome 9B, in Likely inborn error of metabolism Level. FDXR in Possible mitochondrial disorder,\n\n[6] Submission Details\nhttps://thegencc.org/submissions/SGC-179637.1\nFDXR was first reported in relation to optic atrophy in 2017, in patients with optic atrophy and auditory neuropathy (PMID: 28965846), and in 2018 in ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 18.0, male)\n  observed: Scoliosis, Decreased level of coenzyme Q10 in skeletal muscle, Cerebellar atrophy, Global developmental delay, Seizure, Ataxia, Postural instability, Motor delay, Distal arthrogryposis\n  recorded ABSENT: Intrauterine growth retardation, Moderate to late preterm birth, Increased circulating lactate concentration, Elevated circulating creatine kinase activity, Elevated circulating creatinine concentration, Elevated circulating hepatic transaminase concentration, 2-hydroxyglutarate aciduria, Cerebellar hypoplasia, Dysphagia, Apnea, Hearing impairment, Hypertrophic cardiomyopathy, Patent ductus arteriosus, Acrocyanosis\n\nP02 (age 18.0, male)\n  observed: CSF oligoclonal immunoglobulin G bands, Optic disc pallor, Optic atrophy, Abnormality of visual evoked potentials, Reduced visual acuity, Ataxia, CNS demyelination\n  recorded ABSENT: Abnormal electroretinogram\n\nP03 (age None, male)\n  observed: EEG with burst suppression, Infantile spasms, Generalized myoclonic seizure, Bilateral tonic-clonic seizure, Focal clonic seizure, Focal tonic seizure, Generalized tonic seizure, Axial hypotonia, Spastic tetraparesis, Intellectual disability, Multifocal epileptiform discharges, Severe global developmental delay, Reduced eye contact\n  recorded ABSENT: (none recorded)\n\nP04 (age 30.0, male)\n  observed: Open mouth, Upper limb muscle weakness, Lower limb muscle weakness, Lower limb amyotrophy, Global developmental delay, Delayed speech and language development, Severe intellectual disability, Febrile seizure (within the age range of 3 months to 6 years), EEG with polyspike wave complexes, Inability to walk by childhood/adolescence, Dysarthria\n  recorded ABSENT: Secondary microcephaly, Enlarged cisterna magna, Optic nerve hypoplasia, Hypotonia, Hypertonia, Hyporeflexia of lower limbs, Hyporeflexia of upper limbs, Babinski sign, Developmental regression, Hyperreflexia, Cerebellar hypoplasia, Hypoplasia of the brainstem, Cerebral hypoplasia, Hypoplasia of the pons, Abnormal CNS myelination, Ventriculomegaly, Reduced cerebral white matter volume, Thin corpus callosum\n\nP05 (age 6.0, female)\n  observed: Micrognathia, Hypotonia, Feeding difficulties, Low-set ears, Intellectual disability, Anxiety, Self-injurious behavior, Autism, Global developmental delay, Motor delay, Webbed neck, Downslanted palpebral fissures\n  recorded ABSENT: Growth delay, Pectus excavatum, Joint hypermobility, Seizure, Aggressive behavior, Motor regression\n\nP06 (age 0.2, male)\n  observed: Respiratory failure, Ventilator dependence with inability to wean, Apnea, Hypercapnia, Dysphagia, Gastrostomy tube feeding in infancy, Optic atrophy, Seizure, Global developmental delay, Motor delay, Developmental regression, Spasticity, Cerebral cortical atrophy, Abnormal corpus callosum morphology, Abnormal diffusion weighted cerebral MRI morphology, Hypotonia\n  recorded ABSENT: Microcephaly, Infantile spasms, Interictal EEG abnormality\n\nP07 (age 7.5, male)\n  observed: Nephrocalcinosis, Diabetes mellitus, Cataract, Hypsarrhythmia, Intellectual disability, Global developmental delay, Periventricular leukomalacia, Pancreatic hypoplasia, Cholestasis\n  recorded ABSENT: Seizure, Cyanosis, Vomiting\n\nP08 (age 4.9, male)\n  observed: Reduced circulating growth hormone concentration, Strabismus, Moderate intellectual disability, Ventriculomegaly, Abnormal corpus callosum morphology, Premature birth, Short stature, Feeding difficulties, Hypotonia, Pes planus\n  recorded ABSENT: Deeply set eye, Visual impairment, Abnormal renal morphology, Abnormal skull morphology, Abnormality of the dentition, Midface retrusion, Epicanthus, Downslanted palpebral fissures, Horizontal eyebrow, Recurrent otitis media, Seizure, EEG abnormality, Dysphagia, Atypical behavior, Sleep disturbance, Mild intellectual disability, Severe intellectual disability, Polymicrogyria, Abnormal cerebellum morphology, Cortical dysplasia, Caesarean section, Small for gestational age, Ventricular septal defect, Atrial septal defect, Abnormal finger morphology (+2 more)\n\nP09 (age 30.0, female)\n  observed: Moderate global developmental delay, Tremor, Ataxia, Dysarthria, Bilateral tonic-clonic seizure, Focal impaired awareness seizure, EEG abnormality, Cerebellar atrophy, Thin corpus callosum, Hyperbilirubinemia\n  recorded ABSENT: (none recorded)\n\nP10 (age 13.0, female)\n  observed: Asthma, Eczematoid dermatitis, Anxiety, Attention deficit hyperactivity disorder, Autistic behavior, Migraine, Chiari type I malformation\n  recorded ABSENT: Hypotonia, Pes valgus, Pes planus, Tall stature, Postnatal growth retardation, Heart murmur, Recurrent infections, Chronic constipation, Encopresis, Hearing impairment, Esotropia, Hypometric saccades, Bilateral ptosis, Hypermetropia, Sleep disturbance, Interictal epileptiform activity\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.82,
+     "for": "Demonstrates optic atrophy, global developmental delay, developmental regression, and hypotonia, matching the core phenotypic spectrum described for MMDS9B.",
+     "against": "Auditory neuropathy is not documented, and the patient has profound neonatal respiratory failure requiring mechanical ventilation not detailed in the brief disease summary."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.12,
+     "for": "Presents with optic atrophy, optic disc pallor, reduced visual acuity, and ataxia.",
+     "against": "Lacks developmental delay, regression, and hypotonia, while exhibiting CSF oligoclonal IgG bands and CNS demyelination indicative of an acquired neuroinflammatory etiology."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.03,
+     "for": "Shows global developmental delay, motor delay, and ataxia with mitochondrial-related muscle coenzyme Q10 abnormalities.",
+     "against": "Hearing impairment is explicitly recorded as absent, and optic atrophy is not present."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.015,
+     "for": "Features global developmental delay, tremor, and ataxia.",
+     "against": "Lacks both hallmark features of optic atrophy and auditory neuropathy."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.01,
+     "for": "Exhibits axial hypotonia and severe global developmental delay.",
+     "against": "Presents primarily with early infantile epileptic encephalopathy without documented optic atrophy or auditory neuropathy."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked phenotypic details regarding severe infantile presentations (such as mechanical ventilation, respiratory failure, or neuroimaging anomalies) and explicit mentions of auditory neuropathy status across several candidate patients.",
+   "tokens_in": 1723,
+   "tokens_out": 1655,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.85,
+     "for": "Demonstrates optic atrophy along with global developmental delay, developmental regression, and hypotonia, matching the core phenotypic spectrum described for MMDS9B.",
+     "against": "Auditory neuropathy is not explicitly documented, and the patient exhibits severe neonatal respiratory failure and ventilator dependence."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.1,
+     "for": "Presents with optic atrophy, optic disc pallor, reduced visual acuity, and abnormal visual evoked potentials, fitting the visual pathway involvement of MMDS9B.",
+     "against": "Lacks developmental delay, regression, and hypotonia, and features CSF oligoclonal bands and CNS demyelination, which strongly indicate an inflammatory/demyelinating disorder such as multiple sclerosis."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.02,
+     "for": "Exhibits global developmental delay and neurological involvement including ataxia and cerebellar atrophy.",
+     "against": "Hearing impairment is explicitly recorded as absent, and there is no documented optic atrophy or developmental regression."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.015,
+     "for": "Features severe global developmental delay and axial hypotonia, which are recognized features of the syndrome.",
+     "against": "Lacks reported optic atrophy or auditory neuropathy, presenting instead primarily as severe infantile epileptic encephalopathy."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.01,
+     "for": "Presents with global developmental delay, ataxia, and seizures consistent with a mitochondrial encephalopathy.",
+     "against": "Does not exhibit either optic atrophy or auditory neuropathy, the defining hallmarks of MMDS9B."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of the full spectrum of systemic/multisystem manifestations (such as whether neuroimaging, respiratory failure, or seizures are common) as well as the age of onset and audiological status for all patients.",
+   "tokens_in": 1723,
+   "tokens_out": 1720,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.85,
+     "for": "Demonstrates optic atrophy, global developmental delay, developmental regression, and hypotonia, matching the hallmark clinical presentation described for MMDS9B.",
+     "against": "Auditory neuropathy or hearing assessment is not noted in the observed phenotype."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.1,
+     "for": "Features optic atrophy along with reduced visual acuity, abnormal visual evoked potentials, and ataxia.",
+     "against": "Lacks the characteristic developmental delay, regression, or hypotonia, presenting instead with inflammatory CNS demyelination and CSF oligoclonal bands."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.02,
+     "for": "Exhibits axial hypotonia, intellectual disability, and severe global developmental delay.",
+     "against": "Lacks the key core features of optic atrophy and auditory neuropathy."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.015,
+     "for": "Shows global developmental delay, ataxia, and seizures consistent with a mitochondrial neurodegenerative process.",
+     "against": "Neither optic atrophy nor auditory neuropathy is documented."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.01,
+     "for": "Presents with global developmental delay, motor delay, ataxia, and cerebellar atrophy.",
+     "against": "Optic atrophy is not observed, and hearing impairment is specifically recorded as absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of systemic and extra-neurological manifestations, typical age of onset, and specific neuroimaging patterns beyond optic atrophy, auditory neuropathy, hypotonia, and developmental regression.",
+   "tokens_in": 1723,
+   "tokens_out": 1171,
+   "round": 3
+  }
+ ]
+}

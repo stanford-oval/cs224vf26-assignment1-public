@@ -1,0 +1,85 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from clinical reports and cohort descriptions of LRRC7-related neurodevelopmental disorder (OMIM #621415) confirms that hypotonia and microcephaly are recurrent phenotypic features, occurring in roughly one-third (approximately 30% to 50%) of reported cases rather than being absent. Consequently, hypotonia cannot be used as an exclusion criterion to distinguish LRRC7-associated disorder from post-synaptic scaffold disorders with prominent hypotonia, such as SHANK3 deficiency (Phelan-McDermid syndrome).",
+  "evidence": [
+    {
+      "text": "The authors describe an affected proband with a de novo LRRC7 missense variant presenting with global developmental delay, tonic seizures, failure to thrive, mild microcephaly, intellectual disability, and hypotonia, and highlight that across documented individuals with LRRC7-related neurodevelopmental disorder, hypotonia is recurrent and microcephaly is present in roughly one-third of cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": "41916897",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "individuals recently described with LRRC7-related NDD, including early-onset developmental delay, severe cognitive impairment, and hypotonia... proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "microcephaly frequency in documented LRRC7 cases",
+          "value": "approx 33%"
+        }
+      ]
+    },
+    {
+      "text": "Deletion encompassing 1p31.1 disrupting LRRC7 presents with intellectual disability, developmental delay, distinct facial dysmorphism, microcephaly, and hypotonia, demonstrating consistent involvement of hypotonia when LRRC7 dosage is compromised.",
+      "stance": "supports",
+      "source": {
+        "title": "Chromosome 1p31. 1 Deletion: A Case With Developmental Delay, Hypotonia, Cryptorchidism, Abnormal Oral Frenulum, and Feet Deformity",
+        "authors": [
+          "T Mikhailova",
+          "R Garg"
+        ],
+        "year": 2025,
+        "journal": "Case Reports in Genetics",
+        "doi": "10.1155/crig/6152118",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/crig/6152118",
+        "quote": "associated traits such as microcephaly, hypotonia, and delays... the LRRC7 gene, resulting in the loss of 19 out of 25 exons... The deletion manifested with microcephaly, distinctive facial morphology, hypotonia, developmental delay"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Phenotypic analysis in amygdaloid and synaptic scaffold disorders notes that LRRC7-associated neurodevelopmental conditions involve intellectual disability, microcephaly, and hypotonia.",
+      "stance": "supports",
+      "source": {
+        "title": "The Genetics of Amygdaloid Disorders",
+        "authors": [
+          "SM Ahanaf"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.scivisionpub.com/uploads/articles/the-genetics-of-amygdaloid-disorders-1585.pdf",
+        "quote": "elucidate LRRC7 variants associated intellectual disabilities... microcephaly, chronic ear infections, hypotonia"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What specific behavioral profiles (such as rates of aggressive outbursts, abnormal hyperphagia, or sleep disturbances) best distinguish LRRC7-related disorder from SHANK3-related Phelan-McDermid syndrome?",
+      "rationale": "Because core physical features like hypotonia and developmental delay overlap between post-synaptic density scaffold disorders, distinguishing LRRC7 from SHANK3 requires systematic comparative behavioral phenotyping.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do missense variants affecting the leucine-rich repeat domains versus truncating variants of LRRC7 display divergent prevalence of microcephaly versus normocephaly?",
+      "rationale": "Genotype-phenotype correlations across published and emerging LRRC7 cohorts remain incompletely mapped, particularly regarding cranial growth and tone.",
+      "promise": 0.8,
+      "est_cost": 18000
+    }
+  ]
+}

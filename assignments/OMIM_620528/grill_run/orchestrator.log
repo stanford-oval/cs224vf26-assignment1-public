@@ -1,0 +1,21 @@
+[17:15:00] INIT: parse fields + PRIOR (parallel)
+[17:15:12]   required_fields=6 seed_directions=4 prior_hypotheses=5 terms=4
+[17:15:12] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:15:40] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[17:16:25]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[17:17:23]   DEEP: 3 → pool, 2 → bin ($0.06 total)
+[17:17:23]   INIT probe: 3 pooled, 2 binned (+3 directions seeded)
+[17:17:23]   INIT spent $0.13
+[17:17:33]   PLAN: $4.93 pot, $1.97 ceiling → d1 $1.97 (Directly targets the primary missing evidence: i); d14 $1.96 (Resolves the contested genotype-phenotype bounda)
+[17:17:33] ROUND 1: EXPLORE 2 dirs (d1=$1.97  d14=$1.96; spent $0.14/10.00)
+[17:17:56]   +6 hypotheses from 2 directions
+[17:18:27]   SCREEN: 6 passed / 6 screened ($0.08 total)
+[17:19:21]   DEEP: 2 → pool, 4 → bin ($0.14 total)
+[17:19:41]   PLAN: $4.85 pot, $1.94 ceiling → d20 $1.94 (Directly extracts cohort-level numerators, denom); d29 $1.94 (Resolves whether SPTAN1 haploinsufficiency cause)
+[17:19:41] ROUND 2: EXPLORE 2 dirs (d20=$1.94  d29=$1.94; spent $0.30/10.00)
+[17:20:06]   +6 hypotheses from 2 directions
+[17:20:38]   SCREEN: 5 passed / 6 screened ($0.11 total)
+[17:21:20]   DEEP: 3 → pool, 2 → bin ($0.21 total)
+[17:21:31] FINALIZE: converged=False spent=$0.43  (init $0.04  plan $0.01  explore $0.06  screen $0.11  deep $0.21  measure $0.00)
+[17:22:26]   outline: 7 sections; report 24KB
+[17:22:34] DONE: coverage 3/6  quality 0.47 (8 pooled / 9 binned, untested 0)  answeredness=0.24  unsourced=0.00  answeredness/$=0.4779

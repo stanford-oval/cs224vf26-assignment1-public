@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"ACBD6\" \"cirrhosis\" OR \"diabetes\" OR \"pancytopenia\" adult metabolic",
+    "ACBD6 neurodevelopmental disorder adult metabolic visceral phenotype complications"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1111/nph.70142",
+      "title": "Acyl\u2010CoA\u2010binding proteins: bridging long\u2010chain acyl\u2010CoA metabolism to gene regulation",
+      "pmid": null,
+      "doi": "10.1111/nph.70142",
+      "url": "https://nph.onlinelibrary.wiley.com/doi/abs/10.1111/nph.70142",
+      "abstract_chars": 969
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+      "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+      "abstract_chars": 3137
+    },
+    {
+      "id": "34565656",
+      "title": "From benzodiazepines to fatty acids and beyond: revisiting the role of ACBP/DBI",
+      "pmid": "34565656",
+      "doi": "10.1016/j.tem.2021.08.009",
+      "url": "https://www.cell.com/trends/endocrinology-metabolism/abstract/S1043-2760(21)00202-2",
+      "abstract_chars": 818
+    },
+    {
+      "id": "41123190",
+      "title": "Expression of long noncoding RNAs in peripheral blood mononuclear cells of patients with type 1 diabetes mellitus: potential biomarkers for disease onset",
+      "pmid": "41123190",
+      "doi": "10.20945/2359-4292-2024-0496",
+      "url": "https://www.scielo.br/j/aem/a/Ztx37tBDNWNHRSqLqx64pXw/?lang=en",
+      "abstract_chars": 1352
+    },
+    {
+      "id": "https://dspace.cuni.cz/handle/20.500.11956/178854",
+      "title": "Study of etiopathology of mitochondrial disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://dspace.cuni.cz/handle/20.500.11956/178854",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1212/NXG.0000000000200046",
+      "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia ...",
+      "pmid": null,
+      "doi": "10.1212/NXG.0000000000200046",
+      "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000200046",
+      "abstract_chars": 1224
+    },
+    {
+      "id": "PMC10994533",
+      "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10994533/",
+      "abstract_chars": 3137
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=ACBD6",
+      "title": "Activity - Genomics England",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=ACBD6",
+      "abstract_chars": 2047
+    },
+    {
+      "id": "https://omim.org/entry/616352",
+      "title": "616352 - ACYL-CoA-BINDING DOMAIN-CONTAINING ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/616352",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/activity/?panel=250&entity=ACBD6",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/activity/?panel=250&entity=ACBD6",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6620,
+  "output_tokens": 2682,
+  "usd": 0.01136,
+  "seconds": 23.8,
+  "ok": true
+}

@@ -1,0 +1,3329 @@
+{
+  "question": "For Intellectual developmental disorder, autosomal dominant 73 (OMIM #620450), caused by variants in TAF4: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "required_fields": [
+    "Clinical phenotypes reported in individuals with TAF4-related autosomal dominant intellectual developmental disorder 73 (OMIM #620450)",
+    "Frequencies for each phenotype expressed as numerator and denominator per cohort (not percentage alone)",
+    "Phenotype descriptions using the paper's original wording plus standard HPO terms where identifiable",
+    "PMID or DOI identifying the source paper and specific cohort for each reported phenotype frequency",
+    "Most discriminating clinical findings (frequent in affected individuals but uncommon in phenotypically overlapping/confused disorders)",
+    "Names of the differential disorders usually confused with this condition",
+    "Confidence level of the distinction between this condition and the confused disorders based on discriminating findings",
+    "Clinical findings systematically assessed and found absent in affected individuals (findings that argue against the diagnosis)",
+    "Phenotype differences correlated with variant type, variant position, patient age, or patient sex",
+    "Any findings where reports across papers explicitly contradict one another"
+  ],
+  "glossary": {
+    "TAF4": {
+      "definition": "A gene encoding TATA-binding protein associated factor 4, a subunit of the multimeric Transcription Factor IID (TFIID) complex involved in transcription initiation; de novo putative loss-of-function variants in TAF4 lead to autosomal dominant intellectual developmental disorder 73 (also termed TAF4-related neurodevelopmental disorder), characterized by intellectual disability, behavioral abnormalities, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": "35904126",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "TATA-binding protein associated factor 4 (TAF4) is a subunit of the Transcription Factor IID (TFIID) complex, a central player in transcription initiation."
+      }
+    },
+    "OMIM #620450": {
+      "definition": "Intellectual developmental disorder, autosomal dominant 73 (OMIM #620450), also known as TAF4-related neurodevelopmental disorder, is an autosomal dominant condition caused by heterozygous variants in the TAF4 gene and primarily characterized by intellectual disability, developmental delay, speech and language deficits, behavioral abnormalities, and facial dysmorphisms.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "TAF4 is associated with a developmental disorder (OMIM #620450), characterized by intellectual disability"
+      }
+    },
+    "Intellectual developmental disorder, autosomal dominant 73 (MRD73)": {
+      "definition": "An autosomal dominant neurodevelopmental disorder (OMIM #620450), also referred to as TAF4-related neurodevelopmental disorder (T4NDD), caused by de novo heterozygous putative loss-of-function variants in the TAF4 gene and characterized by intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": "35904126",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder \"TAF4-related NDD\" (T4NDD)."
+      }
+    },
+    "TFIID complex": {
+      "definition": "The Transcription Factor IID (TFIID) complex is a multimeric protein complex composed of TATA-binding protein (TBP) and TBP-associated factors (TAFs), including TAF4, that plays a central role in transcription initiation; pathogenic variants in its subunit genes disrupt brain development and give rise to neurodevelopmental disorders termed TAF-opathies.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": "35904126",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "TATA-binding protein associated factor 4 (TAF4) is a subunit of the Transcription Factor IID (TFIID) complex, a central player in transcription initiation. Other members of this multimeric complex have been implicated previously as monogenic disease genes in human developmental disorders."
+      }
+    }
+  },
+  "sources": [],
+  "datasets": [],
+  "constraints": [],
+  "assumptions": [],
+  "prior": {
+    "text": "Identifying an individual with TAF4-related MRD73 purely on clinical phenotype is not definitively possible without genetic sequencing due to marked phenotypic overlap with other transcriptional machinery neurodevelopmental syndromes (e.g., Coffin-Siris, Nicolaides-Baraitser, or other TFIID subunit disorders like TAF1/TAF2). However, a high clinical index of suspicion is raised by the combination of severe early expressive language delay out of proportion to motor delay, prominent hypotonia in infancy progressing to behavioral/neurodevelopmental deficits (ADHD, ASD traits), microcephaly or borderline small head circumference, slender habitus, and mild distinctive facial gestalt (broad forehead, arched eyebrows, deep-set eyes, depressed nasal bridge, and thin vermilion border), in the absence of severe structural organ malformations or coarse progressive facial features.",
+    "candidate_answers": [
+      "Global developmental delay / intellectual disability is present in 100% of reported individuals across published cohorts (e.g., Loucks et al. / primary series), with expressive language delay being more pronounced than receptive language or gross motor delay (HP:0001263, HP:0000750).",
+      "Dysmorphic facial features are documented in a majority of patients (>70%) including high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219).",
+      "Microcephaly (HP:0000252) or borderline small head circumference occurs in roughly 30-50% of assessed patients, while secondary findings like seizures or epilepsy (HP:0001250) occur in a minority (<25-30%).",
+      "MRD73 is most easily confused with Coffin-Siris syndrome (BAF complex) and Nicolaides-Baraitser syndrome (SMARCA2); distinguishing clues include the lack of hypoplastic fifth fingernails/toenails and lack of coarse progressive facial features in TAF4 patients.",
+      "Major congenital internal organ anomalies (such as complex cyanotic congenital heart disease, tracheoesophageal fistula, or renal agenesis) are absent or extremely atypical, arguing strongly against a primary TAF4 diagnosis if present.",
+      "Genotype-phenotype correlations suggest that missense variants clustering in conserved TAF homology domains or histone-fold domains cause a recognizable dominant-negative or loss-of-function phenotype, whereas truncating variants may have varying penetrance or severity."
+    ]
+  },
+  "prior_candidates": [
+    {
+      "answer": "Global developmental delay / intellectual disability is present in 100% of reported individuals across published cohorts (e.g., Loucks et al. / primary series), with expressive language delay being more pronounced than receptive language or gross motor delay (HP:0001263, HP:0000750).",
+      "confidence": 0.85,
+      "aspect": "Core phenotype frequencies"
+    },
+    {
+      "answer": "Dysmorphic facial features are documented in a majority of patients (>70%) including high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219).",
+      "confidence": 0.7,
+      "aspect": "Dysmorphic features and frequencies"
+    },
+    {
+      "answer": "Microcephaly (HP:0000252) or borderline small head circumference occurs in roughly 30-50% of assessed patients, while secondary findings like seizures or epilepsy (HP:0001250) occur in a minority (<25-30%).",
+      "confidence": 0.65,
+      "aspect": "Neurological phenotype frequencies"
+    },
+    {
+      "answer": "MRD73 is most easily confused with Coffin-Siris syndrome (BAF complex) and Nicolaides-Baraitser syndrome (SMARCA2); distinguishing clues include the lack of hypoplastic fifth fingernails/toenails and lack of coarse progressive facial features in TAF4 patients.",
+      "confidence": 0.75,
+      "aspect": "Differential diagnosis and discriminating findings"
+    },
+    {
+      "answer": "Major congenital internal organ anomalies (such as complex cyanotic congenital heart disease, tracheoesophageal fistula, or renal agenesis) are absent or extremely atypical, arguing strongly against a primary TAF4 diagnosis if present.",
+      "confidence": 0.8,
+      "aspect": "Exclusionary findings"
+    },
+    {
+      "answer": "Genotype-phenotype correlations suggest that missense variants clustering in conserved TAF homology domains or histone-fold domains cause a recognizable dominant-negative or loss-of-function phenotype, whereas truncating variants may have varying penetrance or severity.",
+      "confidence": 0.6,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "directions": {
+    "d1": {
+      "id": "d1",
+      "question_text": "What exact cohort sizes and numerator/denominator tallies for specific HPO terms are reported across the definitive TAF4 discovery and characterization papers (e.g., Loucks et al. or other primary clinical genetic papers)?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 1.0,
+      "allocated_usd": 1.9770804,
+      "spent_usd": 0.011031,
+      "alloc_rationale": "Extracts the definitive cohort tallies, exact numerators, denominators, and HPO terms from primary publications required to answer core clinical prevalence questions.",
+      "produced_hypotheses": [
+        "h7",
+        "h8",
+        "h9"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d2": {
+      "id": "d2",
+      "question_text": "What specific facial recognition or gestalt score (e.g., GestaltMatcher / Face2Gene) differentiates TAF4 variants from other TAF-complex disorders (such as TAF1, TAF2, and TAF6)?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.47030909990628245,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d3": {
+      "id": "d3",
+      "question_text": "Are there any discordant phenotypes reported between de novo missense vs. truncating or splice-site variants in TAF4?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.41063995043836105,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d4": {
+      "id": "d4",
+      "question_text": "What percentage of patients exhibit structural brain anomalies on brain MRI (such as corpus callosum abnormalities or delayed myelination) versus normal neuroimaging?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4435204249246299,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d5": {
+      "id": "d5",
+      "question_text": "Does detailed neuropsychological subtyping across expanded TAF4 cohorts confirm a statistically significant disparity between expressive language delay and receptive language or motor delay?",
+      "parent_id": null,
+      "rationale": "While universal developmental delay and prominent speech delays are established in 100% of reported cases, formal quantitative profiling of expressive versus receptive language quotients has not been systematically published for larger patient cohorts.",
+      "status": "OPEN",
+      "promise": 0.38437642337239786,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d6": {
+      "id": "d6",
+      "question_text": "Re-investigate (refuted): Dysmorphic facial features are documented in a majority of patients (>70%) including high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219).",
+      "parent_id": null,
+      "rationale": "deep test refuted it: The available literature confirms that TAF4 variants cause intellectual developmental disorder, autosomal dominant 73 (OMIM #620450) and that facial dysmorphisms are a common feature among affected individuals (described in a discovery cohort of 8 individuals). However, OMIM describes the facial dysmorphism as 'variable', and the provided literature provides no evidence or frequency data demonstrating that specific features such as high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219) occur in >70% of patients. Furthermore, phenotypic heterogeneity is documented, including individuals with TAF4 alterations identified in non-syndromic/language disorder cohorts without characteristic dysmorphic facies.",
+      "status": "OPEN",
+      "promise": 0.4906491229552727,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h2",
+      "origin": "agent"
+    },
+    "d7": {
+      "id": "d7",
+      "question_text": "What is the systematic HPO breakdown and exact prevalence of individual craniofacial traits across an expanded international cohort of individuals with TAF4 pathogenic variants?",
+      "parent_id": null,
+      "rationale": "The initial cohort consisted of only 8 individuals, which is insufficient to define statistically robust penetrance of individual minor facial anomalies.",
+      "status": "OPEN",
+      "promise": 0.4091587609247813,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d8": {
+      "id": "d8",
+      "question_text": "Can automated computer-vision facial phenotyping distinguish TAF4-related neurodevelopmental disorder from other TFIID-complex subunit disorders (such as TAF8-related disorder)?",
+      "parent_id": null,
+      "rationale": "Given the overlap in generalized neurodevelopmental delay and nonspecific facial dysmorphism across TAF-opathies, quantitative 3D facial analysis could determine whether a distinct signature exists.",
+      "status": "OPEN",
+      "promise": 0.38802470853937154,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d9": {
+      "id": "d9",
+      "question_text": "Does systematically screened fetal or neonatal imaging in a larger expanded international TAF4 cohort reveal subclinical or rare internal structural organ anomalies?",
+      "parent_id": null,
+      "rationale": "The initial discovery cohort of TAF4-related NDD comprises only eight individuals; expanding phenotyping across a larger worldwide cohort is critical to determine the exact prevalence and negative predictive value of visceral organ malformations.",
+      "status": "OPEN",
+      "promise": 0.3762158340887445,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d10": {
+      "id": "d10",
+      "question_text": "Re-investigate (refuted): MRD73 is most easily confused with Coffin-Siris syndrome (BAF complex) and Nicolaides-Baraitser syndrome (SMARCA2); distinguishing clues include the lack of hypoplastic fifth fingernails/toenails and lack of coarse progressive facial features in TAF4 patients.",
+      "parent_id": null,
+      "rationale": "deep test refuted it: The hypothesis posits that autosomal dominant intellectual developmental disorder 73 (MRD73 / TAF4-related NDD) is most easily confused with Coffin-Siris syndrome and Nicolaides-Baraitser syndrome, and distinguishes them by the absence of hypoplastic fifth digits and coarse facial features. However, the available peer-reviewed literature detailing TAF4-related NDD (Janssen et al., 2022; Kennis et al., 2026; Staykova et al., 2024) places TAF4-related disorder firmly within the spectrum of TFIID-complex 'TAF-opathies' and nonspecific neurodevelopmental disorders / developmental language disorders (DLD). There is no empirical or clinical evidence in the cited cohort literature establishing Coffin-Siris syndrome or Nicolaides-Baraitser syndrome as primary differential diagnoses or establishing fifth digit hypoplasia as a key differentiator.",
+      "status": "OPEN",
+      "promise": 0.48196857787200426,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h4",
+      "origin": "agent"
+    },
+    "d11": {
+      "id": "d11",
+      "question_text": "What is the detailed objective breakdown of facial dysmorphisms and limb anomalies across all published TAF4 cases compared to other TAF-opathies?",
+      "parent_id": null,
+      "rationale": "Evaluating systematic dysmorphology exams across expanded TAF4 cohorts will determine whether specific craniofacial or digital anomalies reliably discriminate T4NDD from other transcription factor IID-related disorders.",
+      "status": "OPEN",
+      "promise": 0.4085834549138577,
+      "est_cost": 5000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d12": {
+      "id": "d12",
+      "question_text": "What proportion of patients with isolated developmental language disorder or mild neurodevelopmental delay carry TAF4 variants?",
+      "parent_id": null,
+      "rationale": "Kennis et al. identified a TAF4 variant in an individual with DLD without intellectual disability, suggesting the phenotypic spectrum may be wider and milder than originally reported in OMIM #620450.",
+      "status": "OPEN",
+      "promise": 0.3754185215838668,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d13": {
+      "id": "d13",
+      "question_text": "Re-investigate (refuted): Microcephaly (HP:0000252) or borderline small head circumference occurs in roughly 30-50% of assessed patients, while secondary findings like seizures or epilepsy (HP:0001250) occur in a minority (<25-30%).",
+      "parent_id": null,
+      "rationale": "deep test refuted it: While the primary discovery cohort of TAF4-related neurodevelopmental disorder (Janssen et al., 2022) identifies 8 individuals with de novo putative loss-of-function variants and describes microcephaly, thin corpus callosum, intellectual disability, and facial dysmorphisms, the provided literature sources do not substantiate the specific quantitative boundaries in the hypothesis (namely that microcephaly occurs in 30-50% and seizures/epilepsy in <25-30% of assessed patients). Under the strict evaluation standard where claims not corroborated by the provided text cannot be assumed, the quantitative hypothesis lacks direct evidentiary support.",
+      "status": "OPEN",
+      "promise": 0.47702291820200166,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h3",
+      "origin": "agent"
+    },
+    "d14": {
+      "id": "d14",
+      "question_text": "What are the exact numerators and denominators for microcephaly (HP:0000252) and seizures (HP:0001250) across all published TAF4 pLoF cases to date?",
+      "parent_id": null,
+      "rationale": "Determining exact proportions in the initial Janssen et al. cohort and subsequent reports is necessary to test whether microcephaly and epilepsy are core versus secondary features.",
+      "status": "OPEN",
+      "promise": 0.4830888098579206,
+      "est_cost": 0.05,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d15": {
+      "id": "d15",
+      "question_text": "Do missense variants in TAF4 cause a distinct phenotypic spectrum compared to truncating/pLoF variants?",
+      "parent_id": null,
+      "rationale": "Clarifying whether gain-of-function or dominant-negative missense variants produce severe early-onset epileptic encephalopathy versus milder NDD phenotypes will refine genotype-phenotype correlations.",
+      "status": "EXPLORED",
+      "promise": 0.88,
+      "est_cost": 0.1,
+      "allocated_usd": 1.9770804,
+      "spent_usd": 0.017692999999999987,
+      "alloc_rationale": "Directly targets genotype-phenotype correlation by clarifying whether missense variants cause distinct severity or manifestations compared to pLoF variants.",
+      "produced_hypotheses": [
+        "h10",
+        "h11",
+        "h12"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d16": {
+      "id": "d16",
+      "question_text": "Build on the confirmed prior: Global developmental delay / intellectual disability is present in 100% of reported individuals across published cohorts (e.g., Loucks et al. / primary series), with expressive language delay being more pronounced than receptive language or gross motor delay (HP:0001263, HP:0000750).",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "OPEN",
+      "promise": 0.4978758518527417,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d17": {
+      "id": "d17",
+      "question_text": "Build on the confirmed prior: Major congenital internal organ anomalies (such as complex cyanotic congenital heart disease, tracheoesophageal fistula, or renal agenesis) are absent or extremely atypical, arguing strongly against a primary TAF4 diagnosis if present.",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "OPEN",
+      "promise": 0.47548996953737327,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d18": {
+      "id": "d18",
+      "question_text": "What are the itemized per-individual numerator and denominator tallies for specific craniofacial features (e.g., arched eyebrows, epicanthal folds, thin upper lip) and neurological signs (e.g., seizures, hypotonia) in Table 1 of Janssen et al. (2022)?",
+      "parent_id": "d1",
+      "rationale": "Extracting the complete supplementary/table-level clinical matrix from Janssen et al. (2022) is required to establish exact HPO term frequencies for clinical diagnostic algorithms.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 0.35,
+      "allocated_usd": 1.9460092759999998,
+      "spent_usd": 0.014054500000000025,
+      "alloc_rationale": "Directly resolves required clinical phenotype counts by extracting itemized numerators and denominators with HPO terms from the primary Janssen et al. (2022) cohort table.",
+      "produced_hypotheses": [
+        "h13",
+        "h14",
+        "h15"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d19": {
+      "id": "d19",
+      "question_text": "Which two unrelated patients were reported in 2021 according to OMIM entry #620450, and what are their specific HPO phenotype counts relative to the Janssen et al. series?",
+      "parent_id": "d1",
+      "rationale": "Identifying this 2021 report referenced in OMIM #620450 will expand the total worldwide denominator of reported TAF4 probands and refine phenotype penetrance calculations.",
+      "status": "EXPLORED",
+      "promise": 0.9,
+      "est_cost": 0.4,
+      "allocated_usd": 1.9460092759999998,
+      "spent_usd": 0.019049499999999997,
+      "alloc_rationale": "Identifies the additional 2021 probands recorded in OMIM #620450 to establish the full worldwide denominator and exact phenotype frequencies across all published literature.",
+      "produced_hypotheses": [
+        "h16",
+        "h17",
+        "h18"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d20": {
+      "id": "d20",
+      "question_text": "Do missense variants located in the TAF4 TAFH domain disrupt interaction with transcriptional co-regulators (e.g., ETO, ATN1) to cause a more restricted neurocognitive phenotype than C-terminal histone-fold domain variants?",
+      "parent_id": "d15",
+      "rationale": "TAF4 possesses distinct modular domains; the N-terminal TAFH domain interacts with cofactors like ETO and ATN1, whereas the C-terminus mediates TFIID complex integration. Comparing phenotypes based on domain localization will clarify if missense variants act as dominant-negatives or hypomorphs.",
+      "status": "OPEN",
+      "promise": 0.4513226775549243,
+      "est_cost": 1.2,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d21": {
+      "id": "d21",
+      "question_text": "What proportion of patients with TAF4 missense variants demonstrate microcephaly or behavioral disturbances compared to the 8 individuals with pLoF variants reported in Janssen et al.?",
+      "parent_id": "d15",
+      "rationale": "Quantifying the exact frequencies of microcephaly, ADHD, and autistic behaviors between missense and truncating cohorts will allow clinicians to weight these secondary findings when interpreting variants of uncertain significance.",
+      "status": "OPEN",
+      "promise": 0.46404877582667287,
+      "est_cost": 0.95,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d22": {
+      "id": "d22",
+      "question_text": "What is the exact penetrance and specific granular HPO breakdown of facial dysmorphisms, behavioral features, and neurodevelopmental milestones across an expanded multi-center cohort of TAF4 pLoF cases?",
+      "parent_id": "d1",
+      "rationale": "The initial cohort defines the core triad across eight individuals, but larger international registries are needed to evaluate exact penetrance percentages, negative predictive findings, and variant-specific genotype-phenotype correlations.",
+      "status": "OPEN",
+      "promise": 0.4913367702972129,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d23": {
+      "id": "d23",
+      "question_text": "What proportion of individuals harboring heterozygous de novo loss-of-function variants in TAF4 maintain a non-verbal IQ >= 70 with speech/language as the primary impaired domain?",
+      "parent_id": "d1",
+      "rationale": "Systematic reverse phenotyping across large clinical sequencing databases and unselected NDD cohorts is needed to establish whether non-syndromic DLD is a rare tail of the expressivity spectrum or represents a common mild manifestation.",
+      "status": "OPEN",
+      "promise": 0.469841805313573,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d24": {
+      "id": "d24",
+      "question_text": "Do downstream transcriptional signatures or episignatures distinguish TAF4 variants that manifest as isolated DLD from those resulting in severe syndromic intellectual disability?",
+      "parent_id": "d1",
+      "rationale": "Differences in residual TFIID complex function, alternative splicing, or specific DNA methylation episignatures may explain phenotypic divergence between isolated DLD and severe intellectual disability.",
+      "status": "OPEN",
+      "promise": 0.43180307345120994,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d25": {
+      "id": "d25",
+      "question_text": "Do missense variants in TAF4 cluster in specific functional domains (such as the TAFH or histone-fold domain) compared to evenly distributed truncating mutations?",
+      "parent_id": "d15",
+      "rationale": "Evaluating whether missense variants causing isolated DLD perturb specific transcriptional co-factor interactions rather than disrupting overall TFIID complex stability will clarify the molecular basis of phenotypic divergence.",
+      "status": "OPEN",
+      "promise": 0.3836165239168037,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d26": {
+      "id": "d26",
+      "question_text": "What is the prevalence of de novo TAF4 missense variants across larger multicenter cohorts of isolated developmental language disorder with non-verbal IQ >= 85?",
+      "parent_id": "d15",
+      "rationale": "Current evidence relies on small cohorts and single proband occurrences; testing larger cohorts is required to determine the exact penetrance of non-syndromic speech and language phenotypes in TAF4 missense carriers.",
+      "status": "OPEN",
+      "promise": 0.4415486315502891,
+      "est_cost": 120000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d27": {
+      "id": "d27",
+      "question_text": "Do non-truncating de novo missense variants in the conserved histone-fold domain or TAF4/LisH domain of TAF4 exert dominant-negative effects leading to more severe neurological phenotypes?",
+      "parent_id": "d15",
+      "rationale": "While existing human disease literature for TAF4 centers entirely on pLoF variants displaying haploinsufficiency, other TFIID subunit genes (such as TAF1) show significant phenotypic differences when affected by missense variants within conserved interaction domains.",
+      "status": "OPEN",
+      "promise": 0.38542875739111704,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d28": {
+      "id": "d28",
+      "question_text": "What is the systematic penetrance of subclinical or generalized epileptic activity on standard EEG across an expanded international cohort of individuals with TAF4 variants?",
+      "parent_id": "d15",
+      "rationale": "Systematic electroencephalographic characterization across age strata would clarify whether overt epileptic encephalopathy is truly absent or if occult epileptiform activity occurs without progression to refractory clinical seizures.",
+      "status": "OPEN",
+      "promise": 0.42265539450018774,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d29": {
+      "id": "d29",
+      "question_text": "Re-investigate (refuted): Missense variants clustering within the conserved TAF4 histone-fold and TAF-homology domains cause transcriptional pause/escape disruption that results in short stature and craniofacial dysmorphisms overlapping indistinguishably with truncating variants.",
+      "parent_id": "d15",
+      "rationale": "deep test refuted it: The defining study establishing Intellectual developmental disorder, autosomal dominant 73 (OMIM #620450 / TAF4-related NDD; Janssen et al., 2022) exclusively identifies de novo putative loss-of-function (pLoF / truncating) variants in an initial cohort of eight individuals. There is no empirical literature in the provided evidence base documenting pathogenic missense variants clustering within the TAF4 histone-fold or TAF-homology domains that cause transcriptional pause/escape disruption resulting in phenotypes indistinguishable from truncating alleles.",
+      "status": "OPEN",
+      "promise": 0.46904428236466994,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h12",
+      "origin": "agent"
+    },
+    "d30": {
+      "id": "d30",
+      "question_text": "Do rare de novo missense variants in the histone-fold domain or TAF-homology domain of TAF4 destabilize TFIID assembly or alter core promoter recognition in patient cohorts with unexplained neurodevelopmental disorders?",
+      "parent_id": "d15",
+      "rationale": "While current diagnostic criteria rely on putative loss-of-function variants, structural missense alterations might act via dominant-negative or hypomorphic mechanisms that remain uncharacterized.",
+      "status": "OPEN",
+      "promise": 0.39463537889016576,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d31": {
+      "id": "d31",
+      "question_text": "What is the precise phenotypic breakdown (HPO terms with exact numerators and denominators) across multicenter expanded cohorts of TAF4-related NDD?",
+      "parent_id": "d15",
+      "rationale": "Differentiating TAF4-related NDD from other TFIID subunit-associated disorders (TAF-opathies) requires granular clinical delineation beyond initial small-cohort case series.",
+      "status": "OPEN",
+      "promise": 0.46579045153100485,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d32": {
+      "id": "d32",
+      "question_text": "Re-investigate (refuted): Genotype-phenotype correlations suggest that missense variants clustering in conserved TAF homology domains or histone-fold domains cause a recognizable dominant-negative or loss-of-function phenotype, whereas truncating variants may have varying penetrance or severity.",
+      "parent_id": null,
+      "rationale": "deep test refuted it: The hypothesis posits that autosomal dominant intellectual developmental disorder 73 (OMIM #620450) is driven by missense variants clustering in conserved TAF homology or histone-fold domains acting via a dominant-negative or loss-of-function mechanism, while truncating variants have variable penetrance or severity. However, the foundational cohort defining this disorder (Janssen et al., 2022) established that autosomal dominant TAF4-related neurodevelopmental disorder (T4NDD) is specifically caused by de novo putative loss-of-function (pLoF / truncating) variants in all 8 investigated probands. The phenotypic triad of intellectual disability, behavioral anomalies, and facial dysmorphism is directly attributed to heterozygous pLoF variants rather than a domain-specific missense clustering or dominant-negative mechanism.",
+      "status": "OPEN",
+      "promise": 0.48001889818761906,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h6",
+      "origin": "agent"
+    },
+    "d33": {
+      "id": "d33",
+      "question_text": "Are there any pathogenic missense variants in TAF4 that produce an overlapping or distinct syndromic neurodevelopmental phenotype through dominant-negative mechanisms?",
+      "parent_id": null,
+      "rationale": "Determining whether missense alterations in specific TAF4 functional domains (such as the TAFH or histone-fold domains) lead to clinical disease or are largely tolerated/unrelated to OMIM #620450 will clarify the functional tolerance of the protein.",
+      "status": "OPEN",
+      "promise": 0.38519895904790835,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d34": {
+      "id": "d34",
+      "question_text": "What are the specific distinguishing facial dysmorphisms and neurobehavioral profiles in TAF4 haploinsufficiency compared to other TFIID subunit disorders (e.g., TAF1, TAF2, TAF6)?",
+      "parent_id": null,
+      "rationale": "Comparative morphometric and behavioral phenotyping across TFIID-related 'TAF-opathies' is necessary to evaluate whether clinical features alone can distinguish TAF4-related NDD without exome or genome sequencing.",
+      "status": "OPEN",
+      "promise": 0.47236930447939685,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d35": {
+      "id": "d35",
+      "question_text": "Resolve the conflict over: Across all published primary T4NDD cohorts, individuals with de novo loss-of-function variants in TAF4 show absent or negligible rates (<5%) of major non-neurological structural malformations (e.g., craniosynostosis, complex congenital heart defects, or gut malrotations), differentiating T4NDD from other syndromic neurodevelopmental entities.",
+      "parent_id": "d1",
+      "rationale": "deep test attempt 1 left this contested: Sample size limitation: The definitive primary cohort describing de novo pLoF variants in TAF4 comprises only 8 patients (Janssen et al., 2022); statistically, a 0/8 observation cannot rule out a true population frequency of malformations between 5% and 37%.; Broader clinical cohorts evaluating developmental delay and speech/language disorders note presence of congenital anomalies in patients with neurodevelopmental diagnoses including TAF4-associated disorders.",
+      "status": "OPEN",
+      "promise": 0.5418905281120303,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h9",
+      "origin": "agent"
+    },
+    "d36": {
+      "id": "d36",
+      "question_text": "What is the true prevalence of congenital heart defects and craniosynostosis in an expanded international multi-center registry of individuals with verified pathogenic TAF4 variants?",
+      "parent_id": "d1",
+      "rationale": "The initial cohort size of 8 patients is severely underpowered to establish low-frequency (<5%) or moderately low-frequency (5-15%) structural anomalies, requiring systematic ultrasound/imaging phenotyping across larger cohorts.",
+      "status": "OPEN",
+      "promise": 0.461245798316383,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d37": {
+      "id": "d37",
+      "question_text": "Do missense or in-frame variants in specific functional domains of TAF4 (such as the histone-fold domain or TAF4-TAF12 interaction interface) cause different syndromic structural anomalies compared to truncating loss-of-function variants?",
+      "parent_id": "d1",
+      "rationale": "Determining genotype-phenotype correlations across variant classes will establish whether dominant-negative or hypomorphic alleles produce visceral or skeletal malformations absent in pure haploinsufficiency.",
+      "status": "OPEN",
+      "promise": 0.36689779892058627,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d38": {
+      "id": "d38",
+      "question_text": "What are the exact patient-by-patient cell entries in Table 1 and Supplementary Table S1 of Janssen et al. (2022) for head circumference percentiles, seizure types, and specific ocular/palpebral anomalies?",
+      "parent_id": "d18",
+      "rationale": "The current retrieval blocks provide paper metadata and abstract snippets demonstrating Table 1 exists, but the full table row contents were not ingested in the snippet; retrieving the full-text XML or PDF table cells will yield exact integer numerators for every HPO term.",
+      "status": "OPEN",
+      "promise": 0.95,
+      "est_cost": 0.4,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d39": {
+      "id": "d39",
+      "question_text": "How do the clinical frequencies in Table 1 of Janssen et al. (2022) compare feature-by-feature to the comparative TFIID subunit disorder series summarized by Eigenhuis et al. (2022)?",
+      "parent_id": "d18",
+      "rationale": "Eigenhuis et al. (2022) systematically evaluated transcription pause and escape in TAF-opathies and compared TAF4 features with other TFIID subunits in their Table 1, providing a direct cross-syndromic discriminator matrix.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.45,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d40": {
+      "id": "d40",
+      "question_text": "What are the exact genomic cDNA and protein coordinates of the two de novo TAF4 variants reported by Bertoli-Avella et al. (2021), and do they fall in the same exons or functional domains as the Janssen et al. (2022) truncating alleles?",
+      "parent_id": "d19",
+      "rationale": "Determining the specific variant positions in the 2021 probands will clarify whether nonsense-mediated decay is uniformly triggered across all 10 pooled cases or if any represent domain-specific truncations.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.55,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d41": {
+      "id": "d41",
+      "question_text": "Which detailed secondary HPO terms (such as microcephaly HP:0000252, seizures HP:0001250, or hypotonia HP:0001252) were submitted to ClinVar or GenCC for the two Bertoli-Avella et al. (2021) patients?",
+      "parent_id": "d19",
+      "rationale": "Accessing the individual-level HPO submissions for these two probands will enable updating the exact numerators and denominators for secondary neurological findings across the entire published worldwide cohort.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 0.5,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d42": {
+      "id": "d42",
+      "question_text": "What are the exact phenotypic features and standard HPO terms in the two Bertoli-Avella et al. (2021) probands compared to later cohorts such as Janssen et al.?",
+      "parent_id": "d19",
+      "rationale": "Clarifying the specific HPO annotations for the initial probands will enable a rigorous numerator/denominator comparison of hallmark discriminative features across published MRD73 cohorts.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.05,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d43": {
+      "id": "d43",
+      "question_text": "Does computer-aided 3D facial phenotyping (e.g., GestaltMatcher or Face2Gene) identify a latent, statistically significant facial signature for TAF4-related NDD despite the absence of an obvious discrete single facial anomaly?",
+      "parent_id": "d18",
+      "rationale": "When individual dysmorphic signs appear heterogeneous or nonspecific by manual dysmorphology assessment, multi-dimensional geometric deep learning models can often extract composite spatial signatures that distinguish the syndrome from other neurodevelopmental disorders.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d44": {
+      "id": "d44",
+      "question_text": "Do missense variants in specific functional domains of TAF4 (e.g., the TAFH or histone-fold domain) cause distinct craniofacial patterns compared to truncating putative loss-of-function variants?",
+      "parent_id": "d18",
+      "rationale": "The initial cohort described primarily de novo pLoF variants; assessing missense or domain-specific mutations in larger worldwide cohorts will establish whether true phenotypic substructure exists.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d45": {
+      "id": "d45",
+      "question_text": "Resolve the conflict over: Combining the 2 probands from Bertoli-Avella et al. (2021) with the 8 probands from Janssen et al. (2022) establishes a unified baseline denominator of 10 de novo pLoF TAF4 probands, in which intellectual disability / global developmental delay maintains 100% (10/10) penetrance.",
+      "parent_id": "d19",
+      "rationale": "deep test attempt 1 left this contested: Janssen et al. (2022) describes a cohort of exactly 8 individuals with de novo pLoF variants and notes TAF4 had not been previously described as a monogenic disease gene, whereas the hypothesis posits an established unified denominator of 10 including 2 probands from Bertoli-Avella et al. (2021), which is not present in the provided sources.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h18",
+      "origin": "agent"
+    },
+    "d46": {
+      "id": "d46",
+      "question_text": "What are the specific phenotypic breakdowns and variant positions of the two probands reported in Bertoli-Avella et al. (2021) compared to the 8 probands in Janssen et al. (2022)?",
+      "parent_id": "d19",
+      "rationale": "Directly evaluating the primary text of Bertoli-Avella et al. (2021) is necessary to determine whether their clinical assessment meets standardized HPO criteria for intellectual disability and whether their variants are true de novo pLoF alleles.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.05,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d47": {
+      "id": "d47",
+      "question_text": "Are there non-penetrant or milder neurodevelopmental presentations associated with TAF4 loss-of-function variants in general population databases (e.g., gnomAD)?",
+      "parent_id": "d19",
+      "rationale": "Ascertainment bias from neurodevelopmental sequencing cohorts can artificially inflate penetrance of intellectual disability to 100%.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 0.08,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d48": {
+      "id": "d48",
+      "question_text": "Resolve the conflict over: In Table 1 of Janssen et al. (2022), muscular hypotonia (HP:0001252) exhibits a significantly higher penetrance (occurring in >=5/8 individuals, >=62.5%) than epileptic seizures (HP:0001250, occurring in <=2/8 individuals, <=25%), establishing that tone deregulation rather than active epileptogenesis is the cardinal neuromuscular feature of TAF4 haploinsufficiency.",
+      "parent_id": "d18",
+      "rationale": "deep test attempt 1 left this contested: The provided SOURCES block confirms low seizure frequency (2/8) from OMIM #620450, but omits the full Table 1 text of Janssen et al. (2022) needed to confirm the exact numerator for muscular hypotonia (>=5/8).",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h14",
+      "origin": "agent"
+    },
+    "d49": {
+      "id": "d49",
+      "question_text": "What is the exact tally and HPO frequency of muscular hypotonia (HP:0001252) versus other neuromuscular signs across all published TAF4-NDD individuals?",
+      "parent_id": "d18",
+      "rationale": "Directly reviewing Table 1 and supplementary phenotype tables of Janssen et al. (2022) and subsequent cohorts is required to determine whether hypotonia is truly present in >=62.5% of cases.",
+      "status": "OPEN",
+      "promise": 0.9,
+      "est_cost": 0.05,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d50": {
+      "id": "d50",
+      "question_text": "Re-investigate (refuted): Microcephaly (HP:0000252) in Table 1 of Janssen et al. (2022) is itemized in at least 3 of 8 individuals (>=37.5%), whereas macrocephaly (HP:0000256) is absent (0/8), indicating that cranial growth restriction is a directional discriminator for T4NDD against overgrowth-associated intellectual disability syndromes.",
+      "parent_id": "d18",
+      "rationale": "deep test refuted it: While the sources confirm the discovery cohort of eight individuals with de novo putative loss-of-function variants in TAF4 (Janssen et al., 2022; OMIM #620450) and identify the presence of 'TABLE 1. Clinical features of patients with variants in TAF4 in comparison with phenotypes associated with other TFIID...', the provided text extracts do not contain the specific numerical cell counts for microcephaly (HP:0000252) or macrocephaly (HP:0000256) within that table. Under the strict constraint that no claims beyond the provided text block may be verified or invented, the specific frequency claim (>=3/8 microcephaly, 0/8 macrocephaly) cannot be substantiated from the available text.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h15",
+      "origin": "agent"
+    },
+    "d51": {
+      "id": "d51",
+      "question_text": "What are the exact head circumference measurements and HPO term frequencies across all 8 individuals reported in Table 1 of Janssen et al. (2022)?",
+      "parent_id": "d18",
+      "rationale": "Accessing the complete Table 1 text or supplementary clinical tables is required to verify whether microcephaly is present in >=3/8 individuals and macrocephaly in 0/8.",
+      "status": "OPEN",
+      "promise": 0.9,
+      "est_cost": 0.05,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d52": {
+      "id": "d52",
+      "question_text": "To what quantitative degree does systematic reverse phenotyping with standardized HPO dysmorphology scoring alter variant classification under ACMG/AMP criteria in repository-identified TAF4 missense variants versus pLoF variants?",
+      "parent_id": "d19",
+      "rationale": "Current cohorts establish pLoF variants as pathogenic, but broader repositories contain unclassified missense variants that require granular phenotypic matching to establish pathogenicity.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d53": {
+      "id": "d53",
+      "question_text": "What specific facial gestalt signature differentiates TAF4-related NDD from X-linked TAF1 syndrome using computerized 3D facial recognition software?",
+      "parent_id": "d19",
+      "rationale": "Both T4NDD and TAF1 disorders share facial dysmorphisms and intellectual disability; automated deep phenotyping could discern subtle discriminative landmarks across TAF-opathies.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    }
+  },
+  "hypotheses": {
+    "h1": {
+      "id": "h1",
+      "text": "Global developmental delay / intellectual disability is present in 100% of reported individuals across published cohorts (e.g., Loucks et al. / primary series), with expressive language delay being more pronounced than receptive language or gross motor delay (HP:0001263, HP:0000750).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Core phenotype frequencies"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e1",
+        "e2",
+        "e8",
+        "e9"
+      ],
+      "conflicts": [],
+      "screen_note": "TAF4-related neurodevelopmental disorder (OMIM #620450) consistently presents with intellectual disability/developmental delay and prominent speech/language involvement across described cohorts.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h2": {
+      "id": "h2",
+      "text": "Dysmorphic facial features are documented in a majority of patients (>70%) including high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Dysmorphic features and frequencies"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.2,
+      "evidence_ids": [
+        "e6",
+        "e10",
+        "e11"
+      ],
+      "conflicts": [
+        "While Janssen et al. 2022 notes facial dysmorphisms as common among 8 individuals, the OMIM classification designates the facial presentation as variable rather than a uniform, defining facial gestalt, and the specific itemized rates (>70% for forehead, eyebrows, nasal bridge, and lip vermilion) are unsubstantiated."
+      ],
+      "screen_note": "Initial characterization of TAF4-related neurodevelopmental disorder (MRD73) identifies facial dysmorphisms as a core common feature in affected cohorts.",
+      "bin_reason": "refuted: The available literature confirms that TAF4 variants cause intellectual developmental disorder, autosomal dominant 73 (OMIM #620450) and that facial dysmorphisms are a common feature among affected individuals (described in a discovery cohort of 8 individuals). However, OMIM describes the facial dysmorphism as 'variable', and the provided literature provides no evidence or frequency data demonstrating that specific features such as high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219) occur in >70% of patients. Furthermore, phenotypic heterogeneity is documented, including individuals with TAF4 alterations identified in non-syndromic/language disorder cohorts without characteristic dysmorphic facies.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h3": {
+      "id": "h3",
+      "text": "Microcephaly (HP:0000252) or borderline small head circumference occurs in roughly 30-50% of assessed patients, while secondary findings like seizures or epilepsy (HP:0001250) occur in a minority (<25-30%).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Neurological phenotype frequencies"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.2,
+      "evidence_ids": [
+        "e7",
+        "e15"
+      ],
+      "conflicts": [
+        "The hypothesis posits specific quantitative frequency brackets (30-50% for microcephaly/borderline head circumference and <25-30% for seizures), but the provided literature only establishes an initial cohort of 8 individuals without providing accessible exact numerical rates in the available source text."
+      ],
+      "screen_note": "TAF4-related neurodevelopmental disorder (OMIM #620450) was established in an initial cohort of eight patients with de novo pLoF variants exhibiting intellectual disability and microcephaly, making the proposed frequency estimates plausible.",
+      "bin_reason": "refuted: While the primary discovery cohort of TAF4-related neurodevelopmental disorder (Janssen et al., 2022) identifies 8 individuals with de novo putative loss-of-function variants and describes microcephaly, thin corpus callosum, intellectual disability, and facial dysmorphisms, the provided literature sources do not substantiate the specific quantitative boundaries in the hypothesis (namely that microcephaly occurs in 30-50% and seizures/epilepsy in <25-30% of assessed patients). Under the strict evaluation standard where claims not corroborated by the provided text cannot be assumed, the quantitative hypothesis lacks direct evidentiary support.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h4": {
+      "id": "h4",
+      "text": "MRD73 is most easily confused with Coffin-Siris syndrome (BAF complex) and Nicolaides-Baraitser syndrome (SMARCA2); distinguishing clues include the lack of hypoplastic fifth fingernails/toenails and lack of coarse progressive facial features in TAF4 patients.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Differential diagnosis and discriminating findings"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.1,
+      "evidence_ids": [
+        "e5",
+        "e13",
+        "e14"
+      ],
+      "conflicts": [
+        "The literature links TAF4 disorders to other TFIID subunit disorders ('TAF-opathies') rather than BAF-complex disorders (Coffin-Siris or Nicolaides-Baraitser syndrome).",
+        "No provided source reports nail hypoplasia or Coffin-Siris/Nicolaides-Baraitser syndrome as relevant differential diagnostic markers for TAF4-related NDD."
+      ],
+      "screen_note": "TAF4 loss-of-function variants cause MRD73/T4NDD, an intellectual developmental disorder with dysmorphic features that clinically overlaps with BAFopathies/CSS-like syndromes.",
+      "bin_reason": "refuted: The hypothesis posits that autosomal dominant intellectual developmental disorder 73 (MRD73 / TAF4-related NDD) is most easily confused with Coffin-Siris syndrome and Nicolaides-Baraitser syndrome, and distinguishes them by the absence of hypoplastic fifth digits and coarse facial features. However, the available peer-reviewed literature detailing TAF4-related NDD (Janssen et al., 2022; Kennis et al., 2026; Staykova et al., 2024) places TAF4-related disorder firmly within the spectrum of TFIID-complex 'TAF-opathies' and nonspecific neurodevelopmental disorders / developmental language disorders (DLD). There is no empirical or clinical evidence in the cited cohort literature establishing Coffin-Siris syndrome or Nicolaides-Baraitser syndrome as primary differential diagnoses or establishing fifth digit hypoplasia as a key differentiator.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h5": {
+      "id": "h5",
+      "text": "Major congenital internal organ anomalies (such as complex cyanotic congenital heart disease, tracheoesophageal fistula, or renal agenesis) are absent or extremely atypical, arguing strongly against a primary TAF4 diagnosis if present.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Exclusionary findings"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e3",
+        "e4",
+        "e12"
+      ],
+      "conflicts": [],
+      "screen_note": "Phenotypic descriptions of TAF4-related neurodevelopmental disorder characterize it by intellectual disability, behavioral abnormalities, skeletal anomalies, and facial dysmorphisms, without major congenital internal malformations highlighted as core features.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h6": {
+      "id": "h6",
+      "text": "Genotype-phenotype correlations suggest that missense variants clustering in conserved TAF homology domains or histone-fold domains cause a recognizable dominant-negative or loss-of-function phenotype, whereas truncating variants may have varying penetrance or severity.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Genotype-phenotype correlation"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.05,
+      "evidence_ids": [
+        "e25",
+        "e33",
+        "e34"
+      ],
+      "conflicts": [
+        "The hypothesis asserts that missense variants clustering in specific functional domains cause the recognizable dominant-negative or loss-of-function phenotype, whereas the peer-reviewed evidence (Janssen et al., 2022) demonstrates that de novo truncating pLoF variants define the monogenic disorder OMIM #620450."
+      ],
+      "screen_note": "Initial defining cohorts of TAF4-related NDD (MRD73) established de novo loss-of-function variants as causative, while domain-specific missense impacts remain an open area of investigation.",
+      "bin_reason": "refuted: The hypothesis posits that autosomal dominant intellectual developmental disorder 73 (OMIM #620450) is driven by missense variants clustering in conserved TAF homology or histone-fold domains acting via a dominant-negative or loss-of-function mechanism, while truncating variants have variable penetrance or severity. However, the foundational cohort defining this disorder (Janssen et al., 2022) established that autosomal dominant TAF4-related neurodevelopmental disorder (T4NDD) is specifically caused by de novo putative loss-of-function (pLoF / truncating) variants in all 8 investigated probands. The phenotypic triad of intellectual disability, behavioral anomalies, and facial dysmorphism is directly attributed to heterozygous pLoF variants rather than a domain-specific missense clustering or dominant-negative mechanism.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h7": {
+      "id": "h7",
+      "text": "The primary clinical characterization cohort defining TAF4-related neurodevelopmental disorder (Janssen et al., 2022) comprises exactly n=8 individuals with de novo putative loss-of-function variants, wherein intellectual disability (HP:0001249), behavioral abnormalities (HP:0000708), and facial dysmorphisms (HP:0001999) each demonstrate a penetrance of at least 7/8 (87.5%).",
+      "direction_id": "d1",
+      "rationale": "Clinical delineation of novel dominant disorders requires establishing exact denominators and penetrance estimates across core phenotypic domains; Janssen et al. explicitly describe common features in their primary cohort of eight probands.",
+      "aspects": [
+        "pooled",
+        "delineation",
+        "penetrance"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e16",
+        "e28"
+      ],
+      "conflicts": [],
+      "screen_note": "Janssen et al. (2022) established T4NDD in a cohort of 8 individuals with de novo pLoF variants, identifying ID (7/8 affected, with P2 being the only individual with normal intellect), behavioral issues, and dysmorphisms as key common features.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h8": {
+      "id": "h8",
+      "text": "Severe isolated developmental language disorder (HP:0002465 / HP:0060057) without global cognitive impairment (non-verbal IQ >= 70) represents an underrecognized mild manifestation of TAF4 haploinsufficiency, accounting for at least 1 individual in targeted sporadic DLD genome sequencing cohorts.",
+      "direction_id": "d1",
+      "rationale": "Kennis et al. (2026) report that monogenic causes of developmental language disorder include variants fitting the TAF4-related disorder spectrum, challenging the assumption that TAF4 pathogenic variants always produce global intellectual disability.",
+      "aspects": [
+        "binned",
+        "language",
+        "penetrance"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e17",
+        "e24",
+        "e29"
+      ],
+      "conflicts": [
+        "Ascertainment in the initial TAF4 discovery cohort (Janssen et al., 2022) required global neurodevelopmental disorder / intellectual disability (present in 8/8), creating an ascertainment bias that obscured milder or isolated presentations such as severe isolated DLD with normal non-verbal IQ (non-verbal IQ >= 70)."
+      ],
+      "screen_note": "Genome sequencing in children with severe sporadic DLD and normal non-verbal IQ identified a de novo TAF4 frameshift variant, expanding the TAF4 phenotypic spectrum.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h9": {
+      "id": "h9",
+      "text": "Across all published primary T4NDD cohorts, individuals with de novo loss-of-function variants in TAF4 show absent or negligible rates (<5%) of major non-neurological structural malformations (e.g., craniosynostosis, complex congenital heart defects, or gut malrotations), differentiating T4NDD from other syndromic neurodevelopmental entities.",
+      "direction_id": "d1",
+      "rationale": "Correlating primary cohort series like Janssen et al. and syndromic screening studies like Timberlake et al. can establish whether structural cranial or internal organ anomalies form part of the canonical TAF4 spectrum or argue against it.",
+      "aspects": [
+        "pooled",
+        "exclusionary",
+        "specificity"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e18",
+        "e27",
+        "e35",
+        "e36"
+      ],
+      "conflicts": [
+        "Sample size limitation: The definitive primary cohort describing de novo pLoF variants in TAF4 comprises only 8 patients (Janssen et al., 2022); statistically, a 0/8 observation cannot rule out a true population frequency of malformations between 5% and 37%.",
+        "Broader clinical cohorts evaluating developmental delay and speech/language disorders note presence of congenital anomalies in patients with neurodevelopmental diagnoses including TAF4-associated disorders."
+      ],
+      "screen_note": "Primary descriptions of T4NDD highlight ID, behavioral issues, and subtle facial dysmorphisms rather than major structural malformations, making this hypothesis plausible.",
+      "bin_reason": "contested (1 for / 1 against): Sample size limitation: The definitive primary cohort describing de novo pLoF variants in TAF4 comprises only 8 patients (Janssen et al., 2022); statistically, a 0/8 observation cannot rule out a true population frequency of malformations between 5% and 37%.; Broader clinical cohorts evaluating developmental delay and speech/language disorders note presence of congenital anomalies in patients with neurodevelopmental diagnoses including TAF4-associated disorders.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h10": {
+      "id": "h10",
+      "text": "De novo missense variants in TAF4 produce a broader phenotypic continuum than truncating/pLoF alleles, extending to isolated severe developmental language disorder (DLD) with preserved non-verbal cognitive ability (non-verbal IQ \u2265 70) rather than mandatory global developmental delay or intellectual disability.",
+      "direction_id": "d15",
+      "rationale": "Initial cohorts describing autosomal dominant TAF4-related neurodevelopmental disorder (Janssen et al., 2022) evaluated exclusively de novo putative loss-of-function (pLoF) variants, finding 100% penetrance for intellectual disability. In contrast, genome-wide sequencing across selected cohorts enriched for isolated severe developmental language disorder has detected pathogenic de novo missense variants in neurodevelopmental genes such as TAF4 without pervasive intellectual disability, implying missense alleles may preserve baseline cortical function while impairing specific language circuits.",
+      "aspects": [
+        "genotype-phenotype",
+        "missense vs truncating",
+        "neurodevelopment"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e19",
+        "e20",
+        "e30"
+      ],
+      "conflicts": [],
+      "screen_note": "Identification of a de novo missense variant in TAF4 in a patient with severe DLD and non-verbal IQ >= 70 supports a phenotypic continuum beyond pLoF-associated intellectual disability.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h11": {
+      "id": "h11",
+      "text": "Pathogenic missense variants in TAF4 do not cause early-onset refractory epileptic encephalopathy, and their associated seizure frequency does not exceed that seen in truncating/pLoF variants (<30%).",
+      "direction_id": "d15",
+      "rationale": "In other TFIID complex disorders such as TAF1-related intellectual disability syndrome, missense variants within conserved structural domains frequently cause severe pleiotropic phenotypes including seizures, brain malformations, and cardiac anomalies. However, in TAF4, neither pLoF variants nor reported missense variants display a dominant-negative epileptic encephalopathy presentation.",
+      "aspects": [
+        "seizures",
+        "genotype-phenotype",
+        "TFIID complex"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e21",
+        "e22",
+        "e31"
+      ],
+      "conflicts": [],
+      "screen_note": "Initial characterization of TAF4-related neurodevelopmental disorder identifies primarily intellectual disability, behavioral issues, and dysmorphisms rather than early-onset epileptic encephalopathy.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h12": {
+      "id": "h12",
+      "text": "Missense variants clustering within the conserved TAF4 histone-fold and TAF-homology domains cause transcriptional pause/escape disruption that results in short stature and craniofacial dysmorphisms overlapping indistinguishably with truncating variants.",
+      "direction_id": "d15",
+      "rationale": "Neurodevelopmental disorders affecting general transcription machinery components share dysregulation of transcriptional pause and release, leading to convergent developmental delay, short stature, and craniofacial dysmorphism whether driven by truncating or missense mutations.",
+      "aspects": [
+        "protein domain",
+        "craniofacial",
+        "growth delay"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e23",
+        "e26",
+        "e32"
+      ],
+      "conflicts": [
+        "The hypothesis posits that missense variants clustering in the histone-fold and TAF-homology domains cause disease via transcriptional pause/escape disruption indistinguishable from truncating alleles; however, established cohort reports identify exclusively de novo putative loss-of-function (truncating/splice) mutations in TAF4."
+      ],
+      "screen_note": "TAF4 loss-of-function variants cause autosomal dominant neurodevelopmental disorder with facial dysmorphisms and developmental delay, and transcription pause/release dysregulation is an established mechanism in overlapping neurodevelopmental disorders.",
+      "bin_reason": "refuted: The defining study establishing Intellectual developmental disorder, autosomal dominant 73 (OMIM #620450 / TAF4-related NDD; Janssen et al., 2022) exclusively identifies de novo putative loss-of-function (pLoF / truncating) variants in an initial cohort of eight individuals. There is no empirical literature in the provided evidence base documenting pathogenic missense variants clustering within the TAF4 histone-fold or TAF-homology domains that cause transcriptional pause/escape disruption resulting in phenotypes indistinguishable from truncating alleles.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h13": {
+      "id": "h13",
+      "text": "In the definitive clinical summary matrix (Table 1) of Janssen et al. (2022), craniofacial dysmorphisms (HP:0001999) do not conform to an invariant facial gestalt; specifically, individual discrete dysmorphic signs (such as arched eyebrows HP:0002553, epicanthal folds HP:0000286, and thin upper lip vermilion HP:0000219) each occur in fewer than 6 of the 8 assessed individuals (<75%), preventing definitive phenotypic segregation based on any single facial anomaly alone.",
+      "direction_id": "d18",
+      "rationale": "While Janssen et al. (2022) establishes that facial dysmorphisms as a broad category are present in at least 7/8 patients, syndromic diagnosis requires determining whether individual dysmorphic signs have high discriminative penetrance or represent a diffuse non-specific constellation.",
+      "aspects": [
+        "binned",
+        "craniofacial"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e37",
+        "e50",
+        "e54"
+      ],
+      "conflicts": [],
+      "screen_note": "Janssen et al. (2022) described a cohort of 8 individuals with TAF4 variants exhibiting variable and nonspecific facial dysmorphisms rather than a single distinct gestalt.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h14": {
+      "id": "h14",
+      "text": "In Table 1 of Janssen et al. (2022), muscular hypotonia (HP:0001252) exhibits a significantly higher penetrance (occurring in >=5/8 individuals, >=62.5%) than epileptic seizures (HP:0001250, occurring in <=2/8 individuals, <=25%), establishing that tone deregulation rather than active epileptogenesis is the cardinal neuromuscular feature of TAF4 haploinsufficiency.",
+      "direction_id": "d18",
+      "rationale": "Prior pooled data suggest seizures occur in <25-30% of TAF4-NDD individuals, whereas motor and tone abnormalities are frequent; verifying the exact denominator and numerator tally from Table 1 of the discovery cohort directly tests whether seizure absence can be used as an exclusion criterion.",
+      "aspects": [
+        "binned",
+        "neurology"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.55,
+      "evidence_ids": [
+        "e38",
+        "e56"
+      ],
+      "conflicts": [
+        "The provided SOURCES block confirms low seizure frequency (2/8) from OMIM #620450, but omits the full Table 1 text of Janssen et al. (2022) needed to confirm the exact numerator for muscular hypotonia (>=5/8)."
+      ],
+      "screen_note": "Janssen et al. (2022) identified a cohort of eight individuals with de novo TAF4 loss-of-function variants, documenting frequent hypotonia and infrequent seizures.",
+      "bin_reason": "contested (1 for / 0 against): The provided SOURCES block confirms low seizure frequency (2/8) from OMIM #620450, but omits the full Table 1 text of Janssen et al. (2022) needed to confirm the exact numerator for muscular hypotonia (>=5/8).",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h15": {
+      "id": "h15",
+      "text": "Microcephaly (HP:0000252) in Table 1 of Janssen et al. (2022) is itemized in at least 3 of 8 individuals (>=37.5%), whereas macrocephaly (HP:0000256) is absent (0/8), indicating that cranial growth restriction is a directional discriminator for T4NDD against overgrowth-associated intellectual disability syndromes.",
+      "direction_id": "d18",
+      "rationale": "Previous literature notes microcephaly or borderline small head circumference in roughly 30-50% of individuals; verifying whether any macrocephaly is documented in Table 1 establishes cranial circumference directionality as a diagnostic clue.",
+      "aspects": [
+        "binned",
+        "growth",
+        "craniofacial"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.2,
+      "evidence_ids": [
+        "e39",
+        "e57"
+      ],
+      "conflicts": [
+        "The hypothesis specifies exact numerator/denominator frequencies in Table 1 (at least 3/8 for microcephaly and 0/8 for macrocephaly), but the accessible excerpts from Janssen et al. (2022) do not display the head circumference rows from Table 1."
+      ],
+      "screen_note": "Janssen et al. (2022) assesses cranial phenotypes including microcephaly (HP:0000252) across individuals with TAF4 variants and TFIID-related disorders, supporting directional cranial growth restriction rather than macrocephaly.",
+      "bin_reason": "refuted: While the sources confirm the discovery cohort of eight individuals with de novo putative loss-of-function variants in TAF4 (Janssen et al., 2022; OMIM #620450) and identify the presence of 'TABLE 1. Clinical features of patients with variants in TAF4 in comparison with phenotypes associated with other TFIID...', the provided text extracts do not contain the specific numerical cell counts for microcephaly (HP:0000252) or macrocephaly (HP:0000256) within that table. Under the strict constraint that no claims beyond the provided text block may be verified or invented, the specific frequency claim (>=3/8 microcephaly, 0/8 macrocephaly) cannot be substantiated from the available text.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h16": {
+      "id": "h16",
+      "text": "The two unrelated probands referenced in 2021 genetic database records for OMIM #620450 originate from the Bertoli-Avella et al. (2021) exome-sequencing cohort (PMID: 33875846), which established de novo putative loss-of-function variants in TAF4 as causative for neurodevelopmental delay and intellectual disability.",
+      "direction_id": "d19",
+      "rationale": "OMIM #620450 and expert curation panels (e.g., PanelApp) cite 2021 diagnostic exome discoveries of de novo TAF4 loss-of-function variants preceding the dedicated 2022 characterization cohort by Janssen et al. Identifying Bertoli-Avella et al. (2021) clarifies the exact provenance of the two 2021 probands and resolves discrepancies in early TAF4 gene-disease curation.",
+      "aspects": [
+        "pooled",
+        "cohort-definition"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e40",
+        "e41",
+        "e45",
+        "e51",
+        "e52",
+        "e53"
+      ],
+      "conflicts": [],
+      "screen_note": "OMIM #620450 and PanelApp explicitly confirm that two unrelated probands with de novo LoF variants in TAF4 were reported by Bertoli-Avella et al. (2021; PMID: 33875846).",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h17": {
+      "id": "h17",
+      "text": "Repository-scale sequencing cohorts such as Bertoli-Avella et al. (2021) record broad HPO terms for developmental delay and intellectual disability (HP:0001263 / HP:0001249) but systematically under-enumerate granular craniofacial dysmorphisms and behavioral abnormalities compared with targeted clinical series like Janssen et al. (2022).",
+      "direction_id": "d19",
+      "rationale": "High-throughput clinical exome screening datasets ascertain probands via primary referral indications (e.g., NDD/ID) without standardized, in-depth dysmorphology exams, leading to apparent lower penetrance of secondary features in repository probands relative to deeply phenotyped clinical cohorts.",
+      "aspects": [
+        "binned",
+        "phenotype-ascertainment"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e42",
+        "e43",
+        "e46",
+        "e47",
+        "e58",
+        "e59",
+        "e60"
+      ],
+      "conflicts": [],
+      "screen_note": "Targeted case series like Janssen et al. (2022) emphasize detailed dysmorphisms and behavior in TAF4-related NDD, which are typically under-coded in broad repository sequencing studies.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h18": {
+      "id": "h18",
+      "text": "Combining the 2 probands from Bertoli-Avella et al. (2021) with the 8 probands from Janssen et al. (2022) establishes a unified baseline denominator of 10 de novo pLoF TAF4 probands, in which intellectual disability / global developmental delay maintains 100% (10/10) penetrance.",
+      "direction_id": "d19",
+      "rationale": "Calculating rigorous phenotype penetrance across all published de novo pLoF cases requires pooling repository-identified and clinically characterized probands to test whether global cognitive delay remains invariant.",
+      "aspects": [
+        "pooled",
+        "penetrance"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e44",
+        "e48",
+        "e49",
+        "e55"
+      ],
+      "conflicts": [
+        "Janssen et al. (2022) describes a cohort of exactly 8 individuals with de novo pLoF variants and notes TAF4 had not been previously described as a monogenic disease gene, whereas the hypothesis posits an established unified denominator of 10 including 2 probands from Bertoli-Avella et al. (2021), which is not present in the provided sources."
+      ],
+      "screen_note": "Literature confirms de novo loss-of-function variants in TAF4 reported by Bertoli-Avella et al. (2021) (2 probands) and Janssen et al. (2022) causing autosomal dominant intellectual developmental disorder 73.",
+      "bin_reason": "contested (4 for / 0 against): Janssen et al. (2022) describes a cohort of exactly 8 individuals with de novo pLoF variants and notes TAF4 had not been previously described as a monogenic disease gene, whereas the hypothesis posits an established unified denominator of 10 including 2 probands from Bertoli-Avella et al. (2021), which is not present in the provided sources.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    }
+  },
+  "evidence": {
+    "e1": {
+      "id": "e1",
+      "text": "A cohort of eight individuals carrying de novo putative loss-of-function variants in TAF4 exhibited neurodevelopmental disorder phenotypes, with intellectual disability, abnormal behavior, and facial dysmorphisms as common features.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e2": {
+      "id": "e2",
+      "text": "Intellectual developmental disorder, autosomal dominant 73 is described as a neurodevelopmental disorder characterized by intellectual disability ranging from mild to severe, developmental delay, and speech delay.",
+      "source": {
+        "title": "Intellectual Developmental Disorder, Autosomal Dominant 73",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+        "quote": "An autosomal dominant disorder characterized by intellectual disability ranging from mild to severe, developmental delay, speech delay, behavioral abnormalities",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e3": {
+      "id": "e3",
+      "text": "In a cohort of eight individuals with de novo putative loss-of-function variants in TAF4, phenotypes were characterized as a neurodevelopmental disorder with intellectual disability, behavioral abnormalities, skeletal anomalies, and facial dysmorphisms, without recurring major internal organ malformations reported.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": "PMC10087332",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e4": {
+      "id": "e4",
+      "text": "Whole exome sequencing in congenital diaphragmatic hernia fetuses identified TAF4 as a potential candidate gene among several novel genes, though its causal contribution to isolated or syndromic CDH remains unconfirmed.",
+      "source": {
+        "title": "Discovery of novel candidate genes for congenital diaphragmatic hernia via whole exome sequencing",
+        "authors": [
+          "G Somayyeh Heidargholizadeh",
+          "GT Turgut"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1111/ped.70298",
+        "pmid": "41454640",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ped.70298",
+        "quote": "Bioinformatic analysis revealed novel potentially pathogenic variants not only in six genes previously known to be associated with CDH... but also in nine additional genes... TAF4... that, based on their functions, database entries, and literature, may be considered candidate genes for CDH.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "CDH cases evaluated": 17
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e5": {
+      "id": "e5",
+      "text": "Heterozygous de novo loss-of-function variants in TAF4 cause a dominant neurodevelopmental disorder characterized by intellectual disability, behavioral differences, and facial dysmorphism.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "affected individuals": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e6": {
+      "id": "e6",
+      "text": "A cohort of eight individuals with de novo putative loss-of-function variants in TAF4 showed common features including intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e7": {
+      "id": "e7",
+      "text": "A cohort of eight individuals carrying de novo putative loss-of-function variants in TAF4 demonstrated phenotypes consistent with a neurodevelopmental disorder, including intellectual disability, microcephaly, thin corpus callosum, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e8": {
+      "id": "e8",
+      "text": "In comparative evaluations of TAF complex neurodevelopmental disorders, de novo putative loss-of-function variants in TAF4 are reported with developmental delay / intellectual disability present in 8 of 8 affected individuals (100%).",
+      "source": {
+        "title": "TAF8-Related Neurodevelopmental Disorder - NCBI - NIH",
+        "authors": [
+          "TCF Zaccai"
+        ],
+        "year": 2025,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/n/gene/taf8-ndd/",
+        "quote": "Developmental delay / intellectual disability, 8/8 (100%), Typically ... De novo putative loss-of-function variants in TAF4 are associated with a ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "Developmental delay / intellectual disability frequency": "8/8",
+        "Developmental delay / intellectual disability percentage": 100
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e9": {
+      "id": "e9",
+      "text": "TAF4 is linked to developmental disorder OMIM #620450 characterized by intellectual disability and developmental delay.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-026-02214-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "TAF4 is associated with a developmental disorder (OMIM #620450), characterized by intellectual disability\u2026 associated with developmental delay.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e10": {
+      "id": "e10",
+      "text": "OMIM entry for Intellectual Developmental Disorder, Autosomal Dominant 73 (#620450) categorizes facial features as 'Facial dysmorphism, variable', contradicting the hypothesis of a uniform, distinct >70% recurrent facial gestalt.",
+      "source": {
+        "title": "616083 - INTELLECTUAL DEVELOPMENTAL DISORDER, ...",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/616083",
+        "quote": "Facial dysmorphism, variable [UMLS: C4015170] [SNOMEDCT ... AD, 3, 620450 \u00b7 TAF4 \u00b7 601796 \u00b7 20q13.33 \u00b7 Intellectual developmental disorder, autosomal dominant",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e11": {
+      "id": "e11",
+      "text": "TAF4 variants are also identified in cohorts presenting with severe sporadic developmental language disorder without classical severe intellectual disability or reported syndromic facial features, demonstrating broader phenotypic variability across TAF4-associated presentations.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "K van Hulst",
+          "R Pfundt",
+          "N de Leeuw"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "of TAF4 is associated with a developmental disorder (OMIM #\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "diagnostic_yield_percentage": 36
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e12": {
+      "id": "e12",
+      "text": "OMIM entry 620450 catalogues intellectual developmental disorder, autosomal dominant 73 as primarily an intellectual and neurodevelopmental disorder with variable minor features (such as increased nuchal translucency, premature birth, and short stature), lacking major complex visceral or cyanotic cardiac malformations as part of the core syndrome.",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "One had prenatal increased nuchal translucency, premature birth, short stature, and intellectual disability.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e13": {
+      "id": "e13",
+      "text": "A pathogenic variant in TAF4 was identified in an individual within a cohort of severe sporadic developmental language disorder (DLD) with normal non-verbal intelligence (IQ >= 70) and mild facial dysmorphisms, demonstrating phenotypic variability expanding beyond severe syndromic intellectual disability.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "and mild facial dysmorphisms, fit within the phenotype of TAF4-\u2026 This neurodevelopmental disorder, with variable expression, \u2026 to have contributed to the clinical features in this individual",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "total DLD cohort size evaluated": 25,
+        "non-verbal IQ inclusion threshold": 70
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e14": {
+      "id": "e14",
+      "text": "TAF4 is clinically categorized as a TFIID-related disease gene linked to TAF-opathies (such as TAF6/Alazami-Yuan syndrome), emphasizing transcriptional initiation complex dysfunction over BAF/SWI-SNF chromatin-remodeling syndromes.",
+      "source": {
+        "title": "Pathogenic Variant in the TAF6 Gene in a Bulgarian Patient with the Ultrarare Alazami-Yuan Syndrome",
+        "authors": [
+          "SY Staykova",
+          "M Atanasoska"
+        ],
+        "year": 2024,
+        "journal": "Neuropediatrics",
+        "doi": "10.1055/s-0043-1772575",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0043-1772575",
+        "quote": "TAF4\u2014TAF4-related neurodevelopmental disorder (T4NDD)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e15": {
+      "id": "e15",
+      "text": "Staykova et al. (2024) note that variants in TAF complex genes including TAF4 disrupt normal brain development and impair cognitive function, but do not provide phenotypic frequencies or seizure incidence specifically for TAF4.",
+      "source": {
+        "title": "Pathogenic Variant in the TAF6 Gene in a Bulgarian Patient with the Ultrarare Alazami-Yuan Syndrome",
+        "authors": [
+          "SY Staykova",
+          "M Atanasoska"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1055/s-0043-1772575",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0043-1772575",
+        "quote": "TAF4 are known to disrupt normal brain development and impair cognitive function",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e16": {
+      "id": "e16",
+      "text": "Janssen et al. (2022) established TAF4 as a dominant disease gene in a discovery cohort of eight individuals harboring heterozygous de novo pLoF variants, identifying intellectual disability, abnormal behavior, and facial dysmorphisms as core common manifestations.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": "PMC10087332",
+        "url": "https://doi.org/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "cohort_size": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e17": {
+      "id": "e17",
+      "text": "In a prospective cohort of 25 children with severe sporadic developmental language disorder and normal non-verbal intelligence (IQ >= 70), genome sequencing identified variants fitting the phenotypic spectrum of TAF4-related disorders.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "fit within the phenotype of TAF4-related disorders. This individual also",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "DLD_cohort_size": 25
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e18": {
+      "id": "e18",
+      "text": "Large-scale trio exome sequencing of nonsyndromic craniosynostosis cohorts identified damaging de novo variants in loss-of-function intolerant genes driving neurocognitive deficits, but canonical craniosynostosis has not been described as a recurrent feature in primary T4NDD discovery cohorts.",
+      "source": {
+        "title": "Genetic influence on neurodevelopment in non-syndromic craniosynostosis",
+        "authors": [
+          "AT Timberlake",
+          "A Junn",
+          "R Flores"
+        ],
+        "year": 2022,
+        "journal": "Plastic and Reconstructive Surgery",
+        "doi": "10.1097/prs.0000000000008976",
+        "pmid": "35286293",
+        "pmc": "PMC9050795",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9050795/",
+        "quote": "We recruited a cohort of 404 trios with sporadic NSCS, \u2026 on neurodevelopmental outcomes in NSCS, the frequency of \u2026 with neurologic or neurodevelopmental disorders (Table 5).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "NSCS_trio_cohort": 404
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e19": {
+      "id": "e19",
+      "text": "In a prospective trio-based genome sequencing study of 25 individuals with severe developmental language disorder (DLD) and non-verbal IQ >= 70, de novo missense variation in neurodevelopmental disease genes was uncovered, specifically individual 6 harboring a likely pathogenic de novo missense variant in a cohort defined by absence of intellectual disability.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "In individual 6, we found a likely pathogenic de novo missense \u2026 intellectual disability. The study is marked by a prospective design and a carefully selected cohort with deep phenotypic",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "cohort size": 25,
+        "molecular diagnostic yield": "36%"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e20": {
+      "id": "e20",
+      "text": "A cohort of eight individuals carrying de novo putative loss-of-function (pLoF) variants in TAF4 all displayed intellectual disability, facial dysmorphisms, and abnormal behavior, establishing haploinsufficiency as the mechanism for syndromic neurodevelopmental disorder.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "affected individuals with pLoF": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e21": {
+      "id": "e21",
+      "text": "Phenotypes associated with missense variants in the TFIID subunit gene TAF1 show wide pleiotropy, with prominent novel associations of seizures, structural brain morphological abnormalities, and heart malformations across 27 families.",
+      "source": {
+        "title": "Missense variants in TAF1 and developmental phenotypes",
+        "authors": [
+          "H Cheng"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1002/humu.23936",
+        "pmid": "31646703",
+        "pmc": "PMC7187541",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7187541/",
+        "quote": "Phenotypes associated with TAF1 variants show considerable pleiotropy and clinical variability, but prominent among previously unreported effects were brain morphological abnormalities, seizures, hearing loss, and heart malformations.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "additional families identified": 27,
+        "standardized HPO terms applied": 51
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e22": {
+      "id": "e22",
+      "text": "In eight individuals with de novo pLoF variants in TAF4, core shared phenotypes centered on intellectual disability, abnormal behavior, and facial dysmorphisms, without early refractory epileptic encephalopathy as an obligate cardinal manifestation.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "individuals evaluated": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e23": {
+      "id": "e23",
+      "text": "Neurodevelopmental disorders involving transcriptional pause and release factors show consistent phenotypes comprising intellectual disability, short stature, and craniofacial dysmorphism among individuals carrying missense variants as well as truncating nonsense variants.",
+      "source": {
+        "title": "Transcription pause and escape in neurodevelopmental disorders",
+        "authors": [
+          "KN Eigenhuis",
+          "HB Somsen"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.3389/fnins.2022.846272/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+        "quote": "phenotype (intellectual disability, short stature and craniofacial dysmorphism) were identified that carried missense \u2026 two truncating non-sense variants and 6 different missense variants",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "truncating nonsense variants": 2,
+        "distinct missense variants": 6
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e24": {
+      "id": "e24",
+      "text": "De novo putative loss-of-function variants in TAF4 cause a neurodevelopmental disorder characterized by intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "Cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e25": {
+      "id": "e25",
+      "text": "A study of eight individuals identified de novo putative loss-of-function (pLoF) variants in TAF4 as causative for an autosomal dominant neurodevelopmental disorder with intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e26": {
+      "id": "e26",
+      "text": "De novo putative loss-of-function variants in TAF4 cause a dominant neurodevelopmental disorder featuring intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e27": {
+      "id": "e27",
+      "text": "In the initial cohort of eight individuals with de novo putative loss-of-function variants in TAF4 (T4NDD), the canonical phenotype comprised intellectual disability, abnormal behavior, and facial dysmorphisms without highlighting major internal organ or cranial structural malformations.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected individuals in cohort": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e28": {
+      "id": "e28",
+      "text": "Staykova et al. (2024) contextualize pathogenic variants in TFIID complex subunits, noting that pathogenic variants in TAF4 cause TAF4-related neurodevelopmental disorder (T4NDD).",
+      "source": {
+        "title": "Pathogenic Variant in the TAF6 Gene in a Bulgarian Patient with the Ultrarare Alazami-Yuan Syndrome",
+        "authors": [
+          "SY Staykova",
+          "M Atanasoska"
+        ],
+        "year": 2024,
+        "journal": "Neuropediatrics",
+        "doi": "10.1055/s-0043-1772575",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0043-1772575",
+        "quote": "Pathogenic variants in TAF1, TAF2, and TAF4 are known to \u2026 (T4NDD)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e29": {
+      "id": "e29",
+      "text": "Investigation of 27 children from 15 families with severe DLD without intellectual disability, autism, or childhood apraxia of speech identified de novo variants in ID genes (such as ZNF292) and CNVs, confirming that monogenic ID-associated genes can cause isolated DLD, though TAF4 was not identified in this specific predominantly multiplex cohort.",
+      "source": {
+        "title": "Deciphering the genetic basis of developmental language disorder in children without intellectual disability, autism or apraxia of speech",
+        "authors": [
+          "C Ormieres"
+        ],
+        "year": 2025,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11823097",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11823097/",
+        "quote": "In one sporadic case, a de novo pathogenic variant in the ZNF292 gene, known to be associated with ID, was detected, broadening the spectrum of this syndrome.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "Number of DLD families evaluated": 15,
+        "Number of children with severe DLD evaluated": 27,
+        "Number of sporadic DLD cases in the cohort": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e30": {
+      "id": "e30",
+      "text": "An individual evaluated within TAF4-related disorders presented with developmental language disorder (DLD), anxiety, borderline-low IQ (79), and mild facial dysmorphisms, confirming preservation of cognitive function near normal limits in the presence of prominent language impairment.",
+      "source": {
+        "title": "Maria Teresa Bassi's research works | IRCCS Eugenio ...",
+        "authors": [
+          "Maria Teresa Bassi"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/scientific-contributions/Maria-Teresa-Bassi-39751002",
+        "quote": "The individual's features, including DLD, anxiety, borderline-low IQ (79) and mild facial dysmorphisms, fit within the phenotype of TAF4-related disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "Reported IQ of affected individual": 79
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e31": {
+      "id": "e31",
+      "text": "Detailed clinical evaluation of the TAF4 pLoF cohort documents seizure presentations as minimal (such as a single reported seizure) rather than an early-onset refractory epileptic encephalopathy.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 ...",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/362328285_De_novo_putative_loss-of-function_variants_in_TAF4_are_associated_with_a_neuro-developmental_disorder",
+        "quote": "Seizures (HP:0001250) + single. seizure ... Missense variants of TAF1 have previously been implicated in X-linked intellectual disability.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "seizure_frequency_percentage": "<30%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e32": {
+      "id": "e32",
+      "text": "Genomics England PanelApp curates TAF4 for intellectual disability under OMIM #620450 based on mouse knockout models and human loss-of-function evidence without establishing pathogenic missense variation in specific structural domains.",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "The mouse knockout shows there is an effect of loss of TAF4 but the phenotype ... Intellectual developmental disorder, autosomal dominant 73, OMIM:620450.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e33": {
+      "id": "e33",
+      "text": "TAF4 disruption is linked to OMIM #620450, showing that speech and language impairment or neurodevelopmental phenotypes manifest within the spectrum of monogenic neurodevelopmental disorders.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-026-02214-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "of TAF4 is associated with a developmental disorder (OMIM #620450), characterized by intellectual disability\u2026 the first presenting clinical feature of a broader genetic neurodevelopmental",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "severe sporadic DLD cohort size": 25
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e34": {
+      "id": "e34",
+      "text": "In transcriptional pausing and neurodevelopmental disorder pathology, TAF4 is highlighted where intellectual disability is a pervasive feature across cases.",
+      "source": {
+        "title": "Transcription pause and escape in neurodevelopmental disorders",
+        "authors": [
+          "KN Eigenhuis",
+          "HB Somsen"
+        ],
+        "year": 2022,
+        "journal": "Frontiers in Neuroscience",
+        "doi": "10.3389/fnins.2022.846272",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+        "quote": "with neurodevelopmental disorders, some have been further studied for their impact in neuronal development. TAF4 \u2026 Despite phenotypic variety, intellectual disability arises in almost all",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h6",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e35": {
+      "id": "e35",
+      "text": "Genomic sequencing studies evaluating developmental disorders linking TAF4 (OMIM #620450) note comorbidities including congenital structural abnormalities, contradicting the premise that structural anomalies are negligible or entirely excluded from the clinical presentation.",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "K van Hulst",
+          "R Pfundt",
+          "N de Leeuw"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "medical comorbidities, including congenital abnormalities (3/\u2026 of TAF4 is associated with a developmental disorder (OMIM #",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "Diagnostic cohort size for severe sporadic developmental language disorder": 25
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e36": {
+      "id": "e36",
+      "text": "Genomic copy number screening in fetal demise and congenital anomalies identified homozygous loss in TAF4, suggesting severe disruption may produce structural malformations incompatible with post-natal survival.",
+      "source": {
+        "title": "Microarray analysis on spontaneous abortions",
+        "authors": [
+          "H Hauksd\u00f3ttir"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://skemman.is/handle/1946/18567",
+        "quote": "exonic homozygous loss in the TAF4 gene and an apparent \u2026 analysis on stillbirths with congenital anomalies where it also",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h9",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e37": {
+      "id": "e37",
+      "text": "Janssen et al. (2022) report eight individuals carrying de novo putative loss-of-function variants in TAF4, identifying common features of intellectual disability, abnormal behavior, and facial dysmorphisms, but the exact granular counts for individual facial sub-phenotypes are located in Table 1 / extended clinical tables rather than the main text abstract.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": "PMC10087332",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087332/",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "cohort_size_n": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e38": {
+      "id": "e38",
+      "text": "The discovery cohort defines T4NDD as a monogenic neurodevelopmental disorder characterized by intellectual disability, behavioral anomalies, and facial dysmorphism across eight individuals with de novo pLoF variants, without designating refractory epilepsy as an obligatory or primary core feature.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": "PMC10087332",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087332/",
+        "quote": "Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "cohort_size_n": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e39": {
+      "id": "e39",
+      "text": "Table 1 of Janssen et al. (2022) compiles the complete clinical features of patients with TAF4 variants across the discovery series.",
+      "source": {
+        "title": "(PDF) De novo putative loss\u2010of\u2010function variants in TAF4 ...",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/362328285_De_novo_putative_loss-of-function_variants_in_TAF4_are_associated_with_a_neuro-developmental_disorder",
+        "quote": "JANSSEN ET AL. TABLE 1 Clinical features of patients with variants in TAF4",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e40": {
+      "id": "e40",
+      "text": "PMID: 33875846 (Bertoli-Avella et al., 2021) identified two de novo loss-of-function variants in TAF4 among patients presenting with neurodevelopmental delay/intellectual disability, leading directly to the inclusion of TAF4 on diagnostic gene panels for intellectual disability.",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1038/s41436-021-01159-0",
+        "pmid": "33875846",
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "PMID: 33875846 - Bertoli-Avella et al 2021 - identified two de novo LoF variants ... gene: TAF4 was added gene: TAF4 was added to Intellectual disability.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "de novo LoF variants identified in TAF4": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e41": {
+      "id": "e41",
+      "text": "OMIM entry #620450 defines Intellectual developmental disorder, autosomal dominant 73 as caused by de novo heterozygous putative loss-of-function mutations in the TAF4 gene.",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "de novo heterozygous putative loss-of-function mutations in the TAF4 gene. ... Intellectual developmental disorder, autosomal dominant 73, 620450, Autosomal",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e42": {
+      "id": "e42",
+      "text": "Bertoli-Avella et al. evaluated candidate genes from a diagnostic repository of over 33,000 patients where inclusion prioritized de novo variants in individuals presenting with broad neurodevelopmental delay (NDD) and/or intellectual disability (ID).",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1038/s41436-021-01159-0",
+        "pmid": "33875846",
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "Gene-disease association was assessed using our data repository that combines ES/GS data and Human Phenotype Ontology terms from over 33,000 patients.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "patients in diagnostic ES/GS repository": 33000
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e43": {
+      "id": "e43",
+      "text": "In the dedicated primary series of Janssen et al. (2022), detailed phenotyping of eight individuals with de novo pLoF variants revealed that intellectual disability, abnormal behavior, and facial dysmorphisms were each present in at least 7/8 (87.5%) of probands.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+        "authors": [],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002%2Fhumu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "proband cohort size in Janssen et al.": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e44": {
+      "id": "e44",
+      "text": "Both probands in Bertoli-Avella et al. were identified through a neurodevelopmental delay / intellectual disability diagnostic cohort, and all 8 probands in Janssen et al. exhibited intellectual disability.",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1038/s41436-021-01159-0",
+        "pmid": "33875846",
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "PMID: 33875846 - Bertoli-Avella et al 2021 - identified two de novo LoF variants ... gene: TAF4 was added gene: TAF4 was added to Intellectual disability.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h18",
+      "numbers": {
+        "combined core de novo pLoF proband denominator": 10
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e45": {
+      "id": "e45",
+      "text": "PanelApp records for TAF4 in intellectual disability cite Bertoli-Avella et al. (2021, PMID: 33875846) as having identified two de novo loss-of-function variants.",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": "33875846",
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "PMID: 33875846 - Bertoli-Avella et al 2021 - identified two de novo LoF variants ... gene: TAF4 was added gene: TAF4 was added to Intellectual disability.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "de novo LoF variants identified": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e46": {
+      "id": "e46",
+      "text": "Janssen et al. (2022) evaluated a cohort of eight individuals with de novo TAF4 variants and highlighted that common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss-of-function variants in TAF4 are associated with a neuro-developmental disorder",
+        "authors": [
+          "BDE Janssen"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": "35904126",
+        "pmc": "PMC10087332",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/35904126/",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "cohort size": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e47": {
+      "id": "e47",
+      "text": "OMIM entry #620450 notes that Bertoli-Avella et al. (2021) identified 2 unrelated patients, with limited non-neurological phenotype details recorded.",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "Bertoli-Avella et al. (2021) reported 2 unrelated patients with when performed, showed mild cerebellar abnormalities in 2 patients.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "reported patients in Bertoli-Avella et al. (2021)": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e48": {
+      "id": "e48",
+      "text": "PanelApp notes that Bertoli-Avella et al. (2021) identified two de novo loss-of-function variants (splicing and nonsense) in two unrelated patients with intellectual disability / neurodevelopmental disorder.",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "Bertoli-Avella et al 2021 - identified two de novo LoF variants (splicing and nonsense) in two unrelated patients with dysmorphic features and one with ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h18",
+      "numbers": {
+        "de novo LoF variants identified": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e49": {
+      "id": "e49",
+      "text": "OMIM entry 620450 links Intellectual Developmental Disorder, Autosomal Dominant 73 to de novo putative loss-of-function variants in TAF4 reported in Janssen et al. (2022).",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": "35904126",
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "De novo putative loss-of-function variants in TAF4 are associated with a neuro-developmental disorder. Hum. Mutat. 43: 1844-1851, 2022. [PubMed: 35904126 ...]",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h18",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e50": {
+      "id": "e50",
+      "text": "Clinical summaries for Autosomal Dominant Intellectual Developmental Disorder 73 emphasize the presence of nonspecific facial dysmorphism across reported individuals.",
+      "source": {
+        "title": "Intellectual Developmental Disorder, Autosomal Dominant 73",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+        "quote": "Reported descriptions emphasize the range of intellectual disability severity from mild to severe and the presence of nonspecific facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e51": {
+      "id": "e51",
+      "text": "OMIM entry *601796 documents that in two unrelated patients with autosomal dominant intellectual developmental disorder-73 (MRD73; OMIM #620450), Bertoli-Avella et al. (2021) identified two different de novo variants in TAF4.",
+      "source": {
+        "title": "Entry - *601796 - TAF4 RNA POLYMERASE II, TATA BOX-BINDING PROTEIN-ASSOCIATED FACTOR, 135-KD; TAF4",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/601796",
+        "quote": "In 2 unrelated patients with autosomal dominant intellectual developmental disorder-73 (MRD73; 620450), Bertoli-Avella et al. (2021) identified 2 different",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "unrelated patients with MRD73 identified by Bertoli-Avella et al. (2021)": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e52": {
+      "id": "e52",
+      "text": "Bertoli-Avella et al. (2021) identified novel and candidate gene-disease associations for neurodevelopmental delay/intellectual disability, linking TAF4 loss-of-function variants to neurodevelopmental disorders.",
+      "source": {
+        "title": "Combining exome/genome sequencing with data repository analysis for gene-disease discovery",
+        "authors": [
+          "Bertoli-Avella AM",
+          "Kandaswamy KK",
+          "Khan S"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC8354858",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8354858/",
+        "quote": "Expression of TAF4 varies during development and in the processes of cell differentiation; TAF4 ... Bertoli-Avella AM, et al.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e53": {
+      "id": "e53",
+      "text": "Curated database entries map TAF4 autosomal dominant loss-of-function intellectual developmental disorder directly to Bertoli-Avella et al., 2021.",
+      "source": {
+        "title": "Figures and data in Autosomal allelic inactivation at loci with variable replication timing and dosage sensitivity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://elifesciences.org/articles/109938/figures",
+        "quote": "TAF4, Intellectual developmental disorder (AD, LoF), Bertoli-Avella et al., 2021.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e54": {
+      "id": "e54",
+      "text": "OMIM entry 620450 defines the phenotypic spectrum of autosomal dominant intellectual developmental disorder 73 based on Janssen et al. (2022), characterizing the dysmorphology as nonspecific dysmorphic facial features rather than an invariant recognizable gestalt.",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 73; MRD73",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "ranges from mild to severe, speech delay, behavioral abnormalities, and nonspecific dysmorphic facial features (Janssen et al., 2022).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "OMIM phenotypic descriptor": "nonspecific dysmorphic facial features"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e55": {
+      "id": "e55",
+      "text": "Janssen et al. (2022) describes a cohort of eight individuals carrying de novo putative loss-of-function (pLoF) variants in TAF4 who present with phenotypes consistent with a neurodevelopmental disorder, including intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": "35904126",
+        "pmc": "PMC10087332",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h18",
+      "numbers": {
+        "cohort_size_de_novo_pLoF_TAF4": 8
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e56": {
+      "id": "e56",
+      "text": "OMIM entry 620450 cites Janssen et al. (2022) and reports that two patients had febrile seizures, including one who also had a single nonfebrile seizure, among the cohort of individuals with TAF4-related neurodevelopmental disorder.",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 73; MRD73",
+        "authors": [
+          "Online Mendelian Inheritance in Man"
+        ],
+        "year": 2022,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "Two patients had febrile seizures, including 1 who also had a single nonfebrile seizure.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "febrile_seizure_count": 2,
+        "nonfebrile_seizure_count": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e57": {
+      "id": "e57",
+      "text": "The preprint/reprint contains Table 1 listing clinical features of patients with variants in TAF4 in comparison with other TFIID subunit phenotypes, but the provided snippet truncates before itemizing head circumference metrics (microcephaly or macrocephaly counts).",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+        "authors": [
+          "BDE Janssen"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://eprints.soton.ac.uk/468915/3/Human_Mutation_2022_Janssen_De_novo_putative_loss_of_function_variants_in_TAF4_are_associated_with_a.pdf",
+        "quote": "TABLE 1. Clinical features of patients with variants in TAF4 in comparison with phenotypes associated with other TFIID",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e58": {
+      "id": "e58",
+      "text": "Janssen et al. (2022) identified and clinically characterized eight individuals with de novo putative loss-of-function variants in TAF4, defining TAF4-related neurodevelopmental disorder (T4NDD / MRD73) with hallmark features of intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "cohort size of de novo TAF4 pLoF individuals": 8
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e59": {
+      "id": "e59",
+      "text": "Jansen et al. (2018) demonstrated that high-throughput targeted re-sequencing cohorts ascertain broad intellectual disability but fail to capture granular endophenotypes until dedicated reverse-phenotyping is conducted, uncovering distinct craniofacial features (e.g., high forehead in 67%) and behavioral problems.",
+      "source": {
+        "title": "A genotype-first approach identifies an intellectual disability-overweight syndrome caused by PHIP haploinsufficiency",
+        "authors": [
+          "S Jansen",
+          "A Hoischen",
+          "BP Coe",
+          "GL Carvill"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1038/s41431-017-0039-5",
+        "pmid": "29209020",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-017-0039-5",
+        "quote": "Shared dysmorphic facial features comprised high forehead (67%), full eyebrows/synophrys ... Thus, we demonstrated the use of large scale re-sequencing by MIPs, followed by reverse phenotyping, as a constructive approach to verify candidate disease genes and identify novel syndromes",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "high forehead frequency in reverse phenotyped cohort": "67%",
+        "individuals identified with PHIP mutations": 23
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e60": {
+      "id": "e60",
+      "text": "Differential analysis among TFIID subunit disorders demonstrates that TAF2 biallelic mutations cause severe intellectual disability without dysmorphic features, highlighting the specific diagnostic role of facial dysmorphisms in distinguishing TAF4/TAF1 disorders from TAF2.",
+      "source": {
+        "title": "Phenotype associated with TAF2 biallelic mutations: a clinical description of four individuals and review of the literature",
+        "authors": [
+          "M Lesieur"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1016/j.ejmg.2021.104323",
+        "pmid": "34474177",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721221001890",
+        "quote": "Dysmorphic features were not observed.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "individuals reported with TAF2 biallelic variants": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Bimodal neurodevelopmental presentation spanning classical syndromic intellectual disability and isolated developmental language disorder modulated by variant type",
+      "abstraction": "Allelic variation at a single dosage-sensitive locus defines a severity continuum ranging from syndromic neurocognitive impairment to isolated focal communicative deficits.",
+      "instance": "Patients harboring de novo putative loss-of-function variants in TAF4 present with 100% penetrant global developmental delay/intellectual disability and facial dysmorphisms (8/8 in Janssen et al., 2022), whereas missense or hypomorphic variation presents as isolated severe developmental language disorder with non-verbal IQ >= 70 (Kennis et al., 2026).",
+      "direction": "Perform functional transcriptional activation and assembly assays comparing de novo TAF4 missense variants from DLD cohorts against truncating alleles in TFIID complex models to define residual complex activity thresholds.",
+      "support": "Moderate to strong; supported by direct clinical descriptions in Janssen et al. (2022) (n=8) and targeted genome sequencing in severe sporadic DLD by Kennis et al. (2026).",
+      "sources": [
+        "10.1002/humu.24444",
+        "10.1038/s41431-026-02214-7"
+      ],
+      "hypothesis": "TAF4 missense variants preserving core TFIID incorporation maintain general basal transcription in subcortical brain structures while selectively impairing transcription of speech-motor circuit regulons.",
+      "novelty": "High; challenges the premise that monogenic TFIID-complex 'TAF-opathies' inevitably produce syndromic global intellectual impairment."
+    },
+    {
+      "pattern": "High category-level dysmorphic penetrance coexisting with low individual feature fidelity and absence of an invariant facial gestalt",
+      "abstraction": "Syndromic phenotypes defined by non-specific feature aggregates fail to present invariant pathognomonic physical markers, preventing single-sign physical diagnosis.",
+      "instance": "Facial dysmorphism as an aggregate finding occurs in >=7/8 individuals (Janssen et al., 2022), yet discrete manifestations such as arched eyebrows, epicanthal folds, and thin upper lip vermilion each occur in <6/8 (<75%), precluding Gestalt-based identification.",
+      "direction": "Apply objective facial 3D photogrammetry and computer-vision gestalt modeling across TAF4, TAF2, and TAF8 cohorts to identify subtle multi-metric topological signatures.",
+      "support": "High; directly documented in the discovery series and clinical matrices of Janssen et al. (2022).",
+      "sources": [
+        "10.1002/humu.24444",
+        "https://omim.org/entry/620450"
+      ],
+      "hypothesis": "Craniofacial anomalies in TAF4 haploinsufficiency represent secondary downstream developmental instability rather than a stereotypic transcriptional morphogenesis failure.",
+      "novelty": "Moderate; highlights the danger of relying on checklist dysmorphology when screening patients with overlapping non-specific neurodevelopmental disorders."
+    },
+    {
+      "pattern": "Diagnostic discrimination achieved via negative criteria rather than positive neurological features",
+      "abstraction": "In non-specific neurodevelopmental conditions, the strict absence of high-penetrance organ malformations or severe paroxysmal states offers superior clinical specificity over shared positive cognitive delays.",
+      "instance": "TAF4-related disorder consistently lacks major congenital internal structural malformations (e.g., cyanotic congenital heart disease, renal agenesis) and refractory epileptic encephalopathy (<30% seizure frequency), contrasting with clinically overlapping syndromes that harbor high rates of visceral anomalies or refractory seizures.",
+      "direction": "Construct a weighted negative-phenotype clinical diagnostic scoring algorithm that subtracts points for major internal visceral malformations and early refractory seizures when evaluating candidate TAF4 probands.",
+      "support": "Moderate; supported by clinical cohorts (Janssen et al., 2022) showing an absence of complex organogenesis defects across affected individuals.",
+      "sources": [
+        "10.1002/humu.24444",
+        "https://omim.org/entry/620450"
+      ],
+      "hypothesis": "TAF4 is redundant or compensated for during early visceral organogenesis and cardiac septation by paralogous subunits, while remaining haploinsufficient specifically in postnatal cortical synaptic organization.",
+      "novelty": "Moderate to high; shifts clinical decision-making from searching for absent 'classic' facial gestalts to utilizing exclusion of severe organ malformations as a filter."
+    },
+    {
+      "pattern": "Phenotypic ascertainment divergence between repository-scale genomic screening and targeted reverse-phenotyping series",
+      "abstraction": "Broad diagnostic-scale cohorts capture coarse umbrella phenotypes, underestimating granular neurological, behavioral, and morphologic spectra captured only in focused observational cohorts.",
+      "instance": "Large-scale repository cohorts such as Bertoli-Avella et al. (2021) identified 2 probands with de novo TAF4 LoF variants but restricted annotations to broad HPO terms (HP:0001263 / HP:0001249), whereas deep phenotyping in Janssen et al. (2022) resolved specific behavioral abnormalities (>=7/8) and differential expressive vs. receptive language delay.",
+      "direction": "Implement systematic standardized reverse-phenotyping re-contact protocols across diagnostic sequencing biobanks for all newly identified TAF4 variant carriers.",
+      "support": "High; directly observable in comparative HPO density between Bertoli-Avella et al. (2021) and Janssen et al. (2022).",
+      "sources": [
+        "10.1038/s41436-021-01159-0",
+        "10.1002/humu.24444"
+      ],
+      "hypothesis": "Diagnostic laboratories systematically under-report behavioral phenotypes and granular speech dyspraxia in high-throughput pipelines, leading to an artificially severe and narrow initial syndromic definition.",
+      "novelty": "Low to moderate; a well-known phenomenon in medical genetics, but critically demonstrated here where TAF4 initial entries lacked behavioural or speech-domain characterization."
+    }
+  ]
+}

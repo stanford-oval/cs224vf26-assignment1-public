@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"pulmonary hypertension\" lactic acidosis",
+    "NFU1 spastic paraplegia 93 MMDS1 pulmonary hypertension phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "27586888",
+      "title": "Differential diagnosis of lipoic acid synthesis defects",
+      "pmid": "27586888",
+      "doi": "10.1007/s10545-016-9975-4",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "10.1186/s13023-015-0237-6",
+      "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+      "pmid": null,
+      "doi": "10.1186/s13023-015-0237-6",
+      "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+      "title": "A complicated intrathecal baclofen pump implantation in a child with spastic Diplegia: Should a genetic mimic of cerebral palsy be Considered?",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/ajmg.a.70213",
+      "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.70213",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+      "abstract_chars": 1837
+    },
+    {
+      "id": "31516295",
+      "title": "\u201cIdiopathic\u201d pulmonary arterial hypertension in early infancy",
+      "pmid": "31516295",
+      "doi": "10.4103/apc.apc_136_18",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6716310/",
+      "abstract_chars": 967
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/abs/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/193/gene/NFU1/",
+      "title": "Gene: NFU1 (Pulmonary arterial hypertension)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/193/gene/NFU1/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-106550.2",
+      "title": "NFU1 | mitochondrial disease | Autosomal recessive by ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-106550.2",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/3095/gene/NFU1/",
+      "title": "Gene: NFU1 (Pulmonary Arterial Hypertension)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/3095/gene/NFU1/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5409,
+  "output_tokens": 2887,
+  "usd": 0.01137,
+  "seconds": 29.4,
+  "ok": true
+}

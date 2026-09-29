@@ -1,0 +1,56 @@
+{
+  "patterns": [
+    {
+      "pattern": "Bimodal neurodevelopmental presentation spanning classical syndromic intellectual disability and isolated developmental language disorder modulated by variant type",
+      "abstraction": "Allelic variation at a single dosage-sensitive locus defines a severity continuum ranging from syndromic neurocognitive impairment to isolated focal communicative deficits.",
+      "instance": "Patients harboring de novo putative loss-of-function variants in TAF4 present with 100% penetrant global developmental delay/intellectual disability and facial dysmorphisms (8/8 in Janssen et al., 2022), whereas missense or hypomorphic variation presents as isolated severe developmental language disorder with non-verbal IQ >= 70 (Kennis et al., 2026).",
+      "direction": "Perform functional transcriptional activation and assembly assays comparing de novo TAF4 missense variants from DLD cohorts against truncating alleles in TFIID complex models to define residual complex activity thresholds.",
+      "support": "Moderate to strong; supported by direct clinical descriptions in Janssen et al. (2022) (n=8) and targeted genome sequencing in severe sporadic DLD by Kennis et al. (2026).",
+      "sources": [
+        "10.1002/humu.24444",
+        "10.1038/s41431-026-02214-7"
+      ],
+      "hypothesis": "TAF4 missense variants preserving core TFIID incorporation maintain general basal transcription in subcortical brain structures while selectively impairing transcription of speech-motor circuit regulons.",
+      "novelty": "High; challenges the premise that monogenic TFIID-complex 'TAF-opathies' inevitably produce syndromic global intellectual impairment."
+    },
+    {
+      "pattern": "High category-level dysmorphic penetrance coexisting with low individual feature fidelity and absence of an invariant facial gestalt",
+      "abstraction": "Syndromic phenotypes defined by non-specific feature aggregates fail to present invariant pathognomonic physical markers, preventing single-sign physical diagnosis.",
+      "instance": "Facial dysmorphism as an aggregate finding occurs in >=7/8 individuals (Janssen et al., 2022), yet discrete manifestations such as arched eyebrows, epicanthal folds, and thin upper lip vermilion each occur in <6/8 (<75%), precluding Gestalt-based identification.",
+      "direction": "Apply objective facial 3D photogrammetry and computer-vision gestalt modeling across TAF4, TAF2, and TAF8 cohorts to identify subtle multi-metric topological signatures.",
+      "support": "High; directly documented in the discovery series and clinical matrices of Janssen et al. (2022).",
+      "sources": [
+        "10.1002/humu.24444",
+        "https://omim.org/entry/620450"
+      ],
+      "hypothesis": "Craniofacial anomalies in TAF4 haploinsufficiency represent secondary downstream developmental instability rather than a stereotypic transcriptional morphogenesis failure.",
+      "novelty": "Moderate; highlights the danger of relying on checklist dysmorphology when screening patients with overlapping non-specific neurodevelopmental disorders."
+    },
+    {
+      "pattern": "Diagnostic discrimination achieved via negative criteria rather than positive neurological features",
+      "abstraction": "In non-specific neurodevelopmental conditions, the strict absence of high-penetrance organ malformations or severe paroxysmal states offers superior clinical specificity over shared positive cognitive delays.",
+      "instance": "TAF4-related disorder consistently lacks major congenital internal structural malformations (e.g., cyanotic congenital heart disease, renal agenesis) and refractory epileptic encephalopathy (<30% seizure frequency), contrasting with clinically overlapping syndromes that harbor high rates of visceral anomalies or refractory seizures.",
+      "direction": "Construct a weighted negative-phenotype clinical diagnostic scoring algorithm that subtracts points for major internal visceral malformations and early refractory seizures when evaluating candidate TAF4 probands.",
+      "support": "Moderate; supported by clinical cohorts (Janssen et al., 2022) showing an absence of complex organogenesis defects across affected individuals.",
+      "sources": [
+        "10.1002/humu.24444",
+        "https://omim.org/entry/620450"
+      ],
+      "hypothesis": "TAF4 is redundant or compensated for during early visceral organogenesis and cardiac septation by paralogous subunits, while remaining haploinsufficient specifically in postnatal cortical synaptic organization.",
+      "novelty": "Moderate to high; shifts clinical decision-making from searching for absent 'classic' facial gestalts to utilizing exclusion of severe organ malformations as a filter."
+    },
+    {
+      "pattern": "Phenotypic ascertainment divergence between repository-scale genomic screening and targeted reverse-phenotyping series",
+      "abstraction": "Broad diagnostic-scale cohorts capture coarse umbrella phenotypes, underestimating granular neurological, behavioral, and morphologic spectra captured only in focused observational cohorts.",
+      "instance": "Large-scale repository cohorts such as Bertoli-Avella et al. (2021) identified 2 probands with de novo TAF4 LoF variants but restricted annotations to broad HPO terms (HP:0001263 / HP:0001249), whereas deep phenotyping in Janssen et al. (2022) resolved specific behavioral abnormalities (>=7/8) and differential expressive vs. receptive language delay.",
+      "direction": "Implement systematic standardized reverse-phenotyping re-contact protocols across diagnostic sequencing biobanks for all newly identified TAF4 variant carriers.",
+      "support": "High; directly observable in comparative HPO density between Bertoli-Avella et al. (2021) and Janssen et al. (2022).",
+      "sources": [
+        "10.1038/s41436-021-01159-0",
+        "10.1002/humu.24444"
+      ],
+      "hypothesis": "Diagnostic laboratories systematically under-report behavioral phenotypes and granular speech dyspraxia in high-throughput pipelines, leading to an artificially severe and narrow initial syndromic definition.",
+      "novelty": "Low to moderate; a well-known phenomenon in medical genetics, but critically demonstrated here where TAF4 initial entries lacked behavioural or speech-domain characterization."
+    }
+  ]
+}

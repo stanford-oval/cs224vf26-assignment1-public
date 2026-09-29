@@ -1,0 +1,119 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive cohort evaluations of KDM2B-associated neurodevelopmental disorder (OMIM #621474) substantiate that KDM2B CxxC zinc finger domain variants display complete penetrance for neurodevelopmental delay and intellectual disability with a consistent facial gestalt, whereas predicted loss-of-function (pLOF) variants, 12q24.31 microdeletions, and JmjC domain missense variants demonstrate incomplete penetrance (neurodevelopmental impairment reported in only approximately 50% of carriers) along with marked variable expressivity and unaffected carrier parents.",
+  "evidence": [
+    {
+      "text": "CxxC domain variants show a highly penetrant phenotype with distinct facial gestalt, whereas loss-of-function and JmjC domain variants show incomplete penetrance and variable expressivity, with developmental delay or intellectual disability present in only about half of affected individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "TC Hsieh",
+          "M Koetsier"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1111/cge.70169",
+        "pmid": null,
+        "pmc": "PMC13327229",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70169",
+        "quote": "JmjC and pLOF variants showed incomplete penetrance and variable expressivity, with DD/ID present in about half of the individuals. In contrast, CxxC variants ..."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort evaluated",
+          "value": 68
+        },
+        {
+          "metric": "Individuals with pathogenic or likely pathogenic variants",
+          "value": 47
+        },
+        {
+          "metric": "Pathogenic or likely pathogenic variants classified",
+          "value": 37
+        },
+        {
+          "metric": "DD/ID penetrance in JmjC and pLOF variants",
+          "value": "approximately 50%"
+        }
+      ]
+    },
+    {
+      "text": "Report of familial inheritance of a 12q24.31 microdeletion truncating KDM2B and HPD from an unaffected father, documenting incomplete penetrance for heterozygous KDM2B disruption.",
+      "stance": "supports",
+      "source": {
+        "title": "An atypical 12q24.31 microdeletion implicates six genes including a histone demethylase KDM2B and a histone methyltransferase SETD1B in syndromic intellectual \u2026",
+        "authors": [
+          "JDJ Labonne",
+          "KH Lee",
+          "S Iwase",
+          "IK Kong",
+          "MP Diamond"
+        ],
+        "year": 2016,
+        "journal": null,
+        "doi": "10.1007/s00439-016-1668-4",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-016-1668-4",
+        "quote": "the lack of phenotypes in the father can be explained by incomplete penetrance. Given that both genes KDM2B and HPD, with the same transcription direction, are truncated in our"
+      },
+      "numbers": [
+        {
+          "metric": "Candidate genes localized between KDM2B and SETD1B",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Identified the CxxC zinc finger domain as a distinct mutational hotspot in KDM2B with a shared DNA episignature in peripheral blood distinguishing CxxC-domain missense and loss-of-function variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature",
+        "authors": [
+          "RH Van Jaarsveld",
+          "J Reilly",
+          "MC Cornips"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "quote": "We recruited a total of 27 individuals with heterozygous variants in KDM2B. We present evidence, including a shared epigenetic signature, to support a pathogenic classification of 15 KDM2B variants and identify the CxxC domain as a mutational hotspot."
+      },
+      "numbers": [
+        {
+          "metric": "Recruited individuals with heterozygous KDM2B variants",
+          "value": 27
+        },
+        {
+          "metric": "Classified pathogenic or likely pathogenic variants",
+          "value": 15
+        },
+        {
+          "metric": "Cohort with heterozygous pathogenic/likely pathogenic variants",
+          "value": 21
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does dominant-negative interference with non-canonical Polycomb repressive complex 1 (PRC1.1) assembly specifically drive the 100% penetrant CxxC phenotype compared to simple haploinsufficiency?",
+      "rationale": "Differences in penetrance between CxxC domain missense variants and pLOF/truncating variants suggest a dominant-negative or gain-of-function mechanism targeting CpG island chromatin recruitment.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What genetic modifiers or epistatic loci determine neurodevelopmental penetrance in asymptomatic pLOF KDM2B carriers?",
+      "rationale": "Approximately 50% of individuals carrying KDM2B pLOF variants develop DD/ID, indicating the existence of protective genomic or epigenetic buffering mechanisms.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

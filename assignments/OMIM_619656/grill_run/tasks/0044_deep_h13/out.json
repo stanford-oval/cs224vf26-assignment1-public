@@ -1,0 +1,105 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Classical diagnostic paradigms across hereditary thoracic aortic aneurysm and dissection syndromes have long established the absence of ectopia lentis (lens dislocation) as the cardinal clinical differentiator between Loeys-Dietz syndrome (LDS) and Marfan syndrome (MFS). However, systematic literature reviews of LDS cohorts (such as Gouda et al., 2022) note associations including ectopia lentis within LDS series including SMAD2, and recent case literature (e.g., Nistri et al., 2021) has documented verified ectopia lentis in LDS subtypes (specifically LDS4). Furthermore, foundational reviews on SMAD2/LDS6 (Verstraeten & Dietz, 2021) emphasize that too few SMAD2 mutation-positive individuals have been clinically characterized to definitively determine phenotypic boundaries or guarantee 0% penetrance. Thus, while the absence of ectopia lentis strongly points towards LDS, the claim that it is universally absent and acts as an absolute counter-indicator excluding LDS6 cannot be sustained as an absolute 100% negative predictive rule.",
+  "evidence": [
+    {
+      "text": "Absence of ectopia lentis is conventionally cited as a major distinguishing feature separating Loeys-Dietz syndrome from Marfan syndrome; however, too few SMAD2 mutation-positive individuals have been characterized to definitively establish phenotypic boundaries.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys\u2013dietz syndrome",
+        "authors": [
+          "A Verstraeten",
+          "HC Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1002/9781119432692.ch36",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+        "quote": "to SMAD2, too few mutation\u2010positive cases have yet been reported to deter\u2011 mine at which end of the phenotypic spectrum SMAD2\u2026 Absence of ectopia lentis in LDS is a major distin\u2011"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Clinical diagnostic reviews highlight that patients presenting with Marfan-like skeletal and aortic features who lack ectopia lentis are characteristic of TGF-beta pathway involvement such as Loeys-Dietz syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic problems, diagnosis, and cardiovascular manifestations of loeys-dietz syndrome",
+        "authors": [
+          "S Dey",
+          "R Cheikhali",
+          "WH Frishman"
+        ],
+        "year": 2024,
+        "journal": "Cardiology in Review",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/cardiologyinreview/fulltext/2024/11000/genetic_problems,_diagnosis,_and_cardiovascular.6.aspx",
+        "quote": "Patients who have MFS-like features but lack ectopia lentis have aortic and skeletal \u2026 TGFBR2 genes causes accumulation of phosphorylated SMAD2 in the aortic wall"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In a comprehensive systematic review of 3,896 reported cases of Loeys-Dietz syndrome across all genetic subtypes, features including ectopia lentis have been recorded in association with LDS, directly challenging the assumption that lens dislocation is strictly impossible in LDS.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical features and complications of Loeys-Dietz syndrome",
+        "authors": [
+          "P Gouda"
+        ],
+        "year": 2022,
+        "journal": "International Journal of Cardiology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+        "quote": "Of note, SMAD2 mutations have been identified to be associated with ... ectopia lentis, atrophic scars, Chiari malformation, hydrocephalus, uterine"
+      },
+      "numbers": [
+        {
+          "metric": "reported cases of LDS identified across systematic search",
+          "value": 3896
+        }
+      ]
+    },
+    {
+      "text": "Ectopia lentis has been documented in molecularly confirmed LDS (such as LDS4), confirming tight clinical overlap with Marfan syndrome and challenging the assertion that ectopia lentis categorically excludes LDS.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Differential Diagnosis between Marfan Syndrome and Loeys-Dietz Syndrome Type 4: A Novel Chromosomal Deletion Involving the Entire TGFB2 Gene",
+        "authors": [
+          "S Nistri"
+        ],
+        "year": 2021,
+        "journal": "Genes",
+        "doi": "10.3390/genes12101462",
+        "pmid": "34680857",
+        "pmc": "PMC8536070",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8536070/",
+        "quote": "Recently, ectopia lentis has been reported in a patient with LDS4, confirming the tight overlap between the two syndromes. An accurate revision of the clinical parameters both characterising and overlapping the two pathologies is highly desirable."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Classical clinical nosology asserts that ectopia lentis is exclusive to Marfan syndrome (fibrillinopathies) and completely absent in Loeys-Dietz syndrome.",
+    "Systematic cohort reviews and emerging case reports have identified ectopia lentis in molecularly confirmed LDS patients (including LDS4 and reports compiled in LDS reviews mentioning SMAD2), contradicting the assertion of 0% penetrance and absolute negative predictive value."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of lens subluxation or microfibrillar ocular zonule defects in a multi-center registry of molecularly confirmed SMAD2 variant carriers undergoing standardized slit-lamp examination?",
+      "rationale": "Because SMAD2-related LDS6 is rare, previous diagnostic categorizations relied on negative findings in small cohorts. Formal slit-lamp dilated examinations across an international cohort are necessary to determine if subtle zonular instability occurs.",
+      "promise": 0.85,
+      "est_cost": 50000
+    },
+    {
+      "question_text": "Do individuals with pathogenic SMAD2 variants who display ectopia lentis harbor undetected secondary variants or modifier alleles in FBN1, ADAMTSL4, or other zonule-associated genes?",
+      "rationale": "Atypical ocular presentations in LDS subtypes may represent dual molecular diagnoses or epistatic modification, which would clarify whether pure SMAD2 loss-of-function can disrupt zonular integrity.",
+      "promise": 0.78,
+      "est_cost": 75000
+    }
+  ]
+}

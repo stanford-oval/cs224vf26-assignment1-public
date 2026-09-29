@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"PLAA\" \"microcephaly\" \"spasticity\" cohort clinical phenotype patients",
+    "PLAA OMIM 617527 patient cohort clinical features cases"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+      "title": "Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+      "abstract_chars": 1928
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "abstract_chars": 1543
+    },
+    {
+      "id": "https://jmg.bmj.com/content/55/12/803.abstract",
+      "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+      "abstract_chars": 1973
+    },
+    {
+      "id": "https://molecularcasestudies.cshlp.org/content/5/2/a003756.short",
+      "title": "A semiautomated whole-exome sequencing workflow leads to increased diagnostic yield and identification of novel candidate variants",
+      "pmid": null,
+      "doi": null,
+      "url": "https://molecularcasestudies.cshlp.org/content/5/2/a003756.short",
+      "abstract_chars": 1323
+    },
+    {
+      "id": "10.1186/s12920-022-01427-1",
+      "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+      "pmid": null,
+      "doi": "10.1186/s12920-022-01427-1",
+      "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+      "abstract_chars": 1529
+    },
+    {
+      "id": "https://www.researchgate.net/figure/PLAA-mutations-and-phenotypes-A-The-proband-black-arrow-and-eight-family-members-with_fig1_334578526",
+      "title": "PLAA mutations and phenotypes. A, The proband (black ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/figure/PLAA-mutations-and-phenotypes-A-The-proband-black-arrow-and-eight-family-members-with_fig1_334578526",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC11988916",
+      "title": "Genetic Alterations in Atypical Cerebral Palsy Identified ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11988916/",
+      "abstract_chars": 1543
+    },
+    {
+      "id": "https://www.genecards.org/card/PLAA",
+      "title": "PLAA gene Phospholipase A2 Activating Protein",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/PLAA",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.science.gov/topicpages/d/developmental+delay+microcephaly",
+      "title": "developmental delay microcephaly: Topics by ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.science.gov/topicpages/d/developmental+delay+microcephaly",
+      "abstract_chars": 0
+    },
+    {
+      "id": "28007986",
+      "title": "Phospholipase A2-activating protein is associated with a ...",
+      "pmid": "28007986",
+      "doi": "10.1093/brain/aww295",
+      "url": "https://academic.oup.com/brain/article/140/2/370/2731777",
+      "abstract_chars": 1928
+    }
+  ],
+  "input_tokens": 7088,
+  "output_tokens": 3334,
+  "usd": 0.01355,
+  "seconds": 20.8,
+  "ok": true
+}

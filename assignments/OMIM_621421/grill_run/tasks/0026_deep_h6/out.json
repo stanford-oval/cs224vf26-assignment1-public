@@ -1,0 +1,97 @@
+{
+  "verdict": "supported",
+  "rationale": "The foundational cohort defining Ramond-Elliott neurodevelopmental syndrome (RAMELN, OMIM #621421) described by Ramond et al. (2023; PMID 36549593) comprises exactly 12 affected individuals across 11 unrelated families. All 12 individuals presented with developmental delay or intellectual disability (12/12, 100%), alongside hallmark features of hypotonia (10/12, 83.3%), microcephaly/subnormal head circumference (10/12, 83.3%), and infantile spasms in a subset (6/12, 50%). There is no peer-reviewed cohort establishing a primary denominator of 15; rather, subsequent reports evaluate single additional cases, solidifying N=12 as the landmark cohort denominator.",
+  "evidence": [
+    {
+      "text": "Ramond et al. (2023) recruited 12 individuals from 11 unrelated families carrying monoallelic variants clustered in the 5' region of TRA2B, all of whom presented with intellectual disability and/or developmental delay (12/12), frequently associated with microcephaly, hypotonia, and infantile spasms.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 12
+        },
+        {
+          "metric": "unrelated_families",
+          "value": 11
+        },
+        {
+          "metric": "intellectual_disability_or_developmental_delay_count",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Australian Genomics PanelApp curation for TRA2B and Ramond-Elliott neurodevelopmental syndrome (MIM# 621421) records phenotypic frequencies evaluated across the standard denominator of 12, citing 6/12 for infantile spasms alongside hypotonia.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: TRA2B (Microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/138/gene/TRA2B/",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome, MIM# 621421 ... Additional features include infantile spams 6/12, hypotonia"
+      },
+      "numbers": [
+        {
+          "metric": "infantile_spasms_numerator",
+          "value": 6
+        },
+        {
+          "metric": "denominator",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry 621421 defines Ramond-Elliott neurodevelopmental syndrome (RAMELN) as characterized by global developmental delay, hypotonia, and delayed walking or inability to walk, reflecting the core clinical presentation established in the Ramond et al. cohort.",
+      "stance": "supports",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome (RAMELN) is characterized by global developmental delay, hypotonia, delayed walking or inability"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What are the exact prevalence rates of non-neurological features (such as cardiac anomalies, feeding difficulties, or skeletal findings) in expanded multi-center TRA2B patient registries beyond the initial 12 individuals?",
+      "rationale": "Clarifying non-neurological manifestations will help distinguish Ramond-Elliott syndrome clinically from other spliceosomopathies and early infantile epileptic encephalopathies with overlapping hypotonia and microcephaly.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does variant position within the 5' region of TRA2B correlate with the severity of microcephaly (-4 SD vs milder subnormal head circumference) or drug responsiveness of infantile spasms?",
+      "rationale": "Initial studies show clustering of variants upstream of an alternative translation initiation site; testing whether specific positions alter the relative expression of Tra2\u03b2-3 could explain the phenotypic variability observed in the cohort.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

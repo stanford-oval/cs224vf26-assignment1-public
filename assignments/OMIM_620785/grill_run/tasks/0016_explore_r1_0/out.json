@@ -1,0 +1,206 @@
+{
+  "hypotheses": [
+    {
+      "text": "Dystonia is the predominant and near-universal movement disorder in ACBD6 deficiency, manifesting in over 90% of affected individuals (specifically 94%, ~42/45), whereas classical chorea is infrequent relative to dystonia and tremor.",
+      "rationale": "Clarifying the exact frequency of dystonia versus chorea prevents diagnostic confusion, especially since review articles on genetic chorea list ACBD6 alongside chorea syndromes even though dystonia and tremor represent the primary reported hyperkinetic phenomenologies.",
+      "aspects": [
+        "pooled",
+        "phenotype frequency",
+        "dystonia"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "In the seminal discovery cohort of 45 affected individuals across 28 unrelated families, dystonia was observed in 94% of cases (limb dystonia in 55% and cervical dystonia in 31%), along with postural deformities in 97%, upper limb tremor in 63%, and head tremor in 59%, whereas generalized chorea was not highlighted as a primary finding.",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+            "authors": [
+              "R Kaiyrzhanov",
+              "A Rad",
+              "SJ Lin",
+              "A Bertoli"
+            ],
+            "year": 2024,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": "37951597",
+            "pmc": "PMC10994533",
+            "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+            "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders."
+          },
+          "numbers": [
+            {
+              "metric": "dystonia frequency percentage",
+              "value": 94
+            },
+            {
+              "metric": "total cohort size",
+              "value": 45
+            },
+            {
+              "metric": "unrelated families count",
+              "value": 28
+            }
+          ]
+        },
+        {
+          "text": "Review of genetic chorea highlights ACBD6 as a novel gene linked to chorea, alongside dystonia and ataxia, indicating chorea is reported in this spectrum.",
+          "stance": "neutral",
+          "source": {
+            "title": "Update on Genetic Chorea",
+            "authors": [
+              "M Ostrozovicova",
+              "M Skorvanek"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1007/s11910-026-01502-5",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+            "quote": "Several novel genetic conditions have been linked to chorea over the last 3 years, including mutations in FTH1, NAA60, ACBD6 or TOR1AIP2."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Cerebellar ataxia is present in an overwhelming majority (>80%, specifically 85%, ~38/45) of patients with biallelic ACBD6 mutations and co-occurs with gait impairment in ~94% of cases.",
+      "rationale": "Ataxia is often overlooked when chorea or dystonia dominates the clinical referral label; confirming the exact numerator and denominator establishes ataxia as a required co-feature of the mixed movement disorder presentation.",
+      "aspects": [
+        "pooled",
+        "phenotype frequency",
+        "ataxia"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the Kaiyrzhanov et al. cohort of 45 individuals, mild cerebellar ataxia was documented in 85% of affected individuals and was closely coupled with gait impairment in 94% of patients.",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+            "authors": [
+              "R Kaiyrzhanov",
+              "A Rad",
+              "SJ Lin",
+              "A Bertoli"
+            ],
+            "year": 2024,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": "37951597",
+            "pmc": "PMC10994533",
+            "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+            "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%)"
+          },
+          "numbers": [
+            {
+              "metric": "cerebellar ataxia frequency percentage",
+              "value": 85
+            },
+            {
+              "metric": "gait impairment frequency percentage",
+              "value": 94
+            }
+          ]
+        },
+        {
+          "text": "A meta-synthesis on hyperkinetic disorders notes that the co-occurrence of ataxia and corpus callosal agenesis points directly to recessive ACBD6 mutations with axial dystonia.",
+          "stance": "supports",
+          "source": {
+            "title": "Data-Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+            "authors": [
+              "H Morales-Brice\u00f1o",
+              "SS Mohammad"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1002/mdc3.70683",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+            "quote": "Hyperkinetic \u2026 ataxia and corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia \u2026"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Microcephaly (HP:0000252) is an inconsistent feature in ACBD6 deficiency, occurring in under 50% of confirmed cases (specifically 39%, ~18/45), meaning normal head circumference does not rule out the condition.",
+      "rationale": "Many severe pediatric neurometabolic and neurodevelopmental disorders feature primary or progressive microcephaly in >80% of patients; proving that microcephaly is present in only 39% prevents clinicians from excluding ACBD6 in normocephalic individuals.",
+      "aspects": [
+        "pooled",
+        "phenotype frequency",
+        "microcephaly"
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "text": "In the international cohort of 45 patients, microcephaly was documented in only 39% of assessed cases, while overweight/obesity was actually more common (59%).",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+            "authors": [
+              "R Kaiyrzhanov",
+              "A Rad",
+              "SJ Lin",
+              "A Bertoli"
+            ],
+            "year": 2024,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": "37951597",
+            "pmc": "PMC10994533",
+            "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+            "quote": "overweight (59%), microcephaly (39%) and epilepsy (33%)."
+          },
+          "numbers": [
+            {
+              "metric": "microcephaly frequency percentage",
+              "value": 39
+            },
+            {
+              "metric": "overweight frequency percentage",
+              "value": 59
+            }
+          ]
+        },
+        {
+          "text": "Review of genetic chorea lists microcephaly alongside intellectual disability and brain malformation in patients with bi-allelic loss-of-function ACBD6 mutations.",
+          "stance": "neutral",
+          "source": {
+            "title": "Update on Genetic Chorea",
+            "authors": [
+              "M Ostrozovicova",
+              "M Skorvanek"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1007/s11910-026-01502-5",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+            "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 \u2026 intellectual disability, microcephaly and brain malformation, \u2026"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact breakdown of secondary vs primary microcephaly (congenital versus progressive postnatal decline in head circumference percentiles) across the 45 individuals in the Kaiyrzhanov et al. cohort?",
+      "rationale": "Differentiating congenital microcephaly from progressive postnatal deceleration of head growth will further sharpen the clinical developmental profile.",
+      "promise": 0.78,
+      "est_cost": 0.85
+    },
+    {
+      "question_text": "Are there published case reports of ACBD6 variants with prominent early choreoathetosis that lacked dystonia at presentation?",
+      "rationale": "Testing whether chorea can ever precede or occur in the absence of dystonia will establish whether pure chorea can be an initial presentation of ACBD6 disease.",
+      "promise": 0.72,
+      "est_cost": 0.95
+    }
+  ],
+  "dead_end": false
+}

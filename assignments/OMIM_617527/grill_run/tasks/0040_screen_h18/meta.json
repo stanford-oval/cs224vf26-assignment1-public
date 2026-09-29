@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"PLAA\" \"cerebellar atrophy\" \"microcephaly\" MRI brain",
+    "PLAA deficiency pontocerebellar hypoplasia brain MRI distinguishing features"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://jmg.bmj.com/content/55/12/803.abstract",
+      "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+      "abstract_chars": 1973
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "abstract_chars": 1543
+    },
+    {
+      "id": "https://scholar.archive.org/work/ua2vpycevfakngoezx2cbdk5dq/access/wayback/https://assets.researchsquare.com/files/rs-464604/v1/c415ce4e-8a00-4479-b517-505ac8b11a88.pdf?c=1637244806",
+      "title": "New Imaging and Clinical Manifestations of NDMSBA Disorder Caused by a Novel Homozygous Missense Variant of PLAA",
+      "pmid": null,
+      "doi": null,
+      "url": "https://scholar.archive.org/work/ua2vpycevfakngoezx2cbdk5dq/access/wayback/https://assets.researchsquare.com/files/rs-464604/v1/c415ce4e-8a00-4479-b517-505ac8b11a88.pdf?c=1637244806",
+      "abstract_chars": 1779
+    },
+    {
+      "id": "10.3389/fncel.2025.1664953/full",
+      "title": "A mutational hotspot in TUBB2A associated with impaired heterodimer formation and severe brain developmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fncel.2025.1664953/full",
+      "url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2025.1664953/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1769721219301788",
+      "title": "PEHO syndrome caused by compound heterozygote variants in ZNHIT3 gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1769721219301788",
+      "abstract_chars": 1266
+    },
+    {
+      "id": "10.1016/j.pediatrneurol.2025.09.023/attachment/44df0186-cd82-4280-9cd6-caa2ff884011/mmc1.pdf",
+      "title": "Supplementary Table 1 \u2013 ES-based gene panel for CP and CP mimics",
+      "pmid": null,
+      "doi": "10.1016/j.pediatrneurol.2025.09.023/attachment/44df0186-cd82-4280-9cd6-caa2ff884011/mmc1.pdf",
+      "url": "https://www.pedneur.com/cms/10.1016/j.pediatrneurol.2025.09.023/attachment/44df0186-cd82-4280-9cd6-caa2ff884011/mmc1.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://public-pages-files-2025.frontiersin.org/articles/617813/file/data_sheet_1.pdf/617813_supplementary-materials_datasheets_1_pdf/1",
+      "title": "Supplementary Table 1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://public-pages-files-2025.frontiersin.org/articles/617813/file/data_sheet_1.pdf/617813_supplementary-materials_datasheets_1_pdf/1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s12311-020-01224-5",
+      "title": "Diagnostic approach to cerebellar hypoplasia",
+      "pmid": null,
+      "doi": "10.1007/s12311-020-01224-5",
+      "url": "https://link.springer.com/article/10.1007/s12311-020-01224-5",
+      "abstract_chars": 1436
+    },
+    {
+      "id": "24839100",
+      "title": "Cerebellar hypoplasia: differential diagnosis and diagnostic approach",
+      "pmid": "24839100",
+      "doi": "10.1002/ajmg.c.31398",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.c.31398",
+      "abstract_chars": 1761
+    },
+    {
+      "id": "21749694",
+      "title": "Classification, diagnosis and potential mechanisms in pontocerebellar hypoplasia",
+      "pmid": "21749694",
+      "doi": "10.1186/1750-1172-6-50",
+      "url": "https://link.springer.com/article/10.1186/1750-1172-6-50",
+      "abstract_chars": 1484
+    }
+  ],
+  "input_tokens": 5821,
+  "output_tokens": 1423,
+  "usd": 0.00718,
+  "seconds": 14.6,
+  "ok": true
+}

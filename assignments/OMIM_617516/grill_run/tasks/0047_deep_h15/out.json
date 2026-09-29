@@ -1,0 +1,103 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While longitudinal assessment of older individuals with PSMD12 variants confirms that the physical phenotype evolves\u2014specifically documenting late-childhood onset of obesity, acne, and facial coarsening/evolution (Feresin et al., 2025)\u2014the claim that this progression significantly obscures the pediatric craniofacial gestalt and causes statistically lower ascertainment rates of core dysmorphic features is conflicted. Major cohort studies (such as Isidor et al., 2022, examining 24 unrelated patients) assert that STISS remains clinically recognizable based on cardinal recurrent dysmorphisms (including microtia, enophthalmia, and preaxial limb defects). Furthermore, existing cohorts are too small and cross-sectional to formally demonstrate statistically decreased ascertainment of infantile HPO terms in adolescent and adult populations.",
+  "evidence": [
+    {
+      "text": "In a study of six individuals (four adults) with inherited truncating PSMD12 variants, facial appearance was observed to evolve during growth, with most individuals developing acne, short stature, and obesity from late childhood onward, expanding the phenotype and creating diagnostic challenges.",
+      "stance": "supports",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "Facial appearance evolved during growth... Most subjects had acne, short stature, and developed obesity since late childhood. Eating behavior was reported... Together with a complete literature review, we expanded the clinical spectrum of STISS, highlighting the relevance of inherited variants, and discussing challenges in diagnosis and management."
+      },
+      "numbers": [
+        {
+          "metric": "total patients described",
+          "value": 6
+        },
+        {
+          "metric": "adult patients evaluated",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "A cohort analysis of 24 unrelated STISS patients emphasized that despite broad clinical variability, the syndrome remains clinically recognizable through core craniofacial and limb findings (such as microtia, enophthalmia, large mouth, and preaxial hand abnormalities) and can be biochemically confirmed by a type I interferon gene signature.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "We refine the phenotype of STISS and show that it can be clinically recognizable and biochemically diagnosed by a type I interferon gene signature."
+      },
+      "numbers": [
+        {
+          "metric": "unrelated STISS cohort size",
+          "value": 24
+        },
+        {
+          "metric": "patients exhibiting chilblains",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of neurodevelopmental disorder cohorts identifies overweight and obesity as an observed phenotypic component in patients with PSMD12 loss-of-function variants, supporting metabolic involvement.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic diagnosis of patients with neurodevelopmental disorders using array-CGH and whole exome sequencing",
+        "authors": [
+          "E Riberi"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://iris.unito.it/bitstream/2318/2109026/2/Tesi%20PhD%20Evelise%20Riberi%208.pdf",
+        "quote": "The phenotype included overweight/obesity, and eye \u2026 phenotype, while HES1 deletion might underlie the \u2026 LoF have been reported, causing Stankiewicz-Isidor syndrome (MIM# 617516)"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Feresin et al. (2025) note that evolving facial dysmorphisms, post-pubertal severe acne, and obesity create diagnostic recognition hurdles in older individuals, whereas Isidor et al. (2022) conclude that STISS presents with sufficiently distinct recurrent structural markers (microtia, enophthalmia, preaxial anomalies) to remain clinically recognizable across presentations.",
+    "Quantitative data establishing a statistically significant reduction in ascertainment of classic pediatric craniofacial HPO terms in adolescents/adults are currently lacking; existing reports rely on qualitative descriptions across small family cohorts."
+  ],
+  "confidence": 0.52,
+  "new_directions": [
+    {
+      "question_text": "Does an objective deep-gestalt facial analysis (e.g., Face2Gene/GestaltMatcher) show a statistically significant decrease in STISS top-match accuracy when comparing adult photographs to infant/pediatric photographs?",
+      "rationale": "Directly evaluates whether facial maturation and coarsening degrade objective automated recognition of the STISS dysmorphic gestalt across age brackets.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What is the systematic prevalence and penetrance of hyperphagia, metabolic dysregulation, and severe acne in an aggregated international registry of post-pubertal individuals with PSMD12 loss-of-function?",
+      "rationale": "Clarifies whether late-onset obesity and dermatologic features are universal age-dependent features or restricted to specific familial lineages.",
+      "promise": 0.78,
+      "est_cost": 35000
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the definitive primary clinical series of autosomal dominant intellectual developmental disorder-77 (MRD77), intellectual disability and delayed language development exhibit complete or near-complete penetrance (>90% denominator frequency across the N=33 multicenter cohort), whereas behavioral features such as aggression, ADHD, and autism constitute a variable secondary syndromic cluster present in roughly 40-70% of cases.",
+      "rationale": "Clinical delineation of newly recognized Mendelian synaptopathies requires distinguishing core invariant features from variable co-occurring neuropsychiatric traits. Verifying the exact cohort numerator and denominator establishes whether language and cognitive delay are obligate criteria for molecular testing prioritization.",
+      "aspects": [
+        "core phenotypes",
+        "expressive language delay",
+        "intellectual disability",
+        "behavioral phenotype"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In a cohort of 33 individuals harboring heterozygous missense or loss-of-function variants in LRRC7, the core clinical spectrum consistently involves intellectual disability and delayed language development, alongside ADHD, autism, aggression, and seizures in subset proportions.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+            "authors": [
+              "J Willim",
+              "Undiagnosed Diseases Network"
+            ],
+            "year": 2024,
+            "journal": "Nature Communications",
+            "doi": "10.1038/s41467-024-52095-x",
+            "pmid": null,
+            "pmc": "PMC11387733",
+            "url": "https://www.nature.com/articles/s41467-024-52095-x",
+            "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size_N",
+              "value": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Hyperphagia-associated obesity is present in a discrete subset (<35% numerator frequency in the primary 33-patient cohort) of individuals with LRRC7 variants, delineating a metabolic-behavioral sub-phenotype that mimics secondary hyperphagic syndromic obesities.",
+      "rationale": "Hyperphagia and obesity are prominent features reported in the title and abstract of the primary LRRC7 discovery study, but are specified as occurring in 'several cases' rather than the majority. Defining the exact numerator/denominator prevents clinicians from prematurely ruling out MRD77 in non-obese individuals.",
+      "aspects": [
+        "hyperphagia",
+        "obesity",
+        "metabolic phenotype",
+        "phenotypic sub-clusters"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "The primary case series identifies hyperphagia-associated obesity as a significant finding within the phenotypic spectrum, though occurring in 'several cases' among the 33 individuals evaluated.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+            "authors": [
+              "J Willim",
+              "Undiagnosed Diseases Network"
+            ],
+            "year": 2024,
+            "journal": "Nature Communications",
+            "doi": "10.1038/s41467-024-52095-x",
+            "pmid": null,
+            "pmc": "PMC11387733",
+            "url": "https://www.nature.com/articles/s41467-024-52095-x",
+            "quote": "The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_total",
+              "value": 33
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cranial dysmorphic features such as microcephaly and early infancy tonic seizures represent infrequent, private phenotypic expansions (observed in isolated probands such as the c.2660C>T p.Pro887Leu case) rather than recurrent cardinal features of LRRC7-related disorder.",
+      "rationale": "Prior pooled data suggested that microcephaly was absent or atypical in LRRC7 patients. However, recent case reports describe probands with mild microcephaly, tonic seizures, and failure to thrive, raising the hypothesis that structural cranial changes occur in <10% of LRRC7 cases and may depend on specific linker-region variant locations.",
+      "aspects": [
+        "microcephaly",
+        "seizures",
+        "phenotypic expansion",
+        "dysmorphic features"
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "text": "A proband with a de novo heterozygous missense variant in LRRC7 (c.2660C>T; p.Pro887Leu) presented with global developmental delay, tonic seizures, failure to thrive, mild microcephaly, intellectual disability, and hypotonia.",
+          "stance": "supports",
+          "source": {
+            "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+            "authors": [
+              "S Khan",
+              "M Bilal",
+              "H Khan",
+              "Q Alam"
+            ],
+            "year": 2026,
+            "journal": "The Journal of Gene Medicine",
+            "doi": "10.1002/jgm.70090",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+            "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+          },
+          "numbers": [
+            {
+              "metric": "proband_count",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerator/denominator breakdowns for individual HPO terms (such as HP:0000729 autism, HP:0007018 ADHD, HP:0001250 seizures, and HP:0001513 obesity) within the supplementary clinical tables of the Willim et al. 2024 33-patient cohort?",
+      "rationale": "Accessing and parsing the complete per-patient phenotyping supplement from PMC11387733 will yield the exact counts needed to replace binned frequency approximations with precise ratios for diagnostic calculators.",
+      "promise": 0.9,
+      "est_cost": 0.75
+    },
+    {
+      "question_text": "Do missense variants located in the linker region (e.g., exon 18 p.Pro887Leu) confer a higher risk of seizures and microcephaly compared to LRR or PDZ domain variants in LRRC7?",
+      "rationale": "Differences between LRR domain variants (affecting PP1 binding) and C-terminal/linker variants may account for phenotypic divergence between pure behavioral/cognitive syndromes and presentation with microcephaly or epilepsy.",
+      "promise": 0.75,
+      "est_cost": 0.8
+    }
+  ],
+  "dead_end": false
+}

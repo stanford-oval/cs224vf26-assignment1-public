@@ -1,0 +1,26 @@
+{
+  "omim": "OMIM:621182",
+  "label": "Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities",
+  "gene": "NAV3",
+  "gene_info": {
+    "symbol": "NAV3",
+    "name": "neuron navigator 3",
+    "type_of_gene": "protein-coding",
+    "map_location": "12q21.2",
+    "entrez_id": "89795",
+    "aliases": [
+      "NEDSFB",
+      "POMFIL1",
+      "STEERIN3",
+      "unc53H3"
+    ],
+    "summary": "This gene belongs to the neuron navigator family and is expressed predominantly in the nervous system. The encoded protein contains coiled-coil domains and a conserved AAA domain characteristic for ATPases associated with a variety of cellular activities. This gene is similar to unc-53, a Caenorhabditis elegans gene involved in axon guidance. Multiple alternatively spliced transcript variants for this gene have been described but only one has had its full-length nature determined. [provided by RefSeq, Jul 2008].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 17,
+  "n_case_reports": 3,
+  "curated_hpo_terms": 55,
+  "corpus_query": "\"NAV3\" OR \"Neurodevelopmental disorder with poor or absent speech\"",
+  "corpus_query_clinical": "(\"NAV3\" OR \"Neurodevelopmental disorder with poor or absent speech\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (OMIM #621182), caused by variants in NAV3: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

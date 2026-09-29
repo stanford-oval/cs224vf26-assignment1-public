@@ -1,0 +1,94 @@
+{
+  "verdict": "supported",
+  "rationale": "The primary clinical cohort study establishing autosomal dominant intellectual developmental disorder-77 (MRD77, OMIM #621415) by Willim et al. (2024) delineates 33 individuals harboring heterozygous pathogenic variants in LRRC7. Across this definitive multicenter cohort and subsequent single-case/CNV reports, intellectual disability and speech/language impairment represent the invariant hallmark neurodevelopmental manifestations, whereas neurobehavioral anomalies including autism spectrum traits, ADHD, and aggressive outbursts occur in variable subsets, consistent with the hypothesized core versus secondary syndromic architecture.",
+  "evidence": [
+    {
+      "text": "Willim et al. (2024) reported a multicenter cohort of 33 individuals with heterozygous missense or loss-of-function variants in LRRC7 presenting with a neurodevelopmental disorder characterized by intellectual disability and delayed language development as core phenotypic findings, with autism, ADHD, aggression, and hyperphagia observed across variable subsets.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": "39256359",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size (individuals with dominant LRRC7 variants)",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "Khan et al. (2026) described an individual with a novel de novo heterozygous LRRC7 missense variant presenting with global developmental delay, moderate intellectual disability, language impairment, seizures, hypotonia, and microcephaly, further supporting that cognitive impairment and language deficit form the core clinical presentation.",
+      "stance": "supports",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "The Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia... ES revealed a novel de novo (heterozygous) missense variant [c.2660C>T; p.(Pro887Leu)], in LRRC7 (NM_001370785.2) gene, located in exon 18"
+      },
+      "numbers": [
+        {
+          "metric": "Probands evaluated",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Tassano et al. (2015) identified a de novo 1p31 deletion affecting LRRC7 in a patient characterized specifically by intellectual disability and severe expressive and receptive language delay.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical and molecular cytogenetic characterization of a de novo interstitial 1p31. 1p31. 3 deletion in a boy with moderate intellectual disability and severe language impairment",
+        "authors": [
+          "E Tassano",
+          "A Gamucci",
+          "ME Celle"
+        ],
+        "year": 2015,
+        "journal": "Cytogenetic and Genome Research",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://karger.com/cgr/article/146/1/39/62514",
+        "quote": "After a review of the literature, it is our opinion that LRRC7, ... phenotype and severe language delay in our patient."
+      },
+      "numbers": [
+        {
+          "metric": "Affected probands with 1p31 interstitial deletion",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What are the exact comparative penetrance frequencies of hyperphagia, childhood aggression, and sleep disturbance between missense variants in the LRR domain versus truncating loss-of-function variants across expanded multi-center LRRC7 cohorts?",
+      "rationale": "Clarifying domain-specific genotype-phenotype correlations could establish whether disruption of PP1 binding via LRR missense variants leads to more severe behavioral dysregulation than haploinsufficiency.",
+      "promise": 0.85,
+      "est_cost": 35000
+    }
+  ]
+}

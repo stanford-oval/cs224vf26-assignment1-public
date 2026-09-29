@@ -1,0 +1,88 @@
+{
+  "verdict": "supported",
+  "rationale": "In classical distal hereditary motor neuropathy type 11 (dHMN11 / OMIM #620528) associated with SPTAN1 variants, clinical and electrophysiological presentation is restricted to lower motor neuron involvement without prominent objective sensory loss. Normal sensory nerve action potentials (SNAPs) and sensory conduction velocities distinguish dHMN from axonal Charcot-Marie-Tooth disease (CMT2), which inherently involves significant sensory neuropathy. However, recent literature indicates overlapping spectra across inherited peripheral neuropathies, myopathies, and complex phenotypes caused by SPTAN1 variants.",
+  "evidence": [
+    {
+      "text": "dHMN caused by pathogenic heterozygous variants in SPTAN1 exhibits normal sensory nerve conduction velocities and normal sensory nerve action potentials, supporting the absence of objective sensory impairment in dHMN.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "distal hereditary motor neuropathy (dHMN) caused by pathogenic variants in the \u03b1II-spectrin gene (SPTAN1\u2026 The sensory nerve conduction velocities and sensory nerve action potentials"
+      },
+      "numbers": [
+        {
+          "metric": "sensory nerve action potential preservation",
+          "value": "normal"
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous nonsense/loss-of-function variants in SPTAN1 were identified in motor neuropathy/dHMN phenotypes, while recent studies expand the phenotypic spectrum of SPTAN1 to myopathic and dual presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+        "authors": [
+          "C Laurini",
+          "L Bosco",
+          "AA Zambon",
+          "B Sorrenti"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+        "quote": "Heterozygous SPTAN1 variants were initially identified in \u2026 heterozygous nonsense variants in SPTAN1. Affected individuals \u2026 More recently, monoallelic SPTAN1 variants have also been"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Inherited peripheral neuropathies exhibit continuous pathomechanistic themes and phenotypic boundaries, where traditional distinctions between pure motor, sensory-motor (CMT), and ataxia/spasticity can overlap at the cellular and genetic level.",
+      "stance": "neutral",
+      "source": {
+        "title": "Overarching pathomechanisms in inherited peripheral neuropathies, spastic paraplegias, and cerebellar ataxias",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "V Timmerman"
+        ],
+        "year": 2024,
+        "journal": "Trends in Neurosciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/trends/neurosciences/abstract/S0166-2236(24)00016-X",
+        "quote": "combinations of mainly distal sensory and motor disturbances as \u2026 The \u03b1-II-spectrin, encoded by SPTAN1, plays a major role in \u2026 similar to those caused by SPTAN1 mutations, namely"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "To what extent do subclinical sensory abnormalities detected via quantitative sensory testing (QST) or epidermal nerve fiber density occur in SPTAN1-linked dHMN11?",
+      "rationale": "While SNAPs are normal by definition in dHMN, minor small-fiber sensory involvement could challenge the strict motor-exclusive classification.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do specific missense versus truncating/nonsense variants in SPTAN1 determine whether a patient manifests pure dHMN versus a broader neuromuscular or myopathic phenotype?",
+      "rationale": "Loss-of-function variants in SPTAN1 have been reported in dHMN and distal myopathy, whereas dominant-negative in-frame variants cause severe infantile epileptic encephalopathy.",
+      "promise": 0.85,
+      "est_cost": 40000
+    }
+  ]
+}

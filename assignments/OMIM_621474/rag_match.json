@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621474",
+ "omim": "OMIM:621474",
+ "disease": "Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities",
+ "gene": "KDM2B",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 2182,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities (KDM2B, OMIM:621474):\n\n[1] NEURODEVELOPMENTAL DISORDER WITH CONGENITAL CARDIAC DEFECTS ...\nhttps://omim.org/entry/621474\nA number sign (#) is used with this entry because of evidence that neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities (NEDCRO) is caused by heterozygous mutation in the KDM2B gene (609078) on chromosome 12q24.\n\n[2] Entry - *609078 - LYSINE DEMETHYLASE 2B; KDM2B - OMIM\nhttps://www.omim.org/entry/609078\nIn a 7-year-old boy (P1) with neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities (NEDCRO; 621474), van Jaarsveld et al. (2023) identified a de novo heterozygous c.1912G-A transition (c.1912G-A, NM_032590.4) in the KDM2B gene, resulting in a gly638-to-ser (G638S) substitution at a highly ...\n\n[3] Neurodevelopmental disorder with congenital cardiac defects ...\nhttps://www.ncbi.nlm.nih.gov/medgen/1896179\nAtrial septal defect (ASD) is a congenital abnormality of the interatrial septum that enables blood flow between the left and right atria via the interatrial septum.\n\n[4] KDM2B-Related Neurodevelopmental Disorder A Case-Series ...\nhttps://pubmed.ncbi.nlm.nih.gov/41457890/\nThis case series reinforces the consistent phenotype of KDM2B-related neurodevelopmental disorder and highlights ocular and dermatologic manifestations as recurring features in affected individuals.\n\n[5] Delineation of a KDM2B-related neurodevelopmental disorder ...\nhttps://pubmed.ncbi.nlm.nih.gov/36322151/\nPurpose: Pathogenic variants in genes involved in the epigenetic machinery are an emerging cause of neurodevelopment disorders (NDDs). Lysine-demethylase 2B (KDM2B) encodes an epigenetic regulator and mouse models suggest an important role during development.\n\n[6] Delineation of a KDM2B-related neurodevelopmental disorder ...\nhttps://www.sciencedirect.com/science/article/pii/S109836002200942X\nWe set out to determine whether KDM2B variants are associated with NDD. Through international collaborations, we collected data on individuals with heterozygous KDM2B variants. We applied methylation arrays on peripheral blood DNA samples to determine a KDM2B associated epigenetic signature.\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age None, male)\n  observed: Intellectual disability, Global developmental delay, Macrodontia, Triangular face, Abnormality of the hand, Delayed speech and language development, Feeding difficulties\n  recorded ABSENT: Short stature\n\nP02 (age 2.0, female)\n  observed: Smooth philtrum, Upslanted palpebral fissure, Highly arched eyebrow, Depressed nasal bridge, Short columella, Feeding difficulties, Seizure, Delayed speech and language development, Intellectual disability\n  recorded ABSENT: Broad philtrum, Short philtrum, Deep philtrum, Downslanted palpebral fissures, Long palpebral fissure, Narrow palpebral fissure, Epiblepharon, Secondary microcephaly, Deeply set eye, Posteriorly rotated ears, Low-set ears, Anteverted ears, Macrotia, Overfolded helix, Otitis media, Hearing impairment, Excessive shyness, Self hugging, Aggressive behavior, Pica, Self-injurious behavior, Premature birth, 2-3 toe syndactyly, Camptodactyly of finger, Clinodactyly of the 5th finger (+4 more)\n\nP03 (age 21.0, male)\n  observed: Bifid uvula, Lacrimal duct atresia, Mild global developmental delay, Delayed ability to walk, Delayed speech and language development, Mild intellectual disability, Talipes calcaneovalgus, Tapered finger\n  recorded ABSENT: Feeding difficulties, Small for gestational age, Moderate global developmental delay, Severe global developmental delay, Seizure, Autistic behavior, Hypotonia\n\nP04 (age 3.9, male)\n  observed: Microcephaly, Intellectual disability, Global developmental delay, Hypotonia, Feeding difficulties, Delayed ability to walk, Delayed speech and language development, Autistic behavior, Thin vermilion border\n  recorded ABSENT: Failure to thrive, Gastroesophageal reflux, Chronic constipation, Attention deficit hyperactivity disorder, Aggressive behavior, Anxiety, Motor stereotypy, Depression, Compulsive behaviors, Generalized tonic seizure, Bilateral tonic-clonic seizure with generalized onset, Cerebellar atrophy, Cerebral atrophy, Ventriculomegaly, Arachnoid cyst, Thin corpus callosum, Periventricular leukomalacia, Dystonia, Ataxia, Pes cavus, Hypertonia, Recurrent infections, Hearing impairment, Brachycephaly, Prominent supraorbital ridges (+71 more)\n\nP05 (age 3.0, female)\n  observed: Hypoplasia of the corpus callosum, Motor delay, Delayed speech and language development, Protruding ear, Hypotonia, Fine hair, Hyperactivity, Aggressive behavior, Feeding difficulties, Global developmental delay, Severe intellectual disability, Autistic behavior, Upslanted palpebral fissure, Sleep-wake cycle disturbance, Hypertelorism\n  recorded ABSENT: Short stature, Decreased body weight, Microcephaly, Abnormal cortical gyration, Agenesis of corpus callosum, Hydronephrosis, Colpocephaly, Anal atresia, Anteverted ears, Stenosis of the external auditory canal, Low-set ears, Broad inferior crus of antihelix, Linear earlobe crease, Microtia, Dental crowding, Cleft palate, High palate, Short philtrum, Smooth philtrum, Tented upper lip vermilion, Thick vermilion border, Oligohydramnios, Polyhydramnios, Seizure, Motor stereotypy (+12 more)\n\nP06 (age 20.0, male)\n  observed: Palpebral edema, Pelvic kidney, Wide mouth, Depressed nasal bridge, Gastroesophageal reflux, Hypotonia, Astigmatism, Hypermetropia, Delayed ability to walk, Moderate intellectual disability, EEG with focal spikes, Exaggerated startle response, Ataxia, Aggressive behavior, Dysarthria, Delayed CNS myelination, Dilation of Virchow-Robin spaces, Mitral regurgitation\n  recorded ABSENT: High anterior hairline, Myopathic facies, Abnormal facial shape, Unilateral cleft lip, Cleft palate, High palate, Frontal bossing, Narrow forehead, Prominent forehead, Preauricular skin tag, Preauricular pit, Downslanted palpebral fissures, Limbal dermoid, Synophrys, Sparse eyebrow, Anteverted nares, Narrow naris, Wide nasal bridge, Short nose, Underdeveloped nasal alae, Thick nasal alae, Bulbous nose, Low hanging columella, Prominent supraorbital ridges, Secondary microcephaly (+42 more)\n\nP07 (age 12.0, female)\n  observed: Prominent forehead, Prominent nasal bridge, Hypoglycemia, Clinodactyly, Short foot, Short palm, Small hand, Esotropia, Ptosis, Myopia, Adrenal insufficiency, Delayed ability to walk, Delayed speech and language development, Mild intellectual disability\n  recorded ABSENT: Cleft lip, Cleft palate, Prominent fingertip pads, Syndactyly, Pectus excavatum, Spasticity, Joint hypermobility, Recurrent otitis media, Hearing impairment, Seizure, Autistic behavior, Psychosis, Tip-toe gait, Dystonia, Short stature, Hyperextensible skin, Single transverse palmar crease, Patent ductus arteriosus, Pulmonic stenosis, Ventricular septal defect, Secundum atrial septal defect, Constipation\n\nP08 (age 10.0, male)\n  observed: Delayed ability to walk, Hypotonia, Microtia, Strabismus, Hypermetropia, Wide nasal bridge, Brachycephaly, Broad forehead, Seizure, Autism, Clinodactyly of the 5th finger, Microcephaly\n  recorded ABSENT: Low-set ears, Upslanted palpebral fissure, Downslanted palpebral fissures, Almond-shaped palpebral fissure, Long palpebral fissure, Hypertelorism, Deeply set eye, Coarse facial features, Thin upper lip vermilion, Cleft palate, Scoliosis, Short stature, Cerebral palsy, Macrocephaly\n\nP09 (age 17.0, female)\n  observed: Smooth philtrum, Midface retrusion, Broad eyebrow, Synophrys, Broad nasal tip, Short nose, Round face, Overlapping toe, Brachydactyly, Severe global developmental delay, Feeding difficulties, Aortic valve stenosis, Left ventricular hypertrophy, Bicuspid aortic valve\n  recorded ABSENT: Microcephaly, Eczematoid dermatitis, Hypotonia, Pilonidal sinus, Neonatal respiratory distress, Hearing impairment, Moderate global developmental delay, Hyperactivity, Anxiety, Precocious puberty, Polyhydramnios, Chronic constipation, Coarctation of aorta, Patent ductus arteriosus, Ventricular septal defect, Atrial septal defect, Hypoplastic left ventricle\n\nP10 (age None, male)\n  observed: Autism, Intellectual disability, Aggressive behavior, Delayed gross motor development, Hypotonia, Delayed speech and language development, Delayed fine motor development, Hypertonia, Dystonia, Delayed early-childhood social milestone development\n  recorded ABSENT: Joint stiffness, Optic atrophy, Developmental regression, Skeletal muscle atrophy\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.85,
+     "for": "Matches the core tetrad implied by the condition name, presenting with neurodevelopmental delay/intellectual disability, congenital cardiac involvement (mitral regurgitation), a renal malformation (pelvic kidney), and ocular defects (astigmatism and hypermetropia).",
+     "against": "Lacks specific structural septal defects such as atrial septal defect mentioned in the disease literature, presenting instead with mitral regurgitation."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.06,
+     "for": "Presents with severe global developmental delay and prominent congenital cardiac abnormalities including bicuspid aortic valve and aortic valve stenosis.",
+     "against": "Explicitly tested negative for atrial septal defect, and lacks any documented renal or ocular abnormalities."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Features neurodevelopmental delay along with multiple ocular abnormalities (myopia, ptosis, and esotropia).",
+     "against": "Has confirmed absences of major congenital heart defects, including secundum atrial septal defect, ventricular septal defect, and patent ductus arteriosus, with no renal abnormalities reported."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.03,
+     "for": "Displays neurodevelopmental deficits (intellectual disability, autism, motor delay) combined with ocular involvement (strabismus and hypermetropia).",
+     "against": "Completely lacks documented congenital cardiac defects and renal anomalies."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.02,
+     "for": "Exhibits global developmental delay, intellectual disability, and an ocular-associated finding (lacrimal duct atresia).",
+     "against": "Lacks congenital cardiac defects, renal abnormalities, and other typical ocular manifestations."
+    }
+   ],
+   "what_the_report_lacked": "The report provided minimal phenotypic detail beyond the broad disease name and general category mentions; detailed frequencies of specific cardiac defects (e.g., whether mitral valve disease or specific septal defects predominate), typical renal phenotypes, and definitive ocular findings would have provided stronger discriminatory power.",
+   "tokens_in": 2354,
+   "tokens_out": 1353,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.88,
+     "for": "Presents the complete syndromic constellation described for NEDCRO, including neurodevelopmental impairment (intellectual disability, motor delay), a congenital/valvular cardiac defect (mitral regurgitation), a structural renal abnormality (pelvic kidney), and ocular anomalies (astigmatism, hypermetropia).",
+     "against": "Common dysmorphic cranial/facial features often tracked in neurodevelopmental syndromes are documented as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.05,
+     "for": "Features severe global developmental delay alongside congenital cardiac abnormalities (bicuspid aortic valve, aortic valve stenosis).",
+     "against": "Lacks the characteristic renal and ocular involvement, and specifically tested negative for an atrial septal defect."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.03,
+     "for": "Presents with neurodevelopmental delay and prominent ocular abnormalities (myopia, ptosis, esotropia).",
+     "against": "Lacks renal findings and congenital cardiac defects are specifically documented as absent (including atrial septal defect, VSD, and PDA)."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.02,
+     "for": "Exhibits neurodevelopmental disorder (autism, delayed walking) along with ocular features (strabismus, hypermetropia).",
+     "against": "Lacks cardiac and renal malformations, which are core features of the condition."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.01,
+     "for": "Shows mild intellectual disability, motor and speech delays, and ocular/adnexal involvement (lacrimal duct atresia).",
+     "against": "Lacks cardiac and renal involvement typical of the syndrome."
+    }
+   ],
+   "what_the_report_lacked": "Detailed clinical descriptions specifying the exact frequencies and spectrum of specific cardiac defects (e.g., whether mitral regurgitation is as frequent as atrial septal defects), detailed types of renal anomalies, and characteristic dysmorphic facial features associated with KDM2B mutations.",
+   "tokens_in": 2354,
+   "tokens_out": 1181,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.88,
+     "for": "Shows features across all primary domains of the condition: intellectual disability/motor delay, a renal anomaly (pelvic kidney), ocular defects (astigmatism and hypermetropia), and cardiac involvement (mitral regurgitation).",
+     "against": "Lacks an atrial septal defect specifically mentioned in entry summaries, presenting instead with mitral regurgitation."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.05,
+     "for": "Presents with severe global developmental delay and congenital heart defects including aortic valve stenosis and bicuspid aortic valve.",
+     "against": "Lacks the characteristic ocular and renal anomalies, and atrial septal defect is specifically recorded as absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.03,
+     "for": "Features neurodevelopmental delay and prominent ocular abnormalities including ptosis, esotropia, and myopia.",
+     "against": "Cardiac defects (including atrial septal defect and ventricular septal defect) are explicitly recorded as absent, and no renal involvement is documented."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.02,
+     "for": "Shows neurodevelopmental delay alongside ocular manifestations (strabismus and hypermetropia).",
+     "against": "Completely lacks documented congenital cardiac defects or renal system abnormalities."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.01,
+     "for": "Presents with global developmental delay and an ocular-related anomaly (lacrimal duct atresia).",
+     "against": "Lacks both congenital cardiac malformations and renal involvement characteristic of NEDCRO."
+    }
+   ],
+   "what_the_report_lacked": "Detailed individual phenotypic frequencies (e.g., exact prevalence of specific cardiac defects like ASD vs. valvular anomalies, and specific types of renal and ocular anomalies seen across the cohort) from the van Jaarsveld et al. delineation would have allowed more definitive attribution.",
+   "tokens_in": 2354,
+   "tokens_out": 1407,
+   "round": 3
+  }
+ ]
+}

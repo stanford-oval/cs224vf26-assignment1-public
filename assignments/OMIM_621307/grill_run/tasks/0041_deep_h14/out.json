@@ -1,0 +1,119 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature provided does not support a dichotomous genotype-phenotype segregation rule wherein complete anterior pituitary aplasia is restricted to biallelic null/frameshift variants while structural hypoplasia is confined to splice-site or in-frame hypomorphic alleles. Instead, systematic reviews and developmental genetics studies (e.g., Lodge et al., 2024; Cullingford, 2023; Hage et al., 2021) document anterior pituitary aplasia and hypoplasia along a shared phenotypic spectrum of primary ciliary and Sonic Hedgehog (SHH) pathway disruption. Across available cohorts and reviews, pituitary findings in TBC1D32-related congenital hypopituitarism are described collectively as aplasia or hypoplasia without reliable segregation by variant class.",
+  "evidence": [
+    {
+      "text": "Variants in TBC1D32 disrupt ciliary function and SHH signaling necessary for pituitary specification, manifesting as either a hypoplastic or absent pituitary gland in humans without established allelic segregation.",
+      "stance": "neutral",
+      "source": {
+        "title": "The Fuzzy planar cell polarity protein (FUZ), necessary for primary cilium formation, is essential for pituitary development",
+        "authors": [
+          "EJ Lodge",
+          "WB Barrell",
+          "KJ Liu"
+        ],
+        "year": 2024,
+        "journal": "Journal of Anatomy",
+        "doi": "10.1111/joa.13961",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/joa.13961",
+        "quote": "Variants of TBC1D32, \u2026 result in hypoplastic or absent pituitary gland in humans"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of congenital hypopituitarism and growth hormone deficiency associates TBC1D32 with neonatal severe presentation including pituitary aplasia and ectopic posterior pituitary, but does not identify a distinct binary genotype-phenotype rule.",
+      "stance": "neutral",
+      "source": {
+        "title": "Advances in differential diagnosis and management of growth hormone deficiency in children",
+        "authors": [
+          "C Hage",
+          "HW Gan",
+          "A Ibba",
+          "G Patti",
+          "M Dattani"
+        ],
+        "year": 2021,
+        "journal": "Nature Reviews Endocrinology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41574-021-00539-5",
+        "quote": "and TBC1D32) have been associated with ectopic posterior \u2026 neonatal phenotype, pituitary aplasia, but normally located posterior pituitary"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In a cohort of 43 patients with congenital combined pituitary hormone deficiency, brain MRI abnormalities encompassed anterior pituitary hypoplasia/aplasia and ectopic neurohypophysis, with TBC1D32 identified among five pathogenic etiologies without establishing an allele-specific structural cutoff.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical and genetic features of childhood-onset congenital combined pituitary hormone deficiency: a retrospective, single-center cohort study",
+        "authors": [
+          "Y Lee",
+          "YA Lee",
+          "JM Ko",
+          "CH Shin"
+        ],
+        "year": 2024,
+        "journal": "Annals of Pediatric Endocrinology & Metabolism",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://synapse.koreamed.org/articles/1516089782",
+        "quote": "Pituitary abnormalities such as anterior pituitary hypoplasia/aplasia, posterior pituitary ectopic/aplasia ... Pathogenic variants in POU1F1, GLI2, HESX1, TBC1D32, and ROBO1 were found in 5 (19.2%)."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size (congenital CPHD)",
+          "value": 43
+        },
+        {
+          "metric": "Genetically sequenced cases",
+          "value": 26
+        },
+        {
+          "metric": "Genetic diagnosis positive rate",
+          "value": "19.2%"
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive textbook synthesis of congenital hypopituitarism highlights that genetic causes of hypopituitarism, including TBC1D32, present with highly variable expressivity (ranging from aplasia to hypoplasia) even within identical mutations or mutation classes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genetic Etiology of Congenital Hypopituitarism - Endotext - NCBI",
+        "authors": [
+          "DJ Cullingford"
+        ],
+        "year": 2023,
+        "journal": "Endotext",
+        "doi": null,
+        "pmid": null,
+        "pmc": "NBK586145",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK586145/",
+        "quote": "Genetic causes make up an important portion of cases and have varying phenotypes even within identical mutations. ... pituitary and aplasia/hypoplasia of the anterior pituitary ... TBC1D32"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Literature reviews and cohort summaries report variable expressivity (both aplasia and hypoplasia) across ciliary gene defects and within identical mutations, arguing against an absolute segregation between null variants causing aplasia and hypomorphic variants causing hypoplasia.",
+    "The total number of reported individuals with biallelic TBC1D32 pathogenic variants is extremely low, making statistically validated genotype-phenotype correlations between variant classes currently unproven."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Does residual ciliogenesis and SHH signaling activity in patient-derived fibroblasts or CRISPR knock-in cell lines correlate quantitatively with remaining anterior pituitary volume on volumetric 3T brain MRI?",
+      "rationale": "Directly testing the downstream signaling defect in vitro can determine whether the degree of hypoplasia vs. aplasia is truly allele-specific or influenced by developmental stochasticity and genetic modifiers.",
+      "promise": 0.75,
+      "est_cost": 28000
+    },
+    {
+      "question_text": "What is the complete clinical and neuroimaging distribution across all worldwide reported TBC1D32 families when standardized high-resolution pituitary protocol MRI images are centrally re-reviewed?",
+      "rationale": "High-resolution re-review of neuroimaging across all documented pedigrees is required to definitively ascertain whether any true residual anterior pituitary tissue is present in reported cases of presumed aplasia.",
+      "promise": 0.85,
+      "est_cost": 12000
+    }
+  ]
+}

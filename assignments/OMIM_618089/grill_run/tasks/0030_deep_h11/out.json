@@ -1,0 +1,85 @@
+{
+  "verdict": "supported",
+  "rationale": "Across multiple cohorts and case series of FBXO11-related intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (IDDFBA; OMIM #618089), developmental delay and intellectual disability (DD/ID) constitute the primary, near-universal core phenotype, whereas behavioral dysregulation (including autism spectrum traits, ADHD, anxiety, hyperactivity, and aggression) is documented in approximately 60% to 85% of affected individuals rather than 100%. In initial cohorts (e.g., Gregor et al.), behavioral problems were documented in 'most' individuals (around 85%) rather than all, and later cohorts and familial descriptions (such as the autosomal dominant familial transmission reported in Kim et al.) demonstrate that individuals sharing pathogenic FBXO11 loss-of-function variants can present with mild intellectual disability and mild facial dysmorphisms in the absence of marked behavioral dysregulation. No study asserts that behavioral disruption is an obligatory clinical feature required for molecular confirmation; rather, FBXO11 presentations demonstrate variable expressivity and incomplete penetrance of neuropsychiatric and behavioral symptoms.",
+  "evidence": [
+    {
+      "text": "In a cohort of 24 individuals harboring de novo disease-causing variants in or partial deletions of FBXO11, borderline to severe intellectual disability was observed in all individuals, but behavioral problems (autism spectrum disorder, ADHD, anxiety, aggression) were documented in 'most of them' rather than all, demonstrating non-obligatory penetrance.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in FBXO11 cause a syndromic form of ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/330588459_De_novo_variants_in_FBXO11_cause_a_syndromic_form_of_intellectual_disability_with_behavioral_problems_and_dysmorphisms",
+        "quote": "All individuals had borderline to severe ID and behavioral problems (autism spectrum disorder, attention-deficit/hyperactivity disorder, anxiety, aggression) were observed in most of them."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "In an expanded study assembling 23 additional individuals with de novo FBXO11 variants, developmental delay and/or intellectual disability was identified as the core feature, whereas behavioral anomalies, hypotonia, and dysmorphisms were categorized as frequent but variable aspects.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo missense variants in FBXO11 alter its protein ... - PMC",
+        "authors": [],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC8825234",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8825234/",
+        "quote": "The phenotypic spectrum remains highly variable, with developmental delay and/or intellectual disability as the core feature and behavioral anomalies, hypotonia and various facial dysmorphism as frequent aspects."
+      },
+      "numbers": [
+        {
+          "metric": "additional_individuals_evaluated",
+          "value": 23
+        }
+      ]
+    },
+    {
+      "text": "In an autosomal dominant familial case of inherited IDDFBA affecting a mother and two daughters with a heterozygous frameshift duplication in FBXO11 (p.Gly803Leufs*6), all three affected family members exhibited mild intellectual disability and mild facial dysmorphisms without uniform or severe behavioral disruption.",
+      "stance": "supports",
+      "source": {
+        "title": "The first familial case of inherited intellectual developmental ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.61828",
+        "pmid": "32902151",
+        "pmc": null,
+        "url": "https://www.ovid.com/01445366-202011000-00049",
+        "quote": "In this family, the mother and two daughters showed mild ID and mild facial dysmorphism. This finding is expected to increase our understanding of the genotype-phenotype of IDDFBA and to facilitate genetic counseling for the disorder caused by FBXO11."
+      },
+      "numbers": [
+        {
+          "metric": "familial_affected_individuals",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Do FBXO11 truncating/nonsense variants versus missense variants localized to specific functional domains (e.g., F-box domain vs. UBR Zn-finger domain) correlate with the severity and penetrance of behavioral abnormalities?",
+      "rationale": "In vitro studies show differential subcellular localization and turnover depending on domain localization; systematically profiling behavioral phenotypes by variant domain will determine if behavioral dysregulation maps to specific sub-mechanisms.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What proportion of adults harboring inherited FBXO11 variants meet formal diagnostic criteria for neuropsychiatric conditions compared to pediatric probands identified via de novo sequencing?",
+      "rationale": "Familial and older cohorts may exhibit milder or attenuated behavioral manifestations compared to pediatric probands ascertained specifically through autism/behavioral clinics, mitigating ascertainment bias.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

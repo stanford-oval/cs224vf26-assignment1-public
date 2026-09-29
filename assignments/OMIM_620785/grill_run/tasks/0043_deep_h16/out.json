@@ -1,0 +1,85 @@
+{
+  "verdict": "supported",
+  "rationale": "Neuroimaging characterization from the defining international cohort study (Kaiyrzhanov et al., 2024; 45 patients across 28 families) confirms that ACBD6 deficiency features a selective focal midline neuroimaging pattern rather than diffuse pontocerebellar hypoplasia (PCH). Specifically, posterior fossa and brainstem anomalies manifest as a short midbrain (38%, n=11) and a small inferior cerebellar vermis (38%, n=11), frequently accompanied by clava hypertrophy (24%), corpus callosum abnormalities (70%), and anterior commissure hypoplasia/agenesis (66%). This pattern stands in stark contrast to classical PCH disorders, which are characterized by diffuse pontine flattening, dragonfly-like cerebellar hemisphere atrophy, and broad infratentorial hypoplasia.",
+  "evidence": [
+    {
+      "text": "In 45 individuals with bi-allelic ACBD6 pathogenic variants, midline brain malformations showed a distinct focal distribution: corpus callosum abnormalities occurred in 70%, hypoplasia or agenesis of the anterior commissure in 66%, short midbrain in 38%, small inferior cerebellar vermis in 38%, and clava hypertrophy in 24%.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings."
+      },
+      "numbers": [
+        {
+          "metric": "corpus callosum abnormalities percentage",
+          "value": 70
+        },
+        {
+          "metric": "anterior commissure hypoplasia/agenesis percentage",
+          "value": 66
+        },
+        {
+          "metric": "short midbrain percentage",
+          "value": 38
+        },
+        {
+          "metric": "small inferior cerebellar vermis percentage",
+          "value": 38
+        },
+        {
+          "metric": "hypertrophy of the clava percentage",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "Detailed morphological evaluation of brain MRIs in the ACBD6 cohort showed short midbrain and small inferior cerebellar vermis in 11 patients each, confirming a localized inferior vermian and midbrain involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental ...",
+        "authors": [
+          "R Kaiyrzhanov"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article/147/4/1436/7407365",
+        "quote": "Short midbrain and small inferior cerebellar vermis were each detected in 11"
+      },
+      "numbers": [
+        {
+          "metric": "patients with short midbrain",
+          "value": 11
+        },
+        {
+          "metric": "patients with small inferior cerebellar vermis",
+          "value": 11
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the true clinical sensitivity of anterior commissure hypoplasia combined with clava hypertrophy versus isolated inferior vermian hypoplasia for differentiating ACBD6 deficiency from PCH2 and PCH1?",
+      "rationale": "Because short midbrain and inferior vermian hypoplasia are each detected in only 38% of patients, their absence does not exclude ACBD6 deficiency. Determining the diagnostic sensitivity and specificity of the full midline neuroimaging composite (anterior commissure + corpus callosum + clava + vermis) across differential mimic cohorts is needed.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

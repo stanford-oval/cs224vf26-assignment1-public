@@ -1,0 +1,26 @@
+{
+  "omim": "OMIM:621201",
+  "label": "Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures",
+  "gene": "GTF3C3",
+  "gene_info": {
+    "symbol": "GTF3C3",
+    "name": "general transcription factor IIIC subunit 3",
+    "type_of_gene": "protein-coding",
+    "map_location": "2q33.1",
+    "entrez_id": "9330",
+    "aliases": [
+      "NEDFBS",
+      "TFIIIC102",
+      "TFIIICgamma",
+      "TFiiiC2-102"
+    ],
+    "summary": "The protein encoded by this gene is part of the TFIIIC2 complex, which binds to the promoters of small nuclear and cytoplasmic RNA genes in order to recruit RNA polymerase III. The TFIIIC2 complex is composed of six subunits. Two transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Oct 2011].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 16,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 106,
+  "corpus_query": "\"GTF3C3\" OR \"Neurodevelopmental disorder with dysmorphic facies\"",
+  "corpus_query_clinical": "(\"GTF3C3\" OR \"Neurodevelopmental disorder with dysmorphic facies\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures (OMIM #621201), caused by variants in GTF3C3: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

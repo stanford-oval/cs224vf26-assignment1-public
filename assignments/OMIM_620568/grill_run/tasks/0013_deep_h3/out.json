@@ -1,0 +1,110 @@
+{
+  "verdict": "supported",
+  "rationale": "Across published cohorts and systematic reviews of Cornelia de Lange syndrome (CdLS), severe structural upper-limb reduction defects (transverse limb amputations, acheiria, oligodactyly, or forearm agenesis) are hallmarks restricted almost exclusively to classical CdLS caused by pathogenic variants in NIPBL. Pathogenic variants in BRD4 lead to CdLS type 6 (CDLS6), which presents as a milder, non-classic CdLS-like phenotype featuring subtle distal anomalies (e.g., small hands, clinodactyly) or normal limbs, but lacking severe congenital limb reduction defects. Kaur et al. (2023) and Selicorni et al. (2021) confirm that NIPBL remains the only established gene associated with severe classical limb reduction defects, and no confirmed cases of BRD4 variants with transverse limb amputations have been identified in the literature.",
+  "evidence": [
+    {
+      "text": "Variants in NIPBL account for the majority of CdLS cases and represent the only gene identified to date that results in the severe or classic form of CdLS with structural limb-reduction defects when mutated, whereas BRD4 variants cause a CdLS-like phenotype without classic severe reduction defects.",
+      "stance": "supports",
+      "source": {
+        "title": "Genomic analyses in Cornelia de Lange Syndrome and related diagnoses: Novel candidate genes, genotype\u2013phenotype correlations and common mechanisms",
+        "authors": [
+          "M Kaur",
+          "J Blair",
+          "B Devkota",
+          "S Fortunato"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63247",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63247",
+        "quote": "with variants in NIPBL accounting for the majority (>60%) of cases, and the only gene identified to date that results in the severe or classic form of CdLS when mutated. Pathogenic variants in cohesin genes other than NIPBL tend to result in a less severe phenotype. Causative variants in additional genes, such as ANKRD11, EP300, AFF4, TAF1, and BRD4, can cause a CdLS-like phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "NIPBL proportion in CdLS cases",
+          "value": ">60%"
+        }
+      ]
+    },
+    {
+      "text": "Typical upper limb reduction defects do not appear frequently in BRD4 patients, who present with a mild or CdLS-like presentation rather than classic limb malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Confirmation of BRD4 haploinsufficiency role in Cornelia de Lange\u2013like phenotype and delineation of a 19p13.12p13.11 gene contiguous syndrome",
+        "authors": [
+          "V Alesi",
+          "ML Dentici",
+          "S Loddo"
+        ],
+        "year": 2019,
+        "journal": "Annals of Human Genetics",
+        "doi": "10.1111/ahg.12289",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ahg.12289",
+        "quote": "The typical upper limb reduction defects (ranging from subtle ... do not appear frequently in BRD4 patients that only manifest with"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Classical limb reduction defects such as oligodactyly or complete absence of forearms are restricted to classic CdLS, whereas atypical genes including BRD4 present with non-classic manifestations lacking these severe transverse limb amputations.",
+      "stance": "supports",
+      "source": {
+        "title": "Cornelia de Lange syndrome: from a disease to a broader spectrum",
+        "authors": [
+          "A Selicorni",
+          "M Mariani",
+          "A Lettieri",
+          "V Massa"
+        ],
+        "year": 2021,
+        "journal": "Genes",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/12/7/1075",
+        "quote": "only ones with classical limb reduction defects. Patients with"
+      },
+      "numbers": []
+    },
+    {
+      "text": "BRD4 alterations produce non-classic, atypical, or milder forms of CdLS without the classic severe structural limb defects typical of NIPBL alterations.",
+      "stance": "supports",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": "Pediatric Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+        "quote": "Pathogenic variations in the NIPBL gene account for the majority of cases, but variations in several other genes, including BRD4, have been identified as causative factors for non-classic or milder forms of the syndrome."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the exact prevalence of minor distal limb anomalies (e.g., clinodactyly, small hands, single palmar crease) in molecularly confirmed BRD4 patients compared to non-NIPBL cohesinopathy cohorts?",
+      "rationale": "While severe reduction defects discriminate NIPBL from BRD4, minor distal anomalies are reported across non-classic CdLS cases and require systematic phenotypic quantification to assess their utility in distinguishing BRD4 from HDAC8, SMC1A, or RAD21 cases.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do truncating vs. missense BRD4 variants confer distinct craniofacial or neurodevelopmental severity scores in CdLS6?",
+      "rationale": "Determining genotype-phenotype correlations within BRD4 would clarify whether specific domain-disrupting mutations can occasionally present with more severe skeletal phenotypes mimicking classic cohesinopathies.",
+      "promise": 0.8,
+      "est_cost": 35000.0
+    }
+  ]
+}

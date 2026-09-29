@@ -1,0 +1,74 @@
+{
+  "verdict": "conflicted",
+  "rationale": "There is direct evidence from a single case report (Yamada et al., 2023) showing that a de novo missense variant within the ATP-binding site (p.Gly414Arg) in DHX9 caused intellectual disability, short stature, and ventricular non-compaction cardiomyopathy, with corresponding cardiac conduction defects recapitulated in heterozygous Dhx9 mutant mice. However, the hypothesis that cardiomyopathy defines a reproducible subset of ATP-binding domain DHX9 variants and distinguishes them from related helicase disorders is conflicted: (1) evidence in humans is restricted to an N of 1, with no replication across a larger cohort of ATP-binding variants; (2) cardiac non-compaction is also seen in animal models of related DExH-box helicases such as DHX36/RHAU (Yang et al., 2022), failing to demonstrate specificity for DHX9 over other helicases; and (3) the Dhx9 mouse model demonstrated cardiac conduction abnormalities rather than overt ventricular non-compaction cardiomyopathy, showing phenotypic discordance between the human patient and animal model.",
+  "evidence": [
+    {
+      "text": "Yamada et al. (2023) identified a de novo heterozygous missense variant p.(Gly414Arg) in the glycine codon of the ATP-binding motif (G-C-G-K-T) of DHX9 in an individual presenting with intellectual disability, short stature, and ventricular non-compaction cardiomyopathy. Furthermore, heterozygous mice harboring the orthologous Dhx9 mutation (p.Gly416Arg) exhibited cardiac conduction abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Heterozygous loss-of-function DHX9 variants are associated with neurodevelopmental disorders: Human genetic and experimental evidences",
+        "authors": [
+          "M Yamada",
+          "Y Nitta",
+          "T Uehara",
+          "H Suzuki",
+          "F Miya"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721223001106",
+        "quote": "Herein, we report a patients with a heterozygous de novo missense variant, p.(Gly414Arg) of DHX9 who presented with a short stature, intellectual disability, and ventricular non-compaction cardiomyopathy. The variant was located in the glycine codon of the ATP-binding site, G-C-G-K-T... Furthermore, in a gene-editing experiment of Dhx9 G416 to R416, corresponding to p.(Gly414Arg) in humans, heterozygous mice showed a reduced body size, reduced emotionality, and cardiac conduction abnormality."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals with ventricular non-compaction cardiomyopathy in Yamada et al.",
+          "value": "1/1"
+        }
+      ]
+    },
+    {
+      "text": "Non-compaction cardiomyopathy has been linked to disruption of other DExH-box helicases such as RHAU (DHX36), demonstrating that cardiac non-compaction is not unique to DHX9 among related RNA/DNA helicase deficiencies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "To unwind the biological knots: The DNA/RNA G\u2010quadruplex resolvase RHAU (DHX36) in development and disease",
+        "authors": [
+          "C Yang",
+          "J Yao",
+          "H Yi",
+          "X Huang"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/ame2.12251",
+        "pmid": "35789129",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ame2.12251",
+        "quote": "using cTNT- Cre and identified the noncompaction cardiomyopathy (NCC) phenotype47"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Ventricular non-compaction cardiomyopathy has only been reported in 1 patient with a DHX9 ATP-binding site variant (p.Gly414Arg); there is currently no cohort data establishing this as a consistent or recurring sub-phenotype for ATP-binding domain variants.",
+    "Dhx9 mutant mice (p.Gly416Arg) exhibited cardiac conduction abnormalities rather than structural ventricular non-compaction cardiomyopathy, leaving the exact cardiac phenotype of DHX9 ATP-binding disruption unresolved.",
+    "Non-compaction cardiomyopathy is also produced by deficiency of related DExH-box helicase family members such as DHX36 (RHAU), conflicting with the claim that it specifically distinguishes DHX9 from other helicase-related pathologies."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "In comprehensive DHX9 patient cohorts (such as those with Charcot-Marie-Tooth and neurodevelopmental disorder phenotypes), what is the systematically evaluated prevalence of ventricular non-compaction and cardiac conduction defects across different functional domains?",
+      "rationale": "A single patient report cannot establish a domain-specific genotype-phenotype correlation; routine echocardiography and electrocardiography across broader DHX9 patient cohorts are needed to test whether cardiomyopathy is recurrent in ATP-binding variants or merely a private/incidental finding.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do Dhx9 G416R mutant mice develop histological or ultrastructural features of ventricular non-compaction under physiological cardiac stress or advanced age?",
+      "rationale": "Yamada et al. identified conduction abnormalities in mutant mice, but detailed assessment of myocardial trabeculation and compaction ratios would clarify whether the mouse model recapitulates the structural human cardiomyopathy.",
+      "promise": 0.7,
+      "est_cost": 25000
+    }
+  ]
+}

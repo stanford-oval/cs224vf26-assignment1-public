@@ -1,0 +1,100 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature provided in the SOURCES block provides no empirical or statistical support for the specific quantitative claim that penetrance of cardinal craniofacial features (hypertelorism, bifid uvula, cleft palate) exceeds 60% in SMAD2/LDS6 index probands while remaining below 25% in cascade-screened heterozygous relatives. While general reviews note that SMAD2 causes LDS6 and that craniofacial features are part of the LDS phenotypic spectrum, systematic cohort-level numerator/denominator data comparing probands to cascade-tested relatives for SMAD2 are completely absent from the provided records.",
+  "evidence": [
+    {
+      "text": "Loeys-Dietz syndrome is characterized by a clinical triad including hypertelorism, bifid uvula or cleft palate, and aortic aneurysm with tortuosity, caused by mutations in TGF\u03b2 pathway genes including SMAD2, but gene-specific proband versus cascade-testing penetrance frequencies are not reported.",
+      "stance": "neutral",
+      "source": {
+        "title": "Loeys-dietz syndrome",
+        "authors": [
+          "JD Velchev",
+          "L Van Laer",
+          "I Luyckx",
+          "H Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1007/978-3-030-80614-9_11",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-80614-9_11",
+        "quote": "The most typical clinical triad includes hypertelorism, bifid uvula or cleft palate and aortic aneurysm with tortuosity... The genetic cause is heterogeneous and includes mutations in genes encoding for components of the transforming growth factor beta (TGF\u03b2) signalling pathway: TGFBR1, TGFBR2, SMAD2, SMAD3, TGFB2 and TGFB3."
+      },
+      "numbers": []
+    },
+    {
+      "text": "A retrospective LDS cohort evaluated genotype-phenotype correlations across TGFBR1, TGFBR2, and SMAD3, but did not include SMAD2-specific cohorts or penetrance frequencies comparing probands to cascade-screened relatives.",
+      "stance": "neutral",
+      "source": {
+        "title": "Loeys-Dietz Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+        "quote": "A total of 93 patients were included (29 TGFBR1, 33 TGFBR2, 31 SMAD3)... Patients with pathogenic, likely pathogenic, or suspicious variants in TGFBR1, TGFBR2, or SMAD3 were included."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size",
+          "value": 93
+        },
+        {
+          "metric": "SMAD3 patients",
+          "value": 31
+        }
+      ]
+    },
+    {
+      "text": "Genotypic categorization of LDS across 24 families assessed TGFBR1, TGFBR2, SMAD3, and TGFB2 variants, noting SMAD2 as an established LDS gene, but provided no cohort-level penetrance percentages for craniofacial features in SMAD2 probands versus cascade relatives.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genotypic categorization of Loeys-Dietz syndrome based on 24 novel families and literature data",
+        "authors": [
+          "L Camerota",
+          "M Ritelli",
+          "A Wischmeijer",
+          "S Majore"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/10/10/764",
+        "quote": "Heterozygous mutations in 6 genes (TGFBR1/2, TGFB2/3, SMAD2/3), encoding components of the TGF-\u03b2 pathway, cause LDS... Fifteen variants were novel, affecting the TGFBR1 (6), TGFBR2 (6), SMAD3 (2), and TGFB2 (1) genes."
+      },
+      "numbers": [
+        {
+          "metric": "Families characterized",
+          "value": 24
+        },
+        {
+          "metric": "Patients evaluated",
+          "value": 34
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits specific quantitative thresholds (>60% in index probands, <25% in cascade-screened relatives) for SMAD2/LDS6 craniofacial features, but available literature sources provide no empirical breakdown of proband versus cascade-screened penetrance for SMAD2."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the true penetrance of the cardinal craniofacial triad in SMAD2 variant carriers when stratified by ascertainment mechanism (proband vs cascade testing)?",
+      "rationale": "Existing literature combines LDS subtypes or evaluates small isolated case series. A dedicated multi-center international registry of SMAD2 carriers is required to assess whether ascertainment bias inflates craniofacial penetrance in probands compared to asymptomatic or mildly affected relatives.",
+      "promise": 0.85,
+      "est_cost": 50000
+    },
+    {
+      "question_text": "Are missense variants in the MH2 domain of SMAD2 associated with higher craniofacial penetrance compared to loss-of-function or splice variants?",
+      "rationale": "Different mutational mechanisms across TGF-beta pathway genes exhibit variable severity; identifying domain-specific effects in SMAD2 will clarify whether craniofacial dysmorphism correlates with particular functional perturbations.",
+      "promise": 0.75,
+      "est_cost": 30000
+    }
+  ]
+}

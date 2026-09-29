@@ -1,0 +1,124 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While clinical literature on nonketotic hyperglycinemia (NKH) and inborn errors of metabolism establishes that an elevated CSF-to-plasma glycine ratio is the classic hallmark separating primary glycine cleavage system deficiency from secondary hyperammonemias or other non-cleavage glycine elevations, reports in multiple mitochondrial dysfunctions syndrome associated with FDXR (OMIM #620423) demonstrate that affected patients can present with simultaneous elevations in plasma glycine, CSF glycine, and an elevated glycine ratio. Consequently, a normal CSF-to-plasma glycine ratio cannot be reliably assumed to rule in or out FDXR deficiency versus attenuated forms of NKH.",
+  "evidence": [
+    {
+      "text": "OMIM entry 620423 documents that in multiple mitochondrial dysfunctions syndrome associated with FDXR, plasma glycine, CSF glycine, and their ratio were found to be elevated at 1 year of age.",
+      "stance": "contradicts",
+      "source": {
+        "title": "620423 - MULTIPLE MITOCHONDRIAL DYSFUNCTIONS ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620423",
+        "quote": "Plasma glycine, CSF glycine, and a plasma/CSF glycine ratio were elevated at 1 year of age."
+      },
+      "numbers": [
+        {
+          "metric": "age at reported glycine elevation (years)",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "An elevated ratio of CSF to plasma glycine is conventionally recognized as the key discriminator distinguishing nonketotic hyperglycinemia from other disorders of glycine metabolism.",
+      "stance": "supports",
+      "source": {
+        "title": "Sequential magnetic resonance spectroscopic changes in ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.3345/kjp.2012.55.8.301",
+        "pmid": "22977444",
+        "pmc": null,
+        "url": "https://www.e-cep.org/m/journal/view.php?number=2012600030",
+        "quote": "The elevated ratio of CSF to plasma glycine distinguishes NKH from other glycine metabolism disorders."
+      },
+      "numbers": []
+    },
+    {
+      "text": "The primary defect in glycine encephalopathy causes accumulation of glycine in plasma and to an even higher extent in CSF, producing an elevated CSF:plasma glycine ratio.",
+      "stance": "supports",
+      "source": {
+        "title": "Pitfalls in the diagnosis of glycine encephalopathy (non-ketotic hyperglycinemia)",
+        "authors": [
+          "SH Korman",
+          "A Gutman"
+        ],
+        "year": 2002,
+        "journal": null,
+        "doi": "10.1017/s0012162201002808",
+        "pmid": "12418798",
+        "pmc": null,
+        "url": "https://www.cambridge.org/core/journals/developmental-medicine-and-child-neurology/article/pitfalls-in-the-diagnosis-of-glycine-encephalopathy-nonketotic-hyperglycinemia/D0A18B1EDE25A590489086B5F105CF14",
+        "quote": "glycine concentration in the plasma and to an even greater extent in the CSF, leading to an elevation of the CSF:plasma glycine ratio"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In attenuated forms of nonketotic hyperglycinemia, CSF:plasma glycine ratios can drop below 0.08, overlapping with ranges seen in non-classic conditions.",
+      "stance": "neutral",
+      "source": {
+        "title": "Nonketotic Hyperglycinemia - GeneReviews\u00ae - NCBI Bookshelf",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1357/",
+        "quote": "CSF glycine elevated >230 \u03bcmol/L predicts severe outcome; a CSF:plasma glycine ratio of <0.08 predicts attenuated outcome [Swanson et al 2015]."
+      },
+      "numbers": [
+        {
+          "metric": "CSF:plasma glycine ratio threshold for attenuated NKH",
+          "value": 0.08
+        },
+        {
+          "metric": "severe outcome CSF glycine threshold (\u03bcmol/L)",
+          "value": 230
+        }
+      ]
+    },
+    {
+      "text": "Defects in iron-sulfur cluster assembly machinery accessory proteins involved in [4Fe-4S] maturation cause secondary nonketotic hyperglycinemia-like biochemistry with elevated glycine levels in both CSF and serum due to downstream impairment of lipoate-dependent glycine cleavage enzymes.",
+      "stance": "neutral",
+      "source": {
+        "title": "Molecular basis of rare diseases associated to the maturation of mitochondrial [4Fe-4S]-containing proteins",
+        "authors": [
+          "F Camponeschi",
+          "S Ciofi"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2218-273X/12/7/1009",
+        "quote": "leukodystrophy, lactic acidosis, nonketotic hyperglycinemia and death in early childhood [5,\u2026 increased glycine levels in CSF and serum, and a combined respiratory chain deficiency of"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "OMIM entry 620423 reports that in FDXR-associated multiple mitochondrial dysfunctions syndrome, the CSF-to-plasma glycine ratio itself was elevated, directly contradicting the premise that the ratio remains strictly normal in FDXR deficiency to cleanly differentiate it from primary glycine encephalopathy."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Across all published FDXR-deficient patients with paired CSF and plasma amino acid profiles, what is the precise numerical distribution of CSF-to-plasma glycine ratios compared to classic and attenuated NKH cohorts?",
+      "rationale": "Secondary lipoic acid cofactor deficiencies impair the H-protein of the glycine cleavage system, which may raise CSF glycine sufficiently to breach standard pathological ratio cutoffs (>0.08), muddying discrimination.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Does measuring CSF serine and threonine (or the CSF serine/threonine ratio) reliably differentiate secondary glycine cleavage impairment in FDXR deficiency from primary NKH?",
+      "rationale": "Swanson et al. (2022) showed that primary NKH induces distinctive perturbations in CSF serine enantiomers and threonine; identifying whether mitochondrial Fe-S biogenesis disorders replicate this profile could provide an alternative biochemical biomarker.",
+      "promise": 0.78,
+      "est_cost": 25000
+    }
+  ]
+}

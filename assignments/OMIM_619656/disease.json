@@ -1,0 +1,30 @@
+{
+  "omim": "OMIM:619656",
+  "label": "Loeys-Dietz syndrome 6",
+  "gene": "SMAD2",
+  "gene_info": {
+    "symbol": "SMAD2",
+    "name": "SMAD family member 2",
+    "type_of_gene": "protein-coding",
+    "map_location": "18q21.1",
+    "entrez_id": "4087",
+    "aliases": [
+      "CHTD8",
+      "JV18",
+      "JV18-1",
+      "LDS6",
+      "MADH2",
+      "MADR2",
+      "hMAD-2",
+      "hSMAD2"
+    ],
+    "summary": "The protein encoded by this gene belongs to the SMAD, a family of proteins similar to the gene products of the Drosophila gene 'mothers against decapentaplegic' (Mad) and the C. elegans gene Sma. SMAD proteins are signal transducers and transcriptional modulators that mediate multiple signaling pathways. This protein mediates the signal of the transforming growth factor (TGF)-beta, and thus regulates multiple cellular processes, such as cell proliferation, apoptosis, and differentiation. This protein is recruited to the TGF-beta receptors through its interaction with the SMAD anchor for receptor activation (SARA) protein. In response to TGF-beta signal, this protein is phosphorylated by the TGF-beta receptors. The phosphorylation induces the dissociation of this protein with SARA and the association with the family member SMAD4. The association with SMAD4 is important for the translocation of this protein into the nucleus, where it binds to target promoters and forms a transcription repressor complex with other cofactors. This protein can also be phosphorylated by activin type 1 receptor kinase, and mediates the signal from the activin. Alternatively spliced transcript variants have been observed for this gene. [provided by RefSeq, May 2012].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 18,
+  "n_case_reports": 6,
+  "curated_hpo_terms": 39,
+  "corpus_query": "\"SMAD2\" OR \"Loeys-Dietz syndrome 6\"",
+  "corpus_query_clinical": "(\"SMAD2\" OR \"Loeys-Dietz syndrome 6\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Loeys-Dietz syndrome 6 (OMIM #619656), caused by variants in SMAD2: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

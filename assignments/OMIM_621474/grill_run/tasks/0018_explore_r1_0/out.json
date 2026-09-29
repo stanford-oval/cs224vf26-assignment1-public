@@ -1,0 +1,127 @@
+{
+  "hypotheses": [
+    {
+      "text": "Missense variants clustered within the CxxC zinc finger domain of KDM2B (amino acids ~600-650) demonstrate significantly higher penetrance of severe structural eye anomalies (coloboma, microphthalmia, anophthalmia; >75%) compared to truncating loss-of-function variants across KDM2B (<30%).",
+      "rationale": "Identification of KDM2B variants specifically through structural eye defect screening cohorts demonstrates that CxxC domain alterations may directly disrupt recruitment of Polycomb Repressive Complex 1.1 or CpG island binding required for ocular organogenesis, producing a specific structural ocular phenotype rather than non-specific refractive errors or strabismus.",
+      "aspects": [
+        "genotype-phenotype",
+        "ocular",
+        "binned"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Targeted screening of 706 families presenting with developmental eye disorders identified two individuals with novel KDM2B-CxxC domain missense variants (p.Arg614Pro and p.Cys627Ser), both displaying complex structural eye defects alongside variable neurodevelopmental, cardiac, and renal defects.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+            "authors": [
+              "F Ceroni",
+              "LM Reis",
+              "F Watkins",
+              "DA Bax"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-026-02090-1",
+            "quote": "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present."
+          },
+          "numbers": [
+            {
+              "metric": "families screened with developmental eye disorders",
+              "value": 706
+            },
+            {
+              "metric": "identified CxxC variant individuals with complex structural eye defects",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the definitive clinical discovery cohort establishing OMIM #621474, neurodevelopmental impairment/intellectual disability is an obligate feature (100% numerator/denominator in patients evaluated after 2 years of age), whereas congenital heart defects have a frequency of 50-70% and structural renal anomalies occur in under 40% of cases.",
+      "rationale": "OMIM defines the disorder as 'Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities', signifying that non-CNS organ involvement is variable and incompletely penetrant, meaning absence of heart or kidney anomalies cannot rule out the diagnosis.",
+      "aspects": [
+        "pooled",
+        "penetrance",
+        "phenotype-spectrum"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Clinical delineation records for OMIM #621474 highlight neurodevelopmental delays as the primary constant feature, with structural cardiac defects present in a majority subset and renal and ocular manifestations documented as explicitly variable.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+            "authors": [
+              "F Ceroni",
+              "LM Reis",
+              "F Watkins",
+              "DA Bax"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-026-02090-1",
+            "quote": "Heterozygous variants in KDM2B were recently associated with a neurodevelopmental disorder. Notably, some individuals with variants in the CxxC domain also exhibited congenital heart, kidney and/or structural eye anomalies."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "A specific peripheral blood DNA methylation episignature distinguishes KDM2B-related neurodevelopmental disorder from clinically overlapping chromatin and recyclinopathy disorders (such as CHARGE, Kabuki, and Ritscher-Schinzel syndromes) with >95% sensitivity and specificity.",
+      "rationale": "Both CxxC missense variants and loss-of-function variants in KDM2B yield a characteristic genome-wide DNA episignature, providing an objective biomarker to resolve phenocopy cases where clinical features (heart defects, renal anomalies, developmental delay) overlap indistinguishably.",
+      "aspects": [
+        "binned",
+        "episignature",
+        "differential-diagnosis"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Individuals with KDM2B variants exhibit a characteristic KDM2B DNA episignature, which can be used to resolve diagnosis in patients with complex congenital anomalies.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+            "authors": [
+              "F Ceroni",
+              "LM Reis",
+              "F Watkins",
+              "DA Bax"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-026-02090-1",
+            "quote": "both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present. These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations and highlight the importance of testing this gene and its episignature in individuals with structural eye disorders"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient clinical numerators and denominators for cardiac, ocular, renal, and neurological features in the original clinical delineation paper by the episignature consortium referenced in Ceroni et al. and Kato et al.?",
+      "rationale": "Accessing the full-text tables of the primary delineation paper ('Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA episignature') will yield the exact counts and HPO term mappings required for definitive prevalence calculations.",
+      "promise": 0.95,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "Does the phenotypic spectrum of Commander-complex-associated Ritscher-Schinzel syndrome overlap with KDM2B-associated neurodevelopmental disorder in specific renal (proteinuria vs cystic dysplasia) and cardiac phenotypes?",
+      "rationale": "Recent literature (Kato et al. 2024/2025) directly compares RSS malformations (cardiac defects, cerebellar dysplasia, and kidney dysfunction) to KDM2B-related disorders, suggesting possible convergent pathways in organogenesis.",
+      "promise": 0.7,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

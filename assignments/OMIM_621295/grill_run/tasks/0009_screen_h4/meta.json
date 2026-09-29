@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"autosomal recessive\" \"NOTCH3\" heterozygous carriers stroke asymptomatic",
+    "recessive CADASIL NOTCH3 heterozygous carriers phenotype white matter hyperintensities"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/s11033-024-09560-z",
+      "title": "Distinct neurological phenotypes associated with biallelic loss of NOTCH3 function: evidence for recessive inheritance",
+      "pmid": null,
+      "doi": "10.1007/s11033-024-09560-z",
+      "url": "https://link.springer.com/article/10.1007/s11033-024-09560-z",
+      "abstract_chars": 1446
+    },
+    {
+      "id": "39191170",
+      "title": "Clinical and neuroradiological spectrum of biallelic variants in NOTCH3",
+      "pmid": "39191170",
+      "doi": "10.1016/j.ebiom.2024.105297",
+      "url": "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(24)00333-5/fulltext?uuid=uuid%3A96be62e9-7005-4bb8-a3db-0ba3a222ee3a",
+      "abstract_chars": 2078
+    },
+    {
+      "id": "https://www.tjn.org.tr/abstract/159/tur",
+      "title": "Clinical and molecular genetic findings of cerebral arteriopathy with subcortical infarcts and leukoencephalopathy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.tjn.org.tr/abstract/159/tur",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41719223",
+      "title": "Targeted analysis of whole exome sequencing data in Indian cryptogenic stroke patients",
+      "pmid": "41719223",
+      "doi": "10.1371/journal.pone.0326554",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326554",
+      "abstract_chars": 1800
+    },
+    {
+      "id": "10.1161/STROKEAHA.118.021560",
+      "title": "Role of NOTCH3 mutations in the cerebral small vessel disease cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy",
+      "pmid": null,
+      "doi": "10.1161/STROKEAHA.118.021560",
+      "url": "https://www.ahajournals.org/doi/abs/10.1161/STROKEAHA.118.021560",
+      "abstract_chars": 0
+    },
+    {
+      "id": "37688971",
+      "title": "Autosomal Recessive NOTCH3-Related Leukodystrophy in ...",
+      "pmid": "37688971",
+      "doi": "10.1016/j.pediatrneurol.2023.07.007",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0887899423002163",
+      "abstract_chars": 1232
+    },
+    {
+      "id": "10.1016/j.pediatrneurol",
+      "title": "Clinical and neuroradiological spectrum of biallelic variants in ...",
+      "pmid": null,
+      "doi": "10.1016/j.pediatrneurol",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11400611/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/125310",
+      "title": "125310 - CEREBRAL ARTERIOPATHY, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/125310",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nature.com/articles/s41439-025-00317-z",
+      "title": "A case of coexisting heterozygous NOTCH3 and HTRA1 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41439-025-00317-z",
+      "abstract_chars": 819
+    },
+    {
+      "id": "11486103",
+      "title": "Phenotype of a Homozygous CADASIL Patient in ...",
+      "pmid": "11486103",
+      "doi": "10.1161/01.str.32.8.1767",
+      "url": "https://www.ahajournals.org/doi/10.1161/01.str.32.8.1767",
+      "abstract_chars": 1906
+    }
+  ],
+  "input_tokens": 5195,
+  "output_tokens": 1547,
+  "usd": 0.00724,
+  "seconds": 12.1,
+  "ok": true
+}

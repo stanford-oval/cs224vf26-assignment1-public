@@ -1,0 +1,132 @@
+{
+  "verdict": "supported",
+  "rationale": "Across multiple independent cohorts, episodic central hyperventilation and respiratory dysrhythmias (intermittent hyperventilation, obstructive sleep apnea) are repeatedly documented as key distinguishing features of dominant RNU2-2 developmental and epileptic encephalopathy (DEE119; OMIM #621304). Chiu et al. (2026) identified hyperventilation in 3 of 5 (60%) detailed DEE individuals, while Greene et al. (2025) established hyperventilation alongside intellectual disability, hypotonia, and epilepsy across 25 individuals with recurrent de novo variants (n.4G>A, n.35A>G). Krygier et al. (2026) observed that hyperventilation episodes preceded generalized seizures in patients with de novo variants, and Munro et al. (2026) highlighted hyperventilation and obstructive sleep apnea as specific distinguishing hallmarks of RNU2-2 DEE from undiagnosed generic DEEs. In contrast, while biallelic RNU2-2 variants cause a frequent recessive neurodevelopmental disorder (Jackson et al. 2026, Leitao et al. 2026), episodic central hyperventilation is specifically flagged as a hallmark differentiating the dominant disorder.",
+  "evidence": [
+    {
+      "text": "In a detailed cohort of individuals with RNU2-2 developmental and epileptic encephalopathy, hyperventilation was specifically observed in 3 of 5 patients, along with status epilepticus (5/5) and obstructive sleep apnea (3/5).",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic Variants in RNU2\u20102, a Non\u2010coding Spliceosomal RNA, Cause a Distinctive Developmental and Epileptic Encephalopathy",
+        "authors": [
+          "ATG Chiu",
+          "MF Bennett",
+          "H Thiyagarajah"
+        ],
+        "year": 2026,
+        "journal": "Annals of Neurology",
+        "doi": "10.1002/ana.78071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.78071",
+        "quote": "Patients with RNU2-2 DEE had median seizure onset age of 24 months, focal and generalized seizures, status epilepticus (n = 5), severe to profound impairment, hyperventilation (n = 3), and obstructive sleep apnea (n = 3)."
+      },
+      "numbers": [
+        {
+          "metric": "hyperventilation frequency",
+          "value": "3/5"
+        },
+        {
+          "metric": "obstructive sleep apnea frequency",
+          "value": "3/5"
+        },
+        {
+          "metric": "status epilepticus frequency",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "Recurrent de novo mutations in RNU2-2 (specifically positions 4 and 35) across an initial cohort of 9 and replication cohort of 16 (total 25 cases) established a severe neurodevelopmental disorder characterized by intellectual disability, autistic behavior, microcephaly, hypotonia, epilepsy, and hyperventilation.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutations in the small nuclear RNA gene RNU2-2 cause a severe neurodevelopmental disorder with prominent epilepsy",
+        "authors": [
+          "D Greene",
+          "K De Wispelaere",
+          "J Lees",
+          "M Codina"
+        ],
+        "year": 2025,
+        "journal": "Nature Genetics",
+        "doi": "10.1038/s41588-025-02159-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-025-02159-5",
+        "quote": "The disorder is characterized by intellectual disability, autistic behavior, microcephaly, hypotonia, epilepsy and hyperventilation. All cases display a severe and complex seizure phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "total dominant de novo cases evaluated",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Investigation of RNU2-2 spliceosomopathy identified recurrent de novo variants (n.35A>G and n.4G>A) in patients with movement disorders and epilepsy, with episodes of hyperventilation noted to precede generalized seizures.",
+      "stance": "supports",
+      "source": {
+        "title": "Prominent Movement Disorders in RNU2\u20102\u2010Related Spliceosomopathy",
+        "authors": [
+          "M Krygier",
+          "U Sorrentino",
+          "M Wagner"
+        ],
+        "year": 2026,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.70442",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70442",
+        "quote": "Episodes of hyperventilation occasionally preceded generalized seizures... We identified recurrent de novo RNU2-2 variants (n.35A > G and n.4G > A) in two patients with intellectual disability, epilepsy, and hyperkinetic movement disorders."
+      },
+      "numbers": [
+        {
+          "metric": "patients reported with hyperkinetic features and de novo variants",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Genome sequencing in a large unsolved cohort of developmental and epileptic encephalopathies emphasized that the phenotypic delineation of RNU2-2 DEE is characterized by drug resistance, hyperventilation, and obstructive sleep apnea.",
+      "stance": "supports",
+      "source": {
+        "title": "Genome sequencing boosts diagnostic yield for the developmental and epileptic encephalopathies",
+        "authors": [
+          "JE Munro",
+          "H Thiyagarajah",
+          "MF Bennett",
+          "ATG Chiu"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13142584",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142584/",
+        "quote": "detailed phenotypic data contributed to our recent delineation of the features of RNU2\u20132 DEE... drug resistance, and notable features of hyperventilation and obstructive sleep apnoea."
+      },
+      "numbers": [
+        {
+          "metric": "total unsolved DEE cohort analyzed by genome sequencing",
+          "value": 242
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the exact sensitivity and positive predictive value of episodic central hyperventilation when discriminating dominant DEE119 from ReNU syndrome (RNU4-2) and Rett-like encephalopathies?",
+      "rationale": "While central hyperventilation is a hallmark of RNU2-2 DEE, episodic hyperventilation also occurs in Rett syndrome (MECP2), FOXG1 syndrome, and Pitt-Hopkins syndrome (TCF4). Determining comparative likelihood ratios will delineate its specificity among syndromic respiratory dysrhythmias.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does hyperventilation occur in biallelic/recessive RNU2-2 neurodevelopmental disorders at comparable rates to the dominant de novo n.4G>A and n.35A>G cohorts?",
+      "rationale": "Jackson et al. and Leitao et al. identified biallelic RNU2-2 cases as mechanistically distinct with reduced U2-2 stability. Comparing HPO terms across biallelic versus dominant cohorts will determine whether respiratory rhythm dysregulation is specific to dominant-negative spliceosomal alleles.",
+      "promise": 0.9,
+      "est_cost": 30000
+    }
+  ]
+}

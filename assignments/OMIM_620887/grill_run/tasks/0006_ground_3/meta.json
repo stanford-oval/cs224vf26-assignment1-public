@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"sensorineural hearing loss\" \"Human Phenotype Ontology\" definition HP:0000407",
+    "sensorineural hearing loss definition Human Phenotype Ontology medical genetics"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "34351116",
+      "title": "Tinnitus, hyperacusis, otalgia, and hearing loss",
+      "pmid": "34351116",
+      "doi": "10.1212/CON.0000000000000961",
+      "url": "https://continuum.aan.com/doi/abs/10.1212/CON.0000000000000961",
+      "abstract_chars": 944
+    },
+    {
+      "id": "31119747",
+      "title": "Pathophysiology of propionic and methylmalonic acidemias. Part 1: Complications",
+      "pmid": "31119747",
+      "doi": "10.1002/jimd.12129",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jimd.12129",
+      "abstract_chars": 1652
+    },
+    {
+      "id": "40801940",
+      "title": "Direct connexin-26 interactions with membrane proteins functionally relevant to the cochlea",
+      "pmid": "40801940",
+      "doi": "10.1007/s00439-025-02769-3",
+      "url": "https://link.springer.com/article/10.1007/s00439-025-02769-3",
+      "abstract_chars": 1511
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "title": "Cornelia de Lange spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "abstract_chars": 1660
+    },
+    {
+      "id": "https://ieeexplore.ieee.org/abstract/document/9669507/",
+      "title": "Ontology-based annotation and retrieval for large-scale VCF data",
+      "pmid": null,
+      "doi": null,
+      "url": "https://ieeexplore.ieee.org/abstract/document/9669507/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?8619;",
+      "title": "Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?8619;",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://glycosmos.org/diseases/DOID:0111739",
+      "title": "X-linked deafness 1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://glycosmos.org/diseases/DOID:0111739",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42680665",
+      "title": "sensorineural hearing loss",
+      "pmid": "42680665",
+      "doi": "10.1016/j.semperi.2026.152293",
+      "url": "https://www.wikidata.org/wiki/Q928697",
+      "abstract_chars": 1518
+    },
+    {
+      "id": "https://tadeus2.mimuw.edu.pl/ontologies/genes/54486?page=1&sort=definition",
+      "title": "TADeus2",
+      "pmid": null,
+      "doi": null,
+      "url": "https://tadeus2.mimuw.edu.pl/ontologies/genes/54486?page=1&sort=definition",
+      "abstract_chars": 0
+    },
+    {
+      "id": "29017443",
+      "title": "A new synonym-substitution method to enrich the human ...",
+      "pmid": "29017443",
+      "doi": "10.1186/s12859-017-1858-7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5635572/",
+      "abstract_chars": 1783
+    }
+  ],
+  "input_tokens": 4112,
+  "output_tokens": 1978,
+  "usd": 0.00799,
+  "seconds": 25.9,
+  "ok": true
+}

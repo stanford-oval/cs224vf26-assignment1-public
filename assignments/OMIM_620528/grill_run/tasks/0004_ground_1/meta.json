@@ -1,0 +1,73 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"dHMN11\" \"SPTAN1\" phenotype \"distal hereditary motor neuronopathy\"",
+    "SPTAN1 dHMN11 distal hereditary motor neuropathy OMIM 620528 phenotype"
+  ],
+  "n_hits": 7,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/620528",
+      "title": "620528 - NEURONOPATHY, DISTAL HEREDITARY ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620528",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/neuronopathy_distal_hereditary_motor_autosomal_dominant_11",
+      "title": "Neuronopathy, Distal Hereditary Motor, Autosomal ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/neuronopathy_distal_hereditary_motor_autosomal_dominant_11",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40023774",
+      "title": "Heterozygous loss-of-function variants in SPTAN1 cause an early childhood onset distal myopathy",
+      "pmid": "40023774",
+      "doi": "10.1016/j.gim.2025.101399",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1098360025000462",
+      "abstract_chars": 1585
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+      "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/182960",
+      "title": "182960 - NEURONOPATHY, DISTAL HEREDITARY ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/182960",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/182810",
+      "title": "182810 - SPECTRIN, ALPHA, NONERYTHROCYTIC 1; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/182810",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/620528",
+      "title": "Clinical Synopsis - #620528 - NEURONOPATHY, DISTAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/620528",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2258,
+  "output_tokens": 1513,
+  "usd": 0.00567,
+  "seconds": 18.3,
+  "ok": true
+}

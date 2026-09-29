@@ -1,0 +1,204 @@
+{
+  "hypotheses": [
+    {
+      "text": "The reported 'myocardial damage' preceding motor weakness in early-onset LGMDR29 represents false-positive skeletal muscle-derived biomarker elevation (e.g., regenerating myofiber-derived CK-MB or cross-reactive cardiac troponin) rather than true primary myocardial injury or overt cardiomyopathy.",
+      "rationale": "Deep testing revealed a direct contradiction: Dai et al. reported a 19-month-old proband presenting with presumed 'myocardial injury' before overt muscular dystrophy, yet echocardiographic and functional cardiac assessments revealed normal ventricular systolic function and cardiac anatomy. In muscular dystrophies with robust muscle turnover, regenerating skeletal muscle myofibers re-express fetal and cardiac-associated isoforms (such as CK-MB and cardiac troponin T), leading to frequent clinical misattribution of primary cardiac injury.",
+      "aspects": [
+        "cardiac phenotype",
+        "biomarker specificity",
+        "differential diagnosis"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "A 19-month-old boy was evaluated for presumed myocardial injury prior to the confirmation of limb-girdle muscular dystrophy type R29 caused by biallelic SNUPN variants, despite the absence of structural or overt echocardiographic cardiomyopathy.",
+          "stance": "supports",
+          "source": {
+            "title": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report",
+            "authors": [
+              "Q Dai",
+              "X Hu",
+              "B Li",
+              "Q Peng"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+            "quote": "A 19-month-old boy developed myocardial injury 11 days \u2026 high likelihood of cardiomyopathy or muscular dystrophy"
+          },
+          "numbers": [
+            {
+              "metric": "patient age at initial presentation (months)",
+              "value": 19
+            }
+          ]
+        },
+        {
+          "text": "In the index cohort of 18 children from 15 unrelated families with biallelic hypomorphic SNUPN variants, patients manifested muscular dystrophy and central neurological/neurodevelopmental features, with no documented primary cardiomyopathy or antecedent myocardial necrosis.",
+          "stance": "contradicts",
+          "source": {
+            "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+            "authors": [
+              "M Nashabat",
+              "N Nabavizadeh",
+              "HP Sara\u00e7o\u011flu"
+            ],
+            "year": 2024,
+            "journal": "Nature Communications",
+            "doi": "10.1038/s41467-024-45933-5",
+            "pmid": "38413582",
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41467-024-45933-5",
+            "quote": "In this study, we investigate 18 children from 15 unrelated families who present with atypical muscular dystrophy and neurological defects."
+          },
+          "numbers": [
+            {
+              "metric": "affected children evaluated",
+              "value": 18
+            },
+            {
+              "metric": "unrelated families",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Biallelic SNUPN pathogenic variants do not cause primary cardiomyopathy or early cardiac conduction system disease, reliably distinguishing LGMDR29 from cardiomyopathy-prone muscular dystrophies such as dystrophinopathies and sarcoglycanopathies.",
+      "rationale": "Duchenne/Becker dystrophinopathies (DMD) and several core LGMD subtypes (such as LGMD-R4/beta-sarcoglycanopathy or LGMD-R9/FKRP-related dystroglycanopathy) regularly exhibit dilated or hypertrophic cardiomyopathy and myocardial fibrosis. Across all systematically phenotyped SNUPN-deficient cohorts (18 pediatric patients in Nashabat et al. and adult-onset cases in PMC12883674), primary structural cardiomyopathy has remained absent, proving that genuine myocardial pathology is not a core manifestation of SNUPN deficiency.",
+      "aspects": [
+        "cardiac phenotype",
+        "differential diagnosis",
+        "syndromic distinction"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Unlike Duchenne muscular dystrophy where progressive cardiomyopathy represents the primary life-limiting condition in patients after age 20 due to disruption of cytoskeletal and sarcomeric architecture, primary structural cardiomyopathy has not been established as a primary feature of SNUPN-related dystrophy.",
+          "stance": "supports",
+          "source": {
+            "title": "Unraveling the Genetic Heartbeat: Decoding Cardiac Involvement in Duchenne Muscular Dystrophy",
+            "authors": [
+              "V Novelli"
+            ],
+            "year": 2025,
+            "journal": "Biomedicines",
+            "doi": "10.3390/biomedicines13010102",
+            "pmid": "39857686",
+            "pmc": null,
+            "url": "https://www.mdpi.com/2227-9059/13/1/102",
+            "quote": "Cardiomyopathy represents the most important life-limiting condition of Duchenne muscular dystrophy (DMD) patients after the age of 20."
+          },
+          "numbers": [
+            {
+              "metric": "incidence of DMD male live births",
+              "value": "1 in 5000"
+            }
+          ]
+        },
+        {
+          "text": "Evaluation of adult-onset SNUPN-related muscular dystrophy demonstrated proximo-distal and axial weakness with early respiratory involvement, but primary cardiomyopathy or intrinsic myocardial conduction defects were not observed.",
+          "stance": "contradicts",
+          "source": {
+            "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic ...",
+            "authors": [],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC12883674",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12883674/",
+            "quote": "Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement."
+          },
+          "numbers": [
+            {
+              "metric": "novel deleterious variants identified",
+              "value": 2
+            },
+            {
+              "metric": "affected adult siblings",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cardiopulmonary dysfunction in SNUPN deficiency is restricted to respiratory pump failure and secondary cor pulmonale rather than primary cardiomyocyte cell death or snurportin-1-mediated spliceosomal breakdown in the myocardium.",
+      "rationale": "Adult-onset SNUPN cases manifest early axial and respiratory involvement, mirroring inclusion body myositis or rigid spine presentations. In contrast to skeletal muscle tissue where sarcolemmal ECM dysregulation and cytoskeletal disruption are prominent, cardiac muscle expression or compensation of alternative nuclear import mechanisms may protect cardiac myocytes from primary dystrophic breakdown.",
+      "aspects": [
+        "respiratory involvement",
+        "pathomechanism",
+        "cardiac phenotype"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Adult-onset SNUPN-related myopathy is characterized by early respiratory muscle involvement alongside axial and proximo-distal weakness, while showing intact cardiac systolic performance.",
+          "stance": "supports",
+          "source": {
+            "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic ...",
+            "authors": [],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC12883674",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12883674/",
+            "quote": "We advise SNUPN testing in patients with late-onset proximo-distal and axial weakness with early respiratory impairment and features reminding inclusion body myositis (IBM)."
+          },
+          "numbers": [
+            {
+              "metric": "adult cases with early respiratory impairment",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "text": "RNA mis-splicing and ECM dysregulation in SNUPN deficiency cause targeted disruption of sarcolemmal components in skeletal muscle tissues without documented primary myocardial tissue necrosis in patient cohorts.",
+          "stance": "supports",
+          "source": {
+            "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+            "authors": [
+              "M Nashabat",
+              "N Nabavizadeh",
+              "HP Sara\u00e7o\u011flu"
+            ],
+            "year": 2024,
+            "journal": "Nature Communications",
+            "doi": "10.1038/s41467-024-45933-5",
+            "pmid": "38413582",
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41467-024-45933-5",
+            "quote": "Transcriptome analyses reveal splicing and mRNA expression dysregulation, particularly in sarcolemmal components, causing disruption of cytoskeletal organization in mutant cells and patient muscle tissues."
+          },
+          "numbers": [
+            {
+              "metric": "biallelic SNUPN variants analyzed",
+              "value": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "In LGMDR29 patients presenting with high serum CK-MB or cardiac troponins, does cardiac magnetic resonance (CMR) with late gadolinium enhancement (LGE) detect myocardial fibrosis or myocarditis, or does it confirm isolated skeletal muscle origin?",
+      "rationale": "Testing whether suspected cardiac biomarker elevations correspond to genuine myocardial tissue alterations (edema or fibrosis) on CMR will definitively refute or confirm primary myocardial involvement in early-onset SNUPN deficiency.",
+      "promise": 0.88,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "Does transcriptomic and proteomic analysis of human cardiac tissue or human iPSC-derived cardiomyocytes with biallelic SNUPN loss-of-function variants reveal spliceosomal failure and Cajal body breakdown comparable to skeletal myofibers?",
+      "rationale": "Evaluating whether cardiac myocytes possess alternative redundant snRNP nuclear transport pathways will determine if the heart is biologically spared from SNUPN-mediated sarcolemmal ECM dysregulation.",
+      "promise": 0.82,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

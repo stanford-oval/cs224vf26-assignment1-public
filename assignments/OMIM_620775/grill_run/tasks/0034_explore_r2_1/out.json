@@ -1,0 +1,161 @@
+{
+  "hypotheses": [
+    {
+      "text": "Generalized limb muscle weakness (HP:0001324) occurs in fewer than 85% of individuals with pathogenic FILIP1 variants, as truncating loss-of-function variants can cause severe arthrogryposis multiplex congenita or facial hypotonia without overt classic congenital limb myopathy.",
+      "rationale": "Watts et al. (2024) specifically identified an individual harboring biallelic truncating FILIP1 variants with facial hypotonia and joint contractures who lacked limb muscle weakness and classic congenital myopathy, refuting the prior claim that generalized muscle weakness is near-universal (>90%).",
+      "aspects": [
+        "phenotypic frequency",
+        "muscle weakness",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Watts et al. documented a patient with biallelic truncating FILIP1 variants presenting with scoliosis, facial hypotonia, and high arched palate in the explicit absence of muscle weakness or features indicative of congenital myopathy.",
+          "stance": "supports",
+          "source": {
+            "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+            "authors": [
+              "LM Watts",
+              "DJ Bunyan",
+              "E Giacopuzzi"
+            ],
+            "year": 2024,
+            "journal": "Brain Communications",
+            "doi": "10.1093/braincomms/fcae330",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+            "quote": "... in the absence of muscle weakness or features indicative of ... with biallelic truncating variants in FILIP1, we identified Family 2\u2026 , scoliosis, facial hypotonia and high arched palate. Both \u2026"
+          },
+          "numbers": []
+        },
+        {
+          "text": "Roos et al. described five patients across four families who presented with muscle weakness and pathology alongside hypotonia, dysmorphism, and neurodevelopmental delay.",
+          "stance": "contradicts",
+          "source": {
+            "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+            "authors": [
+              "A Roos",
+              "PFM van der Ven",
+              "H Alrohaif",
+              "H K\u00f6lbel",
+              "L Heil"
+            ],
+            "year": 2023,
+            "journal": "Brain",
+            "doi": "10.1093/brain/awad110",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+            "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features."
+          },
+          "numbers": [
+            {
+              "metric": "patients with muscle weakness and pathology in cohort",
+              "value": "5/5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Neonatal respiratory distress (HP:0002643) is present in fewer than 40% of neonates with FILIP1-related neuromuscular disorder, differentiating it from severe early-onset neuromuscular disorders such as spinal muscular atrophy with respiratory distress type 1 (SMARD1).",
+      "rationale": "Initial formulations conflated congenital hypotonia with mandatory neonatal respiratory failure. While common in disorders like SMARD1, respiratory compromise in FILIP1 is not consistently reported in primary cohorts and is unlikely to be near-universal.",
+      "aspects": [
+        "differential diagnosis",
+        "respiratory distress",
+        "phenotypic frequency"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "SMARD1 characteristically presents with severe respiratory distress owing to diaphragmatic weakness alongside hypotonia, whereas respiratory failure is an inconsistent feature in FILIP1-associated cohorts.",
+          "stance": "supports",
+          "source": {
+            "title": "Infantile Hypotonia: A Case of Spinal Muscular Atrophy With ...",
+            "authors": [
+              "J Cardenas"
+            ],
+            "year": 2021,
+            "journal": "Cureus",
+            "doi": "10.7759/cureus.19006",
+            "pmid": "34824924",
+            "pmc": "PMC8609979",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8609979/",
+            "quote": "The condition is characterized by progressive and severe respiratory distress, hypotonia, and autonomic dysfunction. Symptoms typically begin ... between six weeks and six months of age, with an eventual requirement of respiratory support."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Hypotonia in FILIP1-associated disorder predominantly manifests as craniofacial and axial hypotonia rather than generalized flaccidity, frequently co-occurring with rigid distal arthrogryposis and contractures.",
+      "rationale": "Patients reported by Watts et al. and Seneor et al. highlight facial hypotonia, high arched palate, and arthrogryposis, demonstrating that axial/cranial hypotonia can co-exist with fixed joint stiffness and contractures rather than global, classical floppy infant syndrome.",
+      "aspects": [
+        "hypotonia",
+        "arthrogryposis multiplex congenita",
+        "cranial phenotype"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Watts et al. noted facial hypotonia, scoliosis, and high-arched palate in a patient with truncating FILIP1 variants lacking classic limb weakness.",
+          "stance": "supports",
+          "source": {
+            "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+            "authors": [
+              "LM Watts",
+              "DJ Bunyan",
+              "E Giacopuzzi"
+            ],
+            "year": 2024,
+            "journal": "Brain Communications",
+            "doi": "10.1093/braincomms/fcae330",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+            "quote": "... scoliosis, facial hypotonia and high arched palate."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Seneor et al. highlight that infants with arthrogryposis multiplex congenita caused by loss-of-function variants in genes including FILIP1 present with hypotonia alongside congenital contractures.",
+          "stance": "supports",
+          "source": {
+            "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+            "authors": [
+              "DD Seneor",
+              "JP Barile",
+              "PM Mendes",
+              "M Orsini"
+            ],
+            "year": 2026,
+            "journal": "Genes",
+            "doi": "10.3390/genes17060675",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/2073-4425/17/6/675",
+            "quote": "Infants present at birth with profound hypotonia, weak or \u2026 More recently, FILIP1 loss-of-function variants were identified \u2026"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of mechanical ventilation or neonatal respiratory distress across all genetically confirmed FILIP1 cases in the literature?",
+      "rationale": "Clarifying the respiratory trajectory will determine if respiratory insufficiency belongs in the core definition or only in severe secondary neonatal presentations.",
+      "promise": 0.75,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "Does the presence of structural myopathology (e.g., core-like zones or filamin C accumulation) correlate strictly with missense variants rather than truncating variants?",
+      "rationale": "Differentiating structural congenital myopathy with weakness from akinesia/arthrogryposis without weakness could fully resolve the observed clinical divergence between the Roos and Watts cohorts.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_618443",
+ "omim": "OMIM:618443",
+ "disease": "Neurodevelopmental disorder with or without variable brain abnormalities",
+ "gene": "MAPK8IP3",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1648,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with or without variable brain abnormalities (MAPK8IP3, OMIM:618443):\n\n[1] About MAPK8IP3 - TheCUREMAPK8IP3 Foundation\nhttps://curemapk8ip3.org/about-mapk8ip3/\nDe novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies \u00b7 Recurrent de novo MAPK8IP3 variants cause neurological phenotypes ...\n\n[2] Entry - #618443 - NEURODEVELOPMENTAL DISORDER ...\nhttps://omim.org/entry/618443\nneurodevelopmental disorder with or without variable brain abnormalities (NEDBA) is caused by heterozygous mutation in the MAPK8IP3 gene ( ...\n\n[3] Article De Novo Variants in MAPK8IP3 Cause Intellectual ...\nhttps://www.sciencedirect.com/science/article/pii/S0002929718304592\nby K Platzer \u00b7 2019 \u00b7 Cited by 84 \u2014 , we implicate de novo variants in MAPK8IP3 as a cause of a neurodevelopmental disorder with intellectual disability and variable brain ...\n\n[4] MAPK8IP3-Related Neurodevelopmental Disorder\nhttps://rarediseases.org/rare-diseases/mapk8ip3-related-neurodevelopmental-disorder/\nMAPK8IP3-related neurodevelopmental disorder is a rare genetic condition caused by changes (variants) in the MAPK8IP3 gene, leading to ...\n\n[5] Characterization of a novel inherited splice-site variant in ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC13101558/\nIn humans, de novo heterozygous variants in the MAPK8IP3 gene have been associated with neurodevelopmental disorder with or without variable brain abnormalities ...\n\n[6] C206532 - Neurodevelopmental Disorder with ... - EVS Explore\nhttps://evsexplore.semantics.cancer.gov/evsexplore/concept/ncit/C206532\nAn autosomal dominant condition caused by mutation(s) in the MAPK8IP3 gene, It is commonly characterized by global developmental delay, intellectual disability ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 2.0, male)\n  observed: Hypotonia, Small hand, Delayed speech and language development, Global developmental delay, Delayed ability to walk, Delayed ability to sit, Oligohydramnios, Short stature\n  recorded ABSENT: Tongue fasciculations, Smooth philtrum, Dental crowding, Microdontia, Wide mouth, Broad forehead, Narrow forehead, High forehead, Low anterior hairline, Epicanthus, Thick eyebrow, Synophrys, Prominent nasal bridge, Low hanging columella, Narrow face, Square face, Long face, Secondary microcephaly, Retrognathia, Muscle weakness, Hypertonia, Broad hallux, Sacral dimple, Strabismus, Amblyopia (+28 more)\n\nP02 (age 6.0, male)\n  observed: Secondary microcephaly, Delayed speech and language development, Motor delay, Severe intellectual disability, Spasticity, Seizure, Cerebellar hypoplasia, Elevated circulating creatinine concentration, Breech presentation, Apnea, Arthrogryposis multiplex congenita, Severe muscular hypotonia, Hypoplasia of the musculature, Talipes equinovarus\n  recorded ABSENT: Thin upper lip vermilion, High palate, Abnormal facial shape, Micrognathia, Microphthalmia, Nystagmus, Dysmetric saccades, Gait ataxia, Intention tremor, Dysarthria, Focal impaired awareness seizure, Myoclonic seizure, Bilateral tonic-clonic seizure, Status epilepticus, Nail dysplasia, Clinodactyly of the 5th finger, Syndactyly, Joint hypermobility\n\nP03 (age 6.0, female)\n  observed: Global developmental delay, Delayed speech and language development, Delayed ability to walk, Autistic behavior, Frequent temper tantrums, Sleep disturbance, Coarse facial features, Upgaze palsy, Depressed nasal bridge, Wide nose, Thin upper lip vermilion, Urinary incontinence, Ataxia, Upslanted palpebral fissure, Deeply set eye, Tremor, Stooped posture, Dystonia, Lower limb spasticity, Postural instability, Ventriculomegaly, Inferior cerebellar vermis hypoplasia\n  recorded ABSENT: Absent speech, Aggressive behavior, Self-injurious behavior, Seizure, Everted lower lip vermilion, Orthostatic hypotension, Tics, Mandibular prognathia, Scoliosis, Joint hypermobility, Obstructive sleep apnea, Hypermetropia, High myopia, Pancytopenia, Small hand, Hypotonia, Visual impairment, Obesity, Cleft palate, Hypospadias, Hypertension, Polyphagia, Epicanthus, Talipes equinovarus, Nystagmus (+22 more)\n\nP04 (age 6.0, male)\n  observed: Coarse facial features, Facial hypotonia, Strabismus, Cerebral visual impairment, Tapered finger, Generalized hypotonia, Delayed speech and language development, Severe global developmental delay, Delayed ability to walk, Delayed ability to sit, Severe intellectual disability, Unsteady gait, Generalized-onset motor seizure, Delayed CNS myelination, Reduced cerebral white matter volume, Thin corpus callosum, Feeding difficulties, Impairment of activities of daily living\n  recorded ABSENT: Hearing impairment, Joint contracture, Spasticity, Skeletal muscle atrophy, Developmental regression, Tremor, Areflexia, Hyperreflexia, Dystonia, Ataxia, Failure to thrive\n\nP05 (age 7.0, male)\n  observed: Thick vermilion border, High forehead, Downslanted palpebral fissures, Microcephaly, Enlarged cisterna magna, Lower limb spasticity, Mild intellectual disability, Clonus, Myoclonus, Attention deficit hyperactivity disorder, EEG abnormality, Seizure, Constipation\n  recorded ABSENT: Smooth philtrum, Long philtrum, Diastema, Increased overbite, Macrodontia, Cleft palate, High, narrow palate, Pierre-Robin sequence, Narrow forehead, Low anterior hairline, Broad chin, Full cheeks, Epicanthus, Almond-shaped palpebral fissure, Upslanted palpebral fissure, Long palpebral fissure, Narrow palpebral fissure, Thick eyebrow, Horizontal eyebrow, Broad eyebrow, Wide nasal bridge, Wide nose, Bulbous nose, Broad nasal tip, Facial asymmetry (+12 more)\n\nP06 (age 14.7, male)\n  observed: Global developmental delay, Moderate intellectual disability, Autistic behavior, Hypotonia, Ataxia, Cerebellar atrophy, Scoliosis, Emotional lability, Compulsive behaviors\n  recorded ABSENT: Cerebral palsy, Mild intellectual disability, Severe intellectual disability, Developmental regression, Cerebral visual impairment, Periventricular leukomalacia, Reduced cerebral white matter volume, Thin corpus callosum, Seizure, Spasticity, Short philtrum, Long philtrum, Thick eyebrow, Anteverted nares, Prominent nasal bridge, Narrow mouth, Hypertelorism, Nystagmus, Asthenia, Polymicrogyria, Dysplastic corpus callosum, Syringomyelia, CNS hypomyelination, Lateral ventricle dilatation, Subcortical U fiber lesion (+21 more)\n\nP07 (age 32.0, female)\n  observed: Intellectual disability, Delayed ability to sit, Delayed ability to walk, Hyporeflexia, Cerebellar atrophy, Absent speech, Contracture of the proximal interphalangeal joint of the 5th finger, Scoliosis, Brachydactyly, Thick vermilion border, Short palpebral fissure, Long philtrum, Bulbous nose, Coarse facial features, Talipes equinovarus\n  recorded ABSENT: Hypotonia, Sensorineural hearing impairment\n\nP08 (age 6.5, female)\n  observed: Unilateral renal agenesis, Renal cortical cysts, Patent ductus arteriosus, Atrial septal defect, Mitral regurgitation, Pulmonic stenosis\n  recorded ABSENT: Fetal tachycardia, Ventricular septal defect, Patent foramen ovale, Right ventricular dilatation, Delayed speech and language development, Mild intellectual disability, Severe intellectual disability, Specific learning disability, Seizure, Attention deficit hyperactivity disorder, Autistic behavior, Hypotonia\n\nP09 (age 19.0, female)\n  observed: Widely spaced teeth, Narrow forehead, Prominent metopic ridge, Short chin, Upslanted palpebral fissure, Short palpebral fissure, Sparse eyebrow, Progressive microcephaly, Primary microcephaly, Brachycephaly, Optic atrophy, Cerebral visual impairment, Absent speech, Profound global developmental delay, Profound intellectual disability, Dysphagia, Generalized-onset seizure, Spasticity, Inability to walk, Dystonia, Cerebellar hypoplasia, Ventriculomegaly, Globus pallidus hypointensity on susceptibility-weighted imaging, Cerebral white matter atrophy, Reduced cerebral white matter volume, Thin corpus callosum, Peripheral neuropathy, Hypothyroidism, Sparse hair, Hyperconvex nail, Knee contracture, Camptodactyly of finger, Elbow contracture, Shoulder contracture, Scoliosis, Hip dysplasia, Axial hypotonia\n  recorded ABSENT: Chorea, Tremor, Ataxia, Soft skin, Poor head control, Small joint hypermobility\n\nP10 (age 14.0, male)\n  observed: Cryptorchidism, Smooth philtrum, Thin vermilion border, Downturned corners of mouth, Low anterior hairline, Long eyelashes, Highly arched eyebrow, Synophrys, Depressed nasal bridge, Low posterior hairline, Primary microcephaly, Brachycephaly, Caesarean section, Short stature, Intrauterine growth retardation, Small for gestational age, Hirsutism, Hypertelorism, Ptosis, Myopia, Gastroesophageal reflux, Feeding difficulties, Posteriorly rotated ears, Low-set ears, Severe intellectual disability, Motor delay, Delayed speech and language development, Spasticity, Periventricular cysts, Ventriculomegaly, Thin corpus callosum, Short foot, Clinodactyly of the 5th finger\n  recorded ABSENT: (none recorded)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.82,
+     "for": "Shows classic features of MAPK8IP3-related NEDBA including severe global developmental delay, intellectual disability, generalized and facial hypotonia, motor seizures, unsteady gait, feeding difficulties, and signature neuroimaging findings (delayed CNS myelination, reduced cerebral white matter volume, and thin corpus callosum).",
+     "against": "Lacks cerebellar hypoplasia or atrophy, and spasticity and ataxia are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.08,
+     "for": "Presents with global developmental delay, speech and motor delays, lower limb spasticity, ataxia, autistic features, and neuroimaging findings characteristic of the disorder (inferior cerebellar vermis hypoplasia and ventriculomegaly).",
+     "against": "Presence of upgaze palsy, dystonia, tremor, and urinary incontinence points toward an alternative neurodegenerative or neurometabolic diagnosis, and hypotonia and seizures are recorded as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.05,
+     "for": "Exhibits global developmental delay, intellectual disability, hypotonia, ataxia, autistic behavior, and cerebellar atrophy, which can be seen in MAPK8IP3 variants.",
+     "against": "Brain white matter abnormalities, thin corpus callosum, ventriculomegaly, seizures, and spasticity are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.03,
+     "for": "Displays neurodevelopmental delay with intellectual disability, seizures, microcephaly, posterior fossa anomaly (enlarged cisterna magna), and lower limb spasticity.",
+     "against": "Lacks the characteristic severe motor delay, hypotonia, delayed myelination, and corpus callosum hypoplasia reported in typical NEDBA cases."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.02,
+     "for": "Presents with severe intellectual disability, speech and motor delays, muscular hypotonia progressing to spasticity, seizures, and cerebellar hypoplasia.",
+     "against": "Presence of arthrogryposis multiplex congenita, severe hypoplasia of the musculature, neonatal apnea, and elevated creatinine is much more indicative of a severe congenital motor neuron disorder such as pontocerebellar hypoplasia type 1."
+    }
+   ],
+   "what_the_report_lacked": "The report provided only brief summary snippets from OMIM and literature titles rather than comprehensive phenotypic frequency tables, granular neuroimaging profiles, or detailed dysmorphic and systemic feature frequencies for MAPK8IP3-related disorder.",
+   "tokens_in": 2367,
+   "tokens_out": 12206,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.35,
+     "for": "Presents with severe global developmental delay, severe intellectual disability, variable brain abnormalities (delayed myelination, thin corpus callosum, reduced white matter volume), and neurological phenotypes (seizures, hypotonia).",
+     "against": "Features coarse facial features, tapered fingers, and cerebral visual impairment which are not explicitly detailed in the provided brief disease report."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.25,
+     "for": "Exhibits global developmental delay, moderate intellectual disability, cerebellar atrophy as a brain abnormality, and neurological phenotypes including hypotonia and ataxia.",
+     "against": "Seizures, thin corpus callosum, and white matter abnormalities are specifically recorded as absent in this patient."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.2,
+     "for": "Demonstrates global developmental delay, variable brain anomalies (ventriculomegaly, inferior cerebellar vermis hypoplasia), and prominent neurological signs (ataxia, dystonia, lower limb spasticity).",
+     "against": "Intellectual disability per se is not formally coded, and seizures are recorded as absent."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.12,
+     "for": "Matches the core presentation of severe intellectual disability, speech/motor delay, cerebellar hypoplasia, seizures, and spasticity.",
+     "against": "Presents with arthrogryposis multiplex congenita and elevated creatinine, which are complex features beyond the scope described in the disease summary."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Has intellectual disability, an intracranial abnormality (enlarged cisterna magna), and neurological signs (seizures, spasticity, clonus).",
+     "against": "Presents with a milder phenotype and craniofacial findings (microcephaly, high forehead, thick vermilion) not specified in the disease summary."
+    }
+   ],
+   "what_the_report_lacked": "The report was extremely brief and lacked specific granular clinical details, such as characteristic neuroimaging patterns, specific dysmorphic or musculoskeletal features, seizure semiology, and frequencies of distinct neurological signs.",
+   "tokens_in": 2367,
+   "tokens_out": 3388,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.85,
+     "for": "Presents with severe global developmental delay, intellectual disability, generalized hypotonia, seizures, delayed speech, and feeding difficulties, alongside classic brain abnormalities of MAPK8IP3-related disorder including delayed CNS myelination, reduced cerebral white matter volume, and a thin corpus callosum.",
+     "against": "Cerebellar hypoplasia or atrophy is not noted, and spasticity and ataxia are recorded as absent despite often emerging in this condition."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.05,
+     "for": "Displays global developmental delay, intellectual disability, hypotonia, ataxia, and cerebellar atrophy, which are compatible with MAPK8IP3-related neurodevelopmental disorder.",
+     "against": "Absence of corpus callosum abnormalities, white matter volume reduction, hypomyelination, spasticity, and seizures argues against this placement."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.04,
+     "for": "Features global developmental delay, coarse facial features, lower limb spasticity, ataxia, ventriculomegaly, and inferior cerebellar vermis hypoplasia.",
+     "against": "Prominent upgaze palsy and urinary incontinence are atypical, and seizures are explicitly absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.03,
+     "for": "Demonstrates intellectual disability, seizures, lower limb spasticity, and posterior fossa enlargement (enlarged cisterna magna).",
+     "against": "Lacks typical diffuse white matter or corpus callosum abnormalities, hypotonia, and severe global motor delays."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.01,
+     "for": "Exhibits severe intellectual disability, speech/motor delay, muscular hypotonia, spasticity, seizures, and cerebellar hypoplasia.",
+     "against": "Severe neonatal presentation with arthrogryposis multiplex congenita, muscle hypoplasia, apnea, and elevated creatinine strongly suggests pontocerebellar hypoplasia type 1 rather than NEDBA."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed longitudinal neurological data regarding the progression of early hypotonia into spasticity or ataxia, as well as specific neuroimaging sequences evaluating periventricular nodular heterotopia and detailed vermian morphology.",
+   "tokens_in": 2367,
+   "tokens_out": 5698,
+   "round": 3
+  }
+ ]
+}

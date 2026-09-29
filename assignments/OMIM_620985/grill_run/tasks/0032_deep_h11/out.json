@@ -1,0 +1,114 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that congenital structural brain anomalies such as ventriculomegaly are uniquely or more severely conferred by terminal exon truncating variants of MSL2 escaping nonsense-mediated decay (PTVescs) rather than early truncating variants. However, direct literature counter-evidence refutes this genotype-phenotype dichotomy: Zgheib et al. described the hallmark prenatally detected bilateral moderate ventriculomegaly in a patient carrying a 5' de novo splice-donor variant (c.142+1G>T) leading to early intron inclusion, frameshift, and loss of function. Furthermore, that patient presented with only mild developmental delay at 11 months, contradicting the notion that ventriculomegaly is confined to severe NMD-escaping C-terminal variants. In addition, functional studies by Karayol et al. on patient-derived iPSCs demonstrated overall reduced MSL2 protein levels consistent with loss-of-function/haploinsufficiency rather than stable dominant-negative toxic isoforms.",
+  "evidence": [
+    {
+      "text": "A de novo splice variant located at the 5' end of the gene (c.142+1G>T) caused intronic inclusion, frameshift, and loss-of-function intolerance, presenting prenatally with bilateral moderate ventriculomegaly and mildly enlarged lateral ventricles postnatally with only mild developmental delay at 11 months.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+        "authors": [
+          "O Zgheib",
+          "T Rio Frio",
+          "JM Pellegrinelli",
+          "S Gimelli"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+        "quote": "We report the first prenatal case of an MSL2-related pathology caused by a de novo MSL2 splice variant (c.142+1G>T). RNA study on amniotic fluid cells showed an intronic inclusion and frameshift, consistent with loss-of-function intolerance. The fetus, who presented with bilateral moderate ventriculomegaly, also carried a paternally inherited 15q13 microduplication."
+      },
+      "numbers": [
+        {
+          "metric": "postnatal age at clinical developmental evaluation (months)",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Systematic evaluation of 29,031 NDD trios identified MSL2 among genes significantly enriched for de novo protein-truncating variants in predicted NMD-escape regions, noting reports of ventriculomegaly and craniofacial findings.",
+      "stance": "supports",
+      "source": {
+        "title": "Systematic analysis of variants escaping nonsense-mediated decay uncovers candidate Mendelian diseases",
+        "authors": [
+          "RI Torene",
+          "MJG Sacoto",
+          "F Millan",
+          "Z Zhang"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00402-0",
+        "quote": "We performed a retrospective analysis of 29,031 neurodevelopmental disorder (NDD) parent-offspring trios referred for clinical exome sequencing to identify PTVesc de novo mutations (DNMs). We identified 1,376 PTVesc DNMs and 133 genes that were significantly enriched (binomial p < 0.001)."
+      },
+      "numbers": [
+        {
+          "metric": "NDD trios analyzed",
+          "value": 29031
+        },
+        {
+          "metric": "identified PTVesc DNMs",
+          "value": 1376
+        },
+        {
+          "metric": "significantly enriched genes",
+          "value": 133
+        }
+      ]
+    },
+    {
+      "text": "Characterization of 25 individuals with de novo MSL2 variants identified neurodevelopmental phenotypes including cerebral anomalies across various truncating alleles, with patient iPSCs showing reduced MSL2 expression and intact global H4K16ac levels.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2... Induced pluripotent stem cells (iPSCs) derived from three members of our cohort exhibited reduced MSL2 levels."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of individuals with de novo MSL2 variants",
+          "value": 25
+        },
+        {
+          "metric": "iPSC lines evaluated",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Ventriculomegaly is observed in patients with early 5' truncating/splice mutations (such as c.142+1G>T), contradicting the assertion that structural brain anomalies like ventriculomegaly are specific to terminal-exon NMD-escaping truncating variants.",
+    "Patients with early loss-of-function variants can present with structural brain anomalies but mild postnatal neurodevelopmental delay, disproving the model that terminal PTVescs uniquely specify severe presentations."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Does the downstream methylation episignature of MSL2 differentiate between terminal-exon PTVescs and early loss-of-function variants?",
+      "rationale": "Karayol et al. established a sensitive and specific blood DNA episignature for MSL2 variants; testing whether episignature severity scores partition by variant position could reveal subtle regulatory divergences.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the incidence of prenatal ventriculomegaly across early truncating versus terminal PTVesc MSL2 variants in a larger international registry?",
+      "rationale": "Directly comparing fetal neuroimaging across a larger series of documented MSL2 variants will establish true genotype-phenotype correlations for congenital CNS anomalies.",
+      "promise": 0.85,
+      "est_cost": 40000
+    }
+  ]
+}

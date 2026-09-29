@@ -1,0 +1,99 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that the combination of severe verbal/physical aggression and hyperphagia confers high positive diagnostic specificity for LRRC7-related disorder (OMIM #621415) compared to other synaptopathies such as SYNGAP1 or SHANK3. While the primary cohort describing LRRC7-related disorder (Willim et al., 2024) establishes intellectual disability, ADHD, autism, aggression, and hyperphagia-associated obesity as key phenotypes, hyperphagia is documented in only a subset ('several cases') rather than across the whole cohort. Furthermore, subsequent case reports (e.g., Khan et al., 2026) report opposite nutritional and growth trajectories\u2014specifically 'failure to thrive' alongside hypotonia and microcephaly. Critically, no head-to-head diagnostic specificity or sensitivity evaluations comparing LRRC7 cohorts against SYNGAP1 or SHANK3 cohorts exist in the literature, leaving the comparative specificity claim unproven.",
+  "evidence": [
+    {
+      "text": "Willim et al. identified 33 individuals with heterozygous LRRC7 variants displaying a neurodevelopmental disorder spectrum consisting of intellectual disability, autism, ADHD, aggression, and in several cases, hyperphagia-associated obesity starting in childhood.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "A proband with a de novo LRRC7 missense variant presented with global developmental delay, tonic seizures, intellectual disability, hypotonia, and failure to thrive, contradicting the assumption of universal hyperphagia or obesity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "proband_count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "SHANK3 and SYNGAP1 are recognized as major synaptic scaffold and signaling genes underlying autism spectrum disorders and intellectual disability, but broad phenotypic heterogeneity precludes purely clinical discrimination without head-to-head empirical testing.",
+      "stance": "neutral",
+      "source": {
+        "title": "Unraveling the Genetic and Molecular Architecture of Autism Spectrum Disorder: Implications for Clinical Genetics and Genomic Diagnostics",
+        "authors": [
+          "S Treccarichi",
+          "M Vinci",
+          "M Virgillito"
+        ],
+        "year": 2026,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": "10.3390/ijms27073278",
+        "pmid": "41977462",
+        "pmc": "PMC13073326",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13073326/",
+        "quote": "These include well-established risk genes such as CHD8, ADNP, ARID1B, SHANK3, SYNGAP1, SCN2A, GRIN2B, FOXP1, and DYRK1A, among others."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While Willim et al. (2024) identify hyperphagia-associated obesity as a hallmark in several affected LRRC7 cases, Khan et al. (2026) report an LRRC7 proband presenting with failure to thrive.",
+    "Hyperphagia is not fully penetrant in LRRC7-related disorder; it is reported only in a subset of the 33 individuals assessed.",
+    "No comparative clinical cohort study has evaluated the positive diagnostic specificity of the aggression-plus-hyperphagia dyad against confirmed cohorts of SYNGAP1 or SHANK3 synaptopathies."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of hyperphagia (HPO:0002591) and aggressive behavior (HPO:0000718) across all molecularly confirmed LRRC7 cases stratified by variant domain (LRR vs. linker vs. PDZ)?",
+      "rationale": "Khan et al. demonstrated that a linker variant caused failure to thrive and seizures rather than hyperphagia, suggesting strong domain-dependent phenotypic divergence.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "In a blinded cross-sectional comparison of individuals with LRRC7, SYNGAP1, and SHANK3 pathogenic variants, what are the formal sensitivity, specificity, and positive predictive value of the hyperphagia/aggression dyad?",
+      "rationale": "Direct statistical testing across standardized HPO-coded synaptopathy registries is needed to confirm or refute clinical discriminability before relying on phenotypes alone.",
+      "promise": 0.9,
+      "est_cost": 50000.0
+    }
+  ]
+}

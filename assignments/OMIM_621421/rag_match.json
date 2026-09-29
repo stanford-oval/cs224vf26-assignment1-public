@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621421",
+ "omim": "OMIM:621421",
+ "disease": "Ramond-Elliott neurodevelopmental syndrome",
+ "gene": "TRA2B",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 1606,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Ramond-Elliott neurodevelopmental syndrome (TRA2B, OMIM:621421):\n\n[1] 621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...\nhttps://omim.org/entry/621421\nRamond-Elliott neurodevelopmental syndrome (RAMELN) is caused by heterozygous mutation in the TRA2B gene (602719) on chromosome 3q27.\n\n[2] Clustered variants in the 5' coding region of TRA2B cause ...\nhttps://pubmed.ncbi.nlm.nih.gov/36549593/\nby F Ramond \u00b7 2023 \u00b7 Cited by 7 \u2014 The aim of this work was to associate germline variants in the TRA2B gene to a novel neurodevelopmental disorder. Methods: A total of 12 ...\n\n[3] Clustered variants in the 5\u2032 coding region of TRA2B ...\nhttps://www.sciencedirect.com/science/article/pii/S109836002201070X\nby F Ramond \u00b7 2023 \u00b7 Cited by 7 \u2014 Predicted loss-of-function variants clustered in the 5\u2032 portion of TRA2B cause a new neurodevelopmental syndrome through an apparently dominant negative disease ...\n\n[4] TRA2B gene Transformer 2 Beta Homolog\nhttps://www.genecards.org/card/TRA2B\nTRA2B (Transformer 2 Beta Homolog) is a Protein Coding gene. Diseases associated with TRA2B include Ramond-Elliott Neurodevelopmental Syndrome and Tauopathy.\n\n[5] Journal Pre-proof\nhttps://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf\nby F Ramond \u00b7 2023 \u00b7 Cited by 6 \u2014 In this study we have identified variants in the TRA2B gene that are very likely responsible for a new neurodevelopmental syndrome. This ...\n\n[6] TRA2B Gene Splice Variant Linked to Seizures and ...\nhttps://pubmed.ncbi.nlm.nih.gov/37958557/\nby O Shatokhina \u00b7 2023 \u00b7 Cited by 1 \u2014 In this study, we report a novel splice variant in the TRA2B gene identified in a patient presenting with seizures and neurodevelopmental delay.\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 1.8, female)\n  observed: Cleft palate, Preauricular skin tag, Midface retrusion, Sparse eyebrow, Bulbous nose, Neonatal respiratory distress, Poor head control, Short thumb, Optic nerve hypoplasia, Deeply set eye, Hearing impairment, Absent speech, Severe global developmental delay, Delayed ability to sit, Sparse hair\n  recorded ABSENT: Palpebral edema, High anterior hairline, Myopathic facies, Abnormal facial shape, Unilateral cleft lip, Frontal bossing, Narrow forehead, Prominent forehead, Preauricular pit, Downslanted palpebral fissures, Limbal dermoid, Synophrys, Anteverted nares, Narrow naris, Depressed nasal bridge, Wide nasal bridge, Short nose, Underdeveloped nasal alae, Thick nasal alae, Low hanging columella, Prominent supraorbital ridges, Primary microcephaly, Brachycephaly, Plagiocephaly, Pulmonary artery hypoplasia (+30 more)\n\nP02 (age 17.0, female)\n  observed: Retinal dystrophy, Hypermetropia, Severe global developmental delay, Motor delay, Delayed speech and language development, Severe intellectual disability, Seizure, Cerebellar atrophy, Hypotonia\n  recorded ABSENT: Astigmatism, Optic atrophy, Hypertelorism, Strabismus, Myopia, Low-set ears, Mild intellectual disability, Craniosynostosis, Retrognathia, Coarse facial features, Triangular face, Macroglossia, Wide mouth, Bifid uvula, Narrow palate, Prominent glabella, Sloping forehead, Epicanthus, Depressed nasal bridge, Wide nose, Prominent nose\n\nP03 (age 1.2, male)\n  observed: Joint hypermobility, Global developmental delay, Delayed gross motor development, Delayed speech and language development, Intellectual disability, Autistic behavior, Constipation\n  recorded ABSENT: Microcephaly, Feeding difficulties\n\nP04 (age 7.0, male)\n  observed: Absent crus of helix, Short palpebral fissure, Round face, Fetal tachycardia, Ventricular septal defect, Atrial septal defect, Mild global developmental delay, Autistic behavior, Polydactyly\n  recorded ABSENT: Overfolded helix, Unilateral renal agenesis, Renal cortical cysts, Microcephaly, Retrognathia, Deep philtrum, Exaggerated cupid's bow, Everted lower lip vermilion, Thin vermilion border, Thick vermilion border, Narrow mouth, Open mouth, Broad forehead, Narrow forehead, High forehead, Highly arched eyebrow, Synophrys, Upslanted palpebral fissure, Epicanthus, Wide nasal bridge, Depressed nasal bridge, Anteverted nares, Facial asymmetry, Long face, Patent ductus arteriosus (+15 more)\n\nP05 (age 8.0, male)\n  observed: Dermal translucency, Inguinal hernia, Myopia, Global developmental delay, Cavum septum pellucidum, Extra-axial cerebrospinal fluid accumulation\n  recorded ABSENT: Short stature, Sacral dimple, Slender finger, Pes planus, Retrognathia, Abnormal calvaria morphology, Abnormal fontanelle morphology, Macrocephaly, Microcephaly, Pectus excavatum, Joint hypermobility, Anteverted ears, Posteriorly rotated ears, Low-set ears, Macular hypoplasia, Microphthalmia, Hypotelorism, Deeply set eye, Strabismus, Wide intermamillary distance, Inverted nipples, Long face, Triangular face, Downturned corners of mouth, Ankyloglossia (+8 more)\n\nP06 (age None, female)\n  observed: Feeding difficulties, Hypotonia, Attention deficit hyperactivity disorder, Delayed speech and language development, Global developmental delay, Motor delay, Febrile seizure (within the age range of 3 months to 6 years)\n  recorded ABSENT: Intrauterine growth retardation\n\nP07 (age 9.5, male)\n  observed: Hypermetropia, Recurrent infections, Hearing impairment, Global developmental delay, Intellectual disability, Autism, Chronic constipation, Hypotonia, Joint hypermobility, Pes planus\n  recorded ABSENT: Strabismus, Cryptorchidism, Hypospadias, Recurrent urinary tract infections, Ureteropelvic junction obstruction, Renal cyst, Hydronephrosis, Microcephaly, Developmental regression, Seizure, Bipolar affective disorder, Compulsive behaviors, Aggressive behavior, Attention deficit hyperactivity disorder, Motor stereotypy, Self-mutilation, Depression, Psychosis, Anxiety, Inguinal hernia, Umbilical hernia, Gastroesophageal reflux, Feeding difficulties, Hallux valgus, Clinodactyly of the 5th finger (+12 more)\n\nP08 (age 12.0, female)\n  observed: Hypoplasia of the corpus callosum, Absent speech, Feeding difficulties, Autistic behavior, Intellectual disability, Global developmental delay, Seizure, Hypertelorism, Atrial septal defect, Hypotonia, Posterior embryotoxon, Strabismus\n  recorded ABSENT: Hippocampal atrophy, Periventricular leukomalacia, Parietal cortical atrophy, 2-3 toe syndactyly, Hallux valgus, Echolalia, Ataxia, Clinodactyly of the 5th finger, Carious teeth, Proptosis, Broad nasal tip, Low-set ears, Smooth philtrum, Micrognathia, Frontal bossing, Downslanted palpebral fissures, Anteverted nares, Gait disturbance, Coarctation of aorta, Ventricular septal defect, Microcephaly, Pectus excavatum\n\nP09 (age 3.0, male)\n  observed: Microcephaly, Feeding difficulties, Axial hypotonia, Delayed speech and language development, Severe global developmental delay, Delayed ability to walk, Hypsarrhythmia, Infantile spasms, Cortical dysplasia, Short stature, Decreased body weight\n  recorded ABSENT: Dysphagia, Gastroesophageal reflux, Chronic constipation, Astigmatism, Exotropia, Cerebral visual impairment, Myopia, Hypermetropia, Low frustration tolerance, Aggressive behavior, Autistic behavior, Motor stereotypy, Epileptic encephalopathy, Delayed CNS myelination, Global brain atrophy, Cerebellar hypoplasia, Ventriculomegaly, Thin corpus callosum, Patent ductus arteriosus, Pulmonic stenosis, Patent foramen ovale\n\nP10 (age None, female)\n  observed: Microcephaly, Delayed speech and language development, Mild intellectual disability, Ataxia, Short stature, Hypotonia\n  recorded ABSENT: Chordee, Phimosis, Short philtrum, Narrow mouth, Epicanthus, Upslanted palpebral fissure, Long palpebral fissure, Synophrys, Anteverted nares, Sagittal craniosynostosis, Macrocephaly, Micrognathia, Inverted nipples, Visual impairment, Hypoventilation, Microtia, Hearing impairment, Gastrointestinal dysmotility, Delayed gross motor development, Delayed fine motor development, Absent speech, Seizure, Spasticity, Autistic behavior, Failure to thrive (+4 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.85,
+     "for": "Exhibits the core hallmark features of Ramond-Elliott neurodevelopmental syndrome including intellectual disability with absent speech, seizures, hypotonia, feeding difficulties, hypoplasia of the corpus callosum, hypertelorism, and atrial septal defect.",
+     "against": "Posterior embryotoxon is an atypical anterior chamber ocular finding not widely established as part of the syndrome."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.05,
+     "for": "Shares neurodevelopmental delay, speech/language delay, hypotonia, feeding difficulties, and a history of seizures.",
+     "against": "Lacks the structural brain abnormalities (e.g., callosal dysgenesis) and congenital heart defects often seen in more fully characterized patients."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.04,
+     "for": "Presents with severe intellectual disability, speech impairment, seizures, hypotonia, and central nervous system involvement.",
+     "against": "Retinal dystrophy is highly atypical for TRA2B-related disorder, and several facial dysmorphisms are explicitly absent."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Displays global developmental delay, motor/speech delays, intellectual disability, and autistic features consistent with TRA2B neurodevelopmental involvement.",
+     "against": "Feeding difficulties and microcephaly are recorded absent, and there are no reported seizures or structural brain/cardiac defects."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.01,
+     "for": "Demonstrates global developmental delay, intellectual disability, autism, and hypotonia.",
+     "against": "Seizures are explicitly documented as absent, and the patient presents with hearing impairment and recurrent infections which are not characteristic."
+    }
+   ],
+   "what_the_report_lacked": "The provided literature snippets lacked detailed tabulations of specific dysmorphic features, brain MRI abnormalities, and systemic manifestations (such as cardiac septal defects) across reported TRA2B cohorts.",
+   "tokens_in": 2238,
+   "tokens_out": 2500,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.35,
+     "for": "Demonstrates global developmental delay, intellectual disability, absent speech, and seizures, directly matching the core neurodevelopmental disorder and seizure phenotype highlighted in the TRA2B reports.",
+     "against": "Has structural cardiac and ocular anomalies (atrial septal defect, posterior embryotoxon) not documented in the provided summaries."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.25,
+     "for": "Presents with global developmental delay, delayed motor and speech development, attention deficit hyperactivity disorder, and seizures (febrile), consistent with a neurodevelopmental syndrome with seizures.",
+     "against": "Seizures are specifically febrile rather than unprovoked, and the clinical features are relatively non-specific."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.18,
+     "for": "Exhibits severe global developmental delay, motor/speech delays, severe intellectual disability, and seizures, consistent with the reported neurodevelopmental delay and seizures.",
+     "against": "Displays retinal dystrophy and cerebellar atrophy, which are not described in the provided evidence."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.12,
+     "for": "Demonstrates severe global developmental delay, speech and motor delays, and an epileptic phenotype (infantile spasms, hypsarrhythmia).",
+     "against": "Has focal cortical dysplasia and microcephaly, suggesting an alternative specific structural brain malformation etiology not mentioned in the evidence."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.06,
+     "for": "Displays global developmental delay, gross motor delay, speech delay, intellectual disability, and autistic behavior, aligning with a neurodevelopmental disorder.",
+     "against": "Lacks any reported seizures, which was highlighted as a key associated feature in the literature."
+    }
+   ],
+   "what_the_report_lacked": "The provided evidence only provided generalized terminology ('neurodevelopmental disorder/syndrome' and 'seizures and neurodevelopmental delay') without detailing the specific phenotypic spectrum, such as typical facial dysmorphisms, neuroimaging patterns (e.g., corpus callosum abnormalities), seizure types, or systemic involvement characteristic of Ramond-Elliott neurodevelopmental syndrome.",
+   "tokens_in": 2238,
+   "tokens_out": 3397,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.8,
+     "for": "Demonstrates severe neurodevelopmental delay with absent speech, seizures, hypotonia, autistic traits, feeding difficulties, and corpus callosum hypoplasia, which strongly correspond to the core features of TRA2B-related Ramond-Elliott syndrome.",
+     "against": "Displays specific ocular and cardiac features such as posterior embryotoxon and atrial septal defect, which are not detailed in the brief report summaries."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.08,
+     "for": "Presents with severe global developmental delay, severe intellectual disability, speech delay, seizures, and hypotonia.",
+     "against": "Presence of retinal dystrophy and cerebellar atrophy is distinctive and not highlighted in the available report summaries."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.05,
+     "for": "Shows global developmental delay, motor and speech delays, hypotonia, feeding difficulties, and seizures.",
+     "against": "Displays a relatively mild seizure profile (febrile seizures) and ADHD rather than profound syndromic neurological manifestations."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.04,
+     "for": "Presents with severe developmental delay, hypotonia, feeding difficulties, and severe epilepsy (infantile spasms).",
+     "against": "Features hypsarrhythmia and cortical dysplasia, representing an epileptic encephalopathy phenotype beyond typical descriptions in the summary."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Has global developmental delay, intellectual disability, speech delay, and autistic behavior.",
+     "against": "Lacks seizures, hypotonia, and brain or craniofacial abnormalities characteristic of the syndrome."
+    }
+   ],
+   "what_the_report_lacked": "The provided literature snippets lacked detailed granular clinical phenotypes, facial dysmorphism profiles, structural brain imaging patterns, and systemic/organ involvement descriptions for Ramond-Elliott neurodevelopmental syndrome.",
+   "tokens_in": 2238,
+   "tokens_out": 1697,
+   "round": 3
+  }
+ ]
+}

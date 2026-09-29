@@ -1,0 +1,57 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Ramond-Elliott\" \"TRA2B\" pathogenic variants \"exon 2\"",
+    "Ramond-Elliott neurodevelopmental syndrome TRA2B variants RS1 domain exon 2"
+  ],
+  "n_hits": 5,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/621421",
+      "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621421",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "title": "Clustered variants in the 5\u2032 coding region of TRA2B ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+      "title": "Journal Pre-proof",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+      "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/24/21/15572",
+      "title": "TRA2B Gene Splice Variant Linked to Seizures and ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+      "abstract_chars": 1115
+    }
+  ],
+  "input_tokens": 3468,
+  "output_tokens": 1372,
+  "usd": 0.00585,
+  "seconds": 9.8,
+  "ok": true
+}

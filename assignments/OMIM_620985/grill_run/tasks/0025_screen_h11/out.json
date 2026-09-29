@@ -1,0 +1,63 @@
+{
+  "plausible": true,
+  "note": "MSL2 carries de novo NMD-escaping truncating variants, but ventriculomegaly has been documented with early exon 1 truncating variants.",
+  "confidence": 0.45,
+  "evidence": [
+    {
+      "text": "A systematic analysis of de novo mutations in 29,031 neurodevelopmental disorder trios identified MSL2 among genes enriched for truncating variants escaping nonsense-mediated decay (PTVescs).",
+      "stance": "supports",
+      "source": {
+        "title": "Systematic analysis of variants escaping nonsense-mediated decay uncovers candidate Mendelian diseases",
+        "authors": [
+          "RI Torene",
+          "MJG Sacoto",
+          "F Millan",
+          "Z Zhang"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1016/j.ajhg.2023.11.007",
+        "pmid": "38091987",
+        "pmc": "PMC10806863",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10806863/",
+        "quote": "Genes with more PTVesc individuals (e.g., MSL2) have more sampling of the phenotypic spectrum; however, this heatmap should not be interpreted"
+      },
+      "numbers": [
+        {
+          "metric": "NDD parent-offspring trios analyzed",
+          "value": 29031
+        },
+        {
+          "metric": "Total PTVesc DNMs identified",
+          "value": 1376
+        }
+      ]
+    },
+    {
+      "text": "Congenital structural brain anomalies including bilateral ventriculomegaly were observed in a prenatal case caused by an early exon 1 splice-donor mutation (c.142+1G>T) leading to intronic inclusion and frameshift, challenging the idea that ventriculomegaly is exclusive to terminal exon NMD-escape variants.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+        "authors": [
+          "O Zgheib",
+          "T Rio Frio",
+          "JM Pellegrinelli",
+          "S Gimelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1111/cge.70071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+        "quote": "We report the first prenatal case of an MSL2-related pathology caused by a de novo MSL2 splice variant (c.142+1G>T). RNA study on amniotic fluid cells showed an intronic inclusion and frameshift, consistent with loss-of-function intolerance. The fetus, who presented with bilateral moderate ventriculomegaly, also carried a paternally inherited 15q13 microduplication."
+      },
+      "numbers": [
+        {
+          "metric": "Reported prenatal MSL2 splice cases",
+          "value": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "patterns": [
+    {
+      "pattern": "Biallelic FDXR variants exhibit high penetrance for combined optic-acoustic sensorial neurodegeneration, whereas systemic neuromuscular involvement is restricted to a minority subphenotype.",
+      "abstraction": "A primary metabolic or mitochondrial enzyme deficiency can display near-obligate penetrance in highly vulnerable sensory systems while maintaining incomplete or conditional penetrance in broader motor and peripheral neural tissues.",
+      "instance": "Across cohorts, optic atrophy (HP:0000648) and/or sensorineural hearing loss (HP:0000407) occur in >80-90% of cases (e.g., 10/10 optic atrophy and 5/10 SNHL in Jurkute et al. 2021; 8/8 in Slone et al. 2018), whereas peripheral sensorimotor polyneuropathy (HP:0009830) occurs in only 22.72% (10/44) and ataxia (HP:0002066) in 43.18% (19/44) in Masnada et al. 2023.",
+      "direction": "Establish whether cellular iron-sulfur cluster depletion selectively impairs retinal ganglion and cochlear sensory cells via tissue-specific iron metabolism thresholds compared to lower susceptibility in peripheral motor neurons.",
+      "support": "Strong across multiple independent cohorts and systematic reviews (F1, F2, F6, F7).",
+      "sources": [
+        "A Kaler et al. (2025) Ocular and neurological manifestations of the FDXR-related disorder 10.1016/j.jaapos.2024.104102",
+        "SL Stenton et al. (2021) Expanding the clinical and genetic spectrum of FDXR deficiency by functional validation of variants of uncertain significance 10.1002/humu.24160",
+        "Neringa Jurkute et al. (2021) Expanding the FDXR-Associated Disease Phenotype: Retinal Dystrophy is a Recurrent Ocular Feature 10.1167/iovs.62.6.2",
+        "X Wei et al. (2023) FDXR-associated disease in a Chinese cohort: Unraveling expanded ocular phenotypes and genetic spectrum 10.1016/j.exer.2023.109600",
+        "S Masnada et al. (2023) FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy 10.1007/s10072-023-06790-0",
+        "A Paul et al. (2017) FDXR mutations cause sensorial neuropathies and expand the spectrum of mitochondrial Fe-S-synthesis diseases 10.1016/j.ajhg.2017.09.007"
+      ],
+      "hypothesis": "Cochlear and retinal ganglion cells possess lower biochemical reserve capacity for ferredoxin-dependent Fe-S cluster maturation and antioxidant defenses than peripheral spinal motor neurons.",
+      "novelty": "Refutes the common assumption that mitochondrial Fe-S synthesis defects uniformly present as generalized severe neuromuscular syndromes."
+    },
+    {
+      "pattern": "Concurrent retinal dystrophy and severe retinal vascular attenuation distinguish FDXR deficiency from isolated primary mitochondrial optic neuropathies.",
+      "abstraction": "Subcellular channelopathies or electron transport chain defects often spare the retinal vasculature and photoreceptors, whereas defects affecting broader mitochondrial iron-sulfur assembly produce concurrent microvascular and photoreceptor degeneration.",
+      "instance": "Retinal vascular attenuation ('silver wiring' or vessel occlusion) is present in 3/5 patients in Wei et al. 2023 and 11/11 in Yi et al. 2023, along with rod-cone retinal dystrophy, contrasting with LHON and OPA1-related dominant optic atrophy which primarily show isolated optic atrophy without prominent retinal vessel silver-wiring.",
+      "direction": "Perform targeted ultra-widefield fluorescein angiography and microvascular optical coherence tomography angiography (OCTA) in suspected primary mitochondrial optic atrophy cases to differentiate FDXR disease early.",
+      "support": "Strong across ophthalmologic cohorts evaluated by angiography and funduscopy (F2, F5).",
+      "sources": [
+        "X Wei et al. (2023) FDXR-associated disease in a Chinese cohort: Unraveling expanded ocular phenotypes and genetic spectrum 10.1016/j.exer.2023.109600",
+        "S Yi et al. (2023) FDXR-Associated Oculopathy: Congenital Amaurosis and Early-Onset Severe Retinal Dystrophy as Common Presenting Features in a Chinese Population 10.3390/genes14040952",
+        "Y Zheng et al. (2025) Clinical and genetic landscape of optic atrophy in 826 families: insights from 50 nuclear genes 10.1093/brain/awae316",
+        "N Jurkute et al. (2021) Expanding the FDXR-associated disease phenotype: retinal dystrophy is a recurrent ocular feature 10.1167/iovs.62.6.2"
+      ],
+      "hypothesis": "Endothelial Fe-S cluster biogenesis dependent on FDXR is required for retinal vascular integrity, causing microvascular occlusion uniquely absent in complex I- or OPA1-specific mitochondrial defects.",
+      "novelty": "Highlights retinal vascular 'silver wiring' as a distinctive morphologic discriminator against more prevalent mitochondrial optic neuropathies."
+    },
+    {
+      "pattern": "Absence of catastrophic neonatal systemic metabolic collapse (fatal lactic acidosis, severe nonketotic hyperglycinemia, cystic leukodystrophy) differentiates MMDS9B from upstream MMDS subtypes.",
+      "abstraction": "Disorders grouped under a common nosological classification (e.g., MMDS) can bifurcate into neonatal fatal multiorgan failure versus delayed progressive sensorial/peripheral neurodegeneration based on pathway position.",
+      "instance": "MMDS1 (NFU1), MMDS2 (BOLA3), and MMDS3 (IBA57) present in neonates with pulmonary hypertension, fatal lactic acidosis, and cystic leukodystrophy, whereas MMDS9B (FDXR) typically presents without neonatal collapse or elevated glycine/lactate in juvenile or adult forms.",
+      "direction": "Develop biomarker profiles comparing CSF and plasma metabolomic signatures across different mitochondrial iron-sulfur cluster biogenesis steps.",
+      "support": "Moderate-to-high grounded evidence across comparative reviews and case series (F3, F4, F8, F9).",
+      "sources": [
+        "CR DiFalco et al. (2026) A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature 10.1002/ajmg.a.70213",
+        "N Maio et al. (2022) Mammalian iron sulfur cluster biogenesis and human diseases 10.1002/iub.2597",
+        "A Selvanathan et al. (2022) Mitochondrial iron-sulfur cluster biogenesis and neurological disorders https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+        "AV Vanlander et al. (2018) Clinical and genetic aspects of defects in the mitochondrial iron\u2013sulfur cluster synthesis pathway 10.1007/s00775-018-1550-z",
+        "S Masnada et al. (2023) FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy 10.1007/s10072-023-06790-0"
+      ],
+      "hypothesis": "FDXR maintains residual electron transfer sufficient to preserve minimal lipoate synthesis and glycine cleavage system function relative to downstream late-acting assembly factors like NFU1 and BOLA3.",
+      "novelty": "Delineates FDXR as a phenotypic outlier within the Multiple Mitochondrial Dysfunctions Syndrome group, where classical MMDS metabolic hallmarks serve as negative discriminators."
+    },
+    {
+      "pattern": "Acute or subacute motor deterioration can mimic autoimmune/inflammatory demyelinating polyneuropathy (GBS/CIDP) before full clinical emergence of optic and acoustic neuropathy.",
+      "abstraction": "Monogenic mitochondrial and metabolic neuropathies frequently undergo episodic subacute exacerbations that closely simulate acquired autoimmune polyradiculoneuropathies.",
+      "instance": "Patients described by Masnada et al. (2023) and Tafakhori et al. (2026) experienced acute progressive motor weakness or quadriparesis mimicking Guillain-Barr\u00e9 syndrome (GBS) or CIDP, where FDXR variants were only detected after poor response to immune therapies and retrospective detection of subclinical sensory deficits.",
+      "direction": "Incorporate routine auditory brainstem response (ABR) and funduscopy in atypical, treatment-refractory juvenile/young-adult GBS or CIDP cohorts.",
+      "support": "Consistent clinical observations reported in neuromuscular series (F3, F7).",
+      "sources": [
+        "S Masnada et al. (2023) FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy 10.1007/s10072-023-06790-0",
+        "A Tafakhori et al. (2026) Homozygous FDXR variant in twin sisters with spastic paraparesis followed by acute progressive flaccid quadriparesis 10.1186/s12883-026-04752-5",
+        "Y Cao et al. (2025) Identification of genetic mechanisms of non-isolated auditory neuropathy with various phenotypes in Chinese families 10.1186/s13023-025-03540-7"
+      ],
+      "hypothesis": "Mitochondrial metabolic decompensation in FDXR deficiency under physiological stress triggers sudden peripheral nerve axonopathy or conduction failure mimicking inflammatory demyelination.",
+      "novelty": "Alerts clinicians to investigate asymptomatic auditory and visual pathways to differentiate an inherited mitochondrial disorder from treatable autoimmune neuropathies."
+    }
+  ]
+}

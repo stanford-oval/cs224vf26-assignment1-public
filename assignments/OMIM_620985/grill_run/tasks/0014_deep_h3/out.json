@@ -1,0 +1,70 @@
+{
+  "verdict": "refuted",
+  "rationale": "While the seminal study by Karayol et al. (2024) identified 25 individuals with de novo MSL2 variants and established that specific facial dysmorphisms and neurodevelopmental features are characteristic of Karayol-Borroto-Haghshenas neurodevelopmental syndrome (OMIM #620985), the retrieved literature text and cohort summaries do not substantiate the claim that the specific cluster of arched/thick eyebrows, broad forehead, hypertelorism/telecanthus, and thin upper lip vermilion occurs at a 70-90% frequency across probands. Phenotypic presentation exhibits broad heterogeneity, and the precise quantitative frequencies stated in the hypothesis lack empirical confirmation in the available literature block.",
+  "evidence": [
+    {
+      "text": "Karayol et al. identified a cohort of 25 individuals with heterozygous de novo variants in MSL2 presenting with global developmental delay, intellectual disability, hypotonia, motor issues (coordination, gait disturbance), dysmorphisms, and behavioral conditions; however, specific frequencies of 70-90% for arched/thick eyebrows, broad forehead, telecanthus/hypertelorism, and thin upper lip vermilion are not documented in the text.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.001",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #620985 confirms Karayol-Borroto-Haghshenas neurodevelopmental syndrome caused by MSL2 variants across 25 unrelated patients with dysmorphic facial features and intellectual disability, but does not support a fixed 70-90% occurrence rate for the combined specific dysmorphisms stated in the hypothesis.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #620985 - KARAYOL-BORROTO-HAGHSHENAS NEURODEVELOPMENTAL SYNDROME; KBHNDS",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620985",
+        "quote": "Dysmorphic facial features [SNOMEDCT ... MSL2 gene in 25 unrelated patients with Karayol-Borroto-Haghshenas neurodevelopmental syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "documented unrelated patients",
+          "value": 25
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts a precise 70-90% prevalence for a specific combination of dysmorphic facial features (arched/thick eyebrows, broad forehead, telecanthus/hypertelorism, thin upper lip), but available clinical cohort data report generalized dysmorphic features without verifying this quantitative prevalence range."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What are the exact individual numerators and denominators for craniofacial HPO terms (e.g., HP:0002553, HP:0000337, HP:0000316, HP:0000219) across all published MSL2 probands?",
+      "rationale": "Systematic extraction from full clinical supplemental tables of the 25 Karayol et al. probands and subsequent case reports is needed to compute verified frequencies for diagnostic criteria.",
+      "promise": 0.85,
+      "est_cost": 500
+    },
+    {
+      "question_text": "How effectively does the blood DNA methylation episignature distinguish MSL2-related neurodevelopmental disorder from overlapping chromatin modifier syndromes (e.g., KAT8/MOF- or MSL3-related syndromes)?",
+      "rationale": "Because facial dysmorphisms overlap widely among chromatinopathies, molecular and epigenetic biomarkers provide superior diagnostic specificity compared to dysmorphic gestalt alone.",
+      "promise": 0.9,
+      "est_cost": 2500
+    }
+  ]
+}

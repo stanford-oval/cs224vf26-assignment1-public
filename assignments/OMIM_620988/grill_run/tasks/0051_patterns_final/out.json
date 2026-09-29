@@ -1,0 +1,60 @@
+{
+  "patterns": [
+    {
+      "pattern": "Bifurcation of Central Neurodevelopmental Disorder and Peripheral Neuropathy Across Structural and Functional Gene Domains",
+      "abstraction": "Pleiotropic monogenic conditions can exhibit distinct, non-overlapping organ-system trajectories dictated by variant locus and class, where loss-of-function variants induce early cognitive impairment and specific missense variants generate late-onset axonal degeneration.",
+      "instance": "Heterozygous DHX9 mutations manifest either as intellectual developmental disorder autosomal dominant 75 (MRD75) driven by haploinsufficiency and NLS mutations or as axonal Charcot-Marie-Tooth disease type 2 (CMT2) with adult onset (in 2/3 assessed individuals) driven by helicase core mutations, rather than a uniform neurodevelopmental syndrome across all 20 individuals.",
+      "direction": "Perform structural mapping and systematic functional assays on patient-derived cells to determine the molecular switch determining neuronal soma vs axonal pathology.",
+      "support": "Moderate-to-strong evidence based on cohort analysis of 20 individuals in Calame et al. (2023) and cross-paralog comparisons.",
+      "sources": [
+        "DG Calame et al. (2023) Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease 10.1016/j.ajhg.2023.06.013",
+        "J Lederbauer et al. (2024) The role of DEAD-and DExH-box RNA helicases in neurodevelopmental disorders 10.3389/fnmol.2024.1414949",
+        "AM Rossor (2024) The evolving spectrum of complex inherited neuropathies PMC11377048"
+      ],
+      "hypothesis": "Variants affecting DHX9 helicase core domains impair axonal transport or mitochondrial dynamics in long peripheral nerves without causing the nucleocytoplasmic mislocalization required to disrupt early cortical neurogenesis.",
+      "novelty": "Counterintuitive because systemic RNA helicase deficiencies are commonly assumed to trigger generalized neurodevelopmental compromise, yet specific alleles preserve central cognitive function while selectively causing peripheral axonopathy."
+    },
+    {
+      "pattern": "Variant-Type Specificity in Epileptogenesis and Network Hyperexcitability",
+      "abstraction": "Paroxysmal clinical features within a neurogenetic disorder do not reflect generalized gene dosage sensitivity but are confined to discrete alleles that alter functional motifs or exert dominant-negative effects.",
+      "instance": "In DHX9 cohorts, epileptic seizures are strictly restricted to patients with pathogenic missense variants located in conserved functional domains (such as the nuclear localization signal or helicase core) and are completely absent in individuals carrying loss-of-function truncating variants.",
+      "direction": "Profile neuronal network firing and synaptogenesis in human iPSC-derived cortical organoids engineered with missense NLS variants versus complete heterozygous gene knockouts.",
+      "support": "Consistent clinical observation across the 20-individual Calame et al. cohort supported by recent epilepsy-autism genetic surveys.",
+      "sources": [
+        "DG Calame et al. (2023) Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease 10.1016/j.ajhg.2023.06.013",
+        "N Specchio et al. (2025) The epilepsy\u2013autism phenotype associated with developmental and epileptic encephalopathies: New mechanism\u2010based therapeutic options 10.1111/epi.18209",
+        "J Lederbauer et al. (2024) The role of DEAD-and DExH-box RNA helicases in neurodevelopmental disorders 10.3389/fnmol.2024.1414949/full"
+      ],
+      "hypothesis": "Cytoplasmic accumulation or dominant-negative RNA/DNA unwinding defects from missense DHX9 variants alter synaptic mRNA translation and disrupt GABAergic circuit maturation, whereas simple 50% loss of DHX9 is compensated by paralogous helicases during synaptogenesis.",
+      "novelty": "Challenged the assumption that truncating loss-of-function alleles produce more severe or epileptogenic neurological syndromes than point mutations."
+    },
+    {
+      "pattern": "Sub-Threshold Penetrance of Physical and Craniofacial Hallmarks Precluding Gestalt Recognition",
+      "abstraction": "A neurodevelopmental disorder lacks invariant cardinal somatic signs when individual morphologic and neurological features demonstrate ~50% penetrance across cohorts, mandating multi-domain longitudinal profiling rather than pattern-recognition dysmorphology.",
+      "instance": "In individuals assessed for DHX9-related disease, dysmorphic facial features are present in only 8/14 (57.1%), axial hypotonia in 7/14 (50%), and neuroimaging abnormalities in 5/20 (25%), with no single craniofacial or structural brain feature serving as an invariant identifier.",
+      "direction": "Develop standardized, quantitative digital facial phenotyping and multi-feature phenomic algorithms to distinguish DHX9 phenotypes from overlapping DExD/H-box disorders.",
+      "support": "Directly grounded in the empirical frequency numerators and denominators from Calame et al. (2023) and Yamada et al. (2023).",
+      "sources": [
+        "DG Calame et al. (2023) Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease 10.1016/j.ajhg.2023.06.013",
+        "M Yamada et al. (2023) Heterozygous loss-of-function DHX9 variants are associated with neurodevelopmental disorders: Human genetic and experimental evidences 10.1016/j.ejmg.2023.104797",
+        "OMIM (n.d.) Entry - #620988 - INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 75; MRD75 https://www.omim.org/entry/620988"
+      ],
+      "hypothesis": "Dysmorphic and structural central nervous system anomalies in DHX9-related disease represent variable downstream outcomes modulated by background genetic modifiers of chromatin remodeling rather than direct, cell-autonomous helicase functions.",
+      "novelty": "Contrasts with classic syndromic intellectual disabilities where distinct facial gestalts or invariant CNS anomalies allow immediate phenotypic bedside recognition."
+    },
+    {
+      "pattern": "Mechanistic Divergence of Subcellular Compartmentalization and Proteostasis Across Paralogous Helicases",
+      "abstraction": "Closely related enzyme paralogs causing overlapping developmental syndromes diverge at the level of subcellular organelle sequestration, phase separation, and DNA damage handling under cellular stress.",
+      "instance": "Unlike DHX30 mutations which predominantly alter stress granule dynamics, pathogenic DHX9 mutations drive either aberrant cytoplasmic accumulation (NLS mutations), stress-induced nucleolar mislocalization (CMT2 variants), or nuclear R-loop and genomic instability accumulation without mislocalization (dsRBD p.Arg141Gln).",
+      "direction": "Screen small molecules capable of restoring nuclear import in NLS mutant cells or suppressing R-loop toxicity in RNA-binding domain variants.",
+      "support": "Established by functional localization assays and DNA damage biomarkers in patient-derived cellular models.",
+      "sources": [
+        "DG Calame et al. (2023) Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease 10.1016/j.ajhg.2023.06.013",
+        "J Lederbauer et al. (2024) The role of DEAD-and DExH-box RNA helicases in neurodevelopmental disorders 10.3389/fnmol.2024.1414949",
+        "C Fiorenzani et al. (2025) DEAD/DEAH-box RNA helicases shape the risk of neurodevelopmental disorders 10.1016/j.tig.2024.11.006"
+      ],
+      "hypothesis": "Differential cellular mislocalization (nucleolar vs cytoplasmic vs intranuclear R-loop entrapment) triggers distinct cell-type-specific stress response pathways that explain the segregation of motor, cognitive, and peripheral manifestations.",
+      "novelty": "Demonstrates that clinical phenotypes among DEAD/DExH-box disorders reflect divergent subcellular mis-sorting rather than simple differences in RNA catalytic unwinding rates."
+    }
+  ]
+}

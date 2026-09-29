@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"GLRX5\" \"glycine\"",
+    "NFU1 SPG93 GLRX5 BOLA3 variant nonketotic hyperglycinemia spastic paraplegia MRI"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/s10545-016-9975-4",
+      "title": "Differential diagnosis of lipoic acid synthesis defects",
+      "pmid": null,
+      "doi": "10.1007/s10545-016-9975-4",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "10.1186/s13023-021-02073-z",
+      "title": "GLRX5-associated [Fe-S] cluster biogenesis disorder: further characterisation of the neurological phenotype and long-term outcome",
+      "pmid": null,
+      "doi": "10.1186/s13023-021-02073-z",
+      "url": "https://link.springer.com/article/10.1186/s13023-021-02073-z",
+      "abstract_chars": 2335
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/137/2/366/282721",
+      "title": "Variant non ketotic hyperglycinemia is caused by mutations in LIAS, BOLA3 and the novel gene GLRX5",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/137/2/366/282721",
+      "abstract_chars": 2342
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://nsj.org.sa/content/22/1/4.short",
+      "title": "Mitochondrial iron-sulfur cluster biogenesis from molecular understanding to clinical disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://nsj.org.sa/content/22/1/4.short",
+      "abstract_chars": 1311
+    },
+    {
+      "id": "34732213",
+      "title": "GLRX5-associated [Fe-S] cluster biogenesis disorder - PMC",
+      "pmid": "34732213",
+      "doi": "10.1186/s13023-021-02073-z",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8565018/",
+      "abstract_chars": 2335
+    },
+    {
+      "id": "https://www.researchgate.net/publication/272374033_New_spastic_paraplegia_phenotype_associated_to_mutation_of_NFU1",
+      "title": "New spastic paraplegia phenotype associated to mutation ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/272374033_New_spastic_paraplegia_phenotype_associated_to_mutation_of_NFU1",
+      "abstract_chars": 653
+    },
+    {
+      "id": "26688339",
+      "title": "A leaky splicing mutation in NFU1 is associated with a particular ...",
+      "pmid": "26688339",
+      "doi": "10.1016/j.mito.2015.12.004",
+      "url": "https://www.semanticscholar.org/paper/c0e2d93e9912814bb40d148af941c57bae74eff4",
+      "abstract_chars": 864
+    },
+    {
+      "id": "41521798",
+      "title": "The History and Nosology of the Glycine Disorders ...",
+      "pmid": "41521798",
+      "doi": "10.1002/jimd.70138",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/jimd.70138",
+      "abstract_chars": 1466
+    },
+    {
+      "id": "10.1007/978-3-662-63123-2_23",
+      "title": "Nonketotic hyperglycinaemia and lipoate deficiency disorders",
+      "pmid": null,
+      "doi": "10.1007/978-3-662-63123-2_23",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-63123-2_23",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6813,
+  "output_tokens": 3213,
+  "usd": 0.01305,
+  "seconds": 20.7,
+  "ok": true
+}

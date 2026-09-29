@@ -1,0 +1,93 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that postnatal survival in BRD4-related Cornelia de Lange syndrome 6 (CdLS6) is strictly conditioned on the absence of major central nervous system tube defects or severe structural osteogenic cranial base hypoplasia, asserting that such malformations define and are restricted to fetal demise or termination cases. In clinical literature delineating human BRD4-related syndrome (CdLS6), neural tube defects (such as exencephaly or anencephaly) and severe structural cranial base hypoplasia have not been observed or established as the cause of fetal demise or termination. In the largest cohort study (Jouret et al., 2022) comprising 14 individuals including two fetuses evaluated by fetopathology, as well as subsequent reviews (Lonardo et al., 2025), human BRD4 variants predominantly manifest as non-classic, milder cohesinopathy phenotypes. The severe exencephaly and mid-facial clefting cited to support the hypothesis are observed in experimental homozygous/tissue-specific mouse knockouts (such as Linares et al., 2021), not in heterozygous human fetal presentations. Extrapolating complete neural crest ablation phenotypes in rodents to human fetal-lethal CdLS6 criteria lacks empirical clinical support and contradicts human fetopathological findings.",
+  "evidence": [
+    {
+      "text": "In the clinical and genomic delineation of the international BRD4-related syndrome cohort, 14 patients were reported, including two fetuses evaluated by fetopathology. The findings define an atypical cohesinopathy pattern, but do not document neural tube defects or osteogenic cranial base hypoplasia in the fetuses or surviving individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Understanding the new BRD4\u2010related syndrome: Clinical and genomic delineation with an international cohort study",
+        "authors": [
+          "G Jouret",
+          "S Heide",
+          "A Sorlin",
+          "L Faivre"
+        ],
+        "year": 2022,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14141",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14141",
+        "quote": "We formed an international collaborative study, and collected 14 new patients, including two fetuses. We performed phenotype and genotype analysis, integrated prenatal findings from fetopathological examinations, phenotypes of pediatric patients and adults."
+      },
+      "numbers": [
+        {
+          "metric": "total patients in cohort",
+          "value": 14
+        },
+        {
+          "metric": "fetuses evaluated by fetopathology",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Review of non-classic Cornelia de Lange syndrome due to BRD4 variants demonstrates that BRD4 alterations cause variable, non-classic, or milder phenotypes without documented human neural tube defects conditioning survival.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": "Children",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12650802",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650802/",
+        "quote": "variations in several other genes, including BRD4, have been identified as causative factors for non-classic or milder forms of the syndrome. This review aims to analyse the roles that BRD4 plays in the various pathways in which it is involved and to summarise current knowledge on atypical CdLS associated with BRD4 gene alterations"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Brd4 deletion in neural crest cell lineages in animal models results in severe craniofacial and cardiac abnormalities coupled with perinatal lethality, reflecting the consequences of complete experimental disruption of genome folding rather than the natural history of heterozygous human CdLS6 cases.",
+      "stance": "neutral",
+      "source": {
+        "title": "BRD4 orchestrates genome folding to promote neural crest differentiation",
+        "authors": [
+          "R Linares"
+        ],
+        "year": 2021,
+        "journal": "Nature Genetics",
+        "doi": "10.1038/s41588-021-00934-8",
+        "pmid": "34611363",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-021-00934-8",
+        "quote": "Brd4 deletion in neural crest results in cohesinopathy-like phenotypes. BRD4 interacts with NIPBL, a cohesin agonist, and BRD4 depletion or loss of the BRD4-NIPBL interaction reduces NIPBL occupancy, suggesting that BRD4 stabilizes NIPBL on chromatin."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Mouse models of neural crest Brd4 deletion display severe structural neural tube and craniofacial malformations resulting in lethality, whereas human fetal and postnatal cases of BRD4 variants (CdLS6) have not demonstrated central nervous system neural tube defects or osteogenic cranial base hypoplasia as discriminating markers of non-viability."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What specific structural or visceral anomalies were identified on fetopathological examination of the terminated fetuses with pathogenic BRD4 variants?",
+      "rationale": "Clarifying the actual pathological drivers of fetal termination or demise in confirmed human BRD4 cases will prevent unwarranted conflation with severe rodent ablation models.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Are major neural tube defects ever present in unselected prenatal cohorts undergoing exome sequencing for severe fetal anomalies with BRD4 variants?",
+      "rationale": "Screening large prenatal exome cohorts with central nervous system malformations will definitively determine if BRD4 loss-of-function can manifest as human neural tube defects.",
+      "promise": 0.78,
+      "est_cost": 75000
+    }
+  ]
+}

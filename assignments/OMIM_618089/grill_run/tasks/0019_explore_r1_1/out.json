@@ -1,0 +1,220 @@
+{
+  "hypotheses": [
+    {
+      "text": "Behavioral dysregulation (HP:0000708) in FBXO11-related neurodevelopmental disorder is an incompletely penetrant feature (~60-85% across independent cohorts) rather than an obligatory diagnostic criterion, meaning that the absence of overt hyperactivity or aggression cannot rule out FBXO11 variants, particularly in familial or milder presentations.",
+      "rationale": "Initial cohorts such as Gregor et al. (2018) reported behavioral problems in 85% (17/20), whereas larger follow-up series such as Goel et al. (2026) observed behavioral dysregulation in only 62% (13/21), and familial reports describe predominantly mild intellectual disability with variable or muted behavioral phenotypes. Testing whether behavioral disruption is non-obligatory prevents clinicians from missing quiet or mildly affected individuals.",
+      "aspects": [
+        "phenotype_frequency",
+        "behavioral_phenotype",
+        "clinical_discrimination"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In a cohort of 20 individuals with de novo FBXO11 variants, behavioral problems including autistic features were documented in 17 of 20 (85%) individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder",
+            "authors": [
+              "A Gregor",
+              "LG Sadleir",
+              "R Asadollahi"
+            ],
+            "year": 2018,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+            "quote": "They present with mild to severe developmental delay associated with a range of features including short (4/20) or tall (2/20) stature, obesity (5/20), microcephaly (4/19) or macrocephaly (2/19), behavioral problems (17/20), seizures (5/20)"
+          },
+          "numbers": [
+            {
+              "metric": "behavioral problems frequency",
+              "value": "17/20"
+            }
+          ]
+        },
+        {
+          "text": "In a study of 21 previously unreported individuals with pathogenic FBXO11 variants, behavioural dysregulation was present in 62% of patients.",
+          "stance": "supports",
+          "source": {
+            "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+            "authors": [
+              "H Goel",
+              "G Garg",
+              "TS Barakat",
+              "G Barcia",
+              "A Bourgois"
+            ],
+            "year": 2026,
+            "journal": "Research Square",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+            "quote": "Mild intellectual disability (86%), facial dysmorphism (67%), hypotonia (62%), and behavioural dysregulation (62%) were the most prevalent features."
+          },
+          "numbers": [
+            {
+              "metric": "behavioural dysregulation frequency",
+              "value": "62%"
+            }
+          ]
+        },
+        {
+          "text": "In an autosomal dominant familial case of IDDFBA across three individuals (mother and two daughters), the primary features were mild ID and mild dysmorphism, with ADHD and depression reported in one individual.",
+          "stance": "supports",
+          "source": {
+            "title": "The first familial case of inherited intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (IDDFBA) with a novel FBXO11 variant",
+            "authors": [
+              "CG Lee",
+              "CA Seol",
+              "CS Ki"
+            ],
+            "year": 2020,
+            "journal": "American Journal of Medical Genetics Part A",
+            "doi": "10.1002/ajmg.a.61828",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61828",
+            "quote": "ADHD as well as depression prescribed by a child psychologist from childhood to early adolescence... In this family, the mother and two daughters showed mild ID and mild facial dysmorphism."
+          },
+          "numbers": [
+            {
+              "metric": "affected familial individuals",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The simultaneous presence of axial/congenital hypotonia (HP:0001252) alongside disruptive behavioral disturbances (HP:0000708) is a distinctive signature of FBXO11-related disorder that differentiates it from non-syndromic ADHD or purely hyperactive neurobehavioral conditions.",
+      "rationale": "While disruptive behaviors (ADHD, aggression, autistic traits) are common in many neuropsychiatric presentations, FBXO11 patients concurrently exhibit early neuromuscular findings, notably hypotonia and joint hyperlaxity, in over 60% of cases (e.g. 62% in Goel et al. 2026; Jansen et al. 2019), offering an objective neuromotor discriminator.",
+      "aspects": [
+        "clinical_discrimination",
+        "neuromuscular_findings",
+        "behavioral_phenotype"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Hypotonia is identified as one of the most prevalent systemic findings in FBXO11-related NDD, occurring in 62% of affected individuals alongside behavioural dysregulation (62%).",
+          "stance": "supports",
+          "source": {
+            "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+            "authors": [
+              "H Goel",
+              "G Garg",
+              "TS Barakat",
+              "G Barcia",
+              "A Bourgois"
+            ],
+            "year": 2026,
+            "journal": "Research Square",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+            "quote": "Mild intellectual disability (86%), facial dysmorphism (67%), hypotonia (62%), and behavioural dysregulation (62%) were the most prevalent features."
+          },
+          "numbers": [
+            {
+              "metric": "hypotonia frequency",
+              "value": "62%"
+            }
+          ]
+        },
+        {
+          "text": "In 24 individuals harboring de novo FBXO11 variants, behavioral problems (ASD, ADHD, anxiety, aggression) co-occurred with neuromuscular features including hypotonia and joint hyperlaxity.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo variants in FBXO11 cause a syndromic form of intellectual disability with behavioral problems and dysmorphisms",
+            "authors": [
+              "Sandra Jansen"
+            ],
+            "year": 2019,
+            "journal": "European Journal of Human Genetics",
+            "doi": "10.1038/s41431-018-0292-2",
+            "pmid": "30679813",
+            "pmc": "PMC6462006",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6462006/",
+            "quote": "All individuals had borderline to severe ID and behavioral problems (autism spectrum disorder, attention-deficit/hyperactivity disorder, anxiety, aggression) were observed in most of them. The most relevant common facial features included a thin upper lip and a broad prominent space between the paramedian peaks of the upper lip. Other features were hypotonia and hyperlaxity of the joints."
+          },
+          "numbers": [
+            {
+              "metric": "cohort size",
+              "value": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The neurobehavioral phenotype in FBXO11 deficiency exhibits longitudinal age-dependent evolution, transitioning from childhood hyperactive/aggressive dysregulation (ADHD, temper tantrums) to adolescent and adult internalizing psychiatric symptoms such as anxiety and depression.",
+      "rationale": "Apparent discrepancies in behavioral penetrance between cohorts may stem from cross-sectional evaluations at different ages. Longitudinal observations in familial and adolescent patients (such as Lee et al. 2020) demonstrate childhood ADHD evolving with depressive/affective disorders, explaining why adult carriers may lack overt externalizing hyperactivity.",
+      "aspects": [
+        "age_dependence",
+        "behavioral_phenotype",
+        "psychiatric_manifestations"
+      ],
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "text": "Case documentation indicates ADHD and depression evaluated and managed sequentially from childhood through early adolescence and adulthood in a patient with a confirmed FBXO11 frameshift variant.",
+          "stance": "supports",
+          "source": {
+            "title": "The first familial case of inherited intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (IDDFBA) with a novel FBXO11 variant",
+            "authors": [
+              "CG Lee",
+              "CA Seol",
+              "CS Ki"
+            ],
+            "year": 2020,
+            "journal": "American Journal of Medical Genetics Part A",
+            "doi": "10.1002/ajmg.a.61828",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61828",
+            "quote": "ADHD as well as depression prescribed by a child psychologist from childhood to early adolescence. Recently, her ADHD..."
+          },
+          "numbers": []
+        },
+        {
+          "text": "A broad spectrum of behavioral and psychiatric manifestations is described across FBXO11 patients, specifically encompassing childhood ADHD and aggression alongside internalizing anxiety and mood disturbances.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo variants in FBXO11 cause a syndromic form of intellectual disability with behavioral problems and dysmorphisms",
+            "authors": [
+              "Sandra Jansen"
+            ],
+            "year": 2019,
+            "journal": "European Journal of Human Genetics",
+            "doi": "10.1038/s41431-018-0292-2",
+            "pmid": "30679813",
+            "pmc": "PMC6462006",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6462006/",
+            "quote": "All individuals had borderline to severe ID and behavioral problems (autism spectrum disorder, attention-deficit/hyperactivity disorder, anxiety, aggression) were observed in most of them."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "Does the prevalence and severity of disruptive externalizing behaviors correlate with variant class (truncating/loss-of-function versus domain-specific missense variants) or inheritance mode (de novo vs familial transmission) in FBXO11?",
+      "rationale": "Ascertainment bias via de novo exome trios often selects for severe neurobehavioral manifestations, whereas familial inherited cases and certain missense variants may manifest with attenuated neurodevelopmental profiles.",
+      "promise": 0.82,
+      "est_cost": 0.85
+    },
+    {
+      "question_text": "What is the systematic performance of combining craniofacial gestalt metrics with behavioral screening compared to behavioral screening alone in discriminating FBXO11 from overlapping ID syndromes?",
+      "rationale": "Recent computational phenotyping (e.g., GestaltMatcher in Goel et al. 2026) detected measurable facial similarity across FBXO11 individuals; evaluating its discrimination power when combined with neurobehavioral assessments would resolve whether behavioral variability impairs clinical diagnosis.",
+      "promise": 0.78,
+      "est_cost": 0.75
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,119 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical delineation of Jaberi-Elahi syndrome (JABELS; OMIM #617988) across reported cohorts demonstrates that early-onset epilepsy and hyperkinetic movement disorders (including chorea, dystonia, and choreoathetosis) occur in a substantial proportion of affected individuals with biallelic GTPBP2 loss-of-function variants. These clinical features, alongside progressive microcephaly, neurodegeneration with brain iron accumulation (NBIA), and neuroectodermal/retinal involvement, reliably distinguish GTPBP2-related neurodevelopmental disorder from uncomplicated hereditary spastic paraplegias, which are characterized primarily by isolated lower extremity spasticity and weakness without early refractory seizures or prominent choreoathetosis.",
+  "evidence": [
+    {
+      "text": "Key clinical features in individuals with biallelic GTPBP2 nonsense variants include prenatal-onset microcephaly, tone abnormalities, movement disorders, epilepsy, dysmorphic features, retinal dysfunction, ectodermal dysplasia, and progressive brain iron accumulation.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical delineation of GTPBP2-associated neuro-ectodermal syndrome: Report of two new families and review of the literature",
+        "authors": [
+          "MT Carter",
+          "S Venkateswaran"
+        ],
+        "year": 2019,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13523",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13523",
+        "quote": "Key features of this clinically recognizable condition include prenatal onset microcephaly, tone abnormalities, and movement disorders, epilepsy, dysmorphic features, retinal dysfunction, ectodermal dysplasia, and brain iron accumulation."
+      },
+      "numbers": [
+        {
+          "metric": "previously reported individuals from four unrelated families",
+          "value": 6
+        },
+        {
+          "metric": "new individuals reported from two unrelated families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Jaberi-Elahi syndrome is caused by biallelic loss-of-function variants in GTPBP2 and presents with marked phenotypic features including microcephaly, hypotonia or spasticity, global developmental delay, intellectual disability, movement disorders, and early-onset seizures requiring antiepileptic treatment.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome - NIH Genetic Testing Registry (GTR)",
+        "authors": [
+          "M So\u011fukp\u0131nar",
+          "Y Ata\u015f",
+          "G \u00dcner",
+          "P Arslan"
+        ],
+        "year": 2026,
+        "journal": "Molecular Syndromology",
+        "doi": "10.1159/000552675/949444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/gtr/conditions/C4693848",
+        "quote": "The condition shows marked phenotypic heterogeneity, including microcephaly, hypotonia or spasticity, developmental delay, intellectual disability, movement disorders, epilepsy, and variable neuroimaging findings... During follow-up, the patient developed early-onset seizures requiring antiepileptic treatment."
+      },
+      "numbers": [
+        {
+          "metric": "patient age at initial evaluation in months",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "GTPBP2 is classified as an NBIA-associated disease gene, with manifestations including movement disorders (ataxia, chorea, dystonia, and tremor) as well as epileptic features during early neurodegenerative stages, differentiating it from pure pyramidal upper motor neuron disorders.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodegeneration with brain iron accumulation and a brief report of the disease in Iran",
+        "authors": [
+          "R Hajati",
+          "M Emamikhah",
+          "FD Fard"
+        ],
+        "year": 2022,
+        "journal": "Canadian Journal of Neurological Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cambridge.org/core/journals/canadian-journal-of-neurological-sciences/article/neurodegeneration-with-brain-iron-accumulation-and-a-brief-report-of-the-disease-in-iran/F1086EF553402CA967D7E406A870BCB4",
+        "quote": "one of the latest discovered NBIA genes, GTP-binding protein 2 (GTPBP2), has been identified in an Iranian family... movement disorders including ataxia, chorea, dystonia, and tremor"
+      },
+      "numbers": [
+        {
+          "metric": "total NBIA affiliated genes identified",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "text": "GTPBP2 variants represent a recognized etiology of NBIA (Jaberi-Elahi syndrome) where early disease presentation may align with infantile-onset epileptic encephalopathy with hyperkinetic movement disorders prior to overt iron accumulation.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodegeneration with brain iron accumulation",
+        "authors": [
+          "SA Schneider"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/B9780443191763000558",
+        "quote": "In early stages, the phenotype may be in line with an infantile-onset epileptic... GTPBP2 mutations are another rare cause of NBIA, sometimes referred to as Jaberi-Elahi syndrome."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of electrographic vs. clinical seizures and choreoathetosis across longitudinal age strata in GTPBP2 cohorts?",
+      "rationale": "Movement disorder and seizure phenotypes appear age-dependent; delineating the exact timeline of transition from hypotonia to choreoathetosis, spasticity, and NBIA will sharpen differential diagnosis against complicated spastic paraplegias and other NBIA subtypes.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do GTPBP1 and GTPBP2 variants produce identical translational quality control failure phenotypes in human neuronal models?",
+      "rationale": "Clarifying whether ribosome stagnation mechanisms converge directly onto basal ganglia and cortical vulnerability will explain the shared propensity for choreoathetosis and early-onset refractory seizures.",
+      "promise": 0.8,
+      "est_cost": 65000
+    }
+  ]
+}

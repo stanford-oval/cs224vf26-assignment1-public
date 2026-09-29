@@ -1,0 +1,117 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature provided in the context does not contain the granular numerator/denominator data or statistical evidence required to substantiate that craniofacial dysmorphism and gastrointestinal dysfunction underwent phenotypic dilution in the expanded cohort of Rots et al. (2023) compared to Stolerman et al. (2019), nor does it confirm that developmental delay and speech impairment strictly retain penetrance above 90%. While sources (such as Politano et al., 2024 and Rezazadeh et al., 2025) confirm variable expressivity, non-pathognomonic dysmorphisms, and broad neurodevelopmental phenotypes across both cohorts, the provided record provides no support for the specific quantitative dilution and penetrance claims.",
+  "evidence": [
+    {
+      "text": "The study notes that heterozygous pathogenic variants in KDM6B cause a disorder characterized by non-pathognomonic facial and body dysmorphisms, a wide range of neurodevelopmental and behavioral disorders, and nonspecific neuroradiological findings, citing both Stolerman et al. (2019) and Rots et al. (2023) without demonstrating statistical dilution of dysmorphic features.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Cerebellar heterotopia in an 11\u2010year\u2010old child with ...",
+        "authors": [
+          "D Politano"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63555",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajmg.a.63555",
+        "quote": "Heterozygous pathogenic variants in KDM6B have recently been associated to a rare neurodevelopmental disorder referred to as 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities' and characterized by non-pathognomonic facial and body dysmorphisms, a wide range of neurodevelopmental and behavioral disorders and nonspecific neuroradiological findings."
+      },
+      "numbers": [
+        {
+          "metric": "patient age in years",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "The expanded KDM6B cohort study evaluated the molecular and clinical spectrum and observed that no genotype-phenotype correlation explains the variable expressivity of clinical phenotypes, but the provided excerpt does not document >90% penetrance for core phenotypes or quantitative dilution of non-neurological traits.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Top",
+          "F Di Cara",
+          "RJ Louie",
+          "E Stolerman"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "correlation observed that could explain the variable expressivity of clinical phenotypes."
+      },
+      "numbers": [
+        {
+          "metric": "frequency threshold mentioned in snippet",
+          "value": "< 5%"
+        }
+      ]
+    },
+    {
+      "text": "Stolerman neurodevelopmental syndrome is characterized by developmental delay, often with motor and speech delay, and autistic features, but cohort-wide penetrance metrics exceeding 90% are not verified in the source text.",
+      "stance": "neutral",
+      "source": {
+        "title": "Chromatin modifiers in neurodevelopment",
+        "authors": [
+          "S Rezazadeh",
+          "H Ji",
+          "C Giulivi"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.3389/fnmol.2025.1551107/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2025.1551107/full",
+        "quote": "mutation in the KDM6B gene has been linked to Stolerman \u2026 by developmental delay, often with motor and speech delay, mildly \u2026 , including ASD (Stolerman et al., 2019; Rots et al., 2023)."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Cites the initial description of 12 individuals by Stolerman et al. establishing the disorder definition, but does not provide direct comparative frequency statistics against the 2023 expanded cohort.",
+      "stance": "neutral",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+        "authors": [
+          "D Rots"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002929723001325",
+        "quote": "Based on the initial description of 12 individuals with KDM6B variants by Stolerman et al., the disorder has been named a \u201cneurodevelopmental ..."
+      },
+      "numbers": [
+        {
+          "metric": "initial discovery cohort size",
+          "value": 12
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The available literature characterizes the syndrome as 'Neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities', suggesting craniofacial features remain a recognized syndromic component rather than an ascertained artifact diluted to non-relevance.",
+    "The specific quantitative claims (dilution of gastrointestinal and craniofacial traits, coupled with >90% penetrance of developmental delay and speech impairment) lack supporting numerators and denominators in the accessible source corpus."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for craniofacial dysmorphism, gastrointestinal symptoms, and speech delay across the full Rots et al. (2023) cohort compared to Stolerman et al. (2019)?",
+      "rationale": "Direct statistical testing (e.g., Fisher's exact test) between the discovery cohort (n=12) and the international cohort is necessary to test whether non-neurological features truly diluted significantly.",
+      "promise": 0.85,
+      "est_cost": 1500
+    },
+    {
+      "question_text": "Does variant class (truncating/loss-of-function vs. missense variants in the catalytic JmjC domain) stratify the presence of syndromic facial dysmorphisms and systemic comorbidities in KDM6B-related neurodevelopmental disorder?",
+      "rationale": "Variable expressivity reported across studies may stem from functional differences among variant types rather than broad ascertainment bias.",
+      "promise": 0.8,
+      "est_cost": 3000
+    }
+  ]
+}

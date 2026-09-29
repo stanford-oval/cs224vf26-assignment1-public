@@ -1,0 +1,21 @@
+[17:00:25] INIT: parse fields + PRIOR (parallel)
+[17:00:40]   required_fields=5 seed_directions=3 prior_hypotheses=6 terms=4
+[17:00:40] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:01:05] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[17:01:39]   SCREEN: 5 passed / 5 screened ($0.04 total)
+[17:02:36]   DEEP: 2 → pool, 3 → bin ($0.08 total)
+[17:02:36]   INIT probe: 2 pooled, 3 binned (+2 directions seeded)
+[17:02:36]   INIT spent $0.16
+[17:02:42]   PLAN: $4.92 pot, $1.97 ceiling → d1 $1.97 (Directly tackles core question 1 by extracting e); d6 $1.97 (Resolves key contradictions in behavioral phenot)
+[17:02:42] ROUND 1: EXPLORE 2 dirs (d1=$1.97  d6=$1.97; spent $0.16/10.00)
+[17:03:20]   +7 hypotheses from 2 directions
+[17:03:53]   SCREEN: 8 passed / 8 screened ($0.10 total)
+[17:04:45]   DEEP: 3 → pool, 5 → bin ($0.19 total)
+[17:05:13]   PLAN: $4.81 pot, $1.93 ceiling → d17 $1.93 (Extends confirmed findings to systematically cap); d18 $1.93 (Systematically verifies pertinent negative discr)
+[17:05:13] ROUND 2: EXPLORE 2 dirs (d17=$1.93  d18=$1.93; spent $0.38/10.00)
+[17:05:40]   +6 hypotheses from 2 directions
+[17:06:12]   SCREEN: 6 passed / 6 screened ($0.15 total)
+[17:07:00]   DEEP: 2 → pool, 4 → bin ($0.28 total)
+[17:07:08] FINALIZE: converged=False spent=$0.54  (init $0.04  plan $0.01  explore $0.07  screen $0.15  deep $0.28  measure $0.00)
+[17:07:48]   outline: 7 sections; report 19KB
+[17:08:06] DONE: coverage 3/5  quality 0.37 (7 pooled / 12 binned, untested 0)  answeredness=0.22  unsourced=0.00  answeredness/$=0.3671

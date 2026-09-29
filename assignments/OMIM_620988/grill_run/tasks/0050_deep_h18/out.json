@@ -1,0 +1,90 @@
+{
+  "verdict": "conflicted",
+  "rationale": "There is empirical support demonstrating that an ATP-binding motif variant in DHX9 (p.Gly414Arg) was found in a patient with left ventricular non-compaction cardiomyopathy (LVNC) and caused cardiac conduction abnormalities in a knock-in mouse model (Yamada et al., 2023). However, asserting that LVNC or primary cardiac conduction defects distinguish DHX9 ATP-binding motif variants from DHX30-related disorders is contradicted by critical limitations: the observation in DHX9 rests upon an N=1 patient report, broader cohorts demonstrate DHX9 monoallelic variants present heterogeneously with neurodevelopmental disorders and Charcot-Marie-Tooth disease without recurrent LVNC (Lalani, 2023), and no systematic comparative cohort studies exist establishing this finding as a discriminative diagnostic marker against DHX30.",
+  "evidence": [
+    {
+      "text": "Yamada et al. identified a de novo heterozygous missense variant p.(Gly414Arg) in the ATP-binding site of DHX9 in an individual with short stature, intellectual disability, and ventricular non-compaction cardiomyopathy; homologous knock-in mice exhibited cardiac conduction abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Heterozygous loss-of-function DHX9 variants are associated with neurodevelopmental disorders: Human genetic and experimental evidences",
+        "authors": [
+          "M Yamada",
+          "Y Nitta",
+          "T Uehara",
+          "H Suzuki",
+          "F Miya"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "37369308",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37369308/",
+        "quote": "Herein, we report a patients with a heterozygous de novo missense variant, p.(Gly414Arg) of DHX9 who presented with a short stature, intellectual disability, and ventricular non-compaction cardiomyopathy. The variant was located in the glycine codon of the ATP-binding site, G-C-G-K-T."
+      },
+      "numbers": [
+        {
+          "metric": "patients reported with p.Gly414Arg and ventricular non-compaction cardiomyopathy",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Broader systematic characterization indicates that monoallelic variation in DHX9 underlies neurodevelopmental disorders and Charcot-Marie-Tooth disease, demonstrating broader phenotypic pleiotropy rather than an exclusive or specific presentation of cardiomyopathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SEEMA LALANI",
+        "authors": [
+          "S LALANI"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://profiles.viictr.org/display/269910",
+        "quote": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease. Am J Hum Genet. 2023 08"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Left ventricular non-compaction cardiomyopathy demonstrates extensive genetic and phenotypic heterogeneity, with multiple causative pathways and inconsistent diagnostic thresholds, limiting its reliability as a distinct discriminator between specific helicase-associated syndromic entities.",
+      "stance": "neutral",
+      "source": {
+        "title": "Left ventricular noncompaction: a disorder with genotypic and phenotypic heterogeneity\u2014a narrative review",
+        "authors": [
+          "K Hirono",
+          "F Ichida"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.21037/cdt-22-198",
+        "pmid": "36033229",
+        "pmc": "PMC9412206",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9412206/",
+        "quote": "This review reflects the current lack of clarity regarding the pathogenesis and significance of LVNC and showed the complexity of imaging diagnostic criteria, interpretation of the role of LVNC as a cause, and uncertainty regarding the specific genetic basis of LVNC."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The proposed distinction relies on a single patient (N=1) with the p.Gly414Arg variant and ventricular non-compaction cardiomyopathy; no multicenter series confirms penetrance of LVNC across patients with DHX9 ATP-binding motif variants.",
+    "Larger cohorts of DHX9-related neurodevelopmental disorder and Charcot-Marie-Tooth disease do not establish LVNC or primary cardiac conduction defects as a recurrent cardinal feature separating DHX9 from DHX30.",
+    "No prospective or retrospective cohort comparison between DHX9 and DHX30 cohorts has been performed to evaluate the diagnostic sensitivity or specificity of cardiomyopathy versus structural septal defects."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "In comprehensive international cohorts of individuals with DHX9 pathogenic variants, what is the exact penetrance of structural heart defects, left ventricular non-compaction, and cardiac conduction abnormalities?",
+      "rationale": "Determining the true numerator and denominator of cardiac findings across all published and registry cases of DHX9 is required before any cardiac phenotype can be considered a reliable clinical discriminator.",
+      "promise": 0.85,
+      "est_cost": 50000.0
+    },
+    {
+      "question_text": "Does direct head-to-head phenotypic comparison of individuals with DHX9 versus DHX30 variants reveal statistically significant differences in cardiovascular anomalies?",
+      "rationale": "Comparing cardiac phenotypes between matched cohorts of DHX9 and DHX30 individuals would empirically establish whether LVNC or conduction system defects exhibit discriminatory diagnostic power.",
+      "promise": 0.8,
+      "est_cost": 30000.0
+    }
+  ]
+}

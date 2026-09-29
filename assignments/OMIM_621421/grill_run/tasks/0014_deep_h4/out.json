@@ -1,0 +1,75 @@
+{
+  "verdict": "supported",
+  "rationale": "In the initial cohort delineating Ramond-Elliott neurodevelopmental syndrome (RAMELN; OMIM #621421) by Ramond et al. (2023), 12 individuals from 11 unrelated families with clustered monoallelic variants in the 5' coding region of TRA2B were systematically evaluated. Major structural congenital heart defects (e.g., conotruncal defects, hypoplastic left heart syndrome, atrioventricular septal defects) and severe ocular malformations (e.g., anophthalmia, microphthalmia, coloboma) were absent. Only minor cardiac defects were noted in a small minority (2/12, 17%), and the core clinical picture is defined by neurodevelopmental delay/intellectual disability, hypotonia, infantile spasms/epilepsy, microcephaly, structural brain anomalies, and feeding difficulties. Consequently, the presence of major structural heart defects or severe structural ocular dysgenesis strongly suggests an alternative genetic diagnosis.",
+  "evidence": [
+    {
+      "text": "In the cohort of 12 individuals with monoallelic TRA2B variants, core phenotypes included intellectual disability/developmental delay, infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature, without major structural congenital heart defects or severe ocular anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals with intellectual disability and/or developmental delay",
+          "value": "12/12"
+        },
+        {
+          "metric": "Total cohort size",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of cardiac features in the 12 individuals with TRA2B variants showed minor cardiac malformations in only 2 individuals (17%), confirming the lack of major structural congenital heart defects.",
+      "stance": "supports",
+      "source": {
+        "title": "Journal Pre-proof",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+        "quote": "Minor cardiac malformations were noted in 2 individuals (2/12, 17%)."
+      },
+      "numbers": [
+        {
+          "metric": "Minor cardiac malformations frequency",
+          "value": "2/12"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "As larger international cohorts of individuals with TRA2B variants are identified, what is the precise incidence and spectrum of minor vs. hemodynamically significant cardiac anomalies?",
+      "rationale": "Only 12 individuals have been comprehensively phenotyped in the literature so far; expanded registry data are necessary to confirm whether complex cardiac defects truly never occur.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do detailed ophthalmologic evaluations (funduscopy, electroretinography, optical coherence tomography) in RAMELN patients reveal subtle subclinical retinal or optic nerve anomalies despite the absence of gross structural malformations?",
+      "rationale": "While gross structural ocular defects like coloboma and microphthalmia are absent, defining whether subclinical optic nerve hypoplasia or retinal dystrophy occurs will further refine discriminating phenotypes.",
+      "promise": 0.75,
+      "est_cost": 20000
+    }
+  ]
+}

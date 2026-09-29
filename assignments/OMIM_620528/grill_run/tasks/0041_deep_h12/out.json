@@ -1,0 +1,134 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Pes cavus and associated foot deformities (such as hammer toes and hallux valgus) are repeatedly reported in patients with heterozygous loss-of-function variants in SPTAN1 (dHMN11), including reports by Dong et al. (2021), Beijer et al. (2019), and Van de Vondel et al. (2026). However, the hypothesis that pes cavus specifically occurs in 50% to 100% of symptomatic individuals and acts unequivocally as a physical hallmark of lower limb denervation is conflicted. First, phenotypic spectrum analysis reveals variable penetrance and variable manifestations (ranging from hallux valgus alone to severe pes cavus and hammer toes). Second, recent literature demonstrates that heterozygous SPTAN1 loss-of-function and deletions can present primarily with a distal myopathy rather than classical neurogenic denervation/dHMN, with myopathic EMG and muscle biopsy findings causing frequent diagnostic confusion.",
+  "evidence": [
+    {
+      "text": "Dong et al. (2021) identified a de novo nonsense mutation in SPTAN1 in a Chinese proband presenting with distal hereditary motor neuropathy, claw hands, and pes cavus noted on neurological examination at age 21.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "Neurological examinations at the age of 21 showed pes cavus, claw hands, \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with pes cavus in proband family",
+          "value": "1/1"
+        },
+        {
+          "metric": "age at examination (years)",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "text": "Beijer et al. (2019) identified heterozygous nonsense mutations in SPTAN1 across three families with juvenile-onset dHMN; phenotypic manifestations showed incomplete penetrance and variable foot deformities, including hallux valgus in some affected members alongside pes cavus and hammer toes in others.",
+      "stance": "supports",
+      "source": {
+        "title": "Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy",
+        "authors": [
+          "D Beijer",
+          "T Deconinck",
+          "JL De Bleecker",
+          "MT Dotti"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+        "quote": "Hallux valgus Pes cavus, hammer toes Pes cavus, hammer toes \u2026 three nonsense mutation in SPTAN1 by means of NGS in \u2026 Variable penetrance was noted for these mutations in two of three families, and phenotype severity differs greatly between patients."
+      },
+      "numbers": [
+        {
+          "metric": "families investigated",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Van de Vondel et al. (2026) described a heterozygous 9q34 microdeletion encompassing SPTAN1 manifesting with distal muscle weakness and foot abnormalities ranging from pes cavus and hammertoes, but electrophysiology, MRI, and biopsy confirmed a distal myopathy rather than pure neurogenic dHMN.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "A Monticelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01938-2",
+        "quote": "The extent of foot abnormalities ranged from pes cavus and hammertoes (I:2 and II:\u2026 \u2026 Electromyography, muscle MRI and muscle biopsy revealed a myopathic disease phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "symptomatic family members",
+          "value": 4
+        },
+        {
+          "metric": "non-penetrant relatives",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Meyer et al. (2020) reported a patient with bilateral distal atrophy, pes cavus, and foot drop harboring SPTAN1 variants who was clinically presumed to have distal hereditary motor neuropathy but was ultimately confirmed to have a primary distal myopathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "\u2026 MYOPATHIES/MYOFIBRILLAR MYOPATHIES/DISTAL MYOPATHIES/POMPE DISEASE: P. 10 Distal myopathy associated with two novel variants in SPTAN1",
+        "authors": [
+          "A Meyer",
+          "W Arnold",
+          "M Waldrop"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nmd-journal.com/article/S0960-8966(20)30216-9/abstract",
+        "quote": "Based on symptoms of bilateral distal atrophy, pes cavus and foot drop, he was thought to have a distal motor neuropathy. An \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "age of onset of delayed motor milestones (months)",
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Foot deformities in heterozygous SPTAN1 loss-of-function cases are heterogeneous: while pes cavus and hammer toes are common, some symptomatic individuals display hallux valgus without overt pes cavus, and variable penetrance exists.",
+    "Pes cavus and distal weakness in patients with SPTAN1 loss-of-function variants do not uniquely reflect lower motor neuron denervation, as multiple cohorts demonstrate these same features arising secondary to primary distal myopathy."
+  ],
+  "confidence": 0.6,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of isolated pes cavus versus other foot deformities across all molecularly confirmed SPTAN1 haploinsufficiency cases after stratifying by neurogenic versus primary myopathic EMG patterns?",
+      "rationale": "Clarifying the electrophysiological and histopathological etiology will determine whether foot deformities are neurogenic, myogenic, or secondary to intrinsic biomechanical foot muscle imbalances.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Does lower limb muscle MRI fat replacement patterning reliably distinguish SPTAN1-associated dHMN from SPTAN1-associated distal myopathy in juvenile patients presenting with pes cavus?",
+      "rationale": "Dohrn & Saporta (2020) demonstrated distinct MRI signatures (reticular vs moth-eaten fat replacement) between dHMN and distal myopathies, which could resolve diagnostic ambiguities.",
+      "promise": 0.8,
+      "est_cost": 25000
+    }
+  ]
+}

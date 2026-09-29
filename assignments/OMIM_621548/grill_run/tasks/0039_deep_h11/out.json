@@ -1,0 +1,110 @@
+{
+  "verdict": "supported",
+  "rationale": "Across multiple cohorts of isolated CLN3-associated retinal degeneration (RP101), clinical and morphological phenotypes bifurcate consistently by age of onset into two distinct subgroups. Early-onset cases (typically presenting in childhood or adolescence, ~60% of cases) present with early macular atrophic changes and severe photoreceptor loss. In contrast, late-onset/middle-age onset cases (~40% of cases) present as rod-predominant dystrophies lacking early macular atrophy and displaying focal preservation of the foveal ellipsoid zone (EZ) and outer nuclear layer (ONL). No sources contradict this dichotomy within isolated CLN3 retinal disease cohorts.",
+  "evidence": [
+    {
+      "text": "In a cohort of 15 patients with isolated CLN3 retinal degeneration, two distinct phenotypes were characterized: 9 patients (60%) presented with severe retinal degeneration and early macular atrophic changes leading to legal blindness by their 40s, while 6 patients (40%) presented with mild rod-cone degeneration of middle-age onset without early macular breakdown, reaching legal blindness in their 70s.",
+      "stance": "supports",
+      "source": {
+        "title": "Retinal Phenotype of Patients With Isolated Retinal Degeneration Due to CLN3 Pathogenic Variants in a French Retinitis Pigmentosa Cohort",
+        "authors": [
+          "VM Smirnov",
+          "M Nassisi",
+          "C Solis Hernandez"
+        ],
+        "year": 2021,
+        "journal": "JAMA Ophthalmology",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7844693",
+        "url": "https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2775583",
+        "quote": "Two distinct patterns of retinal disease could be identified: a mild rod-cone degeneration of middle-age onset (n = 6; legal blindness threshold reached by 70s) and a severe retinal degeneration with early macular atrophic changes (n = 9; legal blindness threshold reached by 40s)."
+      },
+      "numbers": [
+        {
+          "metric": "severe early macular atrophy subgroup count",
+          "value": 9
+        },
+        {
+          "metric": "mild middle-age onset foveal-sparing subgroup count",
+          "value": 6
+        },
+        {
+          "metric": "total cohort size",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Optical coherence tomography in 10 patients with isolated CLN3 retinal dystrophy revealed extensive photoreceptor loss in early-onset patients (6 of 10), but 4 of 10 patients with late-onset rod-cone dystrophy exhibited focal preservation of the ellipsoid zone and outer nuclear layer in the fovea.",
+      "stance": "supports",
+      "source": {
+        "title": "Detailed Clinical Phenotype and Molecular Genetic Findings in CLN3-Associated Isolated Retinal Degeneration",
+        "authors": [
+          "CA Ku",
+          "S Hull",
+          "G Arno",
+          "A Vincent",
+          "K Carss"
+        ],
+        "year": 2017,
+        "journal": "JAMA Ophthalmology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2629120",
+        "quote": "Optical coherence tomography imaging demonstrated significant photoreceptor loss except in patients with late-onset disease who had a focal preservation of the ellipsoid zone and outer nuclear layer in the fovea."
+      },
+      "numbers": [
+        {
+          "metric": "late-onset rod-cone dystrophy with foveal preservation count",
+          "value": 4
+        },
+        {
+          "metric": "earlier onset rod-cone dystrophy count",
+          "value": 6
+        },
+        {
+          "metric": "total patients evaluated",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "text": "Review of non-syndromic CLN3 cases observed that late-onset cases (>20 years of age) were characterized by preserved visual acuity and lack of central scotoma or macular atrophy at initial presentation, in contrast to early-onset cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical and molecular characterization of non-syndromic retinal dystrophy due to c.175G>A mutation in ceroid lipofuscinosis neuronal 3 (CLN3)",
+        "authors": [
+          "FK Chen",
+          "X Zhang",
+          "J Eintracht",
+          "D Zhang"
+        ],
+        "year": 2019,
+        "journal": "Documenta Ophthalmologica",
+        "doi": "10.1007/s10633-018-9665-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10633-018-9665-7",
+        "quote": "late-onset cases were characterized by preserved visual acuity, lack of central scotoma or macular atrophy"
+      },
+      "numbers": [
+        {
+          "metric": "early-onset threshold age (years)",
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What specific CLN3 allele combinations determine whether isolated RP101 manifests as the early-onset maculopathy phenotype versus the late-onset foveal-sparing rod-cone dystrophy phenotype?",
+      "rationale": "Smirnov et al. (2021) noted that mild and severe forms of retina-restricted CLN3 disease had different genetic backgrounds; defining the variant architecture will help clinicians predict macular preservation vs atrophy.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "verdict": "refuted",
+  "rationale": "While speech delay is a common clinical feature in Karayol-Borroto-Haghshenas neurodevelopmental syndrome (reported in ~78% to 93.3% across cohorts and literature compilations), published cohort characterizations directly contradict the hypothesis that speech delay occurs 'out of proportion to motor delay' in >85-90% of individuals. In the foundational cohort described in OMIM #620985 and cited by Zgheib et al., motor delay is documented at 88% (21 individuals) compared to speech delay at 78% (18 individuals). Karayol et al. specifically highlight prominent motor impairments including hypotonia, lack of coordination, and gait disturbance as core phenotypic hallmarks alongside global developmental delay.",
+  "evidence": [
+    {
+      "text": "In the OMIM clinical synopsis for Karayol-Borroto-Haghshenas syndrome (#620985), 21 patients exhibited motor delay, 18 had speech delay, 18 had hypotonia, and 11 had coordination abnormalities.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Entry - #620985 - KARAYOL-BORROTO-HAGHSHENAS NEURODEVELOPMENTAL SYNDROME; KBHNDS",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620985",
+        "quote": "Twenty-one patients had motor delay, 18 had speech delay, 11 had coordination abnormalities, and 18 had hypotonia. Nine patients had seizures"
+      },
+      "numbers": [
+        {
+          "metric": "patients with motor delay",
+          "value": 21
+        },
+        {
+          "metric": "patients with speech delay",
+          "value": 18
+        },
+        {
+          "metric": "patients with hypotonia",
+          "value": 18
+        },
+        {
+          "metric": "patients with coordination abnormalities",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Review of the phenotypic spectrum of MSL2 mutations indicates that motor delay was documented in 88% of patients, whereas speech delay was documented in 78%, directly opposing the claim that speech delay is disproportionately severe or frequent compared to motor delay.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+        "authors": [
+          "O Zgheib",
+          "T Rio Frio",
+          "JM Pellegrinelli",
+          "S Gimelli"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+        "quote": "to severe developmental delay, the vast majority with motor delay (88%), speech delay (78%"
+      },
+      "numbers": [
+        {
+          "metric": "frequency of motor delay",
+          "value": "88%"
+        },
+        {
+          "metric": "frequency of speech delay",
+          "value": "78%"
+        }
+      ]
+    },
+    {
+      "text": "MSL2 variants cause neurodevelopmental phenotypes characterized by global developmental delay, intellectual disability, hypotonia, and motor issues (coordination problems, feeding difficulties, gait disturbance), indicating that motor involvement is a core manifestation rather than subordinate to speech delay.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Cross-syndromic data compilation of MSL2 variants identified developmental delay/intellectual disability in 92.6% and speech delay in 93.3%, alongside motor deficits in 87.2%, reflecting high concurrent penetrance of both domains rather than isolated or disproportionate speech deficits.",
+      "stance": "neutral",
+      "source": {
+        "title": "MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation",
+        "authors": [
+          "S Luo",
+          "S Qu",
+          "S Tan",
+          "Z Song",
+          "Y Lv",
+          "X Jia",
+          "J Tan"
+        ],
+        "year": 2026,
+        "journal": "Cellular and Molecular Life Sciences",
+        "doi": "10.1007/s00018-026-06237-7_reference.pdf",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/content/pdf/10.1007/s00018-026-06237-7_reference.pdf",
+        "quote": "intellectual disability (DD/ID; 92.6%), speech delay (93.3%)"
+      },
+      "numbers": [
+        {
+          "metric": "developmental delay / intellectual disability frequency",
+          "value": "92.6%"
+        },
+        {
+          "metric": "speech delay frequency",
+          "value": "93.3%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Published cohort frequencies demonstrate that motor delay is present in 88% (21/24) of assessed cases, while speech delay is reported in 78% (18/23), contradicting the hypothesis that speech delay is significantly disproportionate relative to motor impairment."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "What specific motor sub-phenotypes (such as gait ataxia, apraxia, or fine motor incoordination) best differentiate Karayol-Borroto-Haghshenas syndrome from other MSL-complex disorders (MOF/KAT8 and MSL3)?",
+      "rationale": "Karayol et al. specifically highlight coordination deficits, gait disturbance, and hypotonia as predominant clinical hallmarks of MSL2 pathology, while global H4K16 acetylation levels distinguish it biochemically from MSL3- and KAT8-related syndromes.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "How reliable is the diagnostic utility of the MSL2 DNA methylation episignature in resolving variants of uncertain significance compared to clinical dysmorphology alone?",
+      "rationale": "Karayol et al. developed a specific blood-based DNA episignature that provides an objective molecular biomarker when phenotypic features overlap broadly with other neurodevelopmental syndromes.",
+      "promise": 0.9,
+      "est_cost": 30000
+    }
+  ]
+}

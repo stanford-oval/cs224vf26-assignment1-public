@@ -1,0 +1,109 @@
+{
+  "verdict": "supported",
+  "rationale": "Initial cohort studies (van Jaarsveld et al., 2023) recruited individuals referred primarily for developmental delay and intellectual disability, which artificially inflated penetrance estimates for cognitive phenotypes. Subsequent evaluations of expanded cohorts encompassing 68 individuals (van Oirsouw et al., PMC13327229) and familial microdeletion reports (Labonne et al., 2016) demonstrated that loss-of-function and JmjC domain variants exhibit incomplete penetrance and variable expressivity, with non-penetrant or mildly affected transmitting relatives. Highly penetrant phenotypes appear largely restricted to specific variant classes, notably missense and intragenic deletions affecting the CxxC zinc finger domain.",
+  "evidence": [
+    {
+      "text": "The initial disease delineation study established KDM2B-related neurodevelopmental disorder by specifically recruiting individuals with developmental delay, intellectual disability, and congenital organ anomalies to characterize clinical presentation and define blood DNA methylation episignatures.",
+      "stance": "supports",
+      "source": {
+        "title": "Delineation of a KDM2B-related neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities",
+        "authors": [
+          "RH van Jaarsveld"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.10.006",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "quote": "We recruited a total of 27 individuals with heterozygous variants in KDM2B. We present evidence, including a shared epigenetic signature, to support a pathogenic classification of 15 KDM2B variants... Individuals in this cohort present with developmental delay and/or intellectual disability; autism; attention deficit disorder/attention deficit hyperactivity disorder; congenital organ anomalies mainly of the heart, eyes, and urogenital system; and subtle facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "recruited cohort size",
+          "value": 27
+        },
+        {
+          "metric": "classified pathogenic/likely pathogenic individuals",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive follow-up assessment of an expanded cohort (n=68) demonstrated that loss-of-function and JmjC domain variants display incomplete penetrance and variable expressivity, whereas high penetrance is primarily observed for CxxC-domain variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24.31 Microdeletion Syndrome",
+        "authors": [
+          "ASE van Oirsouw"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13327229",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13327229/",
+        "quote": "We analyzed genotype-phenotype correlations of this cohort combined with previously reported individuals (n = 68) and classify 37 variants in 47 individuals as pathogenic or likely pathogenic. We observe a highly penetrant CxxC-related phenotype with distinct facial features supported by GestaltMatcher. In contrast, our findings point to variable expressivity and incomplete penetrance of loss-of-function variants and JmjC domain variants complicating variant classification and genetic counseling."
+      },
+      "numbers": [
+        {
+          "metric": "total analyzed individuals",
+          "value": 68
+        },
+        {
+          "metric": "individuals with pathogenic or likely pathogenic variants",
+          "value": 47
+        },
+        {
+          "metric": "classified variants",
+          "value": 37
+        }
+      ]
+    },
+    {
+      "text": "Characterization of familial 12q24.31 microdeletions disrupting KDM2B documented asymptomatic or unaffected transmitting parents, confirming incomplete penetrance of heterozygous deletions.",
+      "stance": "supports",
+      "source": {
+        "title": "12q24.31 microdeletion implicates six genes including a histone demethylase KDM2B and a histone methyltransferase SETD1B in syndromic intellectual disability",
+        "authors": [
+          "JDJ Labonne",
+          "KH Lee",
+          "S Iwase",
+          "IK Kong",
+          "MP Diamond"
+        ],
+        "year": 2016,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-016-1668-4",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-016-1668-4",
+        "quote": "the lack of phenotypes in the father can be explained by incomplete penetrance. Given that both genes KDM2B and HPD, with the same transcription direction, are truncated in our..."
+      },
+      "numbers": [
+        {
+          "metric": "critical microdeletion region size (kb)",
+          "value": 445
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Variants localized specifically within the CxxC zinc-finger domain continue to show high penetrance for developmental delay and recognizable craniofacial dysmorphism, whereas loss-of-function and JmjC domain variants demonstrate reduced penetrance."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What proportion of population biobank carriers (e.g., in gnomAD or UK Biobank) harboring putative loss-of-function KDM2B variants have subclinical or completely normal cognitive profiles?",
+      "rationale": "Directly testing biobank cohorts ascertained independently of neurodevelopmental indications will provide an unbiased, quantitative penetrance estimate for heterozygous LoF variants.",
+      "promise": 0.9,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does the KDM2B peripheral blood DNA methylation episignature show 100% sensitivity in identifying asymptomatic or mildly affected carrier parents?",
+      "rationale": "Determining whether incomplete penetrance at the clinical neurodevelopmental level is mirrored by epigenetic changes can clarify whether subclinical molecular penetrance is obligate.",
+      "promise": 0.85,
+      "est_cost": 40000.0
+    }
+  ]
+}

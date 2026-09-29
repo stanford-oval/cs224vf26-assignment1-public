@@ -1,0 +1,101 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature confirms that TUBA4A-associated spastic ataxia 11 (SPAX11) presents with lower limb spasticity accompanied by cerebellar ocular motor abnormalities, specifically nystagmus and broken smooth pursuit. While these cerebellar eye movement signs distinguish SPAX11 from pure forms of hereditary spastic paraplegia (such as SPG4, which classically lack cerebellar ocular motor signs), both AFG3L2-related disorders (SCA28/SPAX5) and TUBB4A-related neurologic disorders also exhibit overlapping pyramidal signs (progressive spasticity, hyperreflexia) combined with cerebellar signs (ataxia, nystagmus, pursuit/saccadic abnormalities). Consequently, clinical distinction cannot reliably be made from these phenotypic features alone without confirmatory molecular genetic testing.",
+  "evidence": [
+    {
+      "text": "TUBA4A p.Glu415Lys was identified in two families (12 affected individuals total) causing spastic ataxia where cerebellar involvement includes abnormal ocular movements such as nystagmus and broken smooth pursuit in conjunction with spasticity.",
+      "stance": "supports",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": "PMC10511369",
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "Cerebellar involvement appears to be modest at an early stage and mainly consists of abnormal ocular movements (nystagmus, broken smooth pursuit)... and spasticity ... In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000)."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in family 1",
+          "value": 11
+        },
+        {
+          "metric": "Affected individuals in family 2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "AFG3L2-related neurologic disorders, including spinocerebellar ataxia type 28 (SCA28), present with cerebellar dysarthria, cerebellar and supranuclear eye movement disorders, and pyramidal syndrome including spasticity with longer disease duration.",
+      "stance": "supports",
+      "source": {
+        "title": "AFG3L2-Related Neurologic Disorders",
+        "authors": [
+          "G Coarelli",
+          "C Mouraux"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK54582/",
+        "quote": "Pyramidal syndrome (increased and brisk reflexes, extensor plantar reflex, and spasticity) is commonly observed in individuals with longer disease duration. Although cognitive impairment, spasticity, and ophthalmologic signs can occur with disease progression, most individuals remain ambulatory and fully independent throughout their lives."
+      },
+      "numbers": [
+        {
+          "metric": "Mean age of onset in SCA28 (years)",
+          "value": 26.5
+        },
+        {
+          "metric": "Individuals reported with SPAX5 to date",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "text": "TUBB4A-related neurologic disorders involve both pyramidal signs (spasticity, brisk deep tendon reflexes, Babinski sign) and cerebellar features (ataxia, intention tremor, dysmetria) alongside oculomotor/bulbar signs, overlapping with the clinical spectrum of SPAX11.",
+      "stance": "supports",
+      "source": {
+        "title": "TUBB4A-Related Neurologic Disorders",
+        "authors": [
+          "F Gavazzi",
+          "A Pizzino",
+          "JF Bally",
+          "J Fraser"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK395611/",
+        "quote": "Progressive neurologic findings reflect involvement of the pyramidal tracts (spasticity, brisk deep tendon reflexes, and Babinski sign), extrapyramidal system (rigidity, dystonia, choreoathetosis, oculogyric crisis, and perioral dyskinesia), cerebellum (ataxia, intention tremor, dysmetria), and bulbar function (dysarthria, dysphonia, and swallowing)."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Do quantitative electro-oculography or infrared video-oculography parameters (such as saccadic velocity, square wave jerks, or vestibulo-ocular reflex suppression) demonstrate disease-specific patterns between TUBA4A SPAX11, AFG3L2 SCA28, and TUBB4A spectrum disorders?",
+      "rationale": "While bedside eye movement evaluation shows overlapping broken pursuit and nystagmus, quantitative oculomotor recordings may uncover distinguishing sub-phenotypic profiles across these spastic ataxia genotypes.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the true penetrance and phenotypic spectrum of non-p.Glu415Lys missense variants in TUBA4A across large international hereditary spastic paraplegia and ataxia cohorts?",
+      "rationale": "Currently described SPAX11 cohorts primarily center on p.Glu415Lys; systemic multi-cohort screening will establish whether variant type or location influences the prominence of lower limb spasticity versus cerebellar and ocular motor manifestations.",
+      "promise": 0.85,
+      "est_cost": 50000
+    }
+  ]
+}

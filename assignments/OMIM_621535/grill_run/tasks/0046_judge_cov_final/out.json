@@ -1,0 +1,62 @@
+{
+  "fields": [
+    {
+      "field": "Clinical phenotypes reported in affected individuals with Spinocerebellar ataxia 52 (RAB3A), including the verbatim wording from the paper and corresponding standard HPO term if identifiable",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Phenotype frequencies given as exact numerators and denominators per assessed cohort (not percentages alone), attached to the specific cohort and a resolvable source (PMID or DOI)",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating findings that are present in most affected individuals but uncommon in disorders usually confused with SCA52",
+      "covered": true,
+      "contributing_aspects": [
+        "discriminating features",
+        "spasticity",
+        "tremor",
+        "differential diagnosis",
+        "neuroimaging",
+        "spastic ataxia"
+      ]
+    },
+    {
+      "field": "Names of the disorders usually confused with SCA52 and the level of confidence in distinguishing SCA52 from them based on discriminating findings",
+      "covered": true,
+      "contributing_aspects": [
+        "differential diagnosis",
+        "neuroimaging",
+        "spastic ataxia",
+        "discriminating features",
+        "spasticity",
+        "tremor",
+        "spastic paraplegia"
+      ]
+    },
+    {
+      "field": "Clinical findings that were looked for and found absent in affected individuals (findings whose presence argues against the diagnosis of SCA52)",
+      "covered": true,
+      "contributing_aspects": [
+        "documented absent features",
+        "discriminating phenotypes",
+        "SCA52 exclusion criteria"
+      ]
+    },
+    {
+      "field": "Evaluation of whether the SCA52 phenotype differs by variant type, variant position, age, or sex",
+      "covered": true,
+      "contributing_aspects": [
+        "Genotype-phenotype correlations, variant spectrum, and demographics",
+        "age of onset",
+        "phenotypic spectrum"
+      ]
+    },
+    {
+      "field": "Any clinical findings reported by one paper and explicitly contradicted by another",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

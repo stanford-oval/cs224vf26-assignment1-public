@@ -1,0 +1,122 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While Kuper et al. (2021) demonstrated that 0 of 20 children presenting with early-onset STGD1 exhibited an electronegative or extinguished dark-adapted full-field ERG compared to 100% (18/18) of CLN3 patients, Khan et al. (2018) directly contradicts the claim of 100% specificity. Specifically, Khan et al. identified that 2 of 5 young children evaluated in the earliest stages of ABCA4-associated retinopathy clearly demonstrated electronegative dark-adapted ERG responses (reduced b-to-a wave ratio < 1.0). Consequently, dark-adapted electronegative or extinguished ERG waveforms are not 100% specific to CLN3 when compared to childhood-onset ABCA4/STGD1 disease.",
+  "evidence": [
+    {
+      "text": "In a comparative cohort of 38 pediatric patients presenting with rapid visual acuity loss due to macular dystrophy (18 with CLN3 and 20 with early-onset STGD1), all CLN3 patients exhibited absent or electronegative dark-adapted full-field ERG responses at initial presentation, whereas dark-adapted ERG responses in early-onset STGD1 were generally unaffected and none (0/20) exhibited an electronegative ERG.",
+      "stance": "supports",
+      "source": {
+        "title": "Recognizing differentiating clinical signs of CLN3 disease (Batten disease) at presentation",
+        "authors": [
+          "WFE Kuper",
+          "HE Talsma",
+          "NE Verbeek",
+          "KPJ Braun",
+          "F van Genderen",
+          "J de Boer",
+          "SJJ Leijten",
+          "AE de Vries-Knoppert",
+          "CB Hoyng",
+          "C Yzer"
+        ],
+        "year": 2021,
+        "journal": "Acta Ophthalmologica",
+        "doi": "10.1111/aos.14630",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/aos.14630",
+        "quote": "In CLN3 disease, dark-adapted (DA) full-field electroretinogram (ERG) responses were either absent or electronegative. In early-onset STGD1, DA ERG responses were generally unaffected. None of the STGD1 patients had an electronegative ERG."
+      },
+      "numbers": [
+        {
+          "metric": "CLN3 patients with absent or electronegative DA ERG at presentation",
+          "value": "18/18"
+        },
+        {
+          "metric": "STGD1 patients with electronegative ERG at presentation",
+          "value": "0/20"
+        }
+      ]
+    },
+    {
+      "text": "All five molecularly confirmed CLN3 patients presenting at a median age of 6.2 years with visual decline and maculopathy demonstrated electronegative full-field ERG responses on visual electrophysiology.",
+      "stance": "supports",
+      "source": {
+        "title": "Early recognition of CLN3 disease facilitated by visual electrophysiology and multimodal imaging",
+        "authors": [
+          "DH Sakti",
+          "EE Cornish",
+          "CL Fraser",
+          "BM Nash",
+          "JR Grigg"
+        ],
+        "year": 2023,
+        "journal": "Documenta Ophthalmologica",
+        "doi": "10.1007/s10633-023-09930-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10633-023-09930-1",
+        "quote": "Electronegative ERGs were identified in all patients. Bull's eye maculopathies found in all patients."
+      },
+      "numbers": [
+        {
+          "metric": "CLN3 patients presenting with electronegative ERG",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 8 pediatric patients with childhood-onset ABCA4-associated retinopathy evaluated before the development of macular atrophy, full-field electroretinography showed reduced b-wave to a-wave ratios in 3 of 5 patients tested, and 2 of 5 children clearly exhibited electronegative ERG results.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Early patterns of macular degeneration in ABCA4-associated retinopathy",
+        "authors": [
+          "KN Khan",
+          "M Kasilian",
+          "OAR Mahroo",
+          "P Tanna",
+          "AG Robson",
+          "P Ibitoyo",
+          "A Wright",
+          "AR Webster",
+          "MM Michaelides"
+        ],
+        "year": 2018,
+        "journal": "Ophthalmology",
+        "doi": "10.1016/j.ophtha.2017.11.020",
+        "pmid": "29310964",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0161642017325332",
+        "quote": "Electroretinography showed a reduced B-wave-to-A-wave ratio in 3 of 5 patients tested; in 2 children, recordings clearly showed electronegative results."
+      },
+      "numbers": [
+        {
+          "metric": "Childhood ABCA4-associated retinopathy patients with reduced b:a ratio",
+          "value": "3/5"
+        },
+        {
+          "metric": "Childhood ABCA4-associated retinopathy patients with electronegative ERG",
+          "value": "2/5"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Kuper et al. (2021) observed 0 of 20 early-onset STGD1 children with an electronegative dark-adapted ERG, whereas Khan et al. (2018) documented electronegative dark-adapted ERG responses in 2 of 5 tested pediatric patients with early-stage ABCA4-associated retinopathy, directly conflicting with 100% specificity."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence of electronegative ERG waveforms in children presenting with molecularly confirmed early-onset STGD1 across multi-center electrophysiology cohorts?",
+      "rationale": "Differences between the cohorts in Kuper et al. (0/20) and Khan et al. (2/5) indicate potential selection bias or variability based on disease stage and flash intensity protocols.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does combining dark-adapted ERG b:a wave ratios with OCT retinal nerve fiber layer (RNFL) thickness achieve 100% specificity for distinguishing CLN3 from STGD1?",
+      "rationale": "RNFL thinning and optic disc pallor were noted by Kuper et al. to be common in CLN3 but preserved in early STGD1, suggesting a multimodal diagnostic classifier may outperform electrophysiology alone.",
+      "promise": 0.9,
+      "est_cost": 20000
+    }
+  ]
+}

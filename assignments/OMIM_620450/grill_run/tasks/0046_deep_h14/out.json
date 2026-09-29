@@ -1,0 +1,69 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The claim that epileptic seizures occur in <=2/8 individuals (<=25%) is directly supported by OMIM #620450 reviewing Janssen et al. (2022), which records that only two patients had febrile seizures (one of whom had a single afebrile seizure). However, the specific assertion that muscular hypotonia (HP:0001252) occurred in >=5/8 individuals (>=62.5%) in Table 1 cannot be independently verified from the available text excerpts of Janssen et al. (2022) or OMIM #620450 in the provided SOURCES block. Furthermore, using seizure absence as an exclusionary criterion is clinically precarious given the small cohort size (n=8).",
+  "evidence": [
+    {
+      "text": "OMIM entry 620450 cites Janssen et al. (2022) and reports that two patients had febrile seizures, including one who also had a single nonfebrile seizure, among the cohort of individuals with TAF4-related neurodevelopmental disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 73; MRD73",
+        "authors": [
+          "Online Mendelian Inheritance in Man"
+        ],
+        "year": 2022,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "Two patients had febrile seizures, including 1 who also had a single nonfebrile seizure."
+      },
+      "numbers": [
+        {
+          "metric": "febrile_seizure_count",
+          "value": 2
+        },
+        {
+          "metric": "nonfebrile_seizure_count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "The discovery study for T4NDD established de novo putative loss-of-function variants across eight individuals presenting with intellectual disability, abnormal behavior, and facial dysmorphisms, without establishing hypotonia frequency in the abstract text.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD)."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 8
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The provided SOURCES block confirms low seizure frequency (2/8) from OMIM #620450, but omits the full Table 1 text of Janssen et al. (2022) needed to confirm the exact numerator for muscular hypotonia (>=5/8)."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "What is the exact tally and HPO frequency of muscular hypotonia (HP:0001252) versus other neuromuscular signs across all published TAF4-NDD individuals?",
+      "rationale": "Directly reviewing Table 1 and supplementary phenotype tables of Janssen et al. (2022) and subsequent cohorts is required to determine whether hypotonia is truly present in >=62.5% of cases.",
+      "promise": 0.9,
+      "est_cost": 0.05
+    }
+  ]
+}

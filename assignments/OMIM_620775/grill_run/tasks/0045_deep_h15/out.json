@@ -1,0 +1,92 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that generalized limb muscle weakness occurs in fewer than 85% of individuals with pathogenic FILIP1 variants, citing reports of phenotypic presentations without overt congenital limb myopathy. However, the available literature presents conflicting evidence. In the initial cohort of five patients from four families described by Roos et al. (2023), muscle weakness and myopathy were core defining features present in the cohort. While Watts et al. (2024) expanded the phenotypic spectrum to include phenotypic blending and varying presentations, the provided text also notes persistent proximal muscle weakness in evaluated individuals, and OMIM #620775 lists muscle weakness as a hallmark, albeit variable, feature. With very small total published cohorts (approximately 5-7 individuals in the primary literature), exact penetrance metrics below 85% remain contested and cannot be definitively verified without larger systematic cohort assessments.",
+  "evidence": [
+    {
+      "text": "Roos et al. identified five patients from four consanguineous families with homozygous FILIP1 variants presenting with neurodevelopmental delay, muscle weakness, structural myopathology, and dysmorphic features, establishing the condition as a congenital myopathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37163662",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37163662/",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients reported with muscle weakness and pathology",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families assessed",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Watts et al. evaluated FILIP1-associated neuromuscular disease and phenotypic blending due to paternal UPD6, providing an update on Family A from Roos et al., noting persistent proximal muscle weakness alongside indications of congenital myopathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "We provide an update on Family A from Roos et al. which \u2026 under the indications of congenital myopathy and intellectual disability. \u2026 ) continues to have proximal muscle weakness and \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "OMIM entry #620775 classifies Neuromuscular disorder, congenital, with dysmorphic facies (NMDF) as an autosomal recessive disorder characterized by variable muscle weakness and dysmorphic facies caused by homozygous mutation in the FILIP1 gene.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #620775 - NEUROMUSCULAR DISORDER, CONGENITAL, WITH DYSMORPHIC FACIES; NMDF",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620775",
+        "quote": "- Muscle weakness, variable ... dysmorphic facies (NMDF) is caused by homozygous mutation in the FILIP1 gene (607307) on chromosome 6q14."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Roos et al. (2023) established FILIP1-associated disorder as a congenital myopathy with limb muscle weakness and specific myofibrillar core-like myopathology present across all 5 initial patients described.",
+    "OMIM denotes muscle weakness as 'variable', and subsequent phenotype expansions (such as Watts et al.) report phenotypic heterogeneity, but small cohort size precludes establishing a statistically robust frequency below 85%."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and severity of limb muscle weakness across all newly documented FILIP1 loss-of-function vs. missense variant cases internationally?",
+      "rationale": "Because fewer than 10 total families have been characterized in published literature, pooling international registry data from the 100,000 Genomes Project and similar cohorts is necessary to compute true penetrance of HP:0001324.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Does uniparental disomy (UPD6) or phenotypic blending modify the expressivity of congenital limb myopathy in FILIP1 carriers?",
+      "rationale": "Watts et al. identified paternal UPD6 leading to homozygosity, which may result in co-occurring recessive or imprinted conditions that obscure the isolated FILIP1 phenotype.",
+      "promise": 0.75,
+      "est_cost": 25000.0
+    }
+  ]
+}

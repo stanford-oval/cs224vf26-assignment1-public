@@ -1,0 +1,47 @@
+{
+  "knowledge": "Muscular dystrophy, limb-girdle, autosomal recessive 29 (LGMDR29, OMIM #620793) was recently defined following the discovery of homozygous or compound heterozygous variants in the SNUPN gene (encoding snurportin 1, involved in snRNP nuclear import). Only very few families/individuals have been documented in the literature to date (initially reported around 2023/2024 by single-center or multi-center consanguineous/cohort whole-exome sequencing studies). Reported clinical manifestations typically include progressive proximal limb-girdle muscle weakness affecting both upper and lower girdles, hyperCKemia, myopathic EMG, and dystrophic features on muscle biopsy, often with early-onset or childhood-to-adolescent presentation. Because this is an extremely rare, newly delineated form of LGMD, phenotype-only differentiation is challenging against other common recessive LGMDs (e.g., calpainopathy LGMDR1, dysferlinopathy LGMDR2, sarcoglycanopathies LGMDR3-6) and congenital myopathies without genetic testing or specific biomarker/biopsy markers.",
+  "prior_hypothesis": "Clinically distinguishing LGMDR29 (SNUPN) from phenotypically overlapping recessive limb-girdle muscular dystrophies by clinical signs alone is currently difficult because the reported core phenotype (childhood-to-adolescence onset proximal pelvic and shoulder girdle weakness, elevated serum creatine kinase, myopathic pattern on EMG, dystrophic changes with rimmed vacuoles or nuclear alterations) overlaps heavily with other LGMDs; however, distinguishing features may center on specific histological hallmarks (e.g., snurportin-related nuclear envelope or snRNP localization defects), pattern of muscle MRI involvement, and specific sparing of cardiac or intellectual function if consistent across the reported probands.",
+  "candidate_answers": [
+    {
+      "answer": "Core presentation across reported individuals includes symmetrical proximal lower and upper limb muscle weakness, elevated serum creatine kinase (often moderate to high), and progressive difficulty in walking or climbing stairs starting in childhood or young adulthood.",
+      "confidence": 0.85,
+      "aspect": "phenotype_presentation"
+    },
+    {
+      "answer": "Muscle pathology consistently demonstrates dystrophic/myopathic alterations with variation in fiber size, internal nuclei, necrotic and regenerating fibers, and potentially rimmed vacuoles or structural alterations linked to nuclear transport dysfunction.",
+      "confidence": 0.75,
+      "aspect": "histopathology"
+    },
+    {
+      "answer": "Absence of prominent central nervous system malformations, intellectual disability, or primary cardiac conduction defects in initial probands, differentiating it from syndromic muscular dystrophies (e.g., dystroglycanopathies or Emery-Dreifuss-like syndromes).",
+      "confidence": 0.65,
+      "aspect": "negative_findings_and_differential"
+    },
+    {
+      "answer": "Variants described to date are loss-of-function (nonsense, frameshift, or critical splice-site / missense affecting the functional transport domain of SNUPN), typically presenting as a severe or moderate childhood-onset phenotype without dramatic sex differences.",
+      "confidence": 0.7,
+      "aspect": "genotype_phenotype_correlation"
+    }
+  ],
+  "key_terms": [
+    "LGMDR29",
+    "OMIM #620793",
+    "SNUPN",
+    "snurportin 1",
+    "limb-girdle muscular dystrophy",
+    "hyperCKemia",
+    "proximal muscle weakness",
+    "spliceosome nuclear import"
+  ],
+  "open_questions": [
+    "What exact total number of affected individuals and families have been reported across published papers for SNUPN-related muscular dystrophy?",
+    "What specific muscle MRI pattern (selective muscle sparing vs. involvement) characterizes SNUPN-deficient LGMD?",
+    "Are there unique ultrastructural or immunohistochemical markers (e.g., abnormal cytoplasmic or nuclear distribution of snurportin-1 or snRNPs) on muscle biopsy that can uniquely identify this subtype?",
+    "Is cardiac or respiratory involvement present in older affected individuals as the disease progresses?"
+  ],
+  "assumptions": [
+    "LGMDR29 represents a monogenic Mendelian condition defined strictly by biallelic SNUPN mutations in OMIM #620793.",
+    "Data availability is restricted to a very small cohort of published patients (likely fewer than 15-20 individuals described worldwide).",
+    "The clinical presentation adheres to standard limb-girdle muscular dystrophy definitions (predominant proximal pelvic and pectoral girdle weakness)."
+  ]
+}

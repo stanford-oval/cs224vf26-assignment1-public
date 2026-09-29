@@ -1,0 +1,183 @@
+{
+  "hypotheses": [
+    {
+      "text": "The expanded international KDM6B cohort (Rots et al., 2023) demonstrates phenotypic dilution of non-neurological features (such as craniofacial dysmorphism and gastrointestinal dysfunction) compared to the initial Stolerman et al. discovery series, while core neurodevelopmental phenotypes (developmental delay and speech impairment) remain penetrant at over 90%.",
+      "rationale": "Initial cohorts often over-ascertain severely affected individuals displaying multi-system syndromic phenotypes. As expanded cohorts are recruited from broader diagnostic and exome-sequencing pipelines to reduce bias, the observed frequencies of minor dysmorphic traits and secondary comorbidities typically decline, testing whether facial dysmorphism is truly a defining pillar of Stolerman syndrome.",
+      "aspects": [
+        "phenotype frequencies",
+        "cohort comparison",
+        "diagnostic sensitivity"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Rots et al. (2023) expanded the cohort from various diagnostic sources specifically to provide a more accurate representation and reduce ascertainment bias inherent in initial smaller reports.",
+          "stance": "supports",
+          "source": {
+            "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+            "authors": [
+              "D Top",
+              "F Di Cara",
+              "RJ Louie",
+              "E Stolerman"
+            ],
+            "year": 2023,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+            "quote": "For better representation of the phenotypic spectrum of the KDM6B-related NDD and to reduce bias, we recruited a large cohort of individuals from various sources, both diagnostic"
+          },
+          "numbers": []
+        },
+        {
+          "text": "The initial discovery cohort reported de novo KDM6B variants in 12 unrelated individuals with developmental delay, intellectual disability, and dysmorphic features.",
+          "stance": "neutral",
+          "source": {
+            "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental disorders",
+            "authors": [
+              "ES Stolerman",
+              "E Francisco"
+            ],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://pure.johnshopkins.edu/en/publications/genetic-variants-in-the-kdm6b-gene-are-associated-with-neurodevel",
+            "quote": "We have identified a number of de novo alterations in the KDM6B gene via whole exome sequencing (WES) in a cohort of 12 unrelated patients with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings."
+          },
+          "numbers": [
+            {
+              "metric": "initial discovery cohort size",
+              "value": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pathogenic KDM6B loss-of-function variants produce a distinct biochemical endophenotype of cerebral folate deficiency (CFD) characterized by downregulated FOLR1 expression and the emergence of serum FOLR1 autoantibodies, differentiating Stolerman syndrome from clinically overlapping epigenetic machinery disorders.",
+      "rationale": "If KDM6B deficiency directly compromises folate receptor alpha (FOLR1) regulation via H3K27 methylation alterations, low 5-methyltetrahydrofolate (5-MTHF) in CSF and positive FOLR1 autoantibodies would serve as high-specificity functional biomarkers for KDM6B-related disorders compared to Kabuki or Bohring-Opitz syndromes.",
+      "aspects": [
+        "biochemical markers",
+        "differential diagnosis",
+        "CFD"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Six KDM6B variants were identified in 5 of 48 cerebral folate deficiency patients (10%), with functional assays confirming that KDM6B variants decreased KDM6B protein, elevated H3K27me2, lowered H3K27Ac, and decreased FOLR1 protein levels alongside detectable serum FOLR1 autoantibodies.",
+          "stance": "supports",
+          "source": {
+            "title": "KDM6B Variants May Contribute to the Pathophysiology of Human Cerebral Folate Deficiency",
+            "authors": [
+              "X Han",
+              "X Cao",
+              "RM Cabrera",
+              "PA Pimienta Ramirez"
+            ],
+            "year": 2022,
+            "journal": "Biology",
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC9855468",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9855468/",
+            "quote": "Six KDM6B variants were identified in five CFD patients, which accounts for 10% of our CFD cohort cases. Functional experiments indicated that these KDM6B variants decreased the amount of KDM6B protein, which resulted in elevated H3K27me2, lower H3K27Ac and decreased FOLR1 protein concentrations. In addition, FOLR1 autoantibodies have been identified in serum"
+          },
+          "numbers": [
+            {
+              "metric": "CFD cohort individuals with KDM6B variants",
+              "value": 5
+            },
+            {
+              "metric": "CFD cohort total assessed individuals",
+              "value": 48
+            },
+            {
+              "metric": "Percentage of CFD cohort with KDM6B variants",
+              "value": "10%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A subset of KDM6B missense variants identified outside the catalytic Jumonji C domain represent hypomorphic or benign alleles that lead to an isolated psychiatric/behavioral presentation (ADHD/ASD) without the canonical physical or neurological stigmata of Stolerman syndrome.",
+      "rationale": "Functional in vivo modeling (such as in Drosophila) and pedigree linkage studies identify KDM6B as a risk locus for non-syndromic ASD and ADHD, suggesting that milder alleles do not meet the syndromic threshold of classic Stolerman syndrome.",
+      "aspects": [
+        "genotype-phenotype correlations",
+        "behavioral phenotype",
+        "ADHD/ASD"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "In a pedigree-based study of families with co-occurring ASD and ADHD, KDM6B was identified as the highest-ranking candidate gene within linkage regions associated with ADHD.",
+          "stance": "supports",
+          "source": {
+            "title": "Common genetic risk factors in ASD and ADHD co-occurring families",
+            "authors": [
+              "A Zhou",
+              "X Cao",
+              "V Mahaganapathy",
+              "M Azaro",
+              "C Gwin"
+            ],
+            "year": 2023,
+            "journal": "Human Genetics",
+            "doi": "10.1007/s00439-022-02496-z",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-022-02496-z",
+            "quote": "Within the linkage regions, we identified 36 genes that are associated with ADHD using a pedigree-based gene prioritization approach. KDM6B (Lysine Demethylase 6B) is the highest-ranking gene, which is a known risk gene for neurodevelopmental disorders, including ASD and ADHD."
+          },
+          "numbers": [
+            {
+              "metric": "NJLAGS families analyzed",
+              "value": 73
+            },
+            {
+              "metric": "NJLAGS family samples sequenced",
+              "value": 272
+            }
+          ]
+        },
+        {
+          "text": "Drosophila functional modeling of human KDM6B missense variants has been employed to redefine the diagnostic boundary of KDM6B-related disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "Using Drosophila Models to Investigate Human Disease Variants Implicated in Neurodevelopmental Disorders",
+            "authors": [
+              "TE Jakub"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://dal.scholaris.ca/items/ea73f5a7-a99d-4737-a4c3-130e092c41a0",
+            "quote": "screening of KDM6B missense variants contributed to an accurate redefinition of the KDM6B-related"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for specific dysmorphic features (such as hypertelorism, low-set ears, and broad forehead) across the complete Rots et al. (2023) cohort of individuals with KDM6B variants?",
+      "rationale": "Comparing exact counts from the 2023 cohort against the 2019 Stolerman series will determine whether facial dysmorphology meets diagnostic sensitivity criteria for inclusion in clinical scoring systems.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "What proportion of confirmed Stolerman syndrome patients show biochemical evidence of cerebral folate deficiency (decreased CSF 5-MTHF or positive serum FOLR1 autoantibodies)?",
+      "rationale": "If CFD is consistently secondary to KDM6B disruption, folinic acid supplementation could serve as a targeted therapy and CSF folate testing could aid clinical discrimination.",
+      "promise": 0.75,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

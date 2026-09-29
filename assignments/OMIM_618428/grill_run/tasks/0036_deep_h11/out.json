@@ -1,0 +1,80 @@
+{
+  "verdict": "supported",
+  "rationale": "The available literature demonstrates that seizures and epilepsy are variable, non-core features of Popov-Chang syndrome (YWHAZ-related neurodevelopmental disorder) rather than a defining refractory epileptic encephalopathy. In a large three-generation family carrying the pathogenic YWHAZ c.147A>T (p.Lys49Asn) variant, Wan et al. (2023) observed that febrile seizures and epilepsy were not a common feature among affected individuals. Phenotype databases (such as FindZebra) similarly catalog seizures only as an inconsistent, variable finding alongside short stature and dysmorphic features. No counter-evidence in the provided literature identifies Popov-Chang syndrome as presenting with classical or high-frequency refractory epileptic encephalopathy (HP:0200134). However, the specific '<15%' quantitative threshold lacks systematic multi-cohort numerator and denominator data in the provided excerpted text.",
+  "evidence": [
+    {
+      "text": "In a study analyzing a large three-generation family with a pathogenic YWHAZ missense variant (p.Lys49Asn) causing intellectual disability and global developmental delay, epilepsy or febrile seizures were determined not to be common clinical features.",
+      "stance": "supports",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global developmental delay",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2023,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article/32/3/462/6674657",
+        "quote": "This indicated that febrile seizure or epilepsy should not be a common feature in this large three-generation family with the YWHAZ variation."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Popov-Chang syndrome is characterized by intellectual disability, developmental delay, and facial dysmorphism, with seizures documented only as highly variable secondary features rather than an obligate or predominant presentation.",
+      "stance": "supports",
+      "source": {
+        "title": "Popov-Chang Syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+        "quote": "Additional features are highly variable and can include seizures, short stature, feeding difficulties, and skin abnormalities"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Developmental and epileptic encephalopathies (DEEs) represent early-onset disorders defined by severe refractory seizures and developmental arrest or regression; more than 50% of DEE cases remain genetically unsolved.",
+      "stance": "neutral",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [
+          "M Hebbar",
+          "HC Mefford"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7076331",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+        "quote": "However, more than 50% of patients with DEE remain without a genetic diagnosis despite state-of-the-art genetic testing."
+      },
+      "numbers": [
+        {
+          "metric": "Percentage of DEE patients without genetic diagnosis",
+          "value": 50
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence, electroclinical syndromic classification, and pharmacosensitivity of seizures across all published YWHAZ/Popov-Chang syndrome probands?",
+      "rationale": "Existing sources establish that seizures are inconsistent, but precise cohort denominators and HPO-level documentation of epileptic encephalopathy versus non-encephalopathic seizures remain uncompiled.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does the phenotypic spectrum of YWHAZ variants correlate with functional domain alterations (e.g., phosphopeptide binding groove vs. dimerization interface) in determining seizure propensity?",
+      "rationale": "Differences in missense variant location or dominant-negative versus haploinsufficiency mechanisms could explain why rare individuals experience seizures while large pedigrees lack epilepsy.",
+      "promise": 0.78,
+      "est_cost": 45000
+    }
+  ]
+}

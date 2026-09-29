@@ -1,0 +1,149 @@
+{
+  "verdict": "supported",
+  "rationale": "Across clinical cohorts and functional models, pathogenic variants in MAPK8IP3 (encoding JIP3) consistently disrupt retrograde axonal transport and endolysosomal homeostasis, producing localized axonal swellings filled with lysosomes and late endosomes. While neurodegeneration and JNK-dependent apoptosis or cortical/cerebellar atrophy occur in certain contexts (such as toxic gain-of-function mutations or biallelic loss), functional studies confirm that primary axonal transport failure and impaired endolysosomal maturation are central pathogenic drivers rather than secondary consequences of non-specific neuronal loss alone.",
+  "evidence": [
+    {
+      "text": "De novo variants in MAPK8IP3 in 13 individuals caused intellectual disability and brain anomalies. Modeling in C. elegans demonstrated that pathogenic variants lead to a significantly elevated density of axonal lysosomes and impaired locomotion, directly linking retrograde axonal transport defects to clinical pathology.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2018.12.008",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "Using the CRISPR-Cas9 system to target six conserved amino acid positions in Caenorhabditis elegans, we found that two of the six investigated human alterations led to a significantly elevated density of axonal lysosomes, and five variants were associated with adverse locomotion."
+      },
+      "numbers": [
+        {
+          "metric": "unrelated individuals with de novo variants",
+          "value": 13
+        },
+        {
+          "metric": "total exome sequencing cohort size",
+          "value": 27232
+        },
+        {
+          "metric": "recurrent missense variants evaluated",
+          "value": 3
+        },
+        {
+          "metric": "investigated human alterations causing elevated axonal lysosome density in C. elegans",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "A missense mutation in MAPK8IP3 (c.1714C>T, p.Arg578Cys) acts as a toxic gain-of-function mutation that alters JIP3 interactome, halts axonal transport of late endosomes, and triggers increased c-Jun N-terminal kinase signaling resulting in apoptosis.",
+      "stance": "supports",
+      "source": {
+        "title": "A toxic gain-of-function variant in MAPK8IP3 provides insights into JIP3 cellular roles",
+        "authors": [
+          "W Zhang",
+          "S Mittal",
+          "R Thomas",
+          "A Foroughishafiei"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12016931",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12016931/",
+        "quote": "Here, we showed that the mutation was a toxic gain-of-function mutation that altered the interactome of JIP3; disrupted axonal transport of late endosomes; increased signaling via c-Jun N-terminal kinase, resulting in apoptosis; and disrupted dopamine receptor 1 signaling while not affecting dopamine receptor 2 signaling."
+      },
+      "numbers": [
+        {
+          "metric": "reduction of mutant JIP3 by ASO",
+          "value": "80%"
+        },
+        {
+          "metric": "reduction of WT JIP3 by ASO",
+          "value": "60%"
+        }
+      ]
+    },
+    {
+      "text": "Depletion or mutation of JIP3 (MAPK8IP3) results in focal, lysosome-filled axonal swellings that disrupt the axonal periodic scaffold (spectrin, F-actin, myosin II) and locally destabilize axonal microtubule organization.",
+      "stance": "supports",
+      "source": {
+        "title": "JIP3 links lysosome transport to regulation of multiple ...",
+        "authors": [
+          "NM Rafiq"
+        ],
+        "year": 2022,
+        "journal": "Communications Biology",
+        "doi": "10.1038/s42003-021-02945-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s42003-021-02945-x",
+        "quote": "Building on observations that mutations in the JIP3 (MAPK8IP3) gene result in lysosome-filled axonal swellings, we analyzed the impact of JIP3 depletion on the cytoskeleton of human neurons. Dynamic focal lysosome accumulations were accompanied by disruption of the axonal periodic scaffold (spectrin, F-actin and myosin II) throughout each affected axon."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Compound heterozygous variants in MAPK8IP3 lead to a reduction of over 60% in JIP3 expression, resulting in severe congenital lower motor neuron disease resembling lethal spinal muscular atrophy, marked by high axonal lysosomal accumulation.",
+      "stance": "supports",
+      "source": {
+        "title": "Compound heterozygous variants in MAPK8IP3 were detected in severe congenital hypotonia mimicking lethal spinal muscular atrophy",
+        "authors": [
+          "J K\u00e1rteszi",
+          "A Ziegler",
+          "M Tihanyi"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63340",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63340",
+        "quote": "Western blot analysis in a muscle biopsy sample showed a more than 60% decrease in JIP3 expression. Here, we suggest a novel autosomal recessive phenotype of a lower motor neuron disease caused by JIP3 deficiency."
+      },
+      "numbers": [
+        {
+          "metric": "decrease in JIP3 protein expression in muscle biopsy",
+          "value": ">60%"
+        }
+      ]
+    },
+    {
+      "text": "JIP3 and JIP4 act as activating adaptors for cytoplasmic dynein regulated by ARF6 and RAB10 to drive retrograde axonal transport and maturation of autophagic vacuoles and lysosomes in neurons.",
+      "stance": "supports",
+      "source": {
+        "title": "Axonal transport of autophagosomes is regulated by ...",
+        "authors": [],
+        "year": 2023,
+        "journal": "Journal of Cell Biology",
+        "doi": "10.1083/jcb.202301084",
+        "pmid": "37909920",
+        "pmc": null,
+        "url": "https://rupress.org/jcb/article/222/12/e202301084/276373/Axonal-transport-of-autophagosomes-is-regulated-by",
+        "quote": "Mutations in the JIP3 gene (MAPK8IP3) result in a rare neurodevelopmental ... using lysate-based single-molecule motility assays and live-cell imaging in primary neurons, we show that JNK-interacting proteins 3 (JIP3) and 4 (JIP4) are activating adaptors for dynein that are regulated on autophagosomes and lysosomes by the small GTPases ARF6 and RAB10."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "To what extent does JNK-dependent apoptotic signaling contribute to clinical severity compared to mechanical blockages caused by lysosome-filled axonal swellings across different MAPK8IP3 mutant alleles?",
+      "rationale": "Findings in R578C point to toxic gain-of-function JNK hyperactivation causing cell death, whereas loss-of-function variants primarily cause organelle accumulation and cytoskeletal breakdown, suggesting divergent therapeutic targets (e.g. JNK inhibitors vs. transport modulators).",
+      "promise": 0.85,
+      "est_cost": 250000.0
+    },
+    {
+      "question_text": "Can non-allele-specific ASO-mediated knockdown of MAPK8IP3 rescue axonal transport and organelle distribution in human iPSC-derived neurons harboring dominant-negative or gain-of-function missense mutations without triggering haploinsufficiency phenotypes?",
+      "rationale": "Initial studies demonstrated cellular tolerance of up to 60-80% JIP3 knockdown in vitro, but recessive phenotypes show that loss of >60% JIP3 expression can cause severe motor neuron disease.",
+      "promise": 0.8,
+      "est_cost": 400000.0
+    }
+  ]
+}

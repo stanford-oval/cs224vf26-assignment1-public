@@ -1,0 +1,21 @@
+[16:53:46] INIT: parse fields + PRIOR (parallel)
+[16:54:05]   required_fields=9 seed_directions=3 prior_hypotheses=4 terms=4
+[16:54:05] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[16:54:31] INIT: probing 4 prior candidate answer(s) — screen then deep test
+[16:54:46]   SCREEN: 4 passed / 4 screened ($0.03 total)
+[16:55:08]   DEEP: 0 → pool, 4 → bin ($0.05 total)
+[16:55:08]   INIT probe: 0 pooled, 4 binned (+0 directions seeded)
+[16:55:08]   INIT spent $0.12
+[16:55:15]   PLAN: $4.94 pot, $1.98 ceiling → d1 $1.98 (Directly targets the primary core question by sy); d7 $1.98 (Resolves the critical differential diagnostic co)
+[16:55:15] ROUND 1: EXPLORE 2 dirs (d1=$1.98  d7=$1.98; spent $0.12/10.00)
+[16:55:40]   +6 hypotheses from 2 directions
+[16:56:11]   SCREEN: 5 passed / 6 screened ($0.07 total)
+[16:56:53]   DEEP: 3 → pool, 2 → bin ($0.12 total)
+[16:57:13]   PLAN: $4.87 pot, $1.95 ceiling → d16 $1.95 (Extracting the systematic cross-cohort aggregati); d24 $1.95 (Resolves the critical dispute over whether ectod)
+[16:57:13] ROUND 2: EXPLORE 2 dirs (d16=$1.95  d24=$1.95; spent $0.26/10.00)
+[16:57:34]   +7 hypotheses from 2 directions
+[16:58:34]   SCREEN: 7 passed / 7 screened ($0.11 total)
+[16:59:20]   DEEP: 4 → pool, 3 → bin ($0.20 total)
+[16:59:37] FINALIZE: converged=False spent=$0.42  (init $0.03  plan $0.01  explore $0.06  screen $0.11  deep $0.20  measure $0.00)
+[17:00:16]   outline: 7 sections; report 18KB
+[17:00:25] DONE: coverage 4/9  quality 0.41 (7 pooled / 10 binned, untested 0)  answeredness=0.18  unsourced=0.00  answeredness/$=0.3912

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"KDM2B\" \"cardiac defects\" \"neurodevelopmental disorder\"",
+    "KDM2B OMIM 621474 neurodevelopmental disorder cardiac defects phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "41946911",
+      "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+      "pmid": "41946911",
+      "doi": "10.1038/s41431-026-02090-1",
+      "url": "https://www.nature.com/articles/s41431-026-02090-1",
+      "abstract_chars": 1218
+    },
+    {
+      "id": "37086328",
+      "title": "H2A monoubiquitination: insights from human genetics and animal models",
+      "pmid": "37086328",
+      "doi": "10.1007/s00439-023-02557-x",
+      "url": "https://link.springer.com/article/10.1007/s00439-023-02557-x",
+      "abstract_chars": 1183
+    },
+    {
+      "id": "https://search.proquest.com/openview/856cdf116f043ef9e7b06ef9206eda59/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "title": "TAFopathies Result from Derangements in Transcriptional Regulation of Metabolism",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/856cdf116f043ef9e7b06ef9206eda59/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40601774",
+      "title": "Ritscher-Schinzel syndrome can be characterized as an endosomal recyclinopathy",
+      "pmid": "40601774",
+      "doi": "10.1126/scitranslmed.adt2426",
+      "url": "https://www.science.org/doi/abs/10.1126/scitranslmed.adt2426",
+      "abstract_chars": 1752
+    },
+    {
+      "id": "10.1101/2024.08.17.24311658.abstract",
+      "title": "The congenital multiple organ malformation syndrome, Ritscher-Schinzel syndrome is an endosomal recyclinopathy",
+      "pmid": null,
+      "doi": "10.1101/2024.08.17.24311658.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.08.17.24311658.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621474",
+      "title": "Entry - #621474 - NEURODEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621474",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/genes/KDM2B",
+      "title": "KDM2B",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/genes/KDM2B",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/entities/KDM2B",
+      "title": "KDM2B",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/entities/KDM2B",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/neurodevelopmental_disorder_with_congenital_cardiac_defects_and_variable_renal_and_ocular_abnormalities",
+      "title": "Neurodevelopmental Disorder with Congenital Cardiac ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/neurodevelopmental_disorder_with_congenital_cardiac_defects_and_variable_renal_and_ocular_abnormalities",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://zfin.org/DOID:0070694",
+      "title": "neurodevelopmental disorder with congenital cardiac defects ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://zfin.org/DOID:0070694",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3222,
+  "output_tokens": 1429,
+  "usd": 0.0059,
+  "seconds": 12.6,
+  "ok": true
+}

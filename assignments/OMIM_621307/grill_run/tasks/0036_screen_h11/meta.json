@@ -1,0 +1,57 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Alsahan-Harris syndrome\" \"TBC1D32\" \"mesoaxial polydactyly\" pituitary",
+    "Alsahan-Harris syndrome TBC1D32 Pallister-Hall hypothalamic hamartoma pituitary"
+  ],
+  "n_hits": 5,
+  "hits": [
+    {
+      "id": "31011455",
+      "title": "Pallister-Hall Syndrome Presenting in Adolescence - PMC - NIH",
+      "pmid": "31011455",
+      "doi": "10.1155/2019/6845836",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6442444/",
+      "abstract_chars": 1334
+    },
+    {
+      "id": "https://omim.org/entry/146510",
+      "title": "Entry - #146510 - PALLISTER-HALL SYNDROME; PHS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/146510",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.orpha.net/en/disease/detail/672",
+      "title": "Pallister-Hall syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.orpha.net/en/disease/detail/672",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://ern-ithaca.eu/wp-content/uploads/2020/12/Biesecker_PHSgeneral_Genereviews2017.pdf",
+      "title": "Pallister-Hall Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://ern-ithaca.eu/wp-content/uploads/2020/12/Biesecker_PHSgeneral_Genereviews2017.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.raregenomics.org/pallister-hall-syndrome",
+      "title": "Pallister-Hall Syndrome | Learn More Today",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.raregenomics.org/pallister-hall-syndrome",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2753,
+  "output_tokens": 1486,
+  "usd": 0.00583,
+  "seconds": 10.2,
+  "ok": true
+}

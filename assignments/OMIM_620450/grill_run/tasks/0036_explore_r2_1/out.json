@@ -1,0 +1,152 @@
+{
+  "hypotheses": [
+    {
+      "text": "The two unrelated probands referenced in 2021 genetic database records for OMIM #620450 originate from the Bertoli-Avella et al. (2021) exome-sequencing cohort (PMID: 33875846), which established de novo putative loss-of-function variants in TAF4 as causative for neurodevelopmental delay and intellectual disability.",
+      "rationale": "OMIM #620450 and expert curation panels (e.g., PanelApp) cite 2021 diagnostic exome discoveries of de novo TAF4 loss-of-function variants preceding the dedicated 2022 characterization cohort by Janssen et al. Identifying Bertoli-Avella et al. (2021) clarifies the exact provenance of the two 2021 probands and resolves discrepancies in early TAF4 gene-disease curation.",
+      "aspects": [
+        "pooled",
+        "cohort-definition"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "PMID: 33875846 (Bertoli-Avella et al., 2021) identified two de novo loss-of-function variants in TAF4 among patients presenting with neurodevelopmental delay/intellectual disability, leading directly to the inclusion of TAF4 on diagnostic gene panels for intellectual disability.",
+          "stance": "supports",
+          "source": {
+            "title": "Gene: TAF4 (Intellectual disability)",
+            "authors": [],
+            "year": 2021,
+            "journal": null,
+            "doi": "10.1038/s41436-021-01159-0",
+            "pmid": "33875846",
+            "pmc": null,
+            "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+            "quote": "PMID: 33875846 - Bertoli-Avella et al 2021 - identified two de novo LoF variants ... gene: TAF4 was added gene: TAF4 was added to Intellectual disability."
+          },
+          "numbers": [
+            {
+              "metric": "de novo LoF variants identified in TAF4",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "text": "OMIM entry #620450 defines Intellectual developmental disorder, autosomal dominant 73 as caused by de novo heterozygous putative loss-of-function mutations in the TAF4 gene.",
+          "stance": "supports",
+          "source": {
+            "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+            "authors": [],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://omim.org/entry/620450",
+            "quote": "de novo heterozygous putative loss-of-function mutations in the TAF4 gene. ... Intellectual developmental disorder, autosomal dominant 73, 620450, Autosomal"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Repository-scale sequencing cohorts such as Bertoli-Avella et al. (2021) record broad HPO terms for developmental delay and intellectual disability (HP:0001263 / HP:0001249) but systematically under-enumerate granular craniofacial dysmorphisms and behavioral abnormalities compared with targeted clinical series like Janssen et al. (2022).",
+      "rationale": "High-throughput clinical exome screening datasets ascertain probands via primary referral indications (e.g., NDD/ID) without standardized, in-depth dysmorphology exams, leading to apparent lower penetrance of secondary features in repository probands relative to deeply phenotyped clinical cohorts.",
+      "aspects": [
+        "binned",
+        "phenotype-ascertainment"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Bertoli-Avella et al. evaluated candidate genes from a diagnostic repository of over 33,000 patients where inclusion prioritized de novo variants in individuals presenting with broad neurodevelopmental delay (NDD) and/or intellectual disability (ID).",
+          "stance": "supports",
+          "source": {
+            "title": "Gene: TAF4 (Intellectual disability)",
+            "authors": [],
+            "year": 2021,
+            "journal": null,
+            "doi": "10.1038/s41436-021-01159-0",
+            "pmid": "33875846",
+            "pmc": null,
+            "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+            "quote": "Gene-disease association was assessed using our data repository that combines ES/GS data and Human Phenotype Ontology terms from over 33,000 patients."
+          },
+          "numbers": [
+            {
+              "metric": "patients in diagnostic ES/GS repository",
+              "value": 33000
+            }
+          ]
+        },
+        {
+          "text": "In the dedicated primary series of Janssen et al. (2022), detailed phenotyping of eight individuals with de novo pLoF variants revealed that intellectual disability, abnormal behavior, and facial dysmorphisms were each present in at least 7/8 (87.5%) of probands.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+            "authors": [],
+            "year": 2022,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002%2Fhumu.24444",
+            "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+          },
+          "numbers": [
+            {
+              "metric": "proband cohort size in Janssen et al.",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Combining the 2 probands from Bertoli-Avella et al. (2021) with the 8 probands from Janssen et al. (2022) establishes a unified baseline denominator of 10 de novo pLoF TAF4 probands, in which intellectual disability / global developmental delay maintains 100% (10/10) penetrance.",
+      "rationale": "Calculating rigorous phenotype penetrance across all published de novo pLoF cases requires pooling repository-identified and clinically characterized probands to test whether global cognitive delay remains invariant.",
+      "aspects": [
+        "pooled",
+        "penetrance"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Both probands in Bertoli-Avella et al. were identified through a neurodevelopmental delay / intellectual disability diagnostic cohort, and all 8 probands in Janssen et al. exhibited intellectual disability.",
+          "stance": "supports",
+          "source": {
+            "title": "Gene: TAF4 (Intellectual disability)",
+            "authors": [],
+            "year": 2021,
+            "journal": null,
+            "doi": "10.1038/s41436-021-01159-0",
+            "pmid": "33875846",
+            "pmc": null,
+            "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+            "quote": "PMID: 33875846 - Bertoli-Avella et al 2021 - identified two de novo LoF variants ... gene: TAF4 was added gene: TAF4 was added to Intellectual disability."
+          },
+          "numbers": [
+            {
+              "metric": "combined core de novo pLoF proband denominator",
+              "value": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact genomic cDNA and protein coordinates of the two de novo TAF4 variants reported by Bertoli-Avella et al. (2021), and do they fall in the same exons or functional domains as the Janssen et al. (2022) truncating alleles?",
+      "rationale": "Determining the specific variant positions in the 2021 probands will clarify whether nonsense-mediated decay is uniformly triggered across all 10 pooled cases or if any represent domain-specific truncations.",
+      "promise": 0.85,
+      "est_cost": 0.55
+    },
+    {
+      "question_text": "Which detailed secondary HPO terms (such as microcephaly HP:0000252, seizures HP:0001250, or hypotonia HP:0001252) were submitted to ClinVar or GenCC for the two Bertoli-Avella et al. (2021) patients?",
+      "rationale": "Accessing the individual-level HPO submissions for these two probands will enable updating the exact numerators and denominators for secondary neurological findings across the entire published worldwide cohort.",
+      "promise": 0.8,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

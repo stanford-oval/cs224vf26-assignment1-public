@@ -1,0 +1,137 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature demonstrates that expressive speech impairment in NAV3-related neurodevelopmental disorder spans a variable continuum ranging from speech delay and ambiguous/articulated speech to severe impairment or absence, without strictly segregating by zygosity or inheritance mode. Biallelic variants (both homozygous frameshift loss-of-function and homozygous missense variants) have been documented to present with speech delay and ambiguous speech rather than an obligate complete absence of speech (anarthria). Similarly, cohorts comprising individuals with biallelic, de novo, and heterozygous variants exhibit overlapping phenotypes including intellectual disability and speech delay across inheritance patterns.",
+  "evidence": [
+    {
+      "text": "A patient with a homozygous biallelic missense variant in NAV3 (c.3430T>C; p.Ser1144Pro) presented with autosomal recessive neurodevelopmental disorder with ambiguous speech rather than complete absence of speech.",
+      "stance": "supports",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": "Current Medicinal Chemistry",
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "However, a distinctive feature in our cohort is ambiguous speech ... To date, four homozygous and four heterozygous pathogenic"
+      },
+      "numbers": [
+        {
+          "metric": "Homozygous pathogenic variants reported to date",
+          "value": 4
+        },
+        {
+          "metric": "Heterozygous pathogenic variants reported to date",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "A Saudi proband harboring a biallelic frameshift variant in NAV3 (c.2604_2605delAG; p.Val870SerfsTer12) presented with global developmental delay and speech delay rather than total mutism.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "as ID, GDD, seizures, speech delay, generalized hypotonia"
+      },
+      "numbers": [
+        {
+          "metric": "Affected probands with bi-allelic frameshift variant",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Affected individuals carrying predicted pathogenic biallelic, de novo, and heterozygous variants in NAV3 present with overlapping neurodevelopmental phenotypes including intellectual disability, developmental delay, and speech delay across different modes of inheritance.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": "Communications Biology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s42003-024-06466-1",
+        "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene"
+      },
+      "numbers": [
+        {
+          "metric": "Total affected individuals evaluated across cohorts",
+          "value": 11
+        },
+        {
+          "metric": "Total families evaluated",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Five individuals from three consanguineous families with biallelic truncating variants in NAV3 demonstrated developmental delay, intellectual disability, and behavioral abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability ...",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": "PMC11754320",
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Recently, five bi-allelic and three mono-allelic variants in NAV3 were reported in 12 individuals from eight unrelated families with neurodevelopmental disorder"
+      },
+      "numbers": [
+        {
+          "metric": "Patients described with biallelic truncating variants",
+          "value": 5
+        },
+        {
+          "metric": "Unrelated consanguineous families",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does residual NAV3 expression or dominant-negative vs. haploinsufficiency/loss-of-function mechanisms quantitatively correlate with standardized expressive language test scores?",
+      "rationale": "Current cohorts use qualitative descriptors (speech delay, ambiguous speech, poor or absent speech). Quantitative speech assessment battery across genotype categories will formally establish whether specific domains are preferentially impaired.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What specific facial and skeletal dysmorphic features reliably distinguish NAV3-related disorder from other microcephalic intellectual disability syndromes?",
+      "rationale": "Because speech delays and intellectual disabilities overlap broadly across monogenic neurodevelopmental syndromes, objective quantitative facial phenotyping (e.g., GestaltMatcher/DeepGestalt) is necessary to determine diagnostic discriminators.",
+      "promise": 0.78,
+      "est_cost": 15000
+    }
+  ]
+}

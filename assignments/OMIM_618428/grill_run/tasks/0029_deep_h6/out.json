@@ -1,0 +1,85 @@
+{
+  "verdict": "refuted",
+  "rationale": "The provided literature does not support the hypothesis that YWHAG can be reliably differentiated from YWHAZ based on epilepsy frequency and severity. In the accessible sources, YWHAG is not described or compared against YWHAZ. Furthermore, YWHAZ is cited in the context of epilepsy gene testing panels for developmental and epileptic encephalopathies (DEEs) and as a causative gene in cardiofaciocutaneous (CFC) syndrome with severe neurological involvement, failing to provide empirical cohort frequencies demonstrating that seizures in YWHAZ are reliably milder or less frequent.",
+  "evidence": [
+    {
+      "text": "YWHAZ (Popov-Chang syndrome #618428) is cataloged among genes evaluated in developmental and epileptic encephalopathy testing, indicating that seizures are part of the clinical referral and diagnostic spectrum.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [
+          "M Hebbar",
+          "HC Mefford"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7076331",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+        "quote": "YWHAZ Popov-Chang syndrome #618428. CHP1 Spastic ataxia 9, autosomal ... seizures, he was referred to a genetics clinic to rule out genetic"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM ID",
+          "value": "618428"
+        }
+      ]
+    },
+    {
+      "text": "YWHAZ is causally linked to cardiofaciocutaneous (CFC) syndrome, a RASopathy presenting with severe neurological involvement, demonstrating that YWHAZ pathogenic variants lead to complex syndromic neurodevelopmental phenotypes rather than an isolated mild profile.",
+      "stance": "neutral",
+      "source": {
+        "title": "The cardiofaciocutaneous syndrome: from genetics to prognostic\u2013therapeutic implications",
+        "authors": [
+          "G Scorrano",
+          "E David",
+          "E Cal\u00ec",
+          "R Chimenz",
+          "S La Bella"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/14/12/2111",
+        "quote": "gene causally related to CFC, YWHAZ, describing how de novo ... Neurological involvement in CFC is more severe than in other RASopathies."
+      },
+      "numbers": []
+    },
+    {
+      "text": "A de novo YWHAZ missense variant is reported activating the RAF-ERK pathway in cardiofaciocutaneous syndrome, but specific systematic comparative cohort statistics comparing seizure onset and severity between YWHAZ and YWHAG are absent.",
+      "stance": "neutral",
+      "source": {
+        "title": "A YWHAZ variant associated with cardiofaciocutaneous syndrome activates the RAF-ERK pathway",
+        "authors": [
+          "MJ Chen",
+          "GM Cooper",
+          "BR Korf",
+          "C Chang"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.3389/fphys.2019.00388/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00388/full",
+        "quote": "to confidently relate clinical phenotypes to YWHAZ variation. \u2026 spectrum of morphological changes seen in CFC syndrome"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "YWHAZ is included in DEE and epilepsy genomic panels and linked to severe neurological involvement in CFC-like presentations, while the provided sources provide zero comparative cohort frequencies for YWHAG versus YWHAZ."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and electroclinical classification of epilepsy in a systematic cohort of patients with Popov-Chang syndrome harboring pathogenic YWHAZ variants compared to DEE-56 (YWHAG)?",
+      "rationale": "Direct side-by-side phenotyping across international registries is required to evaluate whether seizure onset, semiology, and refractoriness reliably differentiate 14-3-3 protein family channelopathies/encephalopathies.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "omim": "OMIM:621570",
+  "label": "Cornelia de Lange syndrome 7",
+  "gene": "MAU2",
+  "gene_info": {
+    "symbol": "MAU2",
+    "name": "MAU2 sister chromatid cohesion factor",
+    "type_of_gene": "protein-coding",
+    "map_location": "19p13.11",
+    "entrez_id": "23383",
+    "aliases": [
+      "CDLS7",
+      "KIAA0892",
+      "MAU2L",
+      "SCC4",
+      "mau-2"
+    ],
+    "summary": "Enables protein N-terminus binding activity. Involved in cohesin loading and maintenance of mitotic sister chromatid cohesion. Located in chromatin and nuclear body. Part of Scc2-Scc4 cohesin loading complex. [provided by Alliance of Genome Resources, Apr 2022]",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 20,
+  "n_case_reports": 3,
+  "curated_hpo_terms": 126,
+  "corpus_query": "\"MAU2\" OR \"Cornelia de Lange syndrome 7\"",
+  "corpus_query_clinical": "(\"MAU2\" OR \"Cornelia de Lange syndrome 7\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Cornelia de Lange syndrome 7 (OMIM #621570), caused by variants in MAU2: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

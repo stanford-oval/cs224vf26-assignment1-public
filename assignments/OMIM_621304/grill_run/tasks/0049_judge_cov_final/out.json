@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "field": "Reported clinical phenotypes in affected individuals with exact numerator and denominator per cohort (not percentage alone), verbatim paper description, and matching HPO term if identifiable",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Source attribution (PMID or DOI) and cohort specification for every reported phenotype frequency",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating findings present in most affected individuals but uncommon in differential/overlapping disorders, naming the disorders and rating confidence of the distinction",
+      "covered": true,
+      "contributing_aspects": [
+        "Phenotypic discrimination",
+        "phenotypic discriminator",
+        "respiratory abnormalities",
+        "movement disorders",
+        "respiratory dysfunction"
+      ]
+    },
+    {
+      "field": "Findings looked for and found absent in affected individuals that argue against the diagnosis if present",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Phenotype differences/correlations by variant type, variant position, age, or sex",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Findings reported in one paper and explicitly contradicted by another",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

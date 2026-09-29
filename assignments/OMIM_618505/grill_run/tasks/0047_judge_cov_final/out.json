@@ -1,0 +1,51 @@
+{
+  "fields": [
+    {
+      "field": "Clinical phenotypes reported in individuals with Stolerman neurodevelopmental syndrome (OMIM #618505 / KDM6B variants)",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Phenotype frequency given as numerator and denominator per cohort (not percentage alone)",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Phenotype wording as stated in the source paper plus standard HPO term if identifiable",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Source citation (PMID or DOI) and cohort identifier attached to every reported phenotype frequency",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating findings present in most affected individuals but uncommon in commonly confused disorders",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Names of the disorders usually confused with Stolerman neurodevelopmental syndrome and the confidence level of the distinction",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Findings looked for and found absent in affected individuals that argue against the diagnosis if present",
+      "covered": true,
+      "contributing_aspects": [
+        "negative_discriminators"
+      ]
+    },
+    {
+      "field": "Phenotypic differences or correlations by variant type, variant position, patient age, or sex",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Any phenotype or finding reported by one paper and explicitly contradicted by another",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from exome-based homozygous copy-number variant (CNV) screening and cohort sequencing confirms that homozygous structural deletions in FILIP1 (specifically an 86-kb deletion spanning exons 3\u20136) represent a true pathogenic mechanism underlying congenital neuromuscular disorder with dysmorphic facies / arthrogryposis multiplex congenita with microcephaly. In the cohort described by Chaurasia et al. (2,021 individuals from an Indian, resource-limited setting), systematic homozygous loss analysis identified this recurrent FILIP1 exon 3\u20136 deletion among unsolved cases, contributing directly to the initial delineation of the syndrome alongside nonsense single-nucleotide variants reported by Schnabel et al. (where 1 of 3 families carried this homozygous multi-exon deletion). Because standard exome analysis pipelines often miss intragenic multi-exon deletions unless dedicated CNV algorithms are applied, homozygous structural losses represent an under-recognized fraction of FILIP1-related disease in consanguineous cohorts.",
+  "evidence": [
+    {
+      "text": "Systematic homozygous copy number loss screening in 2,021 individuals with suspected Mendelian disorders identified 10 new diagnoses in 240 previously unsolved individuals, uncovering homozygous FILIP1 exon 3\u20136 deletion and validating biallelic FILIP1 loss-of-function as a cause of syndromic arthrogryposis and microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "Clinical correlation and validation of these rare calls enabled 10 new diagnoses in 240 unsolved individuals. This led to a two-fold increase in diagnosis owing to homozygous deletions. Further analysis of the data and identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals_screened",
+          "value": 2021
+        },
+        {
+          "metric": "unsolved_individuals_yielding_new_diagnoses",
+          "value": "10/240"
+        }
+      ]
+    },
+    {
+      "text": "Five affected individuals across three unrelated consanguineous families presented with arthrogryposis multiplex congenita, microcephaly, facial dysmorphism, scoliosis, and reduced skin folds; mutational etiology comprised two homozygous nonsense variants and one homozygous 86-kb deletion spanning exons 3\u20136.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": "PMC10060356",
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients... In this study, we identified two FILIP1 nonsense variants and a deletion affecting exons 3\u20136"
+      },
+      "numbers": [
+        {
+          "metric": "affected_individuals_evaluated",
+          "value": 5
+        },
+        {
+          "metric": "families_evaluated",
+          "value": 3
+        },
+        {
+          "metric": "families_with_homozygous_exon_3_6_deletion",
+          "value": "1/3"
+        },
+        {
+          "metric": "presence_of_congenital_joint_contractures",
+          "value": "5/5"
+        },
+        {
+          "metric": "presence_of_microcephaly",
+          "value": "5/5"
+        },
+        {
+          "metric": "presence_of_facial_dysmorphism",
+          "value": "5/5"
+        },
+        {
+          "metric": "presence_of_reduced_palmar_and_plantar_creases",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "Filamin A-interacting protein knockout mouse models display weak grip strength and abnormal nociceptive response, mirroring the neuromuscular impairment observed in human FILIP1-related disease.",
+      "stance": "supports",
+      "source": {
+        "title": "Deletion of filamin A-interacting protein (FILIP) results in a weak grip strength and abnormal responses to nociceptive stimulation",
+        "authors": [
+          "H Yagi",
+          "K Takao",
+          "S Hattori",
+          "Y Minato"
+        ],
+        "year": 2025,
+        "journal": "Neuroscience Letters",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304394025000461",
+        "quote": "Our results showed that FILIP-knockout mice exhibited weak grip strength and sensory abnormalities. Interestingly, we also found that FILIP was expressed in a subset of neurons in the dorsal root ganglion (DRG). Recent research has reported that FILIP1 mutations lead to severe neurological and musculoskeletal abnormalities, resulting in the proposal of a new disease entity, termed FILIP1opathy."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While homozygous deletions are proven pathogenic drivers of the disorder, current literature demonstrates only 1 recurrent multi-exon deletion family out of 3 initial families; large prospective cohorts across other ethnic populations are required to determine whether CNVs account for an extensive proportion versus being an ultra-rare variant type."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the carrier frequency and founder effect history of the FILIP1 exon 3\u20136 deletion across endogamous and consanguineous South Asian sub-populations?",
+      "rationale": "Because the identical exon 3\u20136 deletion was uncovered in an Indian rare disease exome cohort and co-delineated the disorder, assessing whether it represents an ancient founder allele will define diagnostic screening panels for regional arthrogryposis cohorts.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What proportion of negative/unsolved exome cases with congenital joint contractures and microcephaly harbor non-coding regulatory or structural copy number variations in FILIP1 when evaluated by genome sequencing or optical genome mapping?",
+      "rationale": "Standard exome capture platforms often miss intronic breakpoints and single-to-multi-exon non-coding copy number losses unless paired with dedicated read-depth or split-read algorithms.",
+      "promise": 0.82,
+      "est_cost": 45000
+    }
+  ]
+}

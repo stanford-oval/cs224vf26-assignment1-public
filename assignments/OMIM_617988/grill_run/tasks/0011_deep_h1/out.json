@@ -1,0 +1,128 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The core syndromic triad and clinical presentation described in the original cohort by Jaberi et al. (intellectual disability, microcephaly, spasticity/tone abnormalities, optic/retinal atrophy, and cerebellar involvement) are widely corroborated across subsequent studies. However, the claim that 100% of affected individuals exhibit motor regression or non-ambulatory status is conflicted: comprehensive systematic reviews (Manoochehri et al., 2024, analyzing 28 cases) report motor developmental delay in 26/28 (92.9%) rather than 100%, intellectual disability in 23/28 (82.1%), and visual impairment in 18/28 (64.3%). Furthermore, clinical presentation is markedly age-dependent, with younger infants lacking overt regression, ectodermal findings, or ophthalmologic structural abnormalities at presentation.",
+  "evidence": [
+    {
+      "text": "A comprehensive literature review of 28 individuals with Jaberi-Elahi syndrome identified motor developmental delay in 26/28, sparse hair in 26/28, speech disorder in 24/28, intellectual disability in 23/28, hypotonia in 23/28, skeletal abnormalities in 23/28, and visual impairment in 18/28. Skeletal abnormalities were absent in the reported proband.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": "Gene",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28). In spite of previous patients, the proband in this study did not exhibit any skeletal abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "motor development delay frequency",
+          "value": "26/28"
+        },
+        {
+          "metric": "sparse hair frequency",
+          "value": "26/28"
+        },
+        {
+          "metric": "speech disorder frequency",
+          "value": "24/28"
+        },
+        {
+          "metric": "intellectual disability frequency",
+          "value": "23/28"
+        },
+        {
+          "metric": "hypotonia frequency",
+          "value": "23/28"
+        },
+        {
+          "metric": "skeletal abnormalities frequency",
+          "value": "23/28"
+        },
+        {
+          "metric": "visual impairment frequency",
+          "value": "18/28"
+        }
+      ]
+    },
+    {
+      "text": "Phenotypic characterization of GTPBP2-associated syndrome demonstrates progressive and age-related onset. Key features include prenatal-onset microcephaly, tone abnormalities, movement disorders, epilepsy, retinal dysfunction, and ectodermal findings, but brain iron accumulation and overt ectodermal manifestations and peripheral neuropathy manifest later in life rather than uniformly at infancy.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical delineation of GTPBP2\u2010associated neuro\u2010ectodermal syndrome: Report of two new families and review of the literature",
+        "authors": [
+          "MT Carter",
+          "S Venkateswaran"
+        ],
+        "year": 2019,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13523",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13523",
+        "quote": "Our findings suggest that some aspects of the clinical presentation appear to be age-related; brain iron accumulation may appear only after childhood, and the ectodermal findings and peripheral neuropathy are most prominent in older individuals."
+      },
+      "numbers": [
+        {
+          "metric": "new individuals reported",
+          "value": 3
+        },
+        {
+          "metric": "previously reported individuals",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "text": "A 4-month-old infant with homozygous frameshift GTPBP2 variant showed congenital microcephaly, hypotonia, seizures, and developmental delay, but lacked overt ectodermal abnormalities and displayed no structural ophthalmologic abnormalities on initial exam, contradicting the assertion that full-blown syndromic features like optic atrophy and ectodermal dysplasia are universally detectable at all stages.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Jaberi-Elahi syndrome - NIH Genetic Testing Registry (GTR)",
+        "authors": [
+          "M So\u011fukp\u0131nar",
+          "Y Ata\u015f",
+          "G \u00dcner",
+          "P Arslan"
+        ],
+        "year": 2026,
+        "journal": "Molecular Syndromology",
+        "doi": "10.1159/000552675/949444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/gtr/conditions/C4693848",
+        "quote": "No overt ectodermal abnormalities were observed. Ophthalmological examination revealed no structural anomalies; however, detailed retinal evaluation and electroretinography could not be performed."
+      },
+      "numbers": [
+        {
+          "metric": "patient age in months",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Motor regression and complete loss of ambulation are not documented in 100% of evaluated individuals; systematic reviews indicate motor developmental delay occurs in 26/28 (92.9%) individuals.",
+    "Ophthalmologic findings (such as optic atrophy or retinal dystrophy) and ectodermal dysplasia are progressive and age-dependent; infant probands under 1 year of age have been documented without visible ophthalmological structural defects or ectodermal involvement."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the natural history and timeline of progression from early infantile hypotonia to spasticity and motor regression in GTPBP2-deficient patients?",
+      "rationale": "Clarifying the exact age of onset for neuroregression, retinal degeneration, and basal ganglia iron accumulation will prevent misdiagnosis during early infantile evaluations before these cardinal signs develop.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Can a multi-feature diagnostic scoring rubric incorporating neuro-ectodermal features (sparse hair, congenital microcephaly, cerebellar atrophy, and early-onset seizures) reliably discriminate Jaberi-Elahi syndrome from other cerebellar hypoplasia/neurometabolic disorders?",
+      "rationale": "Because isolated features overlap heavily with other hereditary spastic paraplegias and mitochondrial encephalopathies, validating the specific diagnostic weight of ectodermal abnormalities combined with cerebellar and retinal signs is crucial for phenotypic prioritization.",
+      "promise": 0.8,
+      "est_cost": 15000
+    }
+  ]
+}

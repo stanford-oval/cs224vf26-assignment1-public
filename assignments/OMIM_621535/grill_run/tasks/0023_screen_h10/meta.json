@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spinocerebellar ataxia 52\" OR \"RAB3A\" phenotype tremor spasticity",
+    "spinocerebellar ataxia 52 RAB3A clinical phenotype tremor spasticity"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "abstract_chars": 1865
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+      "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+      "abstract_chars": 2461
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+      "title": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://atrium.lib.uoguelph.ca/bitstreams/01f5a9e9-0515-4b40-a134-ebea81816ce1/download",
+      "title": "Genome-wide association studies and fine mapping for spastic syndrome in Holstein cattle",
+      "pmid": null,
+      "doi": null,
+      "url": "https://atrium.lib.uoguelph.ca/bitstreams/01f5a9e9-0515-4b40-a134-ebea81816ce1/download",
+      "abstract_chars": 0
+    },
+    {
+      "id": "30027907",
+      "title": "Tied up: Does altering phosphoinositide-mediated membrane trafficking influence neurodegenerative disease phenotypes? Sravanthi SP Nadiminti et al.",
+      "pmid": "30027907",
+      "doi": "10.1007/s12041-018-0961-5",
+      "url": "https://link.springer.com/article/10.1007/s12041-018-0961-5",
+      "abstract_chars": 1508
+    },
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40166812",
+      "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a ...",
+      "pmid": "40166812",
+      "doi": "10.1093/brain/awaf111",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12316009/",
+      "abstract_chars": 2461
+    },
+    {
+      "id": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "title": "Ataxia: Dominant",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2025.07.16.25330541.full.pdf",
+      "title": "1 Title: An R83W mutation in Rab3A causes autosomal- ...",
+      "pmid": null,
+      "doi": "10.1101/2025.07.16.25330541.full.pdf",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.07.16.25330541.full.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/394696145_An_R83W_mutation_in_Rab3A_causes_autosomal-dominant_cerebellar_ataxia",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/394696145_An_R83W_mutation_in_Rab3A_causes_autosomal-dominant_cerebellar_ataxia",
+      "abstract_chars": 1865
+    }
+  ],
+  "input_tokens": 5210,
+  "output_tokens": 1199,
+  "usd": 0.0062,
+  "seconds": 12.2,
+  "ok": true
+}

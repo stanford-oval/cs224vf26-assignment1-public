@@ -1,0 +1,88 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from direct case reports and reviews of dHMN caused by heterozygous SPTAN1 variants (dHMN11) demonstrates that reflex loss is not generalized into pan-areflexia. Instead, patients characteristically exhibit dissociated lower extremity reflexes, maintaining brisk/hyperactive patellar reflexes (e.g., graded +++) and extensor plantar responses (Babinski signs) alongside distal lower limb denervation/weakness and absent ankle jerks. This reflects upper motor neuron/pyramidal tract involvement coexisting with length-dependent distal motor axonopathy.",
+  "evidence": [
+    {
+      "text": "In a Chinese family with dHMN caused by a novel de novo SPTAN1 nonsense variant, neurological examination revealed brisk/hyperactive knee reflexes (+++) and positive Babinski sign on the left, demonstrating proximal reflex preservation/hyperactivity rather than pan-areflexia.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "(+++) in the knee reflexes and Babinski signs were positive in left"
+      },
+      "numbers": [
+        {
+          "metric": "knee reflex grade",
+          "value": "+++"
+        }
+      ]
+    },
+    {
+      "text": "Screening of a 128-patient cohort with distal hereditary motor neuropathy, which identified causative variants across cytoskeleton-related genes including SPTAN1, found that pyramidal impairments (such as hyperreflexia) were present in 11 of 128 individuals, highlighting the presence of upper motor signs in motor neuropathy phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic spectrum in a cohort of patients with distal hereditary ...",
+        "authors": [
+          "C Wu"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9082376",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9082376/",
+        "quote": "11 had pyramidal impairments"
+      },
+      "numbers": [
+        {
+          "metric": "patients with pyramidal signs in dHMN cohort",
+          "value": "11/128"
+        },
+        {
+          "metric": "chronic distal lower limb weakness in dHMN cohort",
+          "value": "121/128"
+        }
+      ]
+    },
+    {
+      "text": "Investigation of overarching mechanisms connecting inherited peripheral neuropathies, spastic paraplegias, and ataxias demonstrates that SPTAN1 variants bridge the boundaries between pure peripheral axonal neuropathy and central long-tract axonopathies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Overarching pathomechanisms in inherited peripheral neuropathies, spastic paraplegias, and cerebellar ataxias",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "V Timmerman"
+        ],
+        "year": 2024,
+        "journal": "Trends in Neurosciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/trends/neurosciences/abstract/S0166-2236(24)00016-X",
+        "quote": "The \u03b1-II-spectrin, encoded by SPTAN1, plays a major role in the spectrin\u2013actin axonal \u2026 in disorders similar to those caused by SPTAN1 mutations"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Does the presence of hyperactive patellar reflexes in SPTAN1-associated neuropathy correlate strictly with specific functional domains (e.g., spectrin repeats vs. actin-binding domain)?",
+      "rationale": "Determining genotype-phenotype correlations between truncation/nonsense variants causing pure dHMN versus missense variants causing hereditary spastic paraplegia can clarify why pyramidal disinhibition spares patellar reflexes.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

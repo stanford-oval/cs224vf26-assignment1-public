@@ -1,0 +1,108 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature characterizes KDM2B-associated neurodevelopmental disorder (OMIM #621474) as exhibiting core neurodevelopmental delay and high-frequency congenital heart defects (~78%), with renal and ocular abnormalities occurring as variable/intermediate manifestations. Ocular phenotypes including structural eye anomalies (coloboma/microphthalmia spectrum), refractive errors (e.g., myopic astigmatism in 3/3 patients in Gomes et al.), and renal anomalies such as solitary kidney and unilateral renal agenesis (reported in Gomes et al. and Ceroni et al.) occur in an intermediate/variable subset of affected individuals with CxxC domain variants.",
+  "evidence": [
+    {
+      "text": "In a clinical study of 19 individuals with KDM2B CxxC domain variants, congenital heart defects were identified in up to 78% of individuals, whereas ophthalmological and urogenital anomalies were documented as common but variable co-occurring anomalies alongside musculoskeletal and neurodevelopmental features.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "MA Hadders"
+        ],
+        "year": 2025,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/34/16/1353/8150966",
+        "quote": "Congenital heart defects were observed in up to 78% of individuals, with additional common findings including musculoskeletal, ophthalmological, and urogenital anomalies, as well as behavioral challenges and feeding difficulties."
+      },
+      "numbers": [
+        {
+          "metric": "congenital heart defect frequency percentage",
+          "value": 78
+        },
+        {
+          "metric": "cohort size of CxxC variant individuals",
+          "value": 19
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of three pediatric patients with heterozygous variants in the CxxC domain of KDM2B, all three (3/3) presented with ocular abnormalities specifically characterized as myopic astigmatism, while one patient (1/3) had a structural renal malformation (solitary kidney / unilateral renal agenesis).",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B\u2010Related Neurodevelopmental Disorder A Case\u2010Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features",
+        "authors": [
+          "A Gomes",
+          "\u00c1 Mart\u00edn\u2010Rodr\u00edguez"
+        ],
+        "year": 2026,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmga.70036",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmga.70036",
+        "quote": "Patient 1 is a 2-year-old boy with developmental delay, solitary kidney, atrial septal defect, feeding difficulties, hemangiomas, and myopic astigmatism. Patient 2 is a 2-year-old girl with global developmental delay, hip dysplasia, feeding difficulties, hemangiomas, and myopic astigmatism. Patient 3 is a 5-year-old girl with autism, developmental delay, atrial septal defect, and ventricular septal defect, hypertrichosis, atopic dermatitis, and myopic astigmatism."
+      },
+      "numbers": [
+        {
+          "metric": "myopic astigmatism frequency in case series",
+          "value": "3/3"
+        },
+        {
+          "metric": "solitary kidney frequency in case series",
+          "value": "1/3"
+        }
+      ]
+    },
+    {
+      "text": "Screening of 706 families presenting with developmental eye defects identified two individuals carrying heterozygous KDM2B CxxC domain variants; both presented with complex structural eye anomalies accompanied by variable cardiac and renal malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+        "authors": [
+          "F Ceroni",
+          "LM Reis",
+          "F Watkins",
+          "DA Bax"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13247248",
+        "url": "https://www.nature.com/articles/s41431-026-02090-1",
+        "quote": "Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present. These cases strengthen the association between KDM2B-CxxC variants and eye, kidney and heart malformations"
+      },
+      "numbers": [
+        {
+          "metric": "families screened with developmental eye disorders",
+          "value": 706
+        },
+        {
+          "metric": "identified CxxC variant cases with complex eye defects",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of structural ocular anomalies versus isolated refractive errors across the combined global cohort of KDM2B variants?",
+      "rationale": "Gomes et al. highlight mild ocular manifestations like myopic astigmatism in 100% of their small series, whereas Ceroni et al. ascertain complex structural anomalies, suggesting ascertainment bias across specialized ophthalmology vs general genetics cohorts.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do CxxC domain missense variants specifically enrich for renal and ocular anomalies compared to loss-of-function or JmjC domain variants?",
+      "rationale": "van Oirsouw et al. observed genotype-phenotype divergence between CxxC domain variants (which confer a distinct episignature and penetrant syndromic presentation) and haploinsufficiency or non-CxxC variants which show incomplete penetrance.",
+      "promise": 0.9,
+      "est_cost": 40000
+    }
+  ]
+}

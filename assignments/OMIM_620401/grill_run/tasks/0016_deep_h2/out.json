@@ -1,0 +1,91 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While speech involvement (including delayed speech acquisition and speech apraxia) is a key feature of SGSM3-related intellectual developmental disorder, autosomal recessive 84 (OMIM #620401), the claim that patients exhibit 'severe expressive speech impairment or complete absence of speech' approaching 100% penetrance is contradicted by clinical descriptions. Patients in the index Ashkenazi Jewish kindred achieved expressive speech, displaying delayed speech acquisition and unclear speech into adulthood rather than complete mutism, with some reaching developmental quotients in the borderline/mild range (DQ 84). Furthermore, subsequent reports describe nonsyndromic intellectual disability without complete absence of speech.",
+  "evidence": [
+    {
+      "text": "In the index Ashkenazi Jewish kindred evaluated for homozygous SGSM3 variants, the clinical phenotype included normal motor milestones but delayed speech development, with individuals acquiring speech and maintaining a developmental quotient of 84, rather than presenting with complete speech absence.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "variant in SGSM3, which segregated with the phenotype in \u2026 normal motor development yet delayed speech. He started \u2026 appropriate for his age, with a developmental quotient of 84."
+      },
+      "numbers": [
+        {
+          "metric": "developmental quotient",
+          "value": 84
+        }
+      ]
+    },
+    {
+      "text": "SGSM3-related phenotype curation notes speech apraxia alongside intellectual developmental disorder, autosomal recessive 84 (MIM# 620401), supporting significant speech involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/activity/?panel=250&entity=SGSM3",
+        "quote": "Speech apraxia, Spontaneous coronary artery ... SGSM3-related to Intellectual developmental disorder, autosomal recessive 84, MIM# 620401"
+      },
+      "numbers": [
+        {
+          "metric": "MIM identifier",
+          "value": 620401
+        }
+      ]
+    },
+    {
+      "text": "Identification of a homozygous loss-of-function stop-gain variant (c.1576C>T: p.(Arg526Ter)) in SGSM3 in two Turkish siblings presented with short stature and intellectual disability classified as a nonsyndromic intellectual disability phenotype, without documentation of complete absence of speech.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14631",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "In this study, a novel homozygous stop-gain (NM_015705.6: c.1576C>T: p.(Arg526Ter)) variation was detected in the SGSM3 gene in two siblings with short stature and ID findings. The report of two cases with bi-allelic LOF variants in the SGSM3 gene from different populations with similar clinical manifestations strengthens the potential of this gene as a candidate gene for the nonsyndromic ID phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings count",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits severe expressive speech impairment or complete speech absence (HP:0001344) near 100% penetrance, whereas index kindred patients developed expressive verbal ability (albeit delayed and unclear) and an affected individual demonstrated a developmental quotient of 84.",
+    "Turkyilmaz et al. report siblings with bi-allelic LOF variants presenting with nonsyndromic ID and short stature rather than severe speech absence."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the detailed speech and language phenotyping (e.g., verbal apraxia vs expressive language delay vs receptive delay) across all known bi-allelic SGSM3 individuals across cohorts?",
+      "rationale": "Clarifying the specific speech phenotype will determine whether childhood apraxia of speech or general language delay is the predominant discriminating feature compared to other recessive ID syndromes.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

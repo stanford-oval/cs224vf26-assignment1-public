@@ -1,0 +1,28 @@
+{
+  "omim": "OMIM:620568",
+  "label": "Cornelia de Lange syndrome 6",
+  "gene": "BRD4",
+  "gene_info": {
+    "symbol": "BRD4",
+    "name": "bromodomain containing 4",
+    "type_of_gene": "protein-coding",
+    "map_location": "19p13.12",
+    "entrez_id": "23476",
+    "aliases": [
+      "CAP",
+      "CDLS6",
+      "FSHRG4",
+      "HUNK1",
+      "HUNKI",
+      "MCAP"
+    ],
+    "summary": "The protein encoded by this gene is homologous to the murine protein MCAP, which associates with chromosomes during mitosis, and to the human RING3 protein, a serine/threonine kinase. Each of these proteins contains two bromodomains, a conserved sequence motif which may be involved in chromatin targeting. This gene has been implicated as the chromosome 19 target of translocation t(15;19)(q13;p13.1), which defines an upper respiratory tract carcinoma in young people. Two alternatively spliced transcript variants have been described. [provided by RefSeq, Jul 2008].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 18,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 40,
+  "corpus_query": "\"BRD4\" OR \"Cornelia de Lange syndrome 6\"",
+  "corpus_query_clinical": "(\"BRD4\" OR \"Cornelia de Lange syndrome 6\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Cornelia de Lange syndrome 6 (OMIM #620568), caused by variants in BRD4: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

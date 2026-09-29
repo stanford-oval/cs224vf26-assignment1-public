@@ -1,0 +1,123 @@
+{
+  "verdict": "supported",
+  "rationale": "Phenotypic delineation of Cornelia de Lange syndrome 7 (CDLS7, OMIM #621570) caused by heterozygous MAU2 variants across the Parenti et al. cohort of 18 individuals demonstrates that congenital heart defects are uncommon. The OMIM clinical synopsis based on Parenti et al. documents structural heart defects (specifically atrial septal defect) in only 1 individual (1/18, ~5.6%), well below the 25% threshold (<5 of 18). This contrasts sharply with cohesinopathy cohorts documented in CdLS literature where congenital heart disease affects approximately 34.9% of CdLS patients overall, up to 60% of HDAC8-positive individuals, and ~33-35% of classical NIPBL-positive patients.",
+  "evidence": [
+    {
+      "text": "In the OMIM entry for Cornelia de Lange syndrome 7 (CDLS7; OMIM #621570) summarizing findings from Parenti et al., the cardiovascular involvement lists atrial septal defect in only 1 individual, indicating an extremely low prevalence of structural congenital heart defects in the cohort.",
+      "stance": "supports",
+      "source": {
+        "title": "621570 - CORNELIA DE LANGE SYNDROME 7; CDLS7",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621570",
+        "quote": "Heart. - Atrial septal defect (in 1 ... Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange syndrome subtype."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with atrial septal defect",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Parenti et al. report 18 individuals with 15 heterozygous MAU2 variants presenting with a wide phenotypic expressivity ranging from classic to milder CdLS presentations, noting microcephaly and short stature as consistent major traits, while congenital heart defects are not identified as primary or penetrant core malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2026,
+        "journal": "Nature Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "We describe 18 individuals carrying 15 heterozygous MAU2 variants and demonstrate pathogenicity through functional analyses... Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features."
+      },
+      "numbers": [
+        {
+          "metric": "total probands assessed",
+          "value": 18
+        },
+        {
+          "metric": "distinct heterozygous MAU2 variants",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Parenti et al. describe 18 individuals with heterozygous MAU2 variants and note consistent major features of microcephaly and short stature without highlighting congenital heart defects among the major phenotypic hallmarks.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12668068",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+        "quote": "We describe 18 individuals carrying 15 heterozygous MAU2 variants and demonstrate pathogenicity through functional analyses... Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+      },
+      "numbers": [
+        {
+          "metric": "total probands assessed",
+          "value": 18
+        }
+      ]
+    },
+    {
+      "text": "Peng et al. characterize a Chinese patient with CdLS harboring a novel MAU2 variant and review clinical manifestations including heart evaluations in CdLS patients.",
+      "stance": "neutral",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy",
+        "authors": [
+          "Y Peng",
+          "Y Zhu",
+          "L Wu",
+          "F Deng"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2318",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2318",
+        "quote": "Parenti et al. reported a MAU2-CdLS case and confirmed that the reported MAU2 variant can reduce the interaction NIPBL-MAU2\u2026 or functional abnormalities of the heart were found."
+      },
+      "numbers": [
+        {
+          "metric": "reported Chinese proband",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic echocardiographic prevalence of structural and subclinical cardiac defects across an international prospective registry of MAU2 probands?",
+      "rationale": "While ASD was cataloged in only 1 of 18 probands in initial summaries, comprehensive registry reporting with standardized echocardiographic protocols across all individuals is needed to rule out underascertainment of milder cardiac anomalies.",
+      "promise": 0.82,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "Do truncating MAU2 variants (haploinsufficiency) produce a significantly higher rate of visceral or cardiac malformations compared to in-frame missense variants that primarily impair NIPBL dimerization?",
+      "rationale": "Parenti et al. identified distinct molecular episignatures and functional mechanisms depending on variant type, which could translate into genotype-specific risks for structural malformations.",
+      "promise": 0.78,
+      "est_cost": 45000
+    }
+  ]
+}

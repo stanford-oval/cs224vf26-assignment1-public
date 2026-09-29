@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"PLAA\" \"corpus callosum\" \"cerebellar atrophy\" \"cerebral atrophy\" MRI",
+    "PLAA mutation MRI brain findings corpus callosum hypoplasia cerebral atrophy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/ajmg.a.63425",
+      "title": "Refining the phenotypic spectrum of CCDC88A\u2010related PEHO\u2010like syndrome",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.63425",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63425",
+      "abstract_chars": 1342
+    },
+    {
+      "id": "https://jmg.bmj.com/content/55/12/803.abstract",
+      "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+      "abstract_chars": 1973
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "abstract_chars": 1543
+    },
+    {
+      "id": "PMC7313604",
+      "title": "May PEHO syndrome be a clinical entity associated with early onset encephalopathies?",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7313604/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1769721219301788",
+      "title": "PEHO syndrome caused by compound heterozygote variants in ZNHIT3 gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1769721219301788",
+      "abstract_chars": 1266
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/402/gene/SLC38A3/",
+      "title": "Gene: SLC38A3 (Early onset or syndromic epilepsy)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/402/gene/SLC38A3/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30113-1",
+      "title": "PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30113-1",
+      "abstract_chars": 978
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1096719214000961",
+      "title": "PLA2G6-associated neurodegeneration (PLAN): further expansion of the clinical, radiological and mutation spectrum associated with infantile and atypical\u00a0\u2026",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1096719214000961",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10770655",
+      "title": "Associated brain abnormalities in patients with corpus callosum anomalies",
+      "pmid": "10770655",
+      "doi": null,
+      "url": "https://turkjpediatr.org/article/view/3217",
+      "abstract_chars": 883
+    },
+    {
+      "id": "https://www.ejpn-journal.com/article/S1090-3798(17)31448-4/abstract",
+      "title": "PEHO syndrome\u2013The end point of severe epilepsies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ejpn-journal.com/article/S1090-3798(17)31448-4/abstract",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6994,
+  "output_tokens": 3484,
+  "usd": 0.01395,
+  "seconds": 22.9,
+  "ok": true
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spinocerebellar ataxia 52\" \"RAB3A\" phenotype",
+    "SCA52 spinocerebellar ataxia RAB3A clinical phenotype extraneurological findings"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/271/gene/RAB3A/",
+      "title": "RAB3A (Ataxia) - Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/271/gene/RAB3A/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/20/gene/RAB3A/",
+      "title": "Gene: RAB3A (Hereditary ataxia)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/20/gene/RAB3A/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://marrvel.org/human/gene/5864",
+      "title": "RAB3A",
+      "pmid": null,
+      "doi": null,
+      "url": "https://marrvel.org/human/gene/5864",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/RAB3A",
+      "title": "RAB3A Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/RAB3A",
+      "abstract_chars": 0
+    },
+    {
+      "id": "32125675",
+      "title": "The pathophysiology and clinical manifestations of spinocerebellar ataxia type 6",
+      "pmid": "32125675",
+      "doi": "10.1007/s12311-020-01120-y",
+      "url": "https://link.springer.com/article/10.1007/s12311-020-01120-y",
+      "abstract_chars": 1104
+    },
+    {
+      "id": "30284037",
+      "title": "Spinocerebellar ataxia: an update - PMC",
+      "pmid": "30284037",
+      "doi": "10.1007/s00415-018-9076-4",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6373366/",
+      "abstract_chars": 804
+    },
+    {
+      "id": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "title": "Ataxia: Dominant",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.scielo.br/j/anp/a/FhzVrgLSYKskcm8xsnGGsjG/?lang=en",
+      "title": "Spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.scielo.br/j/anp/a/FhzVrgLSYKskcm8xsnGGsjG/?lang=en",
+      "abstract_chars": 0
+    },
+    {
+      "id": "http://www.ataxia-study-group.net/html/studies/eurosca",
+      "title": "ASG Studies",
+      "pmid": null,
+      "doi": null,
+      "url": "http://www.ataxia-study-group.net/html/studies/eurosca",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3270,
+  "output_tokens": 854,
+  "usd": 0.0042,
+  "seconds": 10.8,
+  "ok": true
+}

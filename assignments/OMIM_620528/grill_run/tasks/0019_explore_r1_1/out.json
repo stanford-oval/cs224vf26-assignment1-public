@@ -1,0 +1,252 @@
+{
+  "hypotheses": [
+    {
+      "text": "Neuronopathy, distal hereditary motor, autosomal dominant 11 (dHMN11, OMIM #620528) is primarily driven by heterozygous loss-of-function (LoF) alleles\u2014including premature termination codons (nonsense), frameshift indels, and gene deletions undergoing nonsense-mediated decay (NMD)\u2014rather than heterozygous missense or dominant-negative dimerization variants.",
+      "rationale": "Resolves the contradiction in deep test attempt 1. Prior formulations incorrectly posited that dHMN11 is caused by missense or mild structural variants in non-critical domains, whereas clinical genomics cohorts demonstrate that heterozygous nonsense and loss-of-function variants leading to haploinsufficiency are the true etiology of dHMN11.",
+      "aspects": [
+        "Genotype-phenotype correlation",
+        "Loss-of-function mechanism",
+        "dHMN11 etiology"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "Beijer et al. identified heterozygous nonsense mutations in SPTAN1 in three separate dominant dHMN families; mutant mRNA containing nonsense mutations is degraded by nonsense-mediated decay (NMD), resulting in reduced protein levels rather than dominant-negative assembly.",
+          "stance": "supports",
+          "source": {
+            "title": "Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy",
+            "authors": [
+              "D Beijer",
+              "T Deconinck",
+              "JL De Bleecker",
+              "MT Dotti"
+            ],
+            "year": 2019,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+            "quote": "We identified patients with heterozygous nonsense mutations in the \u03b1II-spectrin gene, SPTAN1, in three separate dominant hereditary motor neuropathy families via next-generation sequencing... The mutant mRNA containing nonsense mutations is broken down by nonsense-mediated decay and leads to reduced protein levels in patient cells."
+          },
+          "numbers": [
+            {
+              "metric": "dHMN families with heterozygous SPTAN1 nonsense mutations",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "text": "OMIM entry #620528 records a de novo SPTAN1 nonsense variant as the cause of hereditary motor neuropathy in a Chinese family, corroborating that premature termination codons cause dHMN.",
+          "stance": "supports",
+          "source": {
+            "title": "620528 - NEURONOPATHY, DISTAL HEREDITARY MOTOR, AUTOSOMAL DOMAIN 11; HMN11",
+            "authors": [],
+            "year": 2021,
+            "journal": "OMIM",
+            "doi": null,
+            "pmid": "33578420",
+            "pmc": null,
+            "url": "https://omim.org/entry/620528",
+            "quote": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family. Brain 144: e11, 2021. [PubMed: 33578420]"
+          },
+          "numbers": [
+            {
+              "metric": "Novel de novo nonsense variant cases documented in OMIM entry",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "text": "Clinical Genome Resource curation notes that three null variants were identified across 3 families presenting with autosomal dominant dHMN-11.",
+          "stance": "supports",
+          "source": {
+            "title": "SPTAN1 curation results for Dosage Sensitivity",
+            "authors": [],
+            "year": 2019,
+            "journal": "Clinical Genome Resource",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://search.clinicalgenome.org/kb/gene-dosage/HGNC:11273",
+            "quote": "Three null variants were identified in 3 families with autosomal dominant distal hereditary motor neuronopathy-11 ( MONDO:0957875)."
+          },
+          "numbers": [
+            {
+              "metric": "Null variants reported in ClinGen curation",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous SPTAN1 haploinsufficiency underlies a pleiotropic neuromuscular spectrum with variable expressivity and incomplete penetrance, spanning pure distal hereditary motor neuropathy (dHMN11), mixed neuro-myopathic disease, and childhood-onset distal myopathy.",
+      "rationale": "Recent cohorts show that loss-of-function variants (nonsense, frameshift, and whole-gene deletions) in SPTAN1 produce both neuropathic and myopathic phenotypes across families and even within related individuals, directly challenging the assumption that dHMN11 is an exclusively neuropathic entity segregated from myopathy.",
+      "aspects": [
+        "Phenotypic spectrum",
+        "Distal myopathy overlap",
+        "Incomplete penetrance"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "De Winter et al. identified 14 families harboring heterozygous SPTAN1 loss-of-function variants presenting with early childhood-onset distal weakness where muscle MRI showed fatty infiltration of the distal anterior compartment and muscle biopsy demonstrated myopathic changes, confirmed to undergo nonsense-mediated decay.",
+          "stance": "supports",
+          "source": {
+            "title": "Heterozygous loss-of-function variants in SPTAN1 cause an early childhood onset distal myopathy",
+            "authors": [
+              "J De Winter",
+              "L Van de Vondel",
+              "B Ermanoska"
+            ],
+            "year": 2025,
+            "journal": "Genetics in Medicine",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1098360025000462",
+            "quote": "Through international collaboration we identified 14 families with distal weakness and heterozygous SPTAN1 loss-of-function variants... Muscle magnetic resonance imaging or computed tomography in 10 patients showed fatty infiltration of the distal lower limb anterior compartment... Muscle biopsy revealed myopathic changes in 7 patients."
+          },
+          "numbers": [
+            {
+              "metric": "Families with heterozygous SPTAN1 LoF variants",
+              "value": 14
+            },
+            {
+              "metric": "Patients showing myopathic changes on muscle biopsy",
+              "value": 7
+            },
+            {
+              "metric": "Patients with anterior compartment fatty infiltration on imaging",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "text": "A heterozygous 9q34 microdeletion encompassing the entire SPTAN1 gene segregated with childhood-onset distal weakness and myopathic features in 4 patients, but exhibited non-penetrance in 2 relatives, establishing that true haploinsufficiency can have incomplete penetrance.",
+          "stance": "supports",
+          "source": {
+            "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+            "authors": [
+              "L Van de Vondel",
+              "J De Winter",
+              "A Monticelli"
+            ],
+            "year": 2026,
+            "journal": "European Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-025-01938-2",
+            "quote": "The deletion was detected through exome-sequencing based copy number variant (CNV) detection, segregates in four patients and is non-penetrant in two other relatives... SPTAN1 loss-of-function variants have previously been reported to cause distal hereditary motor neuropathy and recently distal myopathy."
+          },
+          "numbers": [
+            {
+              "metric": "Symptomatic deletion carriers",
+              "value": 4
+            },
+            {
+              "metric": "Non-penetrant deletion carrier relatives",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "text": "Laurini et al. review genes with dual neuropathic and myopathic phenotypes, noting that heterozygous nonsense and frameshift variants in SPTAN1 predicted to undergo nonsense-mediated decay were initially classified as HMN but also manifest with myopathic features.",
+          "stance": "supports",
+          "source": {
+            "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+            "authors": [
+              "C Laurini",
+              "L Bosco",
+              "AA Zambon",
+              "B Sorrenti"
+            ],
+            "year": 2026,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+            "quote": "Heterozygous SPTAN1 variants were initially identified in \u2026 HMN, all carrying heterozygous nonsense variants in SPTAN1. Affected \u2026 or frameshift variants predicted to undergo nonsense-mediated decay."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "The fundamental molecular dichotomy of SPTAN1 diseases is mutational mechanism rather than repeat position: heterozygous null alleles (haploinsufficiency) cause adult/juvenile distal neuromuscular disease (dHMN11 / distal myopathy), whereas de novo in-frame deletions or missense variants that preserve translation and act via dominant-negative heterodimerization disruption cause severe developmental and epileptic encephalopathy (DEE5).",
+      "rationale": "Clarifies the precise dichotomy: DEE5 involves toxic dominant-negative interaction of translated abnormal alpha-II spectrin with beta-spectrin, whereas dHMN11 arises when the mutant transcript is cleared by NMD, causing a dosage deficit without toxic aggregation.",
+      "aspects": [
+        "Genotype-phenotype correlation",
+        "Dominant-negative vs haploinsufficiency",
+        "DEE5 vs dHMN11"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "Beijer et al. emphasized that nonsense variants causing NMD and loss of protein lead to hereditary motor neuropathy, sharply contrasting with dominant-negative alpha-II spectrin mutations that disrupt heterodimerization and cause severe epileptic encephalopathy.",
+          "stance": "supports",
+          "source": {
+            "title": "Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy",
+            "authors": [
+              "D Beijer",
+              "T Deconinck",
+              "JL De Bleecker",
+              "MT Dotti"
+            ],
+            "year": 2019,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+            "quote": "The mutant mRNA containing nonsense mutations is broken down by nonsense-mediated decay and leads to reduced protein levels in patient cells. Previously, dominant-negative \u03b1II-spectrin gene mutations were described as causal in a spectrum of epilepsy phenotypes."
+          },
+          "numbers": []
+        },
+        {
+          "text": "De Winter et al. demonstrated that heterozygous loss-of-function variants escape the severe epileptic/syndromic phenotype seen in dimerization domain dominant-negative mutations because NMD eliminates the mutant transcript in peripheral muscle and nerve.",
+          "stance": "supports",
+          "source": {
+            "title": "Heterozygous loss-of-function variants in SPTAN1 cause an early childhood onset distal myopathy",
+            "authors": [
+              "J De Winter",
+              "L Van de Vondel",
+              "B Ermanoska"
+            ],
+            "year": 2025,
+            "journal": "Genetics in Medicine",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1098360025000462",
+            "quote": "Finally, we provide proof for nonsense-mediated decay in muscle tissue derived from 2 patients... linking heterozygous SPTAN1 loss-of-function variants to childhood-onset distal myopathy in 14 unrelated families."
+          },
+          "numbers": [
+            {
+              "metric": "Patients with direct muscle NMD validation",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "In patients diagnosed with dHMN11 carrying SPTAN1 nonsense or frameshift variants, what proportion demonstrate subclinical or overt myopathic features on lower-limb muscle MRI (selective fatty replacement of extensor hallucis longus or anterior compartment) or muscle biopsy?",
+      "rationale": "Recent 2025\u20132026 studies reveal that SPTAN1 loss-of-function causes distal myopathy with anterior compartment involvement; understanding whether dHMN11 patients actually have an occult or mixed myopathy is essential for phenotypic classification.",
+      "promise": 0.88,
+      "est_cost": 0.75
+    },
+    {
+      "question_text": "What is the non-penetrance rate among family members harboring heterozygous loss-of-function SPTAN1 variants across reported dHMN11 and distal myopathy pedigrees?",
+      "rationale": "Multiple pedigrees (Beijer 2019, Van de Vondel 2026) report unaffected or minimally affected obligate carriers, which directly affects pedigree evaluation and clinical diagnostic certainty.",
+      "promise": 0.82,
+      "est_cost": 0.65
+    }
+  ],
+  "dead_end": false
+}

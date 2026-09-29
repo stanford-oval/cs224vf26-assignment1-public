@@ -1,0 +1,26 @@
+{
+  "omim": "OMIM:620793",
+  "label": "Muscular dystrophy, limb-girdle, autosomal recessive 29",
+  "gene": "SNUPN",
+  "gene_info": {
+    "symbol": "SNUPN",
+    "name": "snurportin 1",
+    "type_of_gene": "protein-coding",
+    "map_location": "15q24.2",
+    "entrez_id": "10073",
+    "aliases": [
+      "KPNBL",
+      "LGMDR29",
+      "RNUT1",
+      "Snurportin1"
+    ],
+    "summary": "The nuclear import of the spliceosomal snRNPs U1, U2, U4 and U5, is dependent on the presence of a complex nuclear localization signal. The latter is composed of the 5'-2,2,7-terminal trimethylguanosine (m3G) cap structure of the U snRNA and the Sm core domain. The protein encoded by this gene interacts specifically with m3G-cap and functions as an snRNP-specific nuclear import receptor. Alternatively spliced transcript variants encoding the same protein have been identified for this gene. [provided by RefSeq, Jul 2008].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 23,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 38,
+  "corpus_query": "\"SNUPN\" OR \"Muscular dystrophy\"",
+  "corpus_query_clinical": "(\"SNUPN\" OR \"Muscular dystrophy\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Muscular dystrophy, limb-girdle, autosomal recessive 29 (OMIM #620793), caused by variants in SNUPN: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

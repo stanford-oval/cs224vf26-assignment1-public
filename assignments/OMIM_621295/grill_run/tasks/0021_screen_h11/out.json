@@ -1,0 +1,72 @@
+{
+  "plausible": true,
+  "note": "A recent case report of homozygous cysteine-sparing EGFr19 missense mutation documented temporal pole hyperintensities alongside significantly elevated microbleed density.",
+  "confidence": 0.8,
+  "evidence": [
+    {
+      "text": "Two siblings with a homozygous cysteine-sparing NOTCH3 variant in EGFr19 presented with confluent temporal pole white matter hyperintensities and significantly elevated cerebral microbleed density.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous NOTCH3 c. 3373G> A (p.(Glu1125Lys)) in a consanguineous Chinese family presenting with vestibular migraine and epilepsy: Expanding the genotype \u2026",
+        "authors": [
+          "Y Luo",
+          "J Chen",
+          "Q Li",
+          "Y Zhang"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s10048-026-00899-y",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10048-026-00899-y",
+        "quote": "MRI showed confluent periventricular and temporal pole white matter hyperintensities (Fazekas grade 3) and numerous deep CMBs, particularly in the basal ganglia and cerebellum. Quantitatively, total CMB density was higher compared with controls (mean 2.15 counts/cm\u00b3 vs. 0.4 \u00b1 0.2 counts/cm\u00b3; p = 0.008)."
+      },
+      "numbers": [
+        {
+          "metric": "CMB density in patients (counts/cm\u00b3)",
+          "value": 2.15
+        },
+        {
+          "metric": "CMB density in controls (counts/cm\u00b3)",
+          "value": "0.4 \u00b1 0.2"
+        },
+        {
+          "metric": "p-value",
+          "value": 0.008
+        }
+      ]
+    },
+    {
+      "text": "A systematic review indicates that general NOTCH3 cysteine-sparing mutations exhibit significantly higher cerebral microbleed frequencies compared to typical CADASIL, though anterior temporal pole white matter lesions are usually rare across the wider cohort.",
+      "stance": "neutral",
+      "source": {
+        "title": "Phenotypes associated with NOTCH3 cysteine-sparing mutations in patients with clinical suspicion of CADASIL: a systematic review",
+        "authors": [
+          "Y Cao",
+          "DD Zhang",
+          "F Han",
+          "N Jiang",
+          "M Yao"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.3390/ijms25168796",
+        "pmid": "39201482",
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/25/16/8796",
+        "quote": "Compared with CADASIL patients, cognitive impairment and cerebral microbleed frequencies were significantly higher in patients with NOTCH3 cysteine-sparing mutations, while the white matter hyperintensities in anterior temporal polar and external capsule were rarely observed."
+      },
+      "numbers": [
+        {
+          "metric": "cerebral microbleeds frequency in cysteine-sparing patients (%)",
+          "value": 72.73
+        },
+        {
+          "metric": "total screened cysteine-sparing mutation individuals",
+          "value": 298
+        }
+      ]
+    }
+  ]
+}

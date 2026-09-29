@@ -1,0 +1,96 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The discovery study of 25 individuals with de novo MSL2 variants (Karayol et al., 2024; PMID 38815585) confirms that motor coordination issues, feeding difficulties, and gait disturbance are prominent neurodevelopmental features alongside global developmental delay, intellectual disability, and hypotonia, whereas seizures are described as occurring 'to a lesser extent'. However, the hypothesis claiming that seizures are merely an infrequent minor feature occurring in <30% of cases is challenged by the paper's primary title itself ('MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature'), which highlights epilepsy as one of four defining cardinal diagnostic manifestations alongside lack of coordination. Furthermore, exact numerical tallies and percentages for each specific phenotype are not provided in the supplied text snippets.",
+  "evidence": [
+    {
+      "text": "In a cohort of 25 individuals with de novo MSL2 variants, developmental delay, intellectual disability, hypotonia, and motor issues (coordination problems, feeding difficulties, gait disturbance) were observed, whereas seizures, connective tissue signs, sleep disturbance, and vision problems occurred 'to a lesser extent'.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.004",
+        "pmid": "38815585",
+        "pmc": "PMC11267526",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38815585/",
+        "quote": "MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "The discovery study titularly designates epilepsy alongside lack of coordination as a core defining manifestation of the syndrome, contrasting with the characterization of seizures as an infrequent minor secondary feature.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.004",
+        "pmid": "38815585",
+        "pmc": "PMC11267526",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002929724001642",
+        "quote": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature"
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Secondary literature corroborates Karayol-Borroto-Haghshenas neurodevelopmental syndrome (MIM #620985) as being characterized by developmental delay, intellectual disability, and gait disturbances.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous Deletion of the Epigenetic Regulator PHF20 in Individuals With Neurodevelopmental Disorder",
+        "authors": [
+          "SY Dagan",
+          "H Xuan",
+          "J Rips",
+          "E Paz"
+        ],
+        "year": 2025,
+        "journal": "Human Mutation",
+        "doi": "10.1155/humu/6484814",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/humu/6484814",
+        "quote": "MSL2 lead to Karayol\u2013Borroto\u2013Haghshenas neurodevelopmental syndrome (MIM 620985), associated with developmental delay, intellectual disability, gait"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While the abstract notes that seizures occur 'to a lesser extent' than primary motor and developmental delay phenotypes, the paper itself prominently highlights epilepsy in its title ('...lack of coordination, epilepsy, specific dysmorphisms...'), indicating that epilepsy is clinically significant rather than a negligible incidental finding.",
+    "Exact individual numerators and denominators supporting the proposed numerical cutoffs (>70% vs <30%) are absent from the provided abstracts and extracts."
+  ],
+  "confidence": 0.6,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence, semiology, age of onset, and pharmacoresistance of seizures among individuals with MSL2 pathogenic variants?",
+      "rationale": "Determining whether epilepsy is present across specific variant subclasses or age strata will clarify whether it can be safely used to distinguish KBHS from primary epileptic encephalopathies.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Does the specific blood DNA episignature established for MSL2 variants definitively classify individuals presenting with atypical neurodevelopmental phenotypes lacking epilepsy or gait ataxia?",
+      "rationale": "Epigenetic signatures serve as specific functional biomarkers to diagnose individuals who lack the classical full phenotypic presentation.",
+      "promise": 0.9,
+      "est_cost": 15000
+    }
+  ]
+}

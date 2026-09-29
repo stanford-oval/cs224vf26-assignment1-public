@@ -1,0 +1,101 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While facial dysmorphism and myopathic manifestations are consistently reported across the primary cohorts describing biallelic FILIP1 variants (e.g., 5/5 individuals in Schnabel et al. and the cohort described by Roos et al., as well as OMIM #620775 entries), the literature does not conclusively support that each specific feature\u2014namely bilateral ptosis, high-arched palate, micrognathia, and myopathic facies\u2014consistently achieves a >75% frequency across cohorts. Instead, the broader core phenotype is anchored by congenital joint contractures/arthrogryposis, microcephaly, and structural myopathy, with specific facial dysmorphic signs showing variability across reported kindreds and blending with systemic neurodevelopmental manifestations.",
+  "evidence": [
+    {
+      "text": "Schnabel et al. identified five affected individuals from three unrelated families with homozygous truncating variants in FILIP1 who all exhibited congenital joint contractures, microcephaly, and facial dysmorphism.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with facial dysmorphism and microcephaly",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "Roos et al. described five patients from four unrelated consanguineous families with bi-allelic FILIP1 variants presenting with congenital myopathy, neurological defects, neurodevelopmental delay, muscle weakness, and dysmorphic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features."
+      },
+      "numbers": [
+        {
+          "metric": "described patients with neuromuscular and dysmorphic features",
+          "value": "5"
+        },
+        {
+          "metric": "unrelated families",
+          "value": "4"
+        }
+      ]
+    },
+    {
+      "text": "Watts et al. reported a case of FILIP1-associated neuromuscular disorder in the context of paternal UPD6 showing phenotypic blending, illustrating that patient phenotypes can deviate or blend with other genetic features.",
+      "stance": "neutral",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "genetic alterations that suggest phenotypic blending, where the overall patient phenotype is a mixture of two distinct disease phenotypes"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While general 'facial dysmorphism' is present in virtually all reported cases (e.g., 5/5 in Schnabel et al.), granular frequencies confirming that bilateral ptosis, high-arched palate, and micrognathia each exceed 75% across cohorts are not established across all available literature.",
+    "Multiple sources prioritize congenital contractures/arthrogryposis multiplex congenita, microcephaly, and core-like myopathy over specific isolated cranial dysmorphisms as the primary discriminating features."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of high-arched palate, bilateral ptosis, and micrognathia across all published individuals with biallelic FILIP1 variants when evaluated with standardized HPO terms?",
+      "rationale": "A harmonized international registry or meta-cohort compilation is needed to evaluate whether these specific craniofacial features meet the >75% threshold independently or whether 'facial dysmorphism' reflects broader, heterogeneous myopathic changes.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do missense variants in FILIP1 (e.g., p.Pro1133Leu) produce a less severe dysmorphic or contractural phenotype compared to biallelic truncating loss-of-function variants?",
+      "rationale": "Roos et al. identified missense variants preserving protein expression with core-like myopathy, whereas Schnabel et al. characterized truncating alleles causing severe arthrogryposis multiplex congenita.",
+      "promise": 0.8,
+      "est_cost": 25000
+    }
+  ]
+}

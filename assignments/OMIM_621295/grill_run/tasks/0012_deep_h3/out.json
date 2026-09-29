@@ -1,0 +1,111 @@
+{
+  "verdict": "supported",
+  "rationale": "Across hereditary cerebral small vessel disease literature, premature alopecia (HP:0002297) and degenerative spondylosis deformans/lumbago (HP:0003419) constitute hallmark extraneurological features of HTRA1-related CARASIL. In contrast, NOTCH3-related arteriopathies (both dominant CADASIL and recessive NOTCH3-related arteriopathy/cavitating leukoencephalopathy) lack these systemic connective tissue/skeletal manifestations, making their absence in NOTCH3 arteriopathy a primary negative discriminator differentiating it from HTRA1-related CARASIL.",
+  "evidence": [
+    {
+      "text": "CARASIL is characterized by gait disturbance, low back pain, and alopecia alongside cognitive decline and white matter lesions, distinguishing it from NOTCH3-related arteriopathy (CADASIL), which presents without these characteristic extraneurological features.",
+      "stance": "supports",
+      "source": {
+        "title": "Cadasil and Carasil",
+        "authors": [
+          "S Tikka",
+          "M Baumann",
+          "M Siitonen",
+          "P Pasanen"
+        ],
+        "year": 2014,
+        "journal": "Brain Pathology",
+        "doi": "10.1111/bpa.12181",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/bpa.12181",
+        "quote": "In rare, recessively inherited CARASIL the clinical picture and white matter changes are similar as in CADASIL, but cognitive decline begins earlier. In addition, gait disturbance, low back pain and alopecia are characteristic features. CARASIL is caused by mutations (presently n = 10) in high-temperature requirement. A serine peptidase 1 (HTRA1) gene"
+      },
+      "numbers": [
+        {
+          "metric": "reported HTRA1 mutations at time of review",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "text": "The clinical triad of CARASIL caused by HTRA1 mutations features premature baldness and severe low back pain or spondylosis deformans, serving as hallmark extraneurological signs distinct from NOTCH3-related cerebral small vessel diseases.",
+      "stance": "supports",
+      "source": {
+        "title": "Cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy (CARASIL): from discovery to gene identification",
+        "authors": [
+          "T Fukutake"
+        ],
+        "year": 2011,
+        "journal": "Journal of Stroke and Cerebrovascular Diseases",
+        "doi": "10.1016/j.jstrokecerebrovasdis.2010.11.008",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1052305710002600",
+        "quote": "The main clinical manifestations of CARASIL are ischemic stroke or stepwise deterioration in brain functions, progressive dementia, premature baldness, and attacks of severe low back pain or spondylosis deformans/disk herniation... CARASIL is a prototype single-gene disorder of cerebral small vessels secondary to and distinct from CADASIL."
+      },
+      "numbers": [
+        {
+          "metric": "approximate number of CARASIL patients reported by 2011",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "Patients presenting with cerebral small-vessel disease who tested negative for NOTCH3 mutations were screened for CARASIL based specifically on the coexistence of premature alopecia and spondylosis, confirming their role as specific discriminators for HTRA1.",
+      "stance": "supports",
+      "source": {
+        "title": "Shifting the CARASIL paradigm: report of a non-Asian family and literature review",
+        "authors": [
+          "I Menezes Cordeiro",
+          "H Nzwalo",
+          "F Sa",
+          "RB Ferreira"
+        ],
+        "year": 2015,
+        "journal": "Stroke",
+        "doi": "10.1161/strokeaha.114.006735",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ahajournals.org/doi/abs/10.1161/strokeaha.114.006735",
+        "quote": "Both patients exhibited the typical phenotype: cerebral small-vessel disease, spondylosis, and abnormal hair lost. Mutation screening was performed for NOTCH3 and HTRA1 genes. No mutations were found in NOTCH3. The study revealed the presence of a homozygous c.496C>T substitution in HTRA1 in both siblings."
+      },
+      "numbers": [
+        {
+          "metric": "siblings evaluated in family",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Leukoencephalopathy, lumbago, and alopecia constitute the defining clinical triad of CARASIL (HTRA1-related), which are absent in pure vascular smooth muscle cell Notch3-related arteriopathies.",
+      "stance": "supports",
+      "source": {
+        "title": "Features of cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy",
+        "authors": [
+          "H Nozaki",
+          "M Nishizawa",
+          "O Onodera"
+        ],
+        "year": 2014,
+        "journal": "Stroke",
+        "doi": "10.1161/strokeaha.114.004236",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ahajournals.org/doi/abs/10.1161/strokeaha.114.004236",
+        "quote": "Although leukoencephalopathy, lumbago, and alopecia are the clinical triad of CARASIL, CARASIL exists in other populations."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.94,
+  "new_directions": [
+    {
+      "question_text": "In patients with biallelic homozygous null or missense NOTCH3 variants (CARASIL1, OMIM #621295), what is the exact documented incidence of musculoskeletal spinal disease or hair follicle pathology on formal systematic screening?",
+      "rationale": "While clinical reviews contrast HTRA1 and NOTCH3 arteriopathies using alopecia and spondylosis, rare cohorts with recessive NOTCH3 null mutations must be systematically characterized for subclinical spine or ectodermal phenotypes.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

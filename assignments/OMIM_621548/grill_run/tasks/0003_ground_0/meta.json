@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Retinitis pigmentosa 101\" \"CLN3\" clinical phenotype",
+    "Retinitis pigmentosa 101 CLN3 OMIM 621548 phenotype features"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/n/gene/cln3-dis/",
+      "title": "CLN3-Related Disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/n/gene/cln3-dis/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "34684815",
+      "title": "Patient-derived induced pluripotent stem cell models for phenotypic screening in the neuronal ceroid lipofuscinoses",
+      "pmid": "34684815",
+      "doi": "10.3390/molecules26206235",
+      "url": "https://www.mdpi.com/1420-3049/26/20/6235",
+      "abstract_chars": 1260
+    },
+    {
+      "id": "https://omim.org/entry/621548",
+      "title": "Entry - #621548 - RETINITIS PIGMENTOSA 101; RP101",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621548",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/retinitis_pigmentosa_101",
+      "title": "Retinitis Pigmentosa 101",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/retinitis_pigmentosa_101",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/CLN3",
+      "title": "CLN3 Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/CLN3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://db.tigs.res.in/gentigs/geneinfovariants.php?gid=1201",
+      "title": "A total 270 pathogenic variants reported in gene CLN3 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://db.tigs.res.in/gentigs/geneinfovariants.php?gid=1201",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.omim.org/clinicalSynopsis/621548",
+      "title": "RETINITIS PIGMENTOSA 101; RP101",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.omim.org/clinicalSynopsis/621548",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/609913",
+      "title": "Entry - #609913 - RETINITIS PIGMENTOSA 32; RP32",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/609913",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621563",
+      "title": "Entry - #621563 - RETINITIS PIGMENTOSA 105; RP105",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621563",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://zfin.org/DOID:0061299",
+      "title": "retinitis pigmentosa 101 - ZFIN Human Disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://zfin.org/DOID:0061299",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2481,
+  "output_tokens": 2292,
+  "usd": 0.00812,
+  "seconds": 15.3,
+  "ok": true
+}

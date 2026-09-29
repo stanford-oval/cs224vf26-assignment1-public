@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Cornelia de Lange syndrome\" \"MAU2\" \"phenotype\"",
+    "MAU2 Cornelia de Lange syndrome 7 OMIM 621570 clinical phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41467-026-71177-6",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41467-026-71177-6",
+      "abstract_chars": 1083
+    },
+    {
+      "id": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+      "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+      "abstract_chars": 1048
+    },
+    {
+      "id": "https://www.sciencedirect.com/author/24170976000/hesham-m-aldhalaan",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/author/24170976000/hesham-m-aldhalaan",
+      "abstract_chars": 1083
+    },
+    {
+      "id": "21934712",
+      "title": "Isolated NIBPL missense mutations that cause Cornelia de Lange syndrome alter MAU2 interaction",
+      "pmid": "21934712",
+      "doi": "10.1038/ejhg.2011.175",
+      "url": "https://www.nature.com/articles/ejhg2011175",
+      "abstract_chars": 1430
+    },
+    {
+      "id": "39917313",
+      "title": "Assessment of the transcriptomic consequences and MAU2 protein levels in edited induced pluripotent stem cells with NIPBL pathogenic variants",
+      "pmid": "39917313",
+      "doi": "10.1016/j.gendis.2024.101386",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2352304224001831",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "37962004",
+      "title": "Clinical study and genetic analysis of Cornelia de Lange ...",
+      "pmid": "37962004",
+      "doi": "10.1002/mgg3.2318",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37962004/",
+      "abstract_chars": 1229
+    },
+    {
+      "id": "https://omim.org/entry/621570",
+      "title": "621570 - CORNELIA DE LANGE SYNDROME 7; CDLS7",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621570",
+      "abstract_chars": 0
+    },
+    {
+      "id": "20301283",
+      "title": "Cornelia De Lange Syndrome",
+      "pmid": "20301283",
+      "doi": null,
+      "url": "https://emedicine.medscape.com/article/942792-overview",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "PMC12668068",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+      "abstract_chars": 1103
+    }
+  ],
+  "input_tokens": 4898,
+  "output_tokens": 1602,
+  "usd": 0.00726,
+  "seconds": 34.3,
+  "ok": true
+}

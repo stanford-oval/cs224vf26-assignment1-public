@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"pontocerebellar hypoplasia\" \"prenatal\" \"head circumference\" microcephaly",
+    "pontocerebellar hypoplasia prenatal ultrasound head circumference normal microcephaly"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-020-00749-x",
+      "title": "Pontocerebellar hypoplasia due to bi-allelic variants in MINPP1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-020-00749-x",
+      "abstract_chars": 1628
+    },
+    {
+      "id": "10.1002/pd.6495",
+      "title": "Prenatal diagnosis of pontocerebellar hypoplasia with postnatal follow\u2010up",
+      "pmid": null,
+      "doi": "10.1002/pd.6495",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.6495",
+      "abstract_chars": 1721
+    },
+    {
+      "id": "10.1111/dmcn.15419",
+      "title": "Expanding the natural history of CASK\u2010related disorders to the prenatal period",
+      "pmid": null,
+      "doi": "10.1111/dmcn.15419",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/dmcn.15419",
+      "abstract_chars": 1966
+    },
+    {
+      "id": "10.1186/1750-1172-9-70",
+      "title": "Natural course of pontocerebellar hypoplasia type 2A",
+      "pmid": null,
+      "doi": "10.1186/1750-1172-9-70",
+      "url": "https://link.springer.com/article/10.1186/1750-1172-9-70",
+      "abstract_chars": 2191
+    },
+    {
+      "id": "10.1002/ajmg.a.33579",
+      "title": "Molecular and neuroimaging findings in pontocerebellar hypoplasia type 2 (PCH2): is prenatal diagnosis possible?",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.33579",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.33579",
+      "abstract_chars": 1774
+    },
+    {
+      "id": "PMC2931360",
+      "title": "IS PRENATAL DIAGNOSIS POSSIBLE? - PMC - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2931360/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fnins.2024.1347506/full",
+      "title": "Small size, big problems: insights and difficulties in ...",
+      "pmid": null,
+      "doi": "10.3389/fnins.2024.1347506/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1347506/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0887899426000664",
+      "title": "Diagnostic Clues and Pitfalls in Pontocerebellar ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0887899426000664",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://www.medlink.com/articles/pontocerebellar-hypoplasia",
+      "title": "Pontocerebellar hypoplasia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.medlink.com/articles/pontocerebellar-hypoplasia",
+      "abstract_chars": 1560
+    },
+    {
+      "id": "17320436",
+      "title": "Pontocerebellar hypoplasia type 2: variability in clinical and imaging findings",
+      "pmid": "17320436",
+      "doi": "10.1016/j.ejpn.2006.11.012",
+      "url": "https://www.sciencedirect.com/science/article/pii/S109037980600184X",
+      "abstract_chars": 1349
+    }
+  ],
+  "input_tokens": 7367,
+  "output_tokens": 7120,
+  "usd": 0.02504,
+  "seconds": 30.7,
+  "ok": true
+}

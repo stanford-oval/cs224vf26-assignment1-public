@@ -1,0 +1,196 @@
+{
+  "hypotheses": [
+    {
+      "text": "Cerebellar atrophy penetrance on MRI in TUBA4A-associated spastic ataxia (SPAX11) is duration- and variant-dependent rather than an obligate feature (80-100%), showing normal cerebellar volume early in disease course or in milder alleles such as p.Glu415Lys.",
+      "rationale": "Resolves the direct contradiction between Benkirane et al. (2024), who report penetrant cerebellar atrophy in hereditary spastic ataxia probands, and Torella et al. (2023), who identified normal brain MRIs in affected individuals with shorter disease duration or specific alleles.",
+      "aspects": [
+        "cerebellar atrophy penetrance",
+        "disease duration",
+        "SPAX11 neuroimaging"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Neuroimaging assessment of individuals carrying the TUBA4A p.Glu415Lys variant demonstrated cerebellar atrophy in seven cases but normal imaging in an affected individual with short disease duration, demonstrating that cerebellar atrophy is not 100% penetrant across all stages.",
+          "stance": "supports",
+          "source": {
+            "title": "(PDF) A new genetic cause of spastic ataxia",
+            "authors": [
+              "(authors not shown)"
+            ],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchgate.net/publication/372192530_A_new_genetic_cause_of_spastic_ataxia_the_pGlu415Lys_variant_in_TUBA4A",
+            "quote": "cerebellar atrophy in seven cases and was normal in one with a short"
+          },
+          "numbers": [
+            {
+              "metric": "patients with cerebellar atrophy",
+              "value": 7
+            },
+            {
+              "metric": "patients with normal MRI and short duration",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "text": "Screening of 448 ataxia probands revealed 12 patients with TUBA4A missense variants exhibiting spasticity and/or cerebellar ataxia with variable age of onset, where cerebellar atrophy and spastic ataxia represent prominent phenotypic features across cohorts.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+            "authors": [
+              "M Benkirane",
+              "M Bonhomme",
+              "H Morsy",
+              "SL Safgren"
+            ],
+            "year": 2024,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": "38884572",
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+            "quote": "Taken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation, including five confirmed de novo cases and a mutation previously reported in a large family presenting with spastic ataxia."
+          },
+          "numbers": [
+            {
+              "metric": "cohort size screened",
+              "value": 448
+            },
+            {
+              "metric": "affected patients identified",
+              "value": 12
+            },
+            {
+              "metric": "confirmed de novo cases",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Specific TUBA4A missense mutations cause a continuous spectrum bridging pure spastic ataxia (SPAX11) and myo-tubulinopathies, where cerebellar atrophy occurs concomitantly with progressive myofibrillar or skeletal myopathy.",
+      "rationale": "Clarifies whether TUBA4A-associated cerebellar atrophy is confined to pure spastic ataxia or extends into neuromuscular presentations, which would alter differential diagnosis against pure cerebellar ataxias and HSPs.",
+      "aspects": [
+        "myo-tubulinopathy",
+        "cerebellar atrophy",
+        "phenotypic spectrum"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Patients with N-terminal and other TUBA4A missense variants (such as p.Gln11His) present with mild early-onset or late-onset cerebellar atrophy alongside myofibrillar myopathy (MFM), expanding TUBA4A-related cerebellar atrophy into myo-tubulinopathies.",
+          "stance": "supports",
+          "source": {
+            "title": "Missense variants in TUBA4A cause myo-tubulinopathies",
+            "authors": [
+              "M Johari",
+              "C Folland",
+              "Y Saito",
+              "MM Oud",
+              "JM Parmar"
+            ],
+            "year": 2026,
+            "journal": "Brain",
+            "doi": "10.1093/brain/awag059/8475507",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag059/8475507",
+            "quote": "(Gln11His), we observed 1 a mild early-onset cerebellar atrophy along with a myofibrillar myopathy (... MFM and concomitant 3 late-onset ataxia with cerebellar atrophy was observed."
+          },
+          "numbers": []
+        },
+        {
+          "text": "In vivo modeling of the dominant Tuba4a p.Gln176Pro variant demonstrates that TUBA4A disruption causes hallmark features of both SPAX11 (ataxia, Purkinje cell degeneration, cerebellar atrophy) and congenital myopathy (skeletal muscle defects), without motor neuron degeneration.",
+          "stance": "supports",
+          "source": {
+            "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+            "authors": [
+              "TJ Hines",
+              "JR Funke",
+              "SL Pratt",
+              "AD Rice",
+              "JL Twiss"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC13014175",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+            "quote": "The Tuba4a Q176P mice have profound ataxia with Purkinje neuron degeneration beginning between 22 and 30 days. Ataxia and cerebellar atrophy were also observed in two ... Mutant mice are normal at 3 weeks ... However, by 30 days these mice have overt ataxia, Purkinje neuron degeneration, and extensive skeletal muscle defects"
+          },
+          "numbers": [
+            {
+              "metric": "onset of Purkinje degeneration in days",
+              "value": "22-30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Purkinje neuron loss is the primary histological driver of cerebellar volume loss in TUBA4A-induced spastic ataxia, causing progressive vermian and hemispheric atrophy that increases with clinical disease duration.",
+      "rationale": "Explains why younger or recently affected patients may have normal or borderline cerebellar volumes on MRI whereas older individuals with long-standing disease exhibit pronounced cerebellar atrophy.",
+      "aspects": [
+        "Purkinje cell degeneration",
+        "cerebellar atrophy progression",
+        "pathophysiology"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Tuba4a mutant models demonstrate that overt ataxia and cerebellar atrophy develop secondarily to time-dependent Purkinje neuron degeneration occurring after initial normal development.",
+          "stance": "supports",
+          "source": {
+            "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+            "authors": [
+              "TJ Hines",
+              "JR Funke",
+              "SL Pratt",
+              "AD Rice",
+              "JL Twiss"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC13014175",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+            "quote": "Mutant mice are normal at 3 weeks, except for decrement in muscle response following repetitive nerve stimulation. However, by 30 days these mice have overt ataxia, Purkinje neuron degeneration"
+          },
+          "numbers": [
+            {
+              "metric": "age at normal motor presentation in weeks",
+              "value": 3
+            },
+            {
+              "metric": "age at overt ataxia in days",
+              "value": 30
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact correlation between disease duration from symptom onset and semi-quantitative MRI cerebellar atrophy scores across all published TUBA4A SPAX11 kindreds?",
+      "rationale": "Directly resolves whether the discrepancy between Torella et al. (2023) and Benkirane et al. (2024) is fully explained by time from symptom onset to MRI acquisition.",
+      "promise": 0.85,
+      "est_cost": 0.8
+    },
+    {
+      "question_text": "Does subclinical skeletal muscle involvement (elevated CK or EMG myopathic changes) systematically differentiate TUBA4A-associated spastic ataxia from SPG7 and dominant SCAs (SCA1, SCA2, SCA3)?",
+      "rationale": "Recent 2026 data indicate TUBA4A missense variants frequently cause myo-tubulinopathy and muscle defects, which could provide a discriminating peripheral biomarker absent in pure SCAs.",
+      "promise": 0.9,
+      "est_cost": 0.9
+    }
+  ],
+  "dead_end": false
+}

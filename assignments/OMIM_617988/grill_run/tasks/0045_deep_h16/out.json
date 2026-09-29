@@ -1,0 +1,125 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents conflicting evidence regarding the penetrance and diagnostic utility of dental anomalies in GTPBP2-related Jaberi-Elahi syndrome. While recent cohort reviews suggest that dental anomalies are documented in only a small minority (~10%) of reported cases (in part due to early infant ascertainment where dentition cannot yet be evaluated), landmark clinical delineations by Carter et al. (2019), OMIM (#617988), and ClinGen characterize GTPBP2 deficiency specifically as a neuro-ectodermal syndrome where dental, hair, and nail abnormalities represent key progressive features that become prominent in older individuals. Thus, whether dental anomalies truly have low biological penetrance (\u226415%) or are instead age-dependent cardinal manifestations remains actively debated.",
+  "evidence": [
+    {
+      "text": "Cohort evaluations report that dental anomalies occur in approximately 10% of reported Jaberi-Elahi syndrome cases, contrasting with more frequent neurodevelopmental and general ectodermal findings such as hair abnormalities (60-80%).",
+      "stance": "supports",
+      "source": {
+        "title": "A Novel Homozygous Frameshift GTPBP2 Variant in Jaberi-Elahi Syndrome: First Case Report from T\u00fcrkiye",
+        "authors": [
+          "M So\u011fukp\u0131nar",
+          "Y Ata\u015f",
+          "G \u00dcner",
+          "P Arslan"
+        ],
+        "year": 2026,
+        "journal": "Molecular Syndromology",
+        "doi": "10.1159/000552675/949444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://karger.com/msy/article-abstract/doi/10.1159/000552675/949444",
+        "quote": "On the other hand, dental ..."
+      },
+      "numbers": [
+        {
+          "metric": "dental anomaly frequency",
+          "value": "10%"
+        },
+        {
+          "metric": "hair and skin manifestation frequency",
+          "value": "60% to 80%"
+        }
+      ]
+    },
+    {
+      "text": "Detailed phenotypic analysis of GTPBP2-associated disease identifies ectodermal dysplasia\u2014specifically hair, dental, and nail abnormalities\u2014as a key defining feature of this neuro-ectodermal syndrome, noting that ectodermal findings are age-related and most prominent in older individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical delineation of GTPBP2\u2010associated neuro\u2010ectodermal syndrome: Report of two new families and review of the literature",
+        "authors": [
+          "MT Carter",
+          "S Venkateswaran"
+        ],
+        "year": 2019,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13523",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13523",
+        "quote": "Key features of this clinically recognizable condition include prenatal onset microcephaly, tone abnormalities, and movement disorders, epilepsy, dysmorphic features, retinal dysfunction, ectodermal dysplasia, and brain iron accumulation. Our findings suggest that some aspects of the clinical presentation appear to be age-related; brain iron accumulation may appear only after childhood, and the ectodermal findings and peripheral neuropathy are most prominent in older individuals."
+      },
+      "numbers": [
+        {
+          "metric": "previously reported individuals",
+          "value": 6
+        },
+        {
+          "metric": "new individuals reported",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "ClinGen disease curation for GTPBP2-associated Jaberi-Elahi syndrome highlights dental abnormalities ('teeth') in conjunction with fine, sparse hair, optic atrophy, and neurodegeneration as central phenotypic criteria.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Gene-Disease Validity Details",
+        "authors": [],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.clinicalgenome.org/kb/gene-validity/CGGV:assertion_c8e1f8d9-d8e8-428c-9860-f84bb96ff9ea-2024-08-16T16:00:00.000Z",
+        "quote": "GTPBP2 - Jaberi-Elahi syndrome. Evidence Summary: The GTPBP2 (guanosine ... teeth + fine, sparse hair \u2022Ocular: Optic atrophy and cortical visual ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Patients with GTPBP2 biallelic variants can present with severe early-onset neurodevelopmental phenotypes and brain malformations mimicking ciliopathies such as Joubert syndrome, leading to molecular identification prior to the full manifestation of ectodermal dysplasia.",
+      "stance": "neutral",
+      "source": {
+        "title": "Get your molar tooth right: Joubert syndrome misdiagnosis unmasked by whole-exome sequencing",
+        "authors": [
+          "F D'Abrusco",
+          "F Arrigoni",
+          "V Serpieri",
+          "R Romaniello"
+        ],
+        "year": 2022,
+        "journal": "The Cerebellum",
+        "doi": "10.1007/s12311-021-01350-8",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s12311-021-01350-8",
+        "quote": "Finally, proband COR389 was found to carry a homozygous pathogenic variant in the GTPBP2 gene and thus received a diagnosis of Jaberi-Elahi syndrome (OMIM #617,988)."
+      },
+      "numbers": [
+        {
+          "metric": "evaluated misdiagnosed Joubert syndrome cases",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Published case counts report documented dental abnormalities in only ~10% of all reported Jaberi-Elahi patients, supporting low diagnostic sensitivity.",
+    "Seminal nosological and curation literature (Carter et al. 2019, ClinGen, OMIM) delineates dental anomalies as a cardinal component of the 'neuro-ectodermal' phenotype, indicating that low penetrance in literature cohorts is largely an artifact of infant ascertainment before dental eruption and maturation."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true penetrance of primary and permanent dentition anomalies in GTPBP2 patients assessed after 6 years of age?",
+      "rationale": "Because ectodermal findings in GTPBP2 deficiency are age-dependent, evaluating odontological features specifically in post-infancy cohorts will resolve whether dental dysplasia is genuinely rare or merely late-manifesting.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does GTPBP2 loss directly disrupt amelogenesis or odontogenesis in human dental pulp stem cell models?",
+      "rationale": "In vitro modeling of GTPBP2-deficient dental stem cells would determine if tooth pathology is an intrinsic cell-autonomous ectodermal dysplasia defect or secondary to systemic trophic/metabolic compromise.",
+      "promise": 0.75,
+      "est_cost": 50000.0
+    }
+  ]
+}

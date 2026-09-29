@@ -1,0 +1,56 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from the primary defining cohort of autosomal dominant intellectual developmental disorder 73 (TAF4-related NDD; Janssen et al., 2022) shows that individuals with de novo putative loss-of-function variants present predominantly with intellectual disability, behavioral differences, and subtle facial and skeletal dysmorphisms. Major structural internal organ malformations, such as complex cyanotic congenital heart disease, tracheoesophageal fistula, or renal agenesis, have not been observed as core or recurrent features across reported cases in the curated literature.",
+  "evidence": [
+    {
+      "text": "Characterization of eight individuals with de novo putative loss-of-function variants in TAF4 revealed that the phenotype consists predominantly of intellectual disability, behavioral abnormalities, and facial dysmorphisms, without recurrent major internal organ anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": "35904126",
+        "pmc": "PMC10087332",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in cohort",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry 620450 catalogues intellectual developmental disorder, autosomal dominant 73 as primarily an intellectual and neurodevelopmental disorder with variable minor features (such as increased nuchal translucency, premature birth, and short stature), lacking major complex visceral or cyanotic cardiac malformations as part of the core syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "One had prenatal increased nuchal translucency, premature birth, short stature, and intellectual disability."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Does systematically screened fetal or neonatal imaging in a larger expanded international TAF4 cohort reveal subclinical or rare internal structural organ anomalies?",
+      "rationale": "The initial discovery cohort of TAF4-related NDD comprises only eight individuals; expanding phenotyping across a larger worldwide cohort is critical to determine the exact prevalence and negative predictive value of visceral organ malformations.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

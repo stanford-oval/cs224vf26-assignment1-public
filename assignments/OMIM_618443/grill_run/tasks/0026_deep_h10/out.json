@@ -1,0 +1,108 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature supports the existence of a severe congenital lower motor neuron phenotype resembling lethal SMA associated with compound heterozygous MAPK8IP3 variants and marked (>60%) decrease in JIP3 expression based on an initial report (K\u00e1rteszi et al., 2023). However, the hypothesis posits a strict dichotomy where recessive loss-of-function causes lower motor neuron disease whereas dominant disease is driven specifically by de novo missense variants. This is contradicted by foundational cohort studies (Platzer et al., 2019) showing that dominant de novo truncating (loss-of-function) variants in MAPK8IP3 also cause the classic dominant neurodevelopmental syndrome with intellectual disability and hypotonia, challenging a simple recessive-versus-dominant LoF dichotomy. Furthermore, the recessive lower motor neuron phenotype currently rests on a single reported individual (n=1).",
+  "evidence": [
+    {
+      "text": "Whole-exome sequencing in an infant with severe congenital muscle hypotonia of neuronal origin mimicking lethal spinal muscular atrophy identified compound heterozygous variants (a splice and a missense variant) in MAPK8IP3 inherited from healthy parents. Muscle biopsy demonstrated a greater than 60% reduction in JIP3 protein expression by Western blot.",
+      "stance": "supports",
+      "source": {
+        "title": "Compound heterozygous variants in MAPK8IP3 were detected in severe congenital hypotonia mimicking lethal spinal muscular atrophy",
+        "authors": [
+          "J K\u00e1rteszi",
+          "A Ziegler",
+          "M Tihanyi"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63340",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63340",
+        "quote": "Whole-exome sequencing was performed on an individual presenting with severe congenital muscle hypotonia of neuronal origin mimicking lethal spinal muscular atrophy. Compound heterozygous rare variants (a splice and a missense) were detected in MAPK8IP3, inherited from the healthy parents. Western blot analysis in a muscle biopsy sample showed a more than 60% decrease in JIP3 expression. Here, we suggest a novel autosomal recessive phenotype of a lower motor neuron disease caused by JIP3 deficiency."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with compound heterozygous variants",
+          "value": 1
+        },
+        {
+          "metric": "decrease in JIP3 protein expression",
+          "value": ">60%"
+        }
+      ]
+    },
+    {
+      "text": "Dominant de novo variants in MAPK8IP3 underlying intellectual disability and variable brain abnormalities include not only missense changes but also heterozygous truncating variants (3 of 13 individuals), contradicting the claim that dominant de novo disease is exclusively missense and that truncating loss-of-function alterations are solely recessive.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "Using exome sequencing, we have identified de novo variants in MAPK8IP3 in 13 unrelated individuals presenting with an overlapping phenotype of mild to severe intellectual disability. The de novo variants comprise six missense variants, three of which are recurrent, and three truncating variants."
+      },
+      "numbers": [
+        {
+          "metric": "unrelated individuals with de novo variants",
+          "value": 13
+        },
+        {
+          "metric": "de novo truncating variants identified",
+          "value": 3
+        },
+        {
+          "metric": "de novo missense variants identified",
+          "value": 6
+        },
+        {
+          "metric": "total exome sequencing cohort screened",
+          "value": 27232
+        }
+      ]
+    },
+    {
+      "text": "Curation panels record both monoallelic and biallelic modes of inheritance for MAPK8IP3 in neuromuscular and cerebral palsy disease entities, acknowledging the emerging recessive classification alongside established monoallelic mechanisms.",
+      "stance": "neutral",
+      "source": {
+        "title": "Gene: MAPK8IP3 (Hereditary neuropathy or pain disorder)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/846/gene/MAPK8IP3/",
+        "quote": "hypotonia and compound heterozygous variants in MAPK8IP3 identified by WES. ... BOTH monoallelic and biallelic, autosomal or pseudoautosomal. Phenotypes"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes dominant de novo neurodevelopmental syndrome is strictly caused by missense variants while loss-of-function is recessive; however, Platzer et al. (2019) demonstrated that heterozygous de novo truncating (loss-of-function) variants cause the dominant intellectual disability syndrome in 3 of 13 patients.",
+    "The phenotypic categorization of recessive JIP3 deficiency as an isolated lower motor neuron/SMA-like disorder is based on a single patient (n=1) harboring a splice and missense variant, leaving it unresolved whether complete null/biallelic LoF causes isolated LMN disease, early lethality, or a broader neurodevelopmental phenotype."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Do heterozygous carriers of the splice and missense variants identified in K\u00e1rteszi et al. exhibit subclinical electrophysiological or lower motor neuron denervation signs?",
+      "rationale": "Clarifying whether the parents harbor subclinical axonal neuropathy or lower motor neuron involvement will determine if the condition is truly recessive or shows incomplete penetrance of a dominant trait.",
+      "promise": 0.8,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "How do heterozygous truncating variants in Platzer et al. escape nonsense-mediated decay or exert dominant effects compared to the compound heterozygous variants in K\u00e1rteszi et al.?",
+      "rationale": "Determining whether dominant truncating variants act via dominant-negative/haploinsufficiency mechanisms versus recessive loss-of-function thresholds will resolve the conflicting genetic architecture.",
+      "promise": 0.85,
+      "est_cost": 35000
+    }
+  ]
+}

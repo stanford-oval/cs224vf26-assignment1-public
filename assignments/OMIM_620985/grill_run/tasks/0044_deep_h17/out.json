@@ -1,0 +1,81 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature directly supports the hypothesis. Karayol et al. (2024) established a sensitive and specific machine-learning DNA methylation episignature model for MSL2-related neurodevelopmental disorder that calculates a methylation variant pathogenicity (MVP) score (0 to 1), effectively distinguishing MSL2 individuals from MSL3-related Basilicata-Akhtar syndrome and controls. Furthermore, functional testing revealed that while MOF/KAT8 and MSL3 defects deplete global H4K16ac levels, MSL2 deficiency maintains unchanged bulk H4K16ac levels while specifically perturbing downstream target expression and locus-specific DNA methylation patterns.",
+  "evidence": [
+    {
+      "text": "Karayol et al. developed an episignature model generating a methylation variant pathogenicity (MVP) score from 0 to 1 for individuals with MSL2 variants, successfully resolving MSL2 cases from MSL3 (Basilicata-Akhtar syndrome) and controls. Additionally, they demonstrated that while variants in MSL complex members MOF (KAT8) and MSL3 reduce global H4K16ac levels, MSL2 variants do not alter bulk H4K16ac, establishing a distinct molecular etiology.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.001",
+        "pmid": "38815585",
+        "pmc": "PMC11267526",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "As a molecular biomarker, a sensitive and specific DNA methylation episignature has been established... Remarkably, while NDD-associated variants in two other members of the MSL complex (MOF and MSL3) result in reduced H4K16ac, global H4K16ac levels are unchanged in iPSCs with MSL2 variants... Our study defines an MSL2-related disorder as an NDD with distinguishable clinical features, a specific blood DNA episignature, and a distinct, MSL2-specific molecular etiology compared to other MSL complex-related disorders."
+      },
+      "numbers": [
+        {
+          "metric": "MSL2 cohort size",
+          "value": 25
+        },
+        {
+          "metric": "MVP score range",
+          "value": "0 to 1"
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of commercial episignature profiling in diagnostic cohorts shows high utility for resolving variants of uncertain significance and identifying distinct chromatinopathy signatures, although real-world sensitivity and partial phenotypic concordance vary across heterogeneous clinical cohorts.",
+      "stance": "neutral",
+      "source": {
+        "title": "Clinical utility of DNA-methylation signatures in routine diagnostics for neurodevelopmental disorders",
+        "authors": [
+          "DJ Smits",
+          "C Debuy",
+          "AS Brooks",
+          "R Schot"
+        ],
+        "year": 2025,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-025-01919-5",
+        "pmid": "40730689",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01919-5",
+        "quote": "In the 75 targeted analyses, DNAm signatures were positive in 18% (10/55) for (VUS), 91% (10/11) for likely pathogenic variants, and 89% (8/9) for pathogenic variants. In 223 complete analyses, a disease-linked DNAm signature was observed in 9.0% (20/223), with a (partial) phenotypic match in 55% of those (11/20) but no match in 45% (9/20)."
+      },
+      "numbers": [
+        {
+          "metric": "targeted analysis positive rate in likely pathogenic variants",
+          "value": "91%"
+        },
+        {
+          "metric": "complete analysis signature positivity rate",
+          "value": "9.0%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.9,
+  "new_directions": [
+    {
+      "question_text": "How reproducible is the MSL2 MVP classifier across independent cohorts harboring non-truncating missense VUS located outside the canonical RING or CXC domains?",
+      "rationale": "Initial episignature discovery utilized a modest cohort subset for methylation array training; evaluating non-canonical VUS will determine if borderline MVP scores occur or if discrimination from MSL3/KAT8 remains absolute.",
+      "promise": 0.88,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "What are the specific downstream differentially methylated CpG loci that uncouple MSL2 deficiency from KAT8/MSL3 histone acetylation pathways in human neural progenitor lineages?",
+      "rationale": "Unchanged global H4K16ac in MSL2 iPSCs suggests locus-specific targeting or secondary transcription factor network disruption rather than general histone acetyltransferase failure drives the peripheral blood episignature.",
+      "promise": 0.82,
+      "est_cost": 65000
+    }
+  ]
+}

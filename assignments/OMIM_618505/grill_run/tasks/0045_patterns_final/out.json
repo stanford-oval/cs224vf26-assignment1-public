@@ -1,0 +1,76 @@
+{
+  "patterns": [
+    {
+      "pattern": "Ascertainment bias in initial discovery cohorts overstates dysmorphic specificity compared to expanded cohorts",
+      "abstraction": "Early monogenic disease delineations based on small proband cohorts exhibit inflated penetrance of recognizable physical gestalt, which attenuates toward non-specific neurodevelopmental phenotypes as broader clinical cohorts are sequenced.",
+      "instance": "Initial descriptions of Stolerman syndrome in 12 individuals suggested defining coarse facial features and dysmorphisms, whereas expanded cohorts (n=72-73) demonstrated non-pathognomonic, variable facial features that cannot reliably differentiate affected individuals from general neurodevelopmental cohorts.",
+      "direction": "Perform multi-center automated 3D facial imaging and unbiased feature extraction across unified chromatinopathy cohorts to establish whether subtle, quantitative geometric signatures persist beyond qualitative dysmorphology assessments.",
+      "support": "Strongly supported by multiple independent cohorts showing wide phenotypic variation and the absence of a unique craniofacial gestalt.",
+      "sources": [
+        "ES Stolerman et al. (2019) Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features 10.1002/ajmg.a.61173",
+        "D Top et al. (2023) The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "D Politano et al. (2024) Cerebellar heterotopia in an 11\u2010year\u2010old child with KDM6B\u2010related neurodevelopmental disorder: A case report and review of the literature 10.1002/ajmg.a.63555",
+        "BU Mudassir et al. (2024) Genetic Heterogeneity in Four Probands Reveals HGSNAT, KDM6B, LMNA and WFS1 Related Neurodevelopmental Disorders https://www.mdpi.com/2227-9059/12/12/2736"
+      ],
+      "hypothesis": "Objective computer-vision phenotyping models will yield lower classification specificity for Stolerman syndrome against non-specific intellectual disability than for classical epigenetic disorders such as Kabuki syndrome.",
+      "novelty": "Challenges the clinical paradigm that Mendelian chromatin modifier syndromes retain distinct craniofacial signatures once unbiased exome sequencing decouples ascertainment from syndromic dysmorphology clinics."
+    },
+    {
+      "pattern": "Absence of severe disruptive malformations serves as a more reliable clinical filter than presence of positive minor anomalies",
+      "abstraction": "For disorders characterized by non-specific neurodevelopmental delay, diagnostic exclusion is more reliably driven by the absence of severe anatomical disruption than by positive physical stigmata that broadly overlap across disease classes.",
+      "instance": "Stolerman syndrome individuals lack severe structural anomalies such as congenital limb reduction defects (HP:0009804), corneal clouding (HP:0007957), and profound prenatal microcephaly with dwarfism, making these reliable exclusion criteria despite the lack of pathognomonic positive signs.",
+      "direction": "Construct algorithmic negative-phenotype weighting matrices in automated diagnostic decision support tools to exclude candidate genes based on contraindicated major structural anomalies.",
+      "support": "Moderate-to-high support based on consistent absence across evaluated cohorts and case reports, though limited by cohort sizes.",
+      "sources": [
+        "ES Stolerman et al. (2019) Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features 10.1002/ajmg.a.61173",
+        "II Pineda et al. (2022) The KDM6B mutation: Phenotype and clinical characteristics\u2014Report of a case https://www.sciencedirect.com/science/article/pii/S217350502200019X"
+      ],
+      "hypothesis": "In patients with global developmental delay, filtering out KDM6B sequencing variants in individuals exhibiting major structural limb defects or corneal opacities reduces false-positive variant interpretations without decreasing diagnostic yield.",
+      "novelty": "Shifts clinical prioritization from searching for elusive positive pathognomonic findings to applying hard rule-out boundaries based on strictly absent structural organ malformations."
+    },
+    {
+      "pattern": "Erosion of domain-specific genotype-phenotype correlations upon cohort scaling",
+      "abstraction": "Biochemical predictions that catalytic domain mutations yield harsher clinical phenotypes than truncating haploinsufficiency alleles often fail to replicate in systematic, unselected human cohort studies.",
+      "instance": "While early models posited that missense variants localized to the Jumonji C (JmjC) catalytic domain cause more severe intellectual disability, structural anomalies, and seizures than truncating variants, comprehensive evaluation of 73 patients in Rots et al. (2023) demonstrated no statistically significant correlation between variant type/location and clinical severity.",
+      "direction": "Integrate transcriptomic and chromatin-accessibility profiling in patient-derived cellular models to assess whether non-catalytic scaffolding roles buffer or homogenize the functional impacts of different mutation types in vivo.",
+      "support": "Strongly supported by systemic re-evaluations refuting early small-cohort genotype-phenotype hypotheses.",
+      "sources": [
+        "ES Stolerman et al. (2019) Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features 10.1002/ajmg.a.61173",
+        "D Top et al. (2023) The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "D Politano et al. (2024) Cerebellar heterotopia in an 11\u2010year\u2010old child with KDM6B\u2010related neurodevelopmental disorder: A case report and review of the literature 10.1002/ajmg.a.63555"
+      ],
+      "hypothesis": "KDM6B truncating alleles and catalytic missense alleles induce equivalent downstream transcriptional dysregulation via destabilization of common multi-protein chromatin-remodeling complexes, abolishing phenotypic divergence.",
+      "novelty": "Counteracts the widespread assumption in clinical genetics that missense mutations within enzymatic active sites invariably dictate more severe or dominant-negative clinical outcomes than simple null alleles."
+    },
+    {
+      "pattern": "Extensive phenotypic convergence across functionally linked epigenetic and metabolic pathways prevents pathway-specific clinical discrimination",
+      "abstraction": "Disruption of shared regulatory pathways by disparate chromatin modifiers or downstream metabolic cascades produces overlapping endophenotypes that negate the diagnostic utility of secondary molecular biomarkers as single-gene discriminators.",
+      "instance": "Cerebral folate deficiency (CFD), FOLR1 downregulation, and serum FOLR1 autoantibodies observed in subsets of KDM6B patients also occur across other chromatinopathies (e.g., CIC, DNMT3A, KMT2B, KMT2C) and polygenic neurodevelopmental conditions, failing to provide specific differentiation for Stolerman syndrome.",
+      "direction": "Profile genome-wide DNA methylation episignatures to determine whether unique epigenetic methylation barcodes can distinguish KDM6B variants from paralogous histone demethylase and chromatin-machinery disorders where downstream clinical biomarkers overlap.",
+      "support": "Moderate-to-high support showing broad occurrence of folate receptor downregulation and autoantibodies across heterogeneous neurodevelopmental syndromes.",
+      "sources": [
+        "X Han et al. (2022) KDM6B Variants May Contribute to the Pathophysiology of Human Cerebral Folate Deficiency PMC9855468",
+        "T Luo et al. (2021) De novo mutations in folate-related genes associated with common developmental disorders 10.1016/j.csbj.2021.02.011",
+        "R Almahmoud et al. (2023) Cerebral folate deficiency: a report of two affected siblings 10.1016/j.ymgmr.2023.100975",
+        "XY Qin et al. (2023) Recent advances in folates and autoantibodies against folate receptors in early pregnancy and miscarriage https://www.mdpi.com/2072-6643/15/23/4882"
+      ],
+      "hypothesis": "Secondary metabolic derangements such as cerebral folate transport impairment reflect convergent downstream neuroepigenetic disruption rather than primary locus-specific biochemical pathways.",
+      "novelty": "Demonstrates that candidate biochemical biomarkers in neurodevelopmental disorders often reflect shared final common pathways across chromatinopathies rather than unique monogenic diagnostics."
+    },
+    {
+      "pattern": "Discrepancy between static nosological nomenclature and empirical cohort variance in Mendelian disorders",
+      "abstraction": "Official disease classification entries established early in the gene-discovery timeline often enshrine rare or non-specific physical features in diagnostic titles, causing persistent diagnostic friction when large-scale genomic cohorts prove those traits to be atypical.",
+      "instance": "OMIM entry #618505 defines the disorder by 'coarse facies and mild distal skeletal abnormalities,' yet systematic cohort evaluations by Rots et al. (2023) demonstrate that distal skeletal anomalies are minor, infrequent, and non-specific, rendering clinical identification by nominal criteria unreliable.",
+      "direction": "Establish continuous, automated nosology-updating frameworks linked directly to registered clinical variant databases (such as ClinVar and ClinGen) to dynamically revise phenotype frequencies in formal disease registries.",
+      "support": "Strongly supported by the contradiction between OMIM diagnostic headers and extensive cohort analyses in Rots et al. (2023).",
+      "sources": [
+        "ES Stolerman et al. (2019) Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features 10.1002/ajmg.a.61173",
+        "D Rots et al. (2023) The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "M Al Ojaimi et al. (2022) Disorders of histone methylation: molecular basis and clinical syndromes 10.1111/cge.14181",
+        "BU Mudassir et al. (2024) Genetic Heterogeneity in Four Probands Reveals HGSNAT, KDM6B, LMNA and WFS1 Related Neurodevelopmental Disorders https://www.mdpi.com/2227-9059/12/12/2736"
+      ],
+      "hypothesis": "Syndromic phenotypes named after physical abnormalities identified in discovery cohorts exhibit a significant decline in penetrance when re-evaluated across unselected whole-genome sequencing populations.",
+      "novelty": "Exposes systematic bias in clinical nomenclature that misleads bedside geneticists by over-weighting initial, non-representative morphologic descriptions."
+    }
+  ]
+}

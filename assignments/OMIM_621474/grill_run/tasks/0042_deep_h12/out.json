@@ -1,0 +1,126 @@
+{
+  "verdict": "supported",
+  "rationale": "In the foundational cohort paper by van Jaarsveld et al. (2023), all 21 individuals with heterozygous (likely) pathogenic KDM2B variants exhibited developmental delay and/or intellectual disability (21/21, 100%). In contrast, major structural organ anomalies (cardiovascular, ocular, and urogenital) occurred with variable, incomplete penetrance across the pooled cohort of truncating/loss-of-function and CxxC missense variants. Subsequent studies (such as van Oirsouw et al. and Alders et al.) confirmed distinct genotype-phenotype divergence, demonstrating that while CxxC domain variants have an enriched cardiac penetrance (up to 78%), loss-of-function/haploinsufficiency variants exhibit markedly reduced or absent congenital heart/renal defect frequencies, bringing overall unselected/pooled cohort penetrance for each organ category below 60%.",
+  "evidence": [
+    {
+      "text": "The discovery study by van Jaarsveld et al. established a cohort of 21 individuals harboring heterozygous (likely) pathogenic KDM2B variants, all presenting with developmental delay and/or intellectual disability, accompanied by variable organ anomalies of the heart, eyes, and urogenital system.",
+      "stance": "supports",
+      "source": {
+        "title": "Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature",
+        "authors": [
+          "RH Van Jaarsveld",
+          "J Reilly",
+          "MC Cornips"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "quote": "Our efforts resulted in a cohort of 21 individuals with heterozygous (likely) pathogenic variants. Individuals in this cohort present with developmental delay and/or intellectual disability; autism; attention deficit disorder/attention deficit hyperactivity disorder; congenital organ anomalies mainly of the heart, eyes, and urogenital system; and subtle facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size with (likely) pathogenic variants",
+          "value": 21
+        },
+        {
+          "metric": "penetrance of developmental delay and/or intellectual disability",
+          "value": "21/21"
+        }
+      ]
+    },
+    {
+      "text": "Follow-up characterization of KDM2B variants demonstrates that the severe structural organ phenotype, particularly congenital heart defects seen in up to 78% of CxxC domain cases, is domain-specific; individuals with protein-truncating/haploinsufficiency variants exhibit substantially lower rates of structural cardiac and renal defects.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "M Alders",
+          "RH van Jaarsveld"
+        ],
+        "year": 2025,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/34/16/1353/8150966",
+        "quote": "The core phenotype of the KDM2B-CxxC cohort is more extensive as compared to that of individuals with KDM2B haploinsufficiency... Congenital heart defects were observed in up to 78% of individuals, with additional common findings including musculoskeletal, ophthalmological, and urogenital anomalies... pLOF KDM2B variants do not show congenital cardiac or..."
+      },
+      "numbers": [
+        {
+          "metric": "CxxC cohort size analyzed",
+          "value": 19
+        },
+        {
+          "metric": "congenital heart defect penetrance in CxxC domain variants",
+          "value": 0.78
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive analysis across 47 individuals with pathogenic/likely pathogenic variants revealed incomplete penetrance and variable expressivity for loss-of-function variants compared to highly penetrant CxxC-domain missense variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "TC Hsieh",
+          "M Koetsier"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70169",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70169",
+        "quote": "We observe a highly penetrant CxxC-related phenotype with distinct facial features supported by GestaltMatcher. In contrast, our findings point to variable expressivity and incomplete penetrance of loss-of-function variants and JmjC domain variants complicating variant classification and genetic counseling."
+      },
+      "numbers": [
+        {
+          "metric": "pathogenic or likely pathogenic individuals",
+          "value": 47
+        },
+        {
+          "metric": "total evaluated individuals across cohorts",
+          "value": 68
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621474 summarizes the clinical synopsis, noting that most affected individuals exhibit congenital heart defects alongside variable ocular and renal manifestations.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #621474 - NEURODEVELOPMENTAL DISORDER WITH CONGENITAL CARDIAC DEFECTS AND VARIABLE RENAL AND OCULAR ABNORMALITIES; NEDCOR",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621474",
+        "quote": "Most affected individuals have congenital heart defects, including septal defects, patent ductus arteriosus, and patent foramen ovale. More variable features..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "OMIM summary descriptions state that 'most affected individuals have congenital heart defects', which reflects the prominence of cardiac defects in CxxC domain variants but obscures the lower penetrance observed when pooling unselected loss-of-function/haploinsufficiency variants."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of structural cardiac defects in pure non-CxxC KDM2B loss-of-function variants versus CxxC missense variants across all currently published cohorts?",
+      "rationale": "Clarifying the exact subgroup-specific organ penetrance will establish whether cardiac screening protocols can be tiered based on variant location and class.",
+      "promise": 0.9,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do non-CxxC truncating variants alter Polycomb Repressive Complex 1.1 assembly differently than DNA-binding defective CxxC point mutations during cardiogenesis?",
+      "rationale": "Differences in dominant-negative or neomorphic mechanism versus strict haploinsufficiency may explain why congenital heart defects are strongly tied to CxxC domain mutations.",
+      "promise": 0.85,
+      "est_cost": 45000
+    }
+  ]
+}

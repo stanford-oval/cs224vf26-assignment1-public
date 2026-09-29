@@ -1,0 +1,108 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from phenotypic characterization cohorts (Parenti et al., Peng et al., and GeneReviews) demonstrates that MAU2-related CdLS (CdLS7) predominantly manifests with core features including microcephaly and short stature with variable cognitive delay, but lacks the profound structural limb reduction anomalies (e.g., missing forearms, oligodactyly) characteristic of classical severe NIPBL-related CdLS1. Furthermore, because non-NIPBL cohesinopathies (including MAU2, RAD21, and SMC3) present with overlapping, typically milder craniofacial and growth phenotypes without distinct pathognomonic clinical signs, establishing a definitive gene-specific diagnosis purely from dysmorphology without molecular genetic testing or episignature analysis has low discriminatory confidence.",
+  "evidence": [
+    {
+      "text": "Parenti et al. reported a cohort of 18 individuals carrying 15 heterozygous pathogenic MAU2 variants displaying a spectrum ranging from classic facial features to milder CdLS presentations, with short stature and microcephaly representing the primary consistent clinical hallmarks.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "L de Polli Cellin",
+          "AR Clause",
+          "AA de Lima Jorge"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12668068",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+        "quote": "We describe 18 individuals carrying 15 heterozygous MAU2 variants and demonstrate pathogenicity through functional analyses... Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in cohort",
+          "value": 18
+        },
+        {
+          "metric": "Distinct heterozygous MAU2 variants identified",
+          "value": 15
+        },
+        {
+          "metric": "Male individuals",
+          "value": 9
+        },
+        {
+          "metric": "Female individuals",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "GeneReviews highlights that severe CdLS (predominantly NIPBL-associated) features marked structural limb reduction defects such as complete absence of elbow and forearms or oligodactyly, whereas individuals with milder CdLS across non-NIPBL cohesinopathy genes (including MAU2, RAD21, and SMC3) have less severe limb, growth, and cognitive involvement, making molecular genetic testing necessary to confirm the specific causative locus.",
+      "stance": "supports",
+      "source": {
+        "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+        "authors": [
+          "MA Deardorff"
+        ],
+        "year": 2020,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+        "quote": "Severe (classic) CdLS is characterized by distinctive facial features, growth failure... and limb abnormalities (e.g., complete absence of elbow and forearms, oligodactyly [missing digits], micromelia [small hands], subtle phalangeal abnormalities). Individuals with a milder phenotype have less severe growth, cognitive, and limb involvement... The diagnosis of CdLS is established in a proband with suggestive clinical features and/or a heterozygous pathogenic variant in BRD4, MAU2, NIPBL, RAD21, or SMC3 or a hemizygous or heterozygous pathogenic variant in HDAC8 or SMC1A identified by molecular genetic testing."
+      },
+      "numbers": [
+        {
+          "metric": "Mean IQ across broad CdLS spectrum",
+          "value": 53
+        }
+      ]
+    },
+    {
+      "text": "Peng et al. identified a novel missense variant in MAU2 in a male child presenting with growth retardation, microcephaly, and CdLS-like features, confirming the presence of characteristic CdLS craniofacial and growth phenotypes in the absence of severe truncating limb reduction malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy",
+        "authors": [
+          "Y Peng",
+          "Y Zhu",
+          "L Wu",
+          "F Deng"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2318",
+        "pmid": "37962004",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37962004/",
+        "quote": "Cornelia de Lange syndrome (CdLS) is mainly characterized by specific facial features, growth retardation, and bone deformities... We detected a novel variant in MAU2 gene, NM_015329, c.526C>T (p.Arg176Trp) in a Chinese patient with CdLS"
+      },
+      "numbers": [
+        {
+          "metric": "Patients described",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Can machine learning image analysis of facial morphology differentiate CdLS7 (MAU2) from RAD21- and SMC3-associated CdLS phenotypes?",
+      "rationale": "Because human dysmorphologists struggle to distinguish mild cohesinopathies clinically, automated deep learning facial recognition trained on standard frontal and lateral 2D photographs could determine whether sub-visual geometric signatures exist.",
+      "promise": 0.78,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do peripheral blood DNA methylation episignatures provide robust diagnostic classification separating MAU2-CdLS from RAD21 and SMC3 cohorts?",
+      "rationale": "Parenti et al. established MAU2-specific episignatures; evaluating whether these distinct DNA methylation patterns provide 100 percent specificity over other cohesinopathy variants would offer an objective biomarker when variants of uncertain significance are detected.",
+      "promise": 0.86,
+      "est_cost": 45000
+    }
+  ]
+}

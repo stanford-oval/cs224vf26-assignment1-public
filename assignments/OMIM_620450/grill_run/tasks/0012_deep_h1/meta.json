@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"intellectual disability\" \"developmental delay\"",
+    "TAF4 intellectual developmental disorder autosomal dominant 73 clinical phenotypes"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.jbc.org/article/S0021-9258(24)02100-8/fulltext",
+      "title": "O-GlcNAc transferase congenital disorder of glycosylation (OGT-CDG): Potential mechanistic targets revealed by evaluating the OGT interactome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.jbc.org/article/S0021-9258(24)02100-8/fulltext",
+      "abstract_chars": 1695
+    },
+    {
+      "id": "https://www.nature.com/articles/mp2014193",
+      "title": "X-exome sequencing of 405 unresolved families identifies seven novel intellectual disability genes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/mp2014193",
+      "abstract_chars": 1789
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02214-7",
+      "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02214-7",
+      "abstract_chars": 1698
+    },
+    {
+      "id": "42463903",
+      "title": "Genomic landscape of rare variants in a Chinese autism cohort and discovery of novel risk genes",
+      "pmid": "42463903",
+      "doi": "10.1038/s41380-026-03754-6",
+      "url": "https://www.nature.com/articles/s41380-026-03754-6",
+      "abstract_chars": 1848
+    },
+    {
+      "id": "35532742",
+      "title": "A gene-to-patient approach uplifts novel disease gene discovery and identifies 18 putative novel disease genes",
+      "pmid": "35532742",
+      "doi": "10.1016/j.gim.2022.04.019",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1098360022007481",
+      "abstract_chars": 1603
+    },
+    {
+      "id": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "title": "Intellectual Developmental Disorder, Autosomal Dominant 73",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620450",
+      "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.uniprot.org/diseases/DI-06716",
+      "title": "Intellectual developmental disorder, autosomal dominant 73",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.uniprot.org/diseases/DI-06716",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/entities/TAF4",
+      "title": "TAF4",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/entities/TAF4",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/n/gene/taf8-ndd/",
+      "title": "TAF8-Related Neurodevelopmental Disorder - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/n/gene/taf8-ndd/",
+      "abstract_chars": 3002
+    }
+  ],
+  "input_tokens": 5929,
+  "output_tokens": 2031,
+  "usd": 0.00906,
+  "seconds": 21.5,
+  "ok": true
+}

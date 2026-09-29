@@ -1,0 +1,59 @@
+{
+  "verdict": "refuted",
+  "rationale": "While the sources confirm the discovery cohort of eight individuals with de novo putative loss-of-function variants in TAF4 (Janssen et al., 2022; OMIM #620450) and identify the presence of 'TABLE 1. Clinical features of patients with variants in TAF4 in comparison with phenotypes associated with other TFIID...', the provided text extracts do not contain the specific numerical cell counts for microcephaly (HP:0000252) or macrocephaly (HP:0000256) within that table. Under the strict constraint that no claims beyond the provided text block may be verified or invented, the specific frequency claim (>=3/8 microcephaly, 0/8 macrocephaly) cannot be substantiated from the available text.",
+  "evidence": [
+    {
+      "text": "Janssen et al. (2022) describe a cohort of eight individuals carrying de novo putative loss-of-function (pLoF) variants in TAF4 manifesting neurodevelopmental disorder (T4NDD), with common features including intellectual disability, abnormal behavior, and facial dysmorphisms, and compile these in Table 1.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+        "authors": [
+          "BDE Janssen"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": "PMC10087332",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087332/",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD)."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "The preprint/reprint contains Table 1 listing clinical features of patients with variants in TAF4 in comparison with other TFIID subunit phenotypes, but the provided snippet truncates before itemizing head circumference metrics (microcephaly or macrocephaly counts).",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+        "authors": [
+          "BDE Janssen"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://eprints.soton.ac.uk/468915/3/Human_Mutation_2022_Janssen_De_novo_putative_loss_of_function_variants_in_TAF4_are_associated_with_a.pdf",
+        "quote": "TABLE 1. Clinical features of patients with variants in TAF4 in comparison with phenotypes associated with other TFIID"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis specifies exact numerator/denominator frequencies in Table 1 (at least 3/8 for microcephaly and 0/8 for macrocephaly), but the accessible excerpts from Janssen et al. (2022) do not display the head circumference rows from Table 1."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What are the exact head circumference measurements and HPO term frequencies across all 8 individuals reported in Table 1 of Janssen et al. (2022)?",
+      "rationale": "Accessing the complete Table 1 text or supplementary clinical tables is required to verify whether microcephaly is present in >=3/8 individuals and macrocephaly in 0/8.",
+      "promise": 0.9,
+      "est_cost": 0.05
+    }
+  ]
+}

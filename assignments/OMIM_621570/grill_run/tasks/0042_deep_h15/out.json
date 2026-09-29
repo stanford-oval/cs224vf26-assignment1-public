@@ -1,0 +1,80 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not substantiate a discrete quantitative bifurcation in head circumference where truncating MAU2 variants yield an average OFC z-score <= -3.0 SD while in-frame variants produce an average OFC z-score between -1.5 SD and -2.5 SD. Although Parenti et al. (2026) demonstrated that truncating variants induce MAU2 haploinsufficiency and distinct episignatures while in-frame variants disrupt NIPBL-MAU2 heterodimerization, both classes produce a wide and overlapping spectrum of clinical expressivity (from classic to mild CdLS) rather than non-overlapping, variant-fixed cranial growth strata. Furthermore, documented probands with pathogenic MAU2 missense variants exhibit OFC measurements outside the hypothesized range, such as the proband reported by Peng et al. (2023) presenting with an OFC z-score of -0.5 SD.",
+  "evidence": [
+    {
+      "text": "A Chinese proband with Cornelia de Lange syndrome caused by a heterozygous MAU2 missense variant (c.526C>T, p.Arg176Trp) presented with a normal head circumference of 55 cm (-0.5 SD), directly contradicting the hypothesis that in-frame/missense variants result in an average OFC z-score between -1.5 SD and -2.5 SD.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange ...",
+        "authors": [
+          "Y Peng"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10767608",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767608/",
+        "quote": "... head circumference is 55 cm (\u22120.5 SD), and his fingers and toes ... CdLS, Cornelia de Lange syndrome; MAU2\u2010MUT, MAU2\u2010mutation plasmids ..."
+      },
+      "numbers": [
+        {
+          "metric": "Head circumference z-score",
+          "value": -0.5
+        },
+        {
+          "metric": "Absolute head circumference (cm)",
+          "value": 55
+        }
+      ]
+    },
+    {
+      "text": "Parenti et al. examined 18 individuals with 15 heterozygous MAU2 variants and demonstrated that while in-frame variants alter NIPBL-MAU2 interactions and truncating variants cause haploinsufficiency yielding distinct DNA methylation episignatures, phenotypic severity ranges across a wide continuum (from classic to milder forms) with microcephaly as a shared variable feature, rather than discrete variant-mechanism-delimited OFC cutoffs.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "L de Polli Cellin",
+          "AR Clause",
+          "AA de Lima Jorge"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "In-frame MAU2 variants predominantly impair NIPBL-MAU2 interaction, whereas truncating variants cause MAU2 haploinsufficiency and lead to NIPBL reduction. Most individuals exhibit a DNA methylation profile compatible with the CdLS episignature. We also describe two MAU2-specific episignatures that reflect variant-dependent molecular consequences. Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size (individuals)",
+          "value": 18
+        },
+        {
+          "metric": "Number of unique MAU2 variants",
+          "value": 15
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Molecular divergence in MAU2 (distinct variant-dependent episignatures and biochemical mechanisms between truncating and in-frame alleles) does not translate into strictly separated, non-overlapping quantitative OFC standard deviation categories."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Does quantitative occipitofrontal circumference z-score correlate with specific MAU2 episignature sub-clusters rather than broad variant classes (truncating vs in-frame)?",
+      "rationale": "Because truncating and in-frame MAU2 variants produce distinct methylation episignatures, assessing whether quantitative cranial growth correlates with episignature classifier scores could identify more reliable biomarkers than mutation type alone.",
+      "promise": 0.75,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What is the full spectrum of cranial development and brain structural anomalies across a multi-center registry of MAU2 probands?",
+      "rationale": "Given the small number of reported cases (~19 probands globally), detailed morphometric imaging and longitudinal OFC tracking across development are required to define the true distribution of microcephaly in MAU2-related CdLS7.",
+      "promise": 0.85,
+      "est_cost": 30000
+    }
+  ]
+}

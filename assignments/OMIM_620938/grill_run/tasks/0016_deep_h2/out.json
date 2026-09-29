@@ -1,0 +1,128 @@
+{
+  "verdict": "supported",
+  "rationale": "The phenotypic spectrum of NFU1-related spastic paraplegia (SPG93 / complicated HSP) encompasses a milder, chronic allelic variant compared to the classic lethal infantile multiple mitochondrial dysfunctions syndrome 1 (MMDS1). In patients who survive into later childhood and adulthood (older patients), the phenotype expands from pure lower-limb spastic paraparesis to a complicated spastic-ataxia syndrome, frequently involving distal sensory-motor polyneuropathy, cerebellar ataxia, and white matter involvement with relapsing-remitting episodes and mild cognitive impairment.",
+  "evidence": [
+    {
+      "text": "Report of an NFU1-mutated patient presenting with a milder, slowly progressive spastic paraparesis phenotype with relapsing-remitting episodes, mild cognitive impairment, long survival, and mixed sensory-motor neuropathy emerging in the third decade.",
+      "stance": "supports",
+      "source": {
+        "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+        "authors": [
+          "D Tonduti",
+          "I Dorboz",
+          "A Imbard",
+          "A Slama"
+        ],
+        "year": 2015,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": "10.1186/s13023-015-0237-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+        "quote": "The early white matter abnormalities observed on MRI was combined with a mixed sensory-motor neuropathy in the third decade. Our case clearly suggests the importance of considering NFU1 mutation in slowly evolving leukoencephalopathy with high glycine concentration."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals evaluated in case report",
+          "value": 1
+        },
+        {
+          "metric": "onset of mixed sensory-motor neuropathy",
+          "value": "third decade"
+        }
+      ]
+    },
+    {
+      "text": "Review of the spastic-ataxia continuum identifying NFU1 as an established cause of complicated hereditary spastic paraplegia characterized by cerebellar ataxia and sensory neuropathy.",
+      "stance": "supports",
+      "source": {
+        "title": "Hereditary ataxias and paraparesias: clinical and genetic update",
+        "authors": [
+          "L Parodi",
+          "G Coarelli",
+          "G Stevanin",
+          "A Brice"
+        ],
+        "year": 2018,
+        "journal": "Current Opinion in Neurology",
+        "doi": "10.1097/wco.0000000000000585",
+        "pmid": "29847346",
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2018/08000/Hereditary_ataxias_and_paraparesias__clinical_and.16.aspx",
+        "quote": "of cerebellar ataxia and sensory neuropathy. This gene has \u2026 The related phenotype was complicated spastic paraplegia \u2026 associated to mutation of NFU1."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Clinical delineation of SPG93 in 19 patients across 10 families with NFU1 variants demonstrating spastic paraplegia phenotypes spanning ages 4.5 months to 25 years.",
+      "stance": "supports",
+      "source": {
+        "title": "SPASTIC PARAPLEGIA 93, AUTOSOMAL RECESSIVE; SPG93",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620938",
+        "quote": "(2022) reported clinical features in 19 patients, aged 4.5 months to 25 years, from 10 families with a spastic paraplegia phenotype and mutation in the NFU1"
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of affected patients",
+          "value": 19
+        },
+        {
+          "metric": "number of unrelated families",
+          "value": 10
+        },
+        {
+          "metric": "maximum age at evaluation",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Report of a 27-month-old girl with homozygous NFU1 mutation presenting with spastic paraparesis and relapsing-remitting course mimicking cerebral palsy, lacking sensory-motor neuropathy or prominent cerebellar signs early in life.",
+      "stance": "neutral",
+      "source": {
+        "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+        "authors": [
+          "TA Uzunhan",
+          "NE \u00c7akar",
+          "S Seyhan",
+          "K Aydin"
+        ],
+        "year": 2020,
+        "journal": "Brain and Development",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+        "quote": "This report documents the case of a 27-month-old girl, who showed clinical signs and symptoms of spastic paraparesis with a relapsing-remitting course. The patient had a sister with a severe phenotype who died at the age of 16 months."
+      },
+      "numbers": [
+        {
+          "metric": "age of surviving spastic paraparesis patient (months)",
+          "value": 27
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and age of onset of electrophysiologically verified distal axonal polyneuropathy across the entire Kaiyrzhanov et al. (2022) 19-patient SPG93 cohort?",
+      "rationale": "Clarifying whether subclinical axonal neuropathy precedes overt sensory deficits in adolescents with NFU1 mutations would allow early electrodiagnostic discrimination from other forms of complicated HSP.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does elevated CSF or plasma glycine concentration reliably differentiate NFU1-related spastic paraplegia 93 from other recessive spastic ataxias such as SPAX5 or SPG7?",
+      "rationale": "NFU1 defects impair lipoic acid synthase and glycine cleavage system enzymes; validating biomarker discrimination would provide rapid confirmation prior to or alongside exome sequencing.",
+      "promise": 0.92,
+      "est_cost": 45000
+    }
+  ]
+}

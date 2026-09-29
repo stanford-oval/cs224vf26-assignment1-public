@@ -1,0 +1,102 @@
+{
+  "verdict": "supported",
+  "rationale": "The discovery description by Torella et al. (2023) detailing the index SPAX11 cohort (12 affected individuals across two families with the heterozygous TUBA4A p.Glu415Lys variant) documents that oculomotor abnormalities (specifically nystagmus and broken smooth pursuit) are characteristic features, whereas speech involvement is explicitly qualified as occurring only 'sometimes' (indicating incomplete, intermediate penetrance). Independent cohort assessments of TUBA4A-related spastic ataxia (Benkirane et al., 2024) corroborate the frequent presence of abnormal ocular movements (nystagmus/broken pursuit) and show that cerebellar signs and spasticity vary in expression, supporting the dispensability of dysarthria as an obligate diagnostic criterion.",
+  "evidence": [
+    {
+      "text": "Torella et al. (2023) identified the TUBA4A p.Glu415Lys variant causing spastic ataxia in two families comprising 12 affected individuals (one kindred of 11 individuals and one simplex case), specifically describing ocular movements (nystagmus, broken smooth pursuit) alongside spastic ataxia and qualifying dysarthria as presenting only 'sometimes'.",
+      "stance": "supports",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": "PMC10511369",
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "ocular movements (nystagmus, broken smooth pursuit), and sometimes dysarthria. ... In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000)."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals in family 1",
+          "value": 11
+        },
+        {
+          "metric": "affected individuals in family 2",
+          "value": 1
+        },
+        {
+          "metric": "total affected individuals with p.Glu415Lys",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Benkirane et al. (2024) screened 448 probands with cerebellar ataxia and identified 12 patients with TUBA4A missense variants presenting with spasticity and/or ataxia, confirming that ophthalmological evaluation regularly revealed nystagmus or abnormal ocular movements.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+        "authors": [
+          "M Benkirane",
+          "M Bonhomme",
+          "H Morsy",
+          "SL Safgren"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+        "quote": "Ophthalmological evaluation revealed nystagmus or abnormal ... report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation"
+      },
+      "numbers": [
+        {
+          "metric": "screened probands with cerebellar ataxia",
+          "value": 448
+        },
+        {
+          "metric": "reported patients with TUBA4A missense mutations",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621226 for Spastic Ataxia 11 records phenotypic features including dysmetria, dysarthria, and nystagmus from the index p.Glu415Lys report.",
+      "stance": "supports",
+      "source": {
+        "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; SPAX11",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621226",
+        "quote": "She also had dysmetria, dysarthria, and nystagmus. She had ... A new genetic cause of spastic ataxia: the p.glu415lys variant in TUBA4A."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-level numerators and denominators for dysarthria, nystagmus, and saccadic pursuit across all published TUBA4A variants?",
+      "rationale": "Compiling unified individual-level phenotyping tables across both Torella et al. and Benkirane et al. cohorts will refine the statistical confidence intervals for speech versus oculomotor signs in TUBA4A-associated spastic ataxia.",
+      "promise": 0.9,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Does the presence or severity of dysarthria correlate with disease duration or age of onset in SPAX11?",
+      "rationale": "Determining whether dysarthria reflects a late-stage manifestation rather than true incomplete penetrance will help clinicians interpret negative speech assessments in early-stage patients.",
+      "promise": 0.82,
+      "est_cost": 8000
+    }
+  ]
+}

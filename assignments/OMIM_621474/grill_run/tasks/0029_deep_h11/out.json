@@ -1,0 +1,135 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that KDM2B-related disorder entirely lacks a discrete facial gestalt and cannot be distinguished on facial dysmorphology or non-molecular criteria, necessitating episignature profiling to differentiate it from syndromes like Kabuki and CHARGE. While earlier literature (Van Jaarsveld et al., 2023; Gomes et al., 2026) characterized the craniofacial findings as subtle and mild variable facial dysmorphism supporting the utility of DNA episignatures for classification, recent comprehensive assessments (van Oirsouw et al., 2026) directly contradict the absence of a gestalt by demonstrating a highly penetrant CxxC-domain phenotype with distinct facial features recognized by computer-assisted facial phenotyping (GestaltMatcher). Furthermore, while peripheral blood episignature profiling serves as a powerful diagnostic and classification tool, standard clinical exome/genome sequencing often identifies the molecular variant directly.",
+  "evidence": [
+    {
+      "text": "In a comprehensive cohort evaluation of 47 individuals with pathogenic/likely pathogenic KDM2B variants, individuals with CxxC domain variants exhibited a distinct facial gestalt validated by deep learning facial phenotyping (GestaltMatcher), contradicting the claim that KDM2B lacks a discrete facial gestalt.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "TC Hsieh",
+          "M Koetsier"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70169",
+        "pmid": "41954311",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70169",
+        "quote": "We observe a highly penetrant CxxC-related phenotype with distinct facial features supported by GestaltMatcher."
+      },
+      "numbers": [
+        {
+          "metric": "Total individuals with (likely) pathogenic variants analyzed",
+          "value": 47
+        },
+        {
+          "metric": "Combined cohort size analyzed",
+          "value": 68
+        }
+      ]
+    },
+    {
+      "text": "Initial delineation of the KDM2B-related disorder in a cohort of 21 individuals described non-specific, subtle facial dysmorphism alongside neurodevelopmental delay, autism/ADHD, and multi-organ anomalies, establishing that an episignature is necessary to resolve and classify pathogenic KDM2B variants from controls.",
+      "stance": "supports",
+      "source": {
+        "title": "Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature",
+        "authors": [
+          "RH Van Jaarsveld",
+          "J Reilly",
+          "MC Cornips"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.09.006",
+        "pmid": "36322151",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "quote": "Individuals in this cohort present with developmental delay and/or intellectual disability; autism; attention deficit disorder/attention deficit hyperactivity disorder; congenital organ anomalies mainly of the heart, eyes, and urogenital system; and subtle facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort with (likely) pathogenic variants",
+          "value": 21
+        },
+        {
+          "metric": "Total recruited individuals with KDM2B variants",
+          "value": 27
+        }
+      ]
+    },
+    {
+      "text": "A clinical series of 19 individuals with KDM2B CxxC-domain variants showed developmental delay in 100% of individuals, mild facial dysmorphism, and congenital heart defects in up to 78%, showing a recognizable core triad of cardiac, developmental, and mild facial anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "ASE van Oirsouw",
+          "MA Hadders"
+        ],
+        "year": 2025,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/34/16/1353/8150966",
+        "quote": "All individuals with CxxC variants presented with developmental delay, mainly in the speech and motor domain, in addition to variable intellectual disability and mild facial dysmorphism. Congenital heart defects were observed in up to 78% of individuals"
+      },
+      "numbers": [
+        {
+          "metric": "Individuals with CxxC variants analyzed",
+          "value": 19
+        },
+        {
+          "metric": "Congenital heart defect frequency percentage",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "text": "Case-series analysis noted mild variable facial dysmorphism across patients with KDM2B CxxC variants and confirmed utility of the peripheral blood epigenetic signature for resolving variant classification in patients with congenital anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B\u2010Related Neurodevelopmental Disorder A Case\u2010Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features",
+        "authors": [
+          "A Gomes",
+          "A Martin-Rodriguez"
+        ],
+        "year": 2026,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmga.70036",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmga.70036",
+        "quote": "Targeted methylation analysis for the epigenetic signature associated with the KDM2B-related syndrome revealed an abnormal methylation pattern consistent with a positive epigenetic signature of the disorder in individuals 2 and 3."
+      },
+      "numbers": [
+        {
+          "metric": "Individuals reported in case series",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "van Oirsouw et al. (2026) report that individuals with KDM2B CxxC-domain variants display distinct facial features that can be objectively separated and identified using GestaltMatcher, directly conflicting with the hypothesis premise that KDM2B completely lacks a discrete facial gestalt.",
+    "While peripheral blood DNA methylation episignatures assist in resolving variants of uncertain significance and subclassification, clinical diagnosis can be achieved through molecular sequencing (exome/genome sequencing) rather than requiring episignature analysis in all presentations."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "How effectively can computer vision algorithms like GestaltMatcher differentiate KDM2B-CxxC facial phenotypes from Kabuki (KMT2D/KDM6A) and CHARGE (CHD7) syndrome cohorts?",
+      "rationale": "The hypothesis asserts that episignature profiling is strictly required to resolve KDM2B from Kabuki and CHARGE due to phenotypic and facial overlap; testing facial recognition models directly between these cohorts will assess non-molecular discriminatory power.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the sensitivity and false-negative rate of the KDM2B blood episignature among non-CxxC missense variants and loss-of-function variants with incomplete penetrance?",
+      "rationale": "van Oirsouw et al. noted that some non-CxxC or loss-of-function variants tested negative for the general KDM2B episignature, indicating that episignatures alone may fail to capture the full spectrum of KDM2B-related neurodevelopmental disorder.",
+      "promise": 0.9,
+      "est_cost": 50000.0
+    }
+  ]
+}

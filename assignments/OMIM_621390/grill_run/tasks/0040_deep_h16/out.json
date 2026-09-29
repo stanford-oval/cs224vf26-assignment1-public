@@ -1,0 +1,99 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The available literature establishes that NM_014458.4:c.1069G>A (p.Gly357Arg) is strongly recurrent, accounting for 11 of 14 reported individuals with de novo missense variants in KLHL20, with all variants clustering in the Kelch-type beta-propeller domain. However, the available sources do not provide empirical germline mutation rate quantification or a formal phenotypic severity comparison between the 11 individuals with p.Gly357Arg and the 3 individuals with non-recurrent Kelch-domain variants. Consequently, whether recurrence is driven predominantly by intrinsic CpG hypermutability versus ascertainment bias driven by phenotypic distinctiveness or severity remains unresolved by the provided cohort data.",
+  "evidence": [
+    {
+      "text": "In a study delineating KLHL20-related neurodevelopmental disorder in 14 individuals with de novo missense variants, 11 harbored the identical recurrent missense variant NM_014458.4:c.1069G>A (p.Gly357Arg), while the remaining 3 harbored distinct missense variants; all clustered in the Kelch-type beta-propeller substrate-binding domain.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a neurodevelopmental disorder characterized by intellectual disability, seizures, and behavioral abnormalities",
+        "authors": [
+          "Y Sleyp"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": "36214804",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36214804/",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features. We observed a recurrent de novo missense variant in 11 patients (NM_014458.4:c.1069G>A p.[Gly357Arg]). The recurrent missense and the 3 other missense variants all clustered in the Kelch-type \u03b2-propeller domain of the KLHL20 protein"
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size with de novo KLHL20 missense variants",
+          "value": 14
+        },
+        {
+          "metric": "Patients harboring recurrent c.1069G>A (p.Gly357Arg)",
+          "value": 11
+        },
+        {
+          "metric": "Patients harboring unique non-recurrent Kelch domain missense variants",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Cohort abstracts report 11 patients with the recurrent c.1069G>A (p.Gly357Arg) variant alongside 3 patients carrying private variants such as c.1214G>A, but do not provide differential phenotypic severity scoring between the two subgroups.",
+      "stance": "neutral",
+      "source": {
+        "title": "AGBT 2026TM",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://cdn.prod.website-files.com/6a9381f3b4db8820bb34622a/6aadaf024c5eb9f036ca9925_6aadaee646508b231c8f6c3b_agbt_precision_health_2026_meeting_book.pdf",
+        "quote": "Eleven (11) of these patients carry the same recurrent variant (c.1069G>A p.Gly357Arg), while 3 of them carry unique variants (c.1214G>A p"
+      },
+      "numbers": [
+        {
+          "metric": "Recurrent variant count",
+          "value": 11
+        },
+        {
+          "metric": "Unique variant count",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "The 55th ESHG meeting abstract reports that all identified missense variants cluster within the Kelch-type beta-propeller domain, but provides no evidence demonstrating that c.1069G>A causes a more or less severe phenotype than other Kelch variants.",
+      "stance": "neutral",
+      "source": {
+        "title": "Abstracts from the 55th European Society of Human Genetics",
+        "authors": [
+          "PLW NEW"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10198251",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10198251/",
+        "quote": "c.1069G>A, p.Gly357Arg). All missense variants clustered in the Kelch-type \u03b2-propeller domain of the KLHL20 protein, which shapes the"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "No study in the retrieved literature formally compares clinical severity scores (e.g., seizure onset, developmental quotient, structural anomalies) between p.Gly357Arg and non-Gly357Arg Kelch domain variants to rule out differential ascertainment bias.",
+    "While c.1069G>A represents a canonical C-to-T transition on the opposite strand at a CpG dinucleotide, intrinsic germline de novo mutation rate models have not been calibrated directly against clinical ascertainment rates for KLHL20."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Does deep sequencing of sperm DNA from healthy control males show an elevated de novo mutation frequency specifically at KLHL20 c.1069G>A compared to other Kelch-domain missense sites?",
+      "rationale": "Direct measurement of ultra-rare de novo transitions in male germline samples would determine the physical mutational rate of c.1069G>A independent of post-zygotic selection or clinical ascertainment bias.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do functional ubiquitin ligase assays and substrate binding assays reveal distinct biochemical disruption between p.Gly357Arg and other Kelch-propeller variants?",
+      "rationale": "Comparing substrate recruitment kinetics across all known KLHL20 missense alleles would clarify whether p.Gly357Arg confers an identical or uniquely severe biochemical defect.",
+      "promise": 0.8,
+      "est_cost": 15000.0
+    }
+  ]
+}

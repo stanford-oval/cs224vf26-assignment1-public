@@ -1,0 +1,73 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"KLHL20\" \"c.1069G>A\" \"Gly357Arg\" phenotype CpG hotspot",
+    "KLHL20 Gly357Arg recurrence phenotype severity CpG mutational hotspot"
+  ],
+  "n_hits": 7,
+  "hits": [
+    {
+      "id": "PMC10198251",
+      "title": "Abstracts from the 55th European Society of Human Genetics ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10198251/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://cdn.prod.website-files.com/6a9381f3b4db8820bb34622a/6aadaf024c5eb9f036ca9925_6aadaee646508b231c8f6c3b_agbt_precision_health_2026_meeting_book.pdf",
+      "title": "AGBT 2026TM",
+      "pmid": null,
+      "doi": null,
+      "url": "https://cdn.prod.website-files.com/6a9381f3b4db8820bb34622a/6aadaf024c5eb9f036ca9925_6aadaee646508b231c8f6c3b_agbt_precision_health_2026_meeting_book.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/36214804/",
+      "title": "De novo missense variants in the E3 ubiquitin ligase adaptor ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36214804/",
+      "abstract_chars": 1395
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-107240.1",
+      "title": "Autosomal dominant by ClinGen submission information facts",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-107240.1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/617679",
+      "title": "Entry - *617679 - KELCH-LIKE 20; KLHL20",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/617679",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/KLHL20",
+      "title": "KLHL20 Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/KLHL20",
+      "abstract_chars": 0
+    },
+    {
+      "id": "37053216",
+      "title": "Synonymous alterations of cancer-associated Trp53 CpG ...",
+      "pmid": "37053216",
+      "doi": "10.1371/journal.pone.0284327",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0284327",
+      "abstract_chars": 1573
+    }
+  ],
+  "input_tokens": 4206,
+  "output_tokens": 3517,
+  "usd": 0.01265,
+  "seconds": 20.1,
+  "ok": true
+}

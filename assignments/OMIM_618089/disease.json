@@ -1,0 +1,27 @@
+{
+  "omim": "OMIM:618089",
+  "label": "Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities",
+  "gene": "FBXO11",
+  "gene_info": {
+    "symbol": "FBXO11",
+    "name": "F-box protein 11",
+    "type_of_gene": "protein-coding",
+    "map_location": "2p16.3",
+    "entrez_id": "80204",
+    "aliases": [
+      "FBX11",
+      "IDDFBA",
+      "UBR6",
+      "UG063H01",
+      "VIT1"
+    ],
+    "summary": "This gene encodes a member of the F-box protein family which is characterized by an approximately 40 amino acid motif, the F-box. The F-box proteins constitute one of the four subunits of ubiquitin protein ligase complex called SCFs (SKP1-cullin-F-box), which function in phosphorylation-dependent ubiquitination. The F-box proteins are divided into 3 classes: Fbws containing WD-40 domains, Fbls containing leucine-rich repeats, and Fbxs containing either different protein-protein interaction modules or no recognizable motifs. The protein encoded by this gene belongs to the Fbxs class. It can function as an arginine methyltransferase that symmetrically dimethylates arginine residues, and it acts as an adaptor protein to mediate the neddylation of p53, which leads to the suppression of p53 function. This gene is known to be down-regulated in melanocytes from patients with vitiligo, a skin disorder that results in depigmentation. Polymorphisms in this gene are associated with chronic otitis media with effusion and recurrent otitis media (COME/ROM), a hearing loss disorder, and the knockout of the homologous mouse gene results in the deaf mouse mutant Jeff (Jf), a single gene model of otitis media. Alternatively spliced transcript variants encoding distinct isoforms have been identified for this gene. [provided by RefSeq, Jun 2010].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 56,
+  "n_case_reports": 3,
+  "curated_hpo_terms": 122,
+  "corpus_query": "\"FBXO11\" OR \"Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities\"",
+  "corpus_query_clinical": "(\"FBXO11\" OR \"Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (OMIM #618089), caused by variants in FBXO11: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

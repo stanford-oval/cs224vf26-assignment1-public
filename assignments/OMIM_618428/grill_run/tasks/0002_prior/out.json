@@ -1,0 +1,70 @@
+{
+  "knowledge": "Popov-Chang syndrome (OMIM #618428) is an autosomal dominant neurodevelopmental disorder caused by heterozygous pathogenic variants in the YWHAZ gene (encoding 14-3-3 protein zeta). Clinically, individuals present with global developmental delay, intellectual disability (varying from mild to severe), severe expressive speech impairment, hypotonia, and behavioral manifestations such as autism spectrum disorder, hyperactivity, or anxiety. Variable features include non-specific craniofacial dysmorphisms (e.g., broad forehead, hypertelorism, epicanthal folds, low-set or posterior ears), ophthalmologic anomalies (such as strabismus), and variable neuroimaging findings (including normal brain MRI, nonspecific white matter changes, or corpus callosum abnormalities). Because the phenotype is predominantly a nonspecific neurodevelopmental delay syndrome with variable dysmorphic features, discriminating affected individuals on clinical phenotype alone without genetic sequencing is difficult, though severe speech delay accompanied by hypotonia, behavioral features, and specific facial gestalt clusters may prompt consideration within 14-3-3 family neurodevelopmental disorders.",
+  "prior_hypothesis": "Popov-Chang syndrome cannot be reliably diagnosed on clinical phenotype alone in a cohort of patients with undifferentiated neurodevelopmental disorders, because its core signs (global developmental delay, expressive language impairment, hypotonia, and mild dysmorphism) lack pathognomonic clinical hallmarks. However, the co-occurrence of disproportionate expressive language delay, early-onset axial hypotonia, stereotypic or autistic behaviors, and mild nonspecific craniofacial dysmorphism (broad forehead, hypertelorism, thin upper lip vermilion) with absence of severe cortical malformations (such as classical lissencephaly seen in YWHAE-related Miller-Dieker syndrome) provides the highest discriminatory index among related 14-3-3 signaling channelopathies and chromatin/neurodevelopmental syndromes.",
+  "candidate_answers": [
+    {
+      "answer": "Global developmental delay / intellectual disability (HP:0001263 / HP:0001249) and prominent speech/language delay (HP:0000750) are near-universal (reported in approximately 90-100% of reported individuals across initial cohorts).",
+      "confidence": 0.9,
+      "aspect": "Core phenotype frequencies"
+    },
+    {
+      "answer": "Muscular hypotonia (HP:0001252) is present in the majority of infants and young children (estimated 70-85% in published series), often presenting in early infancy as axial hypotonia with motor milestone delay.",
+      "confidence": 0.8,
+      "aspect": "Motor phenotype frequencies"
+    },
+    {
+      "answer": "Behavioral abnormalities, including autism spectrum features (HP:0000729), ADHD/hyperactivity (HP:0007018), and sleep disturbances (HP:0002360), are documented in roughly 50-75% of assessed individuals.",
+      "confidence": 0.75,
+      "aspect": "Behavioral phenotype frequencies"
+    },
+    {
+      "answer": "Nonspecific dysmorphic features (such as broad forehead HP:0000337, hypertelorism HP:0000316, epicanthus HP:0000286, and depressed nasal bridge HP:0005280) occur in 50-70% of individuals, but lack a single unique pathognomonic facial gestalt.",
+      "confidence": 0.8,
+      "aspect": "Craniofacial phenotype"
+    },
+    {
+      "answer": "Differentiating Popov-Chang syndrome (YWHAZ) from Miller-Dieker syndrome or YWHAE-related microdeletion syndromes relies on the absence of classic lissencephaly/pachygyria and severe congenital heart defects in YWHAZ patients.",
+      "confidence": 0.85,
+      "aspect": "Differential diagnosis and discriminating findings"
+    },
+    {
+      "answer": "Differentiating from YWHAG-associated neurodevelopmental disorder: YWHAG pathogenic variants typically present with prominent early-onset refractory seizures and epileptic encephalopathy, whereas epilepsy in YWHAZ is less frequent, typically milder, or absent.",
+      "confidence": 0.7,
+      "aspect": "Differential diagnosis within 14-3-3 family"
+    },
+    {
+      "answer": "Features consistently absent or atypical that argue strongly against Popov-Chang syndrome include severe congenital malformations (e.g., severe structural brain malformations like agyria/pachygyria, major limb reduction defects, or complex congenital heart disease).",
+      "confidence": 0.8,
+      "aspect": "Exclusionary / negative clinical signs"
+    },
+    {
+      "answer": "Genotype-phenotype correlations suggest that missense variants localized to functional phosphopeptide-binding grooves of 14-3-3 zeta may cause more pronounced dominant-negative functional impact compared to loss-of-function/haploinsufficiency truncating alleles.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "Popov-Chang syndrome",
+    "YWHAZ",
+    "14-3-3 protein zeta",
+    "OMIM #618428",
+    "Global developmental delay (HP:0001263)",
+    "Intellectual disability (HP:0001249)",
+    "Delayed speech and language development (HP:0000750)",
+    "Hypotonia (HP:0001252)",
+    "Autism spectrum disorder (HP:0000729)",
+    "YWHAE",
+    "YWHAG"
+  ],
+  "open_questions": [
+    "What are the exact patient cohort numerators and denominators in primary discovery papers (e.g., Popov et al., Chang et al., or combined international series) for each specific HPO term?",
+    "Does YWHAZ-related disease have any pathognomonic neurological, ocular, or metabolic biomarkers measurable in a clinical clinic?",
+    "What proportion of patients have structural brain MRI abnormalities, and do specific anomalies (e.g., thin corpus callosum, mild ventriculomegaly) reach statistical significance compared to standard NDD cohorts?",
+    "Are truncating variants (frameshift, nonsense, whole-gene deletions) phenotypically identical to recurrent missense variants affecting 14-3-3 dimerization or ligand-binding interfaces?"
+  ],
+  "assumptions": [
+    "Popov-Chang syndrome refers specifically to the monogenic condition listed under OMIM #618428 caused by heterozygous alterations in YWHAZ.",
+    "The published clinical literature on YWHAZ comprises a relatively small number of cohorts and case reports (typically fewer than 50 total reported individuals to date).",
+    "Evaluating phenotypic discriminability implies distinguishing an affected patient from other individuals evaluated in a genetics or pediatric neurology clinic presenting with syndromic or non-syndromic developmental delay/intellectual disability."
+  ]
+}

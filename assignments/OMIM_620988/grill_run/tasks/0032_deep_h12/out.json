@@ -1,0 +1,104 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that sensorineural hearing loss (SNHL) occurs with significant frequency in human DHX9-related neurodevelopmental disorder (MRD75) and serves as a discriminating clinical feature from DHX30-related disorder. However, available clinical and experimental literature demonstrates that sensorineural hearing loss was documented specifically in Dhx9 knockout (Dhx9-/-) mouse models, rather than as a defining or highly penetrant clinical feature in affected human patients. In the primary human cohort establishing MRD75 (Calame et al., 2023, n=20), human phenotypes cluster into mild NDD (LoF variants), severe NDD (NLS missense variants), and axonal Charcot-Marie-Tooth disease type 2 (CMT2), without SNHL being established as a prominent or discriminating phenotypic hallmark in humans. Furthermore, paralogous RNA helicase disorders (such as those involving DHX30, DHX37, and DHX16) also exhibit variable sensory and craniofacial involvement, precluding SNHL from serving as a reliable distinguishing feature for DHX9.",
+  "evidence": [
+    {
+      "text": "In Dhx9 knockout mouse models (Dhx9-/-), mice exhibited hypoactivity in novel environments, tremor, and sensorineural hearing loss. In the human cohort of 20 individuals with heterozygous de novo DHX9 variants, phenotypes spanned mild to severe neurodevelopmental disorder and CMT2, correlated with variant functional class and subcellular localization, without SNHL reported as a common distinguishing human clinical phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "Dhx9-/- mice exhibited hypoactivity in novel environments, tremor, and sensorineural hearing loss. All together, these results establish DHX9 as a critical regulator of mammalian neurodevelopment and neuronal homeostasis."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals with de novo DHX9 variants",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "A patient with a de novo heterozygous DHX9 missense variant (p.Gly414Arg) presented with intellectual disability, short stature, and left ventricular non-compaction cardiomyopathy; functional validation in fly and mouse models showed cardiac conduction abnormalities, reduced body size, and altered emotionality without prominent sensorineural hearing loss.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Heterozygous loss-of-function DHX9 variants are associated with neurodevelopmental disorders: Human genetic and experimental evidences",
+        "authors": [
+          "M Yamada",
+          "Y Nitta",
+          "T Uehara",
+          "H Suzuki",
+          "F Miya"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721223001106",
+        "quote": "Herein, we report a patients with a heterozygous de novo missense variant, p.(Gly414Arg) of DHX9 who presented with a short stature, intellectual disability, and ventricular non-compaction cardiomyopathy."
+      },
+      "numbers": [
+        {
+          "metric": "Patients described",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Disorders across the DExD/H-box RNA helicase family (including DHX30, DHX37, DHX16, DDX54, and DDX34) demonstrate multisystem phenotypes that can involve outer ear and hearing deficits alongside neurodevelopmental delay, demonstrating that hearing involvement is not unique or discriminatory for DHX9 relative to other helicase encephalopathies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Paralog studies augment gene discovery: DDX and DHX genes",
+        "authors": [
+          "I Paine",
+          "JE Posey",
+          "CM Grochowski"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(19)30226-5",
+        "quote": "In addition, these individuals exhibit a variety of other tissue and organ system involvement including ocular, outer ear, hearing, cardiac, and kidney tissues."
+      },
+      "numbers": [
+        {
+          "metric": "Individuals with DExD/H-box variants",
+          "value": 15
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "SNHL was documented as a distinct deficit in homozygous null mouse models (Dhx9-/-), but this phenotype has not been demonstrated at significant frequency in heterozygous human patients with DHX9-related neurodevelopmental disorder.",
+    "Hearing defects occur across multiple DExD/H-box helicase disorders, preventing SNHL from being a specific discriminator from DHX30 or other related helicase entities."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic incidence of formal audiologic deficits across human cohorts with DHX9 NLS missense versus loss-of-function variants?",
+      "rationale": "Comprehensive audiometry across stratified human cohorts is necessary to determine if subclinical auditory nerve or cochlear dysfunction exists in humans as seen in null mice.",
+      "promise": 0.75,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Which clinical features, such as peripheral neuropathy (CMT2 overlap) or cardiomyopathy, offer the highest specificity for distinguishing DHX9 from DHX30-related disorder?",
+      "rationale": "DHX9 variants specifically trigger axonal CMT2 and cardiomyopathy in subsets of patients, phenotypes which may provide true discriminative utility over DHX30.",
+      "promise": 0.85,
+      "est_cost": 35000
+    }
+  ]
+}

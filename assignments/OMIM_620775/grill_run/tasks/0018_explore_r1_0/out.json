@@ -1,0 +1,138 @@
+{
+  "hypotheses": [
+    {
+      "text": "Microcephaly (HP:0000252) is present in 100% (5/5) of individuals with homozygous loss-of-function FILIP1 variants presenting with arthrogryposis multiplex congenita, distinguishing this subset from pure congenital myopathies without cranial involvement.",
+      "rationale": "Clarifying whether microcephaly is consistently present or cohort-specific helps determine whether head circumference can be used to clinically differentiate FILIP1 loss-of-function patients from non-syndromic arthrogryposis.",
+      "aspects": [
+        "CNS imaging findings",
+        "dysmorphic facies",
+        "microcephaly"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Schnabel et al. reported five affected individuals from three independent families with homozygous truncating FILIP1 variants who all shared microcephaly alongside congenital contractures, scoliosis, and facial dysmorphism.",
+          "stance": "supports",
+          "source": {
+            "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+            "authors": [
+              "F Schnabel",
+              "E Schuler",
+              "A Al"
+            ],
+            "year": 2023,
+            "journal": "Human Genetics",
+            "doi": "10.1007/s00439-023-02528-2",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+            "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients."
+          },
+          "numbers": [
+            {
+              "metric": "affected individuals assessed in cohort",
+              "value": 5
+            },
+            {
+              "metric": "individuals with microcephaly in cohort",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Structural central nervous system malformations are present in a significant subset of FILIP1 patients, directly contradicting the previous board proposition that marked structural CNS anomalies are absent.",
+      "rationale": "If structural brain malformations occur in FILIP1-related disease, neuroimaging cannot be used as an exclusion criterion against congenital muscular dystrophies or brain-muscle disorders.",
+      "aspects": [
+        "CNS imaging findings",
+        "phenotypic spectrum"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Roos et al. described five patients from four unrelated consanguineous families with bi-allelic FILIP1 variants exhibiting neurological symptoms including brain malformations and neurodevelopmental delay.",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+            "authors": [
+              "A Roos",
+              "PFM van der Ven",
+              "H Alrohaif",
+              "H K\u00f6lbel",
+              "L Heil"
+            ],
+            "year": 2023,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+            "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features."
+          },
+          "numbers": [
+            {
+              "metric": "total patients reported",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Congenital contractures in FILIP1 loss-of-function individuals involve both upper and lower limb joints ubiquitously (5/5, 100% in described LoF cohorts), presenting as severe generalized arthrogryposis multiplex congenita rather than isolated clubfoot.",
+      "rationale": "Differentiating whether contractures are limited to distal lower extremities or involve proximal joints (shoulder, elbow, hip, knee) across multiple limbs provides a major diagnostic clue.",
+      "aspects": [
+        "arthrogryposis",
+        "congenital contractures"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the cohort described by Schnabel et al., all 5 affected individuals presented with congenital contractures involving the shoulder, elbow, hand, hip, knee, and foot.",
+          "stance": "supports",
+          "source": {
+            "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+            "authors": [
+              "F Schnabel",
+              "E Schuler",
+              "A Al"
+            ],
+            "year": 2023,
+            "journal": "Human Genetics",
+            "doi": "10.1007/s00439-023-02528-2",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+            "quote": "sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism."
+          },
+          "numbers": [
+            {
+              "metric": "individuals with multi-joint congenital contractures",
+              "value": 5
+            },
+            {
+              "metric": "total individuals assessed",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What specific structural CNS malformations are identified on brain MRI in the Roos et al. (2023) cohort, and what is their exact frequency across all 5 patients?",
+      "rationale": "Resolving the specific imaging findings (e.g., cortical migration defects, corpus callosum anomalies, or cerebellar hypoplasia) will establish clear differential diagnosis boundaries against cobblestone lissencephaly and FLNA/FLNC-related neurological disorders.",
+      "promise": 0.85,
+      "est_cost": 0.75
+    },
+    {
+      "question_text": "Does the frequency of arthrogryposis multiplex congenita differ between homozygous truncating/nonsense variants and homozygous missense variants in FILIP1?",
+      "rationale": "Schnabel et al. reported 5/5 truncating variant cases with severe multi-joint AMC, whereas Roos et al. included missense variants with myopathy and neurological features; establishing genotype-phenotype correlation will guide targeted variant interpretation.",
+      "promise": 0.8,
+      "est_cost": 0.75
+    }
+  ],
+  "dead_end": false
+}

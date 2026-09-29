@@ -1,0 +1,59 @@
+{
+  "knowledge": "Stankiewicz-Isidor syndrome (STISS, OMIM #617516) is a rare autosomal dominant neurodevelopmental disorder caused by heterozygous loss-of-function variants or deletions in PSMD12, which encodes the non-ATPase subunit 12 of the 26S proteasome 19S regulatory particle. Clinical hallmarks typically include intellectual disability/global developmental delay (especially expressive speech impairment), characteristic craniofacial dysmorphisms (e.g., prominent forehead, arched eyebrows, hypertelorism/epicanthus, bulbous nasal tip, smooth philtrum, thin vermilion of the upper lip, micrognathia), feeding difficulties, short stature, variable microcephaly or macrocephaly, digital anomalies (such as brachydactyly, 5th finger clinodactyly, and 2-3 toe syndactyly), and systemic congenital malformations including renal tract anomalies and congenital heart defects (e.g., VSD, ASD).",
+  "prior_hypothesis": "A clinical diagnosis of Stankiewicz-Isidor syndrome can be prioritized in patients presenting with mild-to-severe developmental delay (notably prominent speech delay) combined with a distinctive facial gestalt (prominent forehead, bulbous nasal tip, high arched eyebrows, thin upper lip), minor digital anomalies (brachydactyly, 5th digit clinodactyly, or cutaneous syndactyly), and structural kidney or cardiac malformations, distinguishing it from clinically overlapping chromatin/cohesinopathies (such as Rubinstein-Taybi, Coffin-Siris, and Cornelia de Lange syndromes) and 17q21.31 microdeletion syndrome primarily by the absence of characteristic hypertrichosis, limb reduction defects, or distinctive broad thumbs/halluces.",
+  "candidate_answers": [
+    {
+      "answer": "Global developmental delay / intellectual disability with severe expressive speech impairment occurs in essentially 100% of reported individuals (e.g., approximately 24/24 individuals assessed in the seminal K\u00fcry et al. 2017 series).",
+      "confidence": 0.95,
+      "aspect": "Core neurodevelopmental phenotype frequency"
+    },
+    {
+      "answer": "Craniofacial dysmorphism comprising a prominent/broad forehead, high-arched eyebrows, bulbous nasal tip, and thin upper lip vermilion occurs in >80% of affected individuals across published cohorts.",
+      "confidence": 0.85,
+      "aspect": "Facial gestalt discrimination"
+    },
+    {
+      "answer": "Digital anomalies (specifically brachydactyly, 5th finger clinodactyly, or 2nd-3rd toe syndactyly) are reported in approximately 50-70% of affected subjects, serving as a critical diagnostic discriminator.",
+      "confidence": 0.8,
+      "aspect": "Extremity phenotype frequency"
+    },
+    {
+      "answer": "Congenital anomalies of the kidney and urinary tract (CAKUT, such as renal agenesis, hypoplasia, or hydronephrosis) and congenital heart defects (e.g., atrial or ventricular septal defects) occur in roughly 30-50% and 25-40% of patients, respectively.",
+      "confidence": 0.75,
+      "aspect": "Visceral malformation frequency"
+    },
+    {
+      "answer": "The presence of severe anterior limb reduction defects, generalized dense hypertrichosis (synophrys with hirsutism typical of Cornelia de Lange syndrome), or broad/angulated thumbs/halluces (Rubinstein-Taybi syndrome) strongly argues against PSMD12-related STISS.",
+      "confidence": 0.85,
+      "aspect": "Exclusionary / negative findings"
+    },
+    {
+      "answer": "Genotype-phenotype correlation shows no robust phenotypic divergence between whole-gene microdeletions of 17q24.2 covering PSMD12 and intragenic truncating/frameshift variants, consistent with haploinsufficiency as the unified pathogenic mechanism.",
+      "confidence": 0.8,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "Stankiewicz-Isidor syndrome",
+    "PSMD12",
+    "OMIM #617516",
+    "26S proteasome non-ATPase regulatory subunit 12",
+    "17q24.2 microdeletion",
+    "HPO: HP:0001263 (Global developmental delay)",
+    "HPO: HP:0001249 (Intellectual disability)",
+    "HPO: HP:0000431 (Wide nasal bridge / bulbous nose)",
+    "HPO: HP:0001156 (Brachydactyly)",
+    "HPO: HP:0000077 (Abnormality of the kidney)"
+  ],
+  "open_questions": [
+    "What are the exact numerators and denominators for individual HPO-coded features across all published STISS cohorts (e.g., K\u00fcry et al. 2017, and subsequent case series through 2024)?",
+    "What specific dysmorphic features provide the highest positive likelihood ratio (LR+) to differentiate STISS from Nicolaides-Baraitser, Rubinstein-Taybi, or KBG syndromes?",
+    "Are there missense variants acting via dominant-negative mechanisms that generate a distinct or more severe phenotype compared to loss-of-function/null variants?",
+    "Are any specific ocular (e.g., coloboma, ptosis) or hearing deficits consistently enriched or explicitly absent across series?"
+  ],
+  "assumptions": [
+    "Haploinsufficiency of PSMD12 is the primary disease mechanism across microdeletions and truncating point mutations.",
+    "Patient ascertainment in the published literature has not introduced extreme ascertainment bias that obscures a milder adult or pediatric phenotype.",
+    "Cohort data can be harmonized to standardized Human Phenotype Ontology (HPO) terms despite differences in original author descriptions."
+  ]
+}

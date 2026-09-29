@@ -1,0 +1,99 @@
+{
+  "verdict": "supported",
+  "rationale": "Across the provided literature, YWHAZ-related neurodevelopmental disorder (Popov-Chang syndrome, OMIM #618428) is characterized by global developmental delay, intellectual disability, dysmorphic facial features, seizures, non-specific brain malformations, and variable cardiac anomalies. In contrast, severe classic lissencephaly (grade 1-3 agyria/pachygyria) and limb reduction defects are not reported in YWHAZ cohorts and remain categorized with distinct genetic etiologies (such as PAFAH1B1/YWHAE in Miller-Dieker syndrome and isolated lissencephaly), confirming their utility as negative discriminating features.",
+  "evidence": [
+    {
+      "text": "Variants in YWHAZ cause intellectual disability, global developmental delay, and brain malformation with cognitive defects, distinguishing its pathology from classic lissencephaly syndromes.",
+      "stance": "supports",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global developmental delay with brain malformation",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9851741",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851741/",
+        "quote": "YWHAZ variation causes intellectual disability and global developmental delay with brain malformation"
+      },
+      "numbers": [
+        {
+          "metric": "citations",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "text": "Popov-Chang syndrome presents with facial dysmorphism, seizures, short stature, feeding issues, and cardiac malformations or skin involvement, rather than severe lissencephaly or limb reduction defects.",
+      "stance": "supports",
+      "source": {
+        "title": "Popov-Chang Syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+        "quote": "Most patients have significant facial dysmorphism, can include seizures, short stature, feeding \u2026 patients had cardiac malformations or skin involvement."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Genomic cataloging classifies Popov-Chang syndrome (YWHAZ) as a distinct clinical entity from classic lissencephaly disorders such as Lissencephaly 1 (PAFAH1B1) and Lissencephaly 8 (TMTC3).",
+      "stance": "supports",
+      "source": {
+        "title": "Genetics of autism spectrum disorders: a long road to pass",
+        "authors": [
+          "AM Alhejaily",
+          "M Alfadhel"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jbcgenetics.com/index.php/files/articles/pdf/2183/show",
+        "quote": "Lissencephaly 1. PAFAH1B1[OMIM 601545]. OMIM: 617255. Lissencephaly 8. TMTC3 ... Popov-Chang syndrome. YWHAZ[OMIM 601288]."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Epilepsy genomics reviews delineate YWHAZ-associated Popov-Chang syndrome (#618428) independently from complex malformation syndromes presenting with lissencephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [
+          "M Hebbar",
+          "HC Mefford"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7076331",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+        "quote": "YWHAZ Popov-Chang syndrome #618428. CHP1 Spastic ataxia 9, autosomal ... Lissencephaly 9 with complex brainstem malformation #618325."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What specific neuroimaging criteria reliably differentiate YWHAZ-associated brain malformations from mild posterior pachygyria observed in atypical 17p13.3 microdeletions?",
+      "rationale": "Clarifying the exact radiological boundaries of brain malformations in YWHAZ will ensure that subtle cortical organization defects are not misclassified as mild pachygyria.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What is the true prevalence and spectrum of cardiac septal and conotruncal defects across all genetically confirmed YWHAZ missense and loss-of-function variants?",
+      "rationale": "Quantifying the penetrance of cardiac anomalies will refine whether congenital heart defects can serve as a secondary discriminator when cortical imaging is non-diagnostic.",
+      "promise": 0.8,
+      "est_cost": 20000
+    }
+  ]
+}

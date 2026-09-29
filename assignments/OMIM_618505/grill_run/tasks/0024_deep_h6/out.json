@@ -1,0 +1,149 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that pathogenic KDM6B loss-of-function variants produce a distinct biochemical endophenotype of cerebral folate deficiency (CFD) with downregulated FOLR1 expression and FOLR1 autoantibodies that differentiates Stolerman neurodevelopmental syndrome from overlapping epigenetic machinery disorders. While in vitro and cohort data demonstrate that specific KDM6B variants can repress FOLR1 expression, alter H3K27 methylation/acetylation, and correlate with CFD and serum FOLR1 autoantibodies in a subset of CFD patients (5 of 48 cases, 10%), the claim that this endophenotype is specific to Stolerman syndrome or differentiates it from other epigenetic disorders is contradicted by broader genomic and biochemical findings. Multiple other chromatin-modifying genes (such as DNMT3A, KMT2B, KMT2C, YY1) and transcriptional repressors (such as CIC) also regulate FOLR1 and folate-dependent neurodevelopmental pathways. Furthermore, FOLR1 autoantibodies are non-specific immune phenomena observed across diverse etiologies of CFD and reproductive complications rather than an exclusive biomarker of KDM6B disruption.",
+  "evidence": [
+    {
+      "text": "Exome sequencing in 48 isolated CFD cases identified six KDM6B missense variants across five individuals (10% of the cohort). Functional assays revealed that these KDM6B variants decreased KDM6B protein levels, increased H3K27me2, reduced H3K27Ac, downregulated FOLR1 expression, and were accompanied by serum FOLR1 autoantibodies.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM6B Variants May Contribute to the Pathophysiology of Human Cerebral Folate Deficiency",
+        "authors": [
+          "X Han",
+          "X Cao",
+          "RM Cabrera",
+          "PA Pimienta Ramirez"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9855468",
+        "url": "https://www.mdpi.com/2079-7737/12/1/74",
+        "quote": "Six KDM6B variants were identified in five CFD patients, which accounts for 10% of our CFD cohort cases. Functional experiments indicated that these KDM6B variants decreased the amount of KDM6B protein, which resulted in elevated H3K27me2, lower H3K27Ac and decreased FOLR1 protein concentrations. In addition, FOLR1 autoantibodies have been identified in serum"
+      },
+      "numbers": [
+        {
+          "metric": "CFD patients with KDM6B variants",
+          "value": "5/48"
+        },
+        {
+          "metric": "percentage of CFD cohort",
+          "value": 10
+        },
+        {
+          "metric": "identified KDM6B variants",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "text": "Downregulation of FOLR1 and subsequent CFD is not unique to KDM6B; de novo loss-of-function variants in other transcriptional regulators, such as the capicua transcriptional repressor (CIC), also produce cerebral folate deficiency via FOLR1 downregulation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Cerebral folate deficiency: a report of two affected siblings",
+        "authors": [
+          "R Almahmoud",
+          "M Mekki",
+          "AW El"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1016/j.ymgmr.2023.100975",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2214426923000216",
+        "quote": "Six rare missense variant of lysin demethylase 6B (KDM6B) have been shown to downregulate protein levels of FOLR1 [22]. Also, de novo stop gain mutation in the capicua (CIC) gene"
+      },
+      "numbers": [
+        {
+          "metric": "siblings described with homozygous FOLR1 variants",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "De novo mutations in folate-related pathways overlap heavily across multiple chromatin modifiers; genes intolerance to variation including DNMT3A, KMT2B, KMT2C, and YY1 are prioritized as hub folate-related genes enriched in neurodevelopmental disorders, indicating that epigenetic regulation of folate homeostasis is shared among many chromatin-modifying enzymes rather than unique to KDM6B.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo mutations in folate-related genes associated with common developmental disorders",
+        "authors": [
+          "T Luo",
+          "K Li",
+          "Z Ling",
+          "G Zhao",
+          "B Li",
+          "Z Wang",
+          "X Wang"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1016/j.csbj.2021.02.011",
+        "pmid": "33777337",
+        "pmc": null,
+        "url": "https://spj.science.org/doi/abs/10.1016/j.csbj.2021.02.011",
+        "quote": "Their functional networks mainly involved pathways associated with chromatin modification, organ development, and signal transduction pathways. DNMT3A, KMT2B, KMT2C, and YY1 emerged as hub FRGs from the protein-protein interaction network."
+      },
+      "numbers": [
+        {
+          "metric": "developmental disorder cases screened",
+          "value": 15404
+        },
+        {
+          "metric": "controls screened",
+          "value": 3391
+        },
+        {
+          "metric": "prioritized candidate disease-associated FRGs",
+          "value": 96
+        }
+      ]
+    },
+    {
+      "text": "Folate receptor alpha autoantibodies (FRAbs) are produced in response to multiple non-specific triggers, including receptor degradation, aberrant protein modulation, and exogenous sensitization across idiopathic CFD, pregnancy loss, and systemic pathology, showing that FRAb presence is not an exclusive or pathognomonic marker of KDM6B variants.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Recent advances in folates and autoantibodies against folate receptors in early pregnancy and miscarriage",
+        "authors": [
+          "XY Qin",
+          "SY Ha",
+          "L Chen",
+          "T Zhang",
+          "MQ Li"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2072-6643/15/23/4882",
+        "quote": "FRAbs can be produced via sensitization mediated by folate-binding protein as well as gene mutation, aberrant modulation, or degradation of folate receptors (FRs). FRAbs may interfere with folate internalization and metabolism through blocking or binding with FRs."
+      },
+      "numbers": [
+        {
+          "metric": "subjects with missense KDM6B variants cited",
+          "value": "5/6"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Han et al. (2022) identified KDM6B missense variants in a cohort ascertained strictly for cerebral folate deficiency (5/48), but Stolerman syndrome clinical cohorts defined by de novo loss-of-function KDM6B mutations have not systematically demonstrated low CSF 5-MTHF or high prevalence of FOLR1 autoantibodies.",
+    "FOLR1 downregulation and folate pathway disruption occur in other developmental disorders caused by transcriptional and chromatin regulators (such as CIC, DNMT3A, KMT2B, KMT2C, and YY1), directly undermining the assertion that CFD endophenotypes uniquely differentiate KDM6B from other epigenetic machinery disorders.",
+    "Serum FOLR1 autoantibodies occur broadly across non-genetic CFD, autism spectrum disorders, and pregnancy complications, refuting their utility as an exclusive functional biomarker for primary KDM6B mutations."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence of low CSF 5-MTHF and serum FOLR1 autoantibodies in molecularly confirmed Stolerman syndrome cohorts ascertained by KDM6B de novo loss-of-function variants?",
+      "rationale": "Existing data linking KDM6B to CFD originate from reverse ascertainment of CFD cohorts rather than prospective biochemical phenotyping of canonical Stolerman syndrome patients.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do clinically overlapping chromatin disorders (such as Kabuki syndrome types 1 and 2 or Bohring-Opitz syndrome) display identical H3K27-dependent downregulation of FOLR1?",
+      "rationale": "Because KDM6A (Kabuki type 2) is a paralog of KDM6B with shared H3K27 demethylase activity, determining whether FOLR1 expression is similarly impaired in KDM6A deficiency is essential to evaluate specificity.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

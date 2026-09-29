@@ -1,0 +1,72 @@
+{
+  "verdict": "supported",
+  "rationale": "In the index Sleyp et al. (2022) cohort delineating KLHL20-related neurodevelopmental disorder (OMIM #621390), global developmental delay / intellectual disability was present in 100% of assessed individuals (14/14), whereas seizures (including febrile seizures and epilepsy) showed incomplete penetrance, affecting fewer than 80% (<11/14) of the cohort. Subsequent single-patient reports such as Kuroda et al. (2024) expand the epileptic spectrum to include early-onset West syndrome, but corroborate that developmental delay is the defining, fully penetrant hallmark while epilepsy is incompletely penetrant.",
+  "evidence": [
+    {
+      "text": "Sleyp et al. (2022) reported on 14 patients with de novo missense variants in KLHL20, finding that all 14 patients had mild to severe intellectual disability/developmental delay, whereas febrile seizures or epilepsy were variable and showed incomplete penetrance.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a developmental disorder with intellectual disability, epilepsy, and autism spectrum disorder",
+        "authors": [
+          "Y Sleyp",
+          "I Valenzuela",
+          "A Accogli",
+          "K Ballon"
+        ],
+        "year": 2022,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36214804",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36214804/",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 14
+        },
+        {
+          "metric": "intellectual_disability_penetrance",
+          "value": "14/14 (100%)"
+        }
+      ]
+    },
+    {
+      "text": "Kuroda et al. (2024) summarized the existing literature of 14 patients from Sleyp et al. (2022) all exhibiting developmental delay, and reported an additional patient presenting with early-onset West syndrome with developmental delay.",
+      "stance": "supports",
+      "source": {
+        "title": "Early-onset West syndrome with developmental delay associated with a novel KLHL20 variant",
+        "authors": [
+          "Y Kuroda",
+          "A Ikeda",
+          "T Naruto",
+          "K Kurosawa"
+        ],
+        "year": 2024,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63600",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ovid.com/journals/ajmga/pdf/10.1002/ajmg.a.63600~early-onset-west-syndrome-with-developmental-delay",
+        "quote": "Fourteen patients have been reported with recurrent missense KLHL20 variants, demonstrating developmental delay"
+      },
+      "numbers": [
+        {
+          "metric": "previously_reported_patients",
+          "value": 14
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What are the exact sub-phenotypic electroclinical features and long-term seizure outcomes across all reported KLHL20 variant carriers?",
+      "rationale": "As newer cases such as West syndrome are documented, systematically cataloging EEG patterns, seizure types, drug-responsiveness, and age-of-onset will determine whether distinct KLHL20 variants drive specific epilepsy syndromes.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

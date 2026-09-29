@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TUBA4A\" \"spastic ataxia\" dysarthria onset",
+    "TUBA4A spastic ataxia SPAX11 dysarthria symptoms disease duration"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "10.1186/s41983-024-00905-w",
+      "title": "The p. D417N variant of TUBB4A as a possible cause of hereditary spastic paraplegia: a case report",
+      "pmid": null,
+      "doi": "10.1186/s41983-024-00905-w",
+      "url": "https://link.springer.com/article/10.1186/s41983-024-00905-w",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s00439-025-02744-y",
+      "title": "The molecular landscape of hereditary ataxia: a single-center study",
+      "pmid": null,
+      "doi": "10.1007/s00439-025-02744-y",
+      "url": "https://link.springer.com/article/10.1007/s00439-025-02744-y",
+      "abstract_chars": 1897
+    },
+    {
+      "id": "10.1007/s00415-023-11816-w",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+      "pmid": null,
+      "doi": "10.1007/s00415-023-11816-w",
+      "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+      "abstract_chars": 716
+    },
+    {
+      "id": "33663004",
+      "title": "Hereditary myelopathies",
+      "pmid": "33663004",
+      "doi": "10.1055/s-0041-1725153",
+      "url": "https://www.thieme-connect.com/products/all/doi/10.1055/s-0041-1725153",
+      "abstract_chars": 1216
+    },
+    {
+      "id": "PMC10511369",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10511369/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621226",
+      "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621226",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/spastic_ataxia_11_autosomal_dominant",
+      "title": "Spastic Ataxia 11, Autosomal Dominant (SPAX11)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/spastic_ataxia_11_autosomal_dominant",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://hal.science/hal-04795703/document",
+      "title": "De novo and inherited monoallelic variants in TUBA4A ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://hal.science/hal-04795703/document",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/466/gene/TUBA4A/",
+      "title": "Gene: TUBA4A (Hereditary ataxia, adult onset)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/466/gene/TUBA4A/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4661,
+  "output_tokens": 1484,
+  "usd": 0.00678,
+  "seconds": 10.7,
+  "ok": true
+}

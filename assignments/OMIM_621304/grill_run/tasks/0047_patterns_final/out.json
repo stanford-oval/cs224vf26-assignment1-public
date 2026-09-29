@@ -1,0 +1,75 @@
+{
+  "patterns": [
+    {
+      "pattern": "Core neurodevelopmental phenotypic convergence masks underlying non-coding gene etiologies, necessitating whole-genome sequencing over clinical diagnosis alone",
+      "abstraction": "Extensive phenotypic overlap across diverse molecular etiologies creates a diagnostic bottleneck that syndromic phenotyping cannot resolve without unbiased genome-wide molecular assays",
+      "instance": "DEE119 presents with profound intellectual disability and refractory seizures overlapping with both coding DEEs (such as CDKL5 and STXBP1) and non-coding conditions (RNU4-2 ReNU syndrome), yet lacks pathognomonic clinical features sufficient to diagnose without non-coding genome sequencing coverage",
+      "direction": "Incorporate non-coding spliceosomal snRNA targeted pipelines into routine diagnostic reanalysis of unsolved whole-genome sequencing cohorts",
+      "support": "High pooled consensus across primary discovery cohorts demonstrating diagnostic yield in unsolved DEE cohorts ( Berger et al., 2026; Chiu et al., 2026; Leit\u00e3o et al., 2026 )",
+      "sources": [
+        "SI Berger et al. (2026) Large Class of Neurodevelopmental Disorders Requires Genome Sequencing for Diagnosis 10.1002/ana.78108",
+        "ATG Chiu et al. (2026) Pathogenic Variants in RNU2\u20102, a Non\u2010coding Spliceosomal RNA, Cause a Distinctive Developmental and Epileptic Encephalopathy 10.1002/ana.78071",
+        "E Leit\u00e3o et al. (2026) Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies https://www.nature.com/articles/s41588-026-02547-5"
+      ],
+      "hypothesis": "Re-evaluating existing unsolved pediatric DEE genomes using dedicated snRNA variant caller pipelines will yield a 0.5% to 1.5% increase in definitive genetic diagnoses",
+      "novelty": "Diagnostic yield bottlenecks in severe epilepsies have traditionally been attributed to coding exome variants or structural variations rather than single-exon non-coding small nuclear RNAs"
+    },
+    {
+      "pattern": "Ancillary autonomic dysregulation and extrapyramidal movement disorders provide greater discriminatory specificity than canonical encephalopathy features",
+      "abstraction": "Non-epileptic secondary clinical features (autonomic and movement disturbances) provide higher phenotypic distinguishing power than primary defining syndrome features (seizures and developmental delay)",
+      "instance": "Episodic central hyperventilation (HP:0002883) and hyperkinetic movement disorders (such as dystonia and chorea) distinguish RNU2-2 encephalopathy from generic DEE phenotypes and RNU4-2-related disorder, being identified in 3 of 5 patients in Chiu et al. and across targeted movement disorder screens",
+      "direction": "Perform targeted snRNA genetic screening on unsolved pediatric cohorts presenting with mixed hyperkinetic movement disorders and episodic central hyperventilation",
+      "support": "Supported by multiple independent clinical series evaluating movement and respiratory semiology ( Chiu et al., 2026; Krygier et al., 2026; Barbosa et al., 2026 )",
+      "sources": [
+        "ATG Chiu et al. (2026) Pathogenic Variants in RNU2\u20102, a Non\u2010coding Spliceosomal RNA, Cause a Distinctive Developmental and Epileptic Encephalopathy 10.1002/ana.78071",
+        "M Krygier et al. (2026) Prominent Movement Disorders in RNU2\u20102\u2010Related Spliceosomopathy 10.1002/acn3.70442",
+        "M Barbosa et al. (2026) RNU4-2\u2013Related Autosomal Dominant Neurodevelopmental Disorder PMID:42190036"
+      ],
+      "hypothesis": "The presence of episodic central hyperventilation in combination with early-onset chorea/dystonia in a patient with drug-resistant epilepsy yields an odds ratio greater than 5.0 for a spliceosomal non-coding RNA mutation",
+      "novelty": "Clinical genetic workups for epileptic encephalopathies routinely center on seizure semiology, underutilizing respiratory patterns and extrapyramidal features as the primary diagnostic discriminators"
+    },
+    {
+      "pattern": "Dual-inheritance architecture within a single non-coding RNA locus produces overlapping phenotypic spectra with divergent disease prevalence",
+      "abstraction": "Contrasting inheritance modes in the same non-coding functional locus span a biological continuum rather than establishing strictly segregated clinical syndromes",
+      "instance": "RNU2-2 manifests as both recurrent dominant de novo variants (DEE119, n = 35) and biallelic recessive variants (n = 91 across 73 families), where recessive variants are more than twice as frequent and exhibit broad clinical overlap ranging from severe infantile DEE to developmental delay without epilepsy",
+      "direction": "Establish biophysical and RNA-sequencing functional assays to determine whether dominant and recessive variants represent distinct mechanisms (toxic gain-of-function versus transcript destabilization) or an allelic dosage gradient",
+      "support": "Observed across large-scale cohort studies ( Leit\u00e3o et al., 2026; Jackson et al., 2026; Henry et al., 2026; Greene et al., 2026 )",
+      "sources": [
+        "E Leit\u00e3o et al. (2026) Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies https://www.nature.com/articles/s41588-026-02547-5",
+        "A Jackson et al. (2026) Biallelic variants in RNU2-2 cause a remarkably frequent developmental and epileptic encephalopathy https://www.nature.com/articles/s41588-026-02551-9",
+        "OJ Henry et al. (2026) Phenotypic and transcriptomic characterization of biallelic RNU2\u20102 developmental and epileptic encephalopathy 10.1002/epi.70473",
+        "D Greene et al. (2026) Biallelic variants in RNU2-2 cause the most prevalent known recessive neurodevelopmental disorder https://www.nature.com/articles/s41588-025-02159-5"
+      ],
+      "hypothesis": "Dominant RNU2-2 mutations act via dominant-negative disruption of the spliceosomal catalytic core or branchpoint recognition, while biallelic variants act through non-coding transcript destabilization exceeding a 90% loss-of-function threshold",
+      "novelty": "Biallelic recessive snRNA Mendelian disorders were historically presumed non-viable, yet recessive RNU2-2 conditions are far more prevalent in the population than dominant de novo mutations"
+    },
+    {
+      "pattern": "Initial discovery cohorts systematically overestimate penetrance and severity of secondary clinical features compared to scaled population cohorts",
+      "abstraction": "Early ascertainment bias in small index series inflates reported disease penetrance and masks lower-expressivity phenotypic boundaries",
+      "instance": "Early studies reported near 100% seizure penetrance, progressive microcephaly in 60-80%, and frequent hippocampal sclerosis (3/5), whereas larger multicenter studies revealed that 16 of 141 individuals lacked clinical seizures (~85% penetrance) and microcephaly penetrance was documented in as few as 12% (2/16)",
+      "direction": "Establish global, standardized HPO-based phenotyping registries across all genetically confirmed RNU2-2 cases to establish true baseline penetrance across variant classes",
+      "support": "Documented contradictions between small initial series and expansive cohorts ( Chiu et al., 2026; Leit\u00e3o et al., 2026; Greene et al., 2025; Henry et al., 2026 )",
+      "sources": [
+        "ATG Chiu et al. (2026) Pathogenic Variants in RNU2\u20102, a Non\u2010coding Spliceosomal RNA, Cause a Distinctive Developmental and Epileptic Encephalopathy 10.1002/ana.78071",
+        "E Leit\u00e3o et al. (2026) Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies https://www.nature.com/articles/s41588-026-02547-5",
+        "D Greene et al. (2025) Mutations in the small nuclear RNA gene RNU2-2 cause a severe neurodevelopmental disorder with prominent epilepsy 10.1038/s41588-025-02159-5"
+      ],
+      "hypothesis": "Broadening genetic testing beyond refractory epilepsy to mild neurodevelopmental delay will identify RNU2-2 variant carriers with normal head circumference and no history of unprovoked seizures",
+      "novelty": "Despite the formal OMIM classification of DEE119 as an epileptic encephalopathy, epilepsy is an incomplete and variable component of the underlying spliceosomopathy"
+    },
+    {
+      "pattern": "Secondary acquired brain injury from prolonged status epilepticus confounds identification of primary genetic neurodevelopmental phenotypes",
+      "abstraction": "Acquired post-ictal or excitotoxic structural sequelae are frequently misattributed to primary genetic dysgenesis in early-onset epileptic disorders",
+      "instance": "Hippocampal sclerosis noted on MRI (3 of 5 patients in Chiu et al.) and developmental regression following severe seizure onset obscure whether mesial temporal sclerosis and milestone loss are primary spliceosomal dysgenesis features or secondary consequences of early status epilepticus (reported in 5 of 5 dominant patients and 8 of 14 recessive patients)",
+      "direction": "Perform serial neonatal and early-infantile neuroimaging prior to seizure onset in genetically diagnosed cohorts to establish the timing of structural hippocampal alterations",
+      "support": "Identified in neuroimaging and seizure semiology cohorts reporting status epilepticus and regression ( Chiu et al., 2026; Krygier et al., 2026; Henry et al., 2026 )",
+      "sources": [
+        "ATG Chiu et al. (2026) Pathogenic Variants in RNU2\u20102, a Non\u2010coding Spliceosomal RNA, Cause a Distinctive Developmental and Epileptic Encephalopathy 10.1002/ana.78071",
+        "M Krygier et al. (2026) Prominent Movement Disorders in RNU2\u20102\u2010Related Spliceosomopathy 10.1002/acn3.70442",
+        "OJ Henry et al. (2026) Phenotypic and transcriptomic characterization of biallelic RNU2\u20102 developmental and epileptic encephalopathy 10.1002/epi.70473"
+      ],
+      "hypothesis": "Hippocampal sclerosis in RNU2-2-associated encephalopathy represents an acquired excitotoxic lesion secondary to prolonged status epilepticus rather than an intrinsic snRNA-mediated malformation of cortical development",
+      "novelty": "Clinicians encountering hippocampal sclerosis on pediatric MRI may misclassify the condition as a focal, potentially surgically remediable epilepsy rather than a systemic non-coding genetic spliceosomopathy"
+    }
+  ]
+}

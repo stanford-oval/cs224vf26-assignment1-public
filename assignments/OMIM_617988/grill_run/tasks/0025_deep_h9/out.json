@@ -1,0 +1,116 @@
+{
+  "verdict": "supported",
+  "rationale": "Extensive assessment of the literature across NBIA and Jaberi-Elahi syndrome cohorts demonstrates that basal ganglia iron accumulation is typically absent or undetectable on brain MRI during early infancy and early childhood. Rather than presenting with pathognomonic iron deposition, pediatric presentations are dominated by cerebellar atrophy or pontocerebellar hypoplasia, corpus callosum hypoplasia/dysgenesis, severe developmental delay, hypotonia, and ectodermal features (such as sparse hair). Systematic review of Jaberi-Elahi syndrome cohorts (e.g., Manoochehri et al., 2024) shows that evidence of brain iron accumulation is documented in only a small minority of older evaluated individuals (4 of 28 patients). Mechanistic reviews of NBIA (e.g., Vijeev et al., 2026) corroborate that GTPBP2-related disease belongs to a class of secondary NBIA disorders that occur without early basal ganglia iron deposition. Consequently, brain iron deposition cannot serve as an early clinical or radiological discriminator to distinguish GTPBP2-related disorder from non-iron-accumulating pontocerebellar hypoplasias or early-onset hereditary spastic paraplegias.",
+  "evidence": [
+    {
+      "text": "Comprehensive literature review of 28 reported Jaberi-Elahi syndrome cases identified brain iron accumulation in only 4 individuals, all of whom presented with iron deposition later in disease progression, while early core features were motor delay (26/28), sparse hair (26/28), speech disorder (24/28), hypotonia (23/28), intellectual disability (23/28), and skeletal abnormalities (23/28).",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "Interestingly, all four Patients with brain iron accumulation \u2026 Thus, it could be suggested that brain iron deposition is likely \u2026 between brain iron accumulation and the disease process \u2026 A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+      },
+      "numbers": [
+        {
+          "metric": "Patients with brain iron accumulation out of total reviewed",
+          "value": "4/28"
+        },
+        {
+          "metric": "Motor development delay frequency",
+          "value": "26/28"
+        },
+        {
+          "metric": "Sparse hair frequency",
+          "value": "26/28"
+        },
+        {
+          "metric": "Hypotonia frequency",
+          "value": "23/28"
+        }
+      ]
+    },
+    {
+      "text": "In a comprehensive mechanistic review of NBIA subtypes, GTPBP2-related disorder is classified among atypical NBIA conditions that occur without early basal ganglia iron accumulation.",
+      "stance": "supports",
+      "source": {
+        "title": "Primary Mitochondrial and Lipid Metabolism Failure with Secondary Iron Accumulation and Lipid Peroxidation in Neurodegeneration with Brain Iron Accumulation",
+        "authors": [
+          "A Vijeev",
+          "S Basha",
+          "SS Nadig",
+          "K Agarwal"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1080/17590914.2026.2717255",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/17590914.2026.2717255",
+        "quote": "described disorders such as GTPBP2- and REPS1-related \u2026 occur without early basal ganglia iron accumulation."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Neuroimaging in pediatric NBIA cases, specifically evaluating Iranian families with GTPBP2 mutations, indicates that MRI findings can be non-specific or insignificant in early childhood, with iron deposition in the basal ganglia developing progressively rather than early in life.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodegeneration with brain iron accumulation and a brief report of the disease in Iran",
+        "authors": [
+          "R Hajati",
+          "M Emamikhah",
+          "FD Fard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cambridge.org/core/journals/canadian-journal-of-neurological-sciences/article/neurodegeneration-with-brain-iron-accumulation-and-a-brief-report-of-the-disease-in-iran/F1086EF553402CA967D7E406A870BCB4",
+        "quote": "be nonspecific or insignificant in early childhood imaging.\u2026 of the pattern of iron accumulation in basal ganglia in many reported \u2026 GTPBP2, has been identified in an Iranian family"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In GTPBP2-associated neurodegeneration, structural neuroimaging primarily shows atrophy of the cerebellar structures, and early iron accumulation is characteristically absent or late in manifestation.",
+      "stance": "supports",
+      "source": {
+        "title": "Syndromes of Neurodegeneration with Brain Iron Accumulation",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://neupsykey.com/chapter-16-syndromes-of-neurodegeneration-with-brain-iron-accumulation/",
+        "quote": "In GTPBP2\u2013associated neurodegeneration, brain MRI shows atrophy of the cerebellar \u2026 Late-onset cases may lack signs of iron accumulation and MRI"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.94,
+  "new_directions": [
+    {
+      "question_text": "At what exact median age and on which MRI sequences (e.g., SWI, QSM, T2*) does basal ganglia iron deposition first become quantifiable in GTPBP2 patients?",
+      "rationale": "Clarifying the chronological window when iron accumulation transitions from absent to detectable will help establish age-specific diagnostic algorithms and clarify when SWI/QSM imaging is clinically informative.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Can a combination of sparse hair, cerebellar/corpus callosum hypoplasia, and early hypotonia serve as a validated composite clinical rule to distinguish GTPBP2 from PCH types 1-2 and complex HSPs prior to exome sequencing?",
+      "rationale": "Because iron imaging fails in infancy/childhood, non-radiological discriminating features such as sparse hair combined with pontocerebellar hypoplasia may provide the highest discriminatory power in resource-limited or pre-genetic clinical settings.",
+      "promise": 0.85,
+      "est_cost": 15000
+    }
+  ]
+}

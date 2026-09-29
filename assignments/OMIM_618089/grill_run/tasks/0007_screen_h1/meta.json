@@ -1,0 +1,57 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Gregor\" \"FBXO11\" \"speech\" \"30100085\"",
+    "Gregor 2018 FBXO11 speech language impairment 30100085"
+  ],
+  "n_hits": 5,
+  "hits": [
+    {
+      "id": "34505148",
+      "title": "De novo missense variants in FBXO11 alter its protein ... - PMC",
+      "pmid": "34505148",
+      "doi": "10.1093/hmg/ddab265",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8825234/",
+      "abstract_chars": 1599
+    },
+    {
+      "id": "30679813",
+      "title": "De novo variants in FBXO11 cause a syndromic form of ...",
+      "pmid": "30679813",
+      "doi": "10.1038/s41431-018-0292-2",
+      "url": "https://www.researchgate.net/publication/330588459_De_novo_variants_in_FBXO11_cause_a_syndromic_form_of_intellectual_disability_with_behavioral_problems_and_dysmorphisms",
+      "abstract_chars": 1807
+    },
+    {
+      "id": "https://www.simonssearchlight.org/gene-guide/fbxo11/",
+      "title": "FBXO11-Related Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.simonssearchlight.org/gene-guide/fbxo11/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.21203/rs.3.rs-10148333/v1",
+      "title": "Defining FBXO11-Related Neurodevelopmental Disorder",
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-10148333/v1",
+      "url": "https://www.researchsquare.com/article/rs-10148333/latest.pdf",
+      "abstract_chars": 1592
+    },
+    {
+      "id": "https://www.malacards.org/card/intellectual_developmental_disorder_with_dysmorphic_facies_and_behavioral_abnormalities",
+      "title": "Intellectual Developmental Disorder with Dysmorphic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/intellectual_developmental_disorder_with_dysmorphic_facies_and_behavioral_abnormalities",
+      "abstract_chars": 1872
+    }
+  ],
+  "input_tokens": 3938,
+  "output_tokens": 1197,
+  "usd": 0.00556,
+  "seconds": 13.4,
+  "ok": true
+}

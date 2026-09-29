@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spinocerebellar ataxia\" \"RAB3A\" phenotype spasticity tremor",
+    "spinocerebellar ataxia 52 RAB3A phenotype spasticity tremor vermian atrophy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "abstract_chars": 1865
+    },
+    {
+      "id": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "abstract_chars": 455
+    },
+    {
+      "id": "40621104",
+      "title": "Cysteine string protein \u03b1 and a link between rare and common neurodegenerative dementias",
+      "pmid": "40621104",
+      "doi": "10.1038/s44400-025-00016-0",
+      "url": "https://www.nature.com/articles/s44400-025-00016-0",
+      "abstract_chars": 1393
+    },
+    {
+      "id": "https://umontreal.scholaris.ca/items/393f69b7-2e50-463c-84b8-38e860c9ef5a",
+      "title": "\u00c9tude clinique et g\u00e9n\u00e9tique d'une nouvelle forme d'ataxie spinoc\u00e9r\u00e9belleuse pure associ\u00e9e \u00e0 l'\u00c9rythrok\u00e9ratodermie",
+      "pmid": null,
+      "doi": null,
+      "url": "https://umontreal.scholaris.ca/items/393f69b7-2e50-463c-84b8-38e860c9ef5a",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nature.com/articles/nrn2809",
+      "title": "Modelling neurodegeneration in Saccharomyces cerevisiae: why cook with baker's yeast?",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/nrn2809",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "title": "Ataxia: Dominant",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2025.07.16.25330541v1.full-text",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant ...",
+      "pmid": null,
+      "doi": "10.1101/2025.07.16.25330541v1.full-text",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.07.16.25330541v1.full-text",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=20",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=20",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/394696145_An_R83W_mutation_in_Rab3A_causes_autosomal-dominant_cerebellar_ataxia",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/394696145_An_R83W_mutation_in_Rab3A_causes_autosomal-dominant_cerebellar_ataxia",
+      "abstract_chars": 1865
+    },
+    {
+      "id": "23853068",
+      "title": "A de novo SCA14 mutation in an isolated case of...",
+      "pmid": "23853068",
+      "doi": "10.1002/mds.25572",
+      "url": "https://www.ovid.com/journals/mdis/fulltext/10.1002/mds.25572~a-de-novo-sca14-mutation-in-an-isolated-case-of-late-onset",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4948,
+  "output_tokens": 2265,
+  "usd": 0.00927,
+  "seconds": 18.4,
+  "ok": true
+}

@@ -1,0 +1,114 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not support the hypothesis that gross structural cystic renal anomalies in TBC1D32-related disorders (including Alsahan-Harris syndrome, OMIM #621307) only occur via synergistic interaction with secondary modifier alleles in transition zone or ciliary gate genes such as SCLT1. Clinical genetic characterizations of TBC1D32-related conditions demonstrate that biallelic pathogenic variants in TBC1D32 segregate in an autosomal recessive fashion to produce severe fetal and pediatric multisystem ciliopathy phenotypes, including brain, craniofacial, and renal anomalies, without an identified requirement for digenic or multiallelic modifier mutations in SCLT1 or other transition zone genes.",
+  "evidence": [
+    {
+      "text": "Harris et al. (2023) identified seven probands from unrelated pedigrees harboring rare recessive likely pathogenic variants in TBC1D32 across prenatal and pediatric cohorts, demonstrating that biallelic TBC1D32 variants segregate recessively with life-limiting congenital anomalies, brain malformations, and kidney disease as a monogenic ciliopathy entity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy",
+        "authors": [
+          "SC Harris",
+          "K Chong",
+          "D Chitayat"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63150",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63150",
+        "quote": "We describe seven unpublished probands with rare likely pathogenic variants or variants of uncertain significance that segregate with recessive disease in TBC1D32, including four fetal probands in three unrelated pedigrees and three pediatric probands in unrelated pedigrees."
+      },
+      "numbers": [
+        {
+          "metric": "unpublished probands described",
+          "value": 7
+        },
+        {
+          "metric": "previously published patients compared",
+          "value": 7
+        },
+        {
+          "metric": "fetal probands",
+          "value": 4
+        },
+        {
+          "metric": "pediatric probands",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Curated diagnostic gene panels for cystic kidney disease and ciliopathies (e.g., Genomics England PanelApp and Australian PanelApp) track TBC1D32 as an established monogenic entity for Alsahan-Harris syndrome (MIM #621307) and renal cystic disease, without establishing a prerequisite for digenic transition zone modifier alleles.",
+      "stance": "neutral",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=722&entity=TBC1D32",
+        "quote": "Cystic kidney disease, Cystic renal disease ... Alsahan-Harris ... TBC1D32, Ivone Leong Phenotypes for gene: TBC1D32 were changed from No OMIM phenotype"
+      },
+      "numbers": [
+        {
+          "metric": "panel ID",
+          "value": 722
+        }
+      ]
+    },
+    {
+      "text": "Targeted panel screening in antenatal cystic kidney disease cohorts reveals monogenic recessive ciliopathy variants (such as CC2D2A and NEK8) driving lethal antenatal cystic and syndromic phenotypes without documented obligate digenic requirements with TBC1D32.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic spectrum of Saudi Arabian patients with antenatal cystic kidney disease and ciliopathy phenotypes using a targeted renal gene panel",
+        "authors": [
+          "MH Al"
+        ],
+        "year": 2016,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/53/5/338.abstract",
+        "quote": "In this cohort, disease phenotypes were severe with 36 cases of stillbirth or perinatal death. Extra renal malformations, including encephalocele, polydactyly and heart malformations, consistent with ciliopathy phenotypes, were frequently detected."
+      },
+      "numbers": [
+        {
+          "metric": "antenatal cystic kidney families evaluated",
+          "value": 44
+        },
+        {
+          "metric": "stillbirth or perinatal death cases",
+          "value": 36
+        },
+        {
+          "metric": "causative mutation identification rate in families with complete DNA",
+          "value": "62%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "No clinical or experimental cohort study has verified that TBC1D32-associated renal cysts strictly depend on secondary modifier alleles in SCLT1 or other transition zone genes.",
+    "Biallelic deleterious TBC1D32 variants alone are documented to cause severe multi-system ciliopathy manifestations, including renal involvement."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "Does whole-genome sequencing in Alsahan-Harris syndrome cohorts reveal an enrichment of secondary heterozygous transition zone variants (such as in SCLT1, TMEM231, or CC2D2A) specifically among patients with macrocystic versus non-cystic renal manifestations?",
+      "rationale": "Systematic secondary-variant filtering across well-phenotyped TBC1D32 cohorts is required to determine whether cystic variability is modulated by oligogenic mutational burden.",
+      "promise": 0.75,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do double-heterozygous or hypomorphic compound mouse models combining Tbc1d32 and Sclt1 mutations produce synergistic renal cystic pathology relative to single-gene knockouts?",
+      "rationale": "In vivo functional validation would directly test whether a strict threshold of ciliary gate disruption is necessary to initiate gross tubular dilation and epithelial apoptosis in the kidney.",
+      "promise": 0.8,
+      "est_cost": 45000.0
+    }
+  ]
+}

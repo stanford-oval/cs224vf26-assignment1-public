@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"cerebellar ataxia\" definition clinical neurology \"spastic ataxia\"",
+    "cerebellar ataxia definition clinical features signs symptoms neurology"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/s12311-021-01345-5",
+      "title": "A diagnostic approach to spastic ataxia syndromes",
+      "pmid": null,
+      "doi": "10.1007/s12311-021-01345-5",
+      "url": "https://link.springer.com/article/10.1007/s12311-021-01345-5",
+      "abstract_chars": 795
+    },
+    {
+      "id": "17204042",
+      "title": "Diagnosis and management of early\u2010and late\u2010onset cerebellar ataxia",
+      "pmid": "17204042",
+      "doi": "10.1111/j.1399-0004.2006.00722.x",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1399-0004.2006.00722.x",
+      "abstract_chars": 967
+    },
+    {
+      "id": "36400556",
+      "title": "Evaluation of cerebellar ataxic patients",
+      "pmid": "36400556",
+      "doi": "10.1016/j.ncl.2022.05.002",
+      "url": "https://www.sciencedirect.com/science/article/am/pii/S0733861922000421",
+      "abstract_chars": 726
+    },
+    {
+      "id": "28257643",
+      "title": "Ataxia in children: early recognition and clinical evaluation",
+      "pmid": "28257643",
+      "doi": "10.1186/s13052-016-0325-9",
+      "url": "https://link.springer.com/article/10.1186/s13052-016-0325-9",
+      "abstract_chars": 1278
+    },
+    {
+      "id": "27495205",
+      "title": "Ataxia",
+      "pmid": "27495205",
+      "doi": "10.1212/CON.0000000000000362",
+      "url": "https://continuum.aan.com/doi/abs/10.1212/CON.0000000000000362",
+      "abstract_chars": 1341
+    },
+    {
+      "id": "http://www.ncbi.nlm.nih.gov/medgen/849",
+      "title": "Cerebellar ataxia (Concept Id: C0007758)",
+      "pmid": null,
+      "doi": null,
+      "url": "http://www.ncbi.nlm.nih.gov/medgen/849",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1212/NXG.0000000000200331",
+      "title": "Deciphering Spastic Ataxia: Clinical and Genetic Profiles",
+      "pmid": null,
+      "doi": "10.1212/NXG.0000000000200331",
+      "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000200331",
+      "abstract_chars": 2686
+    },
+    {
+      "id": "https://www.medlink.com/articles/ataxia",
+      "title": "Ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.medlink.com/articles/ataxia",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.e-rvs.org/journal/view.php?number=1024",
+      "title": "Functional classification of the cerebellum and cerebellar ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.e-rvs.org/journal/view.php?number=1024",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41824138",
+      "title": "Types of Ataxia - UChicago Neurology",
+      "pmid": "41824138",
+      "doi": "10.1007/s12311-026-01969-5",
+      "url": "https://neurology.uchicago.edu/patient-care/ataxia-types",
+      "abstract_chars": 1526
+    }
+  ],
+  "input_tokens": 4188,
+  "output_tokens": 1415,
+  "usd": 0.00634,
+  "seconds": 18.4,
+  "ok": true
+}

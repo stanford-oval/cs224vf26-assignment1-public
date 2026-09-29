@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SNUPN\" \"muscular dystrophy\" \"limb-girdle\" \"OMIM\"",
+    "SNUPN gene snurportin 1 limb girdle muscular dystrophy phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(24)01757-7/abstract",
+      "title": "The 2025 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(24)01757-7/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39215466",
+      "title": "Expert panel curation of 31 genes in relation to limb girdle muscular dystrophy",
+      "pmid": "39215466",
+      "doi": "10.1002/acn3.52127",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.52127",
+      "abstract_chars": 1672
+    },
+    {
+      "id": "https://is.muni.cz/th/s064h/",
+      "title": "Identifikace a interpretace genetick\u00fdch variant u pacient\u016f s neuromuskul\u00e1rn\u00edm onemocn\u011bn\u00edm",
+      "pmid": null,
+      "doi": null,
+      "url": "https://is.muni.cz/th/s064h/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "38909121",
+      "title": "Facing the challenges to shorten the diagnostic odyssey: first Whole Genome Sequencing experience of a Colombian cohort with suspected rare diseases",
+      "pmid": "38909121",
+      "doi": "10.1038/s41431-024-01609-8",
+      "url": "https://www.nature.com/articles/s41431-024-01609-8",
+      "abstract_chars": 1680
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "title": "The 2026 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620793",
+      "title": "620793 - MUSCULAR DYSTROPHY, LIMB-GIRDLE ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620793",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/185/gene/SNUPN/",
+      "title": "Gene: SNUPN (Limb girdle muscular dystrophies ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/185/gene/SNUPN/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://www.alliancegenome.org/disease/DOID:0061134",
+      "title": "autosomal recessive limb-girdle muscular dystrophy type 29",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.alliancegenome.org/disease/DOID:0061134",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "abstract_chars": 2400
+    }
+  ],
+  "input_tokens": 4075,
+  "output_tokens": 1193,
+  "usd": 0.00562,
+  "seconds": 12.4,
+  "ok": true
+}

@@ -1,0 +1,182 @@
+{
+  "hypotheses": [
+    {
+      "text": "Microcephaly (HP:0000252) is present in the vast majority of MAU2-deficient individuals (at least 14 of the 18 patients, or >=77%) in the Parenti et al. cohort, demonstrating that cranial growth failure is a primary cardinal finding of CdLS7.",
+      "rationale": "In the Parenti et al. cohort of 18 individuals, microcephaly is singled out in the abstract and text as a consistent major feature alongside short stature, while classic facial gestalt signs show wider expressivity.",
+      "aspects": [
+        "phenotype frequencies",
+        "microcephaly",
+        "CdLS7"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Parenti et al. describe 18 individuals carrying 15 heterozygous MAU2 variants and report that affected individuals display a wide spectrum from classic CdLS to milder presentations, highlighting microcephaly and short stature as consistent major features.",
+          "stance": "supports",
+          "source": {
+            "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+            "authors": [
+              "I Parenti",
+              "A Hesters",
+              "M Gil"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC12668068",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+            "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+          },
+          "numbers": [
+            {
+              "metric": "cohort size",
+              "value": 18
+            },
+            {
+              "metric": "heterozygous MAU2 variants",
+              "value": 15
+            }
+          ]
+        },
+        {
+          "text": "The index proband with an in-frame deletion in MAU2 described by Parenti et al. in 2020 presented with microcephaly along with characteristic facial features.",
+          "stance": "supports",
+          "source": {
+            "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+            "authors": [
+              "I Parenti",
+              "F Diab",
+              "SR Gil",
+              "E Mulugeta",
+              "V Casa",
+              "R Berutti"
+            ],
+            "year": 2020,
+            "journal": "Cell Reports",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+            "quote": "microcephaly, brachycephaly, low anterior and posterior hairline, arched eyebrows, synophrys,"
+          },
+          "numbers": [
+            {
+              "metric": "affected individuals in initial study",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Synophrys (HP:0000664) and thick, arched eyebrows (HP:0002553) have an intermediate penetrance of approximately 50% to 65% (10-12 of 18 assessed patients) in MAU2 CdLS7, occurring at a significantly lower frequency than in classical NIPBL-related CdLS (>95%).",
+      "rationale": "Ascaso et al. (2024) specifically note that non-NIPBL cohesin variants (including MAU2) often present with subtle or absent synophrys, and Parenti et al. identify a bimodal presentation ranging from classic facial signs to milder presentations.",
+      "aspects": [
+        "synophrys",
+        "arched eyebrows",
+        "phenotype frequencies"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Ascaso et al. observe that non-NIPBL cohesinopathy genes including MAU2 display atypical features such as subtle or absent synophrys.",
+          "stance": "supports",
+          "source": {
+            "title": "Cornelia de Lange spectrum",
+            "authors": [
+              "\u00c1 Ascaso",
+              "M Arnedo",
+              "B Puisac"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+            "quote": "of additional genes (BRD4, ANKRD11, MAU2), but the lack of \u2026 with subtle or no synophrys, and 56% have heart defects."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Parenti et al. (2026 / PMC12668068) indicate that classical dysmorphic features like synophrys and thick, arched eyebrows occur alongside microcephaly, but expressivity spans from classic CdLS to milder presentations across the 18 patients.",
+          "stance": "supports",
+          "source": {
+            "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+            "authors": [
+              "I Parenti",
+              "A Hesters",
+              "M Gil"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41467-026-71177-6",
+            "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features."
+          },
+          "numbers": [
+            {
+              "metric": "total MAU2 cohort size",
+              "value": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The presence of classic facial dysmorphic signs (synophrys, arched eyebrows, long eyelashes) correlates with variant class in MAU2, being significantly more frequent in individuals with truncating/frameshift variants causing MAU2 haploinsufficiency than in those with in-frame missense/deletion variants.",
+      "rationale": "Parenti et al. report two distinct MAU2-specific episignatures and diverging molecular mechanisms: truncating variants cause MAU2 haploinsufficiency and secondary NIPBL reduction (mirroring classical CdLS), whereas in-frame variants primarily disrupt NIPBL-MAU2 heterodimerization without severe loss of NIPBL levels.",
+      "aspects": [
+        "genotype-phenotype correlation",
+        "variant class",
+        "episignature"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "Parenti et al. identify that in-frame MAU2 variants impair NIPBL-MAU2 interaction, whereas truncating variants lead to haploinsufficiency and secondary NIPBL reduction, accompanied by two distinct MAU2-specific episignatures reflecting variant-dependent consequences.",
+          "stance": "supports",
+          "source": {
+            "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+            "authors": [
+              "I Parenti",
+              "A Hesters",
+              "M Gil"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC12668068",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+            "quote": "In-frame MAU2 variants predominantly impair NIPBL\u2013MAU2 interaction, whereas truncating variants cause MAU2 haploinsufficiency and lead to NIPBL reduction. Most patients exhibit a DNA methylation profile compatible with the CdLS episignature. We also identified two MAU2-specific episignatures that reflect variant-dependent molecular consequences."
+          },
+          "numbers": [
+            {
+              "metric": "distinct episignatures",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient numerator/denominator frequencies for congenital heart defects, limb anomalies, and gastrointestinal abnormalities in the Parenti et al. 18-patient MAU2 cohort?",
+      "rationale": "Ascaso et al. 2024 cite 56% heart defects in specific non-NIPBL cohorts; determining whether MAU2 probands carry structural cardiovascular or limb anomalies is critical for clinical distinction from CdLS1.",
+      "promise": 0.88,
+      "est_cost": 0.8
+    },
+    {
+      "question_text": "Do the two MAU2-specific episignatures defined by Parenti et al. correlate strictly with cardinal dysmorphic feature severity scores (such as the international CdLS consensus scoring system)?",
+      "rationale": "Demonstrating whether episignature subgroups predict classic vs. mild facial gestalt will determine if DNA methylation testing can resolve phenotypic ambiguity in borderline MAU2 cases.",
+      "promise": 0.82,
+      "est_cost": 0.75
+    }
+  ],
+  "dead_end": false
+}

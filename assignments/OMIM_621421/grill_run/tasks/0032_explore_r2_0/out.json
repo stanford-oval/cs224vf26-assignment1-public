@@ -1,0 +1,222 @@
+{
+  "hypotheses": [
+    {
+      "text": "Across the complete primary clinical literature, exactly 13 unique individuals across 12 unrelated families (12 from Ramond et al., 2023 and 1 from Shatokhina et al., 2023) define the total worldwide published cohort of germline TRA2B-related Ramond-Elliott syndrome.",
+      "rationale": "Prior summaries cite inconsistent total cohort sizes ranging between 11, 12, 13, and 15 individuals. A critical examination of primary discovery and follow-up case papers identifies precisely two primary publications describing patients with germline TRA2B variants: the discovery cohort of 12 individuals and the second independent case study of 1 individual, establishing the definitive denominator of N=13 for calculating cumulative phenotypic penetrance.",
+      "aspects": [
+        "cohort size",
+        "primary literature",
+        "denominator"
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "text": "Ramond et al. (2023) identified and recruited a total of 12 individuals from 11 unrelated families carrying monoallelic 5' variants in TRA2B, establishing the initial discovery cohort.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "Francis Ramond",
+              "Caroline Dalgliesh",
+              "Mona Grimmel",
+              "Oded Wechsberg",
+              "Annalisa Vetro",
+              "Renzo Guerrini",
+              "David"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited."
+          },
+          "numbers": [
+            {
+              "metric": "Discovery cohort size (individuals)",
+              "value": 12
+            },
+            {
+              "metric": "Discovery cohort families",
+              "value": 11
+            }
+          ]
+        },
+        {
+          "text": "Shatokhina et al. (2023) reported the second investigation of pathogenic variants in the TRA2B gene in humans, describing a single proband harboring a de novo c.170+1G>A splice variant in the RS1 domain.",
+          "stance": "supports",
+          "source": {
+            "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+            "authors": [
+              "O Shatokhina",
+              "V Kovalskaia",
+              "P Sparber"
+            ],
+            "year": 2023,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+            "quote": "This paper represents the second investigation of pathogenic variants in the TRA2B gene in humans, reaffirming the conclusions of the initial study and underscoring the importance of this research."
+          },
+          "numbers": [
+            {
+              "metric": "Second study cohort size",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Global developmental delay and intellectual disability (HP:0001263 / HP:0001249) has 100% penetrance (exact cumulative numerator 13/13), whereas infantile spasms/seizures (HP:0012469 / HP:0001250) has an exact penetrance between 50% and 75% in molecularly confirmed TRA2B patients.",
+      "rationale": "While intellectual disability is invariant across all 13 reported individuals, seizures and infantile spasms are frequent but not universal, serving as a sub-phenotypic marker that distinguishes more severe epileptic presentations from non-epileptic neurodevelopmental delay.",
+      "aspects": [
+        "penetrance",
+        "epilepsy",
+        "phenotype frequency"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "All 12 affected individuals in the discovery cohort presented with intellectual disability and/or developmental delay (12/12, 100%), and infantile spasms were noted as frequently associated rather than universal.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": [
+            {
+              "metric": "ID/DD frequency in discovery cohort",
+              "value": "12/12"
+            }
+          ]
+        },
+        {
+          "text": "The patient in the second case report presented with neurodevelopmental delay and seizures/infantile spasms, adding 1 to both ID/DD and seizure numerators.",
+          "stance": "supports",
+          "source": {
+            "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+            "authors": [
+              "O Shatokhina",
+              "V Kovalskaia",
+              "P Sparber"
+            ],
+            "year": 2023,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+            "quote": "In this study, we report a novel splice variant in the TRA2B gene identified in a patient presenting with seizures and neurodevelopmental delay."
+          },
+          "numbers": [
+            {
+              "metric": "Case 13 ID/DD presence",
+              "value": 1
+            },
+            {
+              "metric": "Case 13 seizure presence",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "All 13 published germline pathogenic variants in TRA2B cluster exclusively within the 5' region (exon 2 / RS1 domain) upstream of the alternative translation start site, indicating that pathogenic variants outside this specific hotspot do not cause classic Ramond-Elliott syndrome.",
+      "rationale": "Understanding the exact genetic spectrum across all 13 published individuals reveals whether missense or truncating variants downstream in the RRM or RS2 domains produce the syndrome, or if the disease mechanism strictly requires disruption of the RS1 domain causing selective overexpression of the noncanonical dominant-negative Tra2\u03b2-3 isoform.",
+      "aspects": [
+        "genotype-phenotype",
+        "mutational hotspot",
+        "disease mechanism"
+      ],
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "text": "In the discovery cohort of 12 individuals, all variants clustered strictly in the 5' portion of TRA2B upstream of an alternative translation start site, decreasing canonical Tra2\u03b2-1 while increasing the repressive Tra2\u03b2-3 isoform lacking the N-terminal RS1 domain.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "Francis Ramond",
+              "Caroline Dalgliesh",
+              "Mona Grimmel",
+              "Oded Wechsberg",
+              "Annalisa Vetro",
+              "Renzo Guerrini",
+              "David"
+            ],
+            "year": 2023,
+            "journal": "Genetics in Medicine",
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "All variants clustered in the 5' part of TRA2B, upstream of an alternative translation start site responsible for the expression of the noncanonical Tra2\u03b2-3 isoform."
+          },
+          "numbers": [
+            {
+              "metric": "Variants clustering in 5' region in discovery cohort",
+              "value": "12/12"
+            }
+          ]
+        },
+        {
+          "text": "The patient in the second case report carried a de novo c.170+1G>A splice donor variant affecting the RS1 domain, also resulting in exon 2 deletion and frameshift (p.Glu13Valfs*2).",
+          "stance": "supports",
+          "source": {
+            "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+            "authors": [
+              "O Shatokhina",
+              "V Kovalskaia",
+              "P Sparber"
+            ],
+            "year": 2023,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+            "quote": "The proband harbored a de novo c.170+1G>A variant in the RS1 domain of Tra2\u03b2, which was confirmed to be pathogenic through mRNA analysis, resulting in exon 2 deletion and a frameshift (p.Glu13Valfs*2)."
+          },
+          "numbers": [
+            {
+              "metric": "RS1 domain localization in second study",
+              "value": "1/1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact individual-level breakdown of brain anomalies (e.g., corpus callosum hypoplasia vs ventriculomegaly) across each of the 13 documented individuals with TRA2B variants?",
+      "rationale": "Neuroimaging abnormalities are reported in the majority of patients, but the exact breakdown of specific structural callosal, ventricular, and cortical features across individual patients is critical to establish radiological discriminators.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "Are there any published cases of heterozygous loss-of-function variants in TRA2B downstream of exon 2 / the alternative start codon in clinical sequencing databases, and do they produce an entirely distinct phenotype or benign carrier state?",
+      "rationale": "Because the dominant-negative mechanism requires expression of the truncated Tra2\u03b2-3 isoform from the downstream internal start site, loss-of-function variants downstream might lead to true haploinsufficiency or nonsense-mediated decay without overexpressing Tra2\u03b2-3.",
+      "promise": 0.8,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,57 @@
+{
+  "plausible": false,
+  "note": "OMIM #620938 and Kaiyrzhanov et al. (2022) report 19 affected individuals across 10 families (16 with HSP phenotype), contradicting the claim of exactly 13 patients.",
+  "confidence": 0.1,
+  "evidence": [
+    {
+      "text": "OMIM entry #620938 documents 19 patients from 10 families with an NFU1-related spastic paraplegia phenotype, not 13.",
+      "stance": "contradicts",
+      "source": {
+        "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620938",
+        "quote": "(2022) reported clinical features in 19 patients, aged 4.5 months to 25 years, from 10 families with a spastic paraplegia phenotype and mutation in the NFU1 ..."
+      },
+      "numbers": [
+        {
+          "metric": "reported patients in OMIM 620938",
+          "value": 19
+        },
+        {
+          "metric": "independent families",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "text": "The foundational study by Kaiyrzhanov et al. delineates 19 affected individuals from 10 families with biallelic NFU1 missense variants, of whom 16 displayed a hereditary spastic paraplegia phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Phenotypic continuum of NFU1-related disorders - PubMed",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1002/acn3.51679",
+        "pmid": "36256512",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36256512/",
+        "quote": "We report 19 affected individuals from 10 independent families with ultra-rare bi-allelic NFU1 missense variants associated with a spectrum of early-onset pure to complex hereditary spastic paraplegia (HSP) phenotype with a longer survival (16/19) on one end and neurodevelopmental delay with severe hypotonia (3/19) on the other."
+      },
+      "numbers": [
+        {
+          "metric": "total affected individuals",
+          "value": 19
+        },
+        {
+          "metric": "individuals with hereditary spastic paraplegia phenotype",
+          "value": 16
+        }
+      ]
+    }
+  ]
+}

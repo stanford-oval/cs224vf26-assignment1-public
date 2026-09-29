@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"RAB3A\" \"spinocerebellar ataxia\" phenotype \"developmental delay\"",
+    "RAB3A spinocerebellar ataxia 52 phenotype cognitive impairment hypotonia"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "abstract_chars": 1865
+    },
+    {
+      "id": "https://jmg.bmj.com/content/44/9/545.short",
+      "title": "Cargos and genes: insights into vesicular transport from inherited human disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/44/9/545.short",
+      "abstract_chars": 907
+    },
+    {
+      "id": "https://karger.com/dne/article/40/5-6/396/109134",
+      "title": "Golgipathies in neurodevelopment: a new view of old defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://karger.com/dne/article/40/5-6/396/109134",
+      "abstract_chars": 1344
+    },
+    {
+      "id": "40958510",
+      "title": "Genetics of idiopathic hypogonadotropic hypogonadism",
+      "pmid": "40958510",
+      "doi": "10.4274/jcrpe.galenos.2025.2025-6-23",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13325842/",
+      "abstract_chars": 1371
+    },
+    {
+      "id": "10.3389/fncel.2019.00419/full",
+      "title": "Going Too Far Is the Same as Falling Short\u2020: Kinesin-3 Family Members in Hereditary Spastic Paraplegia",
+      "pmid": null,
+      "doi": "10.3389/fncel.2019.00419/full",
+      "url": "https://www.frontiersin.org/journals/cellular-neuroscience/articles/10.3389/fncel.2019.00419/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2025.07.16.25330541v1.full-text",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant ...",
+      "pmid": null,
+      "doi": "10.1101/2025.07.16.25330541v1.full-text",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.07.16.25330541v1.full-text",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/605259",
+      "title": "Entry - #605259 - SPINOCEREBELLAR ATAXIA 13; SCA13",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/605259",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=20",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=20",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "title": "Ataxia: Dominant",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genome.jp/dbget-bin/www_bget?ds:H00063",
+      "title": "KEGG DISEASE: Spinocerebellar ataxia (SCA)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genome.jp/dbget-bin/www_bget?ds:H00063",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4099,
+  "output_tokens": 1096,
+  "usd": 0.00534,
+  "seconds": 11.6,
+  "ok": true
+}

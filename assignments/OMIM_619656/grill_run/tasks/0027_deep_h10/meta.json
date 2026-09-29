@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"thoracic aortic aneurysm\" \"aortic dissection\" Peeters",
+    "SMAD2 pathogenic variants thoracic aortic aneurysm dissection frequency cohort"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1146/annurev-genom-111521-104455",
+      "title": "The genetics and typical traits of thoracic aortic aneurysm and dissection",
+      "pmid": null,
+      "doi": "10.1146/annurev-genom-111521-104455",
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-genom-111521-104455",
+      "abstract_chars": 887
+    },
+    {
+      "id": "10.1007/978-3-032-19328-5_13",
+      "title": "Pathophysiology and Management of Hereditary Aneurysmal Aortopathies",
+      "pmid": null,
+      "doi": "10.1007/978-3-032-19328-5_13",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-19328-5_13",
+      "abstract_chars": 0
+    },
+    {
+      "id": "38750929",
+      "title": "An exploration of alternative therapeutic targets for aortic disease in Marfan syndrome",
+      "pmid": "38750929",
+      "doi": "10.1016/j.drudis.2024.104023",
+      "url": "https://www.sciencedirect.com/science/article/pii/S135964462400148X",
+      "abstract_chars": 664
+    },
+    {
+      "id": "32507656",
+      "title": "Chondrodysplasias and aneurysmal thoracic aortopathy: An emerging tale of molecular intersection",
+      "pmid": "32507656",
+      "doi": "10.1016/j.molmed.2020.05.004",
+      "url": "https://www.cell.com/trends/molecular-medicine/abstract/S1471-4914(20)30133-7",
+      "abstract_chars": 833
+    },
+    {
+      "id": "34010605",
+      "title": "A human importin-\u03b2-related disorder: Syndromic thoracic aortic aneurysm caused by bi-allelic loss-of-function variants in IPO8",
+      "pmid": "34010605",
+      "doi": "10.1016/j.ajhg.2021.04.019",
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(21)00150-6",
+      "abstract_chars": 1740
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK1120/",
+      "title": "Heritable Thoracic Aortic Disease Overview - GeneReviews",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1120/",
+      "abstract_chars": 496
+    },
+    {
+      "id": "https://www.semanticscholar.org/paper/SMAD2-Mutations-Are-Associated-with-Arterial-and-Micha-Guo/ce594032333a3bbe8e45cce80400dce7bc98309d",
+      "title": "SMAD2 Mutations Are Associated with Arterial Aneurysms and ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/SMAD2-Mutations-Are-Associated-with-Arterial-and-Micha-Guo/ce594032333a3bbe8e45cce80400dce7bc98309d",
+      "abstract_chars": 773
+    },
+    {
+      "id": "10.1161/circulationaha.116.009762",
+      "title": "Hereditary Influence in Thoracic Aortic Aneurysm and ...",
+      "pmid": null,
+      "doi": "10.1161/circulationaha.116.009762",
+      "url": "https://www.ahajournals.org/doi/10.1161/circulationaha.116.009762",
+      "abstract_chars": 1131
+    },
+    {
+      "id": "16444274",
+      "title": "Novel pathogenic SMAD2 variants in five families with ...",
+      "pmid": "16444274",
+      "doi": "10.1038/ng1721",
+      "url": "https://repository.uantwerpen.be/docman/irua/79bb4d/153443_2019_01_01.pdf",
+      "abstract_chars": 1005
+    },
+    {
+      "id": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5547,
+  "output_tokens": 3905,
+  "usd": 0.01449,
+  "seconds": 63.4,
+  "ok": true
+}

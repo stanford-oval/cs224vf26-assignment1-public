@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SNUPN\" \"muscular dystrophy\" \"weakness\" \"MRI\" childhood adult",
+    "SNUPN gene limb girdle muscular dystrophy phenotype clinical presentation MRI"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "10.1002/acn3.70211",
+      "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+      "pmid": null,
+      "doi": "10.1002/acn3.70211",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "10.1177/22143602251355316",
+      "title": "Limb-girdle muscular dystrophies (LGMDs) existing registries and natural history studies: Where do we stand?",
+      "pmid": null,
+      "doi": "10.1177/22143602251355316",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/22143602251355316",
+      "abstract_chars": 1941
+    },
+    {
+      "id": "10.1212/cont.0000000000001615",
+      "title": "Limb-girdle muscular dystrophies",
+      "pmid": null,
+      "doi": "10.1212/cont.0000000000001615",
+      "url": "https://continuum.aan.com/doi/abs/10.1212/cont.0000000000001615",
+      "abstract_chars": 1697
+    },
+    {
+      "id": "https://is.muni.cz/th/s064h/",
+      "title": "Identifikace a interpretace genetick\u00fdch variant u pacient\u016f s neuromuskul\u00e1rn\u00edm onemocn\u011bn\u00edm",
+      "pmid": null,
+      "doi": null,
+      "url": "https://is.muni.cz/th/s064h/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://zenodo.org/records/20022700",
+      "title": "SNUPN-Related Muscular Dystrophy: Novel Phenotypic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://zenodo.org/records/20022700",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "https://www.nature.com/articles/s41467-024-45933-5",
+      "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41467-024-45933-5",
+      "abstract_chars": 1127
+    },
+    {
+      "id": "10.1212/WNL.0000000000214291",
+      "title": "Expert consensus on genetic diagnostic approaches for patients with limb-girdle muscular dystrophy",
+      "pmid": null,
+      "doi": "10.1212/WNL.0000000000214291",
+      "url": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000214291",
+      "abstract_chars": 1279
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/38366623/",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38366623/",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "abstract_chars": 2400
+    }
+  ],
+  "input_tokens": 8152,
+  "output_tokens": 3068,
+  "usd": 0.01328,
+  "seconds": 15.7,
+  "ok": true
+}

@@ -1,0 +1,130 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across independent cohorts and reviews firmly establishes that heterozygous SPTAN1 loss-of-function alleles and 9q34 microdeletions do not manifest as pure axonal distal hereditary motor neuropathies (dHMN11), but rather present as a distal myopathy with concomitant chronic neurogenic features. Electrophysiological assessments reveal mixed myogenic and neurogenic changes, muscle MRI shows selective fatty replacement of anterior lower leg compartments (especially extensor hallucis longus), and histopathology reveals myopathic and mild dystrophic changes alongside chronic denervation. A minor mechanistic nuance remains regarding whether alpha-II-spectrin protein is demonstrably depleted in mature skeletal muscle tissue or compensated by regulatory mechanisms.",
+  "evidence": [
+    {
+      "text": "In 14 unrelated families (20 affected individuals) with heterozygous SPTAN1 loss-of-function variants, all presented with early childhood-onset distal weakness and foot deformities. Electrophysiological testing revealed mixed myogenic and neurogenic features, muscle imaging demonstrated selective fatty infiltration in anterior lower leg compartments, and muscle biopsies from 7 patients demonstrated myopathic changes accompanied by chronic neurogenic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Heterozygous loss-of-function variants in SPTAN1 cause a novel early childhood onset distal myopathy with chronic neurogenic features",
+        "authors": [
+          "J De Winter",
+          "L Van de Vondel",
+          "B Ermanoska"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1101/2024.09.23.24313872",
+        "pmid": null,
+        "pmc": "PMC11451714",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11451714/",
+        "quote": "Electrophysiology showed mixed myogenic and neurogenic features. Muscle MRI or CT in 10 patients showed fatty infiltration of the distal lower limb anterior compartment and/or selective involvement of the extensor hallucis longus muscle. Muscle biopsy revealed myopathic changes with mild dystrophic and chronic neurogenic changes in 7 patients."
+      },
+      "numbers": [
+        {
+          "metric": "unrelated families assessed",
+          "value": 14
+        },
+        {
+          "metric": "affected patients assessed",
+          "value": 20
+        },
+        {
+          "metric": "patients with myopathic changes on muscle biopsy",
+          "value": "7/7"
+        },
+        {
+          "metric": "patients with fatty infiltration on MRI/CT",
+          "value": "10/10"
+        }
+      ]
+    },
+    {
+      "text": "A heterozygous chromosome 9q34 deletion encompassing SPTAN1 segregated in a family with childhood-onset distal muscle weakness. Electromyography, muscle MRI, and muscle biopsy demonstrated a myopathic phenotype rather than pure neurogenic damage, confirming SPTAN1 haploinsufficiency as a driver of distal myopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "A Monticelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01938-2",
+        "quote": "Electromyography, muscle MRI and muscle biopsy revealed a myopathic disease phenotype. Cellular consequences of the deletion were investigated using qPCR and western blotting on patient-derived fibroblasts, which revealed a reduction of RNA but not protein levels. Immunocytochemistry was performed on muscle tissue which did not reveal reduction of \u03b1-II-spectrin."
+      },
+      "numbers": [
+        {
+          "metric": "affected deletion carriers in family",
+          "value": 4
+        },
+        {
+          "metric": "non-penetrant deletion carriers in family",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Broad neuromuscular evaluation identifies SPTAN1 among key genes that present with dual neurogenic and myopathic features, supporting a mixed clinical and neurophysiological spectrum rather than an exclusively neuropathic pathology.",
+      "stance": "supports",
+      "source": {
+        "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+        "authors": [
+          "C Laurini",
+          "L Bosco",
+          "AA Zambon",
+          "B Sorrenti"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+        "quote": "The landscape of genetic research in neuromuscular diseases is revealing an increasing number of genes capable of manifesting both neuropathic and myopathic phenotypes, sometimes in the same patient."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Pattern recognition analysis of distal muscle disorders recognizes that heterozygous loss of function in SPTAN1 produces an early childhood-onset distal myopathy with secondary/chronic neurogenic features, challenging prior classification as purely neuropathic dHMN.",
+      "stance": "supports",
+      "source": {
+        "title": "A pattern recognition approach to myopathy",
+        "authors": [
+          "M Milone"
+        ],
+        "year": 2025,
+        "journal": "Continuum (Minneap Minn)",
+        "doi": "10.1212/cont.0000000000001611",
+        "pmid": "41037178",
+        "pmc": null,
+        "url": "https://continuum.aan.com/doi/abs/10.1212/cont.0000000000001611",
+        "quote": "SPTAN1 was recently recognized to cause a novel childhood-onset distal myopathy with chronic neurogenic features."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Van de Vondel et al. (2026) observed that despite haploinsufficiency from a 9q34 deletion reducing SPTAN1 mRNA in patient-derived cells, muscle immunocytochemistry did not demonstrate an overt reduction of alpha-II-spectrin protein, contrasting with the hypothesis premise of direct muscle-specific spectrin disruption.",
+    "Earlier literature categorized loss-of-function SPTAN1 variants as pure distal hereditary motor neuropathy (dHMN11), whereas contemporary detailed electrophysiological and histopathological re-evaluations indicate primary myopathic features with secondary neurogenic remodeling."
+  ],
+  "confidence": 0.9,
+  "new_directions": [
+    {
+      "question_text": "Does alpha-II-spectrin protein undergo post-translational stabilization or compensatory upregulation by other spectrin isoforms in adult human skeletal muscle tissue?",
+      "rationale": "Van de Vondel et al. noted mRNA reduction without loss of alpha-II-spectrin protein on muscle immunocytochemistry, suggesting potential compensatory or age-dependent expression dynamics.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What are the molecular factors driving incomplete penetrance of 9q34/SPTAN1 microdeletions?",
+      "rationale": "Identification of two non-penetrant carriers in a 9q34 deletion kindred suggests genetic modifiers or threshold effects govern phenotypic manifestation.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

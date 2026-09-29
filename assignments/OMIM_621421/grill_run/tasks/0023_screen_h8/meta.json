@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Ramond-Elliott\" \"TRA2B\" microcephaly \"short stature\"",
+    "Ramond-Elliott neurodevelopmental syndrome TRA2B microcephaly growth failure feeding difficulties"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://www.kegg.jp/entry/H03032+-ja",
+      "title": "KEGG DISEASE: Ramond-Elliott \u795e\u7d4c\u767a\u9054\u75c7\u5019\u7fa4",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.kegg.jp/entry/H03032+-ja",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621421",
+      "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621421",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/ramond_elliott_neurodevelopmental_syndrome",
+      "title": "Ramond-Elliott Neurodevelopmental Syndrome (RAMELN)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/ramond_elliott_neurodevelopmental_syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "title": "Clustered variants in the 5\u2032 coding region of TRA2B ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/n/gene/taf8-ndd/",
+      "title": "TAF8-Related Neurodevelopmental Disorder - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/n/gene/taf8-ndd/",
+      "abstract_chars": 3002
+    },
+    {
+      "id": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+      "title": "Journal Pre-proof",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3363,
+  "output_tokens": 1544,
+  "usd": 0.00631,
+  "seconds": 10.4,
+  "ok": true
+}

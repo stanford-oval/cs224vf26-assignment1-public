@@ -1,0 +1,87 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While Popov et al. (2019) demonstrated that specific gain-of-function variants in YWHAZ (such as p.Ser230Trp) activate the RAF-ERK pathway and manifest with cardiofaciocutaneous (CFC)-like syndromic features, subsequent clinical reports and genomic databases (such as Wan et al. 2023 and GeneCards) establish that YWHAZ mutations also cause non-syndromic intellectual disability and developmental delay without CFC craniofacial or ectodermal abnormalities. Furthermore, the available literature records do not provide granular cohort-wide phenotypic numerators and denominators demonstrating that ectodermal and dysmorphic features exceed 50% across all primary YWHAZ cohorts.",
+  "evidence": [
+    {
+      "text": "Popov et al. identified novel variants in YWHAZ in individuals presenting with phenotypes consistent with cardiofaciocutaneous (CFC) syndrome and demonstrated that the S230W variant functions as a gain-of-function mutation activating the RAS-ERK pathway.",
+      "stance": "supports",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous ...",
+        "authors": [
+          "IK Popov"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.3389/fphys.2019.00388/full",
+        "pmid": "31024343",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31024343/",
+        "quote": "We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially be deleterious and disease-causing."
+      },
+      "numbers": [
+        {
+          "metric": "associated pathway",
+          "value": "RAS-ERK"
+        }
+      ]
+    },
+    {
+      "text": "Wan et al. identified a novel loss-of-function missense variant (p.Lys49Asn) in YWHAZ across a large three-generation family characterized by intellectual disability and global developmental delay rather than a syndromic CFC-like presentation.",
+      "stance": "contradicts",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global ...",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article/32/3/462/6674657",
+        "quote": "To investigate the role of YWHAZ gene in intellectual disability and global developmental delay, we conducted whole-exon sequencing in all of the available members from a large three-generation family and we discovered that a novel variant of the YWHAZ gene was associated with intellectual disability and global developmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "affected pedigree generations",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "GeneCards curates YWHAZ as being causally implicated in both Popov-Chang Syndrome and Autosomal Dominant Non-Syndromic Intellectual Disability, demonstrating phenotypic heterogeneity beyond syndromic CFC phenotypes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "YWHAZ Gene",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/YWHAZ",
+        "quote": "Diseases associated with YWHAZ include Popov-Chang Syndrome and Autosomal Dominant Non-Syndromic Intellectual Disability."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Popov et al. (2019) report that YWHAZ variants cause a cardiofaciocutaneous-like RASopathy via gain-of-function RAF-ERK activation, whereas Wan et al. (2023) report YWHAZ loss-of-function variants presenting primarily with non-syndromic intellectual disability and cognitive delay without typical CFC ectodermal or dysmorphic features.",
+    "Exact cohort phenotypic penetrance (e.g., whether >=50% display ectodermal involvement) is not uniformly supported across broader YWHAZ-associated neurodevelopmental cohorts."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Does variant mechanism (gain-of-function vs. loss-of-function in YWHAZ) strictly delineate CFC-like syndromic RASopathy from non-syndromic neurodevelopmental delay?",
+      "rationale": "Clarifying the genotype-phenotype correlation between RAS-ERK activating mutations (e.g., p.Ser230Trp) and loss-of-function alleles (e.g., p.Lys49Asn) will establish whether Popov-Chang syndrome represents a distinct allelic disorder or part of a broad continuum.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the true clinical sensitivity of specific HPO terms (hypertelorism, sparse hair, keratosis pilaris) across an international aggregated cohort of all published YWHAZ cases?",
+      "rationale": "A systematic international multi-center registry analysis is required to determine exact numerators and denominators for ectodermal and dysmorphic features to guide differential diagnosis from other DEE and neurodevelopmental conditions.",
+      "promise": 0.9,
+      "est_cost": 35000.0
+    }
+  ]
+}

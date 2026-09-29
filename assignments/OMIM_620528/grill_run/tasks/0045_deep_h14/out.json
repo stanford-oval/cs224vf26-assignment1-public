@@ -1,0 +1,111 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature on SPTAN1-related distal hereditary motor neuropathy 11 (dHMN11) does not support the specific assertions made in the hypothesis. While SPTAN1 is recognized as causing classic autosomal dominant dHMN characterized by progressive distal limb weakness and foot deformities, there is no published evidence, cohort data, or physiological study demonstrating that postural hand tremor occurs in fewer than 25% of patients or that it manifests exclusively in those with longstanding secondary intrinsic hand muscle denervation. Rather, tremor in dHMN cohorts is described generally across diverse genetic causes or as an atypical feature, without systematic documentation or mechanistic validation specifically for SPTAN1.",
+  "evidence": [
+    {
+      "text": "In a comprehensive clinical review of distal hereditary motor neuropathies, SPTAN1 mutations are classified as causing a classic autosomal dominant dHMN phenotype. Tremor and cerebellar involvement are noted in select motor neuropathy subtypes, but postural tremor is not substantiated as an intrinsic or denervation-dependent sign specific to SPTAN1-dHMN11.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Hereditary motor neuropathies : Current Opinion in Neurology",
+        "authors": [
+          "M Frasquet",
+          "T Sevilla"
+        ],
+        "year": 2022,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2022/10000/hereditary_motor_neuropathies.4.aspx",
+        "quote": "dHMN and vacuolar myopathy, some patients present tremor and cerebellar involvement ... SPTAN1, AD, Classic dHMN phenotype."
+      },
+      "numbers": []
+    },
+    {
+      "text": "A caregiver survey of 25 individuals with SPTAN1 variants documented epilepsy, encephalopathy, intellectual disability, and motor neuropathy, along with speech impairment, vision/hearing abnormalities, and motor skill decline, without documenting postural hand tremor or intrinsic hand muscle denervation frequencies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SPTAN1\u2014Results of a Caregiver Survey",
+        "authors": [
+          "M Wilson",
+          "F Wong"
+        ],
+        "year": 2025,
+        "journal": "Journal of Child and Adolescent Psychopharmacology",
+        "doi": "10.1089/cap.2024.0100",
+        "pmid": "40261672",
+        "pmc": null,
+        "url": "https://journals.sagepub.com/doi/abs/10.1089/cap.2024.0100",
+        "quote": "The results of a questionnaire filled out by the caregivers of loved ones who have a SPTAN1 mutation are summarized for 25 individuals, 14 males and 11 females, who have the SPTAN1 mutation."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size evaluated",
+          "value": 25
+        },
+        {
+          "metric": "Male participants",
+          "value": 14
+        },
+        {
+          "metric": "Female participants",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "A systematic genetic screen of 128 patients with dHMN identified distal motor involvement and rare features such as subclinical sensory abnormalities (14/128), pyramidal signs (11/128), and cerebellar disturbance (5/128), identifying SPTAN1 alongside other rare causes; however, postural tremor was neither systematically identified nor attributed specifically to SPTAN1.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genetic spectrum in a cohort of patients with distal hereditary motor neuropathy",
+        "authors": [
+          "C Wu"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9082376",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9082376/",
+        "quote": "A total of 128 patients from 90 unrelated families were clinically diagnosed as dHMN, and underwent a comprehensively genetic screening... Most patients showed chronic distal weakness of lower limbs (121/128), while 20 patients initially had asymmetrical involvements, 14 had subclinical sensory abnormalities, 11 had pyramidal impairments, five had cerebellar disturbance, and four had hyperCKmia."
+      },
+      "numbers": [
+        {
+          "metric": "Patients with chronic distal lower-limb weakness",
+          "value": "121/128"
+        },
+        {
+          "metric": "Patients with subclinical sensory abnormalities",
+          "value": "14/128"
+        },
+        {
+          "metric": "Patients with pyramidal impairments",
+          "value": "11/128"
+        },
+        {
+          "metric": "Patients with cerebellar disturbance",
+          "value": "5/128"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "No verified cohort studies establish the specific frequency of postural hand tremor as '<25%' in SPTAN1-associated dHMN11.",
+    "No neurophysiological or clinical evidence supports the claim that postural hand tremor in dHMN11 arises exclusively from secondary intrinsic hand muscle denervation."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and semiology of tremor in genetically verified SPTAN1 loss-of-function dHMN cohorts compared to BSCL2- or HSPB1-associated motor neuropathies?",
+      "rationale": "Differentiating dHMN11 from other hereditary neuropathies that classically feature postural or action tremor requires systematic phenotyping of upper-limb neurophysiology and tremor presence in larger multicenter dHMN cohorts.",
+      "promise": 0.82,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does upper-limb muscle denervation directly correlate with secondary action/postural tremor severity in pure motor neuropathies?",
+      "rationale": "Determining whether tremor in dHMN represents peripheral neurogenic tremor due to motor unit loss versus central or proprioceptive pathway disruption is essential to clarify diagnostic algorithms.",
+      "promise": 0.75,
+      "est_cost": 18000.0
+    }
+  ]
+}

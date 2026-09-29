@@ -1,0 +1,144 @@
+{
+  "hypotheses": [
+    {
+      "text": "In individuals with pathogenic heterozygous de novo missense variants in MAPK8IP3, intellectual disability is universally present in classic recurrent hotspot cases (5/5 in Iwasawa et al. 2019), but intellectual severity is not uniformly moderate-to-profound, encompassing a wider cognitive spectrum ranging from mild cognitive or learning impairments to severe intellectual disability.",
+      "rationale": "Resolves the factual error in prior cohort reporting (Iwasawa et al. 2019 evaluated exactly 5 individuals across 4 families, rather than 8) and addresses the conflict regarding cognitive severity, which spans mild learning difficulties through severe disability rather than invariant profound intellectual impairment.",
+      "aspects": [
+        "intellectual disability",
+        "phenotypic spectrum",
+        "cohort validation"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Iwasawa et al. (2019) evaluated 5 individuals from 4 families with recurrent de novo variants (p.Arg578Cys and p.Arg1146Cys), identifying intellectual disability and spastic diplegia as core findings.",
+          "stance": "supports",
+          "source": {
+            "title": "Recurrent de novo MAPK8IP3 variants cause neurological ...",
+            "authors": [],
+            "year": 2019,
+            "journal": "Annals of Neurology",
+            "doi": "10.1002/ana.25481",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25481",
+            "quote": "We identified 5 individuals from four families with recurrent de novo variants c.1732C>T (p.Arg578Cys) and c.3436C>T (p.Arg1146Cys) in MAPK8IP3. The core phenotype includes spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia."
+          },
+          "numbers": [
+            {
+              "metric": "evaluated_individuals",
+              "value": 5
+            },
+            {
+              "metric": "families_count",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Biallelic loss-of-function or compound heterozygous mutations in MAPK8IP3 cause an autosomal recessive lower motor neuron phenotype characterized by severe congenital hypotonia mimicking spinal muscular atrophy with marked reduction in JIP3 protein (>60%), clinically and genetically distinct from dominant de novo missense syndromic intellectual disability.",
+      "rationale": "Expands and sharpens the genotype-phenotype correlation by highlighting that severe congenital hypotonia without initial prominent spasticity or typical syndromic intellectual disability can result from recessive loss of JIP3.",
+      "aspects": [
+        "genotype-phenotype correlation",
+        "congenital hypotonia",
+        "spinal muscular atrophy mimic"
+      ],
+      "confidence": 0.78,
+      "evidence": [
+        {
+          "text": "A patient with compound heterozygous variants in MAPK8IP3 showed severe congenital hypotonia mimicking lethal SMA and over 60% reduction in JIP3 expression.",
+          "stance": "supports",
+          "source": {
+            "title": "Compound heterozygous variants in MAPK8IP3 were detected in severe congenital hypotonia mimicking lethal spinal muscular atrophy",
+            "authors": [
+              "J K\u00e1rteszi",
+              "A Ziegler",
+              "M Tihanyi"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1002/ajmg.a.63340",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63340",
+            "quote": "Whole-exome sequencing was performed on an individual presenting with severe congenital muscle hypotonia of neuronal origin mimicking lethal spinal muscular atrophy. Compound heterozygous rare variants (a splice and a missense) were detected in MAPK8IP3, inherited from the healthy parents. Western blot analysis in a muscle biopsy sample showed a more than 60% decrease in JIP3 expression. Here, we suggest a novel autosomal recessive phenotype of a lower motor neuron disease caused by JIP3 deficiency."
+          },
+          "numbers": [
+            {
+              "metric": "JIP3_protein_decrease_percent",
+              "value": 60
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Neurodevelopmental deficits in MAPK8IP3-related disorder arise from disrupted endolysosomal maturation and stalled retrograde transport of endocytic cargo in neuronal cell bodies and axons rather than general neuronal loss alone.",
+      "rationale": "Provides a mechanistic basis for the axonal and neurodevelopmental pathology observed across human neuronal and model organism systems.",
+      "aspects": [
+        "endolysosomal pathology",
+        "axonal transport",
+        "disease mechanism"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "Loss of JIP3/MAPK8IP3 leads to accumulation of immature lysosomes in the neuronal soma and delayed trafficking of endocytic cargo.",
+          "stance": "supports",
+          "source": {
+            "title": "Ultrastructural studies reveal a new role for JIP3/MAPK8IP3 in endo-lysosomal maturation within the neuronal cell body",
+            "authors": [
+              "M Krout",
+              "S Gowrishankar"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1091/mbc.E25-05-0248-T",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.molbiolcell.org/doi/abs/10.1091/mbc.E25-05-0248-T",
+            "quote": "Loss of JIP3 results in an expansion of immature lysosomes within neuronal soma, along with a concomitant decrease in mature lysosomes. JIP3 loss also leads to delayed trafficking of endocytic cargo through these compartments, implicating JIP3 in the regulation of endolysosomal maturation within neuronal cell bodies."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Disruption of UNC-16 (MAPK8IP3 ortholog) leads to accumulation of late endosomes in the distal axon.",
+          "stance": "supports",
+          "source": {
+            "title": "UNC-16 interacts with LRK-1 and WDFY-3 to regulate the termination of axon growth",
+            "authors": [
+              "CJ Drozd",
+              "TA Chowdhury",
+              "CC Quinn"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": "10.1093/genetics/iyae053",
+            "pmid": "38581414",
+            "pmc": null,
+            "url": "https://academic.oup.com/genetics/article-abstract/227/2/iyae053/7641781",
+            "quote": "Loss of unc-16 function causes accumulation of late endosomes specifically in the distal axon. Moreover, we observe synergistic interactions between loss of unc-16 function and disruptors of endolysosomal function, indicating that the endolysosomal system promotes axon termination."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact cognitive performance distributions across loss-of-function versus recurrent missense (p.Arg578Cys, p.Arg1146Cys) MAPK8IP3 variants across all published cohorts?",
+      "rationale": "Directly resolves whether loss-of-function variants systematically lead to milder intellectual phenotypes compared to dominant-negative or gain-of-function missense variants.",
+      "promise": 0.85,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "How do early developmental milestones (age at sitting, walking, first words) quantitatively separate MAPK8IP3-related disorder from classic spastic diplegic cerebral palsy prior to MRI confirmation?",
+      "rationale": "Assesses clinical bedside discriminators for identifying affected individuals among patients presenting with early motor delay and diplegia.",
+      "promise": 0.8,
+      "est_cost": 0.45
+    }
+  ],
+  "dead_end": false
+}

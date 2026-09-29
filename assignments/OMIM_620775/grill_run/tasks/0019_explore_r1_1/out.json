@@ -1,0 +1,175 @@
+{
+  "hypotheses": [
+    {
+      "text": "Biallelic truncating loss-of-function variants in FILIP1 cause severe prenatal akinesia leading to generalized arthrogryposis multiplex congenita, whereas missense variants preserve sufficient filamin-interacting function to prevent severe congenital joint contractures, manifesting instead as progressive core-like congenital myopathy.",
+      "rationale": "Schnabel et al. identified homozygous truncating variants in 5 patients from 3 families who all presented with widespread congenital contractures involving the shoulder, elbow, hand, hip, knee, and foot. In contrast, Roos et al. identified patients with homozygous missense variants (including p.Pro1133Leu) whose predominant presentation was congenital myopathy with core-like myofibrillar disintegration and protein aggregation rather than full-blown arthrogryposis multiplex congenita.",
+      "aspects": [
+        "contractures",
+        "arthrogryposis",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Five affected individuals from three families with homozygous truncating variants in FILIP1 presented with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot along with scoliosis and facial dysmorphism.",
+          "stance": "supports",
+          "source": {
+            "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+            "authors": [
+              "F Schnabel",
+              "E Schuler",
+              "A Al"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1007/s00439-023-02528-2",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+            "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients."
+          },
+          "numbers": [
+            {
+              "metric": "affected individuals with truncating variants and multiple joint contractures",
+              "value": "5/5"
+            },
+            {
+              "metric": "families with truncating variants",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "text": "Functional studies of homozygous p.Pro1133Leu missense variant showed altered protein stability and core-like myofibrillar breakdown with FLNc accumulation rather than complete loss of FILIP1 protein.",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+            "authors": [
+              "A Roos",
+              "PFM van der Ven",
+              "H Alrohaif",
+              "H K\u00f6lbel",
+              "L Heil"
+            ],
+            "year": 2023,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+            "quote": "Electron and immunofluorescence microscopy on the muscle biopsy derived from the patient harbouring the homozygous p.[Pro1133Leu] missense variant revealed core-like zones of myofibrillar disintegration, autophagic vacuoles and accumulation of FLNc."
+          },
+          "numbers": [
+            {
+              "metric": "patients with homozygous FILIP1 variants reported in cohort",
+              "value": 5
+            },
+            {
+              "metric": "families evaluated with biallelic variants",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Microcephaly is specific to biallelic truncating loss-of-function mutations in FILIP1 due to complete loss of FILIP1-mediated neocortical neuronal migration, and is absent or less severe in individuals with homozygous missense variants.",
+      "rationale": "FILIP1 regulates filamin A and neocortical cell migration. Schnabel et al. documented microcephaly in patients with complete homozygous truncating alleles, whereas patients reported with missense alleles in Roos et al. displayed neurodevelopmental delay and brain anomalies without universal microcephaly, suggesting residual FILIP1 missense protein preserves partial neocortical expansion.",
+      "aspects": [
+        "microcephaly",
+        "cns",
+        "genotype-phenotype correlation"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Homozygous truncating alleles in FILIP1 led to microcephaly and impaired cortical cell migration during neocortex development in addition to arthrogryposis.",
+          "stance": "supports",
+          "source": {
+            "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+            "authors": [
+              "F Schnabel",
+              "E Schuler",
+              "A Al"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1007/s00439-023-02528-2",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+            "quote": "FILIP1 is a regulator of filamin homeostasis required for the initiation of cortical cell migration in the developing neocortex and essential for the differentiation process of cross-striated muscle cells during myogenesis."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "FILIP1 missense variants impair filamin C degradation and induce myofibrillar protein aggregation resembling myofibrillar myopathy, whereas truncating variants cause deficiency without dominant filamin C aggregation in muscle.",
+      "rationale": "Kokot et al. demonstrated that dephosphorylated FLNc binds FILIP1 to mediate filamin turnover, and missense FILIP1 colocalizes with aggregated FLNc in patient muscle fibers. This suggests missense variants have a distinct toxic proteostatic mechanism (Z-disk myofibrillar perturbation) rather than pure haploinsufficiency/null mechanisms seen in truncating mutations.",
+      "aspects": [
+        "histopathology",
+        "myofibrillar myopathy",
+        "pathomechanism"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "Aggregated FLNc colocalizes with FILIP1 missense protein in patient muscle tissue, showing impaired FLNc clearance and proteostatic failure.",
+          "stance": "supports",
+          "source": {
+            "title": "Protein phosphatase-1 regulates the binding of filamin C to FILIP1 in cultured skeletal muscle cells under mechanical stress",
+            "authors": [
+              "T Kokot",
+              "JP Zimmermann",
+              "AN Schw\u00e4ble",
+              "L Reimann"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": "10.1038/s41598-024-78953-8",
+            "pmid": "39521905",
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41598-024-78953-8",
+            "quote": "Consistently, aggregated FLNc co-localized with FILIP1 missense variant in damaged patient muscle tissue, which showed that FLNc degradation was impaired82."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Myofibrillar myopathy classification involves disruption of Z-disk proteostasis and chaperone/clearance dysfunction, including FILIP1-mediated filamin homeostasis.",
+          "stance": "neutral",
+          "source": {
+            "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+            "authors": [
+              "M Inoue",
+              "CC Weihl"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC12354002",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+            "quote": "This paper identifies biallelic FILIP1"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the systematic difference in head circumference (Z-score) and contracture count (number of affected joints) between biallelic truncating vs missense FILIP1 cohorts across all published pedigrees?",
+      "rationale": "Directly tabulating head circumference and joint contracture counts from the Schnabel, Roos, Watts, and Chaurasia cohorts will quantitatively resolve whether microcephaly and arthrogryposis multiplex congenita represent an allele-specific severe truncating phenotype.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "Does muscle biopsy histology reliably distinguish missense from truncating FILIP1 variants by the presence of core-like lesions and FLNc/alpha-B-crystallin aggregates?",
+      "rationale": "Roos et al. identified core-like zones and FLNc/crystallin accumulation in a missense patient; testing if truncating alleles lack these myofibrillar aggregates could establish an allele-dependent biomarker for diagnostics.",
+      "promise": 0.75,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

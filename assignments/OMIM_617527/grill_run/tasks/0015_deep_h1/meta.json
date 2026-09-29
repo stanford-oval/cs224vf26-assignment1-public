@@ -1,0 +1,57 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"PLAA\" \"microcephaly\" \"Hall\" \"28414162\"",
+    "PLAA Hall 2017 microcephaly occipitofrontal circumference 28414162"
+  ],
+  "n_hits": 5,
+  "hits": [
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/162/gene/PLAA/",
+      "title": "Gene: PLAA (Severe microcephaly)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/162/gene/PLAA/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "28413018",
+      "title": "PLAA Mutations Cause a Lethal Infantile Epileptic ...",
+      "pmid": "28413018",
+      "doi": "10.1016/j.ajhg.2017.03.008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28413018/",
+      "abstract_chars": 978
+    },
+    {
+      "id": "https://omim.org/entry/617527",
+      "title": "Entry - #617527 - NEURODEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/617527",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://dnatesting.uchicago.edu/tests/microcephaly-panel",
+      "title": "Microcephaly Panel - UChicago Genetic Testing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://dnatesting.uchicago.edu/tests/microcephaly-panel",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/figure/Reduction-of-PLAA-Levels-in-Mouse-Results-in-Microcephaly-and-Early-Onset-Neural_fig3_317163131",
+      "title": "Figure 3. Reduction of PLAA Levels in Mouse Results ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/figure/Reduction-of-PLAA-Levels-in-Mouse-Results-in-Microcephaly-and-Early-Onset-Neural_fig3_317163131",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3164,
+  "output_tokens": 3058,
+  "usd": 0.01076,
+  "seconds": 17.7,
+  "ok": true
+}

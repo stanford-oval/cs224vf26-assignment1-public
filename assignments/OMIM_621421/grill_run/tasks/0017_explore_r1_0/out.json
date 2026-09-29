@@ -1,0 +1,172 @@
+{
+  "hypotheses": [
+    {
+      "text": "The primary defining cohort for Ramond-Elliott neurodevelopmental syndrome (OMIM #621421) establishes a definitive denominator of N=12 individuals (from 11 unrelated families), exhibiting exact phenotypic frequencies of 12/12 (100%) for intellectual disability/developmental delay, 10/12 (83.3%) for neonatal- or infantile-onset hypotonia (HP:0001252), and 10/12 (83.3%) for microcephaly or subnormal head circumference (HP:0000252), refuting reported denominators of 15.",
+      "rationale": "Deep testing attempt 1 contested the earlier binned hypothesis because it posited a denominator of 15 individuals (~15/15 ID/DD, ~12/15 hypotonia, ~10-11/15 microcephaly), whereas the original landmark study by Ramond et al. (2023) evaluated only 12 individuals.",
+      "aspects": [
+        "phenotype-frequency",
+        "cohort-resolution",
+        "diagnostic-criteria"
+      ],
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "text": "Ramond et al. (2023) evaluated 12 individuals from 11 unrelated families with monoallelic TRA2B variants; all 12 showed intellectual disability and/or developmental delay, 10 individuals had axial or global hypotonia of neonatal to infancy onset, and microcephaly was frequently documented.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+            "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly... Axial or global hypotonia of neonatal to infancy onset was reported in 10 individuals"
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals",
+              "value": 12
+            },
+            {
+              "metric": "unrelated_families",
+              "value": 11
+            },
+            {
+              "metric": "intellectual_disability_or_DD_count",
+              "value": 12
+            },
+            {
+              "metric": "hypotonia_count",
+              "value": 10
+            }
+          ]
+        },
+        {
+          "text": "OMIM entry 621421 identifies Ramond-Elliott neurodevelopmental syndrome based on global developmental delay, hypotonia, and delayed walking or inability to walk.",
+          "stance": "supports",
+          "source": {
+            "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+            "authors": [],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://omim.org/entry/621421",
+            "quote": "Ramond-Elliott neurodevelopmental syndrome (RAMELN) is characterized by global developmental delay, hypotonia, delayed walking or inability ..."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Infantile spasms (HP:0012469) and early-onset epileptic encephalopathy represent a key core neurological manifestation of TRA2B 5' coding region variants, occurring in a significant subpopulation alongside the core triad of hypotonia, microcephaly, and developmental delay.",
+      "rationale": "Understanding whether seizures in Ramond-Elliott syndrome present specifically as infantile spasms helps distinguish it from other spliceosomal and neurodevelopmental delay syndromes presenting with generic focal or generalized seizures.",
+      "aspects": [
+        "seizures",
+        "infantile-spasms",
+        "differential-diagnosis"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the cohort described by Ramond et al. (2023), developmental delay and intellectual disability were frequently associated with infantile spasms among affected individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Postnatal growth failure, characterized specifically by short stature (HP:0004322) and early feeding difficulties (HP:0011968), is a core systemic feature of Ramond-Elliott syndrome that co-occurs with congenital/postnatal microcephaly (HP:0000252) rather than isolated cranial microcephaly.",
+      "rationale": "Establishing whether microcephaly in TRA2B syndrome is part of generalized post-natal growth impairment or an isolated cephalic restriction is crucial for clinical triage and differential diagnosis against microcephalic primordial dwarfism versus isolated intellectual disability syndromes.",
+      "aspects": [
+        "growth-impairment",
+        "feeding-difficulties",
+        "microcephaly"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Ramond et al. (2023) identified that microcephaly in TRA2B patients is frequently accompanied by systemic manifestations including feeding difficulties and short stature.",
+          "stance": "supports",
+          "source": {
+            "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+            "authors": [
+              "F Ramond",
+              "C Dalgliesh",
+              "M Grimmel",
+              "O Wechsberg"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": "36549593",
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+            "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+          },
+          "numbers": []
+        },
+        {
+          "text": "OMIM entry 602719 highlights poor overall somatic growth accompanying microcephaly (-4 SD) and hypotonia in patients with TRA2B mutations.",
+          "stance": "supports",
+          "source": {
+            "title": "602719 - TRANSFORMER 2 BETA HOMOLOG; TRA2B",
+            "authors": [],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://omim.org/entry/602719",
+            "quote": "development with poor overall growth, microcephaly (-4 SD), and hypotonia."
+          },
+          "numbers": [
+            {
+              "metric": "microcephaly_standard_deviations",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and EEG pattern of infantile spasms (e.g., hypsarrhythmia) and other seizure types across all molecularly confirmed TRA2B patients in Ramond et al. (2023)?",
+      "rationale": "Clarifying the specific seizure semiology and response to standard epileptic spasm treatments (ACTH/vigabatrin) will establish whether RAMELN is an epileptic encephalopathy syndrome.",
+      "promise": 0.85,
+      "est_cost": 0.4
+    },
+    {
+      "question_text": "What are the exact numerators and denominators for brain MRI anomalies (such as corpus callosum hypoplasia and ventriculomegaly) in the 12 individuals from the Ramond et al. (2023) cohort?",
+      "rationale": "Previous binned claims referenced structural MRI rates with a denominator of 13 (~8/13 and ~6/13), which conflicts with the N=12 patient cohort reported in the primary paper.",
+      "promise": 0.9,
+      "est_cost": 0.45
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,122 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While prenatal diagnosis of multi-megabase 17q24 deletions has identified severe anomalies such as talipes equinovarus and syndactyly (e.g., Naud et al. 2017), reports of individuals with large 2.8 Mb to 3.89 Mb deletions spanning PSMD12, KPNA2, and PRKAR1A demonstrate that these large contiguous gene deletions do not systematically cause prenatal lethality, early neonatal demise, or lethal skeletal dysplasia. Rather, several patients survive into childhood and adolescence presenting with developmental delay, craniofacial dysmorphism, intellectual disability, and short telomeres.",
+  "evidence": [
+    {
+      "text": "A 2.5 Mb de novo 17q24.1q24.2 deletion encompassing KPNA2 and PSMD12 was identified prenatally in a fetus presenting with craniofacial dysmorphism, talipes equinovarus, and syndactyly.",
+      "stance": "supports",
+      "source": {
+        "title": "Prenatal Diagnosis of a 2.5 Mb De Novo 17q24.1q24.2 Deletion Encompassing KPNA2 and PSMD12 Genes in a Fetus with Craniofacial Dysmorphism \u2026",
+        "authors": [
+          "ME Naud",
+          "L Tosca",
+          "J Martinovic",
+          "J Saada"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": "10.1155/2017/7803136",
+        "pmid": null,
+        "pmc": "PMC5390532",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/2017/7803136",
+        "quote": "We report on a fetus with craniofacial dysmorphism, talipes equinovarus, and syndactyly associated with a de novo 2.5 Mb 17q24.1q24.2 deletion. Among the deleted genes, KPNA2 and PSMD12 are discussed for the correlation with the fetal phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "deletion size (Mb)",
+          "value": 2.5
+        }
+      ]
+    },
+    {
+      "text": "A female patient with a 2.8 Mb deletion and a previously described male patient with a 3.9 Mb deletion in 17q24.2-q24.3 survived beyond infancy, presenting with developmental delay, intellectual disability, and short telomeres rather than obligatory neonatal lethality or lethal dysplasia.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Association of 17q24. 2\u2010q24. 3 deletions with recognizable phenotype and short telomeres",
+        "authors": [
+          "M Hancarova",
+          "M Malikova",
+          "M Kotrova"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.38711",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.38711",
+        "quote": "We identified a girl with intellectual disability, growth retardation, dysmorphic features, and a de novo 2.8 Mb long deletion of 17q24.2-q24.3. Her phenotype was strikingly similar to one previously described boy with Dubowitz syndrome (MIM 223370) and a de novo 3.9 Mb long deletion encompassing the deletion of our patient."
+      },
+      "numbers": [
+        {
+          "metric": "female proband deletion size (Mb)",
+          "value": 2.8
+        },
+        {
+          "metric": "comparator male deletion size (Mb)",
+          "value": 3.9
+        }
+      ]
+    },
+    {
+      "text": "A patient with a de novo ~3.89 Mb deletion at 17q24.2 encompassing PSMD12 and PRKAR1A lived to an age where bilateral lower extremity weakness, fatigue, and Dubowitz-like features were clinically evaluated.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Dubowitz syndrome is a complex comprised of multiple, genetically distinct and phenotypically overlapping disorders",
+        "authors": [
+          "DR Stewart",
+          "A Pemov",
+          "JJ Johnston",
+          "JC Sapp"
+        ],
+        "year": 2014,
+        "journal": null,
+        "doi": "10.1371/journal.pone.0098686",
+        "pmid": "24892279",
+        "pmc": null,
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0098686",
+        "quote": "In the third patient, array SNP genotyping revealed a de novo \u223c 3.89 Mb interstitial deletion at chromosome 17q24.2 (chr 17:62,068,463-65,963,102, hg18), which spanned the known Carney complex gene PRKAR1A."
+      },
+      "numbers": [
+        {
+          "metric": "deletion size (Mb)",
+          "value": 3.89
+        }
+      ]
+    },
+    {
+      "text": "17q24.2 microdeletion syndrome is clinically characterized by developmental delay, joint anomalies, seizures, and behavioral disorders in surviving individuals rather than presenting exclusively as a lethal neonatal disorder.",
+      "stance": "contradicts",
+      "source": {
+        "title": "17q24.2 microdeletion syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.orpha.net/en/disease/detail/529962",
+        "quote": "Additional variable manifestations include hearing and visual impairment, seizures, joint anomalies, obesity, and behavioral/psychiatric disorders. ORPHA:529962."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Cases of large >2 Mb microdeletions (such as 2.8 Mb and 3.89 Mb deletions spanning PSMD12 and PRKAR1A) have been identified in ambulatory pediatric/adult patients with intellectual disability and dysmorphism rather than resulting in neonatal death or prenatal lethality.",
+    "While talipes equinovarus and syndactyly are reported prenatally in a 2.5 Mb deletion, widespread skeletal dysplasia is not a consistent feature across other 17q24.2-q24.3 microdeletion patients."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does deletion of specific critical boundary regions or topologically associating domains (TADs) in 17q24 correlate with limb anomalies versus pure neurodevelopmental phenotype?",
+      "rationale": "Differences in deletion breakpoints and chromatin conformation architecture in 17q24 may explain why some deletions present with digit and foot deformities while others present predominantly with growth and developmental delay.",
+      "promise": 0.8,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "What is the systematic frequency of talipes equinovarus in patients with intragenic PSMD12 point mutations compared to contiguous 17q24 deletions?",
+      "rationale": "Clarifying whether limb anomalies are unique to contiguous gene deletions or represent variable expressivity of PSMD12 haploinsufficiency alone will improve prenatal counseling.",
+      "promise": 0.75,
+      "est_cost": 20000
+    }
+  ]
+}

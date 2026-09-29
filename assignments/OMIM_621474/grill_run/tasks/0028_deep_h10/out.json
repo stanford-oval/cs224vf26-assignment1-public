@@ -1,0 +1,159 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that heterozygous pathogenic variants specifically within the CxxC zinc-finger domain of KDM2B exhibit a significantly higher penetrance of structural ocular malformations and multi-organ defects mimicking CHARGE/Kabuki syndrome compared to non-CxxC loss-of-function (LoF) variants. While human screening cohorts (Ceroni et al., 2026) confirmed that CxxC missense variants are present in individuals with complex structural eye defects (microphthalmia, coloboma) accompanied by cardiac and renal malformations, the literature does not establish a statistically significant penetrance disparity over LoF alleles. Instead, van Jaarsveld et al. (2022) established that congenital anomalies of the eyes, heart, and urogenital system occur across the general KDM2B-related disorder cohort encompassing both LoF and CxxC variants. Furthermore, functional genetic models in mice demonstrate that complete loss of full-length Kdm2b causes retinal coloboma in ~40% of embryos (Ceroni et al., 2026) and retinal knockout causes microphthalmia via suppressed progenitor cell proliferation and apoptosis (Iwagawa et al., 2023). Therefore, structural ocular and multi-organ involvement is a shared feature of KDM2B deficiency rather than being exclusively or significantly more penetrant in CxxC domain variants.",
+  "evidence": [
+    {
+      "text": "Screening of 706 families with developmental eye disorders identified two individuals with heterozygous KDM2B CxxC zinc-finger domain missense variants [c.1841G>C;p.(Arg614Pro) and c.1880G>C;p.(Cys627Ser)]. Both presented with complex structural eye anomalies and variable cardiac, renal, and neurodevelopmental abnormalities, demonstrating a characteristic KDM2B episignature.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+        "authors": [
+          "F Ceroni",
+          "LM Reis",
+          "F Watkins",
+          "DA Bax"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1038/s41431-026-02090-1",
+        "pmid": null,
+        "pmc": "PMC13247248",
+        "url": "https://www.nature.com/articles/s41431-026-02090-1",
+        "quote": "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present."
+      },
+      "numbers": [
+        {
+          "metric": "Screened families with developmental eye disorders",
+          "value": 706
+        },
+        {
+          "metric": "Individuals identified with KDM2B CxxC variants",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Approximately 40% of mouse embryos lacking full-length Kdm2b displayed neural tube defects and retinal coloboma, demonstrating that non-specific full-length loss-of-function disrupts optic fissure closure and ocular morphology.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+        "authors": [
+          "F Ceroni",
+          "LM Reis",
+          "F Watkins",
+          "DA Bax"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1038/s41431-026-02090-1",
+        "pmid": null,
+        "pmc": "PMC13247248",
+        "url": "https://www.nature.com/articles/s41431-026-02090-1",
+        "quote": "~40% of mouse embryos lacking full-length Kdm2b displayed neural tube defects, retinal coloboma"
+      },
+      "numbers": [
+        {
+          "metric": "Percentage of full-length Kdm2b-null mouse embryos displaying retinal coloboma and NTDs",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "text": "Knockout of Fbxl11 (Kdm2b) specifically in developing retinas leads directly to microphthalmia through increased apoptosis and suppressed retinal progenitor cell proliferation, demonstrating that loss-of-function alleles independently precipitate severe structural eye anomalies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The histone H3K36 demethylase Fbxl11 plays pivotal roles in the development of retinal late\u2010born cell types",
+        "authors": [
+          "T Iwagawa",
+          "M Fukushima",
+          "S Takeuchi"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1111/gtc.13028",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gtc.13028",
+        "quote": "Although adult rod photoreceptor-specific knockout of Fbxl11 in mature retinas did not result in morphological abnormalities, Fbxl11 knockout in developing retinas increased apoptosis, suppressed the proliferation of retinal progenitor cells, and resulted in microphthalmia."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Delineation of a 21-individual cohort with heterozygous pathogenic variants in KDM2B established that congenital organ anomalies (heart, eye, and urogenital system) occur alongside neurodevelopmental delay across the spectrum, with both loss-of-function and CxxC missense variants contributing to the clinical syndrome.",
+      "stance": "neutral",
+      "source": {
+        "title": "Delineation of a KDM2B-related neurodevelopmental disorder ...",
+        "authors": [
+          "RH van Jaarsveld"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9825659",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9825659/",
+        "quote": "We recruited a total of 27 individuals with heterozygous variants in KDM2B. We present evidence, including a shared epigenetic signature, to support a pathogenic classification of 15 KDM2B variants and identify the CxxC domain as a mutational hotspot. Both loss-of-function and CxxC-domain missense variants present with a specific subepisignature... Individuals in this cohort present with developmental delay and/or intellectual disability; autism; attention deficit disorder/attention deficit hyperactivity disorder; congenital organ anomalies mainly of the heart, eyes, and urogenital system; and subtle facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "Total recruited individuals with heterozygous KDM2B variants",
+          "value": 27
+        },
+        {
+          "metric": "Classified pathogenic variants",
+          "value": 15
+        },
+        {
+          "metric": "Final cohort size with heterozygous (likely) pathogenic variants",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "text": "Genomic profiling and DNA methylation episignature analysis resolve distinct chromatinopathies including CHARGE and Kabuki syndromes from KDM2B-related disorders in patients presenting with overlapping multi-organ malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Identification of DNA Methylation Episignatures for Classification and Phenotype/Genotype Correlation in Mendelian Neurodevelopmental Disorders",
+        "authors": [
+          "J Reilly"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/4d490a4ccf210a521542a90c7adc68e6/1?pq-origsite=gscholar&cbl=18750&diss=y",
+        "quote": "CHARGE in 23 patients; 27 patients were ruled out for both signatures, and a final patient had an episignature consistent with Kabuki"
+      },
+      "numbers": [
+        {
+          "metric": "Patients classified with CHARGE episignature",
+          "value": 23
+        },
+        {
+          "metric": "Patients ruled out for both signatures",
+          "value": 27
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While Ceroni et al. emphasize CxxC zinc-finger missense variants as driving developmental eye malformations, general loss-of-function models (Iwagawa et al., 2023; Ceroni et al., 2026) produce identical structural ocular phenotypes (coloboma in ~40% of full-length null mouse embryos, and microphthalmia upon retinal knockout).",
+    "Human clinical data from van Jaarsveld et al. (2022) demonstrate that both loss-of-function and CxxC domain variants display multi-organ congenital anomalies (ocular, cardiac, urogenital), with no statistically significant increase in penetrance formally demonstrated for CxxC missense variants over loss-of-function alleles in current human cohorts."
+  ],
+  "confidence": 0.42,
+  "new_directions": [
+    {
+      "question_text": "Does an unselected, international registry of KDM2B-variant individuals reveal a statistically significant difference in ocular structural anomaly penetrance between CxxC missense variants and truncating/frameshift LoF variants?",
+      "rationale": "Current cohorts are biased by targeted ascertainment (e.g., screening 706 eye disorder families). Comparing unselected or neurodevelopmentally ascertain cohorts is required to accurately establish genotype-phenotype penetrance.",
+      "promise": 0.85,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "Do CxxC missense variants act via a dominant-negative mechanism on PRC1.1 assembly at unmethylated CpG islands compared to true haploinsufficiency?",
+      "rationale": "Determining whether CxxC mutations preserve interaction with BCOR/PCGF1 while disrupting DNA binding could explain subepisignature divergence and potential tissue-specific phenotypic severity.",
+      "promise": 0.78,
+      "est_cost": 120000
+    }
+  ]
+}

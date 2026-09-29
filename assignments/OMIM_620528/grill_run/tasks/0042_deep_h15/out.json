@@ -1,0 +1,130 @@
+{
+  "verdict": "supported",
+  "rationale": "Multiple independent clinical and genetic reports confirm that heterozygous loss-of-function alleles in SPTAN1 (including nonsense mutations and 9q34 microdeletions) exhibit incomplete/reduced penetrance alongside marked clinical variability. Notably, Van de Vondel et al. (2026) documented a 9q34 microdeletion encompassing SPTAN1 segregating in four affected individuals while remaining non-penetrant in two verified carrier relatives (2/6, or 33.3% non-penetrance). Earlier founding work by Beijer et al. (2019) demonstrated reduced penetrance with asymptomatic or subclinical carriers across two of three autosomal dominant distal hereditary motor neuropathy kindreds, corroborated further by Dong et al. (2021) and international diagnostic curation panels (Genomics England and Australian PanelApp). No reports contradict the existence of reduced penetrance or demonstrate mandatory 100% penetrance for SPTAN1 loss-of-function variants.",
+  "evidence": [
+    {
+      "text": "A heterozygous 9q34 microdeletion encompassing SPTAN1 segregated in four clinically affected patients presenting with childhood-onset distal muscle weakness and was explicitly non-penetrant in two other carrier relatives.",
+      "stance": "supports",
+      "source": {
+        "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "A Monticelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1038/s41431-025-01938-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01938-2",
+        "quote": "The deletion was detected through exome-sequencing based copy number variant (CNV) detection, segregates in four patients and is non-penetrant in two other relatives."
+      },
+      "numbers": [
+        {
+          "metric": "affected deletion carriers",
+          "value": 4
+        },
+        {
+          "metric": "non-penetrant deletion carriers",
+          "value": 2
+        },
+        {
+          "metric": "non-penetrance rate in cohort",
+          "value": "33.3%"
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous nonsense mutations in SPTAN1 identified in three dominant hereditary motor neuropathy kindreds showed variable penetrance in two of the three families, with family members identified who are asymptomatic or mildly affected.",
+      "stance": "supports",
+      "source": {
+        "title": "Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy",
+        "authors": [
+          "D Beijer",
+          "T Deconinck",
+          "JL De Bleecker",
+          "MT Dotti"
+        ],
+        "year": 2019,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+        "quote": "Variable penetrance was noted for these mutations in two of three families, and phenotype severity differs greatly between patients. ... are only mildly affected or asymptomatic as reduced penetrance is not novel in"
+      },
+      "numbers": [
+        {
+          "metric": "families evaluated",
+          "value": 3
+        },
+        {
+          "metric": "families demonstrating reduced or variable penetrance",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "dHMN caused by pathogenic SPTAN1 variants is characterized by highly variable disease severity and variable penetrance.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "Although the penetrance and severity of the disease were highly variable"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Phenotype review of SPTAN1 loss-of-function variants causing autosomal dominant distal hereditary motor neuropathy in diagnostic gene curation panels notes variable penetrance across 13 affected individuals from 4 families.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: SPTAN1 (Hereditary neuropathy or pain disorder)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": "32811770",
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/846/gene/SPTAN1/",
+        "quote": "13 affected individuals from 4 families reported (nonsense variants) with AD distal hereditary motor neuropathy. Variable penetrance was noted"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 13
+        },
+        {
+          "metric": "families evaluated",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What genetic or epigenetic modifiers compensate for SPTAN1 haploinsufficiency to prevent disease expression in asymptomatic carriers?",
+      "rationale": "Fibroblast and tissue assays show reduced transcript levels via nonsense-mediated decay without commensurate total loss of alpha-II-spectrin protein in some non-penetrant carriers, indicating active translational or post-translational compensatory pathways.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does subclinical axonal motor loss or subclinical myopathic change exist on quantitative electrophysiology or neuromuscular MRI in asymptomatic heterozygous SPTAN1 carriers?",
+      "rationale": "Determining whether 'non-penetrant' carriers harbor covert denervation/myopathy clarifies whether penetrance is truly incomplete or reflects a mild, subclinical threshold effect.",
+      "promise": 0.8,
+      "est_cost": 15000
+    }
+  ]
+}

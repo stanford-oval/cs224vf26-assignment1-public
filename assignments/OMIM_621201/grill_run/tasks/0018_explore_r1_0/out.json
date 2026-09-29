@@ -1,0 +1,170 @@
+{
+  "hypotheses": [
+    {
+      "text": "Seizures (HP:0001250) occur in approximately 80% of individuals with GTF3C3-related neurodevelopmental disorder overall, but frequency varies significantly by cohort (from 50% in small cohorts to >80% in pooled reviews).",
+      "rationale": "Clarifying the exact penetrance of seizures is crucial for diagnostic clinical suspicion; Abdel et al. found seizures in 2/4 (50%) individuals, whereas L\u00f3pez's comprehensive review documented seizures in 14/17 (82.35%) individuals.",
+      "aspects": [
+        "binned",
+        "frequency",
+        "epilepsy"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In a comprehensive review of reported GTF3C3 cases, seizures were present in 14 of 17 assessed individuals (82.35%) with variable types including tonic, clonic, and absence seizures.",
+          "stance": "supports",
+          "source": {
+            "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+            "authors": [
+              "L L\u00f3pez"
+            ],
+            "year": 2026,
+            "journal": "Frontiers in Genetics",
+            "doi": "10.3389/fgene.2026.1860633/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+            "quote": "Seizures were present in the majority of cases (14/17, 82.35%), with varying types reported, including tonic, clonic, and absence seizures."
+          },
+          "numbers": [
+            {
+              "metric": "seizure_frequency_numerator",
+              "value": 14
+            },
+            {
+              "metric": "seizure_frequency_denominator",
+              "value": 17
+            },
+            {
+              "metric": "seizure_frequency_percentage",
+              "value": 82.35
+            }
+          ]
+        },
+        {
+          "text": "In the series describing 4 patients from 3 families, seizures were observed in exactly half of the cohort (2/4).",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel"
+            ],
+            "year": 2025,
+            "journal": "Brain Communications",
+            "doi": "10.1093/braincomms/fcaf055",
+            "pmid": "40040844",
+            "pmc": "PMC11878552",
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "Seizures were observed in half of the patients."
+          },
+          "numbers": [
+            {
+              "metric": "seizure_frequency_numerator",
+              "value": 2
+            },
+            {
+              "metric": "seizure_frequency_denominator",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Corpus callosum anomalies (agenesis or hypoplasia, HP:0001274 / HP:0002079) are present in fewer than half (40-45%) of evaluated individuals with GTF3C3 variants, indicating that an intact corpus callosum does not rule out the disorder.",
+      "rationale": "While corpus callosum malformations are frequently cited as a core feature of GTF3C3 neurodevelopmental disorder, exact counting across literature indicates it is not fully penetrant.",
+      "aspects": [
+        "pooled",
+        "frequency",
+        "neuroimaging"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "In the comprehensive review cohort, structural anomalies of the corpus callosum were documented in 7 of 16 evaluated patients (43.75%).",
+          "stance": "supports",
+          "source": {
+            "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+            "authors": [
+              "L L\u00f3pez"
+            ],
+            "year": 2026,
+            "journal": "Frontiers in Genetics",
+            "doi": "10.3389/fgene.2026.1860633/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+            "quote": "and/or the corpus callosum (7/16, 43.75%)."
+          },
+          "numbers": [
+            {
+              "metric": "corpus_callosum_abnormality_numerator",
+              "value": 7
+            },
+            {
+              "metric": "corpus_callosum_abnormality_denominator",
+              "value": 16
+            },
+            {
+              "metric": "corpus_callosum_abnormality_percentage",
+              "value": 43.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Secondary cortical malformations such as simplified gyral pattern (HP:0009879) are rare findings present in <30% of GTF3C3 patients, representing severe end-spectrum neuroimaging features rather than sensitive diagnostic hallmarks.",
+      "rationale": "Differentiating primary or frequent findings (like cerebellar hypoplasia or corpus callosum anomalies) from infrequent findings (simplified gyral pattern) allows clinicians to avoid misclassification.",
+      "aspects": [
+        "neuroimaging",
+        "frequency"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Brain imaging demonstrated brain atrophy with predominant cerebellar involvement across patients, while moderate to severe simplified gyral pattern was seen in only 1 of 4 patients.",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel"
+            ],
+            "year": 2025,
+            "journal": "Brain Communications",
+            "doi": "10.1093/braincomms/fcaf055",
+            "pmid": "40040844",
+            "pmc": "PMC11878552",
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern."
+          },
+          "numbers": [
+            {
+              "metric": "simplified_gyral_pattern_numerator",
+              "value": 1
+            },
+            {
+              "metric": "simplified_gyral_pattern_denominator",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for motor abnormalities, specifically spasticity and dystonia, across the De Hayr et al. (12 patients) and ESHG cohorts?",
+      "rationale": "De Hayr et al. and the ESHG abstracts highlight motor impairments, spasticity, and dystonia as associated features, but the exact frequency counts in the full cohorts need systematic compilation.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "What is the pooled frequency of microcephaly (HP:0000252) when aggregating the De Hayr (12 patients), Abdel (4 patients), and L\u00f3pez review cohorts?",
+      "rationale": "Microcephaly is stated in OMIM #621201 and Abdel et al. as a core feature, but checking whether it is consistently present across all reported cohorts will clarify its sensitivity as a diagnostic criterion.",
+      "promise": 0.8,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

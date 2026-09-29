@@ -1,0 +1,108 @@
+{
+  "verdict": "supported",
+  "rationale": "Across all published patient cohorts to date, microcephaly has been observed as a consistent, core clinical feature of NAV3-related neurodevelopmental disorder regardless of inheritance pattern or variant class. In the defining cohort by Ghaffar et al. (2024), 11 of 11 individuals (100%) harboring predicted pathogenic biallelic, de novo, and heterozygous variants presented with microcephaly. Subsequent reports by Kakar et al. (2025) and Umair et al. (2025) corroborate microcephaly and developmental delay across truncating and missense variants. No published study in the provided literature identifies affected individuals with NAV3-related disorder who preserve normal head circumference, refuting the hypothesis that microcephaly is exclusive to biallelic loss-of-function variants.",
+  "evidence": [
+    {
+      "text": "Ghaffar et al. (2024) described 11 individuals from 7 unrelated families harboring biallelic, de novo, and heterozygous variants in NAV3. All 11 affected individuals (100%) exhibited microcephaly, intellectual disability, skeletal deformities, ocular anomalies, and behavioral abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s42003-024-06466-1",
+        "quote": "We report eleven individuals from seven families harboring predicted pathogenic biallelic, de novo, and heterozygous variants in the NAV3 gene, which encodes the microtubule positive tip protein neuron navigator 3 (NAV3). All affected individuals have intellectual disability (ID), microcephaly, skeletal deformities, ocular anomalies, and behavioral issues."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with microcephaly",
+          "value": "11/11"
+        },
+        {
+          "metric": "families assessed",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Kakar et al. (2025) reported five individuals across three consanguineous families segregating autosomal recessive neurodevelopmental disorder with biallelic truncating variants in NAV3, noting microcephaly and developmental delay as hallmark features while reviewing the literature documenting bi-allelic and mono-allelic cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Recently, five bi-allelic and three mono-allelic variants in NAV3 were reported in 12 individuals from eight unrelated families with neurodevelopmental disorder (NDD). Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD."
+      },
+      "numbers": [
+        {
+          "metric": "patients reported",
+          "value": 5
+        },
+        {
+          "metric": "unrelated consanguineous families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Umair et al. (2025) described a homozygous missense variant in NAV3 causing autosomal recessive neurodevelopmental disorder, referencing the presence of microcephaly and intellectual disability as core characteristics established in previous multi-case cohorts.",
+      "stance": "supports",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "of NAV3's role by identifying NAV3 variants in eleven individuals presenting with intellectual disability, microcephaly"
+      },
+      "numbers": [
+        {
+          "metric": "proband count",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does head circumference standard deviation score (z-score) significantly vary in severity between monoallelic dominant-negative/heterozygous NAV3 variants and complete biallelic loss-of-function variants?",
+      "rationale": "While qualitative microcephaly is present across all groups, quantitative occipitofrontal circumference z-scores may reveal subtle dosage-dependent differences in neurogenesis or brain growth trajectory.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Is microcephaly in NAV3-related disorder predominantly primary (congenital) or secondary (postnatal progressive deceleration)?",
+      "rationale": "Longitudinal birth measurements versus later pediatric records will clarify whether NAV3 loss impacts neural progenitor proliferation or postnatal dendritic and axonal maintenance.",
+      "promise": 0.9,
+      "est_cost": 15000
+    }
+  ]
+}

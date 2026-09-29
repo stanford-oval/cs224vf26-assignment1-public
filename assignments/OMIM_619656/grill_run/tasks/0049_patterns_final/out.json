@@ -1,0 +1,82 @@
+{
+  "patterns": [
+    {
+      "pattern": "Bimodal presentation across life stages: Early congenital malformations versus adult-onset isolated vasculopathy",
+      "abstraction": "Developmental versus degenerative divergence in monogenic signaling pathways",
+      "instance": "Heterozygous loss-of-function/missense variants in SMAD2 can present perinatally with complex congenital heart disease, heterotaxy, and syndromic anomalies, or alternatively manifest as late-onset isolated thoracic aortic aneurysm and dissection in adulthood with completely normal pediatric aortic calibers.",
+      "direction": "Perform deep clinical and functional phenotyping comparing perinatal cohorts with complex congenital heart defects against adult-onset thoracic aortic disease cohorts harboring SMAD2 variants to identify genetic modifiers or stage-specific transcriptomic targets.",
+      "support": "Strongly supported across findings F1, F3, and F17.",
+      "sources": [
+        "10.1002/humu.23627",
+        "10.1186/s13023-019-1282-3",
+        "10.1161/JAHA.124.036860",
+        "https://jmg.bmj.com/content/56/4/220.abstract"
+      ],
+      "hypothesis": "Perinatal manifestations in SMAD2-associated LDS6 are driven by critical embryonic dosage thresholds during left-right patterning and cardiac looping, whereas adult aortopathy reflects progressive, post-developmental mechanotransduction impairment.",
+      "novelty": "Challenges the classic assumption that LDS6 is primarily an adult-onset, mild vascular disorder by demonstrating severe neonatal structural presentations caused by the same variant spectrum."
+    },
+    {
+      "pattern": "Absence of cardinal features of allied disorders as the primary exclusionary diagnostic criteria",
+      "abstraction": "Differential diagnosis via obligate absence rather than positive syndromic markers",
+      "instance": "The absence of craniosynostosis and intellectual disability discriminates LDS6 from Shprintzen-Goldberg syndrome and severe LDS1/2, while the classical absence of genuine ectopia lentis discriminates LDS6 from FBN1-related Marfan syndrome.",
+      "direction": "Establish formal exclusionary decision trees integrating high-resolution slit-lamp and neurodevelopmental assessments into algorithmic genetic testing pipelines for suspected syndromic vasculopathies.",
+      "support": "Supported across findings F2, F4, F5, F7, and F9.",
+      "sources": [
+        "10.1002/9781119432692.ch36",
+        "10.1016/j.gim.2026.102577",
+        "10.1007/978-3-319-66114-8_19",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+        "10.21037/acs.2017.11.03"
+      ],
+      "hypothesis": "SMAD2 haploinsufficiency preserves fibrillin-1 microfibrillar zonular integrity and cranial suture patency through intact baseline SMAD3 or alternative TGF-beta downstream cascades.",
+      "novelty": "Inverts typical clinical pattern-recognition from seeking positive dysmorphic signs to systematically identifying strictly preserved anatomical structures (lens position, cranial sutures)."
+    },
+    {
+      "pattern": "Contradiction between canonical clinical dogma and pooled real-world systematic cohorts regarding ocular phenotypes",
+      "abstraction": "Dogmatic exclusionary criteria contradicted by heterogeneous registry data",
+      "instance": "Authoritative guidelines and nosologies assert that ectopia lentis never occurs in Loeys-Dietz syndrome, whereas systematic meta-analyses report rare documented instances (e.g., 2/275 individuals in aggregated LDS cohorts), reflecting either diagnostic misattribution, phenocopies, or rare true zonular abnormalities.",
+      "direction": "Conduct systematic, blinded ophthalmologic re-evaluations (anterior segment OCT, ultrasound biomicroscopy) of reported LDS individuals with lens pathology to definitively resolve true ectopia lentis from microspherophakia or severe refractive errors.",
+      "support": "Contested and deprioritized in findings F4, F5, F7, and F9 due to conflicting literature between core reviews and systematic compilations.",
+      "sources": [
+        "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+        "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+        "10.1002/9781119432692.ch36",
+        "https://www.emjreviews.com/wp-content/uploads/2022/03/Ocular-Manifestations-of-Loeys%E2%80%93Dietz-Syndrome-1.pdf"
+      ],
+      "hypothesis": "Reported occurrences of ectopia lentis in aggregated SMAD2/LDS cohorts represent misclassified microspherophakia or secondary zonular laxity rather than primary zonular dehiscence characteristic of fibrillinopathies.",
+      "novelty": "Highlights that clinical trial and diagnostic registry databases can perpetuate false positive phenotypic associations that violate underlying molecular pathology."
+    },
+    {
+      "pattern": "Failure of domain- or class-based genotype-phenotype models when translated across homologous pathway genes",
+      "abstraction": "Domain-level functional stratification fails to predict clinical vascular severity in rare paralogs",
+      "instance": "Attempts to map MH2 missense dominant-negative versus truncating haploinsufficient risk models (extrapolated from SMAD3) onto SMAD2 fail, as truncating SMAD2 variants present with catastrophic perinatal malformations or dissection, and missense variants display wide variability in aortic phenotype onset.",
+      "direction": "Shift from linear domain/variant-type stratifications to patient-derived iPSC functional assays and 3D structural mapping of specific SMAD2 macromolecular interfaces.",
+      "support": "Conflicted in findings F8, F10, F13, and F17.",
+      "sources": [
+        "10.1002/humu.23627",
+        "https://academic.oup.com/hmg/article-abstract/33/12/1090/7636157",
+        "10.1002/mgg3.1132",
+        "10.1186/s13023-019-1282-3",
+        "10.1002/ajmg.a.35852"
+      ],
+      "hypothesis": "Heterozygous loss-of-function and missense variants in SMAD2 disrupt identical transcriptional networks via haploinsufficiency, making cellular genetic background rather than intragenic variant position the primary determinant of vascular severity.",
+      "novelty": "Rebuts the prevailing paradigm that MH2 signaling domain missense alterations are universally more deleterious than upstream truncating alleles across all receptor-regulated SMADs."
+    },
+    {
+      "pattern": "Ascertainment gap: Classic syndromic craniofacial hallmarks are unreliable discriminators due to extreme rarity and lack of cohort quantification",
+      "abstraction": "Syndromic umbrella features fail as specific discriminators for ultra-rare pathway variants",
+      "instance": "While classic Loeys-Dietz craniofacial markers (hypertelorism, bifid uvula, cleft palate) and systemic arterial tortuosity are widely cited, multiple large cohorts find 0 SMAD2 carriers, and systematic reviews lack specific quantitative numerators and denominators supporting high penetrance in LDS6.",
+      "direction": "Establish an international centralized multi-center registry dedicated specifically to LDS6/SMAD2 carriers to systematically quantify extra-aortic organ system penetrance with unified denominators.",
+      "support": "Refuted and highlighted across findings F12, F14, F15, F16, and F18.",
+      "sources": [
+        "10.1007/978-3-030-80614-9_11",
+        "https://www.mdpi.com/2073-4425/10/10/764",
+        "10.1136/jmedgenet-2019-106678",
+        "10.1016/j.jacc.2025.04.020",
+        "https://journals.lww.com/cardiologyinreview/fulltext/2024/11000/genetic_problems,_diagnosis,_and_cardiovascular.6.aspx"
+      ],
+      "hypothesis": "Downstream SMAD2 alterations exhibit a substantially lower penetrance of overt craniofacial dysmorphism compared to upstream receptor mutations (TGFBR1/2), rendering phenotype-only clinical identification unreliable.",
+      "novelty": "Exposes a major ascertainment bias in medical literature where broad syndromic generalizations from common subtypes (LDS1/2) are uncritically attributed to rare subtypes without empirical numerator/denominator evidence."
+    }
+  ]
+}

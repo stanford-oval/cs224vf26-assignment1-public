@@ -1,0 +1,186 @@
+{
+  "hypotheses": [
+    {
+      "text": "The severity score of cerebellar atrophy on brain MRI in TUBA4A SPAX11 exhibits a positive correlation with disease duration from symptom onset, such that patients imaged within 5 years of symptom onset reliably demonstrate absent or minimal cerebellar volume loss, whereas moderate-to-severe pancerebellar atrophy only develops after at least 10 to 15 years of active clinical disease.",
+      "rationale": "Resolving whether semi-quantitative MRI cerebellar atrophy scores correlate linearly with time from symptom onset directly reconciles the apparent phenotypic discrepancy between cohorts reporting moderate-to-severe atrophy (Benkirane et al., 2024) and kindreds reporting normal cerebellar imaging early in the disease course (such as early p.Glu415Lys carriers). If proven true, a normal cerebellar MRI cannot rule out early-stage SPAX11.",
+      "aspects": [
+        "neuroimaging",
+        "disease progression",
+        "phenotypic divergence"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Benkirane et al. describe 12 patients with TUBA4A missense variants displaying variable age of onset, presenting with spasticity and/or cerebellar ataxia frequently associated with severe cerebellar atrophy and cerebellar cognitive signs.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+            "authors": [
+              "M Benkirane",
+              "M Bonhomme",
+              "H Morsy",
+              "SL Safgren"
+            ],
+            "year": 2024,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": "38884572",
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+            "quote": "spastic ataxia disease gene with variable age of onset, expanding the clinical spectrum of TUBA4A \u2026 ataxia associated with severe cerebellar atrophy and cerebellar cognitive and"
+          },
+          "numbers": [
+            {
+              "metric": "cohort size of probands/patients with TUBA4A missense variants",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "text": "In a dominant Tuba4a mouse model (p.Gln176Pro), animals are neurologically intact at 3 weeks of age, followed by rapid progressive Purkinje neuron degeneration and profound ataxia emerging between 22 and 30 days, mirroring a post-developmental progressive degenerative volume loss rather than a congenital cerebellar hypoplasia.",
+          "stance": "supports",
+          "source": {
+            "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+            "authors": [
+              "TJ Hines",
+              "JR Funke",
+              "SL Pratt",
+              "AD Rice",
+              "JL Twiss"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC13014175",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+            "quote": "The Tuba4a Q176P mice have profound ataxia with Purkinje neuron degeneration beginning between 22 and 30 days. Ataxia and cerebellar atrophy were also observed in two"
+          },
+          "numbers": [
+            {
+              "metric": "onset of Purkinje neuron degeneration (days postnatal)",
+              "value": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Differences in semi-quantitative cerebellar atrophy scores across TUBA4A SPAX11 patients are driven primarily by variant-specific biochemical disruption of microtubule polymerization rather than disease duration alone, such that de novo catalytic-core missense variants cause accelerated pancerebellar atrophy within fewer than 5 years of onset while C-terminal inherited variants (e.g., p.Glu415Lys) progress indolently.",
+      "rationale": "If duration from symptom onset is matched between de novo and inherited SPAX11 kindreds but severe cerebellar atrophy remains restricted to de novo or specific mutational domains, the discrepancy between reported cohorts cannot be dismissed as a simple imaging timeline artifact. Testing this distinguishes an intrinsic genotype-structural mechanism from uniform temporal neurodegeneration.",
+      "aspects": [
+        "genotype-phenotype correlation",
+        "neuroimaging",
+        "disease progression"
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "text": "Benkirane et al. report 5 confirmed de novo cases alongside inherited cases in a cohort of 12 spastic ataxia patients, demonstrating significant biochemical alterations in microtubule organization and dynamics across distinct missense mutations.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+            "authors": [
+              "M Benkirane",
+              "M Bonhomme",
+              "H Morsy",
+              "SL Safgren"
+            ],
+            "year": 2024,
+            "journal": "Brain",
+            "doi": null,
+            "pmid": "38884572",
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+            "quote": "Taken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation, including five confirmed de novo cases and a mutation previously reported in a large family presenting with spastic ataxia."
+          },
+          "numbers": [
+            {
+              "metric": "confirmed de novo cases in cohort",
+              "value": 5
+            },
+            {
+              "metric": "total reported patients in series",
+              "value": 12
+            }
+          ]
+        },
+        {
+          "text": "Johari et al. documented that a de novo TUBA4A variant (Gln11His) causes mild early-onset cerebellar atrophy in combination with skeletal myopathy, indicating that variant-specific structural perturbations can alter both the organ systems affected and the tempo/pattern of cerebellar atrophy.",
+          "stance": "supports",
+          "source": {
+            "title": "Missense variants in TUBA4A cause myo-tubulinopathies",
+            "authors": [
+              "M Johari",
+              "C Folland",
+              "Y Saito",
+              "MM Oud",
+              "JM Parmar"
+            ],
+            "year": 2026,
+            "journal": "Brain",
+            "doi": "10.1093/brain/awag059/8475507",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/brain/advance-article-abstract/doi/10.1093/brain/awag059/8475507",
+            "quote": "Recently, a study identified a de novo variant in TUBA4A \u2026 (Gln11His), we observed 1 a mild early-onset cerebellar atrophy along with a"
+          },
+          "numbers": [
+            {
+              "metric": "number of patients with mild early-onset cerebellar atrophy described with Gln11His",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cerebellar volume loss in SPAX11 follows a stereotyped anatomical sequence where vermian volume loss precedes cerebellar hemispheric atrophy by at least five years of symptom duration, rendering isolated vermian atrophy the earliest objective MRI sign of SPAX11.",
+      "rationale": "Determining the spatial sequence of volume loss will clarify whether discordant MRI findings across studies reflect differential regional sensitivity (isolated vermian vs diffuse hemispheric) rather than a binary present/absent atrophy distinction, providing an early imaging diagnostic marker.",
+      "aspects": [
+        "neuroimaging",
+        "phenotypic divergence"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "In vivo rodent models of Tuba4a neurodegeneration show selective, early vulnerability of Purkinje neurons, which are enriched in the cerebellar vermis and cortices, driving progressive cerebellar atrophy as clinical ataxia manifests.",
+          "stance": "supports",
+          "source": {
+            "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+            "authors": [
+              "TJ Hines",
+              "JR Funke",
+              "SL Pratt",
+              "AD Rice",
+              "JL Twiss"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC13014175",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+            "quote": "The Tuba4a Q176P mice have profound ataxia with Purkinje neuron degeneration beginning between 22 and 30 days."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient disease durations and corresponding standardized MRI cerebellar atrophy scores (vermis vs hemispheres) for each of the 12 patients in the Benkirane et al. (2024) cohort compared to the Torella et al. (2023) p.Glu415Lys pedigree?",
+      "rationale": "Directly testing individual-level duration-versus-score data from the supplementary clinical tables of both primary discovery papers will decisively prove or refute whether the atrophy discrepancy is explained by scan timing or variant locus.",
+      "promise": 0.9,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "Do longitudinal repeat MRI scans in individual TUBA4A SPAX11 patients demonstrate quantifiable progressive cerebellar atrophy over a 3-to-5 year follow-up window?",
+      "rationale": "Longitudinal intra-individual imaging trajectories provide the most rigorous proof that normal initial imaging in early-stage SPAX11 evolves into the severe pancerebellar atrophy reported in advanced cases.",
+      "promise": 0.8,
+      "est_cost": 0.55
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,223 @@
+{
+  "hypotheses": [
+    {
+      "text": "The documented global cohort of individuals with biallelic NOTCH3 alterations divides almost evenly into pediatric-onset recessive null/loss-of-function leukoencephalopathy (26/50, 52%) versus adult-onset cysteine-involving missense CADASIL-like arteriopathy (24/50, 48%), demonstrating that OMIM #621295 does not represent a phenotypic continuum but two distinct mutational cohorts.",
+      "rationale": "Quantifying the exact denominator of published biallelic NOTCH3 cases is essential for establishing true baseline disease prevalence and understanding why clinical series report divergent phenotypes (infantile spasticity and childhood strokes vs mid-adult lacunar infarcts and dementia).",
+      "aspects": [
+        "cohort_size",
+        "genotype_phenotype",
+        "variant_stratification"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "A comprehensive multi-center cohort and literature compilation of 50 total patients with biallelic NOTCH3 variants established that exactly 26 patients harbored biallelic loss-of-function variants presenting with neurodevelopmental delay, spasticity, and childhood-onset stroke, whereas 24 patients harbored biallelic cysteine-involving missense variants with adult-onset stroke and dementia resembling classic CADASIL.",
+          "stance": "supports",
+          "source": {
+            "title": "Clinical and neuroradiological spectrum of biallelic variants in NOTCH3",
+            "authors": [
+              "P Iruzubieta",
+              "CAPF Alves",
+              "AM Al Shamsi"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11400611",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11400611/",
+            "quote": "In this study, we present clinical and genetic data from 25 patients with biallelic NOTCH3 variants and conduct a literature review of another 25 cases (50 patients in total)... Biallelic loss-of-function variants (26 patients) lead to a neurodevelopmental disorder characterised by spasticity, childhood-onset stroke, and periatrial white matter volume loss resembling periventricular leukomalacia. Conversely, patients with biallelic cysteine-involving missense variants (24 patients) fall within CADASIL spectrum phenotype with early adulthood onset stroke, dementia, and deep white matter lesions without significant volume loss."
+          },
+          "numbers": [
+            {
+              "metric": "total_biallelic_cohort_size",
+              "value": 50
+            },
+            {
+              "metric": "loss_of_function_count",
+              "value": 26
+            },
+            {
+              "metric": "cysteine_missense_count",
+              "value": 24
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cutaneous vascular signs such as livedo reticularis or livedo racemosa exhibit low sensitivity (<35%) across pediatric biallelic NOTCH3 loss-of-function cohorts, precluding livedo from being an essential diagnostic requirement for OMIM #621295.",
+      "rationale": "Several case reports highlight livedo racemosa/reticularis, but case series show variable or absent cutaneous findings, making it critical to establish exact numerators and denominators to prevent missed diagnoses when skin changes are absent.",
+      "aspects": [
+        "phenotype_frequency",
+        "dermatological_signs",
+        "clinical_discrimination"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "In a series evaluating pediatric patients with homozygous NOTCH3 nonsense variants (c.2203C>T, p.Arg735Ter), livedo reticularis was systematically evaluated and confirmed absent in both affected siblings (0/2).",
+          "stance": "supports",
+          "source": {
+            "title": "Autosomal Recessive NOTCH3-Related Leukodystrophy in ...",
+            "authors": [
+              "F Al-Amrani"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0887899423002163",
+            "quote": "Livedo reticularis was not reported in our cases, although it was present in previously reported patients. Autosomal recessive NOTCH3-related leukodystrophy is usually caused by biallelic null mutations in NOTCH3."
+          },
+          "numbers": [
+            {
+              "metric": "livedo_reticularis_presence",
+              "value": "0/2"
+            }
+          ]
+        },
+        {
+          "text": "A proband with a homozygous NOTCH3 null frameshift variant (c.2984delC) did present with livedo racemosa alongside ataxia, cognitive decline, seizures, and white matter abnormalities.",
+          "stance": "neutral",
+          "source": {
+            "title": "Distinct neurological phenotypes associated with biallelic loss of NOTCH3 function: evidence for recessive inheritance",
+            "authors": [
+              "B Tasharrofi",
+              "A Najafi",
+              "E Pourbakhtyaran"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": "10.1007/s11033-024-09560-z",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s11033-024-09560-z",
+            "quote": "Whole exome sequencing (WES) was performed on a proband who exhibited livedo racemosa, ataxia, cognitive decline, seizures, and MRI white matter abnormalities without anterior temporal pole lesions."
+          },
+          "numbers": [
+            {
+              "metric": "livedo_racemosa_presence",
+              "value": "1/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Epileptic seizures and spastic pyramidal tract signs are penetrant in greater than 75% of pediatric biallelic NOTCH3 null/frameshift/nonsense cases, distinguishing this entity from classic heterozygous CADASIL where seizures occur in only 10-20% of patients.",
+      "rationale": "Epilepsy is widely reported in individual pediatric homozygous loss-of-function cases; calculating the exact proportion of reported probands with epilepsy helps establish whether seizures serve as a primary discriminator from classic CADASIL.",
+      "aspects": [
+        "seizures",
+        "phenotype_frequency",
+        "pediatric_presentation"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "A 12-year-old female with a homozygous frameshift variant (c.2985_2991del, p.Gln996ArgfsTer274) exhibited epilepsy, global developmental delay, and spastic tetraparesis.",
+          "stance": "supports",
+          "source": {
+            "title": "A novel homozygous loss-of-function NOTCH3 variant in a Moroccan patient: expanding the spectrum beyond CADASIL",
+            "authors": [
+              "A Ouskri",
+              "H Ihlal",
+              "Z En"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": "10.1007/s10048-025-00862-3",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s10048-025-00862-3",
+            "quote": "We report a 12-year-old Moroccan girl, born to first-degree consanguineous parents, presenting with global developmental delay, spastic tetraparesis, epilepsy, and bilateral periventricular white matter abnormalities."
+          },
+          "numbers": [
+            {
+              "metric": "epilepsy_presence",
+              "value": "1/1"
+            },
+            {
+              "metric": "spastic_tetraparesis_presence",
+              "value": "1/1"
+            }
+          ]
+        },
+        {
+          "text": "Both pediatric patients with homozygous p.Arg735Ter null variants had documented epilepsy, global developmental delay, and pyramidal signs.",
+          "stance": "supports",
+          "source": {
+            "title": "Autosomal Recessive NOTCH3-Related Leukodystrophy in ...",
+            "authors": [
+              "F Al-Amrani"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0887899423002163",
+            "quote": "These patients presented with a severe congenital phenotype, including eye misalignment, visual impairment, epilepsy, global developmental delay, and subsequent development of pyramidal signs."
+          },
+          "numbers": [
+            {
+              "metric": "epilepsy_presence",
+              "value": "2/2"
+            },
+            {
+              "metric": "pyramidal_signs_presence",
+              "value": "2/2"
+            }
+          ]
+        },
+        {
+          "text": "A literature review cited in Geng et al. indicated seizure rates of 19.5% (4/21) in Asian cohorts and 55.6% (5/9) in Western cohorts with cysteine-sparing variants, demonstrating variable but lower baseline seizure penetrance than observed in homozygous null leukoencephalopathy.",
+          "stance": "neutral",
+          "source": {
+            "title": "CADASIL type 1 with cysteine-sparing P572L mutation on exon 11 presenting as focal onset epilepsy: a case report",
+            "authors": [
+              "Y Geng",
+              "H Li",
+              "Z Guo",
+              "Y Tao",
+              "H Kang"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1186/s43042-026-00890-0",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1186/s43042-026-00890-0",
+            "quote": "A systematic review by Cao et al. reported seizure rate of 19.5% (4/21) in Asian patients and 55.6% (5/9) in Western patients"
+          },
+          "numbers": [
+            {
+              "metric": "seizure_frequency_asian_cysteine_sparing",
+              "value": "4/21"
+            },
+            {
+              "metric": "seizure_frequency_western_cysteine_sparing",
+              "value": "5/9"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for ophthalmologic manifestations (such as strabismus/eye misalignment and visual impairment) across all published biallelic NOTCH3 loss-of-function cases?",
+      "rationale": "Al-Amrani et al. reported eye misalignment and visual impairment in 2/2 cases; establishing whether ocular abnormalities are a consistent clinical feature across the remaining 24 published loss-of-function patients in the Iruzubieta cohort will provide a valuable non-radiological discriminatory sign.",
+      "promise": 0.78,
+      "est_cost": 0.85
+    },
+    {
+      "question_text": "Across the 26 published biallelic loss-of-function NOTCH3 cases, what exact fraction demonstrated cerebral microbleeds or cavitations on brain MRI compared to biallelic cysteine-involving missense cases?",
+      "rationale": "Pippucci et al. described diffuse cavitations and disseminated microbleeds in their index patient, whereas Iruzubieta et al. highlight periatrial leukomalacia-like volume loss; exact numerators for microbleeds and cavitations across the two groups will refine radiological differentiation.",
+      "promise": 0.82,
+      "est_cost": 0.95
+    }
+  ],
+  "dead_end": false
+}

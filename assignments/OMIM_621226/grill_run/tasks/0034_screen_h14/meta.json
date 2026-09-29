@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TUBA4A\" \"spastic ataxia\" \"cerebellar atrophy\" MRI",
+    "TUBA4A spastic ataxia 11 cerebellar atrophy MRI disease duration"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/s00415-023-11816-w",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+      "pmid": null,
+      "doi": "10.1007/s00415-023-11816-w",
+      "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+      "abstract_chars": 716
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "PMC13014175",
+      "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+      "abstract_chars": 1783
+    },
+    {
+      "id": "10.1186/s41983-024-00905-w",
+      "title": "The p. D417N variant of TUBB4A as a possible cause of hereditary spastic paraplegia: a case report",
+      "pmid": null,
+      "doi": "10.1186/s41983-024-00905-w",
+      "url": "https://link.springer.com/article/10.1186/s41983-024-00905-w",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/21/19/7354",
+      "title": "Microtubule dysfunction: a common feature of neurodegenerative diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/21/19/7354",
+      "abstract_chars": 1253
+    },
+    {
+      "id": "PMC10511369",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10511369/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://hal.science/hal-04795703/document",
+      "title": "De novo and inherited monoallelic variants in TUBA4A ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://hal.science/hal-04795703/document",
+      "abstract_chars": 1398
+    },
+    {
+      "id": "10.1093/hmg/ddag084/8778799",
+      "title": "mouse model of autosomal dominant spastic ataxia and ...",
+      "pmid": null,
+      "doi": "10.1093/hmg/ddag084/8778799",
+      "url": "https://academic.oup.com/hmg/article/doi/10.1093/hmg/ddag084/8778799",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621226",
+      "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621226",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/372192530_A_new_genetic_cause_of_spastic_ataxia_the_pGlu415Lys_variant_in_TUBA4A",
+      "title": "(PDF) A new genetic cause of spastic ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/372192530_A_new_genetic_cause_of_spastic_ataxia_the_pGlu415Lys_variant_in_TUBA4A",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4747,
+  "output_tokens": 1357,
+  "usd": 0.00644,
+  "seconds": 9.2,
+  "ok": true
+}

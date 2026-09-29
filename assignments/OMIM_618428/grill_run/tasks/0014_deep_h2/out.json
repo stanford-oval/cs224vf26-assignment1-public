@@ -1,0 +1,71 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature confirms that muscular hypotonia is an established feature of Popov-Chang syndrome (OMIM #618428, DOID:0070709), which was initially reported by Popov et al. (2019) across 5 unrelated individuals with de novo YWHAZ variants. However, the specific quantitative claim that hypotonia occurs in '70-85% in published series' is completely unsupported by the literature block. Given the extremely small total cohort size reported to date (e.g., 5 patients in the seminal report), a statistical estimate of 70-85% does not exist in resolvable cohort data.",
+  "evidence": [
+    {
+      "text": "Popov-Chang syndrome is defined as a neurodevelopmental disorder with hypotonia, language delay, and skeletal defects with or without seizures, linked to YWHAZ.",
+      "stance": "supports",
+      "source": {
+        "title": "Popov-Chang syndrome Disease Ontology Browser - DOID:0070709",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.informatics.jax.org/disease/DOID:0070709",
+        "quote": "Alliance: disease page. Alt IDs: OMIM:618428 ... YWHAZ ... neurodevelopmental disorder with hypotonia, language delay, and skeletal defects with or without seizures"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Popov et al. (2019) identified 5 different de novo heterozygous mutations in the YWHAZ gene in 5 unrelated patients with Popov-Chang syndrome.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - *601288 - TYROSINE 3-MONOOXYGENASE/ ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/601288",
+        "quote": "In 5 unrelated patients with Popov-Chang syndrome (POPCHAS; 618428), Popov et al. (2019) identified 5 different de novo heterozygous mutations in the YWHAZ"
+      },
+      "numbers": [
+        {
+          "metric": "unrelated patients evaluated",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Review of epilepsy genomics links YWHAZ (Popov-Chang syndrome #618428) with phenotypes including hypotonia and impaired intellectual development, but provides no 70-85% quantitative cohort frequency.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/339891072_Recent_advances_in_epilepsy_genomics_and_genetic_testing",
+        "quote": "YWHAZ Popov-Chang syndrome #618428. CHP1 Spastic ataxia 9, autosomal ... Hypotonia, hyperventilation, impaired intellectual development"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts a specific frequency of 70-85% across published series, whereas published series describe only small cohorts (initial series n=5) and no source supports a 70-85% frequency metric."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the exact numerator and denominator for muscular hypotonia across all systematically phenotyped YWHAZ variant carriers in the literature?",
+      "rationale": "Compiling an updated multi-center international case series is necessary to establish precise penetrance metrics rather than speculative percentages.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SGSM3\" \"speech\" \"intellectual developmental disorder\"",
+    "SGSM3 MRT84 speech delay phenotype OMIM 620401"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://panelapp-aus.org/panels/activity/?panel=250&entity=SGSM3",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/activity/?panel=250&entity=SGSM3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/620401?highlight=(20qand20chromosomem%7Cm)",
+      "title": "Clinical Synopsis - #620401 - INTELLECTUAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/620401?highlight=(20qand20chromosomem%7Cm)",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/610440",
+      "title": "610440 - SMALL G PROTEIN SIGNALING MODULATOR 3; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/610440",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/608443",
+      "title": "608443 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/608443",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_recessive_84",
+      "title": "Intellectual Developmental Disorder, Autosomal Recessive ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_recessive_84",
+      "abstract_chars": 1131
+    },
+    {
+      "id": "https://omim.org/entry/618158",
+      "title": "618158 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/618158",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2772,
+  "output_tokens": 1273,
+  "usd": 0.00521,
+  "seconds": 9.7,
+  "ok": true
+}

@@ -1,0 +1,102 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that optic atrophy is uncommon in SPG93 (present in <20%, \u22643/16 patients) and serves as a reliable negative discriminator against other mitochondrial spastic paraplegias like SPG7. However, reviews of iron-sulfur cluster and lipoic acid synthesis disorders involving NFU1 (Tort et al., 2016; Lebigot et al., 2021) and curated genetic databases (GenCC, MedGen, HPO) repeatedly identify optic atrophy as part of the core clinical spectrum in patients with NFU1-related spastic paraplegia, with HPO classifying optic atrophy in SPG93 as frequent. While severe early-onset NFU1 deficiency (MMDS1) is characterized by fatal pulmonary hypertension and encephalopathy where optic atrophy is less emphasized, attenuated forms presenting as hereditary spastic paraplegia (SPG93) regularly manifest optic atrophy and peripheral neuropathy.",
+  "evidence": [
+    {
+      "text": "In defects of lipoic acid synthesis and Fe-S cluster biogenesis involving NFU1, phenotypes include slow-progressive hereditary spastic paraplegia accompanied by optic atrophy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Differential diagnosis of lipoic acid synthesis defects",
+        "authors": [
+          "F Tort",
+          "X Ferrer\u2010Cortes",
+          "A Ribes"
+        ],
+        "year": 2016,
+        "journal": "Journal of Inherited Metabolic Disease",
+        "doi": "10.1007/s10545-016-9975-4",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+        "quote": "NFU1 and BOLA3, together with functional characterization of mutant proteins, pointed to the precise function of NFU1 \u2026 slow-progressive hereditary spastic paraplegia, optic atrophy, and \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of multiple mitochondrial dysfunction syndromes highlights eye findings such as optic atrophy and nystagmus presenting alongside spastic paraplegia and neuropathy in NFU1-associated phenotypes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+        "authors": [
+          "E Lebigot",
+          "M Schiff",
+          "MP Golinelli"
+        ],
+        "year": 2021,
+        "journal": "Biomedicines",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9059/9/8/989",
+        "quote": "In vitro analysis revealed functional impairment of NFU1 \u2026 Eye findings such as optic atrophy and/or nystagmus or \u2026 -like phenotype (spastic paraplegia, optic atrophy and peripheral \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Curated clinical genetic summaries for NFU1-related spastic paraplegia describe clinical presentations involving optic atrophy, cardiomyopathy, and spastic paraplegia.",
+      "stance": "contradicts",
+      "source": {
+        "title": "NFU1 | mitochondrial disease | Autosomal recessive by ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": "25918518",
+        "pmc": null,
+        "url": "https://thegencc.org/submissions/SGC-106550.2",
+        "quote": "... optic atrophy, and/or cardiomyopathy. The second is an early childhood ... New spastic paraplegia phenotype associated to mutation of NFU1. 25918518 ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Systematic evaluation of SPG7 cohorts demonstrates optic neuropathy and retinal nerve fiber layer abnormalities across patients, confirming that optic atrophy is a hallmark of complex SPG7.",
+      "stance": "supports",
+      "source": {
+        "title": "Hereditary ataxias and paraparesias: clinical and genetic update",
+        "authors": [
+          "L Parodi",
+          "G Coarelli",
+          "G Stevanin",
+          "A Brice"
+        ],
+        "year": 2018,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2018/08000/Hereditary_ataxias_and_paraparesias__clinical_and.16.aspx",
+        "quote": "\u2026 by the observation that SPG7 (spastic paraplegia type 7) is one of \u2026 myoclonic ataxia with optic atrophy and neuropathy. Mov \u2026 phenotype associated to mutation of NFU1. Orphanet J Rare \u2026"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts optic atrophy occurs in <20% of SPG93 cases, whereas multiple clinical literature reviews of NFU1 phenotypes (Tort et al. 2016, Lebigot et al. 2021) and HPO annotations classify optic atrophy as a frequent and prominent feature of the NFU1 spastic paraplegia spectrum.",
+    "Using the presence of optic atrophy to rule out SPG93 in favor of other mitochondrial HSPs (such as SPG7) is contradicted by clinical evidence demonstrating that optic atrophy frequently co-segregates with NFU1-related spastic paraplegia."
+  ],
+  "confidence": 0.25,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of subclinical optic neuropathy via optical coherence tomography (OCT) and visual evoked potentials (VEP) across all reported NFU1-SPG93 patients?",
+      "rationale": "Many mitochondrial spastic paraplegias present with subclinical or late-onset optic nerve pallor; systematic ophthalmologic workups would establish true penetrance and discriminative utility.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does optic atrophy in NFU1-related disease correlate specifically with missense variants in the C-terminal Fe-S cluster binding domain compared to loss-of-function variants?",
+      "rationale": "Clarifying genotype-phenotype correlations could resolve whether optic atrophy is restricted to specific milder SPG93-causing NFU1 alleles.",
+      "promise": 0.78,
+      "est_cost": 15000.0
+    }
+  ]
+}

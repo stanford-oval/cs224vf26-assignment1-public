@@ -1,0 +1,146 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While genome sequencing of previously unsolved DEE and early-onset drug-resistant epilepsy cohorts identifies RNU2-2 variants at yields broadly consistent with ~0.5% to 2% (e.g., Munro et al. identifying RNU2-2 among non-coding findings in a 242-patient DEE cohort, and Lilles et al. identifying RNU2-2 in a 37-patient drug-resistant epilepsy cohort), the hypothesis specifically posits that dominant de novo RNU2-2 pathogenic variants account for this 0.5%-2.0% yield in DEE cohorts. In contrast, Jackson et al. and Henry et al. delineate that a major portion of RNU2-2-associated severe DEE presentations are caused by rare biallelic (recessive) variants clustering in the 5' domain, which are clinically, mechanistically, and genetically distinct from dominant RNU2-2 disorders. This creates an unresolved conflict regarding whether the 0.5%-2.0% DEE cohort yield is attributable specifically to dominant de novo variants versus biallelic recessive variants.",
+  "evidence": [
+    {
+      "text": "Jackson et al. established that rare biallelic variants in RNU2-2 manifest as a severe developmental and epileptic encephalopathy (DEE), emerging as the most frequent recessive neurodevelopmental disorder in their cohort, and demonstrated that this recessive syndrome is genetically, clinically, and mechanistically distinct from dominant RNU2-2 disorders.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in RNU2-2 cause a remarkably frequent developmental and epileptic encephalopathy",
+        "authors": [
+          "A Jackson",
+          "AJM Blakes",
+          "B Alhaddad",
+          "OJ Henry"
+        ],
+        "year": 2026,
+        "journal": "Nature Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-026-02551-9",
+        "quote": "We show that the recessive RNU2-2 syndrome is genetically, clinically and mechanistically distinct from the dominant RNU2-2 disorder. Within our cohort, the recessive RNU2-2 syndrome emerges as by far the most frequent recessive NDD, greatly disproportionate to the small genomic footprint of this non-protein-coding gene."
+      },
+      "numbers": [
+        {
+          "metric": "prevalence_characterization",
+          "value": "most frequent recessive NDD in cohort"
+        }
+      ]
+    },
+    {
+      "text": "Henry et al. screened whole-genome sequencing cohorts with complex pediatric epilepsies and identified 14 individuals from 9 families harboring ultra-rare biallelic RNU2-2 variants presenting with a severe DEE phenotype (infantile spasms, tonic seizures, refractory epilepsy), demonstrating that recessive rather than solely dominant variants underlie a substantial subset of RNU2-2 DEE cases.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Phenotypic and transcriptomic characterization of biallelic RNU2\u20102 developmental and epileptic encephalopathy",
+        "authors": [
+          "OJ Henry",
+          "N Pekkola Pacheco",
+          "I Duba",
+          "M Burstedt"
+        ],
+        "year": 2026,
+        "journal": "Epilepsia",
+        "doi": "10.1002/epi.70473",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/epi.70473",
+        "quote": "We identified 14 individuals from nine families with 12 ultra-rare biallelic RNU2-2 variants clustering in the conserved 5' domains... All individuals presented with a highly concordant, severe DEE, characterized by severe to profound intellectual disability, inability to walk or communicate, hyperkinesia, and refractory seizures."
+      },
+      "numbers": [
+        {
+          "metric": "affected_individuals_biallelic",
+          "value": 14
+        },
+        {
+          "metric": "comparison_cohort_complex_pediatric_epilepsies",
+          "value": 703
+        }
+      ]
+    },
+    {
+      "text": "Munro et al. performed genome sequencing on 242 unsolved DEE patients negative on prior genetic testing and identified 5 SNVs/indels in non-coding genes/introns, establishing diagnoses including RNU2-2 DEE and boosting total diagnostic yield by 15%, consistent with non-coding snRNA variants contributing significantly to unsolved DEE cohorts.",
+      "stance": "supports",
+      "source": {
+        "title": "Genome sequencing boosts diagnostic yield for the developmental and epileptic encephalopathies",
+        "authors": [
+          "JE Munro",
+          "H Thiyagarajah",
+          "MF Bennett",
+          "ATG Chiu"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13142584",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13142584/",
+        "quote": "We performed genome sequencing for 242 participants with DEEs negative on prior genetic testing... A molecular diagnosis was discovered for 36/242 (15%) participants... delineation of the features of RNU2\u20132 DEE"
+      },
+      "numbers": [
+        {
+          "metric": "unsolved_cohort_size",
+          "value": 242
+        },
+        {
+          "metric": "total_diagnosed_percentage",
+          "value": 0.15
+        },
+        {
+          "metric": "noncoding_or_intronic_diagnoses",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "In a nationwide population-based study of early-onset drug-resistant epilepsy (n=37, where DEE represented 76%), RNU2-2 was identified as an established monogenic etiology among genetic causes.",
+      "stance": "supports",
+      "source": {
+        "title": "Population-Based Study of Drug-Resistant Epilepsy Before Age Two: Predominance of Developmental and Epileptic Encephalopathies",
+        "authors": [
+          "S Lilles",
+          "K Heidmets",
+          "KT Oja",
+          "K Reinson",
+          "L Roht"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2035-8377/18/5/76",
+        "quote": "Structural abnormalities were observed in 49% of cases (50% of DEEs), most commonly congenital brain malformations (22%). Pathogenic genetic findings were identified in 41% overall (43% of DEEs)... including the novel disease gene RNU2-2"
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 37
+        },
+        {
+          "metric": "dee_percentage",
+          "value": 0.76
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis attributes the 0.5%-2.0% diagnostic yield in unsolved DEE cohorts specifically to dominant de novo RNU2-2 variants, whereas recent systematic sequencing studies show that severe RNU2-2 DEE can also be driven by ultra-rare biallelic (recessive) variants clustering in 5' domains.",
+    "Cohort re-analysis yields vary depending on whether the cohort selection is limited to complex drug-resistant pediatric epilepsies, specific DEE subtypes (e.g., infantile epileptic spasms syndrome/Lennox-Gastaut syndrome phenotypes), or broad unselected neurodevelopmental disorder cohorts."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "What is the relative breakdown of dominant de novo versus biallelic recessive pathogenic variants in RNU2-2 across large prospective unselected DEE cohorts (>1000 patients)?",
+      "rationale": "Clarifying the inheritance modes will determine whether dominant de novo or recessive loss-of-function variants predominate in DEE cohorts and settle the exact yield attributable to each mechanism.",
+      "promise": 0.88,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Can RNA-sequencing on patient-derived fibroblasts or peripheral blood reliably distinguish dominant RNU2-2 mis-splicing profiles from biallelic U2-2 abundance decreases?",
+      "rationale": "Henry et al. demonstrated distinct splicing changes in fibroblasts for biallelic variants, while Jackson et al. observed transcript destabilization and altered U2-2/U2-1 ratios. A direct functional biomarker assay would resolve ambiguous VUS findings.",
+      "promise": 0.82,
+      "est_cost": 25000
+    }
+  ]
+}

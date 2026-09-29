@@ -1,0 +1,106 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical distinction between CHARGE syndrome and KDM2B-related neurodevelopmental disorder cannot reliably depend on the absence of cardinal CHARGE features such as choanal atresia and semicircular canal hypoplasia. First, choanal atresia has incomplete penetrance in confirmed CHARGE syndrome cohorts (reported in only 28% [5/18] of patients in Wineland et al., 2017), meaning its absence does not rule out CHARGE. Second, semicircular canal abnormalities require dedicated high-resolution temporal bone CT imaging, which has not been systematically performed or documented in published KDM2B cohorts. Furthermore, functional studies confirm that KDM2B and CHD7 converge on shared developmental pathways, explaining the extensive phenotypic overlap (coloboma/ocular anomalies, congenital heart defects, and growth retardation) across both conditions.",
+  "evidence": [
+    {
+      "text": "In a cohort of 18 children with CHARGE syndrome evaluated for temporal bone and clinical anomalies, choanal atresia was present in only 28% (5/18), demonstrating that the absence of choanal atresia cannot be used as an exclusionary criterion for CHARGE syndrome. In contrast, semicircular canal anomalies were documented in 100% (18/18) of patients who underwent temporal bone imaging.",
+      "stance": "supports",
+      "source": {
+        "title": "Prevalence of semicircular canal hypoplasia in patients with CHARGE syndrome: 3C syndrome",
+        "authors": [
+          "A Wineland",
+          "MD Menezes",
+          "JS Shimony"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": "10.1001/jamaoto.2016.3175",
+        "pmid": "27832265",
+        "pmc": null,
+        "url": "https://jamanetwork.com/journals/jamaotolaryngology/article-abstract/2583375",
+        "quote": "Coloboma was present in 13 patients (72%) and choanal atresia in 5 (28%); semicircular canal anomalies were present in all patients."
+      },
+      "numbers": [
+        {
+          "metric": "Choanal atresia prevalence in CHARGE cohort",
+          "value": "5/18 (28%)"
+        },
+        {
+          "metric": "Semicircular canal anomalies prevalence in imaged CHARGE cohort",
+          "value": "18/18 (100%)"
+        },
+        {
+          "metric": "Coloboma prevalence in CHARGE cohort",
+          "value": "13/18 (72%)"
+        }
+      ]
+    },
+    {
+      "text": "Retrospective temporal bone CT analysis of 12 patients (24 ears) with CHARGE syndrome demonstrated semicircular canal anomalies in up to 70.8% of ears, highlighting that semicircular canal pathology requires specific temporal bone CT imaging to detect and may not be completely penetrant across all anatomical series.",
+      "stance": "supports",
+      "source": {
+        "title": "Radiologic and audiologic findings in the temporal bone of patients with CHARGE syndrome",
+        "authors": [
+          "J Ha",
+          "F Ong",
+          "B Wood",
+          "S Vijayasekaran"
+        ],
+        "year": 2016,
+        "journal": null,
+        "doi": null,
+        "pmid": "27303220",
+        "pmc": null,
+        "url": "https://www.ochsnerjournal.org/content/16/2/125.abstract",
+        "quote": "Up to 70.8% had abnormalities of the semicircular canal."
+      },
+      "numbers": [
+        {
+          "metric": "Ears with semicircular canal abnormalities",
+          "value": "70.8%"
+        },
+        {
+          "metric": "Normal middle ear cavity",
+          "value": "11/24 (55%)"
+        }
+      ]
+    },
+    {
+      "text": "Functional studies in developmental models establish a direct molecular and developmental link between KDM2B and CHD7, demonstrating that loss or knockdown of KDM2B/fbxl10 rescues craniofacial cartilage and organ phenotypes in chd7-deficient models, explaining the overlapping craniofacial and multi-organ manifestations observed clinically.",
+      "stance": "supports",
+      "source": {
+        "title": "Knockdown of fbxl10/kdm2bb rescues chd7 morphant phenotype in a zebrafish model of CHARGE syndrome",
+        "authors": [
+          "SA Balow",
+          "LX Pierce",
+          "GE Zentner",
+          "PA Conrad"
+        ],
+        "year": 2013,
+        "journal": null,
+        "doi": "10.1016/j.ydbio.2013.07.026",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0012160613004090",
+        "quote": "Strikingly, MO-mediated knockdown of the jumonji domain-containing histone demethylase fbxl10/kdm2bb, a repressor of ribosomal RNA (rRNA) genes, rescues cell proliferation and cartilage defects in chd7 morphant embryos and can lead to complete rescue of the CHARGE syndrome phenotype."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.9,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence of semicircular canal hypoplasia or inner ear malformations on high-resolution temporal bone CT in molecularly confirmed KDM2B-related neurodevelopmental disorder?",
+      "rationale": "Temporal bone imaging has not been systematically conducted or reported in KDM2B cohorts; establishing whether semicircular canal hypoplasia occurs in KDM2B patients will determine whether it is a truly specific discriminator for CHARGE syndrome.",
+      "promise": 0.85,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Can peripheral blood DNA methylation episignatures definitively separate KDM2B-related neurodevelopmental disorder from CHD7-related CHARGE syndrome in patients with ambiguous clinical presentations?",
+      "rationale": "Both KDM2B and CHD7 function in epigenetic regulation and chromatin remodeling; validating distinct, non-overlapping genome-wide DNA methylation signatures could offer a robust diagnostic classifier when clinical features overlap.",
+      "promise": 0.92,
+      "est_cost": 30000
+    }
+  ]
+}

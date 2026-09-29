@@ -1,0 +1,98 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across clinical cohorts confirms that cerebellar atrophy on neuroimaging is not an obligate (100% penetrant) finding in TUBA4A-associated spastic ataxia (SPAX11). While Benkirane et al. (2024) observed pronounced cerebellar atrophy in probands with de novo and severe missense variants, Torella et al. (2023) identified 12 affected individuals across two families carrying the p.Glu415Lys variant who displayed spastic ataxia with slight or completely absent cerebellar atrophy on brain MRI. OMIM #621226 similarly documents that cerebellar atrophy is 'often' present but not invariant (e.g., questionable vermian atrophy in early or milder presentations). Thus, neuroimaging penetrance varies based on the specific pathogenic variant and stage of disease progression.",
+  "evidence": [
+    {
+      "text": "In two families segregating the TUBA4A p.Glu415Lys variant (12 affected individuals total: 11 in one family and one sporadic case), neuroimaging of affected individuals demonstrated spastic ataxia with slight or absent cerebellar atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000). The phenotype, not previously described, is that of spastic ataxia. Our findings widen the phenotypic and genetic manifestations of TUBA4A variants and add a new type of spastic ataxia to be taken into consideration in the differential diagnosis."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals across families",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Screening of 448 unrelated probands presenting with cerebellar ataxia identified 12 patients carrying predicted pathogenic TUBA4A missense variants (including five de novo cases), in which spasticity, cerebellar ataxia, and marked cerebellar atrophy were key phenotypic features.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+        "authors": [
+          "M Benkirane",
+          "M Bonhomme",
+          "H Morsy",
+          "SL Safgren"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "38884572",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+        "quote": "By screening a multicentric French cohort of 448 unrelated probands presenting with cerebellar ataxia, we identified ultra-rare TUBA4A missense variants... Taken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation, including five confirmed de novo cases and a mutation previously reported in a large family presenting with spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "screened ataxia probands",
+          "value": 448
+        },
+        {
+          "metric": "identified TUBA4A mutation cases",
+          "value": 12
+        },
+        {
+          "metric": "confirmed de novo cases",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621226 for autosomal dominant spastic ataxia 11 records that brain imaging often demonstrates cerebellar atrophy, with some cases exhibiting subtle or questionable atrophy of the upper vermis rather than uniform pancerebellar atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; SPAX11",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621226",
+        "quote": "is a progressive neurologic disorder. Brain imaging often shows cerebellar atrophy. Brain MRI showed questionable atrophy of the upper vermis."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the quantitative rate of progression of cerebellar and vermian volume loss on longitudinal volumetric MRI in TUBA4A p.Glu415Lys carriers versus other missense variants?",
+      "rationale": "Distinguishing duration dependence from strictly allele-specific effects requires prospective or serial volumetric neuroimaging tracking affected and presymptomatic carriers over time.",
+      "promise": 0.85,
+      "est_cost": 40000
+    },
+    {
+      "question_text": "Do differential effects of TUBA4A mutations on microtubule polymer dynamics or motor protein interactions correlate directly with the severity of Purkinje cell loss and cerebellar atrophy?",
+      "rationale": "Benkirane et al. demonstrated altered microtubule dynamics in patient fibroblasts; correlating specific biophysical parameters of tubulin polymerization across different alleles (such as p.Glu415Lys vs de novo variants) could explain differences in cerebellar degenerative penetrance.",
+      "promise": 0.78,
+      "est_cost": 65000
+    }
+  ]
+}

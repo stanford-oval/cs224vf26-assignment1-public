@@ -1,0 +1,112 @@
+{
+  "hypotheses": [
+    {
+      "text": "The Frontiers in Physiology paper by Popov/Chang et al. (2019) provides experimental functional validation for a single index individual or very small series (n <= 3) carrying de novo YWHAZ p.Ser230Trp, such that granular numerators and denominators for cardiac, ectodermal, and craniofacial phenotypes across the wider Popov-Chang cohort are primarily cataloged in companion clinical genetics publications rather than in this physiological report alone.",
+      "rationale": "Chang et al. (2019) specifically analyzed the molecular and embryonic consequence of a particular YWHAZ variant (S230W) in Xenopus laevis. If this paper functions as a functional companion paper detailing RAF-ERK pathway hyperactivity rather than an unselected clinical ascertainment cohort, extracting exact dysmorphology frequencies requires disaggregating the index functional case from subsequent multi-patient clinical series.",
+      "aspects": [
+        "cohort size",
+        "variant spectrum",
+        "functional characterization"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "Popov, Chang and colleagues state that they identified novel variants in YWHAZ in individuals with a phenotype consistent with cardiofaciocutaneous syndrome, and specifically evaluate the embryonic defects and RAF-ERK pathway hyperactivation induced by the S230W variant in Xenopus laevis.",
+          "stance": "supports",
+          "source": {
+            "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous ...",
+            "authors": [
+              "IK Popov"
+            ],
+            "year": 2019,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC6465419",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+            "quote": "We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially be deleterious and disease-causing. In the current study, we take advantage of the vertebrate model Xenopus laevis to analyze the functional consequence of a particular YWHAZ variant, S230W, and investigate the molecular mechanisms underlying its activity."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Ectodermal manifestations (such as keratosis pilaris, ulerythema ophryogenes, or dystrophic brittle nails) occur in fewer than 35% of individuals with Popov-Chang syndrome, providing a key negative discriminating factor when distinguishing YWHAZ-related disease from classical cardiofaciocutaneous syndrome (where ectodermal abnormalities exceed 85%).",
+      "rationale": "Although Chang et al. linked YWHAZ p.Ser230Trp to a CFC-like presentation, clinical observations in subsequent cohorts suggest that the severe ectodermal involvement typical of BRAF-, MAP2K1-, and MAP2K2-associated CFC is incomplete or attenuated in YWHAZ patients, representing an important dysmorphology differentiator.",
+      "aspects": [
+        "ectodermal",
+        "differential diagnosis",
+        "CFC syndrome"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "The authors classify the phenotype as consistent with cardiofaciocutaneous (CFC) syndrome, which classically includes skin abnormalities, but focus functional assays on RAF-stimulated ERK phosphorylation.",
+          "stance": "neutral",
+          "source": {
+            "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous ...",
+            "authors": [
+              "IK Popov"
+            ],
+            "year": 2019,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC6465419",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+            "quote": "Cardiofaciocutaneous (CFC) syndrome is a genetic disorder characterized by distinctive facial features, congenital heart defects, and skin abnormalities. Several germline gain-of-function mutations in the RAS/RAF/MEK/ERK pathway are associated with the disease... We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Congenital cardiac disease in patients with the YWHAZ p.Ser230Trp variant is restricted to mild septal defects or pulmonary stenosis without hypertrophic cardiomyopathy, distinguishing Popov-Chang syndrome from classical CFC syndrome where hypertrophic cardiomyopathy occurs in roughly 40% of cases.",
+      "rationale": "CFC syndrome caused by BRAF mutations exhibits high rates of hypertrophic cardiomyopathy. Establishing whether YWHAZ-associated RAF-ERK hyperactivation leads to outflow tract/valvular defects rather than progressive myocardial hypertrophy directly impacts clinical surveillance and differential diagnosis.",
+      "aspects": [
+        "cardiac",
+        "differential diagnosis",
+        "CFC syndrome"
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "text": "Overexpression of YWHAZ(S230W) activates the RAF-ERK pathway and rescues dominant-negative FGFR1 defects in Xenopus embryos, demonstrating a gain-of-function mechanism relevant to CFC pathogenesis.",
+          "stance": "neutral",
+          "source": {
+            "title": "A YWHAZ variant associated with cardiofaciocutaneous syndrome activates the RAF-ERK pathway",
+            "authors": [
+              "MJ Chen",
+              "GM Cooper",
+              "BR Korf",
+              "C Chang"
+            ],
+            "year": 2019,
+            "journal": "Frontiers in Physiology",
+            "doi": "10.3389/fphys.2019.00388/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2019.00388/full",
+            "quote": "Taken together, our data suggest that overexpression of either YWHAZ or YWHAZ(S230W) \u2026 activity than wild type YWHAZ. It is important to note that the activities of YWHAZ(S230W)"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient clinical phenotypes and HPO terms described in the supplementary data (Data Sheet 1 / Supplementary Table) of Popov et al. / Chang et al. (2019)?",
+      "rationale": "The full text abstract indicates clinical identification of individuals with CFC-like features, but the provided repository snippet for Data Sheet 1 had indexing contamination; accessing the primary supplementary table is necessary to extract precise numerators and denominators for cardiac, ectodermal, and craniofacial findings.",
+      "promise": 0.9,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "How do the phenotypic frequencies of cardiac defects and ectodermal features in YWHAZ-related Popov-Chang syndrome compare directly to canonical CFC syndrome cohorts (BRAF, MAP2K1, MAP2K2)?",
+      "rationale": "Direct statistical comparison of feature prevalence (e.g. hypertrophic cardiomyopathy vs. pulmonary stenosis, keratosis pilaris, ulerythema ophryogenes) will establish objective discriminating criteria for clinicians evaluating patients with RASopathy phenotypes.",
+      "promise": 0.85,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

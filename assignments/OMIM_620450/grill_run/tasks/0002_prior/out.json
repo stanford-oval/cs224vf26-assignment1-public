@@ -1,0 +1,59 @@
+{
+  "knowledge": "Intellectual developmental disorder, autosomal dominant 73 (MRD73, OMIM #620450) is caused by heterozygous pathogenic de novo or inherited variants in the TAF4 gene on chromosome 20q13. TAF4 encodes TATA-box binding protein associated factor 4, a major subunit of the TFIID complex involved in RNA polymerase II transcription initiation. MRD73 is characterized by global developmental delay, intellectual disability ranging from mild to severe, prominent speech delay, behavioral abnormalities (such as ADHD or autistic features), and variable dysmorphic facial features. Reported cohorts describe neurodevelopmental deficits, microcephaly or relatively small head circumference in some, hypotonia, and non-specific dysmorphisms such as prominent forehead, arched eyebrows, epicanthal folds, and thin upper lip. Because TAF4-related intellectual disability has only recently been delineated (primarily in studies from 2020 to 2023), published case series are small, and definitive clinical differentiation based purely on phenotype without molecular genetic testing is extremely challenging due to high overlap with other syndromic neurodevelopmental and transcriptional machinery disorders.",
+  "prior_hypothesis": "Identifying an individual with TAF4-related MRD73 purely on clinical phenotype is not definitively possible without genetic sequencing due to marked phenotypic overlap with other transcriptional machinery neurodevelopmental syndromes (e.g., Coffin-Siris, Nicolaides-Baraitser, or other TFIID subunit disorders like TAF1/TAF2). However, a high clinical index of suspicion is raised by the combination of severe early expressive language delay out of proportion to motor delay, prominent hypotonia in infancy progressing to behavioral/neurodevelopmental deficits (ADHD, ASD traits), microcephaly or borderline small head circumference, slender habitus, and mild distinctive facial gestalt (broad forehead, arched eyebrows, deep-set eyes, depressed nasal bridge, and thin vermilion border), in the absence of severe structural organ malformations or coarse progressive facial features.",
+  "candidate_answers": [
+    {
+      "answer": "Global developmental delay / intellectual disability is present in 100% of reported individuals across published cohorts (e.g., Loucks et al. / primary series), with expressive language delay being more pronounced than receptive language or gross motor delay (HP:0001263, HP:0000750).",
+      "confidence": 0.85,
+      "aspect": "Core phenotype frequencies"
+    },
+    {
+      "answer": "Dysmorphic facial features are documented in a majority of patients (>70%) including high/prominent forehead (HP:0000348), arched eyebrows (HP:0002553), epicanthal folds (HP:0000286), depressed nasal bridge (HP:0005280), and thin upper lip vermilion (HP:0000219).",
+      "confidence": 0.7,
+      "aspect": "Dysmorphic features and frequencies"
+    },
+    {
+      "answer": "Microcephaly (HP:0000252) or borderline small head circumference occurs in roughly 30-50% of assessed patients, while secondary findings like seizures or epilepsy (HP:0001250) occur in a minority (<25-30%).",
+      "confidence": 0.65,
+      "aspect": "Neurological phenotype frequencies"
+    },
+    {
+      "answer": "MRD73 is most easily confused with Coffin-Siris syndrome (BAF complex) and Nicolaides-Baraitser syndrome (SMARCA2); distinguishing clues include the lack of hypoplastic fifth fingernails/toenails and lack of coarse progressive facial features in TAF4 patients.",
+      "confidence": 0.75,
+      "aspect": "Differential diagnosis and discriminating findings"
+    },
+    {
+      "answer": "Major congenital internal organ anomalies (such as complex cyanotic congenital heart disease, tracheoesophageal fistula, or renal agenesis) are absent or extremely atypical, arguing strongly against a primary TAF4 diagnosis if present.",
+      "confidence": 0.8,
+      "aspect": "Exclusionary findings"
+    },
+    {
+      "answer": "Genotype-phenotype correlations suggest that missense variants clustering in conserved TAF homology domains or histone-fold domains cause a recognizable dominant-negative or loss-of-function phenotype, whereas truncating variants may have varying penetrance or severity.",
+      "confidence": 0.6,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "TAF4",
+    "OMIM #620450",
+    "Intellectual developmental disorder, autosomal dominant 73 (MRD73)",
+    "TFIID complex",
+    "TATA-box binding protein associated factor 4",
+    "Global developmental delay (HP:0001263)",
+    "Intellectual disability (HP:0001249)",
+    "Delayed speech and language development (HP:0000750)",
+    "Microcephaly (HP:0000252)",
+    "Hypotonia (HP:0001252)"
+  ],
+  "open_questions": [
+    "What exact cohort sizes and numerator/denominator tallies for specific HPO terms are reported across the definitive TAF4 discovery and characterization papers (e.g., Loucks et al. or other primary clinical genetic papers)?",
+    "What specific facial recognition or gestalt score (e.g., GestaltMatcher / Face2Gene) differentiates TAF4 variants from other TAF-complex disorders (such as TAF1, TAF2, and TAF6)?",
+    "Are there any discordant phenotypes reported between de novo missense vs. truncating or splice-site variants in TAF4?",
+    "What percentage of patients exhibit structural brain anomalies on brain MRI (such as corpus callosum abnormalities or delayed myelination) versus normal neuroimaging?"
+  ],
+  "assumptions": [
+    "The scope is restricted specifically to autosomal dominant heterozygous TAF4-associated MRD73 (OMIM #620450), excluding recessive or non-coding regulatory TAF4 conditions if any exist.",
+    "Reported frequencies must be verified against primary human clinical genetics publications reporting series or cohorts of individuals with pathogenic TAF4 variants.",
+    "A definitive diagnosis typically requires molecular confirmation (exome/genome sequencing), meaning phenotypic differentiation relies on distinguishing statistical combinations and absence of hallmark features of other syndromes rather than a single pathognomonic sign."
+  ]
+}

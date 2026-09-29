@@ -1,0 +1,49 @@
+{
+  "plausible": true,
+  "note": "Literature directly reports a homozygous SGSM3 founder variant in Ashkenazi Jews with a carrier frequency of approximately 1 in 52 in gnomAD.",
+  "confidence": 0.95,
+  "evidence": [
+    {
+      "text": "gnomAD population data suggests that approximately 1 in 52 Ashkenazi Jewish individuals is a carrier of the SGSM3 founder variant associated with autosomal recessive intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "Birnbaum-et-al-2023-SGSM3.pdf",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://doryeshorim.org/wp-content/uploads/2025/03/Birnbaum-et-al-2023-SGSM3.pdf",
+        "quote": "Population frequency data in gnomAD15 suggests that 1 in ~52 Ashkenazi Jews is a carrier of the SGSM3 c. ... We identified a founder variant in Ashkenazi Jews"
+      },
+      "numbers": [
+        {
+          "metric": "Ashkenazi Jewish carrier frequency",
+          "value": "1 in ~52"
+        }
+      ]
+    },
+    {
+      "text": "SGSM3 is considered a founder variant in Ashkenazi Jews with approximately 1 in 52 individuals carrying the variant.",
+      "stance": "supports",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=SGSM3",
+        "quote": "Considered a founder variant (1 in 52 Ashkenazi Jews carry the variant). Also present in other populations but no homozygotes in gnomAD."
+      },
+      "numbers": [
+        {
+          "metric": "carrier frequency",
+          "value": "1 in 52"
+        }
+      ]
+    }
+  ]
+}

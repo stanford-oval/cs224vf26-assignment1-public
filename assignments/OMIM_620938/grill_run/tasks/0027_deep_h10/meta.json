@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"cavitating leukoencephalopathy\" MRI",
+    "NFU1 SPG93 spastic paraplegia leukoencephalopathy cavitation neuroimaging phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/acn3.51679",
+      "title": "Phenotypic continuum of NFU1\u2010related disorders",
+      "pmid": null,
+      "doi": "10.1002/acn3.51679",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "10.1212/nxg.0000000000000184",
+      "title": "IBA57 mutations abrogate iron-sulfur cluster assembly leading to cavitating leukoencephalopathy",
+      "pmid": null,
+      "doi": "10.1212/nxg.0000000000000184",
+      "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000000184",
+      "abstract_chars": 1814
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+      "title": "A complicated intrathecal baclofen pump implantation in a child with spastic Diplegia: Should a genetic mimic of cerebral palsy be Considered?",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    },
+    {
+      "id": "36256512",
+      "title": "Phenotypic continuum of NFU1 \u2010related disorders - PMC - NIH",
+      "pmid": "36256512",
+      "doi": "10.1002/acn3.51679",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9735368/",
+      "abstract_chars": 822
+    },
+    {
+      "id": "https://www.malacards.org/card/spastic_paraplegia_93_autosomal_recessive",
+      "title": "Spastic Paraplegia 93, Autosomal Recessive (SPG93)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/spastic_paraplegia_93_autosomal_recessive",
+      "abstract_chars": 0
+    },
+    {
+      "id": "24462778",
+      "title": "Leukoencephalopathy with cysts and hyperglycinemia may ...",
+      "pmid": "24462778",
+      "doi": "10.1016/j.mito.2014.01.003",
+      "url": "https://www.semanticscholar.org/paper/c77f5cfa4c181abe5acdab726e02b871130db2c7",
+      "abstract_chars": 791
+    },
+    {
+      "id": "28913435",
+      "title": "IBA57 mutations abrogate iron-sulfur cluster assembly ...",
+      "pmid": "28913435",
+      "doi": "10.1212/NXG.0000000000000184",
+      "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000000184",
+      "abstract_chars": 1814
+    },
+    {
+      "id": "10.1186/s13023-015-0237-6",
+      "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+      "pmid": null,
+      "doi": "10.1186/s13023-015-0237-6",
+      "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+      "abstract_chars": 653
+    }
+  ],
+  "input_tokens": 5842,
+  "output_tokens": 3238,
+  "usd": 0.01264,
+  "seconds": 21.4,
+  "ok": true
+}

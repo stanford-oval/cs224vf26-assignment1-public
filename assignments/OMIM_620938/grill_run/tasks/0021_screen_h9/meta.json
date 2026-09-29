@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"hyperglycinemia\" \"spastic paraplegia\"",
+    "NFU1 SPG93 spastic paraplegia glycine hyperglycinemia"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "24334290",
+      "title": "Variant non ketotic hyperglycinemia is caused by mutations in LIAS, BOLA3 and the novel gene GLRX5",
+      "pmid": "24334290",
+      "doi": "10.1093/brain/awt328",
+      "url": "https://academic.oup.com/brain/article-abstract/137/2/366/282721",
+      "abstract_chars": 2342
+    },
+    {
+      "id": "10.1002/ajmg.a.70213",
+      "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.70213",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+      "abstract_chars": 1837
+    },
+    {
+      "id": "26688339",
+      "title": "A leaky splicing mutation in NFU1 is associated with a particular biochemical phenotype. Consequences for the diagnosis",
+      "pmid": "26688339",
+      "doi": "10.1016/j.mito.2015.12.004",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1567724915300416",
+      "abstract_chars": 864
+    },
+    {
+      "id": "https://books.google.com/books?hl=en&lr=&id=GReQDwAAQBAJ&oi=fnd&pg=PA237&dq=%22NFU1%22+%22hyperglycinemia%22+%22spastic+paraplegia%22&ots=U3cFeUlOjV&sig=KO5tKOLZb6m31d9Gn__i34ENz5k",
+      "title": "Hereditary Disorders and Human Mutations of Iron-Sulfur Assembly Genes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://books.google.com/books?hl=en&lr=&id=GReQDwAAQBAJ&oi=fnd&pg=PA237&dq=%22NFU1%22+%22hyperglycinemia%22+%22spastic+paraplegia%22&ots=U3cFeUlOjV&sig=KO5tKOLZb6m31d9Gn__i34ENz5k",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC4333890",
+      "title": "New spastic paraplegia phenotype associated to mutation of ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333890/",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/abs/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "10.1002/acn3.51679",
+      "title": "Phenotypic continuum of NFU1\u2010related disorders",
+      "pmid": null,
+      "doi": "10.1002/acn3.51679",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/acn3.51679",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1186/s13023-015-0237-6",
+      "title": "New spastic paraplegia phenotype associated to mutation of ...",
+      "pmid": null,
+      "doi": "10.1186/s13023-015-0237-6",
+      "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-106550.2",
+      "title": "NFU1 | mitochondrial disease | Autosomal recessive by ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-106550.2",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5212,
+  "output_tokens": 1301,
+  "usd": 0.00651,
+  "seconds": 17.1,
+  "ok": true
+}

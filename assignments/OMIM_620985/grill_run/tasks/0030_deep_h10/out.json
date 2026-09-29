@@ -1,0 +1,162 @@
+{
+  "verdict": "supported",
+  "rationale": "Across published cohorts characterizing Karayol-Borroto-Haghshenas neurodevelopmental syndrome (OMIM #620985), individuals carrying protein-truncating variants (PTVs) and pathogenic domain-specific missense variants exhibit equivalent core clinical presentations. Karayol et al. (2024) demonstrated that both missense and truncating de novo variants in MSL2 result in shared core features, including global developmental delay, hypotonia, motor coordination deficits, and characteristic dysmorphisms, while converging on reduced MSL2 protein expression in patient-derived iPSCs and a unified, highly specific peripheral blood DNA methylation episignature. Torene et al. (2024) and Lu et al. (2024) further confirmed that individuals with truncating variants present with clinical findings and neurodevelopmental severity comparable to those with missense alterations, supporting haploinsufficiency as the primary pathogenic mechanism rather than a distinct, significantly more severe phenotypic class.",
+  "evidence": [
+    {
+      "text": "Karayol et al. delineated 25 individuals harboring de novo heterozygous missense or protein-truncating variants in MSL2, showing that both variant classes present with shared core clinical features including global developmental delay, intellectual disability, hypotonia, motor coordination problems, dysmorphic features, and a uniform DNA methylation episignature, accompanied by reduced MSL2 protein levels in patient-derived iPSCs.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.004",
+        "pmid": null,
+        "pmc": "PMC11267526",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Here we describe 25 individuals with heterozygous, missense, or protein-truncating variant alleles in MSL2, delineating genotypes and phenotypes associated these variants with... MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals_in_cohort",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Lu et al. evaluated 3 novel de novo protein-truncating variants in MSL2 alongside 15 previously recorded PTV cases from genomic databases and cohorts, demonstrating that PTVs manifest with syndromic neurodevelopmental disorder, dysmorphic facial features, and autism spectrum disorder, aligning with the general phenotypic presentation seen in missense cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Novel protein-truncating variants of a chromatin-modifying gene MSL2 in syndromic neurodevelopmental disorders",
+        "authors": [
+          "X Lu",
+          "K Ng",
+          "F Pinto e Vairo",
+          "J Collins",
+          "R Cohn"
+        ],
+        "year": 2024,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-024-01576-0",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01576-0",
+        "quote": "We reported first time the detailed clinical features associated with 3 MSL2 PTVs. There are 15 PTVs (13 de novo) reported from the large genomics studies (12 cases) or ClinVar (3 cases) of NDD, ASD, and developmental disorders (DD)... our descriptions of dysmorphic face and other features support the causal role of MSL2 in a likely syndromic neurodevelopmental disorder"
+      },
+      "numbers": [
+        {
+          "metric": "novel_ptv_cases_described",
+          "value": 3
+        },
+        {
+          "metric": "total_ptv_cases_reviewed",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Torene et al. conducted a systematic evaluation of 29,031 neurodevelopmental parent-offspring trios, highlighting MSL2 among enriched genes where frameshift and truncating variants display phenotypic presentation in individuals with neurodevelopmental disorders similar to those harboring missense variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Systematic analysis of variants escaping nonsense-mediated decay uncovers candidate Mendelian diseases",
+        "authors": [
+          "RI Torene",
+          "MJG Sacoto",
+          "F Millan",
+          "Z Zhang"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00402-0",
+        "quote": "Frameshift and missense variants in HDAC2 and MSL2 have... in individuals with NDD similar to the missense individuals."
+      },
+      "numbers": [
+        {
+          "metric": "trio_cohort_size",
+          "value": 29031
+        }
+      ]
+    },
+    {
+      "text": "Zhang et al. prioritized candidate genes across 1,102 patients with neurodevelopmental disorders in China, identifying two de novo protein-truncating variants in MSL2 (p.L192Vfs*3 and p.S486Ifs*11) presenting with non-syndromic to syndromic neurodevelopmental features consistent with the core mutational spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "Targeted sequencing and integrative analysis to prioritize candidate genes in neurodevelopmental disorders",
+        "authors": [
+          "Y Zhang",
+          "T Wang",
+          "Y Wang",
+          "K Xia",
+          "J Li",
+          "Z Sun"
+        ],
+        "year": 2021,
+        "journal": "Molecular Neurobiology",
+        "doi": "10.1007/s12035-021-02377-y",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s12035-021-02377-y",
+        "quote": "We highlighted MSL2, which carried two de novo protein-truncating variants (p.L192Vfs*3 and p.S486Ifs*11) and was frequently connected with known candidate genes."
+      },
+      "numbers": [
+        {
+          "metric": "de_novo_ptvs_identified",
+          "value": 2
+        },
+        {
+          "metric": "patient_cohort_size",
+          "value": 1102
+        }
+      ]
+    },
+    {
+      "text": "Zgheib et al. reported a de novo splice variant in MSL2 causing frameshift/loss-of-function in an infant presenting prenatally with ventriculomegaly who demonstrated mild developmental delay at 11 months, indicating that truncating variants do not invariably produce catastrophic or significantly aggravated phenotypes compared to missense variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+        "authors": [
+          "O Zgheib",
+          "T Rio Frio",
+          "JM Pellegrinelli",
+          "S Gimelli"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+        "quote": "RNA study on amniotic fluid cells showed an intronic inclusion and frameshift, consistent with loss-of-function intolerance... Clinical evaluation at 11 months revealed only a mild developmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "age_at_evaluation_months",
+          "value": 11
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Does the specific peripheral blood DNA methylation episignature quantitatively separate MSL2 truncating variants from domain-specific missense alleles?",
+      "rationale": "Karayol et al. identified a shared episignature across MSL2 cases, but evaluating whether subtle probe-level subclustering distinguishes truncating from missense mutations will test if minor differential chromatin disruption exists.",
+      "promise": 0.88,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "Do missense variants outside the recognized functional domains (e.g., RING, CXC) act via dominant-negative interference or pure haploinsufficiency?",
+      "rationale": "Functional assays in patient iPSC-derived neuronal progenitors assessing H2B mono-ubiquitination (H2BK34ub) and H4K16ac deposition across structured vs. unstructured missense variants can conclusively determine if any subset exhibits dominant-negative effects.",
+      "promise": 0.82,
+      "est_cost": 65000
+    }
+  ]
+}

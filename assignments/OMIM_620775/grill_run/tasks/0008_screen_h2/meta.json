@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"myopathic facies\" ptosis palate micrognathia phenotype",
+    "FILIP1 congenital neuromuscular disorder dysmorphic facies clinical features"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/620775",
+      "title": "Entry - #620775 - NEUROMUSCULAR DISORDER, ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620775",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies",
+      "title": "Neuromuscular Disorder, Congenital, with Dysmorphic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies",
+      "abstract_chars": 0
+    },
+    {
+      "id": "37626540",
+      "title": "Bailey-Bloch Congenital Myopathy in Brazilian Patients",
+      "pmid": "37626540",
+      "doi": "10.3390/brainsci13081184",
+      "url": "https://www.researchgate.net/publication/373041651_Bailey-Bloch_Congenital_Myopathy_in_Brazilian_Patients_A_Very_Rare_Myopathy_with_Malignant_Hyperthermia_Susceptibility",
+      "abstract_chars": 1275
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=SET",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=SET",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/389824849_Arthrogryposis",
+      "title": "Arthrogryposis | Request PDF",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/389824849_Arthrogryposis",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02158-y",
+      "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02158-y",
+      "abstract_chars": 1803
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s00439-023-02528-2",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+      "pmid": null,
+      "doi": "10.1007/s00439-023-02528-2",
+      "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+      "abstract_chars": 1116
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/17/6/675",
+      "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/17/6/675",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4304,
+  "output_tokens": 1580,
+  "usd": 0.00689,
+  "seconds": 11.7,
+  "ok": true
+}

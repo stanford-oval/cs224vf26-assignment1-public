@@ -1,0 +1,73 @@
+{
+  "patterns": [
+    {
+      "pattern": "Ascertainment bias across discovery cohorts creates divergent estimates of core phenotypic penetrance, particularly for epilepsy.",
+      "abstraction": "Phenotype frequencies reported during early disease characterization are heavily distorted by the specialty of the ascertainment cohort, leading to conflicting estimates of hallmark penetrance.",
+      "instance": "Epilepsy frequency in GTF3C3 cohorts varies from 50% (2/4 in Abdel-Hamid et al.) to over 90% (11/12 in De Hayr et al. and pooled 82.4% in L\u00f3pez et al.), reflecting differences between syndromic intellectual disability screening and epileptic encephalopathy cohorts.",
+      "direction": "Perform multi-center exome-first screening across unbiased cohorts to define the true baseline penetrance of epilepsy and seizures in GTF3C3 deficiency.",
+      "support": "Strong across multiple cohorts with direct statistical divergence between 50% and 91.7%.",
+      "sources": [
+        "MS Abdel (2025) Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "L De Hayr et al. (2025) Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "L L\u00f3pez (2026) Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases 10.3389/fgene.2026.1860633/full"
+      ],
+      "hypothesis": "Unbiased population-scale sequencing will reveal that the unselected penetrance of clinical seizures in individuals with biallelic GTF3C3 variants is roughly 65-75%, rather than an obligatory hallmark.",
+      "novelty": "Challenges the assumption that early-onset seizures are an absolute diagnostic requirement despite their inclusion in the syndromic title."
+    },
+    {
+      "pattern": "Disorder-defining structural neuroimaging features display incomplete penetrance, preventing negative rule-out by conventional midline markers.",
+      "abstraction": "Syndromic designations often highlight visible midline anomalies that are absent in a large fraction of confirmed cases, undermining their utility as strict exclusionary criteria.",
+      "instance": "Corpus callosum anomalies (agenesis or hypoplasia) occur in only 43.75% (7/16) of evaluated GTF3C3 patients, and simplified gyral patterns occur in <30% (1/4), meaning an intact corpus callosum and normal gyration cannot rule out the condition.",
+      "direction": "Shift diagnostic imaging focus from binary detection of corpus callosum defects to quantitative volumetry of cerebellar structures and frontal lobes.",
+      "support": "Strong pooled frequency data demonstrating absence of corpus callosum defects in over half of evaluated individuals.",
+      "sources": [
+        "L L\u00f3pez (2026) Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases 10.3389/fgene.2026.1860633/full",
+        "MS Abdel (2025) Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish 10.1093/braincomms/fcaf055",
+        "L De Hayr et al. (2025) Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability https://www.sciencedirect.com/science/article/pii/S1098360024001874"
+      ],
+      "hypothesis": "Quantitative volumetric reduction of the cerebellar vermis and hemispheres provides diagnostic sensitivity exceeding 95%, outperforming binary qualitative corpus callosum assessment.",
+      "novelty": "Highlights that primary midline structural defects are variable secondary manifestations rather than necessary gatekeepers for genetic testing."
+    },
+    {
+      "pattern": "Clinician disagreement regarding the presence of a distinct facial gestalt impedes dysmorphology-based differentiation from related transcription-complex disorders.",
+      "abstraction": "Subjective dysmorphological interpretations lead to opposing conclusions about whether a condition is recognizable by sight or presents with non-specific, overlapping features.",
+      "instance": "Abdel et al. assert that GTF3C3 patients have distinctive dysmorphic facies recognizable in infancy, whereas De Hayr et al. report only variable nonfamilial features that overlap broadly with other RNA Pol III/TFIIIC-related conditions.",
+      "direction": "Apply objective three-dimensional deep-learning facial phenotyping against age-matched controls and other TFIIIC/Pol III-related syndromes.",
+      "support": "Moderate, grounded in direct published contradictions between Abdel et al. and De Hayr et al.",
+      "sources": [
+        "MS Abdel (2025) Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "L De Hayr et al. (2025) Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability https://www.sciencedirect.com/science/article/pii/S1098360024001874"
+      ],
+      "hypothesis": "Automated craniofacial gestalt classifiers cannot reliably discriminate GTF3C3 from GTF3C5 or CDK19 disorders above chance levels due to convergent downstream developmental disruptions.",
+      "novelty": "Resolves the clinical debate by demonstrating that dysmorphic facial features alone cannot provide discriminatory diagnostic value in this complex gene family."
+    },
+    {
+      "pattern": "Temporal evolution of neuroradiological signs introduces false negatives during initial presentation in early infancy.",
+      "abstraction": "Progressive neurodevelopmental-neurodegenerative disorders often show normal or near-normal structural neuroimaging in early infancy, with hallmarks emerging only over chronological time.",
+      "instance": "Papuc et al. (2019) documented a DEE patient with GTF3C3 involvement with no identifiable cerebral malformations on early MRI, whereas older cohorts in Abdel et al. and De Hayr et al. exhibit universal cerebellar atrophy and corpus callosum defects.",
+      "direction": "Conduct longitudinal serial brain MRI protocols from birth through mid-childhood in patients with unexplained early-onset developmental delay and epilepsy.",
+      "support": "Moderate, directly supported by Papuc et al.'s contradictory negative MRI finding against Abdel and De Hayr's universal atrophy cohorts.",
+      "sources": [
+        "SM Papuc et al. (2019) The role of recessive inheritance in early-onset epileptic encephalopathies: a combined whole-exome sequencing and copy number study 10.1038/s41431-018-0299-8",
+        "MS Abdel (2025) Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish PMC11878552",
+        "A Chapleau et al. (2026) White matter disorders at the intersection of transcription, RNA processing and translation https://www.nature.com/articles/s41582-026-01248-1"
+      ],
+      "hypothesis": "Cerebellar and forebrain atrophy in GTF3C3-related disorder is an active progressive neurodegenerative process rather than a static congenital malformation, becoming radiologically detectable only after 12-24 months of life.",
+      "novelty": "Reframes NEDFABS from a purely static malformation syndrome to a progressive atrophic disorder where early normal neuroimaging does not exclude diagnosis."
+    },
+    {
+      "pattern": "Shared transcriptional subunit disruption blurs phenotypic distinctions between hypomyelinating leukodystrophies and structural hindbrain/forebrain malformations.",
+      "abstraction": "Variants in distinct subunits of the same transcription factor or polymerase machinery produce continuous, overlapping neuroimaging spectra that bridge white matter and structural brain disease.",
+      "instance": "GTF3C3 is reported by Abdel et al. with cerebellar atrophy and frontal hypoplasia rather than classical leukodystrophy, yet Chapleau et al. categorize it within white matter/hypomyelination disorders alongside GTF3C5 and POLR3.",
+      "direction": "Investigate cell-type-specific Pol III transcriptome profiles across oligodendrocytes and cerebellar granule neurons to map molecular targets driving demyelination versus neurodegeneration.",
+      "support": "Moderate, reflecting the intersection of transcription-factor literature and leukoencephalopathy classification.",
+      "sources": [
+        "A Chapleau et al. (2026) White matter disorders at the intersection of transcription, RNA processing and translation https://www.nature.com/articles/s41582-026-01248-1",
+        "MS Abdel (2025) Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "A Iwata (2024) Biallelic variants in GTF3C5, a regulator of RNA polymerase III-mediated transcription, cause a multisystem developmental disorder 10.1007/s00439-024-02656-3"
+      ],
+      "hypothesis": "GTF3C3 variants with severe TFIIIC2 assembly defects simultaneously impair oligodendrocyte precursor maturation and cerebellar neuronal survival, creating a mixed leuko-structural hybrid phenotype.",
+      "novelty": "Reconciles conflicting characterizations of GTF3C3 as either a structural brain malformation syndrome or a leukodystrophy spectrum disorder."
+    }
+  ]
+}

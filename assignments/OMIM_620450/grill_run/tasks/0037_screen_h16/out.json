@@ -1,0 +1,49 @@
+{
+  "plausible": true,
+  "note": "OMIM #620450 and PanelApp explicitly confirm that two unrelated probands with de novo LoF variants in TAF4 were reported by Bertoli-Avella et al. (2021; PMID: 33875846).",
+  "confidence": 0.98,
+  "evidence": [
+    {
+      "text": "OMIM entry #620450 documents that Bertoli-Avella et al. (2021) reported two unrelated patients with neurodevelopmental delay and dysmorphic facial features.",
+      "stance": "supports",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "Bertoli-Avella et al. (2021) reported 2 unrelated patients with neurodevelopmental delay and dysmorphic facial"
+      },
+      "numbers": [
+        {
+          "metric": "unrelated patients reported",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "PanelApp records for TAF4 in intellectual disability cite Bertoli-Avella et al. (2021, PMID: 33875846) as having identified two de novo loss-of-function variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": "33875846",
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "PMID: 33875846 - Bertoli-Avella et al 2021 - identified two de novo LoF variants ... gene: TAF4 was added gene: TAF4 was added to Intellectual disability."
+      },
+      "numbers": [
+        {
+          "metric": "de novo LoF variants identified",
+          "value": 2
+        }
+      ]
+    }
+  ]
+}

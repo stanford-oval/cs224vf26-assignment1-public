@@ -1,0 +1,62 @@
+{
+  "patterns": [
+    {
+      "pattern": "Allelic divergence between dominant-negative missense variants and haploinsufficient truncating variants dictates structural brain penetrance and cognitive severity",
+      "abstraction": "Different mutation mechanisms within the same neurodevelopmental locus produce bifurcated phenotypic spectra, where dominant-negative missense changes cause severe structural dysgenesis while loss-of-function alleles produce attenuated, non-malformative neurodevelopmental phenotypes",
+      "instance": "De novo recurrent missense variants in MAPK8IP3 (such as p.Arg578Cys) associate with microcephaly (3/13 in Platzer et al.), thinning of the corpus callosum, and profound cognitive impairment via dominant-negative interference with retrograde transport, whereas heterozygous truncating alleles lead to partial loss of function with preserved gross brain morphogenesis and a wider cognitive spectrum (mean DAS-II GCA 62.5 in Sudnawa et al.)",
+      "direction": "Systematically screen structural neuroimaging and quantitative cognitive scores stratified by variant class (missense versus truncating/splice-site) to establish distinct clinical management and prognostication guidelines",
+      "support": "Strong pooled evidence from multi-cohort genomic and functional studies showing distinct cellular and morphological impacts across 32 patients in Sudnawa et al. and 13 patients in Platzer et al.",
+      "sources": [
+        "10.1016/j.ajhg.2018.12.008",
+        "10.1111/cge.70032",
+        "10.1002/ana.25481",
+        "PMC12016931"
+      ],
+      "hypothesis": "Recurrent missense variants in the leucine zipper and JNK-binding domains exert a dominant-negative multimer poisoning effect on the dynein-dynactin retrograde machinery, whereas truncating variants retain sufficient residual functional transport capacity to avert structural dysmorphology",
+      "novelty": "Challenges the conventional assumption that truncating loss-of-function variants inherently produce more severe developmental syndromes than missense variants"
+    },
+    {
+      "pattern": "Obligate neurodevelopmental and cognitive impairment demarcates complex motor presentations from pure hereditary motor neuron disorders",
+      "abstraction": "A neurodevelopmental disorder with prominent motor and tone deficits masquerades as isolated motor pathology, yet the obligate presence of cognitive dysfunction provides the pivotal clinical boundary separating it from classical neuromuscular mimics",
+      "instance": "Heterozygous MAPK8IP3 variants frequently manifest with spastic diplegia or congenital hypotonia resembling hereditary spastic paraplegia (HSP) or spinal muscular atrophy (SMA), but all reported cases universally exhibit developmental delay, intellectual disability, or specific learning deficits (13/13 in Platzer et al., 5/5 in Iwasawa et al.), ruling out pure lower motor neuron degeneration or uncomplicated HSP",
+      "direction": "Incorporate formal neurodevelopmental and cognitive profiling early in differential diagnostic pipelines for pediatric spastic diplegia and non-5q congenital hypotonia",
+      "support": "Robust evidence across independent cohorts confirming that purely motor phenotypes do not occur in isolation in heterozygous MAPK8IP3-related disorder",
+      "sources": [
+        "10.1016/j.ajhg.2018.12.008",
+        "10.1002/ana.25481",
+        "10.1002/ajmg.a.63340",
+        "10.3390/brainsci11020152"
+      ],
+      "hypothesis": "JIP3-mediated endolysosomal retrograde trafficking is constitutively required for forebrain synaptogenesis and cortical networking, ensuring that any transport disruption severe enough to disrupt peripheral corticospinal tract axons will concurrently disrupt supratentorial cognitive networks",
+      "novelty": "Clarifies that suspected pure motor disorders presenting with MAPK8IP3 variants reflect diagnostic under-ascertainment of mild cognitive impairment rather than genuine tissue-specific phenotypic escape"
+    },
+    {
+      "pattern": "Sub-threshold penetrance of secondary neurological signs reflects selective circuit-level vulnerability to defective retrograde axonal clearance",
+      "abstraction": "Disruption of ubiquitous subcellular clearance pathways manifests clinically not as diffuse pan-neural decay, but as low-frequency, variable secondary phenotypes constrained by regional metabolic or geometric axonal burdens",
+      "instance": "Epilepsy occurs in fewer than 25% of affected individuals and cortical visual impairment (CVI) occurs in only 15% to 20% (2/13 in Platzer et al.), indicating that despite universal retrograde axonal organelle stalling, paroxysmal network hyperexcitability and optic pathway dysfunction represent secondary, non-obligate thresholds",
+      "direction": "Perform longitudinal EEG and visual evoked potential monitoring in stratified cohorts to pinpoint the metabolic and axonal stress thresholds that convert latent endolysosomal pathology into active epilepsy or cortical blindness",
+      "support": "Consistent clinical observational cohorts demonstrating restricted frequencies of seizures (2/5 in Iwasawa et al.) and CVI across independent patient groups",
+      "sources": [
+        "10.1016/j.ajhg.2018.12.008",
+        "10.1111/cge.70032",
+        "10.1091/mbc.E25-05-0248-T"
+      ],
+      "hypothesis": "Cortical visual impairment and epileptic activity require a secondary threshold of accumulated toxic endolysosomal cargo within high-demand neuronal projections, which is only reached in individuals carrying severe dominant-negative alleles or possessing high genetic background susceptibility",
+      "novelty": "Contradicts the paradigm that primary lysosomal and organellar transport disorders necessarily produce early, generalized epileptic encephalopathy or ubiquitous sensory loss"
+    },
+    {
+      "pattern": "High intrafamilial pleiotropy in inherited loss-of-function alleles contrasts sharply with invariant expressivity in de novo recurrent hotspots",
+      "abstraction": "Inherited loss-of-function variants demonstrate high expressivity variance and incomplete penetrance across generations, contrasting with the stereotyped, high-penetrance phenotype of de novo dominant-negative mutations",
+      "instance": "Recurrent de novo missense mutations (such as in Platzer et al. and Iwasawa et al.) present with homogeneous moderate-to-severe developmental delay and spastic diplegia, whereas inherited splice-site and truncating variants (such as p.Gly877Valfs*36 in Yi et al.) display wide intrafamilial variability ranging from mild isolated learning difficulties in transmitting relatives to severe developmental delay and autism in offspring",
+      "direction": "Perform long-read whole-genome sequencing and family-trio transcriptomic analysis to identify genetic modifiers or compensatory retrograde motor adaptors that buffer loss-of-function alleles",
+      "support": "Well-documented familial segregations in recent studies contrasting against monolithic de novo pediatric series",
+      "sources": [
+        "PMC13101558",
+        "10.1111/cge.70032",
+        "10.1016/j.ajhg.2018.12.008"
+      ],
+      "hypothesis": "The functional buffering of MAPK8IP3 haploinsufficiency depends on genetic background variation in redundant axonal motor adapters (such as JIP4/MAPK8IP4), whereas dominant-negative multimer complexes overwhelm compensatory pathways regardless of background",
+      "novelty": "Revises original clinical characterizations of MAPK8IP3 disorders as strictly de novo syndromes by uncovering an inherited, highly variable spectrum of cognitive disease"
+    }
+  ]
+}

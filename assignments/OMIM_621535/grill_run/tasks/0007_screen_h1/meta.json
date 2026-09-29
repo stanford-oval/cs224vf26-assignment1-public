@@ -1,0 +1,89 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Spinocerebellar ataxia 52\" OR \"SCA52\" \"RAB3A\" phenotype clinical",
+    "Spinocerebellar ataxia 52 RAB3A clinical phenotype OMIM 621535"
+  ],
+  "n_hits": 9,
+  "hits": [
+    {
+      "id": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "abstract_chars": 455
+    },
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/271/gene/RAB3A/",
+      "title": "RAB3A (Ataxia) - Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/271/gene/RAB3A/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genome.jp/dbget-bin/www_bget?ds:H00063",
+      "title": "KEGG DISEASE: Spinocerebellar ataxia (SCA)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genome.jp/dbget-bin/www_bget?ds:H00063",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://marrvel.org/human/gene/5864",
+      "title": "RAB3A",
+      "pmid": null,
+      "doi": null,
+      "url": "https://marrvel.org/human/gene/5864",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621535",
+      "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/617770",
+      "title": "Entry - #617770 - SPINOCEREBELLAR ATAXIA 46; SCA46",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/617770",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/183086",
+      "title": "Entry - #183086 - SPINOCEREBELLAR ATAXIA 6; SCA6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/183086",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/117210",
+      "title": "Entry - #117210 - SPINOCEREBELLAR ATAXIA 31; SCA31",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/117210",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3061,
+  "output_tokens": 933,
+  "usd": 0.00433,
+  "seconds": 9.7,
+  "ok": true
+}

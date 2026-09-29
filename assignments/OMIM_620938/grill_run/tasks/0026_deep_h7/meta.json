@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"SPG93\" missense phenotype",
+    "NFU1 spastic paraplegia 93 MMDS1 phenotype missense spectrum"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://marrvel.org/human/gene/27247",
+      "title": "NFU1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://marrvel.org/human/gene/27247",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.editxor.com/disease/spastic-paraplegia-93-autosomal-recessive-spg93",
+      "title": "Spastic Paraplegia 93, Autosomal Recessive (SPG93) Cell ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.editxor.com/disease/spastic-paraplegia-93-autosomal-recessive-spg93",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/clinvar/RCV004701943/",
+      "title": "NM_001002755.4(NFU1):c.295C>G (p.Leu99Val) AND ... - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV004701943/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/NFU1",
+      "title": "NFU1 gene NFU1 Iron-Sulfur Cluster Scaffold",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/NFU1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genome.jp/dbget-bin/www_bget?hsa:51324+H00266",
+      "title": "KEGG T01001: 51324",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genome.jp/dbget-bin/www_bget?hsa:51324+H00266",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/acn3.51679",
+      "title": "Phenotypic continuum of NFU1\u2010related disorders",
+      "pmid": null,
+      "doi": "10.1002/acn3.51679",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/ajmg.a.70213",
+      "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.70213",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+      "abstract_chars": 1837
+    },
+    {
+      "id": "https://www.mdpi.com/2218-273X/12/7/1009",
+      "title": "Molecular basis of rare diseases associated to the maturation of mitochondrial [4Fe-4S]-containing proteins",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2218-273X/12/7/1009",
+      "abstract_chars": 1456
+    },
+    {
+      "id": "10.3389/fgene.2015.00123/full",
+      "title": "Clinical, biochemical, and genetic spectrum of seven patients with NFU1 deficiency",
+      "pmid": null,
+      "doi": "10.3389/fgene.2015.00123/full",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2015.00123/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "28906594",
+      "title": "Understanding the molecular basis for multiple mitochondrial dysfunctions syndrome 1 (MMDS 1): impact of a disease\u2010causing Gly189Arg substitution on NFU 1",
+      "pmid": "28906594",
+      "doi": "10.1111/febs.14271",
+      "url": "https://febs.onlinelibrary.wiley.com/doi/abs/10.1111/febs.14271",
+      "abstract_chars": 954
+    }
+  ],
+  "input_tokens": 5329,
+  "output_tokens": 4436,
+  "usd": 0.01597,
+  "seconds": 23.1,
+  "ok": true
+}

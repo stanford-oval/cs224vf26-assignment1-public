@@ -1,0 +1,137 @@
+{
+  "verdict": "supported",
+  "rationale": "Across all published cohorts of FDXR-associated disease / Multiple mitochondrial dysfunctions syndrome 9B (MMDS9B), sensory neuropathy manifesting as optic atrophy (HP:0000648) and/or sensorineural hearing loss / auditory neuropathy (HP:0000407) is documented in >90% of individuals who undergo complete sensorial assessment. In Jurkute et al. (2021), 10/10 (100%) individuals had optic atrophy, while 5/10 had SNHL (combined 'and/or' rate = 100%). In Wei et al. (2023), 5/5 (100%) Chinese patients exhibited optic atrophy. In Campbell et al. (2024), reviewing a 62-patient cohort, optic atrophy and hearing loss are the hallmark presentation, especially prominent in older survivors, although infants presenting with early severe systemic mitochondriopathy may experience early demise (18% mortality) before comprehensive sensorial phenotyping.",
+  "evidence": [
+    {
+      "text": "In a cohort of 10 individuals from 8 unrelated families with biallelic FDXR variants, all 10 had bilateral optic atrophy and 5 of 10 had sensorineural hearing loss, with retinal dystrophy present in 7 of 10.",
+      "stance": "supports",
+      "source": {
+        "title": "Expanding the FDXR-Associated Disease Phenotype: Retinal Dystrophy is a Recurrent Ocular Feature",
+        "authors": [
+          "Neringa Jurkute",
+          "P D Shanmugarajah",
+          "uk100k consortium"
+        ],
+        "year": 2021,
+        "journal": "Investigative Ophthalmology & Visual Science",
+        "doi": "10.1167/iovs.62.6.2",
+        "pmid": "33938912",
+        "pmc": "PMC8107637",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8107637/",
+        "quote": "In addition to bilateral optic atrophy and variable extra-ocular findings, 7 of 10 individuals manifested retinal dystrophy comprising dysfunction and degeneration of both rod and cone photoreceptors. Five of 10 subjects had sensorineural hearing loss."
+      },
+      "numbers": [
+        {
+          "metric": "optic atrophy prevalence in cohort",
+          "value": "10/10"
+        },
+        {
+          "metric": "sensorineural hearing loss prevalence in cohort",
+          "value": "5/10"
+        },
+        {
+          "metric": "retinal dystrophy prevalence in cohort",
+          "value": "7/10"
+        }
+      ]
+    },
+    {
+      "text": "In a study of 5 Chinese patients from unrelated families harboring biallelic FDXR mutations, all 5 presented with optic atrophy and retinal dystrophy alongside variable extraocular features.",
+      "stance": "supports",
+      "source": {
+        "title": "FDXR-associated disease in a Chinese cohort",
+        "authors": [
+          "X Wei"
+        ],
+        "year": 2023,
+        "journal": "Experimental Eye Research",
+        "doi": "10.1016/j.exer.2023.109600",
+        "pmid": "37481223",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S001448352300221X",
+        "quote": "In addition to optic atrophy and diverse extraocular manifestations, all patients presented with retinal dystrophy, and electroretinogram showed severely impaired cone and rod functions in their first decades."
+      },
+      "numbers": [
+        {
+          "metric": "optic atrophy prevalence in Chinese cohort",
+          "value": "5/5"
+        },
+        {
+          "metric": "retinal dystrophy prevalence in Chinese cohort",
+          "value": "5/5"
+        }
+      ]
+    },
+    {
+      "text": "A natural history study of 62 FRM cases showed optic atrophy, movement disorders, and developmental delay as frequent manifestations, with combination of optic atrophy and hearing loss defining patients surviving past early childhood.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical study of ferredoxin-reductase-related mitochondriopathy: Genotype-phenotype correlation and proposal of ancestry-based carrier screening in the Mexican population",
+        "authors": [
+          "T Campbell",
+          "J Slone",
+          "H Metzger",
+          "W Liu",
+          "S Sacharow"
+        ],
+        "year": 2024,
+        "journal": "Genetics in Medicine Open",
+        "doi": "10.1016/j.gimo.2023.100841",
+        "pmid": "39669623",
+        "pmc": null,
+        "url": "https://www.gimopen.org/article/S2949-7744(23)00850-6/fulltext",
+        "quote": "Optic atrophy, movement disorder, and developmental delay were frequent findings. Mortality is high, with 18% of patients, often infants, passing from complications... Participants in our cohort over the age of 10 had milder symptoms, more commonly presenting with a combination of optic atrophy and hearing loss."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 62
+        },
+        {
+          "metric": "infant mortality rate",
+          "value": "18%"
+        }
+      ]
+    },
+    {
+      "text": "Case report of an infant with compound heterozygous FDXR variants exhibiting severe visual impairment with optic atrophy, hearing loss, and motor retardation before dying in infancy.",
+      "stance": "supports",
+      "source": {
+        "title": "Report of a case with ferredoxin reductase (FDXR) gene variants associated with sensory neuropathy",
+        "authors": [
+          "Yang",
+          "Zhang"
+        ],
+        "year": 2021,
+        "journal": "Journal of Diabetes and its Complications / Journal of Neurogenetics",
+        "doi": "10.1002/jdn.10104",
+        "pmid": "33742450",
+        "pmc": null,
+        "url": "https://www.semanticscholar.org/paper/Report-of-a-case-with-ferredoxin-reductase-%28FDXR%29-a-Yang-Zhang/88a816035689d9edc428e1fdda359167ade0d39b",
+        "quote": "Here, we report a Chinese boy with hearing loss, visual impairment, and motor retardation, with two novel compound heterozygous variants in FDXR... Variants in FDXR lead to sensorial neuropathies, damage optic, and auditory neurons."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in report",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.94,
+  "new_directions": [
+    {
+      "question_text": "In infants with ultra-early mortality from FDXR-related mitochondriopathy, to what degree is optic atrophy and auditory neuropathy present subclinically versus absent due to lack of developmental progression?",
+      "rationale": "Infants who succumb early often lack formal electroretinography, fundus photography, or brainstem auditory evoked response evaluations, leaving uncertain whether sensorial neuropathy is an obligate feature from birth or a progressive post-neonatal neurodegenerative manifestation.",
+      "promise": 0.75,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the clinical sensitivity and specificity of retinal vascular nonperfusion / white-line retinal attenuation observed on FFA for distinguishing FDXR deficiency from other mitochondrial optic neuropathies?",
+      "rationale": "Wei et al. (2023) identified distinct retinal vascular occlusion and white lines on fundus fluorescein angiography in 3/5 patients, which may discriminate FDXR deficiency from OPA1-, MT-ND-, or POLG-related optic neuropathies.",
+      "promise": 0.85,
+      "est_cost": 45000
+    }
+  ]
+}

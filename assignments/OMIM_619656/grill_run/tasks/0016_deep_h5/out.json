@@ -1,0 +1,104 @@
+{
+  "verdict": "supported",
+  "rationale": "Across clinical reviews and cohorts characterizing Loeys-Dietz syndrome (LDS) subtypes, significant primary intellectual disability is documented as exceedingly rare in SMAD2-associated LDS (LDS6), where cognitive development is typically normal or limited to mild speech delays secondary to hypotonia or motor hypermobility rather than true intellectual disability. Furthermore, later-identified LDS genotypes including SMAD2 (LDS6) exhibit notably lower frequencies of severe craniofacial features such as frank craniosynostosis compared to classic severe LDS1/2 (TGFBR1/2) or Shprintzen-Goldberg syndrome (SKI). The presence of prominent craniosynostosis combined with significant intellectual disability specifically suggests alternate diagnoses such as Shprintzen-Goldberg syndrome rather than typical SMAD2 LDS6.",
+  "evidence": [
+    {
+      "text": "Later-identified LDS genes such as TGFB2, TGFB3, and SMAD2 (LDS4, 5, 6) exhibit notably lower severity and penetrance of classic severe features, and speech delays in LDS typically relate to hypotonia and hypermobility rather than primary cognitive deficiency.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys-Dietz Syndrome: 2026 updated care management primer",
+        "authors": [
+          "G MacCarrick",
+          "RO Afifi",
+          "R Allen",
+          "K Almpani"
+        ],
+        "year": 2026,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2026.102577",
+        "pmid": "41988792",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360026008956",
+        "quote": "TGFB2, TGFB3 and SMAD2 (LDS4,5,6) show notably lower \u2026 Craniosynostosis of one or more cranial sutures has been \u2026 speech delays typically relate to hypotonia and hypermobility."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Learning disability is characterized as an extremely rare primary manifestation across non-classic LDS cohorts, noting that the co-occurrence of craniosynostosis and intellectual disability strongly prompts evaluation for distinct overlapping conditions such as Shprintzen-Goldberg syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Loeys-dietz syndrome",
+        "authors": [
+          "JD Velchev",
+          "L Van Laer",
+          "I Luyckx",
+          "H Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1007/978-3-030-80614-9_11",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-80614-9_11",
+        "quote": "suggesting that learning disability is an extremely rare pri\u2026 If craniosynostosis and intellectual disability are associated"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Characterization of the SMAD2-related phenotypic spectrum addresses the boundaries of vascular vs systemic manifestations, evaluating whether learning difficulties or craniosynostosis represent core or exceptional features.",
+      "stance": "neutral",
+      "source": {
+        "title": "Loeys\u2013dietz syndrome",
+        "authors": [
+          "A Verstraeten",
+          "HC Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1002/9781119432692.ch36",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+        "quote": "of the phenotypic spectrum SMAD2related LDS should \u2026 intellectual disability (learning diffi\u2011 culties), brain anomalies (hydrocephalus, dilatation of the lateral ventricles), craniosynostosis"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Initial identification of pathogenic SMAD2 variants in three families established arterial aneurysms and dissections as the defining hallmark without recurrent severe craniosynostosis or intellectual disability driving initial ascertainment.",
+      "stance": "supports",
+      "source": {
+        "title": "SMAD2 Mutations are Associated With Arterial Aneurysms ...",
+        "authors": [],
+        "year": 2015,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.22854",
+        "pmid": "26247899",
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/280869983_SMAD2_Mutations_are_Associated_With_Arterial_Aneurysms_and_Dissections",
+        "quote": "We report three families with arterial aneurysms and dissections in which variants predicted to be pathogenic were identified in SMAD2."
+      },
+      "numbers": [
+        {
+          "metric": "families evaluated",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the exact percentage and HPO distribution of neurodevelopmental delays versus pure motor/speech delays across an international registry of molecularly confirmed SMAD2 (LDS6) patients?",
+      "rationale": "Clarifying whether mild cognitive delays exist independently of muscular hypotonia will refine diagnostic criteria distinguishing LDS6 from Shprintzen-Goldberg syndrome.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does suture patency imaging show subclinical micro-craniosynostosis in SMAD2 loss-of-function variants compared to missense MH2 domain variants?",
+      "rationale": "Determining if craniosynostosis is truly absent or merely underdiagnosed as mild dolichocephaly or scaphocephaly will substantiate the discriminant validity of skull morphology.",
+      "promise": 0.78,
+      "est_cost": 35000
+    }
+  ]
+}

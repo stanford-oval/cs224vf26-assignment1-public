@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SGSM3\" \"intellectual developmental disorder\" \"Birnbaum\"",
+    "SGSM3 620401 Birnbaum Turkyilmaz intellectual developmental disorder"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "10.1111/cge.14631",
+      "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+      "pmid": null,
+      "doi": "10.1111/cge.14631",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+      "abstract_chars": 1101
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/39390489/",
+      "title": "A Strong Candidate Gene for Nonsyndromic Intellectual ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39390489/",
+      "abstract_chars": 1101
+    },
+    {
+      "id": "https://omim.org/entry/610440",
+      "title": "610440 - SMALL G PROTEIN SIGNALING MODULATOR 3; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/610440",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.semanticscholar.org/paper/A-Strong-Candidate-Gene-for-Nonsyndromic-Disability-Turkyilmaz-Sa%C4%9Flam/6e701b320523c4b5718b993f0237e86722259db4",
+      "title": "A Strong Candidate Gene for Nonsyndromic Intellectual ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.semanticscholar.org/paper/A-Strong-Candidate-Gene-for-Nonsyndromic-Disability-Turkyilmaz-Sa%C4%9Flam/6e701b320523c4b5718b993f0237e86722259db4",
+      "abstract_chars": 1101
+    },
+    {
+      "id": "https://scispace.com/papers/intellectual-disability-syndrome-associated-with-a-2c9j2w16gg",
+      "title": "Intellectual disability syndrome associated with a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://scispace.com/papers/intellectual-disability-syndrome-associated-with-a-2c9j2w16gg",
+      "abstract_chars": 1017
+    },
+    {
+      "id": "https://www.researchgate.net/publication/374707074_Intellectual_disability_syndrome_associated_with_a_homozygous_founder_variant_in_SGSM3_in_Ashkenazi_Jews",
+      "title": "Intellectual disability syndrome associated with a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/374707074_Intellectual_disability_syndrome_associated_with_a_homozygous_founder_variant_in_SGSM3_in_Ashkenazi_Jews",
+      "abstract_chars": 1017
+    }
+  ],
+  "input_tokens": 3891,
+  "output_tokens": 1774,
+  "usd": 0.00727,
+  "seconds": 10.7,
+  "ok": true
+}

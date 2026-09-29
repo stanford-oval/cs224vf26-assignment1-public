@@ -1,0 +1,62 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While monoallelic pathogenic variants in DHX9 cause neurodevelopmental disorder traits characterized by intellectual disability, severe speech impairment, and gait abnormalities, the hypothesis that global developmental delay / intellectual disability is present in nearly 100% of reported DHX9-affected individuals is contradicted by primary cohort data. Specifically, Calame et al. (2023) demonstrated that monoallelic DHX9 variation exhibits pleiotropy ranging from mild or severe neurodevelopmental disorders to isolated axonal Charcot-Marie-Tooth disease (CMT2), meaning GDD/ID is not universal across the reported molecular cohort. Furthermore, while speech impairment and gait abnormalities are hallmark neurodevelopmental features, the available source records lack granular quantitative milestone comparisons proving expressive speech impairment is consistently disproportionate to gross motor delay across all genotypes.",
+  "evidence": [
+    {
+      "text": "In a cohort of 20 individuals with de novo, ultra-rare, heterozygous missense or loss-of-function DHX9 variants, phenotypes ranged across a spectrum from neurodevelopmental disorders (NDD) with intellectual disability, severe speech impairment, and gait abnormalities, to isolated distal symmetric polyneuropathy (axonal Charcot-Marie-Tooth disease type 2 [CMT2]). Quantitative HPO analysis demonstrated distinct genotype-phenotype correlations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box ...",
+        "authors": [],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1016/j.ajhg.2023.06.013",
+        "pmid": "37467750",
+        "pmc": null,
+        "url": "https://www.semanticscholar.org/paper/Monoallelic-variation-in-DHX9%2C-the-gene-encoding-Calame-Guo/c05ad10fe0536324bf7671a31b5ce11a4e6156e0",
+        "quote": "Using exome sequencing and family-based rare-variant analyses, we identified 20 individuals with de novo, ultra-rare, heterozygous missense or loss-of-function (LoF) DHX9 variant alleles. Phenotypes ranged from NDDs to the distal symmetric polyneuropathy axonal Charcot-Marie-Tooth disease (CMT2)."
+      },
+      "numbers": [
+        {
+          "metric": "total_reported_individuals_with_DHX9_variants",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "DHX9 variants are associated with neurodevelopmental phenotypes characterized by intellectual disability, severe speech impairment, and gait abnormalities, with loss-of-function variants resulting in milder NDD phenotypes and nuclear localization signal missense variants resulting in severe NDD.",
+      "stance": "supports",
+      "source": {
+        "title": "Monoallelic variation in DHX9 , the gene encoding ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/369072477_Monoallelic_variation_in_DHX9_the_gene_encoding_the_DExH-box_helicase_DHX9_underlies_neurodevelopment_disorders_and_Charcot-Marie-Tooth_disease",
+        "quote": "Quantitative Human Phenotype Ontology (HPO) analysis demonstrated genotype-phenotype correlations with LoF variants causing mild NDD phenotypes and nuclear localization signal (NLS) missense variants causing severe NDD."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Phenotypic spectrum: Pathogenic monoallelic DHX9 variants cause not only neurodevelopmental disorders (OMIM #620988) but also Charcot-Marie-Tooth disease type 2 (CMT2) without intellectual disability or developmental delay, directly conflicting with the claim that GDD/ID is present in nearly 100% of reported DHX9 individuals.",
+    "Speech vs Motor Disproportionality: Available literature documents gait abnormalities and motor involvement alongside severe speech impairment, but robust quantitative comparative metrics proving disproportionate expressive speech delay over gross motor delay across all DHX9-related sub-phenotypes are not established in the published evidence base."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of intellectual disability and global developmental delay when stratifying exclusively by DHX9 variant class (LoF vs NLS missense vs non-NLS missense)?",
+      "rationale": "Clarifying the genotype-phenotype boundary will determine whether OMIM #620988 represents a discrete allelic condition from DHX9-associated CMT2.",
+      "promise": 0.85,
+      "est_cost": 50000
+    },
+    {
+      "question_text": "What are the standardized expressive vs receptive language and gross motor developmental quotients in individuals with DHX9-related neurodevelopmental disorder?",
+      "rationale": "Formal developmental assessments are required to confirm whether expressive speech impairment is statistically significantly more severe than gross motor delay.",
+      "promise": 0.8,
+      "est_cost": 75000
+    }
+  ]
+}

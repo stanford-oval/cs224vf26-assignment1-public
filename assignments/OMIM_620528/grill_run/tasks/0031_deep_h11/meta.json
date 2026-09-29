@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SPTAN1\" \"haploinsufficiency\" \"dominant negative\" phenotype spectrum",
+    "SPTAN1 loss of function missense neuropathy epileptic encephalopathy phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/jhg20155",
+      "title": "SPTAN1 encephalopathy: distinct phenotypes and genotypes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/jhg20155",
+      "abstract_chars": 1502
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+      "title": "Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+      "abstract_chars": 807
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/143/12/e104/5989775",
+      "title": "De novo SPTAN1 mutation in axonal sensorimotor neuropathy and developmental disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/143/12/e104/5989775",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39988451",
+      "title": "Loss of Function SPTAN1 Variants Result in Ataxia and Intellectual Disability",
+      "pmid": "39988451",
+      "doi": "10.1111/cge.14732",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14732",
+      "abstract_chars": 1341
+    },
+    {
+      "id": "https://repository.uantwerpen.be/link/irua/206208",
+      "title": "Spectrinopathies in rare neurological and neuromuscular diseases: large-scale efforts towards the identification of novel molecular causes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://repository.uantwerpen.be/link/irua/206208",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/figure/Graphical-representation-of-SPTAN1-with-mutations-identified-in-epilepsy-and-HMN_fig2_334655241",
+      "title": "Graphical representation of SPTAN1 with mutations ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/figure/Graphical-representation-of-SPTAN1-with-mutations-identified-in-epilepsy-and-HMN_fig2_334655241",
+      "abstract_chars": 0
+    },
+    {
+      "id": "20493457",
+      "title": "Dominant-negative mutations in alpha-II spectrin cause West ...",
+      "pmid": "20493457",
+      "doi": "10.1016/j.ajhg.2010.04.013",
+      "url": "https://www.semanticscholar.org/paper/Dominant-negative-mutations-in-alpha-II-spectrin-Saitsu-Tohyama/afdb2e3718867cbf31c6a2e0b6415c58dcb59ae5",
+      "abstract_chars": 1802
+    },
+    {
+      "id": "29050398",
+      "title": "Delineating SPTAN1 associated phenotypes: from isolated epilepsy to encephalopathy with progressive brain atrophy",
+      "pmid": "29050398",
+      "doi": "10.1093/brain/awx195",
+      "url": "https://academic.oup.com/brain/article-abstract/140/9/2322/4096697",
+      "abstract_chars": 2728
+    },
+    {
+      "id": "https://repository.uantwerpen.be/docstore/d:irua:29211#page=152",
+      "title": "FROM MISSING GENETICS TO SHARED DISEASE MECHANISMS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://repository.uantwerpen.be/docstore/d:irua:29211#page=152",
+      "abstract_chars": 0
+    },
+    {
+      "id": "35150594",
+      "title": "De Novo and Dominantly Inherited SPTAN1 Mutations Cause Spastic Paraplegia and Cerebellar Ataxia",
+      "pmid": "35150594",
+      "doi": "10.1002/mds.28959",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mds.28959",
+      "abstract_chars": 1905
+    }
+  ],
+  "input_tokens": 6226,
+  "output_tokens": 4661,
+  "usd": 0.0171,
+  "seconds": 28.4,
+  "ok": true
+}

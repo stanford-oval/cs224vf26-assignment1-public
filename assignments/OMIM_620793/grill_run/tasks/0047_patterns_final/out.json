@@ -1,0 +1,63 @@
+{
+  "patterns": [
+    {
+      "pattern": "Cerebro-muscular phenotypic pleiotropy driven by differential cell-type vulnerability to spliceosomal dysfunction",
+      "abstraction": "A single monogenic nuclear import/spliceosomal defect manifests as distinct organ-restricted or multisystem phenotypes (isolated limb-girdle dystrophy, primary ataxia, or subclinical neurodegeneration) due to tissue-specific thresholds of vulnerability rather than distinct mutational classes.",
+      "instance": "Biallelic hypomorphic variants in SNUPN can present either as classical childhood-onset limb-girdle muscular dystrophy (LGMDR29), adult-onset myopathy, subclinical cerebellar atrophy without overt neurological deficits, or pure spinocerebellar atrophy without significant motor weakness, all governed by differential Purkinje cell versus myofiber sensitivity to U1 snRNP mis-splicing.",
+      "direction": "Systematic brain MRI screening in suspected or diagnosed limb-girdle muscular dystrophy cohorts, coupled with transcriptome-wide splicing profiling across neural and muscular patient-derived cell models.",
+      "support": "Strong across multi-center cohorts: demonstrated in 18 pediatric patients (Nashabat et al.), adult-onset sibling pairs (Muelas et al.), and families with spinocerebellar atrophy (Okubo et al.).",
+      "sources": [
+        "10.1093/brain/awaf348",
+        "10.1038/s41467-024-45933-5",
+        "10.1002/acn3.70211",
+        "PMID:38366623"
+      ],
+      "hypothesis": "Cell-type specific differences in baseline alternative splicing burden and U1 snRNP stoichiometry dictate whether SNUPN hypomorphic mutations precipitate Purkinje cell loss, skeletal muscle degeneration, or both.",
+      "novelty": "Overturns the traditional classification of LGMDR29 as an exclusively muscular pathology by establishing intrinsic central nervous system degeneration as part of its core allelic spectrum."
+    },
+    {
+      "pattern": "Structural and imaging signs precede and dissociate from clinical functional disability",
+      "abstraction": "Radiological tissue atrophy and degeneration develop silently across both central and peripheral nervous systems, detaching macroscopic anatomical destruction from overt clinical syndromic presentation.",
+      "instance": "Brain imaging demonstrates overt cerebellar atrophy in adult-onset SNUPN patients who exhibit no ataxia or cognitive decline, while muscle imaging reveals selective paravertebral and distal calf (gastrocnemius/peroneus) fatty replacement long before or independent of symptomatic axial weakness or foot drop.",
+      "direction": "Longitudinal whole-body muscle and cerebral volumetric MRI tracking to define preclinical radiological progression benchmarks and compensatory mechanisms in early-stage carriers.",
+      "support": "Strong: observed in both adult-onset LGMDR29 siblings (Muelas et al., 2026) and pediatric-onset muscle MRI assessments (Iruzubieta et al., 2024).",
+      "sources": [
+        "10.1002/acn3.70211",
+        "PMID:38366623",
+        "10.1093/brain/awaf348"
+      ],
+      "hypothesis": "Asymptomatic cerebellar atrophy and selective axial muscle replacement reflect progressive, low-grade homeostatic failure that remains functionally compensated until reserve thresholds collapse.",
+      "novelty": "Challenges reliance on functional clinical exams alone to rule out neurodegenerative or axial muscle involvement in recessive limb-girdle dystrophies."
+    },
+    {
+      "pattern": "Phenocopy of sporadic inflammatory myopathy by monogenic nuclear transport defects with preserved canonical motor targets",
+      "abstraction": "A hereditary defect in nuclear-cytoplasmic transport and RNA processing recapitulates the clinical and histopathological signatures of late-onset sporadic inflammatory myopathies, separable only by selective anatomical sparing.",
+      "instance": "Adult-onset SNUPN deficiency mimics sporadic inclusion body myositis (sIBM) with proximo-distal weakness, axial involvement, and myofibrillar rimmed vacuoles, but is differentiated by strict preservation of deep finger flexors and prominent MRI involvement of the sartorius and gracilis.",
+      "direction": "Re-evaluation of seronegative or treatment-refractory sIBM cohorts using targeted next-generation sequencing panels covering nuclear import machinery genes including SNUPN.",
+      "support": "Moderate to strong: corroborated by comparative pathological, clinical, and MRI analyses distinguishing adult-onset LGMDR29 from classic sIBM cohorts.",
+      "sources": [
+        "10.1002/acn3.70211",
+        "PMID:38366623",
+        "10.1093/rheumatology/ker001",
+        "10.1177/22143602241286712"
+      ],
+      "hypothesis": "Disrupted snurportin-1 nuclear import triggers downstream TDP-43 or RNA-binding protein nuclear clearance and cytoplasmic aggregation, driving an identical vacuolar and degenerative cascade to that in sIBM.",
+      "novelty": "Identifies deep finger flexor preservation combined with sartorius/gracilis MRI involvement as a precise rule-out biomarker for sIBM in patients with rimmed vacuolar myopathies."
+    },
+    {
+      "pattern": "Diagnostic confounding between skeletal myonecrosis biomarker release and primary myocardial injury",
+      "abstraction": "Massive skeletal myofiber regeneration and breakdown can masquerade as cardiac organ involvement due to muscle-derived biomarker leakage in the absence of functional or structural organ impairment.",
+      "instance": "Reports of initial isolated myocardial injury in early-onset LGMDR29 triggered by viral infection conflict with comprehensive cohort studies showing normal echocardiography and preserved primary cardiac architecture, pointing toward regenerating skeletal muscle-derived CK-MB or troponin elevation rather than intrinsic cardiomyopathy.",
+      "direction": "Prospective cardiac MRI and high-specificity cardiac troponin assay evaluations in muscular dystrophy patients presenting with acute biomarker elevations to disambiguate myocardial from skeletal injury.",
+      "support": "Contested/moderate: single case report documenting acute biomarker-derived myocardial injury contrasted against multi-patient cohorts showing preserved cardiac function.",
+      "sources": [
+        "10.21203/rs.3.rs-8429398/v1",
+        "10.1038/s41467-024-45933-5",
+        "10.1002/acn3.70211",
+        "10.14740/jocmr4664"
+      ],
+      "hypothesis": "Isolated cardiac biomarker elevations in early SNUPN deficiency represent regenerative skeletal fetal-isoform expression rather than true primary cardiomyocyte necrosis.",
+      "novelty": "Highlights a critical clinical misdiagnosis pitfall where non-cardiac rhabdomyolysis or myonecrosis simulates acute pediatric myocarditis/myocardial damage."
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz\" \"bifid uvula\" phenotype",
+    "SMAD2 Loeys-Dietz syndrome bifid uvula cleft palate phenotype frequency"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1769721210000856",
+      "title": "Duplication of the TGFBR1 gene causes features of Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1769721210000856",
+      "abstract_chars": 984
+    },
+    {
+      "id": "https://www.ingentaconnect.com/content/ben/cmc/2012/00000019/00000003/art00010",
+      "title": "Transforming growth factor \u03b2 signaling perturbation in the Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ingentaconnect.com/content/ben/cmc/2012/00000019/00000003/art00010",
+      "abstract_chars": 1784
+    },
+    {
+      "id": "10.1002/humu.23407",
+      "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 and SMAD2/3",
+      "pmid": null,
+      "doi": "10.1002/humu.23407",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23407",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "https://europepmc.org/books/n/gene/loeys-dietz/?extid=20301469&src=med",
+      "title": "Loeys-Dietz Syndrome Synonym: Loeys-Dietz Aortic Aneurysm Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/books/n/gene/loeys-dietz/?extid=20301469&src=med",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/10/10/764",
+      "title": "Genotypic categorization of Loeys-Dietz syndrome based on 24 novel families and literature data",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/10/10/764",
+      "abstract_chars": 1515
+    },
+    {
+      "id": "https://www.loeysdietz.org/en/medical-information",
+      "title": "WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.loeysdietz.org/en/medical-information",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1016/j.jacc.2025.04.020",
+      "title": "Characterization of Arterial Aneurysms in Loeys-Dietz ...",
+      "pmid": null,
+      "doi": "10.1016/j.jacc.2025.04.020",
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.04.020",
+      "abstract_chars": 2330
+    },
+    {
+      "id": "32152251",
+      "title": "Severity of oro-dental anomalies in Loeys-Dietz syndrome segregates by gene mutation",
+      "pmid": "32152251",
+      "doi": "10.1136/jmedgenet-2019-106678",
+      "url": "https://jmg.bmj.com/content/57/10/699.abstract",
+      "abstract_chars": 1825
+    },
+    {
+      "id": "37525043",
+      "title": "The impact of genetic variability of TGF-beta signaling biomarkers in major craniofacial syndromes",
+      "pmid": "37525043",
+      "doi": "10.1007/978-3-031-31978-5_16",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-31978-5_16",
+      "abstract_chars": 1428
+    },
+    {
+      "id": "10.1177/01945998211008899",
+      "title": "Audiologic and otologic clinical manifestations of Loeys-Dietz syndrome: a heritable connective tissue disorder",
+      "pmid": null,
+      "doi": "10.1177/01945998211008899",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/01945998211008899",
+      "abstract_chars": 1981
+    }
+  ],
+  "input_tokens": 7149,
+  "output_tokens": 4063,
+  "usd": 0.01576,
+  "seconds": 24.6,
+  "ok": true
+}

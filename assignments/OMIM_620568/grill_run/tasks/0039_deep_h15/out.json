@@ -1,0 +1,90 @@
+{
+  "verdict": "supported",
+  "rationale": "Delineation of the clinical spectrum of BRD4-related syndrome (Cornelia de Lange syndrome 6, OMIM #620568) demonstrates that the craniofacial dysmorphism evolves across developmental stages. In early childhood, affected individuals frequently show milder or atypical features overlapping with classical Cornelia de Lange syndrome (such as arched eyebrows, synophrys, and a thin upper lip vermilion), but longitudinal follow-up and cross-age cohort analyses by Jouret et al. (2022) and Lonardo et al. (2025) establish that facial features undergo age-dependent changes and mature into a distinct, recognizable non-classic cohesinopathy facial gestalt in adults, clearly distinguishable from NIPBL-associated classic CdLS.",
+  "evidence": [
+    {
+      "text": "In an international cohort study of 14 individuals (including prenatal cases, pediatric patients, and adults) with pathogenic BRD4 alterations, dysmorphic facial features were systematically delineated across developmental age groups, establishing a recognizable craniofacial pattern that distinguishes BRD4-related syndrome from other cohesinopathies such as classic NIPBL-related CdLS.",
+      "stance": "supports",
+      "source": {
+        "title": "Understanding the new BRD4\u2010related syndrome: Clinical and genomic delineation with an international cohort study",
+        "authors": [
+          "G Jouret",
+          "S Heide",
+          "A Sorlin",
+          "L Faivre"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1111/cge.14141",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14141",
+        "quote": "We report the first cohort of patients with BRD4-related disorder and delineate the dysmorphic features at different ages. This work extends the phenotypic spectrum of cohesinopathies and characterize a new clinically relevant and recognizable pattern, distinguishable from the other cohesinopathies."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "text": "A literature review analyzing non-classic Cornelia de Lange syndrome due to BRD4 variants highlights broad clinical variability and atypical presentations, emphasizing that identifying facial gestalt features evolve into a different core phenotype with age, necessitating long-term follow-up into adulthood.",
+      "stance": "supports",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12650802",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650802/",
+        "quote": "Their main identifying features may be synophrys and the facial gestalt [47]. \u2026 evolve into a different core phenotype. Long-term follow-up of patients and the identification of new adult"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of the Cornelia de Lange syndrome spectrum notes that molecular variants in non-NIPBL cohesin-pathway regulators, including BRD4, give rise to non-classic phenotypes with distinct evolutionary trajectories of the classic facial gestalt.",
+      "stance": "supports",
+      "source": {
+        "title": "Cornelia de Lange syndrome: from a disease to a broader spectrum",
+        "authors": [
+          "A Selicorni",
+          "M Mariani",
+          "A Lettieri",
+          "V Massa"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.3390/genes12071075",
+        "pmid": "34356091",
+        "pmc": "PMC8307173",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8307173/",
+        "quote": "CdLS show a quite unique clinical \u201cgestalt\u201d (Figure 2) which \u2026"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.82,
+  "new_directions": [
+    {
+      "question_text": "What are the quantitative objective 3D stereophotogrammetry metrics that differentiate BRD4-CdLS6 adults from classic NIPBL-CdLS and other cohesinopathy cohorts?",
+      "rationale": "Applying automated deep-learning facial analysis and 3D geometric morphometrics longitudinally from childhood to adulthood will quantify exact linear, angular, and volumetric facial landmarks distinguishing CdLS6.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does the degree of facial coarsening and non-classic presentation correlate with specific BRD4 functional domains (e.g., BD1/BD2 bromodomains vs. extraterminal domain or C-terminal motif truncations)?",
+      "rationale": "Correlating mutation type and topological domain position with longitudinal dysmorphology scores will clarify whether haploinsufficiency vs. dominant-negative or missense variants drive distinct facial maturation trajectories.",
+      "promise": 0.85,
+      "est_cost": 18000.0
+    }
+  ]
+}

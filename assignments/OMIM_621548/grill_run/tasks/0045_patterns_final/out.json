@@ -1,0 +1,65 @@
+{
+  "patterns": [
+    {
+      "pattern": "Bimodal natural history and structural dichotomy (early severe macular atrophy vs late-onset foveal-sparing rod-cone dystrophy) within isolated CLN3 disease",
+      "abstraction": "A single monogenic diagnostic category exhibits discrete bimodal morphological and temporal trajectories rather than a continuous spectrum of severity.",
+      "instance": "In RP101 cohorts, approximately 60% of patients present with severe early-onset retinal degeneration accompanied by early macular atrophy reaching legal blindness by their 40s (9/15 patients in Smirnov et al.; 6/10 in Ku et al.), whereas approximately 40% manifest a late-onset rod-cone dystrophy preserving the foveal ellipsoid zone line and outer nuclear layer until middle or late adulthood (6/15 in Smirnov et al.; 4/10 in Ku et al.).",
+      "direction": "Perform targeted deep-intronic and modifier genome sequencing in early- versus late-onset cohorts to discover genetic or transcriptomic modifiers modulating foveal photoreceptor survival.",
+      "support": "Strong across multiple independent cohorts (Smirnov et al. 2021, Ku et al. 2017, Chen et al. 2019, Wang et al. 2014).",
+      "sources": [
+        "VM Smirnov et al. (2021) Retinal Phenotype of Patients With Isolated Retinal Degeneration Due to CLN3 Pathogenic Variants in a French Retinitis Pigmentosa Cohort PMC7844693",
+        "CA Ku et al. (2017) Detailed Clinical Phenotype and Molecular Genetic Findings in CLN3-Associated Isolated Retinal Degeneration 10.1001/jamaophthalmol.2017.1401",
+        "FK Chen et al. (2019) Clinical and molecular characterization of non-syndromic retinal dystrophy due to c.175G>A mutation in ceroid lipofuscinosis neuronal 3 (CLN3) 10.1007/s10633-018-9665-7",
+        "F Wang et al. (2014) Next generation sequencing-based molecular diagnosis of retinitis pigmentosa: identification of a novel genotype-phenotype correlation and clinical refinements 10.1007/s00439-013-1381-5"
+      ],
+      "hypothesis": "Foveal sparing in late-onset RP101 correlates with distinct cell-autonomous survival factor expression in macular cone inner segments permitted by hypomorphic CLN3 splice products.",
+      "novelty": "Challenges the classic assumption that CLN3 retinal pathology invariably initiates as an early-onset aggressive maculopathy or pure rod-cone retinitis pigmentosa."
+    },
+    {
+      "pattern": "Stage-dependent electrophysiological evolution masking single-parameter functional diagnostics",
+      "abstraction": "Pathophysiological progression across functional retinal strata creates a diagnostic moving target where early inner-retinal transmission failure precedes outer-retinal extinction.",
+      "instance": "Full-field ERG in early CLN3 retinopathy presents with an electronegative dark-adapted waveform reflecting photoreceptor-to-depolarizing bipolar synaptic transmission failure (5/5 patients in Sakti et al., 4/8 in Wright et al.), but transitions in advanced stages to completely undetectable/extinguished responses (4/8 in Wright et al., 2/10 in Ku et al.), invalidating the isolated use of electronegative waveforms as a stand-alone diagnostic criterion.",
+      "direction": "Establish age- and stage-stratified longitudinal visual electrophysiology protocols combining dual dark-adapted b-wave to a-wave amplitude ratios with On-Off macular response testing.",
+      "support": "Strong across pediatric and adult cohorts and translational animal models (Weleber 1998, Wright et al. 2020, Sakti et al. 2023, Kuper et al. 2021, Jiang et al. 2021).",
+      "sources": [
+        "WFE Kuper et al. (2021) Recognizing differentiating clinical signs of CLN3 disease (Batten disease) at presentation 10.1111/aos.14630",
+        "DH Sakti et al. (2023) Early recognition of CLN3 disease facilitated by visual electrophysiology and multimodal imaging 10.1007/s10633-023-09930-1",
+        "GA Wright et al. (2020) Juvenile Batten disease (CLN3): detailed ocular phenotype, novel observations, delayed diagnosis, masquerades, and prospects for therapy https://www.sciencedirect.com/science/article/pii/S2468653019306293",
+        "RG Weleber (1998) The dystrophic retina in multisystem disorders: the electroretinogram in neuronal ceroid lipofuscinoses 10.1038/eye.1998.148",
+        "X Jiang et al. (2021) Negative electroretinograms: genetic and acquired causes, diagnostic approaches and physiological insights https://www.nature.com/articles/s41433-021-01604-z"
+      ],
+      "hypothesis": "The electronegative ERG in CLN3 disease is caused by localized inner retinal synaptic accumulation of lysosomal storage material prior to irreversible photoreceptor apoptosis.",
+      "novelty": "Resolves the clinical paradox between studies claiming 100% sensitivity for electronegative ERGs and studies showing extinct ERGs in advanced isolated CLN3 retinitis pigmentosa."
+    },
+    {
+      "pattern": "Tissue-specific vulnerability threshold differentiating isolated retinal disease from systemic neurodegeneration",
+      "abstraction": "Hypomorphic alleles that preserve critical threshold enzymatic or transmembrane protein activities in the brain fail to sustain tissues with higher metabolic or structural turnover.",
+      "instance": "Patients with RP101 carry non-canonical missense or splicing variants in trans with the common 1.02 kb deletion (or homozygous missense variants like c.175G>A), resulting in retinal photoreceptor degradation without pediatric epileptic encephalopathy, progressive dementia, or motor regression over decades of follow-up (up to age 70 in Ku et al., >20 years in Smirnov et al.).",
+      "direction": "Measure residual CLN3 protein levels and trafficking efficiency in patient-derived retinal organoids versus cerebral organoids across matched hypomorphic genotypes.",
+      "support": "Strong, validated by multiple molecular genetics studies and multi-decade follow-up studies (Smirnov et al. 2021, Ku et al. 2017, Chen et al. 2019, Mizobuchi et al. 2020).",
+      "sources": [
+        "VM Smirnov et al. (2021) Retinal Phenotype of Patients With Isolated Retinal Degeneration Due to CLN3 Pathogenic Variants in a French Retinitis Pigmentosa Cohort PMC7844693",
+        "CA Ku et al. (2017) Detailed Clinical Phenotype and Molecular Genetic Findings in CLN3-Associated Isolated Retinal Degeneration 10.1001/jamaophthalmol.2017.1401",
+        "FK Chen et al. (2019) Clinical and molecular characterization of non-syndromic retinal dystrophy due to c.175G>A mutation in ceroid lipofuscinosis neuronal 3 (CLN3) 10.1007/s10633-018-9665-7",
+        "K Mizobuchi et al. (2020) Novel homozygous CLN3 missense variant in isolated retinal dystrophy: A case report and electron microscopic findings 10.1002/mgg3.1308"
+      ],
+      "hypothesis": "Photoreceptors have a higher functional threshold requirement for CLN3-mediated endolysosomal trafficking than cortical neurons due to outer segment disc shedding and renewal.",
+      "novelty": "Dismantles the dogma that CLN3 pathogenic variation inevitably culminates in systemic neurovisceral ceroid lipofuscinosis."
+    },
+    {
+      "pattern": "Diagnostic masquerade driven by overlapping functional and structural mimics requiring composite differential markers",
+      "abstraction": "Syndromic and isolated forms of distinct molecular entities present with indistinguishable primary phenotypes, rendering single clinical findings non-discriminating unless combined into multidimensional functional-structural matrices.",
+      "instance": "Early-onset RP101 masquerades as Stargardt disease (STGD1) due to early bull's-eye maculopathy and central visual acuity loss, while late-onset RP101 mimics common nonsyndromic retinitis pigmentosa; distinguishing CLN3 requires a composite rule (dark-adapted electronegative or undetectable ERG together with absent neurological decline), because macular atrophy alone fails to separate early CLN3 from STGD1, and electronegative ERG alone can appear in early ABCA4 retinopathy (2/5 in Khan et al.).",
+      "direction": "Develop standardized multiparametric diagnostic scoring rubrics integrating macular optical coherence tomography, dark-adapted full-field ERG waveforms, and peripheral blood vacuole cytology.",
+      "support": "Moderate to high across differential diagnosis literature (Kuper et al. 2021, Sakti et al. 2023, Khan et al. 2018, Wright et al. 2020).",
+      "sources": [
+        "WFE Kuper et al. (2021) Recognizing differentiating clinical signs of CLN3 disease (Batten disease) at presentation 10.1111/aos.14630",
+        "DH Sakti et al. (2023) Early recognition of CLN3 disease facilitated by visual electrophysiology and multimodal imaging 10.1007/s10633-023-09930-1",
+        "KN Khan et al. (2018) Early patterns of macular degeneration in ABCA4-associated retinopathy 10.1016/j.ophtha.2017.11.020",
+        "GA Wright et al. (2020) Juvenile Batten disease (CLN3): detailed ocular phenotype, novel observations, delayed diagnosis, masquerades, and prospects for therapy 10.1016/j.oret.2019.12.008"
+      ],
+      "hypothesis": "CLN3 retinopathy can be differentiated from STGD1 and common RP with over 95% specificity prior to genetic testing by combining dark-adapted ERG b:a amplitude ratio < 1.0 (or extinction) with the presence of lymphocyte cytoplasmic vacuolation.",
+      "novelty": "Replaces unreliable single-feature clinical discriminators (such as isolated macular atrophy or electronegative ERG alone) with a composite functional-cytological profile."
+    }
+  ]
+}

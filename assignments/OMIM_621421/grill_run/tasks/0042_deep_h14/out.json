@@ -1,0 +1,66 @@
+{
+  "verdict": "supported",
+  "rationale": "Published clinical and molecular genetics literature confirms that pathogenic germline variants causing Ramond-Elliott neurodevelopmental syndrome (RAMELN, OMIM #621421) strictly cluster in the 5' coding region of TRA2B upstream of an internal alternative translation start site. Functional characterization demonstrated that these 5' truncating/loss-of-function variants spare the downstream open reading frame, driving overexpression of the repressive Tra2beta-3 isoform (which lacks the N-terminal RS1 domain) and acting via a dominant-negative mechanism rather than simple haploinsufficiency. Furthermore, population databases (e.g., MARRVEL/gnomAD CNV controls) document copy number deletions of TRA2B in unaffected control individuals, corroborating that canonical loss-of-function variants or deletions outside this specific 5' hotspot do not trigger classic Ramond-Elliott syndrome.",
+  "evidence": [
+    {
+      "text": "In a cohort of 12 individuals from 11 unrelated families, all identified monoallelic pathogenic variants clustered in the 5' portion of TRA2B upstream of an alternative translation initiation site, causing decreased Tra2beta-1 and increased repressive Tra2beta-3 isoform expression via an apparent dominant-negative mechanism.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.10.013",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All variants clustered in the 5' part of TRA2B, upstream of an alternative translation start site responsible for the expression of the noncanonical Tra2\u03b2-3 isoform."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals evaluated in discovery cohort",
+          "value": 12
+        },
+        {
+          "metric": "unrelated families in discovery cohort",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Normal population genomic databases record healthy control individuals harboring heterozygous loss of copy number variants encompassing TRA2B, confirming that standard heterozygous deletion/haploinsufficiency outside the specific 5' dominant-negative hotspot does not cause classic Ramond-Elliott syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Chr3:185646665 A>G",
+        "authors": [
+          "MARRVEL database curators"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://marrvel.org/human/variant/3:185646665%20A%3EG",
+        "quote": "There are 35 control individuals with loss of copy number variants that contain TRA2B."
+      },
+      "numbers": [
+        {
+          "metric": "control individuals with copy number loss of TRA2B",
+          "value": 35
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Do non-truncating missense variants located in the Tra2beta RRM or RS2 domains produce distinct neurodevelopmental phenotypes or remain benign/silent in humans?",
+      "rationale": "Because the established RAMELN mechanism requires escape from nonsense-mediated decay and translation of the truncated Tra2beta-3 dominant-negative isoform, downstream missense or nonsense variants might lead to conventional haploinsufficiency, which control databases indicate may be non-penetrant or mild.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across molecularly confirmed GTPBP2 cases confirms that basal ganglia iron accumulation is not an early universal hallmark of Jaberi-Elahi syndrome, but rather a variable, age-dependent finding present in only a minority of reported individuals. The systematic literature review by Manoochehri et al. (2024) across 28 patients demonstrated that core manifestations are early-onset neurodevelopmental features (motor delay in 26/28, sparse hair in 26/28, speech disorder in 24/28, intellectual disability in 23/28, and hypotonia in 23/28), whereas radiologically documented brain iron accumulation was restricted to an older subset (4/28 patients, all aged 19-30 years) originally identified in the index Iranian kindred by Jaberi et al. (2016). Younger pediatric individuals consistently fail to display pallidal T2 hypointensity despite profound cerebellar and optic atrophy.",
+  "evidence": [
+    {
+      "text": "In a cohort review of 28 individuals with Jaberi-Elahi syndrome, brain iron accumulation was not a universal early feature, whereas early manifestations were dominated by motor development delay (26/28), sparse hair (26/28), speech disorder (24/28), intellectual disability (23/28), hypotonia (23/28), skeletal abnormalities (23/28), and visual impairment (18/28). Brain iron accumulation was documented only in an older subset of patients aged 19 to 30 years.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+      },
+      "numbers": [
+        {
+          "metric": "motor development delay",
+          "value": "26/28"
+        },
+        {
+          "metric": "sparse hair",
+          "value": "26/28"
+        },
+        {
+          "metric": "speech disorder",
+          "value": "24/28"
+        },
+        {
+          "metric": "intellectual disability",
+          "value": "23/28"
+        },
+        {
+          "metric": "hypotonia",
+          "value": "23/28"
+        },
+        {
+          "metric": "skeletal abnormalities",
+          "value": "23/28"
+        },
+        {
+          "metric": "visual impairment",
+          "value": "18/28"
+        }
+      ]
+    },
+    {
+      "text": "The original description of GTPBP2 as a putative NBIA-associated gene was identified in an adult consanguineous Iranian family with 3 affected siblings exhibiting brain iron deposition in the basal ganglia together with intellectual disability and retinal dysfunction.",
+      "stance": "supports",
+      "source": {
+        "title": "Identification of mutation in GTPBP2 in patients of a family with neurodegeneration accompanied by iron deposition in the brain",
+        "authors": [
+          "E Jaberi",
+          "M Rohani",
+          "GA Shahidi",
+          "S Nafissi",
+          "E Arefian"
+        ],
+        "year": 2016,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0197458015005461",
+        "quote": "We aimed to identify the genetic cause of a neurologic disorder accompanied with mental deficiency in a consanguineous family with 3 affected siblings by linkage analysis and exome sequencing. Iron accumulation in the brain of the patients was a notable phenotypic feature."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings in index family",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "GTPBP2 is recognized as an NBIA-associated gene based on findings in an Iranian kindred, but broad NBIA cohorts demonstrate marked clinical and age-dependent heterogeneity.",
+      "stance": "neutral",
+      "source": {
+        "title": "Neurodegeneration with brain iron accumulation and a brief report of the disease in Iran",
+        "authors": [
+          "R Hajati",
+          "M Emamikhah",
+          "FD Fard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cambridge.org/core/journals/canadian-journal-of-neurological-sciences/article/neurodegeneration-with-brain-iron-accumulation-and-a-brief-report-of-the-disease-in-iran/F1086EF553402CA967D7E406A870BCB4",
+        "quote": "one of the latest discovered NBIA genes, GTP-binding protein 2 (GTPBP2), has been identified in an Iranian family, and there are some patients who have genetically remained unknown."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "At what specific age threshold does susceptibility-weighted imaging (SWI) or T2* MRI reliably detect basal ganglia iron accumulation in GTPBP2-deficient patients?",
+      "rationale": "Because pediatric patients present with severe cerebellar and retinal degeneration without basal ganglia iron deposition, prospective longitudinal SWI/QSM neuroimaging across ages 5-25 is required to establish the exact natural history of iron accumulation.",
+      "promise": 0.85,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "What differentiates the cellular iron handling pathway in GTPBP2-related neurodegeneration from canonical NBIA forms like PKAN and PLAN?",
+      "rationale": "GTPBP2 functions in ribosomal stalling and translational surveillance rather than canonical iron-sulfur cluster biogenesis or lipid/coenzyme A metabolism, indicating that pallidal iron accumulation may be a secondary bystander effect of chronic neurodegeneration rather than primary iron dysregulation.",
+      "promise": 0.9,
+      "est_cost": 65000
+    }
+  ]
+}

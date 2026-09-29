@@ -1,0 +1,144 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While the initial description of LGMDR29 in five patients characterized the disorder by childhood-onset proximal muscle weakness, contractures, and restrictive respiratory dysfunction, subsequent reports show that the clinical presentation of biallelic SNUPN variants is substantially broader and heterogeneous. Phenotypes range from congenital and childhood onset to late adult-onset myopathy presenting with proximo-distal and axial weakness mimicking inclusion body myositis, cases presenting initially with myocardial damage, and biallelic variants manifesting predominantly as spinocerebellar ataxia with minimal or absent muscle involvement.",
+  "evidence": [
+    {
+      "text": "Five patients from two unrelated families presented with a limb-girdle muscular dystrophy phenotype carrying biallelic SNUPN variants, characterized by proximal weakness starting in childhood, restrictive respiratory dysfunction, and prominent contractures.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "P Iruzubieta",
+          "A Damborenea",
+          "M Ioghen",
+          "S Bajew"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "38366623",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+        "quote": "SNUPN patients show a similar phenotype characterized by proximal weakness starting in childhood, restrictive respiratory dysfunction and prominent contractures, although inter-individual variability in terms of severity even in individuals from the same family was found."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in initial discovery cohort",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families assessed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "SNUPN-related muscular dystrophy spans from congenital or childhood onset to adult-onset proximo-distal and axial muscle weakness with early respiratory involvement, as well as complex phenotypes with cataracts, neurodevelopmental features, or spinocerebellar ataxia.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+        "authors": [
+          "N Muelas",
+          "P Iruzubieta",
+          "A Damborenea"
+        ],
+        "year": 2026,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.70211",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+        "quote": "Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement."
+      },
+      "numbers": [
+        {
+          "metric": "adult-onset siblings described",
+          "value": 2
+        },
+        {
+          "metric": "total SNUPN variants identified to date",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Pathogenic SNUPN variants can present as spinocerebellar atrophy with Purkinje cell degeneration, where limb-girdle skeletal muscle involvement can be mild or entirely absent.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+        "authors": [
+          "M Okubo",
+          "M Ogawa",
+          "N Eura",
+          "YU Inoue",
+          "K Dewa",
+          "T Owa"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+        "quote": "We identified pathogenic variants in the SNUPN gene in two families with spinocerebellar atrophy. One patient exhibited mild changes in skeletal muscle, while the other did not."
+      },
+      "numbers": [
+        {
+          "metric": "families presenting with spinocerebellar atrophy",
+          "value": 2
+        },
+        {
+          "metric": "patients with absent skeletal muscle disease",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "A patient with limb-girdle muscular dystrophy type R29 presented with myocardial damage as the initial clinical manifestation, expanding beyond the classic skeletal muscle onset.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report",
+        "authors": [
+          "Q Dai",
+          "X Hu",
+          "B Li",
+          "Q Peng"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+        "quote": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation"
+      },
+      "numbers": [
+        {
+          "metric": "cases reported with initial myocardial manifestation",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Onset age is not restricted to childhood/young adulthood; adult-onset forms exist.",
+    "Weakness distribution is not strictly proximal limb-girdle; adult-onset patients display proximo-distal and prominent axial weakness mimicking inclusion body myositis.",
+    "Biallelic SNUPN variants can manifest as spinocerebellar atrophy without detectable muscular dystrophy or with only subclinical/mild muscle pathology.",
+    "Cardiac involvement can be an initial presenting feature rather than purely ambulatory difficulty."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What genotype-phenotype correlations determine whether SNUPN variants manifest as pure LGMDR29, spinocerebellar atrophy, or complex multisystem phenotypes?",
+      "rationale": "Different SNUPN mutations may differentially impact snurportin-1 binding affinity to importin-beta, cytoplasmic trafficking, or tissue-specific alternative splicing in muscle versus Purkinje cells.",
+      "promise": 0.85,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "What is the true prevalence of cardiac conduction disease and cardiomyopathy across confirmed SNUPN cohorts?",
+      "rationale": "Initial cohorts prioritized neuromuscular examinations, but emerging case reports indicate primary myocardial involvement, warranting systematic prospective cardiac screening.",
+      "promise": 0.75,
+      "est_cost": 120000
+    }
+  ]
+}

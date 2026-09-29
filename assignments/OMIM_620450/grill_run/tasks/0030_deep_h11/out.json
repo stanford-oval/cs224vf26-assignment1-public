@@ -1,0 +1,70 @@
+{
+  "verdict": "supported",
+  "rationale": "In the foundational report defining TAF4-related neurodevelopmental disorder (OMIM #620450; Janssen et al., 2022), the syndrome is established through eight individuals harboring de novo putative loss-of-function (pLoF) variants, presenting primarily with intellectual disability, behavioral anomalies, and facial dysmorphisms. Seizures are rare and mild (e.g., an isolated/single seizure), well below 30% penetrance. Across the available literature, no dominant-negative or pathogenic missense variants in TAF4 have been reported to cause early-onset refractory epileptic encephalopathy, supporting the hypothesis that epileptic encephalopathy is not a recognized manifestation of TAF4 variation.",
+  "evidence": [
+    {
+      "text": "Janssen et al. established TAF4 as a dominant disease gene for a neurodevelopmental disorder based on a cohort of eight individuals carrying de novo putative loss-of-function variants, with intellectual disability, abnormal behavior, and facial dysmorphisms as the primary shared features rather than early-onset epileptic encephalopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Detailed clinical evaluation of the TAF4 pLoF cohort documents seizure presentations as minimal (such as a single reported seizure) rather than an early-onset refractory epileptic encephalopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 ...",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/362328285_De_novo_putative_loss-of-function_variants_in_TAF4_are_associated_with_a_neuro-developmental_disorder",
+        "quote": "Seizures (HP:0001250) + single. seizure ... Missense variants of TAF1 have previously been implicated in X-linked intellectual disability."
+      },
+      "numbers": [
+        {
+          "metric": "seizure_frequency_percentage",
+          "value": "<30%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Do non-truncating de novo missense variants in the conserved histone-fold domain or TAF4/LisH domain of TAF4 exert dominant-negative effects leading to more severe neurological phenotypes?",
+      "rationale": "While existing human disease literature for TAF4 centers entirely on pLoF variants displaying haploinsufficiency, other TFIID subunit genes (such as TAF1) show significant phenotypic differences when affected by missense variants within conserved interaction domains.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the systematic penetrance of subclinical or generalized epileptic activity on standard EEG across an expanded international cohort of individuals with TAF4 variants?",
+      "rationale": "Systematic electroencephalographic characterization across age strata would clarify whether overt epileptic encephalopathy is truly absent or if occult epileptiform activity occurs without progression to refractory clinical seizures.",
+      "promise": 0.75,
+      "est_cost": 40000
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"PLAA\" \"prenatal\" \"cerebellar\" \"microcephaly\" fetus",
+    "PLAA gene fetal brain malformations prenatal exome sequencing"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+      "abstract_chars": 1543
+    },
+    {
+      "id": "10.1152/physrev.00063.2021",
+      "title": "Developmental and epileptic encephalopathies: from genetic heterogeneity to phenotypic continuum",
+      "pmid": null,
+      "doi": "10.1152/physrev.00063.2021",
+      "url": "https://journals.physiology.org/doi/abs/10.1152/physrev.00063.2021",
+      "abstract_chars": 1076
+    },
+    {
+      "id": "10.1007/978-3-030-84168-3_11",
+      "title": "Genetic metabolic disease",
+      "pmid": null,
+      "doi": "10.1007/978-3-030-84168-3_11",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-84168-3_11",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s13337-025-00924-y",
+      "title": "Genetic variants underlying congenital Zika syndrome and severe microcephaly: a systematic review and meta-analysis: AA Rabaan et al.",
+      "pmid": null,
+      "doi": "10.1007/s13337-025-00924-y",
+      "url": "https://link.springer.com/article/10.1007/s13337-025-00924-y",
+      "abstract_chars": 1668
+    },
+    {
+      "id": "https://www.nature.com/articles/s41421-020-0158-y",
+      "title": "Mendelian neurodegenerative disease genes involved in autophagy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41421-020-0158-y",
+      "abstract_chars": 809
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/162/gene/MINPP1/",
+      "title": "Gene: MINPP1 (Severe microcephaly)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/162/gene/MINPP1/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1186/s12920-022-01427-1",
+      "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+      "pmid": null,
+      "doi": "10.1186/s12920-022-01427-1",
+      "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+      "abstract_chars": 1529
+    },
+    {
+      "id": "https://molecularcasestudies.cshlp.org/content/5/2/a003756.short",
+      "title": "A semiautomated whole-exome sequencing workflow leads to increased diagnostic yield and identification of novel candidate variants",
+      "pmid": null,
+      "doi": null,
+      "url": "https://molecularcasestudies.cshlp.org/content/5/2/a003756.short",
+      "abstract_chars": 1323
+    },
+    {
+      "id": "32468575",
+      "title": "Approaches to studying the genomic architecture of complex birth defects",
+      "pmid": "32468575",
+      "doi": "10.1002/pd.5760",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.5760",
+      "abstract_chars": 1720
+    },
+    {
+      "id": "40844101",
+      "title": "Exome sequencing uncovers promising candidate genes for foetal structural malformations",
+      "pmid": "40844101",
+      "doi": "10.25259/ijmr_1318_2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550440/",
+      "abstract_chars": 2037
+    }
+  ],
+  "input_tokens": 6746,
+  "output_tokens": 2310,
+  "usd": 0.0103,
+  "seconds": 16.6,
+  "ok": true
+}

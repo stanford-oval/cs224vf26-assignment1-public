@@ -1,0 +1,99 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature confirms that biallelic variants in FDXR (MMDS9B) can manifest atypically with an acute or subacute onset of sensorimotor peripheral neuropathy and ataxia mimicking Guillain-Barr\u00e9 syndrome (GBS) or chronic inflammatory demyelinating polyneuropathy (CIDP) before the full classic triad of optic atrophy and sensorineural hearing loss is recognized. In a cohort and literature review of 44 individuals, sensorimotor peripheral polyneuropathy was documented in 22.72% (10/44) and ataxia in 43.18% (19/44), with report of siblings presenting acutely with inflammatory-mimicking neuropathy prior to developing classic optic and auditory signs. Furthermore, in an independent series of 10 individuals with FDXR-associated disease, 20% (2/10) were initially suspected of having Guillain-Barr\u00e9 syndrome.",
+  "evidence": [
+    {
+      "text": "In a systematic literature review of 44 patients with FDXR variants and report of two siblings, peripheral polyneuropathy was documented in 22.72% (10/44) and ataxia in 43.18% (19/44). The two siblings presented with acute/sub-acute onset of peripheral neuropathy mimicking acute inflammatory neuropathy prior to developing typical optic and auditory features.",
+      "stance": "supports",
+      "source": {
+        "title": "FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy",
+        "authors": [
+          "S Masnada",
+          "R Previtali",
+          "P Erba",
+          "E Beretta"
+        ],
+        "year": 2023,
+        "journal": "Neurological Sciences",
+        "doi": "10.1007/s10072-023-06790-0",
+        "pmid": null,
+        "pmc": "PMC10096094",
+        "url": "https://link.springer.com/article/10.1007/s10072-023-06790-0",
+        "quote": "The review of clinical findings in previously described cases from literature reveals also a significant incidence of sensorimotor peripheral polyneuropathy (22.72%) and ataxia (43.18%). To date, 44 patients with FDXR mutations have been reported. We describe here on two new patients, siblings, who presented with a quite different phenotype compared to previously described patients... Both patients presented with an acute-sub-acute onset of peripheral neuropathy and only in later stages of the disease developed the typical features of FDXR-associated disease."
+      },
+      "numbers": [
+        {
+          "metric": "sensorimotor peripheral polyneuropathy frequency in FDXR literature review",
+          "value": "10/44 (22.72%)"
+        },
+        {
+          "metric": "ataxia frequency in FDXR literature review",
+          "value": "19/44 (43.18%)"
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 10 individuals from 8 unrelated families harboring biallelic FDXR variants, 2 of 10 (20%) individuals were clinically suspected to have Guillain-Barr\u00e9 syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Expanding the FDXR-associated disease phenotype: retinal dystrophy is a recurrent ocular feature",
+        "authors": [
+          "N Jurkute",
+          "PD Shanmugarajah"
+        ],
+        "year": 2021,
+        "journal": "Investigative Ophthalmology & Visual Science",
+        "doi": "10.1167/iovs.62.6.2",
+        "pmid": "33938912",
+        "pmc": null,
+        "url": "https://iovs.arvojournals.org/article.aspx?articleid=2772552",
+        "quote": "Two individuals from unrelated families (2/10) were suspected to have Guillain-Barre syndrome. ... Interestingly, FDXR-associated optic neuropathy seems to be variable and may present ..."
+      },
+      "numbers": [
+        {
+          "metric": "proportion suspected of Guillain-Barre syndrome in FDXR cohort",
+          "value": "2/10 (20%)"
+        }
+      ]
+    },
+    {
+      "text": "Genetic neuropathies can present with acute or subacute onset resembling inflammatory demyelinating polyneuropathy (CIDP-like presentation), leading to misdiagnosis or treatment delays when response to immunomodulatory therapy is absent or poor.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic neuropathies presenting with CIDP-like features in ...",
+        "authors": [
+          "MA Fernandez-Garcia"
+        ],
+        "year": 2021,
+        "journal": "Neuromuscular Disorders",
+        "doi": "10.1016/j.nmd.2020.11.013",
+        "pmid": "33386210",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0960896620306787",
+        "quote": "The distinction from chronic inflammatory demyelinating polyneuropathy (CIDP) may be challenging, considering its rarity in childhood, that genetic neuropathies may show secondary inflammatory features, and that subacute CIDP presentations may closely mimic the disease course of inherited disorders."
+      },
+      "numbers": [
+        {
+          "metric": "paediatric genetic neuropathy cases with CIDP-like onset evaluated",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What electrophysiological and CSF markers (e.g., presence or absence of albuminocytological dissociation, conduction block vs. axonal loss) reliably differentiate acute-onset FDXR neuropathy from true autoimmune GBS/CIDP at initial presentation?",
+      "rationale": "Because early-stage FDXR neuropathy mimics acute inflammatory demyelinating polyneuropathies, defining whether CSF protein or neurophysiology can rule out inflammatory neuropathy prior to genetic testing could prevent ineffective immunotherapy administration.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does genotype-phenotype correlation exist for specific missense versus truncating FDXR variants in predisposing to an acute inflammatory-mimicking polyneuropathy presentation over classic infantile-onset optic atrophy?",
+      "rationale": "Clarifying whether residual electron transfer activity from particular FDXR missense alleles delays sensory organ involvement while triggering peripheral axonal vulnerability under metabolic stress would improve prognostic prediction.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

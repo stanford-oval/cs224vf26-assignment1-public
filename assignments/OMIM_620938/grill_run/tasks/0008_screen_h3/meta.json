@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia 93\" \"pulmonary hypertension\"",
+    "NFU1 spastic paraplegia 93 MMDS1 phenotype pulmonary hypertension lactic acidosis"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/608100",
+      "title": "608100 - NFU1 IRON-SULFUR CLUSTER SCAFFOLD",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/608100",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/genes/NFU1",
+      "title": "NFU1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/genes/NFU1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/NFU1",
+      "title": "NFU1 gene NFU1 Iron-Sulfur Cluster Scaffold",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/NFU1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/search/results?q=NFU1",
+      "title": "Search results for NFU1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/search/results?q=NFU1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.uniprot.org/uniprotkb/Q9UMS0/entry",
+      "title": "NFU1 iron-sulfur cluster scaffold homolog, mitochondrial",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.uniprot.org/uniprotkb/Q9UMS0/entry",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/ajmg.a.70213",
+      "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.70213",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+      "abstract_chars": 1837
+    },
+    {
+      "id": "31970900",
+      "title": "Multiple mitochondrial dysfunctions syndrome 1: An unusual cause of developmental pulmonary hypertension",
+      "pmid": "31970900",
+      "doi": "10.1002/ajmg.a.61491",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61491",
+      "abstract_chars": 938
+    },
+    {
+      "id": "34687937",
+      "title": "Mitochondrial iron-sulfur cluster biogenesis and neurological disorders",
+      "pmid": "34687937",
+      "doi": "10.1016/j.mito.2021.10.004",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "abstract_chars": 1244
+    },
+    {
+      "id": "10.3389/fgene.2014.00412/full",
+      "title": "Cavitating leukoencephalopathy with multiple mitochondrial dysfunction syndrome and NFU1 mutations",
+      "pmid": null,
+      "doi": "10.3389/fgene.2014.00412/full",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2014.00412/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3783,
+  "output_tokens": 1134,
+  "usd": 0.00529,
+  "seconds": 27.6,
+  "ok": true
+}

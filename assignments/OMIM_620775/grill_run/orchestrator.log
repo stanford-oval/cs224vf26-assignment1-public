@@ -1,0 +1,21 @@
+[17:22:34] INIT: parse fields + PRIOR (parallel)
+[17:22:43]   required_fields=5 seed_directions=4 prior_hypotheses=5 terms=4
+[17:22:43] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:23:02] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[17:23:38]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[17:24:25]   DEEP: 1 → pool, 4 → bin ($0.06 total)
+[17:24:25]   INIT probe: 1 pooled, 4 binned (+1 directions seeded)
+[17:24:25]   INIT spent $0.13
+[17:24:29]   PLAN: $4.94 pot, $1.97 ceiling → d18 $1.97 (Directly resolves question 1 by extracting exact); d15 $1.97 (Directly tackles question 4 by dissecting genoty)
+[17:24:29] ROUND 1: EXPLORE 2 dirs (d18=$1.97  d15=$1.97; spent $0.13/10.00)
+[17:24:54]   +6 hypotheses from 2 directions
+[17:25:17]   SCREEN: 6 passed / 6 screened ($0.07 total)
+[17:26:07]   DEEP: 3 → pool, 3 → bin ($0.14 total)
+[17:26:26]   PLAN: $4.86 pot, $1.95 ceiling → d1 $1.95 (Directly resolves question 1 by extracting exact); d5 $1.95 (Resolves the direct contradiction between Watts )
+[17:26:26] ROUND 2: EXPLORE 2 dirs (d1=$1.95  d5=$1.95; spent $0.28/10.00)
+[17:26:50]   +6 hypotheses from 2 directions
+[17:27:29]   SCREEN: 6 passed / 6 screened ($0.11 total)
+[17:28:11]   DEEP: 4 → pool, 2 → bin ($0.22 total)
+[17:28:21] FINALIZE: converged=False spent=$0.42  (init $0.03  plan $0.01  explore $0.06  screen $0.11  deep $0.22  measure $0.00)
+[17:28:58]   outline: 7 sections; report 15KB
+[17:29:11] DONE: coverage 1/5  quality 0.47 (8 pooled / 9 binned, untested 0)  answeredness=0.09  unsourced=0.00  answeredness/$=0.2004

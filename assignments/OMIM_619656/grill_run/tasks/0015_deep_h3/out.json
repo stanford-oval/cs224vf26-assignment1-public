@@ -1,0 +1,74 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature provided confirms that heterozygous variants in SMAD2 cause Loeys-Dietz syndrome type 6 (LDS6) and that craniofacial features such as hypertelorism, bifid uvula, and cleft palate are classic hallmarks across the Loeys-Dietz spectrum. However, none of the retrieved sources provide empirical cohort data, numerators, or denominators supporting the claim that craniofacial features occur in specifically 30\u201350% of SMAD2 probands, nor do they substantiate the assertion that these features are systematically absent in mildly affected familial relatives. Because the quantitative frequency claims cannot be substantiated from the resolvable literature and existing descriptions range from asserting prominent craniofacial severity to describing LDS6 as a rare or distinct entity, the specific hypothesis is unsupported and refuted.",
+  "evidence": [
+    {
+      "text": "Loeys-Dietz syndrome is characterized by a clinical triad including hypertelorism, bifid uvula or cleft palate, and aortic aneurysms with tortuosity, and lists SMAD2 among the causal TGF-beta pathway genes, but does not provide specific cohort frequencies for SMAD2 probands or relatives.",
+      "stance": "neutral",
+      "source": {
+        "title": "Loeys-dietz syndrome",
+        "authors": [
+          "JD Velchev",
+          "L Van Laer",
+          "I Luyckx",
+          "H Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1007/978-3-030-80614-9_11",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-80614-9_11",
+        "quote": "The genetic cause is heterogeneous and includes mutations in genes encoding for components of the transforming growth factor beta (TGF\u03b2) signalling pathway: TGFBR1, TGFBR2, SMAD2, SMAD3, TGFB2 and TGFB3."
+      },
+      "numbers": []
+    },
+    {
+      "text": "SMAD2-related LDS represents a distinct end of the phenotypic spectrum and differs in craniofacial appearance, but the source does not provide quantitative prevalence (e.g., 30\u201350%) of hypertelorism or bifid uvula/cleft palate.",
+      "stance": "neutral",
+      "source": {
+        "title": "Loeys\u2013dietz syndrome",
+        "authors": [
+          "A Verstraeten",
+          "HC Dietz"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1002/9781119432692.ch36",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+        "quote": "end of the phenotypic spectrum SMAD2related LDS should be \u2026 They are differ\u2011 ent, however, in their craniofacial appearance\u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "A clinical overview describes LDS6 (caused by SMAD2 mutations) as characterized by the presence of craniofacial features (cleft palate, hypertelorism, bifid uvula) and characterizes it as a severe form of LDS, contrasting with the hypothesis that these features are present in only a minority (30-50%) or absent in relatives.",
+      "stance": "contradicts",
+      "source": {
+        "title": "What does Loeys-Dietz Syndrome Look Like?",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://loeysdietzcanada.org/what-does-loeys-dietz-syndrome-look-like-an-overview-into-the-phenotypic-differences-across-lds-subtypes/",
+        "quote": "LDS6 (Mutations in SMAD2). o Characterized by the presence of craniofacial features (cleft palate, hypertelorism, bifid uvula). o Most severe form of LDS."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Some sources describe SMAD2-related LDS (LDS6) as presenting prominently with severe craniofacial features (cleft palate, hypertelorism, bifid uvula), whereas other sources emphasize phenotypic divergence across the LDS spectrum, and neither substantiates the proposed 30-50% frequency."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance and cohort-derived frequency (with numerators and denominators) of craniofacial findings (hypertelorism HP:0000316, bifid uvula HP:0000193, cleft palate HP:0000175) across all published SMAD2 probands versus mutation-positive family members?",
+      "rationale": "Current literature lacks pooled, systematically curated phenotype-genotype tables specifically quantifying SMAD2 mutation carriers separately from other LDS types (TGFBR1, TGFBR2, SMAD3, TGFB2).",
+      "promise": 0.85,
+      "est_cost": 8000.0
+    }
+  ]
+}

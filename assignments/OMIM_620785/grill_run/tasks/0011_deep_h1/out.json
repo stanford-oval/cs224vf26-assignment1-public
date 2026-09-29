@@ -1,0 +1,98 @@
+{
+  "verdict": "supported",
+  "rationale": "Large multi-center cohort analysis demonstrates that bi-allelic pathogenic variants in ACBD6 (predominantly loss-of-function, 18/20 distinct variants) cause neurodevelopmental disorder with progressive movement abnormalities (OMIM #620785). Global developmental delay and intellectual disability are observed in 100% (45/45) of reported individuals. Progressive movement disorders are present in 97% (43/45), with dystonia being the most prevalent movement disorder manifestation (94%, 42/45), frequently accompanied by hyperkinetic movements including chorea, tremor, ataxia, and subsequent parkinsonism/hypokinesia.",
+  "evidence": [
+    {
+      "text": "In a seminal cohort of 45 affected individuals across 28 unrelated families with bi-allelic pathogenic ACBD6 variants, 100% presented with moderate-to-severe global developmental delay/intellectual disability, 97% had movement disorders (with dystonia present in 94%), 98% had expressive language impairment, 97% developed progressive postural deformities, 85% had cerebellar ataxia, and 76% exhibited spasticity/hypertonia.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%) associated with gait impairment (94%), limb spasticity/hypertonia (76%)... The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%)."
+      },
+      "numbers": [
+        {
+          "metric": "global_developmental_delay_or_intellectual_disability_frequency",
+          "value": "45/45"
+        },
+        {
+          "metric": "movement_disorders_frequency",
+          "value": "43/45"
+        },
+        {
+          "metric": "dystonia_frequency",
+          "value": "42/45"
+        },
+        {
+          "metric": "early_onset_postural_deformities_frequency",
+          "value": "43/45"
+        }
+      ]
+    },
+    {
+      "text": "Review of genetic causes of chorea and hyperkinetic disorders identifies bi-allelic loss-of-function variants in ACBD6 as a novel cause of hyperkinetic syndromes presenting with chorea, dystonia, and parkinsonism.",
+      "stance": "supports",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Several novel genetic conditions have been linked to chorea over the last 3 years, including mutations in FTH1, NAA60, ACBD6 or TOR1AIP2."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Comprehensive analysis of monogenic neurodevelopmental disorders and developmental epileptic encephalopathies presenting with hyperkinetic movement disorders highlights that recessive ACBD6 mutations present prominently with axial dystonia as a distinguishing sign within hyperkinetic NDDs.",
+      "stance": "supports",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "suggest recessive ACBD6 mutations, where axial dystonia is..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "How specifically can neuroimaging hallmarks (corpus callosum anomalies, clava hypertrophy, and anterior commissure agenesis) differentiate ACBD6-related disorders from other hereditary dystonia-parkinsonism and chorea syndromes?",
+      "rationale": "Neuroimaging abnormalities such as hypoplasia/agenesis of the anterior commissure (66%) and hypertrophy of the clava (24%) may provide pathognomonic diagnostic clues in individuals with ambiguous mixed hyperkinetic/dystonic phenotypes.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the therapeutic responsiveness of ACBD6-associated dystonia, chorea, and tremor to dopaminergic modulation, anticholinergics, or deep brain stimulation?",
+      "rationale": "Patients present with a progression from hyperkinetic/dystonic features in childhood to parkinsonism in older ages (32%), suggesting possible basal ganglia dopaminergic pathway involvement.",
+      "promise": 0.85,
+      "est_cost": 40000
+    }
+  ]
+}

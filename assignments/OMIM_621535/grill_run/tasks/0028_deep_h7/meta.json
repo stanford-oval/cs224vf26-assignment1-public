@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SCA52\" \"RAB3A\" \"cerebellar atrophy\" MRI",
+    "RAB3A spinocerebellar ataxia SCA52 cerebellar vermis atrophy MRI neuroimaging"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "abstract_chars": 455
+    },
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621535",
+      "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/149/1/e1/8286274",
+      "title": "RAB3A variants in ataxia and other neurodegenerative disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/149/1/e1/8286274",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s12311-008-0025-0",
+      "title": "Magnetic resonance imaging in spinocerebellar ataxias",
+      "pmid": null,
+      "doi": "10.1007/s12311-008-0025-0",
+      "url": "https://link.springer.com/article/10.1007/s12311-008-0025-0",
+      "abstract_chars": 1508
+    },
+    {
+      "id": "27173364",
+      "title": "MR imaging in spinocerebellar ataxias: a systematic review",
+      "pmid": "27173364",
+      "doi": "10.3174/ajnr.a4760",
+      "url": "https://www.ajnr.org/content/37/8/1405.short",
+      "abstract_chars": 2113
+    },
+    {
+      "id": "32367276",
+      "title": "Volumetric MRI changes in spinocerebellar ataxia (SCA3 and SCA10) patients",
+      "pmid": "32367276",
+      "doi": "10.1007/s12311-020-01137-3",
+      "url": "https://link.springer.com/article/10.1007/s12311-020-01137-3",
+      "abstract_chars": 1552
+    },
+    {
+      "id": "10.3389/fnins.2022.859651/full",
+      "title": "Magnetic resonance imaging and its clinical correlation in spinocerebellar ataxia type 3: a systematic review",
+      "pmid": null,
+      "doi": "10.3389/fnins.2022.859651/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.859651/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "31632837",
+      "title": "Neuroradiological Findings in the Spinocerebellar Ataxias",
+      "pmid": "31632837",
+      "doi": "10.7916/tohm.v0.682",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6765228/",
+      "abstract_chars": 1209
+    },
+    {
+      "id": "https://radiopaedia.org/articles/spinocerebellar-ataxia?lang=us",
+      "title": "Spinocerebellar ataxia | Radiology Reference Article",
+      "pmid": null,
+      "doi": null,
+      "url": "https://radiopaedia.org/articles/spinocerebellar-ataxia?lang=us",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5255,
+  "output_tokens": 3380,
+  "usd": 0.01277,
+  "seconds": 19.7,
+  "ok": true
+}

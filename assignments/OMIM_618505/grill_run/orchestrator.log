@@ -1,0 +1,21 @@
+[17:01:04] INIT: parse fields + PRIOR (parallel)
+[17:01:14]   required_fields=9 seed_directions=4 prior_hypotheses=4 terms=4
+[17:01:14] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:01:33] INIT: probing 4 prior candidate answer(s) — screen then deep test
+[17:01:53]   SCREEN: 4 passed / 4 screened ($0.03 total)
+[17:02:20]   DEEP: 1 → pool, 3 → bin ($0.05 total)
+[17:02:20]   INIT probe: 1 pooled, 3 binned (+1 directions seeded)
+[17:02:20]   INIT spent $0.11
+[17:02:25]   PLAN: $4.94 pot, $1.98 ceiling → d6 $1.98 (Extracts the exact numerators, denominators, and); d9 $1.98 (Quantifies the presence or explicit absence of k)
+[17:02:25] ROUND 1: EXPLORE 2 dirs (d6=$1.98  d9=$1.98; spent $0.12/10.00)
+[17:02:49]   +6 hypotheses from 2 directions
+[17:03:23]   SCREEN: 6 passed / 6 screened ($0.07 total)
+[17:04:15]   DEEP: 0 → pool, 6 → bin ($0.13 total)
+[17:04:27]   PLAN: $4.86 pot, $1.95 ceiling → d18 $1.95 (Directly extracts exact numerators and denominat); d24 $1.95 (Provides comprehensive cohort-level numerators a)
+[17:04:27] ROUND 2: EXPLORE 2 dirs (d18=$1.95  d24=$1.95; spent $0.28/10.00)
+[17:04:54]   +6 hypotheses from 2 directions
+[17:05:18]   SCREEN: 6 passed / 6 screened ($0.10 total)
+[17:05:59]   DEEP: 1 → pool, 5 → bin ($0.20 total)
+[17:06:06] FINALIZE: converged=False spent=$0.42  (init $0.03  plan $0.01  explore $0.07  screen $0.10  deep $0.20  measure $0.00)
+[17:06:59]   outline: 6 sections; report 18KB
+[17:07:06] DONE: coverage 1/9  quality 0.12 (2 pooled / 14 binned, untested 0)  answeredness=0.01  unsourced=0.00  answeredness/$=0.0296

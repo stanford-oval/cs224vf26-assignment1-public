@@ -1,0 +1,91 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that persistent fetal fingertip pads (HP:0001212) and lower eyelid eversion (HP:0000656) have a true prevalence of 0% in KDM6B-related neurodevelopmental disorder (Stolerman syndrome) and that their presence definitively rules out Stolerman syndrome in favor of Kabuki syndrome. However, literature examining histone methylation disorders and chromatin-modifier syndromes explicitly highlights phenotypic overlap between Kabuki syndrome (associated with KDM6A/KMT2D) and KDM6B-related neurodevelopmental disorders, specifically referencing shared dysmorphic features such as eversion of the lateral lower eyelid and digital anomalies including persistent fetal fingertip pads. Furthermore, an assertion of '0% prevalence' based on unassessed cohorts is methodologically invalid, and the documented clinical overlap directly contradicts using these features as absolute exclusionary criteria.",
+  "evidence": [
+    {
+      "text": "Reviews of histone methylation disorders identify substantial phenotypic overlap between Kabuki syndrome and Stolerman neurodevelopmental syndrome caused by monoallelic pathogenic variants in KDM6B, specifically discussing features such as eversion of the lateral third of the lower eyelid.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Disorders of histone methylation: molecular basis and clinical syndromes",
+        "authors": [
+          "M Al Ojaimi",
+          "BJ Banimortada",
+          "A Othman"
+        ],
+        "year": 2022,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14181",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14181",
+        "quote": "and eversion of the lateral third of the lower eyelid, prominent \u2026 phenotypic overlap between these two syndromes, the former \u2026 caused by monoallelic pathogenic variants in KDM6B"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Histone-related disorder syntheses describe the overlapping phenotypic spectrum of Stolerman neurodevelopmental syndrome alongside classical histone modification features including brachydactyly, facial dysmorphisms, and persistent fetal fingertip pads.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Molecular and clinical aspects of histone-related disorders",
+        "authors": [
+          "M Al Ojaimi",
+          "BJ Banimortada",
+          "A Alragheb",
+          "RS Hajir"
+        ],
+        "year": 2025,
+        "journal": "Epigenetics & Chromatin",
+        "doi": "10.1186/s40246-025-00734-9",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s40246-025-00734-9",
+        "quote": "Stolerman neurodevelopmental syndrome \u2026 and both syndromes are associated with variable phenotypes [100]. \u2026 brachydactyly, and persistent fetal fingertip pads), facial dysmorphisms"
+      },
+      "numbers": [
+        {
+          "metric": "described histone-related syndromes",
+          "value": 72
+        }
+      ]
+    },
+    {
+      "text": "Kabuki syndrome clinical profiles show characteristic features including persistent fetal fingertip pads and distinct behavioral/developmental phenotypes, which share epigenetic machinery with other histone modification disorders.",
+      "stance": "neutral",
+      "source": {
+        "title": "Kabuki syndrome - Genetics",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1093/arclin/acag069",
+        "pmid": "42715378",
+        "pmc": null,
+        "url": "https://medlineplus.gov/genetics/condition/kabuki-syndrome/",
+        "quote": "These prominent finger pads are called fetal finger pads because they normally occur in human fetuses; in most people they disappear before"
+      },
+      "numbers": [
+        {
+          "metric": "evaluated KS cohort sample size",
+          "value": 35
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts persistent fetal fingertip pads and lower eyelid eversion definitively rule out Stolerman syndrome, whereas comparative chromatin-disorder reviews highlight phenotypic overlap including these specific dysmorphic features across KDM6B and Kabuki-associated genes."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic prospective frequency of lateral lower eyelid eversion and fetal fingertip pads in international cohorts of molecularly confirmed KDM6B pathogenic variant carriers?",
+      "rationale": "Direct deep-phenotyping of large KDM6B cohorts evaluated under standardized HPO frameworks is required to establish exact numerator and denominator data for Kabuki-like hallmarks.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Can episignature profiling reliably differentiate KDM6B-related neurodevelopmental disorder from KMT2D- and KDM6A-related Kabuki syndrome in patients with overlapping palpebral and digital dysmorphisms?",
+      "rationale": "Genome-wide DNA methylation signatures often provide absolute differentiation between chromatin-modifying neurodevelopmental syndromes where physical clinical dysmorphology overlaps.",
+      "promise": 0.9,
+      "est_cost": 25000
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "patterns": [
+    {
+      "pattern": "Diagnostic discrimination in syndromic neurodevelopmental disorders often relies on the structural non-involvement of organ systems rather than positive cognitive hallmarks",
+      "abstraction": "When neurodevelopmental impairments are ubiquitous across distinct genetic syndromes, exclusionary value derives from organ-specific anatomical spares rather than cognitive manifestations",
+      "instance": "FBXO11-related disorder exhibits near-zero penetrance for complex congenital heart defects (HP:0001627) and congenital limb-reduction deficiencies (0/21 in Goel et al.; 0/12 in Pan et al.), differentiating it from phenotypically overlapping conditions like Cornelia de Lange or Rubinstein-Taybi syndromes",
+      "direction": "Develop standardized negative-phenotype scoring algorithms where the absence of multi-system organ anomalies directly reprioritizes FBXO11 among differential diagnoses of syndromic intellectual disability",
+      "support": "Strong across multiple independent cohorts and systematic prenatal/postnatal surveys",
+      "sources": [
+        "A Gregor et al. (2018) De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+        "X Pan et al. (2024) FBXO11 variants are associated with intellectual disability and variable clinical manifestation in Chinese affected individuals https://www.nature.com/articles/s10038-024-01255-4",
+        "H Goel et al. (2026) Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients https://www.researchsquare.com/article/rs-10148333/latest"
+      ],
+      "hypothesis": "Syndromic ID patients without limb or structural cardiovascular defects have a significantly higher diagnostic odds ratio for FBXO11 loss-of-function variants compared to cohorts with multisystem malformations",
+      "novelty": "Inverts the traditional diagnostic heuristic by showing negative discriminators provide higher diagnostic precision than positive, non-specific neurodevelopmental symptoms"
+    },
+    {
+      "pattern": "Haploinsufficiency convergence across disparate mutational mechanisms precludes variant-specific clinical stratification",
+      "abstraction": "Truncating loss-of-function and critical-domain missense alterations converge on a single functional threshold deficit, creating an indistinguishable core phenotype without distinct sub-syndromic divergence",
+      "instance": "In FBXO11 cohorts, de novo protein-truncating variants and missense variants clustering in the F-box and UBR domains produce comparable rates and severities of intellectual disability, facial dysmorphism, and speech delay",
+      "direction": "Perform structural and biochemical ubiquitin-ligase assays to determine whether missense variants strictly disrupt protein stability and complex formation or exert hypomorphic activity indistinguishable in vivo",
+      "support": "Consistent findings across primary discovery and follow-up cohorts",
+      "sources": [
+        "A Gregor et al. (2018) De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+        "A Gregor et al. (2022) De novo missense variants in FBXO11 alter its protein expression and subcellular localization https://academic.oup.com/hmg/article-abstract/31/3/440/6367979",
+        "S Jansen et al. (2019) De novo variants in FBXO11 cause a syndromic form of intellectual disability with behavioral problems and dysmorphisms PMC6462006"
+      ],
+      "hypothesis": "Both loss-of-function alleles and pathogenic F-box/UBR domain missense variants lead to identical destabilization of the SCF-FBXO11 complex, exceeding a common threshold required for normal neurodevelopment",
+      "novelty": "Challenges the assumption that domain-specific missense variants in E3 ubiquitin ligase adaptors produce distinct dominant-negative or hypermorphic phenotypes"
+    },
+    {
+      "pattern": "Titular diagnostic manifestations show incomplete penetrance, misleading phenotype-based clinical ascertainment",
+      "abstraction": "Eponymous or nomenclature-defining phenotypic features often fail to achieve full penetrance, leading to underdiagnosis when treated as mandatory inclusion criteria",
+      "instance": "In IDDFBA (Intellectual developmental disorder with dysmorphic facies and behavioral abnormalities), behavioral dysregulation is present in only 62-85% (17/20 in Gregor 2018; 13/21 in Goel 2026) and facial dysmorphism in 67%, with both frequently absent in familial clusters",
+      "direction": "Re-evaluate disease definitions to de-emphasize behavioral disturbances as mandatory inclusion criteria in familial diagnostic guidelines",
+      "support": "High consistency across discovery cohorts, familial pedigrees, and multi-center evaluations",
+      "sources": [
+        "A Gregor et al. (2018) De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+        "CG Lee et al. (2020) The first familial case of inherited intellectual developmental disorder with dysmorphic facies and behavioral abnormalities (IDDFBA) with a novel FBXO11 variant 10.1002/ajmg.a.61828",
+        "H Goel et al. (2026) Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients https://www.researchsquare.com/article/rs-10148333/latest"
+      ],
+      "hypothesis": "Familial and milder missense FBXO11 cases are disproportionately overlooked when clinicians screen strictly for hyperactive, aggressive, or overt behavioral phenotypes",
+      "novelty": "Demonstrates that the syndrome's titular symptoms (dysmorphic facies and behavioral abnormalities) are secondary variable manifestations rather than obligatory diagnostic hallmarks"
+    },
+    {
+      "pattern": "Phenotypic mimicry and phenocopying of distinct single-gene syndromes across shared developmental pathways",
+      "abstraction": "Mutations in broad regulatory or post-translational complexes can phenocopy unrelated Mendelian disorders by modulating downstream targets or chromatin machinery",
+      "instance": "Specific missense variants in FBXO11 present with nail hypoplasia (HP:0001792) and a pear-shaped nose (HP:0000447), phenocopying trichorhinophalangeal syndrome (TRPS) despite FBXO11 typically lacking skeletal dysplasias",
+      "direction": "Map downstream ubiquitination substrates of FBXO11 in chondrogenesis and craniofacial morphogenesis to determine direct interactions with TRPS1 pathway components",
+      "support": "Documented in detailed single-case phenotyping reports supported by molecular findings",
+      "sources": [
+        "A M\u00e9garban\u00e9 et al. (2024) How many phenotypes for the FBXO11 related disease? Report on a new patient with a tricho-rhino-phalangeal like phenotype PMID:38679370",
+        "A Gregor et al. (2022) De novo missense variants in FBXO11 alter its protein expression and subcellular localization https://academic.oup.com/hmg/article-abstract/31/3/440/6367979"
+      ],
+      "hypothesis": "Pathogenic FBXO11 missense variants alter substrate specificity to aberrantly regulate TRPS1 degradation, yielding localized TRPS phenocopies",
+      "novelty": "Reveals unexpected clinical mimicry between ubiquitin ligase adaptor deficiency and zinc-finger transcription factor-mediated chondrodysplasia"
+    },
+    {
+      "pattern": "Contradictory skull-growth trajectories challenge exclusionary negative criteria",
+      "abstraction": "Assumptions of phenotypic exclusion derived from small early cohorts can be contradicted as wider spectrum studies identify low-to-moderate penetrance of the supposedly absent trait",
+      "instance": "Early characterizations proposed microcephaly was consistently absent or skewed toward normal-to-macrocephaly, but expanded cohorts confirm mild-to-moderate postnatal microcephaly (HP:0000252) occurs in 20-25% of affected individuals (4/19 in Gregor 2018; 24% in Goel 2026)",
+      "direction": "Perform longitudinal anthropometric head-circumference trajectory analysis across pediatric cohorts to determine whether microcephaly is progressive, congenital, or postnatally deceleration-driven",
+      "support": "Supported by quantitative cohort metrics showing 20-25% prevalence despite previous literature categorizing it as absent",
+      "sources": [
+        "A Gregor et al. (2018) De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+        "H Goel et al. (2026) Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients https://www.researchsquare.com/article/rs-10148333/latest",
+        "D Fritzen et al. (2018) De novo FBXO11 mutations are associated with intellectual disability and behavioural anomalies 10.1007/s00439-018-1892-1"
+      ],
+      "hypothesis": "FBXO11 variants do not safeguard against microcephaly; rather, head circumference follows a bimodal or widened distribution with microcephaly occurring in a distinct subset of carriers",
+      "novelty": "Refutes the previously proposed negative discriminator that microcephaly rules out FBXO11-related disorder"
+    }
+  ]
+}

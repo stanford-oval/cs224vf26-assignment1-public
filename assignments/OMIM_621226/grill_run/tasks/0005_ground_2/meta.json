@@ -1,0 +1,81 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spastic ataxia 11\" \"TUBA4A\"",
+    "TUBA4A spastic ataxia 11 clinical features OMIM 621226"
+  ],
+  "n_hits": 8,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/621226",
+      "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621226",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/clinvar/RCV005416249",
+      "title": "NM_006000.3(TUBA4A):c.518C>G (p.Pro173Arg) AND ... - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV005416249",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-177878.1",
+      "title": "Autosomal dominant by PanelApp Australia submission ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-177878.1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/spastic_ataxia_11_autosomal_dominant",
+      "title": "Spastic Ataxia 11, Autosomal Dominant (SPAX11)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/spastic_ataxia_11_autosomal_dominant",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/268/gene/TUBA4A/",
+      "title": "Gene: TUBA4A (Ataxia - adult onset)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/268/gene/TUBA4A/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mirror.omim.org/clinicalSynopsis/621226",
+      "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mirror.omim.org/clinicalSynopsis/621226",
+      "abstract_chars": 0
+    },
+    {
+      "id": "34344863",
+      "title": "108600 - SPASTIC ATAXIA 1, AUTOSOMAL DOMINANT; ...",
+      "pmid": "34344863",
+      "doi": "10.1038/s41467-021-24878-z",
+      "url": "https://omim.org/entry/108600",
+      "abstract_chars": 1150
+    },
+    {
+      "id": "https://omim.org/entry/620666",
+      "title": "620666 - SPASTIC ATAXIA 10, AUTOSOMAL RECESSIVE; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620666",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2311,
+  "output_tokens": 1523,
+  "usd": 0.00572,
+  "seconds": 12.3,
+  "ok": true
+}

@@ -1,0 +1,178 @@
+{
+  "hypotheses": [
+    {
+      "text": "Absence of choanal atresia and semicircular canal hypoplasia cannot reliably exclude CHARGE syndrome in favor of KDM2B-related disorder on clinical grounds alone because systematic otolaryngologic and temporal bone imaging evaluations have not been documented in published KDM2B cohorts.",
+      "rationale": "Clinical differentiation between KDM2B-related neurodevelopmental disorder and atypical CHARGE syndrome relies heavily on negative criteria, but under-ascertainment and absence of systematic imaging (e.g., high-resolution temporal bone CT) in KDM2B cases weaken the validity of these features as true exclusionary markers.",
+      "aspects": [
+        "differential-diagnosis",
+        "CHARGE-syndrome",
+        "phenotypic-overlap"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Knockdown of kdm2bb/fbxl10 rescues chd7 morphant phenotype in a zebrafish model of CHARGE syndrome, demonstrating direct functional convergence between KDM2B and CHD7 in neural crest and craniofacial development.",
+          "stance": "supports",
+          "source": {
+            "title": "Knockdown of fbxl10/kdm2bb rescues chd7 morphant phenotype in a zebrafish model of CHARGE syndrome",
+            "authors": [
+              "SA Balow",
+              "LX Pierce",
+              "GE Zentner",
+              "PA Conrad"
+            ],
+            "year": 2013,
+            "journal": "Developmental Biology",
+            "doi": "10.1016/j.ydbio.2013.07.026",
+            "pmid": "23920116",
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0012160613004090",
+            "quote": "Strikingly, MO-mediated knockdown of the jumonji domain-containing histone demethylase fbxl10/kdm2bb, a repressor of ribosomal RNA (rRNA) genes, rescues cell proliferation and cartilage defects in chd7 morphant embryos and can lead to complete rescue of the CHARGE syndrome phenotype."
+          },
+          "numbers": [
+            {
+              "metric": "post-fertilization days evaluated",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "text": "KDM2B was reviewed and updated on PanelApp with phenotype terms including intellectual disability and choanal atresia, reflecting ongoing clinical overlap assessment in diagnostic panels.",
+          "stance": "neutral",
+          "source": {
+            "title": "Activity",
+            "authors": [
+              "Genomics England PanelApp"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=KDM2B",
+            "quote": "Choanal atresia, Cholestasis ... phenotype updated 20 Mar 2026. 20 Mar 2026, Intellectual disability v9.338 \u00b7 KDM2B"
+          },
+          "numbers": [
+            {
+              "metric": "panel version",
+              "value": "9.338"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Individuals carrying heterozygous pathogenic variants in the CxxC zinc-finger domain of KDM2B exhibit a significantly higher penetrance of structural ocular malformations (microphthalmia, coloboma) and multi-organ anomalies mimicking CHARGE/Kabuki syndrome than individuals with non-CxxC loss-of-function variants.",
+      "rationale": "Missense variants specifically altering the CxxC zinc-finger domain disrupt binding to unmethylated CpG islands and Polycomb Repressive Complex 1.1 recruitment, precipitating severe ocular, cardiac, and renal defects that most closely mimic chromatinopathies like CHARGE and Kabuki.",
+      "aspects": [
+        "genotype-phenotype",
+        "ocular-coloboma",
+        "CHARGE-syndrome"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Screening 706 families with developmental eye disorders identified two individuals with heterozygous KDM2B CxxC zinc-finger domain missense variants [c.1841G>C;p.(Arg614Pro) and c.1880G>C;p.(Cys627Ser)], both presenting complex structural eye anomalies alongside variable neurodevelopmental, cardiac, and renal features and exhibiting a diagnostic KDM2B episignature.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+            "authors": [
+              "F Ceroni",
+              "LM Reis",
+              "F Watkins",
+              "DA Bax"
+            ],
+            "year": 2026,
+            "journal": "European Journal of Human Genetics",
+            "doi": "10.1038/s41431-026-02090-1",
+            "pmid": null,
+            "pmc": "PMC13247248",
+            "url": "https://www.nature.com/articles/s41431-026-02090-1",
+            "quote": "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants, NM_032590.5:c.1841G>C;p.(Arg614Pro) and NM_032590.5:c.1880G>C;p.(Cys627Ser), both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present."
+          },
+          "numbers": [
+            {
+              "metric": "families screened with eye disorders",
+              "value": 706
+            },
+            {
+              "metric": "identified CxxC variant cases",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A clinical diagnosis of KDM2B-related disorder cannot be established solely on facial dysmorphology or non-molecular criteria because KDM2B lacks a discrete facial gestalt, requiring genome-wide DNA methylation episignature analysis to resolve classification from Kabuki and CHARGE syndromes.",
+      "rationale": "Facial characteristics of KDM2B are subtle and non-specific compared to the pronounced, recognizable gestalts of Kabuki (elongated palpebral fissures, eversion of lateral lower eyelid) and CHARGE (characteristic asymmetrical ear anomalies and facial nerve palsy), making peripheral blood DNA episignature profiling the only robust discriminating modality.",
+      "aspects": [
+        "episignature",
+        "facial-gestalt",
+        "Kabuki-syndrome"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Genome-wide DNA methylation profiling identified a specific shared episignature amongst heterozygous KDM2B pathogenic variant carriers that reliably classifies affected individuals from related neurodevelopmental disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "Identification of DNA Methylation Episignatures for Classification and Phenotype/Genotype Correlation in Mendelian Neurodevelopmental Disorders",
+            "authors": [
+              "J Reilly"
+            ],
+            "year": 2022,
+            "journal": "ProQuest Dissertations",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://search.proquest.com/openview/4d490a4ccf210a521542a90c7adc68e6/1?pq-origsite=gscholar&cbl=18750&diss=y",
+            "quote": "Figure 3-S1: A cohort of heterozygous KDM2B variant carriers. Figure 3-S2: A shared episignature amongst the majority of KDM2B variant"
+          },
+          "numbers": []
+        },
+        {
+          "text": "In a study assessing developmental eye disorders and neurodevelopmental conditions, KDM2B-CxxC variant carriers were validated using a characteristic KDM2B DNA episignature to differentiate them within the spectrum of chromatin-associated disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+            "authors": [
+              "F Ceroni",
+              "LM Reis",
+              "F Watkins",
+              "DA Bax"
+            ],
+            "year": 2026,
+            "journal": "European Journal of Human Genetics",
+            "doi": "10.1038/s41431-026-02090-1",
+            "pmid": null,
+            "pmc": "PMC13247248",
+            "url": "https://www.nature.com/articles/s41431-026-02090-1",
+            "quote": "...both resulting in a characteristic KDM2B DNA episignature. Both individuals exhibited complex structural eye defects, with neurodevelopmental, cardiac and renal anomalies variably present."
+          },
+          "numbers": [
+            {
+              "metric": "cases validated by episignature",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "In comprehensive cohort studies of KDM2B, what proportion of patients have undergone targeted temporal bone CT and flexible nasopharyngoscopy to definitively confirm or refute the true absence of semicircular canal hypoplasia and choanal stenosis?",
+      "rationale": "Assessing how frequently these CHARGE-defining examinations were actually performed with negative results will clarify whether they serve as true exclusionary criteria or reflect an ascertainment gap.",
+      "promise": 0.85,
+      "est_cost": 0.95
+    },
+    {
+      "question_text": "Does computer-assisted facial gestalt analysis (e.g., GestaltMatcher or DeepGestalt) achieve statistically significant discrimination between KDM2B-related disorder, KMT2D-related Kabuki syndrome, and CHD7-related CHARGE syndrome?",
+      "rationale": "Quantifying the objective divergence of 2D/3D facial feature vectors will verify whether subtle facial dysmorphisms in KDM2B contain discriminatory information or if episignature analysis remains indispensable.",
+      "promise": 0.8,
+      "est_cost": 0.75
+    }
+  ],
+  "dead_end": false
+}

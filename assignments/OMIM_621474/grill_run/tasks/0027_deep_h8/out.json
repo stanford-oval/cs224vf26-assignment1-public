@@ -1,0 +1,175 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While peripheral blood DNA methylation episignature profiling is robustly validated for classifying KDM2B variants, the hypothesis asserting a single unified classifier achieving >95% sensitivity and specificity across overlapping chromatinopathies is challenged by several critical epigenetic nuances. Specifically, KDM2B variants do not exhibit a single homogeneous episignature; instead, loss-of-function alleles and CxxC zinc-finger missense variants produce distinct sub-episignatures. Furthermore, Levy et al. (2022) observed ambiguous or partial matches between KDM2B and other Mendelian neurodevelopmental episignatures, while Oexle et al. (2023) highlighted inherent sensitivity drop-offs for hypomorphic variants and mosaicism in standard methylation classifiers.",
+  "evidence": [
+    {
+      "text": "Heterozygous pathogenic variants in KDM2B generate an epigenetic signature in peripheral blood that discriminates pathogenic variants from controls. However, KDM2B episignatures bifurcate into distinct subsignatures separating loss-of-function variants from CxxC-domain missense variants, and dual molecular diagnoses complicate straightforward classification.",
+      "stance": "supports",
+      "source": {
+        "title": "Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature",
+        "authors": [
+          "RH Van Jaarsveld",
+          "J Reilly",
+          "MC Cornips"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36322151",
+        "pmc": "PMC9825659",
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "quote": "We present evidence, including a shared epigenetic signature, to support a pathogenic classification of 15 KDM2B variants and identify the CxxC domain as a mutational hotspot. Both loss-of-function and CxxC-domain missense variants present with a specific subepisignature."
+      },
+      "numbers": [
+        {
+          "metric": "recruited individuals with heterozygous KDM2B variants",
+          "value": 27
+        },
+        {
+          "metric": "variants confirmed pathogenic via shared epigenetic signature",
+          "value": 15
+        },
+        {
+          "metric": "delineated cohort with (likely) pathogenic variants",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "text": "EpiSign multiclass classification across 57 Mendelian disorder episignatures demonstrates high diagnostic specificity, but specific cases exhibit partial matches to the KDM2B episignature, indicating overlapping epigenetic perturbation across related chromatin regulation disorders.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Novel diagnostic DNA methylation episignatures expand and refine the epigenetic landscapes of Mendelian disorders",
+        "authors": [
+          "MA Levy",
+          "H McConkey",
+          "J Kerkhof"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/hgg-advances/fulltext/S2666-2477(21)00056-7",
+        "quote": "indicate a partial match to the KDM2B episignature, which could potentially be a result of"
+      },
+      "numbers": [
+        {
+          "metric": "novel episignature disorders described",
+          "value": 19
+        },
+        {
+          "metric": "total episignatures analyzed",
+          "value": 57
+        },
+        {
+          "metric": "total genetic syndromes represented",
+          "value": 65
+        }
+      ]
+    },
+    {
+      "text": "Episignature classifiers trained on unambiguous, severe-effect variants exhibit significant drops in sensitivity when challenged with moderate-effect hypomorphic alleles or somatic mosaicism, requiring algorithmic retraining to rescue false negatives.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Episignature analysis of moderate effects and mosaics",
+        "authors": [
+          "K Oexle",
+          "M Zech",
+          "LG St\u00f3hn",
+          "S Siegert"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-023-01406-9",
+        "quote": "DNA methylation classifiers ('episignatures') help to determine the pathogenicity of variants of uncertain significance (VUS). However, their sensitivity is limited due to their training on unambiguous cases with strong-effect variants so that the classification of variants with reduced effect size or in mosaic state may fail."
+      },
+      "numbers": [
+        {
+          "metric": "classifier sensitivity increase achieved through iterative retraining",
+          "value": "30%"
+        }
+      ]
+    },
+    {
+      "text": "CxxC domain missense variants in KDM2B directly disrupt DNA-binding at CpG islands and yield a characteristic episignature and distinct, more severe clinical phenotype with structural eye, renal, and high rates of congenital heart defects.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+        "authors": [
+          "F Ceroni",
+          "LM Reis",
+          "F Watkins",
+          "DA Bax"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02090-1",
+        "quote": "By screening 706 families with developmental eye disorders, we identified two cases with KDM2B-CxxC variants... both resulting in a characteristic KDM2B DNA episignature."
+      },
+      "numbers": [
+        {
+          "metric": "families screened with developmental eye disorders",
+          "value": 706
+        },
+        {
+          "metric": "KDM2B-CxxC positive cases identified",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Analysis of 19 individuals with KDM2B CxxC-domain variants confirms they harbor a distinct subsignature from haploinsufficiency and present with a distinct, more penetrant syndrome including congenital heart defects in up to 78% of individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "KDM2B Variants in the CxxC Domain Impair Its DNA-Binding ...",
+        "authors": [
+          "ASE van Oirsouw"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://digitalcommons.library.tmc.edu/cgi/viewcontent.cgi?article=6468&context=uthgsbs_docs",
+        "quote": "Interestingly, we previously identified both a general KDM2B-associated episignature and a subsignature specific to variants in the DNA-binding CxxC domain... Congenital heart defects were observed in up to 78% of individuals."
+      },
+      "numbers": [
+        {
+          "metric": "individuals analyzed with KDM2B CxxC variants",
+          "value": 19
+        },
+        {
+          "metric": "congenital heart defect prevalence in CxxC cohort",
+          "value": "78%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "KDM2B exhibits divergence into two distinct sub-episignatures (loss-of-function/haploinsufficiency vs CxxC domain missense variants), contradicting the assumption of a single uniform episignature classifier.",
+    "Partial episignature matches have been observed between KDM2B and other chromatin-modifying neurodevelopmental disorder signatures, demonstrating cross-classification ambiguity.",
+    "Standard episignature classifiers display reduced sensitivity for hypomorphic variants and somatic mosaicism, challenging strict >95% clinical sensitivity assertions across broader patient cohorts."
+  ],
+  "confidence": 0.68,
+  "new_directions": [
+    {
+      "question_text": "Does an ensemble classifier combining the KDM2B haploinsufficiency subsignature and the CxxC domain-specific subsignature improve diagnostic sensitivity for moderate-effect VUS?",
+      "rationale": "Because KDM2B variants generate bifurcated subsignatures with distinct biological mechanisms (loss-of-function vs dominant/altered DNA binding), dual-model classification could prevent misclassification of CxxC missense variants.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the exact pairwise classification specificity between KDM2B CxxC subsignatures and CHD7 (CHARGE syndrome) / KMT2D (Kabuki syndrome) peripheral blood episignatures?",
+      "rationale": "Direct receiver operating characteristic (ROC) benchmark comparisons on shared clinical cohorts presenting with heart, eye, and renal malformations are necessary to prove the >95% specificity claim over phenocopies.",
+      "promise": 0.92,
+      "est_cost": 35000
+    }
+  ]
+}

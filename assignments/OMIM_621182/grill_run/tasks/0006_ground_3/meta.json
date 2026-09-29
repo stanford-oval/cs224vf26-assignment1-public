@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Absent speech\" \"HP:0001344\" \"Human Phenotype Ontology\"",
+    "Human Phenotype Ontology HP:0001344 absent speech definition"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "32853554",
+      "title": "Semantic similarity analysis reveals robust gene-disease relationships in developmental and epileptic encephalopathies",
+      "pmid": "32853554",
+      "doi": "10.1016/j.ajhg.2020.08.003",
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30271-8",
+      "abstract_chars": 1831
+    },
+    {
+      "id": "33772159",
+      "title": "Novel bi-allelic variants expand the SPTBN4-related genetic and phenotypic spectrum",
+      "pmid": "33772159",
+      "doi": "10.1038/s41431-021-00846-5",
+      "url": "https://www.nature.com/articles/s41431-021-00846-5",
+      "abstract_chars": 1507
+    },
+    {
+      "id": "35670379",
+      "title": "TTC5 syndrome: Clinical and molecular spectrum of a severe and recognizable condition",
+      "pmid": "35670379",
+      "doi": "10.1002/ajmg.a.62852",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.62852",
+      "abstract_chars": 1480
+    },
+    {
+      "id": "35190816",
+      "title": "Assessing the landscape of STXBP1-related disorders in 534 individuals",
+      "pmid": "35190816",
+      "doi": "10.1093/brain/awab327",
+      "url": "https://academic.oup.com/brain/article-abstract/145/5/1668/6433675",
+      "abstract_chars": 2611
+    },
+    {
+      "id": "39949058",
+      "title": "A proposed role for CDO1 in CNS development: Three children with rare missense variants and a neurological phenotype",
+      "pmid": "39949058",
+      "doi": "10.1016/j.xhgg.2025.100417",
+      "url": "https://www.cell.com/hgg-advances/fulltext/S2666-2477(25)00020-X",
+      "abstract_chars": 1111
+    },
+    {
+      "id": "https://www.orpha.net/en/disease/sign/1675",
+      "title": "Rare diseases > Clinical Signs and Symptoms",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.orpha.net/en/disease/sign/1675",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?10863",
+      "title": "Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?10863",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem-hpo.html",
+      "title": "CodeSystem: Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem-hpo.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "32853554",
+      "title": "Semantic Similarity Analysis Reveals Robust Gene ...",
+      "pmid": "32853554",
+      "doi": "10.1016/j.ajhg.2020.08.003",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0002929720302718",
+      "abstract_chars": 1831
+    },
+    {
+      "id": "https://orphanet-preprod.atolcd.com/en/disease/sign/199343",
+      "title": "Rare diseases > Clinical Signs and Symptoms",
+      "pmid": null,
+      "doi": null,
+      "url": "https://orphanet-preprod.atolcd.com/en/disease/sign/199343",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4847,
+  "output_tokens": 1842,
+  "usd": 0.00795,
+  "seconds": 18.0,
+  "ok": true
+}

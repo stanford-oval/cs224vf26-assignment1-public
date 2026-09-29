@@ -1,0 +1,151 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While visual failure (optic atrophy and rod-cone/retinal dystrophy) consistently presents early in life\u2014often in early infancy as congenital amaurosis or in early childhood (median age < 5 years)\u2014the onset of auditory neuropathy spectrum disorder (ANSD) shows substantial phenotypic heterogeneity rather than a uniform late childhood or adolescent onset. Cohort studies reveal that hearing loss onset can manifest as early as 2 years of age in some individuals, while in others it presents in late childhood, adolescence (mean onset around 11 years), or even adulthood (e.g., at age 35). Thus, while hearing loss often presents later than visual deficits, ANSD cannot be reliably assumed to spare early childhood.",
+  "evidence": [
+    {
+      "text": "In a study of non-isolated auditory neuropathy including FDXR mutations, the age of hearing loss onset ranged from 2 to 25 years with an average of 11 years, demonstrating both early toddlerhood onset (age 2) and adolescent/adult onset.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Identification of genetic mechanisms of non-isolated auditory neuropathy with various phenotypes in Chinese families",
+        "authors": [
+          "Y Cao",
+          "X Zhang",
+          "L Lan",
+          "D Li",
+          "J Li",
+          "L Xie",
+          "F Xiong"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1186/s13023-025-03540-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s13023-025-03540-7",
+        "quote": "Patients' age of hearing loss onset ranged from 2 to 25 years, averaging 11 years... an early onset of severe to profound hearing loss at the age of 2"
+      },
+      "numbers": [
+        {
+          "metric": "Minimum age of hearing loss onset (years)",
+          "value": 2
+        },
+        {
+          "metric": "Maximum age of hearing loss onset (years)",
+          "value": 25
+        },
+        {
+          "metric": "Mean age of hearing loss onset (years)",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "In 11 unrelated patients with biallelic FDXR variants evaluated for ocular disease, all demonstrated early-onset visual impairment: 4 presented with nystagmus within months of birth (congenital amaurosis) and 7 presented in early childhood with nyctalopia and severe retinal dystrophy/optic atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "FDXR-Associated Oculopathy: Congenital Amaurosis and Early-Onset Severe Retinal Dystrophy as Common Presenting Features in a Chinese Population",
+        "authors": [
+          "S Yi",
+          "Y Zheng",
+          "Z Yi",
+          "Y Wang",
+          "Y Jiang",
+          "J Ouyang",
+          "S Li"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/14/4/952",
+        "quote": "Before the detection of FDXR variants, four patients were clinically diagnosed as congenital amaurosis due to the presence of nystagmus a few months after birth, while seven were diagnosed as early-onset severe retinal dystrophy due to the presence of nyctalopia and/or poor vision in early childhood."
+      },
+      "numbers": [
+        {
+          "metric": "Total patients assessed",
+          "value": 11
+        },
+        {
+          "metric": "Infantile onset congenital amaurosis",
+          "value": 4
+        },
+        {
+          "metric": "Early childhood onset retinal dystrophy",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "A case report verified adult-onset auditory neuropathy spectrum disorder (ANSD) in a 35-year-old patient carrying an FDXR variant, corroborating that auditory manifestations can be delayed well past childhood.",
+      "stance": "supports",
+      "source": {
+        "title": "Novel Variant of FDXR as a Molecular Etiology of",
+        "authors": [
+          "BJ Kim"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.21053/ceo.2024.00184",
+        "pmid": "39104018",
+        "pmc": null,
+        "url": "https://www.e-ceo.org/upload/pdf/ceo-2024-00184.pdf",
+        "quote": "A 35-year-old woman was ascertained to have ANSD. Exome sequencing identified the genetic cause of hearing loss... We suggest a possible pathophysiological mechanism of adult-onset ANSD involving mitochondrial dysfunction."
+      },
+      "numbers": [
+        {
+          "metric": "Age of adult-onset ANSD presentation (years)",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "text": "A natural history study of 62 FRM cases demonstrated that optic atrophy, movement disorders, and developmental delay frequently present early, with high infant mortality (18%), confirming early systemic and visual involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical study of ferredoxin-reductase-related mitochondriopathy: Genotype",
+        "authors": [
+          "T Campbell",
+          "J Slone",
+          "H Metzger"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://escholarship.org/content/qt8qz6s3sq/qt8qz6s3sq.pdf?v=lg",
+        "quote": "Optic atrophy, movement disorder, and developmental delay were frequent findings. Mortality is high, with 18% of patients, often infants, passing from complications."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size (n)",
+          "value": 62
+        },
+        {
+          "metric": "Mortality percentage",
+          "value": 18
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Auditory neuropathy onset is reported as early as 2 years of age in FDXR-associated cohorts, directly challenging the claim that ANSD is restricted to late childhood or adolescence (>= 10 years).",
+    "Ascertainment bias strongly impacts perceived temporal order: ocular genetics cohorts capture early visual failure without comprehensive early audiological testing, whereas neurotology cohorts identify auditory neuropathy at widely varying ages."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "In pediatric cohorts diagnosed with FDXR-related congenital amaurosis or early-onset optic atrophy, what proportion show subclinical electrophysiological ABR abnormalities before 5 years of age?",
+      "rationale": "Early visual symptoms prompt immediate referral, whereas prelingual or early childhood auditory neuropathy may remain undetected until formal ABR testing is systematically performed.",
+      "promise": 0.85,
+      "est_cost": 30000
+    },
+    {
+      "question_text": "Do specific missense variants (e.g., p.Arg386Trp vs. p.Arg306Cys) account for early-childhood versus late-adolescent or adult-onset auditory neuropathy spectrum disorder?",
+      "rationale": "Literature suggests distinct variant classes drive severe infantile mitochondriopathy versus milder, later-onset sensory neuropathies.",
+      "promise": 0.8,
+      "est_cost": 25000
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FDXR\" \"electroretinography\" \"optic atrophy\" \"photoreceptor\"",
+    "FDXR optic atrophy electroretinography rod cone photoreceptor ERG"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41419-020-2637-3",
+      "title": "Integrated analysis of the molecular pathogenesis of FDXR-associated disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41419-020-2637-3",
+      "abstract_chars": 1248
+    },
+    {
+      "id": "https://jov.arvojournals.org/article.aspx?articleid=2772552",
+      "title": "Expanding the FDXR-associated disease phenotype: retinal dystrophy is a recurrent ocular feature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jov.arvojournals.org/article.aspx?articleid=2772552",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/14/4/952",
+      "title": "FDXR-Associated Oculopathy: Congenital Amaurosis and Early-Onset Severe Retinal Dystrophy as Common Presenting Features in a Chinese Population",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/14/4/952",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/148/5/1604/7826698",
+      "title": "Clinical and genetic landscape of optic atrophy in 826 families: insights from 50 nuclear genes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/148/5/1604/7826698",
+      "abstract_chars": 2420
+    },
+    {
+      "id": "https://www.nature.com/articles/s41433-024-03154-6",
+      "title": "Electrodiagnostic tests of the visual pathway and applications in neuro-ophthalmology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41433-024-03154-6",
+      "abstract_chars": 1217
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S001448352300221X",
+      "title": "FDXR-associated disease in a Chinese cohort: Unraveling expanded ocular phenotypes and genetic spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S001448352300221X",
+      "abstract_chars": 1636
+    },
+    {
+      "id": "34234290",
+      "title": "The electroretinogram in the genomics era: outer retinal ... - PMC",
+      "pmid": "34234290",
+      "doi": "10.1038/s41433-021-01659-y",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8377088/",
+      "abstract_chars": 931
+    },
+    {
+      "id": "35506936",
+      "title": "Photoreceptor Manifestations of Primary Mitochondrial Optic ...",
+      "pmid": "35506936",
+      "doi": "10.1167/iovs.63.5.5",
+      "url": "https://iovs.arvojournals.org/article.aspx?articleid=2778802",
+      "abstract_chars": 1800
+    },
+    {
+      "id": "https://eyewiki.org/Electroretinogram",
+      "title": "Electroretinogram",
+      "pmid": null,
+      "doi": null,
+      "url": "https://eyewiki.org/Electroretinogram",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://consultqd.clevelandclinic.org/cone-dystrophy-macular-degeneration-or-optic-nerve-disorder-visual-electrophysiology-helps-make-the-diagnosis",
+      "title": "Cone Dystrophy, Macular Degeneration or Optic Nerve ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://consultqd.clevelandclinic.org/cone-dystrophy-macular-degeneration-or-optic-nerve-disorder-visual-electrophysiology-helps-make-the-diagnosis",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6135,
+  "output_tokens": 3718,
+  "usd": 0.01422,
+  "seconds": 21.6,
+  "ok": true
+}

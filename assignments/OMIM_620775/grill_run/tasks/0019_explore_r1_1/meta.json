@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"missense\" \"truncating\" phenotype severity",
+    "FILIP1 missense vs truncating phenotype congenital myopathy arthrogryposis"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02158-y",
+      "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02158-y",
+      "abstract_chars": 1803
+    },
+    {
+      "id": "PMC12354002",
+      "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+      "abstract_chars": 1554
+    },
+    {
+      "id": "10.1007/s00439-023-02528-2",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+      "pmid": null,
+      "doi": "10.1007/s00439-023-02528-2",
+      "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+      "abstract_chars": 1116
+    },
+    {
+      "id": "39521905",
+      "title": "Protein phosphatase-1 regulates the binding of filamin C to FILIP1 in cultured skeletal muscle cells under mechanical stress",
+      "pmid": "39521905",
+      "doi": "10.1038/s41598-024-78953-8",
+      "url": "https://www.nature.com/articles/s41598-024-78953-8",
+      "abstract_chars": 1037
+    },
+    {
+      "id": "https://europepmc.org/article/ppr/ppr556969",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/article/ppr/ppr556969",
+      "abstract_chars": 1148
+    },
+    {
+      "id": "PMC10060356",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause ... - PMC",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060356/",
+      "abstract_chars": 1148
+    },
+    {
+      "id": "31094488",
+      "title": "Truncating variant burden in high-functioning autism and ...",
+      "pmid": "31094488",
+      "doi": "10.1503/jpn.180184",
+      "url": "https://cdnsciencepub.com/doi/10.1503/jpn.180184",
+      "abstract_chars": 2406
+    },
+    {
+      "id": "35952944",
+      "title": "ROD2 domain filamin C missense mutations exhibit a distinctive ...",
+      "pmid": "35952944",
+      "doi": "10.1016/j.rec.2022.08.002",
+      "url": "https://ouci.dntb.gov.ua/en/works/7W551Azl/",
+      "abstract_chars": 1919
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    }
+  ],
+  "input_tokens": 7201,
+  "output_tokens": 4510,
+  "usd": 0.01713,
+  "seconds": 24.9,
+  "ok": true
+}

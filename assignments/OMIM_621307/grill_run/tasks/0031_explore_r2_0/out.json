@@ -1,0 +1,125 @@
+{
+  "hypotheses": [
+    {
+      "text": "In infants presenting with mesoaxial polydactyly and endocrine insufficiency, the presence of a distinct hypothalamic hamartoma on neuroimaging differentiates Pallister-Hall syndrome from Alsahan-Harris syndrome, which instead displays pituitary hypoplasia/aplasia or midline agenesis without a discrete hypothalamic mass lesion.",
+      "rationale": "Both Pallister-Hall syndrome and Alsahan-Harris syndrome present with overlapping features including mesoaxial polydactyly and hypothalamic-pituitary endocrine abnormalities. Differentiating the structural imaging hallmark of PHS (hypothalamic hamartoma) from ALHAS/TBC1D32 neuroimaging findings provides a deterministic clinical discriminator.",
+      "aspects": [
+        "differential-diagnosis",
+        "neuroimaging",
+        "hypothalamic-hamartoma"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "Biesecker establishes that the clinical diagnosis of Pallister-Hall syndrome is formally confirmed by the concurrent presence of hypothalamic hamartoma and mesoaxial polydactyly.",
+          "stance": "supports",
+          "source": {
+            "title": "Pallister-Hall Syndrome",
+            "authors": [
+              "LG Biesecker"
+            ],
+            "year": 1993,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://ern-ithaca.eu/wp-content/uploads/2020/12/Biesecker_PHSgeneral_Genereviews2017.pdf",
+            "quote": "The diagnosis of Pallister-Hall syndrome can be established in a proband with both hypothalamic hamartoma and mesoaxial polydactyly."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Brain MRI identification of a hypothalamic hamartoma combined with physical exam and endocrine abnormalities enabled definitive early diagnosis of Pallister-Hall syndrome.",
+          "stance": "supports",
+          "source": {
+            "title": "Presumptive Diagnosis of Pallister-Hall Syndrome Using ...",
+            "authors": [
+              "Y Mehkri"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC8887686",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8887686/",
+            "quote": "The diagnosis of Pallister-Hall syndrome was made on the basis of physical exam findings, hormonal abnormalities and the identification of a hypothalamic hamartoma on brain MRI."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Bifid epiglottis and distal enteric aganglionosis (Hirschsprung disease) or imperforate anus are specific negative discriminators for Alsahan-Harris syndrome that strongly indicate Pallister-Hall syndrome when observed in a patient with midline or digital anomalies.",
+      "rationale": "While oral anomalies occur in both syndromes, Pallister-Hall syndrome commonly exhibits deep laryngotracheal defects (such as bifid epiglottis) and intestinal aganglionosis/anorectal malformations, which are not characteristic features of primary ciliary TBC1D32 disruption.",
+      "aspects": [
+        "differential-diagnosis",
+        "phenotype-exclusion",
+        "visceral-anomalies"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "A newborn presenting with suspected Pallister-Hall syndrome demonstrated severe visceral complications requiring surgical diversion for long-segment Hirschsprung disease and direct laryngoscopy identification of a bifid epiglottis.",
+          "stance": "supports",
+          "source": {
+            "title": "Presumptive Diagnosis of Pallister-Hall Syndrome Using ...",
+            "authors": [
+              "Y Mehkri"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC8887686",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8887686/",
+            "quote": "The patient underwent multiple procedures for diagnosis and management of PHS complications, including a diverting jejunostomy for a long-segment Hirschsprung's and a laryngoscopy which identified a bifid epiglottis."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Oral-facial-digital abnormalities presenting as hyperplastic frenula, cleft or lobulated tongue, and lingual hamartomatous nodules distinguish TBC1D32-related Alsahan-Harris syndrome from classic Joubert syndrome, despite both entities presenting with cerebellar vermis hypoplasia and retinal/ciliary pathology.",
+      "rationale": "Classic Joubert syndrome presents with molar tooth sign and developmental delay but typically lacks the specific orofacial manifestations (frenula and lingual nodules) that categorize ALHAS within the oral-facial-digital (OFD-IX) spectrum.",
+      "aspects": [
+        "differential-diagnosis",
+        "oral-facial-digital",
+        "ciliopathy"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "Alsahan-Harris syndrome is classified under ciliopathies linked to biallelic TBC1D32 variants and characterized by distinctive oral-facial-digital anomalies alongside polydactyly.",
+          "stance": "supports",
+          "source": {
+            "title": "Ciliopathies (Disorders of Cilium Structure and Function)",
+            "authors": [],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "http://dismech.monarchinitiative.org/pages/groupings/Ciliopathies.html",
+            "quote": "Alsahan-Harris Syndrome DISEASE Differentiating mechanism. Biallelic TBC1D32 ... oral-facial-digital anomalies and polydactyly"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the systematic frequency of molar tooth sign (MTS) on brain MRI in confirmed TBC1D32/ALHAS cohorts compared to classic Joubert syndrome cohorts?",
+      "rationale": "Establishing whether ALHAS patients exhibit a classic molar tooth sign or a variant hindbrain dysplasia is critical to definitively delineate it from classic Joubert syndrome on neuroimaging.",
+      "promise": 0.85,
+      "est_cost": 0.4
+    },
+    {
+      "question_text": "What proportion of documented OFD-VI and OFD-IX individuals carry TBC1D32 variants versus other transition zone or basal body genes, and how do their endocrine profiles compare?",
+      "rationale": "Delineating the boundaries between OFD subtypes and ALHAS will clarify if panhypopituitarism is entirely unique to TBC1D32 among OFD-spectrum disorders.",
+      "promise": 0.8,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

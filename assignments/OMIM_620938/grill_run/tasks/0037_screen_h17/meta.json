@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" decompensation OR fever",
+    "NFU1 spastic paraplegia 93 acute neurological decompensation febrile infection"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/acn3.51679",
+      "title": "Phenotypic continuum of NFU1\u2010related disorders",
+      "pmid": null,
+      "doi": "10.1002/acn3.51679",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+      "title": "A complicated intrathecal baclofen pump implantation in a child with spastic Diplegia: Should a genetic mimic of cerebral palsy be Considered?",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1096719217303359",
+      "title": "Impact of mutations within the [Fe-S] cluster or the lipoic acid biosynthesis pathways on mitochondrial protein expression profiles in fibroblasts from patients",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1096719217303359",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/620938",
+      "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620938",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/spastic_paraplegia_93_autosomal_recessive",
+      "title": "Spastic Paraplegia 93, Autosomal Recessive (SPG93)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/spastic_paraplegia_93_autosomal_recessive",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://radygenomics.org/rss_publications/phenotypic-continuum-of-nfu1-related-disorders/",
+      "title": "Phenotypic continuum of NFU1-related disorders | RCIGM",
+      "pmid": null,
+      "doi": null,
+      "url": "https://radygenomics.org/rss_publications/phenotypic-continuum-of-nfu1-related-disorders/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1186/s13023-015",
+      "title": "New spastic paraplegia phenotype associated to mutation ...",
+      "pmid": null,
+      "doi": "10.1186/s13023-015",
+      "url": "https://www.researchgate.net/publication/272374033_New_spastic_paraplegia_phenotype_associated_to_mutation_of_NFU1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "36360281",
+      "title": "Multiple mitochondrial dysfunction syndrome type 3: a likely pathogenic homozygous variant affecting a patient of Cuban descent and literature review",
+      "pmid": "36360281",
+      "doi": "10.3390/genes13112044",
+      "url": "https://www.mdpi.com/2073-4425/13/11/2044",
+      "abstract_chars": 1162
+    }
+  ],
+  "input_tokens": 3800,
+  "output_tokens": 1174,
+  "usd": 0.00542,
+  "seconds": 13.4,
+  "ok": true
+}

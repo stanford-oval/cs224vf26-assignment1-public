@@ -1,0 +1,90 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that primary sensorimotor polyneuropathy is consistently absent or atypical in patients with SPAX8 (NKX6-2-related disorder). While SPAX8 is classically described as a central hypomyelinating leukodystrophy characterized by spasticity, ataxia, and nystagmus without extensive white matter cavitation or dental dysplasia, several reports document peripheral axonal neuropathy (presenting with wrist drop, foot drop, distal weakness, and muscle atrophy) in confirmed homozygous NKX6-2 cases.",
+  "evidence": [
+    {
+      "text": "Bereshneh et al. identified a homozygous missense variant in NKX6-2 (c.501C>G; p.(Phe167Leu)) in two siblings who exhibited wrist and foot drop caused by peripheral axonal neuropathy, expanding the phenotype beyond pure central nervous system manifestations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding and cerebellar white matter involvement in brain Magnetic Resonance Imaging (MRI) as new imaging finding."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings presenting with peripheral axonal neuropathy",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Wolf and Ffrench review hypomyelinating leukodystrophies as primary genetic disorders of central myelin deposition presenting in infancy with nystagmus, developmental delay, and spastic ataxia, distinguishing typical hypomyelination patterns from non-hypomyelinating cavitating leukoencephalopathies.",
+      "stance": "supports",
+      "source": {
+        "title": "Hypomyelinating leukodystrophies\u2014Unravelling myelin biology",
+        "authors": [
+          "NI Wolf",
+          "C Ffrench"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-020-00432-1",
+        "quote": "Hypomyelinating leukodystrophies constitute a subset of genetic white matter disorders characterized by a primary lack of myelin deposition."
+      },
+      "numbers": [
+        {
+          "metric": "diagnostic rate of next-generation sequencing in hypomyelinating leukodystrophies",
+          "value": "80-90%"
+        }
+      ]
+    },
+    {
+      "text": "Sevagamoorthy and Vanderver note that inherited white matter disorders can encompass CNS phenotypes with or without peripheral neuropathy, highlighting phenotypic heterogeneity across leukodystrophies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Glial origins of inherited white matter disorders",
+        "authors": [
+          "A Sevagamoorthy",
+          "A Vanderver"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1101/cshperspect.a041457",
+        "pmid": "39134377",
+        "pmc": null,
+        "url": "https://cshperspectives.cshlp.org/content/17/7/a041457.short",
+        "quote": "Inherited white matter disorders (IWMDs) are a phenotypically and genotypically heterogeneous group of disorders affecting the central nervous system (CNS) with or without peripheral neuropathy."
+      },
+      "numbers": [
+        {
+          "metric": "birth incidence of inherited white matter disorders",
+          "value": "1 in 7500 births"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that peripheral axonal or demyelinating sensorimotor polyneuropathy is absent or atypical in SPAX8, but Bereshneh et al. (2020) demonstrated documented peripheral axonal neuropathy causing wrist drop and foot drop in two siblings with homozygous NKX6-2 pathogenic variants."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and electrophysiological profile of peripheral neuropathy (axonal vs. demyelinating) across all genetically confirmed SPAX8 patients?",
+      "rationale": "Determining whether peripheral nerve involvement is a rare variant-specific finding (e.g. p.Phe167Leu) or an underdiagnosed feature of SPAX8 will refine diagnostic criteria and prevent misclassification.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"KDM2B\" \"neurodevelopmental disorder\" \"cardiac\" \"coloboma\" phenotype",
+    "KDM2B variants clinical phenotype cardiac ocular renal CHARGE Kabuki"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02090-1",
+      "title": "Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02090-1",
+      "abstract_chars": 1218
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+      "title": "Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+      "abstract_chars": 1584
+    },
+    {
+      "id": "10.1002/ajmga.70036",
+      "title": "KDM2B\u2010Related Neurodevelopmental Disorder A Case\u2010Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features",
+      "pmid": null,
+      "doi": "10.1002/ajmga.70036",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmga.70036",
+      "abstract_chars": 1782
+    },
+    {
+      "id": "10.3389/fnmol.2022.979061/full",
+      "title": "A rigorous in silico genomic interrogation at 1p13.3 reveals 16 autosomal dominant candidate genes in syndromic neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fnmol.2022.979061/full",
+      "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2022.979061/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2075-4655/2/1/4",
+      "title": "From flies to mice: the emerging role of non-canonical PRC1 members in mammalian development",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2075-4655/2/1/4",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://jmg.bmj.com/content/jmedgenet/early/2025/12/03/jmg-2025-111125/DC1/embed/inline-supplementary-material-1.pdf?download=true",
+      "title": "Supplemental material J Med Genet doi: 10.1136/jmg-2025 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/jmedgenet/early/2025/12/03/jmg-2025-111125/DC1/embed/inline-supplementary-material-1.pdf?download=true",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://search.proquest.com/openview/4d490a4ccf210a521542a90c7adc68e6/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "title": "Identification of DNA Methylation Episignatures for Classification and Phenotype/Genotype Correlation in Mendelian Neurodevelopmental Disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/4d490a4ccf210a521542a90c7adc68e6/1?pq-origsite=gscholar&cbl=18750&diss=y",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(22)00098-2",
+      "title": "Germline variants in tumor suppressor FBXW7 lead to impaired ubiquitination and a neurodevelopmental syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(22)00098-2",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "10.1002/ajmg.a.63155",
+      "title": "Insights into the genotype\u2013phenotype relationship of ocular manifestations in Kabuki syndrome",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.63155",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63155",
+      "abstract_chars": 1516
+    },
+    {
+      "id": "36292647",
+      "title": "From genotype to phenotype\u2014a review of Kabuki syndrome",
+      "pmid": "36292647",
+      "doi": "10.3390/genes13101761",
+      "url": "https://www.mdpi.com/2073-4425/13/10/1761",
+      "abstract_chars": 1369
+    }
+  ],
+  "input_tokens": 5793,
+  "output_tokens": 3734,
+  "usd": 0.0141,
+  "seconds": 21.6,
+  "ok": true
+}

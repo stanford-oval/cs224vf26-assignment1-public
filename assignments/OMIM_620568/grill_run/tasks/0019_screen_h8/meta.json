@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Olley\" \"BRD4\" \"Cornelia de Lange\" \"29379197\"",
+    "Olley 2018 BRD4 Cornelia de Lange PMID 30054598 author correction"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://europepmc.org/books/nbk1104/",
+      "title": "Cornelia de Lange syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/books/nbk1104/",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "https://europepmc.org/books/n/gene/cdls/?extid=20437616&src=med",
+      "title": "Cornelia de Lange Syndrome Synonyms: BDLS, Brachmann-de Lange Syndrome, CdLS, de Lange Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/books/n/gene/cdls/?extid=20437616&src=med",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://europepmc.org/books/n/gene/cdls/?extid=20301288&src=med",
+      "title": "Cornelia de Lange Syndrome Synonyms: Brachmann-de Lange Syndrome (BDLS), CdLS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/books/n/gene/cdls/?extid=20301288&src=med",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39196112",
+      "title": "A genome-wide CRISPR screen identifies BRD4 as a regulator of cardiomyocyte",
+      "pmid": "39196112",
+      "doi": "10.1038/s44161-024-00431-1",
+      "url": "https://escholarship.org/content/qt59p867k4/qt59p867k4.pdf?v=lg",
+      "abstract_chars": 1096
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/29379197/",
+      "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29379197/",
+      "abstract_chars": 101
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-106220.3",
+      "title": "Autosomal dominant by ClinGen submission information facts",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-106220.3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "http://europepmc.org/abstract/MED/29379197",
+      "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "http://europepmc.org/abstract/MED/29379197",
+      "abstract_chars": 101
+    },
+    {
+      "id": "http://eprints.gla.ac.uk/169404/",
+      "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a Cornelia ...",
+      "pmid": null,
+      "doi": null,
+      "url": "http://eprints.gla.ac.uk/169404/",
+      "abstract_chars": 101
+    },
+    {
+      "id": "https://omim.org/entry/620568",
+      "title": "620568 - CORNELIA DE LANGE SYNDROME 6; CDLS6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620568",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC12650802",
+      "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12650802/",
+      "abstract_chars": 980
+    }
+  ],
+  "input_tokens": 4149,
+  "output_tokens": 2348,
+  "usd": 0.00912,
+  "seconds": 19.4,
+  "ok": true
+}

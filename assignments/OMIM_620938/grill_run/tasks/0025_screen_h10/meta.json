@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"SPG93\" \"leukodystrophy\" cavitating MRI phenotype",
+    "NFU1 spastic paraplegia 93 neuroimaging cavitating leukoencephalopathy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://neuromuscular.wustl.edu/mitosyn.html",
+      "title": "Mitochondrial Disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/mitosyn.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/90932",
+      "title": "Cognitive impairment (Concept Id: C0338656)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/90932",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/8510",
+      "title": "Dysarthria (Concept Id: C0013362)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/8510",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/39462",
+      "title": "Cataract (Concept Id: C0086543)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/39462",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/11348",
+      "title": "Scoliosis (Concept Id: C0036439)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/11348",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1186/s13023-015-0237-6",
+      "title": "New spastic paraplegia phenotype associated to mutation of NFU1",
+      "pmid": null,
+      "doi": "10.1186/s13023-015-0237-6",
+      "url": "https://link.springer.com/article/10.1186/s13023-015-0237-6",
+      "abstract_chars": 653
+    },
+    {
+      "id": "10.1007/s10545-016-9975-4",
+      "title": "Differential diagnosis of lipoic acid synthesis defects",
+      "pmid": null,
+      "doi": "10.1007/s10545-016-9975-4",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1055/s-0037-1606295",
+      "title": "NFU1-related disorders as key differential diagnosis of cavitating leukoencephalopathy",
+      "pmid": null,
+      "doi": "10.1055/s-0037-1606295",
+      "url": "https://www.thieme-connect.com/products/all/doi/10.1055/s-0037-1606295",
+      "abstract_chars": 860
+    },
+    {
+      "id": "34709542",
+      "title": "Novel IBA57 mutations in two chinese patients and literature review of multiple mitochondrial dysfunction syndrome",
+      "pmid": "34709542",
+      "doi": "10.1007/s11011-021-00856-8",
+      "url": "https://link.springer.com/article/10.1007/s11011-021-00856-8",
+      "abstract_chars": 1635
+    }
+  ],
+  "input_tokens": 4123,
+  "output_tokens": 1353,
+  "usd": 0.00612,
+  "seconds": 17.6,
+  "ok": true
+}

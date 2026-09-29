@@ -1,0 +1,118 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Infantile spasms are strongly supported across TRA2B-related neurodevelopmental syndrome cases, occurring in 11 of 12 individuals in the initial cohort (Ramond et al., 2023) and in the subsequent case report (Shatokhina et al., 2023). However, early-onset feeding difficulties cannot serve as an obligate or universally high-sensitivity positive criterion because Shatokhina et al. (2023) explicitly documented an absence of feeding difficulties in their confirmed proband. Additionally, severe feeding difficulties combined with microcephaly and seizures are frequently shared with other severe neurodevelopmental disorders, such as bi-allelic ADARB1 variants (Tan et al., 2020), limiting their standalone discriminating power.",
+  "evidence": [
+    {
+      "text": "In the discovery cohort of 12 individuals with clustered 5-prime TRA2B variants, neurodevelopmental delay was frequently associated with infantile spasms (with 11 individuals transitioning to Lennox-Gastaut syndrome), feeding difficulties, microcephaly, and brain anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "total affected individuals assessed in cohort",
+          "value": 12
+        },
+        {
+          "metric": "individuals transitioning from infantile spasms to Lennox-Gastaut syndrome",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "A second independent case study of a child with a confirmed de novo pathogenic TRA2B splice variant identified pharmacoresistant infantile spasms and global hypotonia, but explicitly documented that no feeding difficulties were present.",
+      "stance": "contradicts",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "No feeding difficulties or sleep disturbances were reported, while information about \u2026 delay, global hypotonia, pharmacoresistant infantile spasms, nonspecific brain lesions observed via \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals evaluated in study",
+          "value": 1
+        },
+        {
+          "metric": "patients presenting with infantile spasms",
+          "value": 1
+        },
+        {
+          "metric": "patients presenting with feeding difficulties",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "Other severe microcephalic neurodevelopmental RNA-processing disorders, such as bi-allelic ADARB1 deficiency, present with microcephaly, seizures, and feeding difficulties in all assessed subjects, demonstrating that feeding difficulties are not uniquely discriminating for TRA2B.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Bi-allelic ADARB1 variants associated with microcephaly, intellectual disability, and seizures",
+        "authors": [
+          "TY Tan",
+          "J Sedm\u00edk",
+          "MP Fitzgerald",
+          "RS Halevy"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1016/j.ajhg.2020.02.015",
+        "pmid": "32220291",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30057-4",
+        "quote": "All four had severe feeding difficulties"
+      },
+      "numbers": [
+        {
+          "metric": "ADARB1-variant patients with severe feeding difficulties",
+          "value": 4
+        },
+        {
+          "metric": "total ADARB1 cohort size evaluated",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Shatokhina et al. (2023) directly contradict the universal requirement of early feeding difficulties, explicitly reporting an absence of feeding difficulties in a confirmed TRA2B patient with infantile spasms.",
+    "Tan et al. (2020) demonstrate that severe feeding difficulties alongside microcephaly and early-onset seizures are present in 100% (4/4) of ADARB1-deficient individuals, refuting the concept that feeding difficulties specifically differentiate TRA2B from other microcephalic epileptic encephalopathies."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance and temporal onset of gastrointestinal symptoms across all known TRA2B variant carriers when compared systematically to age-matched epileptic encephalopathy cohorts?",
+      "rationale": "Clarifying the prevalence of feeding dysfunction versus constipation and other dysautonomic traits will determine whether feeding problems are primary or secondary to epileptic encephalopathy.",
+      "promise": 0.8,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do non-truncating missense or downstream variants in TRA2B cause a milder phenotype lacking infantile spasms and feeding problems?",
+      "rationale": "Current literature focuses primarily on variants clustered in the 5-prime region causing dominant-negative expression of the shorter Tra2beta-3 isoform; characterization of non-5-prime variants will establish genotype-phenotype boundaries.",
+      "promise": 0.75,
+      "est_cost": 25000
+    }
+  ]
+}

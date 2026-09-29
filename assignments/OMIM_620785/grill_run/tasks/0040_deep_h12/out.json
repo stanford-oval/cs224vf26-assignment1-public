@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive evaluation of the available ACBD6 cohort studies corroborates that overweight is a common clinical feature, identified in 59% of the 45 affected individuals spanning ages 1 to 50 years described by Kaiyrzhanov et al. (2024). In contrast, type 2 diabetes mellitus, cirrhosis, and end-stage renal disease have only been reported in a single consanguineous Thai sibship of two individuals by Yeetong et al. (2022), and were absent as core recurrent manifestations across the rest of the 45 patients. This indicates that excessive weight gain/overweight (HP:0001513) is a standard phenotypic feature of ACBD6 deficiency, but progression to diabetic nephropathy and frank diabetes is not an autonomous outcome inherent to ACBD6 loss of function alone without distinct environmental or background genetic modifier contributions.",
+  "evidence": [
+    {
+      "text": "In an international cohort of 45 individuals from 28 families with bi-allelic loss-of-function ACBD6 variants aged 1 to 50 years, overweight was documented in 59% of patients, while end-stage visceral complications such as diabetes mellitus and renal failure were not established as general recurrent features across the cohort.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) ... overweight (59%), microcephaly (39%) and epilepsy (33%)."
+      },
+      "numbers": [
+        {
+          "metric": "overweight prevalence",
+          "value": "59%"
+        },
+        {
+          "metric": "cohort size",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "text": "Two Thai adult siblings harboring a homozygous frameshift variant (c.360dup; p.Leu121Thrfs*27) in ACBD6 presented with childhood-onset morbid obesity that progressed to diabetes mellitus, cirrhosis, and renal failure leading to early mortality, features not observed in previously described patients.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Biallelic variants in ACBD6 were previously reported in 7 patients with NDDs. Unfortunately, their clinical information remains very limited with descriptions of only their neurologic and craniofacial features. ... Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "ACBD6 is incorporated into diagnostic targeted gene panels evaluating monogenic obesity loci across large clinical cohorts.",
+      "stance": "neutral",
+      "source": {
+        "title": "Detecting monogenic obesity: a systematic exome-wide workup of over 500 individuals: Genetics and Epigenetics",
+        "authors": [
+          "R K\u00fcnzel",
+          "H Faust",
+          "L Bundalian",
+          "M Bl\u00fcher"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41366-025-01819-0",
+        "quote": "The combined public panel consisted of the following 57 loci: ACBD6, \u2026 The outcome of metabolic and bariatric surgery in morbidly obese patients with different"
+      },
+      "numbers": [
+        {
+          "metric": "evaluated loci count",
+          "value": 57
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Do specific ACBD6 truncating variants exhibit distinct effects on adipocyte N-myristoylation and insulin sensitivity compared to missense alleles?",
+      "rationale": "Differences in residual acyl-CoA-binding or N-myristoylation function across variant classes might explain why extreme metabolic decompensation and visceral failure occurred in specific truncating alleles but not broadly across all loss-of-function cohorts.",
+      "promise": 0.82,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the incidence of subclinical insulin resistance, hepatic steatosis, and microalbuminuria in non-diabetic ACBD6-deficient individuals who are overweight?",
+      "rationale": "Prospective metabolic profiling across older ACBD6-deficient cohorts will definitively determine whether diabetes and renal failure are truly absent or merely underdiagnosed prior to adult decompensation.",
+      "promise": 0.85,
+      "est_cost": 35000.0
+    }
+  ]
+}

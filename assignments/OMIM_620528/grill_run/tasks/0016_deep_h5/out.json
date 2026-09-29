@@ -1,0 +1,105 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms a broad phenotypic spectrum associated with SPTAN1 variants\u2014spanning severe early-onset epileptic encephalopathy with structural brain defects at one end to juvenile/adult-onset distal hereditary motor neuropathy (dHMN11 / HMND11) at the other. However, the hypothesis claims that dHMN11 is caused specifically by heterozygous missense or mild structural variants in non-critical domains. This is directly contradicted by reports demonstrating that heterozygous nonsense (premature truncation / loss-of-function) mutations in SPTAN1 cause dHMN (e.g., Dong et al., 2021; Beijer et al. as cited by Dohrn & Saporta, 2020). Therefore, while the broad genotype-phenotype gradient across SPTAN1 allelic disorders is supported, the variant-type restriction asserted in the hypothesis fails.",
+  "evidence": [
+    {
+      "text": "dHMN is caused by pathogenic variants in SPTAN1, including a novel de novo nonsense variant identified in a Chinese family presenting with hereditary motor neuropathy, within a gene known for a broad spectrum of neurodevelopmental phenotypes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family... distal hereditary motor neuropathy (dHMN) caused by pathogenic variants in the \u03b1II-spectrin gene (SPTAN1; \u2026 variants exhibiting a broad spectrum of neurodevelopmental phenotypes"
+      },
+      "numbers": [
+        {
+          "metric": "dHMN cohort reporting nonsense variant",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous nonsense mutations in SPTAN1 were identified by Beijer et al. as causing distal hereditary motor neuropathy of variable severity, rather than purely missense changes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Hereditary motor neuropathies",
+        "authors": [
+          "MF Dohrn",
+          "M Saporta"
+        ],
+        "year": 2020,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+        "quote": "phenotype of variable severity, Beijer et al. [18\u25aa] identified heterozygous nonsense mutations in SPTAN1"
+      },
+      "numbers": [
+        {
+          "metric": "dHMN patients with muscle island sign",
+          "value": 0.548
+        }
+      ]
+    },
+    {
+      "text": "Autosomal dominant distal hereditary motor neuronopathy-11 (HMND11) is clinically characterized as a peripheral axonal motor neuropathy of juvenile or young-adult onset.",
+      "stance": "supports",
+      "source": {
+        "title": "620528 - NEURONOPATHY, DISTAL HEREDITARY ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620528",
+        "quote": "Autosomal dominant distal hereditary motor neuronopathy-11 (HMND11) is a peripheral axonal motor neuropathy characterized by juvenile or young-adult onset"
+      },
+      "numbers": []
+    },
+    {
+      "text": "SPTAN1 causes an autosomal dominant classic dHMN phenotype, occasionally presenting with distinctive facial and neck flexor muscle impairment.",
+      "stance": "supports",
+      "source": {
+        "title": "Hereditary motor neuropathies : Current Opinion in Neurology",
+        "authors": [],
+        "year": 2022,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2022/10000/hereditary_motor_neuropathies.4.aspx",
+        "quote": "SPTAN1, AD, Classic dHMN ... Classic dHMN phenotype with facial and neck flexor muscle impairment ... distal hereditary motor neuropathy; SCA, spinal ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that dHMN11 is caused specifically by heterozygous missense or mild structural variants, but documented clinical cohorts demonstrate that heterozygous nonsense (premature termination codon) mutations in SPTAN1 cause autosomal dominant dHMN."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does SPTAN1 haploinsufficiency from nonsense-mediated mRNA decay specifically cause dHMN11, whereas dominant-negative interference with spectrin tetramerization causes severe epileptic encephalopathy?",
+      "rationale": "Resolving whether nonsense variants leading to haploinsufficiency cause dHMN versus in-frame structural mutations driving dominant-negative protein aggregation will refine the true genotype-phenotype rule.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the true prevalence of facial and neck flexor weakness in SPTAN1-associated dHMN11 across multi-center cohorts?",
+      "rationale": "Identifying highly discriminative clinical features (such as neck flexor and facial weakness) helps clinicians distinguish dHMN11 from other axonal dHMN subtypes.",
+      "promise": 0.75,
+      "est_cost": 15000
+    }
+  ]
+}

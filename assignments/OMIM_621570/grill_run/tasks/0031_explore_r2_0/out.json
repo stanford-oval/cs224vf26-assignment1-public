@@ -1,0 +1,157 @@
+{
+  "hypotheses": [
+    {
+      "text": "Congenital heart defects (HP:0001627) are present in fewer than 25% (under 5 of 18) of MAU2 probands in the Parenti et al. cohort, contrasting sharply with HDAC8-related CdLS (60%) and classical NIPBL-related CdLS (~35%).",
+      "rationale": "Ascaso et al. and Casas et al. document high CHD rates in other cohesinopathies (34.9% overall; 60% in HDAC8), but MAU2 summaries emphasize short stature and microcephaly as cardinal features without highlighting CHD, suggesting cardiac structural defects are not a primary driver of the MAU2 phenotype.",
+      "aspects": [
+        "cardiovascular phenotype",
+        "differential diagnosis",
+        "CdLS7 phenotypic spectrum"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "In a cohort of 149 patients with Cornelia de Lange syndrome, congenital heart disease was confirmed in 34.9% (52/149), with prevalence reaching 60% in HDAC8+, 33% in NIPBL+, and 28.5% in SMC1A+ probands.",
+          "stance": "neutral",
+          "source": {
+            "title": "Cornelia de Lange syndrome: Congenital heart disease in 149 patients",
+            "authors": [
+              "AA Casas",
+              "BP Uriol",
+              "MET Rodrigo",
+              "MH Marcos"
+            ],
+            "year": 2017,
+            "journal": "Medicina Clinica",
+            "doi": "10.1016/j.medcli.2017.03.051",
+            "pmid": "28629661",
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S2387020617305806",
+            "quote": "A percentage of 34.9 had CHD (septal defects 50%, pulmonary stenosis 27%, aortic coarctation 9.6%). ... being more frequent in HDAC8+ patients (60%), followed by NIPBL+ (33%) and SMC1A+ (28.5%)."
+          },
+          "numbers": [
+            {
+              "metric": "CdLS overall CHD prevalence",
+              "value": "34.9%"
+            },
+            {
+              "metric": "HDAC8-positive CHD prevalence",
+              "value": "60%"
+            },
+            {
+              "metric": "NIPBL-positive CHD prevalence",
+              "value": "33%"
+            }
+          ]
+        },
+        {
+          "text": "Parenti et al. delineate 18 individuals carrying 15 heterozygous MAU2 variants, reporting microcephaly and short stature as consistent major features while congenital heart defects are not highlighted as core penetrant malformations across the cohort.",
+          "stance": "supports",
+          "source": {
+            "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+            "authors": [
+              "I Parenti",
+              "A Hesters",
+              "M Gil"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC12668068",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+            "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+          },
+          "numbers": [
+            {
+              "metric": "Total cohort size",
+              "value": 18
+            },
+            {
+              "metric": "Heterozygous MAU2 variants",
+              "value": 15
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Minor upper extremity digital anomalies (such as small hands HP:0004279, fifth-finger clinodactyly HP:0004209, or single transverse palmar creases HP:0000954) occur in >=60% (at least 11 of 18) of MAU2 individuals in Parenti et al., despite a 0% prevalence (0/18) of major limb reduction defects (HP:0009804).",
+      "rationale": "While severe limb reduction defects are known to be absent in non-NIPBL/CdLS7 patients, minor distal limb anomalies are classical cohesinopathy markers; determining their exact prevalence tests whether distal acral exam provides clinical utility for MAU2 recognition.",
+      "aspects": [
+        "limb anomalies",
+        "CdLS7 phenotypic spectrum",
+        "differential diagnosis"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "CdLS probands across molecular etiologies characteristically show growth failure and limb abnormalities; however, major limb deficiencies predominate in classical NIPBL cases, whereas non-classical/minor variants present with milder distal features.",
+          "stance": "supports",
+          "source": {
+            "title": "Subclinical myocardial dysfunction is revealed by speckle tracking echocardiography in patients with Cornelia de Lange syndrome",
+            "authors": [
+              "L Trujillano",
+              "A Ayerza"
+            ],
+            "year": 2022,
+            "journal": "The International Journal of Cardiovascular Imaging",
+            "doi": "10.1007/s10554-022-02612-0",
+            "pmid": "36434327",
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s10554-022-02612-0",
+            "quote": "CdLS is characterized by typical facial features, growth failure, and limb abnormalities"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Clinically significant gastrointestinal malformations or intractable gastroesophageal reflux disease (HP:0002020) requiring surgical intervention affect fewer than 20% (under 4 of 18) of MAU2 probands in the Parenti et al. series.",
+      "rationale": "Gastroesophageal dysfunction and feeding difficulty are near-universal in classical CdLS (NIPBL), often causing severe morbidity. If MAU2 probands present with low rates of severe GI malformations or GERD, this provides a discriminating negative indicator against CdLS1.",
+      "aspects": [
+        "gastrointestinal phenotype",
+        "differential diagnosis",
+        "CdLS7 phenotypic spectrum"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Parenti et al. observe that MAU2 patients present along a spectrum ranging from classic CdLS to milder presentations, without listing severe gastrointestinal malformations among the primary distinguishing or consistent features.",
+          "stance": "supports",
+          "source": {
+            "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+            "authors": [
+              "I Parenti",
+              "A Hesters",
+              "M Gil"
+            ],
+            "year": 2026,
+            "journal": "Nature Communications",
+            "doi": "10.1038/s41467-026-71177-6",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41467-026-71177-6",
+            "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient frequencies for specific congenital heart defect subtypes (e.g., VSD, ASD, PDA, pulmonary stenosis) versus normal echocardiograms across all documented MAU2 cases in the full supplementary tables of Parenti et al. 2025/2026 and Peng et al. 2024?",
+      "rationale": "Directly checking the supplementary phenotype tables will provide granular numerators/denominators needed to evaluate the positive and negative predictive values of cardiac screening in suspected CdLS7.",
+      "promise": 0.85,
+      "est_cost": 0.4
+    },
+    {
+      "question_text": "Does gastrointestinal involvement in MAU2 individuals manifest primarily as functional feeding intolerance/mild reflux rather than anatomical obstruction or malrotation requiring fundoplication/gastrostomy?",
+      "rationale": "In classical CdLS, GI complications are a leading cause of hospitalizations; evaluating whether MAU2 GI symptoms are purely functional or structural will aid distinguishing CdLS7 from CdLS1 and other chromatinopathies.",
+      "promise": 0.8,
+      "est_cost": 0.35
+    }
+  ],
+  "dead_end": false
+}

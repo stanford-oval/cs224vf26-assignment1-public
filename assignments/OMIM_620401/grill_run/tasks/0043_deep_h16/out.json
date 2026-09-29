@@ -1,0 +1,70 @@
+{
+  "verdict": "supported",
+  "rationale": "Direct evidence from both published cohorts of biallelic SGSM3 deficiency demonstrates that short stature is present across distinct ancestral backgrounds and different loss-of-function variant types. Birnbaum et al. identified a homozygous frameshift founder variant in Ashkenazi Jewish individuals presenting with neurodevelopmental disorders/intellectual disability and short stature. Turkyilmaz et al. independently identified a homozygous nonsense variant (c.1576C>T: p.Arg526Ter) in two siblings from a Turkish pedigree who also manifested short stature alongside intellectual disability. Because short stature has been consistently documented in both cohorts across different variant classes (frameshift vs nonsense) and disparate populations (Ashkenazi Jewish vs Turkish), the hypothesis that short stature is a pleiotropic manifestation rather than an isolated finding restricted to the Turkish pedigree is supported.",
+  "evidence": [
+    {
+      "text": "Birnbaum et al. described an Ashkenazi Jewish founder cohort harboring a homozygous frameshift variant in SGSM3 presenting with neurodevelopmental delay/intellectual disability and short stature.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": "37833060",
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "An Ashkenazi Jewish homozygous founder variant in SGSM3 was discovered in individuals with NDDs and short stature."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Turkyilmaz et al. reported two siblings harboring a novel homozygous stop-gain variant (c.1576C>T: p.Arg526Ter) in SGSM3 presenting with intellectual disability and short stature, confirming that short stature co-segregates in an independent population with a distinct loss-of-function variant.",
+      "stance": "supports",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1111/cge.14631",
+        "pmid": "39390489",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "In this study, a novel homozygous stop-gain (NM_015705.6: c.1576C>T: p.(Arg526Ter)) variation was detected in the SGSM3 gene in two siblings with short stature and ID findings."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings with short stature in pedigree",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Turkyilmaz et al. title SGSM3 as a candidate gene for 'nonsyndromic intellectual disability', even though both their patients and the Ashkenazi cohort specifically present with somatic growth impairment (short stature)."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the molecular mechanism by which SGSM3 loss of function disrupts somatic growth and chondrocyte/skeletal development in addition to neuronal functioning?",
+      "rationale": "SGSM3 interacts with small GTPases in the RAP/RAS signaling cascade. Defining whether growth failure stems from endocrine axis disruption (e.g., growth hormone/IGF-1 axis) or local skeletal dysregulation will clarify the pleiotropy.",
+      "promise": 0.82,
+      "est_cost": 45000.0
+    },
+    {
+      "question_text": "What is the penetrance and severity spectrum of short stature (height standard deviation score) across a broader multi-center registry of SGSM3-deficient individuals?",
+      "rationale": "Currently, published cases are limited to a small number of families. Establishing exact height percentiles, bone age delay, and response to growth hormone will establish formal diagnostic criteria.",
+      "promise": 0.78,
+      "est_cost": 25000.0
+    }
+  ]
+}

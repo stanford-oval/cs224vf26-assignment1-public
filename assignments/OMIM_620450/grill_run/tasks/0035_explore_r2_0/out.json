@@ -1,0 +1,120 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the definitive clinical summary matrix (Table 1) of Janssen et al. (2022), craniofacial dysmorphisms (HP:0001999) do not conform to an invariant facial gestalt; specifically, individual discrete dysmorphic signs (such as arched eyebrows HP:0002553, epicanthal folds HP:0000286, and thin upper lip vermilion HP:0000219) each occur in fewer than 6 of the 8 assessed individuals (<75%), preventing definitive phenotypic segregation based on any single facial anomaly alone.",
+      "rationale": "While Janssen et al. (2022) establishes that facial dysmorphisms as a broad category are present in at least 7/8 patients, syndromic diagnosis requires determining whether individual dysmorphic signs have high discriminative penetrance or represent a diffuse non-specific constellation.",
+      "aspects": [
+        "binned",
+        "craniofacial"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "Janssen et al. (2022) report eight individuals carrying de novo putative loss-of-function variants in TAF4, identifying common features of intellectual disability, abnormal behavior, and facial dysmorphisms, but the exact granular counts for individual facial sub-phenotypes are located in Table 1 / extended clinical tables rather than the main text abstract.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+            "authors": [
+              "BDE Janssen",
+              "MJH van den Boogaard"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": "10.1002/humu.24444",
+            "pmid": null,
+            "pmc": "PMC10087332",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087332/",
+            "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size_n",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Table 1 of Janssen et al. (2022), muscular hypotonia (HP:0001252) exhibits a significantly higher penetrance (occurring in >=5/8 individuals, >=62.5%) than epileptic seizures (HP:0001250, occurring in <=2/8 individuals, <=25%), establishing that tone deregulation rather than active epileptogenesis is the cardinal neuromuscular feature of TAF4 haploinsufficiency.",
+      "rationale": "Prior pooled data suggest seizures occur in <25-30% of TAF4-NDD individuals, whereas motor and tone abnormalities are frequent; verifying the exact denominator and numerator tally from Table 1 of the discovery cohort directly tests whether seizure absence can be used as an exclusion criterion.",
+      "aspects": [
+        "binned",
+        "neurology"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "The discovery cohort defines T4NDD as a monogenic neurodevelopmental disorder characterized by intellectual disability, behavioral anomalies, and facial dysmorphism across eight individuals with de novo pLoF variants, without designating refractory epilepsy as an obligatory or primary core feature.",
+          "stance": "neutral",
+          "source": {
+            "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+            "authors": [
+              "BDE Janssen",
+              "MJH van den Boogaard"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": "10.1002/humu.24444",
+            "pmid": null,
+            "pmc": "PMC10087332",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087332/",
+            "quote": "Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD)."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size_n",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Microcephaly (HP:0000252) in Table 1 of Janssen et al. (2022) is itemized in at least 3 of 8 individuals (>=37.5%), whereas macrocephaly (HP:0000256) is absent (0/8), indicating that cranial growth restriction is a directional discriminator for T4NDD against overgrowth-associated intellectual disability syndromes.",
+      "rationale": "Previous literature notes microcephaly or borderline small head circumference in roughly 30-50% of individuals; verifying whether any macrocephaly is documented in Table 1 establishes cranial circumference directionality as a diagnostic clue.",
+      "aspects": [
+        "binned",
+        "growth",
+        "craniofacial"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Table 1 of Janssen et al. (2022) compiles the complete clinical features of patients with TAF4 variants across the discovery series.",
+          "stance": "neutral",
+          "source": {
+            "title": "(PDF) De novo putative loss\u2010of\u2010function variants in TAF4 ...",
+            "authors": [
+              "BDE Janssen",
+              "MJH van den Boogaard"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": "10.1002/humu.24444",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchgate.net/publication/362328285_De_novo_putative_loss-of-function_variants_in_TAF4_are_associated_with_a_neuro-developmental_disorder",
+            "quote": "JANSSEN ET AL. TABLE 1 Clinical features of patients with variants in TAF4"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient cell entries in Table 1 and Supplementary Table S1 of Janssen et al. (2022) for head circumference percentiles, seizure types, and specific ocular/palpebral anomalies?",
+      "rationale": "The current retrieval blocks provide paper metadata and abstract snippets demonstrating Table 1 exists, but the full table row contents were not ingested in the snippet; retrieving the full-text XML or PDF table cells will yield exact integer numerators for every HPO term.",
+      "promise": 0.95,
+      "est_cost": 0.4
+    },
+    {
+      "question_text": "How do the clinical frequencies in Table 1 of Janssen et al. (2022) compare feature-by-feature to the comparative TFIID subunit disorder series summarized by Eigenhuis et al. (2022)?",
+      "rationale": "Eigenhuis et al. (2022) systematically evaluated transcription pause and escape in TAF-opathies and compared TAF4 features with other TFIID subunits in their Table 1, providing a direct cross-syndromic discriminator matrix.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    }
+  ],
+  "dead_end": false
+}

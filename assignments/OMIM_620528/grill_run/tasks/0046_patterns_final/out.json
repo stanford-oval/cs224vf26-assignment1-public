@@ -1,0 +1,74 @@
+{
+  "patterns": [
+    {
+      "pattern": "Convergence of neuropathic and myopathic disease features in structural cytoskeletal gene haploinsufficiency",
+      "abstraction": "Single-gene dosage reductions in structural/scaffolding proteins frequently breach rigid clinical nosological classifications, presenting as concurrent primary myopathy and chronic neurogenic denervation rather than a pure neuropathy.",
+      "instance": "Patients with heterozygous loss-of-function SPTAN1 variants originally diagnosed with distal hereditary motor neuropathy 11 (dHMN11) demonstrate primary myopathic abnormalities on muscle biopsy (in 7/10 or 7/14 patients evaluated) and short-duration motor unit potentials alongside chronic distal axonal motor denervation.",
+      "direction": "Perform paired muscle MRI, high-resolution muscle pathology, and single-fiber electromyography across genetically unresolved distal motor syndromes to evaluate whether alpha-II spectrin deficiency directly destabilizes sarcolemmal integrity in parallel with axonal cytoskeletal maintenance.",
+      "support": "Strong pooled support across multiple independent cohorts (F1, F4, F6) with histopathological, radiological, and electrophysiological evidence.",
+      "sources": [
+        "D Beijer et al. (2019) Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+        "J De Winter et al. (2025) Heterozygous loss-of-function variants in SPTAN1 cause an early childhood onset distal myopathy https://www.sciencedirect.com/science/article/pii/S1098360025000462",
+        "C Laurini et al. (2026) Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype https://academic.oup.com/brain/article-abstract/149/4/1104/8299847"
+      ],
+      "hypothesis": "Haploinsufficiency of SPTAN1 reduces functional spectrin tetramer density at both the axonal periodic cytoskeleton and the sarcolemmal costamere, causing simultaneous axonal transport impairment and sarcolemmal mechanical fragility.",
+      "novelty": "Challenges the conventional paradigm that dHMN11 is an exclusively neurogenic lower motor neuronopathy by revealing an intrinsic primary distal myopathy component driven by identical loss-of-function alleles."
+    },
+    {
+      "pattern": "Altered dosage versus dominant-negative mutational mechanisms partition peripheral neuromuscular disease from severe central encephalopathy",
+      "abstraction": "In multimeric structural proteins, complete loss of one allele (haploinsufficiency) manifests as late- or juvenile-onset peripheral neuromuscular disease, whereas translated structural variants that poison multimerization trigger catastrophic early central nervous system pathology.",
+      "instance": "Heterozygous nonsense, frameshift, and deletion alleles in SPTAN1 trigger nonsense-mediated decay and manifest as dHMN11 or distal myopathy without central nervous system dysfunction, whereas in-frame mutations disrupting alpha/beta-spectrin dimerization cause severe infantile epileptic encephalopathy (DEE5) with intellectual disability and cerebral atrophy.",
+      "direction": "Establish variant-effect functional assays evaluating nonsense-mediated decay efficiency and heterodimer stability to prospectively stratify novel SPTAN1 variants into central encephalopathy versus peripheral neuromuscular trajectories.",
+      "support": "Robust evidence showing complete absence of seizures, severe intellectual disability, and microcephaly in dHMN11 pedigrees (F1, F2, F15).",
+      "sources": [
+        "D Beijer et al. (2019) Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+        "HL Dong et al. (2021) A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "MF Dohrn et al. (2020) Hereditary motor neuropathies 10.1111/ene.70456"
+      ],
+      "hypothesis": "Residual mutant spectrin chains capable of binding beta-spectrin form toxic nonfunctional aggregates that disrupt the axon initial segment in cerebral neurons, whereas simple 50% protein reduction is tolerated by the central nervous system but exceeds compensatory thresholds in elongated peripheral motor nerves and high-strain muscle fibers.",
+      "novelty": "Delineates how distinct biophysical consequences of mutations within the exact same structural gene dictate completely disparate organ-system involvement (isolated peripheral motor unit vs. severe epileptic encephalopathy)."
+    },
+    {
+      "pattern": "Strict sensory-sparing electrophysiology as an exclusionary discriminator against axonal polyneuropathies",
+      "abstraction": "When motor presentation and foot deformities mirror classical mixed polyneuropathies, the absolute preservation of sensory neurophysiology operates as an essential diagnostic filter separating pure motor neuronopathies from sensorimotor axonopathies.",
+      "instance": "Normal sensory nerve action potentials (SNAPs) and normal sensory examination in the presence of reduced compound muscle action potentials (CMAPs) and foot drop reliably distinguish dHMN11 from Charcot-Marie-Tooth disease type 2 (CMT2).",
+      "direction": "Investigate why sensory axons remain functionally and structurally intact despite carrying the same cytoskeletal scaffolding gene haploinsufficiency that causes motor axon degeneration and muscular dystrophy.",
+      "support": "High clinical consensus supported across dHMN diagnostic frameworks and SPTAN1 cohort evaluations (F3, F5).",
+      "sources": [
+        "MF Dohrn et al. (2020) Hereditary motor neuropathies https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+        "HL Dong et al. (2021) A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "C Laurini et al. (2026) Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype https://academic.oup.com/brain/article-abstract/149/4/1104/8299847"
+      ],
+      "hypothesis": "Alpha-II spectrin maintains a higher functional redundancy with other spectrin isoforms in sensory dorsal root ganglion neurons than in spinal anterior horn motor neurons, protecting sensory axons from haploinsufficiency-induced cytoskeletal disassembly.",
+      "novelty": "Clarifies that even in complex neuro-myopathic presentations, sensory neurophysiology remains an uncompromised negative discriminator for dHMN11."
+    },
+    {
+      "pattern": "High rate of non-penetrance and variable expressivity masking autosomal dominant inheritance in structural haploinsufficiency",
+      "abstraction": "Dominantly inherited haploinsufficiency of ubiquitously expressed cytoskeletal proteins displays incomplete clinical penetrance, leading to apparent sporadic occurrence or skipped generations that obscure classical mendelian pedigree analysis.",
+      "instance": "Heterozygous SPTAN1 loss-of-function variants and 9q34 microdeletions exhibit an estimated 20% to 35% non-penetrance rate (e.g., 2 asymptomatic carriers out of 6 deletion carriers), with affected relatives presenting with juvenile-onset weakness while carrier relatives remain asymptomatic into adulthood.",
+      "direction": "Identify genetic modifiers (such as baseline expression levels of wild-type SPTAN1 or compensatory beta-spectrin isoforms) that govern clinical penetrance in non-penetrant carriers of SPTAN1 null variants.",
+      "support": "Consistent findings across multiple kindreds and deletion series reporting non-penetrant adult obligate carriers (F6, F7).",
+      "sources": [
+        "L Van de Vondel et al. (2026) A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy https://www.nature.com/articles/s41431-025-01938-2",
+        "D Beijer et al. (2019) Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+        "J De Winter et al. (2025) Heterozygous loss-of-function variants in SPTAN1 cause an early childhood onset distal myopathy https://www.sciencedirect.com/science/article/pii/S1098360025000462"
+      ],
+      "hypothesis": "Cis-regulatory variants on the non-mutated SPTAN1 allele dictate transcriptional compensation, where individuals expressing higher wild-type transcript levels remain protected above the clinical threshold for motor axon degeneration.",
+      "novelty": "Cautions against excluding an autosomal dominant diagnosis in isolated/sporadic juvenile distal weakness when parental phenotypes are completely normal."
+    },
+    {
+      "pattern": "Dissociated craniocaudal reflex gradients reflecting length-dependent lower motor neuron loss with spared upper motor pathways",
+      "abstraction": "Length-dependent neurodegenerative processes preferentially extinguish the most distal reflex arcs while sparing or unmasking more proximal spinal reflex loops, producing a dissociated reflex pattern rather than generalized hyporeflexia.",
+      "instance": "Patients with dHMN11 present with selective absence of Achilles tendon reflexes alongside preserved or brisker-than-expected patellar reflexes (e.g., knee reflex grade +++), avoiding the pan-areflexia typical of extensive polyneuropathies.",
+      "direction": "Quantify longitudinal reflex changes and central conduction times in dHMN11 cohorts to evaluate whether preserved proximal reflexes reflect pure length-dependent lower motor neuron sparing or concomitant subclinical corticospinal tract involvement.",
+      "support": "Supported by deep tendon reflex evaluations across documented dHMN and SPTAN1 cohorts (F8).",
+      "sources": [
+        "MF Dohrn et al. (2020) Hereditary motor neuropathies https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+        "HL Dong et al. (2021) A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "F Xie et al. (2022) SPTAN1 variants likely cause autosomal recessive complicated hereditary spastic paraplegia https://www.nature.com/articles/s10038-021-00975-1"
+      ],
+      "hypothesis": "The extreme axonal length of S1 motor units exposes them first to spectrin-mediated transport failure, whereas L3-L4 motor units remain functionally compensated, resulting in isolated ankle jerk loss with preserved knee jerks.",
+      "novelty": "Provides an immediate bedside discriminator against demyelinating or generalized axonal polyneuropathies that cause global lower limb areflexia."
+    }
+  ]
+}

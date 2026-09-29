@@ -1,0 +1,44 @@
+{
+  "knowledge": "Spastic ataxia 11 (SPAX11, OMIM #621226) is an autosomal dominant neurodegenerative disorder caused by heterozygous variants in the TUBA4A gene (encoding tubulin alpha 4a). Historically, TUBA4A variants were first linked to familial amyotrophic lateral sclerosis type 22 (ALS22). More recently, distinct heterozygous missense variants have been characterized in families presenting with adult- or adolescent-onset spastic ataxia. The primary clinical picture comprises lower extremity spasticity, brisk deep tendon reflexes, extensor plantar responses, progressive cerebellar ataxia (gait ataxia, dysmetria, dysarthria, and nystagmus), and cerebellar vermis or hemisphere atrophy on brain MRI.",
+  "prior_hypothesis": "SPAX11 cannot be distinguished with certainty from other autosomal dominant spastic ataxias (such as SPG7-related spastic ataxia, SCA1, SCA2, SCA3, or other SPAX entities) based on clinical phenotype alone. Instead, identification relies on a characteristic core dyad of progressive spastic paraparesis combined with cerebellar ataxia in the absence of severe autonomic failure, severe cognitive impairment, or prominent lower motor neuron signs, followed by definitive molecular testing of TUBA4A.",
+  "candidate_answers": [
+    {
+      "answer": "Core clinical phenotypes include cerebellar ataxia (gait ataxia, dysmetria, dysarthria; standard HPO: HP:0001251) and lower limb spasticity/pyramidal signs (hyperreflexia, extensor plantar response; HPO: HP:0002061), accompanied by cerebellar atrophy on MRI (HPO: HP:0001272) in approximately 80-100% of affected adults in reported pedigree series.",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotypes and frequency"
+    },
+    {
+      "answer": "The most discriminating phenotypic combination against classic hereditary spastic paraplegias (pure HSPs) is the prominent early cerebellar syndrome and cerebellar atrophy on neuroimaging; however, distinguishing SPAX11 from SPG7 or spinocerebellar ataxias (SCA1, SCA2, SCA3) is low-confidence based purely on clinical signs due to nearly identical spastic-ataxic overlap.",
+      "confidence": 0.75,
+      "aspect": "Discriminating features vs clinical mimics"
+    },
+    {
+      "answer": "Features consistently absent or atypical in SPAX11 that argue strongly against the diagnosis when present early include severe early dementia, prominent optic atrophy or retinopathy (unlike SCA7), and prominent lower motor neuron denervation without ataxia (which would point toward ALS22 or other motor neuron diseases).",
+      "confidence": 0.7,
+      "aspect": "Exclusionary / absent clinical findings"
+    },
+    {
+      "answer": "Genotype-phenotype divergence occurs based on the specific TUBA4A variant and domain: specific dominant-negative or destabilizing mutations cause classic upper/lower motor neuron disease (ALS22), whereas distinct SPAX11 missense variants selectively impair microtubule dynamics causing spastic ataxia with incomplete penetrance or variable age of onset.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlations"
+    }
+  ],
+  "key_terms": [
+    "SPAX11",
+    "TUBA4A",
+    "Spastic ataxia 11, autosomal dominant",
+    "Cerebellar ataxia",
+    "Spastic paraparesis",
+    "ALS22",
+    "Microtubule dynamics"
+  ],
+  "open_questions": [
+    "What are the precise cohort-level numerators and denominators for dysarthria, nystagmus, and peripheral neuropathy in the primary SPAX11 discovery papers?",
+    "Do specific electrophysiological findings (such as sensory-motor axonal neuropathy vs purely central conduction delays) distinguish SPAX11 from other spastic ataxias?",
+    "What exact molecular mechanism determines whether a TUBA4A missense mutation causes ALS22 versus SPAX11?"
+  ],
+  "assumptions": [
+    "OMIM #621226 uniquely reflects autosomal dominant spastic ataxia 11 caused by heterozygous TUBA4A mutations.",
+    "No external literature sources were provided in the prompt context, so precise per-cohort numerators, denominators, and specific PMID associations must be extracted and validated against primary literature in subsequent steps."
+  ]
+}

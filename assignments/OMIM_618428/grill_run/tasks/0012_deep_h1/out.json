@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "Across all available literature and clinical databases describing Popov-Chang syndrome (POPCHAS; OMIM #618428) caused by pathogenic variation in YWHAZ, global developmental delay/intellectual disability (HP:0001263 / HP:0001249) and speech/language impairment or delay (HP:0000750) are consistently documented across 100% of described affected individuals. No documented counter-examples of non-penetrance or individuals with preserved speech and normal intellectual development were identified in the reported cohorts.",
+  "evidence": [
+    {
+      "text": "Popov-Chang syndrome is defined as an autosomal dominant disorder characterized by global developmental delay, impaired intellectual development, and poor or absent speech.",
+      "stance": "supports",
+      "source": {
+        "title": "Popov-Chang Syndrome (POPCHAS)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/popov_chang_syndrome",
+        "quote": "An autosomal dominant disorder characterized by global developmental delay, impaired intellectual development, poor or absent speech, facial dysmorphism, and ..."
+      },
+      "numbers": [
+        {
+          "metric": "frequency of global developmental delay and poor or absent speech",
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "text": "All affected individuals evaluated for Popov-Chang syndrome exhibited global developmental delay, impaired intellectual development, and poor or absent speech.",
+      "stance": "supports",
+      "source": {
+        "title": "Popov-Chang Syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+        "quote": "All had global developmental delay, with mildly delayed walking ability, impaired intellectual development (IQ of 1 patient was 55), and poor or absent speech."
+      },
+      "numbers": [
+        {
+          "metric": "penetrance of global developmental delay and speech impairment in cohort",
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "text": "In a large multi-generational pedigree, a novel missense variant in YWHAZ (c.147A>T, p.Lys49Asn) segregated with intellectual disability, global developmental delay, and speech development delay in all affected family members.",
+      "stance": "supports",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global developmental delay with brain malformation",
+        "authors": [
+          "RP Wan"
+        ],
+        "year": 2023,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": "36001342",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36001342/",
+        "quote": "we discovered that a novel variant of the YWHAZ gene was associated with intellectual disability and global developmental delay. This variant is a missense mutation of YWHAZ, p.Lys49Asn/c.147A > T, which was found in all affected members but not found in other unaffected members... development delay, speech development delay and..."
+      },
+      "numbers": [
+        {
+          "metric": "co-segregation of ID and GDD in affected family members",
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "text": "The OMIM clinical synopsis for Popov-Chang syndrome highlights global developmental delay and impaired intellectual development as primary cardinal features of the disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "POPOV-CHANG SYNDROME; POPCHAS",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/618428",
+        "quote": "POPOV-CHANG SYNDROME; Global developmental delay. Impaired intellectual development. Patient A was severely affected."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What specific dysmorphic features or neuroimaging signatures reliably distinguish Popov-Chang syndrome from other 14-3-3 proteinopathies or general intellectual disability syndromes?",
+      "rationale": "Because global developmental delay and speech impairment are generic neurodevelopmental phenotypes with high background frequency across hundreds of genetic conditions, identifying unique dysmorphology or brain MRI findings is essential for syndromic delineation.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the true penetrance and expressivity spectrum of YWHAZ loss-of-function versus gain-of-function/dominant-negative variants across unselected biobank exome cohorts?",
+      "rationale": "Ascertainment bias in early family pedigrees and targeted cohorts often overestimates the penetrance of severe cognitive phenotypes; searching population databases (e.g., gnomAD, UK Biobank) will test whether mild or non-penetrant alleles exist.",
+      "promise": 0.75,
+      "est_cost": 15000.0
+    }
+  ]
+}

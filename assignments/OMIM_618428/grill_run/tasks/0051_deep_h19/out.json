@@ -1,0 +1,79 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature provided provides no empirical cohort data or phenotypic frequencies supporting the hypothesis that ectodermal manifestations occur in fewer than 35% of individuals with Popov-Chang syndrome (YWHAZ-related disease) or that ectodermal signs act as a key negative differentiator from classical CFC syndrome. Rather, published reports catalog YWHAZ under cardiofaciocutaneous syndrome spectrum disorders and ectodermal/skin abnormalities (such as in the Clinical Genomic Database and MalaCards), and characterize variants as presenting with a phenotype consistent with CFC syndrome without establishing a statistically significant attenuation of ectodermal features.",
+  "evidence": [
+    {
+      "text": "Popov et al. (2019) describe individuals with novel variants in YWHAZ as presenting with a phenotype consistent with cardiofaciocutaneous (CFC) syndrome, a condition defined by craniofacial, cardiac, and skin abnormalities, rather than reporting an absence or low frequency (<35%) of ectodermal manifestations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous Syndrome Activates the RAF-ERK Pathway",
+        "authors": [
+          "IK Popov",
+          "SM Hiatt",
+          "S Whalen",
+          "B Keren"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6465419",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+        "quote": "We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially be deleterious and disease-causing."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Scorrano et al. (2023) review cardiofaciocutaneous syndrome as a disorder characterized by ectodermal, cardiac, and craniofacial anomalies caused by variants in BRAF, MAP2K1, MAP2K2, KRAS, or rarely YWHAZ, noting typical ectodermal features across CFC without demonstrating that YWHAZ-associated cases lack or have less than 35% ectodermal findings.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The Cardiofaciocutaneous Syndrome: From Genetics to Clinical Management",
+        "authors": [
+          "G Scorrano"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.3390/genes14122111",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/14/12/2111",
+        "quote": "Cardiofaciocutaneous (CFC) syndrome is one of the rarest RASopathies characterized by multiple congenital ectodermal, cardiac and craniofacial abnormalities with a mild to severe ocular, gastrointestinal and neurological involvement. It is an autosomal dominant syndrome, with complete penetrance, caused by heterozygous pathogenic variants in the genes BRAF, MAP2K1/MEK1, MAP2K2/MEK2, KRAS or, rarely, YWHAZ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "The Clinical Genomic Database categorizes YWHAZ and Popov-Chang syndrome within the dermatologic/ectodermal dysplasia organ system manifestation category, directly contradicting the premise that ectodermal involvement is negligible or absent in this entity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical Genomic Database - NHGRI - NIH",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://research.nhgri.nih.gov/CGD/organ_system/?cat=manifestation&organ=derma",
+        "quote": "Ectodermal dysplasia/skin ... YWHAZ ... Popov-Chang"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that ectodermal manifestations occur in fewer than 35% of Popov-Chang syndrome patients and serve as a negative discriminator, whereas the literature classifies YWHAZ alongside classic CFC syndrome genes and lists ectodermal/skin manifestations as part of the syndrome's phenotypic profile without documented low penetrance."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and spectrum of ectodermal findings (e.g., keratosis pilaris, ulerythema ophryogenes, sparse curly hair) across all molecularly confirmed YWHAZ/Popov-Chang syndrome patients described to date?",
+      "rationale": "A systematic international case series compiling all published and registry-listed YWHAZ probands is required to establish numerator and denominator counts for ectodermal features.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do downstream transcriptional profiles or pathway markers in patient-derived keratinocytes distinguish YWHAZ variants from classical BRAF/MEK1/MEK2 variants?",
+      "rationale": "Determining whether 14-3-3zeta mutations elicit differential MAPK/ERK or non-canonical signaling in epidermal tissues could explain any clinical variation observed in skin involvement.",
+      "promise": 0.75,
+      "est_cost": 60000
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "verdict": "refuted",
+  "rationale": "The categorical hypothesis that neurodevelopmental regression does not occur in FBXO11-related disorder is directly refuted by primary cohort studies. Gregor et al. (2018) documented an individual with developmental regression at age 3 years among their cohort of 20 patients. Furthermore, Goel et al. explicitly reported that regression of previously acquired language skills occurred in one patient out of 21 individuals assessed. Additionally, FBXO11 is cataloged among developmental and epileptic encephalopathy (DEE) genes where developmental regression can occur in association with epileptic activity (Hebbar & Mefford, 2020). While the typical phenotype is non-progressive intellectual developmental disorder without neurodegeneration or progressive cerebral/cerebellar atrophy, the absolute exclusion of regression is invalid.",
+  "evidence": [
+    {
+      "text": "In a cohort of 20 individuals with de novo FBXO11 variants, clinical tabular data demonstrates developmental regression occurring at age 3 years in an affected individual.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder",
+        "authors": [
+          "A Gregor",
+          "LG Sadleir",
+          "R Asadollahi"
+        ],
+        "year": 2018,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.academia.edu/71729450/De_Novo_Variants_in_the_F_Box_Protein_FBXO11_in_20_Individuals_with_a_Variable_Neurodevelopmental_Disorder",
+        "quote": "Regression no no no no no NA yes (3 y) NA no no"
+      },
+      "numbers": [
+        {
+          "metric": "individuals evaluated for neurodevelopmental features",
+          "value": 20
+        },
+        {
+          "metric": "seizures present in cohort",
+          "value": "5/20"
+        }
+      ]
+    },
+    {
+      "text": "In a phenotypic analysis of 21 previously unreported individuals with pathogenic FBXO11 variants, one patient demonstrated clinical regression of previously acquired language skills.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+        "authors": [
+          "H Goel",
+          "G Garg",
+          "TS Barakat",
+          "G Barcia",
+          "A Bourgois"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+        "quote": "Only one individual demonstrated regression of previously acquired language skills."
+      },
+      "numbers": [
+        {
+          "metric": "individuals assessed in cohort",
+          "value": 21
+        },
+        {
+          "metric": "individuals demonstrating regression of language skills",
+          "value": 1
+        },
+        {
+          "metric": "prevalence of intellectual disability",
+          "value": "86%"
+        },
+        {
+          "metric": "prevalence of seizures",
+          "value": "43%"
+        }
+      ]
+    },
+    {
+      "text": "Genomic review of epilepsy indicates FBXO11 is involved in syndromic epilepsy and developmental and epileptic encephalopathies (DEEs), a group of conditions characterized by refractory seizures accompanied by developmental delay or regression.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [
+          "M Hebbar",
+          "HC Mefford"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC7076331",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7076331/",
+        "quote": "Developmental and epileptic encephalopathies (DEEs) are a group of severe, early onset epilepsies characterized by refractory seizures, developmental delay or regression associated with ongoing epileptic activity... syndromic epilepsy, including NBEA, FBXO11, and SMARCC2"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Neurodevelopmental assessment across 12 Chinese individuals from 5 families identified mild to severe intellectual disability in 12/12 and global developmental delay in 10/12, presenting as a stable neurodevelopmental disorder without reported progressive neurodegenerative decline.",
+      "stance": "supports",
+      "source": {
+        "title": "FBXO11 variants are associated with intellectual disability and variable clinical manifestation in Chinese affected individuals",
+        "authors": [
+          "X Pan",
+          "L Liu",
+          "X Zhang",
+          "X Tang",
+          "G Qian",
+          "H Qiu"
+        ],
+        "year": 2024,
+        "journal": "Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s10038-024-01255-4",
+        "quote": "Almost all the affected individuals presented with mild to severe intellectual disability (12/12), global developmental delay (10/12), speech and language development delay (8/12) associated with a range of alternate features"
+      },
+      "numbers": [
+        {
+          "metric": "intellectual disability frequency",
+          "value": "12/12"
+        },
+        {
+          "metric": "global developmental delay frequency",
+          "value": "10/12"
+        },
+        {
+          "metric": "speech and language delay frequency",
+          "value": "8/12"
+        },
+        {
+          "metric": "seizures frequency",
+          "value": "3/12"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Most cohorts report FBXO11-related disorder presenting as static mild-to-severe intellectual disability, yet both Gregor et al. (2018) and Goel et al. (2026) report documented instances of developmental regression (e.g., at age 3 or regression of language milestones).",
+    "FBXO11 is categorized by clinical epilepsy genetics reviews alongside developmental and epileptic encephalopathies (DEEs) where epileptic activity may precipitate secondary developmental regression, directly contradicting the assertion that regression never occurs."
+  ],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "Is developmental regression in FBXO11-related disorder strictly secondary to epileptic encephalopathy/epileptic activity, or can it manifest independently of clinical seizures?",
+      "rationale": "Differentiating whether regression in the rare affected individuals represents epileptic encephalopathy versus primary neurodegenerative decline is essential for clinical management and diagnostic workups.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do specific FBXO11 variant types (e.g., CASH vs UBR domain missense variants vs haploinsufficiency/truncating alleles) correlate with seizure susceptibility and risk of milestone loss?",
+      "rationale": "Systematic genotype-phenotype correlation across aggregated international registries could determine if a subset of variants predisposes to a DEE phenotype with milestone regression.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

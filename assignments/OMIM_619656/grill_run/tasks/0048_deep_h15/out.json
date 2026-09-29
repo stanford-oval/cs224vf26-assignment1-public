@@ -1,0 +1,107 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Classical diagnostic criteria and reviews emphasize that Loeys-Dietz syndrome (LDS), including LDS6 caused by SMAD2 mutations, is characterized by non-zonular ocular and craniofacial findings (such as hypertelorism, strabismus, and blue sclerae) with preservation of lens stability, using the absence of ectopia lentis as a primary discriminator from Marfan syndrome. However, comprehensive systematic reviews of reported LDS cohorts cite rare presentations of ectopia lentis among reported cases, and authoritative genetic texts emphasize that too few SMAD2 mutation-positive cases have been reported to definitively confirm absolute sparing of the ciliary zonule across all clinical contexts.",
+  "evidence": [
+    {
+      "text": "Features such as cleft palate, bifid uvula, hypertelorism, craniosynostosis, and osteoarthritis, combined with the absence of ectopia lentis, distinguish Loeys-Dietz syndrome (encompassing TGFBR1/2, TGFB2/3, and SMAD2/3) from Marfan syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Marfan syndrome and related disorders",
+        "authors": [
+          "JCS Dean",
+          "B Loeys"
+        ],
+        "year": 2018,
+        "journal": "Connective Tissue and Its Heritable Disorders",
+        "doi": "10.1007/978-3-319-66114-8_19",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-319-66114-8_19",
+        "quote": "Loeys Dietz Syndrome is a \u2026 SMAD2). Features such as cleft palate, bifid uvula, hypertelorism, craniosynostosis and osteoarthritis and the absence of ectopia lentis suggest Loeys Dietz."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Loeys-Dietz syndrome is a multi-system connective tissue disorder presenting with ocular manifestations and hypertelorism, with downstream TGF-beta signaling mediators SMAD2 and SMAD3 playing essential roles in the pathogenic spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 and SMAD2/3",
+        "authors": [
+          "D Schepers",
+          "G Tortora",
+          "H Morisaki"
+        ],
+        "year": 2018,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.23407",
+        "pmid": null,
+        "pmc": "PMC5947146",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23407",
+        "quote": "The Loeys-Dietz syndrome (LDS) is a connective tissue disorder affecting the cardiovascular, skeletal, and ocular system. Most typically, LDS patients present with aortic aneurysms and arterial tortuosity, hypertelorism, and bifid/broad uvula or cleft palate."
+      },
+      "numbers": []
+    },
+    {
+      "text": "While absence of ectopia lentis is considered a primary differentiating criterion for LDS, too few SMAD2 mutation-positive cases have been reported to determine the full extent of the phenotypic spectrum.",
+      "stance": "neutral",
+      "source": {
+        "title": "Loeys\u2013dietz syndrome",
+        "authors": [
+          "A Verstraeten",
+          "HC Dietz"
+        ],
+        "year": 2021,
+        "journal": "Emery and Rimoin's Principles and Practice of Medical Genetics and Genomics",
+        "doi": "10.1002/9781119432692.ch36",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+        "quote": "to SMAD2, too few mutation\u2010positive cases have yet been reported to deter\u2011 mine at which end of the phenotypic spectrum SMAD2\u2026 Absence of ectopia lentis in LDS is a major distin\u2011"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In comprehensive aggregations of LDS patients, SMAD2 mutations and LDS phenotypes have been evaluated in connection with atypical manifestations including reported cases of ectopia lentis, complicating absolute exclusion.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical features and complications of Loeys-Dietz syndrome",
+        "authors": [
+          "P Gouda"
+        ],
+        "year": 2022,
+        "journal": "International Journal of Cardiology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+        "quote": "Of note, SMAD2 mutations have been identified to be associated with ... ectopia lentis, atrophic scars, Chiari malformation, hydrocephalus, uterine"
+      },
+      "numbers": [
+        {
+          "metric": "Total LDS cases identified in systematic review",
+          "value": 3896
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Clinical review guidelines standardly state that ectopia lentis is absent across all LDS subtypes (including LDS6/SMAD2), differentiating them from Marfan syndrome.",
+    "Systematic case compilations and clinical complication reviews note instances where ectopia lentis has been documented or evaluated in association with LDS and SMAD2 variants.",
+    "The overall number of published SMAD2-specific cohorts remains small, preventing definitive confirmation of complete zonular sparing."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "In international multi-center registries of genetically confirmed LDS6 patients, what is the exact biomicroscopic prevalence of zonular laxity, subclinical phacodonesis, or ectopia lentis?",
+      "rationale": "Systematic biomicroscopy and anterior segment OCT in a targeted cohort of SMAD2 carriers are necessary to verify whether zonular integrity is truly spared or subclinically compromised.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do SMAD2 mutations affecting the MH2 domain cause altered TGF-beta signaling in human non-pigmented ciliary epithelial cells compared to classic FBN1 pathogenic variants?",
+      "rationale": "Investigating zonular microfibril deposition in vitro will determine whether SMAD2 downstream signaling directly regulates zonular structural integrity.",
+      "promise": 0.78,
+      "est_cost": 45000
+    }
+  ]
+}

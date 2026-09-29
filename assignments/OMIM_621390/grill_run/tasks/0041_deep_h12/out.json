@@ -1,0 +1,59 @@
+{
+  "verdict": "supported",
+  "rationale": "In the index delineation of KLHL20-related neurodevelopmental disorder by Sleyp et al. (2022), the craniofacial features across the 14 evaluated individuals were characterized as 'subtle dysmorphic facial features' rather than presenting a recognizable, recurrent facial gestalt. Available literature confirms that the disorder is predominantly recognized by neurodevelopmental phenotypes (intellectual disability, febrile seizures/epilepsy, autism spectrum disorder, hyperactivity) rather than a clear or distinctive craniofacial phenotype.",
+  "evidence": [
+    {
+      "text": "Sleyp et al. evaluated 14 patients with de novo missense variants in KLHL20 and identified a genetic syndrome characterized by mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features without a distinct recognizable facial gestalt.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor ...",
+        "authors": [
+          "Y Sleyp"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": "36214804",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36214804/",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 14
+        },
+        {
+          "metric": "recurrent_variant_count",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry 617679 records the phenotype as neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (NEDSFBA) referencing Sleyp et al. (2022).",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - *617679 - KELCH-LIKE 20; KLHL20",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/617679",
+        "quote": "Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities ... (2022) identified heterozygous mutations in the KLHL20"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does computer-aided 3D facial photogrammetry or automated DeepGestalt analysis detect a sub-visual shared facial signature among KLHL20 missense variant carriers?",
+      "rationale": "While clinical visual inspection classifies the facial dysmorphisms as subtle and variable, automated phenotyping pipelines may detect subtle geometric craniofacial patterns differentiating KLHL20 carriers from other neurodevelopmental cohorts.",
+      "promise": 0.75,
+      "est_cost": 25000
+    }
+  ]
+}

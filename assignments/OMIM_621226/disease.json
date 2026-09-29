@@ -1,0 +1,29 @@
+{
+  "omim": "OMIM:621226",
+  "label": "Spastic ataxia 11, autosomal dominant",
+  "gene": "TUBA4A",
+  "gene_info": {
+    "symbol": "TUBA4A",
+    "name": "tubulin alpha 4a",
+    "type_of_gene": "protein-coding",
+    "map_location": "2q35",
+    "entrez_id": "7277",
+    "aliases": [
+      "ALS22",
+      "CMYO26",
+      "FTDALS9",
+      "H2-ALPHA",
+      "OZEMA23",
+      "SPAX11",
+      "TUBA1"
+    ],
+    "summary": "Microtubules of the eukaryotic cytoskeleton perform essential and diverse functions and are composed of a heterodimer of alpha and beta tubulin. The genes encoding these microtubule constituents are part of the tubulin superfamily, which is composed of six distinct families. Genes from the alpha, beta and gamma tubulin families are found in all eukaryotes. The alpha and beta tubulins represent the major components of microtubules, while gamma tubulin plays a critical role in the nucleation of microtubule assembly. There are multiple alpha and beta tubulin genes and they are highly conserved among and between species. This gene encodes an alpha tubulin that is a highly conserved homolog of a rat testis-specific alpha tubulin. Alternatively spliced transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Jun 2013].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 24,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 33,
+  "corpus_query": "\"TUBA4A\" OR \"Spastic ataxia 11\"",
+  "corpus_query_clinical": "(\"TUBA4A\" OR \"Spastic ataxia 11\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Spastic ataxia 11, autosomal dominant (OMIM #621226), caused by variants in TUBA4A: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

@@ -1,0 +1,130 @@
+{
+  "hypotheses": [
+    {
+      "text": "Peripheral neuropathy in SPAX8 is an atypical, low-frequency phenotypic expansion restricted to motor-predominant axonal involvement, rather than a primary demyelinating sensorimotor polyneuropathy.",
+      "rationale": "Resolves the conflict between initial descriptions characterizing SPAX8 as lacking peripheral nerve pathology and Bereshneh et al. (2020), which documented peripheral axonal neuropathy presenting with wrist and foot drop in two siblings homozygous for NKX6-2 p.Phe167Leu. Demonstrating that peripheral involvement is exclusively axonal and rare clarifies why EMG/NCS is normal in most cohorts while accommodating verified peripheral deficits in isolated kindreds.",
+      "aspects": [
+        "phenotypic spectrum",
+        "peripheral neuropathy",
+        "differential diagnosis"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Bereshneh et al. (2020) identified a novel homozygous missense variant c.501C>G (p.Phe167Leu) in two siblings who exhibited wrist and foot drop due to peripheral axonal neuropathy confirmed by EMG/NCV, designating this as an expanded feature of SPAX8.",
+          "stance": "supports",
+          "source": {
+            "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+            "authors": [
+              "AH Bereshneh",
+              "S Hosseipour"
+            ],
+            "year": 2020,
+            "journal": null,
+            "doi": null,
+            "pmid": "32004679",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32004679/",
+            "quote": "In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding and cerebellar white matter involvement in brain Magnetic Resonance Imaging (MRI) as new imaging finding."
+          },
+          "numbers": [
+            {
+              "metric": "affected siblings with peripheral axonal neuropathy",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "text": "Almatrafi et al. (2020) reported four individuals with progressive spastic ataxia from an NKX6-2 homeobox domain mutation (p.Ala182Val) noting limb weakness, digit/limb deformities, and peripheral neuropathy features among expanding manifestations.",
+          "stance": "supports",
+          "source": {
+            "title": "A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and \u2026",
+            "authors": [
+              "A Almatrafi",
+              "M Umair",
+              "A Eldardear"
+            ],
+            "year": 2020,
+            "journal": null,
+            "doi": "10.1002/jgm.3196",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.3196",
+            "quote": "8 as a result of NKX6-2 mutations include digit or limbs deformities, peripheral neuropathy (\u2026 motor coordination and central nervous system nerve conduction, as well as paranodes that \u2026"
+          },
+          "numbers": [
+            {
+              "metric": "affected individuals in family cohort",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The presence of a frank demyelinating sensorimotor polyneuropathy on nerve conduction studies discriminates PLP1-related disorders (e.g., SPG2) and GJC2/PMLD1 from SPAX8, where peripheral myelination is conserved.",
+      "rationale": "Because NKX6-2 is primarily critical for central oligodendrocyte maturation and CNS paranodal axoglial architecture, peripheral myelin remains intact; any reported peripheral neuropathy in SPAX8 is axonal, whereas PLP1 mutations frequently cause mild multifocal demyelinating peripheral neuropathy.",
+      "aspects": [
+        "differential diagnosis",
+        "electrophysiology",
+        "leukodystrophies"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "PLP1-related disorders can manifest spastic quadriparesis with ataxia and mild multifocal demyelinating peripheral neuropathy on neurophysiologic evaluation.",
+          "stance": "supports",
+          "source": {
+            "title": "PLP1-related disorders",
+            "authors": [
+              "NI Wolf",
+              "RML van Spaendonk"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK1182/",
+            "quote": "by the absence of nystagmus and the presence of relatively mild spastic quadriparesis that mostly affects the legs, with ataxia and mild multifocal demyelinating peripheral neuropathy."
+          },
+          "numbers": []
+        },
+        {
+          "text": "Bereshneh et al. (2020) confirmed that when peripheral nerve involvement occurs in NKX6-2 deficiency, EMG/NCV reveals an axonal pattern rather than peripheral demyelination.",
+          "stance": "supports",
+          "source": {
+            "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+            "authors": [
+              "AH Bereshneh",
+              "S Hosseipour"
+            ],
+            "year": 2020,
+            "journal": null,
+            "doi": null,
+            "pmid": "32004679",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32004679/",
+            "quote": "EMG/NCV of both children showed peripheral axonal \u2026 study reporting peripheral axonal neuropathy in patients with hereditary spastic ataxia type 8 due to mutation in NKX6-2"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the exact prevalence and electrophysiological profile of lower motor neuron/peripheral axonal involvement across all published SPAX8 cohorts?",
+      "rationale": "Quantifying how many confirmed SPAX8 cases have undergone systematic EMG/NCS will establish whether peripheral axonal neuropathy is a true low-penetrance feature or an under-ascertained late finding.",
+      "promise": 0.8,
+      "est_cost": 0.65
+    },
+    {
+      "question_text": "Do specific missense variants in the homeobox or flanking domains of NKX6-2 correlate with distal axonal motor denervation versus pure central spasticity?",
+      "rationale": "Comparing variant locations between patients with wrist/foot drop (e.g., p.Phe167Leu) and those with pure upper motor neuron signs will clarify genotype-phenotype correlations.",
+      "promise": 0.75,
+      "est_cost": 0.6
+    }
+  ],
+  "dead_end": false
+}

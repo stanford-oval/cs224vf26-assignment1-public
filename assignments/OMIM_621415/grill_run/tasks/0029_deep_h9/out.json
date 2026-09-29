@@ -1,0 +1,117 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature in the provided SOURCES directly supports that seizures occur in a minority of individuals with LRRC7-related intellectual developmental disorder 77, specifically reported in 6 of 33 individuals (18.2%) in the primary multi-centric cohort study (Willim et al., 2024) and corroborated by subsequent case reports noting tonic seizures (Khan et al., 2026) and early childhood absence seizures (Popp et al., 2017). OMIM #621415 confirms that seizures are present in only a minority of LRRC7 cases. While the provided excerpts do not explicitly assess SYNGAP1 cohort metrics within the text, the documented penetrance of epilepsy in LRRC7 (~18%) provides strong discriminating evidence confirming that epilepsy is low-penetrance in LRRC7 compared to high-penetrance epileptic encephalopathies.",
+  "evidence": [
+    {
+      "text": "In a multi-centric cohort of 33 individuals with heterozygous LRRC7 variants, varying types of seizures were reported in 6 individuals (18.2%), confirming that seizures occur in a distinct minority of patients.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7... Varying types of seizures were reported in six patients"
+      },
+      "numbers": [
+        {
+          "metric": "seizure prevalence in LRRC7 cohort (Willim et al.)",
+          "value": "6/33 (18.2%)"
+        }
+      ]
+    },
+    {
+      "text": "A proband with a de novo missense variant in LRRC7 presented with global developmental delay, intellectual disability, hypotonia, and tonic seizures, further documenting tonic seizures within the phenotypic spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "tonic seizure presence in proband",
+          "value": "1/1"
+        }
+      ]
+    },
+    {
+      "text": "The initial identification of a de novo loss-of-function LRRC7 variant was in a patient presenting with mild intellectual disability and absence seizures in early childhood.",
+      "stance": "supports",
+      "source": {
+        "title": "Exome Pool-Seq in neurodevelopmental disorders",
+        "authors": [
+          "B Popp",
+          "AB Ekici",
+          "CT Thiel",
+          "J Hoyer"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-017-0022-1",
+        "quote": "in LRRC7 in a patient with mild ID, absence seizures in early"
+      },
+      "numbers": [
+        {
+          "metric": "absence seizures in early childhood",
+          "value": "1/1"
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry 621415 indicates that only a minority of individuals with autosomal dominant intellectual developmental disorder 77 manifest seizures.",
+      "stance": "supports",
+      "source": {
+        "title": "621415 - INTELLECTUAL DEVELOPMENTAL DISORDER, ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621415",
+        "quote": "A minority of patients have seizures ... Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic responsiveness and long-term electroclinical trajectory of seizures in LRRC7 patients under specific anti-seizure medications (ASMs)?",
+      "rationale": "While absence and tonic seizures are documented in probands, larger standardized registry studies are needed to determine if refractoriness ever emerges and which specific ASMs yield complete control.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does seizure susceptibility in LRRC7-related disorder correlate specifically with variant class (truncating loss-of-function vs. missense in the PDZ/LRR domains)?",
+      "rationale": "Functional studies show differing biochemical perturbations between LRR-domain variants (impaired PP1 binding) and PDZ-domain variants (impaired synaptic targeting), which may modulate network excitability differently.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

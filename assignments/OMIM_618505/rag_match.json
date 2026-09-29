@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_618505",
+ "omim": "OMIM:618505",
+ "disease": "Stolerman neurodevelopmental syndrome",
+ "gene": "KDM6B",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1613,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Stolerman neurodevelopmental syndrome (KDM6B, OMIM:618505):\n\n[1] KDM6B\nhttps://www.simonssearchlight.org/research/what-we-study/kdm6b/\nKDM6B-related neurodevelopmental disorder happens when there are changes to the KDM6B gene. These changes can keep the gene from working as it should.\n\n[2] The clinical and molecular spectrum of the KDM6B-related ...\nhttps://www.sciencedirect.com/science/article/pii/S0002929723001325\nby D Rots \u00b7 2023 \u00b7 Cited by 36 \u2014 Neurodevelopmental abnormalities were present in all individuals with likely pathogenic KDM6B variants. Developmental delay (speech-language, ...\n\n[3] Stolerman Neurodevelopmental Syndrome (NEDSST)\nhttps://www.malacards.org/card/stolerman_neurodevelopmental_syndrome\nStolerman neurodevelopmental syndrome (NEDSST) is a highly variable neurodevelopmental disorder caused by heterozygous mutation in KDM6B on chromosome 17p13.\n\n[4] Neurodevelopmental disorder with coarse facies and mild ...\nhttp://www.ncbi.nlm.nih.gov/medgen/1682403\nStolerman neurodevelopmental syndrome (NEDSST) is a highly variable disorder characterized by developmental delay, often with motor and speech delay,\n\n[5] The KDM6B mutation: Phenotype and clinical ...\nhttps://www.elsevier.es/es-revista-revista-psiquiatria-salud-mental--286-articulo-the-kdm6b-mutation-phenotype-clinical-S188898912100001X\nGenetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features.\n\n[6] Stolerman neurodevelopmental syndrome\nhttps://flybase.org/reports/FBhh0001523\nKDM6B encodes a demethylase that specifically demethylates lysine 27 of histone H3, and thus plays a key role in epigenetic processes controlling chromatin ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 21.0, female)\n  observed: Short philtrum, Thin upper lip vermilion, Increased overbite, Gingival bleeding, Upslanted palpebral fissure, Synophrys, Prominent nose, Primary microcephaly, Hypotonia, Short toe, Tapered finger, Umbilical hernia, Attached earlobe, Microtia, Delayed speech and language development, Delayed ability to walk, Gait ataxia, Aggressive behavior, Hyperactivity, Impulsivity, Frontal cortical atrophy, Broad foot, Hirsutism, Pulmonic stenosis, Chronic constipation\n  recorded ABSENT: Secondary microcephaly, Abnormality of body height\n\nP02 (age 13.0, male)\n  observed: Hypotonia, Macrocephaly, Tapered finger, Pes planus, Tall stature, Obesity, Recurrent infections, Chronic constipation, Encopresis, Attention deficit hyperactivity disorder, Impulsivity, Aggressive behavior, Delayed speech and language development, Sleep apnea, Moderate intellectual disability, Polyphagia, Autism, Moderate global developmental delay\n  recorded ABSENT: Microcephaly, Clinodactyly of the 5th finger, Pes valgus, Failure to thrive, Postnatal growth retardation, Heart murmur, Pyloric stenosis, Feeding difficulties, Macrotia, Low-set ears, Hearing impairment, Hypertelorism, Esotropia, Exotropia, Hypometric saccades, Bilateral ptosis, Hypermetropia, Delayed ability to walk, Vesicoureteral reflux, Hydronephrosis, Urinary urgency, Long face, Deep philtrum, Diastema, Narrow forehead (+1 more)\n\nP03 (age 17.0, female)\n  observed: Absent speech, Severe global developmental delay, Motor stereotypy, Polyphagia, Self-injurious behavior, Thick lower lip vermilion, Thick eyebrow, Wide nose, Hypertrichosis, Clinodactyly of the 5th finger, Thoracolumbar kyphosis, Hypotonia\n  recorded ABSENT: Ptosis, Neonatal respiratory distress, Conductive hearing impairment, Sensorineural hearing impairment, Extrapyramidal dyskinesia, Abnormal pyramidal sign, Autistic behavior, Obsessive-compulsive trait, Aggressive behavior, Hyperactivity, Frequent temper tantrums, Inflexible adherence to routines, Sleep disturbance, Mania, Anxiety, Dystonia, Hyperkinetic movements, Sparse scalp hair, Thin upper lip vermilion, High palate, Long eyelashes, Anteverted nares, Bulbous nose, Recurrent infections, Feeding difficulties (+9 more)\n\nP04 (age 12.4, male)\n  observed: Premature birth, Congenital nystagmus, Delayed ability to walk, Delayed fine motor development, Delayed speech and language development, Attention deficit hyperactivity disorder, Inguinal hernia, Cryptorchidism, Moderate intellectual disability, Mesocardia, Hydronephrosis, Hypoplasia of the corpus callosum, Upslanted palpebral fissure, Epicanthus, Long face, Smooth philtrum, Long nose, Low hanging columella, Synophrys, Turricephaly, Postaxial polydactyly\n  recorded ABSENT: Hyperparathyroidism, Parathyroid adenoma, Melanocytic nevus, Cafe-au-lait spot, Feeding difficulties, Vomiting, Gastroparesis, Rectal prolapse, Esophagitis, Pyloric stenosis, Dysphagia, Delayed puberty, Polyhydramnios, Oligohydramnios, Large for gestational age, Caesarean section, Conductive hearing impairment, Sensorineural hearing impairment, Optic nerve hypoplasia, Strabismus, Hypermetropia, Retinal detachment, Astigmatism, Myopia, Visual impairment (+144 more)\n\nP05 (age 16.5, female)\n  observed: High anterior hairline, Persistence of primary teeth, High palate, Narrow mouth, Preauricular skin tag, Midface retrusion, Limbal dermoid, Underdeveloped nasal alae, Microretrognathia, Short distal phalanx of finger, Esodeviation, Abnormal tragus morphology, Hearing impairment, Delayed speech and language development, Delayed ability to walk, Moderate intellectual disability, Short stature, Tetralogy of Fallot, Capillary hemangioma\n  recorded ABSENT: Palpebral edema, Widow's peak, Myopathic facies, Abnormal facial shape, Unilateral cleft lip, Cleft palate, Frontal bossing, Narrow forehead, Prominent forehead, Preauricular pit, Downslanted palpebral fissures, Synophrys, Sparse eyebrow, Anteverted nares, Narrow naris, Depressed nasal bridge, Wide nasal bridge, Short nose, Thick nasal alae, Bulbous nose, Low hanging columella, Prominent supraorbital ridges, Secondary microcephaly, Primary microcephaly, Brachycephaly (+40 more)\n\nP06 (age 7.0, male)\n  observed: Feeding difficulties, Global developmental delay, Mild intellectual disability, Delayed speech and language development, Short palpebral fissure, Intrauterine growth retardation, Pes planus\n  recorded ABSENT: Severe intellectual disability, Moderate intellectual disability, Delayed gross motor development, Autistic behavior, Hypotonia, Staring gaze, Seizure, Arachnoid cyst, Enlarged cisterna magna, Delayed CNS myelination, Thin corpus callosum, Cavum septum pellucidum, Conductive hearing impairment, Sensorineural hearing impairment, Clinodactyly, Brachydactyly, Syndactyly, Deeply set eye, Epicanthus, Hooded eyelid, Upslanted palpebral fissure, Downslanted palpebral fissures, Hypertelorism, Ptosis, Micrognathia (+73 more)\n\nP07 (age 8.7, female)\n  observed: Joint hypermobility, Delayed ability to walk, Delayed speech and language development, Intellectual disability, Autistic behavior, Pes planus\n  recorded ABSENT: Cleft lip, Cleft palate, Syndactyly, Spasticity, Strabismus, Recurrent otitis media, Hearing impairment, Seizure, Sleep disturbance, Psychosis, Tip-toe gait, Dystonia, Short stature, Hyperextensible skin, Patent ductus arteriosus, Pulmonic stenosis, Ventricular septal defect, Secundum atrial septal defect, Constipation\n\nP08 (age None, male)\n  observed: Telecanthus, Short neck, Hypertelorism, Ptosis, Posteriorly rotated ears, Mixed hearing impairment, Single umbilical artery, Neonatal respiratory distress, Delayed ability to walk, Delayed speech and language development, Mild intellectual disability, Dysphagia, Oral aversion, Gastroesophageal reflux, Feeding difficulties, Short stature, Persistent left superior vena cava, Patent ductus arteriosus, Pectus carinatum\n  recorded ABSENT: Craniosynostosis, Brushfield spots, Optic disc coloboma, Astigmatism, Optic disc pallor, Optic atrophy, Nystagmus, Strabismus, Visual impairment, Hypermetropia, Myopia, Seizure, Hydrocephalus, Vascular dilatation, Precocious atherosclerosis, Anomalous origin of right coronary artery from the pulmonary artery, Aberrant right subclavian artery, Ventricular septal defect, Bicuspid aortic valve, Atrioventricular canal defect, Atrial septal defect\n\nP09 (age 3.4, female)\n  observed: Unilateral renal agenesis, Atrial septal defect, Hypertelorism, Strabismus, Delayed ability to walk, Absent speech, Severe intellectual disability, Lower limb muscle weakness, Hypotonia\n  recorded ABSENT: Absent crus of helix, Overfolded helix, Renal cortical cysts, Retrognathia, Deep philtrum, Exaggerated cupid's bow, Everted lower lip vermilion, Thin vermilion border, Thick vermilion border, Narrow mouth, Open mouth, Broad forehead, Narrow forehead, High forehead, Highly arched eyebrow, Synophrys, Upslanted palpebral fissure, Short palpebral fissure, Epicanthus, Wide nasal bridge, Depressed nasal bridge, Anteverted nares, Round face, Facial asymmetry, Long face (+12 more)\n\nP10 (age 0.6, female)\n  observed: Echolalia, Intellectual disability, Anxiety, Autism, Motor delay, Drooling\n  recorded ABSENT: Short stature, Sacral dimple, Dermal translucency, Slender finger, Pes planus, Retrognathia, Abnormal calvaria morphology, Abnormal fontanelle morphology, Macrocephaly, Microcephaly, Pectus excavatum, Inguinal hernia, Anteverted ears, Posteriorly rotated ears, Low-set ears, Macular hypoplasia, Microphthalmia, Hypotelorism, Deeply set eye, Strabismus, Wide intermamillary distance, Inverted nipples, Long face, Triangular face, Downturned corners of mouth (+9 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P04",
+     "probability": 0.35,
+     "for": "Demonstrates characteristic neurodevelopmental abnormalities highlighted in the evidence, specifically both delayed speech and language development and motor delay (delayed ability to walk), accompanied by prominent dysmorphic features (long face, long nose, low hanging columella, synophrys).",
+     "against": "Displays complex structural anomalies including postaxial polydactyly, mesocardia, and hydronephrosis, which are not described in the provided text."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.3,
+     "for": "Features both speech-language delay and motor delay (delayed ability to walk) along with multiple dysmorphic facial characteristics (prominent nose, synophrys, short philtrum, thin upper lip vermilion).",
+     "against": "Presents with primary microcephaly, microtia, and pulmonic stenosis, which are not detailed in the brief disease summary."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.15,
+     "for": "Matches the core profile of neurodevelopmental delays with both delayed speech and language development and delayed walking, along with multiple dysmorphic facial features.",
+     "against": "Has significant structural defects such as Tetralogy of Fallot and a limbal dermoid not mentioned in the provided literature."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.1,
+     "for": "Displays developmental delay with both delayed speech and language development and delayed motor milestones (ability to walk), fitting the general neurodevelopmental presentation.",
+     "against": "Lacks the dysmorphic facial features described as characteristic of Stolerman neurodevelopmental syndrome."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.05,
+     "for": "Exhibits neurodevelopmental disorder features including global developmental delay and delayed speech and language development.",
+     "against": "Motor delay is contradicted by a recorded absence of delayed ability to walk, and numerous dysmorphic facial features are explicitly recorded as absent."
+    }
+   ],
+   "what_the_report_lacked": "The provided evidence contained only high-level summary snippets citing general developmental delay (motor and speech) and dysmorphic features, but completely lacked specific phenotypic frequencies, detailed facial gestalt characteristics, systemic organ manifestations, or neuroimaging findings needed to definitively differentiate among neurodevelopmental conditions.",
+   "tokens_in": 2559,
+   "tokens_out": 3906,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.55,
+     "for": "Demonstrates core neurodevelopmental abnormalities highlighted in the report, including both delayed speech and language development and motor delay (delayed ability to walk), alongside dysmorphic features characteristic of coarse facies (synophrys, prominent nose, hirsutism).",
+     "against": "Presents with primary microcephaly, pulmonic stenosis, and gait ataxia, and does not have explicitly staged mild intellectual disability as suggested by the disease title."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.2,
+     "for": "Exhibits global developmental delay, delayed speech and language development, and mild intellectual disability, exactly reflecting the disorder's descriptor in the report.",
+     "against": "Delayed gross motor development is recorded as absent (despite the report noting motor delay is often present), and the patient lacks coarse facies or notable dysmorphism."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.12,
+     "for": "Presents with mild intellectual disability, delayed speech and language development, motor delay (delayed ability to walk), and multiple dysmorphic features.",
+     "against": "Has significant congenital heart defects (persistent left superior vena cava, patent ductus arteriosus) and mixed hearing impairment that are not noted in the provided evidence."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.08,
+     "for": "Displays both motor delay (delayed ability to walk) and speech delay, neurodevelopmental involvement (ADHD), and multiple dysmorphic facial traits.",
+     "against": "Features moderate rather than mild intellectual disability, as well as complex malformations (postaxial polydactyly, mesocardia, hydronephrosis) not described in the report."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.05,
+     "for": "Shows speech and language delay, developmental delay, and behavioral/neurodevelopmental features (ADHD, impulsivity, aggressive behavior, autism).",
+     "against": "Delayed ability to walk is recorded as absent, intellectual disability is moderate rather than mild, and the patient exhibits an overgrowth phenotype (tall stature, macrocephaly) not referenced in the text."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked granular descriptions of the dysmorphic/coarse facial features, specific behavioral and neurological profiles, expected growth trajectories (e.g., macrocephaly vs. microcephaly, stature), and guidance on whether systemic involvement (such as cardiac, renal, or limb anomalies) can occur.",
+   "tokens_in": 2559,
+   "tokens_out": 11509,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.38,
+     "for": "Exhibits both delayed ability to walk (motor delay) and delayed speech and language development, directly fulfilling the cardinal neurodevelopmental features specified in the report.",
+     "against": "Lacks documentation of coarse facies or distinct dysmorphic features mentioned in the report."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.32,
+     "for": "Displays marked neurodevelopmental abnormalities including speech-language delay, moderate global developmental delay, intellectual disability, and behavioral features consistent with a variable neurodevelopmental disorder.",
+     "against": "Explicitly records the absence of delayed ability to walk, which argues against the report's note that motor delay often accompanies speech delay."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.14,
+     "for": "Presents with thick lower lip vermilion, wide nose, thick eyebrows, and hypertrichosis matching the coarse facies and dysmorphic features noted in the report.",
+     "against": "Has severe global delay and completely absent speech rather than the more typical speech-language delay described in the text."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.1,
+     "for": "Demonstrates both motor delay (delayed walking) and delayed speech and language development accompanied by dysmorphic features and behavioral symptoms.",
+     "against": "Shows severe congenital anomalies such as primary microcephaly, microtia, and pulmonic stenosis that are not indicated in the report."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.06,
+     "for": "Presents with documented motor delay (delayed walking and fine motor development) alongside delayed speech and language development.",
+     "against": "Exhibits complex malformations including postaxial polydactyly, turricephaly, mesocardia, and corpus callosum hypoplasia that go unmentioned in the evidence."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical characterization, including specific dysmorphic features that define the coarse facies, typical growth trajectories (e.g., presence of macrocephaly, microcephaly, or overgrowth), and frequencies of systemic or behavioral complications.",
+   "tokens_in": 2559,
+   "tokens_out": 9395,
+   "round": 3
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+  "knowledge": "Neuronopathy, distal hereditary motor, autosomal dominant 11 (dHMN11; OMIM #620528) is a rare adult- or juvenile-onset lower motor neuron disorder caused by heterozygous variants in the SPTAN1 gene (encoding alpha-II-spectrin). Historically, SPTAN1 mutations were linked primarily to severe early infantile epileptic encephalopathy (DEE5/EIEE5) with hypomyelination, microcephaly, and intractable seizures, typically due to C-terminal in-frame mutations disrupting spectrin heterodimerization. In contrast, variants causing dHMN11 typically present as a length-dependent, pure or predominantly motor axonal neuropathy characterized by distal limb muscle weakness and wasting (predominantly in the lower limbs, progressing to hands/forearms), reduced or absent deep tendon reflexes, foot deformities (pes cavus, hammer toes), and normal or largely preserved sensory nerve action potentials (SNAPs) on electrophysiology. Pure dHMN phenotypes cannot be reliably separated from other dHMN subtypes (e.g., HSPB1, HSPB8, GARS1, BSCL2, SLC5A7) on clinical exam alone, making molecular testing essential, though distinguishing it from CMT2 requires confirming the absence of prominent sensory loss, and distinguishing it from DEE5 requires noting the complete absence of intellectual disability and epilepsy.",
+  "prior_hypothesis": "A clinical diagnosis of dHMN11 (SPTAN1-related dHMN) cannot be established by phenotype alone in isolation from molecular genetics; however, within a cohort of hereditary peripheral neuropathies, an affected individual can be enriched/prioritized by: (1) an autosomal dominant inheritance pattern; (2) adolescent-to-adult onset slowly progressive distal lower limb weakness and amyotrophy with bilateral foot drop and pes cavus; (3) absence of sensory loss on bedside sensory testing and normal/preserved sensory nerve action potentials (SNAPs) on electrodiagnostic testing; and (4) absence of central nervous system involvement (no epilepsy, normal cognitive function, absence of spasticity or brisk hyperreflexia), which strictly differentiates dHMN11 from both CMT2 and severe SPTAN1-related neurodevelopmental encephalopathy.",
+  "candidate_answers": [
+    {
+      "answer": "Bilateral distal lower limb weakness and amyotrophy (HP:0009027 / HP:0008944) presenting with bilateral foot drop is present in nearly 100% of symptomatic adult individuals with dHMN11 (approx. >90% across reported pedigrees), typically beginning in the peroneal distribution before spreading to intrinsic foot muscles and eventually distal upper limbs.",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotypes and frequency"
+    },
+    {
+      "answer": "Preservation of sensory nerve action potentials (SNAPs) with reduced compound muscle action potentials (CMAPs) and normal motor nerve conduction velocities on electromyography/nerve conduction studies (HP:0003444, abnormal motor nerve conduction with HP:0000107 / HP:0003474 absence of sensory neuropathy) is the most discriminating electrophysiological feature separating dHMN11 from Charcot-Marie-Tooth disease type 2 (CMT2).",
+      "confidence": 0.88,
+      "aspect": "Discriminating features vs mimics"
+    },
+    {
+      "answer": "Intractable seizures/epilepsy (HP:0001250) and intellectual disability / global developmental delay (HP:0001249 / HP:0001263) are consistently absent in dHMN11 kindreds; their presence points instead to early infantile epileptic encephalopathy 5 (DEE5/EIEE5, OMIM #613477) or other complex SPTAN1 syndromes.",
+      "confidence": 0.92,
+      "aspect": "Pertinent negatives and exclusionary findings"
+    },
+    {
+      "answer": "Prominent objective sensory loss (e.g., loss of pinprick, temperature, and vibration sensation in a stocking-glove distribution) is absent in classical dHMN11; if clinically prominent sensory deficit is documented, the disorder is classified as axonal Charcot-Marie-Tooth disease (CMT2) rather than dHMN.",
+      "confidence": 0.85,
+      "aspect": "Pertinent negatives"
+    },
+    {
+      "answer": "Genotype-phenotype correlation exists: dHMN11 is caused by specific heterozygous missense or mild structural variants in non-critical domains or distinct spectrin repeat regions of SPTAN1, whereas de novo in-frame deletions or duplications in the alpha/beta-spectrin dimerization domain (repeats 21-22 / EF-hand regions) cause severe neonatal epileptic encephalopathy with structural brain abnormalities.",
+      "confidence": 0.8,
+      "aspect": "Genotype and variant correlations"
+    }
+  ],
+  "key_terms": [
+    "SPTAN1",
+    "dHMN11",
+    "Distal hereditary motor neuropathy type 11",
+    "Charcot-Marie-Tooth disease type 2 (CMT2)",
+    "Compound muscle action potential (CMAP)",
+    "Sensory nerve action potential (SNAP)",
+    "Pes cavus",
+    "DEE5 / EIEE5"
+  ],
+  "open_questions": [
+    "What are the exact published cohorts describing dHMN11, their respective PMIDs, and the exact reported numerators and denominators for each specific sign (e.g., pes cavus, hand tremor, reflex status)?",
+    "Do any dHMN11 families display subclinical subcortical or sensory abnormalities (e.g., abnormal sensory evoked potentials or subtle SNAP reductions) on detailed electrophysiology that blur the boundary between dHMN and CMT2?",
+    "Are there any documented upper motor neuron signs (e.g., extensor plantar responses or hyperreflexia) reported in a subset of dHMN11 cases, mimicking hereditary spastic paraplegia or amyotrophic lateral sclerosis?",
+    "What specific amino acid residues and domains in alpha-II-spectrin harbor dHMN11-causing mutations compared to those causing epilepsy/encephalopathy?"
+  ],
+  "assumptions": [
+    "The diagnosis dHMN11 strictly refers to the autosomal dominant lower motor neuropathy associated with heterozygous SPTAN1 variants (OMIM #620528), distinct from autosomal dominant or recessive epileptic encephalopathies caused by SPTAN1.",
+    "The clinical criteria defining dHMN require normal or near-normal sensory nerve conduction studies, meaning significant sensory loss disqualifies a pure dHMN diagnosis by definition.",
+    "Cohort-level quantitative frequencies and PMIDs must be retrieved from specific primary papers (such as those describing the initial disease gene association for OMIM #620528) to satisfy the rigorous evidentiary standard."
+  ]
+}

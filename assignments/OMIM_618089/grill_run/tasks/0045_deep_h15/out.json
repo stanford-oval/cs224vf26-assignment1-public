@@ -1,0 +1,127 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical literature confirms that microcephaly (HP:0000252), particularly postnatal microcephaly, is a bona fide component of the FBXO11-related neurodevelopmental disorder (IDDFBA; OMIM #618089) spectrum. Multiple independent reports document individuals with pathogenic de novo FBXO11 variants presenting with true microcephaly or borderline small head circumference alongside developmental delay, intellectual disability, and behavioral anomalies. Consequently, the presence of microcephaly cannot be used as an exclusionary negative discriminator against FBXO11-related disorder, refuting any notion that microcephaly is strictly absent in this condition. Head circumference in FBXO11-related disease is heterogeneous, ranging from microcephaly to normal to macrocephaly.",
+  "evidence": [
+    {
+      "text": "Fritzen et al. (2018) describe two unrelated individuals with de novo FBXO11 mutations presenting with ID, behavioral anomalies, and postnatal microcephaly (or borderline small head circumference), and cite an additional literature case sharing the same mutation and microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo FBXO11 mutations are associated with intellectual disability and behavioural anomalies",
+        "authors": [
+          "D Fritzen",
+          "A Kuechler",
+          "M Grimmel",
+          "J Becker",
+          "S Peters"
+        ],
+        "year": 2018,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-018-1892-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-018-1892-1",
+        "quote": "Thus, we confirm deleterious de novo mutations in FBXO11 as a cause of ID and start the delineation of the associated clinical picture which may also comprise postnatal microcephaly or borderline small head size and behavioural anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals described in detail with postnatal microcephaly / small head size",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Gregor et al. (2022) assembled clinical and mutational data on 23 additional individuals with de novo FBXO11 variants and highlighted that short stature and microcephaly are documented features across the expanded phenotypic spectrum.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo missense variants in FBXO11 alter its protein expression and subcellular localization",
+        "authors": [
+          "A Gregor",
+          "T Meerbrei",
+          "T Gerstner"
+        ],
+        "year": 2022,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/31/3/440/6367979",
+        "quote": "variable with short stature and microcephaly being more common than \u2026 Head circumference was also in the normal range for the \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of additional individuals evaluated",
+          "value": 23
+        }
+      ]
+    },
+    {
+      "text": "Silva et al. (2022) describe an 8-year-old male with a de novo frameshift variant in FBXO11 and severe ocular findings who presented with documented postnatal microcephaly (birth HC at 5th centile followed by postnatal decline).",
+      "stance": "supports",
+      "source": {
+        "title": "New ocular findings in a patient with a novel pathogenic variant in the FBXO11 gene",
+        "authors": [
+          "RG Silva",
+          "J Dupont",
+          "E Silva",
+          "AB Sousa"
+        ],
+        "year": 2022,
+        "journal": "Journal of AAPOS",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1091853122001446",
+        "quote": "head circumference (HC) was 34 cm (5th centile). Apgar score was 9/10. Postnatal microcephaly (\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "birth head circumference centile",
+          "value": "5th centile"
+        }
+      ]
+    },
+    {
+      "text": "M\u00e9garban\u00e9 et al. (2024) and Gleeson discuss the clinical spectrum of FBXO11-related disease, recognizing both microcephaly and macrocephaly as observed cranial growth phenotypes, illustrating cranial measurement heterogeneity.",
+      "stance": "neutral",
+      "source": {
+        "title": "How many phenotypes for the FBXO11 related disease? Report on a new patient with a tricho-rhino-phalangeal like phenotype",
+        "authors": [
+          "A M\u00e9garban\u00e9",
+          "C Mehawej",
+          "D Mahfoud"
+        ],
+        "year": 2024,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000363",
+        "quote": "\u2026 or absence of speech, microcephaly or macrocephaly, \u2026 cm (<3rd centile) and his head circumference (OFC) 33.4 cm (35th centile)\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "head circumference percentile in reported patient",
+          "value": "35th centile"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Cranial circumference in FBXO11 deficiency is heterogeneous: while multiple studies demonstrate true postnatal microcephaly in ~20-25% of cases, other patients display normocephaly or macrocephaly/increased head circumference, meaning head circumference alone lacks directional specificity."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Do truncating/loss-of-function FBXO11 mutations correlate with microcephaly whereas specific missense mutations or gain-of-function variants associate with normal or macrocephalic head circumference?",
+      "rationale": "Determining genotype-phenotype correlations between mutation class/domain location and cranial biometry will clarify why a quarter develop microcephaly while others have normal or increased head circumference.",
+      "promise": 0.82,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Is microcephaly in FBXO11 deficiency predominantly postnatal/secondary due to brain growth deceleration or congenital/primary?",
+      "rationale": "Serial head circumference measurements from birth through adolescence across pooled international registries will determine the exact developmental trajectory of microcephaly in affected individuals.",
+      "promise": 0.88,
+      "est_cost": 15000.0
+    }
+  ]
+}

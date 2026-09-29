@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"MAPK8IP3\" \"spasticity\" \"intellectual disability\" \"cerebellar\"",
+    "MAPK8IP3 clinical phenotype spastic paraplegia differential diagnosis"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.mdpi.com/2076-3425/11/2/152",
+      "title": "Lysosome function and dysfunction in hereditary spastic paraplegias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2076-3425/11/2/152",
+      "abstract_chars": 1223
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "abstract_chars": 1362
+    },
+    {
+      "id": "https://pdfs.semanticscholar.org/4681/9bb01e7279f2fcf6f25e05ca9662ee6c1373.pdf",
+      "title": "Lysosome Function and Dysfunction in Hereditary Spastic Paraplegias. Brain Sci. 2021, 11, 152",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pdfs.semanticscholar.org/4681/9bb01e7279f2fcf6f25e05ca9662ee6c1373.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+      "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+      "abstract_chars": 2022
+    },
+    {
+      "id": "37462082",
+      "title": "Compound heterozygous variants in MAPK8IP3 were detected in severe congenital hypotonia mimicking lethal spinal muscular atrophy",
+      "pmid": "37462082",
+      "doi": "10.1002/ajmg.a.63340",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63340",
+      "abstract_chars": 866
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/72/gene/MAPK8IP3/",
+      "title": "Gene: MAPK8IP3 (Cerebellar and Pontocerebellar ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/72/gene/MAPK8IP3/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/568/gene/MAPK8IP3/",
+      "title": "MAPK8IP3 (Hereditary spastic paraplegia, childhood onset)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/568/gene/MAPK8IP3/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/ana.25481",
+      "title": "Recurrent de novo MAPK8IP3 variants cause neurological phenotypes",
+      "pmid": null,
+      "doi": "10.1002/ana.25481",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25481",
+      "abstract_chars": 806
+    },
+    {
+      "id": "34321325",
+      "title": "Diagnostic yield of chromosomal microarray and trio whole exome sequencing in cryptogenic cerebral palsy",
+      "pmid": "34321325",
+      "doi": "10.1136/jmedgenet-2021-107884",
+      "url": "https://jmg.bmj.com/content/59/8/759.abstract",
+      "abstract_chars": 1733
+    },
+    {
+      "id": "42372486",
+      "title": "Trio analysis in dystonia identifies de novo KLC1 variants in a kinesinopathy with distinct motor and neurodevelopmental features",
+      "pmid": "42372486",
+      "doi": "10.1016/j.ebiom.2026.106358",
+      "url": "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(26)00241-0/fulltext",
+      "abstract_chars": 2349
+    }
+  ],
+  "input_tokens": 5444,
+  "output_tokens": 953,
+  "usd": 0.00558,
+  "seconds": 11.2,
+  "ok": true
+}

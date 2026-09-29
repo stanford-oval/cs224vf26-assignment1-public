@@ -1,0 +1,108 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature on GTF3C3-related neurodevelopmental disorder (OMIM #621201) presents conflicting perspectives regarding the facial dysmorphisms and phenotypic distinctiveness. While the hypothesis claims that facial dysmorphisms are variable and non-pathognomonic, preventing discrimination based on dysmorphology alone, primary clinical descriptions from Abdel-Hamid et al. (2025) report that affected individuals exhibited 'distinctive dysmorphic facies that appear recognizable in very young children', contradicting the premise that they are non-discriminating. However, the study also notes that many clinical characteristics are shared with other Pol III / transcription factor complex-related disorders (e.g., GTF3C5), creating genuine clinical ambiguity and supporting the hypothesis that dysmorphic facies overlap significantly with related neurodevelopmental syndromes. Therefore, the hypothesis is classified as conflicted.",
+  "evidence": [
+    {
+      "text": "Four patients with biallelic GTF3C3 variants from three unrelated families exhibited microcephaly, developmental delay, intellectual disability, and distinctive dysmorphic facies that appear recognizable in very young children. Brain imaging revealed brain atrophy with predominant cerebellar involvement and frontal lobe hypoplasia, while seizures occurred in half of the patients.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "The patients exhibited microcephaly, developmental delay, intellectual disability and distinctive dysmorphic facies that appear recognizable in very young children."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in cohort",
+          "value": 4
+        },
+        {
+          "metric": "unrelated families",
+          "value": 3
+        },
+        {
+          "metric": "patients with seizures",
+          "value": "2/4 (50%)"
+        }
+      ]
+    },
+    {
+      "text": "Clinical characteristics of patients with GTF3C3 variants overlap considerably with related neurodevelopmental conditions linked to transcription factor and RNA polymerase III subunits, specifically GTF3C5, indicating significant phenotypic mimicry across TFIIIC-associated disorders.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11878552/",
+        "quote": "Many clinical characteristics are shared between those patients \u2026 GTF3C3 and GTF3C5, share many overlapping clinical"
+      },
+      "numbers": [
+        {
+          "metric": "missense variants identified",
+          "value": 3
+        },
+        {
+          "metric": "nonsense variants identified",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621201 documents neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures, referencing an expanded cohort reporting 12 patients from 7 families with neurocognitive phenotypes and pathogenic variants in GTF3C3.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #621201 - NEURODEVELOPMENTAL DISORDER WITH DYSMORPHIC FACIES, BRAIN ANOMALIES, AND SEIZURES; NEDDFBAS",
+        "authors": [],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621201?search=prefix%3A%23&highlight=None",
+        "quote": "(2025) reported 12 patients from 7 families with a neurocognitive phenotype and mutation in the GTF3C3 gene."
+      },
+      "numbers": [
+        {
+          "metric": "reported patients in OMIM entry",
+          "value": 12
+        },
+        {
+          "metric": "families",
+          "value": 7
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Abdel-Hamid et al. (2025) state that affected individuals exhibit 'distinctive dysmorphic facies that appear recognizable in very young children', directly challenging the hypothesis that facial features are variable and non-pathognomonic.",
+    "Conversely, the same literature emphasizes that clinical characteristics of GTF3C3 and GTF3C5 share extensive overlap with each other and other RNA polymerase III/TFIIIC-related syndromes, supporting the assertion that facial features alone are insufficient to reliably discriminate among overlapping entities."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Does objective 3D facial photogrammetry or automated computer vision (e.g., GestaltMatcher/Face2Gene) distinguish GTF3C3-associated facial phenotypes from GTF3C5- and Pol III-related disorders with high specificity?",
+      "rationale": "While subjective clinical evaluation notes distinctive facial gestalt in early childhood, whether machine learning tools can objectively discriminate GTF3C3 from other transcription complex syndromes remains untested.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the exact penetrance of specific neuroimaging features (such as predominant cerebellar atrophy vs. simplified gyral pattern) across the expanded 12-patient cohort, and can neuroimaging patterns serve as a more definitive discriminant than facial dysmorphology?",
+      "rationale": "Cerebellar atrophy and simplified gyral pattern were noted in primary cohorts; quantifying their exact frequency across all 12 reported individuals will clarify if neuroradiology provides better diagnostic discrimination than facial features alone.",
+      "promise": 0.8,
+      "est_cost": 18000.0
+    }
+  ]
+}

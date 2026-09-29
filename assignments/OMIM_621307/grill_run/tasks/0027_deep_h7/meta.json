@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Alsahan-Harris syndrome\" \"TBC1D32\" \"oculomotor\"",
+    "Alsahan-Harris syndrome TBC1D32 oculomotor palsy Pallister-Hall syndrome"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=722",
+      "title": "Activity - Genomics England",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=722",
+      "abstract_chars": 2047
+    },
+    {
+      "id": "https://omim.org/entry/621307",
+      "title": "Entry - #621307 - ALSAHAN-HARRIS SYNDROME; ALHAS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621307",
+      "abstract_chars": 0
+    },
+    {
+      "id": "35251807",
+      "title": "Presumptive Diagnosis of Pallister-Hall Syndrome Using ...",
+      "pmid": "35251807",
+      "doi": "10.7759/cureus.21735",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8887686/",
+      "abstract_chars": 1515
+    },
+    {
+      "id": "https://www.malacards.org/card/alsahan_harris_syndrome",
+      "title": "Alsahan-Harris Syndrome (ALHAS)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/alsahan_harris_syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.raregenomics.org/pallister-hall-syndrome",
+      "title": "Pallister-Hall Syndrome | Learn More Today",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.raregenomics.org/pallister-hall-syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://wjwch.com/pallister-hall-syndrome-a-3-year-old-girl-with-short-stature-and-polydactyly/",
+      "title": "Pallister-Hall syndrome: A 3-year-old girl with short stature ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://wjwch.com/pallister-hall-syndrome-a-3-year-old-girl-with-short-stature-and-polydactyly/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4087,
+  "output_tokens": 3395,
+  "usd": 0.01223,
+  "seconds": 20.4,
+  "ok": true
+}

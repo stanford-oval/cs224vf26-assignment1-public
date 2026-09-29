@@ -1,0 +1,92 @@
+{
+  "verdict": "refuted",
+  "rationale": "The provided literature contradicts the foundational claims of the hypothesis. Rather than an 18-proband series by Parenti et al., the published Parenti et al. (2020) study reported only a single proband with Cornelia de Lange syndrome caused by a MAU2 variant. Furthermore, that single proband explicitly manifested very early gastroesophageal reflux disease (GERD). Subsequent literature (Peng et al., 2024) similarly confirms that up to that time only a single MAU2-CdLS case had been reported worldwide by Parenti et al. No evidence in the available sources supports the existence of an 18-proband series evaluating surgical intervention rates for GI malformations or intractable GERD in MAU2-CdLS.",
+  "evidence": [
+    {
+      "text": "Parenti et al. (2020) reported a single proband with Cornelia de Lange syndrome caused by a MAU2 variant who developed very early gastroesophageal reflux disease, rather than describing an 18-individual cohort.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+        "authors": [
+          "I Parenti",
+          "F Diab",
+          "SR Gil",
+          "E Mulugeta",
+          "V Casa",
+          "R Berutti"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "quote": "At the age of two years he was diagnosed with Cornelia de Lange syndrome because of his \u2026 He developed very early gastresophageal reflux disease. Magnetic Resonance Imaging \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "proband_count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Peng et al. (2024) describe a single Chinese patient with a novel MAU2 variant and confirm that prior to their report, only one MAU2-CdLS case had been reported worldwide (Parenti et al., 2020).",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy",
+        "authors": [
+          "Y Peng",
+          "Y Zhu",
+          "L Wu",
+          "F Deng"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/mgg3.2318",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2318",
+        "quote": "Parenti et al. reported a MAU2-CdLS case and confirmed that the reported MAU2 variant can reduce the interaction NIPBL-MAU2\u2026 cystourethrography showed right ureteral reflux (I\u2013II)"
+      },
+      "numbers": [
+        {
+          "metric": "previously_reported_mau2_cdls_cases",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Ascaso et al. (2024) note MAU2 as an additional gene involved in the Cornelia de Lange spectrum alongside the observation that gastroesophageal reflux is a common feature in CdLS that should be managed early.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cornelia de Lange spectrum",
+        "authors": [
+          "\u00c1 Ascaso",
+          "M Arnedo",
+          "B Puisac"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+        "quote": "Cornelia de Lange syndrome (CdLS) is a rare congenital \u2026 of additional genes (BRD4, ANKRD11, MAU2), but the lack of \u2026 -esophageal reflux (GER), which should be treated early."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts an 18-proband series from Parenti et al. with fewer than 20% (under 4 of 18) experiencing severe GI malformations or GERD requiring surgery, whereas the actual Parenti et al. (2020) publication and independent reviews cite only 1 MAU2 proband who presented with early gastroesophageal reflux disease."
+  ],
+  "confidence": 0.05,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and severity of gastrointestinal anomalies and gastroesophageal reflux disease across an expanded international registry of confirmed MAU2 pathogenic variant carriers?",
+      "rationale": "Because only isolated case reports currently exist in the indexed literature, multi-center registry aggregation is needed to establish whether GI phenotypes discriminate MAU2-CdLS from NIPBL-associated CdLS.",
+      "promise": 0.85,
+      "est_cost": 50000
+    }
+  ]
+}

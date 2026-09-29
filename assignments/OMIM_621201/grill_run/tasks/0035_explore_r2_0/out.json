@@ -1,0 +1,158 @@
+{
+  "hypotheses": [
+    {
+      "text": "The published clinical cohort establishing OMIM #621201 comprises exactly 17 individuals worldwide across all published literature as of 2026, with Abdel et al. (2025) and L\u00f3pez et al. (2026) defining the core clinical series.",
+      "rationale": "To determine true phenotype frequencies, clinicians must establish the exact total denominator of reported cases rather than relying on overlapping pooled estimates. Clarifying the definitive literature citations defining OMIM #621201 resolves discrepancies in prevalence numbers.",
+      "aspects": [
+        "cohort size",
+        "literature curation",
+        "epidemiology"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "L\u00f3pez et al. (2026) describe a novel affected patient who is the oldest reported individual to date and conduct a comprehensive review of all 16 previously published cases, establishing a cumulative total of 17 reported individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+            "authors": [
+              "L L\u00f3pez"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.3389/fgene.2026.1860633/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+            "quote": "Biallelic variants in GTF3C3 have been recently associated with an autosomal recessive form of syndromic intellectual disability, with only 16 patients reported to date. Using whole exome sequencing, we identified previously unreported biallelic GTF3C3 variants in a new patient, who also represents the oldest reported individual so far."
+          },
+          "numbers": [
+            {
+              "metric": "previously reported patients",
+              "value": 16
+            },
+            {
+              "metric": "novel patients reported",
+              "value": 1
+            },
+            {
+              "metric": "total cohort size",
+              "value": 17
+            }
+          ]
+        },
+        {
+          "text": "Abdel et al. (2025) reported 4 patients from 3 unrelated families identified via GeneMatcher harboring biallelic GTF3C3 variants (p.Cys172Gly, p.Val427Phe, p.Ala509Thr, p.Arg717Ter).",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "Herein, we describe the identification of biallelic variants in GTF3C3, which encodes a key component of the TFIIIC subunit, in four patients from three unrelated families of different ethnicities collected through GeneMatcher."
+          },
+          "numbers": [
+            {
+              "metric": "Abdel cohort patient count",
+              "value": 4
+            },
+            {
+              "metric": "Abdel cohort family count",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cerebellar atrophy and frontal lobe hypoplasia represent the primary discriminating neuroradiological hallmark of GTF3C3-related neurodevelopmental disorder, being more sensitive than cortical malformations such as simplified gyral pattern.",
+      "rationale": "Clinicians need specific neuroimaging markers to differentiate GTF3C3-related disorder from other syndromic neurodevelopmental disorders; while cortical malformations are rare, predominant infratentorial/cerebellar and frontal atrophy may define the primary imaging signature.",
+      "aspects": [
+        "neuroimaging",
+        "discriminating features",
+        "differential diagnosis"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Brain imaging in the Abdel et al. cohort demonstrated brain atrophy with predominant cerebellar involvement and hypoplasia of frontal lobes in the patients, while moderate to severe simplified gyral pattern was restricted to only one individual (1/4, 25%).",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern. Seizures were observed in half of the patients."
+          },
+          "numbers": [
+            {
+              "metric": "simplified gyral pattern frequency in Abdel cohort",
+              "value": "1/4"
+            },
+            {
+              "metric": "seizure frequency in Abdel cohort",
+              "value": "2/4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dysmorphic facial features in GTF3C3-related disorder are recognizable primarily in infancy and early childhood but evolve or attenuate with age, confounding phenotypic identification in adolescent and adult patients.",
+      "rationale": "Abdel et al. explicitly observed that facial dysmorphisms appear recognizable in very young children, suggesting that older patients (such as the individual described by L\u00f3pez et al.) may present with less distinct facial findings.",
+      "aspects": [
+        "dysmorphic features",
+        "age-dependent phenotype",
+        "clinical recognition"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Abdel et al. reported that the distinctive dysmorphic facies associated with GTF3C3 mutations appear recognizable specifically in very young children.",
+          "stance": "supports",
+          "source": {
+            "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+            "authors": [
+              "MS Abdel"
+            ],
+            "year": 2025,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+            "quote": "The patients exhibited microcephaly, developmental delay, intellectual disability and distinctive dysmorphic facies that appear recognizable in very young children."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the individual patient-level variant details and clinical findings across the 16 cases reviewed in L\u00f3pez et al. (2026)?",
+      "rationale": "Extracting the numerator and denominator for every specific HPO finding from the full text of L\u00f3pez et al. will allow complete enumeration of all 17 cases and resolve exact phenotypic penetrance.",
+      "promise": 0.95,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "Does the adult patient described by L\u00f3pez et al. (2026) display progressive cerebellar ataxia or neurodegeneration corresponding to the cerebellar atrophy noted by Abdel et al.?",
+      "rationale": "Determining whether cerebellar involvement translates into progressive neurological signs with age will indicate whether GTF3C3 disorder is static or neurodegenerative.",
+      "promise": 0.8,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

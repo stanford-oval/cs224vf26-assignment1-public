@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620785",
+ "omim": "OMIM:620785",
+ "disease": "Neurodevelopmental disorder with progressive movement abnormalities",
+ "gene": "ACBD6",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1545,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with progressive movement abnormalities (ACBD6, OMIM:620785):\n\n[1] Entry - #620785 - NEURODEVELOPMENTAL DISORDER ...\nhttps://omim.org/entry/620785\nneurodevelopmental disorder with progressive movement abnormalities (NEDPM) is caused by homozygous mutation in the ACBD6 gene (616352) on ...\n\n[2] Bi-allelic ACBD6 variants lead to a neurodevelopmental ...\nhttps://pubmed.ncbi.nlm.nih.gov/37951597/\nbi-allelic pathogenic variants in ACBD6 lead to a distinct neurodevelopmental syndrome accompanied by complex and progressive cognitive and movement disorders.\n\n[3] Bi-allelic ACBD6 variants lead to a neurodevelopmental ...\nhttps://academic.oup.com/brain/article/147/4/1436/7407365\nby R Kaiyrzhanov \u00b7 2024 \u00b7 Cited by 27 \u2014 A neurodevelopmental syndrome with progressive movement disorders characterizes ACBD6-related disease. Despite their predicted roles in cellular lipid ...\n\n[4] ACBD6\nhttps://panelapp.genomicsengland.co.uk/panels/genes/ACBD6\nNeurodevelopmental disorder with progressive movement abnormalities, ACBD6 in Dystonia, chorea or related movement disorder,\n\n[5] Gene linked to movement disorder with Parkinson's-like ...\nhttps://parkinsonsnewstoday.com/news/gene-linked-movement-disorder-parkinsons-like-symptoms/\nResearchers have uncovered a new movement disorder with Parkinson's-like symptoms caused by mutations in the ACBD6 gene.\n\n[6] Neurodevelopmental Disorder with Progressive Movement ...\nhttps://www.malacards.org/card/neurodevelopmental_disorder_with_progressive_movement_abnormalities\nACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders.\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 6.4, male)\n  observed: Global developmental delay, Delayed speech and language development, Delayed ability to walk, Autistic behavior, Aggressive behavior, Frequent temper tantrums, Sleep disturbance, Atonic seizure, Coarse facial features, Upgaze palsy, Depressed nasal bridge, Wide nose, Everted lower lip vermilion, Thin upper lip vermilion, Ataxia, Upslanted palpebral fissure, Tremor, Stooped posture, Lower limb spasticity, Postural instability, Hypoplasia of the corpus callosum\n  recorded ABSENT: Absent speech, Self-injurious behavior, Generalized myoclonic seizure, Focal-onset seizure, Bilateral tonic-clonic seizure, Infantile spasms, Orthostatic hypotension, Urinary incontinence, Mandibular prognathia, Deeply set eye, Scoliosis, Dystonia, Upper limb spasticity, Parkinsonism, Joint hypermobility, Obstructive sleep apnea, Hypermetropia, High myopia, Pancytopenia, Small hand, Hypotonia, Visual impairment, Obesity, Cleft palate, Hypospadias (+28 more)\n\nP02 (age 7.0, male)\n  observed: Thin corpus callosum, Global developmental delay, Axial hypotonia, Appendicular hypotonia, Failure to thrive, Mandibular prognathia\n  recorded ABSENT: Gray matter heterotopia, Short corpus callosum, Chorea, Seizure, Microcephaly, Macrotia, Small for gestational age, Absent speech, Developmental regression, Hearing impairment, Visual impairment, Anteverted nares, Long eyelashes, Protruding ear, Wide nasal bridge, Synophrys, Scarring, Retrognathia, Preauricular skin tag\n\nP03 (age None, female)\n  observed: Intellectual disability, Delayed gross motor development, Bowing of the legs, Delayed speech and language development, Delayed fine motor development, Seizure\n  recorded ABSENT: Joint stiffness, Hearing impairment, Developmental regression, Skeletal muscle atrophy\n\nP04 (age 9.5, female)\n  observed: Visual impairment, High myopia, Protruding tongue, Midface retrusion, Upslanted palpebral fissure, Intellectual disability, Global developmental delay, Hydrocephalus, Villous hypertrophy of choroid plexus\n  recorded ABSENT: Ptosis, Microcephaly, Brachycephaly, Broad philtrum, Short philtrum, Long philtrum, Thick upper lip vermilion, Thin upper lip vermilion, Thick lower lip vermilion, Cleft palate, Wide mouth, Long eyelashes, Thick eyebrow, Wide nasal bridge, Narrow nasal bridge, Depressed nasal bridge, Wide nose, Anteverted nares, Coarse facial features, Sparse scalp hair, Hypertrichosis, Aortic aneurysm, Patent ductus arteriosus, Pulmonic stenosis, Dextrocardia (+4 more)\n\nP05 (age 4.0, female)\n  observed: Microcephaly, Smooth philtrum, Thin upper lip vermilion, Synophrys, Horizontal eyebrow, Autistic behavior, Tongue thrusting, Happy demeanor, Intellectual disability, Absent speech, Global developmental delay, Unsteady gait, Gastroesophageal reflux, Hypotonia, Hypertonia\n  recorded ABSENT: Strabismus, Hypoplastic labia majora, Flat occiput, Mandibular prognathia, Thick vermilion border, Widely spaced teeth, Narrow palate, Downturned corners of mouth, Epicanthus, Upslanted palpebral fissure, Narrow palpebral fissure, Thick eyebrow, Highly arched eyebrow, Depressed nasal bridge, Bulbous nose, Long face, Cleft helix, Bilateral tonic-clonic seizure, Generalized non-motor (absence) seizure, Focal impaired awareness seizure, Infantile spasms, Spasticity, Ataxia, Loss of ambulation, Cerebral cortical atrophy (+3 more)\n\nP06 (age 15.0, male)\n  observed: Febrile seizure (within the age range of 3 months to 6 years), Bilateral tonic-clonic seizure, Myoclonic seizure, Global developmental delay, Delayed gross motor development, Intellectual disability, CNS demyelination\n  recorded ABSENT: Bilateral tonic-clonic seizure with focal onset, Atonic seizure, Generalized non-motor (absence) seizure, Focal impaired awareness seizure, Focal aware seizure, Focal motor seizure, Tonic seizure, Diffuse cerebral atrophy, Thin corpus callosum, Hippocampal sclerosis, Delayed CNS myelination\n\nP07 (age 10.0, male)\n  observed: Posterior plagiocephaly, Hypomimic face, Drooling, Everted lower lip vermilion, Widely spaced teeth, Wide mouth, Open mouth, Sparse eyebrow, Global developmental delay, Delayed ability to walk, Absent speech, Intellectual disability, Bilateral tonic-clonic seizure with focal onset, Status epilepticus, Febrile seizure (within the age range of 3 months to 6 years), Parkinsonism, Tremor, Gait ataxia, Autistic behavior, Motor stereotypy, Abnormal social development, Sleep disturbance, Restlessness, Broad-based gait, Generalized hypotonia\n  recorded ABSENT: Microcephaly, Febrile status epilepticus, Epileptic spasm, Tonic seizure, Generalized-onset seizure, Short stature, Decreased body weight\n\nP08 (age 2.0, male)\n  observed: Obsessive-compulsive trait, Aggressive behavior, Hyperactivity, Inflexible adherence to routines, Self-injurious behavior, Anxiety, Micrognathia, Dolichocephaly, Wide nose, Clinodactyly of the 5th finger, Joint hypermobility, Hypotonia, Pes planus\n  recorded ABSENT: Ptosis, Neonatal respiratory distress, Conductive hearing impairment, Sensorineural hearing impairment, Delayed speech and language development, Extrapyramidal dyskinesia, Abnormal pyramidal sign, Autistic behavior, Motor stereotypy, Attention deficit hyperactivity disorder, Frequent temper tantrums, Polyphagia, Sleep disturbance, Mania, Dystonia, Hyperkinetic movements, Macrocephaly, Sparse scalp hair, Thin upper lip vermilion, Thick lower lip vermilion, High palate, Long eyelashes, Thick eyebrow, Anteverted nares, Bulbous nose (+14 more)\n\nP09 (age 7.0, male)\n  observed: Motor delay, Low-set ears, Protruding ear, Short philtrum, Tented upper lip vermilion, Hypotonia, Hyperactivity, Feeding difficulties, Absent speech, Global developmental delay, Severe intellectual disability, Autistic behavior, Retrognathia\n  recorded ABSENT: Short stature, Decreased body weight, Microcephaly, Abnormal cortical gyration, Agenesis of corpus callosum, Hypoplasia of the corpus callosum, Hydronephrosis, Colpocephaly, Anal atresia, Cryptorchidism, Hypospadias, Anteverted ears, Stenosis of the external auditory canal, Broad inferior crus of antihelix, Linear earlobe crease, Microtia, Dental crowding, Cleft palate, High palate, Smooth philtrum, Thick vermilion border, Oligohydramnios, Polyhydramnios, Seizure, Fine hair (+13 more)\n\nP10 (age 1.7, female)\n  observed: Myopia, Astigmatism, Microcephaly, Delayed CNS myelination, Delayed gross motor development, Delayed speech and language development\n  recorded ABSENT: Seizure, Autistic behavior\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.85,
+     "for": "Demonstrates cardinal features of ACBD6-related disease, including parkinsonism, tremor, gait ataxia, hypomimic face, global developmental delay, intellectual disability, seizures, drooling, and sleep disturbance.",
+     "against": "Lacks reported dystonia or chorea, and has some non-specific dysmorphic features such as posterior plagiocephaly and widely spaced teeth."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.1,
+     "for": "Presents with a neurodevelopmental phenotype with movement abnormalities including tremor, ataxia, stooped posture, postural instability, lower limb spasticity, and seizures.",
+     "against": "Parkinsonism and dystonia are explicitly recorded as absent, which argues strongly against classic ACBD6-related progressive movement disorder."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Presents with neurodevelopmental delay, intellectual disability, and seizure manifestations.",
+     "against": "Lacks any progressive movement disorders, parkinsonian features, ataxia, or dystonia."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.015,
+     "for": "Features global developmental delay, intellectual disability, unsteady gait, and hypertonia.",
+     "against": "Ataxia and spasticity are explicitly absent, and the overall clinical picture resembles an Angelman-like presentation."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.01,
+     "for": "Shows global developmental delay and corpus callosum involvement (thin corpus callosum).",
+     "against": "Absence of chorea and seizures, and no documented progressive movement disorder or extrapyramidal signs."
+    }
+   ],
+   "what_the_report_lacked": "Specific age-of-onset details and longitudinal clinical progression of motor and extrapyramidal deterioration (e.g., onset of dystonia or parkinsonian decline), as well as targeted neuroimaging descriptions (such as basal ganglia or cerebral atrophy).",
+   "tokens_in": 2177,
+   "tokens_out": 1577,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.85,
+     "for": "Matches the core hallmark of ACBD6 deficiency displaying a neurodevelopmental syndrome with progressive Parkinson's-like movement abnormalities, including parkinsonism, tremor, hypomimic face, and gait ataxia.",
+     "against": "Presents with status epilepticus and seizures, which are not highlighted in the brief disease overview."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.1,
+     "for": "Features prominent movement and posture abnormalities consistent with a complex movement disorder, including ataxia, tremor, stooped posture, and postural instability alongside developmental delays.",
+     "against": "Parkinsonism and dystonia are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Demonstrates global developmental delay, intellectual disability, and unsteady gait.",
+     "against": "Ataxia and spasticity are explicitly recorded as absent, and lacks progressive Parkinsonian or complex extrapyramidal movement disorders."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.015,
+     "for": "Exhibits global developmental delay and intellectual disability with central nervous system involvement.",
+     "against": "Lacks any reported movement abnormalities, dystonia, tremor, or parkinsonism characteristic of ACBD6-related disease."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.015,
+     "for": "Shows global developmental delay and hypotonia.",
+     "against": "Chorea is recorded as absent, and the patient lacks any signs of progressive movement disorders or parkinsonism."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical summaries detailing the specific spectrum and progression of extrapyramidal features (e.g., dystonia, chorea, parkinsonism), neuroimaging findings, and the prevalence of seizures in ACBD6-related disease.",
+   "tokens_in": 2177,
+   "tokens_out": 1638,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.85,
+     "for": "Demonstrates severe global developmental delay and intellectual disability alongside prominent progressive movement abnormalities highlighted in the report, including parkinsonism, hypomimic face, drooling, tremor, and gait ataxia.",
+     "against": "No prominent dystonia or chorea is specified, and neuroimaging findings are not recorded."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.1,
+     "for": "Presents with global developmental delay and movement-related features like ataxia, tremor, stooped posture, and postural instability.",
+     "against": "Parkinsonism and dystonia are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Features global developmental delay, intellectual disability, unsteady gait, and mixed hypotonia/hypertonia.",
+     "against": "Ataxia and spasticity are explicitly documented as absent, and typical extrapyramidal features like parkinsonism, tremor, or dystonia are missing."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.015,
+     "for": "Has global developmental delay, intellectual disability, and central nervous system demyelination.",
+     "against": "Completely lacks documented progressive movement disorders such as parkinsonism, ataxia, dystonia, or tremor."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.015,
+     "for": "Exhibits global developmental delay and a thin corpus callosum.",
+     "against": "Chorea is recorded as absent, and no movement disorder manifestations like parkinsonism, dystonia, or ataxia are reported."
+    }
+   ],
+   "what_the_report_lacked": "Specific clinical details detailing the exact onset, timeline, and progression of the movement abnormalities (such as chorea versus parkinsonism) and characteristic brain MRI findings would have made differentiating early-stage or atypical phenotypes more definitive.",
+   "tokens_in": 2177,
+   "tokens_out": 1488,
+   "round": 3
+  }
+ ]
+}

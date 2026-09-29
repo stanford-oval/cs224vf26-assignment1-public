@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology v2 — steering console</title>
+<style>
+  :root { --bg:#0f1216; --panel:#171b21; --line:#2a313b; --fg:#e6e9ee; --mut:#93a1b0;
+          --acc:#5aa9ff; --ok:#4ec98a; --bad:#ff6b6b; --warn:#f0b34a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 -apple-system,Segoe UI,Roboto,sans-serif; }
+  header { padding:14px 20px; border-bottom:1px solid var(--line); display:flex; gap:16px;
+           align-items:baseline; flex-wrap:wrap; position:sticky; top:0; background:var(--bg); z-index:5; }
+  header h1 { font-size:15px; margin:0; font-weight:600; }
+  header .q { color:var(--mut); font-size:13px; flex:1; min-width:200px; }
+  .pill { font-size:12px; color:var(--mut); border:1px solid var(--line); border-radius:20px; padding:2px 10px; }
+  main { display:grid; grid-template-columns:1fr 1fr; gap:16px; padding:16px 20px; max-width:1400px; }
+  @media (max-width:900px){ main{ grid-template-columns:1fr; } }
+  .panel { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:14px; }
+  .panel h2 { font-size:13px; text-transform:uppercase; letter-spacing:.04em; color:var(--mut);
+              margin:0 0 10px; font-weight:600; }
+  .row { display:flex; gap:8px; align-items:flex-start; padding:8px 0; border-top:1px solid var(--line); }
+  .row:first-of-type { border-top:none; }
+  .row .id { font-family:ui-monospace,monospace; color:var(--acc); font-size:12px; white-space:nowrap; }
+  .row .txt { flex:1; }
+  .row .meta { color:var(--mut); font-size:12px; }
+  .tag { font-size:11px; padding:1px 6px; border-radius:6px; border:1px solid var(--line); color:var(--mut); }
+  .tag.human { color:var(--warn); border-color:var(--warn); }
+  .state-confirmed{color:var(--ok)} .state-refuted{color:var(--bad)} .state-error{color:var(--warn)}
+  .state-unverified{color:var(--mut)}
+  button { background:#222a33; color:var(--fg); border:1px solid var(--line); border-radius:6px;
+           padding:3px 9px; font-size:12px; cursor:pointer; }
+  button:hover { border-color:var(--acc); }
+  button.danger:hover { border-color:var(--bad); color:var(--bad); }
+  button.ok:hover { border-color:var(--ok); color:var(--ok); }
+  button.primary { background:var(--acc); color:#04121f; border-color:var(--acc); font-weight:600; }
+  input, textarea { width:100%; background:#0e1319; color:var(--fg); border:1px solid var(--line);
+                    border-radius:6px; padding:6px 8px; font:inherit; }
+  textarea { resize:vertical; min-height:48px; }
+  .field { margin-bottom:8px; }
+  .field label { display:block; font-size:12px; color:var(--mut); margin-bottom:3px; }
+  .inline { display:flex; gap:8px; }
+  .inline > * { flex:1; }
+  .muted { color:var(--mut); font-size:12px; }
+  .chips { display:flex; flex-wrap:wrap; gap:6px; }
+  #toast { position:fixed; bottom:18px; right:18px; background:var(--panel); border:1px solid var(--acc);
+           border-radius:8px; padding:10px 14px; opacity:0; transition:opacity .3s; pointer-events:none; }
+  #toast.show { opacity:1; }
+  .span2 { grid-column:1 / -1; }
+  .barwrap { height:6px; background:#0e1319; border-radius:4px; overflow:hidden; margin-top:4px; }
+  .bar { height:100%; background:var(--acc); }
+  /* Q&A thread — answers about the run, distinct from anything that changes it */
+  .qa-thread { margin-top:12px; display:flex; flex-direction:column; gap:12px; }
+  .qa-item { border-left:2px solid var(--acc); padding:8px 0 8px 12px; }
+  .qa-q { font-weight:600; margin-bottom:6px; }
+  .qa-a { white-space:pre-wrap; line-height:1.5; }
+  .qa-basis { color:var(--mut); font-size:12px; margin-top:6px; }
+  .warn { color:#e0a44a; font-size:12px; }
+  .qa-offer { margin-top:10px; padding:10px; background:#0e1319; border-radius:8px; }
+  .qa-steer { font-family:ui-monospace,monospace; font-size:12px; margin:6px 0 8px; color:var(--mut); }
+</style>
+</head>
+<body>
+<header>
+  <h1>⛭ Steering console</h1>
+  <span class="q" id="question">loading…</span>
+  <span class="pill" id="round">round —</span>
+  <span class="pill" id="budget">$—</span>
+  <span class="pill" id="claims">— claims</span>
+</header>
+
+<main>
+  <!-- SCOPE + ASSUMPTIONS + ADD DIRECTION -->
+  <section class="panel span2">
+    <h2>Ask about the run</h2>
+    <div class="field">
+      <label>A question about what's been found so far, or about the report — this does not change
+        the run. To change what it does, use the panels below.</label>
+      <textarea id="qa-text" placeholder="e.g. What did you actually find on early-stage sensitivity? Why was the methylation panel set aside?"></textarea>
+    </div>
+    <button class="primary" onclick="askQuestion()">Ask</button>
+    <div id="qa-thread" class="qa-thread"></div>
+  </section>
+
+  <section class="panel">
+    <h2>Give direction</h2>
+    <div class="field">
+      <label>New direction (question to investigate)</label>
+      <textarea id="dir-text" placeholder="e.g. Compare fragmentomics vs methylation panels head-to-head"></textarea>
+    </div>
+    <div class="inline field">
+      <input id="dir-rationale" placeholder="why it matters (optional)">
+      <input id="dir-promise" type="number" min="0" max="1" step="0.05" value="0.85" title="promise 0–1">
+    </div>
+    <button class="primary" onclick="addDirection()">+ Add direction</button>
+  </section>
+
+  <section class="panel">
+    <h2>Scope &amp; assumptions</h2>
+    <div class="field">
+      <label>Add scope filter (what to search)</label>
+      <div class="inline"><input id="scope-in" placeholder="e.g. only clinical studies since 2020">
+        <button onclick="addScope()">+ Scope</button></div>
+    </div>
+    <div class="field">
+      <label>Add assumption (taken as given, not verified)</label>
+      <div class="inline"><input id="asm-in" placeholder="e.g. assume EGFR-mutant NSCLC population">
+        <button onclick="addAssumption()">+ Assumption</button></div>
+    </div>
+    <div class="muted">Current scope</div>
+    <div class="chips" id="scope-chips"></div>
+    <div class="muted" style="margin-top:8px">Current assumptions</div>
+    <div class="chips" id="asm-chips"></div>
+  </section>
+
+  <!-- DIRECTIONS -->
+  <section class="panel span2">
+    <h2>Open directions — reprioritize or drop</h2>
+    <div id="directions"><span class="muted">loading…</span></div>
+  </section>
+
+  <!-- CLAIMS -->
+  <section class="panel span2">
+    <h2>Recent claims — pin / rule (rare)</h2>
+    <div class="muted" style="margin-bottom:8px">Pinning accepts a claim as-is (never re-verified, $0).
+      A confirm/refute verdict is a gold label — use only when you genuinely know.</div>
+    <div id="claims-list"><span class="muted">loading…</span></div>
+  </section>
+
+  <!-- ARTIFACTS -->
+  <section class="panel span2">
+    <h2>Artifacts — deliverables built in the run's git workspace</h2>
+    <div class="field">
+      <label>Ask for something concrete (a CSV, a chart, a comparison table)</label>
+      <div class="inline">
+        <input id="art-spec" placeholder="e.g. give me a csv with all the benchmarks">
+        <select id="art-kind" title="what kind of file">
+          <option value="">auto</option><option value="data">data / CSV</option>
+          <option value="chart">chart</option><option value="table">table</option>
+          <option value="doc">document</option>
+        </select>
+        <button class="primary" onclick="askArtifact()">Build it</button>
+      </div>
+    </div>
+    <div id="artifacts"><span class="muted">loading…</span></div>
+  </section>
+
+  <!-- RUN CONTROL -->
+  <section class="panel span2">
+    <h2>Run control</h2>
+    <div class="inline">
+      <div class="field"><label>Budget delta (USD, ± )</label>
+        <div class="inline"><input id="budget-delta" type="number" step="5" value="0">
+          <button onclick="sendBudget()">Apply</button></div></div>
+      <div class="field"><label>Stop</label>
+        <div class="inline">
+          <button onclick="control('stop_after_round')">Stop after round</button>
+          <button class="danger" onclick="control('finalize_now')">Finalize now</button>
+        </div></div>
+    </div>
+  </section>
+</main>
+
+<div id="toast"></div>
+
+<script>
+let LEDGER = null;
+
+async function post(event) {
+  try {
+    const r = await fetch('/steer', {method:'POST', headers:{'Content-Type':'application/json'},
+                                     body: JSON.stringify(event)});
+    const j = await r.json();
+    toast(j.ok ? `queued (${j.pending} pending)` : ('error: ' + (j.error||'?')));
+  } catch (e) { toast('post failed: ' + e); }
+}
+function toast(msg) {
+  const t = document.getElementById('toast'); t.textContent = msg; t.classList.add('show');
+  setTimeout(() => t.classList.remove('show'), 1800);
+}
+const esc = s => (s||'').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+
+function addDirection() {
+  const text = document.getElementById('dir-text').value.trim();
+  if (!text) return toast('enter a direction');
+  const rationale = document.getElementById('dir-rationale').value.trim();
+  const promise = parseFloat(document.getElementById('dir-promise').value) || 0.85;
+  post({directions_add:[{question_text:text, rationale, promise}]});
+  document.getElementById('dir-text').value=''; document.getElementById('dir-rationale').value='';
+}
+function addScope() {
+  const v = document.getElementById('scope-in').value.trim();
+  if (v) { post({constraints:[v]}); document.getElementById('scope-in').value=''; }
+}
+function addAssumption() {
+  const v = document.getElementById('asm-in').value.trim();
+  if (v) { post({assumptions:[v]}); document.getElementById('asm-in').value=''; }
+}
+const dropDir  = id => post({directions_drop:[id]});
+const boostDir = id => { const p = prompt('New promise 0–1 for '+id, '0.95'); if (p!==null) post({directions_boost:{[id]:parseFloat(p)}}); };
+const pinClaim = id => post({claims_pin:[id]});
+const verdict  = (id,v) => { const note = prompt(`${v} ${id} — note (optional)`,'')||''; post({claims_verdict:[{claim_id:id, verdict:v, note}]}); };
+function sendBudget() { const d = parseFloat(document.getElementById('budget-delta').value)||0; if (d) post({budget_delta:d}); }
+function control(c) { if (confirm('Send control: '+c+' ?')) post({control:c}); }
+
+function askArtifact() {
+  const spec = document.getElementById('art-spec').value.trim();
+  if (!spec) return toast('describe what you want built');
+  post({artifacts_request:[{spec, kind: document.getElementById('art-kind').value}]});
+  document.getElementById('art-spec').value = '';
+}
+function renderArtifacts(a) {
+  const el = document.getElementById('artifacts');
+  const built = a.artifacts || [], pending = a.pending || [];
+  const rows = built.slice().reverse().map(x => `
+    <div class="row">
+      <span class="id">${esc(x.kind||'other')}</span>
+      <span class="txt"><a href="/file?p=${encodeURIComponent(x.path)}" target="_blank">${esc(x.title||x.path)}</a>
+        <div class="meta"><code>${esc(x.path)}</code> · ${Math.round((x.bytes||0)/1024)}KB
+          ${x.commit?('· '+esc(x.commit.slice(0,8))):'· uncommitted'}
+          ${x.description?('<br>'+esc(x.description)):''}</div></span>
+    </div>`).join('');
+  const queued = pending.map(p => `
+    <div class="row"><span class="id">queued</span>
+      <span class="txt">${esc(p.spec)}<div class="meta">builds at the next round seam</div></span></div>`).join('');
+  el.innerHTML = (rows + queued) || '<span class="muted">nothing built yet</span>';
+}
+
+function render() {
+  if (!LEDGER) return;
+  document.getElementById('question').textContent = LEDGER.question || '';
+  const dirs = Object.values(LEDGER.directions||{}).filter(d => d.status==='OPEN')
+                     .sort((a,b)=>b.promise-a.promise);
+  const dEl = document.getElementById('directions');
+  dEl.innerHTML = dirs.length ? dirs.map(d => `
+    <div class="row">
+      <span class="id">${esc(d.id)}</span>
+      <span class="txt">${esc(d.question_text)}
+        ${d.origin==='human'?'<span class="tag human">human</span>':''}
+        <div class="meta">promise ${d.promise.toFixed(2)} · ${esc(d.rationale||'')}</div></span>
+      <span style="display:flex;gap:6px">
+        <button onclick="boostDir('${d.id}')">↑ boost</button>
+        <button class="danger" onclick="dropDir('${d.id}')">drop</button></span>
+    </div>`).join('') : '<span class="muted">no open directions</span>';
+
+  const claims = Object.values(LEDGER.claims||{}).sort((a,b)=>
+      (parseInt(b.id.slice(1))||0)-(parseInt(a.id.slice(1))||0)).slice(0,25);
+  const cEl = document.getElementById('claims-list');
+  cEl.innerHTML = claims.length ? claims.map(c => `
+    <div class="row">
+      <span class="id">${esc(c.id)}</span>
+      <span class="txt">${esc(c.text)}
+        <div class="meta"><span class="state-${c.verification}">${c.verification}</span>
+          · conf ${(c.confidence||0).toFixed(2)} ${c.pinned?'· <span class="tag human">pinned</span>':''}</div></span>
+      <span style="display:flex;gap:6px">
+        <button onclick="pinClaim('${c.id}')">pin</button>
+        <button class="ok" onclick="verdict('${c.id}','confirmed')">✓</button>
+        <button class="danger" onclick="verdict('${c.id}','refuted')">✗</button></span>
+    </div>`).join('') : '<span class="muted">no claims yet</span>';
+
+  const chip = (arr,el,cls) => document.getElementById(el).innerHTML =
+      (arr&&arr.length) ? arr.map(x=>`<span class="tag ${cls}">${esc(x)}</span>`).join('') :
+      '<span class="muted">none</span>';
+  chip(LEDGER.constraints,'scope-chips','');
+  chip(LEDGER.assumptions,'asm-chips','human');
+}
+
+// ── Q&A ───────────────────────────────────────────────────────────────────
+// Questions go down the same inbox as steering; the agent classifies intent and answers into
+// qa_log.jsonl, which we poll. Nothing here changes the run — that only happens if the user
+// accepts the suggested steer, which sends it back as an ordinary steer message.
+let QA_SEEN = 0;
+
+function askQuestion() {
+  const el = document.getElementById('qa-text');
+  const text = el.value.trim();
+  if (!text) return toast('type a question');
+  post({nl: text});
+  el.value = '';
+  toast('asked — the answer appears at the next round seam');
+}
+
+function acceptSteer(i) {
+  const s = (window.__QA || [])[i];
+  if (!s || !s.suggested_steer) return;
+  post({nl: s.suggested_steer});
+  toast('steer sent');
+}
+
+function renderQA(rows) {
+  window.__QA = rows;
+  const box = document.getElementById('qa-thread');
+  if (!rows.length) { box.innerHTML = ''; return; }
+  if (rows.length > QA_SEEN) { QA_SEEN = rows.length; }
+  box.innerHTML = rows.slice(-8).map((r, n) => {
+    const i = rows.length - Math.min(rows.length, 8) + n;
+    const flag = r.confident ? '' : ' <span class="warn">· the run doesn\'t fully settle this</span>';
+    const basis = r.basis ? `<div class="qa-basis">${esc(r.basis)}</div>` : '';
+    const offer = r.suggested_steer
+      ? `<div class="qa-offer">
+           <div><b>Want me to follow up on this?</b> ${esc(r.suggest_reason || '')}</div>
+           <div class="qa-steer">${esc(r.suggested_steer)}</div>
+           <button class="primary" onclick="acceptSteer(${i})">Yes — steer the run</button>
+         </div>` : '';
+    return `<div class="qa-item">
+        <div class="qa-q">${esc(r.question)}</div>
+        <div class="qa-a">${esc(r.answer)}${flag}</div>
+        ${basis}${offer}
+      </div>`;
+  }).join('');
+}
+
+async function refresh() {
+  try {
+    const qa = await fetch('/qa');
+    if (qa.ok) renderQA(((await qa.json()).qa) || []);
+  } catch (e) { /* no qa yet */ }
+  try {
+    const [lg, run, art] = await Promise.all([fetch('/ledger'), fetch('/run'), fetch('/artifacts')]);
+    if (lg.ok) { LEDGER = await lg.json(); render(); }
+    if (art.ok) { renderArtifacts(await art.json()); }
+    if (run.ok) {
+      const r = await run.json(), b = r.budget||{};
+      document.getElementById('round').textContent = 'round ' + (r.round ?? '—');
+      document.getElementById('budget').textContent =
+        `$${(b.spent||0).toFixed(2)} / $${(b.total||0).toFixed(0)}`;
+      const nC = LEDGER ? Object.values(LEDGER.claims||{}).length : 0;
+      const nConf = LEDGER ? Object.values(LEDGER.claims||{}).filter(c=>c.verification==='confirmed').length : 0;
+      document.getElementById('claims').textContent = `${nC} claims · ${nConf}✓`;
+    }
+  } catch (e) { /* run may not have written yet */ }
+}
+refresh(); setInterval(refresh, 4000);
+</script>
+</body>
+</html>

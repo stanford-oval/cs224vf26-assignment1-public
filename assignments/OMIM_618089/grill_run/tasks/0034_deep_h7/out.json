@@ -1,0 +1,133 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that overt craniofacial dysmorphism is penetrant in only approximately two-thirds (60-67%) of FBXO11-related disorder cases, presenting subtly rather than as an obligatory hallmark. Recent cohort data directly support this lower frequency: Goel et al. (2026) report facial dysmorphism in 14 of 21 patients (66.7%), and Pan et al. (2024) noted that overt malformations were absent or inconsistent across their Chinese cohort of 12 individuals. However, historical aggregate data cited within the same comprehensive evaluation (Goel et al., 2026) demonstrate that earlier published cohorts reported facial dysmorphism at a higher frequency of 78%, and initial cohort studies (Jansen et al., 2019; Gregor et al., 2018) highlighted recognizable or recurrent dysmorphisms (e.g., broad prominent space between peaks of the upper lip, triangular face, broad forehead) upon reverse phenotyping. Thus, while there is consensus that dysmorphism is frequently subtle and non-obligatory, the reported penetrance figures are conflicted between older literature series (78%) and newly expanded cohorts (67% and lower).",
+  "evidence": [
+    {
+      "text": "In a cohort of 21 newly described individuals with FBXO11 variants, facial dysmorphism was identified in 14 individuals (66.7%), with features described as subtle, leading to under-recognition in milder cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+        "authors": [
+          "H Goel",
+          "G Garg",
+          "TS Barakat",
+          "G Barcia",
+          "A Bourgois"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+        "quote": "Mild intellectual disability (86%), facial dysmorphism (67%), hypotonia (62%), and behavioural dysregulation (62%) were the most prevalent features."
+      },
+      "numbers": [
+        {
+          "metric": "facial dysmorphism penetrance in new cohort (numerator)",
+          "value": 14
+        },
+        {
+          "metric": "facial dysmorphism penetrance in new cohort (denominator)",
+          "value": 21
+        },
+        {
+          "metric": "facial dysmorphism percentage in new cohort",
+          "value": 67
+        }
+      ]
+    },
+    {
+      "text": "Literature review of previously published cases demonstrated a higher frequency of facial dysmorphism (78%) than the newly reported 67% cohort.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Defining FBXO11-Related Neurodevelopmental Disorder",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchsquare.com/article/rs-10148333/v1.pdf?c=1784727803000",
+        "quote": "Review of published cases shows a similar pattern, with facial dysmorphism reported in 78% of individuals, followed by behavioural dysregulation."
+      },
+      "numbers": [
+        {
+          "metric": "facial dysmorphism penetrance in published literature review (%)",
+          "value": 78
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 12 affected individuals across 5 Chinese families with FBXO11 variants, overt malformations were not observed across all patients, demonstrating phenotypic variability.",
+      "stance": "supports",
+      "source": {
+        "title": "FBXO11 variants are associated with intellectual disability and variable clinical manifestation in Chinese affected individuals",
+        "authors": [
+          "X Pan",
+          "L Liu",
+          "X Zhang",
+          "X Tang",
+          "G Qian",
+          "H Qiu"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1038/s10038-024-01255-4",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s10038-024-01255-4",
+        "quote": "Distinguishingly, malformation was not observed in all the affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals assessed in Chinese cohort",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Initial characterization showed that individuals with FBXO11 variants frequently did not present with a recognizable syndromic phenotype prior to reverse phenotyping, after which subtle upper lip dysmorphisms were noted.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in FBXO11 cause a syndromic form of intellectual disability with behavioral problems and dysmorphisms",
+        "authors": [
+          "S Jansen",
+          "IM van der Werf",
+          "AM Innes"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1038/s41431-018-0292-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-018-0292-2",
+        "quote": "The current series show the power of reverse phenotyping in the interpretation of novel genetic variances in individuals who initially did not appear to have a clear recognizable phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "individuals in cohort",
+          "value": 24
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Published literature review calculates the penetrance of facial dysmorphism at 78%, which exceeds the hypothesized 60-67% ceiling, whereas the newest series of 21 patients observes exactly 67% (14/21), indicating ascertainment variability between initial descriptions and expanded series."
+  ],
+  "confidence": 0.72,
+  "new_directions": [
+    {
+      "question_text": "Does computer-aided objective facial gestalt analysis (e.g., GestaltMatcher) detect subtle sub-clinical facial signatures in FBXO11 variant carriers who are clinically designated as non-dysmorphic?",
+      "rationale": "Clinical dysmorphology evaluations are subjective and prone to ascertainment bias; automated deep phenotyping across all published and newly assembled cohorts would standardize dysmorphism rates.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Is the presence or absence of facial dysmorphism correlated with variant class (e.g., missense vs. truncating/loss-of-function) or variant domain position in FBXO11?",
+      "rationale": "Determining whether missense variants that alter protein localization/expression correlate with different dysmorphology rates compared to haploinsufficiency-causing nonsense/frameshift variants will refine diagnostic accuracy.",
+      "promise": 0.8,
+      "est_cost": 25000
+    }
+  ]
+}

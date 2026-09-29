@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621182",
+ "omim": "OMIM:621182",
+ "disease": "Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities",
+ "gene": "NAV3",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 1613,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (NAV3, OMIM:621182):\n\n[1] Neurodevelopmental Disorder with Poor or Absent Speech ...\nhttps://www.malacards.org/card/neurodevelopmental_disorder_with_poor_or_absent_speech_dysmorphic_facies_and_behavioral_abnormalities\nAn autosomal recessive disorder characterized by global developmental delay, mild to severe intellectual disability, facial dysmorphism, and behavioral ...\n\n[2] Entry - #621182 - NEURODEVELOPMENTAL DISORDER ...\nhttps://omim.org/entry/621182\nneurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (NEDSFB) is caused by homozygous mutation in the NAV3 ...\n\n[3] NAV3 - DECIPHER v11.39\nhttps://www.deciphergenomics.org/gene/NAV3/overview/clinical-info\nNeurodevelopmental disorder with poor or absent speech, dysmorphic facies, and behavioral abnormalities (Autosomal recessive)\n\n[4] Further evidence of biallelic NAV3 variants associated with ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC11754320/\nby N Kakar \u00b7 2024 \u00b7 Cited by 4 \u2014 Here, we report loss of function variants in NAV3 in patients consistent with dysmorphism, ID, developmental delay, and behavioral abnormalities from three ...\n\n[5] Clinical Synopsis - #621182 - NEURODEVELOPMENTAL ...\nhttps://omim.org/clinicalSynopsis/621182\nNEURODEVELOPMENTAL DISORDER WITH POOR OR ABSENT SPEECH, DYSMORPHIC FACIES, AND BEHAVIORAL ABNORMALITIES; NEDSFB. INHERITANCE.\n\n[6] NAV3 - Neuron navigator 3 - Homo sapiens (Human)\nhttps://www.uniprot.org/uniprotkb/Q8IVL0/entry\nAn autosomal recessive disorder characterized by global developmental delay, mild to severe intellectual disability, facial dysmorphism, and behavioral ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 18.0, male)\n  observed: Drooling, Broad philtrum, Thin upper lip vermilion, Oligodontia, Cleft soft palate, Highly arched eyebrow, Prominent nasal bridge, Convex nasal ridge, Long nose, Retrognathia, Feeding difficulties, Constipation, Inguinal hernia, Overfolded helix, Otitis media, Excessive shyness, Delayed speech and language development, Moderate intellectual disability, Delayed ability to sit, Delayed ability to walk, 2-3 toe syndactyly, Camptodactyly of finger, Prominent interphalangeal joints, Limited elbow extension, Scoliosis, Kyphosis, Hypotonia\n  recorded ABSENT: Smooth philtrum, Short philtrum, Deep philtrum, Downslanted palpebral fissures, Upslanted palpebral fissure, Long palpebral fissure, Narrow palpebral fissure, Epiblepharon, Microcephaly, Deeply set eye, Posteriorly rotated ears, Low-set ears, Anteverted ears, Macrotia, Hearing impairment, Seizure, Autistic behavior, Self hugging, Aggressive behavior, Pica, Self-injurious behavior, Premature birth, Clinodactyly of the 5th finger, Toe clinodactyly, Bilateral single transverse palmar creases (+2 more)\n\nP02 (age 12.0, male)\n  observed: Macrocephaly, Autism, Sleep disturbance, Self-injurious behavior, Moderate intellectual disability, Developmental regression, Motor delay, Delayed speech and language development, Anxiety, Seizure, Constipation, Wide nose, Broad forehead, Macrotia, Hypertelorism, Tall stature, Stereotypical hand wringing\n  recorded ABSENT: Borderline intellectual disability, Mild intellectual disability, Severe intellectual disability, Profound intellectual disability, Tall chin, Macroorchidism, Ventriculomegaly, Prominent supraorbital ridges, Overweight, Caesarean section\n\nP03 (age 22.0, male)\n  observed: Microcephaly, Hyperplasia of midface, Prominent nose, Protruding ear, Moderate intellectual disability, Aggressive behavior, Attention deficit hyperactivity disorder, Reduced social smiling, Global developmental delay\n  recorded ABSENT: Cleft lip, Solitary median maxillary central incisor, Cleft palate, Seizure, Mild intellectual disability, Absent speech, Hypotonia\n\nP04 (age 1.3, male)\n  observed: Bilateral tonic-clonic seizure, Global developmental delay, Motor delay, Delayed speech and language development, Delayed CNS myelination, Hypoplasia of the corpus callosum, Microcephaly, Hypotonia, Reduced eye contact\n  recorded ABSENT: Infantile spasms, Febrile seizure (within the age range of 3 months to 6 years), Bilateral tonic-clonic seizure with focal onset, Atonic seizure, Generalized non-motor (absence) seizure, Focal impaired awareness seizure, Focal aware seizure, Focal motor seizure, Myoclonic seizure, Tonic seizure, Absent speech, Diffuse cerebral atrophy, Hippocampal sclerosis, Cerebellar vermis hypoplasia, Reduced cerebral white matter volume, Aggressive behavior, Autistic behavior, Head-banging, Low posterior hairline, Short chin, Frontal bossing, Plagiocephaly, Prominent nasal bridge, High palate, Round face (+31 more)\n\nP05 (age 9.0, female)\n  observed: Feeding difficulties, Hypotonia, Wide nasal bridge, Hypertelorism, Crumpled ear, Anxiety, Delayed speech and language development, Mild intellectual disability, Motor delay, Seizure\n  recorded ABSENT: Mandibular prognathia, Secondary microcephaly, Primary microcephaly, Low anterior hairline, Flat face, Round face, Long face, Everted lower lip vermilion, Thin upper lip vermilion, Long philtrum, High palate, Broad forehead, Upslanted palpebral fissure, Narrow palpebral fissure, Epicanthus, Medial flaring of the eyebrow, Synophrys, Bulbous nose, Depressed nasal bridge, Narrow nose, Short stature, Small for gestational age, Frontal upsweep of hair, Microtia, Posteriorly rotated ears (+5 more)\n\nP06 (age 6.0, male)\n  observed: Intellectual disability, Global developmental delay, Feeding difficulties, Delayed ability to walk, Delayed speech and language development, Recurrent infections, Wide nasal bridge\n  recorded ABSENT: Failure to thrive, Gastroesophageal reflux, Chronic constipation, Autistic behavior, Attention deficit hyperactivity disorder, Aggressive behavior, Anxiety, Motor stereotypy, Depression, Compulsive behaviors, Generalized tonic seizure, Bilateral tonic-clonic seizure with generalized onset, Periventricular leukomalacia, Dystonia, Ataxia, Pes cavus, Hypertonia, Hearing impairment, Brachycephaly, Prominent supraorbital ridges, Coarse facial features, Short philtrum, Midface retrusion, Pointed chin, Low posterior hairline (+65 more)\n\nP07 (age 6.0, male)\n  observed: Impaired convergence, Cerebral visual impairment, Macroglossia, High palate, Open mouth, Global developmental delay, Persistent head lag, Delayed ability to walk, Absent speech, Severe intellectual disability, Bilateral tonic-clonic seizure, Infantile spasms, Focal-onset seizure, Constipation, Hypotonia\n  recorded ABSENT: Microcephaly, Bilateral tonic-clonic seizure with focal onset, Tonic seizure, Febrile seizure (within the age range of 3 months to 6 years), Generalized-onset seizure, Broad-based gait, Short stature, Decreased body weight\n\nP08 (age 4.0, female)\n  observed: Short philtrum, Open mouth, Wide mouth, High palate, Bifid uvula, Pointed chin, Downturned corners of mouth, Exaggerated cupid's bow, Thin upper lip vermilion, Broad forehead, Hypertelorism, Downslanted palpebral fissures, Short neck, Hypermetropia, Anisometropia, Astigmatism, Strabismus, Optic atrophy, Microcephaly, Joint hypermobility, Generalized hypotonia, Appendicular hypotonia, Axial hypotonia, Facial hypotonia, Ventriculomegaly, Global developmental delay, Delayed gross motor development, Delayed fine motor development, Delayed speech and language development, Seizure, Autistic behavior, Self-injurious behavior, Anxiety, Reduced social responsiveness, Failure to thrive, Feeding difficulties, Episodic vomiting\n  recorded ABSENT: Macroglossia, Cleft palate, Mandibular prognathia, Retrognathia, Everted lower lip vermilion, Everted upper lip vermilion, Low-set ears, Posteriorly rotated ears, Overfolded helix, Narrow forehead, Upslanted palpebral fissure, Epicanthus, Ptosis, Sparse eyebrow, Highly arched eyebrow, Myopia, Coloboma, Broad finger, Broad toe, Clinodactyly, Syndactyly, Brachydactyly, Brachycephaly, Plagiocephaly, Scoliosis (+23 more)\n\nP09 (age 3.6, female)\n  observed: Micrognathia, Inverted nipples, Dysphagia, Constipation, Global developmental delay, Delayed gross motor development, Absent speech, Tonic seizure, Myoclonic seizure, Infantile spasms, Focal emotional seizure with laughing, Generalized non-motor (absence) seizure, Hypotonia\n  recorded ABSENT: Chordee, Phimosis, Short philtrum, Narrow mouth, Epicanthus, Upslanted palpebral fissure, Long palpebral fissure, Synophrys, Anteverted nares, Sagittal craniosynostosis, Macrocephaly, Microcephaly, Visual impairment, Hypoventilation, Microtia, Hearing impairment, Delayed fine motor development, Spasticity, Autistic behavior, Short stature, Failure to thrive, Clinodactyly of the 5th finger, Hirsutism, Patent ductus arteriosus, Secundum atrial septal defect\n\nP10 (age 6.0, male)\n  observed: Cleft earlobe, Prominent fingertip pads, Low hanging columella, Low anterior hairline, Thin upper lip vermilion, Global developmental delay, Autistic behavior, Delayed speech and language development, Hearing impairment\n  recorded ABSENT: Long face, Hypsarrhythmia, Focal-onset seizure, Generalized non-motor (absence) seizure, Infantile spasms, Obstructive sleep apnea, Hypertelorism, Hypotelorism, Ptosis, Pierre-Robin sequence, Micrognathia, Strabismus, Myopia, Astigmatism, Hypermetropia, Cafe-au-lait spot, Attention deficit hyperactivity disorder, Clinodactyly of the 5th finger, Aggressive behavior, Broad nasal tip, Deeply set eye, Anxiety, Single umbilical artery, Umbilical hernia, Sacral dimple\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.7,
+     "for": "Demonstrates the complete cardinal triad of delayed speech and language development, marked facial dysmorphism (short philtrum, thin upper lip, hypertelorism, broad forehead, downslanted palpebral fissures), and multiple behavioral abnormalities (autistic behavior, self-injurious behavior, anxiety), alongside global developmental delay.",
+     "against": "Displays complex ocular findings such as optic atrophy and episodic vomiting which are not emphasized as classic features of the disorder."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.15,
+     "for": "Features delayed speech development, facial dysmorphism (broad forehead, wide nose, hypertelorism), intellectual disability, and clear behavioral abnormalities (autism, anxiety, self-injurious behavior).",
+     "against": "Presence of developmental regression and stereotypical hand wringing strongly suggests a Rett-like syndrome rather than uncomplicated NEDSFB."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.08,
+     "for": "Presents with delayed speech and language development, intellectual disability, dysmorphic facial features (wide nasal bridge, hypertelorism), and a behavioral issue (anxiety).",
+     "against": "The behavioral and dysmorphic spectrum is relatively sparse compared to the classic multi-domain presentation described for NEDSFB."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Exhibits absent speech, severe intellectual disability, and open mouth/high palate dysmorphic signs consistent with profound neurodevelopmental involvement.",
+     "against": "Lacks documented behavioral abnormalities and is dominated by severe epileptic encephalopathy with infantile spasms."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Exhibits behavioral abnormalities (aggressive behavior, ADHD), global developmental delay/moderate intellectual disability, and facial dysmorphisms.",
+     "against": "Lacks the key defining feature of poor speech, with absent speech specifically recorded as absent and no speech delay documented."
+    }
+   ],
+   "what_the_report_lacked": "The provided literature lacked specific granular facial dysmorphism profiles and detailed neurobehavioral characterization associated with biallelic NAV3 loss-of-function variants.",
+   "tokens_in": 2544,
+   "tokens_out": 3785,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.65,
+     "for": "Presents the complete core triad of delayed speech and language development, distinct dysmorphic facial features (exaggerated cupid's bow, thin upper lip, hypertelorism, wide mouth), and prominent behavioral abnormalities (autistic traits, anxiety, self-injurious behavior).",
+     "against": "Severe ocular involvement including optic atrophy and marked systemic findings such as ventriculomegaly and failure to thrive are not typically emphasized as hallmark features."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.15,
+     "for": "Exhibits delayed speech, facial dysmorphism (broad forehead, hypertelorism, wide nose), and multiple behavioral disturbances (autism, self-injurious behavior, anxiety).",
+     "against": "Features such as developmental regression, tall stature, macrocephaly, and stereotypical hand wringing strongly point toward alternative syndromic neurodevelopmental disorders."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.08,
+     "for": "Shares global motor and speech delay, mild intellectual disability, facial dysmorphisms (wide nasal bridge, hypertelorism, crumpled ear), and anxiety.",
+     "against": "The behavioral phenotype is relatively mild (limited to anxiety), and several common dysmorphic facial features (thin upper lip, long philtrum) are explicitly documented as absent."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.05,
+     "for": "Demonstrates global developmental delay, speech and language impairment, autistic behavior, and subtle facial dysmorphisms.",
+     "against": "Specific signs like cleft earlobes and prominent fingertip pads strongly suggest other conditions such as Kabuki syndrome, and aggressive behavior and anxiety are explicitly absent."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.04,
+     "for": "Exhibits global developmental delay, moderate intellectual disability, dysmorphic facial traits, and behavioral problems including aggression and ADHD.",
+     "against": "Lacks detailed documentation of speech delay, has absent speech confirmed as absent, and lacks muscular hypotonia."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of specific facial dysmorphic signs (e.g., philtrum morphology, eyebrow and lip shape), precise characterization of speech deficits, neuroimaging findings, and information regarding inheritance or parental consanguinity.",
+   "tokens_in": 2544,
+   "tokens_out": 2359,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.8,
+     "for": "Demonstrates the complete classic triad of global developmental delay with delayed speech, characteristic behavioral abnormalities (autistic behavior, self-injurious behavior, anxiety), and extensive dysmorphic facial features (hypertelorism, downslanted palpebral fissures, thin upper lip, short philtrum, pointed chin, microcephaly).",
+     "against": "Has additional ocular and palatal findings like optic atrophy and bifid uvula which are less commonly highlighted in summary descriptions."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.08,
+     "for": "Presents with delayed speech and language development, moderate intellectual disability, facial dysmorphism (wide nose, broad forehead, hypertelorism), and marked behavioral issues including autism, self-injurious behavior, and sleep disturbance.",
+     "against": "Features such as macrocephaly, tall stature, and stereotypical hand wringing strongly favor alternative syndromic conditions such as Sotos or Rett-like syndromes."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Displays delayed speech development, mild intellectual disability, behavioral concerns (anxiety), and dysmorphic facial features including hypertelorism and a wide nasal bridge.",
+     "against": "Lacks the broader spectrum of behavioral abnormalities typical of the condition, and multiple classic facial dysmorphisms (e.g., thin upper lip, high palate, broad forehead) are recorded as absent."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.04,
+     "for": "Exhibits global developmental delay, delayed speech, autistic behavior, and some facial dysmorphic features like a thin upper lip vermilion.",
+     "against": "Aggressive behavior and anxiety are documented as absent, and the presence of cleft earlobes and prominent fingertip pads suggests other dysmorphic syndromes (e.g., Kabuki syndrome)."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Features moderate intellectual disability, behavioral problems (ADHD, aggressive behavior), and facial dysmorphism including microcephaly and a prominent nose.",
+     "against": "Absent speech is explicitly documented as absent, and delayed speech development is not observed, contradicting the hallmark poor/absent speech of NEDSFB."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed, standardized clinical synopsis data (such as specific craniofacial milestones, neuroimaging findings, and characteristic EEG patterns) and direct molecular genetic variant data for NAV3.",
+   "tokens_in": 2544,
+   "tokens_out": 2116,
+   "round": 3
+  }
+ ]
+}

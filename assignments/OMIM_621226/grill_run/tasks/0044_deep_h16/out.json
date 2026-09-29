@@ -1,0 +1,77 @@
+{
+  "verdict": "refuted",
+  "rationale": "There is no longitudinal or quantitative neuroimaging evidence supporting a stereotyped anatomical sequence in SPAX11 where vermian atrophy precedes hemispheric atrophy by at least five years. In the definitive clinical report describing SPAX11 (OMIM #621226) caused by the TUBA4A p.Glu415Lys variant (Torella et al., 2023), brain MRI demonstrated only 'slight or absent cerebellar atrophy' and 'questionable upper vermis atrophy'. No systematic five-year latency between vermian and hemispheric loss has ever been observed or documented.",
+  "evidence": [
+    {
+      "text": "Brain MRI in individuals with TUBA4A-associated spastic ataxia demonstrated slight or absent cerebellar atrophy, with only questionable upper vermis atrophy noted, rather than progressive longitudinal volumetric stages.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": "PMC10511369",
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "Brain MRI showed questionable upper vermis atrophy\u2026 MRI showed slight or absent cerebellar atrophy. The clinical picture is different from previous phenotypes associated with TUBA4A"
+      },
+      "numbers": [
+        {
+          "metric": "affected families evaluated",
+          "value": 2
+        },
+        {
+          "metric": "affected individuals in primary family",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "Clinical synopsis and entry for SPAX11 confirms that brain MRI findings are limited to questionable atrophy of the upper vermis without documenting a five-year sequence preceding hemispheric atrophy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; SPAX11",
+        "authors": [
+          "OMIM"
+        ],
+        "year": 2023,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621226",
+        "quote": "Brain MRI showed questionable atrophy of the upper vermis."
+      },
+      "numbers": [
+        {
+          "metric": "OMIM entry ID",
+          "value": "621226"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts a proven 5-year chronological progression from vermian to hemispheric atrophy, whereas clinical reports describe imaging findings merely as 'slight or absent cerebellar atrophy' with 'questionable upper vermis atrophy'."
+  ],
+  "confidence": 0.05,
+  "new_directions": [
+    {
+      "question_text": "What are the quantitative volumetric MRI trajectories of the cerebellar vermis versus hemispheres in longitudinal follow-ups of TUBA4A mutation carriers?",
+      "rationale": "SPAX11 has only recently been defined in two kindreds; serial volumetric 3D T1 MRI data are required to establish whether true cerebellar volume loss occurs and whether it follows a regional gradient.",
+      "promise": 0.75,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does neurofilament light chain (NfL) elevation precede or correlate with detectable neuroimaging changes in presymptomatic or early symptomatic TUBA4A p.Glu415Lys carriers?",
+      "rationale": "Establishing fluid biomarker timelines will resolve whether axonal damage occurs well before subtle vermian or cerebellar changes can be reliably identified on neuroimaging.",
+      "promise": 0.82,
+      "est_cost": 15000
+    }
+  ]
+}

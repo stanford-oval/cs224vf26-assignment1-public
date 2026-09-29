@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_617516",
+ "omim": "OMIM:617516",
+ "disease": "Stankiewicz-Isidor syndrome",
+ "gene": "PSMD12",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:53",
+ "report_chars": 1595,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Stankiewicz-Isidor syndrome (PSMD12, OMIM:617516):\n\n[1] Stankiewicz-Isidor syndrome: expanding the clinical and ...\nhttps://www.gimjournal.org/article/S1098-3600(21)04132-0/fulltext\nby B Isidor \u00b7 2022 \u00b7 Cited by 26 \u2014 Haploinsufficiency of PSMD12 has been reported in individuals with neurodevelopmental phenotypes, including developmental delay/intellectual disability ...\n\n[2] Stankiewicz-Isidor Syndrome (STISS)\nhttps://www.malacards.org/card/stankiewicz_isidor_syndrome\nStankiewicz-Isidor syndrome is a neurodevelopmental disorder characterized by delayed psychomotor development, intellectual disability, and behavioral ...\n\n[3] Stankiewicz-Isidor syndrome: expanding the clinical and ...\nhttps://pubmed.ncbi.nlm.nih.gov/34906456/\nby B Isidor \u00b7 2022 \u00b7 Cited by 26 \u2014 Purpose: Haploinsufficiency of PSMD12 has been reported in individuals with neurodevelopmental phenotypes, including developmental delay/intellectual disability ...\n\n[4] PSMD12\nhttps://www.simonssearchlight.org/research/what-we-study/psmd12/\nPSMD12-related syndrome happens when there are changes in the PSMD12 gene. These changes can keep the gene from working as it should.\n\n[5] 617516 - STANKIEWICZ-ISIDOR SYNDROME; STISS\nhttps://omim.org/entry/617516\n... Isidor syndrome (STISS) is caused by heterozygous mutation in the PSMD12 gene (604450) on chromosome 17q24. \u25bd Description. Stankiewicz-Isidor syndrome ...\n\n[6] Autosomal dominant by ClinGen submission information facts\nhttps://thegencc.org/submissions/SGC-104698.2\nIn summary, there is definitive evidence supporting the relationship between PSMD12 and autosomal dominant Stankiewicz-Isidor Syndrome. This has been ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 14.0, male)\n  observed: Prominent forehead, Obesity, Astigmatism, Hypertelorism, Strabismus, Motor delay, Delayed speech and language development, Scoliosis\n  recorded ABSENT: Broad forehead, High forehead, Frontal bossing, High anterior hairline, Macrocephaly, Microcephaly, Retrognathia, Abnormality of the neck, Enlarged fetal cisterna magna, Tall stature, Laryngomalacia, Retinal telangiectasia, Nevus, Advanced ossification of carpal bones, Large hands, Seizure, Intellectual disability, Global developmental delay, Sleep apnea, Attention deficit hyperactivity disorder, Autistic behavior, Anxiety, Ventriculomegaly, Hypotonia\n\nP02 (age 27.0, female)\n  observed: Microcephaly, Intellectual disability, Global developmental delay, Hypotonia, Feeding difficulties, Delayed ability to walk, Narrow face, Narrow mouth, Mandibular prognathia, Thin vermilion border, Small hand, Hip dysplasia, Scoliosis\n  recorded ABSENT: Failure to thrive, Gastroesophageal reflux, Chronic constipation, Delayed speech and language development, Autistic behavior, Attention deficit hyperactivity disorder, Aggressive behavior, Anxiety, Motor stereotypy, Depression, Compulsive behaviors, Generalized tonic seizure, Bilateral tonic-clonic seizure with generalized onset, Periventricular leukomalacia, Sleep disturbance, Dystonia, Ataxia, Pes cavus, Hypertonia, Recurrent infections, Hearing impairment, Brachycephaly, Prominent supraorbital ridges, Coarse facial features, Short philtrum (+63 more)\n\nP03 (age 4.0, female)\n  observed: Premature birth, Severe global developmental delay, Delayed ability to walk, Delayed ability to sit, Delayed speech and language development, Large fontanelles, Midface retrusion, Wide nasal bridge, Broad nasal tip, Low hanging columella, Narrow palpebral fissure, Periorbital fullness, Highly arched eyebrow, Hypertelorism, Pierre-Robin sequence, Micrognathia, Mixed hearing impairment, Hyponatremia, Inappropriate antidiuretic hormone secretion, Ventricular septal defect, Patent ductus arteriosus, Patent foramen ovale, Central apnea, Respiratory distress, Restrictive ventilatory defect, Tracheomalacia, Gastroesophageal reflux, Intestinal malrotation, Tube feeding, Hip subluxation, Sacral dimple, Tethered cord, Seizure, Cerebellar hypoplasia, Hypoplasia of the pons, Thin corpus callosum, Delayed CNS myelination, Enlarged cisterna magna, Preauricular skin tag, Broad hallux, 2-3 toe syndactyly\n  recorded ABSENT: Polyhydramnios, Caesarean section, Large for gestational age, Tall stature, Short stature, Obesity, Macrocephaly, Bifid uvula, Cleft palate, Pulmonary artery hypoplasia, Persistent left superior vena cava, Double outlet right ventricle, Stage 5 chronic kidney disease, Anteriorly placed anus, Talipes equinovarus, Hypothalamic hamartoma, Posteriorly rotated ears, Macrotia, Low-set ears, Auricular pit, Attached earlobe, Stenosis of the external auditory canal, Rocker bottom foot, Broad thumb, Single transverse palmar crease (+2 more)\n\nP04 (age 2.5, male)\n  observed: Hypospadias, Horseshoe kidney, Smooth philtrum, Long philtrum, Wide mouth, Anteverted nares, Bulbous nose, Depressed nasal bridge, Prominent occiput, Hypotonia, 2-3 toe syndactyly, Overlapping toe, Triphalangeal thumb, Brachydactyly, Cupped ear, Severe global developmental delay, Patent ductus arteriosus, Aortic valve stenosis, Ventricular septal defect, Bicuspid aortic valve\n  recorded ABSENT: Vesicoureteral reflux, Hydronephrosis, Duplicated collecting system, Microcephaly, Eczematoid dermatitis, Corneal epithelial edema, Papilledema, Strabismus, Glaucoma, Pilonidal sinus, Neonatal respiratory distress, Hearing impairment, Moderate global developmental delay, Hyperactivity, Collectionism, Anxiety, Agenesis of corpus callosum, Brain atrophy, Colpocephaly, Precocious puberty, Polyhydramnios, Chronic constipation, Feeding difficulties, Coarctation of aorta, Atrial septal defect (+2 more)\n\nP05 (age 14.8, male)\n  observed: Cryptorchidism, Micropenis, Chordee, Shawl scrotum, Prominent nose, Facial asymmetry, Hypertelorism, Posteriorly rotated ears, Low-set ears, Global developmental delay, Intellectual disability, Seizure, Autistic behavior, Pineal cyst, Hypotonia\n  recorded ABSENT: Hypospadias, Ureteral duplication, Crossed fused renal ectopia, Feeding difficulties, Micrognathia, Retrognathia, Nystagmus, Strabismus, Cerebral visual impairment, Hearing impairment, Delayed speech and language development, Motor delay, Absent thumb, Short thumb, Patent ductus arteriosus, Truncus arteriosus, Atrial septal defect, Ventricular septal defect, Recurrent lower respiratory tract infections\n\nP06 (age 8.0, male)\n  observed: Global developmental delay, Mild intellectual disability, Delayed speech and language development, Delayed ability to walk, Hypotonia, Failure to thrive, Low-set ears, Downslanted palpebral fissures, Hypertelorism, Ptosis, Horizontal eyebrow, Protruding ear, Micrognathia, Narrow mouth, Trismus, Laryngomalacia, Feeding difficulties, Impaired mastication, Micropenis, Seizure, Hypoplasia of the corpus callosum, Simplified gyral pattern, Delayed CNS myelination, Retrocerebellar cyst, Tapered finger, Narrow nail, Obstructive sleep apnea, Plagiocephaly\n  recorded ABSENT: Moderate intellectual disability, Absent speech, Delayed ability to sit, Esotropia, Upslanted palpebral fissure, Hypermetropia, Depressed nasal bridge, Anteverted nares, Tented upper lip vermilion, High palate, Tracheomalacia, Focal emotional seizure with laughing, Autistic behavior, Widely spaced teeth, Bruxism, Clinodactyly, Prominent fingertip pads, Small hand, Short foot, Positional foot deformity, Hepatomegaly, Cerebral palsy, Cerebral visual impairment, Relative macrocephaly, Ventricular septal defect (+2 more)\n\nP07 (age 18.0, female)\n  observed: Frontal bossing, Broad hallux, Clinodactyly, Brachydactyly, Hypertelorism, Short nose, Macrocephaly, Short stature, Midface retrusion, Mesomelia, Scoliosis, High forehead, Hearing impairment, Depressed nasal bridge, Wide nasal bridge, Long eyelashes, Proptosis, Short neck\n  recorded ABSENT: Cleft soft palate, Bifid tongue, Broad thumb, Camptodactyly, Nail dysplasia, Gingival overgrowth, Umbilical hernia, Inguinal hernia, Long philtrum, Micrognathia, Upslanted palpebral fissure, Blue sclerae, Sacral dimple, Seizure, Obstructive sleep apnea, Omphalocele, Abnormal heart morphology\n\nP08 (age 5.0, male)\n  observed: Broad nasal tip, Macrocephaly, Astigmatism, Strabismus, Inverted nipples, Protruding ear, Genu valgum, Pes planus, Autistic behavior, Asthma, Obesity\n  recorded ABSENT: Macroglossia, Smooth philtrum, Thin upper lip vermilion, Everted upper lip vermilion, Supernumerary maxillary incisor, Widely spaced teeth, Narrow palate, High palate, Broad forehead, Narrow forehead, Prominent forehead, Pointed chin, Midface retrusion, Epicanthus, Blepharophimosis, Wide nasal bridge, Depressed nasal bridge, Prominent nose, Narrow nose, Low hanging columella, Bulbous nose, Short nose, Small face, Microcephaly, Plagiocephaly (+24 more)\n\nP09 (age 24.0, female)\n  observed: Cleft palate, High, narrow palate, Depressed nasal tip, Large earlobe, Recurrent otitis media, Intellectual disability, Global developmental delay, Severe short stature, Prominent fingertip pads, Short 5th finger, Scoliosis, Decreased memory B cell proportion\n  recorded ABSENT: Hearing impairment, Decreased circulating total IgG concentration, Decreased circulating IgG2 concentration, Decreased circulating IgA concentration, Bicuspid aortic valve, Abnormal mitral valve morphology, Ventricular septal defect, Atrial septal defect, Right ventricular hypertrophy, Hypoplastic left ventricle, Tetralogy of Fallot, Coarctation of aorta, Interrupted aortic arch, Patent ductus arteriosus, Scimitar anomaly, Aortic valve stenosis, Decreased CD4+ memory T cell proportion\n\nP10 (age 1.9, male)\n  observed: High forehead, Depressed nasal bridge, Micrognathia, Severe muscular hypotonia, Low-set ears, Pulmonary artery stenosis, Disproportionate short stature\n  recorded ABSENT: Cortical thickening of long bone diaphyses, Bilateral cleft lip, Tented philtrum, Smooth philtrum, Long philtrum, Broad forehead, Frontal bossing, Epicanthus, Hooded eyelid, Thin eyebrow, Thick eyebrow, Synophrys, Anteverted nares, Prominent nose, Flat face, Long face, Oval face, Round face, Triangular face, Short neck, Astigmatism, Cataract, Retinal detachment, Papilledema, Hypertelorism (+10 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.45,
+     "for": "Presents with global developmental delay, intellectual disability, and autistic behavior, matching the report's description of delayed psychomotor development, intellectual disability, and behavioral abnormalities.",
+     "against": "Motor delay and delayed speech and language development are recorded as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.25,
+     "for": "Exhibits global developmental delay, mild intellectual disability, and delayed ability to walk, consistent with the neurodevelopmental phenotype and delayed psychomotor development.",
+     "against": "Autistic behavior is explicitly recorded as absent despite the report noting behavioral characteristics."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.15,
+     "for": "Exhibits global developmental delay, intellectual disability, and delayed ability to walk, which align with delayed psychomotor development and intellectual disability.",
+     "against": "A wide range of behavioral abnormalities (autistic behavior, ADHD, anxiety, aggressive behavior) are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.1,
+     "for": "Features both global developmental delay and intellectual disability, concordant with the core neurodevelopmental features in the report.",
+     "against": "Lacks specific documentation of behavioral manifestations or motor milestone delays."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.05,
+     "for": "Shows severe global developmental delay with delayed walking and sitting, directly demonstrating delayed psychomotor development.",
+     "against": "Lacks documented intellectual disability or behavioral problems, and exhibits numerous severe multisystem anomalies not referenced in the report."
+    }
+   ],
+   "what_the_report_lacked": "The provided report contained only brief summary snippets highlighting broad neurodevelopmental features (intellectual disability, developmental delay, behavioral abnormalities) without detailed information on characteristic facial dysmorphisms, neurological signs, or congenital malformations associated with PSMD12 mutations.",
+   "tokens_in": 2747,
+   "tokens_out": 2920,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.45,
+     "for": "Presents with global developmental delay, intellectual disability, and behavioral abnormalities (autistic behavior), precisely matching the core neurodevelopmental spectrum highlighted in the report.",
+     "against": "Specific motor delay and delayed speech and language development are recorded as absent despite the diagnosis of global developmental delay."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.3,
+     "for": "Exhibits delayed psychomotor development (delayed walking and speech), global developmental delay, and mild intellectual disability.",
+     "against": "Autistic behavior is explicitly recorded as absent, leaving the characteristic behavioral domain unrepresented."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.12,
+     "for": "Demonstrates intellectual disability, global developmental delay, and delayed psychomotor development (delayed ability to walk).",
+     "against": "Multiple behavioral issues (autistic behavior, ADHD, aggressive behavior, anxiety) and delayed speech and language development are documented as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.08,
+     "for": "Displays global developmental delay and intellectual disability, concordant with the neurodevelopmental findings described.",
+     "against": "Lacks documentation of behavioral manifestations or specific delayed psychomotor milestones."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.05,
+     "for": "Features marked delayed psychomotor development including severe global developmental delay, delayed walking, delayed sitting, and speech delay.",
+     "against": "Intellectual disability is not recorded, and no behavioral abnormalities are documented."
+    }
+   ],
+   "what_the_report_lacked": "The report provided only high-level neurodevelopmental descriptors (developmental delay, intellectual disability, behavioral phenotypes) and lacked phenotypic specifics regarding craniofacial dysmorphisms, congenital anomalies (cardiac, renal, urogenital), musculoskeletal features, or specific behavioral manifestations associated with PSMD12 haploinsufficiency.",
+   "tokens_in": 2747,
+   "tokens_out": 4233,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.85,
+     "for": "Demonstrates cardinal features of Stankiewicz-Isidor syndrome including global developmental delay, intellectual disability, speech delay, hypotonia, feeding difficulties, distinctive craniofacial signs (downslanted palpebral fissures, ptosis, hypertelorism, protruding/low-set ears, micrognathia), micropenis, and central nervous system anomalies (hypoplasia of the corpus callosum, simplified gyral pattern, delayed CNS myelination, seizures).",
+     "against": "Recorded absence of autistic behavior and depressed nasal bridge, which can occasionally be observed in the syndrome."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.06,
+     "for": "Shows global developmental delay, intellectual disability, hypotonia, feeding difficulties, and skeletal involvement (scoliosis, small hands).",
+     "against": "Has microcephaly and mandibular prognathia rather than micrognathia, and lacks prominent ocular/ear dysmorphisms and neuroimaging findings; recorded absence of speech delay and behavioral phenotypes."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.04,
+     "for": "Presents with global developmental delay, intellectual disability, hypotonia, seizures, low-set ears, hypertelorism, and micropenis.",
+     "against": "Features such as a shawl scrotum point strongly toward Aarskog syndrome, and delayed speech and language development is explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Exhibits severe neurodevelopmental delay, seizures, corpus callosum abnormalities, delayed myelination, and micrognathia/Pierre-Robin sequence.",
+     "against": "Has extensive complex congenital defects (intestinal malrotation, tethered cord, SIADH, pontine hypoplasia) not typical for isolated PSMD12 haploinsufficiency."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.02,
+     "for": "Presents with intellectual disability, global developmental delay, scoliosis, and palatal involvement (cleft palate, high narrow palate).",
+     "against": "Prominent fingertip pads and decreased memory B cell proportions are characteristic of Kabuki syndrome rather than Stankiewicz-Isidor syndrome."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of the specific craniofacial gestalt, organ-system breakdown (such as genitourinary and brain MRI findings), and exact behavioral phenotypes classically seen in PSMD12 haploinsufficiency.",
+   "tokens_in": 2747,
+   "tokens_out": 2241,
+   "round": 3
+  }
+ ]
+}

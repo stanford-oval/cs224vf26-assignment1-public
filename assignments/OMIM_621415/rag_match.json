@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621415",
+ "omim": "OMIM:621415",
+ "disease": "Intellectual developmental disorder, autosomal dominant 77",
+ "gene": "LRRC7",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 1585,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Intellectual developmental disorder, autosomal dominant 77 (LRRC7, OMIM:621415):\n\n[1] 621415 - INTELLECTUAL DEVELOPMENTAL DISORDER, ...\nhttps://omim.org/entry/621415\nAutosomal dominant intellectual developmental disorder-77 (MRD77) is characterized by global developmental delay that leads to mild to ...\n\n[2] Intellectual Developmental Disorder, Autosomal Dominant 77\nhttps://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_77\nAutosomal dominant intellectual developmental disorder-77 (MRD77) is characterized by global developmental delay that leads to mild to moderate intellectual ...\n\n[3] LRRC7 gene Leucine Rich Repeat Containing 7\nhttps://www.genecards.org/card/LRRC7\nDiseases associated with LRRC7 include Intellectual Developmental Disorder, Autosomal Dominant 77 and Cocaine Dependence. An important paralog of this gene ...\n\n[4] Activity\nhttps://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=LRRC7\nLRRC7, Ida Ertmanska Phenotypes for gene: LRRC7 were changed from neurodevelopmental disorder ... intellectual developmental disorder, autosomal dominant 77, ...\n\n[5] Variants in LRRC7 lead to intellectual disability, autism ...\nhttps://www.nature.com/articles/s41467-024-52095-x\nby J Willim \u00b7 2024 \u00b7 Cited by 18 \u2014 We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or ...\n\n[6] Relationships\nhttps://zfin.org/action/ontology/term-detail-popup?termID=DOID:0081469\nAn autosomal dominant intellectual developmental disorder that is characterized by global developmental delay that leads to mild to moderate intellectual ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 8.5, female)\n  observed: Microcephaly, Joint hypermobility, Deeply set eye, Epileptic spasm, Hypsarrhythmia, Intellectual disability, Autistic behavior, Delayed CNS myelination, Epicanthus\n  recorded ABSENT: Short stature, Sacral dimple, Dermal translucency, Slender finger, Pes planus, Retrognathia, Abnormal calvaria morphology, Abnormal fontanelle morphology, Macrocephaly, Pectus excavatum, Inguinal hernia, Anteverted ears, Posteriorly rotated ears, Low-set ears, Macular hypoplasia, Microphthalmia, Hypotelorism, Strabismus, Wide intermamillary distance, Inverted nipples, Long face, Triangular face, Downturned corners of mouth, Ankyloglossia, Thin vermilion border (+6 more)\n\nP02 (age None, unknown_sex)\n  observed: Developmental regression, Stereotypical hand wringing, Hypotonia, Inappropriate laughter, Bruxism, Gait disturbance\n  recorded ABSENT: (none recorded)\n\nP03 (age 8.0, male)\n  observed: Frontal bossing, Macrocephaly, Dolichocephaly, Deeply set eye, Global developmental delay, Gait disturbance, Delayed CNS myelination, Atrial septal defect, Recurrent infections\n  recorded ABSENT: Developmental cataract, Esotropia, Amblyopia, Hypermetropia, Insomnia, Seizure, Simplified gyral pattern, Periventricular leukomalacia\n\nP04 (age 3.0, male)\n  observed: Premature birth, Neonatal respiratory distress, Recurrent pneumonia, Recurrent otitis media, Food allergy, Global developmental delay, Motor delay, Delayed speech and language development, Hypotonia\n  recorded ABSENT: Broad forehead, High forehead, Frontal bossing, Prominent forehead, High anterior hairline, Pointed chin, Broad chin, Malar flattening, Downslanted palpebral fissures, Long nose, Wide nasal bridge, Bulbous nose, Facial asymmetry, Dolichocephaly, Plagiocephaly, Large for gestational age, Hypertelorism, Deeply set eye, Posteriorly rotated ears, Low-set ears, Microtia, Seizure, Hydrocephalus, Ventriculomegaly, Cerebellar vermis hypoplasia (+5 more)\n\nP05 (age 16.0, female)\n  observed: Nevus, Horizontal nystagmus, Typical absence seizure, Interictal EEG abnormality, Impaired tandem gait, Postural tremor, Intention tremor, Decreased patellar reflex, Dysmetria, Attention deficit hyperactivity disorder, Delayed speech and language development, Anxiety, Mild global developmental delay, Delayed ability to sit, Delayed ability to walk, Scoliosis, Delayed skeletal maturation\n  recorded ABSENT: Premature birth, Menorrhagia, Type II diabetes mellitus, Precocious puberty, Small for gestational age, Vitiligo, Soft skin, Telangiectasia of the skin, Eczematoid dermatitis, Coloboma, Vitreous haze, Strabismus, Cerebral visual impairment, Hypermetropia, Myopia, Hearing impairment, Bilateral tonic-clonic seizure, Status epilepticus, Febrile seizure (within the age range of 3 months to 6 years), Infantile spasms, Myoclonic seizure, Focal-onset seizure, Restlessness, Impulsivity, Absent speech (+6 more)\n\nP06 (age 0.5, female)\n  observed: Pain, Aggressive behavior, Low frustration tolerance, Delayed speech and language development, Sleep disturbance, Mild intellectual disability, Self-injurious behavior, Pain insensitivity, Mild global developmental delay, Severe global developmental delay\n  recorded ABSENT: Hypotonia, Macroglossia, Frontal bossing, Abnormality of skull size, Clinodactyly of the 5th finger, Tapered finger, Pes valgus, Pes planus, Tall stature, Postnatal growth retardation, Heart murmur, Recurrent infections, Chronic constipation, Encopresis, Macrotia, Low-set ears, Hearing impairment, Hypertelorism, Esotropia, Exotropia, Hypometric saccades, Bilateral ptosis, Hypermetropia, Delayed ability to walk, Unilateral cleft lip (+6 more)\n\nP07 (age 6.0, male)\n  observed: Palpebral edema, Congenital megaureter, Unilateral renal agenesis, Cleft palate, Narrow mouth, Narrow naris, Underdeveloped nasal alae, Plagiocephaly, Microretrognathia, Anal atresia, Short distal phalanx of finger, Strabismus, Hypermetropia, Low-set ears, Hearing impairment, Global developmental delay, Delayed ability to walk, Ventriculomegaly, Short nail, Double outlet right ventricle, Supravalvar pulmonary stenosis, Valvular pulmonary stenosis, Ventricular septal defect, Atrial septal defect, Cardiomegaly\n  recorded ABSENT: High anterior hairline, Myopathic facies, Abnormal facial shape, Unilateral cleft lip, Frontal bossing, Narrow forehead, Prominent forehead, Preauricular skin tag, Preauricular pit, Downslanted palpebral fissures, Limbal dermoid, Synophrys, Sparse eyebrow, Anteverted nares, Depressed nasal bridge, Wide nasal bridge, Short nose, Thick nasal alae, Bulbous nose, Low hanging columella, Prominent supraorbital ridges, Secondary microcephaly, Primary microcephaly, Brachycephaly, Pulmonary artery hypoplasia (+34 more)\n\nP08 (age 26.0, male)\n  observed: Cryptorchidism, Platybasia, Joint hypermobility, Astigmatism, Myopia, Motor delay, Delayed speech and language development, Sleep disturbance, Attention deficit hyperactivity disorder, Anxiety, Psychosis, Pes planus\n  recorded ABSENT: Cleft lip, Cleft palate, Spasticity, Strabismus, Recurrent otitis media, Hearing impairment, Delayed ability to walk, Seizure, Tip-toe gait, Dystonia, Short stature, Hyperextensible skin, Patent ductus arteriosus, Pulmonic stenosis, Ventricular septal defect, Secundum atrial septal defect, Constipation\n\nP09 (age 4.9, female)\n  observed: Cerebral visual impairment, Status epilepticus, Dysphagia, Severe intellectual disability, Ventriculomegaly, Cortical dysplasia, Abnormal corpus callosum morphology, Premature birth, Ventricular septal defect, Feeding difficulties, Hypotonia, Hyperextensibility at elbow, Pes planus\n  recorded ABSENT: Nystagmus, Abnormal renal morphology, Abnormal skull morphology, Abnormality of the dentition, Recurrent otitis media, EEG abnormality, Impaired pain sensation, Hemiparesis, Atypical behavior, Sleep disturbance, Moderate intellectual disability, Mild intellectual disability, Absent speech, Speech articulation difficulties, Dysarthria, Gait disturbance, Dystonia, Postural instability, Peripheral demyelination, Polymicrogyria, Hypoplasia of the corpus callosum, Abnormal cerebellum morphology, Polyneuropathy, Caesarean section, Small for gestational age (+7 more)\n\nP10 (age 9.0, female)\n  observed: Feeding difficulties, Hypotonia, Wide nasal bridge, Hypertelorism, Crumpled ear, Anxiety, Delayed speech and language development, Mild intellectual disability, Motor delay, Seizure\n  recorded ABSENT: Mandibular prognathia, Secondary microcephaly, Primary microcephaly, Low anterior hairline, Flat face, Round face, Long face, Everted lower lip vermilion, Thin upper lip vermilion, Long philtrum, High palate, Broad forehead, Upslanted palpebral fissure, Narrow palpebral fissure, Epicanthus, Medial flaring of the eyebrow, Synophrys, Bulbous nose, Depressed nasal bridge, Narrow nose, Short stature, Small for gestational age, Frontal upsweep of hair, Microtia, Posteriorly rotated ears (+5 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.65,
+     "for": "Presents with mild intellectual disability, speech and motor delay, hypotonia, seizures, and anxiety, which closely match the core neurodevelopmental and behavioral phenotype of LRRC7-related disorder.",
+     "against": "Features dysmorphic ear (crumpled ear) and wide nasal bridge, which are not specifically highlighted as hallmark features."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.15,
+     "for": "Exhibits intellectual disability and autistic behavior, directly aligning with the LRRC7 neurodevelopmental and autism spectrum phenotype.",
+     "against": "The presence of epileptic spasms and hypsarrhythmia points toward an infantile epileptic encephalopathy (West syndrome) rather than the typical mild to moderate intellectual disability syndrome."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.1,
+     "for": "Exhibits mild global developmental delay, speech delay, ADHD, anxiety, and seizures.",
+     "against": "Features prominent cerebellar symptoms such as intention tremor, postural tremor, dysmetria, and nystagmus that point toward an alternate spinocerebellar or ataxic disorder."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.06,
+     "for": "Demonstrates speech and motor delay alongside behavioral and psychiatric manifestations including ADHD and anxiety.",
+     "against": "Lacks documented intellectual disability, and manifests platybasia and psychosis, which are atypical for this condition."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.04,
+     "for": "Displays global developmental delay, motor delay, delayed speech, and hypotonia.",
+     "against": "Has recorded absence of seizures and lacks behavioral manifestations such as autism or ADHD, presenting instead with significant respiratory and infectious complications following premature birth."
+    }
+   ],
+   "what_the_report_lacked": "Detailed clinical synopses describing recurrent craniofacial patterns (if any), specific seizure semiologies, neuroimaging findings, and standardized developmental/psychiatric testing profiles characteristic of LRRC7-related autosomal dominant intellectual developmental disorder-77.",
+   "tokens_in": 2316,
+   "tokens_out": 2666,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.75,
+     "for": "Demonstrates mild intellectual disability, motor and speech delay, hypotonia, seizures, feeding difficulties, and anxiety, alongside mild dysmorphic features (hypertelorism, wide nasal bridge, abnormal ear morphology) consistent with MRD77.",
+     "against": "Lacks a formal diagnosis of autism spectrum disorder, which is frequently emphasized in LRRC7-related disorder."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.12,
+     "for": "Presents with intellectual disability, autistic behavior, and delayed myelination, aligning with the core neurodevelopmental and behavioral phenotype.",
+     "against": "Features hypsarrhythmia and epileptic spasms characteristic of severe epileptic encephalopathy/infantile spasms, contrasting with the typical mild-to-moderate presentation of MRD77."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.06,
+     "for": "Exhibits delayed speech and language development, motor delay, and behavioral/psychiatric manifestations including ADHD and anxiety.",
+     "against": "Lacks documented intellectual disability, and exhibits distinctive features like platybasia and adult-onset psychosis not established for MRD77."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.04,
+     "for": "Shows mild global developmental delay, speech delay, ADHD, anxiety, and absence seizures.",
+     "against": "Dominated by cerebellar ataxia signs (intention and postural tremors, dysmetria, impaired tandem gait, nystagmus) and scoliosis, which are atypical for MRD77."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Has global developmental delay, delayed CNS myelination, and gait disturbance.",
+     "against": "Displays macrocephaly, dolichocephaly, frontal bossing, and recurrent infections, with an absence of seizures and behavioral/autistic features."
+    }
+   ],
+   "what_the_report_lacked": "Specific details regarding the LRRC7 clinical spectrum, including the exact prevalence and types of seizures, specific dysmorphic features, and the relative frequencies of autism versus other behavioral/neurological phenotypes.",
+   "tokens_in": 2316,
+   "tokens_out": 3617,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.8,
+     "for": "Exhibits mild intellectual disability, motor delay, delayed speech and language development, hypotonia, feeding difficulties, seizures, and anxiety, all of which are hallmark features of autosomal dominant intellectual developmental disorder-77 (LRRC7).",
+     "against": "Lacks explicit autistic behavior, which is frequently reported in individuals with LRRC7 pathogenic variants."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.08,
+     "for": "Presents with delayed speech and motor development, attention deficit hyperactivity disorder, and anxiety, consistent with the neurodevelopmental and psychiatric spectrum of LRRC7 variants.",
+     "against": "Lacks documented intellectual disability, seizures, or hypotonia, and features adult-onset psychosis and platybasia which are not classic findings in MRD77."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Features mild global developmental delay, speech and motor delays, attention deficit hyperactivity disorder, anxiety, and seizures, overlapping with the mild neurodevelopmental phenotype of MRD77.",
+     "against": "Prominent cerebellar ataxia signs (dysmetria, intention tremor, impaired tandem gait, nystagmus) are atypical for LRRC7-related disorder."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.04,
+     "for": "Presents with intellectual disability, autistic behavior, and delayed myelination, which align with neurodevelopmental and autism spectrum phenotypes observed in LRRC7.",
+     "against": "Has severe epileptic encephalopathy (epileptic spasms and hypsarrhythmia) and microcephaly, whereas MRD77 typically presents with mild-to-moderate intellectual disability and milder seizure types."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.02,
+     "for": "Shares non-specific neurodevelopmental delay, motor delay, delayed speech, and hypotonia seen in MRD77.",
+     "against": "Features are dominated by prematurity, recurrent respiratory infections, and atopic disease, while seizures and neuropsychiatric signs are absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical synopses from the primary literature on LRRC7 (such as Willim et al., 2024), including specific dysmorphic frequencies (e.g., hypertelorism, ear abnormalities), exact seizure semiologies, and the spectrum of behavioral comorbidities beyond general developmental delay.",
+   "tokens_in": 2316,
+   "tokens_out": 2302,
+   "round": 3
+  }
+ ]
+}

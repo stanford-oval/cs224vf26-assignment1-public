@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"hypoplasia of the corpus callosum\" \"Human Phenotype Ontology\" definition",
+    "corpus callosum hypoplasia definition Human Phenotype Ontology HP 0002079"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/978-3-642-21043-3_30",
+      "title": "Improving phenotype name recognition",
+      "pmid": null,
+      "doi": "10.1007/978-3-642-21043-3_30",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-642-21043-3_30",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40806190",
+      "title": "Assessment of Brain Morphological Abnormalities and Neurodevelopmental Risk Copy Number Variants in Individuals from the UK Biobank",
+      "pmid": "40806190",
+      "doi": "10.3390/ijms26157062",
+      "url": "https://www.mdpi.com/1422-0067/26/15/7062",
+      "abstract_chars": 1406
+    },
+    {
+      "id": "42625446",
+      "title": "A Tiered Genetic Diagnostic Approach in Newborns With Major Congenital Anomalies: Experience From a Tertiary NICU",
+      "pmid": "42625446",
+      "doi": "10.1002/bdr2.70108",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/bdr2.70108",
+      "abstract_chars": 2372
+    },
+    {
+      "id": "41127311",
+      "title": "Reanalysis of Undiagnosed Neurodevelopmental Disorder Cases: From RNU4-2 Variants to Clinical Phenotypes",
+      "pmid": "41127311",
+      "doi": "10.1212/NXG.0000000000200312",
+      "url": "https://www.neurology.org/doi/abs/10.1212/NXG.0000000000200312",
+      "abstract_chars": 1784
+    },
+    {
+      "id": "20412080",
+      "title": "The human phenotype ontology",
+      "pmid": "20412080",
+      "doi": "10.1111/j.1399-0004.2010.01436.x",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1399-0004.2010.01436.x",
+      "abstract_chars": 782
+    },
+    {
+      "id": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem-hpo.html",
+      "title": "CodeSystem: Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem-hpo.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?6872",
+      "title": "Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?6872",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://rarediseases.info.nih.gov/diseases/12487/intellectual-disability-hypoplastic-corpus-callosum-preauricular-tag-syndrome",
+      "title": "Intellectual disability-hypoplastic corpus callosum-preauricular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://rarediseases.info.nih.gov/diseases/12487/intellectual-disability-hypoplastic-corpus-callosum-preauricular-tag-syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42470103",
+      "title": "Expanding the clinical and molecular spectrum of TUBB2B ...",
+      "pmid": "42470103",
+      "doi": "10.1016/j.xhgg.2026.100654",
+      "url": "https://www.cell.com/hgg-advances/fulltext/S2666-2477(26)00094-1",
+      "abstract_chars": 1805
+    },
+    {
+      "id": "36587217",
+      "title": "PhenoExam: gene set analyses through integration of different phenotype databases",
+      "pmid": "36587217",
+      "doi": "10.1186/s12859-022-05122-x",
+      "url": "https://link.springer.com/article/10.1186/s12859-022-05122-x",
+      "abstract_chars": 1713
+    }
+  ],
+  "input_tokens": 4549,
+  "output_tokens": 1805,
+  "usd": 0.00769,
+  "seconds": 22.2,
+  "ok": true
+}

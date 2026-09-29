@@ -1,0 +1,121 @@
+{
+  "hypotheses": [
+    {
+      "text": "In seminal SMAD2 pathogenic variant cohorts, thoracic aortic aneurysm (dilation) manifests in approximately two-thirds of assessed carriers (specifically 10/15 in the 2019 delineation cohort), whereas acute aortic dissection is substantially less frequent at initial clinical ascertainment.",
+      "rationale": "Clarifying the exact frequency ratio of asymptomatic aneurysm dilation versus acute dissection in foundational cohorts is crucial for establishing screening guidelines, as early discovery reports noted an absence or late presentation of aortic dissections relative to thoracic aneurysm dilation.",
+      "aspects": [
+        "pooled",
+        "aortopathy_phenotype"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Peeters, Alaerts, Schepers et al. (2019) demonstrated thoracic aortic aneurysm in 10 out of 15 evaluated individuals in their series, noting that no aortic dissections had previously been reported in proven SMAD2 variant carriers prior to their cohort expansion.",
+          "stance": "supports",
+          "source": {
+            "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+            "authors": [
+              "N Peeters",
+              "M Alaerts",
+              "D Schepers"
+            ],
+            "year": 2019,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+            "quote": "\u2026 in our series display thoracic aortic aneurysm (10/15; \u2026 of SMAD2-related disease. So far, no aortic dissections had been described in proven SMAD2 variant carriers, but aortic dissection \u2026"
+          },
+          "numbers": [
+            {
+              "metric": "thoracic aortic aneurysm prevalence in assessed cohort",
+              "value": "10/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Aortic dissection in SMAD2-associated Loeys-Dietz syndrome 6 occurs predominantly secondary to antecedent, clinically detectable thoracic aortic root or ascending aortic aneurysm dilation, rather than presenting as catastrophic dissection at normal or near-normal aortic calibers (<40 mm).",
+      "rationale": "In TGFBR1/2-associated LDS (LDS1/2), dissections are notorious for occurring at mild dilation, driving early prophylactic aortic root replacement recommendations. If SMAD2 aortopathy consistently requires significant preceding dilation (as hinted by initial series where 10/15 carriers manifested dilation before any dissection was recognized), surgical intervention thresholds could be tailored less aggressively.",
+      "aspects": [
+        "aortic_dissection_threshold",
+        "comparative_aortopathy"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "The 2019 delineation cohort observed that proven SMAD2 variant carriers showed aneurysm formation in 10/15 individuals, with dissection only emerging following broader family and longitudinal phenotyping.",
+          "stance": "supports",
+          "source": {
+            "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+            "authors": [
+              "N Peeters",
+              "M Alaerts",
+              "D Schepers"
+            ],
+            "year": 2019,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+            "quote": "\u2026 in our series display thoracic aortic aneurysm (10/15; \u2026 of SMAD2-related disease. So far, no aortic dissections had been described in proven SMAD2 variant carriers, but aortic dissection \u2026"
+          },
+          "numbers": [
+            {
+              "metric": "aneurysm prevalence without prior dissection",
+              "value": "10/15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Missense variants clustered in the conserved MH2 signaling domain of SMAD2 confer a higher risk of progressing from aneurysm to acute aortic dissection compared to upstream truncating or null alleles.",
+      "rationale": "Foundational families identified by Micha et al. and Schepers et al. harbored variants concentrated in the MH2 functional domain, suggesting a dominant-negative effect on TGF-beta signaling that could provoke vascular wall instability more severe than haploinsufficiency.",
+      "aspects": [
+        "genotype_phenotype",
+        "aortopathy_severity"
+      ],
+      "confidence": 0.6,
+      "evidence": [
+        {
+          "text": "Foundational series highlighted that pathogenic variants predisposing to arterial aneurysms and dissections mapped to the MH2 domain of SMAD2.",
+          "stance": "supports",
+          "source": {
+            "title": "SMAD2 Mutations Are Associated with Arterial Aneurysms and ...",
+            "authors": [
+              "Micha",
+              "Guo"
+            ],
+            "year": 2015,
+            "journal": "Human Mutation",
+            "doi": "10.1002/humu.22854",
+            "pmid": "26247899",
+            "pmc": null,
+            "url": "https://www.semanticscholar.org/paper/SMAD2-Mutations-Are-Associated-with-Arterial-and-Micha-Guo/ce594032333a3bbe8e45cce80400dce7bc98309d",
+            "quote": "Thoracic aortic aneurysm (TAA) is a potentially life-threatening condition in that it places patients at risk for aortic dissection (AoD) or rupture."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact maximal aortic diameters documented at the time of acute aortic dissection across all published SMAD2 cases?",
+      "rationale": "Determines whether SMAD2 dissections follow the aggressive low-diameter threshold pattern seen in LDS1/2 (TGFBR1/2) or the conventional diameter-dependent threshold seen in Marfan syndrome.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "What is the anatomical distribution of dissections in SMAD2 carriers (Stanford Type A ascending vs. Stanford Type B descending/abdominal)?",
+      "rationale": "Systematic knowledge of branch and distal vessel involvement distinguishes LDS subtypes from classic FBN1-related disease.",
+      "promise": 0.75,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

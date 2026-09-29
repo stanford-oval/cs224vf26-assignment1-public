@@ -1,0 +1,87 @@
+{
+  "verdict": "supported",
+  "rationale": "Distal hereditary motor neuropathy 11 (dHMN11, OMIM #620528) is caused by heterozygous loss-of-function/nonsense variants in SPTAN1. The defining pathophysiological and electrophysiological distinction between dHMN and Charcot-Marie-Tooth disease type 2 (CMT2 / HMSN II) is that dHMN is a pure motor axonal neuropathy characterized by preserved sensory nerve action potentials (SNAPs) and normal sensory nerve conduction velocities alongside reduced compound muscle action potentials (CMAPs), whereas CMT2 classically features abnormal or reduced SNAPs representing sensory axonal involvement. Electrophysiological testing of reported SPTAN1 dHMN cohorts and families consistently demonstrates reduced CMAPs with normal sensory nerve action potentials and normal sensory velocities across all tested nerves.",
+  "evidence": [
+    {
+      "text": "Electrophysiological assessment in a family with an autosomal dominant distal hereditary motor neuropathy caused by an SPTAN1 nonsense variant demonstrated preserved sensory nerve conduction velocities and normal sensory nerve action potentials across all tested nerves, confirming pure motor axonal neuropathy.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel de novo SPTAN1 nonsense variant causes hereditary motor neuropathy in a Chinese family",
+        "authors": [
+          "HL Dong",
+          "L Chen",
+          "ZY Wu"
+        ],
+        "year": 2021,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/144/1/e11/6015895",
+        "quote": "about autosomal dominant distal hereditary motor neuropathy (dHMN) caused by \u2026 sensory nerve conduction velocities and sensory nerve action potentials in all tested nerves"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Heterozygous loss-of-function variants in SPTAN1 were identified in 20 patients presenting with peripheral neuropathy manifesting with reduction of compound muscle action potential (CMAP) amplitudes.",
+      "stance": "supports",
+      "source": {
+        "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+        "authors": [
+          "C Laurini",
+          "L Bosco",
+          "AA Zambon",
+          "B Sorrenti"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+        "quote": "with a reduction of compound muscle action potential amplitudes. While peripheral neuropathy \u2026 described 20 patients with heterozygous loss-of-function SPTAN1 variants showing a"
+      },
+      "numbers": [
+        {
+          "metric": "patients described with heterozygous loss-of-function SPTAN1 variants",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "Distal hereditary motor neuropathies (dHMNs) are characterized by pure motor neuropathy with broad genetic heterogeneity, including heterozygous nonsense variants in SPTAN1.",
+      "stance": "supports",
+      "source": {
+        "title": "Hereditary motor neuropathies",
+        "authors": [
+          "MF Dohrn",
+          "M Saporta"
+        ],
+        "year": 2020,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/co-neurology/fulltext/2020/10000/Hereditary_motor_neuropathies.6.aspx?context=LatestArticles",
+        "quote": "purely motor neuropathy, distal hereditary motor neuropathy (dHMN) has a broad \u2026 identified heterozygous nonsense mutations in SPTAN1, a gene previously described"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.9,
+  "new_directions": [
+    {
+      "question_text": "Do subclinical sensory abnormalities or subtle sensory nerve action potential amplitude reductions emerge in long-standing late-stage dHMN11 cases?",
+      "rationale": "General cohorts of clinically diagnosed dHMN patients occasionally exhibit subclinical sensory deficits, and determining whether SPTAN1 loss-of-function specifically produces secondary sensory axonal damage with advanced disease progression is important for differential diagnosis from CMT2.",
+      "promise": 0.82,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "How effectively can muscle MRI fat-infiltration patterns discriminate dHMN11 from distal myopathies and axonal motor neuropathies?",
+      "rationale": "Misdiagnoses between distal myopathies and dHMN frequently occur due to needle EMG misinterpretations; distinct MRI patterns such as a distal-to-proximal reticular fat infiltration gradient could confirm neurogenic dHMN non-invasively.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

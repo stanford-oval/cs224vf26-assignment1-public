@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SNUPN\" \"muscular dystrophy\" \"cerebellar atrophy\"",
+    "SNUPN gene cerebellar ataxia intellectual disability muscular dystrophy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+      "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+      "abstract_chars": 2095
+    },
+    {
+      "id": "https://www.nature.com/articles/s41467-024-45933-5",
+      "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41467-024-45933-5",
+      "abstract_chars": 1127
+    },
+    {
+      "id": "10.1002/acn3.70211",
+      "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+      "pmid": null,
+      "doi": "10.1002/acn3.70211",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "10.1101/2024.07.11.24310169.abstract",
+      "title": "Genetic SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in Purkinje cells",
+      "pmid": null,
+      "doi": "10.1101/2024.07.11.24310169.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.07.11.24310169.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41037170",
+      "title": "Limb-girdle muscular dystrophies",
+      "pmid": "41037170",
+      "doi": "10.1212/cont.0000000000001615",
+      "url": "https://continuum.aan.com/doi/abs/10.1212/cont.0000000000001615",
+      "abstract_chars": 1697
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/41054283/",
+      "title": "SNUPN-Related Muscular Dystrophy: Novel Phenotypic, ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41054283/",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-107183.2",
+      "title": "Submission Details",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-107183.2",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2024.07.11.24310169v1.full-text",
+      "title": "Genetic SNUPN variants cause spinocerebellar atrophy by ...",
+      "pmid": null,
+      "doi": "10.1101/2024.07.11.24310169v1.full-text",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.07.11.24310169v1.full-text",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41705730",
+      "title": "SNUPN variants cause spinocerebellar atrophy by ...",
+      "pmid": "41705730",
+      "doi": "10.1093/brain/awaf348",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41705730/",
+      "abstract_chars": 2095
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "title": "The 2026 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6272,
+  "output_tokens": 4541,
+  "usd": 0.01676,
+  "seconds": 23.5,
+  "ok": true
+}

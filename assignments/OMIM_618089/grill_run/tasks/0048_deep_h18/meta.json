@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FBXO11\" \"congenital heart\" OR \"cardiac\" \"malformations\"",
+    "FBXO11 intellectual developmental disorder congenital heart defects limb reduction"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.mdpi.com/2073-4425/12/12/2021",
+      "title": "Prenatal diagnosis by array comparative genomic hybridization in fetuses with cardiac abnormalities",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/12/12/2021",
+      "abstract_chars": 1126
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1098360025000991",
+      "title": "Optical genome mapping improves clinical interpretation of constitutional copy-number gains and reduces their VUS burden",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1098360025000991",
+      "abstract_chars": 1817
+    },
+    {
+      "id": "37887000",
+      "title": "Repurposing normal chromosomal microarray data to harbor genetic insights into congenital heart disease",
+      "pmid": "37887000",
+      "doi": "10.3390/biology12101290",
+      "url": "https://www.mdpi.com/2079-7737/12/10/1290",
+      "abstract_chars": 1360
+    },
+    {
+      "id": "10.3389/fphys.2020.612927/full",
+      "title": "Neddylation, an emerging mechanism regulating cardiac development and function",
+      "pmid": null,
+      "doi": "10.3389/fphys.2020.612927/full",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2020.612927/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "38268232",
+      "title": "Whole\u2010genome sequencing in prenatally detected congenital malformations: prospective cohort study in clinical setting",
+      "pmid": "38268232",
+      "doi": "10.1002/uog.27592",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/uog.27592",
+      "abstract_chars": 2965
+    },
+    {
+      "id": "https://humandiseasegenes.nl/fbxo11/professionals/clinical-characteristics",
+      "title": "Clinical Characteristics",
+      "pmid": null,
+      "doi": null,
+      "url": "https://humandiseasegenes.nl/fbxo11/professionals/clinical-characteristics",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/activity/?panel=3763&entity=FBXO11",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/activity/?panel=3763&entity=FBXO11",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchsquare.com/article/rs-10148333/latest.pdf",
+      "title": "Defining FBXO11-Related Neurodevelopmental Disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchsquare.com/article/rs-10148333/latest.pdf",
+      "abstract_chars": 1592
+    },
+    {
+      "id": "37887000",
+      "title": "Repurposing Normal Chromosomal Microarray Data to Harbor ...",
+      "pmid": "37887000",
+      "doi": "10.3390/biology12101290",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10604103/",
+      "abstract_chars": 1360
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+      "title": "De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+      "abstract_chars": 1693
+    }
+  ],
+  "input_tokens": 6513,
+  "output_tokens": 4389,
+  "usd": 0.01642,
+  "seconds": 25.0,
+  "ok": true
+}

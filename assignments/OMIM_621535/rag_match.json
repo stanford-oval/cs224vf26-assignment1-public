@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621535",
+ "omim": "OMIM:621535",
+ "disease": "Spinocerebellar ataxia 52",
+ "gene": "RAB3A",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:57",
+ "report_chars": 1510,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Spinocerebellar ataxia 52 (RAB3A, OMIM:621535):\n\n[1] Gene: RAB3A (Hereditary ataxia with onset in adulthood)\nhttps://panelapp.genomicsengland.co.uk/panels/466/gene/RAB3A/\nRAB3A variants which appear to be associated with a condition that includes cerebellar ataxia; pyramidal features; neurodevelopmental delay.\n\n[2] Heterozygous RAB3A variants cause cerebellar ataxia by a ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12316009/\nby H Hengel \u00b7 2025 \u00b7 Cited by 8 \u2014 Here, we identified RAB3A as a candidate gene for autosomal dominant cerebellar ataxia by two independent approaches: linkage in a large dominant ataxia ...\n\n[3] RAB3A (Ataxia) - Gene\nhttps://panelapp-aus.org/panels/271/gene/RAB3A/\nRAB3A is in 4 panels. Spinocerebellar ataxia 52, RAB3A were changed from autosomal dominant cerebellar ataxia. Spinocerebellar ataxia 52, rab3a has been ...\n\n[4] 1 Title: An R83W mutation in Rab3A causes autosomal- ...\nhttps://www.medrxiv.org/content/10.1101/2025.07.16.25330541.full.pdf\nby R Miyamoto \u00b7 2025 \u2014 In this study, we identified a pathogenic RAB3A variant, c.247C>T p.(Arg83Trp), in two families with adult-onset cerebellar ataxia and variable ...\n\n[5] RAB3A\nhttps://marrvel.org/human/gene/5864\nThe RAB3A gene encodes a Ras-related protein that belongs to the highly conserved family of small GTPases. SPINOCEREBELLAR ATAXIA 52 RAB3A, cause a disease.\n\n[6] RAB3A Gene\nhttps://www.genecards.org/card/RAB3A\nPathogenic variants in RAB3A are reported in spinocerebellar ataxia 52. This condition links RAB3A to a disease pathway involving the nervous system\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 16.0, female)\n  observed: Strabismus, Global developmental delay, Intellectual disability, Generalized non-motor (absence) seizure, Ataxia, Lower limb hyperreflexia\n  recorded ABSENT: Microcephaly, Tonic seizure\n\nP02 (age 52.0, male)\n  observed: Horizontal nystagmus, Borderline intellectual disability, Unsteady gait, Broad-based gait, Slurred speech, Depression, Cerebellar atrophy\n  recorded ABSENT: Saccadic smooth pursuit interruptions, Spastic gait, Hyporeflexia of lower limbs, Hyporeflexia of upper limbs, Somatic sensory dysfunction, Babinski sign, Tremor, Lower limb hyperreflexia\n\nP03 (age 25.0, female)\n  observed: Ataxia, Spastic paraplegia, Spastic gait, Upper limb muscle weakness, Lower limb muscle weakness, Skeletal muscle atrophy\n  recorded ABSENT: Microcephaly, Intellectual disability, Seizure, Dystonia, Peripheral axonal neuropathy, Pes cavus\n\nP04 (age 16.2, female)\n  observed: Precocious puberty, Decreased fetal movement, Gastrostomy tube feeding in infancy, Ultra-low vision with retained light perception, Elevated circulating creatine kinase activity, Scoliosis, Elbow contracture, Hypotonia, Respiratory insufficiency, Apnea, Recurrent respiratory infections, Profound global developmental delay, Seizure, Agenesis of corpus callosum\n  recorded ABSENT: Thyroid agenesis, Hydronephrosis, Renal tubular acidosis, Hepatomegaly, Cataract, Optic nerve hypoplasia, Fundus hypopigmentation, Nystagmus, Decreased total lymphocyte count, Decreased total leukocyte count, Decreased circulating immunoglobulin concentration, Knee contracture, Ankle contracture, Microcephaly, Sensorineural hearing impairment, Areflexia, Brisk reflexes, Peripheral neuropathy, Combined immunodeficiency, Hypopigmentation of the skin, Hypopigmentation of hair, Dilated cardiomyopathy, Hypertrophic cardiomyopathy\n\nP05 (age 15.0, male)\n  observed: Babinski sign, Lower limb hyperreflexia, Gait disturbance, Lower limb spasticity, Difficulty running, Leg muscle stiffness\n  recorded ABSENT: Saccadic smooth pursuit interruptions, Somatic sensory dysfunction, Ankle clonus, Scissor gait, Intellectual disability, Dysmetria\n\nP06 (age 33.0, female)\n  observed: Gait imbalance, Ankle clonus, Lower limb hyperreflexia, Babinski sign, Ataxia, Dysarthria, Loss of ambulation, Appendicular spasticity, Cerebellar atrophy\n  recorded ABSENT: (none recorded)\n\nP07 (age 50.0, male)\n  observed: Impaired distal tactile sensation, Impaired vibration sensation in the lower limbs, Impaired pain sensation, Impaired temperature sensation, Absent Achilles reflex, Decreased compound muscle action potential amplitude, Decreased amplitude of sensory action potentials, Hammertoe, Distal upper limb muscle weakness, Distal lower limb muscle weakness, Distal upper limb amyotrophy, Distal lower limb amyotrophy, Pes cavus\n  recorded ABSENT: Spastic gait, Babinski sign, Decreased Achilles reflex, Triceps hyperreflexia, Biceps hyperreflexia\n\nP08 (age 15.0, male)\n  observed: Lower limb spasticity, Upper limb hyperreflexia, Lower limb hyperreflexia, Babinski sign, Loss of ambulation, Ankle clonus, Knee clonus\n  recorded ABSENT: Visual impairment, Hippocampal sclerosis\n\nP09 (age 59.0, female)\n  observed: Paresthesia, Resting tremor, Hand tremor, Dystonia, Dyskinesia, Bradykinesia, Parkinsonism with favorable response to dopaminergic medication, Anxiety, Rigidity, Back pain\n  recorded ABSENT: Postural instability, REM sleep behavior disorder\n\nP10 (age 20.0, female)\n  observed: Truncal ataxia, Cerebellar ataxia associated with quadrupedal gait, Dysarthria, Mild intellectual disability, Abnormality of extrapyramidal motor function, Dysmetria, Hyperreflexia, Postural tremor, Head tremor\n  recorded ABSENT: Cerebral palsy, Severe intellectual disability, Moderate intellectual disability, Nystagmus, Hypoplasia of the iris, Clonus\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.52,
+     "for": "Demonstrates adult presentation of cerebellar ataxia (gait imbalance, dysarthria, cerebellar atrophy) combined with prominent pyramidal signs (appendicular spasticity, lower limb hyperreflexia, ankle clonus, Babinski sign), closely aligning with adult-onset spinocerebellar ataxia with pyramidal features.",
+     "against": "Lacks documentation of neurodevelopmental delay, which was explicitly noted in report [1] as an associated feature."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.31,
+     "for": "Displays all three specific features highlighted in report [1]: cerebellar ataxia, pyramidal involvement (lower limb hyperreflexia), and neurodevelopmental delay (global developmental delay and intellectual disability).",
+     "against": "The disease is defined as an adult-onset cerebellar ataxia, conflicting with early-onset global developmental delay, and the report does not mention generalized absence seizures or strabismus."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.08,
+     "for": "Presents in adulthood (age 52) with cerebellar ataxia (broad-based gait, slurred speech, cerebellar atrophy) and borderline intellectual disability, fitting adult-onset ataxia with cognitive involvement.",
+     "against": "Pyramidal features are explicitly recorded as absent (spastic gait, lower limb hyperreflexia, and Babinski sign absent), directly contradicting the reported phenotype."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.05,
+     "for": "Features cerebellar ataxia (truncal ataxia, dysmetria, dysarthria), hyperreflexia indicating pyramidal tract involvement, and mild intellectual disability.",
+     "against": "Cerebellar ataxia associated with quadrupedal gait strongly indicates an alternative condition (e.g., CAMRQ), and prominent head/postural tremors are not described in the report."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.04,
+     "for": "Presents in adulthood with progressive ataxia and pyramidal signs (spastic gait, spastic paraplegia).",
+     "against": "Shows prominent skeletal muscle atrophy and lower motor neuron limb weakness not described for RAB3A, while intellectual disability is recorded absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed natural history and phenotypic spectrum data clarifying whether neurodevelopmental delay is an obligate core feature or variable, the typical range of onset age, and whether extracerebellar signs such as seizures, peripheral neuropathy, or specific neuroimaging findings occur.",
+   "tokens_in": 1616,
+   "tokens_out": 9586,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.65,
+     "for": "Demonstrates adult-onset cerebellar ataxia, dysarthria, and cerebellar atrophy along with prominent pyramidal tract signs (ankle clonus, lower limb hyperreflexia, Babinski sign, and appendicular spasticity), closely matching reports of SCA52.",
+     "against": "Lacks documentation of neurodevelopmental delay, which is cited as an associated feature in some review summaries."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.2,
+     "for": "Exhibits ataxia, a pyramidal sign (lower limb hyperreflexia), and neurodevelopmental delay (global developmental delay and intellectual disability).",
+     "against": "Has generalized non-motor seizures and pediatric onset without reported cerebellar atrophy, whereas the literature emphasizes autosomal dominant adult-onset cerebellar ataxia."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.08,
+     "for": "Presents at an adult age (52 years) with unsteady gait, cerebellar atrophy, and mild neurocognitive involvement (borderline intellectual disability).",
+     "against": "Explicitly lacks pyramidal features (hyperreflexia, spasticity, and Babinski sign are all documented absent), which are considered characteristic."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.04,
+     "for": "Presents with ataxia and spastic paraplegia/spastic gait reflecting cerebellar and pyramidal involvement.",
+     "against": "Features prominent upper and lower limb muscle weakness and muscle atrophy, and explicitly lacks intellectual disability or other neurodevelopmental features."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.02,
+     "for": "Exhibits cerebellar ataxia, dysarthria, hyperreflexia, and mild intellectual disability.",
+     "against": "The hallmark presence of quadrupedal gait strongly indicates cerebellar ataxia-mental retardation syndrome (CAMRQ) rather than spinocerebellar ataxia 52."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical narratives regarding precise age at onset, the exact spectrum/penetrance of neurodevelopmental delay in adult patients, and whether epilepsy or extrapyramidal features are documented across extended SCA52 kindreds.",
+   "tokens_in": 1616,
+   "tokens_out": 3134,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.65,
+     "for": "Demonstrates adult-onset cerebellar ataxia, dysarthria, and cerebellar atrophy along with prominent pyramidal features (ankle clonus, lower limb hyperreflexia, Babinski sign, appendicular spasticity), matching the core presentation in the report.",
+     "against": "Lacks explicit documentation of early neurodevelopmental delay mentioned in some gene review panels."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.15,
+     "for": "Exhibits cerebellar ataxia, neurodevelopmental/global developmental delay, intellectual disability, and lower limb hyperreflexia.",
+     "against": "Features generalized non-motor absence seizures and strabismus which are not mentioned in the report, and onset is pediatric rather than adult-onset."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.1,
+     "for": "Presents with adult-onset cerebellar ataxia, slurred speech, cerebellar atrophy, and borderline intellectual disability.",
+     "against": "Pyramidal features are explicitly documented as absent (absence of hyperreflexia, Babinski sign, and spastic gait)."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.06,
+     "for": "Presents with adult-onset ataxia combined with pyramidal signs including spastic paraplegia and spastic gait.",
+     "against": "Prominent skeletal muscle atrophy and upper/lower limb muscle weakness point more toward a motor neuron or complex spastic paraplegia syndrome, and intellectual delay is recorded absent."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.04,
+     "for": "Displays cerebellar ataxia, dysarthria, mild intellectual disability, and hyperreflexia.",
+     "against": "Presents with quadrupedal gait and extrapyramidal features (postural and head tremors), which are atypical for spinocerebellar ataxia 52."
+    }
+   ],
+   "what_the_report_lacked": "Detailed clinical characterization of the exact spectrum and penetrance of pyramidal signs, cognitive impairment/neurodevelopmental delay versus pure adult-onset progressive ataxia, and neuroimaging specifics (such as whether cerebellar atrophy is purely cerebellar or olivopontocerebellar).",
+   "tokens_in": 1616,
+   "tokens_out": 2536,
+   "round": 3
+  }
+ ]
+}

@@ -1,0 +1,366 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{booktabs}
+
+% ---- small notation helpers ----
+\newcommand{\Ledger}{\mathcal{L}}
+\newcommand{\Dirs}{\mathcal{D}}
+\newcommand{\Claims}{\mathcal{C}}
+\newcommand{\Priors}{\mathcal{P}}
+\newcommand{\Labels}{\Lambda}
+\newcommand{\Queue}{Q}
+\newcommand{\niche}{\nu}
+\newcommand{\score}{s}
+\newcommand{\grad}{g}
+\newcommand{\Bex}{B_{\mathrm{ex}}}
+\newcommand{\Bve}{B_{\mathrm{ve}}}
+\newcommand{\indic}[1]{\mathbf{1}\!\left[#1\right]}
+\algrenewcommand\algorithmicrequire{\textbf{Input:}}
+\algrenewcommand\algorithmicensure{\textbf{Output:}}
+
+\title{\textbf{Methodology v2: The Belief-Ledger Research Agent}\\[2pt]
+\large A formal specification of the promotion / verification / calibration core}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Objects and notation}
+
+\paragraph{The belief ledger $\Ledger=(\Dirs,\Claims,\Priors,\mathrm{glossary})$.}
+The ledger is a two-level hierarchy: \emph{directions} are questions to investigate; each direction
+owns the \emph{claims} produced while investigating it.
+
+\smallskip
+\noindent\textbf{Direction} $d\in\Dirs$:
+\[
+d=\big(\underbrace{q_d}_{\text{question}},\ \underbrace{\pi_d}_{\text{parent dir}},\
+\underbrace{\sigma_d}_{\text{status}},\ \underbrace{\rho_d\in[0,1]}_{\text{promise}},\
+\underbrace{\Pi_d\subseteq\Claims}_{\text{produced claims}},\
+\underbrace{\chi_d}_{\text{claim it corrects}}\big),
+\quad
+\sigma_d\in\{\textsc{open},\textsc{expl},\textsc{done},\textsc{prom},\textsc{closed}\}.
+\]
+\textbf{Claim} $c\in\Claims$:
+\[
+c=\big(\underbrace{\mathrm{txt}_c}_{\text{text}},\
+\underbrace{\mathrm{asp}_c}_{\text{aspects}},\
+\underbrace{E_c}_{\text{evidence (sources)}},\
+\underbrace{v_c}_{\text{verdict}},\
+\underbrace{\theta_c,[\ell_c,h_c]}_{\text{LLM posterior: mean, }90\%\text{ interval}},\
+\underbrace{d_c}_{\text{owner dir}},\
+\underbrace{\mathrm{def}_c}_{\text{defect}},\
+\underbrace{n_c}_{\text{\#corrections}},\
+\underbrace{\phi_c}_{\text{parent claim}}\big),
+\]
+\[
+v_c\in\{\,\mathrm{U}\ (\text{unverified}),\ \mathrm{C}\ (\text{confirmed}),\ \mathrm{R}\ (\text{refuted}),\ \mathrm{E}\ (\text{error / fixable})\,\}.
+\]
+\textbf{Prior candidate} $p\in\Priors$: $p=(\mathrm{ans}_p,\ \theta_p,\ \mathrm{aspect}_p)$ (model's self-scored guesses).
+
+\paragraph{Derived functions.}
+\begin{align*}
+\text{provenance gate:}\quad & \grad(c)=\indic{\,|E_c|>0\ \wedge\ \exists e\in E_c:\mathrm{resolvable}(e)\,}\\
+\text{niche (QD descriptor):}\quad & \niche(c)=\text{first aspect of }\mathrm{asp}_c\ \text{(lower-cased)},\ \text{else }\bot\\
+\text{calibrated score:}\quad & \score(c)=\Gamma(\theta_c)\quad\text{where }\Gamma\ \text{is the isotonic map (}\Gamma=\mathrm{id}\text{ until fitted; Alg.~\ref{alg:cal})}\\
+\text{Beta posterior:}\quad & \mathrm{Beta}(\bar s\,\kappa_c,\ (1-\bar s)\,\kappa_c),\quad \bar s=\mathrm{clip}(\score(c),\varepsilon,1-\varepsilon)
+\end{align*}
+The posterior mean is the calibrated confidence $\score(c)$; its spread is LLM-derived and \emph{itself
+calibrated} against verification. EXPLORE/VERIFY emit a $\sim\!90\%$ credible interval $[\ell_c,h_c]$ per
+claim; the concentration is
+\[
+\kappa_c=\mathrm{clip}\!\Big(\tfrac{\bar s(1-\bar s)}{v_c}-1,\ 1,\ 200\Big),\qquad
+v_c=\begin{cases}
+W(h_c-\ell_c) & \text{if the width map $W$ is fitted (calibrated variance)}\\
+\big(\tfrac{h_c-\ell_c}{2\cdot1.645}\big)^2 & \text{else if an interval was given (raw)}\\
+\bar s(1-\bar s)/(\kappa+1) & \text{else (fixed fallback).}
+\end{cases}
+\]
+A wide/unreliable posterior $\Rightarrow$ small $\kappa_c$ $\Rightarrow$ more likely to be Thompson-sampled.
+\emph{Calibrate the belief AND its uncertainty} (Alg.~\ref{alg:cal}), rather than trusting the raw interval.
+
+\paragraph{Global run state.}
+Budget pools $\Bex=\rho B$, $\Bve=(1-\rho)B$ with spends $S_{\mathrm{ex}},S_{\mathrm{ve}}$; verify queue
+$\Queue$; FDR wealth $W$; calibration labels $\Labels=\{(\theta^{\mathrm{raw}}_i,y_i)\}$, $y_i\in\{0,1\}$;
+isotonic map $\Gamma$; round counter $t$.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+Symbol & Meaning & Default \\ \midrule
+$B,\ \rho$ & total USD budget; explore/verify split & $-,\ 0.7$\\
+$K$ & best-first batch width (directions explored per wave) & $5$\\
+$\eta$ & Hyperband factor: promote budget $\mathrm{keep}=\lceil |\text{fresh}|/\eta\rceil$ & $3$\\
+$f_{\mathrm{ex}}$ & fraction of the beam budget reserved for Thompson exploration & $0.34$\\
+$\kappa$ & fallback Beta concentration (when a claim has no LLM interval) & $8$\\
+$w_0,\ \alpha,\ \omega,\ \alpha_{\min}$ & FDR: initial wealth, invest scale, reward, floor cost & $0.5,0.05,0.05,0.005$\\
+$L_{\min},\ R$ & calibration: min labels to fit; refit every $R$ labels & $12,\ 6$\\
+$\tau_{\cos},\ \delta_{\mathrm{src}}$ & corroboration: cosine threshold; per-source confidence bump & $0.88,\ 0.04$\\
+$A_{\max}$ & max error$\to$correct$\to$re-verify attempts (peeking guard) & $2$\\
+$\beta_{\mathrm{niche}}$ & frontier promise boost for thin/contested parent directions & $0.15$\\
+$c_{\mathrm{ex}},c_{\mathrm{ve}},\mu$ & per-task target USD (explore/verify) and watchdog cap mult. & $3.5,1.5,1.8$\\
+$m_{\mathrm{rr}}$ & rerank directly if $|\text{frontier}|\le$ this, else shortlist then rerank & $60$\\
+\bottomrule
+\end{tabular}
+\caption{Parameters (\texttt{Config}).}
+\end{table}
+
+\section{Main loop}
+
+\begin{algorithm}[H]
+\caption{\textsc{Orchestrator} — the control shell}\label{alg:main}
+\begin{algorithmic}[1]
+\Require question $\mathcal{Q}$; parameters (table); model $\textsc{m}$
+\State \Call{Init}{$\mathcal{Q}$} \Comment{parse asks, seed the ledger, probe priors}
+\State $t\gets 0$;\quad converged $\gets$ \textbf{false}
+\While{$t<\textsc{maxRounds}$ \textbf{and} $\{d:\sigma_d=\textsc{open}\}\neq\emptyset$ \textbf{and} $\Bex-S_{\mathrm{ex}}\ge \tfrac12 c_{\mathrm{ex}}$}
+  \State $t\gets t+1$
+  \State $\mathrm{cap}\gets \mu\, c_{\mathrm{ex}}$;\quad $k\gets\max\!\big(1,\ \min(K,\ \lfloor (\Bex-S_{\mathrm{ex}})/\mathrm{cap}\rfloor)\big)$ \Comment{wave fits the pool}
+  \State $\mathrm{batch}\gets$ \Call{SelectBatch}{$k$};\quad \textbf{if} $\mathrm{batch}=\emptyset$ \textbf{then break}
+  \State $\mathrm{fresh}\gets\emptyset$
+  \ForAll{$d\in\mathrm{batch}$ \textbf{in parallel}} \Comment{each $\le \mathrm{cap}$ USD, watchdog-killed at cap}
+     \State $r\gets$ \Call{Explore}{$d$};\quad $\sigma_d\gets\textsc{done}$
+     \State $\mathrm{fresh}\mathrel{+}=$ \Call{Ingest}{$r.\text{claims},\ d$};\quad add $r.\text{newDirections}$ (parents $=d$)
+  \EndFor
+  \State \Call{RescoreCorroboration}{$\mathrm{fresh}$} \Comment{B/C driver: bump backlog on independent evidence}
+  \State \Call{Promote}{$\mathrm{fresh}$} \Comment{rank-elitism $+$ Thompson $\to$ $\Queue$}
+  \State \Call{DrainVerify}{} \Comment{FDR-gated three-state verify $+$ calibration}
+  \If{spend since last checkpoint $\ge B/6$} \State converged $\gets$ \Call{Evaluate}{} \EndIf
+\EndWhile
+\State \Call{Finalize}{converged} \Comment{LLM outline-then-fill over confirmed claims $+$ references}
+\end{algorithmic}
+\end{algorithm}
+
+\section{Initialisation}
+
+\begin{algorithm}[H]
+\caption{\textsc{Init} — seed the ledger and bootstrap calibration}\label{alg:init}
+\begin{algorithmic}[1]
+\State $(\mathrm{fields},\mathrm{prior})\gets$ parallel$\big(\textsc{Fields}(\mathcal{Q}),\ \textsc{Prior}(\mathcal{Q})\big)$ \Comment{reason-mode, no tools}
+\State requiredFields $\gets\mathrm{fields}$
+\ForAll{open question $q\in\mathrm{prior}$} \State add $\mathrm{Direction}(q,\ \rho\!=\!0.6)$ \EndFor
+\ForAll{candidate $p=(\mathrm{ans},\theta,\mathrm{aspect})\in\mathrm{prior}$}
+   \State add $\mathrm{Direction}(\text{``confirm/refute ''}\!+\!\mathrm{ans},\ \rho\!=\!0.5+0.4\theta)$;\quad append $p$ to $\Priors$
+\EndFor \Comment{higher prior confidence $\Rightarrow$ higher-promise seeded direction}
+\ForAll{$\tau\in\mathrm{prior.keyTerms}[\,1{:}\,\textsc{groundTerms}\,]$ \textbf{in parallel}} \State glossary$[\tau]\gets$\textsc{Ground}($\tau$) \EndFor
+\State \Call{PriorProbe}{} \Comment{Component G}
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{\textsc{PriorProbe} — verify priors up front to seed the calibrator (Component G)}\label{alg:probe}
+\begin{algorithmic}[1]
+\State \textbf{if} $\neg$\textsc{probeEnabled} \textbf{or} $\Priors=\emptyset$ \textbf{then return}
+\State $P^\star\gets$ top-$k_{\mathrm{probe}}$ of $\Priors$ by $\theta_p$
+\ForAll{$p\in P^\star$ \textbf{in parallel}}
+   \State $c\gets$ new Claim$(\mathrm{txt}=\mathrm{ans}_p,\ \theta=\theta_p,\ \mathrm{asp}=[\mathrm{aspect}_p],\ E=\emptyset)$
+   \State $v\gets$ \Call{Verify}{$c$} \Comment{literature search finds its own sources}
+   \State \Call{ApplyVerification}{$c,v$}
+   \If{$v_c\in\{\mathrm{C,R}\}$} \State $\Labels\mathrel{+}=(\theta_p,\ \indic{v_c=\mathrm{C}})$ \EndIf \Comment{real (conf$\to$outcome) label}
+   \If{$v_c=\mathrm{C}\ \wedge\ \grad(c)$} \State add $c$ to $\Claims$ \EndIf \Comment{confirmed prior $\to$ early grounded claim}
+\EndFor
+\State \textbf{if} $|\Labels|\ge L_{\min}$ \textbf{then} $\Gamma\gets$\Call{FitCalibrator}{$\Labels$}
+\end{algorithmic}
+\end{algorithm}
+
+\section{Frontier selection}
+
+\begin{algorithm}[H]
+\caption{\textsc{SelectBatch}$(k)$ — best-first frontier with hierarchy boost and LLM rerank}\label{alg:frontier}
+\begin{algorithmic}[1]
+\State $O\gets\{d:\sigma_d=\textsc{open}\}$;\quad \textbf{if} $O=\emptyset$ \textbf{then return} $\emptyset$
+\State $\forall d\in O:\ \rho_d^{0}\gets w_1\,\mathrm{rel}(d)+w_2\,\mathrm{EIG}(d)+w_3\,\mathrm{nov}(d)-w_4\,\mathrm{cost}(d)$ \Comment{embedding score, \S5}
+\Statex \hfill$\mathrm{rel}=\cos(d,\text{question}\!\downarrow\!\text{uncovered}),\quad \mathrm{nov}=1-\max_{e\in\text{explored}}\cos(d,e),\quad \mathrm{cost}=1-e^{-\mathrm{est}_d/5}$
+\State $\mathrm{DS}\gets$ \Call{DirectionScores}{} \Comment{Component C hierarchy}
+\ForAll{$d\in O$ with $\mathrm{DS}[\pi_d].\mathrm{thin}\vee\mathrm{DS}[\pi_d].\mathrm{contested}$}
+   \State $\rho_d^{0}\gets\min(1,\ \rho_d^{0}+\beta_{\mathrm{niche}})$ \Comment{dig deeper where the parent was inconclusive}
+\EndFor
+\State $\rho_d\gets\rho_d^{0}$;\quad $\mathrm{ranked}\gets$ sort $O$ by $\rho_d$ desc
+\If{\textsc{rerankFrontier}}
+   \State $\mathrm{pool}\gets \mathrm{ranked}$ \textbf{if} $|O|\le m_{\mathrm{rr}}$ \textbf{else} $\mathrm{ranked}[1{:}\,\textsc{rerankPool}]$
+   \State $\{\rho'_d\}\gets$ \Call{LLM-Rerank}{$\mathcal{Q},\ \mathrm{pool}$} \Comment{reason-mode; score each direction's value $\in[0,1]$}
+   \State $\rho_d\gets\rho'_d\ \forall d\in\mathrm{pool}$;\quad $\mathrm{ranked}\gets$ re-sort $O$ by $\rho_d$
+\EndIf
+\State \Return $\mathrm{ranked}[1{:}k]$
+\end{algorithmic}
+\end{algorithm}
+
+\section{Ingest and corroboration}
+
+\begin{algorithm}[H]
+\caption{\textsc{Ingest}$(\text{rawClaims}, d)$ — add claims with provenance and lineage (Component F)}\label{alg:ingest}
+\begin{algorithmic}[1]
+\State added $\gets\emptyset$
+\ForAll{$rc\in\text{rawClaims}$ with $\mathrm{txt}\neq\varnothing$}
+   \State $c\gets$ new Claim$(\mathrm{txt},\mathrm{asp},\mathrm{numbers},E,\ \theta{=}rc.\text{conf},\ v{=}\mathrm{U},\ d_c{=}d)$
+   \If{$\chi_d\neq\bot\ \wedge\ \chi_d\in\Claims$} \Comment{claim came from a correction/re-investigation direction}
+      \State $\phi_c\gets\chi_d$;\quad $n_c\gets n_{\chi_d}$ \Comment{inherit the correction-attempt count $\Rightarrow$ bounded across regens}
+   \EndIf
+   \State add $c$; index its sources; $\Pi_d\mathrel{+}=c$; added$\mathrel{+}=c$
+\EndFor
+\State \Return added
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{\textsc{RescoreCorroboration}(fresh) and \textsc{Corroborate} (Component B/C — the resurfacing driver)}\label{alg:corr}
+\begin{algorithmic}[1]
+\State \textbf{if} $\neg$\textsc{corrEnabled} \textbf{then return}
+\State $\mathrm{back}\gets\{c\in\Claims:v_c=\mathrm{U}\wedge\grad(c)\wedge c\notin\Queue\wedge c\notin\mathrm{fresh}\}$
+\ForAll{$c'\in\mathrm{fresh}$ with $\grad(c')$}
+   \ForAll{$c\in\mathrm{back}$ with $\cos(\mathrm{txt}_{c'},\mathrm{txt}_{c})\ge\tau_{\cos}$} \Comment{same assertion (embedding)}
+      \State \Call{Corroborate}{$c,\ c'$}
+   \EndFor
+\EndFor
+\Statex\hrulefill
+\Function{Corroborate}{$c,c'$}\Comment{raise $c$'s confidence for an \emph{independent} corroborating source}
+   \State $N\gets\{\,\mathrm{key}(e):e\in E_{c'},\ \mathrm{resolvable}(e),\ \mathrm{key}(e)\notin\{\mathrm{key}(e'):e'\in E_c\}\,\}$
+   \State \textbf{if} $N=\emptyset$ \textbf{then return} $0$ \Comment{same source only $\Rightarrow$ no bump}
+   \State $\theta_c\gets\max\!\big(\theta_c,\ \min(0.95,\ \theta_c+\delta_{\mathrm{src}}\,|N|)\big)$ \Comment{diminishing, capped, never lowers}
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\section{Promotion: beam search $+$ Thompson sampling (Components A + C)}
+
+\begin{algorithm}[H]
+\caption{\textsc{Promote}(fresh) — beam search $+$ Thompson sampling over the resurfacing pool}\label{alg:promote}
+\begin{algorithmic}[1]
+\State $\mathcal{U}\gets\{c\in\Claims:v_c=\mathrm{U}\wedge\grad(c)\wedge c\notin\Queue\}$ \Comment{pool = fresh $\cup$ carried-over backlog}
+\State \textbf{if} $\mathcal{U}=\emptyset$ \textbf{then return}
+\State $\mathrm{keep}\gets\max(1,\ \lceil |\mathrm{fresh}|/\eta\rceil)$ \Comment{\textbf{beam width} = per-wave verify budget}
+\State $n_{\mathrm{ex}}\gets\max(1,\ \mathrm{round}(\mathrm{keep}\cdot f_{\mathrm{ex}}))$;\quad $n_{\mathrm{beam}}\gets\max(0,\ \mathrm{keep}-n_{\mathrm{ex}})$
+\Statex \textbf{\emph{Beam (exploit) — keep the top-scored claims (best-first, i.e. beam search):}}
+\State $\mathrm{ranked}\gets$ sort $\mathcal{U}$ by $\score(c)$ desc
+\State $P\gets$ \Call{NicheSpread}{$\mathrm{ranked},\ n_{\mathrm{beam}}$} \Comment{the beam, niche-spread across aspects}
+\Statex \textbf{\emph{Exploration (explore) — Thompson-sample the rest from the LLM-derived posterior:}}
+\State $\mathrm{tail}\gets\mathcal{U}\setminus P$;\quad $\forall c\in\mathrm{tail}:\ x_c\sim\mathrm{Beta}(\bar s_c\kappa_c,(1-\bar s_c)\kappa_c)$ \Comment{one draw per claim}
+\State $P\mathrel{+}=$ \Call{NicheSpread}{$\mathrm{sort\ tail\ by\ }x_c\mathrm{\ desc},\ \mathrm{keep}-|P|$}
+\ForAll{$c\in P$} \State $\Queue.\mathrm{push}(c)$;\quad $\sigma_{d_c}\gets\textsc{prom}$ \EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{\textsc{NicheSpread}(ordered$,n$) — round-robin one per niche (MAP-Elites diversity)}\label{alg:niche}
+\begin{algorithmic}[1]
+\State \textbf{if} $n\le 0$ \textbf{then return} $\emptyset$
+\State partition \emph{ordered} into per-niche queues $\{B_\nu\}$ preserving order (key $=\niche(c)$)
+\State $P\gets\emptyset$
+\While{$|P|<n$ \textbf{and} $\exists\,\nu:B_\nu\neq\emptyset$}
+   \ForAll{$\nu$ (insertion order)}
+      \State \textbf{if} $B_\nu\neq\emptyset$: pop its head into $P$; \textbf{if} $|P|\ge n$ \textbf{break}
+   \EndFor
+\EndWhile
+\State \Return $P$
+\end{algorithmic}
+\end{algorithm}
+
+\noindent\textit{Note.} The beam width $\mathrm{keep}$ bounds \emph{how many} claims are promoted to the
+expensive VERIFY stage each wave; the beam ($n_{\mathrm{beam}}$ best by $\score$) $+$ Thompson
+($n_{\mathrm{ex}}$ sampled) decide \emph{which}. Unpromoted claims stay in $\mathcal{U}$ and can resurface
+in a later wave. Because the beam is the top-$k$ by \emph{calibrated} score, once $\Gamma$ deflates the
+overconfident $\theta$ the beam re-orders toward genuinely-strong claims, and the LLM-derived posterior
+widths decide how aggressively Thompson explores the rest.
+
+\section{Verification, FDR budget, and calibration (Components D, E, B)}
+
+\begin{algorithm}[H]
+\caption{\textsc{DrainVerify} — FDR-gated three-state verification with online calibration}\label{alg:verify}
+\begin{algorithmic}[1]
+\State \textbf{if} $\Queue=\emptyset$ \textbf{then return}
+\State sort $\Queue$ by $\score(c)$ desc \Comment{cheapest (most calibrated-certain) tests first}
+\While{$\Queue\neq\emptyset$ \textbf{and} $\Bve-S_{\mathrm{ve}}\ge\tfrac12 c_{\mathrm{ve}}$}
+   \If{\textsc{fdrEnabled} \textbf{and} $W<\mathrm{Cost}(\score(\Queue[0]))$} \State \textbf{break} \Comment{FDR brake: error budget spent}\EndIf
+   \State $\mathrm{wave}\gets$ pop up to $n$ affordable claims (front of queue)
+   \ForAll{$c\in\mathrm{wave}$ \textbf{in parallel}}
+      \State $v\gets$ \Call{Verify}{$c$} \Comment{literature search; anchor on $E_c$ if present}
+      \State $\theta^{\mathrm{raw}}\gets\theta_c$;\quad $s^{\star}\gets\score(c)$ \Comment{capture before overwrite}
+      \State \Call{ApplyVerification}{$c,v$}
+      \State \textbf{if} \textsc{fdrEnabled}: $W\gets\max\!\big(0,\ W-\mathrm{Cost}(s^{\star})+\omega\,\indic{v_c=\mathrm{C}}\big)$
+      \State \textbf{if} $v_c\in\{\mathrm{C,R}\}$: $\Labels\mathrel{+}=(\theta^{\mathrm{raw}},\ w_c,\ \indic{v_c=\mathrm{C}})$ \Comment{label: raw conf, stated width, outcome}
+   \EndFor
+   \State \textbf{if} $|\Labels|-\ell_{\mathrm{last}}\ge R$: $\Gamma\gets$\Call{FitCalibrator}{$\Labels$};\ $\ell_{\mathrm{last}}\gets|\Labels|$
+\EndWhile
+\Statex\hrulefill
+\State $\mathrm{Cost}(x)=\alpha_{\min}+\alpha\,(1-x)$ \Comment{speculative (low-score) tests cost more wealth}
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{\textsc{ApplyVerification}$(c,v)$ — three-state routing (Component D)}\label{alg:apply}
+\begin{algorithmic}[1]
+\State $\theta_c\gets v.\mathrm{conf}$;\quad fold $v.\mathrm{correctedNumbers}$, $v.\mathrm{correctedSource}$ into $c$; mark sources verified iff attribution matches
+\State $\mathrm{verdict}\gets v.\mathrm{verdict}\in\{\mathrm{C,E,R}\}$ \quad(legacy fallback: $\mathrm{C}$ if $v.\mathrm{confirmed}$ else $\mathrm{R}$)
+\If{$\mathrm{verdict}=\mathrm{C}$} \State $v_c\gets\mathrm{C}$;\ \Return $\bot$ \Comment{literature supports $\Rightarrow$ lock}\EndIf
+\State $\mathrm{def}_c\gets v.\mathrm{defect}$
+\If{$\mathrm{verdict}=\mathrm{E}$}
+   \State $n_c\gets n_c+1$
+   \If{$n_c\le A_{\max}$} \State $v_c\gets\mathrm{E}$;\ \Return new $\mathrm{Direction}(\text{``correct \& resubmit''},\ \chi{=}c,\ \rho{=}0.70)$ \Comment{bounded fix loop}\EndIf
+   \State \Comment{fix budget spent $\Rightarrow$ fall through to refuted}
+\EndIf
+\State $v_c\gets\mathrm{R}$;\ \Return new $\mathrm{Direction}(\text{``re-investigate''},\ \chi{=}c,\ \rho{=}0.65)$ \Comment{contradicted / unsupported}
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{\textsc{FitCalibrator}$(\Labels)$ — calibrate BOTH the point and the interval width (Component B)}\label{alg:cal}
+\begin{algorithmic}[1]
+\Require labels $\Labels=\{(\theta^{\mathrm{raw}}_i,\ w_i,\ y_i)\}$: raw confidence, stated interval width, outcome
+\State \textbf{if} $|\Labels|<L_{\min}$ \textbf{then} $\Gamma\gets\mathrm{id},\ W\gets\bot$;\ \Return
+\State \textbf{POINT map} $\Gamma\gets\textsc{Isotonic}\big(\{(\theta^{\mathrm{raw}}_i,\ y_i)\}\big)$ \Comment{raw confidence $\to$ $P(\text{true})$, nondecreasing}
+\State \textbf{WIDTH map} $W\gets\textsc{Isotonic}\big(\{(w_i,\ (\Gamma(\theta^{\mathrm{raw}}_i)-y_i)^2)\ :\ 0\le w_i\le1\}\big)$ \Comment{stated width $\to$ outcome variance}
+\Statex \hfill \textit{$W$ is the mean squared error of the calibrated belief per stated width: informative widths}
+\Statex \hfill \textit{$\Rightarrow$ increasing $W$ (wide $=$ unreliable $=$ high var); uninformative $\Rightarrow$ flat $W$ (widths ignored).}
+\State \Return $(\Gamma,\ W)$
+\end{algorithmic}
+\end{algorithm}
+\noindent\textsc{Isotonic} is Pool-Adjacent-Violators: sort by $x$, push singleton blocks, merge adjacent
+blocks while their means violate monotonicity, evaluate as the step function of block means. The Thompson
+posterior variance (\S1) is $W(w_c)$ when $W$ is fitted, else the raw interval, else $\kappa$.
+
+\section{The hierarchy score (Component C)}
+
+\begin{algorithm}[H]
+\caption{\textsc{DirectionScores} — the two-level belief hierarchy (direction $\to$ its claims)}\label{alg:dirscore}
+\begin{algorithmic}[1]
+\ForAll{$d\in\Dirs$}
+   \State $\mathcal{C}_d\gets\{c\in\Pi_d\}$;\quad $n^{+}\!=\!|\{v_c{=}\mathrm{C}\}|,\ n^{-}\!=\!|\{v_c{=}\mathrm{R}\}|,\ \mathrm{chk}=n^{+}+n^{-}$
+   \State $\mathrm{strength}_d=\dfrac{n^{+}}{\mathrm{chk}}$ if $\mathrm{chk}>0$ else $0$
+   \State $\mathrm{thin}_d=\indic{|\mathcal{C}_d|>0\wedge n^{+}{=}0}$;\quad $\mathrm{contested}_d=\indic{\mathrm{chk}\ge2\wedge 0.34\le\mathrm{strength}_d\le0.66}$
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\noindent A \emph{thin} direction (explored, nothing confirmed) or \emph{contested} one (confirms
+$\approx$ refutes) is where the frontier should dig deeper; Alg.~\ref{alg:frontier} boosts the promise of
+open directions whose \emph{parent} is thin/contested. (The aspect grouping $\niche$ is used only as the
+diversity tie-breaker inside \textsc{NicheSpread}, not as the hierarchy.)
+
+\section{Cost model (model-aware pricing)}
+
+Each codex task's real cost is read from its rollout token count and scaled by the model that actually ran:
+\[
+\mathrm{usd}(\text{task})=\underbrace{\big[(\text{input}-\text{cached})+\text{output}\big]}_{\text{billed tokens}}\ \times\ \mathrm{rate}(\textsc{m}),
+\qquad
+\mathrm{rate}=\!\begin{cases}
+\$10/\mathrm{M} & \textsc{m}\in\{\text{gpt-5.x, -codex}\}\\
+\$1/\mathrm{M} & \textsc{m}\in\{\text{-mini}\}\\
+\$0.3/\mathrm{M} & \textsc{m}\in\{\text{-nano}\}\\
+\$10/\mathrm{M} & \text{otherwise (default)}
+\end{cases}
+\]
+A single fixed rate over-charges cheap models $\sim\!10\times$ and starves their budget; keying on the model
+fixes both accounting and budget enforcement.
+
+\paragraph{Termination / stop rule.} The loop stops when the budget or round cap is hit, the frontier
+empties, or \textsc{Evaluate} reports convergence: $\mathrm{coverage}{=}1\ \wedge\ \mathrm{backlog}{=}0\
+\wedge\ \mathrm{progress}\le\epsilon$, where
+$\mathrm{coverage}=\tfrac{\#\text{asks answered}}{\#\text{asks}}$,
+$\mathrm{quality}=\tfrac{n^{+}}{n^{+}+n^{-}}$ (global confirm rate), and
+$\mathrm{progress}=\tfrac{\Delta(\text{covered}+\text{confirmed})}{\Delta\$}$.
+
+\end{document}

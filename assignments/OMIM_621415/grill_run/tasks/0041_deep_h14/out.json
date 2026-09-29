@@ -1,0 +1,96 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Evidence confirms that hyperphagia-associated obesity is an incomplete feature rather than an obligate finding in LRRC7-related neurodevelopmental disorder (reported in several individuals of the 33-patient cohort in Willim et al. and flagged on PanelApp for severe early-onset obesity). Furthermore, Khan et al. (2026) confirm that early presentation can include failure to thrive and hypotonia rather than obesity. However, the specific proposed resolution\u2014that early childhood failure to thrive transitions bidirectionally into hyperphagia and obesity later in life in LRRC7 patients\u2014remains an unconfirmed extrapolation unsupported by longitudinal follow-up data in published literature to date.",
+  "evidence": [
+    {
+      "text": "In a cohort of 33 individuals with heterozygous missense or loss-of-function variants in LRRC7, the clinical spectrum included intellectual disability, autism, ADHD, aggression, and in several cases, hyperphagia-associated obesity, demonstrating that obesity is an incomplete feature.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": "39256359",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "A proband harboring a novel de novo missense variant in LRRC7 exhibited global developmental delay, hypotonia, tonic seizures, and failure to thrive rather than hyperphagia or obesity, demonstrating phenotypic heterogeneity and opposing the early presentation of obesity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "affected_probands",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Curated clinical panels associate LRRC7 with severe early-onset obesity and hyperphagia as a recognized feature of the autosomal dominant disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: LRRC7 (Severe early-onset obesity)",
+        "authors": [
+          "PanelApp Australia"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/3764/gene/LRRC7/",
+        "quote": "Hyperphagia and early-onset obesity is a common feature. Sources ... LRRC7-related to Intellectual developmental disorder, autosomal ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Willim et al. (2024) and PanelApp classify LRRC7 disease as presenting with early-onset obesity and hyperphagia, directly conflicting with Khan et al. (2026), who reported an infant proband presenting with failure to thrive and hypotonia.",
+    "The hypothesis assumes an age-dependent developmental transition from infantile failure to thrive to childhood hyperphagic obesity, but longitudinal trajectory data tracking growth parameters across development in LRRC7 probands are currently absent from the literature."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Does longitudinal follow-up of infants with LRRC7 variants presenting with failure to thrive and hypotonia reveal a subsequent transition toward hyperphagia and rapid weight gain in later childhood?",
+      "rationale": "Serial anthropometric and feeding behavior assessments across a multicenter cohort of LRRC7 patients would establish whether the growth pattern mimics the biphasic trajectory seen in Prader-Willi syndrome or reflects distinct, variant-specific sub-phenotypes.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do LRRC7 variants causing failure to thrive alter postsynaptic density scaffold interactions differently than variants associated with hyperphagia-driven obesity?",
+      "rationale": "Willim et al. showed domain-specific effects (e.g., LRR domain disrupting PP1 binding versus PDZ variants disrupting targeting). Mapping specific biochemical perturbations to metabolic phenotypes may explain conflicting growth trajectories.",
+      "promise": 0.75,
+      "est_cost": 50000
+    }
+  ]
+}

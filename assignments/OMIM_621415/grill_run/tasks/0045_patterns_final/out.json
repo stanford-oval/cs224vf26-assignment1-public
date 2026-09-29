@@ -1,0 +1,72 @@
+{
+  "patterns": [
+    {
+      "pattern": "Core cognitive-linguistic penetrance contrasts with variable behavioral and metabolic sub-phenotypes",
+      "abstraction": "Monogenic neurodevelopmental syndromes often exhibit near-complete penetrance for primary neurodevelopmental delays alongside incomplete, branching penetrance for secondary neurobehavioral and somatic manifestations.",
+      "instance": "In LRRC7-related disorder (MRD77), intellectual disability and severe expressive language impairment are nearly universal (>90%), whereas behavioral complications such as ADHD (40-60%), aggression, formal autism spectrum disorder (24%, 8/33), and hyperphagia-associated obesity (15.2%, 5/33) present as secondary sub-phenotypes.",
+      "direction": "Perform molecular stratification and deep behavioral phenotyping across larger cohorts to identify modifier loci or environmental triggers that govern the manifestation of aggression and metabolic dysregulation in LRRC7 variants.",
+      "support": "Strong evidence grounded in the multicenter cohort of 33 patients and confirmatory novel variant reports.",
+      "sources": [
+        "J Willim et al. (2024) Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors 10.1038/s41467-024-52095-x",
+        "S Khan et al. (2026) Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant 10.1002/jgm.70090"
+      ],
+      "hypothesis": "Secondary manifestations such as hyperphagia and severe aggression in LRRC7 disorder are driven by domain-specific protein-protein interaction disruptions in hypothalamic or amygdaloid postsynaptic density complexes rather than general haploinsufficiency.",
+      "novelty": "Counters the assumption that syndromic synaptopathies exhibit uniform multisystem penetrance by demonstrating a strict demarcation between core neurocognitive deficits and modular behavioral-metabolic clusters."
+    },
+    {
+      "pattern": "Low negative predictive value of overlapping synaptopathy signs prevents rule-out utility in differential diagnosis",
+      "abstraction": "When a recurrent feature occurs at moderate penetrance within a disease family, its absence cannot rule out the condition, nor can its presence definitively rule in an alternative diagnosis.",
+      "instance": "Seizures occur in 18.2% (6/33) and hypotonia in 30-50% of LRRC7-affected individuals; while these rates are notably lower than the near-universal, refractory seizures of SYNGAP1 (>80%) or persistent hypotonia of SHANK3, their presence in LRRC7 patients prevents clinicians from using seizures or hypotonia as strict exclusion criteria.",
+      "direction": "Establish multi-feature probabilistic diagnostic algorithms incorporating quantitative seizure severity, EEG signatures, and motor milestones rather than binary present/absent classifications across postsynaptic density synaptopathies.",
+      "support": "High consistency across cohort analyses and case differential discussions.",
+      "sources": [
+        "J Willim et al. (2024) Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors 10.1038/s41467-024-52095-x",
+        "S Khan et al. (2026) Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant 10.1002/jgm.70090",
+        "B Popp et al. (2017) Exome Pool-Seq in neurodevelopmental disorders 10.1038/s41431-017-0022-1"
+      ],
+      "hypothesis": "Electroencephalographic response characteristics and pharmaco-responsiveness provide significantly higher differential specificity between LRRC7 and SYNGAP1 than qualitative clinical seizure status.",
+      "novelty": "Highlights that common neurological signs frequently cited as differentiators fail as binary diagnostic cutoffs due to intermediate biological penetrance."
+    },
+    {
+      "pattern": "Diagnostic metric divergence between broad behavioral observations and standardized diagnostic criteria",
+      "abstraction": "Informal phenotypic binning substantially overestimates disease-associated behavioral pathology compared to standardized diagnostic criteria.",
+      "instance": "Earlier phenotypic summaries binned autistic behaviors at 50% to 70% in LRRC7-affected individuals, but formal diagnostic assessment according to standardized criteria verified autism spectrum disorder (HP:0000729) in only 24% (8 of 33) of patients.",
+      "direction": "Mandate standardized neurodevelopmental and psychiatric test batteries (e.g., ADOS-2, ADI-R) in monogenic rare disease natural history studies to replace subjective clinical impressions.",
+      "support": "Directly documented in cohort metrics comparing formal diagnostic assessments with historical estimates.",
+      "sources": [
+        "J Willim et al. (2024) Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors 10.1038/s41467-024-52095-x",
+        "S Khan et al. (2026) Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant 10.1002/jgm.70090"
+      ],
+      "hypothesis": "Sub-threshold communication impairments and severe expressive speech delays in postsynaptic density disorders are routinely misclassified as primary autistic spectrum social deficits in non-standardized clinical exams.",
+      "novelty": "Demonstrates how semantic conflation of expressive language delay with primary social communication disorder artificially inflates syndromic autism rates twofold."
+    },
+    {
+      "pattern": "Invariant exclusionary boundaries serve as primary clinical anchors in non-dysmorphic synaptopathies",
+      "abstraction": "For disorders lacking pathognomonic positive dysmorphisms, the consistent absence of specific structural and progressive abnormalities forms the most reliable clinical boundary for exclusionary triage.",
+      "instance": "LRRC7-related disorder consistently lacks gross congenital brain malformations (such as lissencephaly or holoprosencephaly), complex visceral organ malformations (e.g., congenital heart disease, renal agenesis), progressive microcephaly, and metabolic regression, effectively ruling out primary structural ciliopathies and neurodegenerative conditions.",
+      "direction": "Synthesize a standardized negative checklist of red flags that systematically rule out LRRC7-related neurodevelopmental disorder during initial pediatric genetics evaluations.",
+      "support": "Strong consistency across clinical cohort descriptions and single-proband evaluations.",
+      "sources": [
+        "J Willim et al. (2024) Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors 10.1038/s41467-024-52095-x",
+        "S Khan et al. (2026) Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant 10.1002/jgm.70090",
+        "P Hall et al. (2026) How Studying Rare Disease Lessons from Nonmammalian Models 10.1146/annurev-genom-020525-025811",
+        "T Mikhailova et al. (2025) Chromosome 1p31. 1 Deletion: A Case With Developmental Delay, Hypotonia, Cryptorchidism, Abnormal Oral Frenulum, and Feet Deformity 10.1155/crig/6152118"
+      ],
+      "hypothesis": "Postsynaptic density scaffolding disruptions mediated by LRRC7 preserve basic organogenesis and neuronal migration while selectively destabilizing synaptic plasticity and neurocircuit maintenance.",
+      "novelty": "Reframes the differential diagnosis of synaptopathies around consistent negative criteria rather than non-specific positive neurodevelopmental findings."
+    },
+    {
+      "pattern": "Bidirectional nutritional trajectory across developmental stages challenges singular metabolic classification",
+      "abstraction": "Syndromic disruptions of central feeding circuits can manifest as opposing metabolic states at distinct ontogenetic stages rather than a static metabolic phenotype.",
+      "instance": "While LRRC7 was recognized as predisposing to hyperphagia and early-onset obesity in a discrete subset of older individuals (15.2%, 5/33), novel de novo infant cases have presented with failure to thrive and hypotonia, demonstrating that nutritional phenotypes may shift across developmental time.",
+      "direction": "Conduct prospective longitudinal growth and caloric intake tracking from infancy to adolescence in LRRC7-variant carriers to map transitions from failure to thrive to hyperphagic weight gain.",
+      "support": "Moderate evidence supported by contrast between primary cohort findings and recent infantile proband case reports.",
+      "sources": [
+        "J Willim et al. (2024) Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors 10.1038/s41467-024-52095-x",
+        "S Khan et al. (2026) Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant 10.1002/jgm.70090"
+      ],
+      "hypothesis": "Hypothalamic LRRC7 synaptopathy causes neonatal or early infantile suckling and feeding difficulties resulting in failure to thrive, followed by later-onset dysregulation of satiety signaling leading to hyperphagia in mid-childhood.",
+      "novelty": "Reconciles the contradiction between syndromic obesity gene designations and infantile failure to thrive presentations as a unified biphasic growth trajectory."
+    }
+  ]
+}

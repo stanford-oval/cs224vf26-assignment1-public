@@ -1,0 +1,203 @@
+{
+  "question": "For Multiple mitochondrial dysfunctions syndrome 9B (OMIM #620887), caused by variants in FDXR: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.5180159399999998,
+    "by_phase": {
+      "init": 0.035082,
+      "plan": 0.009963,
+      "explore": 0.06664,
+      "screen": 0.120128,
+      "deep": 0.22377450000000004,
+      "measure": 0.01429294,
+      "finalize": 0.0481355,
+      "artifact": 0.0
+    },
+    "embeddings": 0.0008026200000000001
+  },
+  "allocations": [
+    {
+      "direction": "d1",
+      "question": "What are the exact numerators and denominators for optic atrophy, auditory neuropathy, microcephaly, and elevated lactate across all published FDXR case series (e.g., Paul et al. 2017, Slone et al. 2018, and subsequent case reports)?",
+      "allocated": 1.9776025000000002,
+      "spent": 0.01675299999999999,
+      "rationale": "Directly targets cohort-specific numerators and denominators for cardinal FDXR phenotypes required by core question 1."
+    },
+    {
+      "direction": "d10",
+      "question": "To what degree do CSF and plasma glycine and lactate levels remain strictly normal across different age groups in FDXR-mutant individuals?",
+      "allocated": 1.94,
+      "spent": 0.014670000000000016,
+      "rationale": "Directly resolves questions 2 and 3 by establishing whether normal plasma/CSF glycine and intermittent lactate serve as reliable absent/discriminating criteria separating MMDS9B from MMDS1-3."
+    },
+    {
+      "direction": "d15",
+      "question": "Build on the confirmed prior: Optic atrophy (HP:0000648) and/or sensorineural hearing loss (HP:0000407) are present in virtually >90% of reported individuals across published cohorts (e.g., Slone et al. 2018 report optic atrophy in 8/8 and auditory neuropathy/SNHL in 8/8 individuals assessed).",
+      "allocated": 1.94,
+      "spent": 0.01772849999999998,
+      "rationale": "Directly resolves question 1 by extracting exact cohort-specific numerators, denominators, and HPO terms for core hallmark phenotypes across all published FDXR cohorts."
+    },
+    {
+      "direction": "d16",
+      "question": "Build on the confirmed prior: Severe neonatal nonketotic hyperglycinemia, fatal infantile lactic acidosis with early pulmonary hypertension, and cystic leukodystrophy\u2014which characterize MMDS1 (NFU1), MMDS2 (BOLA3), and MMDS3 (IBA57)\u2014are typically absent or distinctly atypical in FDXR-associated MMDS9B, serving as negative discriminators.",
+      "allocated": 1.9776025000000002,
+      "spent": 0.01748849999999999,
+      "rationale": "Delineates critical negative discriminators and absent findings distinguishing MMDS9B from MMDS1-3, resolving questions 2 and 3."
+    }
+  ],
+  "patterns": 4,
+  "artifacts": 0,
+  "avg_explore_cost": 0.01666,
+  "avg_test_cost": 0.0116539375,
+  "snapshots": [
+    {
+      "cost": 0.5180159399999998,
+      "coverage": 0.5,
+      "quality": 0.5625,
+      "answeredness": 0.28125,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 16,
+      "n_pooled": 9,
+      "n_binned": 7,
+      "n_conflicted": 6,
+      "n_refuted": 1,
+      "n_evidence": 100,
+      "n_covered": 3,
+      "n_asks": 6,
+      "n_open": 48,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "PMID or DOI citation and cohort identification attached to every reported phenotype frequency",
+        "Phenotype differences correlated with variant type, position, age, or sex",
+        "Findings reported by one paper that are explicitly contradicted by another"
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_620887/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "PMID or DOI citation and cohort identification attached to every reported phenotype frequency",
+      "Phenotype differences correlated with variant type, position, age, or sex",
+      "Findings reported by one paper that are explicitly contradicted by another"
+    ],
+    "explored_texts": [
+      "What are the exact numerators and denominators for optic atrophy, auditory neuropathy, microcephaly, and elevated lactate across all published FDXR case series (e.g., Paul et al. 2017, Slone et al. 2018, and subsequent case reports)?",
+      "Build on the confirmed prior: Severe neonatal nonketotic hyperglycinemia, fatal infantile lactic acidosis with early pulmonary hypertension, and cystic leukodystrophy\u2014which characterize MMDS1 (NFU1), MMDS2 (BOLA3), and MMDS3 (IBA57)\u2014are typically absent or distinctly atypical in FDXR-associated MMDS9B, serving as negative discriminators.",
+      "Build on the confirmed prior: Optic atrophy (HP:0000648) and/or sensorineural hearing loss (HP:0000407) are present in virtually >90% of reported individuals across published cohorts (e.g., Slone et al. 2018 report optic atrophy in 8/8 and auditory neuropathy/SNHL in 8/8 individuals assessed).",
+      "To what degree do CSF and plasma glycine and lactate levels remain strictly normal across different age groups in FDXR-mutant individuals?"
+    ],
+    "explore_costs": [
+      0.016753,
+      0.0174885,
+      0.0177285,
+      0.01467
+    ],
+    "test_costs": [
+      0.0057605,
+      0.0080385,
+      0.0069565,
+      0.0056585,
+      0.0140595,
+      0.0131645,
+      0.012523,
+      0.0107445,
+      0.009483,
+      0.00666,
+      0.005547,
+      0.0068875,
+      0.008142,
+      0.006739,
+      0.0172665,
+      0.0158415,
+      0.012801,
+      0.012694,
+      0.014363,
+      0.0208825,
+      0.0130285,
+      0.009891,
+      0.006874,
+      0.006665,
+      0.00675,
+      0.007047,
+      0.0111135,
+      0.013078,
+      0.015767,
+      0.0142215,
+      0.0134505,
+      0.011804
+    ],
+    "task_n": 47,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Multiple mitochondrial dysfunctions syndrome 9B (OMIM #620887), caused by variants in FDXR: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.5180159399999998,
+    "budget_by_phase": {
+      "init": 0.035082,
+      "plan": 0.009963,
+      "explore": 0.06664,
+      "screen": 0.120128,
+      "deep": 0.22377450000000004,
+      "measure": 0.01429294,
+      "finalize": 0.0481355,
+      "artifact": 0.0
+    }
+  }
+}

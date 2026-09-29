@@ -1,0 +1,64 @@
+{
+  "verdict": "supported",
+  "rationale": "Direct clinical case evidence documents that heterozygous FBXO11 variants (specifically the missense variant c.1781A>G; p.His594Arg) can present with key phenotypic hallmarks typically attributed to trichorhinophalangeal syndrome (TRPS), including a bulbous pear-shaped nose, hypoplastic/small nails, sparse hair, and cone-shaped epiphyses. Consequently, the presence of nail hypoplasia and a pear-shaped nose cannot be used as definitive exclusionary criteria to rule out FBXO11-related intellectual developmental disorder (IDDFBA).",
+  "evidence": [
+    {
+      "text": "A young boy presented with developmental delay, sparse hair, sparse lateral eyebrows, a bulbous pear-shaped nose, small/hypoplastic nails, and bilateral cone-shaped epiphyses, closely resembling trichorhinophalangeal syndrome (TRPS). Genetic testing ruled out TRPS and identified a heterozygous likely pathogenic variant in FBXO11 (NM_001190274.2: c.1781A>G; p.His594Arg), demonstrating that FBXO11 variants can phenocopy TRPS.",
+      "stance": "supports",
+      "source": {
+        "title": "How many phenotypes for the FBXO11 related disease? Report on a new patient with a tricho-rhino-phalangeal like phenotype",
+        "authors": [
+          "A M\u00e9garban\u00e9",
+          "C Mehawej",
+          "D Mahfoud"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": "38679370",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000363",
+        "quote": "Here we report the case of a young boy with developmental delay, thin sparse hair, early closure of the anterior fontanel, bilateral choanal atresia, brachyturicephaly; and dysmorphic features closely resembling those seen in trichorhinophalangeal syndrome (TRPS). These features include sparse hair, sparse lateral eyebrows, a bulbous pear shaped nose, a long philtrum, thin lips, small/hypoplastic nails, pes planovalgus; bilateral cone-shaped epiphyses at the proximal 5th phalanx, slender long bones, coxa valga, mild scoliosis, and delayed bone age. Given that TRPS had been excluded by a thorough genetic analysis, whole exome sequencing was performed and a heterozygous likely pathogenic variant was identified in the FBXO11 gene (NM_001190274.2: c.1781A > G; p. His594Arg), confirming the diagnosis of the newly individualized IDDFBA syndrome"
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals reported with TRPS-like phenotype due to FBXO11 c.1781A>G",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "IDDFBA is caused by pathogenic variants in FBXO11 and displays highly variable manifestations, with core features including borderline-to-severe intellectual disability, behavioral abnormalities, hypotonia, facial dysmorphisms, minor skeletal abnormalities, recurrent infections, and eye findings reported in about 48% of patients.",
+      "stance": "neutral",
+      "source": {
+        "title": "New ocular findings in a patient with a novel pathogenic ...",
+        "authors": [
+          "RG Silva"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S1091853122001446",
+        "quote": "The main features of IDDFBA include borderline-to-severe intellectual disability, behavioral problems, hypotonia, facial dysmorphisms, minor skeletal abnormalities, and recurrent infections. Although eye problems, such as refractive errors, eye misalignment and minor visual changes, have been described in about 48% of patients"
+      },
+      "numbers": [
+        {
+          "metric": "Frequency of ocular problems in IDDFBA patients",
+          "value": "48%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Is the TRPS-like presentation restricted exclusively to specific missense variants in the functional domains of FBXO11, or can loss-of-function (truncating/frameshift) variants also cause nail hypoplasia and cone-shaped epiphyses?",
+      "rationale": "Clarifying domain-specific genotype-phenotype correlations will determine whether TRPS phenocopies are unique to specific missense alleles (e.g., p.His594Arg acting via dominant-negative or neomorphic mechanisms) versus haploinsufficiency.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

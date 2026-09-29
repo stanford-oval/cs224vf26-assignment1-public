@@ -1,0 +1,123 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits a specific quantitative correlation (Pearson/Spearman r >= 0.70) demonstrating that microcephaly in CdLS7 (MAU2-related Cornelia de Lange syndrome) is strictly symmetric with somatic growth failure rather than disproportionate cranial restriction. Although multiple clinical studies and disease cohorts (e.g., Parenti et al., 2026; Peng, 2023) document that short stature and microcephaly frequently co-occur as core manifestations of MAU2 disruption, the literature provides no empirical data or statistical correlation (r >= 0.70) confirming tight symmetry between OFC and somatic growth parameters. On the contrary, descriptions of MAU2 and 19p13.11 microdeletion cases demonstrate variable expressivity where cranial and somatic parameters uncouple (e.g., individuals with short stature but head circumference in the low-normal range, or varying degrees of microcephaly independent of height and weight percentiles). Because the literature provides no empirical evidence for the asserted r >= 0.70 symmetry and instead documents variable, non-uniform expressivity across somatic and head circumference z-scores, the hypothesis is refuted.",
+  "evidence": [
+    {
+      "text": "In a cohort of 18 individuals carrying 15 heterozygous MAU2 variants, affected individuals exhibited short stature and microcephaly as major/consistent features with variable expressivity ranging from classic CdLS to milder phenotypes, but no statistical correlation coefficient (r >= 0.70) between occipitofrontal circumference and height/weight z-scores was evaluated or demonstrated.",
+      "stance": "neutral",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2026,
+        "journal": "Nature Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features. A heterozygous Mau2 knockout mouse model recapitulates these traits, confirming the causal role of MAU2 disruption in vivo."
+      },
+      "numbers": [
+        {
+          "metric": "individuals evaluated with pathogenic MAU2 variants",
+          "value": 18
+        },
+        {
+          "metric": "distinct heterozygous MAU2 variants",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of individuals with 19p13.11p12 microdeletions encompassing MAU2 revealed discordant growth parameters, such as microcephaly in some individuals and head circumference in the low-normal range (5th percentile) in others, demonstrating phenotypic variability rather than strict uniform proportionality between somatic growth failure and cranial restriction.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Microdeletions at 19p13. 11p12 in five individuals with neurodevelopmental delay",
+        "authors": [
+          "M Rieger",
+          "S Moutton",
+          "S Verheyen",
+          "K Steindl"
+        ],
+        "year": 2023,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721222002506",
+        "quote": "At this time point, microcephaly (P2, P3) or head circumference in the low normal range (5th percentile) was observed."
+      },
+      "numbers": [
+        {
+          "metric": "individuals reported with 19p13 microdeletions",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Functional and clinical investigation of a de novo MAU2 variant (p.Arg176Trp) confirmed classic CdLS phenotypes including growth retardation and craniofacial dysmorphism, establishing disease causality but showing that published CdLS7 patient datasets are extremely limited in number and lack quantitative z-score correlation analyses.",
+      "stance": "neutral",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy",
+        "authors": [
+          "Y Peng"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10767608",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10767608/",
+        "quote": "Thus far, only one MAU2-CdLS case has been reported worldwide. Methods: We detected a novel variant in MAU2 gene, NM_015329, c.526C>T (p.Arg176Trp) in a Chinese patient with CdLS... We investigated a MAU2-CdLS case in a Chinese family, which strengthens the association between MAU2 variants and CdLS phenotypes."
+      },
+      "numbers": [
+        {
+          "metric": "number of patients described in study",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "The international consensus on Cornelia de Lange syndrome establishes that height, weight, and head circumference commonly fall below normal standard percentiles across cohesinopathy subtypes, but acknowledges substantial clinical variability without establishing a mandatory symmetrical linear correlation between microcephaly and somatic growth.",
+      "stance": "neutral",
+      "source": {
+        "title": "Diagnosis and management of Cornelia de Lange syndrome: first international consensus statement: EXPERT CONSENSUS DOCUMENT",
+        "authors": [
+          "AD Kline",
+          "JF Moss",
+          "A Selicorni",
+          "AM Bisgaard"
+        ],
+        "year": 2018,
+        "journal": "Nature Reviews Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41576-018-0031-0",
+        "quote": "height, weight and head circumference all remain below the... The presence of microcephaly in an individual with"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While general literature associates both short stature and microcephaly with CdLS7, published clinical data show variable expressivity (ranging from severe microcephaly to low-normal cranial circumference alongside short stature), directly challenging the assumption of invariant linear symmetry (r >= 0.70)."
+  ],
+  "confidence": 0.08,
+  "new_directions": [
+    {
+      "question_text": "In a pooled international cohort of molecularly confirmed MAU2 patients, what is the exact Pearson correlation coefficient between OFC z-scores and height/weight z-scores?",
+      "rationale": "Directly testing anthropometric z-scores across all known MAU2 carriers is required to determine whether microcephaly is truly proportional to systemic growth failure or reflects primary neurodevelopmental restriction.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does recombinant growth hormone (GH) treatment in MAU2-deficient patients accelerate cranial growth proportionally to somatic linear height gain?",
+      "rationale": "Parenti et al. documented that several MAU2 patients received GH therapy; measuring whether head circumference responds in parallel with linear height will delineate whether cranial growth regulation in CdLS7 is functionally coupled to somatic endocrine axes.",
+      "promise": 0.78,
+      "est_cost": 40000.0
+    }
+  ]
+}

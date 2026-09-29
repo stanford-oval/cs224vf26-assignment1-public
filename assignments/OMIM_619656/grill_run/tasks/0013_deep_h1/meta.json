@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz\" \"aortic aneurysm\" phenotype frequency",
+    "SMAD2 Loeys Dietz syndrome thoracic aortic aneurysm pediatric adult"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S073510972506245X",
+      "title": "Characterization of arterial aneurysms in Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S073510972506245X",
+      "abstract_chars": 2330
+    },
+    {
+      "id": "31000321",
+      "title": "Genetic basis of hereditary thoracic aortic aneurysms and dissections",
+      "pmid": "31000321",
+      "doi": "10.1016/j.jjcc.2019.03.014",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0914508719300863",
+      "abstract_chars": 1794
+    },
+    {
+      "id": "22772368",
+      "title": "Loss-of-function mutations in TGFB2 cause a syndromic presentation of thoracic aortic aneurysm",
+      "pmid": "22772368",
+      "doi": "10.1038/ng.2349",
+      "url": "https://www.nature.com/articles/ng.2349",
+      "abstract_chars": 1129
+    },
+    {
+      "id": "30157302",
+      "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+      "pmid": "30157302",
+      "doi": "10.1002/humu.23627",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23627",
+      "abstract_chars": 1297
+    },
+    {
+      "id": "PMC5947146",
+      "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5947146/",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "title": "Loeys-Dietz Syndrome 6 (LDS6)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+      "title": "Clinical features and complications of Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+      "abstract_chars": 1670
+    },
+    {
+      "id": "39015450",
+      "title": "Marfan and Loeys-Dietz aortic phenotype: A potential tool ...",
+      "pmid": "39015450",
+      "doi": "10.1016/j.xjon.2024.03.015",
+      "url": "https://www.jtcvsopen.org/article/S2666-2736(24)00095-0/fulltext",
+      "abstract_chars": 2092
+    },
+    {
+      "id": "40533122",
+      "title": "Characterization of Arterial Aneurysms in Loeys-Dietz ...",
+      "pmid": "40533122",
+      "doi": "10.1016/j.jacc.2025.04.020",
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.04.020",
+      "abstract_chars": 2330
+    }
+  ],
+  "input_tokens": 6853,
+  "output_tokens": 2160,
+  "usd": 0.00991,
+  "seconds": 15.8,
+  "ok": true
+}

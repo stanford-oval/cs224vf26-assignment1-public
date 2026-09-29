@@ -1,0 +1,101 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive evaluation of the available cohort data confirms that dystonia is the primary, near-universal movement disorder in bi-allelic ACBD6 deficiency, documented in 94% (42/45) of affected individuals in the definitive discovery cohort (Kaiyrzhanov et al., 2024; PMC10994533). In contrast, classical chorea is not prominent; while review literature categorizes ACBD6 under chorea syndromes or mentions chorea-like jerky movements (likely representing the jerky tremor or myoclonic/dystonic jerks observed in 59-63% of patients), dystonia and tremor markedly predominate across reported clinical evaluations.",
+  "evidence": [
+    {
+      "text": "In the discovery cohort of 45 affected individuals from 28 unrelated families with bi-allelic ACBD6 mutations, dystonia was reported as the most conspicuous and common movement disorder present in 94% of cases, alongside postural deformities in 97%, limb dystonia in 55%, cervical dystonia in 31%, upper limb jerky tremor in 63%, and head tremor in 59%, whereas generalized chorea was not a primary feature.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%). A jerky tremor in the upper limbs (63%), a mild head tremor (59%), parkinsonism/hypokinesia developing with advancing age (32%) and simple motor and vocal tics were among other frequent movement disorders."
+      },
+      "numbers": [
+        {
+          "metric": "dystonia_frequency_percentage",
+          "value": 94
+        },
+        {
+          "metric": "postural_deformities_percentage",
+          "value": 97
+        },
+        {
+          "metric": "upper_limb_tremor_percentage",
+          "value": 63
+        },
+        {
+          "metric": "head_tremor_percentage",
+          "value": 59
+        },
+        {
+          "metric": "total_cohort_size",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "text": "A comprehensive review of hyperkinetic disorders in neurodevelopmental syndromes notes that corpus callosal agenesis suggests recessive ACBD6 mutations, where axial dystonia is reported in approximately 90% of cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia is reported in $90\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "axial_dystonia_frequency_percentage",
+          "value": 90
+        }
+      ]
+    },
+    {
+      "text": "ACBD6 is cited as a novel genetic etiology linked to genetic chorea, presenting with chorea-like jerky movements alongside dystonia.",
+      "stance": "neutral",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": "Current Neurology and Neuroscience Reports",
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "Recently, a bi-allelic loss-of-function mutation in the ACBD6 \u2026 movement disorders, including chorea-like jerky movement \u2026"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What proportion of ACBD6-associated jerky upper-limb movements represent true chorea versus jerky tremor, myoclonus, or dystonic jerks on quantitative surface electromyography?",
+      "rationale": "Review articles list ACBD6 under genetic chorea panels due to reports of 'chorea-like jerky movements', but precise electrophysiological phenotyping is necessary to disambiguate cortical/subcortical myoclonus, dystonic jerking, and true chorea.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

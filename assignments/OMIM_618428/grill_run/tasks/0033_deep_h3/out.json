@@ -1,0 +1,62 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not substantiate the claim that autism spectrum features, ADHD/hyperactivity, and sleep disturbances are present in 50-75% of assessed individuals with Popov-Chang syndrome (YWHAZ-related neurodevelopmental disorder). In the primary cohort defining the condition (Popov et al., 2019), only 1 of 5 (20%) assessed individuals presented with autism, directly contradicting the 50-75% range. Furthermore, specific cohort-level quantifications demonstrating sleep disturbances or ADHD at 50-75% prevalence across YWHAZ cohorts are absent from the literature.",
+  "evidence": [
+    {
+      "text": "Popov et al. (2019) identified YWHAZ variants in five individuals with neurodevelopmental phenotypes, but only one individual (20%) was diagnosed with autism spectrum disorder.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Gene: YWHAZ -",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://gene.sfari.org/database/human-gene/YWHAZ",
+        "quote": "Popov et al., 2019 reported YWHAZ variants in five individuals presenting with neurodevelopmental phenotypes; one of these individuals presented with autism,"
+      },
+      "numbers": [
+        {
+          "metric": "individuals presenting with autism out of cohort assessed",
+          "value": "1/5"
+        },
+        {
+          "metric": "percentage of individuals with autism",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "Popov-Chang syndrome (associated with YWHAZ) is categorized among genetic conditions evaluated in autism spectrum disorders and neurodevelopmental delays, but specific phenotypic frequencies for sleep disturbance and ADHD are not validated at the 50-75% threshold in published cohorts.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetics of autism spectrum disorders: a long road to pass",
+        "authors": [
+          "AM Alhejaily",
+          "M Alfadhel"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/profile/Abdul-Mohsen-Alhejaily/publication/338739037_Genetics_of_autism_spectrum_disorders_a_long_road_to_pass/links/5e27e78b299bf15216733df8/Genetics-of-autism-spectrum-disorders-a-long-road-to-pass.pdf",
+        "quote": "hyperactivity disorder (ADHD), schizophrenia, neurological disorders (eg, motor deficits, sleep \u2026 potentials to indicate to the biology underlying autistic behavior."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Popov et al. (2019) reports autism spectrum features in only 1 of 5 (20%) assessed individuals, refuting the proposed 50-75% prevalence range."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic phenotypic frequency of behavioral abnormalities, sleep disturbances, and ADHD across an expanded worldwide cohort of individuals with pathogenic de novo YWHAZ variants?",
+      "rationale": "Popov-Chang syndrome has only been characterized in very small series (e.g., n=5 in the index report); gathering a larger international registry cohort is required to establish accurate phenotypic penetrance and frequencies.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

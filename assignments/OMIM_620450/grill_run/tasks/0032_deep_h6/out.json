@@ -1,0 +1,96 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that autosomal dominant intellectual developmental disorder 73 (OMIM #620450) is driven by missense variants clustering in conserved TAF homology or histone-fold domains acting via a dominant-negative or loss-of-function mechanism, while truncating variants have variable penetrance or severity. However, the foundational cohort defining this disorder (Janssen et al., 2022) established that autosomal dominant TAF4-related neurodevelopmental disorder (T4NDD) is specifically caused by de novo putative loss-of-function (pLoF / truncating) variants in all 8 investigated probands. The phenotypic triad of intellectual disability, behavioral anomalies, and facial dysmorphism is directly attributed to heterozygous pLoF variants rather than a domain-specific missense clustering or dominant-negative mechanism.",
+  "evidence": [
+    {
+      "text": "A clinical study identified eight individuals with a novel neurodevelopmental disorder (T4NDD, OMIM #620450), all harboring de novo putative loss-of-function (pLoF) variants in TAF4 rather than domain-clustered missense variants.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD)."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with de novo pLoF variants",
+          "value": 8
+        },
+        {
+          "metric": "total cohort size",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "TAF4 disruption is linked to OMIM #620450, showing that speech and language impairment or neurodevelopmental phenotypes manifest within the spectrum of monogenic neurodevelopmental disorders.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-026-02214-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "of TAF4 is associated with a developmental disorder (OMIM #620450), characterized by intellectual disability\u2026 the first presenting clinical feature of a broader genetic neurodevelopmental"
+      },
+      "numbers": [
+        {
+          "metric": "severe sporadic DLD cohort size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "In transcriptional pausing and neurodevelopmental disorder pathology, TAF4 is highlighted where intellectual disability is a pervasive feature across cases.",
+      "stance": "neutral",
+      "source": {
+        "title": "Transcription pause and escape in neurodevelopmental disorders",
+        "authors": [
+          "KN Eigenhuis",
+          "HB Somsen"
+        ],
+        "year": 2022,
+        "journal": "Frontiers in Neuroscience",
+        "doi": "10.3389/fnins.2022.846272",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+        "quote": "with neurodevelopmental disorders, some have been further studied for their impact in neuronal development. TAF4 \u2026 Despite phenotypic variety, intellectual disability arises in almost all"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that missense variants clustering in specific functional domains cause the recognizable dominant-negative or loss-of-function phenotype, whereas the peer-reviewed evidence (Janssen et al., 2022) demonstrates that de novo truncating pLoF variants define the monogenic disorder OMIM #620450."
+  ],
+  "confidence": 0.05,
+  "new_directions": [
+    {
+      "question_text": "Are there any pathogenic missense variants in TAF4 that produce an overlapping or distinct syndromic neurodevelopmental phenotype through dominant-negative mechanisms?",
+      "rationale": "Determining whether missense alterations in specific TAF4 functional domains (such as the TAFH or histone-fold domains) lead to clinical disease or are largely tolerated/unrelated to OMIM #620450 will clarify the functional tolerance of the protein.",
+      "promise": 0.75,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What are the specific distinguishing facial dysmorphisms and neurobehavioral profiles in TAF4 haploinsufficiency compared to other TFIID subunit disorders (e.g., TAF1, TAF2, TAF6)?",
+      "rationale": "Comparative morphometric and behavioral phenotyping across TFIID-related 'TAF-opathies' is necessary to evaluate whether clinical features alone can distinguish TAF4-related NDD without exome or genome sequencing.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

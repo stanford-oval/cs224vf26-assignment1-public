@@ -1,0 +1,101 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that postnatal growth failure is significantly more penetrant in isolated BRD4 intragenic missense mutations (>75%) than in 19p13.12 microdeletions (<50%) due to dominant-negative interference rather than haploinsufficiency. Available clinical literature and cohort reviews directly contradict the proposed dominant-negative mechanism. First, functional and cytogenetic evaluations consistently demonstrate that BRD4-associated Cornelia de Lange syndrome (CdLS6) and 19p13.12 microdeletion phenotypes operate via BRD4 haploinsufficiency rather than dominant-negative interference. Second, individuals with BRD4 alterations present with non-classic, atypical, or attenuated CdLS manifestations, where classic cardinal CdLS features\u2014specifically prenatal and severe postnatal growth failure\u2014are often absent or inconsistently reported across both intragenic variant carriers and deletion cases.",
+  "evidence": [
+    {
+      "text": "The delineation of 19p interstitial deletions overlapping BRD4 supports the role of BRD4 haploinsufficiency in producing a Cornelia de Lange-like phenotype, rather than a distinct dominant-negative mechanism driven by point mutations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Confirmation of BRD4 haploinsufficiency role in Cornelia de Lange\u2013like phenotype and delineation of a 19p13.12p13.11 gene contiguous syndrome",
+        "authors": [
+          "V Alesi",
+          "ML Dentici",
+          "S Loddo"
+        ],
+        "year": 2019,
+        "journal": "Annals of Human Genetics",
+        "doi": "10.1111/ahg.12289",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ahg.12289",
+        "quote": "with the aim to support the role of BRD4 haploinsufficiency in a CdL-like phenotype and to improve the delineation of 19p13.12p13.11 deletion as a new nonrecurrent gene contiguous syndrome"
+      },
+      "numbers": [
+        {
+          "metric": "19p13.12p13.11 deletion cohort evaluated for CdLS-like features",
+          "value": "cohort review"
+        }
+      ]
+    },
+    {
+      "text": "BRD4 gene alterations are associated with non-classic or milder CdLS phenotypes in which classical features such as severe growth failure, hypertrichosis, or limb defects may be absent or variable, failing to support a >75% penetrance of growth failure driven by dominant-negative action.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": "Children",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+        "quote": "They demonstrated that, although this mutation reduces BRD4 \u2026 growth failure, hypertrichosis, or radial and limb anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "postnatal growth failure penetrance target in missense variants (>75%)",
+          "value": "unsupported"
+        }
+      ]
+    },
+    {
+      "text": "Multigene panel diagnostic summaries establish BRD4 as a recognized causative gene for CdLS spectrum disorder alongside cohesin complex members, highlighting broad variable expressivity across classic and non-classic presentations.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cornelia de Lange syndrome",
+        "authors": [
+          "MA Deardorff",
+          "SE Noon",
+          "ID Krantz"
+        ],
+        "year": 2020,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk1104/",
+        "quote": "The diagnosis of CdLS is established in a proband with suggestive clinical features and/or a heterozygous pathogenic variant in BRD4, MAU2, NIPBL, RAD21, or SMC3"
+      },
+      "numbers": [
+        {
+          "metric": "height and weight percentile in classic CdLS",
+          "value": "<5th centile"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes missense point mutations act via dominant-negative interference with cohesin loading, whereas functional genetic studies and reviews attribute pathogenicity to BRD4 haploinsufficiency.",
+    "The hypothesis posits a high penetrance (>75%) of severe postnatal growth failure in isolated BRD4 point mutations, whereas clinical reviews classify BRD4 alterations as non-classic or milder CdLS with variable and often absent classic growth deceleration."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "In a systematic international cohort of molecularly confirmed BRD4 intragenic point variants versus contiguous 19p13.12 microdeletions, what is the exact documented frequency of postnatal height <3rd percentile?",
+      "rationale": "Directly testing standardized growth measurements across age cohorts in isolated BRD4 variants versus deletions will definitively benchmark penetrance differences.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do specific missense variants in the bromodomains (BD1/BD2) or extraterminal (ET) domain of BRD4 cause functional dominant-negative displacement of NIPBL/cohesin or do they lead to loss-of-function and haploinsufficiency?",
+      "rationale": "In vitro cohesin-loading assays comparing missense BRD4 alleles against complete null alleles will clarify whether dominant-negative interference occurs at all in CdLS6.",
+      "promise": 0.8,
+      "est_cost": 30000
+    }
+  ]
+}

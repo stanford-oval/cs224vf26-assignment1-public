@@ -1,0 +1,139 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical and functional studies consistently demonstrate that pathogenic recurrent missense variants in MAPK8IP3 cause more severe neurodevelopmental abnormalities and structural brain malformations (including perisylvian polymicrogyria, cerebral/cerebellar atrophy, and corpus callosum hypoplasia) compared to loss-of-function (LOF) variants. Functional models in C. elegans and zebrafish demonstrate that missense variants exert dominant-negative or adverse effects on axonal organelle dynamics, causing marked retrograde lysosome accumulation and axonal varicosities, whereas heterozygous loss-of-function/truncating variants generally present with milder or more variable non-malformative presentations despite high constraint against LoF.",
+  "evidence": [
+    {
+      "text": "In a cohort of 32 individuals with heterozygous pathogenic MAPK8IP3 variants (62.5% missense, 34.4% predicted loss-of-function), missense variants were significantly associated with more severe clinical neurological symptoms compared to loss-of-function alleles, consistent with a dominant-negative disease mechanism.",
+      "stance": "supports",
+      "source": {
+        "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+        "authors": [
+          "KK Sudnawa",
+          "A Geltzeiler",
+          "CH Kanner"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70032",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+        "quote": "Missense variants were associated with more severe symptoms than LOF variants. ... missense variants may act through a dominant-negative..."
+      },
+      "numbers": [
+        {
+          "metric": "total_cohort_size",
+          "value": 32
+        },
+        {
+          "metric": "missense_percentage",
+          "value": 62.5
+        },
+        {
+          "metric": "lof_percentage",
+          "value": 34.4
+        },
+        {
+          "metric": "corpus_callosum_thinning_frequency",
+          "value": "62.1%"
+        }
+      ]
+    },
+    {
+      "text": "Among 13 unrelated individuals with de novo MAPK8IP3 variants, structural brain anomalies including perisylvian polymicrogyria, cerebral or cerebellar atrophy, and corpus callosum hypoplasia were consistently found in those with recurrent de novo missense variants. CRISPR-Cas9 C. elegans models of these missense variants produced retrograde axonal lysosome accumulation and locomotion defects.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6369540",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "Brain anomalies such as perisylvian polymicrogyria, cerebral or cerebellar atrophy, and hypoplasia of the corpus callosum were consistent among individuals harboring recurrent de novo missense variants."
+      },
+      "numbers": [
+        {
+          "metric": "total_individuals",
+          "value": 13
+        },
+        {
+          "metric": "missense_variants_count",
+          "value": 6
+        },
+        {
+          "metric": "truncating_variants_count",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Characterization of five patients with recurrent de novo missense mutations (p.Arg578Cys and p.Arg1146Cys) showed spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia, while zebrafish embryos overexpressing mutant human JIP3 developed posterior lateral line axonal varicosities.",
+      "stance": "supports",
+      "source": {
+        "title": "Recurrent de novo MAPK8IP3 variants cause neurological phenotypes",
+        "authors": [],
+        "year": 2019,
+        "journal": "Annals of Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/332196295_Recurrent_de_novo_MAPK8IP3_variants_cause_neurological_phenotypes",
+        "quote": "We identified 5 individuals from four families with recurrent de novo variants c.1732C>T (p.Arg578Cys) and c.3436C>T (p.Arg1146Cys) in MAPK8IP3. The core phenotype includes spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia."
+      },
+      "numbers": [
+        {
+          "metric": "affected_individuals",
+          "value": 5
+        },
+        {
+          "metric": "families",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "A familial truncating splice-site variant leading to an in-frame frameshift and premature stop codon (p.Gly877Valfs*36) manifested in three individuals with significant phenotypic heterogeneity, including severe intellectual disability and autism in one carrier, illustrating that truncating alleles can occasionally yield severe cognitive manifestations despite the lack of polymicrogyria.",
+      "stance": "neutral",
+      "source": {
+        "title": "Characterization of a novel inherited splice-site variant in ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+        "quote": "Notably, despite carrying an identical genotype, the three affected individuals exhibited marked interindividual variability in clinical severity, ranging from mild specific learning difficulties to global developmental delay with severe intellectual disability and autism."
+      },
+      "numbers": [
+        {
+          "metric": "affected_family_members",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does direct live-cell imaging of retrograde lysosome and late endosome transport velocities in patient-derived induced pluripotent stem cell (iPSC) neurons differentiate dominant-negative missense variants from haploinsufficient truncating alleles?",
+      "rationale": "While invertebrate and fish models support dominant-negative transport defects for recurrent missense variants, testing patient-derived human cortical neurons with isogenic controls would definitively determine if organelle transport arrest is unique to missense alleles.",
+      "promise": 0.9,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "What is the incidence rate of polymicrogyria and cortical migration defects on volumetric brain MRI across an expanded cohort of patients with confirmed truncating vs missense MAPK8IP3 variants?",
+      "rationale": "Confirming whether polymicrogyria is exclusively restricted to specific missense hotspots would provide an absolute neuroimaging discriminator for genotype-phenotype classification.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

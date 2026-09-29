@@ -1,0 +1,202 @@
+{
+  "question": "For Neurodevelopmental disorder with progressive movement abnormalities (OMIM #620785), caused by variants in ACBD6: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.48774017,
+    "by_phase": {
+      "init": 0.03411,
+      "plan": 0.00904,
+      "explore": 0.06309799999999999,
+      "screen": 0.13236550000000002,
+      "deep": 0.1891795,
+      "measure": 0.01344467,
+      "finalize": 0.0465025,
+      "artifact": 0.0
+    },
+    "embeddings": 0.0005794099999999998
+  },
+  "allocations": [
+    {
+      "direction": "d1",
+      "question": "What are the exact published cohort sizes, exact numerators and denominators for dystonia, ataxia, chorea, and microcephaly across primary discovery papers?",
+      "allocated": 1.97,
+      "spent": 0.01574500000000001,
+      "rationale": "Directly extracts exact numerators, denominators, and HPO terms across published cohorts to satisfy question 1."
+    },
+    {
+      "direction": "d5",
+      "question": "How specifically can neuroimaging hallmarks (corpus callosum anomalies, clava hypertrophy, and anterior commissure agenesis) differentiate ACBD6-related disorders from other hereditary dystonia-parkinsonism and chorea syndromes?",
+      "allocated": 1.94,
+      "spent": 0.012886000000000009,
+      "rationale": "Directly targets the key discriminating neuroimaging markers (anterior commissure dysgenesis and claval hypertrophy) needed to distinguish ACBD6 from phenotypically overlapping dystonia-chorea syndromes."
+    },
+    {
+      "direction": "d7",
+      "question": "Resolve the conflict over: The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "allocated": 1.97,
+      "spent": 0.017150500000000013,
+      "rationale": "Resolves key contradictions between Kaiyrzhanov 2024 and Yeetong 2022 regarding systemic findings and distinguishing features."
+    },
+    {
+      "direction": "d19",
+      "question": "What proportion of adult ACBD6-deficient individuals develop multi-system involvement (cirrhosis, diabetes, nephropathy, or pancytopenia) versus purely neurologic phenotypes?",
+      "allocated": 1.94,
+      "spent": 0.017316500000000012,
+      "rationale": "Directly resolves whether the multi-system involvement reported by Yeetong et al. is an age-dependent or allele-specific finding versus an isolated report contradicted by larger cohorts."
+    }
+  ],
+  "patterns": 5,
+  "artifacts": 0,
+  "avg_explore_cost": 0.0157745,
+  "avg_test_cost": 0.0114540625,
+  "snapshots": [
+    {
+      "cost": 0.48774017,
+      "coverage": 0.7,
+      "quality": 0.75,
+      "answeredness": 0.5249999999999999,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 16,
+      "n_pooled": 12,
+      "n_binned": 4,
+      "n_conflicted": 1,
+      "n_refuted": 2,
+      "n_evidence": 57,
+      "n_covered": 7,
+      "n_asks": 10,
+      "n_open": 39,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "Resolvable source citation (PMID or DOI) and cohort identification attached to each reported phenotype frequency",
+        "Confidence level for each distinguishing clinical feature/differential",
+        "Phenotypic findings reported by one paper and explicitly contradicted by another"
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_620785/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "Resolvable source citation (PMID or DOI) and cohort identification attached to each reported phenotype frequency",
+      "Confidence level for each distinguishing clinical feature/differential",
+      "Phenotypic findings reported by one paper and explicitly contradicted by another"
+    ],
+    "explored_texts": [
+      "What are the exact published cohort sizes, exact numerators and denominators for dystonia, ataxia, chorea, and microcephaly across primary discovery papers?",
+      "Resolve the conflict over: The most discriminating phenotypic profile is the constellation of early developmental delay that transitions into a progressive mixed hypokinetic-hyperkinetic movement disorder (dystonia plus parkinsonism/choreoathetosis) without episodic metabolic decompensation or prominent sensorimotor polyneuropathy, distinguishing it from disorders like GNAO1 encephalopathy, NKX2-1-related chorea, and classic NBIA disorders.",
+      "What proportion of adult ACBD6-deficient individuals develop multi-system involvement (cirrhosis, diabetes, nephropathy, or pancytopenia) versus purely neurologic phenotypes?",
+      "How specifically can neuroimaging hallmarks (corpus callosum anomalies, clava hypertrophy, and anterior commissure agenesis) differentiate ACBD6-related disorders from other hereditary dystonia-parkinsonism and chorea syndromes?"
+    ],
+    "explore_costs": [
+      0.015745,
+      0.0171505,
+      0.0173165,
+      0.012886
+    ],
+    "test_costs": [
+      0.007387,
+      0.0099325,
+      0.00973,
+      0.007583,
+      0.0117095,
+      0.0148695,
+      0.016177,
+      0.016703,
+      0.0081285,
+      0.0064795,
+      0.0078005,
+      0.0077175,
+      0.008203,
+      0.008989,
+      0.011484,
+      0.011916,
+      0.011356,
+      0.011801,
+      0.00943,
+      0.010937,
+      0.0072765,
+      0.007643,
+      0.0066595,
+      0.007327,
+      0.0093265,
+      0.0121825,
+      0.0119975,
+      0.0111805,
+      0.011667,
+      0.0143855,
+      0.013566
+    ],
+    "task_n": 46,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Neurodevelopmental disorder with progressive movement abnormalities (OMIM #620785), caused by variants in ACBD6: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.48774017,
+    "budget_by_phase": {
+      "init": 0.03411,
+      "plan": 0.00904,
+      "explore": 0.06309799999999999,
+      "screen": 0.13236550000000002,
+      "deep": 0.1891795,
+      "measure": 0.01344467,
+      "finalize": 0.0465025,
+      "artifact": 0.0
+    }
+  }
+}

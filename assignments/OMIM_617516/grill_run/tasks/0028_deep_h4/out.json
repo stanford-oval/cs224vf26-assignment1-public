@@ -1,0 +1,123 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature robustly supports the qualitative association of Stankiewicz-Isidor syndrome (STISS; PSMD12 haploinsufficiency) with both congenital anomalies of the kidney and urinary tract (CAKUT, including horseshoe kidney and renal hypoplasia/dysplasia) and congenital heart defects (CHD). However, the specific quantitative prevalence ranges asserted in the hypothesis (30-50% for CAKUT and 25-40% for CHD) cannot be verified directly from the provided source texts, which document substantial variable expressivity and report that structural malformations occur inconsistently ('with or without other congenital anomalies').",
+  "evidence": [
+    {
+      "text": "Isidor et al. (2022) examined a series of 24 individuals with PSMD12 variants causing STISS, confirming recurrent cardiac and renal malformations alongside neurodevelopmental delay and preaxial hand anomalies, though exact prevalence fractions for organ malformations are not reported in the abstract.",
+      "stance": "supports",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "In addition to previously reported DD/ID, speech delay, cardiac and renal anomalies, we also confirmed preaxial hand abnormalities as a feature of this syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "Feresin et al. (2025) characterized six individuals with inherited truncating PSMD12 variants across two families and noted that while intellectual disability and craniofacial dysmorphisms were fully penetrant, other structural congenital anomalies were variable ('with or without other congenital anomalies'), demonstrating that major malformations are not obligate.",
+      "stance": "neutral",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating  PSMD12  Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "causes Stankiewicz-Isidor syndrome (STISS), characterized by intellectual disability, autism spectrum disorder, craniofacial dysmorphisms, with or without other congenital anomalies, and autoinflammation."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "text": "Yu et al. (2026) identified a pathogenic splice site variant in PSMD12 (c.796-1G > A) in 1 of 45 fetuses (2.2%) undergoing trio exome sequencing for isolated horseshoe kidney, illustrating the link between PSMD12 and CAKUT presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinically Significant Genetic Results in Fetuses With Isolated Horseshoe Kidney",
+        "authors": [
+          "QX Yu",
+          "YT Ni",
+          "YL Zhang",
+          "ZQ Xiao",
+          "SY Li"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/pd.70086",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.70086",
+        "quote": "Among the cases that yielded negative results from CMA, 45 proceeded to trio ES. Notably, two disease-causing variants, c.796-1G > A in PSMD12 and c.11707 C > T (p.Gln3903*) in KMT2D, were detected in each case."
+      },
+      "numbers": [
+        {
+          "metric": "PSMD12_positive_fetuses_with_isolated_horseshoe_kidney",
+          "value": "1/45"
+        }
+      ]
+    },
+    {
+      "text": "Damnjanovic et al. (2026) report that PSMD12 copy-number and sequence variants represent an established cause of syndromic congenital heart disease and associated renal malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Analysis of Copy Number and Sequence Variants Linked to Cardiac Development in Children with Syndromic Congenital Heart Defects",
+        "authors": [
+          "T Damnjanovic",
+          "N Maksimovic",
+          "A Djuranovic Uklein"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2035-8148/16/2/13",
+        "quote": "deletions of PSMD12 cause Stankiewicz\u2013Isidor syndrome, a"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The qualitative association between PSMD12 haploinsufficiency and both cardiac and renal anomalies is confirmed across multiple cohorts, but the precise statistical frequencies (30-50% for CAKUT and 25-40% for CHD) are unverified in the retrieved text and are complicated by variable penetrance and familial presentations lacking major structural defects."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerator-and-denominator prevalence rates of specific CAKUT subtypes (e.g., horseshoe kidney, renal agenesis) and CHD subtypes (e.g., ASD, VSD) across all published PSMD12 molecular cohorts?",
+      "rationale": "A systematic meta-analysis of full-text patient registries and cohort papers is required to establish whether true penetrance falls within the proposed 30-50% and 25-40% intervals or varies between inherited and de novo variants.",
+      "promise": 0.85,
+      "est_cost": 10000
+    },
+    {
+      "question_text": "Do truncating PSMD12 variants have differing penetrance for renal and cardiac anomalies compared to microdeletions spanning 19q13.2?",
+      "rationale": "Contiguous gene deletions encompassing PSMD12 might exhibit higher frequencies of congenital structural anomalies than intragenic loss-of-function variants due to neighboring genes.",
+      "promise": 0.78,
+      "est_cost": 25000
+    }
+  ]
+}

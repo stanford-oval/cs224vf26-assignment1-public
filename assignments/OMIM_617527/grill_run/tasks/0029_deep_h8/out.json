@@ -1,0 +1,105 @@
+{
+  "verdict": "supported",
+  "rationale": "Postnatal characterizations of PLAA deficiency (NDMSBA, OMIM #617527) confirm consistent, early-onset postnatal manifestation of progressive microcephaly and spastic quadriparesis (7/7 affected individuals in Falik Zaccai et al., 2017, and corroborated in infantile epileptic encephalopathy series). In contrast, prenatal presentations identified via fetal exome sequencing (such as case No. 22 in Huang et al., 2023) present with severe sonographic structural abnormalities that result in fetal demise or elective termination before secondary postnatal microcephaly and spasticity can emerge.",
+  "evidence": [
+    {
+      "text": "Falik Zaccai et al. identified a unique form of leukoencephalopathy in seven patients presenting between 2 and 4 months of age with progressive microcephaly, spastic quadriparesis, and global developmental delay associated with a homozygous loss-of-function variant in PLAA (p.Leu752Phe).",
+      "stance": "supports",
+      "source": {
+        "title": "Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy",
+        "authors": [
+          "TC Falik Zaccai",
+          "D Savitzki",
+          "Y Zivony"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "quote": "Herein, we have identified a unique form of leukoencephalopathy in seven patients presenting at ages 2 to 4 months with progressive microcephaly, spastic quadriparesis, and global developmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients presenting with progressive microcephaly and spastic quadriparesis",
+          "value": "7/7"
+        },
+        {
+          "metric": "age at presentation in months",
+          "value": "2 to 4"
+        }
+      ]
+    },
+    {
+      "text": "Huang et al. retrospectively analyzed 61 deceased fetuses with ultrasound anomalies and normal copy-number analysis, identifying a fetus (case No. 22) harboring PLAA-associated neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies, showing prenatal lethal presentation with ultrasound anomalies prior to birth.",
+      "stance": "supports",
+      "source": {
+        "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+        "authors": [
+          "W Huang",
+          "X Zhu",
+          "G Sun",
+          "Z Gao",
+          "X Kong"
+        ],
+        "year": 2023,
+        "journal": "BMC Medical Genomics",
+        "doi": "10.1186/s12920-022-01427-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+        "quote": "In case No.22, the deceased fetus with a neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies..."
+      },
+      "numbers": [
+        {
+          "metric": "overall diagnostic rate for deceased fetuses with ultrasound anomalies",
+          "value": "28/61"
+        }
+      ]
+    },
+    {
+      "text": "Han et al. identified a pathogenic or likely pathogenic variant in PLAA in a cohort of 10 Korean patients presenting clinically with atypical cerebral palsy accompanied by intellectual disability and structural/skeletal comorbidities.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+        "authors": [
+          "JY Han",
+          "J Gwack",
+          "JH Kim",
+          "MK Park",
+          "J Park"
+        ],
+        "year": 2025,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11988916",
+        "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+        "quote": "six likely pathogenic variants (LPVs) or pathogenic variants (PVs) detected in the SLC2A1, PLAA, CDC42BPB, CACNA1D, ALG12, and SACS genes (n = 6)."
+      },
+      "numbers": [
+        {
+          "metric": "patients with PLAA variants among atypical CP cohort",
+          "value": "1/10"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does the atypical cerebral palsy phenotype caused by PLAA variants universally exhibit progressive microcephaly upon longitudinal follow-up, or can milder alleles spare head circumference progression?",
+      "rationale": "Recent atypical cerebral palsy series identify PLAA variants outside classical severe infantile leukoencephalopathy, warranting longitudinal tracking of head circumference trajectories and motor grading.",
+      "promise": 0.82,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What specific fetal organ system anomalies on second-trimester ultrasound correlate with biallelic null vs. hypomorphic PLAA variants?",
+      "rationale": "Characterizing whether fetal ultrasound anomalies in PLAA deficiency are primarily central nervous system malformations or multi-system anomalies will enhance prenatal triage.",
+      "promise": 0.78,
+      "est_cost": 30000.0
+    }
+  ]
+}

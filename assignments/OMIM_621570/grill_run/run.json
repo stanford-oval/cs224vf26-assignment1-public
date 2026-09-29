@@ -1,0 +1,201 @@
+{
+  "question": "For Cornelia de Lange syndrome 7 (OMIM #621570), caused by variants in MAU2: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.4762499700000001,
+    "by_phase": {
+      "init": 0.0351035,
+      "plan": 0.01081,
+      "explore": 0.06012250000000001,
+      "screen": 0.10663850000000002,
+      "deep": 0.20836700000000002,
+      "measure": 0.00630897,
+      "finalize": 0.0488995,
+      "artifact": 0.0
+    },
+    "embeddings": 0.00068939
+  },
+  "allocations": [
+    {
+      "direction": "d4",
+      "question": "What are the exact numerator/denominator frequencies of specific dysmorphic features (synophrys, arched eyebrows, long eyelashes, microcephaly) in the full Parenti et al. cohort of 18 MAU2 patients?",
+      "allocated": 1.9780357,
+      "spent": 0.012766499999999986,
+      "rationale": "Directly targets the primary requirement for exact cohort numerators, denominators, and HPO phenotypic frequencies from the definitive 18-patient Parenti et al. cohort."
+    },
+    {
+      "direction": "d12",
+      "question": "Build on the confirmed prior: Distinguishing CdLS7 from classical NIPBL-related CdLS (CdLS1) relies on the milder overall neurodevelopmental impairment and the absence of severe limb reduction anomalies (e.g., absent ulna/radius, oligodactyly); however, discriminating CdLS7 from RAD21- or SMC3-related mild CdLS on purely clinical grounds without molecular testing has low discriminatory confidence due to near-identical mild cohesinopathy dysmorphic spectra.",
+      "allocated": 1.9780357,
+      "spent": 0.015224500000000002,
+      "rationale": "Directly addresses clinical differential diagnosis and confidence thresholds distinguishing CdLS7 from classical NIPBL-related CdLS and mild RAD21/SMC3 cohesinopathies."
+    },
+    {
+      "direction": "d15",
+      "question": "What are the exact patient-by-patient numerator/denominator frequencies for congenital heart defects, limb anomalies, and gastrointestinal abnormalities in the Parenti et al. 18-patient MAU2 cohort?",
+      "allocated": 1.9456380020000001,
+      "spent": 0.016656999999999977,
+      "rationale": "Directly resolves key unanswered requirements by mining Parenti et al. for exact patient-level numerators and denominators for limb anomalies, cardiac defects, and GI abnormalities to establish absent and discriminating features."
+    },
+    {
+      "direction": "d20",
+      "question": "What is the exact frequency, severity (SD below mean occipitofrontal circumference), and age of onset of microcephaly across the complete individual patient table of the 18 Parenti et al. subjects?",
+      "allocated": 1.9456380020000001,
+      "spent": 0.015474500000000002,
+      "rationale": "Extracts exact individual-level head circumference z-scores, onset timing, and precise frequency fractions from the 18-patient cohort to resolve the microcephaly conflict and solidify CdLS7 cardinal phenotype metrics."
+    }
+  ],
+  "patterns": 4,
+  "artifacts": 0,
+  "avg_explore_cost": 0.015030625,
+  "avg_test_cost": 0.0106711875,
+  "snapshots": [
+    {
+      "cost": 0.4762499700000001,
+      "coverage": 0.6666666666666666,
+      "quality": 0.4375,
+      "answeredness": 0.29166666666666663,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 16,
+      "n_pooled": 7,
+      "n_binned": 9,
+      "n_conflicted": 3,
+      "n_refuted": 6,
+      "n_evidence": 80,
+      "n_covered": 4,
+      "n_asks": 6,
+      "n_open": 50,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "Frequency of each reported clinical phenotype given as exact numerator and denominator per cohort, attached to the specific cohort and a resolvable source (PMID or DOI)",
+        "Any contradictory clinical findings across papers where one report claims presence and another explicitly contradicts it"
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_621570/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "Frequency of each reported clinical phenotype given as exact numerator and denominator per cohort, attached to the specific cohort and a resolvable source (PMID or DOI)",
+      "Any contradictory clinical findings across papers where one report claims presence and another explicitly contradicts it"
+    ],
+    "explored_texts": [
+      "What are the exact numerator/denominator frequencies of specific dysmorphic features (synophrys, arched eyebrows, long eyelashes, microcephaly) in the full Parenti et al. cohort of 18 MAU2 patients?",
+      "Build on the confirmed prior: Distinguishing CdLS7 from classical NIPBL-related CdLS (CdLS1) relies on the milder overall neurodevelopmental impairment and the absence of severe limb reduction anomalies (e.g., absent ulna/radius, oligodactyly); however, discriminating CdLS7 from RAD21- or SMC3-related mild CdLS on purely clinical grounds without molecular testing has low discriminatory confidence due to near-identical mild cohesinopathy dysmorphic spectra.",
+      "What are the exact patient-by-patient numerator/denominator frequencies for congenital heart defects, limb anomalies, and gastrointestinal abnormalities in the Parenti et al. 18-patient MAU2 cohort?",
+      "What is the exact frequency, severity (SD below mean occipitofrontal circumference), and age of onset of microcephaly across the complete individual patient table of the 18 Parenti et al. subjects?"
+    ],
+    "explore_costs": [
+      0.0127665,
+      0.0152245,
+      0.016657,
+      0.0154745
+    ],
+    "test_costs": [
+      0.00647,
+      0.0076735,
+      0.0060755,
+      0.007474,
+      0.012971,
+      0.0123185,
+      0.0118415,
+      0.009894,
+      0.005806,
+      0.00714,
+      0.0065875,
+      0.0062355,
+      0.006671,
+      0.0076225,
+      0.0208015,
+      0.0166185,
+      0.014164,
+      0.011402,
+      0.016153,
+      0.0101205,
+      0.0072505,
+      0.006661,
+      0.0064285,
+      0.005256,
+      0.005914,
+      0.007373,
+      0.0118115,
+      0.01171,
+      0.014741,
+      0.0114545,
+      0.0123765,
+      0.009989
+    ],
+    "task_n": 47,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Cornelia de Lange syndrome 7 (OMIM #621570), caused by variants in MAU2: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.4762499700000001,
+    "budget_by_phase": {
+      "init": 0.0351035,
+      "plan": 0.01081,
+      "explore": 0.06012250000000001,
+      "screen": 0.10663850000000002,
+      "deep": 0.20836700000000002,
+      "measure": 0.00630897,
+      "finalize": 0.0488995,
+      "artifact": 0.0
+    }
+  }
+}

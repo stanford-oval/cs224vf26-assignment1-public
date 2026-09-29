@@ -1,0 +1,84 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature consistently identifies core neurodevelopmental and feeding manifestations (including hypotonia at 76.5% and feeding difficulties at 81.3%) as dominant characteristics of MSL2-related neurodevelopmental disorder (Karayol-Borroto-Haghshenas syndrome), whereas congenital structural organ anomalies (such as cardiac and renal defects) are consistently reported 'to a lesser extent' rather than as cardinal diagnostic features. Consequently, the absence of major congenital structural malformations does not exclude the diagnosis and is the expected baseline.",
+  "evidence": [
+    {
+      "text": "Karayol et al. identified a discovery cohort of 25 individuals with heterozygous de novo MSL2 variants, establishing primary associations with global developmental delay, intellectual disability, hypotonia, and motor coordination problems/feeding difficulties, whereas other organ anomalies, seizures, and connective tissue features occurred to a lesser extent.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "An analysis of MSL2 variant carriers reported high penetrance of feeding difficulties (81.3%) and hypotonia (76.5%), confirming that core neuromuscular and feeding features exceed the 60% threshold.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation",
+        "authors": [
+          "S Luo",
+          "S Qu",
+          "S Tan",
+          "Z Song",
+          "Y Lv",
+          "X Jia",
+          "J Tan"
+        ],
+        "year": 2026,
+        "journal": "Cellular and Molecular Life Sciences",
+        "doi": "10.1007/s00018-026-06237-7",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/content/pdf/10.1007/s00018-026-06237-7_reference.pdf",
+        "quote": "MSL2 variants carriers showed high prevalence of autism spectrum disorder (64.3%), while \u2026 were predominantly associated with feeding difficulties (81.3%) and hypotonia (76.5%)."
+      },
+      "numbers": [
+        {
+          "metric": "feeding_difficulties_penetrance_percent",
+          "value": 81.3
+        },
+        {
+          "metric": "hypotonia_penetrance_percent",
+          "value": 76.5
+        },
+        {
+          "metric": "autism_spectrum_disorder_penetrance_percent",
+          "value": 64.3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the granular breakdown and organ-specific frequency (cardiac, renal, gastrointestinal malformations) across all published MSL2 variant cases to date?",
+      "rationale": "Karayol et al. categorize visceral malformations together as 'other organ anomalies' occurring to a lesser extent; an itemized systematic meta-analysis of individual patient supplemental tables would pinpoint exact organ risks.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Does the blood DNA methylation episignature distinguish MSL2-related neurodevelopmental disorder from other epigenetic chromatin-modifier syndromes with high clinical overlap?",
+      "rationale": "Because non-syndromic or variable structural presentation makes purely phenotypic clinical diagnosis difficult, the established episignature serves as a non-invasive confirmatory molecular tool.",
+      "promise": 0.9,
+      "est_cost": 15000
+    }
+  ]
+}

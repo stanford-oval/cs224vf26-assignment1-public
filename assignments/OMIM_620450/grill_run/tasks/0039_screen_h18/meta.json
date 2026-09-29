@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"Janssen\" \"Bertoli-Avella\" \"intellectual disability\"",
+    "TAF4 de novo variants intellectual developmental disorder Janssen Bertoli-Avella"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://open.fau.de/server/api/core/bitstreams/40895c04-aeda-4788-99ec-f2d3141e55d2/content",
+      "title": "Identification and characterization of candidate genes in individuals with autosomal recessive intellectual disability",
+      "pmid": null,
+      "doi": null,
+      "url": "https://open.fau.de/server/api/core/bitstreams/40895c04-aeda-4788-99ec-f2d3141e55d2/content",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40413033",
+      "title": "RNU4-2 monoallelic variants as a leading cause of syndromic neurodevelopmental disorder, including in patients with parental consanguinity",
+      "pmid": "40413033",
+      "doi": "10.1136/jmg-2024-110556",
+      "url": "https://jmg.bmj.com/content/62/8/536.abstract",
+      "abstract_chars": 1702
+    },
+    {
+      "id": "https://omim.org/entry/620450",
+      "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "title": "Intellectual Developmental Disorder, Autosomal Dominant 73",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+      "title": "Gene: TAF4 (Intellectual disability)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/601796",
+      "title": "Entry - *601796 - TAF4 RNA POLYMERASE II, TATA BOX- ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/601796",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3068,
+  "output_tokens": 1227,
+  "usd": 0.00522,
+  "seconds": 9.0,
+  "ok": true
+}

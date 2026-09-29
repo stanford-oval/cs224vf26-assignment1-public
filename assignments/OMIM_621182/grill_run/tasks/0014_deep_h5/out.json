@@ -1,0 +1,111 @@
+{
+  "verdict": "supported",
+  "rationale": "Across published cohorts of biallelic NAV3-related neurodevelopmental disorder (NEDSFB, OMIM #621182), clinical descriptions show clear divergence regarding facial dysmorphism and epileptic manifestations. While the disorder is defined in OMIM with dysmorphic facies and behavioral abnormalities, Kakar et al. (2025) describe variable dysmorphic features (such as prominent midface) across 5 individuals from 3 consanguineous families rather than an invariant recognizable gestalt, and explicitly document the absence of seizures in their cohort. In contrast, Umair et al. (2024) report seizures/epilepsy as a presenting finding alongside GDD and hypotonia in their proband, and Umair et al. (2025) document febrile seizures in an affected sibling carrying a homozygous missense variant. This variation confirms that whether seizures represent an intrinsic core component versus an incomplete/incidental penetrant feature, and whether dysmorphic features form a distinct gestalt versus variable minor anomalies, represent active literature discrepancies.",
+  "evidence": [
+    {
+      "text": "Kakar et al. reported five patients from three unrelated consanguineous families with biallelic truncating/splice NAV3 variants presenting with variable dysmorphic features (including prominent midface), intellectual disability, developmental delay, and behavioral abnormalities, but explicitly documented 'no seizures' and absence of cleft lip/palate.",
+      "stance": "supports",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "The dysmorphic features include a prominent midface, \u2026 , normal speech, no cleft lip or cleft palate, and no seizures. \u2026 with biallelic variants in NAV3 with variable dysmorphic features"
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals reported in cohort",
+          "value": 5
+        },
+        {
+          "metric": "Families reported in cohort",
+          "value": 3
+        },
+        {
+          "metric": "Individuals with seizures",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "Umair et al. (2024) characterized a proband with a homozygous frameshift variant (c.2604_2605delAG; p.Val870SerfsTer12) who presented with severe complex neurodevelopmental disorder characterized by seizures, intellectual disability, global developmental delay, speech delay, generalized hypotonia, and dysmorphic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "bi- allelic variant in the NAV3 gene causing NDD in humans. \u2026 as ID, GDD, seizures, speech delay, generalized hypotonia, \u2026 Mutated RAP1GDS1 causes a new syndrome of dysmorphic"
+      },
+      "numbers": [
+        {
+          "metric": "Probands evaluated",
+          "value": 1
+        },
+        {
+          "metric": "Probands with seizures reported",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Umair et al. (2025) identified a biallelic missense variant (c.3430T>C; p.Ser1144Pro) in NAV3 in a family where the index patient exhibited speech impairment, dysmorphic features, and febrile seizures.",
+      "stance": "supports",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "speech impairment, and dysmorphic features. Additionally, the younger sibling (II-2) exhibited febrile seizures and ambiguous speech\u2026 Notably, febrile seizures in our index patient (II-2)"
+      },
+      "numbers": [
+        {
+          "metric": "Index patients with febrile seizures",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.86,
+  "new_directions": [
+    {
+      "question_text": "Does 3D facial photogrammetry and GestaltMatcher analysis reveal a statistically significant shared facial signature in NAV3-associated cases compared to healthy controls and other syndromic NDDs?",
+      "rationale": "Directly resolves whether the facial features represent a genuine, subtle gestalt or an unspecific collection of common neurodevelopmental dysmorphisms.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the true penetrance and electroclinical spectrum of epilepsy/seizures in international multi-cohort registries of NAV3 loss-of-function vs missense variants?",
+      "rationale": "Clarifies whether seizures are an intrinsic phenotype with reduced penetrance dependent on variant position or secondary to fever/provocation.",
+      "promise": 0.84,
+      "est_cost": 40000
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "verdict": "conflicted",
+  "rationale": "There is clear evidence that the NFU1 phenotypic spectrum forms a continuum where hypomorphic missense variants can produce milder, juvenile/adult or slowly progressive hereditary spastic paraplegia (SPG93, OMIM #620938) rather than rapid, fatal infantile multiple mitochondrial dysfunctions syndrome 1 (MMDS1). However, the hypothesis fails on two critical assertions: first, c.565G>A (p.Gly189Arg) is classically documented in severe, infantile-onset MMDS1 cases rather than being exclusively restricted to or diagnostic of non-lethal SPG93; second, other distinct missense variants (e.g., p.Leu99Val [c.295C>G] and p.Val241Leu) cause SPG93, directly disproving the claim that specific recurrent alleles such as c.565G>A and c.332G>T account for 100% of non-lethal HSP presentations.",
+  "evidence": [
+    {
+      "text": "Homozygosity for the missense variant c.295C>G (p.Leu99Val) in NFU1 was identified by Kaiyrzhanov et al. (2022) as a causative etiology for autosomal recessive spastic paraplegia-93 (SPG93; OMIM 620938), demonstrating that other distinct missense alleles besides c.565G>A or c.332G>T cause SPG93.",
+      "stance": "contradicts",
+      "source": {
+        "title": "NM_001002755.4(NFU1):c.295C>G (p.Leu99Val) AND Spastic paraplegia 93, autosomal recessive",
+        "authors": [
+          "NCBI ClinVar"
+        ],
+        "year": 2022,
+        "journal": "ClinVar",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/clinvar/RCV004701943/",
+        "quote": "spastic paraplegia-93 (SPG93; 620938), Kaiyrzhanov et al. (2022) identified homozygosity for a c.295C-G transversion (c.295C-G, NM_001002755.4) in the NFU1"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM phenotype identifier",
+          "value": 620938
+        }
+      ]
+    },
+    {
+      "text": "OMIM curates NFU1 variation including Val241Leu as causative for autosomal recessive Spastic Paraplegia 93 (SPG93).",
+      "stance": "contradicts",
+      "source": {
+        "title": "NFU1",
+        "authors": [
+          "MARRVEL curation"
+        ],
+        "year": null,
+        "journal": "MARRVEL",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://marrvel.org/human/gene/27247",
+        "quote": "SPASTIC PARAPLEGIA 93, AUTOSOMAL RECESSIVE, NFU1, VAL241LEU. SPASTIC PARAPLEGIA 93"
+      },
+      "numbers": [
+        {
+          "metric": "Curated phenotypes for NFU1",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Biochemical and biophysical characterization reveals that the p.Gly189Arg mutation near the active site triggers structural changes, alters monomer-dimer equilibrium, and impairs the ability of NFU1 to accept Fe-S clusters, manifesting in typical MMDS1 disease presentations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Understanding the molecular basis for multiple mitochondrial dysfunctions syndrome 1 (MMDS 1): impact of a disease\u2010causing Gly189Arg substitution on NFU 1",
+        "authors": [
+          "NA Wesley",
+          "C Wachnowsky",
+          "I Fidai",
+          "JA Cowan"
+        ],
+        "year": 2017,
+        "journal": "FEBS Journal",
+        "doi": "10.1111/febs.14271",
+        "pmid": "28906594",
+        "pmc": null,
+        "url": "https://febs.onlinelibrary.wiley.com/doi/abs/10.1111/febs.14271",
+        "quote": "Herein, we have characterized the impact of defects occurring in the MMDS1 disease state that result from a point mutation (p.Gly189Arg) near the active site of NFU1, an Fe/S scaffold protein."
+      },
+      "numbers": [
+        {
+          "metric": "Residue position investigated",
+          "value": 189
+        }
+      ]
+    },
+    {
+      "text": "Ahting et al. evaluated the phenotypic spectrum of 7 patients with NFU1 deficiency, highlighting that missense variants including Gly189Arg present in compound heterozygosity or homozygosity with severe mitochondrial dysfunction (MMDS1).",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical, biochemical, and genetic spectrum of seven patients with NFU1 deficiency",
+        "authors": [
+          "U Ahting",
+          "JA Mayr",
+          "AV Vanlander",
+          "SA Hardy",
+          "CM Santra"
+        ],
+        "year": 2015,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2015.00123",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2015.00123/full",
+        "quote": "Gly189Arg) compound heterozygous with a novel missense \u2026 new patients with MMDS1 caused by NFU1 mutations, six of"
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size evaluated",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "NFU1 missense variants span a continuous phenotypic spectrum ranging from classic severe MMDS1 to early-onset pure and complex hereditary spastic paraplegia (HSP), confirming that hypomorphic missense variation can modulate severity.",
+      "stance": "supports",
+      "source": {
+        "title": "Phenotypic continuum of NFU1\u2010related disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "MS Zaki",
+          "T Lau",
+          "S Sen"
+        ],
+        "year": 2022,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.51679",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+        "quote": "NFU1 missense variants associated with a spectrum of early-onset pure to complex hereditary spastic paraplegia (HSP) phenotype \u2026 HSP phenotype, thereby suggesting that MMDS1"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that specific hypomorphic alleles such as c.565G>A (p.Gly189Arg) account for non-lethal pediatric/adolescent HSP presentations, but literature (Ahting et al. 2015, Wesley et al. 2017) shows p.Gly189Arg is a recognized pathogenic mutation underlying severe infantile MMDS1.",
+    "The claim that these specific alleles account for 100% of non-lethal HSP presentations is disproved by the identification of other independent pathogenic missense alleles in SPG93, including c.295C>G (p.Leu99Val) and p.Val241Leu."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What residual [4Fe-4S] cluster transfer activity threshold separates fatal infantile MMDS1 from surviving SPG93 phenotypes across documented NFU1 missense variants?",
+      "rationale": "Quantifying in vitro cluster transfer and stability across p.Leu99Val, p.Val241Leu, p.Gly189Arg, and c.332G>T will elucidate the biochemical cut-off for clinical spastic paraplegia versus multisystem metabolic collapse.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do modifying alleles or intragenic compound heterozygosity explain why p.Gly189Arg manifests as severe MMDS1 in some pedigrees but milder neurological presentations in others?",
+      "rationale": "Resolving discrepancies in clinical severity for identical alleles will determine whether clinical SPG93 classification requires second-site epistatic modifiers or tissue-specific residual expression.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

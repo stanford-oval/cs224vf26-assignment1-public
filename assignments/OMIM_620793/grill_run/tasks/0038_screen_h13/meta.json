@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SNUPN\" \"myopathy\" OR \"muscular dystrophy\" MRI \"sartorius\"",
+    "SNUPN muscular dystrophy adult onset inclusion body myositis MRI"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "10.1002/acn3.70211",
+      "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+      "pmid": null,
+      "doi": "10.1002/acn3.70211",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "https://www.medlink.com/articles/limb-girdle-muscular-dystrophies",
+      "title": "Limb-girdle muscular dystrophies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.medlink.com/articles/limb-girdle-muscular-dystrophies",
+      "abstract_chars": 1697
+    },
+    {
+      "id": "39967427",
+      "title": "Current biomarkers in inclusion body myositis",
+      "pmid": "39967427",
+      "doi": "10.1177/22143602241286712",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/22143602241286712",
+      "abstract_chars": 1319
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/38366623/",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38366623/",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://www.researchgate.net/publication/396259358_SNUPN-Related_Muscular_Dystrophy_Novel_Phenotypic_Pathological_and_Functional_Protein_Insights",
+      "title": "(PDF) SNUPN\u2010Related Muscular Dystrophy: Novel ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/396259358_SNUPN-Related_Muscular_Dystrophy_Novel_Phenotypic_Pathological_and_Functional_Protein_Insights",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://deustoteka.deusto.es/items/041708db-7e8d-4a4e-bbaa-c573b102a5f5/full",
+      "title": "SNUPN-Related Muscular Dystrophy: novel phenotypic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://deustoteka.deusto.es/items/041708db-7e8d-4a4e-bbaa-c573b102a5f5/full",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "41549703",
+      "title": "Muscle Imaging in Inclusion Body Myositis: Refinement of MRI Criteria and Insights Into Upper Body Involvement",
+      "pmid": "41549703",
+      "doi": "10.1002/jcsm.70173",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcsm.70173",
+      "abstract_chars": 2589
+    },
+    {
+      "id": "30377729",
+      "title": "Whole-body MRI and pathological findings in adult patients with myopathies",
+      "pmid": "30377729",
+      "doi": "10.1007/s00256-018-3107-1",
+      "url": "https://link.springer.com/article/10.1007/s00256-018-3107-1",
+      "abstract_chars": 1535
+    }
+  ],
+  "input_tokens": 6804,
+  "output_tokens": 1319,
+  "usd": 0.00736,
+  "seconds": 12.5,
+  "ok": true
+}

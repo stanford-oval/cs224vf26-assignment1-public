@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SGSM3\" \"intellectual developmental disorder\" \"OMIM\" 620401",
+    "SGSM3 autosomal recessive intellectual developmental disorder 84 clinical phenotypes cohort"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/610440",
+      "title": "610440 - SMALL G PROTEIN SIGNALING MODULATOR 3; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/610440",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/620401?highlight=(20qand20chromosomem%7Cm)",
+      "title": "Clinical Synopsis - #620401 - INTELLECTUAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/620401?highlight=(20qand20chromosomem%7Cm)",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/entities/SGSM3",
+      "title": "SGSM3",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/entities/SGSM3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://github.com/OD4RD/Main-Help-Desk/issues/537",
+      "title": "SGSM3-associated disorder \u00b7 Issue #537",
+      "pmid": null,
+      "doi": null,
+      "url": "https://github.com/OD4RD/Main-Help-Desk/issues/537",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/gtr/genes/27352/",
+      "title": "SGSM3 small G protein signaling modulator 3 - NIH Genetic Testing ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/gtr/genes/27352/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://jmg.bmj.com/content/61/3/289.abstract",
+      "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1111/cge.14631",
+      "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+      "pmid": null,
+      "doi": "10.1111/cge.14631",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+      "abstract_chars": 1101
+    },
+    {
+      "id": "10.1101/2021.12.24.21268340.abstract",
+      "title": "Autism spectrum disorder trios from consanguineous populations are enriched for rare biallelic variants, identifying 32 new candidate genes",
+      "pmid": null,
+      "doi": "10.1101/2021.12.24.21268340.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2021.12.24.21268340.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "29898714",
+      "title": "Calculating the statistical significance of rare variants causal for Mendelian and complex disorders",
+      "pmid": "29898714",
+      "doi": "10.1186/s12920-018-0371-9",
+      "url": "https://link.springer.com/article/10.1186/s12920-018-0371-9",
+      "abstract_chars": 2263
+    },
+    {
+      "id": "https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00090-3",
+      "title": "The genetics of autism spectrum disorder in an East African familial cohort",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00090-3",
+      "abstract_chars": 1126
+    }
+  ],
+  "input_tokens": 5177,
+  "output_tokens": 3445,
+  "usd": 0.01292,
+  "seconds": 18.1,
+  "ok": true
+}

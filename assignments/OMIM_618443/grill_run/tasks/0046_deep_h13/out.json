@@ -1,0 +1,142 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical and genetic characterizations of cohorts with MAPK8IP3-related neurodevelopmental disorder (NEDBA) confirm that microcephaly is not an obligate or universal feature, occurring in approximately 20% to 30% of cases (e.g., 3/13 or 23.1% in the initial discovery cohort by Platzer et al., and identified as a recurrent feature in the 32-patient cohort by Sudnawa et al.). Furthermore, recurrent missense variants\u2014most notably p.Arg578Cys (c.1732C>T) and C-terminal missense alterations\u2014consistently associate with microcephaly, cerebral atrophy, and severe structural neurodevelopmental defects, whereas heterozygous loss-of-function / truncating variants consistently exhibit milder manifestations without prominent microcephaly, although phenotypic variability exists.",
+  "evidence": [
+    {
+      "text": "In the discovery cohort of 13 unrelated individuals with de novo MAPK8IP3 variants, growth development was largely normal across the overall cohort, with microcephaly explicitly documented in individuals carrying the recurrent missense variant p.Arg578Cys.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "short stature, and microcephaly in both individuals harboring the variant p.Arg578Cys; and the"
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size",
+          "value": 13
+        },
+        {
+          "metric": "Number of missense variants",
+          "value": 6
+        },
+        {
+          "metric": "Number of truncating variants",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Among 32 individuals with heterozygous pathogenic or likely pathogenic MAPK8IP3 variants (62.5% missense, 34.4% predicted LOF), microcephaly presented as a common recurrent symptom, and genotype-phenotype analysis established that missense variants are associated with significantly more severe structural and clinical neurodevelopmental features than LOF variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+        "authors": [
+          "KK Sudnawa",
+          "A Geltzeiler",
+          "CH Kanner"
+        ],
+        "year": 2026,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.70032",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+        "quote": "Common symptoms included cognitive impairment, hypotonia, motor difficulties, strabismus, microcephaly, and attention deficits... Missense variants were associated with more severe symptoms than LOF variants."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size",
+          "value": 32
+        },
+        {
+          "metric": "Proportion missense variants",
+          "value": "62.5%"
+        },
+        {
+          "metric": "Proportion LOF variants",
+          "value": "34.4%"
+        }
+      ]
+    },
+    {
+      "text": "Investigation of recurrent de novo MAPK8IP3 variants across families identified p.Arg578Cys and p.Arg1146Cys as causing a severe core neurological phenotype featuring microcephaly, cerebral atrophy, corpus callosum hypoplasia, and spastic diplegia.",
+      "stance": "supports",
+      "source": {
+        "title": "Recurrent de novo MAPK8IP3 variants cause neurological phenotypes",
+        "authors": [],
+        "year": 2019,
+        "journal": "Annals of Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/332196295_Recurrent_de_novo_MAPK8IP3_variants_cause_neurological_phenotypes",
+        "quote": "We identified 5 individuals from four families with recurrent de novo variants c.1732C>T (p.Arg578Cys) and c.3436C>T (p.Arg1146Cys) in MAPK8IP3. The core phenotype includes spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia."
+      },
+      "numbers": [
+        {
+          "metric": "Individuals evaluated",
+          "value": 5
+        },
+        {
+          "metric": "Families evaluated",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Characterization of an inherited truncating splice-site variant in a three-generation family demonstrated broad intra-familial phenotypic variability ranging from mild learning difficulties to global developmental delay, while cautioning that strict genotype-phenotype correlations remain complex and non-absolute across diverse variant types.",
+      "stance": "neutral",
+      "source": {
+        "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders",
+        "authors": [
+          "S Yi",
+          "Q Yang",
+          "X Song",
+          "L Huang",
+          "S Yi",
+          "Z Qin"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+        "quote": "with NEDBA who harbored missense variants, suggesting a potential genotype-... that genotype-phenotype correlations remain highly uncertain. Therefore, although truncating MAPK8IP3"
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in family",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does the p.Arg578Cys variant exert a dominant-negative or toxic gain-of-function effect specifically impairing retrograde axonal transport of neurotrophic signaling endosomes compared to LOF alleles?",
+      "rationale": "Confirming whether microcephaly in p.Arg578Cys and C-terminal missense carriers is driven by toxic gain-of-function versus haploinsufficiency will clarify the mechanism governing brain growth restriction.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the precise head circumference Z-score trajectory across longitudinal developmental timepoints in individuals with p.Arg578Cys versus truncating MAPK8IP3 mutations?",
+      "rationale": "Differentiating congenital primary microcephaly from progressive secondary microcephaly across genotypes will enhance clinical discriminability from DIAPH1- and other primary microcephaly syndromes.",
+      "promise": 0.9,
+      "est_cost": 15000
+    }
+  ]
+}

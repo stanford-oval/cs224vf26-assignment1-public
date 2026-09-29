@@ -1,0 +1,125 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The available literature confirms that MAPK8IP3-related neurodevelopmental disorder features prominent clinical overlap with hereditary spastic paraplegia (spastic diplegia, corpus callosum hypoplasia) and cerebral palsy phenotypes (cerebral palsy gene panels and spastic diplegia presentation). However, the specific assertion that Pelizaeus-Merzbacher-like disorder is a primary differential and that microcephaly is a defining discriminating feature from pure HSP is unsupported by the provided clinical cohorts, which emphasize intellectual disability (ranging from mild to severe), corpus callosum hypoplasia, perisylvian polymicrogyria, and cerebral/cerebellar atrophy rather than classic PMLD or primary microcephaly.",
+  "evidence": [
+    {
+      "text": "Recurrent de novo missense variants in MAPK8IP3 (c.1732C>T, p.Arg578Cys and c.3436C>T, p.Arg1146Cys) were identified in 5 individuals presenting with a core phenotype of spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia.",
+      "stance": "supports",
+      "source": {
+        "title": "Recurrent de novo MAPK8IP3 variants cause neurological phenotypes",
+        "authors": [
+          "S Iwasawa",
+          "K Yanagi",
+          "A Kikuchi"
+        ],
+        "year": 2019,
+        "journal": "Annals of Neurology",
+        "doi": "10.1002/ana.25481",
+        "pmid": "30945334",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.25481",
+        "quote": "The core phenotype includes spastic diplegia, intellectual disability, cerebral atrophy, and corpus callosum hypoplasia."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals identified",
+          "value": 5
+        },
+        {
+          "metric": "families assessed",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "MAPK8IP3 was evaluated in 13 unrelated individuals with de novo variants (six missense, three truncating), presenting with mild to severe intellectual disability and variable brain anomalies including perisylvian polymicrogyria, cerebral or cerebellar atrophy, and hypoplasia of the corpus callosum; the discussion links the pathology to mechanisms involved in hereditary spastic paraplegia.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2018.12.008",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "Brain anomalies such as perisylvian polymicrogyria, cerebral or cerebellar atrophy, and hypoplasia of the corpus callosum were consistent among individuals harboring recurrent de novo missense variants."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 13
+        },
+        {
+          "metric": "total exome sequencing cohort",
+          "value": 27232
+        }
+      ]
+    },
+    {
+      "text": "MAPK8IP3 is classified under hereditary spastic paraplegias involving lysosomal and membrane trafficking dysfunction, with individuals manifesting intellectual disability, spastic diplegia, and hypoplasia of the corpus callosum.",
+      "stance": "supports",
+      "source": {
+        "title": "Lysosome function and dysfunction in hereditary spastic paraplegias",
+        "authors": [
+          "D Edmison",
+          "L Wang",
+          "S Gowrishankar"
+        ],
+        "year": 2021,
+        "journal": "Brain Sciences",
+        "doi": "10.3390/brainsci11020152",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2076-3425/11/2/152",
+        "quote": "mapk8ip3 have been identified in individuals who manifest with mild to severe intellectual disability, hypoplasia of corpus callosum... described spastic"
+      },
+      "numbers": [
+        {
+          "metric": "associated gene loci for HSP",
+          "value": 80
+        }
+      ]
+    },
+    {
+      "text": "MAPK8IP3 is curated under clinical diagnostic panels for Cerebral Palsy, reflecting its presentation as a genetic mimic of spastic diplegic cerebral palsy.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: MAPK8IP3 (Cerebral Palsy)",
+        "authors": [],
+        "year": 2024,
+        "journal": "PanelApp Australia",
+        "doi": "10.1002/ana.25481",
+        "pmid": "30945334",
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/73/gene/MAPK8IP3/",
+        "quote": "spastic diplegia, intellectual disability, and corpus callosum hypoplasia (PMID: 30945334)."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits Pelizaeus-Merzbacher-like disorder (PMLD) and microcephaly as specific differential/distinguishing elements, but the source cohorts (Platzer et al. 2019, Iwasawa et al. 2019) do not identify microcephaly or PMLD as core distinguishing features; instead, they highlight perisylvian polymicrogyria, corpus callosum hypoplasia, and cerebellar/cerebral atrophy.",
+    "Intellectual disability ranges from mild to severe rather than uniformly presenting as severe early ID, with phenotypic variability dependent on variant type (missense vs. truncating variants)."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic frequency of true microcephaly versus normocephaly across all published MAPK8IP3 patients stratified by variant domain and type?",
+      "rationale": "Determining whether head circumference deviations (microcephaly) are statistically significantly enriched compared to controls would validate or refute microcephaly as a reliable clinical differentiator from pure HSPs.",
+      "promise": 0.8,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "How frequently is perisylvian polymicrogyria detected across MAPK8IP3 cohorts relative to other complex hereditary spastic paraplegias (e.g., SPG11, SPG15)?",
+      "rationale": "Cortical malformations like perisylvian polymicrogyria are rare in classical SPG11/SPG15 and could serve as a highly specific neuroimaging hallmark to pick out MAPK8IP3 variants from the broader HSP/CP differential.",
+      "promise": 0.85,
+      "est_cost": 8000
+    }
+  ]
+}

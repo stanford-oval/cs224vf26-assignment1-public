@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz\" \"aortic dissection\" diameter",
+    "SMAD2 mutation aortic dissection diameter threshold Loeys Dietz syndrome"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0914508719300863",
+      "title": "Genetic basis of hereditary thoracic aortic aneurysms and dissections",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0914508719300863",
+      "abstract_chars": 1794
+    },
+    {
+      "id": "https://www.mdpi.com/1422-0067/19/7/2125",
+      "title": "TGF-\u03b2 signaling-related genes and thoracic aortic aneurysms and dissections",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/1422-0067/19/7/2125",
+      "abstract_chars": 1619
+    },
+    {
+      "id": "10.1155/humu/2951304",
+      "title": "Type B Aortic Dissection Following Abdominal Aortic Aneurysm Repair in Loeys\u2013Dietz Syndrome: A Novel TGFBR1 Variant",
+      "pmid": null,
+      "doi": "10.1155/humu/2951304",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/humu/2951304",
+      "abstract_chars": 1537
+    },
+    {
+      "id": "10.1101/2025.10.01.679917.abstract",
+      "title": "Smooth Muscle Cell-Specific TGF\u03b22 Protects Against Thoracic Aortic Aneurysm and Dissection in Mice",
+      "pmid": null,
+      "doi": "10.1101/2025.10.01.679917.abstract",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.10.01.679917.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2024.02.12.580022.abstract",
+      "title": "Early mechanisms of aortic failure in a zebrafish model for thoracic aortic dissection and rupture",
+      "pmid": null,
+      "doi": "10.1101/2024.02.12.580022.abstract",
+      "url": "https://www.biorxiv.org/content/10.1101/2024.02.12.580022.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1016/j.jacc.2025.04.020",
+      "title": "Characterization of Arterial Aneurysms in Loeys-Dietz ...",
+      "pmid": null,
+      "doi": "10.1016/j.jacc.2025.04.020",
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.04.020",
+      "abstract_chars": 2330
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "title": "Loeys-Dietz Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "abstract_chars": 2593
+    },
+    {
+      "id": "https://www.jtcvsopen.org/article/S2666-2736(24)00095-0/fulltext",
+      "title": "Marfan and Loeys-Dietz aortic phenotype: A potential tool ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.jtcvsopen.org/article/S2666-2736(24)00095-0/fulltext",
+      "abstract_chars": 2092
+    },
+    {
+      "id": "https://www.loeysdietz.org/en/medical-information",
+      "title": "WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.loeysdietz.org/en/medical-information",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+      "title": "Clinical features and complications of Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+      "abstract_chars": 1670
+    }
+  ],
+  "input_tokens": 6854,
+  "output_tokens": 3654,
+  "usd": 0.01439,
+  "seconds": 23.4,
+  "ok": true
+}

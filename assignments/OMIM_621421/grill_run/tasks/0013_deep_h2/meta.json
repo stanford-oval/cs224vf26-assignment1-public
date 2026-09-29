@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TRA2B\" \"Ramond-Elliott\" \"corpus callosum\" phenotype",
+    "Ramond Elliott neurodevelopmental syndrome TRA2B clinical dysmorphic features"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/621421",
+      "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621421",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "10.3389/fmolb.2026.1914793/full",
+      "title": "Nonsense-mediated mRNA decay and associated splicing patterns in neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fmolb.2026.1914793/full",
+      "url": "https://www.frontiersin.org/journals/molecular-biosciences/articles/10.3389/fmolb.2026.1914793/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/ramond_elliott_neurodevelopmental_syndrome",
+      "title": "Ramond-Elliott Neurodevelopmental Syndrome (RAMELN)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/ramond_elliott_neurodevelopmental_syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+      "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621421",
+      "title": "Clinical Synopsis - #621421 - RAMOND-ELLIOTT ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621421",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3966,
+  "output_tokens": 4083,
+  "usd": 0.01423,
+  "seconds": 19.3,
+  "ok": true
+}

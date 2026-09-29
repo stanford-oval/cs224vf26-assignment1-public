@@ -1,0 +1,3831 @@
+{
+  "question": "For Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy (OMIM #617560), caused by variants in NKX6-2: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "required_fields": [
+    "Clinical phenotypes reported in affected individuals with Spastic ataxia 8 (NKX6-2), including exact wording from papers and standardized HPO terms if identifiable",
+    "Frequencies for each reported phenotype as exact numerator and denominator per cohort (not percentage alone), attached to resolvable PMID or DOI citations",
+    "Most discriminating clinical findings present in most affected individuals but uncommon in commonly confused overlapping disorders, including the specific names of those differential disorders and confidence level of the distinction",
+    "Clinical findings systematically assessed and found absent in affected individuals, whose presence would argue against the diagnosis",
+    "Phenotypic variations or genotype-phenotype/demographic correlations based on variant type, variant position, patient age, or sex",
+    "Conflicting or contradictory findings explicitly reported between different papers"
+  ],
+  "glossary": {
+    "SPAX8": {
+      "definition": "Spastic ataxia 8 (SPAX8), autosomal recessive, with hypomyelinating leukodystrophy (OMIM #617560) is a rare neurogenetic disorder caused by bi-allelic pathogenic variants in the NKX6-2 gene. It presents along a clinical spectrum ranging from early-onset nystagmus, psychomotor delay, and cerebellar ataxia with hypotonia that rapidly progresses to severe spasticity, to a milder childhood-onset progressive spastic ataxia, frequently associated with neuroimaging hallmarks of central nervous system hypomyelination.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Bi-allelic mutations in NKX6-2 were recently linked to spastic ataxia 8 with hypomyelinating leukodystrophy."
+      }
+    },
+    "NKX6-2": {
+      "definition": "A gene that encodes a transcriptional repressor with early widespread and late central nervous system-focused expression involved in oligodendrocyte maturation; biallelic mutations in NKX6-2 cause spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy (SPAX8), characterized clinically by progressive cerebellar ataxia, spasticity, and central hypomyelination.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": "28575651",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "NKX6-2 encodes a transcriptional repressor with early high general and late focused CNS expression. Deficiency of its mouse ortholog results in widespread hypomyelination in the brain and optic nerve, as well as in poor motor coordination in a pattern consistent with the observed human phenotype."
+      }
+    },
+    "Hypomyelination": {
+      "definition": "An unchanged pattern of deficient myelination observed across two MRI scans, indicating reduced myelin content resulting from abnormal development or structure of central nervous system myelin.",
+      "source": {
+        "title": "A clinical approach to the diagnosis of patients with leukodystrophies and genetic leukoencephelopathies",
+        "authors": [
+          "S Parikh",
+          "G Bernard",
+          "RJ Leventer"
+        ],
+        "year": 2015,
+        "journal": null,
+        "doi": "10.1016/j.ymgme.2014.12.434",
+        "pmid": "25655951",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1096719214008270",
+        "quote": "Hypomyelination is defined as an unchanged pattern of deficient myelination on two MRI scans"
+      }
+    },
+    "Spastic ataxia": {
+      "definition": "A neurological syndrome characterized by the prominent co-occurrence of cerebellar ataxia with lower-limb spasticity and other pyramidal features, often representing an overlapping phenotype on the spectrum between hereditary ataxias and hereditary spastic paraplegias.",
+      "source": {
+        "title": "A diagnostic approach to spastic ataxia syndromes",
+        "authors": [
+          "JL Pedroso",
+          "TC Vale",
+          "MC Fran\u00e7a Junior",
+          "MA Kauffman"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1007/s12311-021-01345-5",
+        "pmid": "34782953",
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s12311-021-01345-5",
+        "quote": "Spastic ataxia is characterized by the combination of cerebellar ataxia with spasticity and other pyramidal features."
+      }
+    }
+  },
+  "sources": [],
+  "datasets": [],
+  "constraints": [],
+  "assumptions": [],
+  "prior": {
+    "text": "SPAX8 can be clinically and radiologically prioritized over other hypomyelinating leukodystrophies and complex spastic ataxias by a specific triad: (1) early childhood presentation (infantile to early preschool) with prominent lower-limb spasticity and cerebellar signs (nystagmus, appendicular and truncal ataxia), (2) diffuse, homogeneous cerebral hypomyelination on brain MRI (mild T2 hyperintensity/isointensity with lack of T1 shortening) accompanied by significant thinning of the corpus callosum and progressive cerebellar vermian atrophy, and (3) relative preservation of peripheral nerves without prominent dysmorphism, optic atrophy, or primary sensory neuropathy. Missense variants in the homeobox domain often lead to slightly milder or later ambulatory decline compared to early truncating/frameshift null variants.",
+    "candidate_answers": [
+      "Biallelic NKX6-2 pathogenic variants lead to a core clinical spectrum defined by spasticity (HP:0001257), cerebellar ataxia (HP:0001251), nystagmus (HP:0000639), and dysarthria (HP:0001260) present in over 85-90% of reported patients, alongside MRI hallmarks of diffuse cerebral hypomyelination (HP:0003429) and thin corpus callosum (HP:0002079). Key foundational cohorts include Chelban et al. 2017 (PMID: 28430856) reporting 14 individuals from 8 families with spasticity (14/14), ataxia (14/14), and hypomyelination (14/14).",
+      "SPAX8 is best discriminated from X-linked PLP1-related Pelizaeus-Merzbacher disease by autosomal recessive inheritance and often relatively preserved cognitive faculties in childhood despite severe spastic ataxia; from GJC2-related PMLD1 by lack of severe early choreoathetosis and slower initial cognitive decline; and from POLR3-related leukodystrophies (4H leukodystrophy) by the absence of hypodontia (HP:0000668) and hypogonadotropic hypogonadism (HP:0000818).",
+      "Features consistently absent or atypical in SPAX8 include severe early microcephaly, extensive white matter cavitation or cystic degeneration, primary sensorimotor polyneuropathy (demyelinating or axonal peripheral neuropathy is typically absent on EMG/NCS), hypodontia, and primary retinal/optic nerve dysplasia.",
+      "A genotype-phenotype correlation exists where biallelic truncating variants (frameshift, nonsense, canonical splice site) cause a more severe, infantile-onset hypomyelinating leukodystrophy with loss of independent ambulation and prominent bulbar symptoms, whereas missense variants affecting specific conserved residues in the homeobox domain may cause a milder spastic ataxia phenotype with preserved ambulation into late childhood or adolescence.",
+      "There is literature divergence regarding the degree of intellectual impairment and upper motor neuron progression: some original reports describe intellectual disability as universal and moderate-to-severe (e.g., Chelban et al., 2017), whereas subsequent isolated kindreds report preserved intellect with near-normal cognitive development despite pronounced motor disability."
+    ]
+  },
+  "prior_candidates": [
+    {
+      "answer": "Biallelic NKX6-2 pathogenic variants lead to a core clinical spectrum defined by spasticity (HP:0001257), cerebellar ataxia (HP:0001251), nystagmus (HP:0000639), and dysarthria (HP:0001260) present in over 85-90% of reported patients, alongside MRI hallmarks of diffuse cerebral hypomyelination (HP:0003429) and thin corpus callosum (HP:0002079). Key foundational cohorts include Chelban et al. 2017 (PMID: 28430856) reporting 14 individuals from 8 families with spasticity (14/14), ataxia (14/14), and hypomyelination (14/14).",
+      "confidence": 0.88,
+      "aspect": "Core clinical and neuroimaging phenotypic spectrum with cohort frequencies"
+    },
+    {
+      "answer": "SPAX8 is best discriminated from X-linked PLP1-related Pelizaeus-Merzbacher disease by autosomal recessive inheritance and often relatively preserved cognitive faculties in childhood despite severe spastic ataxia; from GJC2-related PMLD1 by lack of severe early choreoathetosis and slower initial cognitive decline; and from POLR3-related leukodystrophies (4H leukodystrophy) by the absence of hypodontia (HP:0000668) and hypogonadotropic hypogonadism (HP:0000818).",
+      "confidence": 0.82,
+      "aspect": "Differential diagnosis and discriminating clinical features"
+    },
+    {
+      "answer": "Features consistently absent or atypical in SPAX8 include severe early microcephaly, extensive white matter cavitation or cystic degeneration, primary sensorimotor polyneuropathy (demyelinating or axonal peripheral neuropathy is typically absent on EMG/NCS), hypodontia, and primary retinal/optic nerve dysplasia.",
+      "confidence": 0.78,
+      "aspect": "Pertinent negative findings"
+    },
+    {
+      "answer": "A genotype-phenotype correlation exists where biallelic truncating variants (frameshift, nonsense, canonical splice site) cause a more severe, infantile-onset hypomyelinating leukodystrophy with loss of independent ambulation and prominent bulbar symptoms, whereas missense variants affecting specific conserved residues in the homeobox domain may cause a milder spastic ataxia phenotype with preserved ambulation into late childhood or adolescence.",
+      "confidence": 0.75,
+      "aspect": "Genotype-phenotype correlations (variant type and position)"
+    },
+    {
+      "answer": "There is literature divergence regarding the degree of intellectual impairment and upper motor neuron progression: some original reports describe intellectual disability as universal and moderate-to-severe (e.g., Chelban et al., 2017), whereas subsequent isolated kindreds report preserved intellect with near-normal cognitive development despite pronounced motor disability.",
+      "confidence": 0.7,
+      "aspect": "Contradictory or conflicting literature reports"
+    }
+  ],
+  "directions": {
+    "d1": {
+      "id": "d1",
+      "question_text": "What exact numerator and denominator can be extracted from all published cohorts (e.g., Chelban et al. 2017, Dorboz et al. 2017) for cognitive preservation versus severe intellectual disability?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.46091272673679934,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d2": {
+      "id": "d2",
+      "question_text": "Does peripheral nerve involvement (neurogenic change on EMG or nerve conduction slowing) truly occur in any confirmed NKX6-2 cohort, or is it strictly confined to the central nervous system?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.439995498112524,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d3": {
+      "id": "d3",
+      "question_text": "Are there specific brainstem MRI findings (e.g., pontine hypoplasia, hot cross bun sign, or specific cerebellar peduncle signals) that reliably differentiate SPAX8 from GJC2/PMLD1?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4450129991495401,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d4": {
+      "id": "d4",
+      "question_text": "Resolve the conflict over: Biallelic NKX6-2 pathogenic variants lead to a core clinical spectrum defined by spasticity (HP:0001257), cerebellar ataxia (HP:0001251), nystagmus (HP:0000639), and dysarthria (HP:0001260) present in over 85-90% of reported patients, alongside MRI hallmarks of diffuse cerebral hypomyelination (HP:0003429) and thin corpus callosum (HP:0002079). Key foundational cohorts include Chelban et al. 2017 (PMID: 28430856) reporting 14 individuals from 8 families with spasticity (14/14), ataxia (14/14), and hypomyelination (14/14).",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: Chelban et al. (2017) reported 7 individuals from 3 families (PMID: 28575651), contradicting the hypothesis claim that Chelban et al. (2017) reported 14 individuals from 8 families.; Central hypomyelination was not present in all patients in Chelban et al. (2017) (only affected members of family 3 had brain hypomyelination, while families 1 and 2 exhibited cerebellar atrophy), and Chelban et al. (2020) explicitly observed patients presenting without overt hypomyelination, contradicting the claim of an obligate 14/14 or >85-90% universal hypomyelination profile.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 1.0,
+      "allocated_usd": 1.97,
+      "spent_usd": 0.017420500000000005,
+      "alloc_rationale": "Resolves foundational cohort discrepancy (Chelban 2017/2020 patient counts and hypomyelination vs atrophy penetrance) to provide precise numerator/denominator frequencies.",
+      "produced_hypotheses": [
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "tests_hypothesis_id": "h1",
+      "origin": "agent"
+    },
+    "d5": {
+      "id": "d5",
+      "question_text": "What is the exact penetrance and prevalence of diffuse cerebral hypomyelination versus pure cerebellar atrophy across all pooled genetically verified NKX6-2 cases?",
+      "parent_id": null,
+      "rationale": "Clarifying whether hypomyelination is absent in milder or later-onset forms (or missed due to timing of MRI) will define whether brain MRI hypomyelination is an obligatory inclusion criterion for molecular testing.",
+      "status": "OPEN",
+      "promise": 0.37601952704042374,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d6": {
+      "id": "d6",
+      "question_text": "Do truncating/loss-of-function variants in NKX6-2 correlate with severe neonatal hypomyelinating leukodystrophy while homeobox missense variants correlate with milder spastic ataxia?",
+      "parent_id": null,
+      "rationale": "Delineating genotype-phenotype correlations could explain why some patients exhibit diffuse leukodystrophy and early psychomotor arrest while others survive into their fourth decade with preserved cognition and predominantly cerebellar signs.",
+      "status": "OPEN",
+      "promise": 0.36905741934686,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d7": {
+      "id": "d7",
+      "question_text": "Resolve the conflict over: SPAX8 is best discriminated from X-linked PLP1-related Pelizaeus-Merzbacher disease by autosomal recessive inheritance and often relatively preserved cognitive faculties in childhood despite severe spastic ataxia; from GJC2-related PMLD1 by lack of severe early choreoathetosis and slower initial cognitive decline; and from POLR3-related leukodystrophies (4H leukodystrophy) by the absence of hypodontia (HP:0000668) and hypogonadotropic hypogonadism (HP:0000818).",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: The hypothesis asserts that SPAX8 is characterized by 'often relatively preserved cognitive faculties in childhood', whereas multiple clinical studies (Baldi et al. 2018, Chelban et al. 2020) demonstrate that neonatal- and early infantile-onset cases frequently present with profound global developmental delay, severe cognitive and psychomotor arrest, and prominent developmental regression.",
+      "status": "OPEN",
+      "promise": 0.4604471985723944,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h2",
+      "origin": "agent"
+    },
+    "d8": {
+      "id": "d8",
+      "question_text": "What molecular mechanisms determine the divergence between severe neonatal-onset SPAX8 with developmental regression and mild childhood-onset SPAX8 with preserved cognitive faculties?",
+      "parent_id": null,
+      "rationale": "While early comparative analyses did not identify strict genotype-phenotype correlations, determining whether specific domain mutations, residual transcriptional activity, or genetic modifiers dictate severe cognitive delay versus preserved cognition is critical for clinical prognostication.",
+      "status": "OPEN",
+      "promise": 0.36479788241243627,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d9": {
+      "id": "d9",
+      "question_text": "Can a formal neuroimaging algorithmic panel based on T1/T2 hypomyelination patterns differentiate SPAX8 from GJC2-PMLD1 and POLR3-related leukodystrophy prior to genetic confirmation?",
+      "parent_id": null,
+      "rationale": "Differentiating hypomyelinating leukodystrophies by neuroimaging landmarks (such as cerebellar atrophy, optic radiation myelination, and dentate nucleus preservation) could accelerate diagnosis before whole-exome sequencing results are available.",
+      "status": "OPEN",
+      "promise": 0.3597999146290146,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d10": {
+      "id": "d10",
+      "question_text": "Resolve the conflict over: There is literature divergence regarding the degree of intellectual impairment and upper motor neuron progression: some original reports describe intellectual disability as universal and moderate-to-severe (e.g., Chelban et al., 2017), whereas subsequent isolated kindreds report preserved intellect with near-normal cognitive development despite pronounced motor disability.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: Chelban et al. (2017/2018) did not define intellectual disability as universally moderate-to-severe; rather, they documented preserved normal cognition in some individuals and mild impairment in others.; Ascertainment bias accounts for much of the divergence in reported cognitive phenotypes: cohorts recruited via intellectual disability genetics (e.g., Anazi et al., 2017) emphasize profound cognitive deficiency, whereas cohorts ascertained via adult and pediatric spastic ataxia panels report preserved intellect with severe motor disability.",
+      "status": "OPEN",
+      "promise": 0.45419970270289756,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h5",
+      "origin": "agent"
+    },
+    "d11": {
+      "id": "d11",
+      "question_text": "Does residual transcriptional repressor activity of NKX6-2 homeodomain missense variants correlate with preserved cognitive function versus profound psychomotor delay?",
+      "parent_id": null,
+      "rationale": "Comparative studies such as Baldi et al. (2018) noted an absence of clear genotype-phenotype correlation using standard variant classifications; standardized functional in vitro assays evaluating homeodomain DNA-binding affinity could establish whether preserved cognition stems from partial hypomorphic alleles.",
+      "status": "OPEN",
+      "promise": 0.36181848433029695,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d12": {
+      "id": "d12",
+      "question_text": "What specific MRI hypomyelination patterns or MR spectroscopy markers differentiate NKX6-2 leukodystrophy with preserved intellect from classic Pelizaeus-Merzbacher disease and other hypomyelinating leukodystrophies?",
+      "parent_id": null,
+      "rationale": "Because nystagmus, hypotonia progressing to spasticity, and cerebellar ataxia overlap heavily with Pelizaeus-Merzbacher disease (PLP1) and Pol III-related leukodystrophies, systematic volumetric and diffusion-tensor imaging across cohorts could identify pathognomonic neuroimaging signatures.",
+      "status": "OPEN",
+      "promise": 0.3655657676043559,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d13": {
+      "id": "d13",
+      "question_text": "Resolve the conflict over: Features consistently absent or atypical in SPAX8 include severe early microcephaly, extensive white matter cavitation or cystic degeneration, primary sensorimotor polyneuropathy (demyelinating or axonal peripheral neuropathy is typically absent on EMG/NCS), hypodontia, and primary retinal/optic nerve dysplasia.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: The hypothesis asserts that peripheral axonal or demyelinating sensorimotor polyneuropathy is absent or atypical in SPAX8, but Bereshneh et al. (2020) demonstrated documented peripheral axonal neuropathy causing wrist drop and foot drop in two siblings with homozygous NKX6-2 pathogenic variants.",
+      "status": "EXPLORED",
+      "promise": 0.92,
+      "est_cost": 1.0,
+      "allocated_usd": 1.97,
+      "spent_usd": 0.016391500000000003,
+      "alloc_rationale": "Directly resolves key contradictions around absent phenotypes (question 3) and determines whether peripheral neuropathy and other atypical signs can be safely ruled out.",
+      "produced_hypotheses": [
+        "h9",
+        "h10"
+      ],
+      "tests_hypothesis_id": "h3",
+      "origin": "agent"
+    },
+    "d14": {
+      "id": "d14",
+      "question_text": "What is the true prevalence and electrophysiological profile of peripheral neuropathy (axonal vs. demyelinating) across all genetically confirmed SPAX8 patients?",
+      "parent_id": null,
+      "rationale": "Determining whether peripheral nerve involvement is a rare variant-specific finding (e.g. p.Phe167Leu) or an underdiagnosed feature of SPAX8 will refine diagnostic criteria and prevent misclassification.",
+      "status": "OPEN",
+      "promise": 0.3836820721626255,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d15": {
+      "id": "d15",
+      "question_text": "Re-investigate (refuted): A genotype-phenotype correlation exists where biallelic truncating variants (frameshift, nonsense, canonical splice site) cause a more severe, infantile-onset hypomyelinating leukodystrophy with loss of independent ambulation and prominent bulbar symptoms, whereas missense variants affecting specific conserved residues in the homeobox domain may cause a milder spastic ataxia phenotype with preserved ambulation into late childhood or adolescence.",
+      "parent_id": null,
+      "rationale": "deep test refuted it: The proposed genotype-phenotype correlation positing that biallelic truncating variants exclusively cause severe infantile hypomyelinating leukodystrophy while homeobox missense variants cause a milder childhood-onset spastic ataxia is contradicted by multiple comprehensive clinical cohorts and systematic reviews. Systematic analyses of cohort data (including Baldi et al., 2018 evaluating 25 patients, Bereshneh et al., 2020, and the GeneReviews entry by Chelban et al., 2018) consistently conclude that no clear genotype-phenotype correlation exists. In particular, severe presentations with early global developmental delay, motor regression, and marked neurological impairment have been documented in individuals harboring missense variants (such as p.Phe167Leu within the homeodomain), demonstrating that variant type does not reliably predict clinical severity or ambulatory trajectory.",
+      "status": "OPEN",
+      "promise": 0.4768923199593907,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h4",
+      "origin": "agent"
+    },
+    "d16": {
+      "id": "d16",
+      "question_text": "Do specific missense variants in the NKX6-2 homeodomain exert distinct functional consequences (e.g., residual DNA binding vs. dominant negative or null transcriptional repression) that explain individual clinical severity?",
+      "parent_id": null,
+      "rationale": "Binary classification into truncating versus missense variants has proven inadequate; quantitative cellular assays of transcriptional repression and DNA-binding affinities may uncover biochemical distinctions underlying phenotypic severity.",
+      "status": "OPEN",
+      "promise": 0.3854851253737739,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d17": {
+      "id": "d17",
+      "question_text": "What secondary genetic modifiers or epigenetic factors account for intrafamilial and interfamilial phenotypic variability in patients sharing identical homozygous NKX6-2 variants?",
+      "parent_id": null,
+      "rationale": "Variable progression and clinical onset among individuals harboring identical homozygous variants (e.g., c.196delC or specific missense alleles) suggest that unlinked genetic modifiers modulate myelinogenesis and disease severity.",
+      "status": "OPEN",
+      "promise": 0.3806865739402254,
+      "est_cost": 80000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d18": {
+      "id": "d18",
+      "question_text": "What exact proportion of all published NKX6-2 cases exhibit cerebral hypomyelination versus isolated cerebellar atrophy on neuroimaging when stratified by variant type (null/truncating vs homeobox missense)?",
+      "parent_id": "d4",
+      "rationale": "Quantifying the exact numerator and denominator of hypomyelination in the literature will establish definitive diagnostic sensitivity thresholds for neuroimaging in SPAX8.",
+      "status": "OPEN",
+      "promise": 0.5392431855903538,
+      "est_cost": 0.45,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d19": {
+      "id": "d19",
+      "question_text": "Does the presence of nystagmus (HP:0000639) discriminate infantile-onset hypomyelinating NKX6-2 presentations from childhood-onset non-hypomyelinating spastic ataxia?",
+      "parent_id": "d4",
+      "rationale": "Determining whether nystagmus is an obligate feature or solely present in the severe hypomyelinating subcohort helps clinicians prioritize NKX6-2 testing from phenotypic inspection alone.",
+      "status": "OPEN",
+      "promise": 0.5083588880864393,
+      "est_cost": 0.35,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d20": {
+      "id": "d20",
+      "question_text": "What is the exact prevalence and electrophysiological profile of lower motor neuron/peripheral axonal involvement across all published SPAX8 cohorts?",
+      "parent_id": "d13",
+      "rationale": "Quantifying how many confirmed SPAX8 cases have undergone systematic EMG/NCS will establish whether peripheral axonal neuropathy is a true low-penetrance feature or an under-ascertained late finding.",
+      "status": "OPEN",
+      "promise": 0.6865435069423299,
+      "est_cost": 0.65,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d21": {
+      "id": "d21",
+      "question_text": "Do specific missense variants in the homeobox or flanking domains of NKX6-2 correlate with distal axonal motor denervation versus pure central spasticity?",
+      "parent_id": "d13",
+      "rationale": "Comparing variant locations between patients with wrist/foot drop (e.g., p.Phe167Leu) and those with pure upper motor neuron signs will clarify genotype-phenotype correlations.",
+      "status": "OPEN",
+      "promise": 0.6586650171936813,
+      "est_cost": 0.6,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d22": {
+      "id": "d22",
+      "question_text": "What are the exact phenotype frequencies (e.g., nystagmus, spasticity, hypomyelination) across the pooled worldwide cohort of all published NKX6-2 patients to date?",
+      "parent_id": "d4",
+      "rationale": "Compiling an updated meta-analysis of all reported NKX6-2 patients from 2017 through current literature will establish standardized HPO term frequencies to enhance clinical differential diagnosis against Pelizaeus-Merzbacher-like disease and other AR spastic ataxias.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 5000.0,
+      "allocated_usd": 1.94,
+      "spent_usd": 0.018222000000000016,
+      "alloc_rationale": "Directly targets exact numerators, denominators, and standardized HPO frequencies across published NKX6-2 cohorts required by the core prompt.",
+      "produced_hypotheses": [
+        "h11",
+        "h12",
+        "h13"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d23": {
+      "id": "d23",
+      "question_text": "What molecular mechanisms dictate whether a specific NKX6-2 pathogenic variant produces diffuse leukodystrophy versus isolated cerebellar atrophy?",
+      "parent_id": "d4",
+      "rationale": "Clarifying the correlation between homeobox domain missense variants, truncating mutations, residual transcriptional repressor activity, and oligodendrocyte maturation could explain the radiological divergence.",
+      "status": "OPEN",
+      "promise": 0.4490765465957448,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d24": {
+      "id": "d24",
+      "question_text": "Does ultra-high-field MRI or quantitative myelin water imaging detect subclinical dysmyelination in adult NKX6-2 patients who lack overt T1/T2 hypomyelination?",
+      "parent_id": "d4",
+      "rationale": "Determining whether cases diagnosed with pure cerebellar atrophy have microstructural myelin abnormalities would clarify if hypomyelination is genuinely absent or merely below conventional neuroimaging detection thresholds.",
+      "status": "OPEN",
+      "promise": 0.43494831658851574,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d25": {
+      "id": "d25",
+      "question_text": "Resolve the conflict over: The presence of a frank demyelinating sensorimotor polyneuropathy on nerve conduction studies discriminates PLP1-related disorders (e.g., SPG2) and GJC2/PMLD1 from SPAX8, where peripheral myelination is conserved.",
+      "parent_id": "d13",
+      "rationale": "deep test attempt 2 left this contested: Demyelinating peripheral neuropathy in PLP1-related disorders is predominantly restricted to the PLP1 null syndrome and is typically mild and multifocal rather than a generalized frank demyelinating sensorimotor polyneuropathy across all PLP1 genotypes.; NKX6-2 has been indexed in neuropathy cohorts displaying intermediate or demyelinating features with reduced nerve conduction velocities, contradicting the assertion that peripheral conduction slowing/demyelinating patterns never occur in SPAX8.",
+      "status": "OPEN",
+      "promise": 0.6502645861768136,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h10",
+      "origin": "agent"
+    },
+    "d26": {
+      "id": "d26",
+      "question_text": "Does electrophysiological evaluation of motor and sensory nerves in confirmed SPAX8 cohorts show uniform preservation of conduction velocities or subclinical intermediate slowing?",
+      "parent_id": "d13",
+      "rationale": "Clarifying whether NKX6-2 variants cause true secondary paranodopathies or mixed conduction slowing in peripheral nerves would determine whether electrophysiology can reliably rule out SPAX8.",
+      "status": "OPEN",
+      "promise": 0.5880854247974234,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d27": {
+      "id": "d27",
+      "question_text": "What proportion of classic Pelizaeus-Merzbacher disease (PLP1 duplications) versus PMLD1 (GJC2) patients demonstrate demyelinating peripheral nerve conduction profiles compared to PLP1 null syndrome?",
+      "parent_id": "d13",
+      "rationale": "If demyelinating neuropathy is absent in classic PMD and PMLD1, using demyelinating neuropathy as a general discriminator against SPAX8 will produce high false-negative rates.",
+      "status": "OPEN",
+      "promise": 0.5855996155921583,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d28": {
+      "id": "d28",
+      "question_text": "Does NKX6-2 express in Schwann cells or is axonal loss secondary to lower motor neuron/anterior horn cell degeneration?",
+      "parent_id": "d13",
+      "rationale": "Clarifying whether the axonal peripheral neuropathy observed in p.Phe167Leu patients reflects peripheral Schwann cell dysfunction or primary motor neuron axonopathy will elucidate whether SPAX8 pathology extends directly to the peripheral nervous system.",
+      "status": "OPEN",
+      "promise": 0.582795671859023,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d29": {
+      "id": "d29",
+      "question_text": "What is the systematic prevalence of electrophysiologically proven axonal neuropathy across all reported SPAX8 kindreds carrying homeobox versus non-homeobox variants?",
+      "parent_id": "d13",
+      "rationale": "Systematic EMG/NCS across multiple international cohorts is required to determine whether peripheral axonal neuropathy correlates with specific missense residues or represents an under-reported manifestation of prolonged disease duration.",
+      "status": "OPEN",
+      "promise": 0.602494065015373,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d30": {
+      "id": "d30",
+      "question_text": "Resolve the conflict over: Cerebellar ataxia (HP:0001251) and lower limb spasticity (HP:0001257) represent the primary invariant clinical findings shared across all NKX6-2 phenotypic strata, whereas the presence of early nystagmus, epilepsy, and global developmental delay selectively clusters with diffuse hypomyelination.",
+      "parent_id": "d4",
+      "rationale": "deep test attempt 2 left this contested: Chelban et al. (2020) specifically reported that epilepsy occurs in the absence of overt hypomyelination, while patients with diffuse hypomyelination can present without seizures, which contradicts the hypothesis that epilepsy selectively clusters with diffuse hypomyelination.; Nystagmus is documented across both mild (childhood-onset) and severe (neonatal-onset) ends of the disease spectrum rather than being restricted to cases with hypomyelination.",
+      "status": "EXPLORED",
+      "promise": 0.9,
+      "est_cost": 1.0,
+      "allocated_usd": 1.94,
+      "spent_usd": 0.014174499999999979,
+      "alloc_rationale": "Resolves an active literature contradiction regarding invariant core features versus features stratified by hypomyelination and age of onset.",
+      "produced_hypotheses": [
+        "h14",
+        "h15",
+        "h16"
+      ],
+      "tests_hypothesis_id": "h8",
+      "origin": "agent"
+    },
+    "d31": {
+      "id": "d31",
+      "question_text": "What specific MRI neuroimaging markers (e.g., T2 hypointensity patterns, cerebellar volume ratio) reliably differentiate NKX6-2-related spastic ataxia from Pelizaeus-Merzbacher disease and other hypomyelinating leukodystrophies?",
+      "parent_id": "d4",
+      "rationale": "Clinical features overlap broadly across early-onset leukodystrophies; establishing discriminating radiologic signatures would allow clinicians to distinguish SPAX8 earlier in the diagnostic workup.",
+      "status": "OPEN",
+      "promise": 0.4578608314720448,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d32": {
+      "id": "d32",
+      "question_text": "Does variant class (truncating/nonsense vs. homeobox domain missense) correlate quantitatively with the degree of myelination impairment on neuroimaging?",
+      "parent_id": "d4",
+      "rationale": "Clarifying the genotype-phenotype relationship will explain why some patients manifest with isolated cerebellar atrophy while others develop severe diffuse hypomyelination.",
+      "status": "OPEN",
+      "promise": 0.43690100791763686,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d33": {
+      "id": "d33",
+      "question_text": "What is the pooled worldwide frequency of developmental regression (HP:0002376) in NKX6-2 patients, and is regression provoked by intercurrent infections or metabolic triggers?",
+      "parent_id": "d22",
+      "rationale": "Baldi et al. (2018) highlighted developmental regression in 3 out of 6 families as an underestimated finding. Determining its triggers and true pooled prevalence will resolve whether SPAX8 can mimic neurodegenerative or episodic neurometabolic conditions.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.9,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d34": {
+      "id": "d34",
+      "question_text": "What proportion of published NKX6-2 patients develop secondary musculoskeletal complications (scoliosis HP:0002650, hip dislocation HP:0002827, and limb contractures HP:0001371) by age group?",
+      "parent_id": "d22",
+      "rationale": "Bereshneh et al. reported contractures, scoliosis, and hip dislocation. Establishing the penetrance of orthopedic deformities will clarify the secondary burden of long-standing spasticity across pediatric and adult cohorts.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 0.85,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d35": {
+      "id": "d35",
+      "question_text": "What is the exact penetrance and semiology of epileptic seizures in SPAX8 patients with isolated cerebellar atrophy versus those with diffuse hypomyelination?",
+      "parent_id": "d30",
+      "rationale": "Since Chelban et al. (2020) confirmed seizures occur without hypomyelination, establishing precise prevalence rates and seizure types across MRI subtypes will define whether epilepsy is a primary cortical/subcortical network defect of NKX6-2 deficiency.",
+      "status": "OPEN",
+      "promise": 0.82,
+      "est_cost": 0.75,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d36": {
+      "id": "d36",
+      "question_text": "Does the presence of neonatal hypotonia that transitions to spasticity discriminate severe infantile SPAX8 from classical Pelizaeus-Merzbacher disease and GJC2/PMLD1?",
+      "parent_id": "d30",
+      "rationale": "Chelban et al. (2020) highlight hypotonia rapidly progressing to spasticity as a hallmark presentation of severe NKX6-2 disorder; determining if this specific dynamic trajectory is distinguishing would aid differential diagnosis.",
+      "status": "OPEN",
+      "promise": 0.74,
+      "est_cost": 0.7,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d37": {
+      "id": "d37",
+      "question_text": "What underlying cellular or network pathomechanisms cause epileptogenesis in NKX6-2 deficiency independently of myelination defects?",
+      "parent_id": "d30",
+      "rationale": "Clarifying whether NKX6-2 functions in interneuron differentiation or cortical excitability will explain seizure susceptibility in patients without overt MRI hypomyelination.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d38": {
+      "id": "d38",
+      "question_text": "Do specific missense variants in the NKX6-2 homeodomain alter seizure risk differently compared to truncating or loss-of-function variants across all reported cohorts?",
+      "parent_id": "d30",
+      "rationale": "Systematic genotype-phenotype meta-analysis mapping variant classes to EEG anomalies and seizure semiology would improve diagnostic and prognostic stratification.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d39": {
+      "id": "d39",
+      "question_text": "What molecular mechanisms dictate whether an NKX6-2 variant results in severe neonatal hypomyelinating leukodystrophy with developmental arrest versus childhood-onset progressive spastic ataxia?",
+      "parent_id": "d30",
+      "rationale": "Determining whether residual transcriptional repressor activity, homeodomain binding affinity differences, or alternative domain disruptions correlate strictly with age of onset and developmental delay severity.",
+      "status": "OPEN",
+      "promise": 0.88,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d40": {
+      "id": "d40",
+      "question_text": "In childhood-onset NKX6-2 disease without initial psychomotor delay, do subtle cognitive or executive impairments emerge over decades alongside cerebellar atrophy?",
+      "parent_id": "d30",
+      "rationale": "Longitudinal neuropsychological profiling of adult survivors with childhood-onset disease can clarify whether cognitive sparing is sustained long-term or undergoes late deterioration.",
+      "status": "OPEN",
+      "promise": 0.79,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d41": {
+      "id": "d41",
+      "question_text": "Resolve the conflict over: Early-onset nystagmus (HP:0000639) and hypotonia (HP:0001252) progressing to spastic quadriparesis (HP:0001257) are present in >85% of infantile-onset NKX6-2 cases, whereas secondary features such as seizures (HP:0001250) and developmental regression (HP:0002376) occur in fewer than 35% of the global pooled cohort.",
+      "parent_id": "d22",
+      "rationale": "deep test attempt 1 left this contested: Developmental regression frequency: The hypothesis posits that developmental regression occurs in fewer than 35% of cases; however, Baldi et al. identified it in 50% (3 of 6) of families and argued that regression is an under-recognized hallmark rather than an infrequent secondary feature, reinforced by case reports demonstrating motor regression in siblings.; Epileptic vs non-epileptic phenotypic spectrum: Chelban et al. demonstrated that epilepsy and hypomyelination dissociate in some families (e.g. epilepsy without overt hypomyelination, or diffuse hypomyelination without seizures), challenging rigid lower-bound prevalence thresholds for seizure occurrence across the wider phenotypic spectrum.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h11",
+      "origin": "agent"
+    },
+    "d42": {
+      "id": "d42",
+      "question_text": "What is the exact individual-level (rather than family-level) penetrance of developmental regression across all published biallelic NKX6-2 individuals?",
+      "parent_id": "d22",
+      "rationale": "Clarifying whether regression is present in a strict minority (<35%) or a majority of severe infantile cases will define whether its presence or absence has diagnostic utility in separating NKX6-2 from classical Pelizaeus-Merzbacher disease or epileptic encephalopathies.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 5000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d43": {
+      "id": "d43",
+      "question_text": "Do truncating/null variants in NKX6-2 confer higher risks of seizures and rapid regression compared to homeodomain missense variants?",
+      "parent_id": "d22",
+      "rationale": "Initial studies found limited genotype-phenotype correlations in small cohorts, but expanded series stratifying by functional variant impact could explain the divergence in seizure and regression rates.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d44": {
+      "id": "d44",
+      "question_text": "What specific subtypes of nystagmus (e.g., pendular, gaze-evoked, upbeat/downbeat, or periodic alternating) distinguish the early infantile presentation from the childhood-onset cerebellar ataxia presentation?",
+      "parent_id": "d30",
+      "rationale": "While nystagmus is documented in both severe/infantile and milder/childhood presentations, electro-oculography or detailed neuro-ophthalmic taxonomy is infrequently detailed across reports. Determining whether pendular sensory nystagmus predominates in early dysmyelinating cases versus gaze-evoked cerebellar nystagmus in later-onset ataxia cases could provide greater discriminating power.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d45": {
+      "id": "d45",
+      "question_text": "What is the exact incidence of absent nystagmus in proven biallelic NKX6-2 patients, and does absence correlate with particular missense mutations outside the homeobox domain?",
+      "parent_id": "d30",
+      "rationale": "Quantifying the negative predictive value of absent nystagmus across international multi-center cohorts will clarify whether absence of nystagmus strongly excludes NKX6-2 disease.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 20000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d46": {
+      "id": "d46",
+      "question_text": "Resolve the conflict over: Cerebral hypomyelination (HP:0003429) is absent on neuroimaging in approximately 20% to 30% of published biallelic NKX6-2 individuals, who present instead with childhood-onset spastic ataxia and isolated cerebellar atrophy (HP:0001272).",
+      "parent_id": "d22",
+      "rationale": "deep test attempt 1 left this contested: Chelban et al. (2017, 2020) document that childhood-onset spastic ataxia can occur in the absence of overt cerebral hypomyelination with isolated/predominant cerebellar atrophy, whereas formal syndromic characterization in GeneReviews defines the disorder as fundamentally driven by diffuse central nervous system hypomyelination.; Exact epidemiological estimates of hypomyelination-negative cases vary between the original pedigree cohorts (where 2 of 3 families lacked overt hypomyelination) and broader aggregated disease registries where hypomyelinating leukodystrophy remains the cardinal hallmark.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h12",
+      "origin": "agent"
+    },
+    "d47": {
+      "id": "d47",
+      "question_text": "What is the exact incidence of normal cerebral myelination on brain MRI among all genetically confirmed biallelic NKX6-2 cases across international leukodystrophy and spastic ataxia registries?",
+      "parent_id": "d22",
+      "rationale": "A systematic international meta-analysis combining ataxia and leukodystrophy cohorts is necessary to validate whether the ~20-30% frequency estimate holds or reflects ascertainment bias.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d48": {
+      "id": "d48",
+      "question_text": "Do specific NKX6-2 variant classes (e.g., homeobox missense vs. truncating/null alleles) correlate with the preservation of cerebral myelination versus severe hypomyelination?",
+      "parent_id": "d22",
+      "rationale": "Genotype-phenotype correlations could clarify why certain pedigrees develop severe early-onset diffuse hypomyelination while others manifest childhood-onset spastic ataxia with isolated cerebellar atrophy.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d49": {
+      "id": "d49",
+      "question_text": "What is the systematic prevalence of electrophysiologically proven subclinical peripheral axonal neuropathy across all published NKX6-2/SPAX8 cases?",
+      "parent_id": "d22",
+      "rationale": "While clinically overt wrist and foot drop is rare, subclinical electrophysiological axonal involvement might be underdiagnosed if nerve conduction studies are not systematically performed in all cohorts.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d50": {
+      "id": "d50",
+      "question_text": "Is the p.(Phe167Leu) missense mutation uniquely associated with a severe peripheral axonal phenotype compared to homeobox domain truncating or other missense variants?",
+      "parent_id": "d22",
+      "rationale": "Determining genotype-phenotype correlations could clarify whether axonal degeneration with distal drop is variant-specific rather than a generic end-stage feature of NKX6-2 loss.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    }
+  },
+  "hypotheses": {
+    "h1": {
+      "id": "h1",
+      "text": "Biallelic NKX6-2 pathogenic variants lead to a core clinical spectrum defined by spasticity (HP:0001257), cerebellar ataxia (HP:0001251), nystagmus (HP:0000639), and dysarthria (HP:0001260) present in over 85-90% of reported patients, alongside MRI hallmarks of diffuse cerebral hypomyelination (HP:0003429) and thin corpus callosum (HP:0002079). Key foundational cohorts include Chelban et al. 2017 (PMID: 28430856) reporting 14 individuals from 8 families with spasticity (14/14), ataxia (14/14), and hypomyelination (14/14).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Core clinical and neuroimaging phenotypic spectrum with cohort frequencies"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.55,
+      "evidence_ids": [
+        "e1",
+        "e2",
+        "e11"
+      ],
+      "conflicts": [
+        "Chelban et al. (2017) reported 7 individuals from 3 families (PMID: 28575651), contradicting the hypothesis claim that Chelban et al. (2017) reported 14 individuals from 8 families.",
+        "Central hypomyelination was not present in all patients in Chelban et al. (2017) (only affected members of family 3 had brain hypomyelination, while families 1 and 2 exhibited cerebellar atrophy), and Chelban et al. (2020) explicitly observed patients presenting without overt hypomyelination, contradicting the claim of an obligate 14/14 or >85-90% universal hypomyelination profile."
+      ],
+      "screen_note": "Literature strongly supports that biallelic NKX6-2 variants cause spastic ataxia 8 with hypomyelinating leukodystrophy featuring spasticity, ataxia, nystagmus, and hypomyelination.",
+      "bin_reason": "contested (3 for / 0 against): Chelban et al. (2017) reported 7 individuals from 3 families (PMID: 28575651), contradicting the hypothesis claim that Chelban et al. (2017) reported 14 individuals from 8 families.; Central hypomyelination was not present in all patients in Chelban et al. (2017) (only affected members of family 3 had brain hypomyelination, while families 1 and 2 exhibited cerebellar atrophy), and Chelban et al. (2020) explicitly observed patients presenting without overt hypomyelination, contradicting the claim of an obligate 14/14 or >85-90% universal hypomyelination profile.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h2": {
+      "id": "h2",
+      "text": "SPAX8 is best discriminated from X-linked PLP1-related Pelizaeus-Merzbacher disease by autosomal recessive inheritance and often relatively preserved cognitive faculties in childhood despite severe spastic ataxia; from GJC2-related PMLD1 by lack of severe early choreoathetosis and slower initial cognitive decline; and from POLR3-related leukodystrophies (4H leukodystrophy) by the absence of hypodontia (HP:0000668) and hypogonadotropic hypogonadism (HP:0000818).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Differential diagnosis and discriminating clinical features"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e3",
+        "e4",
+        "e12",
+        "e13",
+        "e14"
+      ],
+      "conflicts": [
+        "The hypothesis asserts that SPAX8 is characterized by 'often relatively preserved cognitive faculties in childhood', whereas multiple clinical studies (Baldi et al. 2018, Chelban et al. 2020) demonstrate that neonatal- and early infantile-onset cases frequently present with profound global developmental delay, severe cognitive and psychomotor arrest, and prominent developmental regression."
+      ],
+      "screen_note": "NKX6-2-related SPAX8 manifests as an autosomal recessive spastic ataxia and hypomyelinating leukodystrophy spectrum whose key differentials include PLP1, GJC2, and POLR3 disorders.",
+      "bin_reason": "contested (3 for / 2 against): The hypothesis asserts that SPAX8 is characterized by 'often relatively preserved cognitive faculties in childhood', whereas multiple clinical studies (Baldi et al. 2018, Chelban et al. 2020) demonstrate that neonatal- and early infantile-onset cases frequently present with profound global developmental delay, severe cognitive and psychomotor arrest, and prominent developmental regression.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h3": {
+      "id": "h3",
+      "text": "Features consistently absent or atypical in SPAX8 include severe early microcephaly, extensive white matter cavitation or cystic degeneration, primary sensorimotor polyneuropathy (demyelinating or axonal peripheral neuropathy is typically absent on EMG/NCS), hypodontia, and primary retinal/optic nerve dysplasia.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Pertinent negative findings"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "e5",
+        "e6",
+        "e20",
+        "e21"
+      ],
+      "conflicts": [
+        "The hypothesis asserts that peripheral axonal or demyelinating sensorimotor polyneuropathy is absent or atypical in SPAX8, but Bereshneh et al. (2020) demonstrated documented peripheral axonal neuropathy causing wrist drop and foot drop in two siblings with homozygous NKX6-2 pathogenic variants."
+      ],
+      "screen_note": "SPAX8 is primarily a central hypomyelinating and spastic ataxia disorder, but peripheral axonal neuropathy has been reported as an atypical or expanding feature in at least two patients.",
+      "bin_reason": "contested (2 for / 1 against): The hypothesis asserts that peripheral axonal or demyelinating sensorimotor polyneuropathy is absent or atypical in SPAX8, but Bereshneh et al. (2020) demonstrated documented peripheral axonal neuropathy causing wrist drop and foot drop in two siblings with homozygous NKX6-2 pathogenic variants.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h4": {
+      "id": "h4",
+      "text": "A genotype-phenotype correlation exists where biallelic truncating variants (frameshift, nonsense, canonical splice site) cause a more severe, infantile-onset hypomyelinating leukodystrophy with loss of independent ambulation and prominent bulbar symptoms, whereas missense variants affecting specific conserved residues in the homeobox domain may cause a milder spastic ataxia phenotype with preserved ambulation into late childhood or adolescence.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Genotype-phenotype correlations (variant type and position)"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e7",
+        "e8",
+        "e22",
+        "e23",
+        "e24"
+      ],
+      "conflicts": [
+        "While Chelban et al. (2020) highlight a spectrum running from neonatal onset with global delay to childhood-onset motor spastic ataxia, multiple independent studies (Baldi et al. 2018, Chelban et al. GeneReviews 2018, Bereshneh et al. 2020) explicitly report that variant category (truncating vs missense) fails to correlate reliably with phenotypic severity.",
+        "Missense mutations in conserved residues have been reported in patients exhibiting severe developmental delay, motor regression, and quadriparesis, contradicting the proposed restriction of severe leukodystrophic presentation to truncating mutations."
+      ],
+      "screen_note": "Literature establishes a broad spectrum from severe infantile hypomyelination to milder childhood-onset spastic ataxia, but studies disagree on whether variant type (truncating vs missense) strictly correlates with severity.",
+      "bin_reason": "refuted: The proposed genotype-phenotype correlation positing that biallelic truncating variants exclusively cause severe infantile hypomyelinating leukodystrophy while homeobox missense variants cause a milder childhood-onset spastic ataxia is contradicted by multiple comprehensive clinical cohorts and systematic reviews. Systematic analyses of cohort data (including Baldi et al., 2018 evaluating 25 patients, Bereshneh et al., 2020, and the GeneReviews entry by Chelban et al., 2018) consistently conclude that no clear genotype-phenotype correlation exists. In particular, severe presentations with early global developmental delay, motor regression, and marked neurological impairment have been documented in individuals harboring missense variants (such as p.Phe167Leu within the homeodomain), demonstrating that variant type does not reliably predict clinical severity or ambulatory trajectory.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h5": {
+      "id": "h5",
+      "text": "There is literature divergence regarding the degree of intellectual impairment and upper motor neuron progression: some original reports describe intellectual disability as universal and moderate-to-severe (e.g., Chelban et al., 2017), whereas subsequent isolated kindreds report preserved intellect with near-normal cognitive development despite pronounced motor disability.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Contradictory or conflicting literature reports"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e9",
+        "e10",
+        "e15",
+        "e16",
+        "e17",
+        "e18",
+        "e19"
+      ],
+      "conflicts": [
+        "Chelban et al. (2017/2018) did not define intellectual disability as universally moderate-to-severe; rather, they documented preserved normal cognition in some individuals and mild impairment in others.",
+        "Ascertainment bias accounts for much of the divergence in reported cognitive phenotypes: cohorts recruited via intellectual disability genetics (e.g., Anazi et al., 2017) emphasize profound cognitive deficiency, whereas cohorts ascertained via adult and pediatric spastic ataxia panels report preserved intellect with severe motor disability."
+      ],
+      "screen_note": "The literature confirms a broad phenotypic spectrum in NKX6-2-related disorder ranging from severe neonatal-onset global psychomotor delay to childhood-onset spastic ataxia with preserved cognitive function.",
+      "bin_reason": "contested (5 for / 2 against): Chelban et al. (2017/2018) did not define intellectual disability as universally moderate-to-severe; rather, they documented preserved normal cognition in some individuals and mild impairment in others.; Ascertainment bias accounts for much of the divergence in reported cognitive phenotypes: cohorts recruited via intellectual disability genetics (e.g., Anazi et al., 2017) emphasize profound cognitive deficiency, whereas cohorts ascertained via adult and pediatric spastic ataxia panels report preserved intellect with severe motor disability.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h6": {
+      "id": "h6",
+      "text": "Diffuse cerebral hypomyelination (HP:0003429) is not an obligate or universally penetrant neuroimaging hallmark in NKX6-2 deficiency; rather, biallelic pathogenic variants can present as childhood-onset spastic ataxia with isolated cerebellar atrophy (HP:0001272) in the absence of overt hypomyelination.",
+      "direction_id": "d4",
+      "rationale": "Resolves the contested claim that >85-90% or 100% of NKX6-2 patients present with hypomyelination. Foundational cohort reports show that hypomyelination is restricted to a subset of severe early-onset cases, whereas other affected individuals manifest purely with cerebellar atrophy.",
+      "aspects": [
+        "phenotypic spectrum",
+        "neuroimaging",
+        "hypomyelination"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e25",
+        "e26",
+        "e36",
+        "e40"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature explicitly documents NKX6-2 cases manifesting with cerebellar atrophy and spastic ataxia in the absence of overt hypomyelination.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h7": {
+      "id": "h7",
+      "text": "The original foundational cohort described by Chelban et al. (2017, PMID: 28575651) comprised 7 affected individuals from 3 families rather than 14 individuals from 8 families.",
+      "direction_id": "d4",
+      "rationale": "Directly resolves the numerical and cohort citation error where patient numbers from subsequent multi-family series were erroneously attributed to the initial 2017 paper.",
+      "aspects": [
+        "cohort size",
+        "literature conflict",
+        "prevalence"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "e27",
+        "e28",
+        "e35"
+      ],
+      "conflicts": [],
+      "screen_note": "Chelban et al. (2017, PMID: 28575651) explicitly reports seven affected individuals from three families.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h8": {
+      "id": "h8",
+      "text": "Cerebellar ataxia (HP:0001251) and lower limb spasticity (HP:0001257) represent the primary invariant clinical findings shared across all NKX6-2 phenotypic strata, whereas the presence of early nystagmus, epilepsy, and global developmental delay selectively clusters with diffuse hypomyelination.",
+      "direction_id": "d4",
+      "rationale": "Clarifies which phenotypic components of SPAX8 are truly universal across all genotypes versus those that correlate specifically with severe hypomyelinating leukodystrophy presentations.",
+      "aspects": [
+        "phenotypic spectrum",
+        "spastic ataxia",
+        "genotype-phenotype"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.35,
+      "evidence_ids": [
+        "e29",
+        "e30",
+        "e38",
+        "e46",
+        "e47"
+      ],
+      "conflicts": [
+        "Chelban et al. (2020) specifically reported that epilepsy occurs in the absence of overt hypomyelination, while patients with diffuse hypomyelination can present without seizures, which contradicts the hypothesis that epilepsy selectively clusters with diffuse hypomyelination.",
+        "Nystagmus is documented across both mild (childhood-onset) and severe (neonatal-onset) ends of the disease spectrum rather than being restricted to cases with hypomyelination."
+      ],
+      "screen_note": "NKX6-2 disorder exhibits a broad spectrum from milder spastic ataxia to severe hypomyelination with global delay; however, epilepsy has been reported even in the absence of overt hypomyelination.",
+      "bin_reason": "contested (3 for / 1 against): Chelban et al. (2020) specifically reported that epilepsy occurs in the absence of overt hypomyelination, while patients with diffuse hypomyelination can present without seizures, which contradicts the hypothesis that epilepsy selectively clusters with diffuse hypomyelination.; Nystagmus is documented across both mild (childhood-onset) and severe (neonatal-onset) ends of the disease spectrum rather than being restricted to cases with hypomyelination.",
+      "test_attempts": 2,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h9": {
+      "id": "h9",
+      "text": "Peripheral neuropathy in SPAX8 is an atypical, low-frequency phenotypic expansion restricted to motor-predominant axonal involvement, rather than a primary demyelinating sensorimotor polyneuropathy.",
+      "direction_id": "d13",
+      "rationale": "Resolves the conflict between initial descriptions characterizing SPAX8 as lacking peripheral nerve pathology and Bereshneh et al. (2020), which documented peripheral axonal neuropathy presenting with wrist and foot drop in two siblings homozygous for NKX6-2 p.Phe167Leu. Demonstrating that peripheral involvement is exclusively axonal and rare clarifies why EMG/NCS is normal in most cohorts while accommodating verified peripheral deficits in isolated kindreds.",
+      "aspects": [
+        "phenotypic spectrum",
+        "peripheral neuropathy",
+        "differential diagnosis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e31",
+        "e32",
+        "e39",
+        "e45"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature confirms peripheral axonal neuropathy presenting with motor features (wrist/foot drop) is a rare/expanded phenotype in NKX6-2/SPAX8 cases.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h3",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h10": {
+      "id": "h10",
+      "text": "The presence of a frank demyelinating sensorimotor polyneuropathy on nerve conduction studies discriminates PLP1-related disorders (e.g., SPG2) and GJC2/PMLD1 from SPAX8, where peripheral myelination is conserved.",
+      "direction_id": "d13",
+      "rationale": "Because NKX6-2 is primarily critical for central oligodendrocyte maturation and CNS paranodal axoglial architecture, peripheral myelin remains intact; any reported peripheral neuropathy in SPAX8 is axonal, whereas PLP1 mutations frequently cause mild multifocal demyelinating peripheral neuropathy.",
+      "aspects": [
+        "differential diagnosis",
+        "electrophysiology",
+        "leukodystrophies"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.58,
+      "evidence_ids": [
+        "e33",
+        "e34",
+        "e37",
+        "e41",
+        "e42",
+        "e43",
+        "e44"
+      ],
+      "conflicts": [
+        "Demyelinating peripheral neuropathy in PLP1-related disorders is predominantly restricted to the PLP1 null syndrome and is typically mild and multifocal rather than a generalized frank demyelinating sensorimotor polyneuropathy across all PLP1 genotypes.",
+        "NKX6-2 has been indexed in neuropathy cohorts displaying intermediate or demyelinating features with reduced nerve conduction velocities, contradicting the assertion that peripheral conduction slowing/demyelinating patterns never occur in SPAX8."
+      ],
+      "screen_note": "Literature indicates PLP1-related disorders often display demyelinating peripheral neuropathy, whereas NKX6-2/SPAX8 peripheral myelin is generally spared or exhibits axonal involvement.",
+      "bin_reason": "contested (6 for / 1 against): Demyelinating peripheral neuropathy in PLP1-related disorders is predominantly restricted to the PLP1 null syndrome and is typically mild and multifocal rather than a generalized frank demyelinating sensorimotor polyneuropathy across all PLP1 genotypes.; NKX6-2 has been indexed in neuropathy cohorts displaying intermediate or demyelinating features with reduced nerve conduction velocities, contradicting the assertion that peripheral conduction slowing/demyelinating patterns never occur in SPAX8.",
+      "test_attempts": 2,
+      "parent_id": "h3",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h11": {
+      "id": "h11",
+      "text": "Early-onset nystagmus (HP:0000639) and hypotonia (HP:0001252) progressing to spastic quadriparesis (HP:0001257) are present in >85% of infantile-onset NKX6-2 cases, whereas secondary features such as seizures (HP:0001250) and developmental regression (HP:0002376) occur in fewer than 35% of the global pooled cohort.",
+      "direction_id": "d22",
+      "rationale": "Clarifying exact pooled phenotypic penetrance distinguishes invariant core manifestations from lower-frequency findings that complicate differential diagnosis from epileptic or metabolic encephalopathies.",
+      "aspects": [
+        "phenotype frequencies",
+        "differential diagnosis"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.68,
+      "evidence_ids": [
+        "e48",
+        "e49",
+        "e65"
+      ],
+      "conflicts": [
+        "Developmental regression frequency: The hypothesis posits that developmental regression occurs in fewer than 35% of cases; however, Baldi et al. identified it in 50% (3 of 6) of families and argued that regression is an under-recognized hallmark rather than an infrequent secondary feature, reinforced by case reports demonstrating motor regression in siblings.",
+        "Epileptic vs non-epileptic phenotypic spectrum: Chelban et al. demonstrated that epilepsy and hypomyelination dissociate in some families (e.g. epilepsy without overt hypomyelination, or diffuse hypomyelination without seizures), challenging rigid lower-bound prevalence thresholds for seizure occurrence across the wider phenotypic spectrum."
+      ],
+      "screen_note": "Literature confirms early nystagmus, hypotonia, and progressive spasticity as predominant cardinal features, while seizures and regression occur in smaller subsets.",
+      "bin_reason": "contested (2 for / 1 against): Developmental regression frequency: The hypothesis posits that developmental regression occurs in fewer than 35% of cases; however, Baldi et al. identified it in 50% (3 of 6) of families and argued that regression is an under-recognized hallmark rather than an infrequent secondary feature, reinforced by case reports demonstrating motor regression in siblings.; Epileptic vs non-epileptic phenotypic spectrum: Chelban et al. demonstrated that epilepsy and hypomyelination dissociate in some families (e.g. epilepsy without overt hypomyelination, or diffuse hypomyelination without seizures), challenging rigid lower-bound prevalence thresholds for seizure occurrence across the wider phenotypic spectrum.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h12": {
+      "id": "h12",
+      "text": "Cerebral hypomyelination (HP:0003429) is absent on neuroimaging in approximately 20% to 30% of published biallelic NKX6-2 individuals, who present instead with childhood-onset spastic ataxia and isolated cerebellar atrophy (HP:0001272).",
+      "direction_id": "d22",
+      "rationale": "Differential diagnosis algorithms frequently exclude SPAX8 when diffuse hypomyelination is absent; establishing the exact frequency of hypomyelination-negative cohorts will prevent underdiagnosis of NKX6-2 spastic ataxia.",
+      "aspects": [
+        "phenotype frequencies",
+        "neuroimaging"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e50",
+        "e58",
+        "e59",
+        "e69"
+      ],
+      "conflicts": [
+        "Chelban et al. (2017, 2020) document that childhood-onset spastic ataxia can occur in the absence of overt cerebral hypomyelination with isolated/predominant cerebellar atrophy, whereas formal syndromic characterization in GeneReviews defines the disorder as fundamentally driven by diffuse central nervous system hypomyelination.",
+        "Exact epidemiological estimates of hypomyelination-negative cases vary between the original pedigree cohorts (where 2 of 3 families lacked overt hypomyelination) and broader aggregated disease registries where hypomyelinating leukodystrophy remains the cardinal hallmark."
+      ],
+      "screen_note": "Literature confirms that biallelic NKX6-2 patients present along a phenotypic spectrum that includes childhood-onset spastic ataxia with cerebellar atrophy in the absence of overt cerebral hypomyelination.",
+      "bin_reason": "contested (3 for / 1 against): Chelban et al. (2017, 2020) document that childhood-onset spastic ataxia can occur in the absence of overt cerebral hypomyelination with isolated/predominant cerebellar atrophy, whereas formal syndromic characterization in GeneReviews defines the disorder as fundamentally driven by diffuse central nervous system hypomyelination.; Exact epidemiological estimates of hypomyelination-negative cases vary between the original pedigree cohorts (where 2 of 3 families lacked overt hypomyelination) and broader aggregated disease registries where hypomyelinating leukodystrophy remains the cardinal hallmark.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h13": {
+      "id": "h13",
+      "text": "Clinically evident peripheral axonal neuropathy (HP:0003477) with distal extremity drop is an atypical manifestation present in under 10% of all published NKX6-2 cases.",
+      "direction_id": "d22",
+      "rationale": "If peripheral neuropathy is documented in only isolated kindreds, its presence is not required for diagnosis and its absence cannot rule out SPAX8.",
+      "aspects": [
+        "phenotype frequencies",
+        "peripheral neuropathy"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e51",
+        "e60",
+        "e70",
+        "e71",
+        "e72"
+      ],
+      "conflicts": [],
+      "screen_note": "Bereshneh et al. (2020) reported wrist and foot drop due to peripheral axonal neuropathy as an expansion and novel clinical finding in NKX6-2-related SPAX8, supporting that it is atypical and rare.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h14": {
+      "id": "h14",
+      "text": "Epilepsy in NKX6-2-related disorder does not selectively segregate with diffuse cerebral hypomyelination on neuroimaging, but occurs as an independent manifestation observable both in patients lacking overt hypomyelination and absent in patients with severe diffuse hypomyelination.",
+      "direction_id": "d30",
+      "rationale": "Resolves the direct contradiction identified in deep testing regarding the proposed clustering of epilepsy with diffuse hypomyelination. Clarifying whether epilepsy is truly dissociated from white matter hypomyelination status is essential for accurate clinical stratification.",
+      "aspects": [
+        "epilepsy",
+        "hypomyelination",
+        "phenotypic-clustering"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e52",
+        "e61",
+        "e62"
+      ],
+      "conflicts": [],
+      "screen_note": "Chelban et al. (2020) explicitly report that epilepsy can present in the absence of overt hypomyelination and diffuse hypomyelination can present without seizures in NKX6-2-related disease.",
+      "bin_reason": "",
+      "test_attempts": 2,
+      "parent_id": "h8",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h15": {
+      "id": "h15",
+      "text": "Nystagmus (HP:0000639) is a core neuro-ophthalmological feature shared across both mild (childhood-onset) and severe (infantile/neonatal-onset) NKX6-2 disease spectra, rather than being an exclusive marker of diffuse hypomyelinating leukodystrophy.",
+      "direction_id": "d30",
+      "rationale": "The original binned hypothesis asserted that early nystagmus selectively clusters with diffuse hypomyelination, but clinical descriptions suggest nystagmus manifests across the spectrum as part of the cerebellar ataxia presentation regardless of hypomyelination severity.",
+      "aspects": [
+        "nystagmus",
+        "cerebellar-findings",
+        "phenotypic-spectrum"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e53",
+        "e54",
+        "e66",
+        "e67",
+        "e68"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature explicitly documents nystagmus occurring in both the severe neonatal-onset form and the milder childhood-onset spastic ataxia spectrum.",
+      "bin_reason": "",
+      "test_attempts": 2,
+      "parent_id": "h8",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h16": {
+      "id": "h16",
+      "text": "Global psychomotor developmental delay (HP:0001263) segregates with age of onset and overall functional severity in NKX6-2-related disease, presenting predominantly in neonatal- and infantile-onset cases rather than serving as an invariant obligate finding in childhood-onset spastic ataxia.",
+      "direction_id": "d30",
+      "rationale": "Contrasts the invariant findings (spasticity and cerebellar ataxia) against global psychomotor delay, testing whether developmental delay is restricted to the severe infantile spectrum or universal.",
+      "aspects": [
+        "developmental-delay",
+        "age-of-onset",
+        "disease-severity"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e55",
+        "e56",
+        "e57",
+        "e63",
+        "e64"
+      ],
+      "conflicts": [],
+      "screen_note": "Chelban et al. (2020) confirmed that neonatal-onset NKX6-2 disease shows a significantly higher frequency of global psychomotor developmental delay compared to later childhood-onset cases, which primarily present with a motor spastic ataxia phenotype.",
+      "bin_reason": "",
+      "test_attempts": 2,
+      "parent_id": "h8",
+      "origin": "agent",
+      "pinned": false
+    }
+  },
+  "evidence": {
+    "e1": {
+      "id": "e1",
+      "text": "Chelban et al. (2020) describe the NKX6-2-related disease spectrum, noting core presentation of very early onset nystagmus, cerebellar ataxia, hypotonia progressing to spasticity, and neuroimaging signs of hypomyelination.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "NKX6-2 mutations should be considered in patients with autosomal recessive, very early onset of nystagmus, cerebellar ataxia with hypotonia that rapidly progresses to spasticity, particularly when associated with neuroimaging signs of hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "new cases identified": 11,
+        "families": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e2": {
+      "id": "e2",
+      "text": "Chelban et al. (2017) originally established that biallelic loss-of-function or missense mutations in NKX6-2 cause early-onset progressive spastic ataxia associated with cerebellar atrophy and central hypomyelination.",
+      "source": {
+        "title": "Mutations in NKX6-2 Cause Progressive Spastic Ataxia and Hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": "28575651",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0002929717301969",
+        "quote": "We report seven individuals with an early-onset spastic-ataxia phenotype. The individuals come from three families of different ethnic backgrounds.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "affected individuals reported": 7,
+        "families": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e3": {
+      "id": "e3",
+      "text": "NKX6-2-related disorder shows autosomal recessive inheritance and ranges from a severe neonatal presentation to a milder childhood-onset presentation dominated by slowly progressive complex spastic ataxia with pyramidal and cerebellar findings.",
+      "source": {
+        "title": "NKX6-2-Related Disorder - GeneReviews\u00ae - NCBI Bookshelf",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK531509/",
+        "quote": "NKX6-2-related disorder is inherited in an autosomal recessive manner. At conception, each sib of an affected individual has a 25% chance of being affected... At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "reported affected individuals": 25,
+        "reported families": 13
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e4": {
+      "id": "e4",
+      "text": "Affected individuals with bi-allelic NKX6-2 variants present with autosomal recessive early-onset spastic ataxia and hypomyelination, with milder cases having onset in childhood, very slow progression, and survival into adulthood.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "individuals reported in initial cohort": 7,
+        "families evaluated": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e5": {
+      "id": "e5",
+      "text": "Bereshneh et al. reported two siblings with SPAX8 who presented with wrist and foot drop due to peripheral axonal neuropathy, expanding the phenotypic spectrum beyond central manifestations.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding and cerebellar white matter involvement in brain Magnetic Resonance Imaging (MRI) as new imaging finding.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "affected siblings reported with peripheral neuropathy": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e6": {
+      "id": "e6",
+      "text": "The core phenotype across cohorts comprises diffuse central nervous system hypomyelination, early nystagmus, spasticity, and cerebellar ataxia, without typical cavitation or primary dental dysplasia.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "NKX6-2 mutations should be considered in patients with autosomal recessive, very early onset of nystagmus, cerebellar ataxia with hypotonia that rapidly progresses to spasticity, particularly when associated with neuroimaging signs of hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "new cases identified": 11,
+        "families": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e7": {
+      "id": "e7",
+      "text": "Analysis of a cohort with homozygous NKX6-2 variants and comparison to previously published cases failed to identify clear genotype-phenotype correlations across clinical presentations.",
+      "source": {
+        "title": "Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder",
+        "authors": [
+          "C Baldi",
+          "AM Bertoli\u2010Avella",
+          "N Al\u2010Sannaa"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1111/cge.13221",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13221",
+        "quote": "Comparative analysis of our 10 patients and the 15 reported previously did, however, not reveal clear evidence for a genotype-phenotype correlation.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "patients analyzed in study cohort": 10,
+        "previously reported patients analyzed": 15
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e8": {
+      "id": "e8",
+      "text": "Characterization of NKX6-2 cases demonstrated a broad phenotypic spectrum ranging from severe neonatal onset with global delay to childhood onset with a milder, predominantly motor spastic ataxia phenotype.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Our data reveal a phenotype spectrum with neonatal onset, global psychomotor delay and worse prognosis at the severe end and a childhood onset with mainly motor phenotype at the milder end.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "new cases identified": 11,
+        "families identified": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e9": {
+      "id": "e9",
+      "text": "Chelban et al. (2020) characterize the NKX6-2 phenotypic spectrum as spanning from severe global psychomotor delay at the severe end to a childhood-onset predominantly motor phenotype with relatively preserved cognition at the milder end.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Our data reveal a phenotype spectrum with neonatal onset, global psychomotor delay and worse prognosis at the severe end and a childhood onset with mainly motor phenotype at the milder end.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "new cases identified": 11,
+        "families": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e10": {
+      "id": "e10",
+      "text": "In the initial 2017 report by Chelban et al., affected individuals were noted to have normal cognitive function rather than universal moderate-to-severe impairment, though other reports associate the gene with severe intellectual disability.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "His cognitive function was within normal range; he achieved ten top GCSE school grades.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "reported individuals": 7,
+        "families": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e11": {
+      "id": "e11",
+      "text": "Bereshneh et al. (2020) demonstrated phenotypic expansion of NKX6-2-related SPAX8 to include wrist and foot drop due to peripheral axonal neuropathy, alongside cerebellar white matter involvement.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Medical Genetics",
+        "doi": "10.1016/j.ejmg.2020.103868",
+        "pmid": "32004679",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S176972121930744X",
+        "quote": "In this study, we performed Whole Exome Sequencing and identified a novel missense variant, c.501C > G; p.(Phe167Leu), in two affected siblings with main manifestations of global developmental delay, motor regression, hypotonia, clonus in lower limbs and muscle bulk atrophy especially in the upper limbs, spasticity and contracture, scoliosis, hip dislocation, oculomotor apraxia, horizontal and vertical nystagmus. In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "affected siblings": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e12": {
+      "id": "e12",
+      "text": "Characterization of 11 new cases demonstrated a broad phenotypic spectrum spanning severe neonatal onset with global psychomotor delay and early poor prognosis at one end, to childhood onset with a mainly motor phenotype at the other.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Our data reveal a phenotype spectrum with neonatal onset, global psychomotor delay and worse prognosis at the severe end and a childhood onset with mainly motor phenotype at the milder end.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "new cases identified": 11,
+        "families analyzed": 8
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e13": {
+      "id": "e13",
+      "text": "In a series of 10 patients, primary manifestations included severe psychomotor delay, spastic quadriparesis, hypotonia, and prominent developmental regression in multiple families, refuting the concept of consistently preserved childhood cognitive/developmental faculties across SPAX8.",
+      "source": {
+        "title": "Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder",
+        "authors": [
+          "C Baldi",
+          "AM Bertoli\u2010Avella",
+          "N Al\u2010Sannaa"
+        ],
+        "year": 2018,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13221",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13221",
+        "quote": "Our patients share a primary diagnosis of psychomotor delay, and they show spastic quadriparesis, nystagmus and hypotonia. Seizures and dysmorphic features (observed in 2 families each) represent an addition to the phenotype, while developmental regression (observed in 3 families) appears to be a notable and previously underestimated clinical feature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "affected patients described": 10,
+        "families with developmental regression": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e14": {
+      "id": "e14",
+      "text": "Novel phenotypes expanded the disorder to include peripheral axonal neuropathy, motor regression, and oculomotor apraxia, without extraneurological signs like hypodontia or hypogonadism.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "In this study, we performed Whole Exome Sequencing and identified a novel missense variant, c.501C > G; p.(Phe167Leu), in two affected siblings with main manifestations of global developmental delay, motor regression, hypotonia, clonus in lower limbs and muscle bulk atrophy especially in the upper limbs, spasticity and contracture, scoliosis, hip dislocation, oculomotor apraxia, horizontal and vertical nystagmus. In addition, wrist and foot drop due to peripheral axonal neuropathy were observed.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "affected siblings": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e15": {
+      "id": "e15",
+      "text": "NKX6-2-related disorder exhibits a broad clinical spectrum ranging from severe neonatal-onset global psychomotor delay and spastic tetraplegia to childhood-onset slowly progressive spastic ataxia with a predominantly motor presentation and relatively preserved cognition.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6-2-related spastic ataxia and hypomyelinating leukodystrophy",
+        "authors": [
+          "V Chelban"
+        ],
+        "year": 2019,
+        "journal": "European Journal of Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6946857",
+        "url": "https://europepmc.org/article/pmc/6946857",
+        "quote": "Our data reveal a phenotype spectrum with neonatal onset, global psychomotor delay and worse prognosis at the severe end and a childhood onset with mainly motor phenotype at the milder end.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "new cases identified": 11,
+        "unrelated families": 8
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e16": {
+      "id": "e16",
+      "text": "In the summarized cohort of 25 individuals with NKX6-2 variants, cognitive involvement varied considerably; affected patients exhibited mild intellectual disability, and at least one individual had completely normal cognitive function.",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "...have mild intellectual disability, and one individual has normal cognitive function and has...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "total reported individuals": 25,
+        "total families": 13
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e17": {
+      "id": "e17",
+      "text": "Patients identified across 6 families presented primarily with psychomotor delay, spastic quadriparesis, and developmental regression (observed in 3 families), expanding the clinical presentation toward severe impairment without a clear genotype-phenotype correlation.",
+      "source": {
+        "title": "Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder",
+        "authors": [
+          "C Baldi",
+          "AM Bertoli\u2010Avella",
+          "N Al\u2010Sannaa"
+        ],
+        "year": 2018,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13221",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13221",
+        "quote": "Our patients share a primary diagnosis of psychomotor delay, and they show spastic quadriparesis, nystagmus and hypotonia. Seizures and dysmorphic features (observed in 2 families each) represent an addition to the phenotype, while developmental regression (observed in 3 families) appears to be a notable and previously underestimated clinical feature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "evaluated patients in cohort": 10,
+        "families with developmental regression": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e18": {
+      "id": "e18",
+      "text": "Homozygous mutations in NKX6-2 can present with profound intellectual disability with failure to achieve basic motor or cognitive milestones.",
+      "source": {
+        "title": "A rare homozygous variant of the NKX6-2 gene in association with profound intellectual disability",
+        "authors": [
+          "HTN Lan",
+          "NP Mai",
+          "DTK Phuong"
+        ],
+        "year": 2025,
+        "journal": "T\u1ea1p ch\u00ed Nghi\u00ean c\u1ee9u Y h\u1ecdc",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://tapchinghiencuuyhoc.vn/index.php/tcncyh/article/view/3425",
+        "quote": "had not achieved any motor or cognitive milestones. She was...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "reported cases with profound ID": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e19": {
+      "id": "e19",
+      "text": "NKX6-2 was confirmed as a disease gene within a large cohort specifically ascertained for intellectual disability, confirming significant cognitive impairment in subset populations.",
+      "source": {
+        "title": "Expanding the genetic heterogeneity of intellectual disability",
+        "authors": [
+          "S Anazi",
+          "S Maddirevula",
+          "V Salpietro",
+          "YT Asi",
+          "S Alsahli"
+        ],
+        "year": 2017,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-017-1843-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-017-1843-2",
+        "quote": "...(TRAK1, GTF3C3, SPTBN4 and NKX6-2), some of which represent the first confirmatory disease-gene links following previous reports...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "total cohort families": 68,
+        "total cohort patients": 105
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e20": {
+      "id": "e20",
+      "text": "Wolf and Ffrench review hypomyelinating leukodystrophies as primary genetic disorders of central myelin deposition presenting in infancy with nystagmus, developmental delay, and spastic ataxia, distinguishing typical hypomyelination patterns from non-hypomyelinating cavitating leukoencephalopathies.",
+      "source": {
+        "title": "Hypomyelinating leukodystrophies\u2014Unravelling myelin biology",
+        "authors": [
+          "NI Wolf",
+          "C Ffrench"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-020-00432-1",
+        "quote": "Hypomyelinating leukodystrophies constitute a subset of genetic white matter disorders characterized by a primary lack of myelin deposition.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "diagnostic rate of next-generation sequencing in hypomyelinating leukodystrophies": "80-90%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e21": {
+      "id": "e21",
+      "text": "Sevagamoorthy and Vanderver note that inherited white matter disorders can encompass CNS phenotypes with or without peripheral neuropathy, highlighting phenotypic heterogeneity across leukodystrophies.",
+      "source": {
+        "title": "Glial origins of inherited white matter disorders",
+        "authors": [
+          "A Sevagamoorthy",
+          "A Vanderver"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1101/cshperspect.a041457",
+        "pmid": "39134377",
+        "pmc": null,
+        "url": "https://cshperspectives.cshlp.org/content/17/7/a041457.short",
+        "quote": "Inherited white matter disorders (IWMDs) are a phenotypically and genotypically heterogeneous group of disorders affecting the central nervous system (CNS) with or without peripheral neuropathy.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "birth incidence of inherited white matter disorders": "1 in 7500 births"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e22": {
+      "id": "e22",
+      "text": "Comprehensive expert review in GeneReviews indicates that despite mutational and clinical heterogeneity, no clear genotype-phenotype correlations have been established in NKX6-2-related disorder.",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "No clear genotype-phenotype correlations have been identified.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e23": {
+      "id": "e23",
+      "text": "Identification of a novel homozygous missense variant (c.501C>G, p.Phe167Leu) in two siblings presented with severe global developmental delay, motor regression, hypotonia, spastic quadriparesis, clonus, and contractures, directly challenging the idea that missense variants produce solely a milder, preserved-ambulation spastic ataxia phenotype.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "Although there is no evident genotype-phenotype correlation, however nonsense... we performed Whole Exome Sequencing and identified a novel missense variant, c.501C > G; p.(Phe167Leu), in two affected siblings with main manifestations of global developmental delay, motor regression, hypotonia, clonus in lower limbs and muscle bulk atrophy",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "affected siblings described with severe phenotype from missense variant": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e24": {
+      "id": "e24",
+      "text": "Initial discovery study described both nonsense and homeobox domain missense variants associated with early-onset spastic ataxia with hypomyelination as well as slower childhood-onset progressions, without establishing a deterministic truncating-versus-missense bifurcation.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Using a combination of homozygozity mapping and exome sequencing, we mapped this phenotype to deleterious nonsense or homeobox domain missense mutations in NKX6-2.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "individuals reported in initial discovery cohort": 7,
+        "families investigated": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e25": {
+      "id": "e25",
+      "text": "In the original discovery cohort, affected members of two families had childhood-onset spastic ataxia with slow progression surviving into their 30s and 40s showing predominant ataxia and cerebellar atrophy on MRI, whereas only affected members of the third family presented with early-onset disease associated with brain hypomyelination.",
+      "source": {
+        "title": "Mutations in nkx6-2 cause progressive spastic-ataxia and ...",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": "28575651",
+        "pmc": null,
+        "url": "https://www.jns-journal.com/article/S0022-510X(17)30964-4/fulltext",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "families with cerebellar atrophy without hypomyelination": 2,
+        "families with brain hypomyelination": 1
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e26": {
+      "id": "e26",
+      "text": "A multicenter cohort evaluation demonstrated an expanded phenotypic spectrum ranging from spastic ataxia without overt hypomyelination to diffuse hypomyelinating leukodystrophy.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "spectrum of NKX6-2 mutations from diffuse hypomyelination to \u2026 spastic ataxia without overt hypomyelination to hypomyelinating",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e27": {
+      "id": "e27",
+      "text": "Chelban et al. (2017) explicitly described 7 affected individuals hailing from 3 unrelated families of different ethnic backgrounds carrying biallelic NKX6-2 mutations.",
+      "source": {
+        "title": "Mutations in nkx6-2 cause progressive spastic-ataxia and ...",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": "28575651",
+        "pmc": null,
+        "url": "https://www.jns-journal.com/article/S0022-510X(17)30964-4/fulltext",
+        "quote": "We report seven individuals with an early-onset spastic-ataxia phenotype. The individuals come from three families of different ethnic backgrounds.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "affected individuals": 7,
+        "families": 3
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e28": {
+      "id": "e28",
+      "text": "Chelban et al. (2020) later reported an additional multicenter series of 11 new cases from 8 families.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Eleven new cases from eight families of different ethnic backgrounds carrying compound heterozygous and homozygous pathogenic variants in NKX6-2 were identified",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "new cases": 11,
+        "new families": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e29": {
+      "id": "e29",
+      "text": "All 7 patients across the 3 original families presented with an early-onset spastic-ataxia phenotype regardless of whether they had cerebellar atrophy alone or central hypomyelination.",
+      "source": {
+        "title": "Mutations in nkx6-2 cause progressive spastic-ataxia and ...",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": "28575651",
+        "pmc": null,
+        "url": "https://www.jns-journal.com/article/S0022-510X(17)30964-4/fulltext",
+        "quote": "We report seven individuals with an early-onset spastic-ataxia phenotype. The individuals come from three families of different ethnic backgrounds. Affected members of two families had childhood onset disease with very slow progression... Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "spastic ataxia phenotype presence": "7/7"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e30": {
+      "id": "e30",
+      "text": "The expanded cohort reveals a broad spectrum extending from neonatal onset with global psychomotor delay and diffuse hypomyelination to childhood-onset presentations with a predominantly motor spastic-ataxia phenotype and variable presence of seizures.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Our data reveal a phenotype spectrum with neonatal onset, global psychomotor delay and worse prognosis at the severe end and a childhood onset with mainly motor phenotype at the milder end. The phenotypic and neuroimaging expression in NKX6-2 is described and it is shown that phenotypes with epilepsy in the absence of overt hypomyelination and diffuse hypomyelination without seizures can occur.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e31": {
+      "id": "e31",
+      "text": "Bereshneh et al. (2020) identified a novel homozygous missense variant c.501C>G (p.Phe167Leu) in two siblings who exhibited wrist and foot drop due to peripheral axonal neuropathy confirmed by EMG/NCV, designating this as an expanded feature of SPAX8.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": "32004679",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32004679/",
+        "quote": "In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding and cerebellar white matter involvement in brain Magnetic Resonance Imaging (MRI) as new imaging finding.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected siblings with peripheral axonal neuropathy": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e32": {
+      "id": "e32",
+      "text": "Almatrafi et al. (2020) reported four individuals with progressive spastic ataxia from an NKX6-2 homeobox domain mutation (p.Ala182Val) noting limb weakness, digit/limb deformities, and peripheral neuropathy features among expanding manifestations.",
+      "source": {
+        "title": "A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and \u2026",
+        "authors": [
+          "A Almatrafi",
+          "M Umair",
+          "A Eldardear"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1002/jgm.3196",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.3196",
+        "quote": "8 as a result of NKX6-2 mutations include digit or limbs deformities, peripheral neuropathy (\u2026 motor coordination and central nervous system nerve conduction, as well as paranodes that \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected individuals in family cohort": 4
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e33": {
+      "id": "e33",
+      "text": "PLP1-related disorders can manifest spastic quadriparesis with ataxia and mild multifocal demyelinating peripheral neuropathy on neurophysiologic evaluation.",
+      "source": {
+        "title": "PLP1-related disorders",
+        "authors": [
+          "NI Wolf",
+          "RML van Spaendonk"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1182/",
+        "quote": "by the absence of nystagmus and the presence of relatively mild spastic quadriparesis that mostly affects the legs, with ataxia and mild multifocal demyelinating peripheral neuropathy.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e34": {
+      "id": "e34",
+      "text": "Bereshneh et al. (2020) confirmed that when peripheral nerve involvement occurs in NKX6-2 deficiency, EMG/NCV reveals an axonal pattern rather than peripheral demyelination.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": "32004679",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32004679/",
+        "quote": "EMG/NCV of both children showed peripheral axonal \u2026 study reporting peripheral axonal neuropathy in patients with hereditary spastic ataxia type 8 due to mutation in NKX6-2",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e35": {
+      "id": "e35",
+      "text": "The original 2017 publication by Chelban et al. describes seven affected individuals originating from three families.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": "28575651",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28575651/",
+        "quote": "We report seven individuals with an early-onset spastic-ataxia phenotype. The individuals come from three families of different ethnic backgrounds.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "affected individuals": 7,
+        "families": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e36": {
+      "id": "e36",
+      "text": "In the discovery cohort of seven individuals across three families, affected individuals from two families presented with childhood-onset slowly progressive disease showing predominant ataxia and cerebellar atrophy on imaging, whereas hypomyelination was seen only in the earlier-onset third family.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "affected individuals reported": 7,
+        "families investigated": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e37": {
+      "id": "e37",
+      "text": "PLP1-related disorders present with mild spastic quadriparesis, ataxia, and mild multifocal demyelinating peripheral neuropathy.",
+      "source": {
+        "title": "PLP1 disorders",
+        "authors": [
+          "NI Wolf",
+          "RML van Spaendonk",
+          "GM Hobson",
+          "J Kamholz"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk1182/",
+        "quote": "by the absence of nystagmus and the presence of relatively mild spastic quadriparesis that mostly affects the legs, with ataxia and mild multifocal demyelinating peripheral neuropathy.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e38": {
+      "id": "e38",
+      "text": "Biallelic NKX6-2 mutations were identified in individuals displaying childhood-onset spastic-ataxia phenotypes with slow progression, while earlier-onset disease presentation was associated with prominent brain hypomyelination.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "reported affected individuals": 7,
+        "families investigated": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e39": {
+      "id": "e39",
+      "text": "Two affected siblings with an NKX6-2 missense variant presented with wrist and foot drop attributed to peripheral axonal neuropathy, reported as a novel phenotypic expansion.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected siblings observed": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e40": {
+      "id": "e40",
+      "text": "Clinical overview delineates that NKX6-2-related disorder exhibits a spectrum ranging from childhood-onset slowly progressive complex spastic ataxia with cerebellar atrophy to severe neonatal-onset spastic tetraplegia with diffuse CNS hypomyelination.",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia with pyramidal findings... and cerebellar findings",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "reported individuals": 25,
+        "reported families": 13
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e41": {
+      "id": "e41",
+      "text": "PLP1 null variants are associated with mild demyelinating neuropathy, serving as a differential diagnostic criterion from NKX6-2-related hypomyelinating disorders.",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "Null PLP1 variants are assoc w/mild demyelinating neuropathy & reduced levels of N-acetyl aspartate in cerebral white matter.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "PLP1 null demyelinating neuropathy association": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e42": {
+      "id": "e42",
+      "text": "NKX6-2 involvement in peripheral nervous system dysfunction is classified under peripheral axonal neuropathy rather than primary demyelinating polyneuropathy.",
+      "source": {
+        "title": "Peripheral axonal neuropathy (Concept Id: C1263857)",
+        "authors": [
+          "National Center for Biotechnology Information"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "http://www.ncbi.nlm.nih.gov/medgen/266071",
+        "quote": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "classification under axonal neuropathy concept ID C1263857": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e43": {
+      "id": "e43",
+      "text": "NKX6-2 is cited in inherited neuropathy cohorts presenting with demyelinating and axonal lesions with slightly reduced nerve conduction velocities, challenging the claim that peripheral myelination is entirely conserved or devoid of demyelinating features.",
+      "source": {
+        "title": "Clinical Variability of Charcot-Marie-Tooth Disease and its ...",
+        "authors": [
+          "R\u012bgas Stradi\u0146a universit\u0101te"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://dspace.rsu.lv/bitstreams/5bd76d7e-997f-4177-b2a2-87c9a8cd8483/download",
+        "quote": "demyelinating and axonal lesions, showing slightly reduced nerve conduction ... SLC25A46; NKX6-2; DGAT2; PCYT2; AGTPBP1; GPT2; VRK1; TUBA4A;. BSCL2; MAG",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "reduced nerve conduction velocity presence": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e44": {
+      "id": "e44",
+      "text": "Nkx6-2 transcriptional activity is specifically required for CNS myelin paranodes, distinguishing its mechanistic site of action from primary PNS compact myelin genes.",
+      "source": {
+        "title": "Organization and maintenance of molecular domains in myelinated axons",
+        "authors": [
+          "ED Buttermore",
+          "CL Thaxton"
+        ],
+        "year": 2013,
+        "journal": "Journal of Neuroscience Research",
+        "doi": "10.1002/jnr.23197",
+        "pmid": "23404451",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jnr.23197",
+        "quote": "CNS myelin paranodes require Nkx6-2 homeoprotein",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "CNS paranodal localization requirement": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e45": {
+      "id": "e45",
+      "text": "Sharma et al. reviewed hypomyelinating leukodystrophies and noted that while NKX6-2 variants cause spastic ataxia type 8 with central hypomyelination, features such as peripheral neuropathy occur as part of a broader, heterogeneous differential presentation.",
+      "source": {
+        "title": "An algorithmic approach to MR imaging of hypomyelinating leukodystrophies",
+        "authors": [
+          "S Sharma",
+          "S Sundaram",
+          "C Kesavadas"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/jmri.29558",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.29558",
+        "quote": "in the NKX6-2 gene have been identified in patients presenting with spastic ataxia type 8. \u2026 alteration and macular degeneration, peripheral neuropathy, global developmental delay, and",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h9",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e46": {
+      "id": "e46",
+      "text": "Nystagmus is documented not only in severe neonatal presentations but also as an integral component of cerebellar findings in milder childhood-onset presentations.",
+      "source": {
+        "title": "NKX6-2-Related Disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC5473715",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK531509/",
+        "quote": "At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia with pyramidal findings (spasticity with increased muscle tone and difficulty with gait and fine motor coordination) and cerebellar findings (nystagmus, extraocular movement disorder, dysarthria, titubation, and ataxia) with loss of developmental milestones.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "Total individuals reported to date": 25,
+        "Total families reported to date": 13
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e47": {
+      "id": "e47",
+      "text": "Siblings with a novel missense variant presented with global developmental delay, nystagmus, and spasticity alongside axonal peripheral neuropathy and cerebellar white matter involvement.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "identified a novel missense variant, c.501C > G; p.(Phe167Leu), in two affected siblings with main manifestations of global developmental delay, motor regression, hypotonia, clonus in lower limbs and muscle bulk atrophy especially in the upper limbs, spasticity and contracture, scoliosis, hip dislocation, oculomotor apraxia, horizontal and vertical nystagmus.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "Affected siblings described": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e48": {
+      "id": "e48",
+      "text": "Baldi et al. identified 10 new patients from 6 unrelated families where all shared psychomotor delay, spastic quadriparesis, nystagmus, and hypotonia, whereas seizures were restricted to 2 families and developmental regression to 3 families.",
+      "source": {
+        "title": "Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder",
+        "authors": [
+          "C Baldi",
+          "AM Bertoli\u2010Avella",
+          "N Al\u2010Sannaa"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1111/cge.13221",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13221",
+        "quote": "Our patients share a primary diagnosis of psychomotor delay, and they show spastic quadriparesis, nystagmus and hypotonia. Seizures and dysmorphic features (observed in 2 families each) represent an addition to the phenotype, while developmental regression (observed in 3 families) appears to be a notable and previously underestimated clinical feature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "new patients described": 10,
+        "unrelated families": 6,
+        "families with seizures": 2,
+        "families with developmental regression": 3,
+        "previously reported patients evaluated": 15
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e49": {
+      "id": "e49",
+      "text": "Chelban et al. (2020) combined previously reported cases with 11 newly identified cases across 8 families and observed that phenotypic expression encompasses epilepsy occurring without overt hypomyelination as well as diffuse hypomyelination without seizures.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": "PMC6946857",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Eleven new cases from eight families of different ethnic backgrounds carrying compound heterozygous and homozygous pathogenic variants in NKX6-2 were identified... it is shown that phenotypes with epilepsy in the absence of overt hypomyelination and diffuse hypomyelination without seizures can occur.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "new cases identified": 11,
+        "new families identified": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e50": {
+      "id": "e50",
+      "text": "Chelban et al. (2017) demonstrated that in 7 individuals from 3 families, affected members from 2 families exhibited childhood-onset disease with slow progression and predominant cerebellar atrophy rather than overt brain hypomyelination, while hypomyelination was restricted to the third family.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC5473715",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "We report seven individuals with an early-onset spastic-ataxia phenotype. The individuals come from three families of different ethnic backgrounds. Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "total affected individuals": 7,
+        "total families": 3,
+        "families with childhood onset and cerebellar atrophy without predominant hypomyelination": 2,
+        "families with early-onset brain hypomyelination": 1
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e51": {
+      "id": "e51",
+      "text": "Bereshneh et al. (2020) reported wrist drop and foot drop due to peripheral axonal neuropathy in 2 affected siblings carrying the homozygous c.501C>G p.(Phe167Leu) variant, explicitly identifying peripheral axonal neuropathy as a novel clinical expansion.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6 ...",
+        "authors": [
+          "AH Bereshneh"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S176972121930744X",
+        "quote": "two affected siblings with main manifestations of global developmental delay, motor regression, hypotonia, clonus in lower limbs and muscle bulk atrophy especially in the upper limbs, spasticity and contracture, scoliosis, hip dislocation, oculomotor apraxia, horizontal and vertical nystagmus. In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "affected siblings with peripheral axonal neuropathy": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e52": {
+      "id": "e52",
+      "text": "Chelban et al. (2020) demonstrated in an expanded cohort of 11 new cases from 8 families alongside literature cases that phenotypes with epilepsy in the absence of overt hypomyelination occur, as well as diffuse hypomyelination without seizures.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": "PMC6946857",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "The phenotypic and neuroimaging expression in NKX6-2 is described and it is shown that phenotypes with epilepsy in the absence of overt hypomyelination and diffuse hypomyelination without seizures can occur.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "new reported cases": 11,
+        "new reported families": 8
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e53": {
+      "id": "e53",
+      "text": "Chelban et al. (2018 GeneReviews) note that nystagmus is documented across both the severe end (neonatal-onset nystagmus) and the milder end of the spectrum (complex spastic ataxia with cerebellar findings including nystagmus, extraocular movement disorder, dysarthria, titubation, and ataxia).",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia with pyramidal findings... and cerebellar findings (nystagmus, extraocular movement disorder, dysarthria, titubation, and ataxia)",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "total reported individuals reviewed in GeneReviews": 25,
+        "total families reviewed in GeneReviews": 13
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e54": {
+      "id": "e54",
+      "text": "Chelban et al. (2020) emphasize that NKX6-2 mutations should be suspected specifically when very early onset nystagmus, cerebellar ataxia, and hypotonia progressing to spasticity occur, particularly when neuroimaging signs of hypomyelination are present.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": "PMC6946857",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "NKX6-2 mutations should be considered in patients with autosomal recessive, very early onset of nystagmus, cerebellar ataxia with hypotonia that rapidly progresses to spasticity, particularly when associated with neuroimaging signs of hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e55": {
+      "id": "e55",
+      "text": "Chelban et al. (2020) demonstrated a bifurcated clinical spectrum characterized by neonatal onset with global psychomotor delay and worse prognosis at the severe end, contrasting with childhood onset with a mainly motor spastic ataxia phenotype at the milder end.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": "PMC6946857",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Our data reveal a phenotype spectrum with neonatal onset, global psychomotor delay and worse prognosis at the severe end and a childhood onset with mainly motor phenotype at the milder end.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e56": {
+      "id": "e56",
+      "text": "Chelban et al. (2017) observed individuals from two families with childhood-onset disease and very slow progression who survived into their 30s and 40s presenting with predominant ataxia and cerebellar atrophy rather than early devastating global psychomotor arrest.",
+      "source": {
+        "title": "Mutations in NKX6-2 Cause Progressive Spastic Ataxia and Hypomyelination",
+        "authors": [
+          "V Chelban"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "childhood onset families": 2,
+        "total families": 3,
+        "total affected individuals": 7
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e57": {
+      "id": "e57",
+      "text": "At the milder end of the NKX6-2 disease spectrum, individuals achieve normal early motor milestones in the first year of life before developing slowly progressive spastic ataxia.",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia with pyramidal findings",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e58": {
+      "id": "e58",
+      "text": "In the initial identification of NKX6-2 mutations, affected individuals in two out of three families exhibited childhood-onset disease with predominant ataxia and cerebellar atrophy on neuroimaging, whereas hypomyelination was specifically associated with the third family.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "Families with childhood-onset disease and predominant cerebellar atrophy features without early hypomyelination": "2 of 3"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e59": {
+      "id": "e59",
+      "text": "Characterization of a multi-center series of NKX6-2 cases showed a broad phenotypic spectrum ranging from severe diffuse hypomyelination to milder childhood-onset spastic ataxia presentations occurring in the absence of overt hypomyelination.",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "The phenotypic and neuroimaging expression in NKX6-2 is described and it is shown that phenotypes with epilepsy in the absence of overt hypomyelination and diffuse hypomyelination without seizures can occur.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "New NKX6-2 cases identified": 11,
+        "Families evaluated": 8
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e60": {
+      "id": "e60",
+      "text": "Wrist and foot drop due to peripheral axonal neuropathy was reported as a novel clinical finding in two affected siblings with an NKX6-2 mutation, indicating it is an atypical feature rather than a core manifestation.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding and cerebellar white matter involvement in brain Magnetic Resonance Imaging (MRI) as new imaging finding. Therefore, we expanded the manifestations of NKX6-2-related disorders in this manuscript.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "affected siblings described with wrist and foot drop": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e61": {
+      "id": "e61",
+      "text": "Initial identification of NKX6-2 mutations in early-onset spastic ataxia demonstrated clinical and radiological heterogeneity, where some affected families presented with childhood onset and cerebellar atrophy without prominent initial hypomyelination, while others demonstrated early-onset spastic ataxia with diffuse hypomyelination.",
+      "source": {
+        "title": "Mutations in NKX6-2 Cause Progressive Spastic Ataxia and Hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "M Natalia Zanetti",
+          "DS Lynch",
+          "M Ryten",
+          "JA Botia",
+          "O Bello",
+          "JE Rothman",
+          "FS Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.03.011",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "affected individuals reported across three families": 7,
+        "families evaluated": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e62": {
+      "id": "e62",
+      "text": "Review of hypomyelinating leukodystrophies indicates that truncating variants in NKX6-2 are associated with severe Pelizaeus-Merzbacher-like disease presentations with severe hypomyelination, where some patients present with severe epilepsy.",
+      "source": {
+        "title": "Hypomyelinating leukodystrophies\u2014Unravelling myelin biology",
+        "authors": [
+          "NI Wolf",
+          "C Ffrench"
+        ],
+        "year": 2021,
+        "journal": "Nature Reviews Neurology",
+        "doi": "10.1038/s41582-020-00432-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-020-00432-1",
+        "quote": "Truncating variants in NKX6-2 cause a severe form of PMLD, ... hypomyelination, some patients have severe epilepsy",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h14",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e63": {
+      "id": "e63",
+      "text": "Initial identification of NKX6-2 disease established that affected members from two families had childhood-onset spastic ataxia with very slow progression, surviving into their 30s and 40s with predominant ataxia and cerebellar atrophy rather than early neonatal/infantile developmental arrest.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.03.011",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "number of families with childhood-onset disease": 2,
+        "total individuals reported in study": 7
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e64": {
+      "id": "e64",
+      "text": "Severe biallelic loss-of-function variants affecting the NKX6-2 homeodomain manifest with homogeneous, severe motor delays, absent head control, nystagmus, and early hypomyelination, illustrating the severe infantile pole of the condition.",
+      "source": {
+        "title": "Biallelic mutations in the homeodomain of NKX6-2 underlie a severe hypomyelinating leukodystrophy",
+        "authors": [
+          "I Dorboz",
+          "C Aiello",
+          "C Simons",
+          "RT Stone",
+          "M Niceta"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awx207",
+        "pmid": "28969374",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/10/2550/4085303",
+        "quote": "The clinical presentation was homogeneous, with four subjects having severe motor delays, nystagmus and absent head control, and one individual showing gross motor delay at the age of 6 months. All exhibited neuroimaging that was consistent with hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "subjects with severe motor delays and absent head control": 4,
+        "subjects with gross motor delay by 6 months": 1,
+        "total affected subjects in cohort": 5
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e65": {
+      "id": "e65",
+      "text": "Bereshneh et al. described two affected siblings homozygous for NKX6-2 c.501C>G who presented with global developmental delay, motor regression, hypotonia, spasticity, contractures, clonus, and nystagmus, adding to the growing recognition that regression occurs prominently in affected kindreds.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "In this study, we performed Whole Exome Sequencing and identified a novel missense variant, c.501C > G; p.(Phe167Leu), in two affected siblings with main manifestations of global developmental delay, motor regression, hypotonia, clonus in lower limbs and muscle bulk atrophy especially in the upper limbs, spasticity and contracture, scoliosis, hip dislocation, oculomotor apraxia, horizontal and vertical nystagmus.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "affected siblings presenting with motor regression and nystagmus": "2/2"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e66": {
+      "id": "e66",
+      "text": "The discovery study by Chelban et al. (2017) identified 7 affected individuals across 3 families. Two families showed childhood onset with slow progression (patients surviving into their 30s and 40s) with predominant ataxia, whereas the third family exhibited earlier onset associated with hypomyelination, with neonatal presentation including hypotonia and nystagmus.",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected individuals can present as neonates with severe hypotonia and nystagmus or later with progressive spasticity and ataxia.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "affected individuals reported": 7,
+        "unrelated families": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e67": {
+      "id": "e67",
+      "text": "Baldi et al. (2018) reported 10 patients with homozygous NKX6-2 variants who shared psychomotor delay, spastic quadriparesis, hypotonia, and nystagmus, confirming nystagmus as a core feature of the presentation, while finding no clear genotype-phenotype correlation cleanly separating findings.",
+      "source": {
+        "title": "Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder",
+        "authors": [
+          "C Baldi",
+          "AM Bertoli\u2010Avella",
+          "N Al\u2010Sannaa"
+        ],
+        "year": 2018,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13221",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13221",
+        "quote": "Our patients share a primary diagnosis of psychomotor delay, and they show spastic quadriparesis, nystagmus and hypotonia.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "evaluated cohort size": 10,
+        "previously reported comparative patients": 15
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e68": {
+      "id": "e68",
+      "text": "Bereshneh et al. (2020) identified two siblings with a homozygous missense variant presenting with horizontal and vertical nystagmus alongside oculomotor apraxia, developmental delay, spasticity, and peripheral axonal neuropathy, with cerebellar white matter involvement.",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "spasticity and contracture, scoliosis, hip dislocation, oculomotor apraxia, horizontal and vertical nystagmus. In addition, wrist and foot drop due to peripheral axonal neuropathy were observed",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "affected siblings": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e69": {
+      "id": "e69",
+      "text": "NKX6-2-related disorder is clinically defined as characterized by a spectrum of progressive neurologic manifestations resulting from diffuse central nervous system hypomyelination, emphasizing diffuse hypomyelination and cerebellar atrophy across affected individuals.",
+      "source": {
+        "title": "NKX6-2-Related Disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "NKX6-2-related disorder is characterized by a spectrum of progressive neurologic manifestations resulting from diffuse central nervous system hypomyelination.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "total reported individuals reviewed": 25,
+        "total families reviewed": 13
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e70": {
+      "id": "e70",
+      "text": "Ganguly et al. (2023) reviewed movement disorders in hypomyelinating leukodystrophy, noting that NKX6-2-related autosomal recessive spastic ataxia has a wide clinical spectrum, with muscle atrophy, wrist drop, and foot drop due to axonal peripheral neuropathy specifically highlighted in the Iranian siblings.",
+      "source": {
+        "title": "Hypomyelinating leukodystrophy and movement disorders",
+        "authors": [
+          "J Ganguly",
+          "J Sinha",
+          "P Basu",
+          "A Pal"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/aomd/fulltext/2023/06020/hypomyelinating_leukodystrophy_and_movement.2.aspx",
+        "quote": "NKX6-2 related autosomal recessive spastic ataxia manifests as a wide clinical spectrum, \u2026 atrophy and wrist drop, and foot drop from axonal peripheral neuropathy in Iranian siblings.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "documented kindreds with extremity drop": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e71": {
+      "id": "e71",
+      "text": "Almatrafi et al. (2020) characterized four affected individuals from a consanguineous family with homozygous c.545C>T (p.Ala182Val) variants who presented with progressive spastic ataxia and lower limb weakness without reports of wrist or foot drop.",
+      "source": {
+        "title": "A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and \u2026",
+        "authors": [
+          "A Almatrafi",
+          "M Umair",
+          "A Eldardear"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1002/jgm.3196",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.3196",
+        "quote": "All of the affected individuals showed progressive clinical features such as spastic ataxia, lower limb weakness and other mild neurological abnormalities.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "affected individuals assessed in cohort": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e72": {
+      "id": "e72",
+      "text": "Sharma et al. (2025) note in an MRI review of hypomyelinating leukodystrophies that peripheral neuropathy is an associated feature in NKX6-2-related spastic ataxia type 8, but do not describe distal extremity drop as a typical manifestation across cohorts.",
+      "source": {
+        "title": "An algorithmic approach to MR imaging of hypomyelinating leukodystrophies",
+        "authors": [
+          "S Sharma",
+          "S Sundaram",
+          "C Kesavadas"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/jmri.29558",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.29558",
+        "quote": "in the NKX6-2 gene have been identified in patients presenting with spastic ataxia type 8. \u2026 alteration and macular degeneration, peripheral neuropathy, global developmental delay, and",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h13",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Dissociation Between Syndromic Defining Hallmarks and Obligate Neuroimaging Features",
+      "abstraction": "Eponymous or cardinal clinicoradiological features that define a monogenic syndrome often fail to be obligate or universally penetrant across affected kindreds, creating diagnostic blind spots when clinicians treat them as mandatory exclusion criteria.",
+      "instance": "In NKX6-2-related disorder (SPAX8, classified as spastic ataxia with hypomyelinating leukodystrophy), diffuse cerebral hypomyelination (HP:0003429) is absent in several families who present instead with childhood-onset spastic ataxia and isolated cerebellar atrophy (HP:0001272).",
+      "direction": "Perform multi-center neuroimaging re-evaluations across spastic ataxia panels lacking definitive diagnoses to quantify the prevalence of isolated cerebellar atrophy among uncharacterized NKX6-2 biallelic carriers.",
+      "support": "Strongly supported across multiple cohorts ([F2], [F11], [F13], [F15]) showing that affected individuals in the discovery and subsequent cohorts displayed cerebellar atrophy without overt cerebral hypomyelination.",
+      "sources": [
+        "V Chelban et al. (2017) Mutations in nkx6-2 cause progressive spastic-ataxia and ... 10.1016/j.ajhg.2017.05.009",
+        "V Chelban et al. (2020) Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination 10.1111/ene.14082",
+        "V Chelban et al. (2018) NKX6-2-related disorder https://europepmc.org/books/nbk531509/"
+      ],
+      "hypothesis": "Cerebellar Purkinje and granule cell pathways possess differential temporal vulnerability to NKX6-2 loss compared to forebrain oligodendroglial lineages, allowing selective cerebellar degenerative phenotypes in the absence of leukodystrophy.",
+      "novelty": "Counterintuitive to diagnostic paradigms that require central hypomyelination to prompt targeted screening for hypomyelinating leukodystrophy genes."
+    },
+    {
+      "pattern": "Decoupling of Paroxysmal and Oculomotor Neurological Manifestations from Macrostructural White Matter Pathology",
+      "abstraction": "Secondary neurological manifestations such as network hyperexcitability and ocular dysmotility do not correlate with the macrostructural severity of structural white matter disruption.",
+      "instance": "Epilepsy (HP:0001250) in NKX6-2 deficiency occurs in patients without diffuse hypomyelination and is absent in cases with severe hypomyelination, while nystagmus (HP:0000639) remains present regardless of whether leukodystrophy or isolated cerebellar atrophy is observed.",
+      "direction": "Investigate cell-type-specific electrophysiological and GABAergic interneuron functions of NKX6-2 independent of its established roles in myelination and oligodendrocyte differentiation.",
+      "support": "Supported by phenotypic clustering analyses ([F5], [F6], [F15]) demonstrating non-segregation of seizure phenotypes with diffuse hypomyelination.",
+      "sources": [
+        "V Chelban et al. (2020) Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination 10.1111/ene.14082",
+        "C Baldi et al. (2018) Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder 10.1111/cge.13221",
+        "V Chelban et al. (2017) Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination 10.1016/j.ajhg.2017.05.009"
+      ],
+      "hypothesis": "NKX6-2 exerts direct transcriptional regulatory control over inhibitory interneuron development and circuit firing thresholds that operates independently of myelin sheath maintenance.",
+      "novelty": "Challenges the clinical assumption that seizures in leukodystrophies are direct downstream consequences of extensive white matter dysmyelination."
+    },
+    {
+      "pattern": "Failure of Classic Mutation-Type Predictors to Explain Infantile-Onset Versus Childhood-Onset Severity",
+      "abstraction": "Binary genotype-phenotype models classifying truncating mutations as severe and missense mutations as hypomorphic or mild fail to predict clinical trajectories in homeodomain transcription factor disorders.",
+      "instance": "Biallelic missense mutations affecting the NKX6-2 homeodomain (such as p.Phe167Leu) cause severe neonatal-onset disease with developmental arrest and regression, whereas some loss-of-function variants preserve ambulation into late childhood.",
+      "direction": "Assess variant-specific alterations in protein DNA-binding affinity, dominant-negative chromatin trapping, and downstream oligogenic modifiers across early- versus late-onset SPAX8 cohorts.",
+      "support": "Moderate-to-high across consolidated literature ([F16]), where systematic multi-center cohort analyses refuted predictive variant-class models.",
+      "sources": [
+        "C Baldi et al. (2018) Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder 10.1111/cge.13221",
+        "V Chelban et al. (2018) NKX6-2-related disorder https://europepmc.org/books/nbk531509/",
+        "AH Bereshneh et al. (2020) Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8 https://www.sciencedirect.com/science/article/pii/S176972121930744X"
+      ],
+      "hypothesis": "Specific missense variants in the NKX6-2 homeodomain exert dominant-negative or neomorphic disruption of core developmental transcription factor complexes, yielding more severe arrest than complete genetic nulls.",
+      "novelty": "Overturns the conventional assumption that missense substitutions in spastic ataxia genes yield uniformly milder presentations than null alleles."
+    },
+    {
+      "pattern": "Secondary Axonopathy Mimicry in Primary Central Hypomyelinating Disorders",
+      "abstraction": "Central neurodevelopmental and myelinopathies can exhibit low-frequency, motor-predominant peripheral axonal degradation without primary peripheral demyelination, confounding distinction from hereditary motor neuropathies.",
+      "instance": "Under 10% of SPAX8 patients develop clinical peripheral axonal neuropathy (HP:0003477) presenting with distal wrist and foot drop, while nerve conduction velocities fail to show classic generalized demyelination.",
+      "direction": "Conduct longitudinal nerve conduction studies and neuromuscular junction imaging on NKX6-2 animal models to trace whether peripheral axonal dysfunction reflects dying-back axonopathy or paranodal glial signaling disruption.",
+      "support": "Well-supported by cohort case series ([F4], [F7], [F12], [F14]), documenting axonal drop in rare kindreds while ruling out primary generalized sensorimotor demyelinating polyneuropathy.",
+      "sources": [
+        "AH Bereshneh et al. (2020) Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8 PMID:32004679",
+        "A Almatrafi et al. (2020) A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and \u2026 10.1002/jgm.3196",
+        "V Chelban et al. (2018) NKX6-2-related disorder https://europepmc.org/books/nbk531509/"
+      ],
+      "hypothesis": "NKX6-2 maintains axo-glial junction stability; its deficiency induces secondary length-dependent axonal degeneration in long spinal and peripheral motor tracks rather than Schwann-cell demyelinating polyneuropathy.",
+      "novelty": "Differentiates SPAX8 from PLP1/GJC2-related disorders where peripheral conduction slowing or demyelination typically accompanies central dysmyelination."
+    },
+    {
+      "pattern": "Ascertainment Pipeline Bias Distorting Cognitive Penetrance Profiles",
+      "abstraction": "Specialty-specific intake pipelines create opposing observational artifacts regarding cognitive penetrance, presenting the same disease as an intellectual disability syndrome in some cohorts and a pure motor ataxia in others.",
+      "instance": "Cohorts recruited through developmental/intellectual disability sequencing pipelines report profound intellectual deficiency in NKX6-2 cases, whereas recruitment via spasticity/ataxia adult clinics identifies individuals with normal intellect.",
+      "direction": "Establish disease-wide international natural history registries using standardized neuropsychological batteries across both adult movement disorder and pediatric neurology clinics.",
+      "support": "Supported by discordant literature cohorts ([F8], [F10]) showing contradictory rates of intellectual disability dependent on clinical ascertainment bias.",
+      "sources": [
+        "S Anazi et al. (2017) Expanding the genetic heterogeneity of intellectual disability 10.1007/s00439-017-1843-2",
+        "V Chelban et al. (2020) Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination 10.1111/ene.14082",
+        "V Chelban et al. (2017) Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "C Baldi et al. (2018) Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder 10.1111/cge.13221"
+      ],
+      "hypothesis": "The perceived broad cognitive variance of SPAX8 reflects referral bias superimposed on an age-of-onset spectrum where cognitive deficits are secondary to early developmental disruption rather than intrinsic intellectual regression.",
+      "novelty": "Resolves long-standing contradictions in published literature regarding whether SPAX8 is fundamentally an intellectual disability syndrome or a primary motor-ataxia leukodystrophy."
+    }
+  ]
+}

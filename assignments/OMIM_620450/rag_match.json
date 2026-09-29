@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620450",
+ "omim": "OMIM:620450",
+ "disease": "Intellectual developmental disorder, autosomal dominant 73",
+ "gene": "TAF4",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:53",
+ "report_chars": 1598,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Intellectual developmental disorder, autosomal dominant 73 (TAF4, OMIM:620450):\n\n[1] 620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...\nhttps://omim.org/entry/620450\nautosomal dominant intellectual developmental disorder-73 (MRD73) is caused by heterozygous mutation in the TAF4 gene (601796) on chromosome 20q13.\n\n[2] Intellectual Developmental Disorder, Autosomal Dominant 73\nhttps://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73\nThe disorder has material basis in heterozygous mutation in the TAF4 gene on chromosome 20q13. Clinical presentation is described as autosomal dominant and ...\n\n[3] Intellectual developmental disorder, autosomal dominant 73\nhttps://www.uniprot.org/diseases/DI-06716\nAn autosomal dominant disorder characterized by intellectual disability ranging from mild to severe, developmental delay, speech delay, behavioral abnormalities ...\n\n[4] Diseases associated with TAF4\nhttps://platform.opentargets.org/target/ENSG00000130699/associations\nRanked list of diseases and phenotypes associated with TAF4. TAF4 Associated diseases Profile Europe PMC Expression Atlas IMPC Weight Include ?\n\n[5] autosomal dominant intellectual developmental disorder 73\nhttp://www.alliancegenome.org/disease/DOID:0061046\nAn autosomal dominant intellectual developmental disorder characterized by impaired intellectual development that ranges from mild to severe, speech delay, ...\n\n[6] TAF4 Gene | AI-Powered Variant Analysis Platform - RDDC\nhttps://rddc.tsinghua-gd.org/disease/INT604\nAutosomal Dominant 73, is also known as taf4-related neurodevelopmental disorder. An important gene associated with Intellectual Developmental Disorder, ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 0.7, male)\n  observed: Low anterior hairline, Narrow forehead, Hypoplastic helices, Epicanthus, Synophrys, Downslanted palpebral fissures, Hypertelorism, Fetal cystic hygroma, Spastic tetraparesis, Redundant neck skin\n  recorded ABSENT: Anteverted nares, Wide mouth, Cleft lip, Smooth philtrum, Prominent forehead, Bulbous nose, Macrocephaly, Plagiocephaly, Midface retrusion, Triangular face, Broad alveolar ridges, High palate, Blepharophimosis, Frontal bossing, Broad eyebrow, Deeply set eye, Depressed nasal bridge, Prominent stem of antihelix, Preauricular pit, Cupped ear, Overfolded helix, Anterior creases of earlobe, Micrognathia, Upslanted palpebral fissure, Hypotelorism (+10 more)\n\nP02 (age 13.5, male)\n  observed: Global developmental delay, Delayed speech and language development, Intellectual disability, Everted lower lip vermilion, Downslanted palpebral fissures, Mandibular prognathia\n  recorded ABSENT: Microcephaly, Autistic behavior, Sleep onset insomnia, Hyperactivity, Developmental regression, Delayed ability to walk, Seizure, Short stature, Sparse eyebrow, Bulbous nose, High palate, Blepharochalasis, Narrow mouth, Broad nasal tip, Anteverted nares, Epicanthus, Macrotia, Long palpebral fissure, Long face, Long eyelashes, Frontal bossing, Broad forehead, Full cheeks, Retrognathia, Prominent tragus (+71 more)\n\nP03 (age 0.0, female)\n  observed: Hirsutism, Thin upper lip vermilion, Long eyelashes, High palate, Depressed nasal bridge, Downturned corners of mouth, Short neck, Synophrys, Hypertonia, Intrauterine growth retardation, Thick eyebrow, Feeding difficulties, Patent foramen ovale\n  recorded ABSENT: Cleft palate, Hearing impairment, Patent ductus arteriosus, Pulmonic stenosis, Cardiomegaly, Ventricular septal defect, Tetralogy of Fallot, Hypoplastic left ventricle, Bicuspid aortic valve\n\nP04 (age 19.0, female)\n  observed: Global developmental delay, Moderate intellectual disability, Cerebral visual impairment, Thin corpus callosum, Short philtrum, Thick eyebrow, Anteverted nares, Prominent nasal bridge, Narrow mouth, Hypotonia, Oromotor apraxia, Incoordination, Unsteady gait, Lateral ventricle dilatation, Gastroesophageal reflux, Scoliosis, Slender finger, Kyphosis, Narrow palpebral fissure, Hyperlordosis, Long face, Genu valgum, Strabismus, Hepatomegaly, Truncal obesity, High palate\n  recorded ABSENT: Cerebral palsy, Mild intellectual disability, Severe intellectual disability, Developmental regression, Autistic behavior, Periventricular leukomalacia, Reduced cerebral white matter volume, Seizure, Spasticity, Long philtrum, Hypertelorism, Nystagmus, Asthenia, Ataxia, Cerebellar atrophy, Polymicrogyria, Dysplastic corpus callosum, Syringomyelia, CNS hypomyelination, Subcortical U fiber lesion, Small hand, Hearing impairment, Myopic astigmatism, Finger clinodactyly, Encopresis (+6 more)\n\nP05 (age 27.0, male)\n  observed: Intellectual disability, Global developmental delay, Feeding difficulties, Failure to thrive, Chronic constipation, Delayed speech and language development, Arachnoid cyst, Blue sclerae, Prominent forehead, Protruding ear, Osteoporosis, Joint hypermobility, Kyphosis, Osteopenia\n  recorded ABSENT: Hypotonia, Gastroesophageal reflux, Autistic behavior, Attention deficit hyperactivity disorder, Aggressive behavior, Anxiety, Motor stereotypy, Depression, Compulsive behaviors, Generalized tonic seizure, Bilateral tonic-clonic seizure with generalized onset, Cerebellar atrophy, Cerebral atrophy, Ventriculomegaly, Thin corpus callosum, Periventricular leukomalacia, Sleep disturbance, Dystonia, Ataxia, Pes cavus, Hypertonia, Recurrent infections, Hearing impairment, Brachycephaly, Prominent supraorbital ridges (+64 more)\n\nP06 (age 5.0, male)\n  observed: Inguinal hernia, Overfolded helix, Deep philtrum, Exaggerated cupid's bow, Thin vermilion border, Upslanted palpebral fissure, Wide nasal bridge, Depressed nasal bridge, Anteverted nares, Long face, Atrial septal defect, Pulmonic stenosis, Myopia, Specific learning disability, Attention deficit hyperactivity disorder, Autistic behavior, Pes planus, Joint contracture, Hypertonia\n  recorded ABSENT: Absent crus of helix, Unilateral renal agenesis, Renal cortical cysts, Microcephaly, Posterior fossa cyst, Retrognathia, Everted lower lip vermilion, Thick vermilion border, Narrow mouth, Open mouth, Broad forehead, Narrow forehead, High forehead, Highly arched eyebrow, Synophrys, Short palpebral fissure, Epicanthus, Round face, Facial asymmetry, Fetal tachycardia, Patent ductus arteriosus, Ventricular septal defect, Patent foramen ovale, Right ventricular dilatation, Mitral regurgitation (+9 more)\n\nP07 (age 5.0, male)\n  observed: Global developmental delay, Intellectual disability, Delayed speech and language development, Delayed ability to walk, Hypotonia, Seizure, Impulsivity, Extra-axial cerebrospinal fluid accumulation, Arachnoid cyst, Poor speech, Ataxia, Joint hypermobility\n  recorded ABSENT: Absent speech, Failure to thrive, Esotropia, Exotropia, Ptosis, Feeding difficulties, Autism, Periventricular leukomalacia, Subependymal cysts, Reduced cerebral white matter volume, Thin corpus callosum, Retrocerebellar cyst, Cerebral hypomyelination, Hypoplasia of the brainstem, Subcortical U fiber lesion, Short stature, Cerebral palsy, Spastic tetraparesis, Omphalocele, Cryptorchidism, Cerebral visual impairment, Talipes equinovarus, Pes cavus, Craniosynostosis\n\nP08 (age 10.0, male)\n  observed: Cryptorchidism, Brachycephaly, Congenital hip dislocation, Clinodactyly, Short palm, Thoracic kyphosis, Joint hypermobility, Hypotelorism, Breech presentation, Delayed ability to walk, Delayed speech and language development, Mild intellectual disability, Sleep disturbance, Autistic behavior, Attention deficit hyperactivity disorder, Cerebellar cortical atrophy\n  recorded ABSENT: Cleft lip, Cleft palate, Syndactyly, Pectus excavatum, Scoliosis, Hyperlordosis, Spasticity, Strabismus, Recurrent otitis media, Hearing impairment, Seizure, Psychosis, Tip-toe gait, Dystonia, Short stature, Hyperextensible skin, Patent ductus arteriosus, Pulmonic stenosis, Ventricular septal defect, Secundum atrial septal defect, Constipation\n\nP09 (age 8.8, female)\n  observed: Curly hair, Posteriorly rotated ears, Micrognathia, Low posterior hairline, Acute lymphoblastic leukemia, Pointed chin, Pectus carinatum, Epicanthus, Redundant neck skin, Webbed neck, Prominent fingertip pads, Wide intermamillary distance\n  recorded ABSENT: Downslanted palpebral fissures, Hypertrophic cardiomyopathy, Hypertelorism, Ptosis, Low-set ears, Midface retrusion, Global developmental delay, Short stature, Pectus excavatum, Pulmonic stenosis, Atrioventricular canal defect, Ventricular septal defect, Atrial septal defect, Bicuspid aortic valve, Anteverted nares, Depressed nasal bridge, Wide nasal bridge, Telecanthus, High palate, Overfolded helix, Wide mouth, Long philtrum, Short neck, Anterior polar cataract, Polyhydramnios (+2 more)\n\nP10 (age 18.0, male)\n  observed: Drooling, Broad philtrum, Thin upper lip vermilion, Oligodontia, Cleft soft palate, Highly arched eyebrow, Prominent nasal bridge, Convex nasal ridge, Long nose, Retrognathia, Feeding difficulties, Constipation, Inguinal hernia, Overfolded helix, Otitis media, Excessive shyness, Delayed speech and language development, Moderate intellectual disability, Delayed ability to sit, Delayed ability to walk, 2-3 toe syndactyly, Camptodactyly of finger, Prominent interphalangeal joints, Limited elbow extension, Scoliosis, Kyphosis, Hypotonia\n  recorded ABSENT: Smooth philtrum, Short philtrum, Deep philtrum, Downslanted palpebral fissures, Upslanted palpebral fissure, Long palpebral fissure, Narrow palpebral fissure, Epiblepharon, Microcephaly, Deeply set eye, Posteriorly rotated ears, Low-set ears, Anteverted ears, Macrotia, Hearing impairment, Seizure, Autistic behavior, Self hugging, Aggressive behavior, Pica, Self-injurious behavior, Premature birth, Clinodactyly of the 5th finger, Toe clinodactyly, Bilateral single transverse palmar creases (+2 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.5,
+     "for": "Demonstrates all core phenotypes detailed in the report, including intellectual disability, global developmental delay, delayed speech and language development, and behavioral abnormalities (impulsivity).",
+     "against": "Presents additional neurological and structural findings such as seizures, ataxia, and an arachnoid cyst, which are not explicitly cited in the provided literature."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.25,
+     "for": "Presents mild intellectual disability, speech delay, motor delay, and clear behavioral abnormalities including autistic behavior and attention deficit hyperactivity disorder.",
+     "against": "Has prominent skeletal and dysmorphic features (brachycephaly, congenital hip dislocation, short palm, hypotelorism) not noted in the summary description."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.12,
+     "for": "Exhibits intellectual disability, global developmental delay, and delayed speech and language development, directly matching the primary triad.",
+     "against": "Key behavioral abnormalities described for this disorder are documented as absent (hyperactivity, autistic behavior, sleep onset insomnia)."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.08,
+     "for": "Presents moderate intellectual disability, delayed speech development, developmental motor delays, and behavioral variation (excessive shyness).",
+     "against": "Significant craniofacial and digital malformations (cleft soft palate, oligodontia, syndactyly, camptodactyly) are not part of the provided disorder synopsis, and autistic/aggressive behaviors are recorded absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Shares the triad of intellectual disability, global developmental delay, and delayed speech and language development.",
+     "against": "A broad spectrum of behavioral manifestations (ADHD, autism, aggression, anxiety) is explicitly documented as absent, and the patient shows unrelated bone fragility phenotypes."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical dysmorphology, neuroimaging findings, seizure frequency/types, and specific behavioral phenotype descriptions to differentiate among overlapping neurodevelopmental presentations.",
+   "tokens_in": 2604,
+   "tokens_out": 5170,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.45,
+     "for": "Presents with global developmental delay, intellectual disability, delayed speech and language development, poor speech, and impulsivity (behavioral abnormalities), matching all core features mentioned in the evidence.",
+     "against": "The presence of arachnoid cyst and extra-axial cerebrospinal fluid accumulation is not detailed in the brief disease summary."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.25,
+     "for": "Exhibits core hallmarks of autosomal dominant intellectual developmental disorder 73, including global developmental delay, intellectual disability, and delayed speech and language development.",
+     "against": "Explicitly recorded as lacking behavioral abnormalities such as autistic behavior and hyperactivity, which are highlighted as characteristic in the disease profile."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.15,
+     "for": "Features mild intellectual disability, delayed speech and language development, and prominent behavioral abnormalities (autistic behavior, ADHD).",
+     "against": "Cerebellar cortical atrophy, congenital hip dislocation, and short palm are not described in the available disease evidence."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.1,
+     "for": "Shares global developmental delay and moderate intellectual disability with prominent speech/oromotor involvement.",
+     "against": "Severe multisystem and structural manifestations (cerebral visual impairment, thin corpus callosum, kyphoscoliosis) are not noted in the evidence, and autistic behavior is recorded as absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Demonstrates intellectual disability, global developmental delay, and delayed speech and language development.",
+     "against": "Prominent skeletal fragility features (osteoporosis, osteopenia, blue sclerae) point toward a distinct primary bone dysplasia syndrome, and common behavioral features are absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical descriptions of facial dysmorphisms, neuroimaging findings, and the specific spectrum of behavioral and neurological symptoms characteristic of TAF4-related MRD73.",
+   "tokens_in": 2604,
+   "tokens_out": 3734,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.55,
+     "for": "Presents with all core cardinal features outlined in the text, including intellectual disability, global developmental delay, delayed speech and language development (poor speech), and behavioral abnormalities (impulsivity).",
+     "against": "Displays additional neurological and structural findings such as seizures, arachnoid cyst, and ataxia not detailed in the brief text."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.25,
+     "for": "Displays intellectual disability (mild), speech delay, gross motor developmental delay (delayed walking), and behavioral abnormalities (ADHD, autistic behavior).",
+     "against": "Lacks an explicit annotation of global developmental delay and presents with prominent skeletal features (kyphosis, clinodactyly, hip dislocation) not mentioned in the reference."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.1,
+     "for": "Exhibits intellectual disability, global developmental delay, and delayed speech and language development.",
+     "against": "Behavioral abnormalities are specifically recorded as absent (absent hyperactivity, autistic behavior, and sleep onset insomnia)."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Possesses intellectual disability, global developmental delay, and delayed speech and language development.",
+     "against": "Behavioral abnormalities are extensively documented as absent, including autistic behavior, ADHD, anxiety, aggressive behavior, and compulsive behaviors."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.03,
+     "for": "Shows moderate intellectual disability, speech delay, and motor developmental delays, along with excessive shyness.",
+     "against": "Major behavioral abnormalities like autistic and aggressive behaviors are documented as absent, and the patient has multiple physical anomalies (cleft soft palate, oligodontia) not described in the evidence."
+    }
+   ],
+   "what_the_report_lacked": "Detailed dysmorphic, physical, neuroimaging, and specific behavioral phenotype descriptions beyond broad developmental and speech delay terms to differentiate between multiple syndromic presentations.",
+   "tokens_in": 2604,
+   "tokens_out": 2228,
+   "round": 3
+  }
+ ]
+}

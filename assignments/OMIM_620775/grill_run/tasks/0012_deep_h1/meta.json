@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"hypotonia\" \"muscle weakness\" congenital neuromuscular",
+    "FILIP1 congenital neuromuscular disorder with dysmorphic facies clinical features hypotonia"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/17/6/675",
+      "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/17/6/675",
+      "abstract_chars": 0
+    },
+    {
+      "id": "33303357",
+      "title": "246th ENMC international workshop: protein aggregate myopathies 24\u201326 May 2019, Hoofddorp, The Netherlands",
+      "pmid": "33303357",
+      "doi": "10.1016/j.nmd.2020.11.003",
+      "url": "https://www.nmd-journal.com/article/S0960-8966(20)30666-0/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "title": "The 2026 version of the gene table of neuromuscular disorders (nuclear genome)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nmd-journal.com/article/S0960-8966(25)01030-2/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41963434",
+      "title": "FILIP1 - Filamin-A-interacting protein 1",
+      "pmid": "41963434",
+      "doi": "10.1038/s41598-026-47515-5",
+      "url": "https://www.uniprot.org/uniprotkb/Q7Z7B0/entry",
+      "abstract_chars": 1566
+    },
+    {
+      "id": "https://www.genecards.org/card/FILIP1",
+      "title": "FILIP1 gene Filamin A Interacting Protein 1",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/FILIP1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02158-y",
+      "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02158-y",
+      "abstract_chars": 1803
+    },
+    {
+      "id": "10.1007/s00439-023-02528-2",
+      "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+      "pmid": null,
+      "doi": "10.1007/s00439-023-02528-2",
+      "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+      "abstract_chars": 1116
+    },
+    {
+      "id": "https://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies",
+      "title": "Neuromuscular Disorder, Congenital, with Dysmorphic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4988,
+  "output_tokens": 2866,
+  "usd": 0.01109,
+  "seconds": 16.8,
+  "ok": true
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"Janssen\" \"microcephaly\" \"head circumference\"",
+    "TAF4 Janssen 2022 clinical features microcephaly macrocephaly"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-024-01679-8",
+      "title": "Novel fetal phenotype of TAF8 deficiency",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-024-01679-8",
+      "abstract_chars": 1565
+    },
+    {
+      "id": "https://open.fau.de/server/api/core/bitstreams/40895c04-aeda-4788-99ec-f2d3141e55d2/content",
+      "title": "Identification and characterization of candidate genes in individuals with autosomal recessive intellectual disability",
+      "pmid": null,
+      "doi": null,
+      "url": "https://open.fau.de/server/api/core/bitstreams/40895c04-aeda-4788-99ec-f2d3141e55d2/content",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fnins.2022.846272/full",
+      "title": "Transcription pause and escape in neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fnins.2022.846272/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2073-4425/17/2/249",
+      "title": "Genetic Traces in Autism Spectrum Disorders: A Whole Exome Sequencing Study from T\u00fcrkiye",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/17/2/249",
+      "abstract_chars": 2335
+    },
+    {
+      "id": "10.1126/science.abm7993",
+      "title": "Relating enhancer genetic variation across mammals to complex phenotypes using machine learning",
+      "pmid": null,
+      "doi": "10.1126/science.abm7993",
+      "url": "https://www.science.org/doi/abs/10.1126/science.abm7993",
+      "abstract_chars": 1024
+    },
+    {
+      "id": "PMC10087332",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ... - PMC",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10087332/",
+      "abstract_chars": 897
+    },
+    {
+      "id": "https://omim.org/entry/620450",
+      "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/humu.24444",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+      "pmid": null,
+      "doi": "10.1002/humu.24444",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+      "abstract_chars": 897
+    },
+    {
+      "id": "https://eprints.soton.ac.uk/468915/3/Human_Mutation_2022_Janssen_De_novo_putative_loss_of_function_variants_in_TAF4_are_associated_with_a.pdf",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://eprints.soton.ac.uk/468915/3/Human_Mutation_2022_Janssen_De_novo_putative_loss_of_function_variants_in_TAF4_are_associated_with_a.pdf",
+      "abstract_chars": 897
+    },
+    {
+      "id": "https://www.researchgate.net/figure/The-clinical-manifestations-of-patients-with-microcephaly-and-macrocephaly_tbl2_373613367",
+      "title": "The clinical manifestations of patients with microcephaly ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/figure/The-clinical-manifestations-of-patients-with-microcephaly-and-macrocephaly_tbl2_373613367",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5335,
+  "output_tokens": 3174,
+  "usd": 0.01219,
+  "seconds": 34.2,
+  "ok": true
+}

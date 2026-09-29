@@ -1,0 +1,89 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TRA2B\" \"Ramond-Elliott\" clinical phenotype ocular",
+    "TRA2B Ramond-Elliott syndrome ocular phenotype coloboma microphthalmia"
+  ],
+  "n_hits": 9,
+  "hits": [
+    {
+      "id": "https://www.genecards.org/card/TRA2B",
+      "title": "TRA2B Gene - GeneCards",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/TRA2B",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621421",
+      "title": "Entry - #621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621421",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/602719",
+      "title": "Entry - *602719 - TRANSFORMER 2 BETA HOMOLOG; TRA2B - OMIM",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/602719",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/250/gene/TRA2B/#!details",
+      "title": "Gene: TRA2B (Intellectual disability syndromic and non-syndromic)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/250/gene/TRA2B/#!details",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/202/gene/TRA2B/#!review",
+      "title": "Genetic Epilepsy Gene: TRA2B - panelapp-aus.org",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/202/gene/TRA2B/#!review",
+      "abstract_chars": 0
+    },
+    {
+      "id": "26046913",
+      "title": "Conserved genetic pathways associated with microphthalmia ...",
+      "pmid": "26046913",
+      "doi": "10.1002/bdrc.21097",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5193115/",
+      "abstract_chars": 1064
+    },
+    {
+      "id": "20494911",
+      "title": "Microphthalmia, anophthalmia, coloboma (MAC)",
+      "pmid": "20494911",
+      "doi": "10.1136/bjo.2009.173500",
+      "url": "https://gene.vision/knowledge-base/microphthalmia-anophthalmia-coloboma-for-doctors/",
+      "abstract_chars": 1490
+    },
+    {
+      "id": "https://www.orpha.net/en/disease/detail/2542",
+      "title": "Isolated microphthalmia-anophthalmia-coloboma",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.orpha.net/en/disease/detail/2542",
+      "abstract_chars": 0
+    },
+    {
+      "id": "32032630",
+      "title": "Genetics of syndromic ocular coloboma: CHARGE and ... - PMC",
+      "pmid": "32032630",
+      "doi": "10.1016/j.exer.2020.107940",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7310839/",
+      "abstract_chars": 954
+    }
+  ],
+  "input_tokens": 3660,
+  "output_tokens": 1757,
+  "usd": 0.0071,
+  "seconds": 16.2,
+  "ok": true
+}

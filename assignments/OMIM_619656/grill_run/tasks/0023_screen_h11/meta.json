@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz\" \"aortic dissection\" dilation diameter",
+    "SMAD2 Loeys-Dietz syndrome 6 aortic dissection antecedent aneurysm dilation"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "30037098",
+      "title": "TGF-\u03b2 signaling-related genes and thoracic aortic aneurysms and dissections",
+      "pmid": "30037098",
+      "doi": "10.3390/ijms19072125",
+      "url": "https://www.mdpi.com/1422-0067/19/7/2125",
+      "abstract_chars": 1619
+    },
+    {
+      "id": "10.1155/humu/2951304",
+      "title": "Type B Aortic Dissection Following Abdominal Aortic Aneurysm Repair in Loeys\u2013Dietz Syndrome: A Novel TGFBR1 Variant",
+      "pmid": null,
+      "doi": "10.1155/humu/2951304",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/humu/2951304",
+      "abstract_chars": 1537
+    },
+    {
+      "id": "https://www.jci.org/articles/view/69666",
+      "title": "Angiotensin II\u2013dependent TGF-\u03b2 signaling contributes to Loeys-Dietz syndrome vascular pathogenesis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.jci.org/articles/view/69666",
+      "abstract_chars": 1463
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0914508719300863",
+      "title": "Genetic basis of hereditary thoracic aortic aneurysms and dissections",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0914508719300863",
+      "abstract_chars": 1794
+    },
+    {
+      "id": "30701076",
+      "title": "Activation of TGF-\u03b2 signaling in an aortic aneurysm in a patient with Loeys-Dietz syndrome caused by a novel loss-of-function variant of TGFBR1",
+      "pmid": "30701076",
+      "doi": "10.1038/s41439-019-0038-x",
+      "url": "https://www.nature.com/articles/s41439-019-0038-x",
+      "abstract_chars": 530
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2666273624000950",
+      "title": "Marfan and Loeys-Dietz aortic phenotype: A potential tool ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2666273624000950",
+      "abstract_chars": 2092
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "title": "Loeys-Dietz Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "abstract_chars": 2593
+    },
+    {
+      "id": "https://www.loeysdietz.org/en/medical-information",
+      "title": "WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.loeysdietz.org/en/medical-information",
+      "abstract_chars": 0
+    },
+    {
+      "id": "30614814",
+      "title": "Lineage-specific events underlie aortic root aneurysm pathogenesis in Loeys-Dietz syndrome",
+      "pmid": "30614814",
+      "doi": "10.1172/jci123547",
+      "url": "https://www.jci.org/articles/view/123547",
+      "abstract_chars": 1460
+    },
+    {
+      "id": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5936,
+  "output_tokens": 1626,
+  "usd": 0.00785,
+  "seconds": 16.0,
+  "ok": true
+}

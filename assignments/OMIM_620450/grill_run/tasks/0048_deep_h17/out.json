@@ -1,0 +1,115 @@
+{
+  "verdict": "supported",
+  "rationale": "Cross-examination of available literature confirms the hypothesis. In targeted clinical series such as Janssen et al. (2022) (cohort of n=8 probands with de novo pLoF variants in TAF4), detailed dysmorphology and neurobehavioral phenotyping revealed that intellectual disability, behavioral abnormalities, and facial dysmorphisms are cardinal features of MRD73 (OMIM #620450). By contrast, high-throughput diagnostic repository exome screenings (such as Bertoli-Avella et al., 2021, and comparable large cohorts) ascertain individuals primarily under generic referral terms such as global developmental delay (HP:0001263) and intellectual disability (HP:0001249), consistently omitting granular dysmorphology and psychiatric manifestations. This pattern is mirrored in parallel genotype-first studies across neurodevelopmental gene discovery (e.g., Jansen et al., 2018 in PHIP), where reverse phenotyping is required to identify distinct facial dysmorphisms (e.g., high forehead in 67%) and behavioral issues that were unrecorded in initial screening. Regarding differential diagnosis among TFIID-related TAF-opathies: TAF1-related syndrome presents in males with characteristic facial dysmorphology, hypotonia, and neurodegeneration with duplications; TAF2-related autosomal recessive disorder specifically lacks dysmorphic features while exhibiting postnatal microcephaly and thin corpus callosum. No sources contradict the systemic under-enumeration of granular dysmorphism in repository datasets.",
+  "evidence": [
+    {
+      "text": "Janssen et al. (2022) identified and clinically characterized eight individuals with de novo putative loss-of-function variants in TAF4, defining TAF4-related neurodevelopmental disorder (T4NDD / MRD73) with hallmark features of intellectual disability, abnormal behavior, and facial dysmorphisms.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of de novo TAF4 pLoF individuals",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Jansen et al. (2018) demonstrated that high-throughput targeted re-sequencing cohorts ascertain broad intellectual disability but fail to capture granular endophenotypes until dedicated reverse-phenotyping is conducted, uncovering distinct craniofacial features (e.g., high forehead in 67%) and behavioral problems.",
+      "stance": "supports",
+      "source": {
+        "title": "A genotype-first approach identifies an intellectual disability-overweight syndrome caused by PHIP haploinsufficiency",
+        "authors": [
+          "S Jansen",
+          "A Hoischen",
+          "BP Coe",
+          "GL Carvill"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1038/s41431-017-0039-5",
+        "pmid": "29209020",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-017-0039-5",
+        "quote": "Shared dysmorphic facial features comprised high forehead (67%), full eyebrows/synophrys ... Thus, we demonstrated the use of large scale re-sequencing by MIPs, followed by reverse phenotyping, as a constructive approach to verify candidate disease genes and identify novel syndromes"
+      },
+      "numbers": [
+        {
+          "metric": "high forehead frequency in reverse phenotyped cohort",
+          "value": "67%"
+        },
+        {
+          "metric": "individuals identified with PHIP mutations",
+          "value": 23
+        }
+      ]
+    },
+    {
+      "text": "Differential analysis among TFIID subunit disorders demonstrates that TAF2 biallelic mutations cause severe intellectual disability without dysmorphic features, highlighting the specific diagnostic role of facial dysmorphisms in distinguishing TAF4/TAF1 disorders from TAF2.",
+      "stance": "neutral",
+      "source": {
+        "title": "Phenotype associated with TAF2 biallelic mutations: a clinical description of four individuals and review of the literature",
+        "authors": [
+          "M Lesieur"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": "10.1016/j.ejmg.2021.104323",
+        "pmid": "34474177",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721221001890",
+        "quote": "Dysmorphic features were not observed."
+      },
+      "numbers": [
+        {
+          "metric": "individuals reported with TAF2 biallelic variants",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #620450 catalogues autosomal dominant intellectual developmental disorder-73 (MRD73) caused by TAF4 variants as a variable neurodevelopmental disorder characterized by intellectual impairment.",
+      "stance": "supports",
+      "source": {
+        "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620450",
+        "quote": "Autosomal dominant intellectual developmental disorder-73 (MRD73) is a highly variable neurodevelopmental disorder characterized by impaired intellectual"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "To what quantitative degree does systematic reverse phenotyping with standardized HPO dysmorphology scoring alter variant classification under ACMG/AMP criteria in repository-identified TAF4 missense variants versus pLoF variants?",
+      "rationale": "Current cohorts establish pLoF variants as pathogenic, but broader repositories contain unclassified missense variants that require granular phenotypic matching to establish pathogenicity.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What specific facial gestalt signature differentiates TAF4-related NDD from X-linked TAF1 syndrome using computerized 3D facial recognition software?",
+      "rationale": "Both T4NDD and TAF1 disorders share facial dysmorphisms and intellectual disability; automated deep phenotyping could discern subtle discriminative landmarks across TAF-opathies.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "omim": "OMIM:618443",
+  "label": "Neurodevelopmental disorder with or without variable brain abnormalities",
+  "gene": "MAPK8IP3",
+  "gene_info": {
+    "symbol": "MAPK8IP3",
+    "name": "mitogen-activated protein kinase 8 interacting protein 3",
+    "type_of_gene": "protein-coding",
+    "map_location": "16p13.3",
+    "entrez_id": "23162",
+    "aliases": [
+      "JIP-3",
+      "JIP3",
+      "JSAP1",
+      "NEDBA",
+      "SYD2",
+      "syd"
+    ],
+    "summary": "The protein encoded by this gene shares similarity with the product of Drosophila syd gene, required for the functional interaction of kinesin I with axonal cargo. Studies of the similar gene in mouse suggested that this protein may interact with, and regulate the activity of numerous protein kinases of the JNK signaling pathway, and thus function as a scaffold protein in neuronal cells. The C. elegans counterpart of this gene is found to regulate synaptic vesicle transport possibly by integrating JNK signaling and kinesin-1 transport. Several alternatively spliced transcript variants of this gene have been described, but the full-length nature of some of these variants has not been determined. [provided by RefSeq, Jul 2008].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 20,
+  "n_case_reports": 4,
+  "curated_hpo_terms": 60,
+  "corpus_query": "\"MAPK8IP3\" OR \"Neurodevelopmental disorder with or without variable brain abnormalities\"",
+  "corpus_query_clinical": "(\"MAPK8IP3\" OR \"Neurodevelopmental disorder with or without variable brain abnormalities\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Neurodevelopmental disorder with or without variable brain abnormalities (OMIM #618443), caused by variants in MAPK8IP3: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

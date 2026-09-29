@@ -1,0 +1,73 @@
+{
+  "patterns": [
+    {
+      "pattern": "Organ-sparing phenotypic divergence across prenatally lethal ciliopathy syndromes",
+      "abstraction": "Within a spectrum of genetically diverse multi-organ malformation disorders presenting with lethal prenatal features, selective tissue preservation functions as a robust negative discriminator to exclude overlapping ciliopathies.",
+      "instance": "Biallelic loss-of-function variants in TBC1D32 (Alsahan-Harris syndrome) can cause severe, life-limiting prenatal presentations with cranial and cardiorespiratory defects, but retain preservation of renal parenchymal architecture without the diffuse multicystic renal dysplasia seen in classic Meckel-Gruber syndrome.",
+      "direction": "Perform targeted prenatal ultrasound and fetal MRI comparative imaging studies to establish quantitative renal parenchymal thresholds that rule out Meckel-Gruber syndrome in fetuses with occipital/midline anomalies and polydactyly.",
+      "support": "Supported across multiple fetal and pediatric cohorts by Harris et al. (2023) and Al (2016), noting the consistent absence of classic diffuse cystic renal disease despite perinatal lethality.",
+      "sources": [
+        "SC Harris et al. (2023) Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy 10.1002/ajmg.a.63150",
+        "MH Al (2016) Genetic spectrum of Saudi Arabian patients with antenatal cystic kidney disease and ciliopathy phenotypes using a targeted renal gene panel https://jmg.bmj.com/content/53/5/338.abstract",
+        "OMIM (n.d.) Entry - #621307 - ALSAHAN-HARRIS SYNDROME; ALHAS https://omim.org/entry/621307"
+      ],
+      "hypothesis": "TBC1D32 plays an essential role in hypothalamic-pituitary and cranial ciliary signaling during embryogenesis but is functionally redundant or dispensable in metanephric collecting duct ciliogenesis compared to core transition zone genes.",
+      "novelty": "Counterintuitive because lethal multi-system ciliopathies affecting midline and skeletal patterning are typically assumed to manifest severe cystic renal dysplasia."
+    },
+    {
+      "pattern": "Survival- and age-dependent ascertainment bias in neurosensory ciliopathy hallmarks",
+      "abstraction": "Cardinal syndromic manifestations of developmental disorders often exhibit developmental-stage ascertainment biases, where post-natal sensory neuroepithelial signs cannot be documented in early-lethal or antenatal cohorts.",
+      "instance": "Retinal dystrophy and retinopathy represent hallmark diagnostic criteria present in over 75% of post-neonatal pediatric survivors with Alsahan-Harris syndrome, but are absent or unassessable in lethal fetal probands succumbing to perinatal midline or cardiorespiratory failure.",
+      "direction": "Investigate postmortem histological and immunohistochemical markers of retinal ciliary structure in terminated fetuses harboring TBC1D32 variants to determine embryonic onset of retinal photoreceptor dysgenesis.",
+      "support": "Directly demonstrated across pediatric and fetal cohorts evaluated by Eiumtrakul et al. (2025) and Harris et al. (2023).",
+      "sources": [
+        "W Eiumtrakul et al. (2025) Expanding the clinical and molecular spectrum of TBC1D32-related ciliopathy: case reports and literature Review 10.1038/s10038-025-01371-9",
+        "SC Harris et al. (2023) Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy 10.1002/ajmg.a.63150"
+      ],
+      "hypothesis": "Photoreceptor outer segment degeneration in TBC1D32 ciliopathy begins postnatally during active outer segment morphogenesis rather than during early embryonic optic cup patterning.",
+      "novelty": "Highlights that diagnostic checklists requiring retinal dystrophy will systematically underdiagnose lethal or early-infantile presentations of the same genetic condition."
+    },
+    {
+      "pattern": "High-specificity negative visceral and laryngeal discriminators separating ciliopathies from phenotypically convergent morphogenetic disorders",
+      "abstraction": "When distinguishing between overlapping congenital syndromes that share core midline and digital anomalies, pathognomonic visceral or laryngeal structural malformations unique to one disease pathway offer higher discriminatory value than shared dysmorphic features.",
+      "instance": "Bifid epiglottis, imperforate anus, and distal enteric aganglionosis (Hirschsprung disease) are established features of GLI3-related Pallister-Hall syndrome that are systematically absent in TBC1D32-related Alsahan-Harris syndrome, serving as definitive exclusion criteria.",
+      "direction": "Systematize negative diagnostic criteria into automated clinical decision support algorithms for neonatal ciliopathy vs GLI3-opathy differentials.",
+      "support": "Documented in comparative differential reviews and clinical cohort analyses by Harris (2023), Mehkri (2022), and NCBI GeneReviews (PMID:20301638).",
+      "sources": [
+        "SC Harris (2023) Diagnosis of TBC1D32-associated conditions PMC10204718",
+        "Y Mehkri (2022) Presumptive Diagnosis of Pallister-Hall Syndrome Using ... PMC8887686",
+        "NCBI (n.d.) GLI3-Related Pallister-Hall Syndrome - GeneReviews - NCBI PMID:20301638"
+      ],
+      "hypothesis": "Ciliary trafficking disruption via TBC1D32 spares posterior gut endoderm neurogenesis and branchial arch laryngeal cleavage pathways that are strictly sensitive to GLI3 repressor-to-activator stoichiometric balance.",
+      "novelty": "Clinical diagnosis often focuses on positive identifiers (such as polydactyly and pituitary defects), whereas absent visceral/laryngeal malformations provide cleaner diagnostic separation."
+    },
+    {
+      "pattern": "Breakdown of binary variant-class genotype-phenotype determinism in ciliary midline anomalies",
+      "abstraction": "Monogenic developmental conditions with extensive phenotypic variability frequently fail to follow simplistic binary genotype-phenotype correlations based solely on predicted mutation impact (null vs hypomorphic alleles).",
+      "instance": "Attempts to map biallelic truncating/null TBC1D32 variants strictly to complete pituitary aplasia and early lethality, and hypomorphic missense or splice variants to isolated hypoplasia or mild retinopathy, are refuted by cohort evidence showing overlapping presentations and shared ciliary disruption across variant classes.",
+      "direction": "Explore genetic modifiers, ciliary interactome networks, and tissue-specific expression thresholds rather than coding sequence variant classification alone to explain phenotypic expressivity.",
+      "support": "Refuted hypotheses in cohort evaluations by Harris et al. (2023), Hietam\u00e4ki et al. (2020), and Eiumtrakul et al. (2025) demonstrating that both null and hypomorphic variants span mild to severe clinical spectra.",
+      "sources": [
+        "J Hietam\u00e4ki et al. (2020) Loss-of-Function Variants in TBC1D32 Underlie Syndromic Hypopituitarism 10.1210/clinem/dgaa078",
+        "SC Harris et al. (2023) Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy 10.1002/ajmg.a.63150",
+        "W Eiumtrakul et al. (2025) Expanding the clinical and molecular spectrum of TBC1D32-related ciliopathy: case reports and literature Review https://www.nature.com/articles/s10038-025-01371-9"
+      ],
+      "hypothesis": "Midline pituitary and cranial morphogenesis depends on threshold levels of intraflagellar transport regulation rather than linear gene-dosage effects, making clinical severity sensitive to stochastic embryonic developmental noise.",
+      "novelty": "Contradicts the prevailing clinical assumption that complete loss-of-function null mutations inevitably yield completely penetrant, structural aplasia compared to in-frame or splice alterations."
+    },
+    {
+      "pattern": "Multi-axis syndromic convergence: Endocrinopathy combined with oral-facial-digital signs isolates specific ciliopathy subtypes",
+      "abstraction": "In a family of disorders characterized by widespread organ involvement and overlapping neurodevelopmental or polydactyly phenotypes, the specific combination of neuroendocrine axis failure and localized mucosal/digital defects provides the key diagnostic signature.",
+      "instance": "Alsahan-Harris syndrome is uniquely differentiated from classic Joubert syndrome by the presence of prominent congenital hypopituitarism (growth hormone deficiency or anterior pituitary hypoplasia/aplasia) combined with oral frenula, lingual nodules/clefting, and mesoaxial or postaxial polydactyly.",
+      "direction": "Incorporate early neuroendocrine pituitary screening into routine workups of patients presenting with oral-facial-digital defects and mesoaxial polydactyly prior to genetic sequencing results.",
+      "support": "Corroborated across multiple probands by Hietam\u00e4ki et al. (2020), Harris et al. (2023), and Eiumtrakul et al. (2025).",
+      "sources": [
+        "J Hietam\u00e4ki et al. (2020) Loss-of-Function Variants in TBC1D32 Underlie Syndromic Hypopituitarism 10.1210/clinem/dgaa078",
+        "SC Harris et al. (2023) Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy 10.1002/ajmg.a.63150",
+        "W Eiumtrakul et al. (2025) Expanding the clinical and molecular spectrum of TBC1D32-related ciliopathy: case reports and literature Review https://www.nature.com/articles/s10038-025-01371-9"
+      ],
+      "hypothesis": "TBC1D32 is an essential co-factor specifically required for Hedgehog signal transduction in oral mucosal tissue and Rathke pouch development, distinguishing its pathway involvement from classic cerebellar-restricted Joubert ciliopathies.",
+      "novelty": "Clarifies that neither pituitary hormone deficiency alone nor oral-facial clefting alone is unique, but their co-manifestation narrows the broad ciliopathy differential specifically to TBC1D32-associated conditions."
+    }
+  ]
+}

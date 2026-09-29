@@ -1,0 +1,115 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature on Loeys-Dietz syndrome type 6 (SMAD2) is severely constrained by very small cohort numbers, and available evidence directly conflicts with the hypothesis that dissections only occur following significant antecedent dilation (>40 mm). While initial gene discovery series noted root/ascending aortic dilation in 10 of 15 carriers before recognition of dissection events, broader LDS literature and genomic reviews (e.g., Takeda & Komuro 2019, GeneReviews) highlight that LDS aortopathy across transforming growth factor-beta pathway genes\u2014including SMAD2, TGFB2, and TGFB3\u2014can manifest with acute aortic dissection at minimally dilated or smaller aortic diameters (<=45 mm and below standard surgical thresholds). Furthermore, large clinical cohorts (such as Koefoed et al., 2025) identified zero SMAD2 carriers among 103 LDS patients, demonstrating that phenotypic characterization is incomplete and current clinical data are insufficient to rule out acute dissection at near-normal calibers.",
+  "evidence": [
+    {
+      "text": "In hereditary thoracic aortic aneurysms and dissections, patients with Loeys-Dietz syndrome spectrum variants, including TGFB2, TGFB3, and SMAD2 pathogenic variants, can develop acute type A aortic dissection at smaller diameters (<=45 mm), arguing against the premise that dissection only occurs after prominent antecedent aneurysm enlargement.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genetic basis of hereditary thoracic aortic aneurysms and dissections",
+        "authors": [
+          "N Takeda",
+          "I Komuro"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0914508719300863",
+        "quote": "to develop type A aortic dissection at a diameter \u226445 mm. \u2026 , TGFB2, TGFB3, or SMAD2 pathogenic variants may be \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "Aortic diameter threshold for dissection",
+          "value": "<=45 mm"
+        }
+      ]
+    },
+    {
+      "text": "Aortic dissection occurs at smaller aortic diameters in Loeys-Dietz syndrome than in other connective tissue disorders, and while SMAD2 is recognized as causing LDS, specific phenotypic thresholds remain under investigation amidst generalised LDS vascular fragility.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Loeys-Dietz Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+        "quote": "Aortic dissection occurs at smaller aortic diameters in LDS than in ... Loeys-Dietz syndrome (LDS) caused by a pathogenic variant in SMAD2 ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "In a comprehensive retrospective cohort study of 103 Loeys-Dietz syndrome patients evaluated between 1998 and 2023, zero patients had pathogenic variants in SMAD2 (17 AAs in 9 TGFBR1, 33 in 15 TGFBR2, 15 in 8 SMAD3, 9 in 8 TGFB2, 3 in 3 TGFB3), highlighting the rarity and lack of large-scale phenotypic verification for SMAD2-specific dilation dynamics.",
+      "stance": "neutral",
+      "source": {
+        "title": "Characterization of Arterial Aneurysms in Loeys-Dietz ...",
+        "authors": [
+          "AW Koefoed"
+        ],
+        "year": 2025,
+        "journal": "JACC",
+        "doi": "10.1016/j.jacc.2025.04.020",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.04.020",
+        "quote": "No patients with PVs in SMAD2 were identified in our cohort."
+      },
+      "numbers": [
+        {
+          "metric": "SMAD2 patients identified in LDS cohort",
+          "value": 0
+        },
+        {
+          "metric": "Total LDS cohort size",
+          "value": 103
+        }
+      ]
+    },
+    {
+      "text": "Systematic review of 3,896 reported LDS cases identified aortic aneurysms, dissections, and widespread arterial tortuosity as defining hallmarks across LDS types, noting that SMAD2 represents an ultra-rare subset where detailed phenotypic boundaries continue to evolve.",
+      "stance": "neutral",
+      "source": {
+        "title": "Clinical features and complications of Loeys-Dietz syndrome",
+        "authors": [
+          "P Gouda"
+        ],
+        "year": 2022,
+        "journal": "International Journal of Cardiology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.internationaljournalofcardiology.com/article/S0167-5273%2822%2900813-0/fulltext",
+        "quote": "Of note, SMAD2 ..."
+      },
+      "numbers": [
+        {
+          "metric": "Total reported LDS cases reviewed",
+          "value": 3896
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "General LDS guidelines and reviews document that aortic dissection occurs at significantly smaller aortic diameters (including <=45 mm and below 40 mm) across TGF-beta vasculopathies including SMAD2, directly challenging the assumption of mandatory preceding high-grade aneurysm dilation.",
+    "SMAD2 cohort sizes in the published literature remain extremely small (often 0 carriers in major single-center cohorts of over 100 LDS patients), precluding definitive statistical conclusions about the presence or absence of dissection at normal calibers."
+  ],
+  "confidence": 0.42,
+  "new_directions": [
+    {
+      "question_text": "What is the exact aortic root and ascending aortic diameter at the time of acute type A or B aortic dissection in an international multicenter registry of confirmed SMAD2 pathogenic variant carriers?",
+      "rationale": "Because SMAD2 represents a fraction of a percent of LDS registries, pooling international data is required to determine whether dissection can occur at diameters <40 mm.",
+      "promise": 0.85,
+      "est_cost": 150000
+    },
+    {
+      "question_text": "Do SMAD2 loss-of-function variants versus missense kinase-coupling variants differ in their propensity for dissection at small aortic calibers?",
+      "rationale": "In other LDS types (e.g., TGFBR1/2 and SMAD3), variant location and mechanism influence clinical severity, which may dictate dissection risk independent of aortic diameter.",
+      "promise": 0.78,
+      "est_cost": 85000
+    }
+  ]
+}

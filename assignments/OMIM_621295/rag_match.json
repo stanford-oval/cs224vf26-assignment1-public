@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621295",
+ "omim": "OMIM:621295",
+ "disease": "Cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1",
+ "gene": "NOTCH3",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 1869,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Cerebral arteriopathy, autosomal recessive, with subcortical infarcts and leukoencephalopathy 1 (NOTCH3, OMIM:621295):\n\n[1] 125310 - CEREBRAL ARTERIOPATHY, AUTOSOMAL ...\nhttps://omim.org/entry/125310\nautosomal dominant cerebral arteriopathy with subcortical infarcts and leukoencephalopathy type 1 (CADASIL1) is caused by heterozygous mutation in the NOTCH3 ...\n\n[2] A Genetic Cause of Cerebral Small Vessel Disease - PMC - NIH\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC2851292/\nby JC Choi \u00b7 2010 \u00b7 Cited by 109 \u2014 Cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) is a single-gene disorder of the cerebral small blood ...\n\n[3] Cerebral autosomal dominant arteriopathy with subcortical ...\nhttps://medlineplus.gov/genetics/condition/cerebral-autosomal-dominant-arteriopathy-with-subcortical-infarcts-and-leukoencephalopathy/\nNOTCH3 gene mutations lead to the production of an abnormal Notch3 receptor protein that impairs the function and survival of vascular smooth ...\n\n[4] Cerebral Autosomal Dominant Arteriopathy with ...\nhttps://arupconsult.com/ati/cerebral-autosomal-dominant-arteriopathy-subcortical-infarcts-and-leukoencephalopathy-cadasil\nIt is primarily characterized by subcortical ischemic events, such as transient ischemic attacks (TIAs) and strokes. Age of onset and clinical ...\n\n[5] Cerebral autosomal dominant arteriopathy with subcortical ...\nhttps://www.neurology.org/doi/10.1212/NXG.0000000000000434\nby G Xiromerisiou \u00b7 2020 \u00b7 Cited by 33 \u2014 CADASIL is an autosomal dominant inherited arteriopathy caused by mutations in the NOTCH3. The NOTCH3 gene encodes a single pass transmembrane protein, with ...\n\n[6] Role of NOTCH3 Mutations in the Cerebral Small Vessel ...\nhttps://www.ahajournals.org/doi/10.1161/STROKEAHA.118.021560?doi=10.1161/STROKEAHA.118.021560\nSchematic overview of Notch signaling and NOTCH3 cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL) mutations.\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 9.0, male)\n  observed: Asthma, Cryptorchidism, Square face, Clinodactyly, Short foot, Joint hypermobility, Recurrent otitis media, Motor delay, Delayed speech and language development, Moderate intellectual disability, Sleep disturbance, Autistic behavior, Anger, Irritability, Anxiety, Gait disturbance, Cafe-au-lait spot, Obstipation, Broad foot\n  recorded ABSENT: Cleft lip, Cleft palate, Platybasia, Syndactyly, Pectus excavatum, Spasticity, Strabismus, Hearing impairment, Delayed ability to walk, Seizure, Psychosis, Tip-toe gait, Dystonia, Hydrocephalus, Agenesis of corpus callosum, Cerebral atrophy, Short stature, Hyperextensible skin, Patent ductus arteriosus, Pulmonic stenosis, Ventricular septal defect, Secundum atrial septal defect\n\nP02 (age 7.0, male)\n  observed: Hypertelorism, Poor suck, Global developmental delay, Intellectual disability, Seizure, Ataxia, Spasticity, Hyperreflexia, Facial diplegia, Microcephaly, Intrauterine growth retardation, Abnormal circulating creatine kinase activity, Laryngomalacia, Congenital diaphragmatic hernia, Hypotonia, Long philtrum, Subependymal nodules\n  recorded ABSENT: Astigmatism, Anterior synechiae of the anterior chamber, Epiretinal membrane, Retinal cotton wool spot, Posterior vitreous detachment, Strabismus, Visual impairment, Unilateral ptosis, Bilateral ptosis, Anisometropia, Hypermetropia, Placenta previa, Oligohydramnios, Sensorineural hearing impairment, Prolonged neonatal jaundice, Absent speech, Hemiparesis, Dysarthria, Headache, Transient ischemic attack, Long eyelashes, Thick eyebrow, Synophrys, Hyperpigmentation of the skin, Livedo reticularis (+16 more)\n\nP03 (age 15.0, male)\n  observed: Mandibular prognathia, Downturned corners of mouth, Thin upper lip vermilion, Everted lower lip vermilion, Everted upper lip vermilion, Epicanthus, Ptosis, Brachycephaly, Pear-shaped nose, Midface retrusion, Cerebral atrophy, Delayed speech and language development, Intellectual disability, Seizure, Reduced social responsiveness\n  recorded ABSENT: Global developmental delay\n\nP04 (age 2.7, female)\n  observed: Tented upper lip vermilion, Thick lower lip vermilion, Narrow forehead, Full cheeks, Upslanted palpebral fissure, Long eyelashes, Secondary microcephaly, Hypotonia, Hypertelorism, Global developmental delay, Severe intellectual disability, Unsteady gait, Autistic behavior, Bilateral tonic-clonic seizure with generalized onset, Cerebellar atrophy, Thin corpus callosum, Lateral ventricle dilatation\n  recorded ABSENT: Drooling, Primary microcephaly, Hypertonia, EEG abnormality, Short stature\n\nP05 (age 2.9, female)\n  observed: Narrow palate, High palate, Narrow forehead, Telecanthus, Highly arched eyebrow, Wide nasal bridge, Bulbous nose, Caesarean section, Intracranial hemorrhage, Amblyopia, Respiratory insufficiency, Tracheomalacia, Severe global developmental delay, Delayed ability to sit, Delayed speech and language development, Myoclonic seizure, Focal-onset seizure, Hypsarrhythmia, Spasticity, Hydrocephalus, Abnormal CNS myelination, Lateral ventricle dilatation, Cerebral calcification, Focal white matter lesions, Thin corpus callosum, Hammertoe, Talipes equinovarus, Pectus excavatum, Hypotonia, Poor head control, Joint hypermobility\n  recorded ABSENT: Smooth philtrum, Everted lower lip vermilion, Broad forehead, Mandibular prognathia, Upslanted palpebral fissure, Anteverted nares, Triangular face, Microcephaly, Microretrognathia, Retinal arterial tortuosity, Premature birth, Retinal hemorrhage, Vitreous hemorrhage, Retinal detachment, Preretinal hemorrhage, Posteriorly rotated ears, Bilateral tonic-clonic seizure with generalized onset, Reduced cerebral white matter volume, Short stature, Small for gestational age, Hypertrichosis\n\nP06 (age None, female)\n  observed: Epileptic encephalopathy, Seizure, Ataxia, Motor stereotypy, Scoliosis, Severe global developmental delay, Intermittent hyperventilation, Severe intellectual disability, Impulsivity\n  recorded ABSENT: (none recorded)\n\nP07 (age 4.0, male)\n  observed: Exotropia, High myopia, Laryngomalacia, Tracheobronchomalacia, Conductive hearing impairment, Unilateral cryptorchidism, Absent speech, Severe global developmental delay, Appendicular spasticity, Autistic behavior, Generalized tonic seizure, Thin corpus callosum, Wide nose, Atopic dermatitis, Inguinal hernia, Feeding difficulties, Failure to thrive, Intrauterine growth retardation, Thin nail, Camptodactyly of finger, Hip dysplasia, Clinodactyly of the 5th finger, Abnormal vertebral morphology, Scoliosis, Axial hypotonia, Limb hypertonia\n  recorded ABSENT: Ptosis, Neonatal respiratory distress, Extrapyramidal dyskinesia, Abnormal pyramidal sign, Motor stereotypy, Obsessive-compulsive trait, Aggressive behavior, Hyperactivity, Frequent temper tantrums, Polyphagia, Inflexible adherence to routines, Self-injurious behavior, Sleep disturbance, Mania, Anxiety, Bilateral tonic-clonic seizure, Atonic seizure, Dystonia, Hyperkinetic movements, Sparse scalp hair, Thin upper lip vermilion, Thick lower lip vermilion, High palate, Long eyelashes, Thick eyebrow (+8 more)\n\nP08 (age None, male)\n  observed: Cryptorchidism, Broad forehead, Pointed chin, Epicanthus, Blepharophimosis, Webbed neck, Short neck, Hypertelorism, Ptosis, Posteriorly rotated ears, Hearing impairment, Delayed fine motor development, Out-toeing, Autistic behavior, Pes planus, Large hands, Syndactyly, Short stature, Bicuspid aortic valve, Spondylolisthesis\n  recorded ABSENT: Craniosynostosis, Brushfield spots, Optic disc coloboma, Astigmatism, Optic disc pallor, Optic atrophy, Nystagmus, Strabismus, Visual impairment, Hypermetropia, Myopia, Neonatal respiratory distress, Seizure, Hydrocephalus, Feeding difficulties, Vascular dilatation, Persistent left superior vena cava, Precocious atherosclerosis, Anomalous origin of right coronary artery from the pulmonary artery, Aberrant right subclavian artery, Patent ductus arteriosus, Ventricular septal defect, Atrioventricular canal defect, Atrial septal defect\n\nP09 (age 3.0, male)\n  observed: Recurrent pneumonia, Bronchodysplasia, Hypertelorism, Strabismus, Hypermetropia, Cryptorchidism, Phimosis, Craniosynostosis, Microcephaly, Plagiocephaly, Smooth philtrum, Epicanthus, Depressed nasal bridge, Seizure, Bruxism, Intellectual disability, Absent speech, Severe global developmental delay, Short stature, Inguinal hernia, Gastroesophageal reflux, Feeding difficulties, Scoliosis, Overlapping toe, Clinodactyly of the 5th finger, Generalized hypotonia, Joint hypermobility\n  recorded ABSENT: Abnormal circulating growth hormone concentration, Cerebral visual impairment, Recurrent urinary tract infections, Polycystic kidney dysplasia, Renal dysplasia, Unilateral renal agenesis, Horseshoe kidney, Hearing impairment, Ventriculomegaly, Abnormal cerebellum morphology, Abnormal cerebral white matter morphology, Decreased circulating immunoglobulin concentration, Ventricular septal defect, Atrial septal defect, Absent gallbladder, Intestinal atresia, Intestinal malrotation, Hemivertebrae, Joint contracture\n\nP10 (age 1.7, male)\n  observed: Long philtrum, Wide mouth, Deeply set eye, Macrotia, Axial hypotonia, Poor head control, Joint hypermobility, Absent speech, Delayed ability to sit, Severe intellectual disability, Inability to walk, Motor seizure, Interictal EEG abnormality\n  recorded ABSENT: Microcephaly, Abnormal fundus morphology, Strabismus, Appendicular spasticity, Abnormal pyramidal sign, Clonus, Short stature, Decreased body weight\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.88,
+     "for": "Demonstrates focal white matter lesions and abnormal CNS myelination directly aligning with leukoencephalopathy, alongside intracranial hemorrhage reflecting cerebral small vessel arteriopathy.",
+     "against": "Presents at an early age (2.9 years) with hypsarrhythmia, seizures, and systemic/skeletal anomalies not highlighted in the brief CADASIL report."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.04,
+     "for": "Displays neurological impairment including spasticity, hyperreflexia, and ataxia, which can result from progressive cerebral lesions.",
+     "against": "Transient ischemic attack, hemiparesis, headache, and dysarthria are explicitly documented as absent, strongly arguing against the characteristic ischemic events described in the evidence."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Presents in adolescence with structural brain involvement (cerebral atrophy) and associated cognitive impairment.",
+     "against": "Lacks documentation of focal white matter lesions, leukoencephalopathy, transient ischemic attacks, or strokes."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.03,
+     "for": "Has neuroimaging abnormalities including lateral ventricle dilatation, cerebellar atrophy, and gait impairment.",
+     "against": "No subcortical infarcts, leukoencephalopathy, or ischemic cerebrovascular episodes are documented."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Shows significant neurological compromise characterized by ataxia and intellectual disability.",
+     "against": "Lacks neuroimaging evidence of subcortical white matter lesions/infarcts or clinical signs of stroke and ischemic events."
+    }
+   ],
+   "what_the_report_lacked": "The report focused almost exclusively on classical autosomal dominant CADASIL and omitted detailed phenotypic descriptions, neuroimaging hallmarks, and pediatric presentations specifically associated with autosomal recessive NOTCH3-related arteriopathy (OMIM:621295).",
+   "tokens_in": 2557,
+   "tokens_out": 3947,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.85,
+     "for": "Shows key neuroimaging hallmarks of cerebral small-vessel arteriopathy including focal white matter lesions, abnormal CNS myelination, intracranial hemorrhage, and spasticity.",
+     "against": "Has early infantile onset with severe epileptic encephalopathy and features like tracheomalacia that are atypical for classical presentations."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.05,
+     "for": "Demonstrates spasticity, hyperreflexia, ataxia, and global developmental delay, consistent with progressive central nervous system involvement.",
+     "against": "Subependymal nodules suggest an alternative diagnosis (e.g., tuberous sclerosis), and key vascular hallmarks such as transient ischemic attack, headache, and hemiparesis are explicitly absent."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.04,
+     "for": "Exhibits neurological involvement with cerebral atrophy, seizures, and intellectual disability.",
+     "against": "Lacks reported vascular events, focal leukoencephalopathy, or ischemic lesions characteristic of cerebral arteriopathy."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.03,
+     "for": "Presents with structural CNS changes including cerebellar atrophy, lateral ventricle dilatation, and generalized seizures with motor delay.",
+     "against": "Lacks white matter lesions, subcortical infarcts, or clinical signs of stroke-like ischemic episodes."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.02,
+     "for": "Exhibits neurological signs including appendicular spasticity, limb hypertonia, and seizures.",
+     "against": "Phenotype is dominated by multisystem syndromic features (tracheobronchomalacia, camptodactyly, hip dysplasia) with no documented leukoencephalopathy or subcortical infarcts."
+    }
+   ],
+   "what_the_report_lacked": "Specific clinical descriptions or neuroimaging details for autosomal recessive NOTCH3-related arteriopathy (OMIM:621295), which was only represented by search snippets for classical dominant CADASIL rather than recessive infantile-onset disease.",
+   "tokens_in": 2557,
+   "tokens_out": 1514,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P05",
+     "probability": 0.85,
+     "for": "Demonstrates focal white matter lesions, abnormal CNS myelination, intracranial hemorrhage, cerebral calcification, and spasticity consistent with an infantile- or childhood-onset leukoencephalopathy and cerebral arteriopathy.",
+     "against": "Lacks premature birth and retinal vascular tortuosity/hemorrhages, with reduced cerebral white matter volume recorded as absent."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.05,
+     "for": "Presents with central nervous system involvement including spasticity, hyperreflexia, ataxia, and seizures.",
+     "against": "Transient ischemic attacks, hemiparesis, headache, and dysarthria are all explicitly recorded as absent, and subependymal nodules suggest an alternate diagnosis."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.04,
+     "for": "Displays neurodevelopmental impairment with generalized seizures, gait unsteadiness, lateral ventricle dilatation, and brain atrophy.",
+     "against": "Has cerebellar rather than cerebral leukoencephalopathy or focal white matter infarcts, with hypertonia recorded as absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.03,
+     "for": "Features neurological manifestations including appendicular spasticity, limb hypertonia, and generalized seizures.",
+     "against": "Lacks intracranial vascular abnormalities, stroke-like episodes, or leukoencephalopathy, presenting primarily with syndromic skeletal and connective tissue anomalies."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.02,
+     "for": "Presents with structural CNS involvement manifesting as cerebral atrophy, seizures, and intellectual disability.",
+     "against": "Lacks specific leukoencephalopathy, focal subcortical infarctions, or vascular/ischemic episodes, presenting primarily with craniofacial dysmorphisms."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical documentation on the specific presentation of autosomal recessive NOTCH3-related arteriopathy (OMIM:621295), neuroimaging details such as typical anterior temporal lobe or external capsule involvement, and direct evidence of vascular histopathology or ischemic stroke onset.",
+   "tokens_in": 2557,
+   "tokens_out": 2476,
+   "round": 3
+  }
+ ]
+}

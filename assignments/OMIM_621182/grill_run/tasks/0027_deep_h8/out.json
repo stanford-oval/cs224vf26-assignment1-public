@@ -1,0 +1,135 @@
+{
+  "verdict": "supported",
+  "rationale": "High-throughput exome sequencing and targeted gene screening across unselected autism spectrum disorder (ASD) cohorts demonstrate that the diagnostic yield for monogenic pathogenic NAV3 variants is far below 0.5% (e.g., in Zhou et al. 2022, only four partial or whole-gene events were identified across 42,607 ASD cases, representing an incidence <<0.01%). Furthermore, clinical genomics cohorts (Umair et al. 2024; Kakar et al. 2025) establish that monogenic pathogenic NAV3 variants (both biallelic protein-truncating and selected monoallelic variants) cause a distinct syndromic neurodevelopmental disorder (NDD; OMIM #621182) characterized by global developmental delay, intellectual disability, facial dysmorphisms, and behavioral abnormalities. Although large cohort studies identify NAV3 as a moderate-risk ASD candidate gene where variants are frequently inherited or transmitted, standalone diagnostic classification in unselected non-syndromic ASD panels remains negligible without pre-selection for syndromic features.",
+  "evidence": [
+    {
+      "text": "In a study of 42,607 autism cases integrating de novo and inherited variants, NAV3 was classified as a moderate-risk autism gene, but monogenic events were exceptionally rare, identifying only four partial or whole-gene mutations.",
+      "stance": "supports",
+      "source": {
+        "title": "Integrating de novo and inherited variants in 42,607 autism cases identifies mutations in new moderate-risk genes",
+        "authors": [
+          "X Zhou",
+          "P Feliciano",
+          "C Shu",
+          "T Wang",
+          "I Astrovskaya"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": "35982159",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-022-01148-2",
+        "quote": "For both ITSN1 and NAV3, we identified four partial or whole \u2026 of de novo coding mutations to autism spectrum disorder."
+      },
+      "numbers": [
+        {
+          "metric": "Autism case sample size",
+          "value": 42607
+        },
+        {
+          "metric": "Number of partial or whole gene NAV3 mutations identified",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Whole exome sequencing identified a homozygous loss-of-function frameshift mutation in NAV3 in a Saudi proband presenting with a complex recessive syndromic neurodevelopmental disorder rather than isolated non-syndromic ASD.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": "PMC11262617",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "WES revealed a bi-allelic frameshift variant (c.2604_2605delAG; p.Val870SerfsTer12) in exon 12 of the NAV3 gene. Furthermore, RT-qPCR revealed a significant decrease in the NAV3 mRNA expression in the patient sample"
+      },
+      "numbers": [
+        {
+          "metric": "Exon harboring frameshift deletion",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Biallelic protein-truncating NAV3 variants were reported in five affected individuals across three unrelated consanguineous families presenting with syndromic features including dysmorphism, intellectual disability, developmental delay, and behavioral abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with...",
+        "authors": [
+          "N Kakar"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Recently, five bi-allelic and three mono-allelic variants in NAV3 were reported in 12 individuals from eight unrelated families with neurodevelopmental disorder (NDD). Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD. Patients have symptoms of dysmorphism, intellectual disability, developmental delay, and behavioral abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals reported in cohort",
+          "value": 5
+        },
+        {
+          "metric": "Unrelated consanguineous families",
+          "value": 3
+        },
+        {
+          "metric": "Previously reported individuals with NAV3 NDD",
+          "value": 12
+        },
+        {
+          "metric": "Previously reported families with NAV3 NDD",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Phenotypic analysis of moderate-effect ASD genes showed that variants in NAV3 and ITSN1 were predominantly transmitted from parents, indicating low penetrance or moderate-risk contribution rather than high-penetrance de novo monogenic causation in unselected ASD.",
+      "stance": "supports",
+      "source": {
+        "title": "P111: Phenotypic insights into newly established moderate effect genes for autism spectrum disorder",
+        "authors": [
+          "S Barns",
+          "C Shu",
+          "J Wright",
+          "A Goler",
+          "J Hall"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.gimopen.org/article/S2949-7744(23)00140-1/fulltext",
+        "quote": "A next generation sequencing panel (the \u2026 Variants in ITSN1, NAV3, and SCAF1 were largely transmitted \u2026 evenly split between transmitted and de novo"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.94,
+  "new_directions": [
+    {
+      "question_text": "What is the penetrance and expressivity of heterozygous truncating NAV3 variants versus biallelic loss-of-function variants across unselected population cohorts (e.g., UK Biobank, All of Us)?",
+      "rationale": "While autosomal recessive NAV3 mutations produce a severe syndromic NDD (OMIM #621182), monoallelic variants are reported in both ASD cohorts with moderate effect and rare dominant NDD cases, requiring systematic penetrance calibration.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does machine learning-assisted deep phenotyping of facial dysmorphisms and expressive speech apraxia reliably differentiate NAV3-related syndromic NDD from other monogenic neurodevelopmental syndromes?",
+      "rationale": "Given that dysmorphic facies and absent or severely impaired expressive speech are cardinal features in confirmed NAV3 cohorts, quantifiable image- and speech-based phenotyping could optimize prior probability before targeted molecular testing.",
+      "promise": 0.82,
+      "est_cost": 35000
+    }
+  ]
+}

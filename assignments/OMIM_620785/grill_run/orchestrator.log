@@ -1,0 +1,21 @@
+[17:22:49] INIT: parse fields + PRIOR (parallel)
+[17:22:56]   required_fields=10 seed_directions=4 prior_hypotheses=4 terms=4
+[17:22:56] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:23:15] INIT: probing 4 prior candidate answer(s) — screen then deep test
+[17:23:38]   SCREEN: 4 passed / 4 screened ($0.03 total)
+[17:24:02]   DEEP: 2 → pool, 2 → bin ($0.06 total)
+[17:24:02]   INIT probe: 2 pooled, 2 binned (+2 directions seeded)
+[17:24:02]   INIT spent $0.13
+[17:24:07]   PLAN: $4.94 pot, $1.97 ceiling → d1 $1.97 (Directly extracts exact numerators, denominators); d7 $1.97 (Resolves key contradictions between Kaiyrzhanov )
+[17:24:07] ROUND 1: EXPLORE 2 dirs (d1=$1.97  d7=$1.97; spent $0.13/10.00)
+[17:24:28]   +6 hypotheses from 2 directions
+[17:24:58]   SCREEN: 6 passed / 6 screened ($0.08 total)
+[17:25:41]   DEEP: 6 → pool, 0 → bin ($0.13 total)
+[17:25:58]   PLAN: $4.86 pot, $1.94 ceiling → d19 $1.94 (Directly resolves whether the multi-system invol); d5 $1.94 (Directly targets the key discriminating neuroima)
+[17:25:58] ROUND 2: EXPLORE 2 dirs (d19=$1.94  d5=$1.94; spent $0.28/10.00)
+[17:26:20]   +6 hypotheses from 2 directions
+[17:26:56]   SCREEN: 5 passed / 6 screened ($0.13 total)
+[17:27:39]   DEEP: 4 → pool, 1 → bin ($0.19 total)
+[17:27:43] FINALIZE: converged=False spent=$0.43  (init $0.03  plan $0.01  explore $0.06  screen $0.13  deep $0.19  measure $0.00)
+[17:28:34]   outline: 7 sections; report 20KB
+[17:28:48] DONE: coverage 7/10  quality 0.75 (12 pooled / 4 binned, untested 0)  answeredness=0.52  unsourced=0.00  answeredness/$=1.0764

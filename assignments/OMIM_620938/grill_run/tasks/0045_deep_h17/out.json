@@ -1,0 +1,105 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents conflicting evidence regarding whether fever-triggered acute decompensation is the primary driver converting mild or pure spastic paraplegia into complex SPG93. While acute metabolic and neurological decompensations triggered by fever, infections, or catabolic stress are well-recognized across multiple mitochondrial dysfunction syndromes (including NFU1 mutations and related Fe-S assembly defects as cited in Kaiyrzhanov et al. and Saudubray & Garcia), other reports highlight patients with hypomorphic NFU1 variants who develop complex phenotypes (such as SPOAN-like presentations with spastic paraplegia, optic atrophy, and peripheral neuropathy) with an insidious, neurodegenerative onset and an absence of recurrent acute decompensation episodes (Lebigot et al.).",
+  "evidence": [
+    {
+      "text": "Patients with NFU1 mutations and defective Fe-S protein maturation can manifest spastic paraplegia phenotypes, including a SPOAN-like presentation (spastic paraplegia, optic atrophy, and neuropathy); notably, some cases show no additional acute decompensation episodes during their progression.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+        "authors": [
+          "E Lebigot",
+          "M Schiff",
+          "MP Golinelli"
+        ],
+        "year": 2021,
+        "journal": "Biomedicines",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9059/9/8/989",
+        "quote": "In vitro analysis revealed functional impairment of NFU1 \u2026 No other decompensation episodes were noticed, and first \u2026 the SPOAN-like phenotype (spastic paraplegia, optic atrophy and \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Defects in iron-sulfur [4Fe-4S] synthesis genes including NFU1, BOLA3, IBA57, and GLRX5 lead to multiple mitochondrial dysfunction syndromes, with clinical heterogeneity spanning classical early-onset fatal encephalomyopathy with pulmonary hypertension to juvenile spastic paraplegia.",
+      "stance": "neutral",
+      "source": {
+        "title": "A Review of Multiple Mitochondrial Dysfunction Syndromes ...",
+        "authors": [
+          "E Lebigot"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC8393393",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8393393/",
+        "quote": "Cavitating Leukoencephalopathy with Multiple Mitochondrial Dysfunction Syndrome and NFU1 ... New Spastic Paraplegia Phenotype Associated to Mutation of NFU1."
+      },
+      "numbers": [
+        {
+          "metric": "MMDS types described",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Inborn errors of mitochondrial metabolism commonly experience acute catabolic decompensations triggered by fever, infections, or fasting, which can precipitate motor decline, spastic paraplegia, and ataxia.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical approach to inborn errors of metabolism in paediatrics",
+        "authors": [
+          "JM Saudubray",
+          "\u00c1 Garc\u00eda"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1007/978-3-662-63123-2_1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-662-63123-2_1",
+        "quote": "Additionaly, true sepsis can trigger acute decompensation \u2026 attacks include catabolism, fever, intercurrent illness and food \u2026 with psychomotor retardation, spastic paraplegia and ataxia in \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Systemic physiologic stress such as fever, prolonged fasting, trauma, or surgery induces energy deprivation in mitochondrial disorders, heightening susceptibility to acute metabolic crises and tissue injury.",
+      "stance": "supports",
+      "source": {
+        "title": "Impairment of Mitrts) Ochondrial Metabolism as Major Culprit of Misdiagnosis",
+        "authors": [
+          "MT Videira"
+        ],
+        "year": 2021,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/497958c6616233979f95173c5c88d3cc/1.pdf?pq-origsite=gscholar&cbl=2026366&diss=y",
+        "quote": "Factors such as fever, fasting, surgery or trauma can induce a deficient state of cellular \u2026 or to the greater susceptibility of metabolic decompensation in catabolic states of these patients."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Certain cohorts and case reports of NFU1-associated spastic paraplegia (such as patients exhibiting SPOAN-like phenotypes) demonstrate progressive neurological involvement (spasticity, optic atrophy, neuropathy) without documented episodes of acute post-febrile decompensations.",
+    "While acute metabolic decompensations are well documented to cause abrupt neurological setbacks in NFU1 and other MMDS patients, current literature does not establish this as the sole or primary obligate path converting mild disease to complex SPG93 versus ongoing insidious axonal degeneration."
+  ],
+  "confidence": 0.52,
+  "new_directions": [
+    {
+      "question_text": "In a prospectively followed registry of SPG93 patients with missense NFU1 mutations, does aggressive antipyretic and metabolic rescue therapy during intercurrent viral infections prevent step-wise permanent neurological decline?",
+      "rationale": "Clarifying whether preventing metabolic decompensation halts the progression from uncomplicated spastic paraplegia to complex multi-system neurological disease will establish causality and inform management protocols.",
+      "promise": 0.85,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "Do specific hypomorphic NFU1 missense mutations maintain baseline biochemical thresholds but undergo thermal instability or loss of Fe-S cluster delivery specifically at elevated febrile temperatures in vitro?",
+      "rationale": "Demonstrating temperature-sensitive structural or functional degradation of NFU1 variants would confirm a molecular mechanism directly linking febrile episodes to acute clinical decompensation.",
+      "promise": 0.78,
+      "est_cost": 75000
+    }
+  ]
+}

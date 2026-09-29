@@ -1,0 +1,123 @@
+{
+  "verdict": "supported",
+  "rationale": "Across all available literature characterizing the NAV3-associated autosomal recessive neurodevelopmental disorder (OMIM #621182), the initial discovery and primary index cohorts each comprise fewer than 10 affected individuals from consanguineous families. The first report describing a homozygous truncating variant in NAV3 (Umair et al., 2024) characterized a single proband (n=1) from a consanguineous union. Subsequent focused cohorts characterizing the autosomal recessive syndrome describe small consanguineous groups (e.g., Kakar et al., 2025 with 5 patients across 3 families; Umair et al., 2025 with 2 affected siblings in 1 family). The broader study by Ghaffar et al. (2024) included only 11 individuals across 7 families when aggregating biallelic, de novo, and heterozygous variants combined. Authors explicitly emphasize the clinical and ascertainment constraints imposed by these ultra-small cohorts and phenotypic diversity in consanguineous pedigrees.",
+  "evidence": [
+    {
+      "text": "The initial discovery linking a bi-allelic variant in NAV3 to human neurodevelopmental disorder was described in a single Saudi proband from a consanguineous union carrying a homozygous frameshift variant.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutated neuron navigator 3 as a candidate gene for a rare neurodevelopmental disorder",
+        "authors": [
+          "M Umair",
+          "M Alharbi",
+          "E Aloyouni"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/mgg3.2473",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2473",
+        "quote": "We describe a Saudi proband presenting a complex recessive neurodevelopmental disorder (NDD)... For the time, we associate a bi-allelic variant in the NAV3 gene causing NDD in humans."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in index proband cohort",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "The validation cohort for autosomal recessive NAV3-related neurodevelopmental disorder comprises five affected patients from three unrelated consanguineous families.",
+      "stance": "supports",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "Here, we report five patients from three unrelated consanguineous families segregating autosomal recessive NDD. Patients have symptoms of dysmorphism, intellectual disability, developmental delay, and behavioral abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in cohort",
+          "value": 5
+        },
+        {
+          "metric": "Consanguineous families in cohort",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "An additional consanguineous pedigree with an autosomal recessive NAV3 missense variant contained only two affected siblings, highlighting atypical findings like febrile seizures in small cohorts.",
+      "stance": "supports",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "and clinical characterization of a five-member consanguineous family with two affected siblings (II-2\u2026 Notably, febrile seizures in our index patient (II-2) stand out as an atypical feature"
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in family",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Studies evaluating rare genetic disorders emphasize the inherent limitations and ascertainment challenges imposed by limited patient cohorts and phenotypic variability in consanguineous populations.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical Characterization, Functional Analysis, Gene Therapy, and Management of Rare Genetic Disorders",
+        "authors": [
+          "M Umair",
+          "Y Tamboli",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.2174/0109298673523413260714095722",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673523413260714095722",
+        "quote": "importance of investigating consanguineous populations in \u2026 imposed by limited patient cohorts and phenotypic diversity."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic frequency of specific dysmorphic features across all biallelic truncating vs. missense NAV3 cases once multi-center exome cohorts are aggregated?",
+      "rationale": "Existing catalog entries reflect fewer than 10 consanguineous patients per study, making it critical to establish true feature penetrance across outbred and diverse demographic populations.",
+      "promise": 0.88,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Do heterozygous de novo NAV3 variants cause a clinically indistinguishable phenotype compared to biallelic truncating variants, or do they represent distinct clinical entities?",
+      "rationale": "Ghaffar et al. mixed biallelic, de novo, and heterozygous variants in an 11-individual cohort; teasing apart inheritance modes will clarify whether OMIM #621182 feature lists reflect autosomal recessive pathology exclusively.",
+      "promise": 0.82,
+      "est_cost": 22000.0
+    }
+  ]
+}

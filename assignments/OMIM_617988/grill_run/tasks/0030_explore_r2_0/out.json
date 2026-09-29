@@ -1,0 +1,273 @@
+{
+  "hypotheses": [
+    {
+      "text": "Motor development delay and sparse hair are the two most sensitive non-radiological phenotypic hallmarks of GTPBP2-related Jaberi-Elahi syndrome, each manifesting in greater than 90% of molecularly confirmed individuals across all aggregated cohorts.",
+      "rationale": "Evaluating aggregated cohorts compiled across the literature allows testing whether motor delay and sparse hair serve as virtually obligate clinical indicators to triage patients before neuroimaging or exome sequencing.",
+      "aspects": [
+        "clinical-phenotype",
+        "discriminating-features",
+        "ectodermal-manifestations"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "In a comprehensive literature review of hitherto 28 patients with Jaberi-Elahi syndrome, motor development delay was reported in 26 out of 28 individuals and sparse hair was documented in 26 out of 28 individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+            "authors": [
+              "J Manoochehri",
+              "A Shiri",
+              "S Khoddam"
+            ],
+            "year": 2024,
+            "journal": "Gene",
+            "doi": null,
+            "pmid": "38852771",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38852771/",
+            "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28)."
+          },
+          "numbers": [
+            {
+              "metric": "motor_development_delay_prevalence",
+              "value": "26/28"
+            },
+            {
+              "metric": "sparse_hair_prevalence",
+              "value": "26/28"
+            }
+          ]
+        },
+        {
+          "text": "Salpietro et al. confirmed that individuals carrying bi-allelic loss-of-function variants in GTPBP1 or GTPBP2 consistently present with pathognomonic craniofacial features and ectodermal defects alongside profound neurodevelopmental impairment.",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic genetic variants in the translational GTPases GTPBP1 and GTPBP2 cause a distinct identical neurodevelopmental syndrome",
+            "authors": [
+              "V Salpietro",
+              "R Maroofian",
+              "MS Zaki",
+              "J Wangen"
+            ],
+            "year": 2024,
+            "journal": "American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2023.11.012",
+            "pmid": "38118446",
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00430-5",
+            "quote": "Individuals with bi-allelic GTPBP1 or GTPBP2 variants presented with microcephaly, profound neurodevelopmental impairment, pathognomonic craniofacial features, and ectodermal defects."
+          },
+          "numbers": [
+            {
+              "metric": "individuals_evaluated",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Visual impairment and retinal dysfunction occur in less than 70% of reported GTPBP2 cases, precluding abnormal ophthalmologic examination from being an obligate criterion for diagnosis in early childhood.",
+      "rationale": "While early literature (Jaberi et al., 2016) emphasized optic atrophy and photoreceptor/bipolar cell dysfunction as core features, broader cohort aggregations show that visual impairment is incomplete in penetrance or delayed in onset.",
+      "aspects": [
+        "visual-impairment",
+        "retinal-dystrophy",
+        "phenotype-penetrance"
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "text": "The aggregate literature review by Manoochehri et al. demonstrated that visual impairment was documented in only 18 out of 28 individuals with Jaberi-Elahi syndrome, leaving over one-third of confirmed cases without reported visual deficits.",
+          "stance": "supports",
+          "source": {
+            "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+            "authors": [
+              "J Manoochehri",
+              "A Shiri",
+              "S Khoddam"
+            ],
+            "year": 2024,
+            "journal": "Gene",
+            "doi": null,
+            "pmid": "38852771",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38852771/",
+            "quote": "Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+          },
+          "numbers": [
+            {
+              "metric": "visual_impairment_prevalence",
+              "value": "18/28"
+            }
+          ]
+        },
+        {
+          "text": "In the index family with a homozygous splice-site GTPBP2 mutation, full-field electroretinography showed generalized photoreceptor, bipolar, and amacrine cell dysfunction in all 3 affected siblings, suggesting visual deficits may be underreported due to lack of early specialized electroretinography.",
+          "stance": "contradicts",
+          "source": {
+            "title": "Identification of mutation in GTPBP2 in patients of a family with neurodegeneration accompanied by iron deposition in the brain",
+            "authors": [
+              "E Jaberi",
+              "M Rohani",
+              "GA Shahidi",
+              "S Nafissi",
+              "E Arefian"
+            ],
+            "year": 2016,
+            "journal": "Neurobiology of Aging",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S0197458015005461",
+            "quote": "A full-field electroretinography revealed generalized dysfunction of photoreceptors, bipolar cells, and amacrine cells."
+          },
+          "numbers": [
+            {
+              "metric": "affected_siblings_with_retinal_dysfunction",
+              "value": "3/3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Skeletal anomalies (such as kyphoscoliosis or contractures) are present in approximately 80% of individuals with classic GTPBP2 truncating variants, but can be completely absent in patients with non-truncating missense variants.",
+      "rationale": "Phenotype-genotype correlations remain unestablished; determining whether skeletal manifestations are tied to variant class or secondary to prolonged spasticity/hypotonia clarifies their role in early differential diagnosis.",
+      "aspects": [
+        "skeletal-abnormalities",
+        "genotype-phenotype",
+        "missense-variants"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Manoochehri et al. identified a 3-year-old girl homozygous for a novel missense variant (p.Leu430Pro) who presented without any skeletal abnormalities, contrasting with the 23 out of 28 individuals in the aggregated literature who demonstrated skeletal problems.",
+          "stance": "supports",
+          "source": {
+            "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+            "authors": [
+              "J Manoochehri",
+              "A Shiri",
+              "S Khoddam"
+            ],
+            "year": 2024,
+            "journal": "Gene",
+            "doi": null,
+            "pmid": "38852771",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38852771/",
+            "quote": "In spite of previous patients, the proband in this study did not exhibit any skeletal abnormalities... skeletal problems (23/28)"
+          },
+          "numbers": [
+            {
+              "metric": "skeletal_problems_aggregate_prevalence",
+              "value": "23/28"
+            },
+            {
+              "metric": "proband_skeletal_abnormalities",
+              "value": "0/1"
+            }
+          ]
+        },
+        {
+          "text": "OMIM entry #617988 classifies skeletal abnormalities including kyphoscoliosis and abnormal hand or foot posturing as additional variable features rather than obligate core manifestations.",
+          "stance": "supports",
+          "source": {
+            "title": "Entry - #617988 - JABERI-ELAHI SYNDROME; JABELS",
+            "authors": [
+              "OMIM"
+            ],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://omim.org/entry/617988",
+            "quote": "Additional features may include retinal anomalies, visual impairment, microcephaly, abnormal foot or hand posturing, and kyphoscoliosis; some patients have ..."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Epilepsy and choreoathetosis occur in a substantial subpopulation of GTPBP2 patients and differentiate GTPBP2/GTPBP1 translational GTPase syndromes from uncomplicated hereditary spastic paraplegias.",
+      "rationale": "Distinguishing pure upper motor neuron diseases from GTPBP2 syndrome requires identifying hyperkinetic movement disorders and seizure phenotypes that are not explained by corticospinal tract degeneration alone.",
+      "aspects": [
+        "epilepsy",
+        "choreoathetosis",
+        "differential-diagnosis"
+      ],
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "text": "Salpietro et al. observed that choreoathetoid movements and refractory epilepsy form part of the core neurologic phenotype in individuals with bi-allelic GTPBP1 or GTPBP2 loss-of-function variants.",
+          "stance": "supports",
+          "source": {
+            "title": "Bi-allelic genetic variants in the translational GTPases GTPBP1 and GTPBP2 cause a distinct identical neurodevelopmental syndrome",
+            "authors": [
+              "V Salpietro",
+              "R Maroofian",
+              "MS Zaki",
+              "J Wangen"
+            ],
+            "year": 2024,
+            "journal": "American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2023.11.012",
+            "pmid": "38118446",
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00430-5",
+            "quote": "Abnormal vision and/or hearing, progressive spasticity, choreoathetoid movements, refractory epilepsy, and brain atrophy were part of the core phenotype of this syndrome."
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals_evaluated",
+              "value": 20
+            }
+          ]
+        },
+        {
+          "text": "Vedula et al. reported a novel GTPBP2 variant causing syndromic epilepsy in Jaberi-Elahi syndrome, highlighting refractory seizures as a presenting and management-defining feature.",
+          "stance": "supports",
+          "source": {
+            "title": "Novel GTPBP2 Mutation-associated Jaberi Elahi Syndrome\u2013A Rare Cause of Syndromic Epilepsy (P7-8.003)",
+            "authors": [
+              "A Vedula",
+              "S Reddy",
+              "A Patel",
+              "R Konanki"
+            ],
+            "year": 2026,
+            "journal": "Neurology",
+            "doi": "10.1212/WNL.0000000000216659",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000216659",
+            "quote": "of Jaberi Elahi Syndrome (JABELS) due to a novel gene variant, and outline the clinical \u2026 Nearly 20 mutations of the GTPBP2 gene have been associated with JABELS"
+          },
+          "numbers": [
+            {
+              "metric": "reported_gtpbp2_mutations_count",
+              "value": 20
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the breakdown of seizure frequency, seizure semiology (e.g. focal vs. generalized tonic-clonic vs. infantile spasms), and EEG patterns across molecularly confirmed GTPBP2 cases?",
+      "rationale": "Epilepsy is highlighted as a core or defining feature in recent series (Vedula 2026, Salpietro 2024), but its exact penetrance across the ~28 documented patients has not been systematically compiled against age of onset.",
+      "promise": 0.85,
+      "est_cost": 0.8
+    },
+    {
+      "question_text": "How do the facial dysmorphisms and ectodermal findings in GTPBP1-related disorder compare with GTPBP2-related Jaberi-Elahi syndrome to determine if they are clinically indistinguishable without sequencing?",
+      "rationale": "Salpietro et al. (2024) asserted an identical syndrome caused by GTPBP1 and GTPBP2; determining if specific facial or ectodermal dysmorphologies distinguish them or if they form an inseparable clinical entity is essential for dysmorphology-based triage.",
+      "promise": 0.78,
+      "est_cost": 0.75
+    }
+  ],
+  "dead_end": false
+}

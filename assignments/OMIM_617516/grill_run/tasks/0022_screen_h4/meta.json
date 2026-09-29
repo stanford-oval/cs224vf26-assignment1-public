@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Stankiewicz-Isidor syndrome\" PSMD12 kidney heart phenotype",
+    "Stankiewicz-Isidor syndrome PSMD12 CAKUT congenital heart defect frequency"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+      "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+      "abstract_chars": 1468
+    },
+    {
+      "id": "10.1186/s13023-021-02092-w",
+      "title": "An Integrated clinical pathway for diagnosis, treatment and care of rare diseases: model, operating procedures, and results of the project TRANSLATE-NAMSE funded\u00a0\u2026",
+      "pmid": null,
+      "doi": "10.1186/s13023-021-02092-w",
+      "url": "https://link.springer.com/article/10.1186/s13023-021-02092-w",
+      "abstract_chars": 2363
+    },
+    {
+      "id": "https://www.mdpi.com/2035-8148/16/2/13",
+      "title": "Analysis of Copy Number and Sequence Variants Linked to Cardiac Development in Children with Syndromic Congenital Heart Defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2035-8148/16/2/13",
+      "abstract_chars": 1154
+    },
+    {
+      "id": "32755546",
+      "title": "Interpretable clinical genomics with a likelihood ratio paradigm",
+      "pmid": "32755546",
+      "doi": "10.1016/j.ajhg.2020.06.021",
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30230-5",
+      "abstract_chars": 1500
+    },
+    {
+      "id": "https://www.nature.com/articles/s41467-025-65556-8",
+      "title": "Investigating the neuronal role of the proteasomal ATPase subunit gene PSMC5 in neurodevelopmental proteasomopathies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41467-025-65556-8",
+      "abstract_chars": 1248
+    },
+    {
+      "id": "https://www.malacards.org/card/stankiewicz_isidor_syndrome",
+      "title": "Stankiewicz-Isidor Syndrome (STISS)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/stankiewicz_isidor_syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "http://www.ncbi.nlm.nih.gov/medgen/1375936",
+      "title": "Stankiewicz-Isidor syndrome (Concept Id: C4479599)",
+      "pmid": null,
+      "doi": null,
+      "url": "http://www.ncbi.nlm.nih.gov/medgen/1375936",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/617516",
+      "title": "617516 - STANKIEWICZ-ISIDOR SYNDROME; STISS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/617516",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://onlinelibrary.wiley.com/doi/full/10.1002%2Fajmg.a.63953",
+      "title": "Does It Run in Your Family? Inherited Truncating PSMD12 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002%2Fajmg.a.63953",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "10.1002/pd.70086",
+      "title": "Clinically Significant Genetic Results in Fetuses With Isolated Horseshoe Kidney",
+      "pmid": null,
+      "doi": "10.1002/pd.70086",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.70086",
+      "abstract_chars": 1247
+    }
+  ],
+  "input_tokens": 5261,
+  "output_tokens": 1170,
+  "usd": 0.00614,
+  "seconds": 9.2,
+  "ok": true
+}

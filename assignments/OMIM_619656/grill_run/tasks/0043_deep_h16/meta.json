@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"truncating\" \"congenital heart disease\" \"heterotaxy\"",
+    "SMAD2 truncating loss of function variants congenital heart disease heterotaxy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/humu.23627",
+      "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+      "pmid": null,
+      "doi": "10.1002/humu.23627",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23627",
+      "abstract_chars": 1297
+    },
+    {
+      "id": "https://www.mdpi.com/2218-273X/9/12/879",
+      "title": "Genetics of congenital heart disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2218-273X/9/12/879",
+      "abstract_chars": 712
+    },
+    {
+      "id": "38546930",
+      "title": "Understanding the genetic and non-genetic interconnections in the aetiology of isolated congenital heart disease: an updated review: part 1",
+      "pmid": "38546930",
+      "doi": "10.1007/s11886-024-02022-9",
+      "url": "https://link.springer.com/article/10.1007/s11886-024-02022-9",
+      "abstract_chars": 1618
+    },
+    {
+      "id": "38884744",
+      "title": "Human genetics of defects of situs",
+      "pmid": "38884744",
+      "doi": "10.1007/978-3-031-44087-8_42",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-44087-8_42",
+      "abstract_chars": 963
+    },
+    {
+      "id": "10.1007/978-3-030-85536-9_10",
+      "title": "Sequelae of Genetic Defects in Cardiomyocytes",
+      "pmid": null,
+      "doi": "10.1007/978-3-030-85536-9_10",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-85536-9_10",
+      "abstract_chars": 0
+    },
+    {
+      "id": "30157302",
+      "title": "Variable cardiovascular phenotypes associated with ...",
+      "pmid": "30157302",
+      "doi": "10.1002/humu.23627",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30157302/",
+      "abstract_chars": 1297
+    },
+    {
+      "id": "32144877",
+      "title": "A founder truncating variant in GDF1 causes autosomal ...",
+      "pmid": "32144877",
+      "doi": "10.1002/ajmg.a.61509",
+      "url": "https://www.researchgate.net/publication/339772893_A_founder_truncating_variant_in_GDF1_causes_autosomal-recessive_right_isomerism_and_associated_congenital_heart_defects_in_multiplex_Arab_kindreds",
+      "abstract_chars": 1354
+    },
+    {
+      "id": "https://www.ovid.com/01445433-201812000-00016",
+      "title": "Variable cardiovascular phenotypes associated with SMAD2 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ovid.com/01445433-201812000-00016",
+      "abstract_chars": 1297
+    },
+    {
+      "id": "10.1161/CIR.0000000000000606",
+      "title": "Genetic Basis for Congenital Heart Disease: Revisited",
+      "pmid": null,
+      "doi": "10.1161/CIR.0000000000000606",
+      "url": "https://www.ahajournals.org/doi/10.1161/CIR.0000000000000606",
+      "abstract_chars": 1682
+    },
+    {
+      "id": "40028843",
+      "title": "Modeling SMAD2 Mutations in Induced Pluripotent Stem Cells Provides Insights Into Cardiovascular Disease Pathogenesis",
+      "pmid": "40028843",
+      "doi": "10.1161/JAHA.124.036860",
+      "url": "https://www.ahajournals.org/doi/abs/10.1161/JAHA.124.036860",
+      "abstract_chars": 2448
+    }
+  ],
+  "input_tokens": 6668,
+  "output_tokens": 3040,
+  "usd": 0.01245,
+  "seconds": 19.6,
+  "ok": true
+}

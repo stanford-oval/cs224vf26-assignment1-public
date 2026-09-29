@@ -1,0 +1,74 @@
+{
+  "patterns": [
+    {
+      "pattern": "Domain-specific functional disruption dictates multisystem syndromic penetrance versus isolated neurodevelopmental delay",
+      "abstraction": "Allelic heterogeneity wherein missense alterations within specialized structural binding motifs trigger distinct, highly penetrant syndromic malformations, while general truncating loss-of-function variants across the gene produce milder, variable, or isolated neurocognitive phenotypes.",
+      "instance": "In KDM2B, missense variants clustered within the CxxC zinc finger domain produce congenital heart defects in 74% to 78% (14/19) of cases with complete neurodevelopmental penetrance, whereas non-CxxC premature loss-of-function variants (pLOF) yield CHD in 60% (3/5), contiguous 12q24.31 microdeletions yield CHD in 25% (3/12), and JmjC domain variants display incomplete penetrance (<50% multisystem triad).",
+      "direction": "Conduct structural and functional chromatin-binding assays to evaluate whether CxxC domain variants exert dominant-negative or neomorphic disruption on non-methylated CpG island targeting compared to simple haploinsufficiency.",
+      "support": "Strong; supported across multiple independent cohorts (n=19 CxxC cohort, n=21 discovery cohort, n=68 aggregated cohort) by van Oirsouw et al. (2025, 2026) and Gomes et al. (2026).",
+      "sources": [
+        "ASE van Oirsouw et al. (2025) KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome 10.1093/hmg/ddaf082",
+        "ASE van Oirsouw et al. (2026) Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome 10.1111/cge.70169",
+        "A Gomes et al. (2026) KDM2B\u2010Related Neurodevelopmental Disorder A Case\u2010Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features 10.1002/ajmga.70036"
+      ],
+      "hypothesis": "CxxC zinc finger missense variants alter chromatin residence time or displace polycomb repressive complex 1.1 complexes inappropriately across the genome, driving structural cardiogenesis failure that does not occur in simple 50% gene dosage reduction.",
+      "novelty": "Counterintuitive because truncating loss-of-function alleles are traditionally presumed to cause the most severe presentation in haploinsufficiency disorders, whereas in KDM2B specific missense alleles cause a markedly more severe multisystem syndromic phenotype than complete gene deletions."
+    },
+    {
+      "pattern": "Ascertainment bias in initial discovery cohorts artificially skews estimates of cognitive and syndromic penetrance",
+      "abstraction": "Early disease delineation in cohorts pre-selected for syndromic intellectual disability creates an artifactual appearance of obligate (100%) penetrance that softens into incomplete penetrance and variable expressivity as broader unselected sequencing cohorts are assessed.",
+      "instance": "Initial discovery cohorts of OMIM #621474 reported 100% (21/21) penetrance for intellectual disability and developmental delay, but expansion to aggregated cohorts (n=68) revealed non-penetrant carriers and milder presentations, particularly among non-CxxC pLOF and JmjC variants.",
+      "direction": "Re-evaluate population biobanks and unselected non-syndromic developmental delay cohorts for uncharacterized KDM2B loss-of-function and missense variants to establish true baseline clinical penetrance.",
+      "support": "Moderate to high; backed by findings in van Jaarsveld et al. (2023) and subsequent broader cohorts reported by van Oirsouw et al. (2026).",
+      "sources": [
+        "RH Van Jaarsveld et al. (2023) Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "ASE van Oirsouw et al. (2026) Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome 10.1111/cge.70169",
+        "JDJ Labonne et al. (2016) An atypical 12q24.31 microdeletion implicates six genes including a histone demethylase KDM2B and a histone methyltransferase SETD1B in syndromic intellectual \u2026 10.1007/s00439-016-1668-4"
+      ],
+      "hypothesis": "Asymptomatic or mildly affected adult carriers of non-CxxC KDM2B truncating variants exist in general population databases at frequencies higher than expected for an obligate syndromic disorder.",
+      "novelty": "Highlights how clinical geneticists risk over-counseling parents regarding cognitive severity when relying solely on initial discovery series."
+    },
+    {
+      "pattern": "Phenotypic mimicry of established chromatinopathies paired with an absence of verified negative radiologic discriminators",
+      "abstraction": "When novel genetic syndromes present with multi-organ triads overlapping classical syndromes, the absence of hallmark signs cannot serve as diagnostic exclusion criteria unless targeted specialized evaluations have been systematically conducted.",
+      "instance": "KDM2B-related disorder exhibits overlapping features with CHARGE and Kabuki syndromes (cardiac defects, developmental delay, renal and ocular anomalies), while consistently lacking limb reduction defects or coarse facial storage features; however, absence of choanal atresia and semicircular canal hypoplasia cannot clinically rule out CHARGE because temporal bone imaging has not been systematically documented in KDM2B cohorts.",
+      "direction": "Systematically perform temporal bone computed tomography and comprehensive otolaryngologic examinations in prospective KDM2B cohorts to determine if inner ear and choanal architectures are genuinely spared.",
+      "support": "Moderate; evidenced by comparative analyses between CHARGE cohorts (Wineland et al., Ha et al.) and KDM2B series (van Jaarsveld et al., van Oirsouw et al., Balow et al.).",
+      "sources": [
+        "SA Balow et al. (2013) Knockdown of fbxl10/kdm2bb rescues chd7 morphant phenotype in a zebrafish model of CHARGE syndrome 10.1016/j.ydbio.2013.07.026",
+        "RH Van Jaarsveld et al. (2023) Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature https://www.sciencedirect.com/science/article/pii/S109836002200942X",
+        "ASE van Oirsouw et al. (2025) KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome 10.1093/hmg/ddaf082"
+      ],
+      "hypothesis": "Prospective high-resolution temporal bone CT imaging in individuals with KDM2B variants will reveal normal semicircular canal anatomy, formally verifying inner ear morphology as an imaging biomarker separating KDM2B from CHARGE syndrome.",
+      "novelty": "Identifies a major blind spot in syndromic differentiation where clinicians rely on pertinent negatives that are actually unexamined ascertainment gaps."
+    },
+    {
+      "pattern": "Predominance of non-structural and functional organ phenotypes over severe structural dysgenesis in variable multisystem triads",
+      "abstraction": "Syndromes historically designated by major structural malformations frequently express milder, functional, or refractive endophenotypes in the same organ systems, leading to under-recognition in routine clinical screening.",
+      "instance": "While OMIM #621474 designates ocular and renal abnormalities as key features, severe structural malformations (coloboma, anophthalmia, unilateral renal agenesis) occur in only 25% to 50% of cases, whereas consecutive case series demonstrate refractive errors (e.g. 3/3 myopic astigmatism in Gomes et al.) and mild or non-structural anomalies rather than severe dysgenesis.",
+      "direction": "Update diagnostic screening algorithms to mandate comprehensive cycloplegic refraction and subtle urinary ultrasound screening rather than restricting suspicion only to severe structural coloboma or renal agenesis.",
+      "support": "Strong; supported by Gomes et al. (2026), Ceroni et al. (2026), and van Oirsouw et al. (2025).",
+      "sources": [
+        "A Gomes et al. (2026) KDM2B\u2010Related Neurodevelopmental Disorder A Case\u2010Series Supporting the CxxC Domain Phenotype With Emphasis on Ocular and Dermatologic Features 10.1002/ajmga.70036",
+        "F Ceroni et al. (2026) Variants in the CxxC domain of the epigenetic regulator KDM2B support its role in developmental eye anomalies PMC13247248",
+        "ASE van Oirsouw et al. (2025) KDM2B variants in the CxxC domain impair its DNA-binding ability and cause a distinct neurodevelopmental syndrome https://academic.oup.com/hmg/article-abstract/34/16/1353/8150966"
+      ],
+      "hypothesis": "The primary developmental impact of KDM2B in the eye is on retinal cell differentiation and axial globe growth rather than embryonic fissure closure, explaining high penetrance of refractive errors over true coloboma.",
+      "novelty": "Refutes the assumption that severe structural ocular defects (coloboma/microphthalmia) are obligatory hallmarks (>75%) of KDM2B CxxC mutations, illustrating how specialized ascertainment panels (e.g., developmental eye disorder clinics) distort the perceived physical phenotype."
+    },
+    {
+      "pattern": "Bifurcation of molecular and visual computational biomarkers overcoming subtle facial dysmorphology",
+      "abstraction": "When human facial gestalt is subtle and phenotypic overlap prevents confident bedside differentiation among chromatin-associated disorders, multi-modal computational tools and genome-wide epigenetic signatures decouple diagnostic certainty from subjective physical examination.",
+      "instance": "KDM2B lacks a coarse or distinct gestalt recognizable by casual physical inspection, but machine-learning facial phenotyping (GestaltMatcher) and peripheral blood DNA methylation episignatures separate CxxC and haploinsufficiency variants from Kabuki and CHARGE syndromes.",
+      "direction": "Develop unified machine learning classifiers combining deep-learning facial image analysis with peripheral blood DNA methylation episignature profiles to resolve variants of uncertain significance in KDM2B.",
+      "support": "Moderate to strong; evidenced by van Jaarsveld et al. (2023), van Oirsouw et al. (2025, 2026), and Levy et al. (2022).",
+      "sources": [
+        "RH Van Jaarsveld et al. (2023) Delineation of a KDM2B-related neurodevelopmental disorder and its associated DNA methylation signature 10.1016/j.gim.2022.09.006",
+        "ASE van Oirsouw et al. (2026) Comprehensive Assessment of the KDM2B\u2010Associated Neurodevelopmental Disorder and the 12q24. 31 Microdeletion Syndrome 10.1111/cge.70169",
+        "MA Levy et al. (2022) Novel diagnostic DNA methylation episignatures expand and refine the epigenetic landscapes of Mendelian disorders https://www.cell.com/hgg-advances/fulltext/S2666-2477(21)00056-7"
+      ],
+      "hypothesis": "Automated integration of 3D facial photogrammetry with domain-specific DNA episignature classifiers achieves >98% specificity in separating KDM2B CxxC variants from CHD7 and KMT2D mutations without requiring invasive tissue biopsy.",
+      "novelty": "Demonstrates how computational phenotyping transforms subtle or non-pathognomonic dysmorphisms into objective diagnostic criteria."
+    }
+  ]
+}

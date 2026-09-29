@@ -1,0 +1,98 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive cohort data and recent phenotypic reviews support the hypothesis. In the defining cohort of 45 patients with biallelic ACBD6 mutations (Kaiyrzhanov et al., 2024), progressive dystonia was present in 94% (42/45), accompanied by distinctive midline commissural neuroimaging abnormalities, notably corpus callosum abnormalities in 70% and anterior commissure hypoplasia or agenesis in 66%. Review and cluster analyses of childhood hyperkinetic neurodevelopmental disorders (Morales-Briceno et al., 2026; Ostrozovicova & Skorvanek, 2026) corroborate that while hyperkinetic phenomenologies (dystonia, chorea) overlap broadly across conditions such as GNAO1, NKX2-1, and NBIA, the presence of specific commissural anomalies (corpus callosum dysgenesis and anterior commissure hypoplasia/agenesis) serves as a distinctive neuroimaging signature differentiating ACBD6 deficiency from phenocopies lacking these specific midline dysplasias.",
+  "evidence": [
+    {
+      "text": "In a multicentre cohort of 45 affected individuals with bi-allelic ACBD6 variants, the movement disorder profile was dominated by dystonia (94%), while neuroimaging revealed midline brain malformations including corpus callosum abnormalities (70%) and hypoplasia/agenesis of the anterior commissure (66%).",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%), limb dystonia (55%) and cervical dystonia (31%)... Midline brain malformations including corpus callosum abnormalities (70%), hypoplasia/agenesis of the anterior commissure (66%), short midbrain and small inferior cerebellar vermis (38% each) as well as hypertrophy of the clava (24%) were common neuroimaging findings."
+      },
+      "numbers": [
+        {
+          "metric": "dystonia_frequency_percent",
+          "value": 94
+        },
+        {
+          "metric": "corpus_callosum_abnormalities_percent",
+          "value": 70
+        },
+        {
+          "metric": "anterior_commissure_hypoplasia_agenesis_percent",
+          "value": 66
+        },
+        {
+          "metric": "total_cohort_size",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "text": "In a comprehensive data-driven review of hyperkinetic movement disorders in neurodevelopmental syndromes, structural imaging features such as corpus callosal dysgenesis/agenesis combined with dystonia and ataxia are highlighted as critical discriminating clues for recessive ACBD6 mutations relative to other childhood hyperkinetic monogenic disorders.",
+      "stance": "supports",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "ataxia and corpus callosal agenesis suggest recessive ACBD6 mutations, where axial dystonia is"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of genetic chorea and hyperkinetic phenotypes highlights bi-allelic ACBD6 variants as causing a distinct neurodevelopmental syndrome presenting with dystonia, ataxia, and structural commissural/brainstem defects such as hypoplasia or agenesis of the anterior commissure and midbrain abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Update on Genetic Chorea",
+        "authors": [
+          "M Ostrozovicova",
+          "M Skorvanek"
+        ],
+        "year": 2026,
+        "journal": "Current Treatment Options in Neurology",
+        "doi": "10.1007/s11910-026-01502-5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11910-026-01502-5",
+        "quote": "plasia or agenesis of the anterior commissure, short midbrain\u2026 with pure ataxia, dystonia or neurodevelopmental phenotypes\u2026 Bi-allelic ACBD6 variants lead to a neurodevelopmental"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "How do quantitative anterior commissure volumetric measurements compare between ACBD6 deficiency and other early-onset monogenic dystonia-chorea syndromes?",
+      "rationale": "Anterior commissure hypoplasia or agenesis is frequently missed or under-reported on routine clinical MRI unless specifically sought; prospective quantitative commissural volumetrics could establish precise sensitivity and specificity cutoffs.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does claval hypertrophy (reported in 24% of ACBD6 cases) represent a pathognomonic radiological marker absent across classic NBIA, GNAO1, and NKX2-1 disorders?",
+      "rationale": "While corpus callosum abnormalities occur in several genetic neurodevelopmental syndromes, claval hypertrophy and anterior commissure dysgenesis are exceptionally rare and could provide almost definitive specificity.",
+      "promise": 0.88,
+      "est_cost": 18000
+    }
+  ]
+}

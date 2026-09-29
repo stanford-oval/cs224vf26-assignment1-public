@@ -1,0 +1,134 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While molecular investigation confirms a dichotomy in functional mechanisms and DNA methylation episignatures between truncating variants (inducing MAU2 haploinsufficiency and secondary NIPBL reduction) and in-frame variants (primarily disrupting the NIPBL-MAU2 heterodimerization interface), clinical phenotypic evidence contradicts a neat, non-overlapping bimodal phenotypic severity distribution. Missense variants such as p.Arg176Trp have been demonstrated to cause significant reduction in MAU2 protein levels, overlapping functionally with loss-of-function variants. Furthermore, the earliest identified in-frame MAU2 deletion was reported in a patient displaying classic CdLS features, and large cohort analyses define CdLS7 as presenting with variable expressivity across a phenotypic spectrum rather than a clean binary separation between classical and attenuated cohesinopathy presentations.",
+  "evidence": [
+    {
+      "text": "In a cohort of 18 individuals harboring 15 heterozygous MAU2 variants, truncating variants caused MAU2 haploinsufficiency and secondary NIPBL reduction, while in-frame variants primarily impaired NIPBL-MAU2 interaction, yielding two variant-dependent MAU2-specific episignatures; however, phenotypes displayed a continuous spectrum of variable expressivity ranging from classic CdLS to milder presentations, sharing short stature and microcephaly as cardinal features.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12668068",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+        "quote": "MAU2 in-frame variants predominantly impair NIPBL\u2013MAU2 interaction, whereas truncating variants cause MAU2 haploinsufficiency and lead to NIPBL reduction. Most patients exhibit a DNA methylation profile compatible with the CdLS episignature. We also identified two MAU2-specific episignatures that reflect variant-dependent molecular consequences. Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals evaluated",
+          "value": 18
+        },
+        {
+          "metric": "heterozygous MAU2 variants identified",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "The initial identification of a pathogenic MAU2 variant involved an in-frame deletion of seven amino acids that disrupted NIPBL-MAU2 heterodimerization in a patient who presented with features fulfilling a classic Cornelia de Lange syndrome phenotype, demonstrating that non-truncating heterodimerization-disrupting variants are not restricted to attenuated presentations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+        "authors": [
+          "I Parenti",
+          "F Diab",
+          "SR Gil",
+          "E Mulugeta",
+          "V Casa",
+          "R Berutti"
+        ],
+        "year": 2020,
+        "journal": "Cell Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "quote": "Here we report a MAU2 variant causing CdLS, a deletion of seven amino acids that impairs the interaction between MAU2 and the NIPBL N terminus."
+      },
+      "numbers": [
+        {
+          "metric": "in-frame amino acid deletion length",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "A de novo missense variant in MAU2 (c.526C>T, p.Arg176Trp) in a patient with atypical facial features and growth retardation led in vitro to significantly reduced mutant MAU2 protein levels alongside increased binding free energy, demonstrating that missense variants can also provoke protein instability and partial haploinsufficiency rather than purely isolated interface disruption.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy",
+        "authors": [
+          "Y Peng",
+          "Y Zhu",
+          "L Wu",
+          "F Deng"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2318",
+        "pmid": "37962004",
+        "pmc": "PMC10767608",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.2318",
+        "quote": "The results showed that the level of the exogenous MAU2 mutant protein was significantly reduced compared with that of the exogenous wild-type protein. However, MD analysis predicted an increased binding free energy between the MAU2 and NIPBL proteins that may impact the structural stability of the complex."
+      },
+      "numbers": [
+        {
+          "metric": "patients described",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Investigation of N-terminal NIPBL-MAU2 interaction domain mutations showed that marked disruption of the NIPBL-MAU2 interaction does not consistently delineate a distinct clinical severity or phenotype from other cohesinopathy presentations, indicating additional determinants modulate the clinical phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Isolated NIBPL missense mutations that cause Cornelia de Lange syndrome alter MAU2 interaction",
+        "authors": [
+          "D Braunholz",
+          "M Hullings",
+          "MC Gil"
+        ],
+        "year": 2012,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/ejhg2011175",
+        "quote": "We demonstrate that specific novel mutations at the N-terminus of the MAU2-interacting domain of NIBPL result in markedly reduced MAU2 binding, although we appreciate no consistent clinical difference in the small group of patients with these mutations. These data suggest that factors in addition to MAU2 are essential in determining the clinical features and severity of CdLS."
+      },
+      "numbers": [
+        {
+          "metric": "approximate proportion of CdLS explained by NIPBL",
+          "value": 0.6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Molecular categorization demonstrates two distinct MAU2-specific DNA methylation episignatures segregated by truncating vs. in-frame variant type, but clinical phenotyping across cohorts displays a continuous spectrum of variable expressivity rather than an absolute bimodal severity division.",
+    "Patients harboring in-frame deletions and missense variants have exhibited classic dysmorphic facial and systemic features of CdLS, contradicting the premise that classical dysmorphology is exclusively restricted to truncating/haploinsufficient alleles.",
+    "Missense variants can destabilize MAU2 protein abundance in vitro, blurring the functional boundary between interface disruption and haploinsufficiency."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does international clinical consensus scoring (Kline et al. CdLS clinical score) correlate quantitatively with MAU2 episignature subtype across an expanded multi-center cohort?",
+      "rationale": "Testing whether the two separate MAU2 episignatures map to statistically different mean clinical diagnostic scores will establish whether phenotypic severity aligns quantitatively with molecular groupings despite phenotypic overlap.",
+      "promise": 0.85,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "Do non-truncating MAU2 variants outside the NIPBL-interaction domain affect alternative cohesin regulatory functions or protein turnover pathways?",
+      "rationale": "Determining whether variants that cause protein degradation rather than heterodimer interface disruption correlate with more severe phenotypes will refine genotype-phenotype models.",
+      "promise": 0.75,
+      "est_cost": 25000
+    }
+  ]
+}

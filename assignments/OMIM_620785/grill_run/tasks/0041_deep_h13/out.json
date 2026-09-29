@@ -1,0 +1,91 @@
+{
+  "verdict": "supported",
+  "rationale": "Evaluation of the published literature demonstrates that hematologic dysfunction (such as refractory pancytopenia or severe recurring bone marrow failure-associated infections) is not a core manifestation of ACBD6 deficiency. In the comprehensive international multi-center cohort study by Kaiyrzhanov et al. (2024) comprising 45 affected individuals across 28 unrelated families spanning ages 1 to 50 years, the cardinal and near-universal features were restricted to neurodevelopmental delay/intellectual disability (100%), progressive complex movement disorders dominated by dystonia (94-97%), ataxia (85%), pyramidal spasticity (76%), facial dysmorphism (95%), and midline brain malformations (e.g., corpus callosum hypoplasia/agenesis in 70%). Neither refractory cytopenias nor primary hematologic failure were identified as recurring phenotypic components in this large cohort. Hematologic dysfunction has only been documented in a single family report by Yeetong et al. (2022) involving two Thai adult siblings with a homozygous frameshift variant who presented with morbid obesity, diabetes, cirrhosis, renal failure, and pancytopenia with severe infections, which likely reflects either an extremely rare phenotypic extreme, secondary end-organ sequelae, or an unlinked consanguinity-associated recessive defect.",
+  "evidence": [
+    {
+      "text": "In an international cohort of 45 affected individuals from 28 families aged 1-50 years with bi-allelic loss-of-function variants in ACBD6, the clinical presentation was characterized by global developmental delay/intellectual disability (100%), speech delay (98%), progressive movement disorders (97%, predominantly dystonia in 94%), ataxia (85%), and midline brain malformations (70%), with no recurrent hematologic dysfunction or pancytopenia reported as a core cardinal phenotype.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Using exome sequencing and extensive international data sharing efforts, we identified 45 affected individuals from 28 unrelated families (consanguinity 93%) with bi-allelic pathogenic, predominantly loss-of-function (18/20) variants in ACBD6... The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals cohort size",
+          "value": 45
+        },
+        {
+          "metric": "unrelated families",
+          "value": 28
+        },
+        {
+          "metric": "global developmental delay/intellectual disability frequency",
+          "value": "45/45"
+        },
+        {
+          "metric": "movement disorders frequency",
+          "value": "44/45"
+        },
+        {
+          "metric": "dystonia frequency",
+          "value": "42/45"
+        }
+      ]
+    },
+    {
+      "text": "Yeetong et al. expanded the phenotypic spectrum of ACBD6 deficiency by describing two Thai siblings harboring a homozygous single-base duplication (c.360dup; p.Leu121Thrfs*27) who developed morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to early mortality.",
+      "stance": "neutral",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia, Diabetes Mellitus, Cirrhosis, and Renal Failure in ACBD6-Associated Syndrome: A Case Report",
+        "authors": [
+          "P Yeetong",
+          "N Tanpowpong",
+          "S Rakwongkhachon"
+        ],
+        "year": 2022,
+        "journal": "Neurology: Genetics",
+        "doi": "10.1212/nxg.0000000000200046",
+        "pmid": "36457943",
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/nxg.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s. Molecular studies identified a novel homozygous 1 base-pair duplication (c.360dup; p.Leu121Thrfs*27) in the ACBD6 gene."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings described with pancytopenia",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Yeetong et al. (2022) reported pancytopenia with severe recurring infections as an expanding feature in 2 affected siblings with ACBD6 deficiency, whereas the larger multi-center study of 45 patients by Kaiyrzhanov et al. (2024) did not report hematologic failure or cytopenia as a recurring feature."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Is the pancytopenia in the Thai siblings described by Yeetong et al. directly caused by ACBD6 loss-of-function or secondary to hypersplenism and cirrhosis/chronic renal disease?",
+      "rationale": "Cirrhosis and portal hypertension can induce congestive splenomegaly leading to secondary pancytopenia, which would differentiate primary bone marrow failure from non-hematologic multi-organ failure sequelae.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does ACBD6 deficiency affect human hematopoietic stem and progenitor cell proliferation and myristoylation profiles in vitro?",
+      "rationale": "Testing cord blood or iPSC-derived ACBD6 knockout hematopoiesis models can definitively establish whether human bone marrow lineages depend cell-autonomously on ACBD6-regulated N-myristoylation.",
+      "promise": 0.8,
+      "est_cost": 45000
+    }
+  ]
+}

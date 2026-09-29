@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Cornelia de Lange syndrome\" \"MAU2\" \"synophrys\" eyebrows",
+    "MAU2 Cornelia de Lange syndrome synophrys eyebrow phenotype frequency"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41467-026-71177-6",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41467-026-71177-6",
+      "abstract_chars": 1083
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "title": "Cornelia de Lange spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "abstract_chars": 1660
+    },
+    {
+      "id": "PMC12668068",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+      "abstract_chars": 1103
+    },
+    {
+      "id": "25209348",
+      "title": "Cornelia de Lange syndrome",
+      "pmid": "25209348",
+      "doi": "10.1111/cge.12499",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.12499",
+      "abstract_chars": 1199
+    },
+    {
+      "id": "https://www.mdpi.com/2077-0383/13/8/2423",
+      "title": "Advancing the clinical and molecular understanding of cornelia de lange syndrome: A multidisciplinary pediatric case series and review of the literature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2077-0383/13/8/2423",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "https://www.malacards.org/card/cornelia_de_lange_syndrome",
+      "title": "Cornelia De Lange Syndrome (CDL)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/cornelia_de_lange_syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621570",
+      "title": "621570 - CORNELIA DE LANGE SYNDROME 7; CDLS7",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621570",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/mgg3.2318",
+      "title": "Clinical study and genetic analysis of Cornelia de Lange ...",
+      "pmid": null,
+      "doi": "10.1002/mgg3.2318",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mgg3.2318",
+      "abstract_chars": 1229
+    },
+    {
+      "id": "41088053",
+      "title": "Ophthalmological findings in Brazilian Cornelia de Lange syndrome patients with NIPBL variants",
+      "pmid": "41088053",
+      "doi": "10.1186/s12886-025-04401-4",
+      "url": "https://link.springer.com/article/10.1186/s12886-025-04401-4",
+      "abstract_chars": 1829
+    }
+  ],
+  "input_tokens": 5421,
+  "output_tokens": 1175,
+  "usd": 0.00624,
+  "seconds": 18.9,
+  "ok": true
+}

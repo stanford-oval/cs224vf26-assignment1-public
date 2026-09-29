@@ -1,0 +1,135 @@
+{
+  "verdict": "conflicted",
+  "rationale": "All reported cohorts with biallelic GTF3C3 variants universally present with intellectual disability, developmental delay, and neurological impairment, firmly supporting normal neurodevelopment as a robust negative predictor. However, regarding neuroimaging, while primary cohorts (Abdel-Hamid et al., De Hayr et al., L\u00f3pez et al.) report cerebellar atrophy, corpus callosum abnormalities, and frontal hypoplasia across their cohorts, an earlier report of a patient with a GTF3C3 variant and developmental and epileptic encephalopathy noted that cerebral MRI showed no structural anomalies. Therefore, while normal neurodevelopment strongly argues against NEDFABS, the assertion that normal brain MRI conclusively rules out the diagnosis remains conflicted.",
+  "evidence": [
+    {
+      "text": "Four individuals from three families with biallelic GTF3C3 variants displayed developmental delay, intellectual disability, microcephaly, and brain imaging abnormalities including brain atrophy with predominant cerebellar involvement and frontal lobe hypoplasia.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "The patients exhibited microcephaly, developmental delay, intellectual disability and distinctive dysmorphic facies that appear recognizable in very young children. Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern."
+      },
+      "numbers": [
+        {
+          "metric": "developmental delay / intellectual disability prevalence",
+          "value": "4/4"
+        },
+        {
+          "metric": "brain atrophy with cerebellar involvement prevalence",
+          "value": "4/4"
+        },
+        {
+          "metric": "seizures prevalence",
+          "value": "2/4"
+        }
+      ]
+    },
+    {
+      "text": "Twelve affected individuals from seven families with homozygous or compound heterozygous missense variants in GTF3C3 presented with intellectual disability, motor impairments, and cerebellar and corpus callosum malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "Twelve affected individuals from 7 unrelated families were identified with homozygous or compound heterozygous missense variants in GTF3C3... The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations."
+      },
+      "numbers": [
+        {
+          "metric": "intellectual disability cohort prevalence",
+          "value": "12/12"
+        },
+        {
+          "metric": "affected families assessed",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "In a whole-exome sequencing study supporting GTF3C3 candidacy in early-onset epileptic encephalopathies, a patient presenting with severe developmental and epileptic encephalopathy had cerebral MRI showing no structural brain malformations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The role of recessive inheritance in early-onset epileptic encephalopathies: a combined whole-exome sequencing and copy number study",
+        "authors": [
+          "SM Papuc",
+          "L Abela",
+          "K Steindl",
+          "A Begemann"
+        ],
+        "year": 2019,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-018-0299-8",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-018-0299-8",
+        "quote": "had a severe DEE phenotype but cerebral MRI showed no ... consider GTF3C3 as a candidate for neurodevelopmental"
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 63
+        }
+      ]
+    },
+    {
+      "text": "Case report of a patient with novel biallelic GTF3C3 variants confirmed marked cerebellar anomalies consistent with previously reported cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+        "authors": [
+          "L L\u00f3pez"
+        ],
+        "year": 2026,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2026.1860633/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+        "quote": "At that moment, brain MRI confirmed marked cerebellar ... genes associated with neurodevelopmental disorders (NDDs)"
+      },
+      "numbers": [
+        {
+          "metric": "patients described",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While cohorts in Abdel-Hamid et al. (4/4) and De Hayr et al. (12/12) exhibit overt brain malformations (cerebellar atrophy, corpus callosum abnormalities, frontal hypoplasia), Papuc et al. (2019) documented a DEE patient with GTF3C3 involvement whose cerebral MRI showed no identifiable malformations, demonstrating that brain MRI abnormalities may not be strictly required early in the disease course."
+  ],
+  "confidence": 0.72,
+  "new_directions": [
+    {
+      "question_text": "Does neuroimaging in GTF3C3-related disorder progress from normal in early infancy to progressive cerebellar/cerebral atrophy with age?",
+      "rationale": "Clarifying whether the absent MRI findings in young epileptic encephalopathy patients represent an early pre-atrophic stage or true phenotypic variability will refine the negative predictive value of brain MRI.",
+      "promise": 0.88,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Which facial dysmorphisms and neurodevelopmental trajectories distinguish NEDFABS from Pol III-related leukodystrophies (POLR3A/POLR3B) and other TFIIIC-related conditions?",
+      "rationale": "Comparative deep phenotyping across Pol III transcription-complex disorders will allow clinicians to distinguish GTF3C3-specific clinical hallmarks from overlapping encephalopathies.",
+      "promise": 0.82,
+      "est_cost": 20000.0
+    }
+  ]
+}

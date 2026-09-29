@@ -1,0 +1,146 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the definitive discovery cohort of 25 individuals with Karayol-Borroto-Haghshenas neurodevelopmental syndrome (MANDS), motor coordination impairment and gait disturbances occur at a significantly higher prevalence (estimated >70%, or >=18/25) than active epileptic seizures, which represent an infrequent secondary phenotype occurring in less than 30% (<8/25) of affected individuals.",
+      "rationale": "The initial discovery paper specifically highlights motor issues such as lack of coordination, feeding difficulties, and gait disturbance alongside hypotonia and GDD/ID, while noting that seizures, connective tissue signs, sleep disturbance, and vision problems occur 'to a lesser extent'. Delineating whether seizures are core vs minor aids differential diagnosis against primary epileptic encephalopathies.",
+      "aspects": [
+        "pooled",
+        "binned"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In a discovery cohort of 25 individuals with de novo MSL2 variants, developmental delay, hypotonia, and motor issues (coordination problems, feeding difficulties, gait disturbance) were primary findings, whereas seizures and organ anomalies were documented to a lesser extent.",
+          "stance": "supports",
+          "source": {
+            "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+            "authors": [
+              "R Karayol",
+              "MC Borroto",
+              "S Haghshenas"
+            ],
+            "year": 2024,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": "38815585",
+            "pmc": null,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38815585/",
+            "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_total_patients",
+              "value": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Prenatal structural central nervous system abnormalities\u2014predominantly ventriculomegaly with or without increased nuchal translucency or lymphangioma\u2014occur in a discernible subgroup (approximately 10-20%) of MSL2-related neurodevelopmental disorder cases and can serve as an early distinguishing ultrasound marker prior to postnatal dysmorphism presentation.",
+      "rationale": "Recent prenatal case reports highlight de novo MSL2 loss-of-function/splice variants presenting prenatally with ventriculomegaly, thickened nuchal translucency, and cystic hygroma/lymphangioma. Testing whether these constitute a penetrant prenatal phenotype can establish early clinical detection criteria.",
+      "aspects": [
+        "proposed"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "The first prenatal case of an MSL2-related pathology was caused by a de novo splice variant (c.142+1G>T) presenting with bilateral moderate ventriculomegaly on prenatal ultrasound and brain MRI.",
+          "stance": "supports",
+          "source": {
+            "title": "Prenatal Diagnosis of MSL2\u2010Related Ventriculomegaly in Association With an Inherited 15q13 Microduplication",
+            "authors": [
+              "O Zgheib",
+              "T Rio Frio",
+              "JM Pellegrinelli",
+              "S Gimelli"
+            ],
+            "year": 2026,
+            "journal": "Clinical Genetics",
+            "doi": "10.1111/cge.70071",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70071",
+            "quote": "The Male-Specific Lethal 2 Homolog (MSL2) gene was recently reported to be responsible for a novel, rather severe neurodevelopmental syndrome including brain abnormalities. We report the first prenatal case of an MSL2-related pathology caused by a de novo MSL2 splice variant (c.142+1G>T)... The fetus, who presented with bilateral moderate ventriculomegaly, also carried a paternally inherited 15q13 microduplication."
+          },
+          "numbers": [
+            {
+              "metric": "prenatal_reported_cases",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "text": "Additional prenatal reports identify thickened nuchal translucency, lymphangioma, and ventriculomegaly as recurring prenatal sonographic manifestations in individuals diagnosed with MSL2-associated neurodevelopmental syndrome.",
+          "stance": "supports",
+          "source": {
+            "title": "Thickened Nuchal Translucency, Lymphangioma, and Ventriculomegaly: Prenatal Phenotypes for MSL2\u2010Related Disorders",
+            "authors": [
+              "Q Xiang",
+              "J Wang",
+              "M Yang"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC13446537",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13446537/",
+            "quote": "Thickened Nuchal Translucency, Lymphangioma, and Ventriculomegaly: Prenatal Phenotypes for MSL2\u2010Related Disorders... phenotype in a child with intellectual developmental delay who harbored a de novo variant in MSL2 \u2026 patients diagnosed with MSL2\u2010associated neurodevelopmental syndrome (MANDS)"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Unlike other MSL complex-associated syndromes (e.g., MSL3-related basilicata-akhtar syndrome or MOF/KAT8-related disorders) which exhibit globally depressed H4K16ac histone acetylation levels, MSL2 syndrome probands maintain normal global bulk H4K16ac levels, meaning biochemical H4K16ac quantification cannot be used clinically to confirm Karayol-Borroto-Haghshenas syndrome.",
+      "rationale": "Epigenetic chromatinopathies are frequently tested via functional downstream assays. Understanding that global H4K16ac levels are unchanged in MSL2 patient-derived cells rules out general histone acetylation testing as a viable functional biomarker, requiring instead peripheral blood DNA methylation episignatures or gene-specific assays.",
+      "aspects": [
+        "proposed"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "In patient iPSCs derived from the Karayol cohort, MSL2 protein levels were reduced but global H4K16ac levels were unaltered, in contrast to variants in MSL complex members MOF and MSL3.",
+          "stance": "supports",
+          "source": {
+            "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+            "authors": [
+              "R Karayol",
+              "MC Borroto",
+              "S Haghshenas"
+            ],
+            "year": 2024,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+            "quote": "Remarkably, while NDD-associated variants in two other members of the MSL complex (MOF and MSL3) result in reduced H4K16ac, global H4K16ac levels are unchanged in iPSCs with MSL2 variants. Regardless, MSL2 variants altered the expression of MSL2 targets in iPSCs and upon their differentiation to early germ layers."
+          },
+          "numbers": [
+            {
+              "metric": "ipsc_donor_lines_tested",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact per-feature clinical frequencies (numerators and denominators for craniofacial, skeletal, cardiac, and neurological signs) tabulated in Table 1 and Supplemental Table S1 of Karayol et al. (2024) across the 25 probands?",
+      "rationale": "Directly extracting the supplementary or clinical summary table from the 25-patient Karayol et al. paper will supply the exact quantitative fractions (e.g., x/25) required by clinicians to assess individual feature penetrance.",
+      "promise": 0.95,
+      "est_cost": 0.5
+    },
+    {
+      "question_text": "How do the clinical sensitivity and specificity of the Karayol et al. 2024 peripheral blood DNA methylation episignature compare to standard variant classification criteria in resolving VUSs in MSL2?",
+      "rationale": "The discovery publication established a specific DNA methylation episignature for MANDS. Evaluating its diagnostic accuracy in differentiating MSL2 from overlapping chromatinopathies (such as Rubinstein-Taybi or Coffin-Siris) is crucial for molecular diagnostics.",
+      "promise": 0.8,
+      "est_cost": 0.45
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,128 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents conflicting evidence regarding the frequency of microcephaly and seizures in LRRC7-related intellectual developmental disorder (OMIM #621415). In the largest systematic cohort study to date (Willim et al., 2024; n=33), core cardinal features were intellectual disability, autism, ADHD, aggression, and hyperphagia, while seizures were present in only a minority (6/33; 18.2%), supporting the premise that seizures and specific cranial dysmorphic features are secondary rather than cardinal features. However, Khan et al. (2026) report that microcephaly is observed in approximately one-third (~33%) of reported LRRC7 cases, directly contradicting the hypothesis that microcephaly represents an isolated, private phenotypic expansion occurring in <10% of cases. In addition, early infancy seizures have been documented across multiple distinct probands (e.g., Popp et al., 2017 and Khan et al., 2026), refuting the notion that infancy-onset seizures are entirely private to the p.Pro887Leu variant.",
+  "evidence": [
+    {
+      "text": "A proband with a de novo heterozygous missense variant in LRRC7 [c.2660C>T; p.(Pro887Leu)] presented with global developmental delay, tonic seizures, failure to thrive, mild microcephaly, intellectual disability, and hypotonia. Notably, the study notes that microcephaly is present in roughly one-third of reported cases.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Microcephaly, present in roughly one- third of reported cases, and seizures\u2014observed in \u2026 Our findings thus expand the mutational and phenotypic spectrum of LRRC7- related disorders"
+      },
+      "numbers": [
+        {
+          "metric": "microcephaly prevalence estimate across reported cases",
+          "value": "~33%"
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 33 individuals with heterozygous LRRC7 variants, the dominant cardinal phenotype comprised intellectual disability, autism, ADHD, aggression, and hyperphagia-associated obesity, whereas varying types of seizures were noted in only six individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s41467-024-52095-x",
+        "quote": "Varying types of seizures were reported in six patients; and five patients"
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 33
+        },
+        {
+          "metric": "individuals with seizures",
+          "value": 6
+        },
+        {
+          "metric": "percentage with seizures",
+          "value": 18.2
+        }
+      ]
+    },
+    {
+      "text": "Exome Pool-Seq identified a de novo loss-of-function variant in LRRC7 in a patient presenting with mild intellectual disability, absence seizures in early infancy, and obesity, demonstrating that infantile-onset seizures occur in patients outside of the p.Pro887Leu linker-region missense variant.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Exome Pool-Seq in neurodevelopmental disorders",
+        "authors": [
+          "B Popp",
+          "AB Ekici",
+          "CT Thiel",
+          "J Hoyer"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s41431-017-0022-1",
+        "quote": "in LRRC7 in a patient with mild ID, absence seizures in early infancy and obesity."
+      },
+      "numbers": [
+        {
+          "metric": "patients described with early infancy seizures",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry 621415 records that a minority of patients exhibit seizures, ADHD, or aggressive behavior, and highlights the lack of consistent characteristic dysmorphic features.",
+      "stance": "supports",
+      "source": {
+        "title": "621415 - INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL DOMINANT 77; MRD77",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621415",
+        "quote": "A minority of patients have seizures, ADHD, or aggressive behavior. Seizures were reported in several patients. There were no characteristic"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Khan et al. (2026) report that microcephaly occurs in approximately one-third (~33%) of reported LRRC7 cases, conflicting with the hypothesis that structural cranial abnormalities are infrequent/private (<10%).",
+    "Early infancy-onset seizures are reported in multiple unrelated probands across different variant classes (including a de novo loss-of-function variant described by Popp et al., 2017 and a missense variant by Khan et al., 2026), refuting the claim that infantile seizures are an isolated, private feature restricted to specific linker-region missense variants."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true frequency of standardized occipitofrontal circumference (OFC) <-2 SD across all published LRRC7 variant carriers when aggregating clinical measurement data?",
+      "rationale": "Statements claiming microcephaly occurs in ~33% of cases must be systematically verified against individual-level anthropometric Z-scores across all cohort papers to resolve the conflict with larger series reporting absence of recurrent dysmorphic cranial signs.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Do variants mapping to the LRRC7 linker region alter protein-protein interactions differently than LRR or PDZ domain variants in a way that correlates with seizure severity?",
+      "rationale": "Willim et al. (2024) demonstrated domain-specific functional consequences (e.g., PDZ domain altering synaptic targeting; LRR domain disrupting PP1 binding). Assessing linker-region variants like p.Pro887Leu in similar assays could establish if epileptogenic mechanisms are variant-specific.",
+      "promise": 0.78,
+      "est_cost": 45000.0
+    }
+  ]
+}

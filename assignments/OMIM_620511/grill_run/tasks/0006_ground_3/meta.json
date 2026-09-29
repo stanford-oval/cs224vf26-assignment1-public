@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"HP:0001249\" \"Intellectual disability\" \"Human Phenotype Ontology\" definition",
+    "Human Phenotype Ontology HP 0001249 Intellectual disability definition"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "35460582",
+      "title": "Computational analysis of neurodevelopmental phenotypes: Harmonization empowers clinical discovery",
+      "pmid": "35460582",
+      "doi": "10.1002/humu.24389",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24389",
+      "abstract_chars": 1533
+    },
+    {
+      "id": "10.3389/fdgth.2026.1794934/full",
+      "title": "Using GPT-4 to annotate the severity of all phenotypic abnormalities within the human phenotype ontology",
+      "pmid": null,
+      "doi": "10.3389/fdgth.2026.1794934/full",
+      "url": "https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2026.1794934/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "22573485",
+      "title": "Ontological phenotype standards for neurogenetics",
+      "pmid": "22573485",
+      "doi": "10.1002/humu.22112",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.22112",
+      "abstract_chars": 1450
+    },
+    {
+      "id": "25781962",
+      "title": "Gene networks underlying convergent and pleiotropic phenotypes in a large and systematically-phenotyped cohort with heterogeneous developmental disorders",
+      "pmid": "25781962",
+      "doi": "10.1371/journal.pgen.1005012",
+      "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005012",
+      "abstract_chars": 1815
+    },
+    {
+      "id": "10.1101/2024.06.10.24308475.abstract",
+      "title": "Harnessing generative AI to annotate the severity of all phenotypic abnormalities within the human phenotype ontology",
+      "pmid": null,
+      "doi": "10.1101/2024.06.10.24308475.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.06.10.24308475.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://tadeus2.mimuw.edu.pl/ontologies/genes/26087?sort=-name&page=7",
+      "title": "TADeus2",
+      "pmid": null,
+      "doi": null,
+      "url": "https://tadeus2.mimuw.edu.pl/ontologies/genes/26087?sort=-name&page=7",
+      "abstract_chars": 0
+    },
+    {
+      "id": "30372562",
+      "title": "Genotype and phenotype variability in Sj\u00f6gren\u2010Larsson ...",
+      "pmid": "30372562",
+      "doi": "10.1002/humu.23679",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6587760/",
+      "abstract_chars": 1461
+    },
+    {
+      "id": "32897294",
+      "title": "Understanding microcephaly through the study of centrosome ...",
+      "pmid": "32897294",
+      "doi": "10.1042/bst20200261",
+      "url": "https://portlandpress.com/biochemsoctrans/article/48/5/2101/226361/Understanding-microcephaly-through-the-study-of",
+      "abstract_chars": 1071
+    },
+    {
+      "id": "https://github.com/neurogenomics/gpt_hpo_annotations/blob/master/manuscript.qmd",
+      "title": "manuscript.qmd - neurogenomics/gpt_hpo_annotations",
+      "pmid": null,
+      "doi": null,
+      "url": "https://github.com/neurogenomics/gpt_hpo_annotations/blob/master/manuscript.qmd",
+      "abstract_chars": 0
+    },
+    {
+      "id": "http://bioconductor.posit.co/packages/3.24/bioc/vignettes/PCAN/inst/doc/PCAN.html",
+      "title": "PCAN.knit",
+      "pmid": null,
+      "doi": null,
+      "url": "http://bioconductor.posit.co/packages/3.24/bioc/vignettes/PCAN/inst/doc/PCAN.html",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3864,
+  "output_tokens": 1920,
+  "usd": 0.00769,
+  "seconds": 18.9,
+  "ok": true
+}

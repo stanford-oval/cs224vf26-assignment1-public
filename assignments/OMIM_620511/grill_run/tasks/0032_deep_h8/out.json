@@ -1,0 +1,115 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While extended cohorts confirm that inherited variants account for approximately 26% to 36% of tested individuals (e.g., 13 of 50 individuals in Schmid et al., 2025), the literature presents conflicting and nuanced evidence regarding whether inherited variants strictly correlate with milder neurodevelopmental impairment compared to de novo alleles. The initial cohort (Fliedner et al., 2020) observed that even de novo truncating variants predominantly presented with mild intellectual disability, speech delay, and variable expressivity rather than exclusively severe phenotypes. Furthermore, several inherited alleles are themselves truncating variants with variable intrafamilial expressivity ranging to normal cognition, rather than representing a distinct subclass of benign or uniquely mild variants.",
+  "evidence": [
+    {
+      "text": "In a study of 50 novel individuals with SCAF4 variants, 23 variants occurred de novo and 13 were inherited, showing that inherited variants account for at least 26% (13/50) of total cases and 36.1% (13/36) of cases with resolved inheritance status.",
+      "stance": "supports",
+      "source": {
+        "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+        "authors": [
+          "CM Schmid",
+          "A Gregor",
+          "A Ruiz"
+        ],
+        "year": 2025,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-024-01760-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01760-2",
+        "quote": "Twenty-three variants occurred de novo, and variants were inherited in 13 cases. Frequent clinical findings were mild developmental delay with speech impairment, seizures, and skeletal abnormalities such as clubfoot, scoliosis or hip dysplasia. Cognitive abilities ranged from normal IQ to severe intellectual disability (ID), with borderline to mild ID in the majority of individuals."
+      },
+      "numbers": [
+        {
+          "metric": "de novo variants",
+          "value": 23
+        },
+        {
+          "metric": "inherited variants",
+          "value": 13
+        },
+        {
+          "metric": "total cohort size",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "Initial characterization identified 9 likely pathogenic germline variants, of which 8 were de novo and only 1 was inherited (11.1%), yet even individuals with de novo truncating variants presented with mild intellectual disability and variable expressivity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Variants in SCAF4 cause a neurodevelopmental disorder and are associated with impaired mRNA processing",
+        "authors": [
+          "A Fliedner",
+          "P Kirchner",
+          "A Wiesener"
+        ],
+        "year": 2020,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2020.06.019",
+        "pmid": "32730804",
+        "pmc": "PMC7477272",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30228-7",
+        "quote": "Eight of these variants occurred de novo, and one was inherited. Affected individuals demonstrated a variable neurodevelopmental disorder characterized by mild intellectual disability, seizures, behavioral abnormalities, and various skeletal and structural anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "de novo variants",
+          "value": 8
+        },
+        {
+          "metric": "inherited variants",
+          "value": 1
+        },
+        {
+          "metric": "total cohort size",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "A de novo frameshift variant was identified in an individual presenting with intellectual disability, epilepsy, behavioral problems, speech impairment, facial dysmorphisms, and obesity, supporting broad variable phenotypic presentation in de novo loss-of-function cases.",
+      "stance": "neutral",
+      "source": {
+        "title": "SCAF4-related syndromic intellectual disability",
+        "authors": [
+          "LML Carvalho",
+          "CF Pinto"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63032",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63032",
+        "quote": "A de novo pathogenic variant [SCAF4(NM_020706.2):c.374_375dup(p.Glu126LeufsTer20)] was identified. This is the second study reporting the involvement of SCAF4 in syndromic ID, and the description of the patient's clinical features contributes to defining the phenotypic spectrum of this recently described Mendelian disorder."
+      },
+      "numbers": [
+        {
+          "metric": "reported de novo cases",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Inheritance fraction varies widely across ascertainment cohorts: initial discovery cohorts identified inherited variants in only 11% (1/9) of families, whereas subsequent multicenter matchmaking expanded this to 26%-36% (13/50).",
+    "Genotype-phenotype severity correlation remains unsettled: while inherited variants show incomplete penetrance or normal/borderline IQ in carrier parents, de novo truncating alleles also routinely produce mild intellectual disability rather than uniformly severe phenotypes."
+  ],
+  "confidence": 0.58,
+  "new_directions": [
+    {
+      "question_text": "Do inherited truncating SCAF4 alleles exhibit sex-specific penetrance, parental origin bias, or genetic modifiers that explain non-penetrance in transmitting parents?",
+      "rationale": "Clarifying why transmitting parents often show mild or subclinical phenotypes while probands manifest syndromic features requires systematic haplotyping and assessment of genetic modifiers or epigenetic compensation.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does transcript-level nonsense-mediated decay efficiency differ between de novo and inherited SCAF4 truncating variants across human neural tissues?",
+      "rationale": "Differences in residual truncated or escaped transcripts could explain intrafamilial phenotypic variability and differences in cognitive severity.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

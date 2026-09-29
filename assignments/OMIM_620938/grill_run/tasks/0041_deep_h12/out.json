@@ -1,0 +1,108 @@
+{
+  "verdict": "supported",
+  "rationale": "The foundational cohort described by Kaiyrzhanov et al. (2022) and indexed under OMIM entry #620938 encompasses 19 affected individuals across 10 families harboring biallelic NFU1 missense variants. Within this specific cohort, exactly 16 of 19 (84.2%) presented with early-onset pure-to-complex hereditary spastic paraplegia phenotypes with longer survival, whereas the remaining 3 of 19 (15.8%) exhibited severe infantile hypotonia and neurodevelopmental delay representing the severe end of the NFU1 continuum without the typical SPG phenotype. Literature review reveals no contradicting counts for this primary delineated cohort.",
+  "evidence": [
+    {
+      "text": "Kaiyrzhanov et al. (2022) established that across 19 affected individuals from 10 independent families with biallelic NFU1 missense variants, 16 of 19 exhibited an early-onset pure to complex hereditary spastic paraplegia phenotype with prolonged survival, whereas 3 of 19 presented with severe hypotonia and neurodevelopmental delay.",
+      "stance": "supports",
+      "source": {
+        "title": "Phenotypic continuum of NFU1-related disorders - PubMed",
+        "authors": [
+          "R Kaiyrzhanov",
+          "MS Zaki",
+          "T Lau",
+          "S Sen"
+        ],
+        "year": 2022,
+        "journal": "Ann Clin Transl Neurol",
+        "doi": "10.1002/acn3.51679",
+        "pmid": "36256512",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36256512/",
+        "quote": "We report 19 affected individuals from 10 independent families with ultra-rare bi-allelic NFU1 missense variants associated with a spectrum of early-onset pure to complex hereditary spastic paraplegia (HSP) phenotype with a longer survival (16/19) on one end and neurodevelopmental delay with severe hypotonia (3/19) on the other."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size",
+          "value": 19
+        },
+        {
+          "metric": "Number of families",
+          "value": 10
+        },
+        {
+          "metric": "Patients with HSP spectrum and prolonged survival",
+          "value": 16
+        },
+        {
+          "metric": "Patients with severe hypotonia/neurodevelopmental delay",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #620938 (SPG93) attributes the genetic definition of autosomal recessive spastic paraplegia 93 to Kaiyrzhanov et al. (2022), summarizing the 19 patients evaluated across 10 families carrying NFU1 mutations.",
+      "stance": "supports",
+      "source": {
+        "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620938",
+        "quote": "(2022) reported clinical features in 19 patients, aged 4.5 months to 25 years, from 10 families with a spastic paraplegia phenotype and mutation in the NFU1 ..."
+      },
+      "numbers": [
+        {
+          "metric": "Reported patients in cohort",
+          "value": 19
+        },
+        {
+          "metric": "Independent families",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "text": "A milder, late-onset slowly progressive spastic paraparesis presentation with long survival had previously been documented by Tonduti et al. (2015), validating the milder SPG spectrum of NFU1 mutations outside the classic lethal MMDS1 encephalopathy phenotype.",
+      "stance": "supports",
+      "source": {
+        "title": "New spastic paraplegia phenotype associated to mutation of ...",
+        "authors": [
+          "D Tonduti"
+        ],
+        "year": 2015,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC4333890",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333890/",
+        "quote": "We report a new NFU1 mutated patient presenting with a milder phenotype characterized by a later onset, a slowly progressive spastic paraparesis with relapsing-remitting episodes, mild cognitive impairment and a long survival."
+      },
+      "numbers": [
+        {
+          "metric": "Individual case reports of NFU1 spastic paraparesis",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What specific biochemical and functional threshold differentiates NFU1 missense variants that result in MMDS1 versus SPG93 spastic paraplegia?",
+      "rationale": "Clarifying how residual iron-sulfur cluster scaffold activity dictates whether an infant develops lethal pulmonary hypertension/lactic acidosis versus a prolonged-survival spastic paraplegia could predict clinical course at birth.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the true prevalence of transient or remitting febrile decompensations in SPG93 versus non-mitochondrial forms of hereditary spastic paraplegia?",
+      "rationale": "Kaiyrzhanov et al. and Tonduti et al. noted relapsing-remitting deterioration and post-febrile decompensations in NFU1 patients, which may serve as the primary discriminating clinical feature distinguishing SPG93 from common HSP mimics like SPG4 or SPG7.",
+      "promise": 0.82,
+      "est_cost": 15000
+    }
+  ]
+}

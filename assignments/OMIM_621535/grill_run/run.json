@@ -1,0 +1,202 @@
+{
+  "question": "For Spinocerebellar ataxia 52 (OMIM #621535), caused by variants in RAB3A: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.3903467099999999,
+    "by_phase": {
+      "init": 0.026452000000000003,
+      "plan": 0.0081735,
+      "explore": 0.049904000000000004,
+      "screen": 0.091259,
+      "deep": 0.166445,
+      "measure": 0.01051871,
+      "finalize": 0.0375945,
+      "artifact": 0.0
+    },
+    "embeddings": 0.0006402499999999999
+  },
+  "allocations": [
+    {
+      "direction": "d7",
+      "question": "Resolve the conflict over: The core phenotypic features present in nearly all reported individuals with heterozygous pathogenic RAB3A variants include early-onset gait and limb ataxia (HP:0001251), developmental delay / intellectual disability (HP:0001263 / HP:0001249), muscular hypotonia in infancy (HP:0001252), and cerebellar atrophy/hypoplasia on neuroimaging (HP:0001272). Dysarthria (HP:0001260) and abnormal eye movements (nystagmus HP:0000639, strabismus HP:0000486) are reported in a high proportion of cases.",
+      "allocated": 1.98,
+      "spent": 0.013220499999999996,
+      "rationale": "Resolves the critical contradictory findings regarding infantile congenital ataxia and hypotonia versus adult-onset progressive ataxia and spasticity in published RAB3A cohorts."
+    },
+    {
+      "direction": "d11",
+      "question": "What are the exact numerator/denominator clinical phenotypic frequencies and documented absent features in published RAB3A / SCA52 index families?",
+      "allocated": 1.98,
+      "spent": 0.010913999999999993,
+      "rationale": "Directly targets the primary unanswered requirements by extracting exact cohort-level numerators, denominators, HPO terms, and documented absent features from primary SCA52 literature."
+    },
+    {
+      "direction": "d12",
+      "question": "Resolve the conflict over: Discriminating features that help distinguish SCA52 from overlapping disorders (e.g., degenerative progressive SCAs like SCA1, SCA2, SCA3, or progressive metabolic ataxias) are its non-progressive or very indolent disease course, infantile onset with hypotonia, and absence of prominent lower motor neuron involvement, severe sensory neuropathy, or extraneurological systemic findings. However, distinction from SCA29 (ITPR1) purely on clinical grounds remains exceedingly difficult without genetic testing.",
+      "allocated": 1.9574661120000003,
+      "spent": 0.013477500000000003,
+      "rationale": "Addresses phenotypic overlap, negative/absent findings, and conflicting classifications between infantile ataxia, spastic paraplegia, and SCA29."
+    },
+    {
+      "direction": "d16",
+      "question": "What exact clinical numerator and denominator frequencies of pyramidal spasticity, tremor, and intellectual disability were documented across each affected member of Family T and Family K in Miyamoto et al. (2026)?",
+      "allocated": 1.9574661120000003,
+      "spent": 0.012291999999999997,
+      "rationale": "Directly targets exact cohort numerators, denominators, and verbatim phenotypic features across Families T and K from the index Miyamoto et al. study."
+    }
+  ],
+  "patterns": 5,
+  "artifacts": 0,
+  "avg_explore_cost": 0.012476000000000001,
+  "avg_test_cost": 0.0102934375,
+  "snapshots": [
+    {
+      "cost": 0.3903467099999999,
+      "coverage": 0.5714285714285714,
+      "quality": 0.5625,
+      "answeredness": 0.3214285714285714,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 16,
+      "n_pooled": 9,
+      "n_binned": 7,
+      "n_conflicted": 3,
+      "n_refuted": 3,
+      "n_evidence": 70,
+      "n_covered": 4,
+      "n_asks": 7,
+      "n_open": 41,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "Clinical phenotypes reported in affected individuals with Spinocerebellar ataxia 52 (RAB3A), including the verbatim wording from the paper and corresponding standard HPO term if identifiable",
+        "Phenotype frequencies given as exact numerators and denominators per assessed cohort (not percentages alone), attached to the specific cohort and a resolvable source (PMID or DOI)",
+        "Any clinical findings reported by one paper and explicitly contradicted by another"
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_621535/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "Clinical phenotypes reported in affected individuals with Spinocerebellar ataxia 52 (RAB3A), including the verbatim wording from the paper and corresponding standard HPO term if identifiable",
+      "Phenotype frequencies given as exact numerators and denominators per assessed cohort (not percentages alone), attached to the specific cohort and a resolvable source (PMID or DOI)",
+      "Any clinical findings reported by one paper and explicitly contradicted by another"
+    ],
+    "explored_texts": [
+      "What are the exact numerator/denominator clinical phenotypic frequencies and documented absent features in published RAB3A / SCA52 index families?",
+      "Resolve the conflict over: The core phenotypic features present in nearly all reported individuals with heterozygous pathogenic RAB3A variants include early-onset gait and limb ataxia (HP:0001251), developmental delay / intellectual disability (HP:0001263 / HP:0001249), muscular hypotonia in infancy (HP:0001252), and cerebellar atrophy/hypoplasia on neuroimaging (HP:0001272). Dysarthria (HP:0001260) and abnormal eye movements (nystagmus HP:0000639, strabismus HP:0000486) are reported in a high proportion of cases.",
+      "What exact clinical numerator and denominator frequencies of pyramidal spasticity, tremor, and intellectual disability were documented across each affected member of Family T and Family K in Miyamoto et al. (2026)?",
+      "Resolve the conflict over: Discriminating features that help distinguish SCA52 from overlapping disorders (e.g., degenerative progressive SCAs like SCA1, SCA2, SCA3, or progressive metabolic ataxias) are its non-progressive or very indolent disease course, infantile onset with hypotonia, and absence of prominent lower motor neuron involvement, severe sensory neuropathy, or extraneurological systemic findings. However, distinction from SCA29 (ITPR1) purely on clinical grounds remains exceedingly difficult without genetic testing."
+    ],
+    "explore_costs": [
+      0.010914,
+      0.0132205,
+      0.012292,
+      0.0134775
+    ],
+    "test_costs": [
+      0.0043295,
+      0.0058675,
+      0.0050755,
+      0.004551,
+      0.0098365,
+      0.0124945,
+      0.010029,
+      0.010119,
+      0.004197,
+      0.006188,
+      0.005484,
+      0.0053375,
+      0.0060245,
+      0.006202,
+      0.013975,
+      0.009786,
+      0.008745,
+      0.009269,
+      0.0127675,
+      0.0082145,
+      0.0049215,
+      0.0051195,
+      0.006823,
+      0.009291,
+      0.0047365,
+      0.007111,
+      0.010923,
+      0.0117,
+      0.014729,
+      0.011382,
+      0.012475
+    ],
+    "task_n": 46,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Spinocerebellar ataxia 52 (OMIM #621535), caused by variants in RAB3A: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.3903467099999999,
+    "budget_by_phase": {
+      "init": 0.026452000000000003,
+      "plan": 0.0081735,
+      "explore": 0.049904000000000004,
+      "screen": 0.091259,
+      "deep": 0.166445,
+      "measure": 0.01051871,
+      "finalize": 0.0375945,
+      "artifact": 0.0
+    }
+  }
+}

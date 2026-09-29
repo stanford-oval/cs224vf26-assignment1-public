@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"neuromuscular disorder\" brain MRI",
+    "FILIP1 congenital neuromuscular disorder dysmorphic facies brain involvement"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02158-y",
+      "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02158-y",
+      "abstract_chars": 1803
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(25)00436-7",
+      "title": "Palindrome-mediated 16p13. 3 triplications cause a recognizable neurodegenerative disorder with ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(25)00436-7",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39973448",
+      "title": "Report on the 6th Ottawa International Conference on Neuromuscular Disease & Biology\u2013September 7\u20139, 2023, Ottawa, Canada",
+      "pmid": "39973448",
+      "doi": "10.1177/22143602241304993",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/22143602241304993",
+      "abstract_chars": 688
+    },
+    {
+      "id": "37163662",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy ... - PMC",
+      "pmid": "37163662",
+      "doi": "10.1093/brain/awad152",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10545528/",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/370657692_Bi-allelic_variants_of_FILIP1_cause_congenital_myopathy_dysmorphism_and_neurological_defects",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/370657692_Bi-allelic_variants_of_FILIP1_cause_congenital_myopathy_dysmorphism_and_neurological_defects",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://openurl.ebsco.com/c/t4a2lo/results?sid=ebsco:ocu:record&bquery=AU+Willis,%20Tracey%20A.&link_origin=&searchDescription=Willis,%20Tracey%20A.",
+      "title": "Works by Willis, Tracey A.",
+      "pmid": null,
+      "doi": null,
+      "url": "https://openurl.ebsco.com/c/t4a2lo/results?sid=ebsco:ocu:record&bquery=AU+Willis,%20Tracey%20A.&link_origin=&searchDescription=Willis,%20Tracey%20A.",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1016/j.ajhg.2025.11.011/attachment/bfcf33ae-2b57-4734-a1c3-cfe47f5cab0b/mmc1.pdf",
+      "title": "Palindrome-mediated 16p13.3 triplications cause a recognizable ...",
+      "pmid": null,
+      "doi": "10.1016/j.ajhg.2025.11.011/attachment/bfcf33ae-2b57-4734-a1c3-cfe47f5cab0b/mmc1.pdf",
+      "url": "https://www.cell.com/cms/10.1016/j.ajhg.2025.11.011/attachment/bfcf33ae-2b57-4734-a1c3-cfe47f5cab0b/mmc1.pdf",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4687,
+  "output_tokens": 1593,
+  "usd": 0.00712,
+  "seconds": 16.9,
+  "ok": true
+}

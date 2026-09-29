@@ -1,0 +1,91 @@
+{
+  "verdict": "supported",
+  "rationale": "Extensive phenotypic characterization of ACBD6 deficiency across 45 affected individuals spanning ages 1 to 50 years (from 28 unrelated families) by Kaiyrzhanov et al. (2024) demonstrates that the core clinical spectrum is characterized by neurodevelopmental delay/intellectual disability (100%), movement disorders (97%), facial dysmorphism (95%), cerebellar ataxia (85%), and overweight (59%). In contrast, the life-threatening visceral complications consisting of hepatic cirrhosis, end-stage renal failure, diabetes mellitus, and pancytopenia have only been reported in a single family (two Thai adult siblings with homozygous c.360dup reported by Yeetong et al., 2022). Accounting for the total reported international cohort (>47 individuals), this multi-system extraneural organ failure phenotype occurs in approximately 4.3% (2/47, well below the 10% threshold) and is not an obligatory age-dependent natural history feature, as older adult individuals up to 50 years of age in the larger cohort presented primarily with neurodegenerative motor manifestations (e.g., dystonia, parkinsonism) without cirrhosis or renal failure.",
+  "evidence": [
+    {
+      "text": "In a comprehensive international cohort of 45 affected individuals aged 1-50 years harboring bi-allelic ACBD6 mutations from 28 families, the clinical presentation was dominated by neurodevelopmental and progressive neurological manifestations (intellectual disability, language impairment, dystonia, ataxia, tremor) and overweight (59%), without systemic visceral organ failure.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10994533",
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "The affected individuals (23 males and 22 females), aged 1-50 years, typically present with a complex and progressive disease involving moderate-to-severe global developmental delay/intellectual disability (100%) with significant expressive language impairment (98%), movement disorders (97%), facial dysmorphism (95%) and mild cerebellar ataxia (85%)"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals in cohort",
+          "value": 45
+        },
+        {
+          "metric": "unrelated families",
+          "value": 28
+        },
+        {
+          "metric": "maximum patient age in years",
+          "value": 50
+        },
+        {
+          "metric": "frequency of global developmental delay/intellectual disability",
+          "value": "100%"
+        },
+        {
+          "metric": "frequency of movement disorders",
+          "value": "97%"
+        },
+        {
+          "metric": "frequency of overweight",
+          "value": "59%"
+        }
+      ]
+    },
+    {
+      "text": "Severe multi-organ systemic involvement (cirrhosis, renal failure, diabetes mellitus, pancytopenia) was reported exclusively in two Thai siblings harboring a homozygous c.360dup mutation who died in their early thirties, a presentation recognized as unique and not previously observed.",
+      "stance": "supports",
+      "source": {
+        "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia ...",
+        "authors": [
+          "P Yeetong"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1212/NXG.0000000000200046",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000200046",
+        "quote": "Clinical manifestations that have never been previously reported include morbid obesity, pancytopenia with severe infections, diabetes mellitus, cirrhosis, and renal failure, leading to deaths in their early 30s."
+      },
+      "numbers": [
+        {
+          "metric": "number of affected siblings",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Do secondary genetic modifiers or digenic inheritance explain the development of pancytopenia and end-stage organ failure in the Thai family reported by Yeetong et al.?",
+      "rationale": "Because the vast majority of patients with loss-of-function ACBD6 mutations exhibit exclusively neurodevelopmental and neuromotor phenotypes despite reaching ages up to 50, re-analyzing exome or genome data from the Thai pedigree could clarify if co-occurring recessive mutations caused the visceral failure.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "Is subclinical hepatic steatosis or bone marrow lineage impairment present in older ACBD6-deficient adults who lack overt cirrhosis and pancytopenia?",
+      "rationale": "ACBD6 regulates N-myristoylation and lipid acylation; longitudinal subclinical screening (liver elastography, hematologic profiling) in adult cohorts would confirm whether visceral involvement exists subclinically or is truly tissue-sparing across genotypes.",
+      "promise": 0.78,
+      "est_cost": 25000.0
+    }
+  ]
+}

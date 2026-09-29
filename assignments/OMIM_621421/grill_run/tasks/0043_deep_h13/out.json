@@ -1,0 +1,88 @@
+{
+  "verdict": "supported",
+  "rationale": "Across the literature delineating Ramond-Elliott neurodevelopmental syndrome (RAMELN; OMIM #621421), all 12 reported individuals in the discovery cohort (Ramond et al., 2023) presented with developmental delay and intellectual disability (12/12, 100%), and the subsequent independent case report (Shatokhina et al., 2023) brought the cumulative count to 13/13 (100%). In contrast, seizures and infantile spasms were documented as a frequent but incomplete feature, described clinically as occurring in 'about half' of patients (consistent with a penetrance between 50% and 75%). No molecularly confirmed TRA2B patients lacking developmental delay/intellectual disability have been identified.",
+  "evidence": [
+    {
+      "text": "The discovery study recruited 12 individuals from 11 unrelated families with monoallelic TRA2B variants; all 12 presented with intellectual disability and/or developmental delay (100%), with infantile spasms and epilepsy frequently associated but not universal.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature."
+      },
+      "numbers": [
+        {
+          "metric": "ID/DD penetrance in discovery cohort",
+          "value": "12/12"
+        },
+        {
+          "metric": "Discovery cohort sample size",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "The clinical synopsis for OMIM #621421 establishes that seizures occur in about half of individuals affected by Ramond-Elliott neurodevelopmental syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical Synopsis - #621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621421",
+        "quote": "Seizures (in about half of"
+      },
+      "numbers": [
+        {
+          "metric": "Estimated seizure penetrance proportion",
+          "value": "~50%"
+        }
+      ]
+    },
+    {
+      "text": "A second case study identified an additional patient carrying a splice variant in TRA2B presenting with seizures and neurodevelopmental delay, extending total molecularly confirmed cases.",
+      "stance": "supports",
+      "source": {
+        "title": "RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": 2023,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "TRA2B gene splice variant linked to seizures and neurodevelopmental delay: a second case study. Int. J. Molec. Sci. 24: 15572, 2023."
+      },
+      "numbers": [
+        {
+          "metric": "Cumulative reported cases with ID/DD",
+          "value": "13/13"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "Do non-truncating missense variants outside the 5' region of TRA2B cause an attenuated phenotype devoid of infantile spasms or intellectual disability?",
+      "rationale": "All currently identified pathogenic variants cluster in the 5' coding region upstream of the alternative translation start site; screening broader cohorts will clarify if penetrance remains invariant across distinct mutational mechanisms.",
+      "promise": 0.85,
+      "est_cost": 35000.0
+    }
+  ]
+}

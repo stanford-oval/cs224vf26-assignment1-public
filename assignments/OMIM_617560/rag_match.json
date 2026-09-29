@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_617560",
+ "omim": "OMIM:617560",
+ "disease": "Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy",
+ "gene": "NKX6-2",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:52",
+ "report_chars": 1783,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy (NKX6-2, OMIM:617560):\n\n[1] Spastic ataxia 8, autosomal recessive, with ...\nhttps://www.ncbi.nlm.nih.gov/medgen/1382553\nNKX6-2-related disorder is characterized by a spectrum of progressive neurologic manifestations resulting from diffuse central nervous system ...\n\n[2] 617560 - SPASTIC ATAXIA 8, AUTOSOMAL RECESSIVE ...\nhttps://omim.org/entry/617560\nautosomal recessive spastic ataxia-8 with hypomyelinating leukodystrophy (SPAX8) is caused by homozygous or compound heterozygous mutation in the NKX6-2 gene ( ...\n\n[3] Natural history, biomarkers, and genetic characterisation of ...\nhttps://ern-ithaca.eu/our-research-activities/calls-for-collaboration/natural-history-biomarkers-and-genetic-characterisation-of-autosomal-recessive-nkx6-2-related-spastic-ataxia-8-with-hypomyelinating-leukodystrophy/\nBi-allelic variants in the NKX6-2 gene were identified to cause spastic ataxia 8 (SPAX8), autosomal recessive, with hypomyelinating leukodystrophy.\n\n[4] Submission Details\nhttps://thegencc.org/submissions/SGC-111405.1\nSPASTIC ATAXIA 8, AUTOSOMAL RECESSIVE, WITH HYPOMYELINATING LEUKODYSTROPHY; SPAX8 ... Mutations in NKX6-2 Cause Progressive Spastic Ataxia and Hypomyelination.\n\n[5] Genetic and phenotypic characterization of NKX6-2 ... - PubMed\nhttps://pubmed.ncbi.nlm.nih.gov/31509304/\nby V Chelban \u00b7 2020 \u00b7 Cited by 34 \u2014 Bi-allelic mutations in NKX6-2 were recently linked to spastic ataxia 8 with hypomyelinating leukodystrophy. Methods: Using a combination of homozygosity ...\n\n[6] Spastic Ataxia 8, Autosomal Recessive, with ...\nhttps://www.malacards.org/card/spastic_ataxia_8_autosomal_recessive_with_hypomyelinating_leukodystrophy\nNKX6-2-related autosomal recessive hypomyelinating leukodystrophy is a rare, genetic, neurological disease spectrum. It is progressive, which means the symptoms ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 13.0, female)\n  observed: Secondary microcephaly, Short philtrum, High forehead, High anterior hairline, Prominent nose, Long face, Nystagmus, Low-set ears, Short stature, Decreased body weight, Multiple joint contractures, Axial hypotonia, Lower limb spasticity, Upper limb muscle weakness, Lower limb muscle weakness, Babinski sign, Developmental regression, Global developmental delay, Absent speech, Profound intellectual disability, Bilateral tonic-clonic seizure with generalized onset, Tonic seizure, Myoclonic seizure, Encephalopathy, Interictal epileptiform activity, Inability to walk by childhood/adolescence, Intention tremor, Lower limb hyperreflexia, Poor sleep, Irritability, Agitation, Cerebellar vermis hypoplasia, Ventriculomegaly, Reduced cerebral white matter volume, Thin corpus callosum\n  recorded ABSENT: Primary microcephaly, Ophthalmoplegia, Hyporeflexia of lower limbs, Hyporeflexia of upper limbs, Dyslexia, Dystonia, Choreoathetosis, Clonus, Myoclonus, Titubation, Drowsiness, Abnormal CNS myelination\n\nP02 (age None, male)\n  observed: Short stature, Microcephaly, Spasticity, Dysarthria, Drooling, Gait disturbance, Hyperreflexia\n  recorded ABSENT: Spastic tetraparesis, Cerebral atrophy, Cerebellar atrophy\n\nP03 (age 18.0, female)\n  observed: Severe periodontitis, Strabismus, Delayed ability to walk, Gait ataxia, Head titubation, Clumsiness, Cerebellar hypoplasia\n  recorded ABSENT: Scoliosis, Dysarthria\n\nP04 (age 16.0, male)\n  observed: Status epilepticus, Flexion contracture, Spasticity, Abnormality of eye movement, Hepatomegaly, Delayed eruption of teeth, Encephalopathy, Cerebral visual impairment, Abnormal hepatic iron concentration, Left ventricular hypertrophy, Splenomegaly, Postural tremor, Abnormality of the mitochondrion, Thrombocytopenia, Abnormal foot morphology, Neuronal loss in the cerebral cortex, Papule, Uplifted earlobe, Neuronal loss in central nervous system, Acute aspiration pneumonia, Ascites, Secondary microcephaly, Hepatic failure, Plagiocephaly, Agenesis of permanent teeth, Short stature, Scoliosis, Thin bony cortex, Ventriculomegaly, Head titubation, Testicular atrophy, Skeletal muscle atrophy, Widely spaced teeth, Microdontia, Psoriasiform dermatitis, Pallor, Micronodular cirrhosis, Gliosis\n  recorded ABSENT: (none recorded)\n\nP05 (age 9.0, male)\n  observed: Loss of ambulation, Motor delay, Ataxia, Spasticity, Hyperreflexia, Nystagmus, Hypotonia\n  recorded ABSENT: Seizure, Scoliosis, Hypometric saccades, Global developmental delay, Tube feeding\n\nP06 (age 11.0, male)\n  observed: Hyperreflexia, Babinski sign, Delayed speech and language development, Severe global developmental delay, Severe intellectual disability, Febrile seizure (within the age range of 3 months to 6 years), Lower limb spasticity, Ataxia, Thin corpus callosum, Cerebellar atrophy, Limb hypertonia, Joint contracture, Axial hypotonia\n  recorded ABSENT: Deep philtrum, Downturned corners of mouth, Short chin, Telecanthus, Microcephaly, Large earlobe, Dystonia, Hyporeflexia, Developmental regression, Autistic behavior, Caesarean section, Fetal distress, Short stature, Appendicular hypotonia\n\nP07 (age 6.0, female)\n  observed: Secondary microcephaly, Optic atrophy, Nystagmus, Low-set ears, Interictal EEG abnormality, Severe intellectual disability, Absent speech, Appendicular spasticity, Tetraparesis, Ataxia, Inability to walk, Hypoplasia of the corpus callosum, Arachnoid cyst, Delayed CNS myelination, Short stature, Failure to thrive, Limb joint contracture, Axial hypotonia\n  recorded ABSENT: Primary microcephaly, Episodic vomiting, Tube feeding, Seizure, Cerebral atrophy, Cerebellar atrophy, Recurrent aspiration pneumonia\n\nP08 (age 30.0, female)\n  observed: Intermittent hyperventilation, Breath-holding spell, Microcephaly, Hearing impairment, Global developmental delay, Delayed ability to walk, Absent speech, Intellectual disability, Developmental regression, Status epilepticus, Atonic seizure, Tonic seizure, Interictal EEG abnormality, Myoclonus, Autistic behavior, Motor stereotypy, Broad-based gait, Volvulus, Decreased body weight, Hypotonia, Hypertonia, Poor head control\n  recorded ABSENT: Bilateral tonic-clonic seizure, Epileptic spasm, Focal-onset seizure, Febrile seizure (within the age range of 3 months to 6 years), Generalized-onset seizure, Encephalopathy, Short stature, Small for gestational age\n\nP09 (age None, unknown_sex)\n  observed: Hypotonia, Delayed ability to walk, Myoclonus, Delayed speech and language development, Dysmetria, Intention tremor\n  recorded ABSENT: Nystagmus, Seizure, Aniridia\n\nP10 (age 21.0, female)\n  observed: Thin upper lip vermilion, Primary microcephaly, Strabismus, Delayed speech and language development, Global developmental delay, Motor delay, Severe intellectual disability, Sensory axonal neuropathy, Lower limb spasticity, Focal impaired awareness seizure, Cerebellar atrophy\n  recorded ABSENT: High palate, Abnormal facial shape, Micrognathia, Optic nerve hypoplasia, Microphthalmia, Nystagmus, Horizontal supranuclear gaze palsy, Dysmetric saccades, Oculomotor apraxia, Reduced visual acuity, Hearing impairment, Gait ataxia, Intention tremor, Dysarthria, Myoclonic seizure, Bilateral tonic-clonic seizure, Status epilepticus, Nail dysplasia, Joint contracture, Clinodactyly of the 5th finger, Syndactyly, Joint hypermobility, Talipes equinovarus\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.85,
+     "for": "Demonstrates the hallmark cardinal features of SPAX8, specifically delayed CNS myelination (hypomyelinating leukodystrophy), appendicular spasticity, ataxia, nystagmus, and loss of motor milestones (inability to walk).",
+     "against": "Recorded absence of cerebral and cerebellar atrophy, which can sometimes be seen in progressive disease stages."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.08,
+     "for": "Presents with childhood-onset progressive spastic ataxia features including ataxia, spasticity, hyperreflexia, nystagmus, and loss of ambulation.",
+     "against": "Lacks explicit neuroimaging findings confirming hypomyelinating leukodystrophy or delayed CNS myelination."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.04,
+     "for": "Exhibits prominent ataxia, lower limb spasticity, hyperreflexia, thin corpus callosum, and cerebellar atrophy.",
+     "against": "Lacks documentation of hypomyelination/delayed CNS myelination, which is a defining hallmark of this leukodystrophy."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.01,
+     "for": "Presents with spasticity, hyperreflexia, and gait disturbance.",
+     "against": "Ataxia is not noted, and neuroimaging signs of hypomyelinating leukodystrophy are absent."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.01,
+     "for": "Presents with lower limb spasticity, nystagmus, intellectual disability, and cerebellar vermis hypoplasia.",
+     "against": "Crucially, abnormal CNS myelination is explicitly recorded as ABSENT, arguing strongly against a disorder characterized by hypomyelinating leukodystrophy."
+    }
+   ],
+   "what_the_report_lacked": "The provided text excerpts consisted only of general disease search result titles and brief summaries without specific, detailed clinical or radiological breakdowns (such as typical MRI patterns of T2 hyperintensity/hypomyelination versus cerebellar vs. pyramidal tract involvement).",
+   "tokens_in": 2085,
+   "tokens_out": 1379,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.9,
+     "for": "Demonstrates the hallmark combination of delayed CNS myelination (hypomyelinating leukodystrophy) alongside progressive spastic ataxia features including appendicular spasticity, ataxia, axial hypotonia, and inability to walk.",
+     "against": "Lacks reported seizures, although interictal EEG abnormalities are noted."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Exhibits core spastic ataxia symptoms including progressive loss of ambulation, spasticity, ataxia, hyperreflexia, hypotonia, and nystagmus.",
+     "against": "Lacks neuroimaging confirmation of hypomyelination or leukodystrophy, and global developmental delay is recorded as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Presents with lower limb spasticity, ataxia, hyperreflexia, thin corpus callosum, and cerebellar atrophy consistent with neurodegenerative spastic ataxia.",
+     "against": "Lacks documented hypomyelination or leukodystrophic white matter changes characteristic of SPAX8."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.01,
+     "for": "Presents with spasticity, hyperreflexia, and gait disturbance consistent with a spastic motor disorder.",
+     "against": "No prominent ataxia or hypomyelinating leukodystrophy is specified, and cerebellar atrophy is explicitly absent."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.01,
+     "for": "Presents with lower limb spasticity, nystagmus, intention tremor, and neurodevelopmental decline.",
+     "against": "Abnormal CNS myelination is specifically recorded as ABSENT, which directly contradicts a hypomyelinating leukodystrophy."
+    }
+   ],
+   "what_the_report_lacked": "Specific details on the classic clinical presentation (such as typical onset age, exact motor milestones, and whether hypomyelination is diffuse or predominantly T2-hyperintense with specific sparing) and explicit phenotypic frequencies for non-neurological features of SPAX8.",
+   "tokens_in": 2085,
+   "tokens_out": 1364,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.9,
+     "for": "Demonstrates the core hallmark combination of delayed CNS myelination (hypomyelinating leukodystrophy), appendicular spasticity, ataxia, nystagmus, and axial hypotonia.",
+     "against": "Absence of cerebellar atrophy is recorded, which is occasionally observed in later stages of NKX6-2-related disease."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Presents prominent spastic ataxia signs including progressive loss of ambulation, ataxia, spasticity, hyperreflexia, hypotonia, and nystagmus.",
+     "against": "Lacks reported brain neuroimaging findings confirming hypomyelination or leukodystrophy, and global developmental delay is documented as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Exhibits early childhood-onset ataxia, lower limb spasticity, axial hypotonia, hyperreflexia, and corpus callosum hypoplasia.",
+     "against": "Lacks documented leukodystrophy or abnormal myelination, which are key distinguishing diagnostic features of this disorder."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.01,
+     "for": "Exhibits lower limb spasticity, ataxia-related features (intention tremor, nystagmus), and reduced white matter volume.",
+     "against": "Explicitly has abnormal CNS myelination recorded as absent, which strongly argues against a hypomyelinating leukodystrophy."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.01,
+     "for": "Presents with spasticity, hyperreflexia, and gait disturbance consistent with a spastic ataxia phenotype.",
+     "against": "Lacks documented ataxia, nystagmus, or brain MRI findings confirming hypomyelinating leukodystrophy."
+    }
+   ],
+   "what_the_report_lacked": "The brief provided excerpts only indicated the full disease designation (SPAX8, NKX6-2, hypomyelinating leukodystrophy) without comprehensive clinical summaries of individual feature frequencies, age at onset profiles, or MRI progression patterns.",
+   "tokens_in": 2085,
+   "tokens_out": 1222,
+   "round": 3
+  }
+ ]
+}

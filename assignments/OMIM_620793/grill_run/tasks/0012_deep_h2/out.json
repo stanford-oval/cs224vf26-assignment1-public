@@ -1,0 +1,114 @@
+{
+  "verdict": "supported",
+  "rationale": "Histopathological and ultrastructural characterizations of patients with biallelic SNUPN variants consistently demonstrate dystrophic/myopathic features (including fiber size variability, internal nuclei, and necrotic/regenerating fibers), combined with distinctive myofibrillar-like changes (myotilin accumulations, Z-disc disorganization), and structural anomalies reflecting defective nucleocytoplasmic trafficking and organellar remodeling reminiscent of inclusion body myositis. Across multiple independent cohorts and clinical presentations (ranging from congenital/childhood onset LGMDR29 to late adult-onset presentations), no study has reported normal muscle histology or contradicted the presence of these myopathic, myofibrillar, or structural hallmarks.",
+  "evidence": [
+    {
+      "text": "Muscle biopsies in five patients with biallelic SNUPN variants showed myofibrillar-like alterations with myotilin aggregation, Z-disc disorganization, and dystrophic features accompanied by snRNP metabolic disruption and nucleocytoplasmic transport impairment.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "P Iruzubieta",
+          "A Damborenea",
+          "M Ioghen",
+          "S Bajew"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+        "quote": "Muscle biopsy showed myofibrillar-like features consisting of myotilin deposits and Z-disc disorganization... In patient-derived fibroblasts and muscle, cytoplasmic accumulation of snRNP components is observed"
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in cohort",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families analyzed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Muscle biopsy and ultrastructural analysis demonstrated dystrophic changes, abnormal cytoskeletal and myofibrillar protein patterning, and proliferation of granules and vesicles linked to nuclear envelope and sarcolemma remodeling resembling inclusion body myositis.",
+      "stance": "supports",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+        "authors": [
+          "N Muelas",
+          "P Iruzubieta",
+          "A Damborenea"
+        ],
+        "year": 2026,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.70211",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+        "quote": "The histopathology revealed dystrophic changes and an abnormal pattern of cytoskeletal and myofibrillar proteins, while electron microscopy disclosed the proliferation of granules and vesicles associated with features of nuclear envelope and sarcolemma remodelling."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings assessed",
+          "value": 2
+        },
+        {
+          "metric": "previously described variants noted",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Analysis of 18 children across 15 families identified SNUPN deficiency causing muscular dystrophy with cytoskeletal disruption in muscle tissue and defective nuclear import and Cajal body breakdown.",
+      "stance": "supports",
+      "source": {
+        "title": "SNUPN deficiency causes a recessive muscular dystrophy due to RNA mis-splicing and ECM dysregulation",
+        "authors": [
+          "M Nashabat",
+          "N Nabavizadeh",
+          "HP Sara\u00e7o\u011flu"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s41467-024-45933-5",
+        "quote": "Transcriptome analyses reveal splicing and mRNA expression dysregulation, particularly in sarcolemmal components, causing disruption of cytoskeletal organization in mutant cells and patient muscle tissues."
+      },
+      "numbers": [
+        {
+          "metric": "children investigated",
+          "value": 18
+        },
+        {
+          "metric": "unrelated families investigated",
+          "value": 15
+        },
+        {
+          "metric": "hypomorphic biallelic variants identified",
+          "value": 9
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "How consistently do classic rimmed vacuoles appear on light microscopy versus electron-microscopy-detected vesicular and granular remodeling across different SNUPN variant types?",
+      "rationale": "While myofibrillar and dystrophic changes are consistently documented, distinguishing genuine light-microscopic rimmed vacuoles from ultrastructural IBM-like membrane remodeling will refine diagnostic criteria against myofibrillar myopathies and inclusion body myopathies.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Can muscle MRI selectively discriminate LGMDR29 (paravertebral, triceps brachii, sartorius, and gracilis involvement) from other myofibrillar myopathies prior to invasive muscle biopsy?",
+      "rationale": "Non-invasive imaging profiles showed consistent selective preservation and involvement patterns across several reported SNUPN cohorts, which may enable rapid targeted genetic testing.",
+      "promise": 0.88,
+      "est_cost": 35000
+    }
+  ]
+}

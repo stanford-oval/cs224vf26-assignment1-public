@@ -1,0 +1,28 @@
+{
+  "omim": "OMIM:620988",
+  "label": "Intellectual developmental disorder, autosomal dominant 75",
+  "gene": "DHX9",
+  "gene_info": {
+    "symbol": "DHX9",
+    "name": "DExH-box helicase 9",
+    "type_of_gene": "protein-coding",
+    "map_location": "1q25.3",
+    "entrez_id": "1660",
+    "aliases": [
+      "DDX9",
+      "LKP",
+      "MRD75",
+      "NDH2",
+      "NDHII",
+      "RHA"
+    ],
+    "summary": "This gene encodes a member of the DEAH-containing family of RNA helicases. The encoded protein is an enzyme that catalyzes the ATP-dependent unwinding of double-stranded RNA and DNA-RNA complexes. This protein localizes to both the nucleus and the cytoplasm and functions as a transcriptional regulator. This protein may also be involved in the expression and nuclear export of retroviral RNAs. Alternate splicing results in multiple transcript variants. Pseudogenes of this gene are found on chromosomes 11 and 13.[provided by RefSeq, Feb 2010].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 15,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 31,
+  "corpus_query": "\"DHX9\" OR \"Intellectual developmental disorder\"",
+  "corpus_query_clinical": "(\"DHX9\" OR \"Intellectual developmental disorder\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Intellectual developmental disorder, autosomal dominant 75 (OMIM #620988), caused by variants in DHX9: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

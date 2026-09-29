@@ -1,0 +1,88 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that LRRC7-related intellectual developmental disorder (OMIM #621415) can be reliably distinguished from other postsynaptic density synaptopathies (such as SYNGAP1 and SHANK3) by prominent expressive language impairment and ADHD/autistic behaviors without the hypotonia and prominent seizures seen in other disorders. While recent cohort studies establish intellectual disability, autism, ADHD, and aggression as core features in 33 individuals with LRRC7 variants, literature and genomic reports also link LRRC7 alterations to hypotonia, seizures, and absent language, contradicting the claim that hypotonia and seizure manifestations are absent or sufficiently distinct to reliably separate LRRC7 from clinically overlapping neurodevelopmental syndromes without molecular testing.",
+  "evidence": [
+    {
+      "text": "In a cohort study characterizing 33 individuals with dominant neurodevelopmental disorders due to heterozygous missense or loss-of-function variants in LRRC7, the phenotype was defined by intellectual disability, autism, ADHD, aggression, and in several cases hyperphagia-associated obesity.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "Undiagnosed Diseases Network"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals cohort size",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "A study evaluating rare copy number variations in impulsive psychiatric phenotypes reported microduplications and de novo variants of LRRC7 associated with mental disorder presenting with hypotonia, seizures, and absent language, directly contradicting the premise that hypotonia and seizures do not characterize LRRC7-related pathology.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Rare copy number variation in extremely impulsively violent males",
+        "authors": [
+          "J Vevera",
+          "M Zarrei",
+          "H Hartmannov\u00e1"
+        ],
+        "year": 2019,
+        "journal": "Genes, Brain and Behavior",
+        "doi": "10.1111/gbb.12536",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gbb.12536",
+        "quote": "a microduplication in LRRC7, de novo variants of which \u2026 mental disorder with hypotonia, seizures and absent language"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Functional and model organism investigations of LRRC7 haploinsufficiency document seizures as well as learning impairments, confirming that seizure liability is part of the LRRC7 functional deficit profile.",
+      "stance": "neutral",
+      "source": {
+        "title": "How Studying Rare Disease Leads to Mechanistic Insights and Therapeutic Development: Lessons from Nonmammalian Models",
+        "authors": [
+          "P Hall",
+          "M Wangler",
+          "J Andrews"
+        ],
+        "year": 2026,
+        "journal": "Annual Review of Genomics and Human Genetics",
+        "doi": "10.1146/annurev-genom-020525-025811",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-genom-020525-025811",
+        "quote": "with established clinical names, like LRRC7 (which causes intellectual developmental disorder, \u2026 data were observed in haploinsufficient mouse models, including seizures, learning and \u2026"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes an absence or marked rarity of hypotonia and seizures in LRRC7-related disorder to distinguish it from SHANK3 and SYNGAP1, but clinical and functional literature links LRRC7 variants to phenotypes that include hypotonia and seizures.",
+    "The hypothesis emphasizes expressive language impairment and ADHD over other prominent features reported in the largest cohort study (n=33), which highlights aggressive behavior and hyperphagia-associated obesity as key clinical characteristics."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and semiology of seizures and muscular hypotonia in the expanded international LRRC7 cohort (n=33)?",
+      "rationale": "Clarifying the true frequency of hypotonia and epilepsy in LRRC7-related disorder is essential to determine whether these features truly differentiate it from other postsynaptic density synaptopathies.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Does hyperphagia and early-onset obesity represent a specific phenotypic discriminator for LRRC7 compared to SYNGAP1, SHANK3, and GRIN2B disorders?",
+      "rationale": "Hyperphagia-associated obesity was reported in several LRRC7 patients in recent studies, representing a potential metabolic/behavioral discriminator not typically prominent in classic PSD channelopathies.",
+      "promise": 0.78,
+      "est_cost": 25000
+    }
+  ]
+}

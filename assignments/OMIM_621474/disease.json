@@ -1,0 +1,28 @@
+{
+  "omim": "OMIM:621474",
+  "label": "Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities",
+  "gene": "KDM2B",
+  "gene_info": {
+    "symbol": "KDM2B",
+    "name": "lysine demethylase 2B",
+    "type_of_gene": "protein-coding",
+    "map_location": "12q24.31",
+    "entrez_id": "84678",
+    "aliases": [
+      "CXXC2",
+      "FBXL10",
+      "Fbl10",
+      "JHDM1B",
+      "NEDCRO",
+      "PCCX2"
+    ],
+    "summary": "This gene encodes a member of the F-box protein family which is characterized by an approximately 40 amino acid motif, the F-box. The F-box proteins constitute one of the four subunits of ubiquitin protein ligase complex called SCFs (SKP1-cullin-F-box), which function in phosphorylation-dependent ubiquitination. The F-box proteins are divided into 3 classes: Fbws containing WD-40 domains, Fbls containing leucine-rich repeats, and Fbxs containing either different protein-protein interaction modules or no recognizable motifs. The protein encoded by this gene belongs to the Fbls class. Multiple alternatively spliced transcript variants have been found for this gene, but the full-length nature of some variants has not been determined. [provided by RefSeq, Jul 2008].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 18,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 133,
+  "corpus_query": "\"KDM2B\" OR \"Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities\"",
+  "corpus_query_clinical": "(\"KDM2B\" OR \"Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities (OMIM #621474), caused by variants in KDM2B: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

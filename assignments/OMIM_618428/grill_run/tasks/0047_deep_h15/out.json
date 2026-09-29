@@ -1,0 +1,60 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature confirms that the initial report linking YWHAZ to a cardiofaciocutaneous (CFC)-like neurodevelopmental phenotype by Popov et al. (2019) was confounded by co-occurring pathogenic variants in established disease genes, specifically SCN8A. As highlighted by subsequent evaluators such as Wan et al. (2023), the patient carrying the YWHAZ Ser230Trp variant also carried a pathogenic SCN8A variant, which alone can explain severe neurodevelopmental deficits and epilepsy. Because of these confounding secondary hits and the small number of probands, the phenotypic spectrum attributable solely to YWHAZ variation remained indeterminate until isolated monogenic pedigrees were described.",
+  "evidence": [
+    {
+      "text": "Wan et al. explicitly note that the individual reported by Popov et al. carrying the YWHAZ Ser230Trp variant also carried a pathogenic variant in SCN8A, confounding the phenotypic attribution to YWHAZ in that case.",
+      "stance": "supports",
+      "source": {
+        "title": "YWHAZ variation causes intellectual disability and global developmental delay with brain malformation",
+        "authors": [
+          "RP Wan",
+          "ZG Liu",
+          "XF Huang",
+          "P Kwan"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/32/3/462/6674657",
+        "quote": "Popov et al. had reported that YWHAZ Ser230Trp variant is a \u2026 carried SCN8A variant in that case (9)."
+      },
+      "numbers": [
+        {
+          "metric": "co-occurring SCN8A variant in Popov et al. case",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Popov et al. reported novel YWHAZ variants (including S230W) in probands exhibiting phenotypes consistent with CFC syndrome, demonstrating gain-of-function activation of the RAS-ERK pathway in functional models.",
+      "stance": "neutral",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous ...",
+        "authors": [
+          "IK Popov"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6465419",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+        "quote": "We recently identified novel variants in YWHAZ, a 14-3-3 family member, in individuals with a phenotype consistent with CFC that may potentially be deleterious and disease-causing."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "To what extent do pure loss-of-function versus gain-of-function YWHAZ variants produce distinct clinical entities (e.g., pure intellectual disability vs. rasopathy/CFC-like spectrum)?",
+      "rationale": "Popov et al. reported S230W as a gain-of-function variant linked to a CFC-like phenotype, whereas Wan et al. characterized Lys49Asn as a loss-of-function variant in an isolated family with non-syndromic ID/GDD and brain malformations.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    }
+  ]
+}

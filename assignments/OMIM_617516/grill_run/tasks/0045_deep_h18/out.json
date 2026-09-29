@@ -1,0 +1,99 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature partially supports the finding that cutaneous interferonopathy-like signs occur in a small minority of STISS patients: Isidor et al. (2022) identified chilblains in exactly 2 of 24 individuals (~8.3%). However, another cohort of 6 patients from two unrelated families documented that 0 of 6 had clinical autoinflammatory signs and noted that observed IFN-I gene signature perturbations were non-specific. Furthermore, the claim that chilblains reliably discriminate STISS from phenotypically overlapping non-proteasomal syndromes like Cornelia de Lange or Rubinstein-Taybi is not substantiated by any comparative data in the retrieved literature.",
+  "evidence": [
+    {
+      "text": "In a cohort of 24 unrelated individuals with PSMD12 pathogenic variants, 2 individuals (8.3%) displayed chilblains resembling features of autoinflammatory interferonopathies, alongside upregulation of type I interferon-stimulated genes.",
+      "stance": "supports",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "Of note, 2 patients also showed chilblains resembling signs observed in interferonopathy. Remarkably, our data show that STISS patient cells exhibit a profound remodeling of the mTORC1 and mitophagy pathways with an induction of type I interferon-stimulated genes."
+      },
+      "numbers": [
+        {
+          "metric": "STISS patients displaying chilblains",
+          "value": 2
+        },
+        {
+          "metric": "total patients assessed in cohort",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "In an independent familial cohort of 6 individuals with PSMD12 variants, none presented with clinical manifestations of autoinflammation, and observed type I interferon signature perturbations were found to be non-specific.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.rti.org/publication/stankiewicz-isidor-syndrome-expanding-clinical-molecular-phenotype",
+        "quote": "None presented clinical manifestations of autoinflammation and the detected IFN-I signature perturbations were not specific."
+      },
+      "numbers": [
+        {
+          "metric": "patients with clinical autoinflammatory manifestations",
+          "value": 0
+        },
+        {
+          "metric": "total patients in cohort",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous loss-of-function variants in 19S proteasome cap genes, including PSMD12, define neurodevelopmental proteasomopathies linked to type I interferon signaling, distinct from classical monogenic lupus or pure autoinflammatory interferonopathies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Emerging concepts and treatments in autoinflammatory interferonopathies and monogenic systemic lupus erythematosus",
+        "authors": [
+          "R Goldbach"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41584-024-01184-8",
+        "quote": "of neurodevelopmental proteasomopathies caused by heterozygous LOF mutations in genes encoding components or assembly units of the 19S regulatory cap including PSMD12"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While Isidor et al. (2022) found chilblains in 2 of 24 individuals (8.3%) and proposed interferon gene signature activation as a diagnostic hallmark, an independent cohort of 6 patients from two families identified no clinical autoinflammation and concluded that IFN-I signature perturbations were non-specific.",
+    "The literature does not evaluate or substantiate the discriminative power of chilblains between STISS and phenotypically overlapping syndromes such as Cornelia de Lange syndrome or Rubinstein-Taybi syndrome."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and specificity of cutaneous chilblains and IFN-I biomarker signatures across an unselected, international multi-cohort registry of PSMD12-affected individuals?",
+      "rationale": "Current cohorts show conflicting rates and disputed specificity of the interferonopathy phenotype, ranging from 8.3% to 0%.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "How frequently do pernio/chilblain-like lesions occur in non-proteasomal neurodevelopmental disorders like Cornelia de Lange or Rubinstein-Taybi syndromes compared to STISS?",
+      "rationale": "Direct comparative cohort data are required to validate whether cutaneous chilblains have positive discriminative utility against clinical phenocopies.",
+      "promise": 0.75,
+      "est_cost": 30000
+    }
+  ]
+}

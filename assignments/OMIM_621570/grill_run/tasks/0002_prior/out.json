@@ -1,0 +1,46 @@
+{
+  "knowledge": "Cornelia de Lange syndrome 7 (CdLS7; OMIM #621570) is an ultrarare cohesinopathy caused by heterozygous pathogenic variants in the MAU2 gene (encoding MAU2 sister chromatid cohesion factor, which forms the cohesin loading complex with NIPBL). Cohesinopathies share overlapping phenotypes including developmental delay, intellectual disability, microcephaly, characteristic facial dysmorphisms (synophrys, arched eyebrows, long eyelashes, depressed nasal bridge, anteverted nares, long philtrum, thin upper lip vermilion, downturned oral commissures), and growth retardation. However, MAU2-related CdLS is generally reported to present with a milder or atypical CdLS spectrum, frequently lacking severe limb reduction defects characteristic of classical NIPBL-associated CdLS. Only a small number of affected individuals have been documented in the literature to date.",
+  "prior_hypothesis": "Identifying a patient with CdLS7 from clinical phenotype alone among patients with overlapping developmental or cohesinopathy disorders is challenging due to phenotypic overlap and low case numbers; however, CdLS7 presents predominantly as a mild-to-moderate CdLS phenotype characterized by mild-to-moderate intellectual disability, microcephaly, postnatal growth failure, and classical craniofacial features (synophrys, arched eyebrows, thin upper lip vermilion), but notable for the absence of severe major limb reduction defects (such as oligodactyly or phocomelia) that are commonly observed in severe classical CdLS (NIPBL). Definitive distinction from other non-classical cohesinopathies (e.g., SMC1A, SMC3, RAD21, HDAC8) requires molecular genetic confirmation.",
+  "candidate_answers": [
+    {
+      "answer": "Clinical phenotypes in CdLS7 individuals consistently include neurodevelopmental delay/intellectual disability (HP:0001249 / HP:0001263), microcephaly (HP:0000252), synophrys (HP:0000664), highly arched eyebrows (HP:0002553), long eyelashes (HP:0000527), and thin upper lip vermilion (HP:0000219) across reported probands, with mild-to-moderate postnatal growth retardation (HP:0001511).",
+      "confidence": 0.85,
+      "aspect": "Reported phenotype spectrum and frequencies"
+    },
+    {
+      "answer": "Distinguishing CdLS7 from classical NIPBL-related CdLS (CdLS1) relies on the milder overall neurodevelopmental impairment and the absence of severe limb reduction anomalies (e.g., absent ulna/radius, oligodactyly); however, discriminating CdLS7 from RAD21- or SMC3-related mild CdLS on purely clinical grounds without molecular testing has low discriminatory confidence due to near-identical mild cohesinopathy dysmorphic spectra.",
+      "confidence": 0.8,
+      "aspect": "Differential diagnosis and discriminating features"
+    },
+    {
+      "answer": "Severe limb reduction defects (HP:0009804, such as phocomelia, amelia, or severe transverse limb deficiencies) and severe structural diaphragmatic hernia have been absent or exceptionally rare in MAU2 probands, making their presence strongly indicative of alternative diagnoses (such as classical CdLS1).",
+      "confidence": 0.75,
+      "aspect": "Negative and exclusionary findings"
+    },
+    {
+      "answer": "Genotype-phenotype correlations in MAU2 remain incompletely characterized due to the very small total number of published individuals, with de novo missense and loss-of-function variants both contributing to a variable, generally milder CdLS spectrum regardless of sex.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype, age, and sex correlations"
+    }
+  ],
+  "key_terms": [
+    "Cornelia de Lange syndrome 7 (CdLS7)",
+    "MAU2",
+    "NIPBL",
+    "Cohesinopathy",
+    "Synophrys",
+    "Limb reduction defects",
+    "Microcephaly",
+    "OMIM 621570"
+  ],
+  "open_questions": [
+    "What is the exact published count of distinct MAU2-affected probands with comprehensive HPO deep phenotyping in the primary literature?",
+    "Are there specific subtle dysmorphic signs (e.g., ear morphology, palate defects, behavior profiles) that uniquely distinguish MAU2 variants from NIPBL, RAD21, or HDAC8 variants?",
+    "What specific missense versus truncating/splice MAU2 variants have been published, and do non-truncating variants retain partial cohesin-loading function?"
+  ],
+  "assumptions": [
+    "OMIM #621570 accurately corresponds to heterozygous pathogenic MAU2 variants causing Cornelia de Lange syndrome 7.",
+    "The published cohort sizes for MAU2 variants are very small (fewer than 20 cases worldwide), which may limit statistical precision of specific phenotype frequencies.",
+    "Phenotypic evaluation in the published literature has used standard international diagnostic criteria and consensus clinical scoring for Cornelia de Lange syndrome."
+  ]
+}

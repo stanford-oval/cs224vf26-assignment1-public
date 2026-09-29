@@ -1,0 +1,113 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across cohorts consistently shows that established pathogenic and likely pathogenic truncating variants in SCAF4 causing Fliedner-Zweier syndrome (OMIM #620511) map to the N-terminal and central two-thirds of the protein. Fliedner et al. (2020) initially observed that all nine identified likely pathogenic variants localized to the N-terminal two-thirds, while noting that truncating variants situated in the terminal exon likely represent benign population variation that escapes nonsense-mediated mRNA decay (NMD). This was corroborated by Schmid et al. (2025) in an expanded series of 50 novel individuals, where all truncating variants across the gene were classified as pathogenic or likely pathogenic with the sole exception of a C-terminal truncating variant that remained of uncertain clinical significance (VUS). No definitive counter-examples of confirmed pathogenic C-terminal loss-of-function variants producing the full core phenotype have been established.",
+  "evidence": [
+    {
+      "text": "In a study delineating 50 novel individuals with SCAF4-related neurodevelopmental disorder, 25 truncating variants were identified. All truncating variants were classified as pathogenic or likely pathogenic except for one C-terminal truncating variant whose clinical significance remained uncertain.",
+      "stance": "supports",
+      "source": {
+        "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+        "authors": [
+          "CM Schmid",
+          "A Gregor",
+          "A Ruiz"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01760-2",
+        "quote": "The molecular spectrum comprises 25 truncating, eight splice-site and five missense variants. While all other truncating variants were classified as pathogenic/likely pathogenic, significance of one C-terminal truncating variant, one splice-site variant and the missense variants remained unclear."
+      },
+      "numbers": [
+        {
+          "metric": "total novel individuals with SCAF4 variants",
+          "value": 50
+        },
+        {
+          "metric": "total truncating variants identified",
+          "value": 25
+        },
+        {
+          "metric": "C-terminal truncating variants of uncertain significance",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "The discovery cohort identified nine likely pathogenic germline variants (seven truncating, two splice-site), all located within the N-terminal two-thirds of the SCAF4 protein, while truncating variants in the last exon observed in population databases were considered benign due to escape from nonsense-mediated mRNA decay.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in SCAF4 Cause a Neurodevelopmental Disorder Associated with Impaired mRNA Processing",
+        "authors": [
+          "A Fliedner"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/pdf/S0002-9297(20)30228-7.pdf",
+        "quote": "truncating variants in SCAF4, of which 10 are located in the last exon and probably are benign due to escaping nonsense-mediated mRNA decay."
+      },
+      "numbers": [
+        {
+          "metric": "likely pathogenic germline variants in cohort",
+          "value": 9
+        },
+        {
+          "metric": "truncating variants in cohort",
+          "value": 7
+        },
+        {
+          "metric": "last exon truncating variants predicted benign due to NMD escape",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "text": "A patient with Fliedner-Zweier syndrome presented with a heterozygous nonsense variant, c.1693C>T (p.Arg565*), in exon 14 of SCAF4, fitting within the central gene region upstream of the C-terminus.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel nonsense mutation in SCAF4 associated with fliedner-zweier syndrome: a case report and review of the literature",
+        "authors": [
+          "Z Chen",
+          "J Zhao",
+          "X Fan",
+          "X Xuan",
+          "X Zhao"
+        ],
+        "year": 2025,
+        "journal": "Frontiers in Genetics",
+        "doi": "10.3389/fgene.2025.1487352/full",
+        "pmid": null,
+        "pmc": "PMC12021868",
+        "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2025.1487352/full",
+        "quote": "Whole exome sequencing (WES) identified a heterozygous nonsense mutation, c.1693C>T (p.Arg565*), located in exon 14 of the SCAF4 gene (NM_020706)."
+      },
+      "numbers": [
+        {
+          "metric": "exon location of nonsense variant",
+          "value": 14
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Do C-terminal truncating variants distal to the CTD-interacting domain lead to stable truncated protein expression or undergo targeted degradation via alternative protein quality control pathways?",
+      "rationale": "Quantifying transcript and protein abundance from patient-derived lymphoblastoid cells or engineered iPSCs harboring terminal exon truncations will determine whether NMD escape preserves functional residual protein or produces a dominant-negative effect.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the penetrance and phenotype distribution of distal C-terminal truncations present in large population biobanks (such as gnomAD and All of Us)?",
+      "rationale": "Evaluating deep phenotyping data from unselected biobank participants carrying terminal exon truncating variants will verify whether these variants truly represent benign polymorphisms or mild/subclinical neurodevelopmental phenotypes.",
+      "promise": 0.78,
+      "est_cost": 15000
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "verdict": "supported",
+  "rationale": "Available literature and diagnostic databases consistently document that variants in PLAA cause Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies (NDMSBA, OMIM #617527). Primary discovery data from Hall et al. (2017) confirm that affected individuals typically present with normal or near-normal head circumference at birth that progressively declines postnatally to significant microcephaly (>2 SD below the mean). While detailed cohort numerators/denominators are truncated in the available snippets, all available records support progressive microcephaly as an invariant or near-invariant cardinal feature of the disorder.",
+  "evidence": [
+    {
+      "text": "Genomics England PanelApp records for PLAA cite Hall et al. (2017), noting that head circumference in affected individuals was normal at birth and decreased to >2 SD below the mean in ensuing years, consistent with progressive microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: PLAA (Severe microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/162/gene/PLAA/",
+        "quote": "Hall et al. (2017, Head circumference was normal at birth and decreased to >2 SD below mean in the ensuing years. microcephaly, spasticity, and brain anomalies"
+      },
+      "numbers": [
+        {
+          "metric": "postnatal head circumference drop (SD below mean)",
+          "value": ">2"
+        }
+      ]
+    },
+    {
+      "text": "Hall et al. (2017) describe human patients harboring hypomorphic PLAA mutations presenting with a lethal infantile epileptic encephalopathy and neurodysfunction syndrome associated with defective ubiquitin-mediated endolysosomal degradation.",
+      "stance": "supports",
+      "source": {
+        "title": "PLAA Mutations Cause a Lethal Infantile Epileptic Encephalopathy by Disrupting Ubiquitin-Mediated Endolysosomal Degradation of Synaptic Proteins",
+        "authors": [
+          "EA Hall"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.03.008",
+        "pmid": "28413018",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28413018/",
+        "quote": "In both human and mouse, hypomorphic mutations in the ubiquitin adaptor protein PLAA cause an infantile-lethal neurodysfunction syndrome with seizures."
+      },
+      "numbers": []
+    },
+    {
+      "text": "OMIM entry #617527 confirms NDMSBA is characterized by progressive microcephaly, spasticity, and brain anomalies as defined cardinal clinical features.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #617527 - NEURODEVELOPMENTAL DISORDER WITH PROGRESSIVE MICROCEPHALY, SPASTICITY, AND BRAIN ANOMALIES; NDMSBA",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/617527",
+        "quote": "Neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies (NDMSBA) is an autosomal recessive neurodevelopmental disorder"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Functional studies evaluating PLAA variants report that the PLAA L752F mutation causes progressive microcephaly and leukoencephalopathy in human patients at ages 2 to 4 months.",
+      "stance": "supports",
+      "source": {
+        "title": "Figure 3. Reduction of PLAA Levels in Mouse Results in Microcephaly and Early-Onset Neural...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/figure/Reduction-of-PLAA-Levels-in-Mouse-Results-in-Microcephaly-and-Early-Onset-Neural_fig3_317163131",
+        "quote": "PLAA L752F mutation causes progressive microcephaly and leukoencephalopathy in patients at ages 2 to 4 months , that also causes severe developmental delay"
+      },
+      "numbers": [
+        {
+          "metric": "age of clinical presentation (months)",
+          "value": "2 to 4"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of progressive postnatal microcephaly across non-consanguineous cohorts harboring novel biallelic PLAA missense versus loss-of-function variants?",
+      "rationale": "Current case series predominantly evaluate early multiplex families with homozygous founder alleles such as p.Leu752Phe; examining a broader variety of variant classes will establish if mild or non-progressive forms exist.",
+      "promise": 0.8,
+      "est_cost": 25000.0
+    }
+  ]
+}

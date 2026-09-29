@@ -1,0 +1,38 @@
+{
+  "fields": [
+    {
+      "field": "Clinical phenotypes reported in affected individuals with cohort-specific numerator and denominator counts (not percentages alone), the finding as worded in the paper, and the corresponding standard HPO term if identifiable",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Resolvable source citation (PMID or DOI) and specific cohort attribution for every reported phenotype frequency",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating findings present in most affected individuals but uncommon in overlapping disorders, including names of the differential diagnosis disorders and the degree of confidence in the distinction",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Findings explicitly investigated and found absent in affected individuals whose presence would argue against the diagnosis",
+      "covered": true,
+      "contributing_aspects": [
+        "Exclusionary / negative findings",
+        "limb reduction",
+        "differential diagnosis"
+      ]
+    },
+    {
+      "field": "Phenotype differences correlated with variant type, variant position, patient age, or patient sex",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Any reported clinical findings that one paper affirms and another paper explicitly contradicts",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

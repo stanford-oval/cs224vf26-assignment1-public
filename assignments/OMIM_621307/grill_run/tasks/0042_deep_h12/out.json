@@ -1,0 +1,65 @@
+{
+  "verdict": "supported",
+  "rationale": "The available literature on TBC1D32-associated Alsahan-Harris syndrome (OMIM #621307) documents an extensive ciliopathy phenotype encompassing brain, eye, hypothalamic-pituitary, oral (notably bifid and hamartomatous tongues), and digital anomalies. However, neither bifid epiglottis nor distal enteric aganglionosis (Hirschsprung disease) / imperforate anus have been reported as characteristic features of TBC1D32 mutations. In contrast, bifid epiglottis and anorectal malformations/aganglionosis are classic hallmark manifestations of GLI3-related Pallister-Hall syndrome, making their presence a decisive discriminator favoring Pallister-Hall syndrome over Alsahan-Harris syndrome.",
+  "evidence": [
+    {
+      "text": "TBC1D32 variants are associated with Alsahan-Harris syndrome, characterized as a severe autosomal recessive ciliopathy with brain, eye, oral, and digital anomalies, with noted oral manifestations restricted to tongue anomalies (bifid and hamartomatous tongues) rather than laryngeal clefting or bifid epiglottis.",
+      "stance": "supports",
+      "source": {
+        "title": "Diagnosis of TBC1D32-associated conditions",
+        "authors": [
+          "SC Harris"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10204718",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10204718/",
+        "quote": "Tongue differences, including bifid and hamartomatous tongues, Alsahan N, & Confirming TBC ... TBC1D32 is involved in the development and function of cilia and is expressed in the developing hypothalamus and pituitary gland. We provide additional data to expand the phenotype correlated with TBC1D32 variants, including a severe prenatal phenotype associated with life-limiting congenital anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "new probands reported",
+          "value": 7
+        },
+        {
+          "metric": "previously published patients compared",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Alsahan-Harris Syndrome (OMIM #621307) involves complex ciliary disruption presenting with severe prenatal brain, ophthalmological, and digital anomalies without documented distal enteric aganglionosis or bifid epiglottis.",
+      "stance": "supports",
+      "source": {
+        "title": "TBC1D32 gene TBC1 Domain Family Member 32",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/TBC1D32",
+        "quote": "Disorders associated with TBC1D32 ; 2, Alsahan-Harris Syndrome, Severe autosomal recessive prenatal ciliopathy with brain, eye, and digital anomalies."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Are laryngoscopic airway evaluations systematically performed in neonates with suspected TBC1D32-associated ciliopathies to definitively rule out subclinical epiglottic clefts or bifid epiglottis?",
+      "rationale": "Oral findings such as bifid tongue are confirmed in TBC1D32 cohorts, but deep laryngeal structures may be under-examined unless severe airway compromise is present.",
+      "promise": 0.8,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "What is the incidence of gastrointestinal dysmotility or subtle enteric nervous system abnormalities in TBC1D32 animal models compared to GLI3 models?",
+      "rationale": "Clarifying whether primary ciliary disruption by TBC1D32 affects neural crest-derived enteric innervation will resolve whether aganglionosis is truly non-overlapping with GLI3 pathology.",
+      "promise": 0.75,
+      "est_cost": 45000.0
+    }
+  ]
+}

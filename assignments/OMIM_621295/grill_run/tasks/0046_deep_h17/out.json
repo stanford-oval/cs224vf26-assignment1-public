@@ -1,0 +1,90 @@
+{
+  "verdict": "supported",
+  "rationale": "Systematic evaluation of biallelic NOTCH3 variants confirms a clear phenotypic and neuroradiological bifurcation. Biallelic loss-of-function (LoF) variants cause an autosomal recessive neurodevelopmental leukodystrophy (OMIM #621295) characterized by early-onset spasticity, childhood strokes, epilepsy, and periatrial white matter volume loss resembling periventricular leukomalacia or confluent periventricular abnormalities, consistently sparing the anterior temporal poles early on. In contrast, the classic anterior temporal pole hyperintensities pathognomonic of CADASIL are specifically driven by cysteine-altering missense variants (monoallelic or biallelic) without early volume loss. Findings in advanced LoF cases reflecting temporal white matter involvement stem from confluent diffuse leukoencephalopathy and severe cerebral atrophy rather than the circumscribed anterior temporal pole capsular lesions characteristic of dominant CADASIL.",
+  "evidence": [
+    {
+      "text": "Biallelic loss-of-function variants in NOTCH3 (n=26) lead to a neurodevelopmental disorder characterised by spasticity, childhood-onset stroke, and periatrial white matter volume loss resembling periventricular leukomalacia, whereas biallelic cysteine-involving missense variants (n=24) produce a CADASIL spectrum phenotype with deep white matter lesions without significant volume loss.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical and neuroradiological spectrum of biallelic variants in NOTCH3",
+        "authors": [
+          "P Iruzubieta",
+          "CAPF Alves",
+          "AM Al Shamsi"
+        ],
+        "year": 2024,
+        "journal": "eBioMedicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(24)00333-5/fulltext?uuid=uuid%3A96be62e9-7005-4bb8-a3db-0ba3a222ee3a",
+        "quote": "Biallelic loss-of-function variants (26 patients) lead to a neurodevelopmental disorder characterised by spasticity, childhood-onset stroke, and periatrial white matter volume loss resembling periventricular leukomalacia. Conversely, patients with biallelic cysteine-involving missense variants (24 patients) fall within CADASIL spectrum phenotype with early adulthood onset stroke, dementia, and deep white matter lesions without significant volume loss."
+      },
+      "numbers": [
+        {
+          "metric": "Biallelic LoF cohort size",
+          "value": 26
+        },
+        {
+          "metric": "Biallelic cysteine missense cohort size",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "A 12-year-old patient with a homozygous frameshift loss-of-function variant in NOTCH3 presented with global developmental delay, spastic tetraparesis, epilepsy, and bilateral periventricular white matter abnormalities, highlighting that recessive LoF variants cause an early-onset leukodystrophy distinct from CADASIL without typical isolated anterior temporal pole changes.",
+      "stance": "supports",
+      "source": {
+        "title": "A novel homozygous loss-of-function NOTCH3 variant in a Moroccan patient: expanding the spectrum beyond CADASIL",
+        "authors": [
+          "A Ouskri",
+          "H Ihlal",
+          "Z En"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1007/s10048-025-00862-3",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10048-025-00862-3",
+        "quote": "We report a 12-year-old Moroccan girl, born to first-degree consanguineous parents, presenting with global developmental delay, spastic tetraparesis, epilepsy, and bilateral periventricular white matter abnormalities. Whole-exome sequencing identified a novel homozygous frameshift variant in NOTCH3... Emerging evidence shows that biallelic loss-of-function variants, unlike the gain-of-function variants underlying CADASIL, define a distinct autosomal recessive leukodystrophy"
+      },
+      "numbers": [
+        {
+          "metric": "Age of presentation (years)",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "In CADASIL caused by cysteine-altering variants, white matter hyperintensities in the anterior temporal lobe and external capsule are established hallmark diagnostic discriminators from sporadic small vessel disease, in contrast to non-classical or recessive NOTCH3 small vessel disease presentations.",
+      "stance": "neutral",
+      "source": {
+        "title": "Update on the epidemiology, pathogenesis, and biomarkers of cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy",
+        "authors": [
+          "Y Yamamoto",
+          "YC Liao",
+          "YC Lee"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9833879",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9833879/",
+        "quote": "Several characteristic features have been observed in the brain magnetic resonance images of patients with CADASIL, including subcortical lacunar lesions and white matter hyperintensities in the anterior temporal lobe or external capsule, which were useful in differentiating CADASIL from sporadic stroke in patients."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does quantitative volumetric temporal lobe analysis distinguish secondary ex-vacuo white matter thinning in biallelic NOTCH3 LoF from focal subcortical U-fiber hyperintensities of classic CADASIL?",
+      "rationale": "High-resolution 3D T1-weighted and FLAIR MRI volumetrics across longitudinal stages of biallelic LoF cases will directly quantify whether temporal lobe changes correlate strictly with global brain parenchymal volume loss rather than focal microvascular demyelination.",
+      "promise": 0.85,
+      "est_cost": 25000
+    }
+  ]
+}

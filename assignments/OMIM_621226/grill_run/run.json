@@ -1,0 +1,201 @@
+{
+  "question": "For Spastic ataxia 11, autosomal dominant (OMIM #621226), caused by variants in TUBA4A: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "round": 2,
+  "budget": {
+    "total": 10.0,
+    "spent": 0.4494864400000001,
+    "by_phase": {
+      "init": 0.0306315,
+      "plan": 0.0104235,
+      "explore": 0.061163,
+      "screen": 0.110977,
+      "deep": 0.191252,
+      "measure": 0.00671844,
+      "finalize": 0.038321,
+      "artifact": 0.0
+    },
+    "embeddings": 0.0006562399999999999
+  },
+  "allocations": [
+    {
+      "direction": "d1",
+      "question": "What are the precise cohort-level numerators and denominators for dysarthria, nystagmus, and peripheral neuropathy in the primary SPAX11 discovery papers?",
+      "allocated": 1.9781534,
+      "spent": 0.014326499999999992,
+      "rationale": "Extracts granular cohort-level numerators and denominators for dysarthria, nystagmus, and neuropathy from primary discovery papers to satisfy core clinical phenotype requirements."
+    },
+    {
+      "direction": "d8",
+      "question": "Resolve the conflict over: Core clinical phenotypes include cerebellar ataxia (gait ataxia, dysmetria, dysarthria; standard HPO: HP:0001251) and lower limb spasticity/pyramidal signs (hyperreflexia, extensor plantar response; HPO: HP:0002061), accompanied by cerebellar atrophy on MRI (HPO: HP:0001272) in approximately 80-100% of affected adults in reported pedigree series.",
+      "allocated": 1.9781534,
+      "spent": 0.01752250000000001,
+      "rationale": "Directly resolves the explicit conflict between Benkirane 2024 and Torella 2023 on cerebellar atrophy penetrance and establishes precise cohort frequencies."
+    },
+    {
+      "direction": "d16",
+      "question": "What is the exact correlation between disease duration from symptom onset and semi-quantitative MRI cerebellar atrophy scores across all published TUBA4A SPAX11 kindreds?",
+      "allocated": 1.9,
+      "spent": 0.017587999999999993,
+      "rationale": "Directly investigates the explicit contradiction regarding cerebellar atrophy between Torella et al. and Benkirane et al. across disease durations."
+    },
+    {
+      "direction": "d24",
+      "question": "What are the exact patient-level numerators and denominators for dysarthria, nystagmus, and saccadic pursuit across all published TUBA4A variants?",
+      "allocated": 1.947778958,
+      "spent": 0.011726000000000014,
+      "rationale": "Directly provides exact patient-level numerators and denominators for clinical signs across all published cohorts to answer core phenotyping requirements."
+    }
+  ],
+  "patterns": 5,
+  "artifacts": 0,
+  "avg_explore_cost": 0.01529075,
+  "avg_test_cost": 0.0099013125,
+  "snapshots": [
+    {
+      "cost": 0.4494864400000001,
+      "coverage": 0.6,
+      "quality": 0.625,
+      "answeredness": 0.375,
+      "progress": 0.0,
+      "backlog": 0,
+      "new_hypotheses": 12,
+      "n_hypotheses": 16,
+      "n_pooled": 10,
+      "n_binned": 6,
+      "n_conflicted": 2,
+      "n_refuted": 4,
+      "n_evidence": 62,
+      "n_covered": 3,
+      "n_asks": 5,
+      "n_open": 47,
+      "unsourced": 0.0,
+      "stalled": false,
+      "uncovered": [
+        "Clinical phenotypes reported in affected individuals with frequency as numerator and denominator per cohort, original paper wording, and standard HPO term if identifiable, attached to a resolvable source (PMID or DOI)",
+        "Findings that one paper reports and another explicitly contradicts"
+      ]
+    }
+  ],
+  "config": {
+    "budget": 10.0,
+    "K": 2,
+    "alloc_ceiling_frac": 0.4,
+    "explore_round_frac": 0.5,
+    "explore_default_usd": 3.5,
+    "explore_min_usd": 1.0,
+    "plan_task_usd": 1.0,
+    "screen_task_usd": 0.25,
+    "deep_task_usd": 0.6,
+    "ground_task_usd": 0.25,
+    "ground_terms": 4,
+    "checkpoint_every": 0.0,
+    "progress_eps": 0.02,
+    "max_rounds": 2,
+    "concurrency": 4,
+    "task_timeout": 1800,
+    "sources": [],
+    "model": "gemini-3.8-flash",
+    "reasoning": "low",
+    "env_file": "/mnt/data/oval/assignment-cs224v/runs/.credentials.env",
+    "reference_set": [],
+    "rubric": "Correctness (no hallucination), Completeness (diverse coverage), Forward-looking (good next directions), Faithfulness (answers the ask).",
+    "retest_max_attempts": 2,
+    "corroborate_enabled": true,
+    "corroborate_thresh": 0.88,
+    "corroborate_per_source": 0.04,
+    "unbin_thresh": 0.6,
+    "prior_probe_enabled": true,
+    "prior_probe_k": 5,
+    "niche_boost": 0.15,
+    "rerank_direct_max": 60,
+    "rerank_pool": 50,
+    "steer_inbox": "/home/oval/.grill-runs/batch/OMIM_621226/steer_inbox.json",
+    "interactive": false,
+    "workspace": false,
+    "auto_artifacts": false,
+    "artifact_task_usd": 1.5,
+    "artifact_min_usd": 0.5,
+    "data": [],
+    "qa_task_usd": 0.5,
+    "data_query_usd": 1.5,
+    "judge_query_usd": 0.4,
+    "ablate": ""
+  },
+  "state": {
+    "round": 2,
+    "uncovered_fields": [
+      "Clinical phenotypes reported in affected individuals with frequency as numerator and denominator per cohort, original paper wording, and standard HPO term if identifiable, attached to a resolvable source (PMID or DOI)",
+      "Findings that one paper reports and another explicitly contradicts"
+    ],
+    "explored_texts": [
+      "Resolve the conflict over: Core clinical phenotypes include cerebellar ataxia (gait ataxia, dysmetria, dysarthria; standard HPO: HP:0001251) and lower limb spasticity/pyramidal signs (hyperreflexia, extensor plantar response; HPO: HP:0002061), accompanied by cerebellar atrophy on MRI (HPO: HP:0001272) in approximately 80-100% of affected adults in reported pedigree series.",
+      "What are the precise cohort-level numerators and denominators for dysarthria, nystagmus, and peripheral neuropathy in the primary SPAX11 discovery papers?",
+      "What are the exact patient-level numerators and denominators for dysarthria, nystagmus, and saccadic pursuit across all published TUBA4A variants?",
+      "What is the exact correlation between disease duration from symptom onset and semi-quantitative MRI cerebellar atrophy scores across all published TUBA4A SPAX11 kindreds?"
+    ],
+    "explore_costs": [
+      0.0175225,
+      0.0143265,
+      0.011726,
+      0.017588
+    ],
+    "test_costs": [
+      0.0083905,
+      0.008253,
+      0.0068615,
+      0.007305,
+      0.0107575,
+      0.011826,
+      0.01246,
+      0.012748,
+      0.0059565,
+      0.0071775,
+      0.0069625,
+      0.0078325,
+      0.0056105,
+      0.006059,
+      0.0112,
+      0.0136915,
+      0.0152875,
+      0.0115075,
+      0.0133025,
+      0.0115925,
+      0.0070265,
+      0.0064445,
+      0.0067825,
+      0.0079835,
+      0.005262,
+      0.0070695,
+      0.01026,
+      0.016054,
+      0.0114,
+      0.009266,
+      0.010898,
+      0.009001
+    ],
+    "task_n": 47,
+    "new_hypotheses": 0,
+    "artifact_requests": [],
+    "datasets": [],
+    "route": {
+      "kind": "research_only",
+      "data_ask": "",
+      "research_ask": "For Spastic ataxia 11, autosomal dominant (OMIM #621226), caused by variants in TUBA4A: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+      "rationale": "no input data supplied",
+      "ambiguities": []
+    },
+    "last_checkpoint_spend": 0.0,
+    "budget_total": 10.0,
+    "budget_spent": 0.4494864400000001,
+    "budget_by_phase": {
+      "init": 0.0306315,
+      "plan": 0.0104235,
+      "explore": 0.061163,
+      "screen": 0.110977,
+      "deep": 0.191252,
+      "measure": 0.00671844,
+      "finalize": 0.038321,
+      "artifact": 0.0
+    }
+  }
+}

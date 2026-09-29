@@ -1,0 +1,81 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SCA52\" \"RAB3A\" tremor \"spinocerebellar ataxia\"",
+    "SCA52 RAB3A tremor clinical phenotype Family T K"
+  ],
+  "n_hits": 8,
+  "hits": [
+    {
+      "id": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "abstract_chars": 455
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621535",
+      "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.omim.org/entry/179490?search=rab3a&highlight=rab3a",
+      "title": "Entry - *179490 - RAS-ASSOCIATED PROTEIN RAB3A",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.omim.org/entry/179490?search=rab3a&highlight=rab3a",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42424188",
+      "title": "Spinocerebellar Ataxia Type 12: Spectrums of Movement ...",
+      "pmid": "42424188",
+      "doi": "10.1159/000553488",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13461124/",
+      "abstract_chars": 1814
+    },
+    {
+      "id": "38911333",
+      "title": "Tremor in Spinocerebellar Ataxia: A Scoping Review",
+      "pmid": "38911333",
+      "doi": "10.5334/tohm.911",
+      "url": "https://tremorjournal.org/articles/10.5334/tohm.911",
+      "abstract_chars": 1812
+    },
+    {
+      "id": "10.3389/fnins.2026.1741827/full",
+      "title": "Spinocerebellar ataxia with mixed tremor and hippocampal ...",
+      "pmid": null,
+      "doi": "10.3389/fnins.2026.1741827/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1741827/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "title": "Ataxia: Dominant",
+      "pmid": null,
+      "doi": null,
+      "url": "https://neuromuscular.wustl.edu/ataxia/domatax.html",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3647,
+  "output_tokens": 971,
+  "usd": 0.00474,
+  "seconds": 10.9,
+  "ok": true
+}

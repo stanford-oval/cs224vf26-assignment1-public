@@ -1,0 +1,115 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While multiple clinical cohorts and reviews establish that biallelic and candidate pathogenic variants in TBC1D32 cause congenital hypopituitarism commonly presenting with features of pituitary stalk interruption syndrome (PSIS) including anterior pituitary hypoplasia and ectopic posterior pituitary, the literature does not validate the quantitative claim that the classic PSIS triad occurs in over 85% of live-born individuals with biallelic variants. PSIS triads in TBC1D32 and related ciliopathies are frequently incomplete, phenotypes can manifest as isolated or non-triad pituitary hypoplasia, and heterozygous missense variants of uncertain significance have also been reported in sporadic cohorts.",
+  "evidence": [
+    {
+      "text": "Mutations in TBC1D32 have been linked to congenital hypopituitarism and pituitary stalk interruption syndrome, which is defined by an ectopic posterior pituitary gland, anterior pituitary hypoplasia, and an interrupted or attenuated pituitary stalk on MRI.",
+      "stance": "supports",
+      "source": {
+        "title": "Congenital hypopituitarism-Novel phenotypes, novel mechanisms Hipopituitarismo cong\u00e9nito-Nuevos fenotipos, nuevos mecanismos",
+        "authors": [
+          "MT Dattani"
+        ],
+        "year": 2020,
+        "journal": "Revista Espa\u00f1ola de Endocrinolog\u00eda Pedi\u00e1trica",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.endocrinologiapediatrica.org/modules.php?name=articulos&idarticulo=610&idlangart=ES",
+        "quote": "Pituitary stalk interruption syndrome (PSIS) encompasses the presence of a thin or discontinuous pituitary stalk, a hypoplastic AP gland and an EPP on MRI. \u2026 mutations in TBC1D32 are"
+      },
+      "numbers": []
+    },
+    {
+      "text": "In a cohort of 43 patients with congenital combined pituitary hormone deficiency, brain MRI abnormalities were identified in 80.5% (33/41 assessed), and pathogenic variants across several genes including TBC1D32 were found in 19.2% (5/26), confirming involvement in syndromic/extrapituitary pituitary development anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical and genetic features of childhood-onset congenital combined pituitary hormone deficiency: a retrospective, single-center cohort study",
+        "authors": [
+          "Y Lee",
+          "YA Lee",
+          "JM Ko",
+          "CH Shin"
+        ],
+        "year": 2024,
+        "journal": "Annals of Pediatric Endocrinology & Metabolism",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://synapse.koreamed.org/articles/1516089782",
+        "quote": "Brain MRI abnormalities correlated with a higher number of hormone deficiencies (P for trend 0.049) and were present in 33 patients (80.5%). ... Pathogenic variants in POU1F1, GLI2, HESX1, TBC1D32, and ROBO1 were found in 5 (19.2%)."
+      },
+      "numbers": [
+        {
+          "metric": "Patients with MRI abnormalities",
+          "value": "33/41"
+        },
+        {
+          "metric": "Pathogenic variants identified",
+          "value": "5/26"
+        }
+      ]
+    },
+    {
+      "text": "Whole-exome sequencing in 59 sporadic PSIS patients identified a heterozygous missense variant in TBC1D32 (p.K457I) among polygenic Hedgehog/developmental pathway alterations, demonstrating that TBC1D32 alterations are not restricted to homogeneous biallelic complete triad presentations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Identification of novel candidate pathogenic genes in pituitary stalk interruption syndrome by whole-exome sequencing",
+        "authors": [],
+        "year": null,
+        "journal": "Journal of Cellular and Molecular Medicine",
+        "doi": "10.1111/jcmm.15781",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/jcmm.15781",
+        "quote": "A total of 81 heterozygous variants, distributed among 59 genes, were identified in 50 patients ... TBC1D32, p.K457I"
+      },
+      "numbers": [
+        {
+          "metric": "Sporadic PSIS cohort size",
+          "value": 59
+        }
+      ]
+    },
+    {
+      "text": "Analysis of PSIS cohorts reveals that the radiological triad of ectopic posterior pituitary, absent/interrupted stalk, and hypoplastic anterior pituitary can be incomplete in a substantial fraction of patients, challenging uniform manifestation across genetic ciliary deficiencies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Exome sequencing in 16 patients with pituitary stalk interruption syndrome",
+        "authors": [],
+        "year": null,
+        "journal": "PLOS ONE",
+        "doi": "10.1371/journal.pone.0292664",
+        "pmid": "38096238",
+        "pmc": null,
+        "url": "https://ouci.dntb.gov.ua/en/works/7Xwk2wZ9/",
+        "quote": "Pituitary stalk interruption syndrome (PSIS) is a rare disorder characterized by an absent or ectopic posterior pituitary, absent or interrupted pituitary stalk and anterior pituitary hypoplasia on magnetic resonance imaging (MRI) ... The triad can be incomplete."
+      },
+      "numbers": [
+        {
+          "metric": "Analyzed cohort size",
+          "value": 16
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The literature demonstrates that neurohypophyseal defects in congenital hypopituitarism and PSIS cohorts can be incomplete (e.g. absent stalk with orthotopic posterior pituitary, or isolated anterior hypoplasia without ectopic neurohypophysis).",
+    "Current published data do not support a strict penetrance threshold of >85% for the full structural triad exclusively in live-born individuals with biallelic TBC1D32 mutations due to small reported sample sizes and phenotypic variability."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of each component of the PSIS neuroimaging triad across all published biallelic TBC1D32 cases compared to non-syndromic PSIS?",
+      "rationale": "Systematic individual-level meta-analysis of all confirmed Alsahan-Harris syndrome cases is required to evaluate whether the ectopic posterior lobe or infundibular disruption is the obligate pathognomonic defect.",
+      "promise": 0.85,
+      "est_cost": 8000
+    },
+    {
+      "question_text": "Do truncating loss-of-function variants in TBC1D32 cause higher penetrance of the complete PSIS triad than missense or hypomorphic ciliary variants?",
+      "rationale": "Clarifying genotype-phenotype correlations would determine whether complete infundibular agenesis corresponds to total loss of ciliary Rab-GAP activity.",
+      "promise": 0.75,
+      "est_cost": 15000
+    }
+  ]
+}

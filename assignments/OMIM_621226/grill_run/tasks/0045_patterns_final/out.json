@@ -1,0 +1,77 @@
+{
+  "patterns": [
+    {
+      "pattern": "High penetrance of oculomotor abnormalities (nystagmus, broken pursuit) decouples from variable, lower-penetrance cerebellar dysarthria and macroscopic MRI cerebellar atrophy",
+      "abstraction": "In cytoskeletal-driven neurodegenerative syndromes, fine-motor ocular motor pathways exhibit earlier and more uniform phenotypic expressivity than bulbar coordination or macroscopic parenchymal volume loss",
+      "instance": "Across evaluated SPAX11 kindreds, oculomotor dysfunction was present in >70-85% of individuals (e.g., 12/12 in the p.Glu415Lys cohort), whereas cerebellar dysarthria was documented in under 50% and structural cerebellar atrophy ranged from completely absent or slight to overt",
+      "direction": "Systematic quantitative videonystagmography and electro-oculography in prospective spastic ataxia cohorts to evaluate subtle oculomotor signs as earlier diagnostic screening markers than brain MRI",
+      "support": "Strongly supported across multiple independently described kindreds in Torella et al. and Benkirane et al.",
+      "sources": [
+        "A Torella et al. (2023) A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A 10.1007/s00415-023-11816-w",
+        "M Benkirane et al. (2024) De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity 10.1093/brain/awae193",
+        "M Benkirane et al. (2024) De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity PMID:38884572"
+      ],
+      "hypothesis": "Purkinje cells projecting to vestibulocerebellar and oculomotor relay circuits possess lower biophysical tolerance for TUBA4A-induced microtubule instability than circuits controlling bulbar articulation",
+      "novelty": "High; clinicians commonly rely on dysarthria and brain MRI volume loss as primary clinical gatekeepers for cerebellar disease, whereas in SPAX11 oculomotor tracking deficits precede both"
+    },
+    {
+      "pattern": "Asymmetric differential discriminating power: phenotypic signs readily separate SPAX11 from pure hereditary spastic paraplegias but fail to distinguish it from complex spastic ataxias",
+      "abstraction": "Phenotypic features clearly delineate uncomplicated single-tract syndromes from dual-tract pathologies, but provide low discrimination across distinct genetic etiologies converging on the same dual-tract degenerate network",
+      "instance": "The presence of nystagmus, saccadic smooth pursuit, and cerebellar ataxia reliably discriminates SPAX11 from pure HSPs like SPG4, yet cannot reliably differentiate SPAX11 from SPG7, AFG3L2-related disease (SPAX5/SCA28), or TUBB4A-related disorders without genetic sequencing",
+      "direction": "Development of multimodal diagnostic algorithms that integrate electromyography (to detect subclinical myopathy) with deep oculomotor phenotyping to parse spastic-ataxic mimics before sequencing",
+      "support": "Supported by phenotypic comparison cohorts in Torella et al., Benkirane et al., and Coarelli et al.",
+      "sources": [
+        "A Torella et al. (2023) A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A 10.1007/s00415-023-11816-w",
+        "M Benkirane et al. (2024) De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity 10.1093/brain/awae193",
+        "G Coarelli et al. (2019) Loss of paraplegin drives spasticity rather than ataxia in a cohort of 241 patients with SPG7 10.1212/WNL.0000000000007606",
+        "G Coarelli et al. (2025) AFG3L2-Related Neurologic Disorders https://www.ncbi.nlm.nih.gov/sites/books/NBK54582/",
+        "F Gavazzi et al. (2026) TUBB4A-Related Neurologic Disorders PMID:27809427"
+      ],
+      "hypothesis": "Mitochondrial proteases (AFG3L2, SPG7) and tubulin heterodimer networks (TUBA4A, TUBB4A) share a convergent distal axonal maintenance vulnerability in long corticospinal and spinocerebellar projections",
+      "novelty": "Moderate to high; highlights that 'spastic ataxia' is an indivisible clinical phenocopy cluster where genetic analysis is mandatory to distinguish mitochondrial from cytoskeletal causes"
+    },
+    {
+      "pattern": "Exclusionary diagnostic boundaries: consistent absence of early cognitive decline, prominent retinal disease, and isolated lower motor neuron degeneration rules out key mimics",
+      "abstraction": "Negative phenotypic criteria provide stricter disease boundaries than positive criteria in multi-system neurodegenerative disorders with widespread overlapping features",
+      "instance": "Affected SPAX11 individuals lack severe early dementia (differentiating from FTD/dementia-dominant ataxia syndromes), lack optic atrophy or pigmentary retinopathy (excluding SCA7), and lack isolated LMN denervation without ataxia (excluding classic ALS22)",
+      "direction": "Formalize negative exclusion rubrics into clinical decision-support trees to triage patients toward targeted tubulinopathy gene panels rather than repeat expansion panels",
+      "support": "Consistently corroborated by negative findings across all evaluated SPAX11 clinical series",
+      "sources": [
+        "M Benkirane et al. (2024) De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+        "A Torella et al. (2023) A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A 10.1007/s00415-023-11816-w",
+        "TJ Hines et al. (2026) A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a 10.1093/hmg/ddag084/8778799"
+      ],
+      "hypothesis": "TUBA4A is largely dispensable for retinal photoreceptor survival and frontotemporal cortical maintenance compared to its critical role in Purkinje cell dendritic arborization and corticospinal axon survival",
+      "novelty": "Moderate; provides concrete exclusionary rules that prevent misclassifying patients as SCA7 or ALS"
+    },
+    {
+      "pattern": "Allelic and domain-specific pleiotropy connecting central spastic ataxia with motor neuron disease and skeletal myo-tubulinopathies",
+      "abstraction": "Mutations within a single structural cytoskeletal monomer produce non-overlapping or bridging clinical syndromes depending on the biophysical nature and structural domain of the variant",
+      "instance": "TUBA4A mutations manifest as a broad spectrum: C-terminal and specific missense variants produce spastic ataxia (SPAX11), other variants cause motor neuron degeneration (ALS22), and another subset causes progressive skeletal myopathy and neuromuscular transmission deficits",
+      "direction": "Structural modeling of tubulin heterodimer interfaces to map which specific amino acid coordinates trigger Purkinje/corticospinal axonopathy versus myofibrillar disruption or neuromuscular junction instability",
+      "support": "Strongly supported by clinical cohort reports, myopathy series, and animal models linking Tuba4a mutations to concomitant neuromuscular and ataxia phenotypes",
+      "sources": [
+        "M Johari et al. (2026) Missense variants in TUBA4A cause myo-tubulinopathies 10.1093/brain/awag059/8475507",
+        "TJ Hines et al. (2026) A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a PMC13014175",
+        "M Milone et al. (2026) TUBA4A Pathogenic Variant Manifesting With Adulthood\u2010Onset Genetic Myasthenic Syndrome, Myopathy, and Infertility 10.1111/ene.70753",
+        "M Benkirane et al. (2024) De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity 10.1093/brain/awae193"
+      ],
+      "hypothesis": "Missense variants affecting the outer microtubule lattice binding surface cause isolated spastic ataxia, whereas variants destabilizing the intradimer GTPase core or polymer incorporation induce muscle myofibrillar aggregation and neuromuscular transmission failure",
+      "novelty": "High; bridges separate neurological silos (ataxia, motor neuron disease, and primary myopathy) under a unified alpha-tubulinopathy framework"
+    },
+    {
+      "pattern": "Discordance between symptom onset and structural cerebellar volume loss challenges duration-based imaging models",
+      "abstraction": "Functional neuronal circuit breakdown can generate full-blown motor phenotypes years before macroscopic tissue loss becomes detectable on conventional structural neuroimaging",
+      "instance": "While rodent models show Purkinje cell loss driving cerebellar atrophy, human patients with marked spastic ataxia frequently exhibit normal or only borderline cerebellar imaging findings early in disease, refuting strict duration-dependent pancerebellar atrophy models",
+      "direction": "Application of advanced microstructural neuroimaging, such as diffusion-weighted cerebellar tractography and magnetic resonance spectroscopy, to detect pre-atrophy Purkinje axonal degeneration in early SPAX11",
+      "support": "Supported by the refutation of duration-dependent MRI models and discrepancies between Torella et al. (normal/slight atrophy) and Benkirane et al. (atrophy in 7/11 patients)",
+      "sources": [
+        "A Torella et al. (2023) A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A 10.1007/s00415-023-11816-w",
+        "M Benkirane et al. (2024) De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity PMID:38884572",
+        "TJ Hines et al. (2026) A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a PMC13014175"
+      ],
+      "hypothesis": "Purkinje neuron synaptic transmission failure and distal dendritic pruning in SPAX11 cause clinical ataxia prior to somal apoptosis and measurable macroscopic volume loss",
+      "novelty": "High; refutes the common diagnostic assumption that an unremarkable cerebellar MRI excludes an active hereditary spastic ataxia"
+    }
+  ]
+}

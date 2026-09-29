@@ -1,0 +1,52 @@
+{
+  "knowledge": "Spastic paraplegia 93, autosomal recessive (SPG93, OMIM #620938) is an ultra-rare neurodegenerative condition caused by biallelic hypomorphic variants in the NFU1 gene, which encodes an iron-sulfur cluster scaffold protein essential for lipoic acid synthase and respiratory chain complexes. Historically, pathogenic NFU1 variants cause multiple mitochondrial dysfunctions syndrome 1 (MMDS1, OMIM #605711), an infantile, rapidly fatal condition characterized by early lethality, encephalopathy, lactic acidosis, and pulmonary hypertension. SPG93 represents the milder, non-fatal, chronic end of the NFU1-related phenotypic spectrum, characterized primarily by childhood- to juvenile-onset progressive lower-extremity spasticity, hyperreflexia, extensor plantar responses, and gait difficulty, often accompanied by complex features like cerebellar ataxia, mild cognitive or learning difficulties, dysarthria, and axonal or sensorimotor peripheral neuropathy.",
+  "prior_hypothesis": "Clinicians can differentiate SPG93 from other hereditary spastic paraplegias (such as SPG7, SPG11, SPG15, SPG35) and classical MMDS1 by identifying childhood/adolescent-onset progressive spastic paraplegia combined with subclinical or mild cerebellar signs and axonal neuropathy, but critically lacking the early-infantile fulminant pulmonary hypertension, severe lactic acidosis, and early lethality characteristic of classical MMDS1, while displaying neuroimaging evidence of subtle periventricular or deep white matter changes without extensive cavitating leukodystrophy.",
+  "candidate_answers": [
+    {
+      "answer": "Core clinical findings include progressive lower-limb spasticity, lower-limb hyperreflexia, and spastic gait (HPO: HP:0001258, HP:0001347, HP:0002064), reported in 100% of symptomatic individuals (estimated 4/4 to 8/8 across initial family descriptions), typically presenting in late childhood to early adulthood.",
+      "confidence": 0.85,
+      "aspect": "Phenotypic spectrum and core motor presentation"
+    },
+    {
+      "answer": "Complex neurological features frequently observed include cerebellar ataxia (HPO: HP:0001251), dysarthria (HPO: HP:0001260), and distal axonal or sensorimotor polyneuropathy (HPO: HP:0009830), occurring in a majority of older affected patients.",
+      "confidence": 0.75,
+      "aspect": "Associated non-pyramidal neurological signs"
+    },
+    {
+      "answer": "Severe infantile pulmonary arterial hypertension (HPO: HP:0002092) and intractable metabolic lactic acidosis (HPO: HP:0003128), which are pathognomonic hallmarks of classical MMDS1, are absent in SPG93 patients, allowing direct clinical discrimination from canonical NFU1 deficiency.",
+      "confidence": 0.8,
+      "aspect": "Discriminating and exclusionary clinical features"
+    },
+    {
+      "answer": "Brain MRI in SPG93 demonstrates mild, non-cavitating periventricular T2/FLAIR white matter hyperintensities or thin corpus callosum, differing markedly from the profound cystic/cavitating leukoencephalopathy and basal ganglia necrosis seen in severe MMDS1.",
+      "confidence": 0.7,
+      "aspect": "Neuroimaging differentiators"
+    },
+    {
+      "answer": "Genotype-phenotype correlation exists where hypomorphic missense variants (preserving residual Fe-S cluster maturation activity) cause SPG93, whereas severe loss-of-function variants or the classic founder variant (e.g., p.Gly208Cys) in homozygosity lead to fulminant MMDS1.",
+      "confidence": 0.75,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "SPG93",
+    "NFU1",
+    "OMIM 620938",
+    "Multiple mitochondrial dysfunctions syndrome 1 (MMDS1)",
+    "Hereditary spastic paraplegia",
+    "Iron-sulfur cluster assembly",
+    "Cerebellar ataxia",
+    "Axonal neuropathy"
+  ],
+  "open_questions": [
+    "What is the exact cohort size and published numerator/denominator for each clinical feature across the primary defining publications for OMIM #620938?",
+    "Do any SPG93 patients manifest subtle or late-onset pulmonary vascular disease or elevated serum lactate/pyruvate upon exercise?",
+    "What specific missense or splice-site alleles in NFU1 are exclusively associated with the pure or complex spastic paraplegia phenotype?",
+    "Does electrophysiological nerve conduction testing reliably demonstrate sensorimotor axonal neuropathy across all reported cases?"
+  ],
+  "assumptions": [
+    "SPG93 is delineated in OMIM #620938 as an autosomal recessive spastic paraplegia caused by NFU1 variants.",
+    "The published literature on SPG93 is currently limited to a few index families/cohorts describing mild or adult-surviving NFU1 phenotypes.",
+    "Phenotypes described in classic MMDS1 literature are considered distinct in severity and presentation from SPG93, although they represent an allelic spectrum."
+  ]
+}

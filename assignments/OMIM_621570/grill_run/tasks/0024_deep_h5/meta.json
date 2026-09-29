@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"MAU2\" \"microcephaly\" \"Cornelia de Lange syndrome\"",
+    "MAU2 Cornelia de Lange syndrome 7 microcephaly Parenti clinical phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41467-026-71177-6",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41467-026-71177-6",
+      "abstract_chars": 1083
+    },
+    {
+      "id": "PMC12668068",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+      "abstract_chars": 1103
+    },
+    {
+      "id": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+      "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+      "abstract_chars": 1048
+    },
+    {
+      "id": "https://www.mdpi.com/2077-0383/13/8/2423",
+      "title": "Advancing the clinical and molecular understanding of cornelia de lange syndrome: A multidisciplinary pediatric case series and review of the literature",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2077-0383/13/8/2423",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "title": "Cornelia de Lange spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S2341287924001388",
+      "abstract_chars": 1660
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+      "abstract_chars": 4693
+    },
+    {
+      "id": "https://omim.org/entry/621570",
+      "title": "621570 - CORNELIA DE LANGE SYNDROME 7; CDLS7",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621570",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://scholarlyexchange.childrensmercy.org/cgi/viewcontent.cgi?article=8223&context=papers",
+      "title": "Pathogenic variants in the cohesin loader subunit MAU2 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://scholarlyexchange.childrensmercy.org/cgi/viewcontent.cgi?article=8223&context=papers",
+      "abstract_chars": 1083
+    },
+    {
+      "id": "10.1002/mgg3.2318",
+      "title": "Clinical study and genetic analysis of Cornelia de Lange ...",
+      "pmid": null,
+      "doi": "10.1002/mgg3.2318",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/mgg3.2318",
+      "abstract_chars": 1229
+    },
+    {
+      "id": "10.3389/fnins.2021.774950/full",
+      "title": "Cornelia de Lange syndrome as paradigm of chromatinopathies",
+      "pmid": null,
+      "doi": "10.3389/fnins.2021.774950/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2021.774950/full",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6131,
+  "output_tokens": 5912,
+  "usd": 0.0208,
+  "seconds": 27.4,
+  "ok": true
+}

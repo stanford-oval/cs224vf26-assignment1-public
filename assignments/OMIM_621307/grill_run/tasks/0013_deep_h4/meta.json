@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Alsahan-Harris syndrome\" \"TBC1D32\" phenotype genotype truncating",
+    "Alsahan-Harris syndrome TBC1D32 clinical phenotypes missense truncating variants"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://www.cell.com/ajhg/abstract/S0002-9297(26)00235-1",
+      "title": "Bi-allelic variants in CDK20 cause a severe ciliopathy with midline brain and facial anomalies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/abstract/S0002-9297(26)00235-1",
+      "abstract_chars": 1033
+    },
+    {
+      "id": "https://omim.org/entry/615867",
+      "title": "615867 - TBC1 DOMAIN FAMILY, MEMBER 32; TBC1D32",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/615867",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC10204718",
+      "title": "Diagnosis of TBC1D32-associated conditions - PMC - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10204718/",
+      "abstract_chars": 987
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/entities/TBC1D32",
+      "title": "TBC1D32",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/entities/TBC1D32",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/TBC1D32",
+      "title": "TBC1D32 gene TBC1 Domain Family Member 32",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/TBC1D32",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://franklin.genoox.com/clinical-db/variant/snp/chr6-121401967-G-A?app=conditions",
+      "title": "Conditions Associated With TBC1D32",
+      "pmid": null,
+      "doi": null,
+      "url": "https://franklin.genoox.com/clinical-db/variant/snp/chr6-121401967-G-A?app=conditions",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3441,
+  "output_tokens": 3066,
+  "usd": 0.01092,
+  "seconds": 19.6,
+  "ok": true
+}

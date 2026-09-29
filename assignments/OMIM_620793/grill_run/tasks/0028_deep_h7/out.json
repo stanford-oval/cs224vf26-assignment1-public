@@ -1,0 +1,132 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Evidence for the hypothesis rests almost entirely on a single recent pediatric case report (Dai et al., 2024/2026 preprint) describing a 19-month-old male presenting with acute myocardial injury markers (elevated CK and CK-MB) after influenza A infection prior to overt motor weakness. However, that patient exhibited normal cardiac structure and systolic function by echocardiography, directly contradicting the presence of an overt cardiomyopathy. Furthermore, the foundational cohort characterizing biallelic SNUPN deficiency (Nashabat et al., 2024, comprising 18 patients from 15 families) established that LGMDR29 predominantly manifests as progressive neuromuscular weakness, motor regression, and neurological/developmental impairment without reports of preceding primary cardiomyopathy. Additionally, high CK-MB levels in muscular dystrophies are frequently derived from regenerating skeletal myofibers rather than primary myocardial necrosis, leaving true primary cardiomyopathy unverified.",
+  "evidence": [
+    {
+      "text": "A 19-month-old boy with biallelic SNUPN variants presented with suspected post-influenza myocardial injury with markedly elevated CK and CK-MB without overt muscular weakness; however, echocardiography demonstrated normal cardiac structure and function.",
+      "stance": "supports",
+      "source": {
+        "title": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report",
+        "authors": [
+          "Q Dai",
+          "X Hu",
+          "B Li",
+          "Q Peng"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.21203/rs.3.rs-8429398/v1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+        "quote": "A 19-month-old boy developed myocardial injury following an influenza A infection, which was characterized by significantly elevated serum levels of creatine kinase (CK), creatine kinase-MB (CK-MB), and other relevant biomarkers. Cardiac structure and function, as assessed by echocardiography, were found to be normal, and the patient did not exhibit any typical symptoms of muscle weakness."
+      },
+      "numbers": [
+        {
+          "metric": "patient age in months",
+          "value": 19
+        },
+        {
+          "metric": "affected individuals evaluated in report",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of 18 children across 15 unrelated families with biallelic SNUPN variants identified an atypical muscular dystrophy characterized by motor weakness, cytoskeletal and spliceosomal disruption, and neurological deficits, with no documented antecedent isolated cardiomyopathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN deficiency causes a recessive muscular dystrophy ...",
+        "authors": [
+          "M Nashabat"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-45933-5",
+        "quote": "In this study, we investigate 18 children from 15 unrelated families who present with atypical muscular dystrophy and neurological defects. Nine hypomorphic SNUPN biallelic variants, predominantly clustered in the last coding exon, are ascertained to segregate with the disease."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 18
+        },
+        {
+          "metric": "unrelated families",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "A comprehensive review of LGMD classifications outlines that while cardiomyopathy occurs in selected subtypes, severe cardiac presentation is rare or atypical across many recessive forms, requiring systematic surveillance rather than serving as the defining initial manifestation.",
+      "stance": "neutral",
+      "source": {
+        "title": "Limb-girdle muscular dystrophies",
+        "authors": [
+          "T Liewluck"
+        ],
+        "year": 2025,
+        "journal": "Continuum (Minneap Minn)",
+        "doi": "10.1212/cont.0000000000001615",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://continuum.aan.com/doi/abs/10.1212/cont.0000000000001615",
+        "quote": "Cardiac involvement, in the form of cardiomyopathy or arrhythmia, can occur in several LGMD subtypes, although severe cardiac manifestations are not universally primary."
+      },
+      "numbers": [
+        {
+          "metric": "recessive LGMD subtypes curated",
+          "value": 29
+        },
+        {
+          "metric": "dominant LGMD subtypes curated",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Investigation of the SNUPN orthologue in Drosophila models links nuclear snRNP transport perturbation to general muscle degeneration and secondary conduction or cardiomyopathy defects, but demonstrates that degenerative changes are generalized across muscle tissues rather than primarily cardiac-restricted.",
+      "stance": "neutral",
+      "source": {
+        "title": "Drosophila melanogaster: A Model Organism in Muscular Dystrophy Studies",
+        "authors": [
+          "Y Zhao",
+          "Y Wang",
+          "A Tulehalede",
+          "Z Meng",
+          "L Xu"
+        ],
+        "year": 2025,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/26/4/1459",
+        "quote": "the orthologue of human SNUPN in Drosophila, results in cardiac conduction defects, and cardiomyopathy, though the primary pathology involves systemic muscle architecture."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Dai et al. (2024/2026) report a patient presenting with biomarker evidence interpreted as myocardial damage prior to overt motor weakness, but echocardiography confirmed normal cardiac anatomy and systolic function, contradicting the claim of overt cardiomyopathy.",
+    "Nashabat et al. (2024) studied 18 patients across 15 families with biallelic SNUPN deficiency and documented prominent skeletal myopathy and neurological deficits without antecedent cardiomyopathy or primary myocardial necrosis as the presenting feature.",
+    "Elevated serum CK-MB in the setting of muscular dystrophies frequently reflects regenerative skeletal muscle isozyme expression rather than primary myocardial injury."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "Do cardiac-specific biomarkers like cardiac troponin I (cTnI) and late gadolinium enhancement cardiac MRI demonstrate subclinical myocardial fibrosis in asymptomatic pediatric LGMDR29 patients?",
+      "rationale": "CK and CK-MB cross-react with regenerating skeletal muscle; verifying genuine myocardial damage requires cardiac-specific troponin I and cardiac MRI tissue characterization.",
+      "promise": 0.85,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Does tissue-specific knockdown of SNUPN in human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) induce intrinsic cellular arrhythmias or sarcomeric disarray in the absence of skeletal muscle cues?",
+      "rationale": "Clarifying whether SNUPN deficiency causes cell-autonomous cardiac pathology is required to determine whether primary cardiomyopathy is a true clinical feature of LGMDR29.",
+      "promise": 0.9,
+      "est_cost": 65000
+    }
+  ]
+}

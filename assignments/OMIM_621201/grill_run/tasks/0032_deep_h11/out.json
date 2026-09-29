@@ -1,0 +1,117 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that ascertainment bias explains seizure penetrance in GTF3C3-related neurodevelopmental disorder, predicting that cohorts ascertained for syndromic intellectual disability and dysmorphism exhibit <=50% seizure penetrance compared to >80% in developmental and epileptic encephalopathy cohorts. While Abdel et al. (2025) identified biallelic GTF3C3 variants through GeneMatcher in a cohort evaluated primarily for microcephaly, developmental delay, and dysmorphic facies with seizures in only 50% (2/4), De Hayr et al. (2025) characterized a cohort ascertained primarily for syndromic autosomal recessive intellectual disability and dysmorphic features across 12 patients and reported seizures in 11/12 (91.7%). Because a large syndromic intellectual disability cohort demonstrates >90% seizure penetrance, ascertainment mode alone cannot cleanly account for the lower penetrance observed in Abdel et al.",
+  "evidence": [
+    {
+      "text": "In a cohort of 12 affected individuals from 7 families characterized for a novel autosomal recessive intellectual disability syndrome with variable facial features and brain malformations, seizures were present in 11 of 12 patients (91.7%).",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "Twelve affected individuals from 7 unrelated families were identified with homozygous or compound heterozygous missense variants in GTF3C3... The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations... Consistent to seizures seen in 11/12 patients"
+      },
+      "numbers": [
+        {
+          "metric": "seizure_penetrance_numerator",
+          "value": 11
+        },
+        {
+          "metric": "seizure_penetrance_denominator",
+          "value": 12
+        },
+        {
+          "metric": "seizure_penetrance_rate",
+          "value": 0.9167
+        }
+      ]
+    },
+    {
+      "text": "In four patients from three unrelated families ascertained through GeneMatcher presenting with microcephaly, developmental delay, intellectual disability, and dysmorphic facies, seizures were documented in 2 of 4 (50%) individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": "10.1093/braincomms/fcaf055",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "The patients exhibited microcephaly, developmental delay, intellectual disability and distinctive dysmorphic facies that appear recognizable in very young children... Seizures were observed in half of the patients."
+      },
+      "numbers": [
+        {
+          "metric": "seizure_penetrance_numerator",
+          "value": 2
+        },
+        {
+          "metric": "seizure_penetrance_denominator",
+          "value": 4
+        },
+        {
+          "metric": "seizure_penetrance_rate",
+          "value": 0.5
+        }
+      ]
+    },
+    {
+      "text": "GTF3C3 was identified as a candidate disease gene within a targeted cohort of 63 patients specifically recruited for early-onset epileptic encephalopathy (EE) and developmental and epileptic encephalopathies (DEE).",
+      "stance": "supports",
+      "source": {
+        "title": "The role of recessive inheritance in early-onset epileptic encephalopathies: a combined whole-exome sequencing and copy number study",
+        "authors": [
+          "SM Papuc",
+          "L Abela",
+          "K Steindl",
+          "A Begemann"
+        ],
+        "year": 2019,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-018-0299-8",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-018-0299-8",
+        "quote": "We further support candidacy for neurodevelopmental disorders of four previously described genes (PIK3AP1, GTF3C3, UFC1, and WRAP53)... increased in our epileptic encephalopathy cohort"
+      },
+      "numbers": [
+        {
+          "metric": "total_ee_dee_cohort_size",
+          "value": 63
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "De Hayr et al. (2025) ascertained patients primarily for intellectual disability and syndromic neurodevelopmental features, yet observed an 11/12 (91.7%) seizure frequency, directly conflicting with the hypothesis that syndromic ID cohorts exhibit <=50% penetrance.",
+    "Abdel et al. (2025) identified seizures in only 2 of 4 (50%) patients gathered through GeneMatcher for microcephaly and dysmorphic facies, showing intra-phenotypic variability rather than a consistent dichotomy based on ascertainment source alone."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does variant position or residual TFIIIC complex activity correlate with the age of onset and severity of seizures in GTF3C3-deficient individuals?",
+      "rationale": "Differences in seizure penetrance between 11/12 in De Hayr et al. and 2/4 in Abdel et al. may reflect genotype-phenotype correlations (e.g., missense variants disrupting specific TFIIIC protein-protein interfaces vs. truncation alleles) or age-dependent penetrance rather than recruitment bias alone.",
+      "promise": 0.85,
+      "est_cost": 35000.0
+    },
+    {
+      "question_text": "What is the true lifetime cumulative incidence of unprovoked seizures in patients with biallelic GTF3C3 variants tracked prospectively beyond early childhood?",
+      "rationale": "Patients reported without seizures in pediatric cohorts may be pre-symptomatic at the time of publication, confounding ascertainment analysis.",
+      "promise": 0.78,
+      "est_cost": 50000.0
+    }
+  ]
+}

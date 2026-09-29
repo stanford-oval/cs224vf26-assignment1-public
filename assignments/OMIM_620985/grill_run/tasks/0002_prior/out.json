@@ -1,0 +1,59 @@
+{
+  "knowledge": "Karayol-Borroto-Haghshenas neurodevelopmental syndrome (OMIM #620985) is an ultrarare Mendelian condition described recently (around 2022-2024, notably by Karayol, Borroto, Haghshenas, et al.) associated with de novo heterozygous pathogenic variants in the MSL2 gene (MSL complex subunit 2), which encodes an essential subunit of the male-specific lethal acetyltransferase complex involved in histone H4 lysine 16 acetylation (H4K16ac). Clinically, individuals present with global developmental delay, intellectual disability, variable speech and motor impairment, hypotonia, autistic traits/behavioral challenges, and facial dysmorphisms (such as broad forehead, arched/prominent eyebrows, telecanthus/hypertelorism, thin upper vermilion, and ear anomalies). Mild non-specific structural brain anomalies (e.g., corpus callosum hypoplasia, delayed myelination) and growth disturbances (such as microcephaly or feeding difficulties in infancy) have been noted in subsets. Because MSL2 acts within chromatin-modifying/epigenetic machinery, its phenotypic spectrum closely overlaps with other epigenetic neurodevelopmental syndromes like Rubinstein-Taybi, Coffin-Siris, and Koolen-de Vries syndromes.",
+  "prior_hypothesis": "Discriminating an individual with MSL2-related neurodevelopmental syndrome from clinically overlapping chromatinopathies based on phenotype alone is challenging due to nonspecific features (GDD/ID, hypotonia, speech delay), but a combination of distinctive craniofacial signs (prominent forehead, arched eyebrows, telecanthus/hypertelorism, broad nasal bridge, thin upper lip), absence of classic pathognomonic physical stigmata of differential diagnoses (e.g., broad/deviated thumbs/halluces typical of Rubinstein-Taybi; fifth-digit hypoplasia/hypertrichosis of Coffin-Siris), and specific MSL2-driven DNA methylation episignature profiles (as defined by Haghshenas et al.) provides the highest discriminating diagnostic power.",
+  "candidate_answers": [
+    {
+      "answer": "Global developmental delay / intellectual disability (HP:0001263 / HP:0001249) is present in virtually all reported affected individuals (estimated at ~100%, approximately 10-15/10-15 across the discovery and initial description cohorts such as Karayol et al. / Borroto et al. / Haghshenas et al.).",
+      "confidence": 0.95,
+      "aspect": "Core clinical phenotype frequency (GDD/ID)"
+    },
+    {
+      "answer": "Prominent speech delay or severe expressive language impairment (HP:0000750) out of proportion to motor delay is present in a high majority (>85-90%) of affected individuals.",
+      "confidence": 0.85,
+      "aspect": "Speech and language delay frequency"
+    },
+    {
+      "answer": "Characteristic facial dysmorphisms, including arched or thick eyebrows (HP:0002553), broad forehead (HP:0000337), telecanthus/hypertelorism (HP:0000506 / HP:0000316), and thin upper lip vermilion (HP:0000219), occur in approximately 70-90% of documented probands.",
+      "confidence": 0.8,
+      "aspect": "Craniofacial phenotype frequency"
+    },
+    {
+      "answer": "The condition is most commonly confused with other chromatinopathy/epigenetic neurodevelopmental syndromes (Rubinstein-Taybi syndrome [CREBBP/EP300], Coffin-Siris syndrome [BAF complex], and Wiedemann-Steiner syndrome [KMT2A]). The absence of broad/angulated thumbs and halluces, absence of marked generalized hypertrichosis, and absence of distal digit hypoplasia/hypoplastic nails discriminate MSL2 syndrome from these disorders with moderate-to-high clinical confidence.",
+      "confidence": 0.85,
+      "aspect": "Differential diagnosis and discriminating exclusions"
+    },
+    {
+      "answer": "Truncal hypotonia (HP:0008936) in infancy with behavioral features (autism spectrum features, hyperactivity, anxiety; HP:0000729 / HP:0000752) emerging in childhood is observed in >60-75% of patients.",
+      "confidence": 0.8,
+      "aspect": "Neurological and behavioral profile"
+    },
+    {
+      "answer": "Pathogenic variants are predominantly de novo missense or truncating/frameshift variants across MSL2, without established severe sex-based discordance in severity, though missense variants clustering in critical functional domains (e.g., RING finger or CXC/basic domains) may show subtle phenotypic variation or distinct DNA methylation episignatures.",
+      "confidence": 0.7,
+      "aspect": "Genotype-phenotype correlations and sex differences"
+    }
+  ],
+  "key_terms": [
+    "Karayol-Borroto-Haghshenas syndrome",
+    "MSL2",
+    "OMIM #620985",
+    "Global developmental delay (HP:0001263)",
+    "Intellectual disability (HP:0001249)",
+    "Episignature / DNA methylation profile",
+    "Chromatinopathy",
+    "H4K16 acetylation",
+    "Facial dysmorphism",
+    "Hypotonia (HP:0001252)"
+  ],
+  "open_questions": [
+    "What are the precise cohort-level numerators and denominators for specific dysmorphic, neurological, and systemic phenotypes in the original discovery publications by Karayol et al. and Haghshenas et al.?",
+    "Does MSL2-related neurodevelopmental syndrome exhibit a fully validated, peripheral blood-derived genome-wide DNA methylation episignature capable of resolving variants of uncertain significance?",
+    "Are there structural organ malformations (e.g., congenital heart defects, renal anomalies) documented consistently in a subset of patients, or are anomalies predominantly restricted to the central nervous system and craniofacial structures?",
+    "Do truncating/loss-of-function variants produce a distinct or more severe clinical presentation compared to domain-specific missense variants?"
+  ],
+  "assumptions": [
+    "The OMIM entry #620985 specifically designates the autosomal dominant neurodevelopmental syndrome caused by heterozygous de novo variants in MSL2.",
+    "Literature references to Karayol, Borroto, Haghshenas and colleagues (principally published between 2022 and 2024) constitute the primary clinical case series from which numerator/denominator data must be extracted.",
+    "Phenotypic overlap occurs primarily with other Mendelian chromatin-associated neurodevelopmental syndromes sharing facial dysmorphism, GDD/ID, and behavioral anomalies."
+  ]
+}

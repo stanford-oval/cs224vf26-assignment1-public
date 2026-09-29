@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FILIP1\" \"brain\" MRI \"neuromuscular disorder\"",
+    "FILIP1 congenital neuromuscular disorder brain malformations MRI findings"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02158-y",
+      "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02158-y",
+      "abstract_chars": 1803
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S096089662300439X",
+      "title": "O10 Universal genomic newborn screening for early, treatable, and severe conditions-including 33 genes of NMD: Baby Detect",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S096089662300439X",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1177/22143602241304993",
+      "title": "Report on the 6th Ottawa International Conference on Neuromuscular Disease & Biology\u2013September 7\u20139, 2023, Ottawa, Canada",
+      "pmid": null,
+      "doi": "10.1177/22143602241304993",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/22143602241304993",
+      "abstract_chars": 688
+    },
+    {
+      "id": "PMC10545528",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy ... - PMC",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10545528/",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://academic.oup.com/braincomms/article/6/5/fcae330/7774821",
+      "title": "FILIP1-associated neuromuscular disorder and phenotypic ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/braincomms/article/6/5/fcae330/7774821",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/370657692_Bi-allelic_variants_of_FILIP1_cause_congenital_myopathy_dysmorphism_and_neurological_defects",
+      "title": "Bi-allelic variants of FILIP1 cause congenital myopathy ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/370657692_Bi-allelic_variants_of_FILIP1_cause_congenital_myopathy_dysmorphism_and_neurological_defects",
+      "abstract_chars": 1634
+    },
+    {
+      "id": "https://openurl.ebsco.com/c/t4a2lo/results?sid=ebsco:ocu:record&bquery=AU+Willis,%20Tracey%20A.&link_origin=&searchDescription=Willis,%20Tracey%20A.",
+      "title": "Works by Willis, Tracey A.",
+      "pmid": null,
+      "doi": null,
+      "url": "https://openurl.ebsco.com/c/t4a2lo/results?sid=ebsco:ocu:record&bquery=AU+Willis,%20Tracey%20A.&link_origin=&searchDescription=Willis,%20Tracey%20A.",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42146855",
+      "title": "Publications - neuromuscular and rare disease",
+      "pmid": "42146855",
+      "doi": "10.1093/braincomms/fcag115",
+      "url": "https://lochmullerlab.org/publications/",
+      "abstract_chars": 1831
+    }
+  ],
+  "input_tokens": 5553,
+  "output_tokens": 4457,
+  "usd": 0.01615,
+  "seconds": 22.7,
+  "ok": true
+}

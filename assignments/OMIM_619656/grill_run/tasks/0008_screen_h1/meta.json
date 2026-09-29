@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz\" \"aortic aneurysm\" dissection frequency",
+    "SMAD2 Loeys-Dietz syndrome aortic aneurysm phenotype age"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.academia.edu/download/101312140/pdf.pdf",
+      "title": "The Role of Genetics in Risk Stratification of Thoracic Aortic Aneurysm Dissection",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.academia.edu/download/101312140/pdf.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "21217753",
+      "title": "Mutations in SMAD3 cause a syndromic form of aortic aneurysms and dissections with early-onset osteoarthritis",
+      "pmid": "21217753",
+      "doi": "10.1038/ng.744",
+      "url": "https://www.nature.com/articles/ng.744",
+      "abstract_chars": 1077
+    },
+    {
+      "id": "https://tesidottorato.depositolegale.it/handle/20.500.14242/363459",
+      "title": "Molecular characterisation of heritable thoracic aortic diseases at the Tuscany referral centre for Marfan syndrome and related disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://tesidottorato.depositolegale.it/handle/20.500.14242/363459",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40533122",
+      "title": "Characterization of arterial aneurysms in Loeys-Dietz syndrome",
+      "pmid": "40533122",
+      "doi": "10.1016/j.jacc.2025.04.020",
+      "url": "https://www.sciencedirect.com/science/article/pii/S073510972506245X",
+      "abstract_chars": 2330
+    },
+    {
+      "id": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42707265",
+      "title": "Loeys-Dietz Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+      "pmid": "42707265",
+      "doi": "10.1155/humu/2861205",
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK1133/",
+      "abstract_chars": 2593
+    },
+    {
+      "id": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "title": "Loeys-Dietz Syndrome 6 (LDS6)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.loeysdietz.org/en/medical-information",
+      "title": "WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.loeysdietz.org/en/medical-information",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0167527322008130",
+      "title": "Clinical features and complications of Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167527322008130",
+      "abstract_chars": 1670
+    },
+    {
+      "id": "https://www.jci.org/articles/view/69666",
+      "title": "Angiotensin II\u2013dependent TGF-\u03b2 signaling contributes to Loeys-Dietz syndrome vascular pathogenesis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.jci.org/articles/view/69666",
+      "abstract_chars": 1463
+    }
+  ],
+  "input_tokens": 4992,
+  "output_tokens": 1108,
+  "usd": 0.00582,
+  "seconds": 11.1,
+  "ok": true
+}

@@ -1,0 +1,63 @@
+{
+  "patterns": [
+    {
+      "pattern": "Diagnostic differentiation within the CdLS spectrum is driven by the absence of major structural malformations rather than the presence of cardinal facial dysmorphisms.",
+      "abstraction": "In genetically heterogeneous pathway disorders with extensive overlapping dysmorphology, the non-occurrence of severe structural anomalies provides higher discriminative utility than canonical disease-defining features.",
+      "instance": "In MAU2-related CdLS (CdLS7), canonical craniofacial dysmorphisms such as synophrys, arched eyebrows, and thin upper lip vermilion overlap heavily with classical CdLS1, whereas the complete absence of severe limb reduction defects (0/18 probands vs. ~25% in classic CdLS) and severe diaphragmatic hernia robustly discriminates CdLS7 from classic NIPBL-related CdLS.",
+      "direction": "Incorporate negative weighted criteria (exclusionary structural anomalies) into cohesinopathy diagnostic algorithms to rapidly stratify patients away from NIPBL-directed testing toward non-classical cohesinopathy panels.",
+      "support": "Strong; substantiated across cohorts showing absence of severe transverse limb reduction defects (0/18) and severe diaphragmatic defects alongside ubiquitous mild CdLS facial findings.",
+      "sources": [
+        "I Parenti et al. (2025) Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype PMC12668068",
+        "A Selicorni et al. (2021) Cornelia de Lange syndrome: from a disease to a broader spectrum 10.3390/genes12071075",
+        "AD Kline (2018) Diagnosis and management of Cornelia de Lange syndrome 10.1038/s41576-018-0031-0",
+        "I Parenti et al. (2026) Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype https://www.nature.com/articles/s41467-026-71177-6"
+      ],
+      "hypothesis": "Applying a negative malformation weighting rule (absence of transverse limb amputations and diaphragmatic hernia) in suspected CdLS will exclude classical CdLS1 with >95% sensitivity while retaining high sensitivity for CdLS7 and other mild cohesinopathies.",
+      "novelty": "Inverts conventional clinical dysmorphology approaches that prioritize matching positive physical findings, demonstrating that discriminatory power in cohesinopathies resides primarily in the absence of severe embryological disruptions."
+    },
+    {
+      "pattern": "Intra-complex phenotypic convergence creates clinical boundaries that cannot be resolved without molecular or epigenetic biomarkers.",
+      "abstraction": "Mutations affecting distinct regulatory and structural subunits of the same macromolecular complex produce convergent intermediate phenotypes that exhaust the discriminatory capacity of clinical evaluation scores.",
+      "instance": "CdLS7 phenotypic manifestations (mild-to-moderate intellectual disability, microcephaly, postnatal growth restriction) overlap so extensively with SMC3- and RAD21-related mild CdLS that clinical scoring consensus criteria achieve a positive predictive value under 40% for identifying MAU2 without episignature profiling or genetic sequencing.",
+      "direction": "Develop and clinically validate targeted blood-based DNA methylation episignatures and multi-gene NGS testing panels to resolve non-classical cohesinopathy subtypes.",
+      "support": "Strong; confirmed by clinical consensus guidelines, cohort studies of 18 MAU2 patients, and comparative analyses with SMC3 and RAD21 series.",
+      "sources": [
+        "NCBI (2020) Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+        "L de Polli Cellin et al. (2025) Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype PMC12668068",
+        "I Parenti et al. (2020) MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8"
+      ],
+      "hypothesis": "Peripheral blood DNA methylation episignatures will distinguish MAU2 pathogenic variants from RAD21 and SMC3 variants with greater than 90% accuracy, whereas clinical scoring systems fail to exceed 40% positive predictive value.",
+      "novelty": "Demonstrates the ceiling effect of expert dysmorphology phenotyping in distinguishing distinct subunit deficiencies within the cohesin complex, proving that phenotypic classification alone cannot replace molecular profiling."
+    },
+    {
+      "pattern": "Disproportionate preservation of cardiac and limb morphogenesis in cohesin loader auxiliary deficiency relative to catalytic or ring subunits.",
+      "abstraction": "Subunit-specific impairment within a multi-protein functional unit exhibits differential organ-specific sensitivity, sparing certain developmental morphogenesis programs that are vulnerable to core structural disruption.",
+      "instance": "Congenital heart defects occur in fewer than 25% (<5/18) and severe limb defects in 0% (0/18) of MAU2 probands, contrasting sharply with HDAC8-related CdLS (60% congenital heart disease) and classical NIPBL-related CdLS (~35% congenital heart disease, ~25% severe upper limb reduction anomalies).",
+      "direction": "Investigate embryonic tissue-specific cohesin loading kinetics to determine why cardiac mesenchyme and limb bud outgrowth exhibit higher resilience to MAU2 depletion than to NIPBL or HDAC8 depletion.",
+      "support": "Moderate-to-strong; substantiated by comparative cardiovascular and limb defect prevalence across 18 MAU2 individuals versus published NIPBL and HDAC8 cohorts.",
+      "sources": [
+        "AA Casas et al. (2017) Cornelia de Lange syndrome: Congenital heart disease in 149 patients 10.1016/j.medcli.2017.03.051",
+        "I Parenti et al. (2025) Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype PMC12668068",
+        "ME Lopez\u2010Burks et al. (2016) Genetic enhancement of limb defects in a mouse model of Cornelia de Lange syndrome 10.1002/ajmg.c.31491",
+        "OMIM (n.d.) 621570 - CORNELIA DE LANGE SYNDROME 7; CDLS7 https://omim.org/entry/621570"
+      ],
+      "hypothesis": "Residual NIPBL loading activity independent of MAU2 is sufficient to maintain chromatin loop extrusion across developmental cardiac and limb enhancer-promoter hubs, preventing structural organogenesis failure.",
+      "novelty": "Highlights that regulatory loader accessories exhibit organ-specific protective thresholds, unlike the pervasive morphogenetic disruption caused by mutations in cohesin ring components or modifying deacetylases."
+    },
+    {
+      "pattern": "Biophysical and epigenetic divergence between variant types does not manifest as discrete clinical phenotype subclasses.",
+      "abstraction": "Clear-cut molecular bifurcation at the cellular and epigenetic level can fail to translate into bimodal clinical presentations, yielding instead a continuous, overlapping spectrum of organismal expressivity.",
+      "instance": "Although MAU2 truncating variants induce haploinsufficiency and in-frame missense/deletion variants impair NIPBL-MAU2 heterodimerization (producing two distinct episignatures), both variant classes present with an overlapping mild-to-moderate CdLS spectrum characterized by microcephaly, intellectual disability, and short stature without clear variant-specific phenotypic divergence.",
+      "direction": "Conduct standardized deep phenotyping and functional cell-based assays across all published and novel MAU2 variants to assess whether modifier loci or transcriptional buffering explain the lack of clinical separation.",
+      "support": "Strong; confirmed by molecular and clinical characterizations showing overlapping clinical features across 18 individuals harboring 15 distinct truncating, missense, and in-frame deletion variants.",
+      "sources": [
+        "I Parenti et al. (2025) Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype PMC12668068",
+        "I Parenti et al. (2020) MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "Y Peng et al. (2024) Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy 10.1002/mgg3.2318",
+        "D Braunholz et al. (2012) Isolated NIBPL missense mutations that cause Cornelia de Lange syndrome alter MAU2 interaction https://www.nature.com/articles/ejhg2011175"
+      ],
+      "hypothesis": "Individual genetic background modifiers of NIPBL transcription and stability exert a stronger influence on clinical severity in CdLS7 than whether the causal MAU2 allele causes haploinsufficiency or heterodimerization disruption.",
+      "novelty": "Counters the standard genetic paradigm where loss-of-function null alleles produce systematically more severe organismal phenotypes than in-frame interface disruptions."
+    }
+  ]
+}

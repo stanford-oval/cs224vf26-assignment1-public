@@ -1,0 +1,112 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence from genome sequencing in targeted cohorts of severe sporadic developmental language disorder (DLD) with preserved non-verbal intelligence (non-verbal IQ >= 70) confirms the detection of de novo putative loss-of-function variants in TAF4 (OMIM #620450). While initial descriptions of TAF4 haploinsufficiency (Janssen et al., 2022) identified syndromic neurodevelopmental disorder characterized by intellectual disability in 8/8 individuals, more recent prospective trio-sequencing of severe sporadic DLD (Kennis et al., 2026) confirmed that pathogenic variants in genes classically tied to intellectual disability syndromes, including TAF4, can present as severe isolated language impairment without global intellectual disability.",
+  "evidence": [
+    {
+      "text": "In a prospective trio-based genome sequencing cohort of 25 individuals with severe sporadic developmental language disorder (non-verbal IQ >= 70, excluding ASD and familial DLD), causative variants were found across neurodevelopmental disorder genes including TAF4 haploinsufficiency (OMIM #620450).",
+      "stance": "supports",
+      "source": {
+        "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+        "authors": [
+          "MGP Kennis",
+          "L van Haaften",
+          "K van Hulst"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02214-7",
+        "quote": "Haploinsufficiency of TAF4 is associated with a developmental disorder (OMIM #620450)"
+      },
+      "numbers": [
+        {
+          "metric": "Cohort sample size with severe sporadic DLD and non-verbal IQ >= 70",
+          "value": 25
+        },
+        {
+          "metric": "Overall molecular diagnostic yield in cohort",
+          "value": "9/25 (36%)"
+        }
+      ]
+    },
+    {
+      "text": "Initial characterization of TAF4-related neurodevelopmental disorder identified de novo putative loss-of-function variants in 8 individuals, all manifesting global intellectual disability, behavioral anomalies, and facial dysmorphisms.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo putative loss-of-function variants in TAF4 are associated with a neuro-developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+      },
+      "numbers": [
+        {
+          "metric": "Number of individuals described with de novo TAF4 pLoF variants",
+          "value": 8
+        },
+        {
+          "metric": "Frequency of intellectual disability in discovery cohort",
+          "value": "8/8"
+        }
+      ]
+    },
+    {
+      "text": "Investigation of 27 children from 15 families with severe DLD without intellectual disability, autism, or childhood apraxia of speech identified de novo variants in ID genes (such as ZNF292) and CNVs, confirming that monogenic ID-associated genes can cause isolated DLD, though TAF4 was not identified in this specific predominantly multiplex cohort.",
+      "stance": "neutral",
+      "source": {
+        "title": "Deciphering the genetic basis of developmental language disorder in children without intellectual disability, autism or apraxia of speech",
+        "authors": [
+          "C Ormieres"
+        ],
+        "year": 2025,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11823097",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11823097/",
+        "quote": "In one sporadic case, a de novo pathogenic variant in the ZNF292 gene, known to be associated with ID, was detected, broadening the spectrum of this syndrome."
+      },
+      "numbers": [
+        {
+          "metric": "Number of DLD families evaluated",
+          "value": 15
+        },
+        {
+          "metric": "Number of children with severe DLD evaluated",
+          "value": 27
+        },
+        {
+          "metric": "Number of sporadic DLD cases in the cohort",
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Ascertainment in the initial TAF4 discovery cohort (Janssen et al., 2022) required global neurodevelopmental disorder / intellectual disability (present in 8/8), creating an ascertainment bias that obscured milder or isolated presentations such as severe isolated DLD with normal non-verbal IQ (non-verbal IQ >= 70)."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What proportion of individuals harboring heterozygous de novo loss-of-function variants in TAF4 maintain a non-verbal IQ >= 70 with speech/language as the primary impaired domain?",
+      "rationale": "Systematic reverse phenotyping across large clinical sequencing databases and unselected NDD cohorts is needed to establish whether non-syndromic DLD is a rare tail of the expressivity spectrum or represents a common mild manifestation.",
+      "promise": 0.88,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "Do downstream transcriptional signatures or episignatures distinguish TAF4 variants that manifest as isolated DLD from those resulting in severe syndromic intellectual disability?",
+      "rationale": "Differences in residual TFIID complex function, alternative splicing, or specific DNA methylation episignatures may explain phenotypic divergence between isolated DLD and severe intellectual disability.",
+      "promise": 0.82,
+      "est_cost": 50000
+    }
+  ]
+}

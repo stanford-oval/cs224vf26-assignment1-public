@@ -1,0 +1,129 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents conflicting classifications regarding whether biallelic loss-of-function variants in SGSM3 cause a purely nonsyndromic intellectual disability presentation versus a syndromic neurodevelopmental disorder. Turkyilmaz et al. (2025) describe two siblings with a homozygous stop-gain variant (p.Arg526Ter) presenting with short stature and intellectual disability classified as a nonsyndromic ID phenotype without obligatory anarthria or severe speech failure. In contrast, Birnbaum et al. (2024) and OMIM/UniProt/MalaCards characterizations of MRT84 describe an intellectual disability syndrome accompanied by dysmorphic facial features and hypotonia alongside short stature and developmental delay.",
+  "evidence": [
+    {
+      "text": "A homozygous stop-gain variation (NM_015705.6: c.1576C>T: p.(Arg526Ter)) in SGSM3 was identified in two Turkish siblings manifesting short stature and intellectual disability, strengthening evidence for SGSM3 in nonsyndromic intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14631",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "In this study, a novel homozygous stop-gain (NM_015705.6: c.1576C>T: p.(Arg526Ter)) variation was detected in the SGSM3 gene in two siblings with short stature and ID findings. The report of two cases with bi-allelic LOF variants in the SGSM3 gene from different populations with similar clinical manifestations strengthens the potential of this gene as a candidate gene for the nonsyndromic ID phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings with p.Arg526Ter and short stature/ID",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "UniProt documentation for SGSM3 indicates that intellectual developmental disorder, autosomal recessive 84 (MRT84) includes syndromic features such as hypotonia, facial dysmorphism, and short stature, directly contrasting a purely nonsyndromic characterization.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SGSM3 - Small G protein signaling modulator 3",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1111/cge.14631",
+        "pmid": "39390489",
+        "pmc": null,
+        "url": "https://www.uniprot.org/uniprotkb/Q96HU1/entry",
+        "quote": "Intellectual developmental disorder, autosomal recessive 84 (MRT84). Additional features include hypotonia, facial dysmorphism, short stature, and, in some..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Birnbaum et al. reported an intellectual disability syndrome associated with a homozygous SGSM3 founder variant in Ashkenazi Jews with neurodevelopmental disorders, short stature, and mild-to-moderate impairment rather than complete anarthric speech loss.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "was discovered in individuals with NDDs and short stature. This variant in SGSM3, which segregated with the phenotype in appropriate for his age, with a developmental quotient of 84."
+      },
+      "numbers": [
+        {
+          "metric": "developmental quotient in reported case",
+          "value": 84
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry 610440 documents intellectual developmental disorder autosomal recessive 84 in two Turkish brothers ages 36 and 17 years presenting with short stature and intellectual developmental disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "610440 - SMALL G PROTEIN SIGNALING MODULATOR 3; SGSM3",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/610440",
+        "quote": "In 2 brothers (ages 36 years and 17 years) of Turkish descent with short stature and..."
+      },
+      "numbers": [
+        {
+          "metric": "affected Turkish brothers",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "MalaCards entry for MRT84 defines the core phenotype as characterized by developmental delay, short stature, and dysmorphic facial features.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Intellectual Developmental Disorder, Autosomal Recessive 84",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_recessive_84",
+        "quote": "Autosomal recessive intellectual developmental disorder-84 (MRT84) is characterized by developmental delay, short stature, and dysmorphic facial features."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Turkyilmaz et al. define the clinical presentation of homozygous SGSM3 loss-of-function variants as a nonsyndromic intellectual disability accompanied by short stature, whereas Birnbaum et al., UniProt, and MalaCards document syndromic features including dysmorphic facial features and hypotonia.",
+    "The total number of published families is limited to very few cohorts (Ashkenazi Jewish founder variant cohort and one consanguineous Turkish family of two siblings), leaving phenotypic boundaries between nonsyndromic and syndromic classification incompletely resolved."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "Does deep dysmorphological phenotyping across all known SGSM3-deficient patients reveal subtle, shared craniofacial features that reclassify the presentation from nonsyndromic to syndromic ID?",
+      "rationale": "Resolving the direct conflict between Turkyilmaz et al. (nonsyndromic ID) and UniProt/MalaCards/Birnbaum et al. (dysmorphic facial features and hypotonia) is necessary to determine diagnostic criteria for clinicians evaluating patients with short stature and ID.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What are the specific quantitative speech and language profiles (receptive vs expressive language quotient) across individuals harboring biallelic SGSM3 truncations?",
+      "rationale": "Establishing formal language testing metrics will confirm whether expressive language is universally spared from severe anarthria or whether speech delay varies according to variant position or genetic background.",
+      "promise": 0.78,
+      "est_cost": 30000.0
+    }
+  ]
+}

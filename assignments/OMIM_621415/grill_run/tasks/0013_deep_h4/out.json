@@ -1,0 +1,96 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms that monoallelic loss-of-function (LoF) and missense variants in LRRC7 cause intellectual developmental disorder, autosomal dominant 77 (OMIM 621415), characterized by intellectual disability, autism, ADHD, aggression, and eating behaviors without sex-specific penetrance. While functional assays demonstrate that PDZ domain variants disrupt postsynaptic targeting whereas LRR domain variants alter protein-protein interactions (such as PP1 binding), clinical observations conflict with the assertion that LRR missense variants exhibit weaker or less consistent neurodevelopmental phenotypes. De novo missense variants can lead to severe global developmental delay, microcephaly, hypotonia, and seizures, and published cohorts find that both LoF and missense variants consistently cause intellectual disability and behavioral manifestations.",
+  "evidence": [
+    {
+      "text": "Willim et al. characterized 33 individuals harboring heterozygous missense or loss-of-function variants in LRRC7, presenting with intellectual disability, autism spectrum disorder, ADHD, aggressive behavior, and hyperphagia-associated obesity. Functional studies demonstrated that PDZ domain variants disrupt synaptic targeting while LRR variants impair binding to protein phosphatase 1 (PP1).",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "We identify here 33 individuals (one of them previously described) with a dominant neurodevelopmental disorder due to heterozygous missense or loss-of-function variants in LRRC7. The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "total_cohort_size",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "Khan et al. identified a novel de novo missense variant (c.2660C>T, p.Pro887Leu) in exon 18 of LRRC7 presenting with severe global developmental delay, tonic seizures, failure to thrive, mild microcephaly, intellectual disability, and hypotonia, demonstrating that missense variants outside the PDZ scaffold domain can produce severe, highly penetrant neurological phenotypes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "affected_probands",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Mikhailova and Garg report that truncations of the LRRC7 gene resulting in loss of C-terminal residues and protein function consistently lead to intellectual disability and neurodevelopmental delay, as observed in 1p31.1 microdeletions and sequence truncations.",
+      "stance": "supports",
+      "source": {
+        "title": "Chromosome 1p31. 1 Deletion: A Case With Developmental Delay, Hypotonia, Cryptorchidism, Abnormal Oral Frenulum, and Feet Deformity",
+        "authors": [
+          "T Mikhailova",
+          "R Garg"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1155/crig/6152118",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1155/crig/6152118",
+        "quote": "Truncations of the LRRC7 gene result in a loss of protein function, as its C-terminal residues ... variants in LRRC7 consistently exhibit a phenotype characterized by intellectual disability"
+      },
+      "numbers": [
+        {
+          "metric": "microdeletion_size_mb",
+          "value": 14.385
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While truncating/LoF variants consistently cause intellectual disability and neurodevelopmental disruption, de novo missense variants in LRRC7 also present with severe intellectual disability, microcephaly, and seizures rather than exhibiting milder or merely variable expressivity.",
+    "Clinical studies to date have not established a statistically significant genotype-phenotype divergence in ID or autism penetrance between LRR missense variants and C-terminal/PDZ truncations in human patients."
+  ],
+  "confidence": 0.62,
+  "new_directions": [
+    {
+      "question_text": "Does deep phenotyping of LRRC7 LRR-domain versus PDZ-domain variant carriers reveal distinct behavioral endophenotypes such as specific hyperphagia rates or seizure incidence?",
+      "rationale": "Willim et al. (2024) demonstrated divergent molecular mechanisms (PP1 binding versus synaptic localization), but current cohorts are underpowered to detect clinical differences in specific neuropsychiatric domains.",
+      "promise": 0.85,
+      "est_cost": 75000
+    }
+  ]
+}

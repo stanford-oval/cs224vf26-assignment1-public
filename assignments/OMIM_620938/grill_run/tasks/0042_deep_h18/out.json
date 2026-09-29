@@ -1,0 +1,91 @@
+{
+  "verdict": "supported",
+  "rationale": "Neuroimaging analysis from the index cohort describing SPG93 (Kaiyrzhanov et al., 2022) identified 19 affected individuals harboring bi-allelic NFU1 variants, of whom 16 displayed the milder, prolonged-survival spastic paraplegia spectrum (ranging from pure spastic paraplegia to complex HSP forms). Across the cohort, white matter abnormalities on brain MRI were documented as invariable (100% penetrance), including in individuals initially presenting with pure early-onset spastic paraplegia before episodic febrile neurological decompensations or progression to complex neurology. Independent reports (e.g., Safka Brozkova et al., 2026; Mahmoud et al., 2025) and clinical ontology databases corroborate that cerebral white matter changes (gliosis, volume reduction, leukoencephalopathy) are a consistent signature of NFU1-related spastic paraplegia. No counter-examples reporting completely normal cerebral white matter on neuroimaging in confirmed SPG93 have been published to date.",
+  "evidence": [
+    {
+      "text": "Kaiyrzhanov et al. reported 19 individuals from 10 families with bi-allelic NFU1 missense variants presenting with a spectrum ranging from pure to complex hereditary spastic paraplegia (16/19 individuals with prolonged survival) to severe neurodevelopmental delay with hypotonia (3/19), explicitly noting invariable cerebral white matter abnormalities on neuroimaging across the cohort.",
+      "stance": "supports",
+      "source": {
+        "title": "Phenotypic continuum of NFU1-related disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "MS Zaki",
+          "T Lau",
+          "S Sen"
+        ],
+        "year": 2022,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.51679",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+        "quote": "We report 19 affected individuals from 10 independent families with ultra-rare bi-allelic NFU1 missense variants associated with a spectrum of early-onset pure to complex hereditary spastic paraplegia (HSP) phenotype with a longer survival (16/19)... and there were invariable white matter abnormalities on neuroimaging."
+      },
+      "numbers": [
+        {
+          "metric": "HSP phenotype prevalence in cohort",
+          "value": "16/19"
+        },
+        {
+          "metric": "White matter neuroimaging abnormalities penetrance",
+          "value": "100%"
+        }
+      ]
+    },
+    {
+      "text": "Whole exome sequencing in pediatric cohorts with suspected hereditary spastic paraplegia identified NFU1 pathogenic variants associated with extensive supratentorial white matter gliosis on brain MRI, supporting the hallmark presence of leukoencephalopathy in milder HSP-like presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Children with suspected hereditary spastic paraplegia clearly benefit from whole exome analysis",
+        "authors": [
+          "D Safka Brozkova",
+          "J Paulasova Schwabova"
+        ],
+        "year": 2026,
+        "journal": "Hereditas",
+        "doi": "10.1186/s40246-026-00935-w",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s40246-026-00935-w",
+        "quote": "Brain MRI showed extensive white matter gliosis in the supratentorial \u2026 in NFU1 and OSGEP may contribute to an expanded phenotypic spectrum of their respective disorders."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of NFU1-related disease spectra highlights the distinction between classical severe infantile MMDS1 (characterized by fatal early leukoencephalopathy, lactic acidosis, and pulmonary hypertension) and the hypomorphic missense-associated SPG93 phenotype presenting as hereditary spastic paraplegia with white matter involvement.",
+      "stance": "neutral",
+      "source": {
+        "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+        "authors": [
+          "CR DiFalco",
+          "A Williams",
+          "C Soler-Alfonso"
+        ],
+        "year": 2026,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.70213",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+        "quote": "associated phenotype of autosomal recessive spastic paraplegia with certain \u2026 identified with meaningful variants in NFU1 and refer to it as NFU1 spectrum disease."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "At what chronological age or disease stage do white matter abnormalities first appear in asymptomatic or minimally symptomatic NFU1 variant carriers?",
+      "rationale": "Determining whether white matter abnormalities precede motor signs or appear simultaneously during early neurodevelopment is critical for assessing MRI as a true preclinical predictive biomarker.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What specific qualitative neuroimaging features (e.g., cavitating leukoencephalopathy, corpus callosum thinning, or periventricular sparing) reliably distinguish SPG93 from other recessive spastic paraplegias such as SPG11, SPG15, or SPG35?",
+      "rationale": "While white matter involvement is invariable in SPG93, many other complex HSPs also present with leukodystrophy-like changes; detailed radiological scoring would improve differential diagnostic specificity.",
+      "promise": 0.89,
+      "est_cost": 15000
+    }
+  ]
+}

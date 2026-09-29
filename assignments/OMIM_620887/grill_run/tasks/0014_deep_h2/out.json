@@ -1,0 +1,114 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that gait ataxia, peripheral sensory-motor neuropathy, and hypotonia are present in a majority of pediatric and juvenile cases (estimated at 70-85%). However, a systematic literature review of 44 reported patients with FDXR mutations by Masnada et al. (2023) established that sensorimotor peripheral polyneuropathy occurred in only 22.72% (10/44) and ataxia in 43.18% (19/44) of cases, directly refuting the 70-85% majority claim for neuropathy and ataxia. While hypotonia and optic atrophy (89% in Kaler and Couser 2025) are indeed frequent, sensory-motor polyneuropathy and gait ataxia are present in less than half of reported individuals.",
+  "evidence": [
+    {
+      "text": "A comprehensive literature review of 44 reported patients harboring FDXR mutations revealed an incidence of sensorimotor peripheral polyneuropathy of 22.72% and ataxia of 43.18%, demonstrating that neither finding reaches majority prevalence (70-85%) across the clinical cohort.",
+      "stance": "contradicts",
+      "source": {
+        "title": "FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy",
+        "authors": [
+          "S Masnada",
+          "R Previtali",
+          "P Erba",
+          "E Beretta"
+        ],
+        "year": 2023,
+        "journal": "Neurological Sciences",
+        "doi": "10.1007/s10072-023-06790-0",
+        "pmid": "37046037",
+        "pmc": "PMC10096094",
+        "url": "https://link.springer.com/article/10.1007/s10072-023-06790-0",
+        "quote": "The review of clinical findings in previously described cases from literature reveals also a significant incidence of sensorimotor peripheral polyneuropathy (22.72%) and ataxia (43.18%). To date, 44 patients with FDXR mutations have been reported."
+      },
+      "numbers": [
+        {
+          "metric": "Incidence of sensorimotor peripheral polyneuropathy",
+          "value": 0.2272
+        },
+        {
+          "metric": "Incidence of ataxia",
+          "value": 0.4318
+        },
+        {
+          "metric": "Total cohort denominator",
+          "value": 44
+        }
+      ]
+    },
+    {
+      "text": "Review of 47 reported patients with FDXR variants shows that optic atrophy is the hallmark feature (89%), alongside movement disorders, sensorineural hearing loss, developmental delay/regression, and hypotonia, whereas peripheral polyneuropathy is not a predominant majority feature.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Ocular and neurological manifestations of the FDXR-related disorder",
+        "authors": [
+          "A Kaler",
+          "N Couser"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1091853124004099",
+        "quote": "Optic atrophy is the most common feature (89%), but many other ocular manifestations have not previously been characterized... Common neurological symptoms include movement disorder, sensorineural hearing loss, developmental delay/regression, and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "Optic atrophy incidence",
+          "value": 0.89
+        },
+        {
+          "metric": "Total reported cases",
+          "value": 47
+        }
+      ]
+    },
+    {
+      "text": "FDXR deficiency spans a broad spectrum from severe infantile Leigh-like encephalopathy with early demise to milder movement disorders, with variable presence of hypotonia, spasticity, and cerebellar signs.",
+      "stance": "neutral",
+      "source": {
+        "title": "Expanding the clinical and genetic spectrum of FDXR deficiency by functional validation of variants of uncertain significance",
+        "authors": [
+          "SL Stenton",
+          "D Piekutowska-Abramczuk"
+        ],
+        "year": 2021,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24160",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24160",
+        "quote": "These patients show a broad clinical spectrum ranging from Leigh syndrome with early demise and severe infantile-onset encephalopathy, to milder movement disorders."
+      },
+      "numbers": [
+        {
+          "metric": "Unpublished patients identified",
+          "value": 7
+        },
+        {
+          "metric": "Independent families",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis estimates gait ataxia and peripheral sensory-motor neuropathy to occur in 70-85% of cases, directly conflicting with systematic review findings showing peripheral polyneuropathy in only 22.72% (10/44) and ataxia in 43.18% (19/44)."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and age-stratified penetrance of sensorimotor peripheral polyneuropathy in FDXR-associated disease across different variant categories (e.g., p.R392W vs p.R306C)?",
+      "rationale": "Given that peripheral neuropathy is present in under 25% of all reported cases but can present acutely and mimic Guillain-Barre syndrome, genotype-phenotype correlations could clarify which subcohorts are at risk.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does subclinical peripheral neuropathy or subclinical dorsal column dysfunction exist in asymptomatic or purely optic-atrophy-presenting FDXR individuals when evaluated by systematic nerve conduction studies?",
+      "rationale": "Neurophysiological testing may reveal under-reported peripheral nerve involvement that does not meet overt clinical diagnostic thresholds.",
+      "promise": 0.78,
+      "est_cost": 35000.0
+    }
+  ]
+}

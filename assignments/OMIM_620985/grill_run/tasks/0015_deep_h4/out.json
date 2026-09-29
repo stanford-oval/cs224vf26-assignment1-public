@@ -1,0 +1,80 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not support the hypothesis that Karayol-Borroto-Haghshenas syndrome (MSL2-related neurodevelopmental disorder) is specifically or most commonly confused with Rubinstein-Taybi syndrome (CREBBP/EP300), Coffin-Siris syndrome (BAF complex), or Wiedemann-Steiner syndrome (KMT2A), nor does it demonstrate that the absence of broad thumbs/halluces, hypertrichosis, or nail hypoplasia provides moderate-to-high clinical confidence in distinguishing MSL2 syndrome from these disorders. While MSL2 regulates chromatin (mono-ubiquitination of H2BK34 and participation in the MSL complex), Karayol et al. (2024) and Lu et al. (2024) show that affected individuals present with non-specific neurodevelopmental disorder (NDD) phenotypes\u2014including global developmental delay, intellectual disability, hypotonia, motor coordination difficulties, autism spectrum disorder, and subtle, heterogeneous dysmorphisms. Karayol et al. compared MSL2 disorder mechanistically to other MSL-complex entities (MOF/MSL3) and established a sensitive and specific DNA methylation episignature specifically because clinical phenotypes alone lack sufficient discriminatory power across overlapping epigenetic and general NDD cohorts.",
+  "evidence": [
+    {
+      "text": "Karayol et al. characterized 25 individuals with heterozygous de novo MSL2 variants, reporting global developmental delay, intellectual disability, hypotonia, gait and coordination disturbances, behavioral issues, variable dysmorphic features, and a distinct DNA methylation episignature, without establishing a clinical differential algorithm based on the absence of broad halluces, hypertrichosis, or distal digit hypoplasia.",
+      "stance": "contradicts",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11267526",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267526/",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals. As a molecular biomarker, a sensitive and specific DNA methylation episignature has been established."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size with heterozygous de novo MSL2 variants",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "Lu et al. detailed the clinical presentation of three patients harboring novel protein-truncating variants in MSL2, reporting generalized syndromic neurodevelopmental delay, facial dysmorphisms, and autism spectrum features, noting that phenotypic features alone overlap broadly across epigenetic neurodevelopmental disorders.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Novel protein-truncating variants of a chromatin-modifying gene MSL2 in syndromic neurodevelopmental disorders",
+        "authors": [
+          "X Lu",
+          "K Ng",
+          "F Pinto e Vairo",
+          "J Collins",
+          "R Cohn"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1038/s41431-024-01576-0",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01576-0",
+        "quote": "We reported first time the detailed clinical features associated with 3 MSL2 PTVs. There are 15 PTVs (13 de novo) reported from the large genomics studies (12 cases) or ClinVar (3 cases) of NDD, ASD, and developmental disorders (DD) but the specific clinical features for these cases are not described. Taken together, our descriptions of dysmorphic face and other features support the causal role of MSL2 in a likely syndromic neurodevelopmental disorder and add MSL2 to a growing list of epigenetic genes implicated in ASD."
+      },
+      "numbers": [
+        {
+          "metric": "Detailed clinical case reports of MSL2 PTVs",
+          "value": 3
+        },
+        {
+          "metric": "Total PTVs identified in public genomics datasets/ClinVar",
+          "value": 15
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts that clinical differentiation from Rubinstein-Taybi, Coffin-Siris, and Wiedemann-Steiner syndromes can be made with moderate-to-high confidence by assessing negative digital and hair findings, whereas cohort studies indicate high clinical overlap and emphasize molecular testing (exome sequencing and DNA episignatures) as the reliable discriminator."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "How effectively can machine-learning facial dysmorphology analysis (e.g., GestaltMatcher/Face2Gene) differentiate individuals with MSL2 variants from individuals with Rubinstein-Taybi, Coffin-Siris, and Wiedemann-Steiner syndromes?",
+      "rationale": "Because manual phenotypic discrimination across chromatinopathies often fails due to shared non-specific features, automated 2D/3D facial dysmorphology models could test whether distinctive subtle gestalt features exist.",
+      "promise": 0.75,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does the MSL2 DNA methylation episignature cross-react or cluster closely with episignatures from KAT6A, KMT2A, CREBBP, or ARID1B cohorts?",
+      "rationale": "Clarifying the epigenetic cross-classification boundaries will determine whether MSL2 presents distinct molecular signatures that bypass clinical phenotypic ambiguity.",
+      "promise": 0.88,
+      "est_cost": 45000.0
+    }
+  ]
+}

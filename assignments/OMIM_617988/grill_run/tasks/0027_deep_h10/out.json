@@ -1,0 +1,132 @@
+{
+  "verdict": "supported",
+  "rationale": "Across reported cohorts of Jaberi-Elahi syndrome (caused by biallelic variants in GTPBP2), neuroimaging shows marked phenotypic variability. While thinning or hypoplasia/agenesis of the corpus callosum is a frequent finding, it is not an obligate feature. Several molecularly confirmed cases demonstrate other patterns such as periventricular white matter abnormalities, delayed myelination, or cerebellar atrophy without callosal dysgenesis. Therefore, callosal agenesis/hypogenesis occurs in only a subset of patients, and its absence does not exclude Jaberi-Elahi syndrome in individuals presenting with core features such as microcephaly, developmental delay, cerebellar involvement, and ectodermal findings.",
+  "evidence": [
+    {
+      "text": "Jaberi-Elahi syndrome exhibits phenotypic heterogeneity including variable neuroimaging findings. A 4-month-old infant with confirmed homozygous pathogenic GTPBP2 frameshift variant presented with periventricular white matter abnormalities on MRI without reported callosal agenesis or hypogenesis.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome - NIH Genetic Testing Registry (GTR)",
+        "authors": [],
+        "year": null,
+        "journal": "NCBI Bookshelf / GTR",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/gtr/conditions/C4693848",
+        "quote": "The condition shows marked phenotypic heterogeneity, including microcephaly, hypotonia or spasticity, developmental delay, intellectual disability, movement disorders, epilepsy, and variable neuroimaging findings. ... periventricular white matter abnormalities on brain magnetic resonance imaging (MRI)."
+      },
+      "numbers": [
+        {
+          "metric": "Age of patient at presentation (months)",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Review of GTPBP2-associated syndrome delineates core features including prenatal onset microcephaly, tone abnormalities, movement disorders, and ectodermal findings, noting that neuroimaging features such as thin corpus callosum, white matter loss, delayed myelination, and cerebellar hypoplasia/atrophy vary across presentations and with patient age.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical delineation of GTPBP2\u2010associated neuro\u2010ectodermal syndrome: Report of two new families and review of the literature",
+        "authors": [
+          "MT Carter",
+          "S Venkateswaran"
+        ],
+        "year": 2019,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.13523",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13523",
+        "quote": "with white matter volume loss, thin corpus callosum, delayed myelination and hypoplasia of ... Key features of this clinically recognizable condition include prenatal onset microcephaly, tone abnormalities, and movement disorders, epilepsy, dysmorphic features, retinal dysfunction, ectodermal dysplasia, and brain iron accumulation."
+      },
+      "numbers": [
+        {
+          "metric": "Individuals previously reported in literature from four unrelated families",
+          "value": 6
+        },
+        {
+          "metric": "Additional individuals reported in the study from two families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "A comprehensive literature review of 28 individuals with Jaberi-Elahi syndrome identified core discriminating features including motor developmental delay (26/28), sparse hair (26/28), intellectual disability (23/28), hypotonia (23/28), and skeletal abnormalities (23/28), while neurodevelopmental and structural manifestations show variable penetrance.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+      },
+      "numbers": [
+        {
+          "metric": "Total individuals with Jaberi-Elahi syndrome evaluated in literature review",
+          "value": 28
+        },
+        {
+          "metric": "Patients manifesting motor development delay",
+          "value": "26/28"
+        },
+        {
+          "metric": "Patients manifesting sparse hair",
+          "value": "26/28"
+        },
+        {
+          "metric": "Patients manifesting intellectual disability",
+          "value": "23/28"
+        },
+        {
+          "metric": "Patients manifesting hypotonia",
+          "value": "23/28"
+        },
+        {
+          "metric": "Patients manifesting visual impairment",
+          "value": "18/28"
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry indicates that brain imaging typically demonstrates cerebellar atrophy and hypoplasia of the corpus callosum, framing it as a common or typical finding rather than an invariant prerequisite.",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - #617988 - JABERI-ELAHI SYNDROME; JABELS",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/617988",
+        "quote": "Brain imaging typically shows cerebellar atrophy and hypoplasia of the corpus callosum"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of corpus callosum hypoplasia/agenesis on high-resolution MRI when stratified systematically across all 28+ known Jaberi-Elahi syndrome cases?",
+      "rationale": "Existing cohort syntheses evaluate symptoms like sparse hair and motor delay systematically (e.g., 26/28), but exact numerators and denominators for corpus callosum dysgenesis vs. isolated cerebellar atrophy remain pooled under general neuroimaging summaries.",
+      "promise": 0.85,
+      "est_cost": 8000
+    },
+    {
+      "question_text": "Does corpus callosum thinning in GTPBP2 deficiency represent progressive white matter loss / secondary atrophy over time rather than primary dysgenesis?",
+      "rationale": "Age-related neurodegeneration and brain iron accumulation occur in older patients, raising the question of whether callosal thinning is acquired secondary to progressive axonal loss rather than true congenital agenesis.",
+      "promise": 0.8,
+      "est_cost": 15000
+    }
+  ]
+}

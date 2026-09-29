@@ -1,0 +1,128 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Linkage and whole-genome sequencing studies in multiplex families (Zhou et al., 2023) identified segregating KDM6B missense variants linked to co-occurring ASD and ADHD, and rodent models of Kdm6b deficiency demonstrate core ASD/ADHD behavioral phenotypes (Gao et al., 2022). However, systematic clinical ascertainment in cohorts with de novo KDM6B missense and truncating variants (Stolerman et al., 2019; Rots et al., 2023) demonstrates that pathogenic missense variants\u2014including those outside the catalytic domain\u2014consistently present with multi-system features including developmental delay/intellectual disability, coarse facial features, and mild skeletal abnormalities rather than isolated non-syndromic psychiatric presentations.",
+  "evidence": [
+    {
+      "text": "In the New Jersey Language and Autism Genetics Study of multiplex families with co-occurring ASD and ADHD, KDM6B was prioritized as the highest-ranking candidate gene within linkage regions, harboring two missense variants segregating in two families.",
+      "stance": "supports",
+      "source": {
+        "title": "Common genetic risk factors in ASD and ADHD co-occurring families",
+        "authors": [
+          "A Zhou",
+          "X Cao",
+          "V Mahaganapathy",
+          "M Azaro",
+          "C Gwin"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-022-02496-z",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-022-02496-z",
+        "quote": "KDM6B has two missense variants segregating in two families. \u2026 Within the linkage regions, we identified 36 genes that are associated with ADHD using a pedigree-based gene prioritization approach. KDM6B (Lysine Demethylase 6B) is the highest-ranking gene"
+      },
+      "numbers": [
+        {
+          "metric": "segregating missense variants in ASD/ADHD families",
+          "value": 2
+        },
+        {
+          "metric": "total analyzed NJLAGS families",
+          "value": 73
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous Kdm6b-knockout mice exhibit core autism-like social communication deficits and hyperactivity/impulsivity typical of ADHD, confirming that Kdm6b loss-of-function leads to behavioral phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Kdm6b Haploinsufficiency Causes ASD/ADHD-Like Behavioral Deficits in Mice",
+        "authors": [
+          "Y Gao",
+          "MB Aljazi",
+          "J He"
+        ],
+        "year": 2022,
+        "journal": "Frontiers in Behavioral Neuroscience",
+        "doi": "10.3389/fnbeh.2022.905783/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/behavioral-neuroscience/articles/10.3389/fnbeh.2022.905783/full",
+        "quote": "the heterozygous Kdm6b-KO mice develop the core autism-\u2026 prominent phenotype observed in the heterozygous Kdm6b-"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Identification of de novo alterations in KDM6B in 12 unrelated individuals defined Stolerman syndrome characterized by developmental delay, intellectual disability, dysmorphic facial features, and other syndromic manifestations, indicating that human pathogenic variants present with syndromic physical and neurological stigmata.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genetic variants in the KDM6B gene are associated with neurodevelopmental delays and dysmorphic features",
+        "authors": [
+          "ES Stolerman",
+          "E Francisco",
+          "JL Stallworth"
+        ],
+        "year": 2019,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.61173",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.61173",
+        "quote": "We have identified a number of de novo alterations in the KDM6B gene via whole exome sequencing (WES) in a cohort of 12 unrelated patients with developmental delay, intellectual disability, dysmorphic facial features, and other clinical findings."
+      },
+      "numbers": [
+        {
+          "metric": "unrelated affected individuals evaluated",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "text": "Detailed clinical delineation of KDM6B-related neurodevelopmental disorder (OMIM #618505) confirmed that individuals carrying pathogenic missense and truncating variants display coarse facies, cognitive impairment, and mild distal skeletal abnormalities rather than isolated psychiatric disorders.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+        "authors": [
+          "D Rots",
+          "D Top",
+          "F Di Cara",
+          "RJ Louie",
+          "E Stolerman"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+        "quote": "novo (likely) pathogenic KDM6B variants, we demonstrate that \u2026 demonstrated a disruptive effect of 11 missense/in-frame in\u2026 OMIM currently classifies this KDM6B-related NDD as 'neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities'"
+      },
+      "numbers": [
+        {
+          "metric": "disruptive missense/in-frame variants functionally evaluated",
+          "value": 11
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Familial linkage studies show missense variants segregating with isolated/co-occurring ASD and ADHD without reported syndromic dysmorphology, whereas comprehensive clinical cohorts identify significant physical stigmata (coarse facies, skeletal defects) across individuals with de novo missense variants.",
+    "It remains unresolved whether segregating non-catalytic missense variants represent fully penetrant hypomorphic monogenic alleles or modest-effect polygenic risk variants within complex ASD/ADHD architecture."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Do non-JmjC missense variants identified in non-syndromic ADHD/ASD cohorts exhibit partial residual histone demethylase activity or impaired non-enzymatic protein-protein interactions compared to catalytic JmjC domain mutations?",
+      "rationale": "Clarifying whether non-catalytic domain variants function as hypomorphic alleles or benign passenger variants in ASD/ADHD requires quantitative in vitro H3K27me3 demethylation and interactome profiling assays.",
+      "promise": 0.85,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "What is the penetrance of craniofacial and digital anomalies in unselected carriers of non-catalytic KDM6B missense variants identified in population cohorts (e.g., UK Biobank or gnomAD)?",
+      "rationale": "Ascertainment bias toward syndromic clinics in initial gene discovery cohorts may exaggerate the penetrance of physical stigmata.",
+      "promise": 0.78,
+      "est_cost": 25000
+    }
+  ]
+}

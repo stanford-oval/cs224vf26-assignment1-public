@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620401",
+ "omim": "OMIM:620401",
+ "disease": "Intellectual developmental disorder, autosomal recessive 84",
+ "gene": "SGSM3",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1551,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Intellectual developmental disorder, autosomal recessive 84 (SGSM3, OMIM:620401):\n\n[1] Intellectual Developmental Disorder, Autosomal Recessive ...\nhttps://www.malacards.org/card/intellectual_developmental_disorder_autosomal_recessive_84\nAutosomal recessive intellectual developmental disorder-84 (MRT84) is characterized by developmental delay, short stature, and dysmorphic facial features.\n\n[2] 610440 - SMALL G PROTEIN SIGNALING MODULATOR 3; ...\nhttps://omim.org/entry/610440\n.0001 INTELLECTUAL DEVELOPMENTAL DISORDER, AUTOSOMAL RECESSIVE 84 ... In 13 patients from 8 families of Ashkenazi Jewish origin with mild to moderate intellectual ...\n\n[3] SGSM3\nhttps://panelapp-aus.org/panels/entities/SGSM3\nPhenotypes. Intellectual developmental disorder, autosomal recessive 84, MIM# 620401. Tags. founder. Green SGSM3 in Intellectual disability syndromic and non- ...\n\n[4] SGSM3 gene Small G Protein Signaling Modulator 3\nhttps://www.genecards.org/card/SGSM3\nDiseases associated with SGSM3 include Intellectual Developmental Disorder, Autosomal Recessive 84 and Warburg Micro Syndrome 4. Among its related pathways ...\n\n[5] SGSM3-associated disorder \u00b7 Issue #537\nhttps://github.com/OD4RD/Main-Help-Desk/issues/537\n... Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3 ... \u2022 OMIM: 620401 \u2013 Intellectual developmental disorder, autosomal recessive 84.\n\n[6] Birnbaum-et-al-2023-SGSM3.pdf\nhttps://doryeshorim.org/wp-content/uploads/2025/03/Birnbaum-et-al-2023-SGSM3.pdf\nIn this paper, we highlight SGSM3 as a candidate disease gene for autosomal recessive mild to moderate intellectual disability. We identified a founder ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age None, male)\n  observed: Camptodactyly, Scoliosis, Lumbar hyperlordosis, Micropenis, Hypothyroidism, Mild global developmental delay, Mild intellectual disability, Anxiety, Pes cavus\n  recorded ABSENT: Gastroesophageal reflux, Chronic constipation, Hypotonia, Microcephaly, Retrognathia, High forehead, Highly arched eyebrow, Strabismus, Astigmatism, Hypermetropia, Hypertelorism, Low-set ears, Attention deficit hyperactivity disorder, Low frustration tolerance, Anger, Impulsivity, Obsessive-compulsive trait, Polyhydramnios\n\nP02 (age None, male)\n  observed: Phimosis, Intellectual disability, Global developmental delay, Motor delay, Delayed speech and language development, Autistic behavior\n  recorded ABSENT: Prominent forehead, Epicanthus, Long eyelashes, Telecanthus, Short palpebral fissure, Hooded upper eyelid, Synophrys, Sparse eyebrow, Stellate iris, Astigmatism, Microphthalmia, Strabismus, Ptosis, Hypermetropia, Myopia, Hearing impairment, Seizure, EEG abnormality, Sleep disturbance, Gastroesophageal reflux, Episodic vomiting, Chronic constipation, Esophageal atresia, Broad hallux, Syndactyly (+4 more)\n\nP03 (age 10.0, female)\n  observed: Short stature, Decreased body weight, Hypoplasia of the corpus callosum, Motor delay, Delayed speech and language development, Microtia, Protruding ear, Prominent nasal bridge, Hypotonia, Seizure, Fine hair, Hyperactivity, Motor stereotypy, Feeding difficulties, Global developmental delay, Severe intellectual disability, Autistic behavior, Upslanted palpebral fissure, Strabismus, Sleep-wake cycle disturbance, Hypertelorism, Mitral regurgitation, Patent ductus arteriosus\n  recorded ABSENT: Small for gestational age, Microcephaly, Abnormal cortical gyration, Agenesis of corpus callosum, Hydronephrosis, Colpocephaly, Anal atresia, Anteverted ears, Stenosis of the external auditory canal, Low-set ears, Broad inferior crus of antihelix, Linear earlobe crease, Dental crowding, Cleft palate, High palate, Short philtrum, Smooth philtrum, Tented upper lip vermilion, Thick vermilion border, Oligohydramnios, Polyhydramnios, Depressed nasal bridge, Aggressive behavior, Absent speech, Moderate intellectual disability (+9 more)\n\nP04 (age 2.0, male)\n  observed: Hypermetropia, Renal cyst, Hydronephrosis, Recurrent infections, Microcephaly, Hearing impairment, Global developmental delay, Intellectual disability, Seizure, Anxiety, Gastroesophageal reflux, Chronic constipation, Tube feeding, Short stature, Overweight, Patent ductus arteriosus, Ventricular septal defect\n  recorded ABSENT: Strabismus, Cryptorchidism, Hypospadias, Recurrent urinary tract infections, Ureteropelvic junction obstruction, Developmental regression, Bilateral tonic-clonic seizure, Generalized-onset seizure, Atonic seizure, Focal-onset seizure, Febrile seizure (within the age range of 3 months to 6 years), Autism, Bipolar affective disorder, Compulsive behaviors, Aggressive behavior, Attention deficit hyperactivity disorder, Motor stereotypy, Self-mutilation, Depression, Psychosis, Inguinal hernia, Umbilical hernia, Hypotonia, Hallux valgus, Clinodactyly of the 5th finger (+10 more)\n\nP05 (age 7.1, male)\n  observed: Cafe-au-lait spot, Fever, Mild intellectual disability, Global developmental delay, Autism, Macrocephaly, Pierre-Robin sequence\n  recorded ABSENT: Short stature, Ventricular septal defect, Tonic seizure, Focal impaired awareness seizure, Epileptic encephalopathy, Microcephaly\n\nP06 (age 13.0, female)\n  observed: Global developmental delay, Seizure, Autistic behavior, Ventricular septal defect, Hydronephrosis, Hallux valgus\n  recorded ABSENT: Delayed ability to walk, Hypoplasia of the corpus callosum, Cerebellar atrophy, Hypotonia, Hypertonia, Aggressive behavior, Self-injurious behavior, Bicuspid aortic valve, Hypoplastic aortic arch, Unilateral renal agenesis, Multicystic kidney dysplasia, Tracheoesophageal fistula, Anal atresia, Kyphosis, Scoliosis, Pectus excavatum, Tethered cord, Microcephaly, Epicanthus, Obesity, Meningocele\n\nP07 (age 17.0, female)\n  observed: Micrognathia, Retrognathia, Pectus excavatum, Spasticity, Delayed speech and language development, Intellectual disability, Anxiety, Motor delay\n  recorded ABSENT: High palate, Broad forehead, Sloping forehead, Frontal bossing, Epicanthus, Bulbous nose, Long face, Microcephaly, Hypertelorism, Deeply set eye, Slender finger, Peripheral neuropathy, Interictal EEG abnormality, Attention deficit hyperactivity disorder, Autistic behavior, Abnormality of body height\n\nP08 (age None, male)\n  observed: Small posterior fossa, Severe global developmental delay, Febrile seizure (within the age range of 3 months to 6 years), Hyperactivity, Head-banging, Simplified gyral pattern, Cafe-au-lait spot\n  recorded ABSENT: Inappropriate laughter, Irritability\n\nP09 (age 13.0, male)\n  observed: Hypotonia, Macrocephaly, Tapered finger, Pes planus, Tall stature, Obesity, Recurrent infections, Chronic constipation, Encopresis, Attention deficit hyperactivity disorder, Impulsivity, Aggressive behavior, Delayed speech and language development, Sleep apnea, Moderate intellectual disability, Polyphagia, Autism, Moderate global developmental delay\n  recorded ABSENT: Microcephaly, Clinodactyly of the 5th finger, Pes valgus, Failure to thrive, Postnatal growth retardation, Heart murmur, Pyloric stenosis, Feeding difficulties, Macrotia, Low-set ears, Hearing impairment, Hypertelorism, Esotropia, Exotropia, Hypometric saccades, Bilateral ptosis, Hypermetropia, Delayed ability to walk, Vesicoureteral reflux, Hydronephrosis, Urinary urgency, Long face, Deep philtrum, Diastema, Narrow forehead (+1 more)\n\nP10 (age 33.0, male)\n  observed: Mild intellectual disability, Seizure, Obsessive-compulsive trait, Delayed ability to walk, Myopia, Mandibular prognathia, Thick eyebrow\n  recorded ABSENT: Microcephaly, Axial hypotonia, Appendicular hypotonia, Attention deficit hyperactivity disorder, Anxiety, Fatigue, Delayed fine motor development, Constipation, Strabismus, Short stature, Delayed skeletal maturation, Dysphagia, Macrodontia, Long eyelashes, High forehead, Short neck, Low posterior hairline, Ptosis, Pointed chin, Anteverted nares, Posteriorly rotated ears, Hypertelorism, Thin upper lip vermilion, Depressed nasal bridge, Osteopenia (+17 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P02",
+     "probability": 0.45,
+     "for": "Demonstrates global developmental delay, motor delay, delayed speech and language development, intellectual disability, and autistic behavior, perfectly fitting the reported mild-to-moderate and nonsyndromic intellectual disability presentation.",
+     "against": "Lacks reported short stature and dysmorphic facial features noted in some summary descriptions, and specific severity level (mild/moderate) is not explicitly detailed."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.25,
+     "for": "Exhibits global developmental delay, short stature, and multiple dysmorphic facial features as described in the MalaCards disease summary.",
+     "against": "Presents with severe intellectual disability (with moderate intellectual disability recorded as absent), hypoplasia of the corpus callosum, seizures, and congenital heart defects, which strongly conflict with the mild-to-moderate, nonsyndromic phenotype established across multiple families."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.15,
+     "for": "Features mild intellectual disability and mild global developmental delay, directly matching the core severity described in the primary literature.",
+     "against": "Presents with features not mentioned in the report such as camptodactyly, scoliosis, micropenis, and hypothyroidism, and lacks short stature."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.1,
+     "for": "Presents with developmental delay, intellectual disability, and short stature as highlighted in the disease overview.",
+     "against": "Exhibits microcephaly, renal cysts, hydronephrosis, and ventricular and arterial septal defects that are not characteristic of this condition."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Shows mild intellectual disability, global developmental delay, and autism consistent with the cognitive and behavioral profile.",
+     "against": "Short stature is recorded as absent, and the patient presents with macrocephaly and Pierre-Robin sequence."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical and dysmorphology profiles from the 13 described patients, specific growth percentiles, and explicit confirmation of whether the disorder is purely nonsyndromic or encompasses mild syndromic features such as short stature and craniofacial dysmorphisms.",
+   "tokens_in": 2198,
+   "tokens_out": 6176,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.35,
+     "for": "Demonstrates the cardinal triad from the report: global developmental delay, short stature, and multiple dysmorphic facial features (microtia, protruding ear, prominent nasal bridge, hypertelorism, upslanted palpebral fissures).",
+     "against": "Has severe intellectual disability with moderate intellectual disability explicitly recorded absent, whereas the report specifies mild to moderate intellectual disability."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.25,
+     "for": "Presents with mild global developmental delay and mild intellectual disability, which aligns precisely with the mild-to-moderate severity noted in the report.",
+     "against": "Lacks reported short stature, and multiple dysmorphic facial features highlighted as characteristic in the report are explicitly recorded absent."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.2,
+     "for": "Features global developmental delay and intellectual disability with marked absence of dysmorphic signs, consistent with the report's reference to a nonsyndromic intellectual disability phenotype.",
+     "against": "Lacks short stature and dysmorphic facial features described as characteristic in the report, with multiple facial dysmorphisms recorded absent, and severity is not specified as mild-to-moderate."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.12,
+     "for": "Exhibits global developmental delay, intellectual disability, and short stature as emphasized in the disease summary.",
+     "against": "Lacks characteristic dysmorphic facial features, ID severity is unspecified, and presents with complex multi-system involvement (renal cysts, cardiac defects, tube feeding) unmentioned in the report."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.08,
+     "for": "Presents with mild intellectual disability as described in the report, accompanied by facial dysmorphisms (mandibular prognathia, thick eyebrow).",
+     "against": "Short stature, a primary characteristic described in the report, is explicitly recorded absent."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed delineation of the specific facial dysmorphisms, explicit guidance on whether the phenotype is purely nonsyndromic versus syndromic, clarity on the penetrance of short stature, and whether the severity of intellectual disability can extend to severe.",
+   "tokens_in": 2198,
+   "tokens_out": 11379,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.35,
+     "for": "The patient manifests the triad described in the report: global developmental delay, short stature, and dysmorphic facial features including prominent nasal bridge, protruding ears, and hypertelorism.",
+     "against": "Her intellectual disability is severe with moderate disability explicitly absent, conflicting with the mild-to-moderate severity reported, and she has cardiac and callosal defects not mentioned in the evidence."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.25,
+     "for": "Displays mild global developmental delay and mild intellectual disability, which precisely matches the mild-to-moderate intellectual disability highlighted in the evidence.",
+     "against": "Short stature is not documented and key dysmorphic facial features are recorded as absent, conflicting with the reported association with short stature and dysmorphic features."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.2,
+     "for": "Presents with intellectual disability and developmental delay in speech and motor domains, fitting the characterization of SGSM3 as a cause of nonsyndromic intellectual disability.",
+     "against": "Short stature is not reported and multiple dysmorphic facial features are explicitly recorded as absent, which argues against the report characterizing MRT84 by dysmorphic features and short stature."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.12,
+     "for": "Demonstrates intellectual disability, global developmental delay, and short stature, matching major clinical features highlighted in the report.",
+     "against": "No dysmorphic facial features are noted, and the patient exhibits complex multisystem involvement including renal cysts, microcephaly, and heart defects that are absent from the disease literature."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.08,
+     "for": "Presents with mild intellectual disability and motor delay, consistent with the mild-to-moderate intellectual developmental delay reported for SGSM3 variants.",
+     "against": "Short stature is explicitly recorded as absent despite being cited as a characteristic feature of MRT84, and seizures are present without support in the evidence."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed delineation of the specific dysmorphic facial features, explicit clarification on whether the condition is truly nonsyndromic versus syndromic, and information on whether systemic organ anomalies (such as cardiac, renal, or skeletal abnormalities) occur.",
+   "tokens_in": 2198,
+   "tokens_out": 13012,
+   "round": 3
+  }
+ ]
+}

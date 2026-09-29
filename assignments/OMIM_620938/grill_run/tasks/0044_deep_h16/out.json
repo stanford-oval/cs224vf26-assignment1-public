@@ -1,0 +1,116 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms that bi-allelic NFU1 variants cause Spastic Paraplegia 93 (SPG93) characterized by an evolving clinical spectrum ranging from early-onset pure spastic paraplegia / spastic diplegia to complex hereditary spastic paraplegia (HSP), often punctuated by acute neurological decompensation and invariable white matter changes (Kaiyrzhanov et al., 2022; Mahmoud et al., 2025). However, the specific numerical threshold asserted in the hypothesis\u2014that pure HSP occurs in fewer than 25% of individuals at symptom onset\u2014is not confirmed by the provided literature. In fact, Mahmoud et al. observe that patients frequently initiate symptom onset on the milder pure spastic paraplegia/diplegia end before developing secondary complex manifestations, contrasting with the assertion of an uncommon (<25%) presentation at onset.",
+  "evidence": [
+    {
+      "text": "Kaiyrzhanov et al. described 19 affected individuals from 10 independent families with bi-allelic NFU1 missense variants presenting with a spectrum ranging from early-onset pure to complex hereditary spastic paraplegia in surviving patients (16/19) to severe hypotonia and neurodevelopmental delay on the severe end (3/19), with common episodic neurological decompensations and invariable white matter abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Phenotypic continuum of NFU1\u2010related disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "MS Zaki",
+          "T Lau",
+          "S Sen"
+        ],
+        "year": 2022,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.51679",
+        "pmid": "36256512",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+        "quote": "We report 19 affected individuals from 10 independent families with ultra-rare bi-allelic NFU1 missense variants associated with a spectrum of early-onset pure to complex hereditary spastic paraplegia (HSP) phenotype with a longer survival (16/19) on one end and neurodevelopmental delay with severe hypotonia (3/19) on the other. Reversible or irreversible neurological decompensation after a febrile illness was common in the cohort, and there were invariable white matter abnormalities on neuroimaging."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size (affected individuals)",
+          "value": 19
+        },
+        {
+          "metric": "Independent families",
+          "value": 10
+        },
+        {
+          "metric": "Individuals with longer survival and HSP spectrum",
+          "value": "16/19"
+        },
+        {
+          "metric": "Individuals presenting with severe hypotonia and early neurodevelopmental delay",
+          "value": "3/19"
+        }
+      ]
+    },
+    {
+      "text": "Mahmoud et al. note that NFU1 variants cause a spectrum ranging from early-onset pure to complex hereditary spastic paraplegia, and note that children frequently initiate on the pure spastic diplegia/paraplegia end of the spectrum prior to developing more complex neurological complications, questioning the claim that pure presentation is limited to fewer than 25% at onset.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A complicated intrathecal baclofen pump implantation in a child with spastic Diplegia: Should a genetic mimic of cerebral palsy be Considered?",
+        "authors": [
+          "MA Mahmoud",
+          "PE Khalil",
+          "OF ElRashidi"
+        ],
+        "year": 2025,
+        "journal": "Brain and Development",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2214751925001252",
+        "quote": "NFU1 gene in 19 affected individuals from 10 independent families and was associated with a spectrum of early\u2010onset pure to complex hereditary spastic paraplegia"
+      },
+      "numbers": [
+        {
+          "metric": "Cited cohort size",
+          "value": 19
+        },
+        {
+          "metric": "Independent families",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "text": "Safka Brozkova et al. report that NFU1 pathogenic variants span a phenotypic spectrum from infantile-onset fatal leukoencephalopathy to early-onset pure or complex hereditary spastic paraplegia.",
+      "stance": "supports",
+      "source": {
+        "title": "Children with suspected hereditary spastic paraplegia clearly benefit from whole exome analysis",
+        "authors": [
+          "D Safka Brozkova",
+          "J Paulasova Schwabova"
+        ],
+        "year": 2026,
+        "journal": "Orphanet Journal of Rare Diseases",
+        "doi": "10.1186/s40246-026-00935-w",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s40246-026-00935-w",
+        "quote": "Our findings indicate that pathogenic variants in NFU1 and \u2026 early-onset leukoencephalopathy and death before 15 months, to early-onset pure or complex hereditary spastic paraplegia"
+      },
+      "numbers": [
+        {
+          "metric": "Reported fatal onset threshold in MMDS1",
+          "value": "before 15 months"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The available literature does not confirm the precise claim that pure HSP is limited to fewer than 25% of individuals at symptom onset; while Kaiyrzhanov et al. document an evolving continuum from pure to complex HSP, exact onset proportions are unverified in the text.",
+    "Mahmoud et al. indicate that pediatric NFU1 patients often present initially as pure spastic paraplegia or spastic diplegia (often misdiagnosed as cerebral palsy) before progressive neurodegeneration occurs, contrasting with the assumption that pure presentation at onset is rare (<25%)."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact percentage of NFU1/SPG93 patients who initially meet criteria for pure HSP versus complex HSP at initial presentation across all reported international cohorts?",
+      "rationale": "Clarifying the frequency of pure spastic diplegia at symptom onset will determine whether clinicians can exclude SPG93 in children presenting with uncomplicated spastic paraplegia.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do MRI white matter patterns and post-febrile encephalopathic episodes reliably differentiate SPG93 from common pure HSP etiologies (e.g., SPAST/SPG4) in young children before secondary neurological signs emerge?",
+      "rationale": "White matter abnormalities and post-febrile decompensations are characteristic of SPG93, which could enable early discrimination even when the motor phenotype is purely spastic.",
+      "promise": 0.9,
+      "est_cost": 40000.0
+    }
+  ]
+}

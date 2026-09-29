@@ -1,0 +1,109 @@
+{
+  "verdict": "supported",
+  "rationale": "Neuroimaging findings across published cohorts of GTF3C3-related neurodevelopmental disorder (OMIM #621201) consistently demonstrate predominant infratentorial involvement (cerebellar atrophy/hypoplasia) and frontal lobe hypoplasia as recurrent neuroradiological signatures. In contrast, severe cortical malformations such as a simplified gyral pattern are observed only in a smaller subset of patients (e.g., 1 of 4 individuals in the Abdel cohort, alongside isolated descriptions in the De Hayr cohort), indicating that cerebellar atrophy and frontal hypoplasia have higher diagnostic sensitivity than primary gyration defects.",
+  "evidence": [
+    {
+      "text": "Biallelic variants in GTF3C3 were identified in four patients from three unrelated families. Neuroimaging showed brain atrophy with predominant cerebellar involvement and frontal lobe hypoplasia, while moderate to severe simplified gyral pattern was restricted to only one patient (1/4).",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals assessed in cohort",
+          "value": 4
+        },
+        {
+          "metric": "families evaluated",
+          "value": 3
+        },
+        {
+          "metric": "patients with simplified gyral pattern",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of twelve affected individuals across seven unrelated families with biallelic GTF3C3 variants, prominent neuroradiological abnormalities included cerebellar atrophy, corpus callosum malformations/thinning, and frontal hypoplasia, with simplified gyral pattern noted in specific cases.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals identified",
+          "value": 12
+        },
+        {
+          "metric": "unrelated families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Review of Pol III transcription machinery disorders notes that all four individuals evaluated in the GTF3C3 cohort exhibited cerebellar atrophy on brain MRI.",
+      "stance": "supports",
+      "source": {
+        "title": "White matter disorders at the intersection of transcription, RNA processing and translation",
+        "authors": [
+          "A Chapleau",
+          "F Villa Tob\u00f3n",
+          "G Bernard"
+        ],
+        "year": 2026,
+        "journal": "Nature Reviews Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-026-01248-1",
+        "quote": "All four individuals exhibited cerebellar atrophy on brain MRI with varied white matter \u2026 in genes encoding subunits of the TFIIIC complex (GTF3C5and GTF3C3)"
+      },
+      "numbers": [
+        {
+          "metric": "individuals exhibiting cerebellar atrophy",
+          "value": 4
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence and longitudinal progression rate of corpus callosum hypoplasia versus cerebellar atrophy across all registered GTF3C3 patients?",
+      "rationale": "De Hayr et al. also highlight corpus callosum malformations alongside cerebellar atrophy as primary features, suggesting the primary hallmark may be a combined infratentorial and commissural phenotype.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does the severity of cerebellar atrophy and frontal hypoplasia correlate with specific GTF3C3 variant domains (e.g., DNA-binding vs. subunit interaction motifs)?",
+      "rationale": "Clarifying whether missplicing mutations like c.503C>T produce distinct or milder neuroradiological phenotypes relative to missense mutations in core catalytic/structural domains would improve prognostic accuracy.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

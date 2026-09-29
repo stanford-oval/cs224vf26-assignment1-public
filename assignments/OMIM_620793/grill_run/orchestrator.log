@@ -1,0 +1,21 @@
+[17:23:34] INIT: parse fields + PRIOR (parallel)
+[17:23:41]   required_fields=6 seed_directions=4 prior_hypotheses=4 terms=4
+[17:23:41] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:24:31] INIT: probing 4 prior candidate answer(s) — screen then deep test
+[17:24:45]   SCREEN: 4 passed / 4 screened ($0.03 total)
+[17:25:06]   DEEP: 1 → pool, 3 → bin ($0.05 total)
+[17:25:06]   INIT probe: 1 pooled, 3 binned (+1 directions seeded)
+[17:25:06]   INIT spent $0.11
+[17:25:10]   PLAN: $4.94 pot, $1.98 ceiling → d5 $1.98 (Directly resolves conflicts surrounding the core); d13 $1.98 (Clarifies pertinent negatives and contradictions)
+[17:25:10] ROUND 1: EXPLORE 2 dirs (d5=$1.98  d13=$1.98; spent $0.12/10.00)
+[17:25:34]   +7 hypotheses from 2 directions
+[17:26:02]   SCREEN: 7 passed / 7 screened ($0.08 total)
+[17:26:52]   DEEP: 4 → pool, 3 → bin ($0.14 total)
+[17:27:08]   PLAN: $4.86 pot, $1.94 ceiling → d25 $1.94 (Directly resolves key contradictions and gathers); d28 $1.94 (Clarifies conflicting evidence between Dai et al)
+[17:27:08] ROUND 2: EXPLORE 2 dirs (d25=$1.94  d28=$1.94; spent $0.29/10.00)
+[17:27:34]   +6 hypotheses from 2 directions
+[17:28:11]   SCREEN: 6 passed / 6 screened ($0.12 total)
+[17:28:59]   DEEP: 2 → pool, 4 → bin ($0.22 total)
+[17:29:08] FINALIZE: converged=False spent=$0.45  (init $0.03  plan $0.01  explore $0.06  screen $0.12  deep $0.22  measure $0.00)
+[17:29:52]   outline: 7 sections; report 19KB
+[17:30:04] DONE: coverage 2/6  quality 0.41 (7 pooled / 10 binned, untested 0)  answeredness=0.14  unsourced=0.00  answeredness/$=0.2740

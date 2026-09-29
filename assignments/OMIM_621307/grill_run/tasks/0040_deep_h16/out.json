@@ -1,0 +1,106 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Postnatal probands with pathogenic biallelic variants in TBC1D32 frequently present with structural pituitary defects ranging from borderline anterior pituitary hypoplasia and ectopic posterior pituitary to frank pituitary aplasia, consistent with TBC1D32 expression in human fetal Rathke's pouch and the developing hypothalamus. However, the hypothesis that true structural aplasia or hypoplasia has an absolute 100% penetrance in all postnatal survivors and that any reported normal anatomy is solely an artifact of low-resolution imaging is contradicted by gene review records indicating variable pituitary involvement, as well as a lack of empirical re-imaging verification across cohorts to substantiate the artifact assertion.",
+  "evidence": [
+    {
+      "text": "TBC1D32 is expressed in the developing human hypothalamus, Rathke's pouch, and hindbrain, with loss-of-function variants resulting in congenital hypopituitarism, absent anterior pituitary in two siblings, and anterior pituitary hypoplasia in an additional proband.",
+      "stance": "supports",
+      "source": {
+        "title": "Loss-of-Function Variants in TBC1D32 Underlie Syndromic ...",
+        "authors": [
+          "J Hietam\u00e4ki"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://helda.helsinki.fi/bitstreams/186c8055-f1a4-4159-b4c1-f740942f8343/download",
+        "quote": "A Finnish family of 2 siblings with panhypopituitarism, absent anterior pituitary, and mild craniofacial dysmorphism, and a Pakistani family with a proband with growth hormone deficiency, anterior pituitary hypoplasia, and developmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "Probands evaluated with structural pituitary anomalies",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Brain MRI in an affected proband demonstrated a borderline hypoplastic anterior pituitary and an ectopic posterior pituitary, but with a preserved normal pituitary stalk.",
+      "stance": "supports",
+      "source": {
+        "title": "615867 - TBC1 DOMAIN FAMILY, MEMBER 32; TBC1D32",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/615867",
+        "quote": "Brain MRI showed a borderline hypoplastic anterior pituitary and an ectopic posterior pituitary, but a normal stalk."
+      },
+      "numbers": [
+        {
+          "metric": "Affected probands with borderline hypoplasia and ectopic posterior pituitary",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Disorders and phenotypes associated with TBC1D32 alterations result in variable pituitary developmental defects rather than an invariant, uniform structural aplasia.",
+      "stance": "contradicts",
+      "source": {
+        "title": "TBC1D32 gene TBC1 Domain Family Member 32",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/TBC1D32",
+        "quote": "pituitary development that results in variable pituitary"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Detailed clinical characterization across cohorts reveals a wide phenotypic spectrum associated with TBC1D32, expanding into prenatal lethal anomalies and distinct ciliopathy manifestations that show variable degrees of central nervous system involvement.",
+      "stance": "neutral",
+      "source": {
+        "title": "Diagnosis of TBC1D32\u2010associated conditions",
+        "authors": [
+          "SC Harris"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://deepblue.lib.umich.edu/bitstreams/60f7cf1a-6d95-4eb1-aaeb-f881a582eb59/download",
+        "quote": "We describe seven unpublished probands with rare likely pathogenic variants or variants of uncertain significance that segregate with recessive disease in TBC1D32, including four fetal probands in three unrelated pedigrees and three pediatric probands in unrelated pedigrees. We also report clinical comparisons with seven previously published patients."
+      },
+      "numbers": [
+        {
+          "metric": "Unpublished probands described",
+          "value": 7
+        },
+        {
+          "metric": "Previously published comparison probands",
+          "value": 7
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Published sources indicate variable degrees of pituitary involvement ranging from borderline hypoplasia to complete absence, contrasting with the assertion of an invariant complete penetrance of severe structural hypoplasia/aplasia.",
+    "No empirical evidence is available proving that documented normal pituitary findings in TBC1D32-related ciliopathies are exclusively technical artifacts caused by low-resolution imaging."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "Does standardized thin-slice 3T sellar MRI identify subtle structural pituitary defects in all TBC1D32 probands previously reported to have normal pituitary anatomy?",
+      "rationale": "Directly testing probands with dedicated 3T pituitary MRI protocols would empirically verify whether normal pituitary morphology reflects resolution limits or genuine incomplete structural penetrance.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

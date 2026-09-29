@@ -1,0 +1,101 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Direct evidence from familial investigations confirms marked intrafamilial phenotypic pleiotropy for heterozygous truncating and splice-site loss-of-function (LoF) variants in MAPK8IP3, spanning from mild isolated learning difficulties to severe intellectual disability and autism without obligate brain malformations (as confirmed by MRI-negative individuals harboring inherited LoF alleles). However, evidence regarding 'incomplete penetrance' remains contested: while recent reports highlight inherited alleles from mildly affected or non-syndromic carriers (and oligogenic modifiers influencing expression), foundational cohorts and clinical presentations describe MAPK8IP3-related neurodevelopmental disorders as highly penetrant, early-onset conditions, leaving it unresolved whether true non-penetrance occurs or whether it reflects uncharacterized subclinical expressivity.",
+  "evidence": [
+    {
+      "text": "Characterization of a three-generation family carrying an inherited canonical splice-site variant (c.2630-2_2630-1del; p.Gly877Valfs*36) demonstrated marked intrafamilial phenotypic variability and pleiotropy among carriers with an identical genotype, spanning from mild specific learning difficulties to global developmental delay with severe intellectual disability and autism.",
+      "stance": "supports",
+      "source": {
+        "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders",
+        "authors": [
+          "S Yi",
+          "Q Yang",
+          "X Song",
+          "L Huang",
+          "S Yi",
+          "Z Qin"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+        "quote": "Notably, despite carrying an identical genotype, the three affected individuals exhibited marked interindividual variability in clinical severity, ranging from mild specific learning difficulties to global developmental delay with severe intellectual disability and autism."
+      },
+      "numbers": [
+        {
+          "metric": "Affected carriers in three-generation family",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "An inherited truncating variant in MAPK8IP3 was identified in an individual with drug-resistant, MRI-negative focal epilepsy and additional neurocognitive issues, demonstrating that truncating loss-of-function variants can occur without obligate structural brain anomalies and may involve oligogenic contributions or reduced penetrance.",
+      "stance": "supports",
+      "source": {
+        "title": "ADAM23 haploinsufficiency as a putative oligogenic contributor in an individual with focal epilepsy",
+        "authors": [
+          "M Krenn",
+          "KH Nenning",
+          "S Aull"
+        ],
+        "year": 2025,
+        "journal": "Seizure",
+        "doi": "10.1016/j.seizure.2025.08.027",
+        "pmid": "40865352",
+        "pmc": null,
+        "url": "https://www.seizure-journal.com/article/S1059-1311(25)00218-3/fulltext",
+        "quote": "Notably, the same individual carried inherited, truncating variants in two other brain-expressed, loss-of-function-intolerant genes: TNRC6A and MAPK8IP3."
+      },
+      "numbers": [
+        {
+          "metric": "Exome cohort size screened for truncating variants",
+          "value": 389
+        }
+      ]
+    },
+    {
+      "text": "Earlier cohort descriptions of MAPK8IP3 neurodevelopmental disorders emphasize that pathogenic heterozygous variants typically cause highly penetrant, early-onset neurodevelopmental phenotypes rather than incomplete penetrance.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Plenary Sessions",
+        "authors": [
+          "JG Gleeson"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/6678fb930503fcddaed85fcea256dc98/1?pq-origsite=gscholar&cbl=2044126",
+        "quote": "plethora of novel mutations that cause highly penetrant, early-onset, ... heterozygous de novo variants in MAPK8IP3 in thirteen unrelated"
+      },
+      "numbers": [
+        {
+          "metric": "Unrelated individuals with heterozygous de novo MAPK8IP3 variants",
+          "value": 13
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Foundational cohorts describe heterozygous pathogenic MAPK8IP3 variants as causing early-onset, highly penetrant neurodevelopmental disorders, whereas newer familial case series propose reduced penetrance, variable expressivity, or oligogenic inheritance for truncating/splice-site alleles.",
+    "It remains ambiguous whether seemingly unaffected or mildly presenting carriers represent true non-penetrance or mild subclinical expressivity across specific cognitive domains."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the true population penetrance of heterozygous truncating MAPK8IP3 alleles when evaluated across large-scale unselected biobanks (e.g., UK Biobank, All of Us)?",
+      "rationale": "Differentiating complete non-penetrance from mild, subclinical expressivity requires systematically phenotyping unselected LoF carriers outside of clinical epilepsy and neurodevelopmental referral cohorts.",
+      "promise": 0.85,
+      "est_cost": 50000
+    },
+    {
+      "question_text": "Do downstream nonsense-mediated decay efficiency and exon-skipping differences account for intrafamilial expressivity differences in MAPK8IP3 splice-site variants?",
+      "rationale": "Quantifying tissue- or individual-level transcript degradation could reveal whether varying residual functional JIP3 levels drive the spectrum between isolated learning difficulties and severe developmental delay.",
+      "promise": 0.78,
+      "est_cost": 35000
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Calame et al. (2023) explicitly identified thinning of the corpus callosum and cerebellar atrophy (alongside cerebral atrophy and ventricular enlargement) as structural central nervous system anomalies visualized on brain MRI in individuals with DHX9 pathogenic variants (OMIM #620988). However, the publication explicitly notes that brain MRI was abnormal in only five individuals studied within the 20-individual cohort. Because only 5 of 20 individuals (25% of the total cohort) exhibited any abnormal neuroimaging findings, and these 5 individuals manifested a heterogeneous combination of features (thin corpus callosum, ventricular enlargement, cerebral atrophy, and cerebellar atrophy), the claim that corpus callosum thinning and cerebellar atrophy occur in at least one-third of all individuals undergoing brain MRI assessment is contradicted by the low overall prevalence of abnormal scans across the cohort, unless the denominator of assessed individuals was 15 or fewer, which cannot be confirmed from the primary report text alone.",
+  "evidence": [
+    {
+      "text": "In the seminal cohort of 20 individuals with de novo DHX9 variants, brain magnetic resonance imaging was reported as abnormal in five individuals studied, with findings including ventricular enlargement, thinning of the corpus callosum, and cerebral and cerebellar atrophy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "Brain magnetic resonance imaging (MRI) was abnormal in five individuals studied. Imaging \u2026 the ventricles, thinning of the corpus callosum, and cerebral and cerebellar atrophy (Figure 2)"
+      },
+      "numbers": [
+        {
+          "metric": "cohort_total_individuals",
+          "value": 20
+        },
+        {
+          "metric": "individuals_with_abnormal_brain_mri",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Representative brain MRI annotations from Calame et al. (2023) directly substantiate the qualitative presence of corpus callosum thinning and cerebellar atrophy as focal neuroimaging hallmarks of the condition.",
+      "stance": "supports",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH ...",
+        "authors": [
+          "DG Calame"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10432148",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10432148/",
+        "quote": "The yellow arrow indicates a thin corpus callosum. Red arrows indicate cerebellar atrophy. Yellow arrowheads show enlargement of the ventricles"
+      },
+      "numbers": [
+        {
+          "metric": "cohort_total_individuals",
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While thinning of the corpus callosum and cerebellar atrophy are highlighted as recurrent structural hallmarks in Figure 2, Calame et al. report that abnormal brain MRIs were identified in only 5 individuals total across the cohort of 20 (25% of the entire cohort), conflicting with the hypothesis that these specific findings occur in at least one-third (>=33.3%) of assessed patients unless fewer than 15 total cohort members were imaged.",
+    "The 5 abnormal MRI scans encompass multiple distinct anomalies (ventriculomegaly, thinning of the corpus callosum, cerebral atrophy, and cerebellar atrophy), indicating that not all 5 patients shared both corpus callosum thinning and cerebellar atrophy simultaneously."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What is the exact patient-level denominator of individuals who underwent brain MRI in the Calame et al. cohort and subsequent DHX9 cohorts, and what is the exact frequency of corpus callosum thinning versus cerebellar atrophy?",
+      "rationale": "Clarifying the imaging denominator is essential to determine whether structural brain abnormalities constitute a reliable diagnostic discriminator or an inconsistent finding seen only in a minority of severely affected individuals.",
+      "promise": 0.85,
+      "est_cost": 5000.0
+    },
+    {
+      "question_text": "Do neuroimaging abnormalities in DHX9-related neurodevelopmental disorder correlate strictly with nuclear localization signal (NLS) missense variants versus loss-of-function variants?",
+      "rationale": "Calame et al. noted genotype-phenotype correlations where LoF variants cause mild phenotypes and NLS missense variants cause severe neurodevelopmental phenotypes; establishing whether abnormal MRI findings are restricted to NLS variants would assist clinical triage.",
+      "promise": 0.9,
+      "est_cost": 12000.0
+    }
+  ]
+}

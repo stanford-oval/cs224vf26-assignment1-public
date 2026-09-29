@@ -1,0 +1,75 @@
+{
+  "verdict": "supported",
+  "rationale": "Direct examination of the foundational paper by Chelban et al. (2017, PMID: 28575651) confirms that the initial cohort comprised exactly seven affected individuals from three families, rather than 14 individuals from 8 families. The subsequent 2020 study by Chelban et al. (PMID: 31509304) identified 11 new cases from eight families, clarifying any potential conflation of cohort sizes across publications.",
+  "evidence": [
+    {
+      "text": "The original study by Chelban et al. explicitly describes 7 affected individuals from 3 families of different ethnic backgrounds presenting with early-onset spastic ataxia and hypomyelination due to bi-allelic NKX6-2 mutations.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutations in NKX6-2 Cause Progressive Spastic Ataxia and Hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2017.05.009",
+        "pmid": "28575651",
+        "pmc": "PMC5473715",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28575651/",
+        "quote": "We report seven individuals with an early-onset spastic-ataxia phenotype. The individuals come from three families of different ethnic backgrounds."
+      },
+      "numbers": [
+        {
+          "metric": "affected_individuals",
+          "value": 7
+        },
+        {
+          "metric": "families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Chelban et al. (2020) later reported an expanded multicentre cohort consisting of 11 new affected individuals from 8 unrelated families, confirming that the 8-family figure belongs to the 2020 follow-up series and not the foundational 2017 paper.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": "31509304",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "Eleven new cases from eight families of different ethnic backgrounds carrying compound heterozygous and homozygous pathogenic variants in NKX6-2 were identified..."
+      },
+      "numbers": [
+        {
+          "metric": "new_affected_cases",
+          "value": 11
+        },
+        {
+          "metric": "new_families",
+          "value": 8
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.99,
+  "new_directions": [
+    {
+      "question_text": "What are the exact phenotype frequencies (e.g., nystagmus, spasticity, hypomyelination) across the pooled worldwide cohort of all published NKX6-2 patients to date?",
+      "rationale": "Compiling an updated meta-analysis of all reported NKX6-2 patients from 2017 through current literature will establish standardized HPO term frequencies to enhance clinical differential diagnosis against Pelizaeus-Merzbacher-like disease and other AR spastic ataxias.",
+      "promise": 0.85,
+      "est_cost": 5000
+    }
+  ]
+}

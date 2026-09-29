@@ -1,0 +1,91 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature provided in the SOURCES block does not contain quantitative evidence or cohort frequencies demonstrating that epileptic seizures occur in less than 30% of individuals with DHX9-related neurodevelopmental disorders. Furthermore, recent clinical literature (Specchio et al., 2025) characterizes DHX9 as a gene linked to developmental and epileptic encephalopathies (DEEs) and neurodevelopmental and epileptic disorders, directly contradicting the premise that DHX9 can be reliably distinguished from highly epileptogenic DEAH/DEAD-box paralogs by a low seizure incidence.",
+  "evidence": [
+    {
+      "text": "Calame et al. (2023) identified 20 individuals with monoallelic de novo DHX9 variants spanning phenotypes from neurodevelopmental disorders to Charcot-Marie-Tooth disease type 2 (CMT2), demonstrating that NDD phenotypes vary by variant class (LoF versus NLS missense), but the provided extract does not substantiate the specific claim of a seizure frequency below 30%.",
+      "stance": "neutral",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10432148",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "Using exome sequencing and family-based rare-variant analyses, we identified 20 individuals with de novo, ultra-rare, heterozygous missense or loss-of-function (LoF) DHX9 variant alleles. Phenotypes ranged from NDDs to the distal symmetric polyneuropathy axonal Charcot-Marie-Tooth disease (CMT2)."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size evaluated by Calame et al.",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "Specchio et al. (2025) group DHX9 alongside PPFIA3, MYCBP2, TMEM63B, and RELN as genes linked to developmental and epileptic encephalopathies (DEEs) and neurodevelopmental and epileptic disorders, contradicting the assertion that DHX9 is distinguished by low epileptogenicity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "The epilepsy\u2013autism phenotype associated with developmental and epileptic encephalopathies: New mechanism\u2010based therapeutic options",
+        "authors": [
+          "N Specchio",
+          "V Di Micco",
+          "E Aronica",
+          "S Auvin"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1111/epi.18209",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/epi.18209",
+        "quote": "Several genes, including the newly reported PPFIA3, MYCBP2, DHX9, TMEM63B, and RELN, are linked to various neurodevelopmental and epileptic disorders, intellectual disabilities, and autistic features."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Chen et al. (2025) demonstrate that DHX9 is directly involved in epilepsy pathogenesis and neuronal injury through STAT1 pathway activation in acute and chronic seizure models, indicating an active role in epileptogenesis.",
+      "stance": "contradicts",
+      "source": {
+        "title": "DHX9 aggravates epilepsy by promoting STAT1 ...",
+        "authors": [
+          "H Chen"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1016/j.brainresbull.2025.111650",
+        "pmid": "41276231",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0361923025004629",
+        "quote": "This study reveals the important role of DHX9 in epilepsy pathogenesis and elucidates the molecular mechanism by which DHX9 directly interacts with STAT1 and promotes its phosphorylation, thereby activating downstream oxidative stress and apoptotic signaling pathways, ultimately aggravating epileptic neuronal injury."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes DHX9 has a low incidence of seizures (<30%) that separates it from epileptic helicase disorders, whereas recent literature classifies DHX9 among developmental and epileptic encephalopathy (DEE) genes.",
+    "The provided literature does not report a concrete numerator and denominator verifying that fewer than 30% of DHX9 patients suffer from seizures."
+  ],
+  "confidence": 0.2,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence, semiology, and EEG pattern of seizures among individuals with DHX9 nuclear localization signal (NLS) missense variants versus loss-of-function variants?",
+      "rationale": "Calame et al. showed distinct genotype-phenotype correlations between LoF and NLS missense alleles; determining if DEE phenotypes cluster exclusively with specific variant sub-types would resolve the discrepancy between mild NDD and DEE classifications.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "How do quantitative seizure rates in DHX9 cohorts compare directly against cohorts with DDX3X, DHX30, and DDX6 pathogenic variants under standardized HPO deep phenotyping?",
+      "rationale": "A multi-center cross-helicase comparative study is required to validate whether seizure frequency or type has true discriminatory diagnostic utility across the DEAD/DEAH-box family.",
+      "promise": 0.75,
+      "est_cost": 50000.0
+    }
+  ]
+}

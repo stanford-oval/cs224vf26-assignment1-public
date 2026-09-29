@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SPAX11\" \"TUBA4A\" \"spastic ataxia\"",
+    "TUBA4A spastic ataxia 11 dysarthria nystagmus neuropathy cohort OMIM 621226"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "PMC13014175",
+      "title": "A mouse model of autosomal dominant spastic ataxia and myopathy caused by a mutation in Tuba4a",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13014175/",
+      "abstract_chars": 1783
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK54582/",
+      "title": "Spinocerebellar ataxia type 28",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK54582/",
+      "abstract_chars": 1735
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/sites/books/NBK54582/",
+      "title": "AFG3L2-Related Neurologic Disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK54582/",
+      "abstract_chars": 5612
+    },
+    {
+      "id": "https://omim.org/entry/621226",
+      "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621226",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.64898/2026.03.06.710113v1",
+      "title": "A mouse model of autosomal dominant spastic ataxia and ...",
+      "pmid": null,
+      "doi": "10.64898/2026.03.06.710113v1",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.03.06.710113v1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/spastic_ataxia_11_autosomal_dominant",
+      "title": "Spastic Ataxia 11, Autosomal Dominant (SPAX11)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/spastic_ataxia_11_autosomal_dominant",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://thegencc.org/submissions/SGC-177878.1",
+      "title": "Autosomal dominant by PanelApp Australia submission ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://thegencc.org/submissions/SGC-177878.1",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1007/s00415-023-11816-w",
+      "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+      "pmid": null,
+      "doi": "10.1007/s00415-023-11816-w",
+      "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+      "abstract_chars": 716
+    },
+    {
+      "id": "27809427",
+      "title": "TUBB4A-Related Neurologic Disorders",
+      "pmid": "27809427",
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/sites/books/NBK395611/",
+      "abstract_chars": 3513
+    },
+    {
+      "id": "https://discovery.ucl.ac.uk/id/eprint/10196118/",
+      "title": "Exploring next generation sequencing in the diagnosis of inherited ataxia and other neurological diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10196118/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6063,
+  "output_tokens": 3765,
+  "usd": 0.01433,
+  "seconds": 20.6,
+  "ok": true
+}

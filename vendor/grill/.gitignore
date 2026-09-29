@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# uv / venv
+.venv/
+# pandas/numpy/scipy/matplotlib venv for the agent's data analysis (regenerable
+# via `make analysis-venv`)
+.analysis-venv/
+
+# Per-investigation run state — large, personal, regenerable
+artifacts/
+
+# Loose run outputs / scratch in the repo root (regenerable; source of truth is
+# the SQLite DB under artifacts/)
+*.pid
+.*.pid
+/*.answer.md
+/*.run.log
+/mock_portal_*.html
+
+# SQLite files (default location is artifacts/ but cover stray copies)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Paperclip scratch
+.gxl/
+
+# Derived report artifacts (the source-of-truth is the SQLite DB)
+*.docx
+*.pdf
+
+# Secrets — local credentials only.
+.env
+.env.*
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# never commit paperclip credentials; install them at ~/.paperclip/credentials.json
+paperclip_credentials.json
+*credentials*.json
+
+# investigation artifact zips (big, generated)
+*_db.zip
+*_trajectory.zip
+report_*.docx
+report_*.md
+
+__archive/
+logs/
+.codex

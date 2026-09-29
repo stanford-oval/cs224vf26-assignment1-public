@@ -1,0 +1,135 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms that individuals with biallelic GTF3C3 variants exhibit cerebellar anomalies/atrophy, corpus callosum dysgenesis/thinning, and, in a subset of reported patients, frontal lobe hypoplasia. However, the hypothesis that this neuroimaging triad cleanly discriminates GTF3C3 from other TFIIIC complex subunit disorders (specifically GTF3C5) by contrasting structural hypoplasia against isolated leukoencephalopathy is conflicted. Biallelic GTF3C5 variants also cause prominent cerebellar malformations/atrophy, and GTF3C3 itself is recognized alongside GTF3C5 as causing white matter disorder phenotypes with corpus callosum thinning. Furthermore, frontal lobe hypoplasia has only been documented in small cohorts (e.g., Abdel et al.), whereas the largest cohort (De Hayr et al., n=12) reported cerebellar and callosal malformations without defining frontal hypoplasia as an obligate composite feature.",
+  "evidence": [
+    {
+      "text": "In a cohort of 12 affected individuals from 7 unrelated families with biallelic GTF3C3 variants, neurodevelopmental features included intellectual disability, motor impairments, seizures, and recurrent cerebellar and corpus callosum malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "Twelve affected individuals from 7 unrelated families were identified with homozygous or compound heterozygous missense variants in GTF3C3... The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with GTF3C3 variants",
+          "value": 12
+        },
+        {
+          "metric": "unrelated families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Neuroimaging in four individuals with biallelic GTF3C3 variants demonstrated brain atrophy with predominant cerebellar involvement, alongside hypoplasia of the frontal lobes and, in one patient, a simplified gyral pattern.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern. Seizures were observed in half of the patients."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 4
+        },
+        {
+          "metric": "unrelated families",
+          "value": 3
+        },
+        {
+          "metric": "proportion of patients with seizures",
+          "value": "2/4"
+        }
+      ]
+    },
+    {
+      "text": "Patients with biallelic variants in GTF3C5 manifest multisystem developmental disorder phenotypes including cerebellar malformations and cerebellar cortical hyperintensity, demonstrating significant neuroimaging phenotypic overlap with GTF3C3.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in GTF3C5, a regulator of RNA polymerase III-mediated transcription, cause a multisystem developmental disorder",
+        "authors": [
+          "A Iwata"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1007/s00439-024-02656-3",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02656-3",
+        "quote": "The overlapping features include growth retardation, developmental delay, intellectual disability, dental anomalies, cerebellar malformations, delayed bone age, skeletal anomalies, and facial dysmorphism."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals with GTF3C5 variants",
+          "value": 4
+        },
+        {
+          "metric": "unrelated families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Defects in TFIIIC complex subunit genes, including both GTF3C5 and GTF3C3, are catalogued within hereditary white matter disorders displaying shared neuroradiologic signs such as thinning of the corpus callosum and cerebellar atrophy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "White matter disorders at the intersection of transcription, RNA processing and translation",
+        "authors": [
+          "A Chapleau",
+          "F Villa Tob\u00f3n",
+          "G Bernard"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-026-01248-1",
+        "quote": "in genes encoding subunits of the TFIIIC complex (GTF3C5and GTF3C3), a key initiator of Pol III \u2026 thinning of the corpus callosum (dashed green arrow, Ca) and cerebellar atrophy (solid"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "GTF3C5-related disorder is characterized by cerebellar malformations and atrophy rather than purely isolated leukoencephalopathy, creating substantial radiologic overlap with GTF3C3.",
+    "Both GTF3C3 and GTF3C5 are implicated in white matter disorders presenting with thinning of the corpus callosum and cerebellar involvement, challenging the assertion that leukoencephalopathy vs structural hypoplasia is a mutually exclusive discriminator.",
+    "Frontal lobe hypoplasia has been documented in the cohort of 4 patients reported by Abdel et al., but was not established as a constant discriminating sign across the larger cohort of 12 patients reported by De Hayr et al."
+  ],
+  "confidence": 0.42,
+  "new_directions": [
+    {
+      "question_text": "Does volumetric morphometric MRI analysis reliably differentiate frontal lobe volume loss between GTF3C3 and GTF3C5 deficiency cohorts?",
+      "rationale": "Determining whether frontal hypoplasia is quantitatively specific to GTF3C3 compared to GTF3C5 requires blinded, standardized neuroimaging re-evaluation of all reported patients.",
+      "promise": 0.75,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the true prevalence and longitudinal progression of white matter signal abnormalities versus cerebellar atrophy in GTF3C3-deficient individuals over childhood?",
+      "rationale": "Elucidating the age-dependent progression of cerebellar volume loss and callosal thinning will reveal whether leukoencephalopathy precedes or co-occurs with structural atrophy in TFIIIC-related diseases.",
+      "promise": 0.7,
+      "est_cost": 35000.0
+    }
+  ]
+}

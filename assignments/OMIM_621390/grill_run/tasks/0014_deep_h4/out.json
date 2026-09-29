@@ -1,0 +1,77 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits genotype-phenotype correlations contrasting dominant de novo missense variants with biallelic loss-of-function variants and contrasting Kelch or BTB domain missense variants with truncation variants. The empirical literature establishing KLHL20-related neurodevelopmental disorder (OMIM #621390; Sleyp et al., 2022) refutes these premises: the disorder is inherited in an autosomal dominant manner caused strictly by de novo missense variants, all of which cluster exclusively in the Kelch-type beta-propeller domain (11/14 possessing the recurrent p.Gly357Arg variant, and 3 possessing other Kelch-domain variants, with 0 variants in the BTB domain). No biallelic loss-of-function or pathogenic truncation variants have been established in human disease cohorts.",
+  "evidence": [
+    {
+      "text": "All 14 identified individuals with KLHL20-related neurodevelopmental disorder had de novo missense variants clustering exclusively in the Kelch-type beta-propeller domain (11 with recurrent p.Gly357Arg, and 3 other distinct missense variants), presenting with mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle facial dysmorphisms. No biallelic loss-of-function, truncation, or BTB domain variants were described.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a developmental disorder with intellectual disability, epilepsy, and autism spectrum disorder",
+        "authors": [
+          "Y Sleyp",
+          "I Valenzuela",
+          "A Accogli",
+          "K Ballon"
+        ],
+        "year": 2022,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.09.004",
+        "pmid": "36214804",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36214804/",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features. We observed a recurrent de novo missense variant in 11 patients (NM_014458.4:c.1069G>A p.[Gly357Arg]). The recurrent missense and the 3 other missense variants all clustered in the Kelch-type \u03b2-propeller domain of the KLHL20 protein, which shapes the substrate binding surface."
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size with de novo missense variants",
+          "value": 14
+        },
+        {
+          "metric": "Patients harboring the recurrent p.Gly357Arg variant",
+          "value": 11
+        },
+        {
+          "metric": "Number of distinct Kelch-domain missense variants identified",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "ClinGen curation classifies KLHL20 under autosomal dominant inheritance based on de novo missense variants, with no established biallelic or truncation-mediated human phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Autosomal dominant by ClinGen submission information facts",
+        "authors": [
+          "ClinGen"
+        ],
+        "year": 2022,
+        "journal": "GenCC",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://thegencc.org/submissions/SGC-107240.1",
+        "quote": "KLHL20 and autosomal dominant neurodevelopmental disorder. This ... De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes biallelic loss-of-function and truncation mechanisms exist for KLHL20, but only monoallelic dominant de novo missense variants in the Kelch domain have been documented in affected individuals.",
+    "The hypothesis posits missense variants in the BTB domain, whereas all 14 delineated patients harbor missense variants confined strictly to the Kelch-type beta-propeller domain."
+  ],
+  "confidence": 0.08,
+  "new_directions": [
+    {
+      "question_text": "Do KLHL20 Kelch-domain missense variants act through dominant-negative sequestration of CUL3-RING substrates or neomorphic gain-of-function degradation?",
+      "rationale": "Clarifying whether the recurrent p.Gly357Arg variant prevents degradation of physiological substrates (such as DAPK or Coronin 7) or stabilizes aberrant complexes will define the cellular mechanism underlying the neurodevelopmental phenotype.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What specific facial and behavioral features reliably differentiate KLHL20 neurodevelopmental disorder from other CUL3-adaptor encephalopathies (e.g., KBTBD8, KLHL7)?",
+      "rationale": "Systematic deep phenotyping using standardized HPO terms across larger international cohorts is required to pinpoint distinguishing clinical discriminators beyond non-specific ASD, hyperactivity, and febrile seizures.",
+      "promise": 0.75,
+      "est_cost": 15000
+    }
+  ]
+}

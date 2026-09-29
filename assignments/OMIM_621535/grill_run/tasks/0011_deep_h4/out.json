@@ -1,0 +1,86 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature supports that pathogenic variants in RAB3A causing spinocerebellar ataxia 52 (SCA52) are dominantly inherited or de novo heterozygous missense mutations located in functionally critical domains, such as the switch II region (p.Arg83Trp) and GTP-binding domain (p.Ile27Thr). Multiple cohorts confirm the extreme rarity of these variants (e.g., screening 320 SCA patients identified variants in only two families), underscoring that genotype-phenotype correlations remain preliminary with no sex-specific differences established.",
+  "evidence": [
+    {
+      "text": "The heterozygous missense variant c.247C>T p.(Arg83Trp) in RAB3A was identified in two families with autosomal-dominant cerebellar ataxia. Functionally, R83W is located within the conserved switch II region critical for effector interaction (RIM1 and Rabphilin-3A). Screening of an additional 320 patients with spinocerebellar ataxia for RAB3A variants demonstrated that such pathogenic mutations are rare.",
+      "stance": "supports",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "In this study, we identified the c.247C > T p.(Arg83Trp) variant in RAB3A, encoding a small GTPase involved in membrane-associated regulated exocytosis, in two families with cerebellar ataxia... Functionally, the R83W mutation lies within the conserved switch II region of Rab3A, a domain critical for effector interaction."
+      },
+      "numbers": [
+        {
+          "metric": "families identified with R83W",
+          "value": 2
+        },
+        {
+          "metric": "SCA patients screened for RAB3A variants",
+          "value": 320
+        }
+      ]
+    },
+    {
+      "text": "SCA52 is categorized as an autosomal dominant neurodegenerative disease linked to heterozygous variants in the RAB3A gene.",
+      "stance": "supports",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-\u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Spinocerebellar ataxia-52 (SCA52) is designated as an autosomal dominant neurologic disorder caused by heterozygous mutation in RAB3A.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "A number sign (#) is used with this entry because of evidence that spinocerebellar ataxia-52 (SCA52) is caused by heterozygous mutation in the RAB3A gene"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the complete clinical spectrum across international cohorts of undiagnosed late-onset ataxia screened for RAB3A variants?",
+      "rationale": "Because current literature describes only a handful of families and probands, international multi-center screening of unclassified autosomal dominant and sporadic ataxia cohorts is necessary to clarify the penetrance, non-ataxia neurological signs, and full phenotypic variability.",
+      "promise": 0.85,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Do missense variants outside the switch II and GTP-binding pockets cause loss-of-function vs dominant-negative effects in parallel-fiber synaptic transmission?",
+      "rationale": "Functional assays in Miyamoto et al. demonstrated impaired RIM1/Rabphilin-3A effector binding for switch II mutant R83W; determining whether other missense or loss-of-function variants produce identical presynaptic parallel fiber-Purkinje cell pathology will refine variant classification criteria.",
+      "promise": 0.8,
+      "est_cost": 60000
+    }
+  ]
+}

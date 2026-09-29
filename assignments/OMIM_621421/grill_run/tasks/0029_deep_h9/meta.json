@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Ramond-Elliott\" \"TRA2B\" \"heart\" OR \"cardiac\"",
+    "Ramond-Elliott neurodevelopmental syndrome TRA2B congenital heart defect"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.genecards.org/card/TRA2B",
+      "title": "TRA2B gene Transformer 2 Beta Homolog",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/TRA2B",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/602719",
+      "title": "602719 - TRANSFORMER 2 BETA HOMOLOG; TRA2B",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/602719",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.uniprot.org/uniprotkb/P62995/entry",
+      "title": "TRA2B - Transformer-2 protein homolog beta",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.uniprot.org/uniprotkb/P62995/entry",
+      "abstract_chars": 1129
+    },
+    {
+      "id": "19439532",
+      "title": "TRA2B",
+      "pmid": "19439532",
+      "doi": "10.1152/ajpcell.00009.2009",
+      "url": "https://affinage.wi.mit.edu/gene/TRA2B",
+      "abstract_chars": 1891
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/activity/?panel=202&entity=TRA2B",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/activity/?panel=202&entity=TRA2B",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621421",
+      "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621421",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "title": "Clustered variants in the 5\u2032 coding region of TRA2B ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+      "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+      "abstract_chars": 1765
+    },
+    {
+      "id": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+      "title": "Journal Pre-proof",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621421",
+      "title": "Clinical Synopsis - #621421 - RAMOND-ELLIOTT ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621421",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 5245,
+  "output_tokens": 3838,
+  "usd": 0.01414,
+  "seconds": 22.4,
+  "ok": true
+}

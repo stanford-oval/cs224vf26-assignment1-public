@@ -1,0 +1,125 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits that seizures affect over 40% of individuals with FBXO11 variants and occur independently of consistent structural brain MRI malformations. While recent cohort data from Goel et al. (2026) report seizures in 43% of affected individuals and confirm that brain imaging anomalies are nonspecific and do not consistently correlate with epilepsy, other major cohorts show substantially lower seizure frequencies. Specifically, Gregor et al. (2018) documented seizures in only 5 of 20 patients (25%), and Pan et al. (2023/2024) observed seizures in only 3 of 12 patients (25%), noting that severe seizures were absent in most individuals. Across these combined series (17/53, ~32%), the overall frequency does not reliably exceed 40%, creating a direct conflict regarding whether seizures exceed the 40% threshold as a core complication across cohorts.",
+  "evidence": [
+    {
+      "text": "In a cohort of 21 patients with FBXO11 variants, seizures were present in 43% of cases, and brain MRI findings were nonspecific without consistent correlation to epilepsy.",
+      "stance": "supports",
+      "source": {
+        "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+        "authors": [
+          "H Goel",
+          "G Garg",
+          "TS Barakat",
+          "G Barcia",
+          "A Bourgois"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+        "quote": "Microcephaly occurred in 24%, while seizures were present in 43%. Brain imaging abnormalities were nonspecific and did not consistently correlate with epilepsy."
+      },
+      "numbers": [
+        {
+          "metric": "seizure_frequency_percentage",
+          "value": 43
+        },
+        {
+          "metric": "cohort_size",
+          "value": 21
+        }
+      ]
+    },
+    {
+      "text": "In an initial international cohort of 20 individuals harboring de novo FBXO11 variants, seizures were documented in only 5 of 20 patients (25%), well below the proposed 40% threshold.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder",
+        "authors": [
+          "A Gregor",
+          "LG Sadleir",
+          "R Asadollahi"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+        "quote": "behavioral problems (17/20), seizures (5/20), cleft lip or palate or bifid uvula (3/20), and minor skeletal anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "seizure_numerator",
+          "value": 5
+        },
+        {
+          "metric": "seizure_denominator",
+          "value": 20
+        },
+        {
+          "metric": "seizure_percentage",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "text": "A study of 12 Chinese individuals with FBXO11 variants identified seizures in only 3 of 12 patients (25%), and noted that severe seizures were not observed in most affected individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "FBXO11 variants are associated with intellectual disability and variable clinical manifestation in Chinese affected individuals",
+        "authors": [
+          "X Pan",
+          "L Liu",
+          "X Zhang",
+          "X Tang",
+          "G Qian",
+          "H Qiu"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s10038-024-01255-4",
+        "quote": "associated with a range of alternate features including increased body weight (7/12), short stature (6/12), seizures (3/12), reduced visual acuity (4/12), hypotonia (1/12)"
+      },
+      "numbers": [
+        {
+          "metric": "seizure_numerator",
+          "value": 3
+        },
+        {
+          "metric": "seizure_denominator",
+          "value": 12
+        },
+        {
+          "metric": "seizure_percentage",
+          "value": 25
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Goel et al. (2026) report a 43% seizure incidence in their 21-patient cohort, whereas Gregor et al. (2018) observed seizures in only 25% (5/20) and Pan et al. (2024) observed seizures in only 25% (3/12).",
+    "Whether seizures constitute a core complication present in >40% of FBXO11 cases or an occasional/variable finding (~25%) remains disputed across published cohorts."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Does seizure frequency in FBXO11-related disorder correlate with patient age, such that older cohorts demonstrate higher cumulative lifetime epilepsy prevalence exceeding 40%?",
+      "rationale": "Differences in seizure prevalence between cohorts (25% vs 43%) may be driven by age-dependent onset of epilepsy or ascertainment bias in genetics clinics versus neurology services.",
+      "promise": 0.85,
+      "est_cost": 30000
+    },
+    {
+      "question_text": "Are specific FBXO11 variant classes (e.g., missense variants destabilizing CASH/UBR domains versus complete haploinsufficiency/loss-of-function deletions) preferentially associated with intrinsic epileptogenesis?",
+      "rationale": "Different mutational mechanisms may differentially impact neuronal excitability, explaining divergent seizure rates between cohorts with differing proportions of missense versus truncating alleles.",
+      "promise": 0.78,
+      "est_cost": 45000
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "verdict": "supported",
+  "rationale": "Published muscle imaging and clinical characterizations in LGMDR29 (SNUPN-related muscular dystrophy) confirm that axial (paravertebral) and selective distal (peroneal, medial gastrocnemius) degeneration is not restricted to late- or adult-onset disease. In childhood-onset cohorts presenting clinically with proximal limb-girdle weakness, MRI demonstrated predominant fatty infiltration and impairment of the paravertebral, vasti, sartorius, gracilis, peroneal, and medial gastrocnemius muscles. Adult-onset presentations also demonstrate paravertebral, vasti, gastrocnemius, sartorius, and gracilis involvement with overt proximo-distal weakness, demonstrating a conserved topographic selectivity regardless of onset age.",
+  "evidence": [
+    {
+      "text": "In five patients from two unrelated families presenting with proximal weakness starting in childhood, muscle MRI revealed predominant impairment of paravertebral, vasti, sartorius, gracilis, peroneal, and medial gastrocnemius muscles.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "P Iruzubieta",
+          "A Damborenea",
+          "M Ioghen",
+          "S Bajew"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "38366623",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+        "quote": "SNUPN patients show a similar phenotype characterized by proximal weakness starting in childhood, restrictive respiratory dysfunction and prominent contractures... MRI showed predominant impairment of paravertebral, vasti, sartorius, gracilis, peroneal and medial gastrocnemius muscles."
+      },
+      "numbers": [
+        {
+          "metric": "childhood-onset patients assessed",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Two adult-onset siblings with novel SNUPN variants presented with proximo-distal and axial weakness with early respiratory involvement, demonstrating involvement in paravertebral, triceps brachii, sartorius, gracilis, vasti, and gastrocnemius muscles.",
+      "stance": "supports",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+        "authors": [
+          "N Muelas",
+          "P Iruzubieta",
+          "A Damborenea"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/acn3.70211",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+        "quote": "Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement... Muscle MRI identified involvement in the paravertebral, triceps brachii, sartorius and gracilis muscles."
+      },
+      "numbers": [
+        {
+          "metric": "adult-onset patients assessed",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Does whole-body Dixon MRI in presymptomatic or very early childhood SNUPN variant carriers reveal subclinical fatty replacement in medial gastrocnemius and paravertebral muscles prior to clinical limb weakness?",
+      "rationale": "Directly testing whether axial and distal involvement precedes proximal weakness will clarify whether the pattern is truly topographically invariant from earliest pathogenesis.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "How reliably does the combined MRI pattern of paravertebral, vasti, sartorius, gracilis, and medial gastrocnemius involvement distinguish LGMDR29 from LGMDR1 (calpainopathy) and inclusion body myositis?",
+      "rationale": "Calpainopathy and IBM frequently share hamstring/adductor/quadriceps and distal involvement; evaluating specificity across a broader neuromuscular cohort is essential for differential diagnostic utility.",
+      "promise": 0.8,
+      "est_cost": 40000.0
+    }
+  ]
+}

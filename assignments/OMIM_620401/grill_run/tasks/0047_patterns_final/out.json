@@ -1,0 +1,69 @@
+{
+  "patterns": [
+    {
+      "pattern": "Nosological discordance between syndromic and non-syndromic intellectual disability classifications stems from subjective interpretation of mild dysmorphology and muscular signs.",
+      "abstraction": "Diagnostic categorization into syndromic versus non-syndromic neurodevelopmental entities frequently reflects observer-dependent valuation of subtle physical anomalies rather than distinct molecular etiologies.",
+      "instance": "Birnbaum et al. classified SGSM3 deficiency as a syndromic intellectual disability characterized by mild facial dysmorphisms and hypotonia, whereas Turkyilmaz et al. classified homozygous stop-gain p.Arg526Ter siblings as having non-syndromic intellectual disability with short stature.",
+      "direction": "Standardize objective computer-aided facial dysmorphology analysis and quantitative neuromuscular evaluations across both published cohorts to establish whether a shared physical signature exists.",
+      "support": "Evidenced by direct nosological contradictions between Birnbaum et al. (2024) and Turkyilmaz et al. (2025).",
+      "sources": [
+        "R Birnbaum et al. (2024) Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews PMID:37833060",
+        "A Turkyilmaz et al. (2025) A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3 10.1111/cge.14631"
+      ],
+      "hypothesis": "Objective morphometric image analysis will demonstrate a uniform subclinical facial gestalt across SGSM3-deficient individuals regardless of initial clinical categorization.",
+      "novelty": "Demonstrates that the clinical distinction between syndromic and non-syndromic SGSM3 presentations is an artifact of diagnostic thresholding rather than true genetic or phenotypic heterogeneity."
+    },
+    {
+      "pattern": "Preservation of communicative verbal ability and delayed milestone catch-up delineate SGSM3-related language impairment from static or neurodegenerative expressive mutism.",
+      "abstraction": "Neurodevelopmental delays involving signaling modulators can present with severe initial expressive latency followed by delayed functional acquisition rather than permanent speech-motor failure or regression.",
+      "instance": "Across both the Ashkenazi founder cohort and the Turkish kindred, affected individuals presented with expressive language delay (HP:0000750) and acquired spoken words around five years of age, rather than exhibiting complete or permanent absence of expressive speech (HP:0001344).",
+      "direction": "Perform longitudinal standardized speech-language assessments in molecularly confirmed patients from preschool age through adolescence to quantify linguistic trajectory and articulatory competence.",
+      "support": "Supported consistently across both primary cohort studies documenting language acquisition.",
+      "sources": [
+        "R Birnbaum et al. (2024) Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews https://jmg.bmj.com/content/61/3/289.abstract",
+        "A Turkyilmaz et al. (2025) A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3 10.1111/cge.14631"
+      ],
+      "hypothesis": "SGSM3 loss of function slows synaptic developmental timing necessary for language emergence but preserves the central motor circuits required for communicative speech development in mid-childhood.",
+      "novelty": "Contradicts the initial assumption that biallelic loss-of-function variants in novel intellectual disability genes predictably result in lifelong nonverbal status."
+    },
+    {
+      "pattern": "Short stature is a cardinal, invariant somatic manifestation of SGSM3 deficiency across disparate ancestral backgrounds and variant types.",
+      "abstraction": "Secondary somatic growth restriction can demonstrate high, pleiotropic penetrance even when primary central nervous system impairment is mild to moderate.",
+      "instance": "Short stature (HP:0004322) was documented across both the 13 affected individuals in the Ashkenazi Jewish founder cohort described by Birnbaum et al. and the two Turkish siblings harboring the homozygous nonsense p.Arg526Ter variant described by Turkyilmaz et al.",
+      "direction": "Profile the growth hormone/IGF-1 endocrine axis and evaluate chondrocyte growth plate dynamics in cellular or animal models lacking functional SGSM3.",
+      "support": "Corroborated across 100% of reported molecularly confirmed pedigrees in the literature.",
+      "sources": [
+        "R Birnbaum et al. (2024) Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews PMID:37833060",
+        "A Turkyilmaz et al. (2025) A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3 10.1111/cge.14631"
+      ],
+      "hypothesis": "SGSM3 modulates intracellular vesicle trafficking pathways critical for linear skeletal growth and epiphyseal plate elongation in addition to its role in neurogenesis.",
+      "novelty": "Positions short stature as a primary obligate syndromic component of SGSM3 deficiency rather than an incidental finding secondary to nutritional or metabolic compromise."
+    },
+    {
+      "pattern": "Systematic absence of neurodegeneration and structural visceral malformations establishes decisive exclusionary criteria against phenotypically overlapping recessive encephalopathies.",
+      "abstraction": "In non-specific neurodevelopmental conditions, invariant negative systemic findings offer greater diagnostic specificity than common positive cognitive features.",
+      "instance": "Affected individuals consistently lack progressive spasticity, retinitis pigmentosa, congenital heart defects, structural renal abnormalities, and progressive brain atrophy, effectively distinguishing MRT84 from phenotypically similar recessive disorders such as CC2D1A-, TUSC3-, or TRAPPC9-related syndromes.",
+      "direction": "Formulate a clinical decision tree incorporating key negative criteria to screen candidate individuals presenting with non-specific intellectual disability and short stature.",
+      "support": "Strongly confirmed by negative systemic screenings and clinical differentiation reported across cohorts.",
+      "sources": [
+        "A Turkyilmaz et al. (2025) A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3 10.1111/cge.14631",
+        "R Birnbaum et al. (2024) Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews https://jmg.bmj.com/content/61/3/289.abstract"
+      ],
+      "hypothesis": "SGSM3 expression is specialized for synaptic signaling and chondrogenesis while being functionally redundant or non-essential for early organogenesis and neuronal survival.",
+      "novelty": "Shifts clinical prioritization from non-specific neurocognitive deficits to highly discriminating negative multisystem criteria."
+    },
+    {
+      "pattern": "Founder-effect ascertainment skew conceals the global distribution and broader clinical boundaries of the condition.",
+      "abstraction": "High population-specific carrier rates can skew disease ascertainment toward an isolated founder cohort, leading to global under-recognition in non-founder populations.",
+      "instance": "Over 70% of reported individuals with MRT84 (13 of 15 across 8 of 9 families) trace to an Ashkenazi Jewish founder allele with a carrier frequency of ~1 in 52, whereas only two affected siblings from a single non-Ashkenazi kindred have been molecularly identified.",
+      "direction": "Reanalyze exome and genome datasets from multi-ethnic undiagnosed rare disease cohorts exhibiting mild-to-moderate intellectual disability and short stature for biallelic SGSM3 variants.",
+      "support": "Documented by population carrier frequency metrics and cohort composition numbers in Birnbaum et al. and Turkyilmaz et al.",
+      "sources": [
+        "R Birnbaum et al. (2024) Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews PMID:37833060",
+        "A Turkyilmaz et al. (2025) A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3 10.1111/cge.14631"
+      ],
+      "hypothesis": "Pathogenic variants in SGSM3 are substantially under-identified in outbred populations because their mild, non-syndromic neurocognitive presentation is overlooked in routine diagnostic screening.",
+      "novelty": "Demonstrates that the apparent exclusivity or extreme rarity of MRT84 outside the Ashkenazi Jewish population reflects diagnostic ascertainment failure rather than biological restriction."
+    }
+  ]
+}

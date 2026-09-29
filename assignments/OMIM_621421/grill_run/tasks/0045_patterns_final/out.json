@@ -1,0 +1,72 @@
+{
+  "patterns": [
+    {
+      "pattern": "Invariant penetrance of the cardinal neurodevelopmental triad contrasts with variable expressivity of epileptic and systemic features.",
+      "abstraction": "In ultra-rare monogenic syndromes, clinical presentations bifurcate into obligate neurodevelopmental core traits and partially penetrant secondary complications that cannot serve as mandatory diagnostic inclusion criteria.",
+      "instance": "In TRA2B-related Ramond-Elliott syndrome, intellectual disability/developmental delay is present in 100% of cases (13/13 across studies), infantile hypotonia in 83.3% (10/12), and microcephaly in 83.3% (10/12), whereas infantile spasms occur in only 50-58% (6/12 in Ramond et al., 2023; 1/1 in Shatokhina et al., 2023) and feeding difficulties are present in 58% (7/12) of the discovery cohort but absent in the Shatokhina proband.",
+      "direction": "Identify molecular and genetic modifiers that determine why only a subset of patients with identical 5' TRA2B variants develop infantile spasms or severe feeding failure.",
+      "support": "High within the defined worldwide cohort of 13 individuals across two primary studies.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study 10.3390/ijms242115572"
+      ],
+      "hypothesis": "Secondary downstream targets of TRA2B alternative splicing or background variations in neuronal channel expression modify the clinical manifestation of epilepsy and feeding difficulties.",
+      "novelty": "Delineates mandatory syndromic signs from variable features, preventing clinicians from erroneously ruling out the diagnosis in patients lacking epileptic spasms or feeding difficulties."
+    },
+    {
+      "pattern": "Pathogenicity is strictly restricted to an N-terminal 5' coding hotspot upstream of an alternative translation initiation site rather than broad gene-wide loss of function.",
+      "abstraction": "Specific gene disorders can exhibit extreme domain-level mutational constraint where pathogenic phenotypes require localized spatial disruption, while general gene loss is either tolerated or produces distinct, non-syndromic outcomes.",
+      "instance": "All 13 published germline variants cluster strictly in the 5' region (exon 2 / RS1 domain) of TRA2B upstream of an alternative translation start site, whereas 35 control individuals in public cohorts harbor copy number losses of TRA2B without manifesting Ramond-Elliott syndrome.",
+      "direction": "Elucidate the functional mechanism of the alternative translation product in TRA2B to establish whether 5' truncations exert dominant-negative, toxic gain-of-function, or specific dosage-dependent splicing effects.",
+      "support": "High across all 13 published patients and control genomic databases.",
+      "sources": [
+        "Francis Ramond et al. (2023) Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study https://www.mdpi.com/1422-0067/24/21/15572"
+      ],
+      "hypothesis": "Variants in the 5' coding region force translation initiation at an internal downstream methionine, generating an N-terminally truncated TRA2B isoform lacking the RS1 domain that disrupts native spliceosome assembly.",
+      "novelty": "Directs clinical molecular geneticists to treat non-5' variants or whole-gene deletions with caution, as they do not recapitulate Ramond-Elliott syndrome."
+    },
+    {
+      "pattern": "Phenotypic overlap between TRA2B and other microcephalic epileptic encephalopathies precludes purely clinical bedside discrimination.",
+      "abstraction": "Convergent pathogenic pathways in early neurogenesis generate overlapping clinical syndromes whose positive features lack sufficient specificity for phenotypic separation without molecular confirmation.",
+      "instance": "Infantile spasms and microcephaly distinguish TRA2B from isolated primary microcephalies, but fail to separate it from other microcephalic developmental and epileptic encephalopathies such as ADARB1 deficiency, which also presents with microcephaly, early-onset seizures, and severe feeding difficulties in 100% (4/4) of cases.",
+      "direction": "Develop multi-omics RNA-splicing profiles or blood-based episignatures that serve as molecular diagnostic fingerprints separating TRA2B from clinically identical microcephalic epileptic encephalopathies.",
+      "support": "Strong comparative evidence showing indistinguishable core presentations across microcephalic DEE cohorts.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "TY Tan et al. (2020) Bi-allelic ADARB1 variants associated with microcephaly, intellectual disability, and seizures 10.1016/j.ajhg.2020.02.015",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study https://www.mdpi.com/1422-0067/24/21/15572"
+      ],
+      "hypothesis": "TRA2B-deficient cells harbor a distinct transcriptomic mis-splicing signature involving specific exon-skipping events in neuronal transcripts that distinguishes them from ADARB1-related RNA editing deficiencies.",
+      "novelty": "Refutes the assumption that Ramond-Elliott syndrome has a distinct clinical gestalt capable of standalone phenotypic diagnosis in the differential diagnosis of epileptic encephalopathy."
+    },
+    {
+      "pattern": "Absence of structural ocular malformations serves as an exclusionary phenotypic filter despite small-cohort statistical limitations.",
+      "abstraction": "Negative clinical criteria provide critical differential filters to separate distinct syndromic classes, though statistical certainty is constrained by the small total sample size of ultra-rare conditions.",
+      "instance": "Severe structural ocular malformations (coloboma HP:0000589 and microphthalmia HP:0000568) were observed in 0% (0/12) of individuals in the discovery cohort, providing a negative clinical discriminator against spliceosomopathies and chromatinopathies like CHARGE syndrome, even though small-sample statistics dictate an upper-bound potential frequency of up to ~25%.",
+      "direction": "Systematically survey global ultra-rare neurodevelopmental registries to evaluate whether the negative association with major ocular and cardiac malformations remains robust as the cohort expands.",
+      "support": "Moderate; empirical frequency is 0/12 in the primary cohort, but bounded by small sample size.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "Francis Ramond (2023) Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome 10.1016/j.gim.2022.11.013",
+        "A George (2020) Genetics of syndromic ocular coloboma: CHARGE and ... - PMC 10.1016/j.exer.2020.107940"
+      ],
+      "hypothesis": "TRA2B expression during optic fissure morphogenesis is functionally redundant with other SR-protein splicing factors, protecting against ocular coloboma and microphthalmia.",
+      "novelty": "Translates negative phenotypic observations into practical differential exclusion markers against phenocopying syndromes, while highlighting statistical boundaries."
+    },
+    {
+      "pattern": "Denominator inflation and literature discrepancies distort penetrance estimates for variable syndromic features.",
+      "abstraction": "Secondary literature reviews in newly described genetic conditions are vulnerable to citation drift that inflates sample sizes and mischaracterizes variable manifestations as universal hallmarks.",
+      "instance": "Multiple secondary database entries asserted a denominator of 15 individuals with near-universal feeding difficulties and craniofacial gestalts, whereas primary cohort auditing reveals exactly 13 published individuals (12 from Ramond et al., 2023 and 1 from Shatokhina et al., 2023), with feeding difficulties explicitly absent in the Shatokhina case and classified by OMIM as variable.",
+      "direction": "Perform rigorous primary-source audits of rare disease ontologies and curate patient-level registry databases to ensure phenotype frequency metrics reflect verifiable primary cases.",
+      "support": "High; direct contradiction demonstrated between secondary summaries and primary cohort counts.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study 10.3390/ijms242115572",
+        "OMIM (n.d.) 621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN https://omim.org/entry/621421"
+      ],
+      "hypothesis": "Secondary citation drift in rare disease databases overestimates penetrance of non-neurological features by an average of 15-20% due to selective reporting of positive findings.",
+      "novelty": "Resolves conflicting literature claims regarding the global cohort size and clarifies that feeding difficulties and facial dysmorphisms are not invariant diagnostic features."
+    }
+  ]
+}

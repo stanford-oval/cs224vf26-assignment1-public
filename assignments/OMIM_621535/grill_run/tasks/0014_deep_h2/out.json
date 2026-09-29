@@ -1,0 +1,82 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The available literature confirms that pathogenic variants in RAB3A cause Spinocerebellar Ataxia 52 (SCA52; OMIM #621535). However, the available source records explicitly note an 'expanding clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia', which contradicts the notion that SCA52 presents narrowly as an indolent or non-progressive infantile congenital cerebellar ataxia without prominent upper motor neuron/spasticity features. Furthermore, detailed cohort numerators and denominators distinguishing SCA52 from SCA29 or other hereditary ataxias are not provided in the primary database sources available in the record.",
+  "evidence": [
+    {
+      "text": "OMIM entry #621535 designates Spinocerebellar Ataxia 52 (SCA52) as an autosomal dominant disorder caused by variants in RAB3A, with a spectrum expanding from cerebellar ataxia to spastic paraplegia.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia. ... SPINOCEREBELLAR ATAXIA 52; SCA52. MONDO: 0981162;. Phenotype-Gene ..."
+      },
+      "numbers": [
+        {
+          "metric": "OMIM Phenotype MIM number",
+          "value": "621535"
+        }
+      ]
+    },
+    {
+      "text": "MARRVEL curates RAB3A as associated with autosomal dominant Spinocerebellar ataxia 52.",
+      "stance": "supports",
+      "source": {
+        "title": "RAB3A",
+        "authors": [],
+        "year": null,
+        "journal": "MARRVEL",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://marrvel.org/human/gene/5864",
+        "quote": "Disease/Phenotype Associated with RAB3A curated by OMIM (1 Phenotype). filter_list. Phenotype. Phenotype mimNumber. Inheritance. Spinocerebellar ataxia 52 ..."
+      },
+      "numbers": [
+        {
+          "metric": "Curated OMIM phenotypes for RAB3A",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "GeneCards corroborates that pathogenic variants in RAB3A are reported in spinocerebellar ataxia 52, directly linking RAB3A to nervous system disease pathways.",
+      "stance": "supports",
+      "source": {
+        "title": "RAB3A Gene",
+        "authors": [],
+        "year": null,
+        "journal": "GeneCards",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/RAB3A",
+        "quote": "Pathogenic variants in RAB3A are reported in spinocerebellar ataxia 52. This condition links RAB3A to a disease pathway involving the nervous system and ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "OMIM entry #621535 highlights an expanding clinical spectrum that includes spastic paraplegia, which conflicts with characterizing SCA52 purely as a non-progressive infantile congenital cerebellar ataxia easily separable from spastic disorders."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact clinical frequency of spastic paraplegia versus cerebellar ataxia phenotypes across all documented pathogenic RAB3A variant carriers?",
+      "rationale": "Determining whether spasticity is an obligate feature or restricted to specific variant locations is essential to establish whether SCA52 behaves as a pure ataxia or a complicated hereditary spastic paraplegia (HSP)/SCA overlap.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Can deep neurological phenotyping and brain MRI volumetric scoring reliably differentiate RAB3A-related SCA52 from ITPR1-related SCA29 in the absence of sequencing?",
+      "rationale": "Both disorders present in early life with non-progressive or indolent cerebellar features; formal quantitative comparison is needed to evaluate if clinical distinction is feasible without molecular genetics.",
+      "promise": 0.78,
+      "est_cost": 40000.0
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits a specific quantitative finding: that within the dominant cohort of 35 patients reported by Leit\u00e3o et al. (2026), episodic central hyperventilation (HP:0002883) was documented in 35% to 60% (12 to 21 individuals). While hyperventilation is recognized as a recurrent feature of dominant RNU2-2 encephalopathy in smaller series (e.g., Chiu et al. 2026 observed it in 3 of 5 patients, and Krygier et al. 2026 noted hyperventilation episodes preceding seizures), the Leit\u00e3o et al. (2026) study does not report this phenotype or provide evidence for this frequency in their 35 dominant cases. Under adversarial testing, attributing this specific 35-60% frequency to the Leit\u00e3o et al. cohort is unsupported and refuted by the provided source record.",
+  "evidence": [
+    {
+      "text": "Leit\u00e3o et al. analyzed 141 individuals with RNU2-2 variants, including 35 with recurrent dominant pathogenic variants, but the provided publication text and abstract do not report episodic central hyperventilation or document it in 12 to 21 (35% to 60%) of these 35 dominant individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies",
+        "authors": [
+          "E Leit\u00e3o",
+          "A Santini",
+          "B Cogne",
+          "M Essid"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s41588-026-02547-5",
+        "quote": "Here, through international collaborations, we analyze systematically 200 potentially functional snRNA genes in a French cohort of 34,329 people with rare disorders. We report RNU2-2 variants in 141 individuals, including 35 with recurrent dominant pathogenic variants and 91 affected members from 73 families with biallelic variants."
+      },
+      "numbers": [
+        {
+          "metric": "dominant cohort sample size",
+          "value": 35
+        },
+        {
+          "metric": "total cohort sample size",
+          "value": 141
+        }
+      ]
+    },
+    {
+      "text": "Chiu et al. (2026) described clinical findings in 5 patients with dominant RNU2-2 DEE, observing hyperventilation in 3 of 5 individuals (60%), alongside status epilepticus in 5 of 5, obstructive sleep apnea in 3 of 5, and hippocampal sclerosis in 3.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic Variants in RNU2\u20102, a Non\u2010coding Spliceosomal RNA, Cause a Distinctive Developmental and Epileptic Encephalopathy",
+        "authors": [
+          "ATG Chiu",
+          "MF Bennett",
+          "H Thiyagarajah"
+        ],
+        "year": 2026,
+        "journal": "ANN NEUROL",
+        "doi": "10.1002/ana.78071",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ana.78071",
+        "quote": "Patients with RNU2-2 DEE had median seizure onset age of 24 months, focal and generalized seizures, status epilepticus (n = 5), severe to profound impairment, hyperventilation (n = 3), and obstructive sleep apnea (n = 3)."
+      },
+      "numbers": [
+        {
+          "metric": "hyperventilation in dominant DEE cohort",
+          "value": "3/5"
+        },
+        {
+          "metric": "status epilepticus in dominant DEE cohort",
+          "value": "5/5"
+        },
+        {
+          "metric": "obstructive sleep apnea in dominant DEE cohort",
+          "value": "3/5"
+        }
+      ]
+    },
+    {
+      "text": "Krygier et al. (2026) identified recurrent de novo RNU2-2 variants in 2 patients with intellectual disability, epilepsy, and hyperkinetic movement disorders, noting episodes of hyperventilation occasionally preceding generalized tonic-clonic seizures.",
+      "stance": "supports",
+      "source": {
+        "title": "Prominent Movement Disorders in RNU2\u20102\u2010Related Spliceosomopathy",
+        "authors": [
+          "M Krygier",
+          "U Sorrentino",
+          "M Wagner"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/acn3.70442",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70442",
+        "quote": "Episodes of hyperventilation occasionally preceded generalized tonic\u2013clonic seizures."
+      },
+      "numbers": [
+        {
+          "metric": "patients identified with de novo RNU2-2 variants",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts a specific prevalence of 35% to 60% (12 to 21 of 35 individuals) in the Leit\u00e3o et al. cohort, but Leit\u00e3o et al. (2026) contains no documentation of episodic central hyperventilation frequencies in their dominant cohort.",
+    "Reported frequencies of hyperventilation derive from the small cohort in Chiu et al. (n = 3/5, 60%) and qualitative reports in Krygier et al. (2026), rather than systematic documentation across larger multicenter cohorts like Leit\u00e3o et al."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic prevalence of episodic hyperventilation across all aggregated dominant RNU2-2 DEE cohorts when standardized HPO phenotyping is applied?",
+      "rationale": "While small initial case series (Chiu et al., Krygier et al.) highlight hyperventilation as a potential discriminator (seen in 3/5 patients), systematically capturing this finding across larger registries is needed to establish its true sensitivity and positive predictive value relative to other DEEs.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does episodic hyperventilation occur in biallelic (recessive) RNU2-2 neurodevelopmental disorders, or is it exclusive to dominant de novo cases?",
+      "rationale": "Recent publications demonstrate that recessive RNU2-2 syndrome is clinically and mechanistically distinct from dominant RNU2-2 DEE; establishing whether autonomic respiratory dysfunction is unique to dominant cases will aid clinical differentiation.",
+      "promise": 0.8,
+      "est_cost": 20000
+    }
+  ]
+}

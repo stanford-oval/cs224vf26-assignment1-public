@@ -1,0 +1,91 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature source material establishes KLHL20 de novo variants as causative for a neurodevelopmental syndrome characterized by intellectual disability, autism spectrum disorder, subtle facial dysmorphisms, and febrile seizures or epilepsy across a cohort of 14 patients (Sleyp et al., 2022). However, the specific quantitative assertions in the hypothesis\u2014that intellectual disability and facial dysmorphisms are present in exactly 100% of patients while early-onset seizures exhibit an incomplete penetrance strictly below 80%\u2014cannot be substantiated from the provided cohort data and snippets in the retrieved evidence block. Under the prompt instructions, where literature gives no support for the specific granular claim, the hypothesis cannot be confirmed as supported.",
+  "evidence": [
+    {
+      "text": "Sleyp et al. delineated a neurodevelopmental genetic syndrome caused by de novo missense variants in KLHL20 in 14 patients, presenting with mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features, with 11 patients carrying the recurrent c.1069G>A (p.Gly357Arg) variant.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a developmental disorder with intellectual disability, epilepsy, and autism spectrum \u2026",
+        "authors": [
+          "Y Sleyp",
+          "I Valenzuela",
+          "A Accogli",
+          "K Ballon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200911X",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features. We observed a recurrent de novo missense variant in 11 patients (NM_014458.4:c.1069G>A p.[Gly357Arg])."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 14
+        },
+        {
+          "metric": "patients with recurrent variant c.1069G>A",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "text": "The OMIM entry for KLHL20 links it to neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (NEDSFBA, OMIM #621390).",
+      "stance": "neutral",
+      "source": {
+        "title": "Entry - *617679 - KELCH-LIKE 20; KLHL20",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/617679",
+        "quote": "Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities. KLHL20 has multiple cellular effects \u2026 621390), Sleyp ..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Review of monogenic developmental and epileptic encephalopathies notes that de novo dominant mutations in KLHL20 cause neurodevelopmental disorders, but does not confirm penetrance values or exact numerator/denominator breakdowns for individual clinical features.",
+      "stance": "neutral",
+      "source": {
+        "title": "Developmental and epileptic encephalopathies",
+        "authors": [
+          "IE Scheffer",
+          "S Zuberi",
+          "HC Mefford",
+          "R Guerrini"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41572-024-00546-6",
+        "quote": "De novo dominant mutations in KLHL20 have been identified145; KLHL20 protein is part of \u2026"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The primary discovery study by Sleyp et al. (2022) describes intellectual disability, facial dysmorphisms, and epilepsy/febrile seizures among 14 patients, but the provided text does not contain explicit numerator and denominator counts to verify that ID and facial dysmorphisms were present in 14/14 (100%) or that seizures were strictly below 80% penetrant."
+  ],
+  "confidence": 0.3,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerator and denominator frequencies for specific HPO terms (such as Global developmental delay HP:0001263, Seizures HP:0001250, and specific facial dysmorphisms) across all documented KLHL20 patients in the complete Sleyp et al. supplementary clinical table?",
+      "rationale": "Directly extracting the supplementary phenotypic table from Sleyp et al. (2022) will establish whether seizure penetrance is <80% and whether facial dysmorphism was universal or variable.",
+      "promise": 0.95,
+      "est_cost": 0.05
+    },
+    {
+      "question_text": "Does seizure semiology, age of onset, or penetrance differ between carriers of the recurrent Kelch-domain p.Gly357Arg variant versus non-recurrent missense variants in KLHL20?",
+      "rationale": "11 of 14 discovery patients share the identical p.Gly357Arg missense mutation; testing genotype-phenotype correlations will determine whether incomplete seizure penetrance is mutation-specific.",
+      "promise": 0.85,
+      "est_cost": 0.1
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature across multiple independent cohorts demonstrates that speech and language impairment (specifically pronounced expressive language delay or absent speech) is a core phenotypic hallmark of FBXO11-related neurodevelopmental disorder (IDDFBA, OMIM #618089). In the index cohort assembled by Gregor et al. (2018), speech/language impairment was noted across evaluated individuals. Replication cohorts corroborate this high prevalence: Goel et al. (2026) observed speech delay in 20/21 individuals (95.2%) with expressive deficits markedly outstripping receptive deficits, and Pan et al. (2023, 2024) documented speech and language delay in 8/12 individuals (66.7%). While minor variability exists between cohorts regarding the exact proportion, expressive language impairment remains one of the most consistent findings.",
+  "evidence": [
+    {
+      "text": "Goel et al. characterized 21 individuals with pathogenic FBXO11 variants and found speech delay in 20/21 patients (95%), noting that expressive language delay was more pronounced than receptive language impairment.",
+      "stance": "supports",
+      "source": {
+        "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+        "authors": [
+          "H Goel",
+          "G Garg",
+          "TS Barakat",
+          "G Barcia",
+          "A Bourgois"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.21203/rs.3.rs-10148333/v1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+        "quote": "Expressive language delay was more pronounced than receptive impairment in several individuals. Only one individual demonstrated regression of previously acquired language skills"
+      },
+      "numbers": [
+        {
+          "metric": "Speech delay frequency in Goel et al. cohort",
+          "value": "20/21"
+        }
+      ]
+    },
+    {
+      "text": "Gregor et al. (2018) established de novo FBXO11 variants as causing an emerging neurodevelopmental disorder with intellectual disability, speech delay, and behavioral anomalies across 20 affected individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in the F-box protein FBXO11 in 20 individuals with a variable neurodevelopmental disorder",
+        "authors": [
+          "A Gregor",
+          "LG Sadleir",
+          "R Asadollahi"
+        ],
+        "year": 2018,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2018.07.009",
+        "pmid": "30100085",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30230-1",
+        "quote": "Through exome sequencing and world-wide collaborations, we identified and assembled 20 individuals with de novo variants in FBXO11. They present with mild to severe developmental delay associated with a range of features"
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort size",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "In a study of 12 Chinese individuals from 5 families with FBXO11 variants, speech and language development delay was documented in 8 out of 12 patients (66.7%), demonstrating that while speech delay is prominent, it may not be 100% penetrant in every subpopulation.",
+      "stance": "neutral",
+      "source": {
+        "title": "FBXO11 variants are associated with intellectual disability and variable clinical manifestation in Chinese affected individuals",
+        "authors": [
+          "X Pan",
+          "L Liu",
+          "X Zhang",
+          "X Tang",
+          "G Qian",
+          "H Qiu"
+        ],
+        "year": 2024,
+        "journal": "Journal of Human Genetics",
+        "doi": "10.1038/s10038-024-01255-4",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s10038-024-01255-4",
+        "quote": "Almost all the affected individuals presented with mild to severe intellectual disability (12/12), global developmental delay (10/12), speech and language development delay (8/12) associated with a range of alternate features"
+      },
+      "numbers": [
+        {
+          "metric": "Speech and language delay frequency in Chinese cohort",
+          "value": "8/12"
+        }
+      ]
+    },
+    {
+      "text": "Review of SCF-complex and F-box neurodevelopmental disorders describes FBXO11-related intellectual developmental disorder as exhibiting severe expressive language delay as a key phenotypic finding.",
+      "stance": "supports",
+      "source": {
+        "title": "FBXW7\u2010Related Neurodevelopmental Disorder: Clinical Spectrum, Molecular Mechanisms, and Tumor Predisposition",
+        "authors": [
+          "S Savasta",
+          "FF Comisi",
+          "E Fiumicelli"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC13156469",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13156469/",
+        "quote": "FBXO11\u2010related intellectual developmental disorder with dysmorphic facies \u2026 to include hypertonia, severe expressive language delay, occasional reduced muscle"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does expressive language delay significantly exceed receptive language delay across all age groups and FBXO11 variant types?",
+      "rationale": "Goel et al. noted expressive language delay was more pronounced than receptive language impairment in several patients, but standardized receptive vs. expressive language assessment scores across different stages of development are needed to confirm a distinct dissociation.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What distinguishes the facial gestalt and behavioral profile of FBXO11-related disorder from other F-box/ubiquitin ligase disorders such as FBXW7 and CUL1?",
+      "rationale": "Both CUL1 and FBXW7 cause overlapping neurodevelopmental phenotypes involving speech delay and facial dysmorphism; systematic computer-assisted facial analysis (GestaltMatcher) and deep phenotyping are needed to validate distinguishing clinical features.",
+      "promise": 0.85,
+      "est_cost": 30000
+    }
+  ]
+}

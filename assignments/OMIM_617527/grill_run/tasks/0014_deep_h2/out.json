@@ -1,0 +1,126 @@
+{
+  "verdict": "supported",
+  "rationale": "Across postnatally evaluated clinical cohorts and reports of NDMSBA caused by biallelic PLAA pathogenic variants, global developmental delay/severe intellectual disability (HP:0001263 / HP:0001249) and progression from neonatal/infantile hypotonia to spasticity/spastic quadriparesis (HP:0001284 / HP:0002510) are consistently documented across affected individuals. For example, Falik Zaccai et al. (2017) observed global developmental delay and progressive spastic quadriparesis in all 7 of 7 patients (100%). Although prenatal cases (e.g., Huang et al., 2023) preclude functional neurodevelopmental scoring, all described postnatal cohorts confirm these two neurodevelopmental hallmarks as near-universal clinical features of the disorder.",
+  "evidence": [
+    {
+      "text": "Falik Zaccai et al. identified a novel form of leukoencephalopathy caused by homozygous PLAA loss-of-function variants, presenting in all seven evaluated patients between 2 and 4 months of age with progressive microcephaly, spastic quadriparesis, and global developmental delay.",
+      "stance": "supports",
+      "source": {
+        "title": "Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy",
+        "authors": [
+          "TC Falik Zaccai",
+          "D Savitzki",
+          "Y Zivony"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "quote": "Herein, we have identified a unique form of leukoencephalopathy in seven patients presenting at ages 2 to 4 months with progressive microcephaly, spastic quadriparesis, and global developmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients presenting with global developmental delay and spastic quadriparesis",
+          "value": "7/7"
+        }
+      ]
+    },
+    {
+      "text": "Han et al. identified a PLAA pathogenic variant in a patient cohort characterized by atypical cerebral palsy presenting with variable intellectual disability, scoliosis/kyphosis, and motor dysfunction.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+        "authors": [
+          "JY Han",
+          "J Gwack",
+          "JH Kim",
+          "MK Park",
+          "J Park"
+        ],
+        "year": 2025,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+        "quote": "PLAA gene cause neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies"
+      },
+      "numbers": [
+        {
+          "metric": "patients with PLAA variant in atypical CP cohort",
+          "value": "1/10"
+        }
+      ]
+    },
+    {
+      "text": "Huang et al. identified compound heterozygous variants in the PLAA gene in a deceased fetus with ultrasound abnormalities, demonstrating that severe biallelic disruptions can present prenatally, prior to the assessability of post-natal milestone attainment.",
+      "stance": "neutral",
+      "source": {
+        "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+        "authors": [
+          "W Huang",
+          "X Zhu",
+          "G Sun",
+          "Z Gao",
+          "X Kong"
+        ],
+        "year": 2023,
+        "journal": "BMC Medical Genomics",
+        "doi": "10.1186/s12920-022-01427-1",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+        "quote": "microcephaly, spasticity, and brain anomalies (NDMSBA). We identified compound heterozygous variants in the PLAA gene"
+      },
+      "numbers": [
+        {
+          "metric": "prenatal deceased fetuses with PLAA compound heterozygous variants",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Chitre et al. found a pathogenic variant in PLAA (c.68G>T, p.Gly23Val) in a patient presenting with PEHO/PEHO-like syndrome, which is typified by severe early developmental arrest, profound hypotonia, and progressive encephalopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+        "authors": [
+          "M Chitre",
+          "MS Nahorski",
+          "K Stouffer"
+        ],
+        "year": 2018,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+        "quote": "pathogenic variant in the gene PLAA; c.68G>T p.Gly23Val."
+      },
+      "numbers": [
+        {
+          "metric": "PEHO cohort patients harboring PLAA pathogenic variant",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What specific biochemical markers in patient-derived fibroblasts or serum (e.g., cytosolic phospholipase A2 activity and prostaglandin E2 concentrations) best distinguish PLAA-deficient leukoencephalopathy from PEHO syndrome and classic atypical cerebral palsy?",
+      "rationale": "Because progressive microcephaly, spastic tetraparesis, and profound developmental arrest overlap extensively with other early-onset epileptic encephalopathies and white matter disorders, validating functional prostaglandin E2 and cPLA2 biomarkers could enable early biochemical discrimination before neuroimaging progression.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Do hypomorphic missense variants outside the WD40 domain of PLAA permit survival past early childhood without progression to spastic tetraparesis?",
+      "rationale": "Dai et al. (2019) noted that mutations in the WD40 domain may carry a more severe clinical presentation, suggesting domain-dependent genotype-phenotype gradients that could alter long-term motor trajectory.",
+      "promise": 0.78,
+      "est_cost": 18000.0
+    }
+  ]
+}

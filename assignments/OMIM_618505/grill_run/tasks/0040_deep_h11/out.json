@@ -1,0 +1,87 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis asserts that the complete clinical supplemental tables of Rots et al. (2023) record an evaluated frequency of 0/N for persistent fetal fingertip pads (HP:0001212) and lateral lower eyelid eversion (HP:0000656), establishing them as absolute negative discriminators against Kabuki syndrome. However, the provided literature block contains only limited snippets and abstracts; it does not provide the supplemental tables or phenotype frequency counts demonstrating that these specific features were formally evaluated and observed at 0/N across the cohort of 73 individuals. Because the available literature provides no data to support the specific claims of evaluated 0/N frequency in the supplemental material, the hypothesis is unsupported and refuted under the protocol criteria.",
+  "evidence": [
+    {
+      "text": "The KDM6B publication by Rots et al. (2023) reports clinical and molecular descriptions of 73 individuals with (likely) pathogenic KDM6B variants, but the provided excerpt does not include the supplemental clinical tables or establish that persistent fetal fingertip pads and lateral lower eyelid eversion were evaluated and present at 0/N.",
+      "stance": "neutral",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+        "authors": [],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://research.rug.nl/files/833327241/1-s2.0-S0002929723001325-main.pdf",
+        "quote": "Detailed descriptions of 73 individuals with (likely) pathogenic. KDM6B variants, their molecular findings, and corresponding study type"
+      },
+      "numbers": [
+        {
+          "metric": "individuals with (likely) pathogenic KDM6B variants",
+          "value": 73
+        }
+      ]
+    },
+    {
+      "text": "General chromatinopathy characterization demonstrates extensive phenotypic overlap among disorders of the epigenetic machinery, highlighting facial and developmental similarities across conditions but omitting specific KDM6B supplemental tabular frequencies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Portrait of a Spectrum: Clinical and Genetic Characterization of a Large Cohort of Chromatinopathies\u201430 Years' Experience From a Third Level Center",
+        "authors": [
+          "GB Marchetti",
+          "E Rosina",
+          "C Meossi",
+          "M Mura"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1111/cge.70099",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70099",
+        "quote": "Chromatinopathies (CPs) are an expanding group of rare genetic disorders affecting epigenetic machinery. Besides an intricate genotypic spectrum, these conditions share overlapping phenotypes characterized by neurocognitive impairment, growth defects and distinctive, but often convergent, facial features."
+      },
+      "numbers": [
+        {
+          "metric": "patients diagnosed with chromatinopathies analyzed",
+          "value": 239
+        }
+      ]
+    },
+    {
+      "text": "Kabuki syndrome clinical summaries document persistent fetal fingertip pads and eyelid eversion as cardinal features, but do not provide comparative absence data for KDM6B cohorts.",
+      "stance": "neutral",
+      "source": {
+        "title": "Kabuki Syndrome: Physical Traits and Developmental ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://incitefulmed.com/resources/guides/kabuki-syndrome-newly-diagnosed/kabuki-syndrome-traits-development/",
+        "quote": "Kabuki syndrome is characterized by signature physical traits like distinctive facial features and persistent fetal fingertip pads. ... eversion"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts definitive 0/N frequencies in Rots et al. (2023) supplemental tables, but the provided text corpus lacks access to the full supplemental phenotyping tables to substantiate the evaluated denominator and numerator."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for persistent fetal fingertip pads (HP:0001212) and lower eyelid eversion (HP:0000656) in the complete supplemental dataset of Rots et al. (2023)?",
+      "rationale": "Directly examining the full supplemental tables of PMC10257005 is required to establish whether these traits were recorded as evaluated and absent (0/N) versus unassessed/missing data.",
+      "promise": 0.9,
+      "est_cost": 0.05
+    },
+    {
+      "question_text": "To what extent do gestalt facial analysis algorithms distinguish KDM6B-related neurodevelopmental disorder from KMT2D/KDM6A Kabuki syndrome?",
+      "rationale": "Given the overlapping facial dysmorphisms and chromatinopathy classification, quantitative facial dysmorphology comparisons can confirm whether lateral lower eyelid eversion is truly distinctive.",
+      "promise": 0.8,
+      "est_cost": 0.15
+    }
+  ]
+}

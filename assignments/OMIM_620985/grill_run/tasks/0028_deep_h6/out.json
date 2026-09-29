@@ -1,0 +1,94 @@
+{
+  "verdict": "supported",
+  "rationale": "The defining study by Karayol et al. (2024) identified a cohort of 25 individuals with heterozygous de novo variants in MSL2 presenting with global developmental delay, intellectual disability, hypotonia, motor coordination problems, dysmorphic features, behavioral abnormalities, and a distinctive, sensitive, and specific DNA methylation episignature. While the cohort confirms de novo heterozygous etiology across both sexes and a unifying episignature, the available literature in the sources does not provide detailed granular sub-phenotype breakdown across specific functional domains (e.g., RING vs. CXC/basic domains) within the provided abstracts.",
+  "evidence": [
+    {
+      "text": "Karayol et al. report a cohort of 25 individuals with heterozygous de novo variants in MSL2 presenting with global developmental delay, intellectual disability, hypotonia, motor issues (coordination problems, feeding difficulties, gait disturbance), dysmorphisms, behavioral/psychiatric conditions including autism spectrum disorder, and a sensitive and specific blood DNA methylation episignature.",
+      "stance": "supports",
+      "source": {
+        "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+        "authors": [
+          "R Karayol",
+          "MC Borroto",
+          "S Haghshenas"
+        ],
+        "year": 2024,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2024.05.004",
+        "pmid": "38815585",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(24)00164-2",
+        "quote": "Using exome sequencing, here we identify a cohort of 25 individuals with heterozygous de novo variants in MSL complex member MSL2. MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals. As a molecular biomarker, a sensitive and specific DNA methylation episignature has been established."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of individuals with heterozygous de novo MSL2 variants",
+          "value": 25
+        },
+        {
+          "metric": "iPSC lines derived from cohort members demonstrating reduced MSL2 levels",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "Christofidou and Bell survey the clinical utility of peripheral blood DNA methylome profiling, highlighting the diagnostic blood-derived episignature classifier established for the neurodevelopmental disorder caused by de novo variants in MSL2.",
+      "stance": "supports",
+      "source": {
+        "title": "The predictive power of profiling the DNA methylome in human health and disease",
+        "authors": [
+          "P Christofidou",
+          "CG Bell"
+        ],
+        "year": 2025,
+        "journal": "Epigenomics",
+        "doi": "10.1080/17501911.2025.2500907",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.tandfonline.com/doi/abs/10.1080/17501911.2025.2500907",
+        "quote": "diagnosis of a neurodevelopmental disorder due to de novo mutations within MSL2, which \u2026 Recently, a diagnostic bloodderived episignature classifier was also developed for the cluster"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Ranjan and Bhattacharya discuss functional models of autism spectrum disorder and note that MSL2 regulates biallelic expression of dosage sensitive genes and histone H4 acetylation at 3q22.3, where homozygous knockout leads to heterogeneous phenotypes and perinatal lethality, referencing Karayol-Borroto-Haghshenas syndrome.",
+      "stance": "neutral",
+      "source": {
+        "title": "The evolving landscape of functional models of autism spectrum disorder",
+        "authors": [
+          "J Ranjan",
+          "A Bhattacharya"
+        ],
+        "year": 2025,
+        "journal": "Cells",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4409/14/12/908",
+        "quote": "MSL2 Biallelic expression of dosage sensitive genes, histone H4 acetylation 3q22.3 Homozygous KO Heterogenous phenotype and perinatal lethality Karayol-"
+      },
+      "numbers": [
+        {
+          "metric": "approximate global prevalence of ASD",
+          "value": "1-3%"
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Do missense variants located specifically within the MSL2 RING finger domain vs. the CXC/basic domains produce distinct episignature sub-clusters or differential severity in motor coordination and seizure incidence?",
+      "rationale": "While a unifying MSL2 episignature is established, sub-clustering analysis across different functional protein domains has not been deeply segregated in initial cohort reports.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What is the exact discriminatory diagnostic performance of the MSL2 blood DNA episignature against clinically overlapping histone-modifying epigenetic syndromes, specifically MOF- and MSL3-related disorders?",
+      "rationale": "Karayol et al. showed that unlike MOF and MSL3 variants which alter global H4K16ac levels, MSL2 variants maintain global H4K16ac while altering specific target gene expression and exhibiting an MSL2-specific episignature.",
+      "promise": 0.9,
+      "est_cost": 25000
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "knowledge": "Multiple mitochondrial dysfunctions syndrome 9B (MMDS9B, OMIM #620887) is an autosomal recessive disorder caused by biallelic mutations in the FDXR gene, which encodes mitochondrial ferredoxin reductase. FDXR transfers electrons from NADPH to mitochondrial ferredoxins (FDX1, FDX2) involved in iron-sulfur ([Fe-S]) cluster biogenesis and steroidogenesis. Pathogenic variants in FDXR lead to impaired [Fe-S] cluster assembly, mitochondrial dysfunction, oxidative stress, and sensory/neurological degeneration. Phenotypically, patients present along a spectrum ranging from severe neonatal/infantile encephalomyopathy, optic atrophy, sensorineural hearing loss, and microcephaly, to later-onset adolescent/adult optic neuropathy and auditory neuropathy (often overlapping with Charcot-Marie-Tooth disease type 2 or isolated optic atrophy). Key cohorts were described by Paul et al. (2017, PMID: 28886343) and Slone et al. (2018, PMID: 29805044 / American Journal of Human Genetics).",
+  "prior_hypothesis": "MMDS9B can be phenotypically suspected and distinguished from other mitochondrial/neuropathic disorders by the striking, nearly universal co-occurrence of early-onset progressive bilateral optic atrophy (HP:0000648) and bilateral sensorineural/auditory neuropathy hearing loss (HP:0000407), typically accompanied by motor neuropathy/ataxia (HP:0001251) and developmental regression or intellectual disability in earlier-onset cases. While optic atrophy and hearing loss occur in many mitochondrial diseases (such as OPA1-, MFN2-, or WFS1-related disease and other MMDS forms like NFU1 or BOLA3), MMDS9B lacks the prominent nonketotic hyperglycinemia, severe pulmonary hypertension, and rapid infantile lethality classic of MMDS1-3, and differs from isolated CMT2 by prominent early visual and auditory involvement.",
+  "candidate_answers": [
+    {
+      "answer": "Optic atrophy (HP:0000648) and/or sensorineural hearing loss (HP:0000407) are present in virtually >90% of reported individuals across published cohorts (e.g., Slone et al. 2018 report optic atrophy in 8/8 and auditory neuropathy/SNHL in 8/8 individuals assessed).",
+      "confidence": 0.85,
+      "aspect": "Core discriminative phenotype frequency"
+    },
+    {
+      "answer": "Gait ataxia (HP:0002066), peripheral sensory-motor neuropathy (HP:0009830), and hypotonia (HP:0001252) are present in a majority of pediatric and juvenile cases (estimated 70-85%), with spasticity developing in some older individuals.",
+      "confidence": 0.75,
+      "aspect": "Neuromuscular phenotype"
+    },
+    {
+      "answer": "Severe neonatal nonketotic hyperglycinemia, fatal infantile lactic acidosis with early pulmonary hypertension, and cystic leukodystrophy\u2014which characterize MMDS1 (NFU1), MMDS2 (BOLA3), and MMDS3 (IBA57)\u2014are typically absent or distinctly atypical in FDXR-associated MMDS9B, serving as negative discriminators.",
+      "confidence": 0.7,
+      "aspect": "Negative discriminators and differential diagnosis"
+    },
+    {
+      "answer": "Phenotypic severity correlates with the residual function of the FDXR alleles: biallelic null/truncating variants or severe missense variants affecting the NADPH- or FAD-binding domains cause early-infantile onset encephalopathy, severe microcephaly, and regression, whereas hypomorphic missense variants cause late-infantile, juvenile, or adult-onset isolated optic atrophy, auditory neuropathy, and mild peripheral neuropathy.",
+      "confidence": 0.8,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "MMDS9B",
+    "FDXR",
+    "Optic atrophy",
+    "Sensorineural hearing loss",
+    "Auditory neuropathy",
+    "Iron-sulfur cluster assembly",
+    "Ataxia",
+    "Peripheral neuropathy"
+  ],
+  "open_questions": [
+    "What are the exact numerators and denominators for optic atrophy, auditory neuropathy, microcephaly, and elevated lactate across all published FDXR case series (e.g., Paul et al. 2017, Slone et al. 2018, and subsequent case reports)?",
+    "Are systemic features such as adrenal insufficiency or impaired steroidogenesis systematically reported or absent, given FDXR's biochemical role in adrenodoxin reduction?",
+    "Which neuroimaging findings (e.g., optic nerve thinning, Leigh-like basal ganglia lesions, cerebellar atrophy) are reliably present versus absent?",
+    "Are there specific missense alleles (e.g., p.Arg386Trp or p.Arg399Gln) with distinct recurrent clinical presentations?"
+  ],
+  "assumptions": [
+    "OMIM #620887 specifically designates the autosomal recessive syndrome caused by biallelic FDXR mutations.",
+    "The diagnosis MMDS9B encompasses both severe infantile neurodegenerative forms and milder juvenile/adult optic-acoustic-neuropathy forms described under FDXR disease in the literature.",
+    "Phenotypic evaluation alone is asked to distinguish this condition from overlapping conditions (e.g., Charcot-Marie-Tooth disease type 2A, Wolfram syndrome, OPA1-plus, and other mitochondrial encephalomyopathies)."
+  ]
+}

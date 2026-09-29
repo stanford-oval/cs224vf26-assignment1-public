@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"FDXR\" \"lactate\" \"microcephaly\" \"optic atrophy\"",
+    "FDXR deficiency clinical spectrum lactate microcephaly optic acoustic neuropathy"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/humu.24160",
+      "title": "Expanding the clinical and genetic spectrum of FDXR deficiency by functional validation of variants of uncertain significance",
+      "pmid": null,
+      "doi": "10.1002/humu.24160",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24160",
+      "abstract_chars": 1049
+    },
+    {
+      "id": "10.1002/jdn.10104",
+      "title": "Report of a case with ferredoxin reductase (FDXR) gene variants in a Chinese boy exhibiting hearing loss, visual impairment, and motor retardation",
+      "pmid": null,
+      "doi": "10.1002/jdn.10104",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jdn.10104",
+      "abstract_chars": 1090
+    },
+    {
+      "id": "PMC9727669",
+      "title": "Mitochondrial biology and dysfunction in secondary mitochondrial disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9727669/",
+      "abstract_chars": 1214
+    },
+    {
+      "id": "30030362",
+      "title": "Human diseases associated with defects in assembly of OXPHOS complexes",
+      "pmid": "30030362",
+      "doi": "10.1042/ebc20170099",
+      "url": "https://portlandpress.com/essaysbiochem/article-abstract/62/3/271/78542",
+      "abstract_chars": 1733
+    },
+    {
+      "id": "PMC7791531",
+      "title": "Mitochondrial diseases: expanding the diagnosis in the era of genetic testing",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7791531/",
+      "abstract_chars": 1247
+    },
+    {
+      "id": "https://www.mousephenotype.org/data/genes/MGI:104724",
+      "title": "Fdxr | ferredoxin reductase mouse gene | IMPC",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mousephenotype.org/data/genes/MGI:104724",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/149/gene/MT-TW/",
+      "title": "MT-TW (Optic Atrophy) - Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/149/gene/MT-TW/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "29623423",
+      "title": "Clinical and genetic aspects of defects in the mitochondrial iron\u2013sulfur cluster synthesis pathway",
+      "pmid": "29623423",
+      "doi": "10.1007/s00775-018-1550-z",
+      "url": "https://link.springer.com/article/10.1007/s00775-018-1550-z",
+      "abstract_chars": 698
+    },
+    {
+      "id": "https://www.oaepublish.com/articles/jtgg.2020.34",
+      "title": "Riboflavin metabolism: role in mitochondrial function",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.oaepublish.com/articles/jtgg.2020.34",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30376-2",
+      "title": "FDXR mutations cause sensorial neuropathies and expand the spectrum of mitochondrial Fe-S-synthesis diseases",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30376-2",
+      "abstract_chars": 995
+    }
+  ],
+  "input_tokens": 4578,
+  "output_tokens": 1086,
+  "usd": 0.00555,
+  "seconds": 13.4,
+  "ok": true
+}

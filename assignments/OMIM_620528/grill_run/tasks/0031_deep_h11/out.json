@@ -1,0 +1,176 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis correctly captures that heterozygous loss-of-function/null variants undergoing nonsense-mediated decay cause distal hereditary motor neuropathy (dHMN11) or distal myopathy via haploinsufficiency, whereas dominant-negative in-frame variants cause developmental and epileptic encephalopathy (DEE5). However, the claim that this mechanism operates 'rather than repeat position' is directly contradicted by the literature: the severe DEE5 phenotype is specifically restricted to mutations located within the C-terminal alpha/beta-spectrin heterodimerization nucleation domain (repeats 20-21). Furthermore, the disease landscape is not a simple binary dichotomy between dHMN11 and DEE5; in-frame and missense mutations outside the heterodimerization domain cause intermediate phenotypes including spastic paraplegia, cerebellar ataxia, and milder neurodevelopmental disorders, and loss-of-function variants have also been associated with ataxia and intellectual disability.",
+  "evidence": [
+    {
+      "text": "Heterozygous nonsense mutations in SPTAN1 leading to nonsense-mediated mRNA decay and reduced protein levels were identified in dominant juvenile-onset hereditary motor neuropathy (dHMN), demonstrating that haploinsufficiency leads to peripheral neuropathy without severe epileptic encephalopathy.",
+      "stance": "supports",
+      "source": {
+        "title": "Nonsense mutations in alpha-II spectrin in three families with juvenile onset hereditary motor neuropathy",
+        "authors": [
+          "D Beijer",
+          "T Deconinck",
+          "JL De Bleecker",
+          "MT Dotti"
+        ],
+        "year": 2019,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awz224",
+        "pmid": "31411649",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/142/9/2605/5536902",
+        "quote": "We identified patients with heterozygous nonsense mutations in the \u03b1II-spectrin gene, SPTAN1, in three separate dominant hereditary motor neuropathy families via next-generation sequencing. ... The mutant mRNA containing nonsense mutations is broken down by nonsense-mediated decay and leads to reduced protein levels in patient cells."
+      },
+      "numbers": [
+        {
+          "metric": "Number of dHMN families with heterozygous nonsense mutations",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "SPTAN1 encephalopathy with severe hypomyelination, hypsarrhythmia, and pontocerebellar atrophy is specifically restricted to in-frame mutations located within the last two spectrin repeats in the C-terminal region (the heterodimer nucleation domain), demonstrating that repeat position is critical to the DEE5 pathomechanism.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SPTAN1 encephalopathy: distinct phenotypes and genotypes",
+        "authors": [
+          "J Tohyama",
+          "M Nakashima",
+          "S Nabatame"
+        ],
+        "year": 2015,
+        "journal": "Journal of Human Genetics",
+        "doi": "10.1038/jhg.2015.5",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/jhg20155",
+        "quote": "Only in-frame SPTAN1 mutations in the last two spectrin repeats in the C-terminal region lead to dominant negative effects and these specific phenotypes. The last two spectrin repeats are required for \u03b1/\u03b2 spectrin heterodimer associations and the mutations can alter heterodimer formation between the two spectrins."
+      },
+      "numbers": [
+        {
+          "metric": "Total epileptic patients reported with in-frame SPTAN1 mutations in review",
+          "value": 7
+        },
+        {
+          "metric": "Number of distinct in-frame SPTAN1 mutations",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Mutation position strongly dictates phenotypic outcome: 12 of 13 patients with mutations in the alpha/beta heterodimer contact site showed severe epileptic encephalopathy and progressive brain atrophy with spectrin aggregate formation, whereas 7 patients with mutations outside this domain had milder phenotypes (intellectual disability, isolated epilepsy, or normal imaging), disproving the assertion that repeat position is secondary.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Delineating SPTAN1 associated phenotypes: from isolated epilepsy to encephalopathy with progressive brain atrophy",
+        "authors": [
+          "S Syrbe",
+          "FL Harms",
+          "E Parrini",
+          "M Montomoli",
+          "U M\u00fctze"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awx195",
+        "pmid": "29050398",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/9/2322/4096697",
+        "quote": "Twelve of 13 patients with mutations located within the spectrin heterodimer contact site exhibited severe and progressive brain, brainstem and cerebellar atrophy, with hypomyelination in most. ... Out of seven patients harbouring mutations outside the \u03b1/\u03b2 spectrin heterodimerization domain, four had normal brain imaging and three exhibited moderately progressive brain and/or cerebellar atrophy."
+      },
+      "numbers": [
+        {
+          "metric": "Patients with severe atrophy and hypomyelination among heterodimer contact site mutations",
+          "value": "12/13"
+        },
+        {
+          "metric": "Patients with normal brain imaging among mutations outside heterodimer domain",
+          "value": "4/7"
+        },
+        {
+          "metric": "Recurrent p.(Asp2303_Leu2305dup) mutation frequency in cohort",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Missense and in-frame mutations in SPTAN1 can cause autosomal dominant spastic paraplegia and cerebellar ataxia via disruption of the three-helix bundle interlinking rather than severe DEE5, demonstrating a continuum of phenotypes beyond the dHMN11 vs DEE5 dichotomy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De Novo and Dominantly Inherited SPTAN1 Mutations Cause Spastic Paraplegia and Cerebellar Ataxia",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "D Beijer"
+        ],
+        "year": 2022,
+        "journal": "Movement Disorders",
+        "doi": "10.1002/mds.28959",
+        "pmid": "35150594",
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mds.28959",
+        "quote": "We describe 22 patients from 14 families with five novel SPTAN1 variants. Of six patients with cerebellar ataxia, four carry a de novo SPTAN1 variant and two show a sporadic inheritance. ... We furthermore report a recurrent missense mutation (p.Arg19Trp) in 15 patients with spastic paraplegia from seven families with a dominant inheritance pattern..."
+      },
+      "numbers": [
+        {
+          "metric": "Total patients with ataxia or spastic paraplegia carrying novel SPTAN1 variants",
+          "value": 22
+        },
+        {
+          "metric": "Families with novel SPTAN1 variants",
+          "value": 14
+        },
+        {
+          "metric": "Patients with recurrent p.Arg19Trp spastic paraplegia mutation",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Loss-of-function variants in SPTAN1 can result in cerebellar ataxia, intellectual disability, developmental delay, and seizures rather than exclusively pure juvenile/adult distal motor neuropathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Loss of Function SPTAN1 Variants Result in Ataxia and Intellectual Disability",
+        "authors": [
+          "PN Lu",
+          "C Melton",
+          "B Dupont",
+          "JR Jones",
+          "F Abidi"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14732",
+        "pmid": "39988451",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14732",
+        "quote": "Here we describe two patients with loss-of-function variants in SPTAN1. One patient has ataxia and mild intellectual disability stemming from a de novo homozygous p.(Gln1448Pro) variant associated with uniparental disomy 9. The second patient, carrying a heterozygous p.(Asn1839del) allele, exhibits more substantial motor issues, developmental delay, and seizures."
+      },
+      "numbers": [
+        {
+          "metric": "Number of patients described with loss-of-function variants presenting with ataxia/ID",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Repeat position vs. mutational mechanism: Tohyama et al. (2015) and Syrbe et al. (2017) show that position is crucial; dominant-negative aggregation and DEE5 only occur when in-frame mutations fall within the C-terminal alpha/beta-spectrin heterodimerization domain (repeats 20-21).",
+    "Binary dichotomy vs. spectrum: Van de Vondel et al. (2022) identified dominant missense variants causing hereditary spastic paraplegia (p.Arg19Trp in 15 patients) and cerebellar ataxia, establishing intermediate neurological diseases that violate a strict dHMN11 vs DEE5 dichotomy.",
+    "Haploinsufficiency phenotype: Lu et al. (2025) identified loss-of-function alleles presenting with ataxia, developmental delay, intellectual disability, and seizures, refuting the claim that haploinsufficiency strictly produces adult/juvenile distal neuromuscular disease."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "Does dominant-negative aggregation of alpha-II spectrin occur with any mutations situated outside spectrin repeats 20-21, or is aggregation strictly confined to the heterodimer nucleation site?",
+      "rationale": "Elucidating whether non-dimerization domain missense variants (e.g., those causing ataxia or spastic paraplegia) form insolubility aggregates or destabilize triple-helix spectrin repeat bundles without aggregation will define the biophysical basis of SPTAN1 pleiotropy.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What modifier genes or tissue-specific expression thresholds explain why some loss-of-function SPTAN1 alleles cause isolated dHMN/distal myopathy while others cause cerebellar ataxia and intellectual disability?",
+      "rationale": "Explaining the phenotypic variability among loss-of-function and haploinsufficient alleles is essential for accurate clinical prognosis and identifying tissue-specific susceptibility of motor neurons versus cerebellar Purkinje cells.",
+      "promise": 0.78,
+      "est_cost": 40000
+    }
+  ]
+}

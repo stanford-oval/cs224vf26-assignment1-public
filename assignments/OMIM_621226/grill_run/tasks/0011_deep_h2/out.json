@@ -1,0 +1,107 @@
+{
+  "verdict": "supported",
+  "rationale": "Clinical and genetic reports for TUBA4A-related spastic ataxia (SPAX11, OMIM #621226) consistently describe a phenotype characterized by a combination of cerebellar ataxia and corticospinal spasticity with variable age of onset. This presentation differentiates it robustly from uncomplicated 'pure' hereditary spastic paraplegias (which typically lack prominent cerebellar symptoms and marked cerebellar atrophy). However, the combined spastic-ataxic syndrome in SPAX11 mirrors that of complicated HSPs (notably SPG7) and dominant spinocerebellar ataxias with pyramidal features (such as SCA1, SCA2, and SCA3), precluding confident phenotypic differentiation in the absence of genetic testing.",
+  "evidence": [
+    {
+      "text": "Screening of 448 unrelated probands presenting with cerebellar ataxia identified ultra-rare predicted pathogenic TUBA4A variants, and 12 patients presented with spasticity and/or cerebellar ataxia with variable age of onset.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+        "authors": [
+          "M Benkirane",
+          "M Bonhomme",
+          "H Morsy",
+          "SL Safgren"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awae193",
+        "pmid": "38884572",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+        "quote": "Taken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation, including five confirmed de novo cases and a mutation previously reported in a large family presenting with spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size_ataxia_probands",
+          "value": 448
+        },
+        {
+          "metric": "patients_identified_with_spasticity_or_ataxia",
+          "value": 12
+        },
+        {
+          "metric": "odds_ratio_100kgp_inherited_ataxia",
+          "value": 57.0847
+        }
+      ]
+    },
+    {
+      "text": "Investigation of two families carrying the p.Glu415Lys variant in TUBA4A demonstrated a spastic ataxia phenotype in 12 affected individuals (one family with 11 affected individuals and another with a single patient), widening the differential diagnosis of complex spastic ataxias.",
+      "stance": "supports",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": "37418012",
+        "pmc": "PMC10511369",
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000). The phenotype, not previously described, is that of spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "family_1_affected_count",
+          "value": 11
+        },
+        {
+          "metric": "family_2_affected_count",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Review of TUBA4A pleiotropy highlights associations across ALS, frontotemporal dementia, spastic ataxia, adult-onset myasthenic syndrome, and myopathy, demonstrating that TUBA4A variants can present with non-ataxic phenotypes.",
+      "stance": "neutral",
+      "source": {
+        "title": "TUBA4A Pathogenic Variant Manifesting With Adulthood\u2010Onset Genetic Myasthenic Syndrome, Myopathy, and Infertility",
+        "authors": [
+          "M Milone",
+          "S Nicolau",
+          "Z Niu",
+          "T Liewluck"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.70753",
+        "pmid": "42725680",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.70753",
+        "quote": "TUBA4A pathogenic variants are associated with ALS, frontotemporal dementia, spastic ataxia, spasticity, ataxia, Parkinson's disease, female infertility, macrothrombocytopenia, and myopathy."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.9,
+  "new_directions": [
+    {
+      "question_text": "Does oculomotor tracking or detailed neurophysiological assessment (e.g., multimodal evoked potentials and central motor conduction time) provide diagnostic features differentiating SPAX11 from SPG7?",
+      "rationale": "Both disorders display cerebellar and corticospinal involvement; systematic comparative physiological testing across cohorts is needed to assess non-genetic discrimination.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What are the precise genotype-phenotype correlations governing why specific TUBA4A missense variants cause spastic ataxia versus motor neuron disease (ALS/FTD) or congenital/adult-onset myopathy?",
+      "rationale": "Clarifying domain-specific or functional impacts on microtubule assembly could explain phenotypic divergence and assist in variant interpretation.",
+      "promise": 0.88,
+      "est_cost": 45000
+    }
+  ]
+}

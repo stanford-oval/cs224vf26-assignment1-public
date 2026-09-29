@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620793",
+ "omim": "OMIM:620793",
+ "disease": "Muscular dystrophy, limb-girdle, autosomal recessive 29",
+ "gene": "SNUPN",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1659,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Muscular dystrophy, limb-girdle, autosomal recessive 29 (SNUPN, OMIM:620793):\n\n[1] 620793 - MUSCULAR DYSTROPHY, LIMB-GIRDLE ...\nhttps://omim.org/entry/620793\nautosomal recessive limb-girdle muscular dystrophy-29 (LGMDR29) is caused by homozygous or compound heterozygous mutation in the SNUPN gene ( ...\n\n[2] autosomal recessive limb-girdle muscular dystrophy type 29\nhttps://www.alliancegenome.org/disease/DOID:0061134\nAn autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...\n\n[3] autosomal recessive limb-girdle muscular dystrophy type 29\nhttps://flybase.org/cgi-bin/cvreport.pl?id=DOID:0061134\nAn autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...\n\n[4] Gene: SNUPN (Limb girdle muscular dystrophies ...\nhttps://panelapp.genomicsengland.co.uk/panels/185/gene/SNUPN/\nMode of inheritance. BIALLELIC, autosomal or pseudoautosomal ; Phenotypes Muscular dystrophy, limb-girdle, autosomal recessive 29, OMIM:620793 ; Publications.\n\n[5] SNUPN deficiency causes a recessive muscular dystrophy ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC10899626/\nby M Nashabat \u00b7 2024 \u00b7 Cited by 10 \u2014 Our findings establish SNUPN deficiency as the genetic etiology of a previously unrecognized subtype of muscular dystrophy and provide robust evidence of the ...\n\n[6] autosomal recessive limb-girdle muscular dystrophy type 29\nhttps://www.informatics.jax.org/disease/DOID:0061134\nAn autosomal recessive limb-girdle muscular dystrophy characterized by onset of muscle weakness predominantly affecting the proximal lower limbs, SNUPN gene on ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 60.0, male)\n  observed: Cirrhosis, Functional abnormality of the bladder, Spastic gait, Babinski sign, Ankle clonus, Dementia, EMG: myopathic abnormalities, Lower limb muscle weakness\n  recorded ABSENT: Elevated circulating creatine kinase activity, Nystagmus, Saccadic smooth pursuit interruptions, Ataxia, Cerebellar atrophy, Scoliosis, Upper limb muscle weakness, Skeletal muscle atrophy\n\nP02 (age 3.7, male)\n  observed: Failure to thrive, Microcephaly, Deeply set eye, Prominent nose, Carious teeth, Cerebral atrophy, Ventriculomegaly, Retinal pigment epithelial mottling, Severe short stature, Global developmental delay, Sensorineural hearing impairment, Joint contracture\n  recorded ABSENT: Cerebellar atrophy, Basal ganglia calcification, Cutaneous photosensitivity\n\nP03 (age 16.0, male)\n  observed: Foot dorsiflexor weakness, Distal lower limb muscle weakness, Pes planus, Distal lower limb amyotrophy, Decreased motor nerve conduction velocity, Motor axonal neuropathy, Steppage gait\n  recorded ABSENT: Hammertoe, Distal upper limb amyotrophy, Pes cavus, Areflexia of lower limbs, Scoliosis, Impaired distal tactile sensation\n\nP04 (age 19.0, male)\n  observed: Lower limb amyotrophy, Hyporeflexia of lower limbs, Motor axonal neuropathy, Steppage gait, Foot dorsiflexor weakness, Lower limb muscle weakness, Achilles tendon contracture\n  recorded ABSENT: Upper limb amyotrophy, Pes cavus, Hammertoe, Hallux valgus, Claw toe deformity, Areflexia of upper limbs, Areflexia of lower limbs, Hyporeflexia of upper limbs, Impaired vibratory sensation, Hypoesthesia, Loss of ambulation, Upper limb muscle weakness, Frequent falls\n\nP05 (age 43.0, female)\n  observed: Elevated circulating creatine kinase activity, Respiratory insufficiency, Proximal upper limb muscle weakness, Distal upper limb muscle weakness, Proximal lower limb muscle weakness, Distal lower limb muscle weakness, Ophthalmoplegia, Ptosis, Dysphagia\n  recorded ABSENT: Dysphonia, Ankle contracture, Loss of ambulation, Axial muscle weakness\n\nP06 (age 19.5, male)\n  observed: Gowers sign, Neck muscle weakness, Respiratory insufficiency, Easy fatigability, Ophthalmoplegia, Ptosis, Weakness of facial musculature, Hyperlordosis\n  recorded ABSENT: Shoulder girdle muscle weakness, Proximal upper limb muscle weakness, Hypernasal speech, Waddling gait\n\nP07 (age 23.0, male)\n  observed: Distal lower limb muscle weakness, Distal upper limb muscle weakness, Weakness of long finger extensor muscles, Lower limb spasticity, Foot dorsiflexor weakness, Distal upper limb amyotrophy, Distal lower limb amyotrophy, Motor axonal neuropathy, Hyperreflexia, Babinski sign, Absent Achilles reflex, Tip-toe gait, Action tremor, Spastic gait, Pes cavus, Hammertoe\n  recorded ABSENT: Proximal lower limb muscle weakness, Urinary urgency, Motor delay, Intellectual disability, Pes planus, Hyperlordosis, Bulbar palsy\n\nP08 (age 10.0, female)\n  observed: Dysarthria, Motor delay, Hypotonia, Distal lower limb muscle weakness, Areflexia, Short stature, Talipes equinovarus, Sandal gap, Camptodactyly, Arachnodactyly\n  recorded ABSENT: Elevated circulating creatine kinase activity, Intellectual disability, Proximal lower limb muscle weakness, Distal upper limb muscle weakness, Proximal upper limb muscle weakness, Pes planus, Myopathic facies, Scoliosis, Recurrent lower respiratory tract infections\n\nP09 (age 40.0, male)\n  observed: Achilles tendon contracture, Hip contracture, Elbow contracture, Gait disturbance, Difficulty running, Spinal rigidity, Scoliosis, Arrhythmia, Proximal amyotrophy, Scapular winging, Proximal upper limb muscle weakness, Proximal lower limb muscle weakness, Stiff neck\n  recorded ABSENT: Knee contracture, Wrist flexion contracture, Finger joint contracture, Thoracic kyphosis, Hyperlordosis, Loss of ambulation, Abnormal left ventricular function, Scapuloperoneal amyotrophy, Scapular muscle atrophy, Distal amyotrophy, Pes cavus, Calf muscle pseudohypertrophy, Upper limb amyotrophy, Generalized amyotrophy, Lower limb amyotrophy, Talipes equinovarus, Distal upper limb muscle weakness, Distal lower limb muscle weakness, Lipodystrophy\n\nP10 (age 24.0, female)\n  observed: Difficulty climbing stairs, Proximal upper limb muscle weakness, Distal upper limb muscle weakness, Proximal lower limb muscle weakness, Distal lower limb muscle weakness, Joint contracture, Hyperlordosis, Accumulation of muscle fiber myotilin, Abnormal Z disk morphology, Mildly elevated creatine kinase, Restrictive ventilatory defect\n  recorded ABSENT: Loss of ambulation, Global developmental delay, Cardiomyopathy, Weakness of facial musculature, Joint hypermobility, Highly elevated creatine kinase\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P09",
+     "probability": 0.75,
+     "for": "Demonstrates proximal lower limb muscle weakness, proximal upper limb weakness, proximal amyotrophy, scapular winging, and gait disturbance, which match the core features of limb-girdle muscular dystrophy.",
+     "against": "Displays prominent multi-joint contractures, spinal rigidity, and cardiac arrhythmia, which resemble an Emery-Dreifuss or rigid spine muscular dystrophy phenotype."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.15,
+     "for": "Features proximal lower limb muscle weakness, difficulty climbing stairs, proximal upper limb weakness, and mildly elevated creatine kinase consistent with a limb-girdle pattern.",
+     "against": "Presents pathognomonic biopsy findings including abnormal Z disk morphology and accumulation of muscle fiber myotilin, which specifically define myotilinopathy (myofibrillar myopathy)."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Exhibits proximal lower limb muscle weakness accompanied by significantly elevated circulating creatine kinase activity.",
+     "against": "Has prominent ptosis, ophthalmoplegia, and dysphagia indicative of an oculopharyngeal or mitochondrial myopathy, alongside distal limb involvement."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Shows a positive Gowers sign and hyperlordosis reflecting pelvic girdle involvement.",
+     "against": "Shoulder girdle and proximal upper limb weakness are explicitly recorded as absent, and the patient displays prominent ptosis, ophthalmoplegia, and easy fatigability."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.02,
+     "for": "Features lower limb muscle weakness along with myopathic abnormalities on EMG.",
+     "against": "Creatine kinase is documented as normal, upper limb weakness is absent, and there are prominent upper motor neuron signs (Babinski, clonus, spastic gait) and dementia."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical manifestations from the primary literature regarding SNUPN deficiency, particularly whether patients exhibit associated features such as cardiac conduction defects, spine rigidity, joint contractures, or distinct histopathological findings beyond generic proximal lower limb muscular dystrophy.",
+   "tokens_in": 1801,
+   "tokens_out": 3696,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P09",
+     "probability": 0.65,
+     "for": "Demonstrates limb-girdle muscular dystrophy manifestations including proximal lower limb muscle weakness, proximal upper limb weakness, and proximal amyotrophy, closely aligning with weakness predominantly affecting the proximal limbs.",
+     "against": "Presents with prominent features of Emery-Dreifuss-like spectrum including spinal rigidity, elbow contracture, and arrhythmia that are not specifically detailed in the provided brief."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.2,
+     "for": "Presents with proximal lower limb muscle weakness and difficulty climbing stairs along with elevated creatine kinase consistent with muscular dystrophy.",
+     "against": "Has concurrent distal upper and distal lower limb muscle weakness rather than weakness predominantly localized to the proximal lower limbs, as well as distinct ultrastructural myotilin and Z-disk pathology."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.08,
+     "for": "Features proximal lower limb muscle weakness and elevated circulating creatine kinase activity typical of a muscular dystrophy.",
+     "against": "Exhibits significant cranial and bulbar involvement (ptosis, ophthalmoplegia, dysphagia) and concurrent distal weakness, which diverge from a pure limb-girdle presentation."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.04,
+     "for": "Shows Gowers sign and hyperlordosis indicative of pelvic and proximal lower limb weakness.",
+     "against": "Proximal upper limb and shoulder girdle weakness are recorded as absent, and the patient displays prominent ocular and facial weakness (ptosis, ophthalmoplegia)."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.03,
+     "for": "Demonstrates lower limb muscle weakness and myopathic abnormalities on EMG.",
+     "against": "Circulating creatine kinase activity is normal, upper limb weakness is absent, and the presentation is dominated by upper motor neuron signs (Babinski sign, spastic gait, ankle clonus) and multi-organ involvement (cirrhosis, dementia)."
+    }
+   ],
+   "what_the_report_lacked": "Detailed clinical descriptions beyond the brief definition, including typical age of onset, creatine kinase levels, presence or absence of cardiac and joint contractures, muscle biopsy/histopathology findings, and specific distinguishing extra-muscular features.",
+   "tokens_in": 1801,
+   "tokens_out": 2975,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.85,
+     "for": "Demonstrates proximal upper and lower limb weakness causing difficulty climbing stairs, joint contractures, hyperlordosis, restrictive ventilatory defect, mildly elevated creatine kinase, and myofibrillar pathology including abnormal Z-disc morphology and myotilin accumulation characteristic of SNUPN-related muscular dystrophy.",
+     "against": "Concomitant distal muscle weakness is present alongside the classic proximal limb-girdle distribution."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.08,
+     "for": "Presents with proximal upper and lower limb muscle weakness, proximal amyotrophy, scapular winging, and difficulty running consistent with a limb-girdle pattern.",
+     "against": "Prominent triad of early elbow and Achilles tendon contractures, spinal rigidity, and cardiac arrhythmia is classic for Emery-Dreifuss muscular dystrophy rather than LGMDR29."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.04,
+     "for": "Features both proximal upper and lower limb muscle weakness, elevated creatine kinase activity, and respiratory compromise.",
+     "against": "Prominent ptosis, ophthalmoplegia, and dysphagia strongly indicate oculopharyngodistal myopathy or a mitochondrial disorder rather than LGMDR29."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.02,
+     "for": "Exhibits Gowers sign, hyperlordosis, and respiratory insufficiency compatible with a progressive myopathy.",
+     "against": "Prominent ophthalmoplegia, ptosis, facial weakness, and fatigability with recorded absence of shoulder girdle and proximal upper limb weakness point toward congenital myasthenic syndrome or mitochondrial myopathy."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.01,
+     "for": "Exhibits lower limb muscle weakness accompanied by myopathic abnormalities on EMG.",
+     "against": "Presence of dementia, cirrhosis, spastic gait, Babinski sign, and clonus alongside normal creatine kinase activity indicates a complex neurodegenerative or metabolic disorder rather than a primary limb-girdle muscular dystrophy."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed muscle biopsy immunohistochemistry (such as snRNP localization or snurportin-1 protein expression), muscle MRI fatty replacement patterns, and genetic sequencing confirmation to definitively distinguish SNUPN-related limb-girdle muscular dystrophy from other myofibrillar and Emery-Dreifuss-like dystrophies.",
+   "tokens_in": 1801,
+   "tokens_out": 9309,
+   "round": 3
+  }
+ ]
+}

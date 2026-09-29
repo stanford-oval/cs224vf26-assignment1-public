@@ -1,0 +1,78 @@
+{
+  "patterns": [
+    {
+      "pattern": "Biallelic NOTCH3 mutations split into two distinct, non-overlapping phenotypic and chronological syndromes based strictly on variant molecular consequence",
+      "abstraction": "A single genetic locus can manifest as two non-continuous clinical diseases where complete loss-of-function yields severe pediatric developmental arrest, while structural missense variants yield delayed adult-onset neurodegeneration.",
+      "instance": "In the global cohort of 50 biallelic NOTCH3 patients, 26 with loss-of-function null variants presented in infancy (9 to 14 months) with developmental delay, seizures, spasticity, and early strokes, whereas 24 with cysteine-involving missense variants presented in early adulthood (3rd to 5th decades) with classic CADASIL-like subcortical ischemic events and dementia.",
+      "direction": "Establish formal separate clinical and OMIM sub-classifications for pediatric biallelic NOTCH3 loss-of-function leukoencephalopathy versus adult biallelic cysteine-altering CADASIL.",
+      "support": "Strong pooled evidence from 50 clinically and genetically characterized patients evaluated across multiple international multicenter cohorts.",
+      "sources": [
+        "P Iruzubieta et al. (2024) Clinical and neuroradiological spectrum of biallelic variants in NOTCH3 PMC11400611",
+        "MD Stellingwerff et al. (2022) Early-onset vascular leukoencephalopathy caused by bi-allelic NOTCH3 variants 10.1055/a-1739-2722",
+        "B Tasharrofi et al. (2024) Distinct neurological phenotypes associated with biallelic loss of NOTCH3 function: evidence for recessive inheritance 10.1007/s11033-024-09560-z",
+        "F Al (2023) Autosomal recessive NOTCH3-related leukodystrophy in two siblings and review of the literature https://www.sciencedirect.com/science/article/pii/S0887899423002163"
+      ],
+      "hypothesis": "NOTCH3 loss-of-function disrupts early cerebrovascular developmental signaling causing mural hypoplasia, whereas cysteine-involving missense variants cause toxic, age-dependent extracellular GOM accumulation.",
+      "novelty": "Refutes the concept of recessive NOTCH3 disease as a phenotypic continuum or simple homozygous CADASIL, revealing two mutually exclusive pathogenic entities under OMIM #621295."
+    },
+    {
+      "pattern": "Variant-specific spatial neuroimaging topography: periatrial leukomalacia-like volume loss distinguishes biallelic loss-of-function from temporal-predominant CADASIL patterns",
+      "abstraction": "Mutational classes within the same gene drive mutually exclusive anatomical lesion topographies on neuroimaging.",
+      "instance": "Biallelic loss-of-function NOTCH3 variants cause periatrial and periventricular white matter volume loss mimicking periventricular leukomalacia accompanied by microcalcifications, whereas cysteine-altering missense variants consistently cause deep white matter hyperintensities and early anterior temporal pole lesions.",
+      "direction": "Develop automated MRI volumetric and topographic scoring systems that quantify periatrial volume loss versus anterior temporal hyperintensity to rapidly sort pediatric vascular leukodystrophies.",
+      "support": "Consistent neuroimaging correlations observed in multiple independent cohorts totaling 26 loss-of-function and 24 missense cases.",
+      "sources": [
+        "MD Stellingwerff et al. (2022) Early-onset vascular leukoencephalopathy caused by bi-allelic NOTCH3 variants 10.1055/a-1739-2722",
+        "P Iruzubieta et al. (2024) Clinical and neuroradiological spectrum of biallelic variants in NOTCH3 PMC11400611",
+        "B Tasharrofi et al. (2024) Distinct neurological phenotypes associated with biallelic loss of NOTCH3 function: evidence for recessive inheritance 10.1007/s11033-024-09560-z",
+        "A Ouskri et al. (2025) A novel homozygous loss-of-function NOTCH3 variant in a Moroccan patient: expanding the spectrum beyond CADASIL 10.1007/s10048-025-00862-3"
+      ],
+      "hypothesis": "Periatrial white matter watershed areas are uniquely vulnerable to developmental flow impairment caused by biallelic loss of vascular smooth muscle NOTCH3 signaling.",
+      "novelty": "Identifies periventricular leukomalacia phenocopying in full-term infants without hypoxic-ischemic birth injury as a specific diagnostic clue for recessive NOTCH3 loss-of-function arteriopathy."
+    },
+    {
+      "pattern": "Diagnostic discrimination via negative phenotypes: systematic absence of anterior temporal lesions and extraneurological CARASIL signs rules out primary phenocopies",
+      "abstraction": "Obligate negative discriminators (features consistently absent in the target condition) offer higher diagnostic specificity than shared core neuroimaging or stroke manifestations.",
+      "instance": "Sparing of the anterior temporal pole on T2/FLAIR reliably discriminates pediatric biallelic loss-of-function NOTCH3 patients from classic CADASIL, while the complete absence of premature alopecia (HP:0002297) and degenerative spondylosis (HP:0003419) rules out CARASIL (HTRA1).",
+      "direction": "Construct negative-feature diagnostic decision algorithms for early-onset genetic small vessel diseases.",
+      "support": "Multi-cohort validation where anterior temporal pole sparing occurred in 3/3 assessed patients and extraneurological CARASIL features were absent across biallelic NOTCH3 cohorts.",
+      "sources": [
+        "MD Stellingwerff et al. (2022) Early-onset vascular leukoencephalopathy caused by bi-allelic NOTCH3 variants 10.1055/a-1739-2722",
+        "S Tikka et al. (2014) Cadasil and Carasil 10.1111/bpa.12181",
+        "T Fukutake (2011) Cerebral autosomal recessive arteriopathy with subcortical infarcts and leukoencephalopathy (CARASIL): from discovery to gene identification 10.1016/j.jstrokecerebrovasdis.2010.11.008",
+        "B Tasharrofi et al. (2024) Distinct neurological phenotypes associated with biallelic loss of NOTCH3 function: evidence for recessive inheritance 10.1007/s11033-024-09560-z"
+      ],
+      "hypothesis": "Tissue-restricted pathology in NOTCH3 loss-of-function reflects cerebral-specific dependence on NOTCH3 signaling, unlike HTRA1 which regulates TGF-beta in hair follicles and intervertebral discs.",
+      "novelty": "Establishes that negative neuroradiological signs (anterior temporal sparing) and absent systemic findings together differentiate recessive NOTCH3 disease from both dominant CADASIL and recessive CARASIL."
+    },
+    {
+      "pattern": "Low penetrance of peripheral cutaneous microvascular signs limits their utility as gating diagnostic criteria",
+      "abstraction": "Peripheral microvascular manifestations in systemic monogenic arteriopathies often demonstrate incomplete penetrance, rendering them unsuited as mandatory clinical diagnostic criteria.",
+      "instance": "Cutaneous vascular signs such as livedo reticularis or livedo racemosa occur in under 35% of pediatric biallelic NOTCH3 loss-of-function patients, being documented as absent in 2/2 siblings in one cohort and seen only intermittently in others.",
+      "direction": "Standardize systemic dermatologic examination combined with skin punch biopsies across all suspected pediatric genetic arteriopathies to determine true subclinical vascular penetrance.",
+      "support": "Cross-cohort observations indicating absence or low frequency of livedo manifestations across pediatric series.",
+      "sources": [
+        "F Al-Amrani (2023) Autosomal Recessive NOTCH3-Related Leukodystrophy in ... https://www.sciencedirect.com/science/article/pii/S0887899423002163",
+        "MD Stellingwerff et al. (2022) Early-onset vascular leukoencephalopathy caused by bi-allelic NOTCH3 variants 10.1055/a-1739-2722",
+        "P Iruzubieta et al. (2024) Clinical and neuroradiological spectrum of biallelic variants in NOTCH3 PMC11400611",
+        "B Tasharrofi et al. (2024) Distinct neurological phenotypes associated with biallelic loss of NOTCH3 function: evidence for recessive inheritance 10.1007/s11033-024-09560-z"
+      ],
+      "hypothesis": "Cerebral small vessels possess lower collateralization and higher wall-shear stress than cutaneous microvessels, allowing loss of NOTCH3 function to cause severe encephalopathy while cutaneous vessels remain subclinically compensated.",
+      "novelty": "Challenges the clinical reflex to require cutaneous signs like livedo reticularis before suspecting primary vascular leukodystrophies in pediatric stroke patients."
+    },
+    {
+      "pattern": "Apparent spatial lesion overlap emerges as an artifact of end-stage cerebral atrophy rather than primary disease predilection",
+      "abstraction": "Advanced diffuse neurodegeneration can obscure early pathognomonic spatial signatures, creating apparent contradictions in lesion distribution between early and late disease stages.",
+      "instance": "Apparent temporal lobe white matter hyperintensities in adolescent homozygous loss-of-function patients (such as a 12-year-old Moroccan proband) reflect generalized white matter rarefaction and end-stage atrophy rather than the early, selective anterior temporal pole hyperintensity characteristic of CADASIL.",
+      "direction": "Implement longitudinal, stage-stratified neuroimaging protocols to differentiate early selective white matter hyperintensity topography from late-stage generalized parenchymal volume loss.",
+      "support": "Reconciliation of conflicting reports showing strict temporal sparing in early childhood cohorts (3/3 patients) contrasted with temporal signal alterations in advanced adolescent probands.",
+      "sources": [
+        "MD Stellingwerff et al. (2022) Early-onset vascular leukoencephalopathy caused by bi-allelic NOTCH3 variants 10.1055/a-1739-2722",
+        "A Ouskri et al. (2025) A novel homozygous loss-of-function NOTCH3 variant in a Moroccan patient: expanding the spectrum beyond CADASIL 10.1007/s10048-025-00862-3",
+        "P Iruzubieta et al. (2024) Clinical and neuroradiological spectrum of biallelic variants in NOTCH3 PMC11400611"
+      ],
+      "hypothesis": "The anterior temporal pole white matter in biallelic loss-of-function patients is structurally preserved during early disease stages and undergoes signal change only secondary to pan-cortical deafferentation and end-stage parenchymal loss.",
+      "novelty": "Resolves a published literature contradiction by showing that late-stage temporal atrophy phenocopies primary CADASIL-like temporal pole lesions."
+    }
+  ]
+}

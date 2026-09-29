@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620988",
+ "omim": "OMIM:620988",
+ "disease": "Intellectual developmental disorder, autosomal dominant 75",
+ "gene": "DHX9",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1507,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Intellectual developmental disorder, autosomal dominant 75 (DHX9, OMIM:620988):\n\n[1] 620988 - INTELLECTUAL DEVELOPMENTAL DISORDER, ...\nhttps://omim.org/entry/620988\nautosomal dominant intellectual developmental disorder-75 (MRD75) is caused by heterozygous mutation in the DHX9 gene (603115) on chromosome 1q ...\n\n[2] Intellectual Developmental Disorder, Autosomal Dominant 75\nhttps://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_75\nAutosomal dominant intellectual developmental disorder-75 (MRD75) is a neurodevelopmental disorder with material basis in heterozygous mutation in DHX9 on ...\n\n[3] autosomal dominant intellectual developmental disorder 75\nhttps://zfin.org/DOID:0061048\nAn autosomal dominant intellectual developmental disorder that heterozygous mutation in the DHX9 gene on chromosome 1q25.\n\n[4] autosomal dominant intellectual developmental disorder 75 ...\nhttps://www.informatics.jax.org/disease/DOID:0061048\nDefinition: An autosomal dominant intellectual developmental disorder that has_material_basis_in heterozygous mutation in the DHX9 gene on chromosome 1q25. Term ...\n\n[5] DHX9\nhttps://panelapp.genomicsengland.co.uk/panels/genes/DHX9\nGreen DHX9 in Intellectual disability. Level 2: Developmental ... Phenotypes. Intellectual developmental disorder, autosomal dominant 75, OMIM:620988.\n\n[6] DHX9 - DECIPHER v11.40\nhttps://www.deciphergenomics.org/gene/DHX9/overview/clinical-info\nDHX9-related neurodevelopmental disorder. Intellectual developmental disorder, autosomal dominant 75 (Autosomal dominant) - GenCC Strong: 2 Moderate: 1\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age None, female)\n  observed: Abnormal cortical gyration, Low-set ears, Linear earlobe crease, Cleft palate, Depressed nasal bridge, Hypotonia, Global developmental delay, Epicanthus, Hypertelorism, Ventricular septal defect\n  recorded ABSENT: Small for gestational age, Agenesis of corpus callosum, Hypoplasia of the corpus callosum, Hydronephrosis, Colpocephaly, Anal atresia, Anteverted ears, Stenosis of the external auditory canal, Broad inferior crus of antihelix, Microtia, Protruding ear, Dental crowding, High palate, Short philtrum, Smooth philtrum, Tented upper lip vermilion, Thick vermilion border, Prominent nasal bridge, Seizure, Upslanted palpebral fissure, Downslanted palpebral fissures, Atrioventricular canal defect, Atrial septal defect, Mitral regurgitation, Patent ductus arteriosus (+4 more)\n\nP02 (age 30.0, male)\n  observed: Dental crowding, Narrow palate, Narrow mouth, Downturned corners of mouth, Blepharophimosis, Narrow palpebral fissure, Highly arched eyebrow, Hypertelorism, Ptosis, Low-set ears, Delayed speech and language development, Global developmental delay, Delayed ability to walk, Moderate intellectual disability, Attention deficit hyperactivity disorder, Frequent falls\n  recorded ABSENT: Smooth philtrum, Short philtrum, Long philtrum, Thin upper lip vermilion, Everted lower lip vermilion, Widely spaced teeth, Midface retrusion, Epicanthus, Long eyelashes, Upslanted palpebral fissure, Hooded eyelid, Medial flaring of the eyebrow, Prominent nasal bridge, Wide nasal base, Anteverted nares, Prominent nasal tip, Short nose, Microcephaly, Retrognathia, Deeply set eye, Strabismus, Amblyopia, Bilateral ptosis, Hypermetropia, Posteriorly rotated ears (+11 more)\n\nP03 (age 15.0, male)\n  observed: Feeding difficulties, Downslanted palpebral fissures, Wide nasal bridge, Joint hypermobility, Ptosis, Hypertelorism, Seizure, Round face, Intellectual disability, Global developmental delay, Delayed speech and language development, Delayed ability to walk\n  recorded ABSENT: Long philtrum, Strabismus, Microcephaly, Narrow mouth, Wide mouth, Talipes equinovarus, Broad forehead, Low-set ears, Downturned corners of mouth, Growth delay, Short philtrum\n\nP04 (age 10.0, male)\n  observed: Drooling, Thick lower lip vermilion, Narrow forehead, High anterior hairline, Broad chin, Synophrys, Prominent nasal bridge, Primary microcephaly, Nystagmus, Hypotonia, Muscle weakness, Absent speech, Severe global developmental delay, Delayed ability to walk, Severe intellectual disability, Inability to walk, Seizure, Paraplegia, Oligohydramnios, Failure to thrive\n  recorded ABSENT: Thin upper lip vermilion, Atlantoaxial dislocation, Delayed ability to sit, Arachnoid cyst, Reduced cerebral white matter volume, Thin corpus callosum, Delayed myelination\n\nP05 (age 11.0, male)\n  observed: Hyperreflexia, Babinski sign, Delayed speech and language development, Severe global developmental delay, Severe intellectual disability, Febrile seizure (within the age range of 3 months to 6 years), Lower limb spasticity, Ataxia, Thin corpus callosum, Cerebellar atrophy, Limb hypertonia, Joint contracture, Axial hypotonia\n  recorded ABSENT: Deep philtrum, Downturned corners of mouth, Short chin, Telecanthus, Microcephaly, Large earlobe, Dystonia, Hyporeflexia, Developmental regression, Autistic behavior, Caesarean section, Fetal distress, Short stature, Appendicular hypotonia\n\nP06 (age 4.0, female)\n  observed: Thin upper lip vermilion, Deeply set eye, Delayed speech and language development, Diminished ability to concentrate, Motor tics, Global developmental delay, Delayed gross motor development, Delayed fine motor development, Hypotonia, Feeding difficulties\n  recorded ABSENT: Brachycephaly, Prominent nose, Microcephaly, Smooth philtrum, Round face, Hypotelorism, Hypertelorism, Downslanted palpebral fissures, Typical absence seizure, Bilateral tonic-clonic seizure, Delayed ability to walk, Absent speech, Happy demeanor, Sleep disturbance, Hypertonia, Intrauterine growth retardation\n\nP07 (age 1.1, female)\n  observed: Intellectual disability, Decreased body weight, Aggressive behavior, Self-injurious behavior, Hyperactivity, Microcephaly\n  recorded ABSENT: Short stature, Seizure\n\nP08 (age 3.9, male)\n  observed: Brachycephaly, Global developmental delay, Delayed ability to walk, Delayed ability to sit, Delayed speech and language development, Thin corpus callosum, Appendicular hypotonia\n  recorded ABSENT: Microcephaly, Micrognathia, Tube feeding, Optic atrophy, Hypertelorism, Strabismus, Nystagmus, Seizure, Appendicular spasticity, Short stature, Recurrent aspiration pneumonia\n\nP09 (age 12.0, male)\n  observed: Severe intellectual disability, Global developmental delay, Abnormal facial shape, Ataxia, Microcephaly, Axial hypotonia\n  recorded ABSENT: Moderate intellectual disability, Mild intellectual disability, Borderline intellectual disability, Hyperreflexia, Failure to thrive, Appendicular hypotonia, Seizure\n\nP10 (age 4.0, female)\n  observed: Microcephaly, Smooth philtrum, Thin upper lip vermilion, Synophrys, Horizontal eyebrow, Autistic behavior, Tongue thrusting, Happy demeanor, Intellectual disability, Absent speech, Global developmental delay, Unsteady gait, Gastroesophageal reflux, Hypotonia, Hypertonia\n  recorded ABSENT: Strabismus, Hypoplastic labia majora, Flat occiput, Mandibular prognathia, Thick vermilion border, Widely spaced teeth, Narrow palate, Downturned corners of mouth, Epicanthus, Upslanted palpebral fissure, Narrow palpebral fissure, Thick eyebrow, Highly arched eyebrow, Depressed nasal bridge, Bulbous nose, Long face, Cleft helix, Bilateral tonic-clonic seizure, Generalized non-motor (absence) seizure, Focal impaired awareness seizure, Infantile spasms, Spasticity, Ataxia, Loss of ambulation, Cerebral cortical atrophy (+3 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.35,
+     "for": "Demonstrates core neurodevelopmental features stated in the report, including intellectual disability, global developmental delay, and delayed speech and language development.",
+     "against": "Displays specific findings such as downslanted palpebral fissures, ptosis, seizures, and joint hypermobility, none of which are documented in the brief report."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.25,
+     "for": "Exhibits prominent neurodevelopmental impairment including global developmental delay, speech delay, motor delay, and behavioral/neuropsychiatric symptoms (diminished concentration, tics).",
+     "against": "Lacks an explicit diagnosis of intellectual disability (diagnosed instead with global developmental delay given her young age), and presents with feeding difficulties and facial dysmorphisms not mentioned in the report."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.18,
+     "for": "Manifests key features of a neurodevelopmental disorder including global developmental delay across speech, sitting, and walking domains.",
+     "against": "Has structural brain involvement (thin corpus callosum) and brachycephaly, which are not detailed in the report, and intellectual disability is not formally coded."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.12,
+     "for": "Presents with severe intellectual disability and global developmental delay, directly matching the disease definition as an intellectual developmental disorder.",
+     "against": "Displays microcephaly and ataxia, features beyond the isolated intellectual disability described in the minimal report."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.1,
+     "for": "Features moderate intellectual disability, global developmental delay, delayed speech, and ADHD, aligning with a neurodevelopmental disorder.",
+     "against": "Possesses a prominent craniofacial phenotype (blepharophimosis, ptosis, arched eyebrows) suggestive of an alternative syndromic entity."
+    }
+   ],
+   "what_the_report_lacked": "The report provided no clinical phenotypic description, specific dysmorphology spectrum, neurological signs (such as presence/absence of hypotonia, microcephaly, or seizures), or neuroimaging characteristics beyond the general disease label of autosomal dominant intellectual developmental disorder.",
+   "tokens_in": 2032,
+   "tokens_out": 3338,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P02",
+     "probability": 0.25,
+     "for": "The report defines the condition as an intellectual developmental disorder/neurodevelopmental disorder, which matches this patient's core features of moderate intellectual disability, global developmental delay, delayed speech and language development, and ADHD.",
+     "against": "The report provides no clinical information on whether facial findings (narrow mouth, blepharophimosis, ptosis) or dental crowding are typical or atypical."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.2,
+     "for": "The presence of intellectual disability, global developmental delay, and delayed speech and motor milestones directly supports the report's classification as an intellectual developmental disorder.",
+     "against": "Associated features such as seizures, facial dysmorphisms, and joint hypermobility are neither documented nor ruled out by the provided report."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.18,
+     "for": "Severe intellectual disability and global developmental delay align closely with the report's defining neurodevelopmental diagnosis.",
+     "against": "Features including microcephaly and ataxia are not characterized in the report, making it uncertain if they represent part of the DHX9 spectrum."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.15,
+     "for": "The patient demonstrates core neurodevelopmental features including intellectual disability, global developmental delay, and absent speech consistent with the disease definition.",
+     "against": "Prominent syndromic features like happy demeanor, autistic behavior, and microcephaly are unaddressed in the brief report."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.12,
+     "for": "Severe intellectual disability and severe global developmental delay fulfill the diagnosis of a primary intellectual developmental disorder.",
+     "against": "Profound progressive/structural neurological signs such as cerebellar atrophy, lower limb spasticity, hyperreflexia, and thin corpus callosum are not mentioned in the report."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical and phenotypic characterizations\u2014such as characteristic dysmorphic facial features, neuroimaging findings, behavioral profiles, seizure prevalence, and specific neurological abnormalities\u2014only providing high-level disease nomenclature and the causal gene.",
+   "tokens_in": 2032,
+   "tokens_out": 2421,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P03",
+     "probability": 0.2,
+     "for": "Matches the disease definition of an intellectual developmental disorder by presenting with intellectual disability, global developmental delay, and delayed speech and motor milestones.",
+     "against": "Presents additional findings such as seizures, facial dysmorphisms, and joint hypermobility that are neither corroborated nor refuted by the provided evidence."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.2,
+     "for": "Exhibits moderate intellectual disability and global developmental delay, fitting the sole description of an intellectual developmental disorder.",
+     "against": "Has extensive craniofacial and ocular anomalies (e.g., blepharophimosis, ptosis) not mentioned in the provided text."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.15,
+     "for": "Demonstrates severe intellectual disability and global developmental delay, directly fulfilling the criteria for an intellectual developmental disorder.",
+     "against": "Displays ataxia and microcephaly, which are not described in the limited disease summary."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.15,
+     "for": "Features intellectual disability and behavioral difficulties consistent with a general neurodevelopmental disorder.",
+     "against": "Presents microcephaly and weight loss, features not documented in the evidence."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.1,
+     "for": "Shows global developmental delay across motor and speech domains, compatible with a neurodevelopmental condition.",
+     "against": "Lacks an explicit diagnosis of intellectual disability and presents brain structural anomalies (thin corpus callosum) unmentioned in the evidence."
+    }
+   ],
+   "what_the_report_lacked": "The evidence only provided high-level nomenclature establishing the condition as an autosomal dominant intellectual developmental/neurodevelopmental disorder caused by DHX9 mutations. It lacked any detailed clinical characterization, including cardinal facial dysmorphic features, neurological findings, structural brain anomalies, seizures, systemic involvement, or phenotypic spectrum.",
+   "tokens_in": 2032,
+   "tokens_out": 2548,
+   "round": 3
+  }
+ ]
+}

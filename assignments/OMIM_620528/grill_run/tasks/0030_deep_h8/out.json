@@ -1,0 +1,142 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature consistently supports that SPTAN1-related motor disease presents with lower-limb distal onset rather than an upper-limb predominant (dHMN-V/Silver syndrome-like) pattern (which is characteristic of GARS, BSCL2, and REEP1). However, the hypothesis that it presents consistently as a 'classic length-dependent dHMN' is conflicted by recent deep-phenotyping studies (Laurini et al., 2026; Van de Vondel et al., 2026) demonstrating that heterozygous loss-of-function and haploinsufficiency variants in SPTAN1 frequently cause distal myopathy or a mixed neuropathic-myopathic disorder rather than a pure length-dependent neurogenic axonopathy.",
+  "evidence": [
+    {
+      "text": "dHMN predominating in the upper limbs is linked primarily to GARS, BSCL2, and REEP1, whereas traditional lower-limb predominant dHMN displays a length-dependent gradient with early and severe foot muscle involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "Distal hereditary motor neuropathies",
+        "authors": [
+          "M Tazir"
+        ],
+        "year": 2024,
+        "journal": "Revue Neurologique",
+        "doi": "10.1016/j.neurol.2023.10.003",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0035378723011116",
+        "quote": "Distal hereditary motor neuropathy that predominates in the upper limbs is linked mainly to three genes: GARS, BSCL2 and REEP1"
+      },
+      "numbers": [
+        {
+          "metric": "dHMN patients with muscle islands",
+          "value": "54.8%"
+        },
+        {
+          "metric": "Distal myopathy cohort size",
+          "value": 78
+        },
+        {
+          "metric": "dHMN cohort size",
+          "value": 31
+        }
+      ]
+    },
+    {
+      "text": "A cohort of 128 dHMN patients from 90 unrelated families identified causative mutations including SPTAN1, where the vast majority of patients presented with classic chronic distal lower limb weakness.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic spectrum in a cohort of patients with distal hereditary motor neuropathy",
+        "authors": [
+          "C Wu"
+        ],
+        "year": 2022,
+        "journal": "Translational Neurodegeneration",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC9082376",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9082376/",
+        "quote": "Most patients showed chronic distal weakness of lower limbs (121/128), while 20 patients initially had asymmetrical involvements"
+      },
+      "numbers": [
+        {
+          "metric": "distal lower limb weakness frequency",
+          "value": "121/128"
+        },
+        {
+          "metric": "asymmetric onset",
+          "value": "20/128"
+        },
+        {
+          "metric": "overall genetic diagnostic yield",
+          "value": "33/90"
+        }
+      ]
+    },
+    {
+      "text": "Investigation of 20 patients harboring heterozygous loss-of-function SPTAN1 variants showed that while patients resembled previously reported HMN cases, deep phenotyping revealed significant myopathic characteristics, contradicting a purely classic neuropathic dHMN diagnosis.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Neuromuscular disorders with evidence of both neuropathic and myopathic phenotype",
+        "authors": [
+          "C Laurini",
+          "L Bosco",
+          "AA Zambon",
+          "B Sorrenti"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/1104/8299847",
+        "quote": "described 20 patients with heterozygous loss-of-function SPTAN1 variants showing a phenotype resembling previously reported HMN cases. However, deep phenotyping led to a"
+      },
+      "numbers": [
+        {
+          "metric": "patients with loss-of-function SPTAN1 variants evaluated",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "A heterozygous 9q34 microdeletion encompassing SPTAN1 caused childhood-onset distal muscle weakness displaying incomplete penetrance, where EMG, muscle MRI, and muscle biopsy demonstrated a primary distal myopathy phenotype rather than a length-dependent axonal motor neuropathy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A heterozygous 9q34 deletion encompassing SPTAN1 as a cause of distal myopathy",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "A Monticelli"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-025-01938-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-025-01938-2",
+        "quote": "Electromyography, muscle MRI and muscle biopsy revealed a myopathic disease phenotype... SPTAN1 loss-of-function variants have previously been reported to cause distal hereditary motor neuropathy and recently distal myopathy. Here, we confirm the role of SPTAN1 haploinsufficiency as a cause of distal myopathy."
+      },
+      "numbers": [
+        {
+          "metric": "affected deletion carriers",
+          "value": 4
+        },
+        {
+          "metric": "non-penetrant relatives",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While clinical weakness manifests distally in the lower limbs rather than exhibiting upper-limb dHMN-V predominance, electrophysiological, histological, and imaging investigations conflict on whether the condition represents a classic length-dependent motor neuropathy or an intrinsic distal myopathy / mixed neuro-myopathic entity.",
+    "Earlier reports classified SPTAN1 as dHMN11, but recent multi-patient cohorts demonstrate incomplete penetrance and prominent myopathic features on muscle biopsy and muscle MRI."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What proportion of patients clinically diagnosed with dHMN11 show subclinical or overt myopathic changes on muscle MRI and quantitative EMG?",
+      "rationale": "Clarifying whether SPTAN1-associated neuromuscular disease is primarily myopathic, neuropathic, or a true dual neuro-myopathy across larger cohorts is essential for diagnostic classification.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does variant class (e.g., missense dominant-negative vs. haploinsufficiency/microdeletions) determine the predominance of neurogenic vs. myogenic pathology in SPTAN1-related distal weakness?",
+      "rationale": "Differences between missense variants and loss-of-function/deletion alleles may account for discrepancies between classic dHMN presentation and myopathic presentations.",
+      "promise": 0.8,
+      "est_cost": 30000
+    }
+  ]
+}

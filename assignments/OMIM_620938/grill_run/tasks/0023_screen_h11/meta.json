@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"SPG93\" \"BOLA3\" \"glycine\" leukoencephalopathy",
+    "NFU1 spastic paraplegia 93 BOLA3 GLRX5 phenotype distinction glycine"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1007/s10545-016-9975-4",
+      "title": "Differential diagnosis of lipoic acid synthesis defects",
+      "pmid": null,
+      "doi": "10.1007/s10545-016-9975-4",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1007/s10545-016-9975-4",
+      "abstract_chars": 1361
+    },
+    {
+      "id": "24334290",
+      "title": "Variant non ketotic hyperglycinemia is caused by mutations in LIAS, BOLA3 and the novel gene GLRX5",
+      "pmid": "24334290",
+      "doi": "10.1093/brain/awt328",
+      "url": "https://academic.oup.com/brain/article-abstract/137/2/366/282721",
+      "abstract_chars": 2342
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "title": "Mitochondrial iron-sulfur cluster biogenesis and neurological disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "abstract_chars": 1244
+    },
+    {
+      "id": "https://nsj.org.sa/content/22/1/4.short",
+      "title": "Mitochondrial iron-sulfur cluster biogenesis from molecular understanding to clinical disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://nsj.org.sa/content/22/1/4.short",
+      "abstract_chars": 1311
+    },
+    {
+      "id": "10.1007/978-3-662-63123-2_23",
+      "title": "Nonketotic hyperglycinaemia and lipoate deficiency disorders",
+      "pmid": null,
+      "doi": "10.1007/978-3-662-63123-2_23",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-662-63123-2_23",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC4333890",
+      "title": "New spastic paraplegia phenotype associated to mutation of ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4333890/",
+      "abstract_chars": 653
+    },
+    {
+      "id": "https://omim.org/entry/620938",
+      "title": "620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620938",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/568/gene/NFU1/",
+      "title": "Gene: NFU1 (Childhood onset hereditary spastic paraplegia)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/568/gene/NFU1/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "24334290",
+      "title": "Variant non ketotic hyperglycinemia is caused by mutations ...",
+      "pmid": "24334290",
+      "doi": "10.1093/brain/awt328",
+      "url": "https://experts.arizona.edu/en/publications/variant-non-ketotic-hyperglycinemia-is-caused-by-mutations-in-lia/",
+      "abstract_chars": 2342
+    },
+    {
+      "id": "https://d-nb.info/1239172095/34",
+      "title": "New spastic paraplegia phenotype associated to mutation ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://d-nb.info/1239172095/34",
+      "abstract_chars": 653
+    }
+  ],
+  "input_tokens": 5071,
+  "output_tokens": 1295,
+  "usd": 0.00642,
+  "seconds": 16.3,
+  "ok": true
+}

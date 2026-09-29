@@ -1,0 +1,128 @@
+{
+  "verdict": "supported",
+  "rationale": "Neurodevelopmental disorder with dysmorphic facies, brain anomalies, and seizures (OMIM #621201), caused by biallelic GTF3C3 variants, consistently presents with structural brain anomalies (HP:0000707). Multiple independent cohorts document corpus callosum hypoplasia/dysgenesis (HP:0002079), delayed myelination (HP:0002188), and cerebellar hypoplasia/atrophy across the majority of imaged individuals (e.g., De Hayr et al., 2025; Papuc et al., 2019; Chapleau et al., 2026). While some cohorts emphasize cerebellar atrophy and frontal lobe hypoplasia (Abdel-Hamid et al., 2025), structural neuroimaging defects\u2014particularly involving white matter tracts, the corpus callosum, and the cerebellum\u2014remain core diagnostic hallmarks.",
+  "evidence": [
+    {
+      "text": "In a cohort of 12 affected individuals from 7 unrelated families with biallelic GTF3C3 variants, patients presented with intellectual disability, motor impairments, seizures, and cerebellar/corpus callosum malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 12
+        },
+        {
+          "metric": "unrelated families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Review of hereditary white matter disorders involving the TFIIIC complex (GTF3C5 and GTF3C3) notes recurrent neuroradiological findings including delayed myelination, white matter hyperintensities, and corpus callosum hypoplasia.",
+      "stance": "supports",
+      "source": {
+        "title": "White matter disorders at the intersection of transcription, RNA processing and translation",
+        "authors": [
+          "A Chapleau",
+          "F Villa Tob\u00f3n",
+          "G Bernard"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41582-026-01248-1",
+        "quote": "For example, delayed myelination has been reported in a \u2026 white matter hyperintensities, corpus callosum hypoplasia and \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Identification of recessive candidates in early-onset epileptic encephalopathies identified GTF3C3 associated with neuroimaging anomalies including delayed myelination, thin corpus callosum, and brain atrophy.",
+      "stance": "supports",
+      "source": {
+        "title": "The role of recessive inheritance in early-onset epileptic encephalopathies: a combined whole-exome sequencing and copy number study",
+        "authors": [
+          "SM Papuc",
+          "L Abela",
+          "K Steindl",
+          "A Begemann"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1038/s41431-018-0299-8",
+        "pmid": "30552426",
+        "pmc": "PMC6460568",
+        "url": "https://www.nature.com/articles/s41431-018-0299-8",
+        "quote": "thin corpus callosum 1/5. Atrophy, delayed myelination, thin corpus callosum."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 63
+        }
+      ]
+    },
+    {
+      "text": "Four patients with biallelic GTF3C3 variants showed brain imaging with brain atrophy, predominant cerebellar involvement, hypoplasia of the frontal lobes, and simplified gyral pattern in one patient, with seizures observed in 2 of 4 individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Their brain imaging showed brain atrophy with predominant cerebellar involvement, as well as hypoplasia of the frontal lobes and one patient had moderate to severe simplified gyral pattern. Seizures were observed in half of the patients."
+      },
+      "numbers": [
+        {
+          "metric": "patients assessed",
+          "value": 4
+        },
+        {
+          "metric": "patients with seizures",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While callosal hypoplasia and delayed myelination are highlighted in several reports, some cohorts emphasize cerebellar atrophy and frontal lobe hypoplasia over corpus callosum agenesis/hypoplasia, suggesting cerebellar involvement is an equally prominent hallmark."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of corpus callosum hypoplasia versus cerebellar atrophy across all centrally reviewed MRI scans of GTF3C3 patients?",
+      "rationale": "Differences in radiologist interpretation across independent cohorts (e.g., De Hayr et al. vs Abdel-Hamid et al.) suggest that a centralized blind neuroimaging re-review is needed to determine which specific white matter or infratentorial structural anomaly is most sensitive.",
+      "promise": 0.85,
+      "est_cost": 35000.0
+    },
+    {
+      "question_text": "Does the severity of delayed myelination or corpus callosum hypoplasia correlate with residual RNA polymerase III transcription levels in GTF3C3 patient cells?",
+      "rationale": "Determining whether hypomorphic missense variants cause milder myelination delays compared to truncating or splice-altering variants will aid genotype-phenotype differentiation.",
+      "promise": 0.8,
+      "est_cost": 50000.0
+    }
+  ]
+}

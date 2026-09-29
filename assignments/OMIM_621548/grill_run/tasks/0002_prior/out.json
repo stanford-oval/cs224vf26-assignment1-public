@@ -1,0 +1,46 @@
+{
+  "knowledge": "Retinitis pigmentosa 101 (RP101, OMIM #621548) is a nonsyndromic or isolated retinal dystrophy form caused by biallelic variants in CLN3. Classically, pathogenic variants in CLN3 cause juvenile neuronal ceroid lipofuscinosis (JNCL, Batten disease, OMIM #204200), characterized by early vision loss followed by neurodegeneration, seizures, motor decline, and premature death. However, specific hypomorphic, missense, or splice-site alleles in CLN3 allow sufficient residual function to spare central nervous system degeneration while manifesting purely or primarily as early-onset rod-cone dystrophy, retinitis pigmentosa, or macular-sparing/macular-involving retinal degeneration. Differentiating RP101 from classic JNCL as well as other typical forms of RP, Stargardt disease, and cone-rod dystrophies relies on demonstrating severe retinal degeneration in the prolonged absence of neurological deficits (e.g., normal cognitive, motor, and EEG findings well into teenage and adult years), accompanied by specific retinal features such as early macular involvement, bone-spicule pigmentation, and attenuated retinal vessels.",
+  "prior_hypothesis": "Patients with RP101 can be identified phenotypically among individuals with retinal dystrophy by the combination of early-to-mid childhood onset retinal dystrophy (often presenting with nyctalopia and central visual acuity loss or maculopathy resembling atypical RP or cone-rod dystrophy) coupled strictly with the absence of extraocular/neurological manifestations (normal cognitive development, no seizures, absence of motor or behavioral decline past the second decade of life). From a purely ophthalmologic standpoint, discriminating RP101 from other nonsyndromic RP forms relies on molecular testing because clinical retinal findings (photoreceptor degeneration, optic disc pallor, retinal vessel attenuation, and pigmentary alterations) show substantial overlap with other common genetic causes of RP.",
+  "candidate_answers": [
+    {
+      "answer": "Primary phenotypic presentation: 100% of reported RP101 patients present with visual impairment (HP:0000505), nyctalopia (HP:0000662), constricted visual fields (HP:0000578), and attenuated retinal vessels (HP:0007843) with rod-cone electroretinogram dysfunction, often with early bull's-eye maculopathy or macular atrophy (HP:0007401).",
+      "confidence": 0.85,
+      "aspect": "clinical_phenotypes"
+    },
+    {
+      "answer": "Key discriminating feature: Prolonged absence of neurodegeneration, seizures (HP:0001250), or cognitive impairment (HP:0100543) into adulthood distinguishes RP101 from classic juvenile CLN3 Batten disease, while distinguishing it from other nonsyndromic RP subtypes on retinal phenotype alone is not reliably possible without genetic testing or specific functional assays.",
+      "confidence": 0.9,
+      "aspect": "discriminating_features"
+    },
+    {
+      "answer": "Consistently absent findings: Systemic neurological decline, pediatric epileptic seizures, progressive dementia, and motor regression are absent in RP101, and their appearance strongly favors classic JNCL over isolated RP101.",
+      "confidence": 0.95,
+      "aspect": "negative_phenotypes"
+    },
+    {
+      "answer": "Genotype-phenotype correlation: RP101 is driven by non-classical CLN3 genotypes (often missense variants or non-canonical splicing variants in trans with the common 1.02 kb deletion, rather than homozygous 1.02 kb deletion), preserving partial CLN3 activity sufficient to rescue brain tissue but insufficient for retinal photoreceptor survival.",
+      "confidence": 0.85,
+      "aspect": "genotype_phenotype_correlation"
+    }
+  ],
+  "key_terms": [
+    "Retinitis pigmentosa 101 (RP101)",
+    "CLN3",
+    "Juvenile neuronal ceroid lipofuscinosis (JNCL)",
+    "Batten disease",
+    "Bull's-eye maculopathy",
+    "Rod-cone dystrophy",
+    "Electroretinography (ERG)",
+    "Hypomorphic allele"
+  ],
+  "open_questions": [
+    "What specific cohorts and publications established OMIM #621548, and what are their precise numerators and denominators for retinal features (e.g., macular involvement, bone-spicule pigmentation)?",
+    "Are there subtle subclinical systemic or hematological markers (such as vacuolated lymphocytes on blood smear) present in RP101 patients that could differentiate them from other nonsyndromic RP patients prior to whole-exome/genome sequencing?",
+    "At what maximum age of follow-up can clinicians definitively rule out late-onset neurological involvement in individuals harboring non-classical CLN3 variants?"
+  ],
+  "assumptions": [
+    "OMIM #621548 designates non-syndromic / isolated retinitis pigmentosa caused by pathogenic variation in CLN3.",
+    "Retinal phenotype in RP101 closely mimics other genetic causes of childhood- or adolescent-onset rod-cone dystrophy.",
+    "The primary distinguishing diagnostic barrier in clinic is separating RP101 from early-stage juvenile neuronal ceroid lipofuscinosis before neurological symptoms manifest, and from other nonsyndromic retinal dystrophies."
+  ]
+}

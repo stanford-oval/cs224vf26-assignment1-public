@@ -1,0 +1,25 @@
+{
+  "omim": "OMIM:620511",
+  "label": "Fliedner-Zweier syndrome",
+  "gene": "SCAF4",
+  "gene_info": {
+    "symbol": "SCAF4",
+    "name": "SR-related CTD associated factor 4",
+    "type_of_gene": "protein-coding",
+    "map_location": "21q22.11",
+    "entrez_id": "57466",
+    "aliases": [
+      "FZS",
+      "SFRS15",
+      "SRA4"
+    ],
+    "summary": "This gene likely encodes a member of the arginine/serine-rich splicing factor family. A similar protein in Rat appears to bind the large subunit of RNA polymerase II and provide a link between transcription and pre-mRNA splicing. Alternatively spliced transcript variants have been described. [provided by RefSeq, Feb 2009].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 11,
+  "n_case_reports": 3,
+  "curated_hpo_terms": 36,
+  "corpus_query": "\"SCAF4\" OR \"Fliedner-Zweier syndrome\"",
+  "corpus_query_clinical": "(\"SCAF4\" OR \"Fliedner-Zweier syndrome\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Fliedner-Zweier syndrome (OMIM #620511), caused by variants in SCAF4: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

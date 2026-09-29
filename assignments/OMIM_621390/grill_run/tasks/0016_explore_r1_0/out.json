@@ -1,0 +1,125 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the definitive initial discovery series describing neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (NEDSFBA, OMIM #621390), global developmental delay/intellectual disability and facial dysmorphism are documented in 100% of reported patients, whereas early-onset seizures have an incomplete penetrance with a numerator/denominator frequency below 80%.",
+      "rationale": "While the core clinical definition incorporates early-onset seizures, facial dysmorphism, and behavioral abnormalities, many neurodevelopmental channelopathies and ubiquitin-ligase adaptor disorders show variable seizure penetrance, making it vital to establish the exact numerator and denominator from discovery cohorts.",
+      "aspects": [
+        "phenotype-frequency",
+        "discovery-cohort",
+        "penetrance"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "KLHL20 is established as a novel gene linked to rare neurodevelopmental disorders characterized by intellectual disability, autism spectrum disorder, and facial dysmorphism.",
+          "stance": "supports",
+          "source": {
+            "title": "MOLECULAR DIAGNOSTICS IN AUTISM SPECTRUM DISORDER: NEXT GENERATION SEQUENCING AND FACIAL PHENOTYPING IN MEDICAL GENETICS",
+            "authors": [
+              "Y Sleyp",
+              "H Peeters",
+              "P Claes"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://lirias.kuleuven.be/handle/20.500.12942/703598",
+            "quote": "with ID and facial dysmorphism to conditions associated with \u2026 the identification of KLHL20 as a novel gene for a rare NDD."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Facial dysmorphism in KLHL20-related NEDSFBA constitutes an obligate discriminating signature recognizable by computational facial phenotyping (dense 3D facial imaging) that separates it from clinically overlapping non-syndromic developmental and epileptic encephalopathies (DEEs).",
+      "rationale": "Discriminating KLHL20 from other early-onset epileptic encephalopathies (e.g., SCN1A, STXBP1) requires identifying features that are consistent across KLHL20 patients but rare in isolated DEEs; 3D facial analysis provides objective quantitative metrics.",
+      "aspects": [
+        "facial-phenotyping",
+        "differential-diagnosis",
+        "discriminating-features"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "The discovery and characterization of KLHL20 in neurodevelopmental cohorts leveraged facial phenotyping methodologies in medical genetics.",
+          "stance": "supports",
+          "source": {
+            "title": "MOLECULAR DIAGNOSTICS IN AUTISM SPECTRUM DISORDER: NEXT GENERATION SEQUENCING AND FACIAL PHENOTYPING IN MEDICAL GENETICS",
+            "authors": [
+              "Y Sleyp",
+              "H Peeters",
+              "P Claes"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://lirias.kuleuven.be/handle/20.500.12942/703598",
+            "quote": "FACIAL PHENOTYPING IN MEDICAL GENETICS ... with ID and facial dysmorphism to conditions associated with \u2026 the identification of KLHL20 as a novel gene for a rare NDD."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Biallelic loss-of-function variants in KLHL20 yield an expanded, more severe autosomal recessive neurodevelopmental syndrome presenting with structural brain malformations or microcephaly compared to de novo heterozygous dominant variants.",
+      "rationale": "High-throughput consanguineous cohort screenings frequently identify homozygous loss-of-function variants that uncover autosomal recessive modes of inheritance or expand dominant tentative gene-disease relationships into more severe phenotypes.",
+      "aspects": [
+        "genotype-phenotype",
+        "mode-of-inheritance",
+        "allelic-heterogeneity"
+      ],
+      "confidence": 0.45,
+      "evidence": [
+        {
+          "text": "Large consanguineous cohorts enriched for autozygosity expand modes of inheritance and syndromic phenotypes for genes previously identified primarily through dominant mechanisms.",
+          "stance": "neutral",
+          "source": {
+            "title": "High Throughput Evidence Generation to Support Tentative Gene Disease Relationship from A Cohort Enriched for Autozygosity and Founder Effect",
+            "authors": [
+              "K Bakur",
+              "B Alhaddad",
+              "A Balubaid",
+              "S Makki"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1098360026009792",
+            "quote": "Our data expand the mode of inheritance (MOI) of 19 genes for which the tentative GDRs were based on dominant variants. Phenotypic expansion was encountered in 18 of the supported GDRs, including those in which the full syndromic constellation has not been previously delineated."
+          },
+          "numbers": [
+            {
+              "metric": "genes with expanded MOI",
+              "value": 19
+            },
+            {
+              "metric": "supported GDRs with phenotypic expansion",
+              "value": 18
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact individual-level clinical data, HPO annotations, and variant coordinates in the primary KLHL20 publication by Sleyp et al. (2022/2023)?",
+      "rationale": "The initial discovery study contains the unaggregated tabular clinical data needed to calculate precise numerators, denominators, and penetrance rates for specific dysmorphisms, seizure types, and behavioral abnormalities.",
+      "promise": 0.9,
+      "est_cost": 0.8
+    },
+    {
+      "question_text": "Are there reported homozygous loss-of-function KLHL20 patients in autozygous/consanguineous diagnostic databases (e.g., LODB), and do they exhibit distinct phenotypic features from heterozygous missense cases?",
+      "rationale": "Clarifying whether KLHL20 causes disease via haploinsufficiency, dominant-negative Kelch-domain interactions, or autosomal recessive inheritance will resolve conflicting genotype-phenotype models.",
+      "promise": 0.75,
+      "est_cost": 0.6
+    }
+  ],
+  "dead_end": false
+}

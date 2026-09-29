@@ -1,0 +1,129 @@
+{
+  "hypotheses": [
+    {
+      "text": "The primary clinical characterization cohort defining TAF4-related neurodevelopmental disorder (Janssen et al., 2022) comprises exactly n=8 individuals with de novo putative loss-of-function variants, wherein intellectual disability (HP:0001249), behavioral abnormalities (HP:0000708), and facial dysmorphisms (HP:0001999) each demonstrate a penetrance of at least 7/8 (87.5%).",
+      "rationale": "Clinical delineation of novel dominant disorders requires establishing exact denominators and penetrance estimates across core phenotypic domains; Janssen et al. explicitly describe common features in their primary cohort of eight probands.",
+      "aspects": [
+        "pooled",
+        "delineation",
+        "penetrance"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Janssen et al. (2022) established TAF4 as a dominant disease gene in a discovery cohort of eight individuals harboring heterozygous de novo pLoF variants, identifying intellectual disability, abnormal behavior, and facial dysmorphisms as core common manifestations.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+            "authors": [
+              "BDE Janssen",
+              "MJH van den Boogaard"
+            ],
+            "year": 2022,
+            "journal": "Human Mutation",
+            "doi": "10.1002/humu.24444",
+            "pmid": null,
+            "pmc": "PMC10087332",
+            "url": "https://doi.org/10.1002/humu.24444",
+            "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size",
+              "value": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Severe isolated developmental language disorder (HP:0002465 / HP:0060057) without global cognitive impairment (non-verbal IQ >= 70) represents an underrecognized mild manifestation of TAF4 haploinsufficiency, accounting for at least 1 individual in targeted sporadic DLD genome sequencing cohorts.",
+      "rationale": "Kennis et al. (2026) report that monogenic causes of developmental language disorder include variants fitting the TAF4-related disorder spectrum, challenging the assumption that TAF4 pathogenic variants always produce global intellectual disability.",
+      "aspects": [
+        "binned",
+        "language",
+        "penetrance"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "In a prospective cohort of 25 children with severe sporadic developmental language disorder and normal non-verbal intelligence (IQ >= 70), genome sequencing identified variants fitting the phenotypic spectrum of TAF4-related disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+            "authors": [
+              "MGP Kennis",
+              "L van Haaften",
+              "K van Hulst"
+            ],
+            "year": 2026,
+            "journal": "European Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41431-026-02214-7",
+            "quote": "fit within the phenotype of TAF4-related disorders. This individual also"
+          },
+          "numbers": [
+            {
+              "metric": "DLD_cohort_size",
+              "value": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Across all published primary T4NDD cohorts, individuals with de novo loss-of-function variants in TAF4 show absent or negligible rates (<5%) of major non-neurological structural malformations (e.g., craniosynostosis, complex congenital heart defects, or gut malrotations), differentiating T4NDD from other syndromic neurodevelopmental entities.",
+      "rationale": "Correlating primary cohort series like Janssen et al. and syndromic screening studies like Timberlake et al. can establish whether structural cranial or internal organ anomalies form part of the canonical TAF4 spectrum or argue against it.",
+      "aspects": [
+        "pooled",
+        "exclusionary",
+        "specificity"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Large-scale trio exome sequencing of nonsyndromic craniosynostosis cohorts identified damaging de novo variants in loss-of-function intolerant genes driving neurocognitive deficits, but canonical craniosynostosis has not been described as a recurrent feature in primary T4NDD discovery cohorts.",
+          "stance": "neutral",
+          "source": {
+            "title": "Genetic influence on neurodevelopment in non-syndromic craniosynostosis",
+            "authors": [
+              "AT Timberlake",
+              "A Junn",
+              "R Flores"
+            ],
+            "year": 2022,
+            "journal": "Plastic and Reconstructive Surgery",
+            "doi": "10.1097/prs.0000000000008976",
+            "pmid": "35286293",
+            "pmc": "PMC9050795",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9050795/",
+            "quote": "We recruited a cohort of 404 trios with sporadic NSCS, \u2026 on neurodevelopmental outcomes in NSCS, the frequency of \u2026 with neurologic or neurodevelopmental disorders (Table 5)."
+          },
+          "numbers": [
+            {
+              "metric": "NSCS_trio_cohort",
+              "value": 404
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the itemized per-individual numerator and denominator tallies for specific craniofacial features (e.g., arched eyebrows, epicanthal folds, thin upper lip) and neurological signs (e.g., seizures, hypotonia) in Table 1 of Janssen et al. (2022)?",
+      "rationale": "Extracting the complete supplementary/table-level clinical matrix from Janssen et al. (2022) is required to establish exact HPO term frequencies for clinical diagnostic algorithms.",
+      "promise": 0.95,
+      "est_cost": 0.35
+    },
+    {
+      "question_text": "Which two unrelated patients were reported in 2021 according to OMIM entry #620450, and what are their specific HPO phenotype counts relative to the Janssen et al. series?",
+      "rationale": "Identifying this 2021 report referenced in OMIM #620450 will expand the total worldwide denominator of reported TAF4 probands and refine phenotype penetrance calculations.",
+      "promise": 0.9,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,84 @@
+{
+  "verdict": "supported",
+  "rationale": "The functional paper by Popov et al. (2019) in Frontiers in Physiology (PMC6465419) specifically characterizes the embryonic and molecular effects of a single YWHAZ variant (p.Ser230Trp / S230W) in Xenopus laevis models of RAS-ERK pathway hyperactivity rather than presenting an exhaustive clinical cohort breakdown. Broad clinical dysmorphology and granular multi-patient phenotypic series defining Popov-Chang syndrome (such as the 5 distinct de novo heterozygous variants referenced in OMIM #601288 and #618428) are cataloged through complementary clinical genetic characterizations rather than in the Xenopus physiological report.",
+  "evidence": [
+    {
+      "text": "Popov et al. (2019) focus primarily on the functional characterization of the S230W variant in Xenopus laevis to investigate molecular mechanisms and Raf-ERK pathway hyperactivity in CFC syndrome-like phenotypes, rather than reporting an exhaustive clinical dysmorphology table with granular phenotypic frequencies.",
+      "stance": "supports",
+      "source": {
+        "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous ...",
+        "authors": [
+          "IK Popov"
+        ],
+        "year": 2019,
+        "journal": "Frontiers in Physiology",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6465419",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+        "quote": "In the current study, we take advantage of the vertebrate model Xenopus laevis to analyze the functional consequence of a particular YWHAZ variant, S230W, and investigate the molecular mechanisms underlying its activity. We show that compared with wild type YWHAZ, the S230W variant induces severe embryonic defects when ectopically expressed in early Xenopus embryos."
+      },
+      "numbers": [
+        {
+          "metric": "YWHAZ variant evaluated functionally",
+          "value": "S230W"
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry *601288 documents that Popov-Chang syndrome (POPCHAS; #618428) was delineated by identifying 5 different de novo heterozygous mutations in YWHAZ across patients, demonstrating that the full cohort phenotypic spectrum spans multiple variants cataloged in clinical genetics databases rather than solely the S230W functional assay.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - *601288 - TYROSINE 3-MONOOXYGENASE/ ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/601288",
+        "quote": "Popov-Chang syndrome (POPCHAS; 618428), identified 5 different de novo heterozygous mutations in the YWHAZ gene including 3 missense mutations, 1 nonsense ..."
+      },
+      "numbers": [
+        {
+          "metric": "de novo heterozygous mutations identified in cohort",
+          "value": 5
+        },
+        {
+          "metric": "missense mutations",
+          "value": 3
+        },
+        {
+          "metric": "nonsense mutations",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "OMIM #618428 delineates the phenotypic spectrum of Popov-Chang syndrome as variable dysmorphic features including frontal bossing, hydrocephalus, and dysmorphic facial features in some patients.",
+      "stance": "supports",
+      "source": {
+        "title": "618428 - POPOV-CHANG SYNDROME; POPCHAS",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/618428",
+        "quote": "#618428 - POPOV-CHANG SYNDROME; HEAD & NECK Head - Frontal bossing. Hydrocephalus (in some patients) Face - Dysmorphic facial features (in some patients) ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for congenital heart defects and ectodermal findings across all clinically published de novo YWHAZ variant carriers?",
+      "rationale": "Because the physiological validation paper by Popov et al. focused on Xenopus models for S230W, systematically aggregating data across companion clinical series and OMIM-curated cohorts is necessary to compute precise clinical sensitivity and specificity for differentiating Popov-Chang syndrome from classical CFC syndrome.",
+      "promise": 0.85,
+      "est_cost": 2500
+    }
+  ]
+}

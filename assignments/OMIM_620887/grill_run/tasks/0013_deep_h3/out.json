@@ -1,0 +1,136 @@
+{
+  "verdict": "supported",
+  "rationale": "The literature confirms that MMDS1 (NFU1), MMDS2 (BOLA3), and related early-stage MMDS types typically present with infantile-onset leukoencephalopathy, lactic acidosis, hyperglycinemia, and specific vascular/cardiac hallmarks like early pulmonary arterial hypertension (MMDS1) or dilated cardiomyopathy (MMDS2). In contrast, FDXR-related MMDS9B predominantly manifests as a progressive sensorial neuropathy characterized by optic atrophy, sensorineural hearing loss, movement disorders, and ataxia, typically lacking early fatal pulmonary hypertension, marked nonketotic hyperglycinemia, and cystic leukodystrophy.",
+  "evidence": [
+    {
+      "text": "MMDS1 due to NFU1 mutations presents with lactic acidosis, hyperglycinemia, epileptic encephalopathy, and pulmonary arterial hypertension (PAH), which serve as key hallmarks of classic iron-sulfur cluster assembly defects.",
+      "stance": "supports",
+      "source": {
+        "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+        "authors": [
+          "(authors not shown)"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.70213",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/ajmg.a.70213",
+        "quote": "Identification of the clinical combination of lactic acidosis, PAH, and hyperglycinemia during diagnostic evaluation should raise suspicion for a defect of the ISC pathway"
+      },
+      "numbers": []
+    },
+    {
+      "text": "MMDS types 1 to 5 manifest with early-onset severe leukoencephalopathy, with diagnostic suspicion raised by elevated lactate, pyruvate, and glycine in body fluids, alongside specific signs like pulmonary hypertension (MMDS1) or dilated cardiomyopathy (MMDS2).",
+      "stance": "supports",
+      "source": {
+        "title": "A Review of Multiple Mitochondrial Dysfunction Syndromes",
+        "authors": [
+          "Lebigot",
+          "Schiff"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.semanticscholar.org/paper/A-Review-of-Multiple-Mitochondrial-Dysfunction-with-Lebigot-Schiff/33a39c2be6471bccd33c431d6e33ffe38073573b",
+        "quote": "Despite certain specific clinical elements such as pulmonary hypertension or dilated cardiomyopathy in MMDS type 1 or 2, respectively, nearly all of the patients with MMDS presented with severe and early onset leukoencephalopathy. Diagnosis could be suggested by high lactate, pyruvate, and glycine levels in body fluids."
+      },
+      "numbers": [
+        {
+          "metric": "MMDS types reviewed",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "FDXR-associated disease manifests clinically with optic atrophy, sensorineural hearing loss, movement disorder, and neurological dysfunction rather than the classic infantile fatal leukoencephalopathy with pulmonary hypertension seen in MMDS1.",
+      "stance": "supports",
+      "source": {
+        "title": "Ferroptosis is a novel pathogenic mechanism of FDXR-related mitochondriopathy",
+        "authors": [
+          "T Campbell"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1038/s41420-025-02840-y",
+        "pmid": "41436440",
+        "pmc": "PMC12727864",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12727864/",
+        "quote": "Clinically, FDXR-related mitochondriopathy is characterized by optic atrophy, neurological dysfunction, movement disorder, hearing loss"
+      },
+      "numbers": []
+    },
+    {
+      "text": "FDXR mutations manifest predominantly with sensorial neuropathies, expanding the phenotypic spectrum of mitochondrial iron-sulfur protein disorders beyond classic severe early MMDS phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Disorders of Lipoic Acid and Iron-Sulfur Protein Metabolism",
+        "authors": [
+          "A Ribes",
+          "F Tort"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": "10.1007/978-3-030-67727-5_27",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/chapter/10.1007/978-3-030-67727-5_27",
+        "quote": "FDXR mutations cause sensorial neuropathies and expand the spectrum of mitochondrial Fe-S-..."
+      },
+      "numbers": []
+    },
+    {
+      "text": "An early cohort study identified 14 patients from 13 families surviving well beyond early infancy (aged 1.6 to 20 years) presenting with FDXR-associated multiple mitochondrial dysfunctions syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "620887 - MULTIPLE MITOCHONDRIAL DYSFUNCTIONS SYNDROME 9B; MMDS9B",
+        "authors": [
+          "(authors not shown)"
+        ],
+        "year": 2017,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620887",
+        "quote": "reported 14 patients, aged 1.6 to 20 years, from 13 families with a multiple mitochondrial dysfunctions syndrome and mutation in the FDXR"
+      },
+      "numbers": [
+        {
+          "metric": "affected patients",
+          "value": 14
+        },
+        {
+          "metric": "unrelated families",
+          "value": 13
+        },
+        {
+          "metric": "minimum age in cohort (years)",
+          "value": 1.6
+        },
+        {
+          "metric": "maximum age in cohort (years)",
+          "value": 20
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "To what degree do CSF and plasma glycine and lactate levels remain strictly normal across different age groups in FDXR-mutant individuals?",
+      "rationale": "MMDS1-3 systematically show marked elevations in glycine and lactate due to combined lipoate-dependent enzyme deficiencies; verifying whether MMDS9B patients consistently show normal glycine is crucial for using nonketotic hyperglycinemia as an absolute negative discriminator.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "What is the incidence of subclinical or late-onset white matter cystic cavitation on high-resolution neuroimaging in MMDS9B compared to IBA57/MMDS3?",
+      "rationale": "Differentiating whether cavitation is completely absent or merely delayed in FDXR patients will determine whether normal white matter morphology on early MRI definitively rules out MMDS1-3 in favor of MMDS9B.",
+      "promise": 0.8,
+      "est_cost": 25000
+    }
+  ]
+}

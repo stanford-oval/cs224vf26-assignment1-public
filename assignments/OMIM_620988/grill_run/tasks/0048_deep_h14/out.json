@@ -1,0 +1,72 @@
+{
+  "verdict": "supported",
+  "rationale": "Calame et al. (2023) characterized 20 individuals with de novo heterozygous variants in DHX9 and established clear genotype-phenotype correlations using quantitative Human Phenotype Ontology (HPO) profiling: loss-of-function (LoF) truncating alleles cause mild neurodevelopmental disorders (NDD), whereas missense variants affecting functional domains (notably the nuclear localization signal [NLS] and helicase core) lead to severe NDD phenotypes. Within the available literature provided in the SOURCES block, DHX9 is identified alongside developmental and epileptic encephalopathy (DEE) genes, and severe neurodevelopmental phenotypes are consistently driven by dominant-negative or toxic gain-of-function missense alleles rather than simple haploinsufficiency.",
+  "evidence": [
+    {
+      "text": "Calame et al. (2023) identified 20 individuals with de novo heterozygous missense or LoF DHX9 variants; quantitative HPO analysis established that LoF variants cause mild NDD phenotypes whereas NLS missense variants cause severe NDD phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10432148",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "Quantitative Human Phenotype Ontology (HPO) analysis demonstrated genotype-phenotype correlations with LoF variants causing mild NDD phenotypes and nuclear localization signal (NLS) missense variants causing severe NDD."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "DDX17, DDX23, and DHX9 exhibit high missense Z scores and high pLI scores, indicating extreme constraint against both loss-of-function and missense variation.",
+      "stance": "supports",
+      "source": {
+        "title": "The role of DEAD-and DExH-box RNA helicases in neurodevelopmental disorders",
+        "authors": [
+          "J Lederbauer",
+          "S Das",
+          "A Piton",
+          "D Lessel"
+        ],
+        "year": 2024,
+        "journal": "Frontiers in Molecular Neuroscience",
+        "doi": "10.3389/fnmol.2024.1414949/full",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2024.1414949/full",
+        "quote": "genes listed in Table 1, DDX17, DDX23 and DHX9 show high missense Z scores and pLI\u2019s."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While Calame et al. report that LoF alleles cause mild NDD and NLS missense alleles cause severe NDD, the exact patient-by-patient seizure frequencies (numerator and denominator per variant class) are not fully detailed within the extracted source abstracts, requiring full-text supplement validation to establish absolute non-occurrence of seizures in truncating LoF alleles across expanded cohorts."
+  ],
+  "confidence": 0.78,
+  "new_directions": [
+    {
+      "question_text": "Across international registries (e.g., ERN-ITHACA DHX9 natural history cohort), what is the exact penetrance of electroclinical seizures in individuals harboring LoF vs. NLS/catalytic missense variants?",
+      "rationale": "Larger cohorts beyond the initial 20 individuals will clarify if mild epilepsy can occasionally present in haploinsufficient LoF patients or if it remains strictly pathognomonic for dominant-negative missense alterations.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do NLS missense variants in DHX9 trigger secondary epileptogenesis via R-loop accumulation and DNA double-strand breaks in excitatory cortical neurons?",
+      "rationale": "Understanding the downstream molecular triggers that drive severe neurodevelopmental delay and seizures in NLS variants will help design targeted rescue therapies.",
+      "promise": 0.82,
+      "est_cost": 45000
+    }
+  ]
+}

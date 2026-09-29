@@ -1,0 +1,124 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Initial reports (notably Olley et al. 2018) posited a genotype-phenotype divergence wherein de novo BRD4 missense mutations affecting chromatin interaction domains produce a more typical/classic CdLS phenotype, whereas BRD4 deletions and loss-of-function variants lead to a distinct, atypical CdLS-like syndrome. However, subsequent delineations and broader cohort studies (such as Jouret et al. 2022 and Lonardo et al. 2025) challenge the idea that missense variants produce a presentation indistinguishable from classical CdLS. Instead, they demonstrate that BRD4-related disorder as a whole constitutes a distinct, non-classic or recognizable pattern distinguishable from classical CdLS across variant classes (large deletions, null variants, and missense variants).",
+  "evidence": [
+    {
+      "text": "Olley et al. (2018) identified that the phenotype associated with BRD4 haploinsufficiency overlapped with that of Cornelia de Lange syndrome, while a more typical CdLS presentation was observed in an individual with a de novo BRD4 missense variant.",
+      "stance": "supports",
+      "source": {
+        "title": "BRD4 interacts with NIPBL and BRD4 is mutated in a Cornelia de Lange\u2013like syndrome",
+        "authors": [
+          "G Olley",
+          "M Ansari",
+          "H Bengani",
+          "GR Grimes",
+          "J Rhodes"
+        ],
+        "year": 2018,
+        "journal": "Nature Genetics",
+        "doi": "10.1038/s41588-018-0042-y",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41588-018-0042-y",
+        "quote": "phenotype associated with BRD4 haploinsufficiency overlapped with that of Cornelia de Lange syndrome (...) More typical CdLS was observed with a de novo BRD4 missense variant"
+      },
+      "numbers": [
+        {
+          "metric": "investigated probands with de novo missense variant displaying typical CdLS",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Jouret et al. (2022) conducted an international cohort study of 14 patients with BRD4-related disorder, evaluating large deletions, null variants, and missense variants, and concluded that BRD4 alterations collectively define a distinct and recognizable pattern distinguishable from classical CdLS and other cohesinopathies.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Understanding the new BRD4\u2010related syndrome: Clinical and genomic delineation with an international cohort study",
+        "authors": [
+          "G Jouret",
+          "S Heide",
+          "A Sorlin",
+          "L Faivre"
+        ],
+        "year": 2022,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14141",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14141",
+        "quote": "This work extends the phenotypic spectrum of cohesinopathies and characterize a new clinically relevant and recognizable pattern, distinguishable from the other cohesinopathies."
+      },
+      "numbers": [
+        {
+          "metric": "new cohort patient size",
+          "value": 14
+        },
+        {
+          "metric": "fetuses included in cohort",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Lonardo et al. (2025) systematically reviewed BRD4 gene alterations, classifying CdLS caused by BRD4 comprehensively as non-classic or atypical CdLS characterized by wide clinical variability and generally milder phenotypes that can be difficult to ascertain by classic CdLS criteria.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": "Children",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12650802",
+        "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+        "quote": "variations in several other genes, including BRD4, have been identified as causative factors for non-classic or milder forms of the syndrome. This review aims to analyse the roles that BRD4 plays in the various pathways in which it is involved and to summarise current knowledge on atypical CdLS associated with BRD4 gene alterations"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Olley et al. (2021) demonstrated that missense mutations in BRD4 associated with a Cornelia de Lange-like syndrome impair chromatin binding and DNA damage repair pathway choice without altering canonical pluripotency gene transcription, aligning with a distinct functional pathomechanism.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cornelia de Lange syndrome-associated mutations cause a DNA damage signalling and repair defect",
+        "authors": [
+          "G Olley",
+          "MM Pradeepa",
+          "GR Grimes",
+          "S Piquet"
+        ],
+        "year": 2021,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-021-23500-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-021-23500-6",
+        "quote": "Recently, we identified a missense mutation in BRD4 associated with a Cornelia de Lange-like syndrome that reduces BRD4 binding to acetylated histones."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Olley et al. (2018) reported that de novo missense variants in BRD4 yield a more typical CdLS phenotype than BRD4 deletions, whereas Jouret et al. (2022) found across 14 patients that BRD4 alterations (spanning missense, null, and large deletions) delineate a syndrome distinguishable from classic CdLS.",
+    "Lonardo et al. (2025) categorize BRD4 alterations broadly as causing non-classic/atypical CdLS rather than classic CdLS regardless of variant class, contradicting the premise that missense alterations are clinically indistinguishable from classical NIPBL-driven CdLS."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "How do quantitative international CdLS clinical consensus scores compare between individuals carrying BRD4 bromodomain/ET missense variants versus loss-of-function or 19p13 microdeletions?",
+      "rationale": "Applying the 2018 international consensus diagnostic criteria scoring objectively across all published BRD4 cases would resolve whether missense variants reach the threshold for classic CdLS or remain within non-classic CdLS.",
+      "promise": 0.85,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do specific missense variants in the extraterminal (ET) domain versus bromodomains (BD1/BD2) exhibit distinct transcriptional dysregulation patterns that account for subtle phenotypic divergence?",
+      "rationale": "Luna et al. (2019) demonstrated specific NIPBL-ET domain interactions, suggesting domain-specific point variants could yield divergent cellular and developmental consequences compared to general haploinsufficiency.",
+      "promise": 0.78,
+      "est_cost": 45000
+    }
+  ]
+}

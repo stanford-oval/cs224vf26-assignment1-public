@@ -1,0 +1,112 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While the initial report of SNUPN-related limb-girdle muscular dystrophy (LGMDR29) in five probands characterized the disease as a muscular dystrophy with proximal weakness, contractures, and respiratory dysfunction in the absence of intellectual disability or prominent central nervous system (CNS) anomalies, subsequent studies have substantially broadened the phenotype. Cohorts identified by Okubo et al. and Muelas et al. demonstrate that biallelic SNUPN variants frequently manifest with spinocerebellar ataxia, cerebellar atrophy, and mild intellectual disability. Consequently, using the absence of CNS involvement or intellectual disability as an absolute clinical rule to differentiate SNUPN from syndromic muscular dystrophies (such as dystroglycanopathies) is contradicted by phenotypic expansion.",
+  "evidence": [
+    {
+      "text": "The original study describing LGMDR29 evaluated five patients across two unrelated families with homozygous SNUPN variants, delineating a childhood-onset limb-girdle muscular dystrophy phenotype characterized by proximal muscle weakness, restrictive respiratory insufficiency, joint contractures, and myofibrillar-like aggregates, without reporting CNS structural malformations or intellectual disability.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "P Iruzubieta",
+          "A Damborenea",
+          "M Ioghen",
+          "S Bajew"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+        "quote": "Here, we present five patients from two unrelated families with a limb-girdle muscular dystrophy (LGMD) phenotype carrying a biallelic variant in SNUPN gene... SNUPN patients show a similar phenotype characterized by proximal weakness starting in childhood, restrictive respiratory dysfunction and prominent contractures"
+      },
+      "numbers": [
+        {
+          "metric": "affected patients in original cohort",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families assessed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Pathogenic variants in SNUPN were identified in two families presenting with spinocerebellar atrophy and ataxia, wherein all three assessed patients had mild intellectual disability and demonstrated cerebellar atrophy and dendritic abnormalities in Purkinje cells.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+        "authors": [
+          "M Okubo",
+          "M Ogawa",
+          "N Eura",
+          "YU Inoue",
+          "K Dewa",
+          "T Owa"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+        "quote": "We identified pathogenic variants in the SNUPN gene in two families with spinocerebellar atrophy... All three patients had mild intellectual disability... These results expand the clinical spectrum of SNUPN-related disorders beyond skeletal muscle and highlight splicing dysregulation as a potential mechanism underlying cerebellar atrophy."
+      },
+      "numbers": [
+        {
+          "metric": "patients with mild intellectual disability in SCA cohort",
+          "value": 3
+        },
+        {
+          "metric": "families with spinocerebellar atrophy assessed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "An expanded cohort study notes that LGMDR29 covers a spectrum ranging from congenital or childhood-onset pure muscular dystrophy to complex phenotypes with neurodevelopmental features, cataracts, spinocerebellar ataxia, and asymptomatic cerebellar atrophy on brain MRI.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+        "authors": [
+          "N Muelas",
+          "P Iruzubieta",
+          "A Damborenea"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1002/acn3.70211",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+        "quote": "SNUPN-related muscular dystrophy or LGMDR29 is a new entity that covers from a congenital or childhood onset pure muscular dystrophy to more complex phenotypes combining neurodevelopmental features, cataracts, or spinocerebellar ataxia... One patient presented with asymptomatic cerebellar atrophy."
+      },
+      "numbers": [
+        {
+          "metric": "total distinct SNUPN pathogenic variants described",
+          "value": 12
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Initial clinical descriptions characterized SNUPN variants as causing a muscle-restricted limb-girdle muscular dystrophy without central nervous system malformations or cognitive deficits, whereas subsequent studies identified biallelic SNUPN variants causing spinocerebellar atrophy, cerebellar ataxia, and mild intellectual disability.",
+    "Brain imaging was unremarkable in early muscular dystrophy probands, but subsequent probands with SNUPN mutations exhibited gross structural cerebellar atrophy on brain MRI."
+  ],
+  "confidence": 0.35,
+  "new_directions": [
+    {
+      "question_text": "What genotype-phenotype correlations determine whether SNUPN variants lead to an isolated muscular dystrophy phenotype versus spinocerebellar atrophy with intellectual disability?",
+      "rationale": "Clarifying whether specific missense variants (e.g., p.Ile309Ser vs p.Arg27Cys/p.Cys174Tyr) differentially alter snurportin-1 binding affinity for importin-beta versus snRNP cargo may reveal tissue-specific thresholds of splicing vulnerability between Purkinje neurons and skeletal myofibers.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the incidence of subclinical or asymptomatic cerebellar atrophy in pure limb-girdle presentations of LGMDR29 when systematic neuroimaging is applied?",
+      "rationale": "Muelas et al. documented asymptomatic cerebellar atrophy on MRI in an adult-onset patient; prospective brain MRI across all diagnosed LGMDR29 patients will determine if cerebellar involvement is an obligate feature with variable penetrance.",
+      "promise": 0.75,
+      "est_cost": 15000
+    }
+  ]
+}

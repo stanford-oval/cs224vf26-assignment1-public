@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"intellectual developmental disorder\" \"620450\"",
+    "OMIM 620450 TAF4 intellectual developmental disorder autosomal dominant 73 phenotype"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.mdpi.com/2073-4425/17/2/249",
+      "title": "Genetic Traces in Autism Spectrum Disorders: A Whole Exome Sequencing Study from T\u00fcrkiye",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2073-4425/17/2/249",
+      "abstract_chars": 2335
+    },
+    {
+      "id": "https://omim.org/entry/620450",
+      "title": "620450 - INTELLECTUAL DEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/entities/TAF4",
+      "title": "TAF4",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/entities/TAF4",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "title": "Intellectual Developmental Disorder, Autosomal Dominant 73",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_dominant_73",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/620450",
+      "title": "Clinical Synopsis - #620450 - INTELLECTUAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/620450",
+      "abstract_chars": 0
+    },
+    {
+      "id": "http://www.alliancegenome.org/disease/DOID:0061046",
+      "title": "autosomal dominant intellectual developmental disorder 73",
+      "pmid": null,
+      "doi": null,
+      "url": "http://www.alliancegenome.org/disease/DOID:0061046",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/humu.24444",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+      "pmid": null,
+      "doi": "10.1002/humu.24444",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+      "abstract_chars": 897
+    },
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02214-7",
+      "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02214-7",
+      "abstract_chars": 1698
+    },
+    {
+      "id": "26637982",
+      "title": "TAF1 variants are associated with dysmorphic features, intellectual disability, and neurological manifestations",
+      "pmid": "26637982",
+      "doi": "10.1016/j.ajhg.2015.11.005",
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(15)00450-4",
+      "abstract_chars": 1157
+    },
+    {
+      "id": "31646703",
+      "title": "Missense variants in TAF1 and developmental phenotypes: Challenges of determining pathogenicity",
+      "pmid": "31646703",
+      "doi": "10.1002/humu.23936",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23936",
+      "abstract_chars": 1593
+    }
+  ],
+  "input_tokens": 3829,
+  "output_tokens": 1559,
+  "usd": 0.00659,
+  "seconds": 13.3,
+  "ok": true
+}

@@ -1,0 +1,79 @@
+{
+  "verdict": "supported",
+  "rationale": "Direct peer-reviewed evidence demonstrates that biallelic SNUPN variants can present along a phenotypic spectrum involving the central nervous system: ranging from an asymptomatic cerebellar atrophy neuroimaging finding in patients presenting with late-onset muscular dystrophy, to clinical spinocerebellar ataxia/atrophy where Purkinje cell degeneration occurs as a primary manifestation without overt or significant skeletal muscle weakness.",
+  "evidence": [
+    {
+      "text": "Biallelic SNUPN variants cause spinocerebellar atrophy through disrupted U1 snRNP-mediated pre-mRNA splicing in Purkinje cells. In two families with spinocerebellar atrophy, clinical phenotype presentation showed that one affected individual exhibited only mild skeletal muscle changes, whereas another presented without skeletal muscle involvement.",
+      "stance": "supports",
+      "source": {
+        "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+        "authors": [
+          "M Okubo",
+          "M Ogawa",
+          "N Eura",
+          "YU Inoue",
+          "K Dewa",
+          "T Owa"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awaf348",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+        "quote": "We identified pathogenic variants in the SNUPN gene in two families with spinocerebellar atrophy. One patient exhibited mild changes in skeletal muscle, while the other did not."
+      },
+      "numbers": [
+        {
+          "metric": "families with spinocerebellar atrophy",
+          "value": 2
+        },
+        {
+          "metric": "individuals assessed across the two families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "In a family carrying biallelic deleterious SNUPN variants (p.Arg27Cys and p.Cys174Tyr) presenting with adult-onset proximo-distal and axial myopathy, neuroimaging revealed asymptomatic cerebellar atrophy in one of the affected siblings, demonstrating that cerebellar involvement can exist strictly as a subclinical neuroimaging feature.",
+      "stance": "supports",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12883674",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12883674/",
+        "quote": "Two siblings carrying two novel deleterious variants in the SNUPN gene (p.Arg27Cys and p.Cys174Tyr) showed adult-onset proximo-distal and axial muscle weakness with early respiratory involvement. One patient presented with asymptomatic cerebellar atrophy."
+      },
+      "numbers": [
+        {
+          "metric": "siblings evaluated",
+          "value": 2
+        },
+        {
+          "metric": "patients with asymptomatic cerebellar atrophy",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What specific domain-level or missense alterations in snurportin-1 dictate primary Purkinje cell splicing vulnerability versus skeletal muscle sarcomeric/nuclear envelope degeneration?",
+      "rationale": "Delineating genotype-phenotype correlations will determine why certain missense variants manifest primarily as spinocerebellar ataxia without overt myopathy while others cause classic limb-girdle or axial muscular dystrophy.",
+      "promise": 0.85,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "What is the true prevalence of subclinical or asymptomatic cerebellar atrophy across larger cohorts of genetically confirmed LGMDR29 patients?",
+      "rationale": "Systematic brain MRI screening of all reported SNUPN-related muscular dystrophy cohorts is required to determine whether cerebellar volume loss is an underreported, penetrant subclinical marker across all SNUPN genotypes.",
+      "promise": 0.78,
+      "est_cost": 120000
+    }
+  ]
+}

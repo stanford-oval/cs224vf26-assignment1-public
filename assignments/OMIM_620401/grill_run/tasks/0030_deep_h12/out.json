@@ -1,0 +1,68 @@
+{
+  "verdict": "supported",
+  "rationale": "Available clinical literature on SGSM3 deficiency (Intellectual developmental disorder, autosomal recessive 84; OMIM #620401) characterizes the neurodevelopmental phenotype as a developmental delay rather than a progressive neurodegenerative disorder or static speech arrest. Longitudinal observations in the primary cohort (Birnbaum et al., 2024) document early global developmental and expressive speech delay in early childhood followed by the acquisition of spoken functional communication around age 5. Subsequent identification of bi-allelic loss-of-function variants in independent siblings (Turkyilmaz et al., 2025) similarly presented with mild-to-moderate intellectual disability and developmental delay without neuroregression, speech loss, or degenerative features.",
+  "evidence": [
+    {
+      "text": "Birnbaum et al. identified a homozygous frameshift founder variant in SGSM3 in Ashkenazi Jewish individuals presenting with mild global developmental delay, intellectual disability, and short stature, with neurodevelopmental features following a developmental delay course rather than a neurodegenerative arrest.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "The affected individuals displayed mild global developmental delay and mild to moderate intellectual disability. Additional prevalent phenotypes observed ... with variable degrees of intellectual disability. They all share a common homozygous frameshift variant in SGSM3, which segregated with the phenotype in available family members."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Turkyilmaz et al. identified a homozygous stop-gain variant (p.Arg526Ter) in SGSM3 in two siblings presenting with short stature and intellectual disability, describing it as a nonsyndromic intellectual disability phenotype without reports of progressive neurological or linguistic regression.",
+      "stance": "supports",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14631",
+        "pmid": null,
+        "pmc": "PMC11725557",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "In this study, a novel homozygous stop-gain (NM_015705.6: c.1576C>T: p.(Arg526Ter)) variation was detected in the SGSM3 gene in two siblings with short stature and ID findings. The report of two cases with bi-allelic LOF variants in the SGSM3 gene from different populations with similar clinical manifestations strengthens the potential of this gene as a candidate gene for the nonsyndromic ID phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.72,
+  "new_directions": [
+    {
+      "question_text": "What are the standardized formal speech and language assessment scores (e.g., receptive vs. expressive quotients) longitudinally in SGSM3-deficient patients past age 10?",
+      "rationale": "Existing reports delineate early developmental catch-up qualitatively, but quantitative developmental trajectories across receptive and expressive language domains are necessary to distinguish specific speech delay from general intellectual disability progression.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does SGSM3 loss-of-function alter neuronal maturation, dendritic arborization, or synaptogenesis in human cortical or motor speech neural circuits during developmental critical periods?",
+      "rationale": "SGSM3 modulates small GTPase/RAS signaling pathways, which are critical for developmental stage-specific neural plasticity and dendritic growth.",
+      "promise": 0.8,
+      "est_cost": 75000
+    }
+  ]
+}

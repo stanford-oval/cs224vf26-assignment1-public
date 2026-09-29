@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SNUPN\" \"limb-girdle muscular dystrophy\" clinical phenotype",
+    "SNUPN LGMDR29 muscular dystrophy clinical features creatine kinase weakness"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+      "title": "SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in cerebellar Purkinje cells",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/149/3/1007/8483316",
+      "abstract_chars": 2095
+    },
+    {
+      "id": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+      "title": "A Case of Limb-Girdle Muscular Dystrophy Type R29 Presenting with Myocardial Damage as the Initial Manifestation: A case report",
+      "pmid": null,
+      "doi": null,
+      "url": "https://assets-eu.researchsquare.com/files/rs-8429398/v1/499608a9-2f52-4f74-b34e-24bd44066151.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/acn3.70211",
+      "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+      "pmid": null,
+      "doi": "10.1002/acn3.70211",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+      "abstract_chars": 2152
+    },
+    {
+      "id": "10.1101/2024.07.11.24310169.abstract",
+      "title": "Genetic SNUPN variants cause spinocerebellar atrophy by disrupting global splicing in Purkinje cells",
+      "pmid": null,
+      "doi": "10.1101/2024.07.11.24310169.abstract",
+      "url": "https://www.medrxiv.org/content/10.1101/2024.07.11.24310169.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/38366623/",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38366623/",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "title": "Biallelic variants in SNUPN cause a limb girdle muscular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article/147/8/2867/7608964",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://omim.org/entry/620793",
+      "title": "620793 - MUSCULAR DYSTROPHY, LIMB-GIRDLE ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/620793",
+      "abstract_chars": 0
+    },
+    {
+      "id": "38366623",
+      "title": "Gene: SNUPN (Limb girdle muscular dystrophies ...",
+      "pmid": "38366623",
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/185/gene/SNUPN/",
+      "abstract_chars": 2400
+    },
+    {
+      "id": "https://emedicine.medscape.com/article/1170911-clinical",
+      "title": "Limb-Girdle Muscular Dystrophy Clinical Presentation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://emedicine.medscape.com/article/1170911-clinical",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6420,
+  "output_tokens": 3007,
+  "usd": 0.01223,
+  "seconds": 16.3,
+  "ok": true
+}

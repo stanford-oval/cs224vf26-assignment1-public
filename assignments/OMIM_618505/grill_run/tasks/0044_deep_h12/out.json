@@ -1,0 +1,65 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature provides no empirical data to substantiate the hypothesis. Although Rots et al. (2023) evaluate the KDM6B-related neurodevelopmental disorder (Stolerman syndrome, OMIM #618505) and reference OMIM's definition mentioning mild distal skeletal abnormalities, the provided sources do not include the supplemental data tables or numerators and denominators necessary to prove that distal skeletal anomalies are present in 20% to 35% of patients or that fifth digit nail/phalangeal hypoplasia (HP:0001792) is strictly absent (0/N). Under the evaluation rubric, a hypothesis that receives no support from the literature is classified as refuted.",
+  "evidence": [
+    {
+      "text": "Rots et al. (2023) note that according to OMIM, heterozygous variants in KDM6B cause neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities; however, the provided literature excerpt lacks the supplemental data required to verify the frequency of 20% to 35% or the 0/N absence of fifth digit nail hypoplasia.",
+      "stance": "neutral",
+      "source": {
+        "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+        "authors": [
+          "D Rots"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "37196654",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37196654/",
+        "quote": "According to OMIM, heterozygous variants in KDM6B cause \"neurodevelopmental disorder with coarse facies and mild distal skeletal abnormalities."
+      },
+      "numbers": []
+    },
+    {
+      "text": "KDM6B is identified as an H3K27 demethylase (JMJD3) involved in epigenetic regulation and histone modification abnormalities, but general epigenetic reviews provide no clinical phenotypic frequencies for distal limb anomalies in Stolerman syndrome.",
+      "stance": "neutral",
+      "source": {
+        "title": "Epigenetic regulation of aging and its rejuvenation",
+        "authors": [
+          "Y An",
+          "Q Wang",
+          "K Gao",
+          "C Zhang",
+          "Y Ouyang",
+          "R Li"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/mco2.70369",
+        "pmid": "40904701",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mco2.70369",
+        "quote": "the activity of the H3K27 demethylase KDM6B/JMJD3, reduce \u2026 -related histone modification abnormalities."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts specific quantitative frequency ranges (20% to 35%) for minor digital anomalies and complete absence (0/N) of Coffin-Siris-like distal phalangeal hypoplasia, but the provided text from Rots et al. (2023) contains only high-level references to the OMIM definition without accessible supplemental data tables."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators, denominators, and HPO codes for digital and skeletal anomalies documented in the supplemental tables of Rots et al. (2023)?",
+      "rationale": "Direct extraction of the full supplemental phenotypic tables of the Rots et al. 2023 cohort is needed to definitively assess whether fifth digit nail hypoplasia is absent and whether minor digital anomalies fall within 20% to 35%.",
+      "promise": 0.95,
+      "est_cost": 500.0
+    },
+    {
+      "question_text": "How reliably does the presence of fifth digit nail or distal phalangeal hypoplasia distinguish Coffin-Siris syndrome from Stolerman neurodevelopmental syndrome in clinical cohorts?",
+      "rationale": "Testing the clinical discriminative power of HP:0001792 across large cohorts of KDM6B, ARID1B, and SMARCA4 patients would confirm whether Coffin-Siris overlap can be ruled out by phenotype alone.",
+      "promise": 0.85,
+      "est_cost": 12000.0
+    }
+  ]
+}

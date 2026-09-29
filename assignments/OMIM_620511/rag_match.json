@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620511",
+ "omim": "OMIM:620511",
+ "disease": "Fliedner-Zweier syndrome",
+ "gene": "SCAF4",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1586,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Fliedner-Zweier syndrome (SCAF4, OMIM:620511):\n\n[1] A novel nonsense mutation in SCAF4 associated with fliedner ...\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC12021868/\n4 (SCAF4) gene are linked to Fliedner-Zweier syndrome (FZS), which presents with diverse symptoms, including mild intellectual disability, ...\n\n[2] Further delineation of the SCAF4-associated ...\nhttps://www.nature.com/articles/s41431-024-01760-2\nby CM Schmid \u00b7 2025 \u00b7 Cited by 7 \u2014 Recently, variants in SCAF4 have been reported to cause a neurodevelopmental disorder (NDD) (Fliedner-Zweier syndrome, MIM#620511) [8,9,10].\n\n[3] Fliedner-Zweier Syndrome (FZS)\nhttps://www.malacards.org/card/fliedner_zweier_syndrome\nAn autosomal dominant neurodevelopmental disorder characterized by variable features including mild intellectual disability, seizures, behavioral abnormalities, ...\n\n[4] Family 8735: Our story\nhttps://mygene2.org/MyGene2/familyprofile/8735/profile\nMy daughter Halen is a 12-year-old girl with a confirmed SCAF4 likely pathogenic variant associated with a neurodevelopmental disorder (Fliedner ...\n\n[5] Fliedner-Zweier syndrome\nhttps://www.alliancegenome.org/disease/DOID:0070653\nA syndromic intellectual disability characterized by variable manifestations including mild intellectual disability, seizures, behavioral abnormalities, and ...\n\n[6] Variants in SCAF4 Cause a Neurodevelopmental Disorder ...\nhttps://www.sciencedirect.com/science/article/pii/S0002929720302287\nby A Fliedner \u00b7 2020 \u00b7 Cited by 30 \u2014 Affected individuals demonstrated a variable neurodevelopmental disorder characterized by mild intellectual disability, seizures, behavioral ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 66.0, male)\n  observed: Brachydactyly, Downslanted palpebral fissures, Frontal bossing, Underdeveloped nasal alae, Micrognathia, Short stature, Rod-cone dystrophy, Nyctalopia, Low-set ears, Macrotia, Intellectual disability, Global developmental delay\n  recorded ABSENT: Bilateral superior vena cava, Ventricular septal defect, Ectopic testis, Intrauterine growth retardation, Craniosynostosis, Delayed speech and language development, Delayed ability to walk, Horseshoe kidney, Renal cyst, Chiari malformation, Cerebral cortical atrophy, Feeding difficulties, Cafe-au-lait spot, Hallux valgus, Pes planus, Alopecia, Absent eyebrow, Absent eyelashes, Ichthyosis\n\nP02 (age 5.0, female)\n  observed: Thin vermilion border, Synophrys, Single transverse palmar crease, Motor delay, Delayed speech and language development, Pancreatic cysts, Volvulus, Hydronephrosis\n  recorded ABSENT: Midface retrusion, Coarse facial features, Triangular face, Long face, High anterior hairline, Retrognathia, Mandibular prognathia, Hypertelorism, Telecanthus, Long palpebral fissure, Upslanted palpebral fissure, Downslanted palpebral fissures, Wide nasal bridge, Long philtrum, Thick nasal alae, Depressed nasal bridge, Low-set ears, Cupped ear, Prominent forehead, Deeply set eye, Epicanthus, Hypospadias, Microcephaly, Constipation, Joint hypermobility (+18 more)\n\nP03 (age 5.0, female)\n  observed: Feeding difficulties, Hearing impairment, Downslanted palpebral fissures, Anteverted nares, Autistic behavior, Broad philtrum, Highly arched eyebrow, Bulbous nose, Hypotonia, Low-set ears, Ptosis, Hypertelorism\n  recorded ABSENT: Epicanthus, Prominent metopic ridge, Metatarsus adductus\n\nP04 (age 5.0, male)\n  observed: Intellectual disability, Short stature, Delayed speech and language development, Motor delay, Microcephaly, Opisthotonus, Simplified gyral pattern, Lateral ventricle dilatation, Upslanted palpebral fissure, Epicanthus, High palate, Micrognathia\n  recorded ABSENT: Decreased body weight\n\nP05 (age 3.0, female)\n  observed: Small for gestational age, Short stature, Abnormal cortical gyration, Agenesis of corpus callosum, Colpocephaly, Motor delay, Craniosynostosis, Stenosis of the external auditory canal, Low-set ears, Oligohydramnios, Depressed nasal bridge, Hypotonia, Seizure, Feeding difficulties, Absent speech, Global developmental delay, Intellectual disability, Downslanted palpebral fissures, Retrognathia, Proptosis, Hypertelorism, Ventriculomegaly\n  recorded ABSENT: Microcephaly, Hypoplasia of the corpus callosum, Hydronephrosis, Anal atresia, Narrow forehead, Turricephaly, Anteverted ears, Broad inferior crus of antihelix, Linear earlobe crease, Microtia, Protruding ear, Dental crowding, Cleft palate, High palate, Short philtrum, Smooth philtrum, Tented upper lip vermilion, Thick vermilion border, Polyhydramnios, Prominent nasal bridge, Upslanted palpebral fissure, Epicanthus, Strabismus, Sensorineural hearing impairment, Atrioventricular canal defect (+4 more)\n\nP06 (age 12.0, male)\n  observed: Drooling, Broad nasal tip, Strabismus, Pectus excavatum, Axial hypotonia, Bilateral tonic-clonic seizure with generalized onset, Non-convulsive status epilepticus without coma, Tonic seizure, Atonic seizure, Interictal EEG abnormality, Delayed speech and language development, Autistic behavior, Severe intellectual disability, Gastroesophageal reflux, Chronic constipation\n  recorded ABSENT: Thin upper lip vermilion, Thick lower lip vermilion, Small forehead, Midface retrusion, Epicanthus, Upslanted palpebral fissure, Narrow palpebral fissure, Bulbous nose, Micrognathia, Microcephaly, Hypertelorism, Scoliosis, Kyphosis, Spasticity, Distal joint hypermobility, Macrotia, Dystonic gait, Dystonia, Aggressive behavior, Hyperactivity, Developmental regression, Delayed ability to walk, Vein of Galen aneurysmal malformation, Anomalous pulmonary venous return, Tall stature (+4 more)\n\nP07 (age 13.0, female)\n  observed: Global developmental delay, Seizure, Autistic behavior, Ventricular septal defect, Hydronephrosis, Hallux valgus\n  recorded ABSENT: Delayed ability to walk, Hypoplasia of the corpus callosum, Cerebellar atrophy, Hypotonia, Hypertonia, Aggressive behavior, Self-injurious behavior, Bicuspid aortic valve, Hypoplastic aortic arch, Unilateral renal agenesis, Multicystic kidney dysplasia, Tracheoesophageal fistula, Anal atresia, Kyphosis, Scoliosis, Pectus excavatum, Tethered cord, Microcephaly, Epicanthus, Obesity, Meningocele\n\nP08 (age None, male)\n  observed: Camptodactyly, Scoliosis, Lumbar hyperlordosis, Micropenis, Hypothyroidism, Mild global developmental delay, Mild intellectual disability, Anxiety, Pes cavus\n  recorded ABSENT: Gastroesophageal reflux, Chronic constipation, Hypotonia, Microcephaly, Retrognathia, High forehead, Highly arched eyebrow, Strabismus, Astigmatism, Hypermetropia, Hypertelorism, Low-set ears, Attention deficit hyperactivity disorder, Low frustration tolerance, Anger, Impulsivity, Obsessive-compulsive trait, Polyhydramnios\n\nP09 (age 1.3, male)\n  observed: Sensorineural hearing impairment, Unilateral renal agenesis, Plagiocephaly, Retrognathia, Everted lower lip vermilion, Broad forehead, Facial asymmetry, Anophthalmia, Lateral ventricle dilatation, Lower limb hypertonia, Hypotonia\n  recorded ABSENT: Absent crus of helix, Overfolded helix, Renal cortical cysts, Microcephaly, Posterior fossa cyst, Deep philtrum, Exaggerated cupid's bow, Thin vermilion border, Thick vermilion border, Narrow mouth, Open mouth, Narrow forehead, High forehead, Highly arched eyebrow, Synophrys, Upslanted palpebral fissure, Short palpebral fissure, Epicanthus, Wide nasal bridge, Depressed nasal bridge, Anteverted nares, Round face, Long face, Fetal tachycardia, Patent ductus arteriosus (+21 more)\n\nP10 (age 8.0, male)\n  observed: Hypoplasia of the corpus callosum, Hippocampal atrophy, Absent speech, Feeding difficulties, Autistic behavior, Intellectual disability, Global developmental delay, Seizure, Hypotonia, Strabismus\n  recorded ABSENT: Periventricular leukomalacia, Parietal cortical atrophy, 2-3 toe syndactyly, Hallux valgus, Echolalia, Ataxia, Clinodactyly of the 5th finger, Carious teeth, Proptosis, Broad nasal tip, Low-set ears, Smooth philtrum, Hypertelorism, Micrognathia, Frontal bossing, Downslanted palpebral fissures, Anteverted nares, Gait disturbance, Coarctation of aorta, Ventricular septal defect, Atrial septal defect, Microcephaly, Posterior embryotoxon, Pectus excavatum\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P10",
+     "probability": 0.35,
+     "for": "This patient exhibits the complete cardinal triad described in the report, including intellectual disability, seizures, and behavioral abnormalities (autistic behavior).",
+     "against": "The patient has absent speech and structural brain anomalies suggesting a more severe condition than the 'mild intellectual disability' emphasized in the literature."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.3,
+     "for": "Presents specifically with 'mild intellectual disability' (verbatim in the report) along with mild global developmental delay and a behavioral abnormality (anxiety).",
+     "against": "Seizures, one of the three core manifestations highlighted in the disease summary, are not observed in this patient."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.2,
+     "for": "Shows seizures and behavioral abnormalities (autistic behavior) in the setting of global developmental delay, matching key features of the neurodevelopmental disorder.",
+     "against": "Intellectual disability is not explicitly documented, and the patient has additional structural defects (ventricular septal defect, hydronephrosis) not described in the evidence."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.1,
+     "for": "Presents with multiple seizure types, delayed speech, and behavioral abnormalities (autistic behavior), which are prominent in the report.",
+     "against": "The patient is documented with severe intellectual disability, which strongly argues against the consistently highlighted 'mild intellectual disability'."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Demonstrates intellectual disability, seizures, and developmental delay consistent with a syndromic neurodevelopmental presentation.",
+     "against": "Lacks behavioral abnormalities and exhibits extensive structural brain and craniofacial anomalies not mentioned in the report."
+    }
+   ],
+   "what_the_report_lacked": "The report provided only brief summary snippets mentioning mild intellectual disability, seizures, and behavioral abnormalities, lacking details on the frequencies of these features, associated facial dysmorphisms, and systemic or structural organ/skeletal manifestations.",
+   "tokens_in": 2318,
+   "tokens_out": 6251,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.38,
+     "for": "Demonstrates seizures, behavioral abnormalities (autistic behavior), and neurodevelopmental involvement (global developmental delay), which align with the core manifestations reported for Fliedner-Zweier syndrome.",
+     "against": "The cognitive impairment is recorded as global developmental delay rather than explicitly mild intellectual disability, and several structural malformations (ventricular septal defect, hydronephrosis) are not mentioned in the report."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.35,
+     "for": "Exhibits mild intellectual disability and mild developmental delay matching the specific degree described in the report, accompanied by a behavioral abnormality (anxiety).",
+     "against": "Lacks observed seizures, which are highlighted as a characteristic feature of the syndrome."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.15,
+     "for": "Features intellectual disability, seizures, and behavioral abnormalities (autistic behavior), covering all three key clinical domains noted in the disease summary.",
+     "against": "Presents with absent speech and significant structural brain anomalies (hypoplasia of corpus callosum, hippocampal atrophy), suggesting a more severe impairment than the typical mild intellectual disability described."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.08,
+     "for": "Presents with multiple seizure types (tonic, atonic, bilateral tonic-clonic) and autistic behavioral abnormalities consistent with the disease description.",
+     "against": "Has severe intellectual disability and non-convulsive status epilepticus, which contrasts with the mild intellectual disability repeatedly emphasized in the report."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.04,
+     "for": "Displays autistic behavior, matching the behavioral abnormalities described in the syndrome.",
+     "against": "Lacks documented intellectual disability or seizures, instead predominantly showing cranial and facial dysmorphisms not detailed in the report."
+    }
+   ],
+   "what_the_report_lacked": "The report provided only broad, high-level features (mild intellectual disability, seizures, and behavioral abnormalities) without detailed information on penetrance, specific seizure semiologies, characteristic facial dysmorphisms, or associated systemic/organ malformations.",
+   "tokens_in": 2318,
+   "tokens_out": 5070,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P07",
+     "probability": 0.45,
+     "for": "Demonstrates the core triad highlighted for Fliedner-Zweier syndrome, including global developmental delay, seizures, and behavioral abnormalities (autistic behavior).",
+     "against": "Lacks explicit recording of intellectual disability severity as 'mild', and presents with structural cardiac and renal defects not detailed in the brief report."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.3,
+     "for": "Explicitly exhibits mild intellectual disability and mild global developmental delay alongside behavioral abnormalities (anxiety), matching the hallmark mild cognitive profile.",
+     "against": "Lacks seizures, which are highlighted as a key variable feature in affected individuals."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.12,
+     "for": "Presents with intellectual disability, seizures, and autistic behavior, which align with the neurodevelopmental features of the syndrome.",
+     "against": "Demonstrates complete absence of speech and structural brain anomalies (hippocampal atrophy, corpus callosum hypoplasia), pointing to a more severe phenotype than the typical mild presentation."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.08,
+     "for": "Exhibits seizures and behavioral abnormalities (autistic behavior) characteristic of SCAF4-related neurodevelopmental disorder.",
+     "against": "Has severe intellectual disability, multiple severe seizure types, and non-convulsive status epilepticus, which strongly argue against the typically mild intellectual disability described."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.05,
+     "for": "Presents with intellectual disability, seizures, and global developmental delay.",
+     "against": "Displays complex structural brain malformations (agenesis of the corpus callosum, abnormal gyration, colpocephaly) and craniosynostosis not characteristic of the reported syndrome profile."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical breakdowns regarding the full phenotypic spectrum of SCAF4 variants, specifically whether structural brain anomalies, dysmorphic facial features, or extra-neurological manifestations (such as congenital heart defects or renal abnormalities) occur in Fliedner-Zweier syndrome.",
+   "tokens_in": 2318,
+   "tokens_out": 3986,
+   "round": 3
+  }
+ ]
+}

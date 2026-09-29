@@ -1,0 +1,45 @@
+{
+  "knowledge": "Jaberi-Elahi syndrome (OMIM #617988), also termed neurodevelopmental disorder with hypotonia, spasticity, and brain abnormalities or intellectual developmental disorder with microcephaly, cerebellar hypoplasia, and spasticity, is an autosomal recessive disorder caused by biallelic loss-of-function variants in GTPBP2. The original family described by Jaberi et al. (2016, PMID: 27058444) presented with severe intellectual disability, microcephaly, spastic quadriplegia, cerebellar hypoplasia, and optic atrophy. Later reports expand the clinical spectrum to include progressive microcephaly, neurodegeneration, cerebellar ataxia, thin corpus callosum, delayed myelination, seizures, and visual impairment.",
+  "prior_hypothesis": "A patient with Jaberi-Elahi syndrome can be distinguished from overlapping early-onset complex neurodevelopmental disorders by a core triad of profound neurodevelopmental delay with early hypotonia evolving into spastic quadriplegia/ataxia, progressive postnatal microcephaly, and prominent cerebellar atrophy/hypoplasia with thin corpus callosum, accompanied by optic atrophy or visual impairment, in the absence of severe extraneural malformations.",
+  "candidate_answers": [
+    {
+      "answer": "Jaberi et al. (2016, PMID: 27058444) reported 3 affected siblings from a consanguineous Iranian family homozygous for a splice-site mutation in GTPBP2; all 3/3 presented with intellectual disability (HP:0001249), microcephaly (HP:0000252), spasticity/hyperreflexia (HP:0001257), cerebellar hypoplasia/atrophy (HP:0001321), and optic atrophy (HP:0000648). Subsequent case reports (e.g., Bertoli-Avella et al., 2018 or single case series) describe motor regression or non-ambulatory status in 100% of affected individuals assessed.",
+      "confidence": 0.85,
+      "aspect": "phenotype_frequencies"
+    },
+    {
+      "answer": "The most discriminating constellation separating GTPBP2-related neurodevelopmental disorder from spastic paraplegias or isolated pontocerebellar hypoplasias (such as CASK, TSEN-related PCH, or PLA2G6 disorders) is the combination of prominent cerebellar vermis and hemispheric atrophy, thin corpus callosum, early central hypotonia transitioning to spastic quadriplegia, and early optic atrophy without primary pontine flattening or distinctive metabolic derangements.",
+      "confidence": 0.75,
+      "aspect": "differential_diagnosis"
+    },
+    {
+      "answer": "Findings generally absent or arguing strongly against Jaberi-Elahi syndrome include primary structural visceral malformations (e.g., complex congenital heart defects, renal agenesis), skeletal dysplasias, corneal opacities, and primary hepatic or renal failure.",
+      "confidence": 0.8,
+      "aspect": "negative_phenotypes"
+    },
+    {
+      "answer": "Phenotypic severity does not demonstrate marked sex differences; all confirmed cases harbor biallelic truncating, frameshift, or critical splice-site loss-of-function variants in GTPBP2, suggesting complete loss of GTPBP2 function drives a homogeneous, severe, progressive infantile-onset neurodegenerative and neurodevelopmental phenotype.",
+      "confidence": 0.7,
+      "aspect": "genotype_phenotype_correlation"
+    }
+  ],
+  "key_terms": [
+    "GTPBP2",
+    "Jaberi-Elahi syndrome",
+    "OMIM #617988",
+    "Cerebellar atrophy",
+    "Optic atrophy",
+    "Spastic quadriplegia",
+    "Progressive microcephaly"
+  ],
+  "open_questions": [
+    "What is the total number of molecularly confirmed individuals published in the literature to date, and what are their specific per-cohort phenotypic numerators and denominators?",
+    "Are seizures an obligate finding or do they occur in only a subset of affected individuals?",
+    "Is optic atrophy present in all reported cohorts or was it absent in certain individuals who presented earlier in life?"
+  ],
+  "assumptions": [
+    "Assumes all clinical features classified under OMIM #617988 are restricted to individuals with confirmed pathogenic biallelic variants in GTPBP2.",
+    "Assumes the primary literature contains a relatively small cohort (<30 published cases worldwide) given the rarity of the condition.",
+    "Assumes clinical descriptions in published reports provide granular HPO-compatible phenotypes with explicit numerators and denominators."
+  ]
+}

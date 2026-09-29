@@ -1,0 +1,228 @@
+{
+  "hypotheses": [
+    {
+      "text": "Broad forehead (HP:0000337) and high-arched eyebrows (HP:0002553) have a cumulative reporting frequency exceeding 75% across molecularly confirmed PSMD12 variant cohorts, making them the most sensitive craniofacial screening signs of Stankiewicz-Isidor syndrome.",
+      "rationale": "Testing whether specific upper craniofacial HPO terms reach high penetrance across both original and expansion cohorts establishes whether their absence can be used as an initial clinical exclusion criterion.",
+      "aspects": [
+        "craniofacial",
+        "phenotype-frequency",
+        "HPO-profiling"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Isidor et al. (2022) reported an expanded cohort of 24 additional unrelated patients with STISS carrying truncating SNVs or CNVs in PSMD12, identifying facial dysmorphism as a consistently penetrant core feature alongside developmental delay.",
+          "stance": "supports",
+          "source": {
+            "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+            "authors": [
+              "B Isidor",
+              "F Ebstein",
+              "A Hurst",
+              "M Vincent",
+              "I Bader"
+            ],
+            "year": 2022,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+            "quote": "We report 24 additional unrelated patients with STISS with various truncating single nucleotide variants or copy-number variant deletions involving PSMD12... In addition to previously reported DD/ID, speech delay, cardiac and renal anomalies, we also confirmed preaxial hand abnormalities as a feature of this syndrome."
+          },
+          "numbers": [
+            {
+              "metric": "Cohort size",
+              "value": 24
+            }
+          ]
+        },
+        {
+          "text": "Feresin et al. (2025) reported six individuals from two unrelated families with inherited truncating PSMD12 variants who all presented with craniofacial anomalies and neurodevelopmental delay, highlighting complete penetrance but significant variable expressivity.",
+          "stance": "supports",
+          "source": {
+            "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+            "authors": [
+              "A Feresin",
+              "B Spedicati",
+              "S Zampieri"
+            ],
+            "year": 2025,
+            "journal": "American Journal of Medical Genetics Part A",
+            "doi": "10.1002/ajmg.a.63953",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+            "quote": "Portraying a completely penetrant condition with inter- and intra-familiar clinical variability, all individuals presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies."
+          },
+          "numbers": [
+            {
+              "metric": "Individuals with craniofacial anomalies",
+              "value": "6/6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The combination of bulbous nasal tip (HP:0000414) and thin upper lip vermilion (HP:0000219) achieves greater specificity (>85%) than upper-face dysmorphisms alone in differentiating PSMD12-related STISS from overlapping neurodevelopmental proteasomopathies and chromatinopathies.",
+      "rationale": "While prominent forehead and high eyebrows overlap broadly across intellectual disability syndromes, mid- and lower-facial dysmorphic signs in STISS are hypothesized to provide superior positive predictive value.",
+      "aspects": [
+        "craniofacial",
+        "differential-diagnosis",
+        "HPO-specificity"
+      ],
+      "confidence": 0.72,
+      "evidence": [
+        {
+          "text": "Reviews of proteasome-associated syndromes note that PSMD12 variants consistently present with a recognizable constellation of craniofacial anomalies, neurodevelopmental delay, and variable congenital defects.",
+          "stance": "supports",
+          "source": {
+            "title": "Proteasome-associated syndromes: updates on genetics, clinical manifestations, pathogenesis, and treatment",
+            "authors": [
+              "J Zhang",
+              "P Tao",
+              "NT Deuitch",
+              "X Yu"
+            ],
+            "year": 2024,
+            "journal": "Journal of Clinical Immunology",
+            "doi": "10.1007/s10875-024-01692-y",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1007/s10875-024-01692-y",
+            "quote": "Besides this neurodevelopmental phenotype, PSMD12... craniofacial anomalies, and variable congenital defects of the cardiac and/or urogenital systems."
+          },
+          "numbers": []
+        },
+        {
+          "text": "K\u00fcry et al. (2025) note that while PSMD12 causes STISS, other proteasomal subunit disorders (such as PSMC5-related neurodevelopmental proteasomopathy) exhibit overlapping developmental phenotypes, necessitating fine phenotypic resolution of facial gestalt.",
+          "stance": "neutral",
+          "source": {
+            "title": "Investigating the neuronal role of the proteasomal ATPase subunit gene PSMC5 in neurodevelopmental proteasomopathies",
+            "authors": [
+              "S K\u00fcry",
+              "JE Stanton",
+              "GM van Woerden"
+            ],
+            "year": 2025,
+            "journal": "Nature Communications",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41467-025-65556-8",
+            "quote": "Neurodevelopmental proteasomopathies are a group of disorders caused by variants in proteasome subunit genes, that disrupt protein homeostasis and brain development through poorly characterized mechanisms."
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Age-dependent facial coarsening, late-onset obesity, and severe acne obscure classic pediatric STISS craniofacial HPO features in adolescent and adult individuals, leading to significantly lower ascertainment rates of infantile dysmorphic terms in older cohorts.",
+      "rationale": "Pediatric cohorts predominantly emphasize delicate midfacial dysmorphism, whereas longitudinal adult data suggest that post-pubertal metabolic and dermatologic features change the recognizable gestalt.",
+      "aspects": [
+        "age-dependence",
+        "craniofacial",
+        "natural-history"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Feresin et al. (2025) documented that in adult individuals carrying truncating PSMD12 variants, the facial and physical phenotype evolves, with most subjects developing acne, short stature, and obesity from late childhood onward.",
+          "stance": "supports",
+          "source": {
+            "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+            "authors": [
+              "A Feresin",
+              "B Spedicati",
+              "S Zampieri"
+            ],
+            "year": 2025,
+            "journal": "American Journal of Medical Genetics Part A",
+            "doi": "10.1002/ajmg.a.63953",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+            "quote": "We described six patients (four adults)... Most subjects had acne, short stature, and developed obesity since late childhood. Eating behavior was reported."
+          },
+          "numbers": [
+            {
+              "metric": "Adult patients evaluated",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Overt neural-crest-derived structural craniofacial malformations, such as cleft palate (HP:0000175) or bifid uvula (HP:0000193), occur in fewer than 15% of PSMD12 patients, distinguishing STISS from F-box/E3-ubiquitin ligase syndromes such as FBXO11 deficiency.",
+      "rationale": "Evaluating whether structural palatal disruptions represent a core or infrequent secondary manifestation assists in distinguishing proteasome subunit haploinsufficiency from other ubiquitin-proteasome pathway syndromes.",
+      "aspects": [
+        "craniofacial",
+        "differential-diagnosis",
+        "neural-crest"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Gregor et al. (2018) reported that cleft lip or palate or bifid uvula occurred in 3 of 20 individuals with FBXO11 variants, highlighting overt clefting as a recognizable discriminator among ubiquitin-proteasome machinery disorders.",
+          "stance": "supports",
+          "source": {
+            "title": "De Novo Variants in the F-Box Protein FBXO11 in 20 ...",
+            "authors": [
+              "A Gregor"
+            ],
+            "year": 2018,
+            "journal": "European Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": "6080769",
+            "url": "https://europepmc.org/article/pmc/6080769",
+            "quote": "They present with mild to severe developmental delay associated with a range of features including... cleft lip or palate or bifid uvula (3/20), and minor skeletal anomalies."
+          },
+          "numbers": [
+            {
+              "metric": "Palatal clefting or bifid uvula frequency in FBXO11 cohort",
+              "value": "3/20"
+            }
+          ]
+        },
+        {
+          "text": "Vignard et al. (2024) investigated whether neural crest cells are central to neurodevelopmental proteasomopathies associated with cardiac and craniofacial anomalies, indicating that while proteasome subunit mutations affect neural crest-derived lineages, classic palatal clefting is rare.",
+          "stance": "neutral",
+          "source": {
+            "title": "Exploring the origins of neurodevelopmental proteasomopathies associated with cardiac malformations: are neural crest cells central to certain pathological \u2026",
+            "authors": [
+              "V Vignard",
+              "AE Baruteau",
+              "B Toutain"
+            ],
+            "year": 2024,
+            "journal": "Frontiers in Cell and Developmental Biology",
+            "doi": "10.3389/fcell.2024.1370905/full",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2024.1370905/full",
+            "quote": "multisystem abnormalities, notably craniofacial anomalies and \u2026 in proteasome genes such as PSMD12, PSMC3 and PSMC1"
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the sensitivity and specificity of computer-assisted facial gestalt analysis (e.g., GestaltMatcher, Face2Gene) trained specifically on PSMD12 HPO terms versus other proteasomopathies (e.g., PSMC3, PSMC5)?",
+      "rationale": "Automated facial phenotyping could provide objective quantitative validation of whether subtle midface and nasal features distinguish STISS from related proteasome subunit conditions.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "How do standardized HPO craniofacial frequencies compare between familial/inherited PSMD12 variant carriers and de novo sporadic cases?",
+      "rationale": "Inherited truncating variants described in families by Feresin et al. 2025 suggest milder or variable craniofacial expressivity that may alter aggregate HPO frequencies.",
+      "promise": 0.78,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

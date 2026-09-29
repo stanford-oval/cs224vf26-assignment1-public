@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621390",
+ "omim": "OMIM:621390",
+ "disease": "Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities",
+ "gene": "KLHL20",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:56",
+ "report_chars": 1693,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities (KLHL20, OMIM:621390):\n\n[1] Neurodevelopmental Disorder with Early-Onset Seizures ...\nhttps://www.malacards.org/card/neurodevelopmental_disorder_with_early_onset_seizures_facial_dysmorphism_and_behavioral_abnormalities\n1 Genes associated with Neurodevelopmental Disorder with Early-Onset Seizures, Facial Dysmorphism, and Behavioral Abnormalities: ; 1, KLHL20, Kelch Like Family ...\n\n[2] autosomal dominant intellectual developmental disorder\nhttps://flybase.org/reports/DOID:0070713\nneurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities ... KLHL20 gene on chromosome 1q25. Also Known As ...\n\n[3] Clinical Synopsis - #621390 - NEURODEVELOPMENTAL ...\nhttps://omim.org/clinicalSynopsis/621390\nNEURODEVELOPMENTAL DISORDER WITH EARLY-ONSET SEIZURES, FACIAL DYSMORPHISM, AND BEHAVIORAL ABNORMALITIES; HEAD & NECK Face - Prominent forehead\n\n[4] KLHL20\nhttps://panelapp.genomicsengland.co.uk/panels/genes/KLHL20\nKLHL20-related developmental disorder with seizures \u00b7 Neurodevelopmental disorder with early-onset seizures, facial dysmorphism, and behavioral abnormalities, ...\n\n[5] De novo missense variants in the E3 ubiquitin ligase adaptor ...\nhttps://pubmed.ncbi.nlm.nih.gov/36214804/\nby Y Sleyp \u00b7 2022 \u00b7 Cited by 12 \u2014 Our findings implicate KLHL20 in a neurodevelopmental disorder characterized by intellectual disability, febrile seizures or epilepsy, autism ...\n\n[6] De novo missense variants in the E3 ubiquitin ligase ...\nhttps://www.gimjournal.org/article/S1098-3600(22)00911-X/fulltext\nby Y Sleyp \u00b7 2022 \u00b7 Cited by 12 \u2014 Our findings implicate KLHL20 in a neurodevelopmental disorder characterized by intellectual disability, febrile seizures or epilepsy, autism ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 2.5, female)\n  observed: Global developmental delay, Intellectual disability, Delayed speech and language development, Reduced eye contact, Autistic behavior, Hyporeflexia, Hyperventilation, EEG abnormality, Bilateral tonic-clonic seizure with focal onset, Hypotonia, Intraventricular hemorrhage, Cerebellar vermis atrophy, Ataxia\n  recorded ABSENT: Aggressive behavior, Tonic seizure, Atonic seizure, Focal impaired awareness seizure, Thick corpus callosum, Reduced cerebral white matter volume, Thin corpus callosum, Cerebral atrophy, Coarse facial features, Mandibular prognathia, Widely spaced teeth, Low anterior hairline, Synophrys, Large earlobe, High palate, Microdontia, Protruding tongue, Low hanging columella, Long eyelashes, Thin upper lip vermilion, Broad forehead, Epicanthus, Macrotia, Short philtrum, Bulbous nose (+5 more)\n\nP02 (age 12.0, male)\n  observed: Severe intellectual disability, Global developmental delay, Abnormal facial shape, Ataxia, Microcephaly, Axial hypotonia\n  recorded ABSENT: Moderate intellectual disability, Mild intellectual disability, Borderline intellectual disability, Hyperreflexia, Failure to thrive, Appendicular hypotonia, Seizure\n\nP03 (age None, female)\n  observed: Intellectual disability, Macrodontia, Thick eyebrow, Long philtrum, Abnormality of the hand, Short stature, Feeding difficulties, Hypertelorism, Bulbous nose\n  recorded ABSENT: Delayed speech and language development, Atrioventricular canal defect, Ventricular septal defect, Atrial septal defect, Pulmonic stenosis, Bicuspid aortic valve\n\nP04 (age 5.0, male)\n  observed: Epicanthus, Strabismus, Low-set ears, Expressive language delay, Global developmental delay, Delayed ability to walk, Hyperreflexia, Delayed CNS myelination, Hypotonia\n  recorded ABSENT: Smooth philtrum, Short philtrum, Long philtrum, Thin upper lip vermilion, Everted lower lip vermilion, Dental crowding, Widely spaced teeth, Narrow palate, Narrow mouth, Downturned corners of mouth, Midface retrusion, Long eyelashes, Upslanted palpebral fissure, Blepharophimosis, Narrow palpebral fissure, Hooded eyelid, Medial flaring of the eyebrow, Highly arched eyebrow, Prominent nasal bridge, Wide nasal base, Anteverted nares, Prominent nasal tip, Short nose, Microcephaly, Retrognathia (+16 more)\n\nP05 (age 13.0, female)\n  observed: Global developmental delay, Seizure, Autistic behavior, Ventricular septal defect, Hydronephrosis, Hallux valgus\n  recorded ABSENT: Delayed ability to walk, Hypoplasia of the corpus callosum, Cerebellar atrophy, Hypotonia, Hypertonia, Aggressive behavior, Self-injurious behavior, Bicuspid aortic valve, Hypoplastic aortic arch, Unilateral renal agenesis, Multicystic kidney dysplasia, Tracheoesophageal fistula, Anal atresia, Kyphosis, Scoliosis, Pectus excavatum, Tethered cord, Microcephaly, Epicanthus, Obesity, Meningocele\n\nP06 (age 5.7, male)\n  observed: Bilateral tonic-clonic seizure, Generalized non-motor (absence) seizure, Myoclonic seizure, Global developmental delay, Motor delay, Delayed speech and language development, Mild intellectual disability, Microcephaly\n  recorded ABSENT: Infantile spasms, Febrile seizure (within the age range of 3 months to 6 years), Bilateral tonic-clonic seizure with focal onset, Atonic seizure, Focal impaired awareness seizure, Focal aware seizure, Focal motor seizure, Tonic seizure, Absent speech, Moderate intellectual disability, Severe intellectual disability, Profound intellectual disability, Developmental regression, Diffuse cerebral atrophy, Thin corpus callosum, Hippocampal sclerosis, Delayed CNS myelination, Cerebellar vermis hypoplasia, Reduced cerebral white matter volume, Aggressive behavior, Autistic behavior, Head-banging, EEG abnormality, Low posterior hairline, Short chin (+38 more)\n\nP07 (age 7.0, female)\n  observed: Strabismus, Microcephaly, Ataxia, Tongue thrusting, Happy demeanor, Intellectual disability, Absent speech, Global developmental delay, Unsteady gait, Hypotonia\n  recorded ABSENT: Esotropia, Hypoplastic labia majora, Flat occiput, Mandibular prognathia, Smooth philtrum, Thin upper lip vermilion, Thick vermilion border, Widely spaced teeth, Narrow palate, Downturned corners of mouth, Epicanthus, Upslanted palpebral fissure, Narrow palpebral fissure, Thick eyebrow, Synophrys, Highly arched eyebrow, Horizontal eyebrow, Depressed nasal bridge, Bulbous nose, Long face, Cleft helix, Seizure, Autistic behavior, Loss of ambulation, Cerebral cortical atrophy (+5 more)\n\nP08 (age 12.0, female)\n  observed: Narrow mouth, Epicanthus, Anteverted nares, Microtia, Global developmental delay, Delayed fine motor development, Delayed speech and language development, Mild intellectual disability\n  recorded ABSENT: Chordee, Phimosis, Short philtrum, Upslanted palpebral fissure, Long palpebral fissure, Synophrys, Sagittal craniosynostosis, Macrocephaly, Microcephaly, Micrognathia, Inverted nipples, Visual impairment, Hypoventilation, Hearing impairment, Gastrointestinal dysmotility, Delayed gross motor development, Absent speech, Seizure, Spasticity, Autistic behavior, Short stature, Failure to thrive, Small for gestational age, Clinodactyly of the 5th finger, Hirsutism (+3 more)\n\nP09 (age 7.0, male)\n  observed: Thick vermilion border, High forehead, Downslanted palpebral fissures, Microcephaly, Enlarged cisterna magna, Lower limb spasticity, Mild intellectual disability, Clonus, Myoclonus, Attention deficit hyperactivity disorder, EEG abnormality, Seizure, Constipation\n  recorded ABSENT: Smooth philtrum, Long philtrum, Diastema, Increased overbite, Macrodontia, Cleft palate, High, narrow palate, Pierre-Robin sequence, Narrow forehead, Low anterior hairline, Broad chin, Full cheeks, Epicanthus, Almond-shaped palpebral fissure, Upslanted palpebral fissure, Long palpebral fissure, Narrow palpebral fissure, Thick eyebrow, Horizontal eyebrow, Broad eyebrow, Wide nasal bridge, Wide nose, Bulbous nose, Broad nasal tip, Facial asymmetry (+12 more)\n\nP10 (age 22.0, male)\n  observed: Drooling, Thin upper lip vermilion, Narrow palpebral fissure, Micrognathia, Microcephaly, Kyphosis, Distal joint hypermobility, Aggressive behavior, Hyperactivity, Delayed speech and language development, Autistic behavior, Motor stereotypy, Moderate intellectual disability, Delayed ability to walk\n  recorded ABSENT: Thick lower lip vermilion, Small forehead, Midface retrusion, Epicanthus, Upslanted palpebral fissure, Bulbous nose, Broad nasal tip, Hypertelorism, Strabismus, Scoliosis, Macrotia, Developmental regression, Vein of Galen aneurysmal malformation, Anomalous pulmonary venous return, Gastroesophageal reflux, Chronic constipation, Tall stature, Muscular ventricular septal defect, Vascular dilatation, Aortic tortuosity, Pulmonic stenosis\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P09",
+     "probability": 0.85,
+     "for": "Exhibits the core triad of KLHL20-related disorder including seizures, myoclonus, EEG abnormalities, behavioral abnormalities (ADHD), mild intellectual disability, and characteristic facial dysmorphism including a high/prominent forehead.",
+     "against": "Microcephaly and lower limb spasticity are not consistently emphasized as cardinal findings in available KLHL20 summaries."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.08,
+     "for": "Presents with early-onset seizures, intellectual disability, global developmental delay, EEG abnormality, and autistic behavior.",
+     "against": "Broad forehead and an extensive list of typical craniofacial dysmorphic features are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Exhibits early multiple seizure types (tonic-clonic, absence, myoclonic) alongside intellectual disability and developmental delay.",
+     "against": "Behavioral abnormalities (autistic and aggressive behavior) and EEG abnormalities are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Displays seizures, autistic behavior, and global developmental delay.",
+     "against": "Facial dysmorphism is not documented, while non-specific structural defects (ventricular septal defect, hydronephrosis) are present."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.01,
+     "for": "Features prominent behavioral abnormalities (autism, hyperactivity, aggressive behavior), intellectual disability, and facial dysmorphisms.",
+     "against": "Lacks any reported history of early-onset seizures or epilepsy, which is a core hallmark of KLHL20-related disorder."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed descriptions of the full spectrum of dysmorphic facial features and explicit seizure semiologies/ages of onset associated with KLHL20 variants beyond the brief mention of prominent forehead and early-onset seizures.",
+   "tokens_in": 2326,
+   "tokens_out": 1331,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P09",
+     "probability": 0.85,
+     "for": "Demonstrates the complete characteristic triad of intellectual disability/developmental disorder, seizures with EEG abnormality, behavioral problems (ADHD), and facial dysmorphisms specifically cited in KLHL20 phenotypes (prominent/high forehead and downslanted palpebral fissures).",
+     "against": "Displays features such as lower limb spasticity and enlarged cisterna magna which are not explicitly detailed in the brief clinical summary."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.08,
+     "for": "Features intellectual disability, autistic behavior, and early childhood seizures (bilateral tonic-clonic with focal onset and EEG abnormality).",
+     "against": "Has an extensive list of recorded absent facial dysmorphic features (including broad forehead) and presents with intraventricular hemorrhage and cerebellar vermis atrophy."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.03,
+     "for": "Presents with mild intellectual disability, global developmental delay, and multiple seizure types (myoclonic, absence, bilateral tonic-clonic).",
+     "against": "Behavioral abnormalities such as autistic behavior and aggression are documented as absent, along with a documented absence of EEG abnormalities and specific facial features."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Displays global developmental delay, seizures, and autistic behavioral abnormalities.",
+     "against": "Lacks the characteristic facial dysmorphisms and exhibits congenital organ anomalies (ventricular septal defect, hydronephrosis) not highlighted as core manifestations of KLHL20 disorder."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.02,
+     "for": "Shows intellectual disability, expressive language delay, facial dysmorphisms, and prominent behavioral features (autistic behavior, hyperactivity, aggressive behavior).",
+     "against": "Lacks any reported history of early-onset seizures or epilepsy, which is a hallmark feature of the condition."
+    }
+   ],
+   "what_the_report_lacked": "A comprehensive delineation of specific facial dysmorphic signs beyond prominent forehead (such as palpebral fissure slant or lip morphology), details on seizure semiology/age at onset, and exact behavioral spectra associated with KLHL20 variants.",
+   "tokens_in": 2326,
+   "tokens_out": 1935,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P09",
+     "probability": 0.85,
+     "for": "Demonstrates all core domains of the disorder: early-onset seizures with EEG abnormalities, behavioral abnormalities (ADHD), intellectual disability, and characteristic facial dysmorphism including a high/prominent forehead.",
+     "against": "Microcephaly and lower limb spasticity are not highlighted in the primary disease synopsis."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.08,
+     "for": "Features early-onset bilateral tonic-clonic seizures, intellectual disability, EEG abnormality, and behavioral abnormalities (autistic behavior).",
+     "against": "Lacks the characteristic facial dysmorphisms, with broad forehead, coarse features, and numerous facial markers explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.04,
+     "for": "Presents with childhood-onset epilepsy involving multiple seizure types, global developmental delay, and mild intellectual disability.",
+     "against": "Behavioral abnormalities (autistic behavior, aggressive behavior) are documented as absent, and facial dysmorphic features are largely absent."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Shows global developmental delay, seizures, and behavioral abnormalities (autistic behavior).",
+     "against": "Lacks documented characteristic facial features and has congenital systemic anomalies (ventricular septal defect, hydronephrosis) not typical of KLHL20."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.01,
+     "for": "Displays marked behavioral abnormalities (autistic behavior, hyperactivity, aggression) and intellectual disability.",
+     "against": "Seizures\u2014a cardinal and namesake feature of this condition\u2014are notably not reported."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical descriptions of the specific facial gestalt (beyond isolated features like a prominent forehead) and exact seizure semiology/age of onset for KLHL20-related disorder.",
+   "tokens_in": 2326,
+   "tokens_out": 1719,
+   "round": 3
+  }
+ ]
+}

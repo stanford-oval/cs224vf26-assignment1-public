@@ -1,0 +1,118 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While clinical cohort studies (Chelban et al. 2017, 2020) demonstrate that a subset of patients with biallelic NKX6-2 variants present with childhood-onset spastic ataxia, predominant cerebellar atrophy, and an absence of overt or diffuse cerebral hypomyelination on neuroimaging, major clinical references such as GeneReviews classify NKX6-2-related disorder primarily as a diffuse central nervous system hypomyelinating leukodystrophy. Furthermore, published series note varying proportions of patients lacking overt hypomyelination across different cohorts rather than a strictly confirmed 20% to 30% consensus frequency.",
+  "evidence": [
+    {
+      "text": "Affected members of two families had childhood-onset disease with very slow progression, remaining alive in their 30s and 40s with predominant ataxia and cerebellar atrophy features on imaging, whereas affected individuals from the third family demonstrated an earlier-onset presentation associated with brain hypomyelination.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination."
+      },
+      "numbers": [
+        {
+          "metric": "affected families evaluated",
+          "value": 3
+        },
+        {
+          "metric": "total affected individuals",
+          "value": 7
+        },
+        {
+          "metric": "families with predominant cerebellar atrophy without overt hypomyelination",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Comprehensive analysis of 11 new cases from 8 families alongside previously reported cases established a broad disease spectrum ranging from diffuse hypomyelination with neonatal onset to childhood-onset spastic ataxia occurring in the absence of overt hypomyelination.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "spectrum of NKX6-2 mutations from diffuse hypomyelination to \u2026 paraplegia to spastic ataxia without overt hypomyelination"
+      },
+      "numbers": [
+        {
+          "metric": "new cases identified",
+          "value": 11
+        },
+        {
+          "metric": "new families identified",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "NKX6-2-related disorder is clinically defined as characterized by a spectrum of progressive neurologic manifestations resulting from diffuse central nervous system hypomyelination, emphasizing diffuse hypomyelination and cerebellar atrophy across affected individuals.",
+      "stance": "contradicts",
+      "source": {
+        "title": "NKX6-2-Related Disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "NKX6-2-related disorder is characterized by a spectrum of progressive neurologic manifestations resulting from diffuse central nervous system hypomyelination."
+      },
+      "numbers": [
+        {
+          "metric": "total reported individuals reviewed",
+          "value": 25
+        },
+        {
+          "metric": "total families reviewed",
+          "value": 13
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Chelban et al. (2017, 2020) document that childhood-onset spastic ataxia can occur in the absence of overt cerebral hypomyelination with isolated/predominant cerebellar atrophy, whereas formal syndromic characterization in GeneReviews defines the disorder as fundamentally driven by diffuse central nervous system hypomyelination.",
+    "Exact epidemiological estimates of hypomyelination-negative cases vary between the original pedigree cohorts (where 2 of 3 families lacked overt hypomyelination) and broader aggregated disease registries where hypomyelinating leukodystrophy remains the cardinal hallmark."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of normal cerebral myelination on brain MRI among all genetically confirmed biallelic NKX6-2 cases across international leukodystrophy and spastic ataxia registries?",
+      "rationale": "A systematic international meta-analysis combining ataxia and leukodystrophy cohorts is necessary to validate whether the ~20-30% frequency estimate holds or reflects ascertainment bias.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do specific NKX6-2 variant classes (e.g., homeobox missense vs. truncating/null alleles) correlate with the preservation of cerebral myelination versus severe hypomyelination?",
+      "rationale": "Genotype-phenotype correlations could clarify why certain pedigrees develop severe early-onset diffuse hypomyelination while others manifest childhood-onset spastic ataxia with isolated cerebellar atrophy.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

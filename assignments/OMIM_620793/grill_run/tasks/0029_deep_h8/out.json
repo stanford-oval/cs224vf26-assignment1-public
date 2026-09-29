@@ -1,0 +1,95 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While both childhood- and adult-onset cohorts consistently exhibit involvement of the paravertebral (paraspinal), gracilis, sartorius, and vasti muscles, evidence is conflicted regarding whether this exact MRI signature is fully conserved 'regardless of childhood or adult onset.' Specifically, childhood-onset SNUPN cases consistently show prominent lower leg involvement with selective medial gastrocnemius and peroneal impairment, whereas adult-onset cases emphasize predominant triceps brachii and axial/proximal involvement without documented medial gastrocnemius predominance in the core reported pattern. Furthermore, total patient cohorts evaluated with muscle MRI remain extremely small (n=5 childhood-onset from 2 families; n=2 adult-onset siblings), limiting statistical confirmation of a definitive signature.",
+  "evidence": [
+    {
+      "text": "Muscle MRI in 5 childhood-onset patients with biallelic SNUPN variants showed a predominant impairment of paravertebral, vasti, sartorius, gracilis, peroneal, and medial gastrocnemius muscles.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in SNUPN cause a limb girdle muscular dystrophy with myofibrillar-like features",
+        "authors": [
+          "P Iruzubieta",
+          "A Damborenea",
+          "M Ioghen",
+          "S Bajew"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "38366623",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/8/2867/7608964",
+        "quote": "MRI showed predominant impairment of paravertebral, vasti, sartorius, gracilis, peroneal and medial gastrocnemius muscles."
+      },
+      "numbers": [
+        {
+          "metric": "affected patients assessed",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families assessed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Muscle MRI in two adult-onset siblings with novel biallelic SNUPN variants demonstrated prominent involvement of the paravertebral, triceps brachii, sartorius, and gracilis muscles (with distal vasti involvement on imaging), but highlighted triceps brachii rather than calf/medial gastrocnemius involvement.",
+      "stance": "contradicts",
+      "source": {
+        "title": "SNUPN\u2010Related Muscular Dystrophy: Novel Phenotypic, Pathological and Functional Protein Insights",
+        "authors": [
+          "N Muelas",
+          "P Iruzubieta",
+          "A Damborenea"
+        ],
+        "year": 2026,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.70211",
+        "pmid": "41054283",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70211",
+        "quote": "Muscle MRI identified involvement in the paravertebral, triceps brachii, sartorius and gracilis muscles."
+      },
+      "numbers": [
+        {
+          "metric": "adult-onset siblings assessed",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Broad reviews on LGMD classification, diagnostic pathways, and registries highlight that muscle MRI patterns serve as useful supportive biomarkers but emphasize that phenotypic variability and the rarity of newly classified subtypes (like LGMDR29) currently require molecular confirmation via next-generation sequencing.",
+      "stance": "neutral",
+      "source": {
+        "title": "Expert consensus on genetic diagnostic approaches for patients with limb-girdle muscular dystrophy",
+        "authors": [
+          "V Straub",
+          "AR Clause",
+          "S Donkervoort",
+          "PB Kang"
+        ],
+        "year": 2025,
+        "journal": "Neurology",
+        "doi": "10.1212/WNL.0000000000214291",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/abs/10.1212/WNL.0000000000214291",
+        "quote": "Likewise, additional testing to support pathogenicity may be required (eg, variant phasing, muscle MRI, muscle biopsy with immunohistochemical staining or Western blot analysis..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Medial gastrocnemius involvement is a defining feature of the childhood-onset cohort (Iruzubieta et al., 2024), but it was not reported among the key selective imaging abnormalities in adult-onset SNUPN cases, which instead emphasized triceps brachii involvement (Muelas et al., 2026).",
+    "Adult-onset cases showed proximo-distal weakness mimicking inclusion body myositis (IBM) and selective triceps brachii degeneration, diverging from the pure limb-girdle pattern with childhood onset."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "Does full-body quantitative Dixon MRI across a larger cohort of SNUPN patients demonstrate identical leg vs. thigh fat fraction ratios between childhood- and adult-onset presentations?",
+      "rationale": "Clarifying whether medial gastrocnemius and triceps brachii fatty replacement correlate with age of onset or disease duration will determine whether a single muscle MRI diagnostic score can distinguish LGMDR29 from IBM and myofibrillar myopathies.",
+      "promise": 0.85,
+      "est_cost": 250000
+    }
+  ]
+}

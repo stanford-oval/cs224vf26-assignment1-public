@@ -1,0 +1,104 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms that hypotonia and seizures can occur in individuals with LRRC7-related neurodevelopmental disorder (e.g., Khan et al. reported a proband with tonic seizures and hypotonia), overturning any assumption that these neurological features are absent. Furthermore, behavioral disturbance (notably aggression and impulsivity) and abnormal eating behaviors (hyperphagia with obesity) are prominent recurrent features in LRRC7 cohorts (Willim et al., Vevera et al.). However, the designation of hyperphagia-associated obesity as an invariant primary discriminator is conflicted by individual clinical presentations presenting with the diametric opposite phenotype (such as failure to thrive in Khan et al.), and hyperphagia/obesity was reported only in a subset ('several cases') rather than across the whole cohort. Additionally, head-to-head discriminator studies against other postsynaptic density scaffold synaptopathies (SYNGAP1, SHANK3, DLG4) are currently qualitative rather than statistically validated clinical diagnostic criteria.",
+  "evidence": [
+    {
+      "text": "Characterization of 33 individuals with heterozygous LRRC7 variants revealed a core spectrum involving intellectual disability, autism spectrum disorder, ADHD, aggressive behavior, and in several individuals, hyperphagia-associated obesity developing in early childhood.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants in LRRC7 lead to intellectual disability, autism, aggression and abnormal eating behaviors",
+        "authors": [
+          "J Willim",
+          "D Woike",
+          "D Greene",
+          "S Das",
+          "K Pfeifer"
+        ],
+        "year": 2024,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-024-52095-x",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41467-024-52095-x",
+        "quote": "The clinical spectrum involves intellectual disability, autism, ADHD, aggression and, in several cases, hyperphagia-associated obesity."
+      },
+      "numbers": [
+        {
+          "metric": "Cohort size of individuals with heterozygous LRRC7 variants",
+          "value": 33
+        }
+      ]
+    },
+    {
+      "text": "A proband harboring a de novo LRRC7 missense variant exhibited global developmental delay, tonic seizures, hypotonia, and failure to thrive, directly establishing that hypotonia and seizures occur in LRRC7-related disorder while presenting with failure to thrive rather than obesity.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further Evidence for LRRC7 Gene Involvement in Neurodevelopmental Disorder: A Novel Variant",
+        "authors": [
+          "S Khan",
+          "M Bilal",
+          "H Khan",
+          "Q Alam"
+        ],
+        "year": 2026,
+        "journal": "Journal of Gene Medicine",
+        "doi": "10.1002/jgm.70090",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.70090",
+        "quote": "Here, we investigated a proband presenting global developmental delay (GDD), tonic seizures, failure to thrive, mild microcephaly, intellectual disability (ID), and hypotonia."
+      },
+      "numbers": [
+        {
+          "metric": "Probands assessed with tonic seizures, hypotonia, and failure to thrive",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Screening of 281 males with extreme impulsive violence and dissocial personality disorder identified rare CNVs, including microduplications impacting LRRC7, supporting the link between LRRC7 perturbation and severe aggressive or impulsively violent behavioral phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Rare copy number variation in extremely impulsively violent males",
+        "authors": [
+          "J Vevera",
+          "M Zarrei",
+          "H Hartmannov\u00e1"
+        ],
+        "year": 2019,
+        "journal": "Genes, Brain and Behavior",
+        "doi": "10.1111/gbb.12536",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/gbb.12536",
+        "quote": "a microduplication in LRRC7, de novo variants of which ... AD neurodevelopmental disorder with hypotonia, seizures and"
+      },
+      "numbers": [
+        {
+          "metric": "Total cohort of adult males with extreme impulsive violence evaluated",
+          "value": 281
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While hyperphagia-associated obesity is reported as a distinctive finding in several individuals in the primary LRRC7 cohort (Willim et al., 2024), subsequent cases with de novo variants (Khan et al., 2026) have presented with failure to thrive rather than obesity, showing that abnormal weight trajectory is bidirectional and not universally marked by obesity.",
+    "Seizures and hypotonia cannot be considered absent in LRRC7-related disorder; both Khan et al. (2026) and Vevera et al. (2019) note hypotonia and seizures in affected individuals, meaning their presence cannot rule out LRRC7 in favor of SYNGAP1 or SHANK3.",
+    "Comparative discriminator accuracy against other PSD synaptopathies (e.g., SYNGAP1, SHANK3, DLG4) remains unquantified by formal sensitivity/specificity analysis in prospective clinical cohorts."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "What is the true penetrance and age of onset of hyperphagia and obesity versus failure to thrive across all molecularly confirmed LRRC7 cases?",
+      "rationale": "Understanding whether early failure to thrive routinely transitions to late-onset hyperphagia and obesity (similar to Prader-Willi syndrome) is critical before using hyperphagia as a clinical discriminator in young infants.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "How do quantitative behavioral rating scales for aggression and impulsivity compare directly between age-matched cohorts of LRRC7, SYNGAP1, and SHANK3 patients?",
+      "rationale": "Direct comparative phenotyping is required to determine whether the aggressive profile of LRRC7 is quantitatively distinctive or merely overlapping with severe behavioral disruption seen in other postsynaptic density synaptopathies.",
+      "promise": 0.8,
+      "est_cost": 45000
+    }
+  ]
+}

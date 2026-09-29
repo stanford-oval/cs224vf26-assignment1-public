@@ -1,0 +1,171 @@
+{
+  "hypotheses": [
+    {
+      "text": "Dominant RNU2-2-associated DEE119 accounts for approximately 35 individuals across primary discovery cohorts, but biallelic recessive RNU2-2 variants cause an overlapping neurodevelopmental phenotype that is more than twice as prevalent (91 individuals across 73 families).",
+      "rationale": "Clarifying the exact denominator of the dominant versus recessive cohorts established in the primary discovery study by Leit\u00e3o et al. is necessary to establish precise phenotype penetrance and avoid conflating autosomal dominant DEE119 (OMIM #621304) with autosomal recessive RNU2-2-related neurodevelopmental disorders.",
+      "aspects": [
+        "cohort size",
+        "inheritance mode"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "The primary discovery study across an international cohort identified RNU2-2 variants in 141 individuals, comprising 35 individuals with recurrent dominant pathogenic variants and 91 affected individuals across 73 families with biallelic variants.",
+          "stance": "supports",
+          "source": {
+            "title": "Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies",
+            "authors": [
+              "E Leit\u00e3o",
+              "A Santini",
+              "B Cogne",
+              "M Essid"
+            ],
+            "year": 2026,
+            "journal": "Nature Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41588-026-02547-5",
+            "quote": "We report RNU2-2 variants in 141 individuals, including 35 with recurrent dominant pathogenic variants and 91 affected members from 73 families with biallelic variants. Recessive RNU2-2 NDD is at least twice as frequent as the dominant form and often involves a de novo variant in trans with an inherited allele, consistent with the high mutability of snRNA genes."
+          },
+          "numbers": [
+            {
+              "metric": "Total individuals with RNU2-2 variants",
+              "value": 141
+            },
+            {
+              "metric": "Individuals with recurrent dominant pathogenic variants (DEE119)",
+              "value": 35
+            },
+            {
+              "metric": "Individuals with biallelic RNU2-2 variants",
+              "value": 91
+            },
+            {
+              "metric": "Families with biallelic RNU2-2 variants",
+              "value": 73
+            },
+            {
+              "metric": "Total rare-disorder screening cohort denominator",
+              "value": 34329
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Episodic central hyperventilation or respiratory rhythm abnormalities (HP:0002883 / HP:0002111) represent a distinguishing phenotypic feature present in a distinct subset of dominant DEE119 individuals that differentiates it from generic developmental and epileptic encephalopathies.",
+      "rationale": "Official clinical panel descriptions classify RNU2-2 as causing 'RNU2-2-related neurodevelopmental disorder with seizures and hyperventilation'. Testing the exact numerator/denominator frequency of hyperventilation across documented dominant cohorts will determine whether respiratory dysrhythmia provides high positive likelihood ratio for DEE119 versus other non-coding snRNA DEEs like ReNU syndrome.",
+      "aspects": [
+        "phenotypic discriminator",
+        "respiratory abnormalities"
+      ],
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "text": "Genomics England PanelApp curates the primary clinical entity for RNU2-2 and DEE119 specifically under the clinical designation of neurodevelopmental disorder with seizures and hyperventilation.",
+          "stance": "supports",
+          "source": {
+            "title": "RNU2-2P",
+            "authors": [
+              "(authors not shown)"
+            ],
+            "year": null,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://panelapp.genomicsengland.co.uk/panels/entities/RNU2-2P",
+            "quote": "RNU2-2-related neurodevelopmental disorder with seizures and hyperventilation ... Developmental and epileptic encephalopathy 119, OMIM:621304."
+          },
+          "numbers": [
+            {
+              "metric": "OMIM phenotype identifier",
+              "value": "621304"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The diagnostic yield of dominant de novo RNU2-2 pathogenic variants in unselected or previously unsolved DEE cohorts is between 0.5% and 2.0% (approximately 3 to 10 cases per 500-1000 DEE patients).",
+      "rationale": "Determining the baseline cohort-level yield in targeted re-evaluations of existing DEE cohorts directly informs whether DEE119 is as frequent as RNU4-2/ReNU syndrome in standard neurogenetic clinical practice.",
+      "aspects": [
+        "cohort frequency",
+        "diagnostic yield"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "Berger and O'Donnell-Luria discuss systematic reanalysis of a targeted cohort of 672 developmental and epileptic encephalopathy patients to identify dominant RNU2-2-associated DEE119, highlighting noncoding snRNA variants as a prominent class requiring genome sequencing.",
+          "stance": "supports",
+          "source": {
+            "title": "Large Class of Neurodevelopmental Disorders Requires Genome Sequencing for Diagnosis",
+            "authors": [
+              "SI Berger",
+              "A O'Donnell\u2010Luria"
+            ],
+            "year": 2026,
+            "journal": "Annals of Neurology",
+            "doi": "10.1002/ana.78108",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.ovid.com/journals/anon/abstract/10.1002/ana.78108~large-class-of-neurodevelopmental-disorders-requires-genome",
+            "quote": "targeted evaluation to reanalyze a cohort of 672 patients with developmental and epileptic ... nant RNU2-2-associated developmental and epileptic encephalopathy 119 (MIM 621304), a"
+          },
+          "numbers": [
+            {
+              "metric": "DEE reanalysis cohort denominator",
+              "value": 672
+            }
+          ]
+        },
+        {
+          "text": "Leit\u00e3o et al. identified 35 dominant RNU2-2 cases from a large rare-disease cohort and established RNU2-2 as a principal contributor to neurodevelopmental disorders, approaching the prevalence of ReNU syndrome.",
+          "stance": "supports",
+          "source": {
+            "title": "Systematic analysis of snRNA genes reveals frequent RNU2-2 variants in dominant and recessive developmental and epileptic encephalopathies",
+            "authors": [
+              "E Leit\u00e3o",
+              "A Santini",
+              "B Cogne",
+              "M Essid"
+            ],
+            "year": 2026,
+            "journal": "Nature Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.nature.com/articles/s41588-026-02547-5",
+            "quote": "Our results support a gradient-of-impact model bridging dominant and recessive inheritance, and establish RNU2-2 variants as a principal contributor to NDDs, nearly as prevalent as ReNU syndrome."
+          },
+          "numbers": [
+            {
+              "metric": "Rare disorders cohort denominator",
+              "value": 34329
+            },
+            {
+              "metric": "Dominant cases identified",
+              "value": 35
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for hyperventilation episodes, microcephaly, and seizure types specifically within the 35 dominant DEE119 patients reported by Leit\u00e3o et al. (2026)?",
+      "rationale": "Extracting the full supplementary clinical table from Leit\u00e3o et al. will provide standard HPO terms and exact frequencies for the dominant DEE119 subcohort.",
+      "promise": 0.95,
+      "est_cost": 1.2
+    },
+    {
+      "question_text": "Does the phenotypic spectrum of dominant RNU2-2 DEE119 differ significantly from the recessive biallelic RNU2-2 cohort (n=91) in seizure onset age, severity of intellectual disability, or structural brain anomalies?",
+      "rationale": "Determining whether dominant and recessive forms display distinctive clinical hallmarks will prevent misattribution of recessive features to dominant DEE119.",
+      "promise": 0.85,
+      "est_cost": 1.1
+    }
+  ],
+  "dead_end": false
+}

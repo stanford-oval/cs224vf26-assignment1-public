@@ -1,0 +1,119 @@
+{
+  "verdict": "supported",
+  "rationale": "Neuroimaging and clinical characterization across original discovery and subsequent multicenter cohorts confirm that diffuse cerebral hypomyelination is not an obligate feature of NKX6-2 deficiency. While early-onset, severe presentations demonstrate extensive hypomyelination, milder childhood-onset presentations can manifest as slowly progressive spastic ataxia with prominent cerebellar atrophy without overt cerebral hypomyelination.",
+  "evidence": [
+    {
+      "text": "In the discovery cohort of seven individuals across three families, affected individuals in two families presented with childhood-onset spastic ataxia with slow progression surviving into adulthood (30s and 40s) displaying predominant cerebellar atrophy on MRI, whereas hypomyelination was restricted to affected members of the third, earlier-onset family.",
+      "stance": "supports",
+      "source": {
+        "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "N Patel",
+          "J Vandrovcova",
+          "MN Zanetti"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "quote": "Affected members of two families had childhood onset disease with very slow progression. They are still alive in their 30s and 40s and show predominant ataxia and cerebellar atrophy features on imaging. Affected members of the third family had a similar but earlier-onset presentation associated with brain hypomyelination."
+      },
+      "numbers": [
+        {
+          "metric": "total families assessed in discovery cohort",
+          "value": 3
+        },
+        {
+          "metric": "total affected individuals in discovery cohort",
+          "value": 7
+        },
+        {
+          "metric": "families presenting with cerebellar atrophy without early overt hypomyelination",
+          "value": 2
+        },
+        {
+          "metric": "families presenting with early-onset hypomyelination",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "An expanded multicenter cohort confirmed a wide phenotypic and neuroimaging spectrum associated with biallelic NKX6-2 variants, showing presentations of spastic ataxia and epilepsy in the absence of overt hypomyelination as well as severe neonatal-onset diffuse hypomyelination.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+        "authors": [
+          "V Chelban",
+          "M Alsagob",
+          "K Kloth"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Neurology",
+        "doi": "10.1111/ene.14082",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+        "quote": "The phenotypic and neuroimaging expression in NKX6-2 is described and it is shown that phenotypes with epilepsy in the absence of overt hypomyelination and diffuse hypomyelination without seizures can occur."
+      },
+      "numbers": [
+        {
+          "metric": "new cases identified",
+          "value": 11
+        },
+        {
+          "metric": "new families identified",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Clinical overview delineates that NKX6-2-related disorder exhibits a spectrum ranging from childhood-onset slowly progressive complex spastic ataxia with cerebellar atrophy to severe neonatal-onset spastic tetraplegia with diffuse CNS hypomyelination.",
+      "stance": "supports",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "At the milder end of the spectrum is normal achievement of early motor milestones in the first year of life followed by slowly progressive complex spastic ataxia with pyramidal findings... and cerebellar findings"
+      },
+      "numbers": [
+        {
+          "metric": "reported individuals",
+          "value": 25
+        },
+        {
+          "metric": "reported families",
+          "value": 13
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What molecular mechanisms dictate whether a specific NKX6-2 pathogenic variant produces diffuse leukodystrophy versus isolated cerebellar atrophy?",
+      "rationale": "Clarifying the correlation between homeobox domain missense variants, truncating mutations, residual transcriptional repressor activity, and oligodendrocyte maturation could explain the radiological divergence.",
+      "promise": 0.88,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does ultra-high-field MRI or quantitative myelin water imaging detect subclinical dysmyelination in adult NKX6-2 patients who lack overt T1/T2 hypomyelination?",
+      "rationale": "Determining whether cases diagnosed with pure cerebellar atrophy have microstructural myelin abnormalities would clarify if hypomyelination is genuinely absent or merely below conventional neuroimaging detection thresholds.",
+      "promise": 0.82,
+      "est_cost": 40000
+    }
+  ]
+}

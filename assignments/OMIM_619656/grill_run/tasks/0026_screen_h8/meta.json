@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"Loeys-Dietz\" \"cleft palate\" \"hypertelorism\"",
+    "SMAD2 Loeys-Dietz syndrome cleft palate hypertelorism bifid uvula penetrance"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1002/humu.23407",
+      "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 and SMAD2/3",
+      "pmid": null,
+      "doi": "10.1002/humu.23407",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23407",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "10.1007/978-3-030-80614-9_11",
+      "title": "Loeys-dietz syndrome",
+      "pmid": null,
+      "doi": "10.1007/978-3-030-80614-9_11",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-030-80614-9_11",
+      "abstract_chars": 795
+    },
+    {
+      "id": "https://www.ingentaconnect.com/content/ben/cmc/2012/00000019/00000003/art00010",
+      "title": "Transforming growth factor \u03b2 signaling perturbation in the Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ingentaconnect.com/content/ben/cmc/2012/00000019/00000003/art00010",
+      "abstract_chars": 1784
+    },
+    {
+      "id": "10.1002/9781119432692.ch36",
+      "title": "Loeys\u2013dietz syndrome",
+      "pmid": null,
+      "doi": "10.1002/9781119432692.ch36",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119432692.ch36",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1769721210000856",
+      "title": "Duplication of the TGFBR1 gene causes features of Loeys-Dietz syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1769721210000856",
+      "abstract_chars": 984
+    },
+    {
+      "id": "https://www.loeysdietz.org/en/medical-information",
+      "title": "WHAT IS LDS? | MAIN CHARACTERISTICS | DIAGNOSIS",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.loeysdietz.org/en/medical-information",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC5947146",
+      "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5947146/",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "29392890",
+      "title": "A mutation update on the LDS-associated genes TGFB2/3 and ...",
+      "pmid": "29392890",
+      "doi": "10.1002/humu.23407",
+      "url": "https://pure.johnshopkins.edu/en/publications/a-mutation-update-on-the-lds-associated-genes-tgfb23-and-smad23/",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "title": "Loeys-Dietz Syndrome 6 (LDS6)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/loeys_dietz_syndrome_6",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://loeysdietzcanada.org/what-does-loeys-dietz-syndrome-look-like-an-overview-into-the-phenotypic-differences-across-lds-subtypes/",
+      "title": "What does Loeys-Dietz Syndrome Look Like?",
+      "pmid": null,
+      "doi": null,
+      "url": "https://loeysdietzcanada.org/what-does-loeys-dietz-syndrome-look-like-an-overview-into-the-phenotypic-differences-across-lds-subtypes/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4879,
+  "output_tokens": 1651,
+  "usd": 0.00739,
+  "seconds": 14.0,
+  "ok": true
+}

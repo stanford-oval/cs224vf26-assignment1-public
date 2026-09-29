@@ -1,0 +1,74 @@
+{
+  "patterns": [
+    {
+      "pattern": "Breakdown of categorical boundaries between spinocerebellar ataxia and hereditary spastic paraplegia",
+      "abstraction": "Genetically defined neurodegenerative entities often violate classical syndromic categorizations, spanning a continuous spectrum rather than occupying discrete diagnostic silos.",
+      "instance": "Heterozygous RAB3A p.Arg83Trp carriers present across an ataxia-spasticity spectrum ranging from adult-onset cerebellar ataxia with tremor to predominant lower limb spastic paraplegia, precluding distinction based purely on pyramidal versus cerebellar motor signs.",
+      "direction": "Standardize cross-phenotype deep phenotyping and quantitative spasticity/ataxia rating scales across combined ataxia and spastic paraplegia screening registries.",
+      "support": "Strong across multiple independent cohorts and screening studies showing RAB3A variants in both ataxia cohorts and spastic paraplegia cohorts.",
+      "sources": [
+        "JR Roller et al. (2026) The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "C Mouraux et al. (2025) Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+        "H Hengel et al. (2025) Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism 10.1093/brain/awaf111"
+      ],
+      "hypothesis": "Cerebellar cortex Purkinje cell synaptic terminal degeneration and corticospinal tract terminal axonopathy share a common RAB3A-mediated vesicular docking deficit that manifests heterogeneously depending on modifier genes regulating axonal vesicle traffic.",
+      "novelty": "Refutes the traditional rule that spastic paraplegia and cerebellar ataxias represent distinct genetic etiologies, demonstrating that single point mutations in synaptic vesicle regulators drive both presentations."
+    },
+    {
+      "pattern": "Divergence between early neurodevelopmental framing and adult-onset neurodegenerative reality",
+      "abstraction": "Initial disease delineations often overemphasize congenital or neurodevelopmental features due to pediatric index case reporting, whereas broader cohort expansions reveal an indolent, adult-onset degenerative trajectory.",
+      "instance": "Early synopses linked heterozygous RAB3A variants to infantile hypotonia and developmental delay, but multi-family cohorts reveal predominantly adult-onset (fourth decade), slowly progressive ataxia where neurodevelopmental impairment is variable and non-obligate.",
+      "direction": "Perform longitudinal natural history studies tracking asymptomatic or mildly affected child carriers of recurrent switch II mutations into adulthood to evaluate latent neurodegeneration.",
+      "support": "Moderate-to-strong; substantiated by multi-family studies demonstrating adult-onset presentations in the majority of confirmed p.Arg83Trp pedigrees.",
+      "sources": [
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia 10.1093/hmg/ddaf186",
+        "H Hengel et al. (2025) Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism PMID:40166812",
+        "JJ de Vries et al. (2026) From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862"
+      ],
+      "hypothesis": "RAB3A partial loss-of-function permits adequate early neurodevelopmental synaptic transmission, but cumulative activity-dependent synaptic vesicle recycling strain leads to selective mid-life Purkinje cell terminal failure.",
+      "novelty": "Contradicts the assumption that core synaptic vesicle GTPase mutations necessarily produce congenital or infantile-onset ataxic encephalopathies."
+    },
+    {
+      "pattern": "Invariant focal neuroimaging signatures resolving ambiguous peripheral motor signs",
+      "abstraction": "When clinical neurological examinations overlap across diverse conditions, imaging endophenotypes can provide invariant discriminator criteria that motor examinations cannot.",
+      "instance": "While motor signs in SCA52 overlap extensively with complex hereditary spastic paraplegias (e.g., SPG7, SPG11) and dominant spastic ataxias, isolated cerebellar vermian atrophy on MRI is 100% penetrant in symptomatic individuals without severe spinal cord atrophy.",
+      "direction": "Develop volumetric neuroimaging protocols specifically assessing vermian sub-lobular volumes to differentiate SCA52 from spinal cord-predominant spastic paraplegias early in disease course.",
+      "support": "Strong across clinical imaging assessments reported in confirmed SCA52 pedigrees.",
+      "sources": [
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia 10.1093/hmg/ddaf186",
+        "M Percetti et al. (2026) RAB3A variants in ataxia and other neurodegenerative disorders 10.1093/brain/awaf346",
+        "OMIM (n.d.) Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52 https://omim.org/entry/621535"
+      ],
+      "hypothesis": "RAB3A expression levels and vesicular exocytosis vulnerability are highest in cerebellar vermian Purkinje and granule cell synapses relative to spinal motor neurons, dictating an invariant radiological atrophy signature.",
+      "novelty": "Clarifies that cerebellar vermian atrophy serves as an indispensable positive filter to separate SCA52 from pure spinal paraplegias despite prominent clinical spasticity."
+    },
+    {
+      "pattern": "Systemic and extraneurological negative findings as decisive clinical filters",
+      "abstraction": "In complex genetic syndromes, the complete absence of systemic extra-organ involvement functions as a more robust discriminative rule than positive motor features.",
+      "instance": "Patients with SCA52 exhibit no cardiomyopathy, optic atrophy, retinopathy, or hepatic dysfunction (0/N across confirmed cohorts), which definitively distinguishes them from metabolic and mitochondrial ataxias or complex repeat-expansion spinocerebellar ataxias.",
+      "direction": "Incorporate explicit negative systemic exclusion checklists into diagnostic triage algorithms for adult-onset slowly progressive ataxias.",
+      "support": "Moderate; based on the consistent absence of extraneurological manifestations across characterized cohorts.",
+      "sources": [
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia 10.1093/hmg/ddaf186",
+        "JJ de Vries et al. (2026) From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "OMIM (n.d.) SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis https://omim.org/clinicalSynopsis/621535"
+      ],
+      "hypothesis": "Because RAB3A function is restricted to calcium-dependent regulated exocytosis in neurons and neuroendocrine cells, somatic tissues utilize redundant Rab GTPases (e.g., RAB3B/C/D), protecting non-neural organs from disease manifestations.",
+      "novelty": "Highlights that diagnostic exclusion can be achieved with high confidence by ruling out multisystem or retinal/cardiac involvement."
+    },
+    {
+      "pattern": "Single hotspot mutational pleiotropy without strict allele specificity",
+      "abstraction": "Identical recurring missense mutations can yield diverse clinical manifestations across independent families, disproving simple linear variant-to-phenotype mappings.",
+      "instance": "The recurrent heterozygous p.Arg83Trp variant in the switch II domain of RAB3A is responsible for pure cerebellar ataxia, spastic ataxia, and predominant spastic paraplegia across different families, rather than spasticity being restricted to distinct non-hotspot mutations.",
+      "direction": "Perform whole-genome sequencing in discordant p.Arg83Trp carriers to identify epistatic genetic modifiers influencing vesicle priming machinery.",
+      "support": "Strong; refuted early hypotheses that distinct non-R83W variants were required to cause spasticity.",
+      "sources": [
+        "JR Roller et al. (2026) The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "H Hengel et al. (2025) Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism 10.1093/brain/awaf111",
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318"
+      ],
+      "hypothesis": "Variable expression of RAB3 effector-binding partners (such as RIMS1 or rabphilin-3A) in the cerebellum versus the pyramidal tract modulates whether the p.Arg83Trp switch II partial loss-of-function preferentially manifests as ataxia or spasticity.",
+      "novelty": "Demonstrates that phenotypic divergence across the ataxia-spasticity axis is governed by genetic background or stochastic factors rather than specific allelic differences at the RAB3A locus."
+    }
+  ]
+}

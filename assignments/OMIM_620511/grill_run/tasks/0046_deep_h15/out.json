@@ -1,0 +1,96 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The available literature confirms that skeletal abnormalities in Fliedner-Zweier syndrome (SCAF4-related neurodevelopmental disorder) recurrently include axial and joint positioning defects, specifically scoliosis, clubfoot (talipes equinovarus), and hip dysplasia. However, the available source texts describe these as part of 'various skeletal and structural anomalies' without reporting explicit cohort numerators and denominators to prove the 25-50% frequency boundary, nor do they substantiate an absolute negative claim that skeletal defects are strictly confined to these entities or that limb reduction defects have been formally evaluated at 0%.",
+  "evidence": [
+    {
+      "text": "In an expanded cohort of 50 novel individuals with SCAF4 variants, frequent clinical manifestations included skeletal abnormalities such as clubfoot, scoliosis, or hip dysplasia, alongside developmental delay and seizures.",
+      "stance": "supports",
+      "source": {
+        "title": "Further delineation of the SCAF4-associated neurodevelopmental disorder",
+        "authors": [
+          "CM Schmid",
+          "A Gregor",
+          "A Ruiz"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1038/s41431-024-01760-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-024-01760-2",
+        "quote": "Frequent clinical findings were mild developmental delay with speech impairment, seizures, and skeletal abnormalities such as clubfoot, scoliosis or hip dysplasia."
+      },
+      "numbers": [
+        {
+          "metric": "novel cohort size",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "text": "The original delineating cohort of individuals with likely gene-disrupting SCAF4 variants presented with intellectual disability, seizures, behavioral abnormalities, and 'various skeletal and structural anomalies', rather than anomalies strictly confined to axial/joint alignment.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Variants in SCAF4 cause a neurodevelopmental disorder and are associated with impaired mRNA processing",
+        "authors": [
+          "A Fliedner",
+          "P Kirchner",
+          "A Wiesener"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30228-7",
+        "quote": "Affected individuals demonstrated a variable neurodevelopmental disorder characterized by mild intellectual disability, seizures, behavioral abnormalities, and various skeletal and structural anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "initial pathogenic variants identified",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "A literature review aggregating reported Fliedner-Zweier syndrome cases identified a total of 69 patients across 5 studies, observing consistent core features of intellectual disability, epilepsy, behavioral abnormalities, and facial dysmorphism, but lacked evidence restricting skeletal phenotypes exclusively to axial/joint positioning defects.",
+      "stance": "neutral",
+      "source": {
+        "title": "Clinical features and genetic etiology analysis in a patient with Fliedner-Zweier syndrome caused by a de novo SCAF4 variant",
+        "authors": [
+          "L Yan",
+          "C Chen",
+          "Y Zhang",
+          "J Cao",
+          "C Han"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/article/med/41811042",
+        "quote": "According to pre-set search strategy, five articles were retrieved. Together with the patient in this study, a total of 69 FZS patients were involved (including 7 from China)."
+      },
+      "numbers": [
+        {
+          "metric": "total reviewed FZS patients",
+          "value": 69
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "While Schmid et al. (2025) highlight clubfoot, scoliosis, and hip dysplasia as recurrent examples of skeletal abnormalities, Fliedner et al. (2020) and Chen et al. (2025) describe 'various skeletal and structural anomalies', not confining them exclusively to axial/joint positioning defects.",
+    "Neither the exact 25-50% prevalence range nor the explicit 0% rate of congenital limb reduction defects is stated with documented numerators and denominators in the provided literature extracts."
+  ],
+  "confidence": 0.55,
+  "new_directions": [
+    {
+      "question_text": "What is the granular breakdown of all skeletal HPO terms across the 69 published Fliedner-Zweier syndrome patients, and what is the exact incidence of pectus anomalies, cranial anomalies, or limb reduction defects?",
+      "rationale": "Determining exact individual numerators and denominators for specific skeletal signs will clarify if involvement is truly restricted to secondary positional/alignment defects or encompasses primary osteochondrodysplastic findings.",
+      "promise": 0.85,
+      "est_cost": 250.0
+    }
+  ]
+}

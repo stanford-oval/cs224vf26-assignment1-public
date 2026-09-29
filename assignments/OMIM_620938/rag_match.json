@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620938",
+ "omim": "OMIM:620938",
+ "disease": "Spastic paraplegia 93, autosomal recessive",
+ "gene": "NFU1",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:55",
+ "report_chars": 1521,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Spastic paraplegia 93, autosomal recessive (NFU1, OMIM:620938):\n\n[1] 620938 - SPASTIC PARAPLEGIA 93, AUTOSOMAL ...\nhttps://omim.org/entry/620938\nAutosomal recessive spastic paraplegia-93 (SPG93) is characterized by a spectrum of early-onset pure to complex hereditary spastic paraplegia phenotypes ...\n\n[2] Spastic Paraplegia 93, Autosomal Recessive (SPG93)\nhttps://www.malacards.org/card/spastic_paraplegia_93_autosomal_recessive\nAutosomal recessive spastic paraplegia 93 (SPG93) is caused by homozygous or compound heterozygous mutation in the NFU1 gene on chromosome 2p13.\n\n[3] hereditary spastic paraplegia 93 - ZFIN Human Disease\nhttps://zfin.org/DOID:0070645\nHuman Gene, Zebrafish Ortholog, OMIM Term, Disease, OMIM Phenotype ID. NFU1 \u00b7 nfu1. Spastic paraplegia 93, autosomal recessive, hereditary spastic paraplegia 93 ...\n\n[4] Gene: NFU1 (Childhood onset hereditary spastic paraplegia)\nhttps://panelapp.genomicsengland.co.uk/panels/568/gene/NFU1/\nMode of inheritance. BIALLELIC, autosomal or pseudoautosomal ; Phenotypes Spastic paraplegia 93, autosomal recessive, OMIM:620938; spastic ...\n\n[5] hereditary spastic paraplegia 93\nhttps://www.alliancegenome.org/disease/DOID:0070645\nA hereditary spastic paraplegia that has_material_basis_in homozygous or compound heterozygous mutation in the NFU1 gene on chromosome 2p13.\n\n[6] hereditary spastic paraplegia 93 | SGD\nhttps://www.yeastgenome.org/disease/DOID:0070645\nA hereditary spastic paraplegia that has_material_basis_in homozygous or compound heterozygous mutation in the NFU1 gene on chromosome 2p13. Synonyms: autosomal ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 25.0, female)\n  observed: Impaired vibratory sensation, Ataxia, Spastic paraplegia, Spastic gait, Upper limb muscle weakness, Lower limb muscle weakness, Skeletal muscle atrophy\n  recorded ABSENT: Microcephaly, Intellectual disability, Seizure, Dystonia, Pes cavus\n\nP02 (age 14.5, male)\n  observed: Gastrostomy tube feeding in infancy, Optic nerve hypoplasia, Fundus hypopigmentation, Abnormality of visual evoked potentials, Nystagmus, Reduced visual acuity, Hypotonia, Sensorineural hearing impairment, Profound global developmental delay, Seizure, Babinski sign, Brisk reflexes, Agenesis of corpus callosum\n  recorded ABSENT: Thyroid agenesis, Microcephaly, Areflexia, Hypopigmentation of the skin, Hypopigmentation of hair, Dilated cardiomyopathy, Hypertrophic cardiomyopathy\n\nP03 (age 2.3, male)\n  observed: Optic atrophy, Thin corpus callosum, Cerebral atrophy, Epileptic spasm, Bilateral tonic-clonic seizure, Epileptic encephalopathy, Spasticity, Hypokinesia, Global developmental delay, Axial hypotonia, EEG abnormality, Reduced eye contact, Decreased fetal movement\n  recorded ABSENT: Generalized non-motor (absence) seizure, Bilateral tonic-clonic seizure with focal onset, Generalized clonic seizure, Focal clonic seizure, Focal tonic seizure, Delayed CNS myelination, Round face, Frontal bossing, Short neck, Narrow forehead, Micrognathia, Anteverted nares, Upslanted palpebral fissure, Uplifted earlobe\n\nP04 (age 19.0, male)\n  observed: Babinski sign, Hoffmann sign, Impaired distal vibration sensation, Decreased motor nerve conduction velocity, Decreased sensory nerve conduction velocity, Motor conduction block, Gait disturbance, Ankle clonus, Knee clonus, Hyperactive Achilles reflex, Hyperactive patellar reflex, Spastic paraplegia, Lower limb muscle weakness\n  recorded ABSENT: (none recorded)\n\nP05 (age 8.0, female)\n  observed: Primary microcephaly, Delayed speech and language development, Global developmental delay, Motor delay, Moderate intellectual disability, Gait ataxia, Episodic ataxia, Paraplegia, Lower limb spasticity, Intention tremor, Dysarthria, Focal impaired awareness seizure, Status epilepticus, Cerebral atrophy, Lactic acidosis, Fever, Clinodactyly of the 5th finger, Syndactyly\n  recorded ABSENT: Thin upper lip vermilion, High palate, Abnormal facial shape, Micrognathia, Optic nerve hypoplasia, Microphthalmia, Nystagmus, Strabismus, Horizontal supranuclear gaze palsy, Dysmetric saccades, Oculomotor apraxia, Reduced visual acuity, Hearing impairment, Myoclonic seizure, Bilateral tonic-clonic seizure, Abnormal circulating thyroid-stimulating hormone concentration, Nail dysplasia, Joint contracture, Joint hypermobility, Talipes equinovarus\n\nP06 (age 4.6, male)\n  observed: Developmental regression, Delayed ability to walk, Paraplegia, Hypertonia, Brisk reflexes, Reduced cerebral white matter volume, Hypoplasia of the corpus callosum, Enlarged cisterna magna\n  recorded ABSENT: Gait ataxia, Lactic acidosis, Clonus, Babinski sign, Peripheral demyelination, Encephalopathy, Talipes equinovarus, Peripheral neuropathy\n\nP07 (age 30.0, male)\n  observed: Saccadic smooth pursuit interruptions, Impaired distal vibration sensation, Impaired pain sensation, Babinski sign, Lower limb hyperreflexia, Spasticity, Dysmetria, Muscle weakness, Distal amyotrophy\n  recorded ABSENT: Distal peripheral sensory neuropathy, Sensorimotor neuropathy, Cerebellar atrophy\n\nP08 (age 10.0, female)\n  observed: Microcephaly, Delayed ability to roll over, Delayed ability to sit, Scoliosis, Hypotonia, Skeletal muscle atrophy, Proximal muscle weakness, Distal muscle weakness, Simplified gyral pattern, Motor axonal neuropathy, Sensory axonal neuropathy, Hyporeflexia, Decreased number of peripheral myelinated nerve fibers, Increased variability in muscle fiber diameter, Increased endomysial connective tissue\n  recorded ABSENT: Nystagmus, Hyperreflexia, Babinski sign, Hypoplasia of the pons, Cerebellar hypoplasia, Hammertoe\n\nP09 (age 52.0, female)\n  observed: Abnormal facial shape, Moderate intellectual disability, Mild global developmental delay, Spastic paraplegia, Mental deterioration, Hypotonia\n  recorded ABSENT: Seizure, Mild intellectual disability, Developmental regression, Moderate global developmental delay, Excessive shyness, Autistic behavior, Restricted or repetitive behaviors or interests, Aggressive behavior, Attention deficit hyperactivity disorder, Depression, Anxiety\n\nP10 (age 35.0, male)\n  observed: Limb ataxia, Gait ataxia, Cerebellar vermis hypoplasia, Lower limb spasticity, Lower limb hyperreflexia, Babinski sign\n  recorded ABSENT: Cognitive impairment, Cerebellar atrophy, Dysarthria\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.45,
+     "for": "Presents directly with spastic paraplegia, spastic gait, lower limb weakness, and ataxia, which aligns closely with the early-onset pure-to-complex hereditary spastic paraplegia spectrum cited in the report.",
+     "against": "The adult age of 25 years without explicit early-childhood onset documentation, although early-onset HSP manifests long-term into adulthood."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.25,
+     "for": "Exhibits spastic paraplegia, hyperreflexia, clonus, Babinski signs, and lower limb weakness consistent with hereditary spastic paraplegia.",
+     "against": "Features prominent motor conduction block and marked demyelinating-range nerve conduction slowing, which are unusual for typical pure or complex HSP phenotypes."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.15,
+     "for": "Demonstrates childhood-onset lower limb spasticity and paraplegia combined with gait ataxia, fitting a complex spastic paraplegia presentation.",
+     "against": "Shows severe comorbidities not mentioned in the report such as status epilepticus, clinodactyly, syndactyly, and lactic acidosis."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.1,
+     "for": "Childhood presentation with early delayed walking, paraplegia, hypertonia, and white matter reduction.",
+     "against": "Lacks specific coding of spastic paraplegia per se, and displays gross developmental regression and hypoplasia of corpus callosum which are not specified in the disease summary."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.05,
+     "for": "Presents with lower limb spasticity, hyperreflexia, Babinski sign, and ataxia compatible with a complex spastic paraplegia spectrum.",
+     "against": "Older age at evaluation (35 years) with spasticity and cerebellar signs without an explicit diagnosis of hereditary spastic paraplegia."
+    }
+   ],
+   "what_the_report_lacked": "Detailed clinical descriptions distinguishing the core complex vs. pure neurological features of SPG93 (such as the presence of axonal neuropathy, cerebellar ataxia, dysarthria, or neuroimaging anomalies) and exact typical age of onset.",
+   "tokens_in": 1806,
+   "tokens_out": 2286,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.35,
+     "for": "Presents with spastic paraplegia and spastic gait alongside ataxia, vibration sensation loss, and muscle weakness, closely matching the spectrum of pure to complex hereditary spastic paraplegia.",
+     "against": "The clinical report does not explicitly establish childhood or early onset despite the patient's current young adult age."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.3,
+     "for": "Exhibits explicit spastic paraplegia with pronounced pyramidal signs (Babinski, clonus, hyperactive reflexes) and sensory loss characteristic of hereditary spastic paraplegia.",
+     "against": "Features significant peripheral nerve conduction slowing and conduction block, which are not typical hallmarks described for spastic paraplegia."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.15,
+     "for": "Demonstrates childhood onset with lower limb spasticity, paraplegia, and complex neurodevelopmental features consistent with a complex hereditary spastic paraplegia phenotype.",
+     "against": "Presents with severe systemic and epileptic encephalopathy findings such as status epilepticus and lactic acidosis that extend beyond typical spastic paraplegia phenotypes."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.12,
+     "for": "Shows childhood onset of paraplegia, hypertonia, brisk reflexes, and motor delay aligned with early-onset spastic paraplegia.",
+     "against": "Lacks the specific diagnosis of spastic paraplegia (coded as paraplegia and general hypertonia), and Babinski sign and clonus are recorded as absent."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.08,
+     "for": "Features spastic paraplegia with intellectual disability fitting a complex hereditary spastic paraplegia presentation.",
+     "against": "Patient is in late adulthood (52 years) presenting with progressive mental deterioration and abnormal facial features rather than a clear early/childhood-onset course."
+    }
+   ],
+   "what_the_report_lacked": "The report provided minimal phenotypic detail beyond describing SPG93 as early-onset pure to complex hereditary spastic paraplegia. Detailed descriptions of key distinguishing features (such as neuroimaging hallmarks, metabolic biomarkers, mitochondrial involvement, or peripheral nerve involvement) and specific age-of-onset distributions would have allowed more confident differentiation among patients with spastic paraplegia phenotypes.",
+   "tokens_in": 1806,
+   "tokens_out": 3203,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P01",
+     "probability": 0.75,
+     "for": "The patient exhibits early-onset spastic paraplegia, spastic gait, ataxia, distal vibratory impairment, and amyotrophy, precisely matching the pure-to-complex hereditary spastic paraplegia spectrum described for SPG93.",
+     "against": "The patient lacks intellectual disability and microcephaly, though SPG93 can manifest as a pure or mildly complex spastic paraplegia without cognitive impairment."
+    },
+    {
+     "patient_id": "P04",
+     "probability": 0.1,
+     "for": "Displays prominent spastic paraplegia, hyperreflexia, clonus, Babinski signs, and distal vibratory sensation loss.",
+     "against": "The presence of motor conduction blocks and slowed motor and sensory nerve conduction velocities strongly indicates a primary demyelinating peripheral neuropathy rather than typical SPG93."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.07,
+     "for": "Demonstrates childhood-onset paraplegia, hypertonia, brisk reflexes, and reduced cerebral white matter volume.",
+     "against": "Notable absence of Babinski sign, clonus, gait ataxia, and peripheral neuropathy, alongside severe early developmental regression."
+    },
+    {
+     "patient_id": "P09",
+     "probability": 0.05,
+     "for": "Presents with spastic paraplegia and cognitive involvement consisting of moderate intellectual disability and mental deterioration.",
+     "against": "Exhibits dysmorphic facial features and hypotonia, and lacks typical upper motor neuron signs or ataxia."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.03,
+     "for": "Features lower limb spasticity, paraplegia, gait ataxia, and lactic acidosis, the latter consistent with underlying NFU1-related mitochondrial dysfunction.",
+     "against": "Severe presentation with status epilepticus, syndactyly, clinodactyly, and microcephaly aligns much more closely with multiple mitochondrial dysfunctions syndrome rather than the SPG93 paraplegia spectrum."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked specific details regarding age at onset, neuroimaging findings (such as spinal cord atrophy or corpus callosum abnormalities), and biochemical or molecular genetic testing details (such as NFU1 variant status or mitochondrial respiratory chain assays) to definitively differentiate SPG93 from other complex spastic paraplegias or mitochondrial phenotypes.",
+   "tokens_in": 1806,
+   "tokens_out": 3321,
+   "round": 3
+  }
+ ]
+}

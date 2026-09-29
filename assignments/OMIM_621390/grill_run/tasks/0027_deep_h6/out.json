@@ -1,0 +1,91 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While computational facial phenotyping methodologies played a key role in the discovery and phenotypic delineation of KLHL20-related neurodevelopmental disorder (Sleyp et al., 2022), the primary literature explicitly characterizes the craniofacial dysmorphism as subtle rather than an overt, obligate clinical hallmark. Furthermore, clinical cohorts demonstrate variable multisystemic features (including cardiac anomalies, hypotonia, and cerebellar atrophy) alongside early-onset seizures, and evidence is lacking to establish that facial metrics alone provide an obligate, standalone diagnostic separator from clinically overlapping non-syndromic developmental and epileptic encephalopathies.",
+  "evidence": [
+    {
+      "text": "Facial phenotyping alongside next-generation sequencing was leveraged in medical genetics cohorts to identify and characterize KLHL20 as a novel disease gene associated with intellectual disability and facial dysmorphism.",
+      "stance": "supports",
+      "source": {
+        "title": "MOLECULAR DIAGNOSTICS IN AUTISM SPECTRUM DISORDER: NEXT GENERATION SEQUENCING AND FACIAL PHENOTYPING IN MEDICAL GENETICS",
+        "authors": [
+          "Y Sleyp",
+          "H Peeters",
+          "P Claes"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://lirias.kuleuven.be/handle/20.500.12942/703598",
+        "quote": "conditions associated with ID and facial dysmorphism to conditions associated with \u2026 In part 3.3, we demonstrate how this autonomy led to the identification of KLHL20 as a novel"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Characterization of individuals with de novo missense variants in KLHL20 identified neurodevelopmental disorder with intellectual disability, epilepsy, autism spectrum disorder/hyperactivity, and subtle dysmorphic facial features.",
+      "stance": "contradicts",
+      "source": {
+        "title": "\u2026 novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a developmental disorder with intellectual disability, epilepsy, and autism spectrum disorder",
+        "authors": [
+          "Y Sleyp",
+          "I Valenzuela",
+          "A Accogli",
+          "K Ballon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200911X",
+        "quote": "hyperactivity, and subtle dysmorphic facial features. We observed a recurrent de novo"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Identification of patients with recessive/founder variants expands the phenotypic presentation to include hypotonia, facial dysmorphism, congenital cardiac anomalies, developmental delay, and isolated cerebellar atrophy, indicating multisystemic variability beyond isolated DEE.",
+      "stance": "neutral",
+      "source": {
+        "title": "High Throughput Evidence Generation to Support Tentative Gene Disease Relationship from A Cohort Enriched for Autozygosity and Founder Effect",
+        "authors": [
+          "K Bakur",
+          "B Alhaddad",
+          "A Balubaid",
+          "S Makki"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360026009792",
+        "quote": "We identified a 6-month-old female with hypotonia, facial dysmorphism, congenital cardiac \u2026 development, intellectual disability, and seizures, showing isolated cerebellar atrophy (Patient"
+      },
+      "numbers": [
+        {
+          "metric": "patient age (months)",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Sleyp et al. (2022) characterize the facial dysmorphisms in KLHL20-related disorder as 'subtle', conflicting with the hypothesis that facial features represent an obligate, robust phenotypic signature easily distinguishable from non-syndromic DEEs without molecular testing."
+  ],
+  "confidence": 0.4,
+  "new_directions": [
+    {
+      "question_text": "What is the sensitivity and specificity of 3D dense facial imaging classifiers in differentiating KLHL20-related NEDSFBA from common non-syndromic epileptic encephalopathies (e.g., SCN1A-, STXBP1-, or CUX2-related DEEs)?",
+      "rationale": "Establishing whether quantitative computational facial analysis can reliably detect signature differences requires prospective multi-cohort evaluation against control cohorts of patients with non-syndromic DEEs.",
+      "promise": 0.75,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "How do craniofacial features and systemic manifestations differ between dominant de novo missense KLHL20 variants and recessive loss-of-function or founder variants?",
+      "rationale": "Recent autozygosity cohorts reveal systemic findings such as cerebellar atrophy and congenital heart defects, suggesting phenotypic spectrum heterogeneity dependent on genotype and inheritance mode.",
+      "promise": 0.8,
+      "est_cost": 30000
+    }
+  ]
+}

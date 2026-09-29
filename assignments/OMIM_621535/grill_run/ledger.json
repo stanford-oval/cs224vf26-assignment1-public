@@ -1,0 +1,3518 @@
+{
+  "question": "For Spinocerebellar ataxia 52 (OMIM #621535), caused by variants in RAB3A: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "required_fields": [
+    "Clinical phenotypes reported in affected individuals with Spinocerebellar ataxia 52 (RAB3A), including the verbatim wording from the paper and corresponding standard HPO term if identifiable",
+    "Phenotype frequencies given as exact numerators and denominators per assessed cohort (not percentages alone), attached to the specific cohort and a resolvable source (PMID or DOI)",
+    "Most discriminating findings that are present in most affected individuals but uncommon in disorders usually confused with SCA52",
+    "Names of the disorders usually confused with SCA52 and the level of confidence in distinguishing SCA52 from them based on discriminating findings",
+    "Clinical findings that were looked for and found absent in affected individuals (findings whose presence argues against the diagnosis of SCA52)",
+    "Evaluation of whether the SCA52 phenotype differs by variant type, variant position, age, or sex",
+    "Any clinical findings reported by one paper and explicitly contradicted by another"
+  ],
+  "glossary": {
+    "SCA52": {
+      "definition": "Spinocerebellar ataxia 52 (SCA52) is an autosomal dominant form of spinocerebellar ataxia caused by heterozygous mutation in the RAB3A (Ras-related protein Rab-3A) gene.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.5414/np301726",
+        "pmid": "42290274",
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-related"
+      }
+    },
+    "Spinocerebellar ataxia 52": {
+      "definition": "Spinocerebellar ataxia 52 (SCA52; OMIM #621535) is an autosomal dominant neurodegenerative disorder associated with pathogenic variants in the RAB3A gene, clinically characterized by core manifestations of gait and limb ataxia, nystagmus, and cerebellar atrophy, along with variable dysarthria, dysphagia, and urinary urgency. Detailed cohort-specific numerators, discriminative phenotype analyses, absent findings, genotype-phenotype correlations, and contradicting reports are not comprehensively provided in the available source context.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Features include gait and limb ataxia, nystagmus, and cerebellar atrophy, with variable dysarthria, dysphagia, and urinary urgency. Some individuals may also ..."
+      }
+    },
+    "RAB3A": {
+      "definition": "A gene encoding a small GTPase involved in membrane-associated regulated exocytosis and synaptic vesicle trafficking; heterozygous pathogenic variants in RAB3A (such as c.247C>T, p.Arg83Trp) cause spinocerebellar ataxia 52 (SCA52), an autosomal-dominant progressive cerebellar ataxia characterized by cerebellar atrophy and variable neurodevelopmental or spastic features.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": "41492970",
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "In this study, we identified the c.247C > T p.(Arg83Trp) variant in RAB3A, encoding a small GTPase involved in membrane-associated regulated exocytosis, in two families with cerebellar ataxia."
+      }
+    },
+    "OMIM #621535": {
+      "definition": "OMIM #621535 denotes Spinocerebellar Ataxia 52 (SCA52), an autosomal dominant neurodegenerative disorder associated with variants in the RAB3A gene. Clinically, it is characterized by gait and limb ataxia, nystagmus, and cerebellar atrophy, accompanied by variable manifestations including dysarthria, dysphagia, and urinary urgency.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Features include gait and limb ataxia, nystagmus, and cerebellar atrophy, with variable dysarthria, dysphagia, and urinary urgency."
+      }
+    }
+  },
+  "sources": [],
+  "datasets": [],
+  "constraints": [],
+  "assumptions": [],
+  "prior": {
+    "text": "Spinocerebellar ataxia 52 cannot be reliably identified by phenotype alone in the absence of genetic confirmation because its core clinical triad\u2014early-onset/childhood cerebellar ataxia, infantile hypotonia, and global developmental delay/intellectual disability with vermian cerebellar atrophy\u2014overlaps almost completely with other congenital and early-onset ataxias (such as SCA29/ITPR1, CACNA1A-related episodic/congenital ataxias, and CAMOS/CAMRQ syndromes). However, suspicion of SCA52 is heightened in individuals presenting with non-progressive or very slowly progressive congenital ataxia, prominent hypotonia, mild-to-moderate intellectual disability, and cerebellar vermis hypoplasia/atrophy, while lacking prominent peripheral neuropathy, retinal degeneration, or severe extraneurological malformations.",
+    "candidate_answers": [
+      "The core phenotypic features present in nearly all reported individuals with heterozygous pathogenic RAB3A variants include early-onset gait and limb ataxia (HP:0001251), developmental delay / intellectual disability (HP:0001263 / HP:0001249), muscular hypotonia in infancy (HP:0001252), and cerebellar atrophy/hypoplasia on neuroimaging (HP:0001272). Dysarthria (HP:0001260) and abnormal eye movements (nystagmus HP:0000639, strabismus HP:0000486) are reported in a high proportion of cases.",
+      "Discriminating features that help distinguish SCA52 from overlapping disorders (e.g., degenerative progressive SCAs like SCA1, SCA2, SCA3, or progressive metabolic ataxias) are its non-progressive or very indolent disease course, infantile onset with hypotonia, and absence of prominent lower motor neuron involvement, severe sensory neuropathy, or extraneurological systemic findings. However, distinction from SCA29 (ITPR1) purely on clinical grounds remains exceedingly difficult without genetic testing.",
+      "Findings that are typically absent in SCA52 and whose presence strongly argues against this diagnosis include profound early neurodegeneration with rapid fatal decline, severe cortical epileptic encephalopathy, chorioretinopathy / optic atrophy, significant hepatic/cardiac involvement, and severe peripheral polyneuropathy.",
+      "Variants reported in RAB3A are primarily de novo or dominantly inherited recurrent missense changes located in functionally critical GTP-binding or switch domains. Genotype-phenotype correlations remain preliminary due to the limited number of reported families/probands, but no definitive sex-specific differences have been documented."
+    ]
+  },
+  "prior_candidates": [
+    {
+      "answer": "The core phenotypic features present in nearly all reported individuals with heterozygous pathogenic RAB3A variants include early-onset gait and limb ataxia (HP:0001251), developmental delay / intellectual disability (HP:0001263 / HP:0001249), muscular hypotonia in infancy (HP:0001252), and cerebellar atrophy/hypoplasia on neuroimaging (HP:0001272). Dysarthria (HP:0001260) and abnormal eye movements (nystagmus HP:0000639, strabismus HP:0000486) are reported in a high proportion of cases.",
+      "confidence": 0.85,
+      "aspect": "Core phenotype and reported frequencies"
+    },
+    {
+      "answer": "Discriminating features that help distinguish SCA52 from overlapping disorders (e.g., degenerative progressive SCAs like SCA1, SCA2, SCA3, or progressive metabolic ataxias) are its non-progressive or very indolent disease course, infantile onset with hypotonia, and absence of prominent lower motor neuron involvement, severe sensory neuropathy, or extraneurological systemic findings. However, distinction from SCA29 (ITPR1) purely on clinical grounds remains exceedingly difficult without genetic testing.",
+      "confidence": 0.75,
+      "aspect": "Differential diagnosis and discriminating findings"
+    },
+    {
+      "answer": "Findings that are typically absent in SCA52 and whose presence strongly argues against this diagnosis include profound early neurodegeneration with rapid fatal decline, severe cortical epileptic encephalopathy, chorioretinopathy / optic atrophy, significant hepatic/cardiac involvement, and severe peripheral polyneuropathy.",
+      "confidence": 0.7,
+      "aspect": "Pertinent negative findings / exclusionary features"
+    },
+    {
+      "answer": "Variants reported in RAB3A are primarily de novo or dominantly inherited recurrent missense changes located in functionally critical GTP-binding or switch domains. Genotype-phenotype correlations remain preliminary due to the limited number of reported families/probands, but no definitive sex-specific differences have been documented.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlations, variant spectrum, and demographics"
+    }
+  ],
+  "directions": {
+    "d1": {
+      "id": "d1",
+      "question_text": "What is the exact cohort size and specific publication (PMID/DOI) that defined OMIM #621535 for RAB3A?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4341643241878404,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d2": {
+      "id": "d2",
+      "question_text": "What are the precise numerators and denominators for clinical manifestations (ataxia, hypotonia, dysarthria, oculomotor features, seizures) in published RAB3A cohorts?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.45936419899918746,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d3": {
+      "id": "d3",
+      "question_text": "Are there any documented truncating, frameshift, or copy number variants in RAB3A causing SCA52, or is pathogenicity restricted to specific dominant-negative/gain-of-function missense variants?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.45633304040222167,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d4": {
+      "id": "d4",
+      "question_text": "Are seizures or movement disorders (such as dystonia, chorea, or myoclonus) consistently present or explicitly absent in reported cohorts?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.44235297432503473,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d5": {
+      "id": "d5",
+      "question_text": "What is the complete clinical spectrum across international cohorts of undiagnosed late-onset ataxia screened for RAB3A variants?",
+      "parent_id": null,
+      "rationale": "Because current literature describes only a handful of families and probands, international multi-center screening of unclassified autosomal dominant and sporadic ataxia cohorts is necessary to clarify the penetrance, non-ataxia neurological signs, and full phenotypic variability.",
+      "status": "OPEN",
+      "promise": 0.382975018690186,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d6": {
+      "id": "d6",
+      "question_text": "Do missense variants outside the switch II and GTP-binding pockets cause loss-of-function vs dominant-negative effects in parallel-fiber synaptic transmission?",
+      "parent_id": null,
+      "rationale": "Functional assays in Miyamoto et al. demonstrated impaired RIM1/Rabphilin-3A effector binding for switch II mutant R83W; determining whether other missense or loss-of-function variants produce identical presynaptic parallel fiber-Purkinje cell pathology will refine variant classification criteria.",
+      "status": "OPEN",
+      "promise": 0.3374066802628918,
+      "est_cost": 60000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d7": {
+      "id": "d7",
+      "question_text": "Resolve the conflict over: The core phenotypic features present in nearly all reported individuals with heterozygous pathogenic RAB3A variants include early-onset gait and limb ataxia (HP:0001251), developmental delay / intellectual disability (HP:0001263 / HP:0001249), muscular hypotonia in infancy (HP:0001252), and cerebellar atrophy/hypoplasia on neuroimaging (HP:0001272). Dysarthria (HP:0001260) and abnormal eye movements (nystagmus HP:0000639, strabismus HP:0000486) are reported in a high proportion of cases.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: Age of onset: The hypothesis posits that early-onset gait and limb ataxia and infantile hypotonia are core features in nearly all individuals, whereas Miyamoto et al. (2026) report that affected individuals in the founding cohorts presented with adult-onset, gradually progressive cerebellar ataxia.; Obligate infantile neurodevelopmental manifestations: Infant muscular hypotonia and intellectual disability are not universal or core defining features across all cohorts; instead, Miyamoto et al. observed variable neurodevelopmental features alongside adult-onset degenerative cerebellar ataxia and spasticity.",
+      "status": "EXPLORED",
+      "promise": 0.92,
+      "est_cost": 1.0,
+      "allocated_usd": 1.98,
+      "spent_usd": 0.013220499999999996,
+      "alloc_rationale": "Resolves the critical contradictory findings regarding infantile congenital ataxia and hypotonia versus adult-onset progressive ataxia and spasticity in published RAB3A cohorts.",
+      "produced_hypotheses": [
+        "h8",
+        "h9",
+        "h10"
+      ],
+      "tests_hypothesis_id": "h1",
+      "origin": "agent"
+    },
+    "d8": {
+      "id": "d8",
+      "question_text": "What is the true phenotypic spectrum of heterozygous RAB3A pathogenic variants across the lifespan, and what determines adult-onset ataxia versus early neurodevelopmental phenotypes?",
+      "parent_id": null,
+      "rationale": "Clarifying whether specific variant domains or modifier alleles lead to adult-onset SCA versus early-onset neurodevelopmental delay will resolve conflicting reports in the medical literature.",
+      "status": "OPEN",
+      "promise": 0.3718018642020936,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d9": {
+      "id": "d9",
+      "question_text": "What proportion of patients with unexplained hereditary spastic paraplegia or adult-onset pure cerebellar ataxia carry pathogenic RAB3A variants?",
+      "parent_id": null,
+      "rationale": "Given the expansion of RAB3A to spastic paraplegia and mild spastic ataxia, systematic screening in larger ataxia/HSP cohorts is needed to establish precise phenotypic frequencies.",
+      "status": "OPEN",
+      "promise": 0.361357939739275,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d10": {
+      "id": "d10",
+      "question_text": "Re-investigate (refuted): Findings that are typically absent in SCA52 and whose presence strongly argues against this diagnosis include profound early neurodegeneration with rapid fatal decline, severe cortical epileptic encephalopathy, chorioretinopathy / optic atrophy, significant hepatic/cardiac involvement, and severe peripheral polyneuropathy.",
+      "parent_id": null,
+      "rationale": "deep test refuted it: Under the definition where 'refuted' applies if the available literature gives no support or contradicts the hypothesis outright, the hypothesis is refuted. The provided literature confirms that heterozygous variants in RAB3A cause autosomal dominant Spinocerebellar Ataxia 52 (OMIM #621535; hereditary ataxia panel entries), but none of the provided sources present cohort-level phenotyping, clinical denominators, or formal exclusion criteria documenting the absence of severe epileptic encephalopathy, chorioretinopathy, optic atrophy, hepatic/cardiac disease, or severe polyneuropathy.",
+      "status": "OPEN",
+      "promise": 0.4851883681852442,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h3",
+      "origin": "agent"
+    },
+    "d11": {
+      "id": "d11",
+      "question_text": "What are the exact numerator/denominator clinical phenotypic frequencies and documented absent features in published RAB3A / SCA52 index families?",
+      "parent_id": null,
+      "rationale": "Primary literature describing original SCA52 families must be extracted to confirm whether non-ataxia features (e.g. optic atrophy, severe neuropathy, seizures, cardiac involvement) are consistently absent across all reported pedigrees.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 1500.0,
+      "allocated_usd": 1.98,
+      "spent_usd": 0.010913999999999993,
+      "alloc_rationale": "Directly targets the primary unanswered requirements by extracting exact cohort-level numerators, denominators, HPO terms, and documented absent features from primary SCA52 literature.",
+      "produced_hypotheses": [
+        "h5",
+        "h6",
+        "h7"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d12": {
+      "id": "d12",
+      "question_text": "Resolve the conflict over: Discriminating features that help distinguish SCA52 from overlapping disorders (e.g., degenerative progressive SCAs like SCA1, SCA2, SCA3, or progressive metabolic ataxias) are its non-progressive or very indolent disease course, infantile onset with hypotonia, and absence of prominent lower motor neuron involvement, severe sensory neuropathy, or extraneurological systemic findings. However, distinction from SCA29 (ITPR1) purely on clinical grounds remains exceedingly difficult without genetic testing.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: OMIM entry #621535 highlights an expanding clinical spectrum that includes spastic paraplegia, which conflicts with characterizing SCA52 purely as a non-progressive infantile congenital cerebellar ataxia easily separable from spastic disorders.",
+      "status": "EXPLORED",
+      "promise": 0.9,
+      "est_cost": 1.0,
+      "allocated_usd": 1.9574661120000003,
+      "spent_usd": 0.013477500000000003,
+      "alloc_rationale": "Addresses phenotypic overlap, negative/absent findings, and conflicting classifications between infantile ataxia, spastic paraplegia, and SCA29.",
+      "produced_hypotheses": [
+        "h14",
+        "h15",
+        "h16"
+      ],
+      "tests_hypothesis_id": "h2",
+      "origin": "agent"
+    },
+    "d13": {
+      "id": "d13",
+      "question_text": "What is the exact clinical frequency of spastic paraplegia versus cerebellar ataxia phenotypes across all documented pathogenic RAB3A variant carriers?",
+      "parent_id": null,
+      "rationale": "Determining whether spasticity is an obligate feature or restricted to specific variant locations is essential to establish whether SCA52 behaves as a pure ataxia or a complicated hereditary spastic paraplegia (HSP)/SCA overlap.",
+      "status": "OPEN",
+      "promise": 0.3938877500386234,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d14": {
+      "id": "d14",
+      "question_text": "Can deep neurological phenotyping and brain MRI volumetric scoring reliably differentiate RAB3A-related SCA52 from ITPR1-related SCA29 in the absence of sequencing?",
+      "parent_id": null,
+      "rationale": "Both disorders present in early life with non-progressive or indolent cerebellar features; formal quantitative comparison is needed to evaluate if clinical distinction is feasible without molecular genetics.",
+      "status": "OPEN",
+      "promise": 0.3885808170783629,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d15": {
+      "id": "d15",
+      "question_text": "Build on the confirmed prior: Variants reported in RAB3A are primarily de novo or dominantly inherited recurrent missense changes located in functionally critical GTP-binding or switch domains. Genotype-phenotype correlations remain preliminary due to the limited number of reported families/probands, but no definitive sex-specific differences have been documented.",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "OPEN",
+      "promise": 0.47528024946397535,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d16": {
+      "id": "d16",
+      "question_text": "What exact clinical numerator and denominator frequencies of pyramidal spasticity, tremor, and intellectual disability were documented across each affected member of Family T and Family K in Miyamoto et al. (2026)?",
+      "parent_id": "d11",
+      "rationale": "Direct extraction of individual pedigree charts from Miyamoto et al. will yield precise phenotypic numerators/denominators for dysarthria, spasticity, tremors, and cognitive delay in human RAB3A disease.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 0.75,
+      "allocated_usd": 1.9574661120000003,
+      "spent_usd": 0.012291999999999997,
+      "alloc_rationale": "Directly targets exact cohort numerators, denominators, and verbatim phenotypic features across Families T and K from the index Miyamoto et al. study.",
+      "produced_hypotheses": [
+        "h11",
+        "h12",
+        "h13"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d17": {
+      "id": "d17",
+      "question_text": "Does the phenotypic spectrum of dominant RAB3A mutations overlap with downstream or upstream regulators in the exocytosis pathway (such as RIM1 or RAB3GAP1) regarding the presence of peripheral neuropathy or ocular defects?",
+      "parent_id": "d11",
+      "rationale": "Comparing RAB3GAP1 phenotypes (which exhibit ocular abnormalities and severe peripheral neuropathy in humans and canine models) against RAB3A cases will clarify whether exocytic GTPase machinery mutations selectively spare the peripheral nervous system in dominant human SCA52.",
+      "status": "OPEN",
+      "promise": 0.49053928099339306,
+      "est_cost": 0.65,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d18": {
+      "id": "d18",
+      "question_text": "What is the exact frequency of infantile-onset versus adult-onset presentations across all sequenced probands and affected family members carrying pathogenic RAB3A variants?",
+      "parent_id": "d7",
+      "rationale": "Determining exact numerator/denominator counts across all published cohorts will establish whether early-onset cases represent a distinct variant subtype or rare severe end of an intrafamilial spectrum.",
+      "status": "OPEN",
+      "promise": 0.5222388606198033,
+      "est_cost": 0.6,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d19": {
+      "id": "d19",
+      "question_text": "Do mutations in other domains of RAB3A outside the switch II R83 codon produce distinct congenital or severe neurodevelopmental phenotypes versus late-onset degeneration?",
+      "parent_id": "d7",
+      "rationale": "Assessing genotype-phenotype correlations across different functional residues (switch I, switch II, GTP-binding pocket) could explain reported differences in disease severity and onset age.",
+      "status": "OPEN",
+      "promise": 0.49887291481576074,
+      "est_cost": 0.5,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d20": {
+      "id": "d20",
+      "question_text": "What specific genetic or environmental modifiers explain the presence of neurodevelopmental symptoms in a subset of p.Arg83Trp carriers compared to those presenting with isolated adult-onset cerebellar ataxia?",
+      "parent_id": "d11",
+      "rationale": "Clarifying why some individuals carrying the p.Arg83Trp variant show mild developmental manifestations alongside adult-onset neurodegeneration will refine diagnostic differentiation and prognostic counseling.",
+      "status": "OPEN",
+      "promise": 0.4445471047625248,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d21": {
+      "id": "d21",
+      "question_text": "Does the biochemical disruption of effector coupling (e.g., RIM1 and Rabphilin-3A binding) by p.Arg83Trp differ qualitatively or quantitatively from the partial loss-of-function seen in infantile-onset RAB3A variants?",
+      "parent_id": "d11",
+      "rationale": "Mapping allele-specific synaptic docking and exocytosis deficits across the switch II versus other functional domains will explain the genotype-phenotype divergence between progressive SCA52 and congenital ataxic encephalopathies.",
+      "status": "OPEN",
+      "promise": 0.44682371885718775,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d22": {
+      "id": "d22",
+      "question_text": "What is the penetrance and spectrum of subclinical pyramidal signs (spasticity) versus pure cerebellar ataxia across different age brackets in RAB3A p.Arg83Trp carriers?",
+      "parent_id": "d7",
+      "rationale": "Several reports note mild gait spasticity or an overlap with spastic paraplegia, indicating a phenotypic continuum within the ataxia-spasticity spectrum.",
+      "status": "OPEN",
+      "promise": 0.43744791065999233,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d23": {
+      "id": "d23",
+      "question_text": "What is the exact penetrance and spectrum of specific neurodevelopmental phenotypes (e.g., formal IQ assessment, language delay, childhood motor milestones) across all known heterozygous RAB3A variant carriers across diverse pedigrees?",
+      "parent_id": "d7",
+      "rationale": "Currently, only a limited number of families (such as the two described by Miyamoto et al.) harboring the p.Arg83Trp variant have been published; systematic multi-center deep phenotyping is required to quantify the exact numerator and denominator of cognitive and neurodevelopmental features.",
+      "status": "OPEN",
+      "promise": 0.44803044815058723,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d24": {
+      "id": "d24",
+      "question_text": "Do non-R83W variants in RAB3A that disrupt GTP binding or effector interaction cause a distinct congenital/early-onset neurodevelopmental syndrome rather than adult-onset SCA52?",
+      "parent_id": "d7",
+      "rationale": "R83W selectively impairs RIM1 and Rabphilin-3A binding while retaining GTP-binding affinity. Other pathogenic alterations in different functional domains might produce more severe, obligate neurodevelopmental deficits.",
+      "status": "OPEN",
+      "promise": 0.43163206121621955,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d25": {
+      "id": "d25",
+      "question_text": "What is the exact penetrance of mild gait spasticity and tremor across broader, ethnically diverse cohorts of adult-onset ataxia harboring RAB3A variants?",
+      "parent_id": "d7",
+      "rationale": "Currently described SCA52 cases stem from very few families sharing the recurrent p.Arg83Trp variant; determining whether other pathogenic variants in RAB3A cause pure vs. complex spastic-ataxic phenotypes will refine its clinical specificity.",
+      "status": "OPEN",
+      "promise": 0.4395793158868079,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d26": {
+      "id": "d26",
+      "question_text": "How do early-life neurodevelopmental abnormalities in RAB3A variant carriers correlate with the severity and age-of-onset of cerebellar ataxia and spasticity in adulthood?",
+      "parent_id": "d7",
+      "rationale": "Intrafamilial phenotypic heterogeneity including neurodevelopmental features was noted in the discovery families; clarifying this link will help differentiate SCA52 from developmental ataxias and adult-onset ataxias.",
+      "status": "OPEN",
+      "promise": 0.39744254918318644,
+      "est_cost": 18000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d27": {
+      "id": "d27",
+      "question_text": "Does early-stage symptomatic SCA52 demonstrate normal volumetric MRI or does vermian volumetric reduction precede clinical onset?",
+      "parent_id": "d11",
+      "rationale": "Determining whether vermian atrophy is present at symptom onset or during the presymptomatic phase in RAB3A carriers will establish whether normal cerebellar volume truly rules out SCA52.",
+      "status": "OPEN",
+      "promise": 0.43169008157604594,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d28": {
+      "id": "d28",
+      "question_text": "What is the degree of cerebellar hemispheric versus vermian volume reduction across monoallelic RAB3A variant carriers compared with age-matched controls using automated 3D segmentation?",
+      "parent_id": "d11",
+      "rationale": "Automated volumetric pipelines (e.g., FreeSurfer) can definitively test whether atrophy is vermis-predominant or pan-cerebellar.",
+      "status": "OPEN",
+      "promise": 0.43878501879044507,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d29": {
+      "id": "d29",
+      "question_text": "Does prospective screening with echocardiography, optical coherence tomography, and hepatic panels in expanded cohorts of heterozygous RAB3A mutation carriers confirm complete absence of subclinical extraneurological findings?",
+      "parent_id": "d11",
+      "rationale": "SCA52 is a newly characterized, rare monogenic ataxia with limited numbers of published index pedigrees; rigorous prospective screening across organ systems is required to definitively exclude subclinical cardiac, retinal, or hepatic disease.",
+      "status": "OPEN",
+      "promise": 0.43449032915264774,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d30": {
+      "id": "d30",
+      "question_text": "What are the exact patient-by-patient clinical tabular entries in the supplementary material of Miyamoto et al. (2026) for muscle tone, deep tendon reflexes, babinski sign, tremor classification, and formal IQ/neuropsychological scores across Family T and Family K?",
+      "parent_id": "d16",
+      "rationale": "Direct examination of the supplementary clinical tables or main text pedigree tables will provide the exact integer numerators and denominators for spasticity, tremor, and intellectual disability needed to compute hard clinical frequencies.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.65,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d31": {
+      "id": "d31",
+      "question_text": "What specific heterozygous RAB3A variant alleles have been identified in patients clinically diagnosed with hereditary spastic paraplegia versus SCA52, and do their functional effects on GTPase activity differ?",
+      "parent_id": "d12",
+      "rationale": "OMIM entry #621535 highlights literature expanding RAB3A into spastic paraplegia. Pinpointing the exact alleles and biochemical consequences will clarify whether spastic paraplegia and SCA52 are allelic diseases with divergent pathogenic mechanisms.",
+      "status": "OPEN",
+      "promise": 0.9,
+      "est_cost": 0.8,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d32": {
+      "id": "d32",
+      "question_text": "In patients with RAB3A-related spastic paraplegia, what is the frequency and distribution of cerebellar signs, cognitive impairment, and neuroimaging abnormalities compared to classical SCA52?",
+      "parent_id": "d12",
+      "rationale": "Determining whether spastic RAB3A patients possess subclinical vermian cerebellar atrophy or oculomotor abnormalities will enable clinicians to distinguish them from other hereditary spastic paraplegias.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.75,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d33": {
+      "id": "d33",
+      "question_text": "What is the exact genotype-phenotype correlation across distinct RAB3A functional domains (e.g., GTP-binding pocket versus effector interface) in determining pure ataxia versus predominant spastic paraplegia?",
+      "parent_id": "d12",
+      "rationale": "Mouraux et al. noted that pyramidal signs are associated with the common p.Asp83Trp mutation, whereas other variants may alter vesicle release dynamics differently. Systematic biophysical and cohort analysis could clarify variant-specific manifestation risk.",
+      "status": "OPEN",
+      "promise": 0.88,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d34": {
+      "id": "d34",
+      "question_text": "What is the longitudinal trajectory and onset age of corticospinal tract signs in RAB3A variant carriers presenting initially with congenital or infantile-onset cerebellar ataxia?",
+      "parent_id": "d12",
+      "rationale": "Clarifying whether spastic paraparesis is an age-dependent, progressive development in SCA52 or a distinct presentation will improve diagnostic stratification.",
+      "status": "OPEN",
+      "promise": 0.82,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d35": {
+      "id": "d35",
+      "question_text": "Re-investigate (refuted): Neurodevelopmental features, including cognitive delay or intellectual disability, exhibit lower penetrance (less than 40 percent) than adult cerebellar ataxia in heterozygous RAB3A p.Arg83Trp carriers, manifesting selectively or subclinically in Family T and Family K.",
+      "parent_id": "d16",
+      "rationale": "deep test refuted it: The available literature confirms that heterozygous RAB3A p.Arg83Trp causes spinocerebellar ataxia 52 (SCA52) characterized by adult-onset progressive cerebellar ataxia with 'variable features of neurodevelopmental disorders' (Miyamoto et al., 2026). However, the specific quantitative assertion that neurodevelopmental features, cognitive delay, or intellectual disability exhibit a penetrance of 'less than 40 percent' in Family T and Family K is not verified or documented within the provided text. Furthermore, OMIM #621535 notes that cognitive/neuropsychiatric symptoms are reported 'usually later in the' course rather than primarily presenting as early-onset neurodevelopmental disorders, while PanelApp records neurodevelopmental delay among affected carriers without providing a <40% penetrance cutoff. Because the literature provided gives no numerical or segregation data supporting the specific 40% penetrance threshold, the hypothesis cannot be confirmed as stated.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h13",
+      "origin": "agent"
+    },
+    "d36": {
+      "id": "d36",
+      "question_text": "What is the exact frequency and clinical spectrum of early-childhood developmental delay versus late-onset cognitive impairment across all known families carrying RAB3A p.Arg83Trp?",
+      "parent_id": "d16",
+      "rationale": "Clarifying whether cognitive manifestations represent developmental delay versus secondary degenerative cerebellar cognitive affective syndrome requires standardized longitudinal neuropsychological assessments across pedigrees.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d37": {
+      "id": "d37",
+      "question_text": "Does the defective interaction of Rab3A p.Arg83Trp with RIM1 and Rabphilin-3A alter presynaptic parallel fiber plasticity during development or cause progressive synaptopathy in adulthood?",
+      "parent_id": "d16",
+      "rationale": "Investigating whether Rab3A p.Arg83Trp disrupts developmental synapse formation or leads strictly to age-dependent synaptic degeneration will resolve the biological basis of variable neurodevelopmental penetrance.",
+      "status": "OPEN",
+      "promise": 0.9,
+      "est_cost": 75000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d38": {
+      "id": "d38",
+      "question_text": "What quantitative spinal cord cross-sectional area thresholds on volumetric MRI reliably discriminate SCA52 from primary complicated hereditary spastic paraplegias like SPG7?",
+      "parent_id": "d12",
+      "rationale": "While brain MRI captures vermian atrophy in SCA52, systematic measurement of cervical and thoracic cord atrophy across SPG7 and SCA52 cohorts will establish objective imaging biomarkers.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d39": {
+      "id": "d39",
+      "question_text": "Does the presence of co-occurring neurodevelopmental delay or cognitive involvement delineate non-R83W loss-of-function RAB3A variants from typical adult-onset SCA52 R83W missense cases?",
+      "parent_id": "d12",
+      "rationale": "Initial studies indicate unique de novo loss-of-function variants present with childhood-onset neurodevelopmental features, suggesting a genotype-phenotype divergence that could refine diagnostic prioritization.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 18000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d40": {
+      "id": "d40",
+      "question_text": "Re-investigate (refuted): In the two families (Family T and Family K) described by Miyamoto et al. (2026), pyramidal tract involvement (mild gait spasticity) is present in more than 60 percent of adult affected carriers of RAB3A p.Arg83Trp but is incomplete in penetrance, manifesting as a variable co-phenotype rather than an obligate diagnostic criterion.",
+      "parent_id": "d16",
+      "rationale": "deep test refuted it: The available literature confirms that heterozygous RAB3A p.Arg83Trp causes spinocerebellar ataxia 52 (SCA52) and that affected individuals exhibit adult-onset cerebellar symptoms frequently accompanied by mild gait spasticity, tremors, and upper motor neuron signs across an ataxia-spasticity spectrum (Miyamoto et al., 2026; Roller et al., 2026; Mouraux et al., 2025). However, the specific quantitative assertion that pyramidal tract signs/mild gait spasticity are present in 'more than 60 percent of adult affected carriers' across Family T and Family K specifically is unsupported by the provided source texts, which describe the sign qualitatively as 'often accompanied by mild gait spasticity' without publishing a verified >60% exact numerator/denominator breakdown in the accessible record.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h11",
+      "origin": "agent"
+    },
+    "d41": {
+      "id": "d41",
+      "question_text": "What is the exact individual-level penetrance and frequency of pyramidal tract signs (hyperreflexia, extensor plantar responses, spastic gait) across all genetically confirmed RAB3A p.Arg83Trp carriers in the international registry?",
+      "parent_id": "d16",
+      "rationale": "Resolving precise numerators and denominators across all reported kindreds (including Miyamoto, Mouraux, and Roller cohorts) is required to determine whether spasticity meets criteria for a core diagnostic discriminator versus an optional modifier.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d42": {
+      "id": "d42",
+      "question_text": "Do non-R83W variants in RAB3A (such as p.Ile27Thr) produce prominent spasticity or pure cerebellar ataxia?",
+      "parent_id": "d16",
+      "rationale": "OMIM #621535 and MARRVEL list alternative variants such as Ile27Thr; determining whether spasticity is hot-spot specific to switch II domain alterations (p.Arg83Trp) will clarify genotype-phenotype correlations.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d43": {
+      "id": "d43",
+      "question_text": "Resolve the conflict over: Action or postural tremor occurs in a substantial subset (between 50 percent and 80 percent) of affected individuals in Family T and Family K, reflecting dual cerebellar outflow and basal ganglia/synaptic disruption from RAB3A switch II dysfunction.",
+      "parent_id": "d16",
+      "rationale": "deep test attempt 1 left this contested: Miyamoto et al. (2026) report that tremors (such as neck and hand tremor) frequently accompany ataxia and mild spasticity in p.Arg83Trp carriers, whereas Hengel et al. (2025) delineate a predominantly pure cerebellar syndrome across 10 families (18 individuals) without finding high-frequency extrapyramidal tremor.; The specific quantitative frequency band (50% to 80%) asserted for Family T and Family K lacks explicit statistical validation in published cohort descriptions.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h12",
+      "origin": "agent"
+    },
+    "d44": {
+      "id": "d44",
+      "question_text": "What is the exact incidence and electrophysiological characterization (kinetic vs. postural vs. resting) of tremor across all 12 reported families with RAB3A p.Arg83Trp variants?",
+      "parent_id": "d16",
+      "rationale": "Differentiating cerebellar intention tremor from parkinsonian resting or essential-like postural tremor is critical to establishing whether RAB3A variants affect basal ganglia circuits or pure cerebello-thalamocortical loops.",
+      "status": "OPEN",
+      "promise": 0.88,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d45": {
+      "id": "d45",
+      "question_text": "Does presynaptic parallel fiber-to-Purkinje cell synaptic dysfunction caused by impaired RAB3A-RIM1 binding provoke downstream deep cerebellar nuclear oscillations independent of nigrostriatal involvement?",
+      "parent_id": "d16",
+      "rationale": "Clarifying the molecular mechanism of tremor in SCA52 will reveal whether pharmacological treatments should target cerebellar outflow (e.g., clonazepam) or dopaminergic/basal ganglia pathways.",
+      "status": "OPEN",
+      "promise": 0.81,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    }
+  },
+  "hypotheses": {
+    "h1": {
+      "id": "h1",
+      "text": "The core phenotypic features present in nearly all reported individuals with heterozygous pathogenic RAB3A variants include early-onset gait and limb ataxia (HP:0001251), developmental delay / intellectual disability (HP:0001263 / HP:0001249), muscular hypotonia in infancy (HP:0001252), and cerebellar atrophy/hypoplasia on neuroimaging (HP:0001272). Dysarthria (HP:0001260) and abnormal eye movements (nystagmus HP:0000639, strabismus HP:0000486) are reported in a high proportion of cases.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Core phenotype and reported frequencies"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.4,
+      "evidence_ids": [
+        "e1",
+        "e2",
+        "e10",
+        "e11"
+      ],
+      "conflicts": [
+        "Age of onset: The hypothesis posits that early-onset gait and limb ataxia and infantile hypotonia are core features in nearly all individuals, whereas Miyamoto et al. (2026) report that affected individuals in the founding cohorts presented with adult-onset, gradually progressive cerebellar ataxia.",
+        "Obligate infantile neurodevelopmental manifestations: Infant muscular hypotonia and intellectual disability are not universal or core defining features across all cohorts; instead, Miyamoto et al. observed variable neurodevelopmental features alongside adult-onset degenerative cerebellar ataxia and spasticity."
+      ],
+      "screen_note": "OMIM entries and literature confirm SCA52 is linked to heterozygous RAB3A mutations and includes cerebellar ataxia and ocular signs such as nystagmus.",
+      "bin_reason": "contested (2 for / 2 against): Age of onset: The hypothesis posits that early-onset gait and limb ataxia and infantile hypotonia are core features in nearly all individuals, whereas Miyamoto et al. (2026) report that affected individuals in the founding cohorts presented with adult-onset, gradually progressive cerebellar ataxia.; Obligate infantile neurodevelopmental manifestations: Infant muscular hypotonia and intellectual disability are not universal or core defining features across all cohorts; instead, Miyamoto et al. observed variable neurodevelopmental features alongside adult-onset degenerative cerebellar ataxia and spasticity.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h2": {
+      "id": "h2",
+      "text": "Discriminating features that help distinguish SCA52 from overlapping disorders (e.g., degenerative progressive SCAs like SCA1, SCA2, SCA3, or progressive metabolic ataxias) are its non-progressive or very indolent disease course, infantile onset with hypotonia, and absence of prominent lower motor neuron involvement, severe sensory neuropathy, or extraneurological systemic findings. However, distinction from SCA29 (ITPR1) purely on clinical grounds remains exceedingly difficult without genetic testing.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Differential diagnosis and discriminating findings"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e3",
+        "e4",
+        "e14",
+        "e15"
+      ],
+      "conflicts": [
+        "OMIM entry #621535 highlights an expanding clinical spectrum that includes spastic paraplegia, which conflicts with characterizing SCA52 purely as a non-progressive infantile congenital cerebellar ataxia easily separable from spastic disorders."
+      ],
+      "screen_note": "SCA52 is recognized as an early-onset cerebellar ataxia associated with RAB3A, fitting within nonprogressive or indolent congenital ataxia presentations similar to SCA29.",
+      "bin_reason": "contested (4 for / 0 against): OMIM entry #621535 highlights an expanding clinical spectrum that includes spastic paraplegia, which conflicts with characterizing SCA52 purely as a non-progressive infantile congenital cerebellar ataxia easily separable from spastic disorders.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h3": {
+      "id": "h3",
+      "text": "Findings that are typically absent in SCA52 and whose presence strongly argues against this diagnosis include profound early neurodegeneration with rapid fatal decline, severe cortical epileptic encephalopathy, chorioretinopathy / optic atrophy, significant hepatic/cardiac involvement, and severe peripheral polyneuropathy.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Pertinent negative findings / exclusionary features"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e5",
+        "e12",
+        "e13"
+      ],
+      "conflicts": [],
+      "screen_note": "SCA52 is characterized as an adult-onset, gradually progressive ataxia with cerebellar atrophy and spasticity, making severe early-onset neurodegeneration, epileptic encephalopathy, and multiorgan failure distinct counter-indicators.",
+      "bin_reason": "refuted: Under the definition where 'refuted' applies if the available literature gives no support or contradicts the hypothesis outright, the hypothesis is refuted. The provided literature confirms that heterozygous variants in RAB3A cause autosomal dominant Spinocerebellar Ataxia 52 (OMIM #621535; hereditary ataxia panel entries), but none of the provided sources present cohort-level phenotyping, clinical denominators, or formal exclusion criteria documenting the absence of severe epileptic encephalopathy, chorioretinopathy, optic atrophy, hepatic/cardiac disease, or severe polyneuropathy.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h4": {
+      "id": "h4",
+      "text": "Variants reported in RAB3A are primarily de novo or dominantly inherited recurrent missense changes located in functionally critical GTP-binding or switch domains. Genotype-phenotype correlations remain preliminary due to the limited number of reported families/probands, but no definitive sex-specific differences have been documented.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Genotype-phenotype correlations, variant spectrum, and demographics"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e6",
+        "e7",
+        "e8",
+        "e9"
+      ],
+      "conflicts": [],
+      "screen_note": "OMIM entries confirm SCA52 is an autosomal dominant disorder caused by heterozygous missense mutations in RAB3A.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h5": {
+      "id": "h5",
+      "text": "Heterozygous RAB3A switch II missense variants (specifically p.Arg83Trp) cause an adult-onset, slowly progressive cerebellar ataxia syndrome with mild spasticity and action tremor, rather than an exclusively congenital or infantile non-progressive ataxic encephalopathy.",
+      "direction_id": "d11",
+      "rationale": "Prior binned assertions highlighted early-onset or infantile-onset hypotonia and ataxia; however, the primary characterization of the index SCA52 kindreds (Families T and K) by Miyamoto et al. demonstrates adult-onset progressive cerebellar disease with pyramidal signs (mild spasticity) and tremors, indicating phenotypic heterogeneity or variant-specific age of onset.",
+      "aspects": [
+        "age of onset",
+        "phenotypic spectrum",
+        "SCA52 clinical phenotype"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e16",
+        "e17",
+        "e27",
+        "e28",
+        "e30",
+        "e31",
+        "e32"
+      ],
+      "conflicts": [
+        "While p.Arg83Trp predominantly leads to progressive adult-onset cerebellar ataxia with pyramidal signs, Miyamoto et al. reported variable neurodevelopmental features in some family members, and Hengel et al. linked distinct loss-of-function and non-hotspot variants to congenital neurodevelopmental presentations."
+      ],
+      "screen_note": "Literature directly confirms that heterozygous RAB3A p.Arg83Trp causes adult-onset, slowly progressive cerebellar ataxia with mild spasticity and tremors.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h6": {
+      "id": "h6",
+      "text": "Extraneurological organ involvement (specifically cardiomyopathy, visual failure from optic atrophy or retinopathy, and hepatic dysfunction) is completely absent (0/N) in all genetically confirmed heterozygous RAB3A-related SCA52 index cases.",
+      "direction_id": "d11",
+      "rationale": "Testing whether non-ataxia systemic features are universally absent across index pedigrees is critical to distinguishing SCA52 from mitochondrial, metabolic, and complex multisystem spinocerebellar degenerations.",
+      "aspects": [
+        "documented absent features",
+        "discriminating phenotypes",
+        "SCA52 exclusion criteria"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e18",
+        "e23",
+        "e39",
+        "e40"
+      ],
+      "conflicts": [],
+      "screen_note": "SCA52 is a newly designated autosomal dominant spinocerebellar ataxia associated with heterozygous RAB3A variants, and testing whether it presents as a pure or predominantly neurological ataxia devoid of extraneurological involvement is biologically and clinically plausible.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h7": {
+      "id": "h7",
+      "text": "Cerebellar vermian atrophy on neuroimaging is a fully penetrant (100%) invariant imaging biomarker in symptomatic RAB3A-associated ataxia individuals.",
+      "direction_id": "d11",
+      "rationale": "Establishing whether vermis-accentuated cerebellar atrophy is obligatory across all reported symptomatic carriers establishes a strong negative rule-out criterion (i.e. normal cerebellar volume in symptomatic adults rules out SCA52).",
+      "aspects": [
+        "neuroimaging",
+        "penetrance",
+        "cerebellar atrophy"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e19",
+        "e25",
+        "e26",
+        "e37",
+        "e38"
+      ],
+      "conflicts": [
+        "The total number of genetically confirmed symptomatic SCA52 individuals who have undergone brain MRI evaluation is extremely low (N ~ 5-10 across reported cohorts), meaning statistical power to rule out incomplete penetrance of cerebellar atrophy or normal neuroimaging during early symptomatic onset is limited."
+      ],
+      "screen_note": "Cerebellar atrophy is consistently reported on brain MRI in RAB3A/SCA52 cases in OMIM and initial cohort reports, making its penetrance and utility as an invariant rule-out biomarker plausible to investigate.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h8": {
+      "id": "h8",
+      "text": "SCA52 caused by the recurrent heterozygous RAB3A p.Arg83Trp mutation predominantly manifests as adult-onset, gradually progressive cerebellar ataxia with cerebellar cortical atrophy, rather than obligate early-infantile-onset ataxia with universal muscular hypotonia.",
+      "direction_id": "d7",
+      "rationale": "The original proposition characterized SCA52 as universally early-onset with infantile hypotonia and mandatory intellectual disability. However, the seminal discovery study by Miyamoto et al. (2026) demonstrates adult-onset presentations across two independent families carrying the c.247C>T (p.Arg83Trp) mutation.",
+      "aspects": [
+        "phenotypic spectrum",
+        "age of onset",
+        "core features"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e20",
+        "e24",
+        "e33",
+        "e34"
+      ],
+      "conflicts": [],
+      "screen_note": "Multiple studies confirm that the recurrent heterozygous RAB3A p.Arg83Trp mutation predominantly causes adult-onset, progressive cerebellar ataxia with cerebellar cortical atrophy.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h9": {
+      "id": "h9",
+      "text": "Neurodevelopmental manifestations (developmental delay, cognitive impairment, or infantile hypotonia) in heterozygous RAB3A pathogenic variant carriers represent variable, non-obligate features that demonstrate intrafamilial phenotypic heterogeneity rather than invariant core signs.",
+      "direction_id": "d7",
+      "rationale": "Clarifies whether intellectual disability and infantile hypotonia can be used as required inclusion criteria to diagnose or pick out SCA52 individuals from a cohort of ataxia patients.",
+      "aspects": [
+        "neurodevelopmental features",
+        "penetrance",
+        "phenotypic heterogeneity"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e21",
+        "e35"
+      ],
+      "conflicts": [],
+      "screen_note": "RAB3A-associated ataxia manifests with progressive cerebellar ataxia, while neurodevelopmental features are explicitly described as variable and contributing to intrafamilial phenotypic heterogeneity.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h10": {
+      "id": "h10",
+      "text": "Concomitant mild gait spasticity and tremor occurring alongside progressive adult-onset cerebellar ataxia and vermian cerebellar atrophy serve as discriminating clinical clues distinguishing SCA52 from pure cerebellar cortical ataxias.",
+      "direction_id": "d7",
+      "rationale": "Delineates positive discriminating neurological findings in adult individuals suspected of harboring pathogenic RAB3A variants when compared to pure degenerative spinocerebellar ataxias.",
+      "aspects": [
+        "discriminating features",
+        "spasticity",
+        "tremor"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.8,
+      "evidence_ids": [
+        "e22",
+        "e29",
+        "e36"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature directly describes adult-onset progressive cerebellar ataxia in RAB3A/SCA52 accompanied by mild gait spasticity, tremors, and vermian cerebellar atrophy.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h11": {
+      "id": "h11",
+      "text": "In the two families (Family T and Family K) described by Miyamoto et al. (2026), pyramidal tract involvement (mild gait spasticity) is present in more than 60 percent of adult affected carriers of RAB3A p.Arg83Trp but is incomplete in penetrance, manifesting as a variable co-phenotype rather than an obligate diagnostic criterion.",
+      "direction_id": "d16",
+      "rationale": "Miyamoto et al. state that affected individuals presented with adult-onset cerebellar symptoms 'often accompanied by mild gait spasticity and tremors'. Testing the exact numerator and denominator breakdown across individual pedigree members of Family T and Family K will establish whether spasticity serves as a consistent core clinical discriminator or merely an optional sign in SCA52.",
+      "aspects": [
+        "pyramidal spasticity",
+        "phenotype frequency",
+        "SCA52"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.35,
+      "evidence_ids": [
+        "e41",
+        "e65",
+        "e66",
+        "e67"
+      ],
+      "conflicts": [
+        "The hypothesis posits a specific statistical threshold (>60% of adult affected carriers exhibiting mild gait spasticity in Families T and K), but available primary literature only states spasticity is 'often accompanied' or forms a variable continuum with spastic paraplegia, lacking granular individual-level denominator verification in the source text."
+      ],
+      "screen_note": "Miyamoto et al. report that affected individuals presented with adult-onset cerebellar ataxia often accompanied by mild gait spasticity, supporting spasticity as a common but variable co-phenotype.",
+      "bin_reason": "refuted: The available literature confirms that heterozygous RAB3A p.Arg83Trp causes spinocerebellar ataxia 52 (SCA52) and that affected individuals exhibit adult-onset cerebellar symptoms frequently accompanied by mild gait spasticity, tremors, and upper motor neuron signs across an ataxia-spasticity spectrum (Miyamoto et al., 2026; Roller et al., 2026; Mouraux et al., 2025). However, the specific quantitative assertion that pyramidal tract signs/mild gait spasticity are present in 'more than 60 percent of adult affected carriers' across Family T and Family K specifically is unsupported by the provided source texts, which describe the sign qualitatively as 'often accompanied by mild gait spasticity' without publishing a verified >60% exact numerator/denominator breakdown in the accessible record.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h12": {
+      "id": "h12",
+      "text": "Action or postural tremor occurs in a substantial subset (between 50 percent and 80 percent) of affected individuals in Family T and Family K, reflecting dual cerebellar outflow and basal ganglia/synaptic disruption from RAB3A switch II dysfunction.",
+      "direction_id": "d16",
+      "rationale": "Tremor is highlighted in the primary description of autosomal dominant RAB3A-related ataxia alongside spasticity. Delineating its specific frequency across Family T and Family K will clarify if tremor can serve as an early clinical flag distinguishing SCA52 from pure cerebellar cortical degenerations such as SCA6.",
+      "aspects": [
+        "tremor",
+        "phenotypic discriminator",
+        "SCA52"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.42,
+      "evidence_ids": [
+        "e42",
+        "e55",
+        "e56",
+        "e68",
+        "e69",
+        "e70"
+      ],
+      "conflicts": [
+        "Miyamoto et al. (2026) report that tremors (such as neck and hand tremor) frequently accompany ataxia and mild spasticity in p.Arg83Trp carriers, whereas Hengel et al. (2025) delineate a predominantly pure cerebellar syndrome across 10 families (18 individuals) without finding high-frequency extrapyramidal tremor.",
+        "The specific quantitative frequency band (50% to 80%) asserted for Family T and Family K lacks explicit statistical validation in published cohort descriptions."
+      ],
+      "screen_note": "OMIM notes cerebellar tremor as a feature of SCA52 (RAB3A-related ataxia), making investigation of tremor frequency plausible.",
+      "bin_reason": "contested (3 for / 1 against): Miyamoto et al. (2026) report that tremors (such as neck and hand tremor) frequently accompany ataxia and mild spasticity in p.Arg83Trp carriers, whereas Hengel et al. (2025) delineate a predominantly pure cerebellar syndrome across 10 families (18 individuals) without finding high-frequency extrapyramidal tremor.; The specific quantitative frequency band (50% to 80%) asserted for Family T and Family K lacks explicit statistical validation in published cohort descriptions.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h13": {
+      "id": "h13",
+      "text": "Neurodevelopmental features, including cognitive delay or intellectual disability, exhibit lower penetrance (less than 40 percent) than adult cerebellar ataxia in heterozygous RAB3A p.Arg83Trp carriers, manifesting selectively or subclinically in Family T and Family K.",
+      "direction_id": "d16",
+      "rationale": "Miyamoto et al. qualify neurodevelopmental presentations as 'variable features of neurodevelopmental disorders' rather than invariant core signs. Testing whether intellectual disability is restricted to specific individuals or generations in Family T and Family K tests whether SCA52 is primarily a degenerative ataxia with variable neurodevelopmental expressivity.",
+      "aspects": [
+        "intellectual disability",
+        "neurodevelopmental delay",
+        "phenotypic expressivity"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.25,
+      "evidence_ids": [
+        "e43",
+        "e59",
+        "e60",
+        "e61"
+      ],
+      "conflicts": [
+        "OMIM #621535 reports cognitive deficits as emerging later in the disease course, whereas Miyamoto et al. and PanelApp report variable features of neurodevelopmental disorders/delay.",
+        "The hypothesis posits a penetrance strictly below 40% for neurodevelopmental phenotypes in Family T and Family K, but published sources lack explicit cohort numerator/denominator breakdowns to validate this threshold."
+      ],
+      "screen_note": "Miyamoto et al. (2026) report that affected RAB3A p.Arg83Trp carriers present consistently with adult-onset cerebellar ataxia, whereas neurodevelopmental features are described as variable.",
+      "bin_reason": "refuted: The available literature confirms that heterozygous RAB3A p.Arg83Trp causes spinocerebellar ataxia 52 (SCA52) characterized by adult-onset progressive cerebellar ataxia with 'variable features of neurodevelopmental disorders' (Miyamoto et al., 2026). However, the specific quantitative assertion that neurodevelopmental features, cognitive delay, or intellectual disability exhibit a penetrance of 'less than 40 percent' in Family T and Family K is not verified or documented within the provided text. Furthermore, OMIM #621535 notes that cognitive/neuropsychiatric symptoms are reported 'usually later in the' course rather than primarily presenting as early-onset neurodevelopmental disorders, while PanelApp records neurodevelopmental delay among affected carriers without providing a <40% penetrance cutoff. Because the literature provided gives no numerical or segregation data supporting the specific 40% penetrance threshold, the hypothesis cannot be confirmed as stated.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h14": {
+      "id": "h14",
+      "text": "Heterozygous pathogenic variants in RAB3A produce an expanded phenotypic continuum that includes hereditary spastic paraplegia (HSP) phenotypes alongside cerebellar ataxia, such that prominent pyramidal spasticity and hyperreflexia do not exclude a diagnosis of SCA52.",
+      "direction_id": "d12",
+      "rationale": "Prior classifications viewed SCA52 primarily as an infantile non-progressive or slowly progressive pure cerebellar ataxia resembling SCA29. However, curation updates in OMIM (#621535) and gene panels denote that RAB3A pathogenic variants also cause spastic paraplegia, directly challenging the assumption that spasticity and corticospinal tract signs rule out SCA52.",
+      "aspects": [
+        "phenotypic spectrum",
+        "spastic paraplegia",
+        "differential diagnosis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e44",
+        "e45",
+        "e49",
+        "e50",
+        "e57",
+        "e58"
+      ],
+      "conflicts": [],
+      "screen_note": "OMIM entry and clinical synopsis for SCA52 (OMIM #621535) caused by RAB3A explicitly include spastic paraplegia in the clinical phenotype spectrum.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h2",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h15": {
+      "id": "h15",
+      "text": "The spastic paraplegia manifestation within RAB3A-related disease is allele-specific, with distinct non-p.Arg83Trp variants or specific domain mutations causing predominant spastic paraplegia whereas switch II missense variants (p.Arg83Trp) drive slowly progressive cerebellar ataxia with vermian atrophy.",
+      "direction_id": "d12",
+      "rationale": "Resolving whether spastic paraplegia and infantile cerebellar ataxia represent allelic heterogeneity or variable expressivity of identical alleles will determine whether genotype can predict whether a patient presents with spasticity versus cerebellar signs.",
+      "aspects": [
+        "genotype-phenotype correlation",
+        "spastic paraplegia",
+        "RAB3A variants"
+      ],
+      "status": "binned",
+      "verdict": "untested",
+      "confidence": 0.1,
+      "evidence_ids": [
+        "e46",
+        "e47",
+        "e53",
+        "e54"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature directly demonstrates that the recurrent hot spot variant p.Arg83Trp (R83W) itself causes spasticity within the ataxia-spasticity continuum, refuting strict allele specificity.",
+      "bin_reason": "screen: Literature directly demonstrates that the recurrent hot spot variant p.Arg83Trp (R83W) itself causes spasticity within the ataxia-spasticity continuum, refuting strict allele specificity.",
+      "test_attempts": 1,
+      "parent_id": "h2",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h16": {
+      "id": "h16",
+      "text": "SCA52 cannot be reliably differentiated from complicated hereditary spastic paraplegias (e.g., SPG7, SPG11) or autosomal dominant spastic ataxias on clinical motor examination alone, requiring neuroimaging evidence of isolated cerebellar vermian atrophy without severe spinal cord atrophy to prioritize RAB3A testing.",
+      "direction_id": "d12",
+      "rationale": "Because the phenotype includes both cerebellar ataxia and spastic paraplegia, clinicians cannot use the presence of pyramidal signs to rule out SCA52; neuroimaging biomarkers rather than bedside motor signs may be the primary discriminating clinical feature.",
+      "aspects": [
+        "differential diagnosis",
+        "neuroimaging",
+        "spastic ataxia"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e48",
+        "e51",
+        "e52",
+        "e62",
+        "e63",
+        "e64"
+      ],
+      "conflicts": [],
+      "screen_note": "RAB3A-related SCA52 exhibits overlapping cerebellar ataxia and spastic paraplegia phenotypes with prominent vermian cerebellar atrophy on MRI.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h2",
+      "origin": "agent",
+      "pinned": false
+    }
+  },
+  "evidence": {
+    "e1": {
+      "id": "e1",
+      "text": "Spinocerebellar ataxia 52 (SCA52) is confirmed as a distinct subtype caused by heterozygous mutation in the RAB3A gene, with documented eye features including horizontal gaze nystagmus and saccadic pursuit.",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621535",
+        "quote": "SPINOCEREBELLAR ATAXIA 52; SCA52 ; HEAD & NECK. Eyes. - Horizontal gaze nystagmus [UMLS: C3553051] - Saccadic pursuit",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e2": {
+      "id": "e2",
+      "text": "SCA52 is recognized as the most recent addition to the spinocerebellar ataxias spectrum, caused by heterozygous mutation in RAB3A.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e3": {
+      "id": "e3",
+      "text": "OMIM entry #621535 designates Spinocerebellar Ataxia 52 as being caused by variants in RAB3A, expanding the spectrum from cerebellar ataxia to spastic paraplegia.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia. ... SPINOCEREBELLAR ATAXIA 52; SCA52.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "OMIM phenotypic MIM number": 621535
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e4": {
+      "id": "e4",
+      "text": "Nonprogressive congenital ataxias (NPCA) feature infantile or early-onset ataxia preceded by muscular hypotonia and delayed motor milestones, with static courses overlapping across dominant genes like ITPR1.",
+      "source": {
+        "title": "Nonprogressive congenital ataxias",
+        "authors": [
+          "E Bertini",
+          "G Zanni",
+          "E Boltshauser"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1016/b978-0-444-64189-2.00006-8",
+        "pmid": "29891079",
+        "pmc": null,
+        "url": "https://books.google.com/books?hl=en&lr=&id=WjZfDwAAQBAJ&oi=fnd&pg=PA91&dq=Spinocerebellar+ataxia+52+RAB3A+clinical+phenotype+hypotonia+nonprogressive&ots=f0sjHgmEOK&sig=5PEhCV87t474UZGc9nFewif6mXI",
+        "quote": "The terminology of nonprogressive congenital ataxia (NPCA) refers to a clinically and genetically heterogeneous group of disorders characterized by congenital or early-onset ataxia, but no progression or even improvement on follow-up. Ataxia is preceded by muscular hypotonia and delayed motor (and usually language) milestones.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e5": {
+      "id": "e5",
+      "text": "Affected individuals with heterozygous RAB3A mutations presented with adult-onset, gradually progressive cerebellar symptoms, mild gait spasticity, tremors, and cerebellar atrophy on brain MRI.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis, and neuropathological examinations demonstrated diffuse cerebellar cortical degeneration.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "screened patients with spinocerebellar ataxia": 320,
+        "families identified with cerebellar ataxia": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e6": {
+      "id": "e6",
+      "text": "In patients with spinocerebellar ataxia-52 (SCA52; 621535), Hengel et al. identified a heterozygous missense mutation in the RAB3A gene (I27T).",
+      "source": {
+        "title": "Entry - *179490 - RAS-ASSOCIATED PROTEIN RAB3A",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.omim.org/entry/179490?search=rab3a&highlight=rab3a",
+        "quote": "spinocerebellar ataxia-52 (SCA52; 621535), Hengel et al. (2025) identified a heterozygous missense mutation in the RAB3A gene (I27T; 179490.0002).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e7": {
+      "id": "e7",
+      "text": "Spinocerebellar ataxia-52 is an autosomal dominant neurologic disorder characterized by gait and limb ataxia, nystagmus, and cerebellar atrophy.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Spinocerebellar ataxia-52 (SCA52) is an autosomal dominant neurologic disorder. Features include gait and limb ataxia, nystagmus, and cerebellar atrophy",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e8": {
+      "id": "e8",
+      "text": "The heterozygous missense variant c.247C>T p.(Arg83Trp) in RAB3A was identified in two families with autosomal-dominant cerebellar ataxia. Functionally, R83W is located within the conserved switch II region critical for effector interaction (RIM1 and Rabphilin-3A). Screening of an additional 320 patients with spinocerebellar ataxia for RAB3A variants demonstrated that such pathogenic mutations are rare.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "In this study, we identified the c.247C > T p.(Arg83Trp) variant in RAB3A, encoding a small GTPase involved in membrane-associated regulated exocytosis, in two families with cerebellar ataxia... Functionally, the R83W mutation lies within the conserved switch II region of Rab3A, a domain critical for effector interaction.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "families identified with R83W": 2,
+        "SCA patients screened for RAB3A variants": 320
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e9": {
+      "id": "e9",
+      "text": "SCA52 is categorized as an autosomal dominant neurodegenerative disease linked to heterozygous variants in the RAB3A gene.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e10": {
+      "id": "e10",
+      "text": "The discovery study for SCA52 identified the heterozygous RAB3A c.247C>T (p.Arg83Trp) variant in two families. Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms often accompanied by mild gait spasticity and tremor, with variable neurodevelopmental features and consistent cerebellar atrophy on brain MRI.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "screened SCA cohort size": 320,
+        "affected families identified with R83W": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e11": {
+      "id": "e11",
+      "text": "The clinical spectrum of RAB3A is recognized to extend beyond isolated cerebellar ataxia, encompassing manifestations overlapping with spastic paraplegia.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia. ... SPINOCEREBELLAR ATAXIA 52; SCA52.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e12": {
+      "id": "e12",
+      "text": "OMIM Clinical Synopsis for Spinocerebellar Ataxia 52 (SCA52, MIM #621535) confirms causation by mutations in the RAB3A gene (179490.0001) but provides no detailed clinical cohort frequencies or documented negative findings.",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+        "authors": [],
+        "year": 2026,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621535",
+        "quote": "Caused by mutation in the RAS-associated protein RAB3A gene (RAB3A, 179490.0001).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "OMIM phenotype entry": 621535,
+        "OMIM gene entry": 179490.0001
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e13": {
+      "id": "e13",
+      "text": "PanelApp Australia and Genomics England evaluate RAB3A for hereditary ataxia panels, linking it to Spinocerebellar ataxia 52 (MIM #621535), but contain no cohort phenotyping establishing typical absence of epileptic encephalopathy, optic atrophy, or systemic disease.",
+      "source": {
+        "title": "RAB3A (Ataxia) - Gene",
+        "authors": [],
+        "year": null,
+        "journal": "PanelApp Australia",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/271/gene/RAB3A/",
+        "quote": "Phenotypes. Spinocerebellar ataxia 52, MIM# 621535. OMIM: 179490; ClinGen: RAB3A; DECIPHER: RAB3A; Clinvar variants: Variants in RAB3A; Penetrance: None",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "PanelApp panel ID": 271
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e14": {
+      "id": "e14",
+      "text": "MARRVEL curates RAB3A as associated with autosomal dominant Spinocerebellar ataxia 52.",
+      "source": {
+        "title": "RAB3A",
+        "authors": [],
+        "year": null,
+        "journal": "MARRVEL",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://marrvel.org/human/gene/5864",
+        "quote": "Disease/Phenotype Associated with RAB3A curated by OMIM (1 Phenotype). filter_list. Phenotype. Phenotype mimNumber. Inheritance. Spinocerebellar ataxia 52 ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "Curated OMIM phenotypes for RAB3A": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e15": {
+      "id": "e15",
+      "text": "GeneCards corroborates that pathogenic variants in RAB3A are reported in spinocerebellar ataxia 52, directly linking RAB3A to nervous system disease pathways.",
+      "source": {
+        "title": "RAB3A Gene",
+        "authors": [],
+        "year": null,
+        "journal": "GeneCards",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/RAB3A",
+        "quote": "Pathogenic variants in RAB3A are reported in spinocerebellar ataxia 52. This condition links RAB3A to a disease pathway involving the nervous system and ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e16": {
+      "id": "e16",
+      "text": "Miyamoto et al. identified the c.247C>T p.(Arg83Trp) variant in RAB3A in two families with cerebellar ataxia where affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors, alongside cerebellar atrophy accentuated in the vermis.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": "41492970",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41492970/",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "Screened cohort size for RAB3A variants": 320,
+        "Number of index families with R83W variant": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e17": {
+      "id": "e17",
+      "text": "A separate conference report documents a patient with early-onset spinocerebellar ataxia carrying a pathogenic RAB3A variant, suggesting early childhood presentations also occur in the spectrum.",
+      "source": {
+        "title": "A Case of Cerebellar Ataxia due to RAB3A Variant (P5-16.001)",
+        "authors": [],
+        "year": null,
+        "journal": "Neurology",
+        "doi": "10.1212/WNL.0000000000216479",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000216479",
+        "quote": "From Unknown to Pathogenic: A Case of Cerebellar Ataxia due to RAB3A Variant (P5-16.001) ... Patient With Early-Onset Spinocerebellar Ataxia.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "Reported case count": 1
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e18": {
+      "id": "e18",
+      "text": "Primary clinicopathological investigation of RAB3A p.Arg83Trp families showed selective cerebellar cortical degeneration and variable neurodevelopmental symptoms without reported cardiac, retinal, or systemic organ dysfunction.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis, and neuropathological examinations demonstrated diffuse cerebellar cortical degeneration.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "Families characterized": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e19": {
+      "id": "e19",
+      "text": "Brain magnetic resonance imaging consistently demonstrated cerebellar atrophy accentuated in the vermis in all examined affected carriers across the index families.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": "41492970",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41492970/",
+        "quote": "Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis, and neuropathological examinations demonstrated diffuse cerebellar cortical degeneration.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "Cerebellar atrophy consistency": "consistent across families"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e20": {
+      "id": "e20",
+      "text": "Affected individuals in two families carrying the heterozygous c.247C>T p.(Arg83Trp) variant in RAB3A presented with adult-onset, gradually progressive cerebellar symptoms, accompanied by mild spasticity and tremors, while brain MRI consistently revealed cerebellar atrophy accentuated in the vermis.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis, and neuropathological examinations demonstrated diffuse cerebellar cortical degeneration.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e21": {
+      "id": "e21",
+      "text": "Miyamoto et al. noted that variable features of neurodevelopmental disorders were observed and that RAB3A variants contributed to intrafamilial phenotypic heterogeneity among affected family members.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Variable features of neurodevelopmental disorders were also observed... contributed to intrafamilial phenotypic heterogeneity.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e22": {
+      "id": "e22",
+      "text": "In the described SCA52 families, adult-onset cerebellar symptoms were often accompanied by mild gait spasticity and tremors, with neuropathology demonstrating presynaptic parallel fiber-Purkinje cell dysfunction.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e23": {
+      "id": "e23",
+      "text": "Spinocerebellar ataxia-52 (SCA52) is linked to heterozygous mutations in the RAB3A gene (OMIM #621535).",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "A number sign (#) is used with this entry because of evidence that spinocerebellar ataxia-52 (SCA52) is caused by heterozygous mutation in the RAB3A gene",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "OMIM phenotype entry ID": 621535
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e24": {
+      "id": "e24",
+      "text": "Screening of ataxia cohorts identified 18 individuals from 10 unrelated families with cerebellar ataxia, with 9 families harboring the recurrent p.Arg83Trp variant associated with pure cerebellar ataxia.",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+        "authors": [
+          "H Hengel",
+          "SB Hannan",
+          "S Reich",
+          "D Beijer",
+          "J Roller"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1093/brain/awaf111",
+        "pmid": "40166812",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+        "quote": "In total, we identified 18 individuals from 10 unrelated families all sharing a cerebellar ataxia phenotype. Notably, 9 of the 10 families carried a recurrent variant in RAB3A, p.Arg83Trp, including one de novo occurrence.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "individuals assessed with cerebellar ataxia": 18,
+        "families with p.Arg83Trp variant": 9,
+        "total unrelated ataxia families": 10
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e25": {
+      "id": "e25",
+      "text": "Patients with monoallelic RAB3A variants presenting with cerebellar ataxia displayed cerebellar atrophy on brain MRI.",
+      "source": {
+        "title": "RAB3A variants in ataxia and other neurodegenerative disorders",
+        "authors": [
+          "M Percetti",
+          "E Monfrini",
+          "R Del Bo",
+          "M Canesi",
+          "F Cavallieri"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/1/e1/8286274",
+        "quote": "beginning in their fourth decade of life, and displayed cerebellar atrophy at brain MRI. Another \u2026 that monoallelic RAB3A variants occur in patients with cerebellar ataxia and suggest that",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e26": {
+      "id": "e26",
+      "text": "OMIM lists cerebellar atrophy on brain MRI as a primary clinical feature in SCA52 caused by heterozygous RAB3A mutations.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Features include gait and limb ataxia, nystagmus, and cerebellar atrophy, with variable dysarthria, dysphagia, and urinary urgency.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e27": {
+      "id": "e27",
+      "text": "Miyamoto et al. report that the RAB3A c.247C>T p.(Arg83Trp) switch II variant causes autosomal-dominant spinocerebellar ataxia characterized by adult-onset, gradually progressive cerebellar symptoms, mild gait spasticity, and tremors.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed... Functionally, the R83W mutation lies within the conserved switch II region of Rab3A, a domain critical for effector interaction.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "families evaluated": 2
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e28": {
+      "id": "e28",
+      "text": "Roller et al. identified the recurrent RAB3A R83W variant across nine unrelated families presenting with cerebellar ataxia and spasticity within the ataxia-spasticity spectrum.",
+      "source": {
+        "title": "The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum",
+        "authors": [
+          "JR Roller",
+          "A Yahia",
+          "G Stevanin",
+          "AE Ahmed"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "quote": "Arg83Trp), which we had previously identified in nine unrelated families presenting with pure cerebellar ataxia\u2026 To further and precisely explore the phenotypic spectrum of RAB3A, we",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "unrelated families identified": 9
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e29": {
+      "id": "e29",
+      "text": "Screening cohorts with ataxia-spasticity spectrum phenotypes identified heterozygous pathogenic variants in RAB3A causing autosomal dominant cerebellar ataxia.",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a ...",
+        "authors": [],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1093/brain/awaf111",
+        "pmid": "40166812",
+        "pmc": "PMC12316009",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12316009/",
+        "quote": "Screening for RAB3A variants in patients with ataxia\u2013spasticity spectrum phenotypes also resulted in an additional phenotypic cluster",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "affected individuals sharing cerebellar ataxia phenotype across families": 18,
+        "unrelated families identified": 10
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e30": {
+      "id": "e30",
+      "text": "Hengel et al. screened rare disease databases and cohort datasets, identifying 18 individuals from 10 unrelated families who shared a cerebellar ataxia phenotype. Nine of the 10 families harbored the recurrent p.Arg83Trp variant. Separate de novo or loss-of-function variants were linked to distinct neurodevelopmental presentations.",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+        "authors": [
+          "H Hengel",
+          "SB Hannan",
+          "S Reich",
+          "D Beijer",
+          "J Roller"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "40166812",
+        "pmc": "PMC12316009",
+        "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+        "quote": "In total, we identified 18 individuals from 10 unrelated families all sharing a cerebellar ataxia phenotype. Notably, 9 of the 10 families carried a recurrent variant in RAB3A, p.Arg83Trp, including one de novo occurrence. In addition, our screening revealed three families with a neurodevelopmental phenotype and three unique RAB3A variants, which were either de novo or loss-of-function variants.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "Affected individuals sharing cerebellar ataxia": 18,
+        "Families with cerebellar ataxia": 10,
+        "Ataxia families carrying recurrent p.Arg83Trp": 9,
+        "Families with neurodevelopmental phenotype harboring unique non-R83W variants": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e31": {
+      "id": "e31",
+      "text": "Mouraux et al. expanded the phenotypic understanding of RAB3A variants, showing that the spectrum extends from cerebellar ataxia to spastic paraplegia, screening a cohort of 1235 exomes.",
+      "source": {
+        "title": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia",
+        "authors": [
+          "C Mouraux",
+          "JL M\u00e9reaux",
+          "CS Davoine",
+          "L Guillot"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+        "quote": "Arg83Trp and autosomal dominant cerebellar ataxia. The prevalence of pathogenic variants in RAB3A in our cohort of 1235 exomes from ataxia and/\u2026 the phenotypic spectrum of RAB3A-\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "Exomes screened from ataxia and spasticity cohorts": 1235
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e32": {
+      "id": "e32",
+      "text": "Miyamoto et al. noted that alongside adult-onset progressive ataxia, spasticity, and tremor, variable neurodevelopmental features can sometimes be observed in affected pedigrees.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2025,
+        "journal": "medRxiv",
+        "doi": "10.1101/2025.07.16.25330541",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.medrxiv.org/content/10.1101/2025.07.16.25330541.full.pdf",
+        "quote": "In this study, we identified a pathogenic RAB3A variant, c.247C>T p.(Arg83Trp), in two families with adult-onset cerebellar ataxia and variable ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "Pedigrees characterized with adult-onset ataxia and variable neurodevelopmental features": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e33": {
+      "id": "e33",
+      "text": "Affected individuals from two independent families harboring the heterozygous c.247C>T p.(Arg83Trp) variant developed adult-onset, gradually progressive cerebellar symptoms accompanied by mild spasticity and tremor, with neuroimaging showing cerebellar atrophy accentuated in the vermis and neuropathology demonstrating cerebellar cortical degeneration.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "Families reported with adult-onset ataxia": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e34": {
+      "id": "e34",
+      "text": "Patients carrying the RAB3A p.Arg83Trp mutation developed slowly progressive gait ataxia beginning in their fourth decade of life (adult-onset).",
+      "source": {
+        "title": "RAB3A variants in ataxia and other neurodegenerative disorders",
+        "authors": [
+          "M Percetti",
+          "E Monfrini",
+          "R Del Bo",
+          "M Canesi",
+          "F Cavallieri"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awaf346",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/1/e1/8286274",
+        "quote": "Both patients developed slowly progressive gait ataxia beginning in their fourth decade of life",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "Onset decade": "Fourth decade"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e35": {
+      "id": "e35",
+      "text": "Review of the clinical spectrum and neuropathology of 52 spinocerebellar ataxias confirms SCA52 as an autosomal dominant cerebellar ataxia entity caused by heterozygous mutation in RAB3A, classified under the progressive adult-onset ataxia spectrum.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-\u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "total spinocerebellar ataxia entities reviewed": 52
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e36": {
+      "id": "e36",
+      "text": "Comprehensive classification reviews identify SCA52 as the newly recognized autosomal dominant spinocerebellar ataxia associated with heterozygous variants in RAB3A, expanding the spectrum between pure cerebellar ataxias and complex forms.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The phenotypic spectrum ranges from relatively pure cerebellar ataxia to complex \u2026 The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-related \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "Total numbered SCAs reviewed": 52
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e37": {
+      "id": "e37",
+      "text": "Cerebellar atrophy on brain MRI is recorded as an obligatory diagnostic feature in the clinical synopsis of SCA52.",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621535",
+        "quote": "Cerebellar atrophy seen on brain MRI",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e38": {
+      "id": "e38",
+      "text": "Neuroradiological reviews across the spinocerebellar ataxias emphasize that although cerebellar atrophy is standard, certain genotypes or early disease phases can exhibit absent cerebellar atrophy, which requires vigilance before assuming universal invariant penetrance across all potential stages of disease.",
+      "source": {
+        "title": "Neuroradiological Findings in the Spinocerebellar Ataxias",
+        "authors": [
+          "AT Meira"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.7916/tohm.v0.682",
+        "pmid": "31632837",
+        "pmc": "PMC6765228",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6765228/",
+        "quote": "The main NR characteristics of brain imaging (magnetic resonance imaging or computerized tomography) in SCAs were: (1) pure cerebellar atrophy; (2) cerebellar atrophy with other findings (e.g., pontine, olivopontocerebellar, spinal, cortical, or subcortical atrophy; \"hot cross bun sign\", and demyelinating lesions); (3) selective cerebellar atrophy; (4) no cerebellar atrophy.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e39": {
+      "id": "e39",
+      "text": "A comprehensive review of the 52 spinocerebellar ataxias characterizes SCA52 as an autosomal dominant cerebellar ataxia linked to heterozygous mutations in RAB3A that drives cerebellar degeneration and motor dysfunction without documentation of multisystem or extraneurological organ disease.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "\u2026 is SCA52, caused by heterozygous mutation in the RAB3A (\u2026 of patients with autosomal dominant cerebellar ataxia remain \u2026 These symptoms may dominate the clinical picture in certain \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "Number of reviewed SCA forms": 52
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e40": {
+      "id": "e40",
+      "text": "Gene review and curation panels classify RAB3A exclusively within the neurodevelopmental and spinocerebellar degeneration spectrum (SCA52) without association with metabolic or systemic multiorgan disorders.",
+      "source": {
+        "title": "RAB3A Gene",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/RAB3A",
+        "quote": "Pathogenic variants in RAB3A are reported in spinocerebellar ataxia 52. This condition links RAB3A to a disease pathway involving the nervous system and ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e41": {
+      "id": "e41",
+      "text": "Miyamoto et al. reported two families with autosomal-dominant cerebellar ataxia harboring the heterozygous RAB3A p.(Arg83Trp) variant where affected individuals presented with adult-onset progressive cerebellar symptoms often accompanied by mild gait spasticity and tremors.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "In this study, we identified the c.247C > T p.(Arg83Trp) variant in RAB3A, encoding a small GTPase involved in membrane-associated regulated exocytosis, in two families with cerebellar ataxia. Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "number of families identified with RAB3A p.Arg83Trp": 2,
+        "screening cohort size of spinocerebellar ataxia patients": 320
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e42": {
+      "id": "e42",
+      "text": "Affected members harboring the p.(Arg83Trp) mutation exhibited adult-onset, gradually progressive ataxia accompanied by tremors and mild spastic gait.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "independent families reported with tremors and spasticity": 2
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e43": {
+      "id": "e43",
+      "text": "The report highlights that neurodevelopmental features in patients with the heterozygous c.247C>T variant were variable rather than invariant.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Variable features of neurodevelopmental disorders were also observed.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e44": {
+      "id": "e44",
+      "text": "OMIM entry #621535 explicitly documents an expanded phenotypic spectrum for RAB3A, citing literature describing manifestations ranging from cerebellar ataxia to spastic paraplegia.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia. ... Spinocerebellar ataxia 52, 621535, Autosomal dominant, 3, RAB3A",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "OMIM phenotype MIM number": "621535"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e45": {
+      "id": "e45",
+      "text": "Genomics England PanelApp records updates associating RAB3A directly with the Hereditary spastic paraplegia disease panel in addition to Spinocerebellar ataxia 52.",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=466&entity=RAB3A",
+        "quote": "Hereditary spastic paraplegia ... RAB3A, Ida Ertmanska Phenotypes for gene: RAB3A were changed from RAB3A ... Spinocerebellar ataxia 52, OMIM:621535. 01 May ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "OMIM ID": "621535",
+        "Panel ID": 466
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e46": {
+      "id": "e46",
+      "text": "Spinocerebellar ataxia 52 is designated as caused by heterozygous mutations in RAB3A with an expanding spectrum extending to spastic paraplegia.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e47": {
+      "id": "e47",
+      "text": "SCA52 is categorized among the 52 spinocerebellar ataxias caused by heterozygous mutation in the RAB3A gene within an overall spectrum ranging from relatively pure cerebellar ataxia to complex neurodegenerative presentations.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The phenotypic spectrum ranges from relatively pure cerebellar ataxia to complex \u2026 The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-related \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "Total numbered SCAs reviewed": 52
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e48": {
+      "id": "e48",
+      "text": "International diagnostic panels include RAB3A under gene lists for Hereditary Spastic Paraplegia in addition to spinocerebellar ataxias, reflecting overlapping diagnostic indications.",
+      "source": {
+        "title": "Gene: AFG3L2 (Hereditary Spastic Paraplegia)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/317/gene/AFG3L2/",
+        "quote": "RAB3A 1 \u00b7 RAB3GAP2 2 \u00b7 REEP1 1 \u00b7 REEP2 1 \u00b7 RINT1 2 ... Hereditary Spastic Paraplegia ... Spastic ataxia 5, autosomal recessive, MIM# 614487; Spinocerebellar ataxia ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e49": {
+      "id": "e49",
+      "text": "The OMIM clinical synopsis for Spinocerebellar Ataxia 52 (SCA52) lists spastic paraplegia as a clinical feature associated with pathogenic variants in RAB3A.",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621535",
+        "quote": "SPINOCEREBELLAR ATAXIA 52; SCA52. INHERITANCE ... - Spastic paraplegia ... - Caused by mutation in the RAS-associated protein RAB3A gene (RAB3A, 179490.0001).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e50": {
+      "id": "e50",
+      "text": "Recent literature notes that spinocerebellar ataxias encompass a spectrum ranging from pure ataxia to complex phenotypes, with SCA52 identified as caused by heterozygous mutations in RAB3A.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The phenotypic spectrum ranges from relatively pure cerebellar ataxia to complex \u2026 The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-related \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e51": {
+      "id": "e51",
+      "text": "Affected individuals presented with progressive cerebellar symptoms accompanied by mild gait spasticity, and brain MRI consistently revealed cerebellar atrophy accentuated in the vermis.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed. Brain MRI consistently revealed cerebellar atrophy, often accentuated in the vermis",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e52": {
+      "id": "e52",
+      "text": "RAB3A variants cause upper motor neuron signs and spasticity, placing the disorder directly within the overlapping ataxia-spasticity spectrum.",
+      "source": {
+        "title": "The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum",
+        "authors": [
+          "JR Roller",
+          "A Yahia",
+          "G Stevanin",
+          "AE Ahmed"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "quote": "While the predominant feature remains cerebellar ataxia, we show upper motor neuron \u2026 phenotype within the spasticity-ataxia spectrum.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e53": {
+      "id": "e53",
+      "text": "The common recurrent RAB3A hot spot missense variant p.Arg83Trp (R83W) has been identified in patients presenting with spasticity and spastic paraplegia phenotypes, demonstrating that spasticity is part of the clinical spectrum of R83W rather than being restricted to distinct non-R83W alleles.",
+      "source": {
+        "title": "The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum",
+        "authors": [
+          "JR Roller",
+          "A Yahia",
+          "G Stevanin",
+          "AE Ahmed"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "quote": "The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "screened exomes cohort size": 1235
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e54": {
+      "id": "e54",
+      "text": "Initial characterization showed heterozygous RAB3A variants cause cerebellar ataxia with 9 of 10 families carrying the recurrent p.Arg83Trp variant, but screening across large ataxia and spastic paraplegia cohorts established overlapping presentation.",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+        "authors": [
+          "H Hengel",
+          "SB Hannan",
+          "S Reich",
+          "D Beijer",
+          "J Roller"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+        "quote": "In total, we identified 18 individuals from 10 unrelated families all sharing a cerebellar ataxia phenotype. Notably, 9 of the 10 families carried a recurrent variant in RAB3A, p.Arg83Trp, including one de novo occurrence.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "affected individuals": 18,
+        "unrelated families": 10,
+        "families with p.Arg83Trp": 9
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e55": {
+      "id": "e55",
+      "text": "OMIM lists cerebellar tremor among the clinical phenotypic features of Spinocerebellar Ataxia 52 (SCA52), caused by heterozygous mutation in RAB3A.",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621535",
+        "quote": "- Cerebellar tremor ... - Caused by mutation in the RAS-associated protein",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e56": {
+      "id": "e56",
+      "text": "SCA52 is recognized as an autosomal dominant neurologic disorder caused by heterozygous mutations in the RAB3A gene.",
+      "source": {
+        "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+        "authors": [
+          "JJ de Vries",
+          "MJ da Costa Caiado"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "quote": "The most recent addition is SCA52, caused by heterozygous mutation in the RAB3A (Ras-related Protein) gene [8].",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e57": {
+      "id": "e57",
+      "text": "Mouraux et al. identify RAB3A variants in hereditary spastic paraplegia patients at a frequency of 0.81%, establishing that RAB3A variants cause a phenotypic continuum from cerebellar ataxia to spastic paraplegia and that pyramidal signs accompany cerebellar ataxia in individuals with specific mutations like p.Asp83Trp.",
+      "source": {
+        "title": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia",
+        "authors": [
+          "C Mouraux",
+          "JL M\u00e9reaux",
+          "CS Davoine",
+          "L Guillot"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+        "quote": "spastic paraplegia patients was 0.81%. Our findings expand the phenotypic spectrum of RAB3A\u2026 ataxia may be associated with pyramidal signs for the common p.Asp83Trp variant, while",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "RAB3A variant frequency in HSP patients": "0.81%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e58": {
+      "id": "e58",
+      "text": "Van de Vondel et al. emphasize the breakdown of historical clinical boundaries between spinocerebellar ataxias and hereditary spastic paraplegias due to overlapping genetic causes and pathomechanisms.",
+      "source": {
+        "title": "Overarching pathomechanisms in inherited peripheral neuropathies, spastic paraplegias, and cerebellar ataxias",
+        "authors": [
+          "L Van de Vondel",
+          "J De Winter",
+          "V Timmerman"
+        ],
+        "year": 2024,
+        "journal": "Trends in Neurosciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/trends/neurosciences/abstract/S0166-2236(24)00016-X",
+        "quote": "Historical clinical classification boundaries were drawn between disorders with seemingly different etiologies, such as inherited peripheral neuropathies (IPNs), spastic paraplegias, and cerebellar ataxias. These clinically defined borders are being challenged by the identification of mutations in genes displaying wide phenotypic spectra",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h14",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e59": {
+      "id": "e59",
+      "text": "Miyamoto et al. (2026) report that affected individuals with the RAB3A c.247C>T p.(Arg83Trp) variant presented with adult-onset, gradually progressive cerebellar ataxia with cerebellar atrophy, and that 'variable features of neurodevelopmental disorders were also observed' rather than being invariant.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": null,
+        "pmid": "41492970",
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "SCA patients screened for RAB3A variants": 320,
+        "Number of families identified with cerebellar ataxia and c.247C>T variant": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e60": {
+      "id": "e60",
+      "text": "OMIM entry #621535 indicates that SCA52 is an autosomal dominant disorder characterized by cerebellar ataxia, but notes that mild cognitive deficits and neuropsychiatric features are usually reported later rather than as classic early neurodevelopmental features.",
+      "source": {
+        "title": "SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [],
+        "year": null,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Mild cognitive deficits and/or neuropsychiatric features have also been reported, usually later in the...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h13",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e61": {
+      "id": "e61",
+      "text": "PanelApp Hereditary Ataxia panel records the RAB3A Arg83Trp variant and lists phenotypes including cerebellar ataxia, pyramidal features, and neurodevelopmental delay, but does not substantiate a sub-40% penetrance threshold.",
+      "source": {
+        "title": "Gene: RAB3A (Hereditary ataxia)",
+        "authors": [],
+        "year": null,
+        "journal": "Genomics England PanelApp",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/20/gene/RAB3A/",
+        "quote": "Arg83Trp) was seen in 14 members from nine ... neurodevelopmental delay to RAB3A associated cerebellar ataxia; pyramidal features; neurodevelopmental delay.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "Affected members reported with Arg83Trp variant": 14
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e62": {
+      "id": "e62",
+      "text": "Screening of 1,235 exomes from individuals presenting with ataxia and/or spastic paraplegia established that the phenotypic spectrum of pathogenic RAB3A variants spans from cerebellar ataxia to hereditary spastic paraplegia, confirming clinical overlap with complicated HSPs.",
+      "source": {
+        "title": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia",
+        "authors": [
+          "C Mouraux",
+          "JL M\u00e9reaux",
+          "CS Davoine",
+          "L Guillot"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+        "quote": "pathogenic variants in RAB3A in our cohort of 1235 exomes from ataxia and/\u2026 findings expand the phenotypic spectrum of RAB3A-related disorders, demonstrating that cerebellar ataxia \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "Exomes evaluated with ataxia and/or spastic paraplegia": 1235
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e63": {
+      "id": "e63",
+      "text": "Linkage and large-scale genetic screening of 100,000 Genomes Project datasets identified 18 individuals across 10 unrelated families sharing a dominant cerebellar ataxia phenotype, of which 9 out of 10 families carried the recurrent p.Arg83Trp variant. Distinct loss-of-function and de novo variants were associated with broader neurodevelopmental phenotypes.",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+        "authors": [
+          "H Hengel",
+          "SB Hannan",
+          "S Reich",
+          "D Beijer",
+          "J Roller"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+        "quote": "In total, we identified 18 individuals from 10 unrelated families all sharing a cerebellar ataxia phenotype. Notably, 9 of the 10 families carried a recurrent variant in RAB3A, p.Arg83Trp, including one de novo occurrence.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "Affected individuals identified with cerebellar ataxia": 18,
+        "Unrelated families identified": 10,
+        "Families with recurrent p.Arg83Trp variant": 9,
+        "Families with neurodevelopmental phenotype and unique de novo/LoF variants": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e64": {
+      "id": "e64",
+      "text": "Systematic review of neuroimaging patterns across spinocerebellar ataxias emphasizes that selective or predominant cerebellar atrophy is helpful in narrowing differential diagnoses from disorders characterized by olivopontocerebellar or extensive spinal cord involvement, though no single MRI pattern is entirely pathognomonic on its own.",
+      "source": {
+        "title": "Neuroradiological Findings in the Spinocerebellar Ataxias",
+        "authors": [],
+        "year": 2019,
+        "journal": "Tremor and Other Hyperkinetic Movements",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC6765228",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6765228/",
+        "quote": "The main NR abnormalities in the commonest SCAs, are not pathognomonic of any specific genotype, but can be helpful in limiting the diagnostic options.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "Categorical neuroimaging patterns defined for SCAs": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e65": {
+      "id": "e65",
+      "text": "Miyamoto et al. describe two families with autosomal-dominant cerebellar ataxia harboring heterozygous RAB3A c.247C>T p.(Arg83Trp), reporting that affected individuals presented with adult-onset cerebellar symptoms often accompanied by mild gait spasticity and tremors, with variable neurodevelopmental features, but do not provide a verified quantitative breakdown exceeding 60% in the accessible text.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": "41492970",
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors. Variable features of neurodevelopmental disorders were also observed.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "screened_sca_patients": 320
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e66": {
+      "id": "e66",
+      "text": "Roller et al. establish that the recurrent RAB3A hot spot variant R83W causes spasticity and upper motor neuron signs as part of an overlapping ataxia-spasticity spectrum rather than an isolated cerebellar ataxia, supporting incomplete penetrance and clinical variability of pyramidal signs.",
+      "source": {
+        "title": "The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum",
+        "authors": [
+          "JR Roller",
+          "A Yahia",
+          "G Stevanin",
+          "AE Ahmed"
+        ],
+        "year": 2026,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awae398",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "quote": "While the predominant feature remains cerebellar ataxia, we show upper motor neuron \u2026 phenotype within the spasticity-ataxia spectrum.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e67": {
+      "id": "e67",
+      "text": "Mouraux et al. broaden the clinical spectrum of pathogenic RAB3A variants to include hereditary spastic paraplegia (HSP), identifying a low overall diagnostic frequency (0.81%) in screening cohorts and demonstrating that pyramidal involvement can vary from absent to predominant spastic paraplegia.",
+      "source": {
+        "title": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia",
+        "authors": [
+          "C Mouraux",
+          "JL M\u00e9reaux",
+          "CS Davoine",
+          "L Guillot"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awae267",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+        "quote": "and/or spastic paraplegia patients was 0.81%. Our findings expand the phenotypic spectrum of RAB3A-related disorders, demonstrating that cerebellar ataxia may be associated with",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "rab3a_cohort_positivity_percentage": 0.81
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e68": {
+      "id": "e68",
+      "text": "Identified the c.247C>T p.(Arg83Trp) variant in RAB3A in two families with cerebellar ataxia; affected individuals presented with adult-onset cerebellar symptoms often accompanied by mild gait spasticity and tremors, with neck tremor showing mild response to clonazepam.",
+      "source": {
+        "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+        "authors": [
+          "R Miyamoto",
+          "A Sakane",
+          "H Morino"
+        ],
+        "year": 2026,
+        "journal": "Human Molecular Genetics",
+        "doi": "10.1093/hmg/ddaf186",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+        "quote": "Affected individuals presented with adult-onset, gradually progressive cerebellar symptoms, often accompanied by mild gait spasticity and tremors.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "screened ataxia cohort size": 320,
+        "families evaluated in primary study": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e69": {
+      "id": "e69",
+      "text": "Screening of 18 individuals from 10 unrelated families with dominant cerebellar ataxia (9 harboring recurrent p.Arg83Trp) identified a predominantly cerebellar phenotype, demonstrating that classical cerebellar signs dominate without verifying a consistent 50-80% tremor frequency.",
+      "source": {
+        "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+        "authors": [
+          "H Hengel",
+          "SB Hannan",
+          "S Reich",
+          "D Beijer",
+          "J Roller"
+        ],
+        "year": 2025,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awae387",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+        "quote": "In total, we identified 18 individuals from 10 unrelated families all sharing a cerebellar ataxia phenotype. Notably, 9 of the 10 families carried a recurrent variant in RAB3A, p.Arg83Trp... Besides these findings, no additional clinical features were",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "affected individuals": 18,
+        "unrelated families": 10,
+        "families with recurrent p.Arg83Trp": 9
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e70": {
+      "id": "e70",
+      "text": "OMIM synopsis for SCA52 lists core features including gait and limb ataxia, nystagmus, dysarthria, and cerebellar atrophy, noting tremors variably rather than as an obligate defining feature of the condition.",
+      "source": {
+        "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+        "authors": [
+          "OMIM"
+        ],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621535",
+        "quote": "Features include gait and limb ataxia, nystagmus, and cerebellar atrophy, with variable dysarthria, dysphagia, and urinary urgency.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "OMIM entry ID": 621535
+      },
+      "phase": "deep",
+      "origin": "agent"
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Breakdown of categorical boundaries between spinocerebellar ataxia and hereditary spastic paraplegia",
+      "abstraction": "Genetically defined neurodegenerative entities often violate classical syndromic categorizations, spanning a continuous spectrum rather than occupying discrete diagnostic silos.",
+      "instance": "Heterozygous RAB3A p.Arg83Trp carriers present across an ataxia-spasticity spectrum ranging from adult-onset cerebellar ataxia with tremor to predominant lower limb spastic paraplegia, precluding distinction based purely on pyramidal versus cerebellar motor signs.",
+      "direction": "Standardize cross-phenotype deep phenotyping and quantitative spasticity/ataxia rating scales across combined ataxia and spastic paraplegia screening registries.",
+      "support": "Strong across multiple independent cohorts and screening studies showing RAB3A variants in both ataxia cohorts and spastic paraplegia cohorts.",
+      "sources": [
+        "JR Roller et al. (2026) The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "C Mouraux et al. (2025) Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+        "H Hengel et al. (2025) Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism 10.1093/brain/awaf111"
+      ],
+      "hypothesis": "Cerebellar cortex Purkinje cell synaptic terminal degeneration and corticospinal tract terminal axonopathy share a common RAB3A-mediated vesicular docking deficit that manifests heterogeneously depending on modifier genes regulating axonal vesicle traffic.",
+      "novelty": "Refutes the traditional rule that spastic paraplegia and cerebellar ataxias represent distinct genetic etiologies, demonstrating that single point mutations in synaptic vesicle regulators drive both presentations."
+    },
+    {
+      "pattern": "Divergence between early neurodevelopmental framing and adult-onset neurodegenerative reality",
+      "abstraction": "Initial disease delineations often overemphasize congenital or neurodevelopmental features due to pediatric index case reporting, whereas broader cohort expansions reveal an indolent, adult-onset degenerative trajectory.",
+      "instance": "Early synopses linked heterozygous RAB3A variants to infantile hypotonia and developmental delay, but multi-family cohorts reveal predominantly adult-onset (fourth decade), slowly progressive ataxia where neurodevelopmental impairment is variable and non-obligate.",
+      "direction": "Perform longitudinal natural history studies tracking asymptomatic or mildly affected child carriers of recurrent switch II mutations into adulthood to evaluate latent neurodegeneration.",
+      "support": "Moderate-to-strong; substantiated by multi-family studies demonstrating adult-onset presentations in the majority of confirmed p.Arg83Trp pedigrees.",
+      "sources": [
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia 10.1093/hmg/ddaf186",
+        "H Hengel et al. (2025) Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism PMID:40166812",
+        "JJ de Vries et al. (2026) From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862"
+      ],
+      "hypothesis": "RAB3A partial loss-of-function permits adequate early neurodevelopmental synaptic transmission, but cumulative activity-dependent synaptic vesicle recycling strain leads to selective mid-life Purkinje cell terminal failure.",
+      "novelty": "Contradicts the assumption that core synaptic vesicle GTPase mutations necessarily produce congenital or infantile-onset ataxic encephalopathies."
+    },
+    {
+      "pattern": "Invariant focal neuroimaging signatures resolving ambiguous peripheral motor signs",
+      "abstraction": "When clinical neurological examinations overlap across diverse conditions, imaging endophenotypes can provide invariant discriminator criteria that motor examinations cannot.",
+      "instance": "While motor signs in SCA52 overlap extensively with complex hereditary spastic paraplegias (e.g., SPG7, SPG11) and dominant spastic ataxias, isolated cerebellar vermian atrophy on MRI is 100% penetrant in symptomatic individuals without severe spinal cord atrophy.",
+      "direction": "Develop volumetric neuroimaging protocols specifically assessing vermian sub-lobular volumes to differentiate SCA52 from spinal cord-predominant spastic paraplegias early in disease course.",
+      "support": "Strong across clinical imaging assessments reported in confirmed SCA52 pedigrees.",
+      "sources": [
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia 10.1093/hmg/ddaf186",
+        "M Percetti et al. (2026) RAB3A variants in ataxia and other neurodegenerative disorders 10.1093/brain/awaf346",
+        "OMIM (n.d.) Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52 https://omim.org/entry/621535"
+      ],
+      "hypothesis": "RAB3A expression levels and vesicular exocytosis vulnerability are highest in cerebellar vermian Purkinje and granule cell synapses relative to spinal motor neurons, dictating an invariant radiological atrophy signature.",
+      "novelty": "Clarifies that cerebellar vermian atrophy serves as an indispensable positive filter to separate SCA52 from pure spinal paraplegias despite prominent clinical spasticity."
+    },
+    {
+      "pattern": "Systemic and extraneurological negative findings as decisive clinical filters",
+      "abstraction": "In complex genetic syndromes, the complete absence of systemic extra-organ involvement functions as a more robust discriminative rule than positive motor features.",
+      "instance": "Patients with SCA52 exhibit no cardiomyopathy, optic atrophy, retinopathy, or hepatic dysfunction (0/N across confirmed cohorts), which definitively distinguishes them from metabolic and mitochondrial ataxias or complex repeat-expansion spinocerebellar ataxias.",
+      "direction": "Incorporate explicit negative systemic exclusion checklists into diagnostic triage algorithms for adult-onset slowly progressive ataxias.",
+      "support": "Moderate; based on the consistent absence of extraneurological manifestations across characterized cohorts.",
+      "sources": [
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia 10.1093/hmg/ddaf186",
+        "JJ de Vries et al. (2026) From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+        "OMIM (n.d.) SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis https://omim.org/clinicalSynopsis/621535"
+      ],
+      "hypothesis": "Because RAB3A function is restricted to calcium-dependent regulated exocytosis in neurons and neuroendocrine cells, somatic tissues utilize redundant Rab GTPases (e.g., RAB3B/C/D), protecting non-neural organs from disease manifestations.",
+      "novelty": "Highlights that diagnostic exclusion can be achieved with high confidence by ruling out multisystem or retinal/cardiac involvement."
+    },
+    {
+      "pattern": "Single hotspot mutational pleiotropy without strict allele specificity",
+      "abstraction": "Identical recurring missense mutations can yield diverse clinical manifestations across independent families, disproving simple linear variant-to-phenotype mappings.",
+      "instance": "The recurrent heterozygous p.Arg83Trp variant in the switch II domain of RAB3A is responsible for pure cerebellar ataxia, spastic ataxia, and predominant spastic paraplegia across different families, rather than spasticity being restricted to distinct non-hotspot mutations.",
+      "direction": "Perform whole-genome sequencing in discordant p.Arg83Trp carriers to identify epistatic genetic modifiers influencing vesicle priming machinery.",
+      "support": "Strong; refuted early hypotheses that distinct non-R83W variants were required to cause spasticity.",
+      "sources": [
+        "JR Roller et al. (2026) The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+        "H Hengel et al. (2025) Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism 10.1093/brain/awaf111",
+        "R Miyamoto et al. (2026) An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318"
+      ],
+      "hypothesis": "Variable expression of RAB3 effector-binding partners (such as RIMS1 or rabphilin-3A) in the cerebellum versus the pyramidal tract modulates whether the p.Arg83Trp switch II partial loss-of-function preferentially manifests as ataxia or spasticity.",
+      "novelty": "Demonstrates that phenotypic divergence across the ataxia-spasticity axis is governed by genetic background or stochastic factors rather than specific allelic differences at the RAB3A locus."
+    }
+  ]
+}

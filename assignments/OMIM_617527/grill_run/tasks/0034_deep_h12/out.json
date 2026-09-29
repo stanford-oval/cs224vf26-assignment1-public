@@ -1,0 +1,107 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The hypothesis posits a strict dichotomy: complete loss-of-function nullizygosity of PLAA produces an embryonic- or fetal-lethal phenotype characterized by multi-organ dysplasia on prenatal ultrasound, whereas hypomorphic variants permit fetal survival and cause an isolated postnatal neurodegenerative disorder. While literature confirms that hypomorphic alleles permit live birth followed by an infantile-lethal neurodegenerative/neurodevelopmental course with progressive microcephaly, spasticity, and seizures (Hall et al. 2017; Falik Zaccai et al. 2017), the claim regarding complete nullizygosity is conflicted. First, Plaa-null mice survive through gestation to perinatal lethality with central nervous system malformations (exencephaly/microcephaly) rather than non-viable early embryonic arrest or widespread multi-organ dysplasia (Falik Zaccai et al. 2017). Second, while fetal demise and prenatal ultrasound detection of biallelic PLAA variants have been reported in deceased fetuses (Huang et al. 2023), the phenotype remains primarily restricted to the central nervous system (neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies) rather than a generalized multi-organ dysplastic syndrome.",
+  "evidence": [
+    {
+      "text": "Seven patients from consanguineous kindreds presenting at 2-4 months of age with progressive microcephaly, spastic quadriparesis, and global developmental delay harbored a homozygous missense variant (p.Leu752Phe) in PLAA. Complete Plaa knockout mice survived gestation and exhibited perinatal lethality with microcephaly/exencephaly and reduced brain PGE2 levels.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy",
+        "authors": [
+          "TC Falik Zaccai",
+          "D Savitzki",
+          "Y Zivony"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "quote": "The novel phenotype of our patients segregated with a homozygous loss-of-function sequence variant, causing the substitution of leucine at position 752 to phenylalanine, in PLAA... Plaa-null mice were perinatal lethal with reduced brain levels of prostaglandin E2... with exencephaly/microcephaly among a total of 41 Plaa \u2212/\u2212"
+      },
+      "numbers": [
+        {
+          "metric": "Affected human patients described",
+          "value": 7
+        },
+        {
+          "metric": "Plaa -/- mice assessed for exencephaly/microcephaly",
+          "value": 41
+        }
+      ]
+    },
+    {
+      "text": "Hypomorphic mutations in the ubiquitin adaptor protein PLAA in humans and mice result in an infantile-lethal neurodysfunction syndrome with progressive microcephaly and intractable seizures due to impaired endolysosomal trafficking of synaptic proteins.",
+      "stance": "supports",
+      "source": {
+        "title": "PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins",
+        "authors": [
+          "EA Hall",
+          "MS Nahorski",
+          "LM Murray",
+          "R Shaheen"
+        ],
+        "year": 2017,
+        "journal": "The American Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30113-1",
+        "quote": "In both human and mouse, hypomorphic mutations in the ubiquitin adaptor protein PLAA cause an infantile-lethal neurodysfunction syndrome with seizures. Resulting from perturbed endolysosomal degradation, Plaa mutant neurons accumulate K63-polyubiquitylated proteins and synaptic membrane proteins"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Retrospective whole-exome sequencing in deceased fetuses with ultrasound abnormalities identified compound heterozygous loss-of-function variants in PLAA associated with severe fetal neurodevelopmental disorder with microcephaly, spasticity, and brain anomalies (NDMSBA).",
+      "stance": "supports",
+      "source": {
+        "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+        "authors": [
+          "W Huang",
+          "X Zhu",
+          "G Sun",
+          "Z Gao",
+          "X Kong"
+        ],
+        "year": 2023,
+        "journal": "BMC Medical Genomics",
+        "doi": "10.1186/s12920-022-01427-1",
+        "pmid": null,
+        "pmc": "PMC9936674",
+        "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+        "quote": "Biallelic loss of function variants in this gene leads to severe fetal ... microcephaly, spasticity, and brain anomalies (NDMSBA). We identified compound heterozygous variants in the PLAA gene"
+      },
+      "numbers": [
+        {
+          "metric": "Deceased fetuses cohort size",
+          "value": 61
+        },
+        {
+          "metric": "Overall diagnostic rate in deceased fetus cohort",
+          "value": 0.459
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Plaa complete knockout mice exhibit late gestational/perinatal lethality with cranial/CNS defects (exencephaly/microcephaly) rather than early embryonic lethality or widespread extra-neural multi-organ dysplasia.",
+    "Biallelic human PLAA variants identified in deceased fetuses with ultrasound anomalies present with severe central nervous system anomalies (NDMSBA) rather than established multi-organ syndromic malformations.",
+    "Falik Zaccai et al. classify the postnatally viable homozygous L752F missense change as a 'loss-of-function' allele, challenging the sharp categorical boundary between missense hypomorphs and loss-of-function nullizygosity."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Do human fetuses with complete biallelic PLAA null mutations (nonsense, frameshift, or canonical splice disruptions) exhibit structural anomalies outside the central nervous system on fetal autopsy and imaging?",
+      "rationale": "Determining whether PLAA nullizygosity truly drives multi-organ dysplasia or exclusively causes lethal primary microcephaly and neural tube/brain closure defects will clarify if non-CNS findings are genuine features of the molecular pathology.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What is the residual functional activity of the p.Leu752Phe variant compared to true nonsense null alleles in human cell models of ubiquitin-dependent endolysosomal sorting?",
+      "rationale": "Quantifying residual enzymatic or protein-interaction capacity will formally test if postnatal survival requires a threshold of PLAA activity.",
+      "promise": 0.8,
+      "est_cost": 30000.0
+    }
+  ]
+}

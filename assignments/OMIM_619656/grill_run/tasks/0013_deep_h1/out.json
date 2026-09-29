@@ -1,0 +1,101 @@
+{
+  "verdict": "supported",
+  "rationale": "Published studies delineating SMAD2-related Loeys-Dietz syndrome 6 support the hypothesis that thoracic aortic aneurysm occurs in a majority of symptomatic adult carriers (e.g., Cannaerts et al. reported thoracic aortic aneurysm in carriers, ~10 cases), while younger individuals or those presenting early often display either normal aortic calibers or congenital heart disease (CHD) with laterality defects rather than early childhood aortic aneurysms/dissections, confirming a late-onset/progressive vascular phenotype.",
+  "evidence": [
+    {
+      "text": "SMAD2 (likely) pathogenic variant carriers display thoracic aortic aneurysm in a majority of examined cases, delineating the arterial phenotype across multiple families.",
+      "stance": "supports",
+      "source": {
+        "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+        "authors": [
+          "E Cannaerts",
+          "M Kempers",
+          "A Maugeri"
+        ],
+        "year": 2019,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+        "quote": "SMAD2 (likely) pathogenic variants carriers in our series display thoracic aortic aneurysm (10/\u2026"
+      },
+      "numbers": [
+        {
+          "metric": "thoracic aortic aneurysm in carriers",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "text": "SMAD2 pathogenic variants manifest as two distinct presentations: complex CHD with or without laterality defects in pediatric/fetal cases, and a late-onset vascular phenotype characterized by thoracic arterial/aortic root aneurysms in adults.",
+      "stance": "supports",
+      "source": {
+        "title": "Variable cardiovascular phenotypes associated with SMAD2 pathogenic variants",
+        "authors": [
+          "JL Granadillo",
+          "WK Chung",
+          "L Hecht"
+        ],
+        "year": 2018,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.23627",
+        "pmid": "30157302",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23627",
+        "quote": "Our data suggest two distinct phenotypes associated with pathogenic variants in SMAD2: complex CHD with or without laterality defects and other congenital anomalies, and a late-onset vascular phenotype characterized by arterial aneurysms with connective tissue abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "distinct clinical phenotypes",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "In a 25-year institutional cohort of 103 Loeys-Dietz syndrome patients (types 1 to 5), no SMAD2 pathogenic variants were identified, illustrating that SMAD2-associated LDS (LDS6) remains very rare compared to LDS1-5.",
+      "stance": "neutral",
+      "source": {
+        "title": "Characterization of Arterial Aneurysms in Loeys-Dietz Syndrome",
+        "authors": [
+          "AW Koefoed",
+          "AL Huguenard",
+          "GW Johnson"
+        ],
+        "year": 2025,
+        "journal": "Journal of the American College of Cardiology",
+        "doi": "10.1016/j.jacc.2025.04.020",
+        "pmid": "40533122",
+        "pmc": null,
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2025.04.020",
+        "quote": "No patients with PVs in SMAD2 were identified in our cohort."
+      },
+      "numbers": [
+        {
+          "metric": "patients with SMAD2 PVs in cohort",
+          "value": 0
+        },
+        {
+          "metric": "total LDS patients evaluated",
+          "value": 103
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the penetrance and age of onset of thoracic aortic aneurysm in asymptomatic pediatric and adolescent SMAD2 variant carriers followed longitudinally?",
+      "rationale": "Because younger patients often present with either congenital heart defects or completely normal aortic roots prior to adulthood, prospective surveillance is required to establish the true age-dependent penetrance of aortic disease.",
+      "promise": 0.88,
+      "est_cost": 250000
+    },
+    {
+      "question_text": "Do SMAD2 missense versus loss-of-function/truncating variants correlate with the dichotomy between late-onset aneurysmal disease versus early complex CHD/laterality defects?",
+      "rationale": "Granadillo et al. observed two divergent phenotypic classes; evaluating genotype-phenotype correlations could clarify whether specific functional impacts drive early vs late cardiovascular presentations.",
+      "promise": 0.82,
+      "est_cost": 150000
+    }
+  ]
+}

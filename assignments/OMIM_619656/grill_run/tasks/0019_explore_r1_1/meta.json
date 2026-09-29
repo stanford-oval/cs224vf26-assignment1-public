@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"SMAD2\" \"aortic aneurysm\" \"aortic dissection\" Schepers Micha",
+    "SMAD2 Loeys Dietz syndrome aortic aneurysm dissection cohort frequency"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "title": "Novel pathogenic SMAD2 variants in five families with arterial aneurysm and dissection: further delineation of the phenotype",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jmg.bmj.com/content/56/4/220.abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/humu.23407",
+      "title": "A mutation update on the LDS\u2010associated genes TGFB2/3 and SMAD2/3",
+      "pmid": null,
+      "doi": "10.1002/humu.23407",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.23407",
+      "abstract_chars": 1219
+    },
+    {
+      "id": "28099082",
+      "title": "Therapeutics targeting drivers of thoracic aortic aneurysms and acute aortic dissections: insights from predisposing genes and mouse models",
+      "pmid": "28099082",
+      "doi": "10.1146/annurev-med-100415-022956",
+      "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-med-100415-022956",
+      "abstract_chars": 1071
+    },
+    {
+      "id": "30651002",
+      "title": "Therapies for thoracic aortic aneurysms and acute aortic dissections: old controversies and new opportunities",
+      "pmid": "30651002",
+      "doi": "10.1161/ATVBAHA.118.310956",
+      "url": "https://www.ahajournals.org/doi/abs/10.1161/ATVBAHA.118.310956",
+      "abstract_chars": 1744
+    },
+    {
+      "id": "10.3389/fphar.2022.888563/full",
+      "title": "Association of TGF-\u03b2 canonical signaling-related core genes with aortic aneurysms and aortic dissections",
+      "pmid": null,
+      "doi": "10.3389/fphar.2022.888563/full",
+      "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.888563/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://pubmed.ncbi.nlm.nih.gov/29967133/",
+      "title": "Novel pathogenic SMAD2 variants in five families with ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29967133/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "26247899",
+      "title": "SMAD2 Mutations Are Associated with Arterial Aneurysms and ...",
+      "pmid": "26247899",
+      "doi": "10.1002/humu.22854",
+      "url": "https://www.semanticscholar.org/paper/SMAD2-Mutations-Are-Associated-with-Arterial-and-Micha-Guo/ce594032333a3bbe8e45cce80400dce7bc98309d",
+      "abstract_chars": 773
+    },
+    {
+      "id": "30071989",
+      "title": "Clinical Validity of Genes for Heritable Thoracic Aortic ...",
+      "pmid": "30071989",
+      "doi": "10.1016/j.jacc.2018.04.089",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0735109718351416",
+      "abstract_chars": 2060
+    },
+    {
+      "id": "27297344",
+      "title": "Hereditary Influence in Thoracic Aortic Aneurysm and ...",
+      "pmid": "27297344",
+      "doi": "10.1161/circulationaha.116.009762",
+      "url": "https://www.ahajournals.org/doi/10.1161/circulationaha.116.009762",
+      "abstract_chars": 1131
+    },
+    {
+      "id": "https://www.researchgate.net/publication/280869983_SMAD2_Mutations_are_Associated_With_Arterial_Aneurysms_and_Dissections",
+      "title": "SMAD2 Mutations are Associated With Arterial Aneurysms ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/280869983_SMAD2_Mutations_are_Associated_With_Arterial_Aneurysms_and_Dissections",
+      "abstract_chars": 773
+    }
+  ],
+  "input_tokens": 6296,
+  "output_tokens": 3714,
+  "usd": 0.01429,
+  "seconds": 29.9,
+  "ok": true
+}

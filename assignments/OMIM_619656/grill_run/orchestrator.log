@@ -1,0 +1,21 @@
+[17:07:43] INIT: parse fields + PRIOR (parallel)
+[17:07:52]   required_fields=6 seed_directions=4 prior_hypotheses=6 terms=4
+[17:07:52] INIT: GROUND 4 terms (parallel, ~$0.25/term)
+[17:08:40] INIT: probing 5 prior candidate answer(s) — screen then deep test
+[17:09:08]   SCREEN: 5 passed / 5 screened ($0.03 total)
+[17:09:53]   DEEP: 2 → pool, 3 → bin ($0.07 total)
+[17:09:53]   INIT probe: 2 pooled, 3 binned (+2 directions seeded)
+[17:09:53]   INIT spent $0.14
+[17:09:59]   PLAN: $4.93 pot, $1.97 ceiling → d14 $1.97 (Directly targets the primary core requirement of); d1 $1.97 (Extracts exact numerators and denominators for c)
+[17:09:59] ROUND 1: EXPLORE 2 dirs (d14=$1.97  d1=$1.97; spent $0.14/10.00)
+[17:10:29]   +6 hypotheses from 2 directions
+[17:11:01]   SCREEN: 7 passed / 7 screened ($0.08 total)
+[17:12:29]   DEEP: 0 → pool, 7 → bin ($0.16 total)
+[17:12:55]   PLAN: $4.84 pot, $1.94 ceiling → d5 $1.94 (Resolves a critical diagnostic contradiction and); d25 $1.94 (Directly resolves whether SMAD2 MH2 missense var)
+[17:12:55] ROUND 2: EXPLORE 2 dirs (d5=$1.94  d25=$1.94; spent $0.32/10.00)
+[17:13:30]   +6 hypotheses from 2 directions
+[17:14:07]   SCREEN: 6 passed / 6 screened ($0.12 total)
+[17:14:50]   DEEP: 1 → pool, 5 → bin ($0.24 total)
+[17:15:00] FINALIZE: converged=False spent=$0.47  (init $0.04  plan $0.01  explore $0.05  screen $0.12  deep $0.24  measure $0.00)
+[17:15:57]   outline: 8 sections; report 25KB
+[17:16:04] DONE: coverage 2/6  quality 0.17 (3 pooled / 15 binned, untested 0)  answeredness=0.06  unsourced=0.00  answeredness/$=0.1048

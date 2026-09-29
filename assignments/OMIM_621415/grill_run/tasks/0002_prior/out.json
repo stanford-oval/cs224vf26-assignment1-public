@@ -1,0 +1,45 @@
+{
+  "knowledge": "LRRC7 encodes Leucine-rich repeat-containing protein 7 (also known as Densin-180), an essential scaffold component of the postsynaptic density (PSD) in excitatory synapses that interacts with MAGUKs (like DLG4/PSD-95), Shank, actin cytoskeleton, and CaMKII. OMIM #621415 designates Intellectual developmental disorder, autosomal dominant 77 (MRD77 / NEDLR77 / autosomal dominant mental retardation 77). The condition is caused by heterozygous de novo or dominant loss-of-function/missense variants in LRRC7. Key core clinical features include global developmental delay, variable intellectual disability (mild to severe), prominent speech delay, autism spectrum disorder or autistic features, attention-deficit/hyperactivity disorder (ADHD), behavioral disturbances (anxiety, aggression, stereotypic hand movements), variable seizure/epilepsy susceptibility, mild dysmorphic facial features, and variable hypotonia or motor coordination issues.",
+  "prior_hypothesis": "A clinical diagnosis of LRRC7-related disorder cannot be made purely on dysmorphology because the facial gestalt is subtle and nonspecific; instead, identifying an affected individual among patients with generic neurodevelopmental disorders requires a behavioral and neurocognitive profile combining significant expressive language impairment out of proportion to receptive/gross motor delay, comorbid autism spectrum disorder and ADHD/hyperactivity, mild motor clumsiness or hypotonia, and absence of severe progressive microcephaly or complex structural brain malformations.",
+  "candidate_answers": [
+    {
+      "answer": "Core clinical findings include global developmental delay (HP:0001263) and intellectual disability (HP:0001249) in >90% of reported patients, speech and language delay (HP:0000750) especially severe expressive impairment in >80%, autism spectrum disorder / autistic behavior (HP:0000729) in 50-70%, ADHD or hyperactivity/inattention (HP:0007018) in 40-60%, mild hypotonia (HP:0001252) in 30-50%, and seizures/epilepsy (HP:0001250) in 20-40%.",
+      "confidence": 0.75,
+      "aspect": "clinical_phenotype_frequencies"
+    },
+    {
+      "answer": "The most discriminating clinical features differentiating LRRC7-related disorder from other postsynaptic density channelopathies/synaptopathies (e.g., SHANK3, SYNGAP1, DLG4, GRIN2B) are prominent expressive language impairment combined with hyperactive/inattentive and autistic behavior, but with lower rates of intractable epilepsy and ataxia than SYNGAP1, and lack of the severe regression, hypotonia, and distinct somatic features seen in Phelan-McDermid syndrome (SHANK3).",
+      "confidence": 0.65,
+      "aspect": "discriminating_features"
+    },
+    {
+      "answer": "Findings consistently reported absent or that strongly argue against LRRC7-related intellectual disability include progressive microcephaly, congenital structural brain malformations (e.g., lissencephaly, holoprosencephaly, severe cerebellar hypoplasia), major congenital organ anomalies (e.g., complex congenital heart defects, renal agenesis), and severe neurodegenerative or metabolic regression.",
+      "confidence": 0.8,
+      "aspect": "exclusionary_findings"
+    },
+    {
+      "answer": "Phenotypic severity does not clearly correlate with sex, but truncating/loss-of-function variants (nonsense, frameshift, splice-site) disrupting the C-terminal PDZ-binding or scaffold domains may present with more consistent intellectual disability and autism compared to missense variants in the LRR domains which may have broader or variable expressivity.",
+      "confidence": 0.55,
+      "aspect": "genotype_phenotype_correlation"
+    }
+  ],
+  "key_terms": [
+    "LRRC7",
+    "Densin-180",
+    "Intellectual developmental disorder, autosomal dominant 77 (MRD77 / OMIM #621415)",
+    "Postsynaptic density",
+    "Expressive language delay",
+    "Autism spectrum disorder",
+    "Postsynaptic scaffolding"
+  ],
+  "open_questions": [
+    "What are the exact patient-level denominator and numerator counts for specific dysmorphic, neurological, and behavioral phenotypes across the published LRRC7 case series (e.g., primary discovery cohorts by Marafi et al. or subsequent multicenter studies)?",
+    "Are there specific electroencephalographic (EEG) patterns or epilepsy syndromes associated with LRRC7 pathogenic variants?",
+    "Can any recognizable facial gestalt (e.g., broad forehead, thin upper lip, arched eyebrows) reliably distinguish LRRC7-related ID from other PSD gene-related disorders?"
+  ],
+  "assumptions": [
+    "OMIM #621415 is primarily characterized by heterozygous de novo or dominant variants in LRRC7 causing neurodevelopmental phenotypes.",
+    "The clinical cohort in question is pediatric or young adult presenting with generalized developmental delay / intellectual disability.",
+    "The literature base for LRRC7 is relatively small (typically fewer than 50 published individuals in detailed series), so frequencies are derived from limited published cohorts."
+  ]
+}

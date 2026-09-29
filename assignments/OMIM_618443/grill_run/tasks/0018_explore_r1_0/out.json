@@ -1,0 +1,205 @@
+{
+  "hypotheses": [
+    {
+      "text": "Heterozygous de novo missense variants in MAPK8IP3 cause a significantly higher penetrance of major structural brain malformations (corpus callosum hypoplasia and cerebellar/cerebral atrophy) and deeper cognitive impairment than heterozygous predicted loss-of-function (LOF/truncating) variants.",
+      "rationale": "Testing this resolves the conflict regarding whether truncating variants associate with more severe presentations or whether recurrent missense variants exert dominant-negative effects leading to distinct, more profound central nervous system dysgenesis.",
+      "aspects": [
+        "Genotype-phenotype correlations",
+        "Structural brain abnormalities",
+        "Loss-of-function vs missense"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Missense variants were associated with more severe clinical symptoms than loss-of-function (LOF) variants in a cohort of 32 individuals (62.5% missense, 34.4% predicted LOF), where corpus callosum thinning was present in 62.1% overall and nearly all individuals walked independently.",
+          "stance": "supports",
+          "source": {
+            "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+            "authors": [
+              "KK Sudnawa",
+              "A Geltzeiler",
+              "CH Kanner"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1111/cge.70032",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+            "quote": "Missense variants were associated with more severe symptoms than LOF variants."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_total_patients",
+              "value": 32
+            },
+            {
+              "metric": "percent_missense_variants",
+              "value": 62.5
+            },
+            {
+              "metric": "percent_predicted_lof_variants",
+              "value": 34.4
+            },
+            {
+              "metric": "percent_corpus_callosum_thinning",
+              "value": 62.1
+            }
+          ]
+        },
+        {
+          "text": "Brain anomalies including perisylvian polymicrogyria, cerebral or cerebellar atrophy, and corpus callosum hypoplasia were consistent among individuals harboring recurrent de novo missense variants in MAPK8IP3.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+            "authors": [
+              "K Platzer",
+              "H Sticht",
+              "SL Edwards",
+              "W Allen"
+            ],
+            "year": 2019,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+            "quote": "Brain anomalies such as perisylvian polymicrogyria, cerebral or cerebellar atrophy, and hypoplasia of the corpus callosum were consistent among individuals harboring recurrent de novo missense variants."
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals",
+              "value": 13
+            },
+            {
+              "metric": "missense_variants",
+              "value": 6
+            },
+            {
+              "metric": "truncating_variants",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "text": "In a review of complex inherited neuropathies, it was noted that although sample sizes were small (n < 10), individuals harboring truncating variants appeared to display a more severe clinical presentation.",
+          "stance": "contradicts",
+          "source": {
+            "title": "The evolving spectrum of complex inherited neuropathies",
+            "authors": [
+              "AM Rossor",
+              "S Haddad"
+            ],
+            "year": 2024,
+            "journal": "Current Opinion in Neurology",
+            "doi": "10.1097/wco.0000000000001307",
+            "pmid": "39083076",
+            "pmc": "PMC11377048",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11377048/",
+            "quote": "was small (n < 10), individuals with truncating variants seemed to display a more severe"
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size_subgroup",
+              "value": "< 10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Heterozygous truncating variants in MAPK8IP3 do not produce pure hereditary spastic paraplegia (HSP) or isolated lower motor neuron degeneration, but invariably manifest as part of a complex neurodevelopmental disorder encompassing intellectual disability or cognitive impairment.",
+      "rationale": "Clarifies whether MAPK8IP3 can genuinely act as an isolated spastic paraplegia gene (as curated on panels) or whether all pathogenic heterozygous alleles, including LOF/truncating alleles, inherently involve supratentorial developmental features.",
+      "aspects": [
+        "Phenotypic boundary",
+        "Hereditary spastic paraplegia",
+        "Loss-of-function vs missense"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "Individuals with heterozygous pathogenic or likely pathogenic MAPK8IP3 variants (including 34.4% predicted LOF variants) consistently exhibited neurodevelopmental manifestations including cognitive impairment, motor difficulties, and attention deficits, rather than an isolated lower-extremity motor disorder.",
+          "stance": "supports",
+          "source": {
+            "title": "Comprehensive Clinical Characteristics, Longitudinal Adaptive Functioning, and Electroencephalogram Activity in MAPK8IP3\u2010Related Neurodevelopmental Disorder",
+            "authors": [
+              "KK Sudnawa",
+              "A Geltzeiler",
+              "CH Kanner"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1111/cge.70032",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.70032",
+            "quote": "Common symptoms included cognitive impairment, hypotonia, motor difficulties, strabismus, microcephaly, and attention deficits."
+          },
+          "numbers": [
+            {
+              "metric": "mean_das_ii_gca_score",
+              "value": 62.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pathogenic recurrent missense variants in MAPK8IP3 act via dominant-negative interference with axonal organelle transport (such as retrograde lysosome clearance), whereas heterozygous truncating alleles lead to partial loss of function that preserves gross neuronal migration and brain morphogenesis.",
+      "rationale": "Functional assays in model organisms demonstrate severe retrograde lysosome transport arrest and axonal varicosities for specific missense mutations, suggesting a mechanistically distinct pathobiology from haploinsufficiency.",
+      "aspects": [
+        "Pathophysiological mechanism",
+        "Axonal transport",
+        "Genotype-phenotype correlations"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "CRISPR-Cas9-engineered C. elegans models of human MAPK8IP3 missense variants demonstrated elevated axonal lysosome density and locomotion deficits, reversible by engineering back to wild-type, linking missense variants directly to disrupted retrograde transport machinery.",
+          "stance": "supports",
+          "source": {
+            "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+            "authors": [
+              "K Platzer",
+              "H Sticht",
+              "SL Edwards",
+              "W Allen"
+            ],
+            "year": 2019,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+            "quote": "two of the six investigated human alterations led to a significantly elevated density of axonal lysosomes, and five variants were associated with adverse locomotion."
+          },
+          "numbers": [
+            {
+              "metric": "variants_elevating_axonal_lysosome_density",
+              "value": 2
+            },
+            {
+              "metric": "variants_with_adverse_locomotion",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the systematic difference in structural brain MRI abnormal findings (such as polymicrogyria, corpus callosum agenesis/hypoplasia, and cerebellar atrophy) when directly comparing individuals with MAPK8IP3 truncating versus missense variants across all published cohorts?",
+      "rationale": "Directly resolving the contradictory statements between Rossor et al. 2024 and Sudnawa et al. 2026 requires an allele-stratified meta-analysis of neuroimaging and motor endpoints.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "Do biallelic (compound heterozygous or homozygous) MAPK8IP3 loss-of-function variants produce a distinct lower motor neuron or lethal spinal muscular atrophy-like phenotype compared to dominant heterozygous variants?",
+      "rationale": "Panels and literature hint at severe recessive motor phenotypes, which would define a distinct recessive inheritance mode with a different phenotypic spectrum from heterozygous NDD/NEDBA.",
+      "promise": 0.75,
+      "est_cost": 0.5
+    }
+  ],
+  "dead_end": false
+}

@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NKX6-2\" \"epilepsy\" \"hypomyelination\" OR \"seizures\"",
+    "NKX6-2 spastic ataxia hypomyelinating leukodystrophy epilepsy seizures MRI findings"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.1111/ene.14082",
+      "title": "Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination",
+      "pmid": null,
+      "doi": "10.1111/ene.14082",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/ene.14082",
+      "abstract_chars": 1735
+    },
+    {
+      "id": "https://europepmc.org/books/nbk531509/",
+      "title": "NKX6-2-related disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/books/nbk531509/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.mdpi.com/2075-4418/15/22/2821",
+      "title": "Maximizing Diagnostic Yield in Intellectual Disability Through Exome Sequencing: Genotype\u2013Phenotype Insights in a Vietnamese Cohort",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2075-4418/15/22/2821",
+      "abstract_chars": 3090
+    },
+    {
+      "id": "34301297",
+      "title": "Transcriptomic profiling of high-and low-spiking regions reveals novel epileptogenic mechanisms in focal cortical dysplasia type II patients",
+      "pmid": "34301297",
+      "doi": "10.1186/s13041-021-00832-4",
+      "url": "https://link.springer.com/article/10.1186/s13041-021-00832-4",
+      "abstract_chars": 1725
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+      "title": "Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+      "abstract_chars": 1848
+    },
+    {
+      "id": "42246053",
+      "title": "Seizures - Symptoms and causes",
+      "pmid": "42246053",
+      "doi": "10.3389/fneur.2026.1793970",
+      "url": "https://www.mayoclinic.org/diseases-conditions/seizure/symptoms-causes/syc-20365711",
+      "abstract_chars": 1593
+    },
+    {
+      "id": "https://my.clevelandclinic.org/health/diseases/22789-seizure",
+      "title": "Seizure: What It Is, Causes, Symptoms, Treatment & Types",
+      "pmid": null,
+      "doi": null,
+      "url": "https://my.clevelandclinic.org/health/diseases/22789-seizure",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.cdc.gov/epilepsy/about/types-of-seizures.html",
+      "title": "Types of Seizures | Epilepsy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cdc.gov/epilepsy/about/types-of-seizures.html",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://medlineplus.gov/ency/article/003200.htm",
+      "title": "Seizures: MedlinePlus Medical Encyclopedia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://medlineplus.gov/ency/article/003200.htm",
+      "abstract_chars": 0
+    },
+    {
+      "id": "26754778",
+      "title": "Acute Symptomatic Seizures Caused by Electrolyte ... - PMC",
+      "pmid": "26754778",
+      "doi": "10.3988/jcn.2016.12.1.21",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4712283/",
+      "abstract_chars": 1277
+    }
+  ],
+  "input_tokens": 5219,
+  "output_tokens": 1240,
+  "usd": 0.00633,
+  "seconds": 13.5,
+  "ok": true
+}

@@ -1,0 +1,51 @@
+{
+  "knowledge": "Spastic ataxia 8, autosomal recessive, with hypomyelinating leukodystrophy (SPAX8, OMIM #617560) is caused by biallelic loss-of-function or missense mutations in the NKX6-2 gene on chromosome 10q26. Clinically, SPAX8 manifests as early-onset spastic paraparesis or tetraparesis, cerebellar ataxia, nystagmus, dysarthria, and motor developmental delay/regression, often with variable cognitive impairment ranging from normal/mild to moderate intellectual disability. Neuroimaging demonstrates characteristic diffuse hypomyelination of the cerebral white matter, thinning of the corpus callosum, and variable cerebellar/brainstem atrophy. It shares profound clinical and radiologic overlap with Pelizaeus-Merzbacher-like disease (PMLD1, caused by GJC2 mutations) and classic Pelizaeus-Merzbacher disease (PMD, PLP1), as well as POLR3-related leukodystrophies and complex hereditary spastic paraplegias (such as SPG11, SPG15, SPG35).",
+  "prior_hypothesis": "SPAX8 can be clinically and radiologically prioritized over other hypomyelinating leukodystrophies and complex spastic ataxias by a specific triad: (1) early childhood presentation (infantile to early preschool) with prominent lower-limb spasticity and cerebellar signs (nystagmus, appendicular and truncal ataxia), (2) diffuse, homogeneous cerebral hypomyelination on brain MRI (mild T2 hyperintensity/isointensity with lack of T1 shortening) accompanied by significant thinning of the corpus callosum and progressive cerebellar vermian atrophy, and (3) relative preservation of peripheral nerves without prominent dysmorphism, optic atrophy, or primary sensory neuropathy. Missense variants in the homeobox domain often lead to slightly milder or later ambulatory decline compared to early truncating/frameshift null variants.",
+  "candidate_answers": [
+    {
+      "answer": "Biallelic NKX6-2 pathogenic variants lead to a core clinical spectrum defined by spasticity (HP:0001257), cerebellar ataxia (HP:0001251), nystagmus (HP:0000639), and dysarthria (HP:0001260) present in over 85-90% of reported patients, alongside MRI hallmarks of diffuse cerebral hypomyelination (HP:0003429) and thin corpus callosum (HP:0002079). Key foundational cohorts include Chelban et al. 2017 (PMID: 28430856) reporting 14 individuals from 8 families with spasticity (14/14), ataxia (14/14), and hypomyelination (14/14).",
+      "confidence": 0.88,
+      "aspect": "Core clinical and neuroimaging phenotypic spectrum with cohort frequencies"
+    },
+    {
+      "answer": "SPAX8 is best discriminated from X-linked PLP1-related Pelizaeus-Merzbacher disease by autosomal recessive inheritance and often relatively preserved cognitive faculties in childhood despite severe spastic ataxia; from GJC2-related PMLD1 by lack of severe early choreoathetosis and slower initial cognitive decline; and from POLR3-related leukodystrophies (4H leukodystrophy) by the absence of hypodontia (HP:0000668) and hypogonadotropic hypogonadism (HP:0000818).",
+      "confidence": 0.82,
+      "aspect": "Differential diagnosis and discriminating clinical features"
+    },
+    {
+      "answer": "Features consistently absent or atypical in SPAX8 include severe early microcephaly, extensive white matter cavitation or cystic degeneration, primary sensorimotor polyneuropathy (demyelinating or axonal peripheral neuropathy is typically absent on EMG/NCS), hypodontia, and primary retinal/optic nerve dysplasia.",
+      "confidence": 0.78,
+      "aspect": "Pertinent negative findings"
+    },
+    {
+      "answer": "A genotype-phenotype correlation exists where biallelic truncating variants (frameshift, nonsense, canonical splice site) cause a more severe, infantile-onset hypomyelinating leukodystrophy with loss of independent ambulation and prominent bulbar symptoms, whereas missense variants affecting specific conserved residues in the homeobox domain may cause a milder spastic ataxia phenotype with preserved ambulation into late childhood or adolescence.",
+      "confidence": 0.75,
+      "aspect": "Genotype-phenotype correlations (variant type and position)"
+    },
+    {
+      "answer": "There is literature divergence regarding the degree of intellectual impairment and upper motor neuron progression: some original reports describe intellectual disability as universal and moderate-to-severe (e.g., Chelban et al., 2017), whereas subsequent isolated kindreds report preserved intellect with near-normal cognitive development despite pronounced motor disability.",
+      "confidence": 0.7,
+      "aspect": "Contradictory or conflicting literature reports"
+    }
+  ],
+  "key_terms": [
+    "SPAX8",
+    "NKX6-2",
+    "Hypomyelination",
+    "Spastic ataxia",
+    "Thin corpus callosum",
+    "Pelizaeus-Merzbacher-like disease",
+    "GJC2",
+    "PLP1"
+  ],
+  "open_questions": [
+    "What exact numerator and denominator can be extracted from all published cohorts (e.g., Chelban et al. 2017, Dorboz et al. 2017) for cognitive preservation versus severe intellectual disability?",
+    "Does peripheral nerve involvement (neurogenic change on EMG or nerve conduction slowing) truly occur in any confirmed NKX6-2 cohort, or is it strictly confined to the central nervous system?",
+    "Are there specific brainstem MRI findings (e.g., pontine hypoplasia, hot cross bun sign, or specific cerebellar peduncle signals) that reliably differentiate SPAX8 from GJC2/PMLD1?"
+  ],
+  "assumptions": [
+    "The diagnosis is strictly limited to individuals with confirmed homozygous or compound heterozygous pathogenic/likely pathogenic variants in NKX6-2 according to ACMG/AMP criteria.",
+    "The clinical presentation of interest includes both the severe infantile-onset hypomyelinating leukodystrophy presentation and the milder late-infantile/childhood-onset spastic ataxia presentations under the SPAX8 definition.",
+    "Publications describing mutations under alternative names such as 'NKX6.2-related hypomyelinating leukodystrophy' or 'autosomal recessive spastic ataxia 8' represent the identical genetic disease entity."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "omim": "OMIM:617516",
+  "label": "Stankiewicz-Isidor syndrome",
+  "gene": "PSMD12",
+  "gene_info": {
+    "symbol": "PSMD12",
+    "name": "proteasome 26S subunit, non-ATPase 12",
+    "type_of_gene": "protein-coding",
+    "map_location": "17q24.2",
+    "entrez_id": "5718",
+    "aliases": [
+      "Rpn5",
+      "STISS",
+      "p55"
+    ],
+    "summary": "The 26S proteasome is a multicatalytic proteinase complex with a highly ordered structure composed of 2 complexes, a 20S core and a 19S regulator. The 20S core is composed of 4 rings of 28 non-identical subunits; 2 rings are composed of 7 alpha subunits and 2 rings are composed of 7 beta subunits. The 19S regulator is composed of a base, which contains 6 ATPase subunits and 2 non-ATPase subunits, and a lid, which contains up to 10 non-ATPase subunits. Proteasomes are distributed throughout eukaryotic cells at a high concentration and cleave peptides in an ATP/ubiquitin-dependent process in a non-lysosomal pathway. An essential function of a modified proteasome, the immunoproteasome, is the processing of class I MHC peptides. This gene encodes a non-ATPase subunit of the 19S regulator. A pseudogene has been identified on chromosome 3. Alternatively spliced transcript variants encoding different isoforms have been found for this gene. [provided by RefSeq, Oct 2015].",
+    "source": "NCBI Gene via mygene.info"
+  },
+  "n_patients_in_store": 10,
+  "n_case_reports": 2,
+  "curated_hpo_terms": 85,
+  "corpus_query": "\"PSMD12\" OR \"Stankiewicz-Isidor syndrome\"",
+  "corpus_query_clinical": "(\"PSMD12\" OR \"Stankiewicz-Isidor syndrome\") AND (phenotype OR cohort OR \"case report\" OR clinical)",
+  "grill_question": "For Stankiewicz-Isidor syndrome (OMIM #617516), caused by variants in PSMD12: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.\n"
+}

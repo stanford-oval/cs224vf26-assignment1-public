@@ -1,0 +1,111 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that serial MRI differentiates PLAA-related disorder from classical ZNHIT3-associated PEHO syndrome because PLAA shows an initially preserved cerebellum in neonates while ZNHIT3 causes congenital cerebellar hypoplasia at birth. However, the literature refutes both premises: first, patients with PLAA pathogenic variants (e.g., c.68G>T, p.Gly23Val) have documented cerebellar atrophy and hypoplasia on MRI as early as 14 days of life. Second, classical ZNHIT3-associated PEHO syndrome is pathologically and radiologically defined by severe progressive, postnatal cerebellar atrophy (specifically degeneration and loss of cerebellar granule neurons) rather than congenital cerebellar hypoplasia present at birth.",
+  "evidence": [
+    {
+      "text": "In a cohort of patients presenting with PEHO and PEHO-like phenotypes, a patient harboring a pathogenic PLAA variant (c.68G>T, p.Gly23Val) showed cerebellar hypoplasia and atrophy on brain MRI at only 14 days of age, contradicting the idea that PLAA cases have an initially preserved neonatal cerebellum.",
+      "stance": "contradicts",
+      "source": {
+        "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+        "authors": [
+          "M Chitre",
+          "MS Nahorski",
+          "K Stouffer"
+        ],
+        "year": 2018,
+        "journal": "Journal of Medical Genetics",
+        "doi": "10.1136/jmedgenet-2018-105288",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+        "quote": "an MRI at only 14 days old which showed cerebellar atrophy. \u2026 , (D.iii) cerebellar hypoplasia and thin corpus callosum, (Dv) \u2026 pathogenic variant in the gene PLAA; c.68G>T p.Gly23Val."
+      },
+      "numbers": [
+        {
+          "metric": "age at earliest MRI demonstrating cerebellar hypoplasia/atrophy in PLAA patient (days)",
+          "value": 14
+        },
+        {
+          "metric": "cohort patients with identified pathogenic variants across 7 genes",
+          "value": "15/19"
+        }
+      ]
+    },
+    {
+      "text": "Classical ZNHIT3-associated PEHO syndrome is characterized by early childhood-onset progressive cerebellar atrophy caused by massive postnatal granule neuron loss rather than static congenital cerebellar hypoplasia at birth.",
+      "stance": "contradicts",
+      "source": {
+        "title": "ZNHIT3 is defective in PEHO syndrome, a severe encephalopathy with cerebellar granule neuron loss",
+        "authors": [
+          "AK Anttonen",
+          "A Laari",
+          "M Kousi",
+          "YJ Yang"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awx040",
+        "pmid": "28335020",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/5/1267/3059331",
+        "quote": "Progressive encephalopathy with oedema, hypsarrhythmia, and optic atrophy (PEHO) syndrome is an early childhood onset, severe autosomal recessive encephalopathy characterized by extreme cerebellar atrophy due to almost total granule neuron loss."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Patients with ZNHIT3 biallelic mutations exhibit progressive brain and cerebellar atrophy on serial neuroimaging rather than a static malformation at birth.",
+      "stance": "neutral",
+      "source": {
+        "title": "PEHO syndrome caused by compound heterozygote variants in ZNHIT3 gene",
+        "authors": [
+          "K \u00d5unap",
+          "K Muru",
+          "E \u00d5iglane"
+        ],
+        "year": 2020,
+        "journal": "European Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721219301788",
+        "quote": "Brain MRI and CT show early progressive brain atrophy \u2026 of the ZNHIT3-associated PEHO syndrome outside Finland."
+      },
+      "numbers": []
+    },
+    {
+      "text": "PLAA-associated neurodevelopmental disorder features progressive cerebellar and cerebral atrophy as well as cerebellar hypoplasia, showing neurodegenerative overlap with other PEHO-spectrum encephalopathies.",
+      "stance": "neutral",
+      "source": {
+        "title": "Supplementary Table 1",
+        "authors": [],
+        "year": null,
+        "journal": "Frontiers in Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://public-pages-files-2025.frontiersin.org/articles/617813/file/data_sheet_1.pdf/617813_supplementary-materials_datasheets_1_pdf/1",
+        "quote": "PLAA. Neurodevelopmental disorder with ... cerebellar atrophy, and atrophy or disappearance ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "PLAA can present with cerebellar hypoplasia and atrophy in the neonatal period (documented at 14 days of life), refuting the claim of an initially preserved neonatal cerebellum as a distinguishing sign.",
+    "ZNHIT3-related PEHO syndrome demonstrates progressive neurodegenerative cerebellar atrophy due to granule cell loss rather than congenital cerebellar hypoplasia at birth."
+  ],
+  "confidence": 0.12,
+  "new_directions": [
+    {
+      "question_text": "Can volumetric quantitative MRI of the brainstem versus cerebellar cortex differentiate PLAA-associated neurodegeneration from ZNHIT3-associated granule neuron degeneration in the first 6 months of life?",
+      "rationale": "Since qualitative assessment of cerebellar volume loss shows extensive overlap between early-infantile PLAA and ZNHIT3 cases, quantitative volumetric ratios between supratentorial structures, pons, and cerebellar subregions may reveal distinct patterns of progression.",
+      "promise": 0.72,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Do early extra-neurological features (such as transient subcutaneous edema characteristic of classical PEHO) reliably separate ZNHIT3 variants from PLAA variants before neuroimaging changes become distinct?",
+      "rationale": "Edema of the face and limbs is a cardinal defining feature in PEHO criteria that is frequently absent or inconsistent in PEHO-like disorders caused by other genes including PLAA.",
+      "promise": 0.81,
+      "est_cost": 25000
+    }
+  ]
+}

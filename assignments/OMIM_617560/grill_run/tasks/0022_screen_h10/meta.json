@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NKX6-2\" \"peripheral neuropathy\" \"nerve conduction\"",
+    "NKX6-2 SPAX8 peripheral neuropathy demyelinating axonal nerve conduction"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/books/NBK1182/",
+      "title": "PLP1-related disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK1182/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://europepmc.org/books/nbk1182/",
+      "title": "PLP1 disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://europepmc.org/books/nbk1182/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fnmol.2020.608442/full",
+      "title": "Insights into the role and potential of Schwann cells for peripheral nerve repair from studies of development and injury",
+      "pmid": null,
+      "doi": "10.3389/fnmol.2020.608442/full",
+      "url": "https://www.frontiersin.org/journals/molecular-neuroscience/articles/10.3389/fnmol.2020.608442/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/jgm.3196",
+      "title": "A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and\u00a0\u2026",
+      "pmid": null,
+      "doi": "10.1002/jgm.3196",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.3196",
+      "abstract_chars": 1540
+    },
+    {
+      "id": "10.1002/mgg3.1205",
+      "title": "Diagnostic value of whole\u2010exome sequencing in Chinese pediatric\u2010onset neuromuscular patients",
+      "pmid": null,
+      "doi": "10.1002/mgg3.1205",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/mgg3.1205",
+      "abstract_chars": 1586
+    },
+    {
+      "id": "https://www.researchgate.net/publication/321467457_Mutations_in_nkx6-2_cause_progressive_spastic-ataxia_and_hypomyelination",
+      "title": "Mutations in nkx6-2 cause progressive spastic-ataxia and ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/321467457_Mutations_in_nkx6-2_cause_progressive_spastic-ataxia_and_hypomyelination",
+      "abstract_chars": 1848
+    },
+    {
+      "id": "https://search.proquest.com/openview/0373e8886aaac93a0d26d79a8f2a1ade/1.pdf?pq-origsite=gscholar&cbl=2041879",
+      "title": "Practical approach to the diagnosis of adult-onset leukodystrophies ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0373e8886aaac93a0d26d79a8f2a1ade/1.pdf?pq-origsite=gscholar&cbl=2041879",
+      "abstract_chars": 1434
+    },
+    {
+      "id": "10.1007/s12311-021-01345-5",
+      "title": "A diagnostic approach to spastic ataxia syndromes",
+      "pmid": null,
+      "doi": "10.1007/s12311-021-01345-5",
+      "url": "https://link.springer.com/article/10.1007/s12311-021-01345-5",
+      "abstract_chars": 795
+    },
+    {
+      "id": "10.3389/fcell.2022.902261/full",
+      "title": "Emerging cellular themes in leukodystrophies",
+      "pmid": null,
+      "doi": "10.3389/fcell.2022.902261/full",
+      "url": "https://www.frontiersin.org/journals/cell-and-developmental-biology/articles/10.3389/fcell.2022.902261/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "31267374",
+      "title": "The classification of autosomal recessive cerebellar ataxias: a consensus statement from the society for research on the cerebellum and ataxias task force",
+      "pmid": "31267374",
+      "doi": "10.1007/s12311-019-01052-2",
+      "url": "https://link.springer.com/article/10.1007/s12311-019-01052-2",
+      "abstract_chars": 1684
+    }
+  ],
+  "input_tokens": 5020,
+  "output_tokens": 2096,
+  "usd": 0.0088,
+  "seconds": 12.4,
+  "ok": true
+}

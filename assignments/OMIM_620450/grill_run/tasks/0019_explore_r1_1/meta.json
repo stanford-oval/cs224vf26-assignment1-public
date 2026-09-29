@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"TAF4\" \"missense\" \"truncating\" \"intellectual disability\" phenotype",
+    "TAF4 missense versus truncating variants clinical phenotype differences"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.nature.com/articles/s41431-026-02214-7",
+      "title": "Genome sequencing reveals high diagnostic yield in children with severe sporadic developmental language disorder",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41431-026-02214-7",
+      "abstract_chars": 1698
+    },
+    {
+      "id": "https://www.nature.com/articles/mp2014193",
+      "title": "X-exome sequencing of 405 unresolved families identifies seven novel intellectual disability genes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/mp2014193",
+      "abstract_chars": 1789
+    },
+    {
+      "id": "https://www.nature.com/articles/s41380-022-01938-4",
+      "title": "Identifying rare genetic variants in 21 highly multiplex autism families: the role of diagnosis and autistic traits",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41380-022-01938-4",
+      "abstract_chars": 1133
+    },
+    {
+      "id": "10.3389/fnins.2022.846272/full",
+      "title": "Transcription pause and escape in neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fnins.2022.846272/full",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.846272/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.nature.com/articles/s41380-026-03754-6",
+      "title": "Genomic landscape of rare variants in a Chinese autism cohort and discovery of novel risk genes",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s41380-026-03754-6",
+      "abstract_chars": 1848
+    },
+    {
+      "id": "24431330",
+      "title": "Truncating mutations in TAF4B and ZMYND15 causing recessive azoospermia",
+      "pmid": "24431330",
+      "doi": "10.1136/jmedgenet-2013-102102",
+      "url": "https://jmg.bmj.com/content/51/4/239.short",
+      "abstract_chars": 1486
+    },
+    {
+      "id": "10.1002/humu.24444",
+      "title": "De novo putative loss\u2010of\u2010function variants in TAF4 are associated with a neuro\u2010developmental disorder",
+      "pmid": null,
+      "doi": "10.1002/humu.24444",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/humu.24444",
+      "abstract_chars": 897
+    },
+    {
+      "id": "39478125",
+      "title": "Recurrent somatic mutations of FAT family cadherins induce an aggressive phenotype and poor prognosis in anaplastic large cell lymphoma",
+      "pmid": "39478125",
+      "doi": "10.1038/s41416-024-02881-7",
+      "url": "https://www.nature.com/articles/s41416-024-02881-7",
+      "abstract_chars": 1720
+    },
+    {
+      "id": "31646703",
+      "title": "Missense variants in TAF1 and developmental phenotypes",
+      "pmid": "31646703",
+      "doi": "10.1002/humu.23936",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7187541/",
+      "abstract_chars": 1593
+    },
+    {
+      "id": "10.1101/2025.07.17.25331109v1.full-text",
+      "title": "A comprehensive framework for the interpretation of TTN ...",
+      "pmid": null,
+      "doi": "10.1101/2025.07.17.25331109v1.full-text",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.07.17.25331109v1.full-text",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6964,
+  "output_tokens": 4737,
+  "usd": 0.01769,
+  "seconds": 25.2,
+  "ok": true
+}

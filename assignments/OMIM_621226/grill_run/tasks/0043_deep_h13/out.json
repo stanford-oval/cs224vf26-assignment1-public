@@ -1,0 +1,98 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not support the hypothesis that de novo TUBA4A missense variants produce a significantly higher incidence of early-onset dysarthria compared to the familial p.Glu415Lys variant. Both Benkirane et al. (2024) and Torella et al. (2023) identify spastic ataxia, lower limb hyperreflexia, and cerebellar signs such as dysarthria as shared core features across both inherited and de novo cases without demonstrating any statistically significant divergence in dysarthria onset or prevalence. Furthermore, OMIM #621226 lists dysarthria as a common finding across SPAX11 cases in general, and no data establish preferential early-onset speech involvement in de novo cases.",
+  "evidence": [
+    {
+      "text": "Benkirane et al. identified 12 patients across 11 families presenting with spasticity and/or cerebellar ataxia harboring predicted pathogenic TUBA4A missense variants, including 5 confirmed de novo cases, documenting variable age of onset rather than isolated or specific early-onset dysarthria.",
+      "stance": "neutral",
+      "source": {
+        "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+        "authors": [
+          "M Benkirane",
+          "M Bonhomme",
+          "H Morsy",
+          "SL Safgren"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "38884572",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+        "quote": "Taken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation, including five confirmed de novo cases and a mutation previously reported in a large family presenting with spastic ataxia... Our data confirm the identification of a hereditary spastic ataxia disease gene with variable age of onset, expanding the clinical spectrum of TUBA4A associated phenotypes."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size",
+          "value": 12
+        },
+        {
+          "metric": "confirmed de novo cases",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Torella et al. described two families with autosomal dominant spastic ataxia caused by the heterozygous p.Glu415Lys variant in TUBA4A, establishing the phenotype of adult- or later-onset spastic ataxia with cerebellar features rather than absence of dysarthria.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": "Journal of Neurology",
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "In the present study, we report two families, one with 11 affected individuals and the other with a single patient, carrying a novel, likely pathogenic, variant (p. Glu415Lys) in the TUBA4A gene (NM_006000). The phenotype, not previously described, is that of spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals in family 1",
+          "value": 11
+        },
+        {
+          "metric": "affected individuals in family 2",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "OMIM entry #621226 defines Spastic Ataxia 11 as featuring nystagmus, saccadic smooth pursuit, dysarthria, lower-limb hyperreflexia, and spasticity as shared cardinal features across reported patients, refuting a distinct genotype-phenotype demarcation where dysarthria is specific to de novo variants.",
+      "stance": "contradicts",
+      "source": {
+        "title": "621226 - SPASTIC ATAXIA 11, AUTOSOMAL DOMINANT; SPAX11",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621226",
+        "quote": "Common features included nystagmus, saccadic smooth pursuit, dysarthria, hyperreflexia of the lower limbs, lower limb tonus, and extensor"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "Do de novo TUBA4A missense mutations cause significantly more severe microtubule polymer incorporation defects in vitro compared to the inherited p.Glu415Lys variant?",
+      "rationale": "Direct biophysical comparison of tubulin dimer incorporation and dynamic instability between de novo variants and inherited mutations can objectively evaluate whether de novo variants exert stronger dominant-negative effects.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the systematic age at onset of dysarthria and gait ataxia in a combined multicenter registry of all molecularly confirmed SPAX11 cases?",
+      "rationale": "Systematic collection of standardized HPO phenotypic terms across all known carriers will determine whether subtle genotype-phenotype correlations exist regarding bulbar involvement.",
+      "promise": 0.8,
+      "est_cost": 40000
+    }
+  ]
+}

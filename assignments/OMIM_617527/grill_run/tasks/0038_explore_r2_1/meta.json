@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"PLAA\" \"pontocerebellar hypoplasia\" \"prenatal\" fetal brain MRI",
+    "PLAA fetal ultrasound prenatal brain malformations pontocerebellar hypoplasia microcephaly"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/162/gene/MINPP1/",
+      "title": "Gene: MINPP1 (Severe microcephaly)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/162/gene/MINPP1/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "39054600",
+      "title": "Prenatal assessment of brain malformations on neuroimaging: an expert panel review",
+      "pmid": "39054600",
+      "doi": "10.1093/brain/awae253",
+      "url": "https://academic.oup.com/brain/article-abstract/147/12/3982/7721052",
+      "abstract_chars": 837
+    },
+    {
+      "id": "42035325",
+      "title": "Fetal Expression of Pontocerebellar Hypoplasia Linked to Pathogenic COASY Variants",
+      "pmid": "42035325",
+      "doi": "10.1177/10935266261434714",
+      "url": "https://journals.sagepub.com/doi/abs/10.1177/10935266261434714",
+      "abstract_chars": 1560
+    },
+    {
+      "id": "38165124",
+      "title": "Prenatal diagnosis of pontocerebellar hypoplasia with postnatal follow\u2010up",
+      "pmid": "38165124",
+      "doi": "10.1002/pd.6495",
+      "url": "https://obgyn.onlinelibrary.wiley.com/doi/abs/10.1002/pd.6495",
+      "abstract_chars": 1721
+    },
+    {
+      "id": "33534089",
+      "title": "Diagnostic approach to cerebellar hypoplasia",
+      "pmid": "33534089",
+      "doi": "10.1007/s12311-020-01224-5",
+      "url": "https://link.springer.com/article/10.1007/s12311-020-01224-5",
+      "abstract_chars": 1436
+    },
+    {
+      "id": "https://www.perinatology.theclinics.com/article/S0095-5108(22)00046-X/abstract",
+      "title": "Imaging of microcephaly",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.perinatology.theclinics.com/article/S0095-5108(22)00046-X/abstract",
+      "abstract_chars": 0
+    },
+    {
+      "id": "40344277",
+      "title": "IS PRENATAL DIAGNOSIS POSSIBLE? - PMC - NIH",
+      "pmid": "40344277",
+      "doi": "10.1002/uog.29249",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2931360/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1101/2025.06.10.25328274v1.full-text",
+      "title": "Diagnostic clues and pitfalls in pontocerebellar hypoplasia ...",
+      "pmid": null,
+      "doi": "10.1101/2025.06.10.25328274v1.full-text",
+      "url": "https://www.medrxiv.org/content/10.1101/2025.06.10.25328274v1.full-text",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://secure.ssa.gov/poms.nsf/lnx/0423022482",
+      "title": "POMS: DI 23022.482 - Pontocerebellar Hypoplasia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://secure.ssa.gov/poms.nsf/lnx/0423022482",
+      "abstract_chars": 0
+    },
+    {
+      "id": "42035325",
+      "title": "Pontocerebellar hypoplasia",
+      "pmid": "42035325",
+      "doi": "10.1177/10935266261434714",
+      "url": "https://www.medlink.com/articles/pontocerebellar-hypoplasia",
+      "abstract_chars": 1560
+    }
+  ],
+  "input_tokens": 6677,
+  "output_tokens": 3995,
+  "usd": 0.01532,
+  "seconds": 26.2,
+  "ok": true
+}

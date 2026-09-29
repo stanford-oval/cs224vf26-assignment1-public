@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Global developmental delay\" \"HP:0001263\" \"Human Phenotype Ontology\"",
+    "Human Phenotype Ontology HP:0001263 Global developmental delay definition"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "PMC11952407",
+      "title": "Phenotypic analysis of 11,125 trio exomes in neurodevelopmental disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11952407/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1080/15622975.2020.1821916",
+      "title": "Strict network analysis of evolutionary conserved and brain-expressed genes reveals new putative candidates implicated in Intellectual Disability and in Global\u00a0\u2026",
+      "pmid": null,
+      "doi": "10.1080/15622975.2020.1821916",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/15622975.2020.1821916",
+      "abstract_chars": 1519
+    },
+    {
+      "id": "10.3389/fped.2023.1172154/full",
+      "title": "Sex difference contributes to phenotypic diversity in individuals with neurodevelopmental disorders",
+      "pmid": null,
+      "doi": "10.3389/fped.2023.1172154/full",
+      "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2023.1172154/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.21203/rs.3.rs-3405211/v1",
+      "title": "Predicting molecular events underlying rare diseases using variant annotation, aberrant gene expression events, and human phenotype ontology",
+      "pmid": null,
+      "doi": "10.21203/rs.3.rs-3405211/v1",
+      "url": "https://scholar.archive.org/work/kv6ri5kpqveubkh6xiqofddw4i/access/wayback/https://assets.researchsquare.com/files/rs-3405211/v1/b8823a67-fc4a-4e4e-8d0e-5ad170ec8637.pdf?c=1696964231",
+      "abstract_chars": 1791
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0887899424000833",
+      "title": "Expanding the phenotypic spectrum of TRAF7-related cardiac, facial, and digital anomalies with developmental delay: report of 11 new cases and literature review",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0887899424000833",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?11343",
+      "title": "Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?11343",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.orpha.net/en/disease/sign/94063",
+      "title": "Rare diseases > Clinical Signs and Symptoms",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.orpha.net/en/disease/sign/94063",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://github.com/davetang/human_phenotype_ontology",
+      "title": "The Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://github.com/davetang/human_phenotype_ontology",
+      "abstract_chars": 1861
+    },
+    {
+      "id": "https://mseqdr.com/hpo_browser.php?11342",
+      "title": "HP:0011342 - Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://mseqdr.com/hpo_browser.php?11342",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem-hpo.html",
+      "title": "CodeSystem: Human Phenotype Ontology",
+      "pmid": null,
+      "doi": null,
+      "url": "https://nih-ncpi.github.io/ncpi-fhir-ig/CodeSystem-hpo.html",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3521,
+  "output_tokens": 1103,
+  "usd": 0.00507,
+  "seconds": 25.4,
+  "ok": true
+}

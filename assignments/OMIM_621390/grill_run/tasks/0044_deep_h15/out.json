@@ -1,0 +1,88 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that non-recurrent missense variants outside the Kelch domain (e.g., in the BTB or BACK domains) confer a milder neurodevelopmental disorder with negligible epilepsy risk. However, available clinical and molecular literature provides zero evidence for pathogenic missense variants in the BTB or BACK domains causing a milder, non-epileptic neurodevelopmental phenotype. In the benchmark series and subsequent case descriptions, 100% of reported pathogenic de novo missense variants cluster strictly within the Kelch-type beta-propeller domain (including the recurrent p.Gly357Arg variant found in 11 of 14 initial patients), and patients consistently manifest epilepsy or febrile seizures alongside intellectual disability and autism spectrum traits.",
+  "evidence": [
+    {
+      "text": "In the index discovery cohort, all 14 patients with pathogenic de novo missense variants in KLHL20 carried substitutions clustering exclusively within the Kelch-type beta-propeller domain, with 11 harboring the recurrent p.Gly357Arg variant; no pathogenic missense variants in the BTB or BACK domains were identified.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo missense variants in the E3 ubiquitin ligase adaptor KLHL20 cause a developmental disorder with intellectual disability, epilepsy, and autism spectrum \u2026",
+        "authors": [
+          "Y Sleyp",
+          "I Valenzuela",
+          "A Accogli",
+          "K Ballon"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002200911X",
+        "quote": "We studied 14 patients with de novo missense variants in KLHL20, delineating a genetic syndrome with patients having mild to severe intellectual disability, febrile seizures or epilepsy, autism spectrum disorder, hyperactivity, and subtle dysmorphic facial features. We observed a recurrent de novo missense variant in 11 patients (NM_014458.4:c.1069G>A p.[Gly357Arg]). The recurrent missense and the 3 other missense variants all clustered in the Kelch-type \u03b2-propeller domain of the KLHL20 protein, which shapes the substrate binding surface."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 14
+        },
+        {
+          "metric": "patients carrying recurrent p.Gly357Arg variant",
+          "value": 11
+        },
+        {
+          "metric": "variants clustering in Kelch domain",
+          "value": 14
+        },
+        {
+          "metric": "pathogenic variants confirmed in BTB or BACK domains",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "Additional clinical descriptions of KLHL20-related disorder document severe epileptic encephalopathies such as early-onset West syndrome, reinforcing that pathogenic KLHL20 missense variants consistently drive early seizure phenotypes rather than seizure-free neurodevelopmental disorders.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Early-onset West syndrome with developmental delay associated with a novel KLHL20 variant",
+        "authors": [
+          "Y Kuroda",
+          "A Ikeda",
+          "T Naruto",
+          "K Kurosawa"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63600",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ovid.com/journals/ajmga/pdf/10.1002/ajmg.a.63600~early-onset-west-syndrome-with-developmental-delay",
+        "quote": "with missense KLHL20 variants, six had developmental delay with epileptic encephalopathy"
+      },
+      "numbers": [
+        {
+          "metric": "patients with developmental delay and epileptic encephalopathy",
+          "value": 6
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "No verified patients harboring pathogenic de novo missense variants in the BTB or BACK domains of KLHL20 exist in published cohorts to substantiate the claim of a milder, seizure-free phenotype."
+  ],
+  "confidence": 0.05,
+  "new_directions": [
+    {
+      "question_text": "Do rare non-synonymous variants in the BTB and BACK domains of KLHL20 in broad exome/genome sequencing repositories (e.g., gnomAD, GeneDx cohorts) demonstrate benign tolerance or an association with isolated autism/ID?",
+      "rationale": "Systematic interrogation of large clinical sequencing databases is required to determine whether BTB/BACK missense variants are non-pathogenic background variation or cause an uncharacterized milder disorder.",
+      "promise": 0.85,
+      "est_cost": 15000.0
+    },
+    {
+      "question_text": "How do engineered mutations in the BTB dimerization domain versus Kelch propeller substrate-binding blades affect CRL3 complex stability and substrate ubiquitination in neuronal models?",
+      "rationale": "Comparative biochemical profiling in vitro can determine if BTB mutations destabilize the Cullin3-RING ligase complex or retain residual activity relative to dominant-negative Kelch-domain alleles.",
+      "promise": 0.9,
+      "est_cost": 35000.0
+    }
+  ]
+}

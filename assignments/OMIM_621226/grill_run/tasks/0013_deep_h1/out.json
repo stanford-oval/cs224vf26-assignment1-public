@@ -1,0 +1,88 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The core phenotypic presentation of spastic ataxia 11 (SPAX11) involves a combination of cerebellar ataxia and pyramidal signs/spasticity, which is consistently reported across cohorts. However, the hypothesis claiming that cerebellar atrophy on MRI is present in 80-100% of affected adults is contradicted by primary literature: Torella et al. (2023) evaluated two families carrying the p.Glu415Lys TUBA4A variant (including an 11-patient pedigree) and explicitly documented slight or absent cerebellar atrophy. In contrast, Benkirane et al. (2024) reported marked/severe cerebellar atrophy in their series. Hence, neuroimaging penetrance of cerebellar atrophy is variable and variant-dependent rather than a uniform 80-100% finding.",
+  "evidence": [
+    {
+      "text": "Screening of 448 probands identified 12 patients with monoallelic TUBA4A missense variants who presented with spasticity and/or cerebellar ataxia, associated in some cases with severe cerebellar atrophy and cerebellar cognitive affective manifestations.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo and inherited monoallelic variants in TUBA4A cause ataxia and spasticity",
+        "authors": [
+          "M Benkirane",
+          "M Bonhomme",
+          "H Morsy",
+          "SL Safgren"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awae193",
+        "pmid": "38884572",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/11/3681/7694334",
+        "quote": "Taken together, we report 12 patients presenting with spasticity and/or cerebellar ataxia and harbouring a predicted pathogenic TUBA4A missense mutation, including five confirmed de novo cases and a mutation previously reported in a large family presenting with spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals identified",
+          "value": 12
+        },
+        {
+          "metric": "proband cohort size screened",
+          "value": 448
+        },
+        {
+          "metric": "odds ratio in 100KGP rare variant burden",
+          "value": 57.0847
+        }
+      ]
+    },
+    {
+      "text": "Evaluation of two families (one containing 11 affected members and one singleton) with the pathogenic TUBA4A p.Glu415Lys mutation showed a clinical presentation of spastic ataxia, but brain neuroimaging demonstrated slight or absent cerebellar atrophy.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A new genetic cause of spastic ataxia: the p.Glu415Lys variant in TUBA4A",
+        "authors": [
+          "A Torella",
+          "I Ricca",
+          "G Piluso",
+          "D Galatolo"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00415-023-11816-w",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00415-023-11816-w",
+        "quote": "slight or absent cerebellar atrophy. The clinical phenotype, not previously described, is that of spastic ataxia."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals in family 1",
+          "value": 11
+        },
+        {
+          "metric": "affected individuals in family 2",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Cerebellar atrophy penetrance: Benkirane et al. (2024) describe severe cerebellar atrophy associated with TUBA4A variants, whereas Torella et al. (2023) demonstrate slight or completely absent cerebellar atrophy on brain MRI across 12 affected individuals with the p.Glu415Lys variant, directly conflicting with the hypothesis that cerebellar atrophy is present in 80-100% of affected adults."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "Does the presence and severity of cerebellar atrophy correlate with specific functional domains or structural positions of TUBA4A missense variants?",
+      "rationale": "Differences between p.Glu415Lys (minimal/absent atrophy) and other missense mutations (severe atrophy) indicate domain-specific or mutation-specific pathophysiological effects on microtubule stability and Purkinje cell survival.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the true sensitivity and specificity of clinical phenotype alone in differentiating SPAX11 from other spastic ataxias like SPAX5 or SCA28?",
+      "rationale": "Extensive phenotypic overlap with AFG3L2-related spastic ataxia and hereditary spastic paraplegias makes clinical-only differentiation unreliable without next-generation sequencing.",
+      "promise": 0.75,
+      "est_cost": 15000
+    }
+  ]
+}

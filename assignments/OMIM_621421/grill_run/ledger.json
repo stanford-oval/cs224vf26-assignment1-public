@@ -1,0 +1,3627 @@
+{
+  "question": "For Ramond-Elliott neurodevelopmental syndrome (OMIM #621421), caused by variants in TRA2B: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "required_fields": [
+    "Clinical phenotypes reported in affected individuals with Ramond-Elliott neurodevelopmental syndrome (TRA2B variants), including the exact wording from the paper and the matching standard HPO term if identifiable",
+    "Cohort-specific frequencies (numerator and denominator, not percentages alone) for each reported clinical phenotype, linked to specific cohorts and cited with a PMID or DOI",
+    "Most discriminating clinical findings present in most affected individuals but uncommon in disorders commonly confused with this syndrome, including the specific names of overlapping disorders and an assessment of confidence in the distinction",
+    "Clinical findings explicitly evaluated and found absent in affected individuals, whose presence would argue against the diagnosis",
+    "Phenotype differences correlated with variant type, variant position, patient age, or patient sex",
+    "Any clinical findings reported by one paper and explicitly contradicted by another"
+  ],
+  "glossary": {
+    "TRA2B": {
+      "definition": "TRA2B (transformer 2 beta homolog) is a gene that encodes a splicing regulator protein; pathogenic variants in TRA2B cause Ramond-Elliott neurodevelopmental syndrome (RAMELN; OMIM #621421).",
+      "source": {
+        "title": "602719 - TRANSFORMER 2 BETA HOMOLOG; TRA2B",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/602719",
+        "quote": "The TRA2B gene encodes a splicing regulator."
+      }
+    },
+    "Ramond-Elliott neurodevelopmental syndrome": {
+      "definition": "Ramond-Elliott neurodevelopmental syndrome (RAMELN; OMIM #621421) is a rare autosomal neurodevelopmental disorder caused by mutations in the transformer 2 beta homolog gene (TRA2B on chromosome 3q27), characterized clinically by severely impaired neurological development, poor growth, microcephaly, hypotonia, and early-onset seizures such as infantile spasms.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Entry - #621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN - OMIM - (OMIM.ORG) ... Cotransfection of the TRA2B-1 and TRA2B-3 isoforms in ..."
+      }
+    },
+    "OMIM 621421": {
+      "definition": "The Online Mendelian Inheritance in Man (OMIM) catalog identifier for Ramond-Elliott neurodevelopmental syndrome (RAMELN), a distinctive neurodevelopmental disorder caused by pathogenic mutations in the TRA2B gene.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Entry - #621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN - OMIM - (OMIM.ORG) ... TRA2B cause a distinctive neurodevelopmental syndrome"
+      }
+    },
+    "Spliceosomopathy": {
+      "definition": "A spliceosomopathy is a genetic disease caused by pathogenic variants in genes encoding components or regulators of the pre-mRNA splicing machinery, such as splicing factors like TRA2B (Tra2\u03b2). Disruption of these proteins compromises cellular splicing patterns, leading to aberrant transcript processing and manifesting as developmental delay, intellectual disability, and other neurological phenotypes.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1016/j.gim.2022.100003",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "Transformer2 proteins (Tra2\u03b1 and Tra2\u03b2) control splicing patterns in human cells, and no human phenotypes have been associated with germline variants in these genes."
+      }
+    }
+  },
+  "sources": [],
+  "datasets": [],
+  "constraints": [],
+  "assumptions": [],
+  "prior": {
+    "text": "Clinical identification of Ramond-Elliott neurodevelopmental syndrome from phenotype alone relies on a core triad of early-onset global developmental delay with severe expressive speech delay, infantile axial hypotonia, and progressive/congenital microcephaly accompanied by a recognizable craniofacial gestalt (broad forehead, arched/sparse eyebrows, depressed nasal bridge, and thin upper lip) and corpus callosum abnormalities on brain neuroimaging. While overlapping with other spliceosomopathies and NDDs, the combination of marked speech impairment, absence of severe major organ malformations (e.g., congenital heart disease is relatively rare), and prominent microcephaly serves as the primary discriminator.",
+    "candidate_answers": [
+      "Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "Facial dysmorphisms and structural neuroimaging findings, specifically hypoplasia of the corpus callosum (HP:0002079; ~8/13) and ventriculomegaly (HP:0002119; ~6/13), alongside arched eyebrows (HP:0002553) and thin upper lip vermilion (HP:0000219), represent defining gestalt components.",
+      "The most discriminating features distinguishing TRA2B-related syndrome from overlapping syndromes (e.g., Coffin-Siris syndrome, Pitt-Hopkins syndrome, and other spliceosome-associated neurodevelopmental disorders like HNRNP-related syndromes) are the absence of hypertrichosis/severe nail hypoplasia, lack of distinct Pitt-Hopkins hyperventilation episodes, and consistent severe expressive language deficit relative to motor milestones.",
+      "Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "Genotype-phenotype correlations show that recurrent missense variants affecting critical RNA-recognition motif (RRM) or RS domains may cause distinct or more severe neurodevelopmental and microcephalic presentations compared to putative loss-of-function variants, but cohort sizes remain small."
+    ]
+  },
+  "prior_candidates": [
+    {
+      "answer": "Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotype frequencies"
+    },
+    {
+      "answer": "Facial dysmorphisms and structural neuroimaging findings, specifically hypoplasia of the corpus callosum (HP:0002079; ~8/13) and ventriculomegaly (HP:0002119; ~6/13), alongside arched eyebrows (HP:0002553) and thin upper lip vermilion (HP:0000219), represent defining gestalt components.",
+      "confidence": 0.75,
+      "aspect": "Craniofacial and neuroimaging features"
+    },
+    {
+      "answer": "The most discriminating features distinguishing TRA2B-related syndrome from overlapping syndromes (e.g., Coffin-Siris syndrome, Pitt-Hopkins syndrome, and other spliceosome-associated neurodevelopmental disorders like HNRNP-related syndromes) are the absence of hypertrichosis/severe nail hypoplasia, lack of distinct Pitt-Hopkins hyperventilation episodes, and consistent severe expressive language deficit relative to motor milestones.",
+      "confidence": 0.7,
+      "aspect": "Differential diagnosis and discriminating findings"
+    },
+    {
+      "answer": "Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "confidence": 0.75,
+      "aspect": "Exclusionary / absent phenotypes"
+    },
+    {
+      "answer": "Genotype-phenotype correlations show that recurrent missense variants affecting critical RNA-recognition motif (RRM) or RS domains may cause distinct or more severe neurodevelopmental and microcephalic presentations compared to putative loss-of-function variants, but cohort sizes remain small.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "directions": {
+    "d1": {
+      "id": "d1",
+      "question_text": "What are the exact numerators and denominators for every published individual with TRA2B pathogenic variants across primary discovery papers?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "EXPLORED",
+      "promise": 0.96,
+      "est_cost": 1.0,
+      "allocated_usd": 1.9498145439999999,
+      "spent_usd": 0.015485499999999985,
+      "alloc_rationale": "Directly establishes comprehensive cohort-specific numerators, denominators, and verbatim phenotypic descriptions across all primary discovery papers including Ramond et al. (2023).",
+      "produced_hypotheses": [
+        "h12",
+        "h13",
+        "h14"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d2": {
+      "id": "d2",
+      "question_text": "Do individuals with truncating variants present with haploinsufficiency phenotypes identical to those with missense variants in the RRM domain?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.47419056526164444,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d3": {
+      "id": "d3",
+      "question_text": "Are there any documented contradictions regarding epilepsy prevalence or EEG findings across reported cohorts?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4760426059980131,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d4": {
+      "id": "d4",
+      "question_text": "What specific dysmorphic features reliably distinguish TRA2B patients from other heterogeneous spliceosomal NDDs in blind clinical evaluation?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.46946313335680184,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d5": {
+      "id": "d5",
+      "question_text": "Resolve the conflict over: Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: The hypothesis assumes a denominator of 15 individuals (~15/15 ID/DD, ~14/15 speech impairment, ~12/15 hypotonia, ~10-11/15 microcephaly), whereas the primary defining cohort (Ramond et al., 2023) evaluated 12 individuals (12/12 ID/DD, 10/12 hypotonia, 10/12 head circumference below average / microcephaly).",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 1.0,
+      "allocated_usd": 1.9780683000000001,
+      "spent_usd": 0.01684999999999999,
+      "alloc_rationale": "Resolving the cohort denominator discrepancy (12 vs 15 individuals) is critical to establish verified phenotype frequencies and exact numerators/denominators.",
+      "produced_hypotheses": [
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "tests_hypothesis_id": "h1",
+      "origin": "agent"
+    },
+    "d6": {
+      "id": "d6",
+      "question_text": "What are the exact frequencies and severity ratings of expressive vs receptive language impairment across all currently identified TRA2B cases?",
+      "parent_id": null,
+      "rationale": "The hypothesis posits severe expressive speech impairment in nearly all patients (~14/15), but specific speech impairment subtyping needs systematically tabulated data beyond generalized developmental delay/intellectual disability.",
+      "status": "OPEN",
+      "promise": 0.4181871080142773,
+      "est_cost": 5000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d7": {
+      "id": "d7",
+      "question_text": "Does the electroclinical phenotype (specifically infantile spasms / epileptic spasms) correlate with the exact position of variants in the 5' coding region of TRA2B?",
+      "parent_id": null,
+      "rationale": "Infantile spasms occur in approximately 50% (6/12) of individuals; evaluating whether variation in Tra2b-3 expression or alternative translation initiation influences seizure susceptibility would clarify clinical phenotypic variability.",
+      "status": "OPEN",
+      "promise": 0.38540097656628314,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d8": {
+      "id": "d8",
+      "question_text": "Resolve the conflict over: Facial dysmorphisms and structural neuroimaging findings, specifically hypoplasia of the corpus callosum (HP:0002079; ~8/13) and ventriculomegaly (HP:0002119; ~6/13), alongside arched eyebrows (HP:0002553) and thin upper lip vermilion (HP:0000219), represent defining gestalt components.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: The hypothesis asserts that arched eyebrows and a thin upper lip vermilion are defining components of a facial gestalt, whereas published clinical descriptions classify facial features as non-specific and variable.; Corpus callosum hypoplasia and ventriculomegaly are identified in only a subset (~54%) of individuals, indicating they cannot serve as invariant phenotypic filters to distinguish TRA2B syndrome from phenocopying neurodevelopmental disorders.",
+      "status": "OPEN",
+      "promise": 0.40803999554749176,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h2",
+      "origin": "agent"
+    },
+    "d9": {
+      "id": "d9",
+      "question_text": "Does computer-assisted facial phenotyping (e.g., GestaltMatcher or Face2Gene) identify a statistically significant facial signature in TRA2B patients compared to control neurodevelopmental cohorts?",
+      "parent_id": null,
+      "rationale": "Because standard clinical descriptions label dysmorphisms as variable, automated facial analysis across photograph cohorts could determine whether a sub-visual or unrecognized distinctive gestalt exists.",
+      "status": "OPEN",
+      "promise": 0.3859814112801556,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d10": {
+      "id": "d10",
+      "question_text": "What is the penetrance and precise numerator/denominator of specific structural brain anomalies across an expanded international TRA2B registry?",
+      "parent_id": null,
+      "rationale": "Clarifying whether corpus callosum hypoplasia or specific cerebellar/cortical patterns correlate with variant location or patient age will improve the utility of neuroimaging for differential diagnosis.",
+      "status": "OPEN",
+      "promise": 0.37964325984519776,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d11": {
+      "id": "d11",
+      "question_text": "As larger international cohorts of individuals with TRA2B variants are identified, what is the precise incidence and spectrum of minor vs. hemodynamically significant cardiac anomalies?",
+      "parent_id": null,
+      "rationale": "Only 12 individuals have been comprehensively phenotyped in the literature so far; expanded registry data are necessary to confirm whether complex cardiac defects truly never occur.",
+      "status": "OPEN",
+      "promise": 0.37801051538640196,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d12": {
+      "id": "d12",
+      "question_text": "Do detailed ophthalmologic evaluations (funduscopy, electroretinography, optical coherence tomography) in RAMELN patients reveal subtle subclinical retinal or optic nerve anomalies despite the absence of gross structural malformations?",
+      "parent_id": null,
+      "rationale": "While gross structural ocular defects like coloboma and microphthalmia are absent, defining whether subclinical optic nerve hypoplasia or retinal dystrophy occurs will further refine discriminating phenotypes.",
+      "status": "OPEN",
+      "promise": 0.35611223324841723,
+      "est_cost": 20000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d13": {
+      "id": "d13",
+      "question_text": "Re-investigate (refuted): The most discriminating features distinguishing TRA2B-related syndrome from overlapping syndromes (e.g., Coffin-Siris syndrome, Pitt-Hopkins syndrome, and other spliceosome-associated neurodevelopmental disorders like HNRNP-related syndromes) are the absence of hypertrichosis/severe nail hypoplasia, lack of distinct Pitt-Hopkins hyperventilation episodes, and consistent severe expressive language deficit relative to motor milestones.",
+      "parent_id": null,
+      "rationale": "deep test refuted it: The hypothesis posits specific clinical discriminators for Ramond-Elliott neurodevelopmental syndrome (TRA2B-related syndrome) against Coffin-Siris syndrome, Pitt-Hopkins syndrome, and HNRNP-related disorders (specifically highlighting the absence of hypertrichosis/nail hypoplasia, absence of hyperventilation episodes, and severe expressive language deficits relative to motor milestones). However, systematic evaluation of the available clinical and molecular literature on TRA2B (Ramond et al., 2023, reporting 12 patients from 11 families) confirms a core phenotype of global developmental delay/intellectual disability, infantile spasms, microcephaly, brain malformations, autism spectrum disorder, feeding difficulties, and short stature, but provides no empirical support or validation for the claim that these proposed specific negative or relative features serve as distinguishing diagnostic markers against Coffin-Siris or Pitt-Hopkins syndromes. Because the hypothesis introduces candidate discriminators unsupported by cohort data in the primary literature, it cannot be sustained.",
+      "status": "OPEN",
+      "promise": 0.4776631795463662,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h3",
+      "origin": "agent"
+    },
+    "d14": {
+      "id": "d14",
+      "question_text": "In expanded international TRA2B cohorts, what are the exact numerator and denominator frequencies of expressive language impairment versus motor delays, nail hypoplasia, and respiratory pattern abnormalities?",
+      "parent_id": null,
+      "rationale": "To formally evaluate if clinical gestalt can differentiate TRA2B-related disorders from clinically overlapping neurodevelopmental syndromes prior to exome/genome sequencing.",
+      "status": "OPEN",
+      "promise": 0.4288959471643521,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d15": {
+      "id": "d15",
+      "question_text": "Do downstream alternative splicing targets of Tra2\u03b2 overlap with transcripts dysregulated in HNRNP-related spliceosomopathies or SWI/SNF-related disorders (Coffin-Siris)?",
+      "parent_id": null,
+      "rationale": "Determining whether phenotypic similarities between TRA2B and other syndromic neurodevelopmental conditions arise from shared transcriptome-wide splicing aberrations.",
+      "status": "OPEN",
+      "promise": 0.3698927245503991,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d16": {
+      "id": "d16",
+      "question_text": "Build on the confirmed prior: Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "EXPLORED",
+      "promise": 0.9,
+      "est_cost": 1.0,
+      "allocated_usd": 1.9780683000000001,
+      "spent_usd": 0.01286799999999999,
+      "alloc_rationale": "Directly addresses Question 3 by establishing the clinical findings confirmed to be absent that rule against a TRA2B-related diagnosis.",
+      "produced_hypotheses": [
+        "h9",
+        "h10",
+        "h11"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d17": {
+      "id": "d17",
+      "question_text": "What is the exact incidence and EEG pattern of infantile spasms (e.g., hypsarrhythmia) and other seizure types across all molecularly confirmed TRA2B patients in Ramond et al. (2023)?",
+      "parent_id": "d5",
+      "rationale": "Clarifying the specific seizure semiology and response to standard epileptic spasm treatments (ACTH/vigabatrin) will establish whether RAMELN is an epileptic encephalopathy syndrome.",
+      "status": "OPEN",
+      "promise": 0.5812304803003521,
+      "est_cost": 0.4,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d18": {
+      "id": "d18",
+      "question_text": "What are the exact numerators and denominators for brain MRI anomalies (such as corpus callosum hypoplasia and ventriculomegaly) in the 12 individuals from the Ramond et al. (2023) cohort?",
+      "parent_id": "d5",
+      "rationale": "Previous binned claims referenced structural MRI rates with a denominator of 13 (~8/13 and ~6/13), which conflicts with the N=12 patient cohort reported in the primary paper.",
+      "status": "OPEN",
+      "promise": 0.5725795596087677,
+      "est_cost": 0.45,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d19": {
+      "id": "d19",
+      "question_text": "What is the exact incidence of subclinical or minor cardiovascular anomalies (such as atrial septal defect, patent ductus arteriosus, or peripheral pulmonary stenosis) versus major complex congenital heart disease across all expanded TRA2B cohorts?",
+      "parent_id": "d16",
+      "rationale": "Clarifying whether benign transitional murmurs or minor septal defects ever co-occur will prevent clinicians from erroneously discarding a TRA2B diagnosis when an incidental minor murmur/PFO is detected.",
+      "status": "OPEN",
+      "promise": 0.5148586929196048,
+      "est_cost": 0.45,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d20": {
+      "id": "d20",
+      "question_text": "Which functional visual deficits (such as cerebral visual impairment or strabismus) manifest in TRA2B patients in the absence of structural ocular malformations?",
+      "parent_id": "d16",
+      "rationale": "Distinguishing cerebral/cortical visual processing impairment from primary structural ocular pathology reinforces the negative predictive power of absent structural eye malformations.",
+      "status": "OPEN",
+      "promise": 0.4958563757471651,
+      "est_cost": 0.4,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d21": {
+      "id": "d21",
+      "question_text": "What is the electroclinical responsiveness of TRA2B-associated infantile spasms to first-line therapies such as ACTH, high-dose oral corticosteroids, or vigabatrin compared to other genetic epileptic spasms syndromes?",
+      "parent_id": "d5",
+      "rationale": "Infantile spasms in genetic neurodevelopmental syndromes often demonstrate etiology-dependent treatment response profiles; delineating this can optimize neurodevelopmental outcomes in RAMELN.",
+      "status": "OPEN",
+      "promise": 0.45126647440379075,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d22": {
+      "id": "d22",
+      "question_text": "Do pathogenic variants located downstream of the alternative translation start site in TRA2B cause an attenuated or non-epileptic phenotype, or do they escape the dominant-negative mechanism observed with 5' variants?",
+      "parent_id": "d5",
+      "rationale": "Ramond et al. demonstrated that 5' variants drive pathological overexpression of the repressive Tra2\u03b2-3 isoform; determining whether 3' variants act via simple haploinsufficiency will clarify genotype-phenotype correlations regarding seizure penetrance.",
+      "status": "OPEN",
+      "promise": 0.4447089193269471,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d23": {
+      "id": "d23",
+      "question_text": "What are the exact prevalence rates of non-neurological features (such as cardiac anomalies, feeding difficulties, or skeletal findings) in expanded multi-center TRA2B patient registries beyond the initial 12 individuals?",
+      "parent_id": "d5",
+      "rationale": "Clarifying non-neurological manifestations will help distinguish Ramond-Elliott syndrome clinically from other spliceosomopathies and early infantile epileptic encephalopathies with overlapping hypotonia and microcephaly.",
+      "status": "OPEN",
+      "promise": 0.4682069005606925,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d24": {
+      "id": "d24",
+      "question_text": "Does variant position within the 5' region of TRA2B correlate with the severity of microcephaly (-4 SD vs milder subnormal head circumference) or drug responsiveness of infantile spasms?",
+      "parent_id": "d5",
+      "rationale": "Initial studies show clustering of variants upstream of an alternative translation initiation site; testing whether specific positions alter the relative expression of Tra2\u03b2-3 could explain the phenotypic variability observed in the cohort.",
+      "status": "OPEN",
+      "promise": 0.4440284390980128,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d25": {
+      "id": "d25",
+      "question_text": "Resolve the conflict over: Postnatal growth failure, characterized specifically by short stature (HP:0004322) and early feeding difficulties (HP:0011968), is a core systemic feature of Ramond-Elliott syndrome that co-occurs with congenital/postnatal microcephaly (HP:0000252) rather than isolated cranial microcephaly.",
+      "parent_id": "d5",
+      "rationale": "deep test attempt 2 left this contested: While Ramond et al. (2023) and KEGG identify short stature and feeding difficulties as frequent findings co-occurring with microcephaly, OMIM #621421 specifically characterizes poor overall growth and feeding difficulties as 'variable features', demonstrating that systemic growth failure is incomplete in penetrance and not an obligate core criterion across all affected individuals.",
+      "status": "OPEN",
+      "promise": 0.5028499163412421,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h8",
+      "origin": "agent"
+    },
+    "d26": {
+      "id": "d26",
+      "question_text": "What is the exact penetrance (numerator and denominator) of short stature (HP:0004322) versus microcephaly (HP:0000252) across all documented TRA2B cohort patients?",
+      "parent_id": "d5",
+      "rationale": "Quantifying the exact frequency of postnatal height restriction versus head circumference restriction is necessary to establish whether microcephaly can present strictly in isolation without somatic dwarfism.",
+      "status": "OPEN",
+      "promise": 0.5620284667196765,
+      "est_cost": 0.1,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d27": {
+      "id": "d27",
+      "question_text": "Do downstream splicing targets regulated aberrantly by the repressive Tra2\u03b2-3 isoform directly include growth hormone axis or IGF pathway effectors?",
+      "parent_id": "d5",
+      "rationale": "Clarifying the molecular splicing targets beyond CHEK1 will determine whether systemic growth restriction has a direct cellular etiology or is secondary to feeding and neurological dysfunction.",
+      "status": "OPEN",
+      "promise": 0.5129947427600626,
+      "est_cost": 0.2,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d28": {
+      "id": "d28",
+      "question_text": "Resolve the conflict over: Infantile spasms (HP:0012469) and early-onset feeding difficulties (HP:0011968) are present in the majority of TRA2B-related syndrome patients, serving as high-sensitivity positive criteria that distinguish TRA2B from milder non-syndromic microcephalic conditions.",
+      "parent_id": "d16",
+      "rationale": "deep test attempt 1 left this contested: Shatokhina et al. (2023) directly contradict the universal requirement of early feeding difficulties, explicitly reporting an absence of feeding difficulties in a confirmed TRA2B patient with infantile spasms.; Tan et al. (2020) demonstrate that severe feeding difficulties alongside microcephaly and early-onset seizures are present in 100% (4/4) of ADARB1-deficient individuals, refuting the concept that feeding difficulties specifically differentiate TRA2B from other microcephalic epileptic encephalopathies.",
+      "status": "EXPLORED",
+      "promise": 0.89,
+      "est_cost": 1.0,
+      "allocated_usd": 1.9,
+      "spent_usd": 0.015417999999999987,
+      "alloc_rationale": "Directly resolves contradictory reports between Shatokhina et al. (2023) and Ramond et al. (2023) regarding the penetrance and discriminating value of infantile spasms and feeding difficulties.",
+      "produced_hypotheses": [
+        "h15",
+        "h16",
+        "h17"
+      ],
+      "tests_hypothesis_id": "h11",
+      "origin": "agent"
+    },
+    "d29": {
+      "id": "d29",
+      "question_text": "What is the exact penetrance and temporal onset of gastrointestinal symptoms across all known TRA2B variant carriers when compared systematically to age-matched epileptic encephalopathy cohorts?",
+      "parent_id": "d16",
+      "rationale": "Clarifying the prevalence of feeding dysfunction versus constipation and other dysautonomic traits will determine whether feeding problems are primary or secondary to epileptic encephalopathy.",
+      "status": "OPEN",
+      "promise": 0.4538788891166897,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d30": {
+      "id": "d30",
+      "question_text": "Do non-truncating missense or downstream variants in TRA2B cause a milder phenotype lacking infantile spasms and feeding problems?",
+      "parent_id": "d16",
+      "rationale": "Current literature focuses primarily on variants clustered in the 5-prime region causing dominant-negative expression of the shorter Tra2beta-3 isoform; characterization of non-5-prime variants will establish genotype-phenotype boundaries.",
+      "status": "OPEN",
+      "promise": 0.4230004426782844,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d31": {
+      "id": "d31",
+      "question_text": "Re-investigate (refuted): The presence of major structural congenital heart defects (HP:0001627) excludes Ramond-Elliott neurodevelopmental syndrome (TRA2B) in syndromic neurodevelopmental cohorts with a specificity exceeding 95%.",
+      "parent_id": "d16",
+      "rationale": "deep test refuted it: The hypothesis asserts that the presence of major structural congenital heart defects (HP:0001627) excludes Ramond-Elliott neurodevelopmental syndrome (TRA2B) in syndromic neurodevelopmental cohorts with a specificity exceeding 95%. This claim is unsupported and contradicted by the available clinical and molecular literature. First, Ramond-Elliott syndrome has only been systematically characterized in a single landmark cohort of 12 individuals across 11 families (Ramond et al., 2023, PMID: 36549593). With N=12, the statistical upper bound for the frequency of any unobserved or rare manifestation is substantial (by the rule of three, up to ~25%), making an exclusion criterion mathematically ungrounded. Second, TRA2B demonstrates high endogenous expression in cardiac tissue (GeneCards, UniProt) and has documented biological roles in cardiac and pronephric development as well as cardiac conduction disease curation (PanelApp Australia panel 202). Finally, no clinical trial, diagnostic validation, or registry data in syndromic neurodevelopmental cohorts has demonstrated or quantified a >95% specificity for using structural heart defects to exclude TRA2B variants.",
+      "status": "OPEN",
+      "promise": 0.4840459664701728,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h9",
+      "origin": "agent"
+    },
+    "d32": {
+      "id": "d32",
+      "question_text": "In an expanded international cohort of individuals harboring clustered 5' TRA2B variants, what is the exact prevalence and 95% confidence interval of structural congenital heart defects and cardiac conduction defects identified on formal echocardiogram and electrocardiogram screening?",
+      "parent_id": "d16",
+      "rationale": "Only 12 individuals have been reported in detail; comprehensive cardiovascular phenotyping in larger cohorts is required before formulating negative diagnostic rules.",
+      "status": "OPEN",
+      "promise": 0.4599266458348866,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d33": {
+      "id": "d33",
+      "question_text": "What is the true positive and true negative rate of structural heart defects in discriminating Ramond-Elliott syndrome from phenotypically overlapping spliceosomopathy and chromatin-remodeling syndromes?",
+      "parent_id": "d16",
+      "rationale": "Directly evaluates the diagnostic utility and specificity of congenital heart defects across clinically overlapping syndromic neurodevelopmental cohorts.",
+      "status": "OPEN",
+      "promise": 0.45376400104270875,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d34": {
+      "id": "d34",
+      "question_text": "Does systemic ophthalmological screening (dilated funduscopy and ocular biometry) across expanded international TRA2B patient registries confirm a true 0% incidence of optic fissure and axial elongation defects?",
+      "parent_id": "d16",
+      "rationale": "The current reported denominator is limited to 12 patients; expanded cohort screening is necessary to rule out low-penetrance subclinical optic disc coloboma or posterior microphthalmia.",
+      "status": "OPEN",
+      "promise": 0.4183780586770166,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d35": {
+      "id": "d35",
+      "question_text": "How does the competitive dominant-negative interference of Tra2beta-3 on target pre-mRNAs impact retinal and neuroectodermal versus cortical neurogenesis?",
+      "parent_id": "d16",
+      "rationale": "Clarifying downstream isoform-specific splice targets in retinal progenitor cell lines will elucidate the biochemical basis for the preservation of optic cup morphogenesis despite severe cortical disruption.",
+      "status": "OPEN",
+      "promise": 0.4090463467419584,
+      "est_cost": 120000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d36": {
+      "id": "d36",
+      "question_text": "What is the exact individual-level breakdown of brain anomalies (e.g., corpus callosum hypoplasia vs ventriculomegaly) across each of the 13 documented individuals with TRA2B variants?",
+      "parent_id": "d1",
+      "rationale": "Neuroimaging abnormalities are reported in the majority of patients, but the exact breakdown of specific structural callosal, ventricular, and cortical features across individual patients is critical to establish radiological discriminators.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.45,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d37": {
+      "id": "d37",
+      "question_text": "Are there any published cases of heterozygous loss-of-function variants in TRA2B downstream of exon 2 / the alternative start codon in clinical sequencing databases, and do they produce an entirely distinct phenotype or benign carrier state?",
+      "parent_id": "d1",
+      "rationale": "Because the dominant-negative mechanism requires expression of the truncated Tra2\u03b2-3 isoform from the downstream internal start site, loss-of-function variants downstream might lead to true haploinsufficiency or nonsense-mediated decay without overexpressing Tra2\u03b2-3.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 0.5,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d38": {
+      "id": "d38",
+      "question_text": "What is the exact incidence and developmental trajectory of transition from infantile spasms to Lennox-Gastaut syndrome in TRA2B patients compared to other spliceosome-associated neurodevelopmental disorders?",
+      "parent_id": "d28",
+      "rationale": "Ramond et al. highlight that individuals with infantile spasms frequently evolved into Lennox-Gastaut syndrome. Clarifying the exact progression dynamics across documented cases will determine whether this electroclinical evolution is specific to TRA2B-related spliceosomopathies.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 0.45,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d39": {
+      "id": "d39",
+      "question_text": "What specific dysmorphic or neuroimaging features best differentiate TRA2B-related epileptic encephalopathy from ADARB1 deficiency and other microcephalic RNA-processing encephalopathies?",
+      "parent_id": "d28",
+      "rationale": "Because seizures, microcephaly, and feeding difficulties overlap broadly across RNA-editing and RNA-splicing encephalopathies, establishing the distinguishing power of callosal hypoplasia and specific facial gestalt signs is essential.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.55,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d40": {
+      "id": "d40",
+      "question_text": "Are there milder or non-syndromic presentations of TRA2B variation located outside the 5' region or RS1 domain that escape current diagnostic criteria?",
+      "parent_id": "d1",
+      "rationale": "Both known cohorts exclusively documented variants in the 5' coding region that lead to overexpression of the truncated, repressive Tra2\u03b2-3 isoform via an alternative start site. Pathogenic variants in other domains might present with distinct or attenuated phenotypes.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d41": {
+      "id": "d41",
+      "question_text": "Resolve the conflict over: Early feeding difficulties (HP:0011968) represent an incomplete and variable manifestation of Ramond-Elliott neurodevelopmental syndrome rather than an obligate diagnostic criterion, and their absence does not exclude pathogenic TRA2B variants in patients with microcephaly and infantile spasms.",
+      "parent_id": "d28",
+      "rationale": "deep test attempt 2 left this contested: contradicting evidence found",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h15",
+      "origin": "agent"
+    },
+    "d42": {
+      "id": "d42",
+      "question_text": "What is the exact penetrance and clinical resolution of feeding difficulties (e.g., tube dependence vs. transient neonatal sucking weakness) in an expanded international cohort of TRA2B variant carriers?",
+      "parent_id": "d28",
+      "rationale": "Clarifying specific sub-phenotypes of feeding dysfunction across developmental stages will determine whether transient feeding difficulties were subclinically present or truly absent in atypical/milder presentations.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d43": {
+      "id": "d43",
+      "question_text": "Does the presence or severity of feeding difficulties correlate with the specific alternative start codon usage or Tra2beta-3 isoform expression levels across different 5' TRA2B variants?",
+      "parent_id": "d28",
+      "rationale": "Determining genotype-phenotype correlations could explain why some patients present with severe gastrointestinal/swallowing dysfunction while others completely spare feeding.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d44": {
+      "id": "d44",
+      "question_text": "Do non-truncating missense variants located in the Tra2beta RRM or RS2 domains produce distinct neurodevelopmental phenotypes or remain benign/silent in humans?",
+      "parent_id": "d1",
+      "rationale": "Because the established RAMELN mechanism requires escape from nonsense-mediated decay and translation of the truncated Tra2beta-3 dominant-negative isoform, downstream missense or nonsense variants might lead to conventional haploinsufficiency, which control databases indicate may be non-penetrant or mild.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d45": {
+      "id": "d45",
+      "question_text": "Do non-truncating missense variants outside the 5' region of TRA2B cause an attenuated phenotype devoid of infantile spasms or intellectual disability?",
+      "parent_id": "d1",
+      "rationale": "All currently identified pathogenic variants cluster in the 5' coding region upstream of the alternative translation start site; screening broader cohorts will clarify if penetrance remains invariant across distinct mutational mechanisms.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d46": {
+      "id": "d46",
+      "question_text": "Does the presence of structural corpus callosum hypoplasia or specific facial dysmorphisms provide higher discriminative specificity for TRA2B compared to other DEE genes like STXBP1 and CDKL5?",
+      "parent_id": "d28",
+      "rationale": "Because epileptic spasms and early feeding difficulties are broadly shared among DEEs, deep phenotyping of brain MRI abnormalities and dysmorphic features could identify phenotypic clusters unique to TRA2B.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d47": {
+      "id": "d47",
+      "question_text": "What proportion of TRA2B-related Ramond-Elliott patients fail to develop infantile spasms, presenting instead with milder intellectual disability and autism spectrum disorder?",
+      "parent_id": "d28",
+      "rationale": "Clarifying the penetrance of infantile spasms across a broader international cohort of TRA2B variant carriers will define whether spasms are an obligatory diagnostic clue or restricted to specific truncating/dominant-negative mutations in the 5' region.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    }
+  },
+  "hypotheses": {
+    "h1": {
+      "id": "h1",
+      "text": "Core clinical phenotypes include global developmental delay and intellectual disability (reported in 100% of assessed individuals, e.g., ~15/15), severe expressive speech impairment (HP:0001264; ~14/15), infantile hypotonia (HP:0001252; ~12/15), and postnatal or congenital microcephaly (HP:0000252; ~10/15 to 11/15).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Core clinical phenotype frequencies"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.8,
+      "evidence_ids": [
+        "e1",
+        "e2",
+        "e8",
+        "e9"
+      ],
+      "conflicts": [
+        "The hypothesis assumes a denominator of 15 individuals (~15/15 ID/DD, ~14/15 speech impairment, ~12/15 hypotonia, ~10-11/15 microcephaly), whereas the primary defining cohort (Ramond et al., 2023) evaluated 12 individuals (12/12 ID/DD, 10/12 hypotonia, 10/12 head circumference below average / microcephaly)."
+      ],
+      "screen_note": "Ramond-Elliott neurodevelopmental syndrome is characterized by developmental delay/intellectual disability, microcephaly, and related neurological features in affected individuals.",
+      "bin_reason": "contested (4 for / 0 against): The hypothesis assumes a denominator of 15 individuals (~15/15 ID/DD, ~14/15 speech impairment, ~12/15 hypotonia, ~10-11/15 microcephaly), whereas the primary defining cohort (Ramond et al., 2023) evaluated 12 individuals (12/12 ID/DD, 10/12 hypotonia, 10/12 head circumference below average / microcephaly).",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h2": {
+      "id": "h2",
+      "text": "Facial dysmorphisms and structural neuroimaging findings, specifically hypoplasia of the corpus callosum (HP:0002079; ~8/13) and ventriculomegaly (HP:0002119; ~6/13), alongside arched eyebrows (HP:0002553) and thin upper lip vermilion (HP:0000219), represent defining gestalt components.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Craniofacial and neuroimaging features"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e3",
+        "e4",
+        "e10",
+        "e11",
+        "e12"
+      ],
+      "conflicts": [
+        "The hypothesis asserts that arched eyebrows and a thin upper lip vermilion are defining components of a facial gestalt, whereas published clinical descriptions classify facial features as non-specific and variable.",
+        "Corpus callosum hypoplasia and ventriculomegaly are identified in only a subset (~54%) of individuals, indicating they cannot serve as invariant phenotypic filters to distinguish TRA2B syndrome from phenocopying neurodevelopmental disorders."
+      ],
+      "screen_note": "Ramond-Elliott neurodevelopmental syndrome is linked to TRA2B variants characterized by neurodevelopmental delay and brain anomalies including thin or hypoplastic corpus callosum.",
+      "bin_reason": "contested (4 for / 0 against): The hypothesis asserts that arched eyebrows and a thin upper lip vermilion are defining components of a facial gestalt, whereas published clinical descriptions classify facial features as non-specific and variable.; Corpus callosum hypoplasia and ventriculomegaly are identified in only a subset (~54%) of individuals, indicating they cannot serve as invariant phenotypic filters to distinguish TRA2B syndrome from phenocopying neurodevelopmental disorders.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h3": {
+      "id": "h3",
+      "text": "The most discriminating features distinguishing TRA2B-related syndrome from overlapping syndromes (e.g., Coffin-Siris syndrome, Pitt-Hopkins syndrome, and other spliceosome-associated neurodevelopmental disorders like HNRNP-related syndromes) are the absence of hypertrichosis/severe nail hypoplasia, lack of distinct Pitt-Hopkins hyperventilation episodes, and consistent severe expressive language deficit relative to motor milestones.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Differential diagnosis and discriminating findings"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e6",
+        "e15",
+        "e16"
+      ],
+      "conflicts": [
+        "The clinical criteria defining Ramond-Elliott syndrome rely strictly on 5' coding region variants in TRA2B yielding dominant-negative expression of the Tra2\u03b2-3 isoform, whereas comparative phenotyping and discriminating power against Coffin-Siris and Pitt-Hopkins syndromes have not been formally established in published cohorts."
+      ],
+      "screen_note": "Ramond et al. (2023) established the phenotype of Ramond-Elliott syndrome across 12 patients; differentiating its clinical profile from overlapping neurodevelopmental syndromes like Pitt-Hopkins and Coffin-Siris is coherent and grounded.",
+      "bin_reason": "refuted: The hypothesis posits specific clinical discriminators for Ramond-Elliott neurodevelopmental syndrome (TRA2B-related syndrome) against Coffin-Siris syndrome, Pitt-Hopkins syndrome, and HNRNP-related disorders (specifically highlighting the absence of hypertrichosis/nail hypoplasia, absence of hyperventilation episodes, and severe expressive language deficits relative to motor milestones). However, systematic evaluation of the available clinical and molecular literature on TRA2B (Ramond et al., 2023, reporting 12 patients from 11 families) confirms a core phenotype of global developmental delay/intellectual disability, infantile spasms, microcephaly, brain malformations, autism spectrum disorder, feeding difficulties, and short stature, but provides no empirical support or validation for the claim that these proposed specific negative or relative features serve as distinguishing diagnostic markers against Coffin-Siris or Pitt-Hopkins syndromes. Because the hypothesis introduces candidate discriminators unsupported by cohort data in the primary literature, it cannot be sustained.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h4": {
+      "id": "h4",
+      "text": "Major structural congenital heart defects (HP:0001627) and severe ocular malformations (such as coloboma or microphthalmia) are generally absent in affected patients, meaning their presence strongly argues against a TRA2B diagnosis.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Exclusionary / absent phenotypes"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e5",
+        "e13",
+        "e14"
+      ],
+      "conflicts": [],
+      "screen_note": "Initial cohort reports of Ramond-Elliott syndrome (12 patients) highlight neurodevelopmental anomalies without prominent major structural heart or severe ocular malformations.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h5": {
+      "id": "h5",
+      "text": "Genotype-phenotype correlations show that recurrent missense variants affecting critical RNA-recognition motif (RRM) or RS domains may cause distinct or more severe neurodevelopmental and microcephalic presentations compared to putative loss-of-function variants, but cohort sizes remain small.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Genotype-phenotype correlation"
+      ],
+      "status": "binned",
+      "verdict": "untested",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e7"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond-Elliott syndrome is caused specifically by 5'-clustered predicted loss-of-function variants resulting in alternative translation initiation, not recurrent missense variants in RRM or RS domains.",
+      "bin_reason": "screen: Ramond-Elliott syndrome is caused specifically by 5'-clustered predicted loss-of-function variants resulting in alternative translation initiation, not recurrent missense variants in RRM or RS domains.",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h6": {
+      "id": "h6",
+      "text": "The primary defining cohort for Ramond-Elliott neurodevelopmental syndrome (OMIM #621421) establishes a definitive denominator of N=12 individuals (from 11 unrelated families), exhibiting exact phenotypic frequencies of 12/12 (100%) for intellectual disability/developmental delay, 10/12 (83.3%) for neonatal- or infantile-onset hypotonia (HP:0001252), and 10/12 (83.3%) for microcephaly or subnormal head circumference (HP:0000252), refuting reported denominators of 15.",
+      "direction_id": "d5",
+      "rationale": "Deep testing attempt 1 contested the earlier binned hypothesis because it posited a denominator of 15 individuals (~15/15 ID/DD, ~12/15 hypotonia, ~10-11/15 microcephaly), whereas the original landmark study by Ramond et al. (2023) evaluated only 12 individuals.",
+      "aspects": [
+        "phenotype-frequency",
+        "cohort-resolution",
+        "diagnostic-criteria"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e17",
+        "e18",
+        "e26",
+        "e35"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond et al. (2023) originally identified Ramond-Elliott syndrome in a landmark cohort of exactly 12 individuals from 11 unrelated families, all presenting with ID/DD.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h7": {
+      "id": "h7",
+      "text": "Infantile spasms (HP:0012469) and early-onset epileptic encephalopathy represent a key core neurological manifestation of TRA2B 5' coding region variants, occurring in a significant subpopulation alongside the core triad of hypotonia, microcephaly, and developmental delay.",
+      "direction_id": "d5",
+      "rationale": "Understanding whether seizures in Ramond-Elliott syndrome present specifically as infantile spasms helps distinguish it from other spliceosomal and neurodevelopmental delay syndromes presenting with generic focal or generalized seizures.",
+      "aspects": [
+        "seizures",
+        "infantile-spasms",
+        "differential-diagnosis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e19",
+        "e28",
+        "e29"
+      ],
+      "conflicts": [],
+      "screen_note": "Variants clustered in the 5' coding region of TRA2B cause Ramond-Elliott syndrome, with infantile spasms and early-onset epilepsy reported in over half of affected individuals.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h8": {
+      "id": "h8",
+      "text": "Postnatal growth failure, characterized specifically by short stature (HP:0004322) and early feeding difficulties (HP:0011968), is a core systemic feature of Ramond-Elliott syndrome that co-occurs with congenital/postnatal microcephaly (HP:0000252) rather than isolated cranial microcephaly.",
+      "direction_id": "d5",
+      "rationale": "Establishing whether microcephaly in TRA2B syndrome is part of generalized post-natal growth impairment or an isolated cephalic restriction is crucial for clinical triage and differential diagnosis against microcephalic primordial dwarfism versus isolated intellectual disability syndromes.",
+      "aspects": [
+        "growth-impairment",
+        "feeding-difficulties",
+        "microcephaly"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e20",
+        "e21",
+        "e32",
+        "e33",
+        "e36"
+      ],
+      "conflicts": [
+        "While Ramond et al. (2023) and KEGG identify short stature and feeding difficulties as frequent findings co-occurring with microcephaly, OMIM #621421 specifically characterizes poor overall growth and feeding difficulties as 'variable features', demonstrating that systemic growth failure is incomplete in penetrance and not an obligate core criterion across all affected individuals."
+      ],
+      "screen_note": "Literature establishes that TRA2B-associated Ramond-Elliott syndrome frequently features microcephaly alongside short stature and feeding difficulties.",
+      "bin_reason": "contested (5 for / 0 against): While Ramond et al. (2023) and KEGG identify short stature and feeding difficulties as frequent findings co-occurring with microcephaly, OMIM #621421 specifically characterizes poor overall growth and feeding difficulties as 'variable features', demonstrating that systemic growth failure is incomplete in penetrance and not an obligate core criterion across all affected individuals.",
+      "test_attempts": 2,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h9": {
+      "id": "h9",
+      "text": "The presence of major structural congenital heart defects (HP:0001627) excludes Ramond-Elliott neurodevelopmental syndrome (TRA2B) in syndromic neurodevelopmental cohorts with a specificity exceeding 95%.",
+      "direction_id": "d16",
+      "rationale": "While TRA2B was reviewed on congenital heart defect gene panels (e.g., PanelApp Australia), systematic clinical characterization of TRA2B loss-of-function cohorts demonstrates a primary neurodevelopmental phenotype (intellectual disability, microcephaly, brain anomalies, infantile spasms, feeding difficulties) without primary cardiogenesis disruption.",
+      "aspects": [
+        "differential diagnosis",
+        "cardiac phenotype",
+        "exclusion criteria"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.08,
+      "evidence_ids": [
+        "e22",
+        "e23",
+        "e27",
+        "e40"
+      ],
+      "conflicts": [
+        "While the original clinical cohort of 12 patients did not highlight congenital heart disease as a recurrent primary diagnostic hallmark, the total characterized cohort size (N=12) is far too limited to define exclusion criteria or specify a >95% diagnostic specificity metric.",
+        "TRA2B is prominently expressed in human heart tissue and implicated in cardiac developmental pathways and cardiac conduction panels, meaning cardiac manifestations cannot be definitively ruled out as potential pleiotropic or co-occurring features."
+      ],
+      "screen_note": "Ramond-Elliott neurodevelopmental syndrome manifests primarily as intellectual disability, microcephaly, and seizures without prominent reports of congenital heart defects.",
+      "bin_reason": "refuted: The hypothesis asserts that the presence of major structural congenital heart defects (HP:0001627) excludes Ramond-Elliott neurodevelopmental syndrome (TRA2B) in syndromic neurodevelopmental cohorts with a specificity exceeding 95%. This claim is unsupported and contradicted by the available clinical and molecular literature. First, Ramond-Elliott syndrome has only been systematically characterized in a single landmark cohort of 12 individuals across 11 families (Ramond et al., 2023, PMID: 36549593). With N=12, the statistical upper bound for the frequency of any unobserved or rare manifestation is substantial (by the rule of three, up to ~25%), making an exclusion criterion mathematically ungrounded. Second, TRA2B demonstrates high endogenous expression in cardiac tissue (GeneCards, UniProt) and has documented biological roles in cardiac and pronephric development as well as cardiac conduction disease curation (PanelApp Australia panel 202). Finally, no clinical trial, diagnostic validation, or registry data in syndromic neurodevelopmental cohorts has demonstrated or quantified a >95% specificity for using structural heart defects to exclude TRA2B variants.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h10": {
+      "id": "h10",
+      "text": "Severe structural ocular dysmorphology (including coloboma HP:0000589 and microphthalmia HP:0000568) occurs in 0% of TRA2B-related syndrome cases, providing a reliable phenotypic discriminator from phenotypically overlapping spliceosomopathies and chromatinopathies such as CHARGE syndrome.",
+      "direction_id": "d16",
+      "rationale": "TRA2B-mediated alternative splicing disruption via dominant-negative overexpression of the shorter Tra2beta-3 isoform impairs cerebral morphogenesis and cortical growth without disrupting embryological optic cup closure or ocular axial elongation.",
+      "aspects": [
+        "ocular phenotype",
+        "differential diagnosis",
+        "exclusion criteria"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.82,
+      "evidence_ids": [
+        "e24",
+        "e30",
+        "e31",
+        "e41",
+        "e42"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond-Elliott syndrome involves dominant-negative TRA2B-3 isoform expression, and coloboma is a hallmark of overlapping conditions like CHARGE syndrome.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h11": {
+      "id": "h11",
+      "text": "Infantile spasms (HP:0012469) and early-onset feeding difficulties (HP:0011968) are present in the majority of TRA2B-related syndrome patients, serving as high-sensitivity positive criteria that distinguish TRA2B from milder non-syndromic microcephalic conditions.",
+      "direction_id": "d16",
+      "rationale": "Delineating the specific early clinical presentation of RAMELN helps clinicians combine the negative predictive value of absent cardiac/ocular defects with positive early-life neurometabolic-like manifestations.",
+      "aspects": [
+        "epilepsy",
+        "feeding difficulties",
+        "positive discriminators"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e25",
+        "e34",
+        "e37",
+        "e38",
+        "e39"
+      ],
+      "conflicts": [
+        "Shatokhina et al. (2023) directly contradict the universal requirement of early feeding difficulties, explicitly reporting an absence of feeding difficulties in a confirmed TRA2B patient with infantile spasms.",
+        "Tan et al. (2020) demonstrate that severe feeding difficulties alongside microcephaly and early-onset seizures are present in 100% (4/4) of ADARB1-deficient individuals, refuting the concept that feeding difficulties specifically differentiate TRA2B from other microcephalic epileptic encephalopathies."
+      ],
+      "screen_note": "Primary cohort descriptions of Ramond-Elliott syndrome explicitly confirm that infantile spasms and feeding difficulties are core, frequent manifestations.",
+      "bin_reason": "contested (3 for / 2 against): Shatokhina et al. (2023) directly contradict the universal requirement of early feeding difficulties, explicitly reporting an absence of feeding difficulties in a confirmed TRA2B patient with infantile spasms.; Tan et al. (2020) demonstrate that severe feeding difficulties alongside microcephaly and early-onset seizures are present in 100% (4/4) of ADARB1-deficient individuals, refuting the concept that feeding difficulties specifically differentiate TRA2B from other microcephalic epileptic encephalopathies.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h12": {
+      "id": "h12",
+      "text": "Across the complete primary clinical literature, exactly 13 unique individuals across 12 unrelated families (12 from Ramond et al., 2023 and 1 from Shatokhina et al., 2023) define the total worldwide published cohort of germline TRA2B-related Ramond-Elliott syndrome.",
+      "direction_id": "d1",
+      "rationale": "Prior summaries cite inconsistent total cohort sizes ranging between 11, 12, 13, and 15 individuals. A critical examination of primary discovery and follow-up case papers identifies precisely two primary publications describing patients with germline TRA2B variants: the discovery cohort of 12 individuals and the second independent case study of 1 individual, establishing the definitive denominator of N=13 for calculating cumulative phenotypic penetrance.",
+      "aspects": [
+        "cohort size",
+        "primary literature",
+        "denominator"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e43",
+        "e44",
+        "e54",
+        "e60",
+        "e61",
+        "e62"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond et al. described 12 individuals across 11 families, and Shatokhina et al. reported a single individual as the second study, summing to 13 individuals across 12 families.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h13": {
+      "id": "h13",
+      "text": "Global developmental delay and intellectual disability (HP:0001263 / HP:0001249) has 100% penetrance (exact cumulative numerator 13/13), whereas infantile spasms/seizures (HP:0012469 / HP:0001250) has an exact penetrance between 50% and 75% in molecularly confirmed TRA2B patients.",
+      "direction_id": "d1",
+      "rationale": "While intellectual disability is invariant across all 13 reported individuals, seizures and infantile spasms are frequent but not universal, serving as a sub-phenotypic marker that distinguishes more severe epileptic presentations from non-epileptic neurodevelopmental delay.",
+      "aspects": [
+        "penetrance",
+        "epilepsy",
+        "phenotype frequency"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e45",
+        "e46",
+        "e65",
+        "e66",
+        "e67"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature confirms intellectual disability/developmental delay is universal across reported TRA2B cases while seizures/infantile spasms are frequent but present in a subset.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h14": {
+      "id": "h14",
+      "text": "All 13 published germline pathogenic variants in TRA2B cluster exclusively within the 5' region (exon 2 / RS1 domain) upstream of the alternative translation start site, indicating that pathogenic variants outside this specific hotspot do not cause classic Ramond-Elliott syndrome.",
+      "direction_id": "d1",
+      "rationale": "Understanding the exact genetic spectrum across all 13 published individuals reveals whether missense or truncating variants downstream in the RRM or RS2 domains produce the syndrome, or if the disease mechanism strictly requires disruption of the RS1 domain causing selective overexpression of the noncanonical dominant-negative Tra2\u03b2-3 isoform.",
+      "aspects": [
+        "genotype-phenotype",
+        "mutational hotspot",
+        "disease mechanism"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e47",
+        "e48",
+        "e63",
+        "e64"
+      ],
+      "conflicts": [],
+      "screen_note": "All 13 reported patients across two studies (12 in Ramond et al. 2023 and 1 in Shatokhina et al. 2023) harbor variants clustering in the 5' coding region/RS1 domain upstream of the alternative start site.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h15": {
+      "id": "h15",
+      "text": "Early feeding difficulties (HP:0011968) represent an incomplete and variable manifestation of Ramond-Elliott neurodevelopmental syndrome rather than an obligate diagnostic criterion, and their absence does not exclude pathogenic TRA2B variants in patients with microcephaly and infantile spasms.",
+      "direction_id": "d28",
+      "rationale": "While initial cohort reports by Ramond et al. identified feeding difficulties as a common feature, Shatokhina et al. documented a confirmed patient with a de novo pathogenic TRA2B splice variant and infantile spasms who explicitly lacked feeding difficulties. Formulating this resolves whether feeding difficulty can serve as an obligatory sensitivity filter.",
+      "aspects": [
+        "phenotype sensitivity",
+        "feeding difficulties",
+        "diagnostic criteria"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.95,
+      "evidence_ids": [
+        "e49",
+        "e50",
+        "e57",
+        "e58"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond et al. (2023) directly reported feeding difficulties in only 7 of 12 individuals (58%), confirming it is variable rather than obligate.",
+      "bin_reason": "contested (3 for / 1 against): contradicting evidence found",
+      "test_attempts": 2,
+      "parent_id": "h11",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h16": {
+      "id": "h16",
+      "text": "Infantile spasms (HP:0012469) and early epileptic encephalopathy occur in over 70% of individuals with pathogenic 5' coding region or RS1 domain TRA2B variants, establishing epileptic spasms as a sensitive hallmark within this specific mutational hot-spot.",
+      "direction_id": "d28",
+      "rationale": "Both the original cohort of 12 individuals reported by Ramond et al. and the single case reported by Shatokhina et al. emphasize pharmacoresistant infantile spasms (often transitioning into Lennox-Gastaut syndrome) as a core neurological presentation linked directly to the dominant-negative overexpression of the noncanonical Tra2\u03b2-3 isoform.",
+      "aspects": [
+        "infantile spasms",
+        "epilepsy",
+        "genotype-phenotype correlation"
+      ],
+      "status": "binned",
+      "verdict": "untested",
+      "confidence": 0.2,
+      "evidence_ids": [
+        "e51",
+        "e52",
+        "e59"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond et al. (2023) established that infantile spasms occurred in 6/12 (50%) and epileptic encephalopathy in 7/12 (58%) of individuals with 5' TRA2B variants, contradicting the >70% frequency claim.",
+      "bin_reason": "screen: Ramond et al. (2023) established that infantile spasms occurred in 6/12 (50%) and epileptic encephalopathy in 7/12 (58%) of individuals with 5' TRA2B variants, contradicting the >70% frequency claim.",
+      "test_attempts": 1,
+      "parent_id": "h11",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h17": {
+      "id": "h17",
+      "text": "The combination of early-onset feeding difficulties (HP:0011968) and infantile spasms (HP:0012469) differentiates Ramond-Elliott syndrome from non-syndromic/isolated primary microcephalies, but possesses near-zero specificity for distinguishing TRA2B from other microcephalic developmental and epileptic encephalopathies (DEEs).",
+      "direction_id": "d28",
+      "rationale": "Microcephalic DEEs (such as ADARB1-related disorders, CDKL5 deficiency, and STXBP1 encephalopathy) commonly feature early intractable spasms and feeding impairment. Therefore, co-occurrence differentiates syndromic microcephalic DEEs from uncomplicated primary microcephalies, but cannot differentiate TRA2B from other epileptic encephalopathies without additional discriminating features (such as callosal hypoplasia or characteristic dysmorphisms).",
+      "aspects": [
+        "differential diagnosis",
+        "microcephalic DEE",
+        "phenotypic specificity"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e53",
+        "e55",
+        "e56",
+        "e68",
+        "e69",
+        "e70",
+        "e71"
+      ],
+      "conflicts": [],
+      "screen_note": "Ramond et al. (2023) confirmed feeding difficulties and infantile spasms are core features of Ramond-Elliott syndrome, but infantile spasms are widely shared across diverse microcephalic DEEs, making this combination unspecific among epileptic encephalopathies.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h11",
+      "origin": "agent",
+      "pinned": false
+    }
+  },
+  "evidence": {
+    "e1": {
+      "id": "e1",
+      "text": "In a cohort of 12 individuals with TRA2B variants, all affected individuals presented intellectual disability and/or developmental delay, frequently associated with microcephaly, infantile spasms, brain anomalies, and feeding difficulties.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited. ... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "individuals recruited": 12,
+        "unrelated families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e2": {
+      "id": "e2",
+      "text": "Ramond-Elliott neurodevelopmental syndrome (OMIM #621421) features variable manifestations including poor overall growth, dysmorphic facial features, feeding difficulties, and brain atrophy on MRI.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "More variable features include poor overall growth, dysmorphic facial features, feeding difficulties, and brain atrophy on MRI",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e3": {
+      "id": "e3",
+      "text": "The founding cohort of Ramond-Elliott neurodevelopmental syndrome identified individuals with intellectual disability, developmental delay, and brain anomalies associated with TRA2B variants.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1016/j.gim.2022.100003",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "affected individuals": 12,
+        "unrelated families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e4": {
+      "id": "e4",
+      "text": "OMIM clinical synopsis notes thin or hypoplastic corpus callosum among the recognized neuroimaging features of Ramond-Elliott neurodevelopmental syndrome.",
+      "source": {
+        "title": "Clinical Synopsis - #621421 - RAMOND-ELLIOTT ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621421",
+        "quote": "Thin or hypoplastic corpus callosum",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e5": {
+      "id": "e5",
+      "text": "All 12 affected individuals with monoallelic TRA2B variants presented with intellectual disability and/or developmental delay, frequently accompanied by infantile spasms, microcephaly, brain anomalies, ASD, feeding difficulties, and short stature, without prominent major structural congenital heart defects or severe ocular malformations reported among core phenotypes.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1016/j.gim.2022.100003",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "affected individuals recruited": 12,
+        "unrelated families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e6": {
+      "id": "e6",
+      "text": "Ramond et al. describe 12 individuals from 11 unrelated families with clustered TRA2B variants presenting with intellectual disability, developmental delay, infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1016/j.gim.2022.100003",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "affected individuals": 12,
+        "unrelated families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e7": {
+      "id": "e7",
+      "text": "In the defining cohort of 12 individuals from 11 unrelated families with Ramond-Elliott syndrome, all pathogenic variants were predicted loss-of-function monoallelic variants clustered strictly in the 5' coding portion of TRA2B upstream of an alternative translation start site, producing a dominant-negative short isoform, rather than missense variants in the RRM domain.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All variants clustered in the 5' part of TRA2B, upstream of an alternative translation start site responsible for the expression of the noncanonical Tra2\u03b2-3 isoform. All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "affected individuals assessed": 12,
+        "unrelated families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e8": {
+      "id": "e8",
+      "text": "In the discovery cohort characterizing the novel neurodevelopmental syndrome associated with monoallelic TRA2B variants, 12 individuals from 11 unrelated families were recruited. All 12 affected individuals (100%) presented intellectual disability and/or developmental delay. Axial or global hypotonia with neonatal to infancy onset was observed in 10 of 12 individuals (10/12), and head circumference was below average in 10 individuals, including microcephaly.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay... Axial or global hypotonia of neonatal to infancy onset was reported in 10 individuals (10/12)... Head circumference was below average in 10 individuals, including microcephaly",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "cohort_size": 12,
+        "intellectual_disability_or_developmental_delay": "12/12",
+        "hypotonia": "10/12",
+        "below_average_head_circumference_or_microcephaly": "10/12"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e9": {
+      "id": "e9",
+      "text": "Clinical panel data for TRA2B in Ramond-Elliott neurodevelopmental syndrome (MIM# 621421) records infantile spasms in 6 of 12 patients (6/12) along with hypotonia and microcephaly.",
+      "source": {
+        "title": "Gene: TRA2B (Microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/138/gene/TRA2B/",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome, MIM# 621421 ... Additional features include infantile spams 6/12, hypotonia",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "infantile_spasms": "6/12"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e10": {
+      "id": "e10",
+      "text": "OMIM entry 621421 notes that neuroimaging abnormalities in affected individuals include mild diffuse brain atrophy or enlarged ventricles (54%) and thin or hypoplastic corpus callosum.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "These included mild diffuse brain atrophy or enlarged ventricles (54%), thin or hypoplastic corpus callosum ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "frequency of brain atrophy or enlarged ventricles": "54%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e11": {
+      "id": "e11",
+      "text": "Ramond et al. (2023) identified 12 individuals from 11 unrelated families with clustered 5' monoallelic TRA2B variants who presented with intellectual disability/developmental delay, microcephaly, brain anomalies, feeding difficulties, and short stature.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "cohort size": 12,
+        "unrelated families": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e12": {
+      "id": "e12",
+      "text": "MalaCards highlights that facial dysmorphisms, brain atrophy on MRI, and poor overall growth represent variable clinical features rather than invariant gestalt markers.",
+      "source": {
+        "title": "Ramond-Elliott Neurodevelopmental Syndrome (RAMELN)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/ramond_elliott_neurodevelopmental_syndrome",
+        "quote": "Additional variable features include poor overall growth, dysmorphic facial features, feeding difficulties, and brain atrophy on MRI.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e13": {
+      "id": "e13",
+      "text": "In the cohort of 12 individuals with monoallelic TRA2B variants, core phenotypes included intellectual disability/developmental delay, infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature, without major structural congenital heart defects or severe ocular anomalies.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "Affected individuals with intellectual disability and/or developmental delay": "12/12",
+        "Total cohort size": 12
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e14": {
+      "id": "e14",
+      "text": "Evaluation of cardiac features in the 12 individuals with TRA2B variants showed minor cardiac malformations in only 2 individuals (17%), confirming the lack of major structural congenital heart defects.",
+      "source": {
+        "title": "Journal Pre-proof",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.gimjournal.org/article/S1098-3600(22)01070-X/pdf",
+        "quote": "Minor cardiac malformations were noted in 2 individuals (2/12, 17%).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "Minor cardiac malformations frequency": "2/12"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e15": {
+      "id": "e15",
+      "text": "Ramond et al. (2023) identified 12 individuals from 11 unrelated families with clustered 5' loss-of-function variants in TRA2B. All 12 individuals presented with intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature. The cohort characterization did not validate differential diagnostic rules based on relative expressive language vs. motor milestone discrepancy or systematic exclusion of Coffin-Siris/Pitt-Hopkins phenocopies.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "Affected individuals with intellectual disability and/or developmental delay": "12/12",
+        "Unrelated families in initial cohort": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e16": {
+      "id": "e16",
+      "text": "Comprehensive functional reviews of Transformer 2 Beta (TRA2B) delineate its role as an alternative splicing factor and developmental regulator implicated in an unnamed or newly designated neurodevelopmental disorder resulting from aberrant dominant-negative noncanonical isoform expression, without identifying Coffin-Siris or Pitt-Hopkins syndrome discriminating clinical algorithms.",
+      "source": {
+        "title": "Dual Role of Transformer 2 Beta as Both a Developmental Necessity and a Disease Modulator",
+        "authors": [
+          "E Swarup",
+          "H Qiu"
+        ],
+        "year": 2025,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/26/18/8805",
+        "quote": "A notable but unnamed neurodevelopmental disorder is marked by an aberrant increase in a ... shorter, repressive Tra2\u03b2 protein.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h3",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e17": {
+      "id": "e17",
+      "text": "Ramond et al. (2023) evaluated 12 individuals from 11 unrelated families with monoallelic TRA2B variants; all 12 showed intellectual disability and/or developmental delay, 10 individuals had axial or global hypotonia of neonatal to infancy onset, and microcephaly was frequently documented.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly... Axial or global hypotonia of neonatal to infancy onset was reported in 10 individuals",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "total_individuals": 12,
+        "unrelated_families": 11,
+        "intellectual_disability_or_DD_count": 12,
+        "hypotonia_count": 10
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e18": {
+      "id": "e18",
+      "text": "OMIM entry 621421 identifies Ramond-Elliott neurodevelopmental syndrome based on global developmental delay, hypotonia, and delayed walking or inability to walk.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome (RAMELN) is characterized by global developmental delay, hypotonia, delayed walking or inability ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e19": {
+      "id": "e19",
+      "text": "In the cohort described by Ramond et al. (2023), developmental delay and intellectual disability were frequently associated with infantile spasms among affected individuals.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e20": {
+      "id": "e20",
+      "text": "Ramond et al. (2023) identified that microcephaly in TRA2B patients is frequently accompanied by systemic manifestations including feeding difficulties and short stature.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e21": {
+      "id": "e21",
+      "text": "OMIM entry 602719 highlights poor overall somatic growth accompanying microcephaly (-4 SD) and hypotonia in patients with TRA2B mutations.",
+      "source": {
+        "title": "602719 - TRANSFORMER 2 BETA HOMOLOG; TRA2B",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/602719",
+        "quote": "development with poor overall growth, microcephaly (-4 SD), and hypotonia.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "microcephaly_standard_deviations": -4
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e22": {
+      "id": "e22",
+      "text": "In the initial cohort defining Ramond-Elliott syndrome across 12 individuals from 11 unrelated families with clustered 5' TRA2B variants, core phenotypes were intellectual disability, developmental delay, infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature; major congenital heart defects were not identified as recurrent core manifestations.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+        "authors": [
+          "Francis Ramond"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.11.013",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected individuals cohort size": 12,
+        "unrelated families": 11
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e23": {
+      "id": "e23",
+      "text": "PanelApp Australia records reflect activity modifying gene-phenotype associations for TRA2B within Congenital Heart Defect gene panel reviews to Ramond-Elliott neurodevelopmental syndrome, reflecting that TRA2B is not an isolated primary congenital heart defect locus.",
+      "source": {
+        "title": "Activity",
+        "authors": [
+          "Zornitza Stark"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/activity/?panel=202&entity=TRA2B",
+        "quote": "Congenital Heart Defect ... TRA2B, Zornitza Stark Phenotypes for gene: TRA2B were changed from Neurodevelopmental disorder, TRA2B ... Ramond-Elliott",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "panel entity identifier": 202
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e24": {
+      "id": "e24",
+      "text": "Systematic evaluation of 12 individuals with monoallelic 5' TRA2B variants documented central nervous system malformations, microcephaly, and facial dysmorphism, but reported no structural ocular malformations such as optic fissure closure defects or microphthalmia.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+        "authors": [
+          "Francis Ramond"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.11.013",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "frequency of coloboma or microphthalmia": 0
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e25": {
+      "id": "e25",
+      "text": "Individuals with clustered 5' loss-of-function TRA2B variants frequently display infantile spasms, microcephaly, and feeding difficulties alongside neurodevelopmental delay.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+        "authors": [
+          "Francis Ramond"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.11.013",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e26": {
+      "id": "e26",
+      "text": "A subsequent case study describes a single additional patient, confirming that the initial foundational cohort consisted of the 12 patients in Ramond et al. rather than 15.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.3390/ijms242115572",
+        "pmid": "37958557",
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "This paper represents the second investigation of pathogenic variants in the TRA2B gene in humans, reaffirming the conclusions of the initial study and underscoring the importance of this research.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e27": {
+      "id": "e27",
+      "text": "Systematic description of 12 individuals with TRA2B-related neurodevelopmental disorder revealed developmental delay/intellectual disability, microcephaly, brain anomalies, autism, feeding difficulties, and short stature, with no mention of congenital heart defects as a core or prevalent feature.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "Affected individuals recruited": 12
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e28": {
+      "id": "e28",
+      "text": "Variants clustered in the 5' part of TRA2B lead to developmental delay and intellectual disability, frequently accompanied by infantile spasms and microcephaly.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All variants clustered in the 5' part of TRA2B, upstream of an alternative translation start site responsible for the expression of the noncanonical Tra2\u03b2-3 isoform. All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "affected individuals recruited": 12
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e29": {
+      "id": "e29",
+      "text": "About 58% of affected individuals experienced early-onset seizures between 3 and 9 months of age, predominantly manifesting as infantile spasms.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "About half (58%) had early-onset seizures between 3 and 9 months of age, mostly infantile spasms.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "percentage with early-onset seizures/infantile spasms": "58%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e30": {
+      "id": "e30",
+      "text": "Ramond-Elliott neurodevelopmental syndrome is driven by a dominant-negative effect of the increased TRA2B-3 isoform rather than haploinsufficiency.",
+      "source": {
+        "title": "Entry - #621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "The findings suggested that the pathogenesis of the disease is not due to TRA2B haploinsufficiency, but rather due to increased levels of the TRA2B-3 isoform exerting a dominant-negative effect.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e31": {
+      "id": "e31",
+      "text": "CHARGE syndrome prominently features uveal coloboma and related optic fissure closure defects within the MAC spectrum.",
+      "source": {
+        "title": "Genetics of syndromic ocular coloboma: CHARGE and ... - PMC",
+        "authors": [
+          "A George"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1016/j.exer.2020.107940",
+        "pmid": "32032630",
+        "pmc": "PMC7310839",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7310839/",
+        "quote": "Special attention will be given to two prominent, syndromic forms of coloboma, namely, CHARGE (Coloboma, Heart defect, Atresia choanae, Retarded growth and development, Genital hypoplasia, and Ear anomalies/deafness) and COACH (Cerebellar vermis hypoplasia, Oligophrenia, Ataxia, Coloboma, and Hepatic fibrosis) syndromes.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e32": {
+      "id": "e32",
+      "text": "In a study of 12 individuals with TRA2B variants, neurodevelopmental delay was frequently accompanied by microcephaly, brain anomalies, feeding difficulties, and short stature.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "cohort size": 12
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e33": {
+      "id": "e33",
+      "text": "OMIM entry 621421 notes that affected individuals exhibit mildly impaired growth, small head circumference, and feeding difficulties.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "Some had mildly impaired growth, small head circumference, feeding difficulties, or constipation.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e34": {
+      "id": "e34",
+      "text": "A study of 12 individuals with clustered TRA2B loss-of-function variants found that all individuals presented with intellectual disability/developmental delay, frequently associated with infantile spasms, feeding difficulties, microcephaly, and brain anomalies.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "affected individuals": 12,
+        "unrelated families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e35": {
+      "id": "e35",
+      "text": "Australian Genomics PanelApp curation for TRA2B and Ramond-Elliott neurodevelopmental syndrome (MIM# 621421) records phenotypic frequencies evaluated across the standard denominator of 12, citing 6/12 for infantile spasms alongside hypotonia.",
+      "source": {
+        "title": "Gene: TRA2B (Microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/138/gene/TRA2B/",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome, MIM# 621421 ... Additional features include infantile spams 6/12, hypotonia",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "infantile_spasms_numerator": 6,
+        "denominator": 12
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e36": {
+      "id": "e36",
+      "text": "KEGG disease entry for Ramond-Elliott syndrome notes the presence of feeding difficulties and short stature alongside neurodevelopmental impairment caused by 5' loss-of-function variants in TRA2B.",
+      "source": {
+        "title": "Ramond-Elliott \u795e\u7d4c\u767a\u9054\u75c7\u5019\u7fa4",
+        "authors": [],
+        "year": null,
+        "journal": "KEGG DISEASE",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.kegg.jp/entry/H03032+-ja",
+        "quote": "Ramond-Elliott ... feeding difficulties, and short stature. It has been reported that loss-of-function mutations in the 5' portion of TRA2B cause this syndrome.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e37": {
+      "id": "e37",
+      "text": "In the discovery cohort of 12 individuals with clustered 5-prime TRA2B variants, neurodevelopmental delay was frequently associated with infantile spasms (with 11 individuals transitioning to Lennox-Gastaut syndrome), feeding difficulties, microcephaly, and brain anomalies.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "total affected individuals assessed in cohort": 12,
+        "individuals transitioning from infantile spasms to Lennox-Gastaut syndrome": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e38": {
+      "id": "e38",
+      "text": "A second independent case study of a child with a confirmed de novo pathogenic TRA2B splice variant identified pharmacoresistant infantile spasms and global hypotonia, but explicitly documented that no feeding difficulties were present.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "No feeding difficulties or sleep disturbances were reported, while information about \u2026 delay, global hypotonia, pharmacoresistant infantile spasms, nonspecific brain lesions observed via \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "affected individuals evaluated in study": 1,
+        "patients presenting with infantile spasms": 1,
+        "patients presenting with feeding difficulties": 0
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e39": {
+      "id": "e39",
+      "text": "Other severe microcephalic neurodevelopmental RNA-processing disorders, such as bi-allelic ADARB1 deficiency, present with microcephaly, seizures, and feeding difficulties in all assessed subjects, demonstrating that feeding difficulties are not uniquely discriminating for TRA2B.",
+      "source": {
+        "title": "Bi-allelic ADARB1 variants associated with microcephaly, intellectual disability, and seizures",
+        "authors": [
+          "TY Tan",
+          "J Sedm\u00edk",
+          "MP Fitzgerald",
+          "RS Halevy"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1016/j.ajhg.2020.02.015",
+        "pmid": "32220291",
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(20)30057-4",
+        "quote": "All four had severe feeding difficulties",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "ADARB1-variant patients with severe feeding difficulties": 4,
+        "total ADARB1 cohort size evaluated": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e40": {
+      "id": "e40",
+      "text": "TRA2B exhibits its highest normal tissue expression in the heart, skeletal muscle, and pancreas, running counter to the assumption that TRA2B expression and function are entirely disconnected from cardiogenesis and cardiovascular physiology.",
+      "source": {
+        "title": "TRA2B gene Transformer 2 Beta Homolog",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/TRA2B",
+        "quote": "Highest expression in heart, skeletal muscle and pancreas.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h9",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e41": {
+      "id": "e41",
+      "text": "Initial description and characterization of 12 patients from 11 families with monoallelic 5' TRA2B variants causing Ramond-Elliott neurodevelopmental syndrome identified core features including neurodevelopmental delay/intellectual disability, microcephaly, infantile spasms, and brain anomalies, with 0/12 patients presenting with structural ocular malformations such as coloboma or microphthalmia.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause ...",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "total_individuals_evaluated": 12,
+        "intellectual_disability_or_developmental_delay_numerator": 12,
+        "structural_ocular_malformations_coloboma_microphthalmia_numerator": 0
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e42": {
+      "id": "e42",
+      "text": "Genomics England panel evaluation logs for TRA2B within neurodevelopmental and epilepsy panels reference emerging phenotypic checks regarding ocular and prenatal manifestations without documenting confirmed coloboma or microphthalmia phenotypes.",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=402",
+        "quote": "Early onset or syndromic epilepsy v8.161 \u00b7 TRA2B ... ocular manifestations and prenatal ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e43": {
+      "id": "e43",
+      "text": "Ramond et al. (2023) identified and recruited a total of 12 individuals from 11 unrelated families carrying monoallelic 5' variants in TRA2B, establishing the initial discovery cohort.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "Francis Ramond",
+          "Caroline Dalgliesh",
+          "Mona Grimmel",
+          "Oded Wechsberg",
+          "Annalisa Vetro",
+          "Renzo Guerrini",
+          "David"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "Discovery cohort size (individuals)": 12,
+        "Discovery cohort families": 11
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e44": {
+      "id": "e44",
+      "text": "Shatokhina et al. (2023) reported the second investigation of pathogenic variants in the TRA2B gene in humans, describing a single proband harboring a de novo c.170+1G>A splice variant in the RS1 domain.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "This paper represents the second investigation of pathogenic variants in the TRA2B gene in humans, reaffirming the conclusions of the initial study and underscoring the importance of this research.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "Second study cohort size": 1
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e45": {
+      "id": "e45",
+      "text": "All 12 affected individuals in the discovery cohort presented with intellectual disability and/or developmental delay (12/12, 100%), and infantile spasms were noted as frequently associated rather than universal.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "ID/DD frequency in discovery cohort": "12/12"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e46": {
+      "id": "e46",
+      "text": "The patient in the second case report presented with neurodevelopmental delay and seizures/infantile spasms, adding 1 to both ID/DD and seizure numerators.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "In this study, we report a novel splice variant in the TRA2B gene identified in a patient presenting with seizures and neurodevelopmental delay.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "Case 13 ID/DD presence": 1,
+        "Case 13 seizure presence": 1
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e47": {
+      "id": "e47",
+      "text": "In the discovery cohort of 12 individuals, all variants clustered strictly in the 5' portion of TRA2B upstream of an alternative translation start site, decreasing canonical Tra2\u03b2-1 while increasing the repressive Tra2\u03b2-3 isoform lacking the N-terminal RS1 domain.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "Francis Ramond",
+          "Caroline Dalgliesh",
+          "Mona Grimmel",
+          "Oded Wechsberg",
+          "Annalisa Vetro",
+          "Renzo Guerrini",
+          "David"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All variants clustered in the 5' part of TRA2B, upstream of an alternative translation start site responsible for the expression of the noncanonical Tra2\u03b2-3 isoform.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "Variants clustering in 5' region in discovery cohort": "12/12"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e48": {
+      "id": "e48",
+      "text": "The patient in the second case report carried a de novo c.170+1G>A splice donor variant affecting the RS1 domain, also resulting in exon 2 deletion and frameshift (p.Glu13Valfs*2).",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "The proband harbored a de novo c.170+1G>A variant in the RS1 domain of Tra2\u03b2, which was confirmed to be pathogenic through mRNA analysis, resulting in exon 2 deletion and a frameshift (p.Glu13Valfs*2).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "RS1 domain localization in second study": "1/1"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e49": {
+      "id": "e49",
+      "text": "In the initial cohort of 12 individuals from 11 unrelated families with clustered 5' monoallelic TRA2B variants, feeding difficulties were listed among the frequently associated clinical findings alongside infantile spasms, microcephaly, and developmental delay.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "cohort size": 12
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e50": {
+      "id": "e50",
+      "text": "A second study describing an individual harboring a confirmed pathogenic de novo TRA2B splice variant (c.170+1G>A) in the RS1 domain explicitly documented an absence of feeding difficulties despite the presence of developmental delay, global hypotonia, and pharmacoresistant infantile spasms.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": "10.3390/ijms242115572",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "No feeding difficulties or sleep disturbances were reported, while information about delay, global hypotonia, pharmacoresistant infantile spasms, nonspecific brain lesions observed via...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "feeding difficulties presence in proband": 0
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e51": {
+      "id": "e51",
+      "text": "In the cohort of 12 patients with clustered 5' TRA2B variants, infantile spasms were frequently observed, and 11 individuals were specifically noted in relation to infantile spasms transitioning to Lennox-Gastaut syndrome.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.100010",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties\u2026 11 transitioned from infantile spasms to a Lennox-Gastaut syndrome.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "individuals noted transitioning to Lennox-Gastaut syndrome": 11,
+        "total cohort size": 12
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e52": {
+      "id": "e52",
+      "text": "The patient reported by Shatokhina et al. presenting with a confirmed pathogenic RS1-domain splice alteration developed pharmacoresistant infantile spasms alongside global hypotonia and developmental delay.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": "10.3390/ijms242115572",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "The proband harbored a de novo c.170+1G>A variant in the RS1 domain of Tra2\u03b2, which was confirmed to be pathogenic through mRNA analysis... The clinical presentation of the patient was consistent with phenotypes described in one of the previous studies.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "proband with pharmacoresistant infantile spasms": 1
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e53": {
+      "id": "e53",
+      "text": "Ramond et al. noted that TRA2B patients present with a distinctive complex syndrome characterized by intellectual disability, microcephaly, brain anomalies, and infantile spasms frequently progressing to Lennox-Gastaut syndrome, distinguishing them from mild non-syndromic developmental disorders.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e54": {
+      "id": "e54",
+      "text": "Ramond et al. identified 12 individuals from 11 unrelated families with monoallelic TRA2B variants.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/366428134_Clustered_variants_in_the_5'_coding_region_of_TRA2B_cause_a_distinctive_neurodevelopmental_syndrome",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "individuals": 12,
+        "families": 11
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e55": {
+      "id": "e55",
+      "text": "Affected individuals with TRA2B variants presented intellectual disability or developmental delay frequently associated with infantile spasms, microcephaly, brain anomalies, and feeding difficulties.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "affected individuals recruited": 12
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e56": {
+      "id": "e56",
+      "text": "Infantile spasms represent an early-onset epileptic encephalopathy where diverse structural and genetic etiologies (such as STXBP1 and other DEE genes) converge on a shared electroclinical pattern.",
+      "source": {
+        "title": "Infantile Spasms (West Syndrome): Integrating Genetic ... - PMC",
+        "authors": [
+          "B Abdygalyk"
+        ],
+        "year": 2025,
+        "journal": "medicina",
+        "doi": "10.3390/medicina61122223",
+        "pmid": "41470225",
+        "pmc": "PMC12734430",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12734430/",
+        "quote": "Infantile spasms (ISs), or West syndrome (WS), represent an early-onset epileptic encephalopathy in which diverse structural, genetic, metabolic, infectious, and neurocutaneous conditions converge on a shared pattern of hypsarrhythmia, clustered spasms, and later developmental impairment.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e57": {
+      "id": "e57",
+      "text": "Feeding difficulties were documented in only 7 out of 12 affected individuals (58%), demonstrating incomplete penetrance in Ramond-Elliott syndrome.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "Feeding difficulties were reported in 7 individuals (7/12, 58%), including 1 infant requiring",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "Feeding difficulties frequency numerator": 7,
+        "Cohort size denominator": 12,
+        "Feeding difficulties frequency percentage": "58%"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e58": {
+      "id": "e58",
+      "text": "OMIM lists feeding difficulties among the more variable features of Ramond-Elliott neurodevelopmental syndrome.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "More variable features include poor overall growth, dysmorphic facial features, feeding",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e59": {
+      "id": "e59",
+      "text": "In the initial cohort of 12 individuals with clustered 5' loss-of-function variants in TRA2B, infantile spasms were documented in 6 individuals (50%) and unclassified epileptic encephalopathy in 1 individual (totaling 7/12, ~58%), which does not meet the proposed >70% threshold.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "infantile spasms in 6 individuals (6/12, 50%) and an unclassified epileptic encephalopathy",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "infantile spasms frequency": "6/12",
+        "infantile spasms percentage": 50
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e60": {
+      "id": "e60",
+      "text": "Ramond et al. (2023) identified 12 individuals from 11 unrelated families with monoallelic 5' variants in TRA2B who presented with neurodevelopmental delay/intellectual disability, infantile spasms, microcephaly, and brain anomalies.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "individuals": 12,
+        "unrelated families": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e61": {
+      "id": "e61",
+      "text": "Shatokhina et al. (2023) published the second investigation of germline pathogenic TRA2B variants in humans, describing a single proband harboring a de novo c.170+1G>A splice variant in the RS1 domain.",
+      "source": {
+        "title": "TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study",
+        "authors": [
+          "O Shatokhina",
+          "V Kovalskaia",
+          "P Sparber"
+        ],
+        "year": 2023,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": "10.3390/ijms242115572",
+        "pmid": null,
+        "pmc": "PMC10648248",
+        "url": "https://www.mdpi.com/1422-0067/24/21/15572",
+        "quote": "In this study, we report a novel splice variant in the TRA2B gene identified in a patient presenting with seizures and neurodevelopmental delay. This paper represents the second investigation of pathogenic variants in the TRA2B gene in humans",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "additional individuals": 1,
+        "unrelated families": 1
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e62": {
+      "id": "e62",
+      "text": "Recent reviews focusing on TRA2B biology and regulation, such as Swarup and Qiu (2025) and Dalgliesh et al. (2025), cite the neurodevelopmental syndrome without introducing additional human patient cohorts.",
+      "source": {
+        "title": "Dual Role of Transformer 2 Beta as Both a Developmental Necessity and a Disease Modulator",
+        "authors": [
+          "E Swarup",
+          "H Qiu"
+        ],
+        "year": 2025,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": "10.3390/ijms26188805",
+        "pmid": "41009380",
+        "pmc": "PMC12469348",
+        "url": "https://www.mdpi.com/1422-0067/26/18/8805",
+        "quote": "Dysregulation of TRA2\u03b2 has been implicated in a range of diseases, including neurological, oncological, and immune-related disorders.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e63": {
+      "id": "e63",
+      "text": "In a cohort of 12 individuals from 11 unrelated families, all identified monoallelic pathogenic variants clustered in the 5' portion of TRA2B upstream of an alternative translation initiation site, causing decreased Tra2beta-1 and increased repressive Tra2beta-3 isoform expression via an apparent dominant-negative mechanism.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": "10.1016/j.gim.2022.10.013",
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All variants clustered in the 5' part of TRA2B, upstream of an alternative translation start site responsible for the expression of the noncanonical Tra2\u03b2-3 isoform.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "affected individuals evaluated in discovery cohort": 12,
+        "unrelated families in discovery cohort": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e64": {
+      "id": "e64",
+      "text": "Normal population genomic databases record healthy control individuals harboring heterozygous loss of copy number variants encompassing TRA2B, confirming that standard heterozygous deletion/haploinsufficiency outside the specific 5' dominant-negative hotspot does not cause classic Ramond-Elliott syndrome.",
+      "source": {
+        "title": "Chr3:185646665 A>G",
+        "authors": [
+          "MARRVEL database curators"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://marrvel.org/human/variant/3:185646665%20A%3EG",
+        "quote": "There are 35 control individuals with loss of copy number variants that contain TRA2B.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "control individuals with copy number loss of TRA2B": 35
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e65": {
+      "id": "e65",
+      "text": "The discovery study recruited 12 individuals from 11 unrelated families with monoallelic TRA2B variants; all 12 presented with intellectual disability and/or developmental delay (100%), with infantile spasms and epilepsy frequently associated but not universal.",
+      "source": {
+        "title": "Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": "Genetics in Medicine",
+        "doi": null,
+        "pmid": "36549593",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36549593/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "ID/DD penetrance in discovery cohort": "12/12",
+        "Discovery cohort sample size": 12
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e66": {
+      "id": "e66",
+      "text": "The clinical synopsis for OMIM #621421 establishes that seizures occur in about half of individuals affected by Ramond-Elliott neurodevelopmental syndrome.",
+      "source": {
+        "title": "Clinical Synopsis - #621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/clinicalSynopsis/621421",
+        "quote": "Seizures (in about half of",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "Estimated seizure penetrance proportion": "~50%"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e67": {
+      "id": "e67",
+      "text": "A second case study identified an additional patient carrying a splice variant in TRA2B presenting with seizures and neurodevelopmental delay, extending total molecularly confirmed cases.",
+      "source": {
+        "title": "RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": 2023,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "TRA2B gene splice variant linked to seizures and neurodevelopmental delay: a second case study. Int. J. Molec. Sci. 24: 15572, 2023.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "Cumulative reported cases with ID/DD": "13/13"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e68": {
+      "id": "e68",
+      "text": "In a defining cohort of 12 individuals from 11 unrelated families with monoallelic TRA2B variants, all affected individuals presented with developmental delay or intellectual disability, frequently associated with infantile spasms, microcephaly, feeding difficulties, brain anomalies, and short stature.",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinct neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://portal.findresearcher.sdu.dk/en/publications/clustered-variants-in-the-5-coding-region-of-tra2b-cause-a-distin/",
+        "quote": "All affected individuals presented intellectual disability and/or developmental delay, frequently associated with infantile spasms, microcephaly, brain anomalies, autism spectrum disorder, feeding difficulties, and short stature.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "cohort_size": 12,
+        "unrelated_families": 11
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e69": {
+      "id": "e69",
+      "text": "Ramond-Elliott neurodevelopmental syndrome features infantile spasms as a hallmark manifestation, alongside more variable features including feeding difficulties, poor overall growth, and brain atrophy, differentiating it from uncomplicated developmental phenotypes.",
+      "source": {
+        "title": "621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621421",
+        "quote": "More variable features include poor overall growth, dysmorphic facial features, feeding difficulties, and brain atrophy on neuroimaging.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e70": {
+      "id": "e70",
+      "text": "Expert curation for severe microcephaly and epilepsy panels indicates infantile spasms were documented in 6 evaluated individuals alongside unclassified epileptic encephalopathy in Ramond-Elliott syndrome.",
+      "source": {
+        "title": "Gene: TRA2B (Severe microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/162/gene/TRA2B/",
+        "quote": "infantile spasms in 6 and unclassified epileptic encephalopathy ... microcephaly, MONDO:0001149 to Ramond-Elliott neurodevelopmental syndrome, OMIM:621421.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "infantile_spasms_cases": 6
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e71": {
+      "id": "e71",
+      "text": "Infantile spasms syndrome represents an epileptic encephalopathy characterized by clinical epileptic spasms, hypsarrhythmia, developmental regression, and systemic/developmental findings such as feeding impairment and progressive microcephaly across diverse genetic etiologies, demonstrating low etiologic specificity.",
+      "source": {
+        "title": "Infantile Spasms Syndrome (West Syndrome)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": "10.1016/j.braindev.2013.10.008",
+        "pmid": "24268986",
+        "pmc": null,
+        "url": "https://www.chop.edu/conditions-diseases/infantile-spasms-syndrome-west-syndrome",
+        "quote": "Infantile spasms syndrome is considered an epileptic encephalopathy, conditions in which children have both seizures and cognitive and developmental impairments",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Invariant penetrance of the cardinal neurodevelopmental triad contrasts with variable expressivity of epileptic and systemic features.",
+      "abstraction": "In ultra-rare monogenic syndromes, clinical presentations bifurcate into obligate neurodevelopmental core traits and partially penetrant secondary complications that cannot serve as mandatory diagnostic inclusion criteria.",
+      "instance": "In TRA2B-related Ramond-Elliott syndrome, intellectual disability/developmental delay is present in 100% of cases (13/13 across studies), infantile hypotonia in 83.3% (10/12), and microcephaly in 83.3% (10/12), whereas infantile spasms occur in only 50-58% (6/12 in Ramond et al., 2023; 1/1 in Shatokhina et al., 2023) and feeding difficulties are present in 58% (7/12) of the discovery cohort but absent in the Shatokhina proband.",
+      "direction": "Identify molecular and genetic modifiers that determine why only a subset of patients with identical 5' TRA2B variants develop infantile spasms or severe feeding failure.",
+      "support": "High within the defined worldwide cohort of 13 individuals across two primary studies.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study 10.3390/ijms242115572"
+      ],
+      "hypothesis": "Secondary downstream targets of TRA2B alternative splicing or background variations in neuronal channel expression modify the clinical manifestation of epilepsy and feeding difficulties.",
+      "novelty": "Delineates mandatory syndromic signs from variable features, preventing clinicians from erroneously ruling out the diagnosis in patients lacking epileptic spasms or feeding difficulties."
+    },
+    {
+      "pattern": "Pathogenicity is strictly restricted to an N-terminal 5' coding hotspot upstream of an alternative translation initiation site rather than broad gene-wide loss of function.",
+      "abstraction": "Specific gene disorders can exhibit extreme domain-level mutational constraint where pathogenic phenotypes require localized spatial disruption, while general gene loss is either tolerated or produces distinct, non-syndromic outcomes.",
+      "instance": "All 13 published germline variants cluster strictly in the 5' region (exon 2 / RS1 domain) of TRA2B upstream of an alternative translation start site, whereas 35 control individuals in public cohorts harbor copy number losses of TRA2B without manifesting Ramond-Elliott syndrome.",
+      "direction": "Elucidate the functional mechanism of the alternative translation product in TRA2B to establish whether 5' truncations exert dominant-negative, toxic gain-of-function, or specific dosage-dependent splicing effects.",
+      "support": "High across all 13 published patients and control genomic databases.",
+      "sources": [
+        "Francis Ramond et al. (2023) Clustered variants in the 5' coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study https://www.mdpi.com/1422-0067/24/21/15572"
+      ],
+      "hypothesis": "Variants in the 5' coding region force translation initiation at an internal downstream methionine, generating an N-terminally truncated TRA2B isoform lacking the RS1 domain that disrupts native spliceosome assembly.",
+      "novelty": "Directs clinical molecular geneticists to treat non-5' variants or whole-gene deletions with caution, as they do not recapitulate Ramond-Elliott syndrome."
+    },
+    {
+      "pattern": "Phenotypic overlap between TRA2B and other microcephalic epileptic encephalopathies precludes purely clinical bedside discrimination.",
+      "abstraction": "Convergent pathogenic pathways in early neurogenesis generate overlapping clinical syndromes whose positive features lack sufficient specificity for phenotypic separation without molecular confirmation.",
+      "instance": "Infantile spasms and microcephaly distinguish TRA2B from isolated primary microcephalies, but fail to separate it from other microcephalic developmental and epileptic encephalopathies such as ADARB1 deficiency, which also presents with microcephaly, early-onset seizures, and severe feeding difficulties in 100% (4/4) of cases.",
+      "direction": "Develop multi-omics RNA-splicing profiles or blood-based episignatures that serve as molecular diagnostic fingerprints separating TRA2B from clinically identical microcephalic epileptic encephalopathies.",
+      "support": "Strong comparative evidence showing indistinguishable core presentations across microcephalic DEE cohorts.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "TY Tan et al. (2020) Bi-allelic ADARB1 variants associated with microcephaly, intellectual disability, and seizures 10.1016/j.ajhg.2020.02.015",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study https://www.mdpi.com/1422-0067/24/21/15572"
+      ],
+      "hypothesis": "TRA2B-deficient cells harbor a distinct transcriptomic mis-splicing signature involving specific exon-skipping events in neuronal transcripts that distinguishes them from ADARB1-related RNA editing deficiencies.",
+      "novelty": "Refutes the assumption that Ramond-Elliott syndrome has a distinct clinical gestalt capable of standalone phenotypic diagnosis in the differential diagnosis of epileptic encephalopathy."
+    },
+    {
+      "pattern": "Absence of structural ocular malformations serves as an exclusionary phenotypic filter despite small-cohort statistical limitations.",
+      "abstraction": "Negative clinical criteria provide critical differential filters to separate distinct syndromic classes, though statistical certainty is constrained by the small total sample size of ultra-rare conditions.",
+      "instance": "Severe structural ocular malformations (coloboma HP:0000589 and microphthalmia HP:0000568) were observed in 0% (0/12) of individuals in the discovery cohort, providing a negative clinical discriminator against spliceosomopathies and chromatinopathies like CHARGE syndrome, even though small-sample statistics dictate an upper-bound potential frequency of up to ~25%.",
+      "direction": "Systematically survey global ultra-rare neurodevelopmental registries to evaluate whether the negative association with major ocular and cardiac malformations remains robust as the cohort expands.",
+      "support": "Moderate; empirical frequency is 0/12 in the primary cohort, but bounded by small sample size.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "Francis Ramond (2023) Clustered variants in the 5' coding region of TRA2B cause a new neurodevelopmental syndrome 10.1016/j.gim.2022.11.013",
+        "A George (2020) Genetics of syndromic ocular coloboma: CHARGE and ... - PMC 10.1016/j.exer.2020.107940"
+      ],
+      "hypothesis": "TRA2B expression during optic fissure morphogenesis is functionally redundant with other SR-protein splicing factors, protecting against ocular coloboma and microphthalmia.",
+      "novelty": "Translates negative phenotypic observations into practical differential exclusion markers against phenocopying syndromes, while highlighting statistical boundaries."
+    },
+    {
+      "pattern": "Denominator inflation and literature discrepancies distort penetrance estimates for variable syndromic features.",
+      "abstraction": "Secondary literature reviews in newly described genetic conditions are vulnerable to citation drift that inflates sample sizes and mischaracterizes variable manifestations as universal hallmarks.",
+      "instance": "Multiple secondary database entries asserted a denominator of 15 individuals with near-universal feeding difficulties and craniofacial gestalts, whereas primary cohort auditing reveals exactly 13 published individuals (12 from Ramond et al., 2023 and 1 from Shatokhina et al., 2023), with feeding difficulties explicitly absent in the Shatokhina case and classified by OMIM as variable.",
+      "direction": "Perform rigorous primary-source audits of rare disease ontologies and curate patient-level registry databases to ensure phenotype frequency metrics reflect verifiable primary cases.",
+      "support": "High; direct contradiction demonstrated between secondary summaries and primary cohort counts.",
+      "sources": [
+        "F Ramond et al. (2023) Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome PMID:36549593",
+        "O Shatokhina et al. (2023) TRA2B Gene Splice Variant Linked to Seizures and Neurodevelopmental Delay: A Second Case Study 10.3390/ijms242115572",
+        "OMIM (n.d.) 621421 - RAMOND-ELLIOTT NEURODEVELOPMENTAL SYNDROME; RAMELN https://omim.org/entry/621421"
+      ],
+      "hypothesis": "Secondary citation drift in rare disease databases overestimates penetrance of non-neurological features by an average of 15-20% due to selective reporting of positive findings.",
+      "novelty": "Resolves conflicting literature claims regarding the global cohort size and clarifies that feeding difficulties and facial dysmorphisms are not invariant diagnostic features."
+    }
+  ]
+}

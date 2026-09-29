@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_620775",
+ "omim": "OMIM:620775",
+ "disease": "Neuromuscular disorder, congenital, with dysmorphic facies",
+ "gene": "FILIP1",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:54",
+ "report_chars": 1715,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Neuromuscular disorder, congenital, with dysmorphic facies (FILIP1, OMIM:620775):\n\n[1] Neuromuscular Disorder, Congenital, with Dysmorphic ...\nhttps://www.malacards.org/card/neuromuscular_disorder_congenital_with_dysmorphic_facies\nAn autosomal recessive neuromuscular disorder characterized by multiple congenital joint contractures, hypotonia, muscle weakness, and facial dysmorphism.\n\n[2] Entry - #620775 - NEUROMUSCULAR DISORDER, ...\nhttps://omim.org/entry/620775\ncongenital neuromuscular disorder with dysmorphic facies (NMDF) is caused by homozygous mutation in the FILIP1 gene (607307) on chromosome 6q14.\n\n[3] Bi-allelic variants of FILIP1 cause congenital myopathy, ...\nhttps://pubmed.ncbi.nlm.nih.gov/37163662/\nby A Roos \u00b7 2023 \u00b7 Cited by 10 \u2014 the loss of functional FILIP1 leads to a recessive disorder characterized by neurological and muscular manifestations as well as dysmorphic ...\n\n[4] FILIP1 gene with submissions organized by classifications\nhttps://thegencc.org/genes/HGNC:21015\nStrong Moderate Diseases 1 Neuromuscular disorder, congenital, with dysmorphic facies \u30fb neuromuscular disorder, congenital, with dysmorphic facies. The GenCC ...\n\n[5] Neuromuscular disorder, congenital, with dysmorphic ...\nhttps://www.ncbi.nlm.nih.gov/medgen/1857169\nFILIP1 (6q14.1) Congenital neuromuscular disorder with dysmorphic facies (NMDF) is an autosomal recessive disorder characterized by impaired skeletal muscle ...\n\n[6] Defects in the FILIP1 gene lead to a new form of congenital ...\nhttps://www.institut-myologie.org/en/research/defects-in-the-filip1-gene-lead-to-a-new-form-of-congenital-myopathy-associated-with-facial-and-cerebral-anomalies/\nThe phenotype combines congenital myopathy with cognitive impairment and facial dysmorphia, and in two cases with cerebral malformations. ...\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age 6.0, male)\n  observed: Patent foramen ovale, Hypertelorism, Infantile spasms, Global developmental delay, Hypotonia, Microcephaly\n  recorded ABSENT: Epicanthus, Upslanted palpebral fissure, Long palpebral fissure, Ventricular septal defect, Feeding difficulties, Facial asymmetry, Underdeveloped nasal alae, Choanal atresia, Atonic seizure, Myoclonus, Epileptic encephalopathy, Developmental regression, High palate, Cleft palate, Cleft upper lip, Low-set ears, Anteverted nares, Micrognathia, Duane anomaly, Deeply set eye, Scoliosis, Vocal cord paralysis, Clinodactyly of the 5th finger, Short stature, Eyelid coloboma (+12 more)\n\nP02 (age 6.4, male)\n  observed: Hypotonia, Global developmental delay, Short attention span, Overweight, Epicanthus, Thin upper lip vermilion\n  recorded ABSENT: Microcephaly, Autistic behavior, Sleep disturbance, Hyperactivity, Aggressive behavior, Anxiety, Seizure, Short stature, Bulbous nose, Narrow mouth, Anteverted nares, Underdeveloped nasal alae, Convex nasal ridge, Long palpebral fissure, Upslanted palpebral fissure, Long eyelashes, Broad forehead, Short philtrum, Long philtrum, Smooth philtrum, Broad philtrum, Everted lower lip vermilion, Low-set ears, Hypertelorism, Hypotelorism (+8 more)\n\nP03 (age 5.5, male)\n  observed: Talipes equinovarus, Global developmental delay, Delayed speech and language development, Motor delay, Intellectual disability, Adducted thumb, Joint hypermobility, Hypotonia, Scoliosis, Epicanthus, Hypertelorism, Wide nasal bridge\n  recorded ABSENT: Elbow contracture, Knee contracture, Single transverse palmar crease, Narrow mouth, Microcephaly, Cerebral palsy, Cleft lip, Cleft palate, Ventricular septal defect, Secundum atrial septal defect, Semilobar holoprosencephaly, Parietal encephalocele, Seizure, Visual impairment, Micropenis, Cryptorchidism, Diabetes insipidus, Oligohydramnios\n\nP04 (age 15.0, male)\n  observed: Intellectual disability, Global developmental delay, Gastroesophageal reflux, Delayed speech and language development, Spastic gait, Pes cavus\n  recorded ABSENT: Microcephaly, Hypotonia, Chronic constipation, Delayed ability to walk, Autistic behavior, Attention deficit hyperactivity disorder, Aggressive behavior, Anxiety, Motor stereotypy, Depression, Compulsive behaviors, Generalized tonic seizure, Bilateral tonic-clonic seizure with generalized onset, Periventricular leukomalacia, Sleep disturbance, Dystonia, Ataxia, Recurrent infections, Hearing impairment, Brachycephaly, Prominent supraorbital ridges, Coarse facial features, Short philtrum, Midface retrusion, Pointed chin (+67 more)\n\nP05 (age None, male)\n  observed: Intellectual disability, Autistic behavior, Global developmental delay, Macrodontia, Long philtrum, Abnormality of the hand, Short stature, Motor delay, Delayed speech and language development, Hypotonia, Generalized-onset seizure, Bicuspid aortic valve, Microcephaly, Low anterior hairline, Strabismus, Bulbous nose, Protruding ear\n  recorded ABSENT: Delayed skeletal maturation, Atrioventricular canal defect, Ventricular septal defect, Atrial septal defect, Pulmonic stenosis\n\nP06 (age 13.0, male)\n  observed: Macroglossia, Coarse facial features, Narrow forehead, Thin corpus callosum, Hyperintensity of cerebral white matter on MRI, Distal amyotrophy, Motor delay, Profound intellectual disability, Developmental regression, Areflexia, Limb muscle weakness, Seizure, Hypotonia, Respiratory insufficiency, Osteoporosis, Limb undergrowth, Acromelia, Hypothyroidism, Intermittent hypothermia, Multifocal epileptiform discharges, Decreased compound muscle action potential amplitude, EMG: chronic denervation signs\n  recorded ABSENT: Microcephaly, Partial agenesis of the corpus callosum, Status epilepticus\n\nP07 (age 25.0, female)\n  observed: Hypotonia, Constipation, Feeding difficulties, Dysphagia, Caesarean section, Obstructive sleep apnea, Dysarthria, Delayed speech and language development, Mild global developmental delay\n  recorded ABSENT: Rocker bottom foot, Polyhydramnios, Short stature, Intrauterine growth retardation, Talipes, Equinovarus deformity, Central sleep apnea, Moderate global developmental delay, Severe global developmental delay\n\nP08 (age 14.0, female)\n  observed: Intellectual disability, Delayed ability to sit, Delayed ability to walk, Hyporeflexia, Cerebellar atrophy, Ataxia, Contracture of the proximal interphalangeal joint of the 5th finger, Hypotonia, Brachydactyly, Limited elbow movement, Thick vermilion border, Short palpebral fissure, Long philtrum, Bulbous nose, Coarse facial features, Sensorineural hearing impairment, Talipes equinovarus\n  recorded ABSENT: Absent speech, Scoliosis\n\nP09 (age 6.0, female)\n  observed: Postnatal growth retardation, Intellectual disability, Delayed speech and language development, Thin upper lip vermilion, Curly eyelashes, Low posterior hairline, Depressed nasal bridge, Long philtrum, Synophrys, Microcephaly\n  recorded ABSENT: Hirsutism, Cleft palate, Single transverse palmar crease, Low-set ears\n\nP10 (age 14.0, male)\n  observed: Cryptorchidism, Ankyloglossia, Deep philtrum, Short chin, Long palpebral fissure, Prominent nasal bridge, Convex nasal ridge, Hypermetropia, Anteverted ears, Macrotia, Autistic behavior, Excessive shyness, Absent speech, Intellectual disability, Bilateral single transverse palmar creases, Joint hypermobility, Cafe-au-lait spot, Aortic aneurysm\n  recorded ABSENT: Broad philtrum, Smooth philtrum, Short philtrum, Downslanted palpebral fissures, Upslanted palpebral fissure, Narrow palpebral fissure, Epiblepharon, Secondary microcephaly, Deeply set eye, Posteriorly rotated ears, Low-set ears, Overfolded helix, Otitis media, Hearing impairment, Self hugging, Aggressive behavior, Pica, Self-injurious behavior, Premature birth, 2-3 toe syndactyly, Camptodactyly of finger, Clinodactyly of the 5th finger, Prominent interphalangeal joints, Toe clinodactyly, Decreased body weight\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.85,
+     "for": "Demonstrates multiple joint contractures (talipes equinovarus, limited elbow movement, PIP joint contracture), hypotonia, motor delays, cognitive impairment, facial dysmorphism (coarse facial features, bulbous nose), and structural brain involvement (cerebellar atrophy), aligning precisely with FILIP1-related congenital neuromuscular disorder.",
+     "against": "Muscle weakness is not formally cataloged beyond hypotonia, hyporeflexia, and gross motor delays, and sensorineural hearing loss is not specifically reported in the provided disease summary."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.1,
+     "for": "Exhibits limb muscle weakness, hypotonia, respiratory insufficiency, facial dysmorphism (coarse features), cognitive impairment, and brain malformation (thin corpus callosum).",
+     "against": "Lacks the hallmark multiple congenital joint contractures, and presents with chronic neurogenic denervation and developmental regression rather than a purely congenital myopathic course."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.03,
+     "for": "Presents with hypotonia, motor delay, intellectual disability, facial dysmorphisms, and talipes equinovarus.",
+     "against": "Shows joint hypermobility, and major contractures (elbow and knee contractures) are explicitly recorded as absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.01,
+     "for": "Exhibits hypotonia, motor and speech delay, and dysphagia suggestive of neuromuscular weakness.",
+     "against": "Lacks facial dysmorphism, contractures are recorded absent (talipes/equinovarus deformity absent), and no brain malformations are noted."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.005,
+     "for": "Presents with hypotonia, motor delay, intellectual disability, and dysmorphic facial features.",
+     "against": "Lacks joint contractures and muscle weakness, and features generalized-onset seizures, microcephaly, and cardiac anomalies not prominent in the FILIP1 profile."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed muscle histology/biopsy findings, specific electrophysiological criteria distinguishing myopathy from neuropathy, and explicit descriptions of the characteristic facial gestalt and contracture spectrum.",
+   "tokens_in": 2150,
+   "tokens_out": 1717,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.75,
+     "for": "Demonstrates multiple joint contractures (limited elbow movement, PIP joint contracture, talipes equinovarus), hypotonia, hyporeflexia, facial dysmorphism (coarse facial features, bulbous nose, short palpebral fissures), cognitive impairment, and a structural brain anomaly (cerebellar atrophy).",
+     "against": "Muscle weakness is not specifically detailed beyond hypotonia and motor delay, and scoliosis is recorded as absent."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.12,
+     "for": "Presents with limb muscle weakness, hypotonia, coarse facial features, and central nervous system involvement (thin corpus callosum and white matter hyperintensities).",
+     "against": "Lacks the hallmark joint contractures, and exhibits features of a neurodegenerative/denervating process including developmental regression, neurogenic EMG findings, and autonomic/endocrine instability."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.06,
+     "for": "Exhibits hypotonia, motor delay, intellectual disability, facial dysmorphic signs (hypertelorism, epicanthus, wide nasal bridge), and talipes equinovarus.",
+     "against": "Joint contractures of the knees and elbows are explicitly recorded as absent, and the patient displays joint hypermobility rather than arthrogryposis."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.03,
+     "for": "Features hypotonia, global developmental delay, and mild facial dysmorphism (hypertelorism).",
+     "against": "Lacks congenital joint contractures, muscle weakness characterization, and myopathic signs, while featuring infantile spasms which are uncharacteristic."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Shows hypotonia, motor and speech delay, intellectual disability, and dysmorphic facial features (bulbous nose, long philtrum).",
+     "against": "Does not exhibit congenital joint contractures or distinct myopathic features, and has cardiac defects and macrodontia not reported in FILIP1-related disease."
+    }
+   ],
+   "what_the_report_lacked": "Specific myopathological findings (such as muscle biopsy evidence of congenital myopathy or filamin-related structural defects) and electrophysiological characterization distinguishing primary myopathy from denervating processes.",
+   "tokens_in": 2150,
+   "tokens_out": 2086,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.75,
+     "for": "Presents multiple joint contractures (talipes equinovarus, limited elbow movement, finger contracture), hypotonia, hyporeflexia, motor and intellectual disability, facial dysmorphism (coarse features, bulbous nose, thick vermilion), and cerebellar involvement.",
+     "against": "The report notes sensorineural hearing loss and ataxia, which are not highlighted in the brief disease summary."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.15,
+     "for": "Exhibits hypotonia, limb muscle weakness, motor delay, brain structural anomalies (thin corpus callosum), and facial dysmorphism.",
+     "against": "Demonstrates EMG chronic denervation and developmental regression, pointing to a progressive neurogenic/spinal muscular atrophy-like process rather than congenital myopathy."
+    },
+    {
+     "patient_id": "P03",
+     "probability": 0.05,
+     "for": "Features hypotonia, developmental delay, facial dysmorphism, and talipes equinovarus with adducted thumbs.",
+     "against": "Explicitly lacks elbow and knee contractures and demonstrates generalized joint hypermobility rather than multiple joint contractures."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.03,
+     "for": "Shows marked hypotonia with bulbar involvement (dysphagia, dysarthria, feeding difficulties) and developmental delay.",
+     "against": "Lacks facial dysmorphism and is explicitly negative for joint contractures including talipes equinovarus."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.01,
+     "for": "Has hypotonia, developmental delay, and hypertelorism.",
+     "against": "Presents prominent infantile spasms and microcephaly, without muscle weakness or joint contractures."
+    }
+   ],
+   "what_the_report_lacked": "Specific muscle biopsy findings, electromyographic distinction of myopathic versus neuropathic changes, and detailed descriptions of the exact facial dysmorphisms associated with FILIP1 deficiency.",
+   "tokens_in": 2150,
+   "tokens_out": 1798,
+   "round": 3
+  }
+ ]
+}

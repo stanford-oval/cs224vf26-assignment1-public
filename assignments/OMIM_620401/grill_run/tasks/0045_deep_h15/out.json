@@ -1,0 +1,88 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature presents a direct classification conflict regarding SGSM3-associated neurodevelopmental disorder (OMIM #620401). Birnbaum et al. (2024) describe the phenotype as an 'intellectual disability syndrome' characterized by mild dysmorphic features, short stature, and behavioral disturbances in Ashkenazi Jewish individuals carrying a homozygous founder variant. In contrast, Turkyilmaz et al. (2025) report siblings with biallelic stop-gain variants presenting with intellectual disability and short stature, yet explicitly classify SGSM3 as a candidate gene for a 'nonsyndromic intellectual disability' phenotype despite acknowledging the presence of mild dysmorphisms in prior cases. Because the dysmorphic manifestations are mild and non-pathognomonic, clinicians cannot reliably distinguish MRT84 from other neurodevelopmental disorders by physical exam alone, leaving the syndromic versus nonsyndromic distinction contested across primary reports.",
+  "evidence": [
+    {
+      "text": "Birnbaum et al. classify the condition resulting from a homozygous SGSM3 founder variant as an intellectual disability syndrome displaying short stature, behavioral and emotional challenges, and mild dysmorphic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "Physical examination showed short stature, mild dysmorphic features"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Turkyilmaz et al. characterize biallelic loss-of-function variants in SGSM3 (reporting two siblings with short stature and intellectual disability) as supporting a nonsyndromic intellectual disability classification, despite citing that index cases reported by Birnbaum et al. exhibited mild facial dysmorphisms.",
+      "stance": "contradicts",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1111/cge.14631",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "The report of two cases with bi-allelic LOF variants in the SGSM3 gene from different populations with similar clinical manifestations strengthens the potential of this gene as a candidate gene for the nonsyndromic ID phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "reported affected siblings",
+          "value": 2
+        },
+        {
+          "metric": "index cases cited from Birnbaum et al.",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "text": "Kaufman et al. review the nosological boundary between syndromic intellectual disability (characterized by co-morbid physical anomalies or dysmorphic features) and nonsyndromic intellectual disability where cognitive impairment is the sole feature.",
+      "stance": "neutral",
+      "source": {
+        "title": "The genetic basis of non-syndromic intellectual disability: a review",
+        "authors": [
+          "L Kaufman",
+          "M Ayub",
+          "JB Vincent"
+        ],
+        "year": 2010,
+        "journal": null,
+        "doi": "10.1007/s11689-010-9055-2",
+        "pmid": "21124998",
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s11689-010-9055-2",
+        "quote": "presence of intellectual disability as the sole clinical feature. \u2026 assessed for additional clinical phenotypes that may suggest S-ID"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Birnbaum et al. define the SGSM3 disorder as a syndromic intellectual disability with recurrent mild facial dysmorphic features and behavioral abnormalities, whereas Turkyilmaz et al. explicitly classify SGSM3 loss-of-function as causing a nonsyndromic intellectual disability phenotype."
+  ],
+  "confidence": 0.5,
+  "new_directions": [
+    {
+      "question_text": "Does standard deep phenotyping and automated 3D facial analysis across multi-ethnic SGSM3-deficient cohorts reveal a statistically distinguishable facial gestalt compared to controls and other autosomal recessive intellectual disability entities?",
+      "rationale": "Clarifying whether the 'mild dysmorphic features' noted in Ashkenazi and other cohorts form a reproducible, recognizable pattern is necessary to resolve whether SGSM3 deficiency represents a clinically distinguishable syndromic entity or an essentially nonsyndromic intellectual disability with incidental background dysmorphism.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    }
+  ]
+}

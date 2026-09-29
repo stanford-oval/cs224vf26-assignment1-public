@@ -1,0 +1,136 @@
+{
+ "directory": "OMIM_621307",
+ "omim": "OMIM:621307",
+ "disease": "Alsahan-Harris syndrome",
+ "gene": "TBC1D32",
+ "model": "gemini-3.8-flash",
+ "evidence": "rag",
+ "generated": "2026-09-29 00:57",
+ "report_chars": 1519,
+ "messages": [
+  {
+   "role": "system",
+   "content": "You are a clinical geneticist. You are given evidence about one rare disease and a cohort of patients described by HPO terms. Exactly one patient has the disease. Use only that evidence as your knowledge of the disease. Be explicit about which findings in the report drove each placement, and about findings that argue against it."
+  },
+  {
+   "role": "user",
+   "content": "WEB SEARCH RESULTS FOR Alsahan-Harris syndrome (TBC1D32, OMIM:621307):\n\n[1] Entry - #621307 - ALSAHAN-HARRIS SYNDROME; ALHAS\nhttps://omim.org/entry/621307\nAlsahan-Harris syndrome (ALHAS) is caused by homozygous or compound heterozygous mutation in the TBC1D32 gene (615867) on chromosome 6q22.\n\n[2] TBC1D32 gene TBC1 Domain Family Member 32\nhttps://www.genecards.org/card/TBC1D32\nDiseases associated with TBC1D32 include Orofaciodigital Syndrome Ix and Alsahan-Harris Syndrome. Among its related pathways is Ciliopathies.\n\n[3] Diagnosis of TBC1D32-associated conditions - PMC - NIH\nhttps://pmc.ncbi.nlm.nih.gov/articles/PMC10204718/\nby SC Harris \u00b7 2023 \u00b7 Cited by 11 \u2014 TBC1D32, encoding TBC1 domain family member 32, as a candidate causal gene in a simplex patient associated with a severe ciliopathy phenotype. ...\n\n[4] TBC1D32\nhttps://panelapp.genomicsengland.co.uk/panels/entities/TBC1D32\nTBC1D32-related ciliopathy \u00b7 Orofaciodigital syndrome IX, OMIM:258865 \u00b7 orofaciodigital syndrome IX, MONDO:0009795 \u00b7 Alsahan-Harris syndrome, OMIM:621307 \u00b7 Alsahan- ...\n\n[5] 615867 - TBC1 DOMAIN FAMILY, MEMBER 32; TBC1D32\nhttps://omim.org/entry/615867\nTBC1D32 is predicted to play a role in ciliary morphology. ALSAHAN-HARRIS SYNDROME TBC1D32, died immediately after birth with hydrocephaly, anophthalmia, ...\n\n[6] Diagnosis of TBC1D32\u2010associated conditions: Expanding ...\nhttps://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63150\nby SC Harris \u00b7 2023 \u00b7 Cited by 11 \u2014 TBC1D32 is involved in the development and function of cilia and is expressed in the developing hypothalamus and pituitary gland.\n\n================================================================================\n\nCOHORT (10 patients; exactly one has the disease):\n\nP01 (age None, unknown_sex)\n  observed: Brachydactyly, Clinodactyly, Mesomelia, Broad thumb, Hemivertebrae, Hip dislocation, Short palm, Pectus excavatum, Rib fusion, Wide nasal bridge, Micrognathia, Midface retrusion, Short philtrum, Downturned corners of mouth, Prominent forehead, Short nose, Anteverted nares, Long palpebral fissure, Downslanted palpebral fissures, Thin upper lip vermilion, Triangular mouth, Long eyelashes, Bifid tongue, Proptosis, Hypertelorism, Hypoplastic labia majora, Hypoplastic labia minora, Short stature, Low-set ears, Microtia, Limited pronation/supination of forearm\n  recorded ABSENT: Single transverse palmar crease, Nail dysplasia, Sacral dimple, Melanocytic nevus, Broad hallux, Camptodactyly, Syndactyly, Scoliosis, Gingival overgrowth, Depressed nasal bridge, Retrognathia, Orofacial cleft, Long philtrum, Narrow palate, Short neck, Upslanted palpebral fissure, Epicanthus, Microglossia, Ptosis, Strabismus, Hearing impairment, Abnormal heart morphology, Inguinal hernia\n\nP02 (age None, male)\n  observed: Rod-cone dystrophy, Frequent temper tantrums, Severe intellectual disability, Postaxial hand polydactyly, Postaxial foot polydactyly, Absent speech, Motor delay, Molar tooth sign on MRI, Cerebellar vermis hypoplasia, Microcephaly, Thick vermilion border, Wide nasal bridge, Low-set ears, Conductive hearing impairment, Decreased body weight, Short stature, Recurrent fever, Tube feeding, Hirsutism, Recurrent infections\n  recorded ABSENT: Macrocephaly, Obesity, Polyhydramnios\n\nP03 (age 2.0, male)\n  observed: Hypermetropia, Microcephaly, Global developmental delay, Delayed gross motor development, Delayed speech and language development, Febrile seizure (within the age range of 3 months to 6 years), Feeding difficulties, Recurrent respiratory infections\n  recorded ABSENT: (none recorded)\n\nP04 (age None, unknown_sex)\n  observed: Cleft palate, Camptodactyly, Hypertelorism, Gingival overgrowth, Calvarial osteosclerosis, Conductive hearing impairment, Sensorineural hearing impairment, Bifid distal phalanx of the thumb, Oligodontia\n  recorded ABSENT: Mesomelia\n\nP05 (age None, male)\n  observed: Bifid nose, Low-set ears, Encephalocele, Hypertelorism, Preaxial foot polydactyly, Absent fetal nasal bone, Mesomelic leg shortening\n  recorded ABSENT: Agenesis of corpus callosum, Preaxial hand polydactyly\n\nP06 (age 12.0, male)\n  observed: Absent pituitary stalk, Hypothalamic luteinizing hormone-releasing hormone deficiency, Adrenocorticotropic hormone deficiency, Ectopic posterior pituitary, Reduced circulating growth hormone concentration, Decreased thyroid-stimulating hormone level, Short stature, Intrauterine growth retardation, Neonatal hypoglycemia, High anterior hairline, Short middle phalanx of the 3rd finger, Short middle phalanx of the 2nd finger, Short middle phalanx of the 5th finger, Short middle phalanx of the 4th finger, Preaxial foot polydactyly, Clinodactyly of the 3rd toe, Clinodactyly of the 4th toe, Clinodactyly of the 2nd toe, Clinodactyly of the 5th finger, Postaxial hand polydactyly, Mandibular prognathia, Low-set ears, Hearing impairment, Hypertelorism, Anxiety, Delayed speech and language development, Mild global developmental delay, Delayed ability to walk, Micropenis, Bilateral cryptorchidism, Low-grade vesicoureteral reflux, Submucous cleft palate, Flat face, Lobulated tongue, Narrow palate, High palate, Accessory oral frenulum, Broad forehead, Depressed nasal bridge\n  recorded ABSENT: Adrenal hypoplasia, Decreased circulating follicle stimulating hormone concentration, Decreased circulating luteinizing hormone level, Small for gestational age, Low anterior hairline, Ventricular septal defect, Syndactyly, Preaxial hand polydactyly, Micrognathia, Frontal bossing, Primary microcephaly, Secondary microcephaly, Optic disc coloboma, Microphthalmia, Strabismus, Ptosis, Seizure, Small scrotum, Unilateral cryptorchidism, Horseshoe kidney, Median cleft palate, Midline notch of upper alveolar ridge, Median cleft upper lip, Solitary median maxillary central incisor, Selective tooth agenesis (+7 more)\n\nP07 (age 9.0, female)\n  observed: Intellectual disability, Global developmental delay, Cleft palate, Lobulated tongue, Bifid tongue, Ankyloglossia, Macroglossia, Low-set ears, Gray matter heterotopia, Downslanted palpebral fissures, Seizure, Accessory oral frenulum, Ventricular septal defect\n  recorded ABSENT: Cleft lip, Polycystic kidney dysplasia, Agenesis of corpus callosum, Hearing impairment\n\nP08 (age None, unknown_sex)\n  observed: Anophthalmia, Optic nerve aplasia, Situs inversus totalis, Low-set ears, Omphalocele, Abnormal sella turcica morphology, Midface retrusion, Aplasia of the nose, 2-5 toe syndactyly, Sandal gap\n  recorded ABSENT: Short fetal femur length, Intrauterine growth retardation, Heterochromia iridis, Coloboma, Microphthalmia, Deeply set eye, Cyclopia, Retinal dysplasia, Strabismus, Atrioventricular canal defect, Adrenal hypoplasia, Ectopic anterior pituitary gland, Seizure, Microcephaly, Anencephaly, Holoprosencephaly, Ventriculomegaly, Abnormal cerebellar vermis morphology, Fusion of the left and right thalami, Dysgenesis of the hypothalamus, Intestinal malrotation, Abnormal corpus cavernosum morphology, Renal hypoplasia, Micrognathia, Midline facial cleft (+11 more)\n\nP09 (age None, female)\n  observed: Seizure, Molar tooth sign on MRI, Global developmental delay, Ptosis, Abnormality of eye movement, Tachypnea, Apnea\n  recorded ABSENT: Retinal dystrophy, Coloboma, Polydactyly, Micrognathia, High palate, Bifid uvula, Optic nerve hypoplasia, Dandy-Walker malformation, Wide nasal bridge, Thin upper lip vermilion, 2-3 toe syndactyly\n\nP10 (age 10.3, female)\n  observed: Hypertelorism, Facial asymmetry, Hypodontia, Choanal atresia, Cleft palate, Low-set ears, Micrognathia, Ventriculomegaly, Intrauterine growth retardation, Hydrocephalus\n  recorded ABSENT: Epicanthus, Upslanted palpebral fissure, Long palpebral fissure, Atrial septal defect, Ventricular septal defect, Feeding difficulties, Underdeveloped nasal alae, Seizure, Myoclonus, Epileptic encephalopathy, Global developmental delay, Developmental regression, High palate, Cleft upper lip, Anteverted nares, Duane anomaly, Deeply set eye, Scoliosis, Vocal cord paralysis, Clinodactyly of the 5th finger, Short stature, Eyelid coloboma, Hypotonia, Depressed nasal bridge, Metopic synostosis (+7 more)\n\nTask: rank the five most likely patients, most likely first, with a probability for each (they need not sum to one). For each, say which findings in the report support the placement and which argue against it, counting recorded absences as evidence; keep each to one or two sentences. Then say what the report lacked that would have made you more confident."
+  }
+ ],
+ "rounds": [
+  {
+   "ranking": [
+    {
+     "patient_id": "P08",
+     "probability": 0.8,
+     "for": "Demonstrates anophthalmia and optic nerve aplasia, directly matching the core lethal presentation noted for Alsahan-Harris syndrome, alongside abnormal sella turcica morphology consistent with TBC1D32's role in pituitary/hypothalamic development.",
+     "against": "Ventriculomegaly/hydrocephaly is explicitly recorded as absent despite being noted in the disease description."
+    },
+    {
+     "patient_id": "P06",
+     "probability": 0.12,
+     "for": "Presents extensive hypothalamic-pituitary defects (absent pituitary stalk, ectopic posterior pituitary, multiple hormone deficiencies) aligning with TBC1D32 expression in the hypothalamus and pituitary.",
+     "against": "Lacks anophthalmia (microphthalmia recorded absent) and survived to age 12, whereas Alsahan-Harris syndrome is reported as causing neonatal death; findings align more closely with Orofaciodigital syndrome IX."
+    },
+    {
+     "patient_id": "P10",
+     "probability": 0.04,
+     "for": "Exhibits hydrocephalus and ventriculomegaly, which were documented in neonates with Alsahan-Harris syndrome.",
+     "against": "Anophthalmia is not observed, the patient is alive at age 10 years, and there are no recorded hypothalamic-pituitary or ciliary laterality defects."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.02,
+     "for": "Presents severe perinatal midline anomalies including encephalocele and polydactyly consistent with severe ciliopathies.",
+     "against": "Lacks the hallmark anophthalmia, hydrocephaly, or documented pituitary/sella abnormalities."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.02,
+     "for": "Exhibits orofaciodigital spectrum features (bifid/lobulated tongue, accessory oral frenulum) associated with TBC1D32 ciliopathy spectrum disorders.",
+     "against": "Lacks anophthalmia, hydrocephalus, or hypothalamic-pituitary abnormalities, and is alive at 9 years of age."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked a comprehensive clinical synopsis for OMIM:621307, the complete spectrum of visceral anomalies (e.g., laterality defects) seen in Alsahan-Harris syndrome, and explicit phenotypic differentiation between Alsahan-Harris syndrome and Orofaciodigital syndrome IX.",
+   "tokens_in": 2405,
+   "tokens_out": 7098,
+   "round": 1
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.85,
+     "for": "Demonstrates extensive hypothalamic-pituitary dysfunction (absent pituitary stalk, ectopic posterior pituitary, combined GH, TSH, ACTH, and LHRH deficiencies) directly matching TBC1D32's role in hypothalamic-pituitary development, alongside classic orofaciodigital ciliopathy features including a lobulated tongue, accessory oral frenulum, cleft palate, and polydactyly.",
+     "against": "Is 12 years old without anophthalmia or hydrocephalus, contrasting with initial reports of early lethality, hydrocephaly, and anophthalmia."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.05,
+     "for": "Exhibits prominent orofaciodigital ciliopathy manifestations such as lobulated tongue, bifid tongue, cleft palate, and accessory oral frenulum.",
+     "against": "Lacks the characteristic pituitary/hypothalamic defects, anophthalmia, or hydrocephaly associated with TBC1D32 mutations."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.04,
+     "for": "Presents with anophthalmia and abnormal sella turcica morphology, partially aligning with severe perinatal ciliopathy manifestations noted in OMIM records for TBC1D32.",
+     "against": "Explicitly lacks ventriculomegaly/hydrocephaly (which was highlighted in OMIM) and has uncharacteristic findings like arhinia and situs inversus totalis."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.03,
+     "for": "Features severe midline ciliopathy defects including encephalocele, preaxial foot polydactyly, and midline facial abnormalities.",
+     "against": "Lacks endocrine, pituitary, or orofaciodigital features such as cleft palate, tongue abnormalities, or anophthalmia."
+    },
+    {
+     "patient_id": "P02",
+     "probability": 0.02,
+     "for": "Exhibits a ciliopathy spectrum phenotype featuring postaxial polydactyly and developmental delay.",
+     "against": "Has a classic Joubert syndrome presentation with a molar tooth sign and cerebellar vermis hypoplasia rather than orofaciodigital or hypothalamic-pituitary dysplasia."
+    }
+   ],
+   "what_the_report_lacked": "The search results lacked a comprehensive phenotypic profile for Alsahan-Harris syndrome (OMIM:621307), specifically omitting the detailed clinical description of the expanded survivable phenotype, the frequency of hypothalamic-pituitary axis disruption versus classical orofaciodigital features, and full details of the simplex cases described in recent literature.",
+   "tokens_in": 2405,
+   "tokens_out": 7319,
+   "round": 2
+  },
+  {
+   "ranking": [
+    {
+     "patient_id": "P06",
+     "probability": 0.85,
+     "for": "Presentation of combined pituitary hormone deficiencies (absent pituitary stalk, ectopic posterior pituitary, ACTH/TSH/GH/LHRH deficiencies) directly aligns with the report noting TBC1D32 expression in the developing hypothalamus and pituitary, alongside hallmark orofaciodigital ciliopathy features including lobulated tongue, accessory oral frenulum, submucous cleft palate, and both preaxial and postaxial polydactyly.",
+     "against": "Coloboma and microphthalmia are recorded as absent despite ocular phenotypes seen in related ciliopathies."
+    },
+    {
+     "patient_id": "P08",
+     "probability": 0.05,
+     "for": "Features anophthalmia, low-set ears, midface retrusion, and abnormal sella turcica morphology consistent with the severe eye and cranial ciliopathy spectrum mentioned in the report.",
+     "against": "Lacks the orofaciodigital oral hallmarks, and ventriculomegaly/hydrocephalus as well as hypothalamic dysgenesis are recorded as explicitly absent."
+    },
+    {
+     "patient_id": "P07",
+     "probability": 0.04,
+     "for": "Presents classic orofaciodigital ciliopathy signs related to TBC1D32 such as lobulated tongue, bifid tongue, cleft palate, and accessory oral frenulum.",
+     "against": "Absence of any documented polydactyly, ocular involvement, or hypothalamic-pituitary endocrinopathies."
+    },
+    {
+     "patient_id": "P05",
+     "probability": 0.03,
+     "for": "Exhibits preaxial polydactyly and an encephalocele typical of severe ciliopathies.",
+     "against": "Lacks pituitary or hypothalamic involvement and has absence of corpus callosum agenesis and hand polydactyly."
+    },
+    {
+     "patient_id": "P01",
+     "probability": 0.02,
+     "for": "Exhibits a bifid tongue, hypertelorism, and digital anomalies indicative of an orofaciodigital phenotype.",
+     "against": "Orofacial clefting and syndactyly are explicitly recorded as absent, with no documented pituitary or hypothalamic manifestations."
+    }
+   ],
+   "what_the_report_lacked": "The report lacked detailed clinical synopses of Alsahan-Harris syndrome itself, specifically the full delineation of its core endocrine and orofaciodigital findings in contrast to Orofaciodigital Syndrome IX.",
+   "tokens_in": 2405,
+   "tokens_out": 3390,
+   "round": 3
+  }
+ ]
+}

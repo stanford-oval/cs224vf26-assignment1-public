@@ -1,0 +1,114 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Animal developmental models (Musa et al. 2024) confirm that neural crest cell-specific Brd4 loss of function causes severe perinatal-lethal mid-facial clefting, cleft palate, and severe facial hypoplasia through the failure of RUNX2 enhancer activation. However, clinical literature on human BRD4-associated Cornelia de Lange syndrome (CdLS6) consistently describes BRD4 variants as presenting with milder, atypical, or non-classic CdLS phenotypes (Lonardo et al. 2025, Fitzpatrick et al.), while consensus CdLS cohorts report cleft palate across postnatal survivors (Kline et al. 2018, Deardorff et al. 2020). The available sources do not provide human cohort-level statistical evidence demonstrating that cleft palate and severe hypoplasia are disproportionately restricted to fetal presentations relative to postnatal survivors.",
+  "evidence": [
+    {
+      "text": "Neural crest cell-specific knockout of BRD4 in mice results in perinatal lethality with severe structural craniofacial defects including severe facial hypoplasia, cleft palate, mid-facial clefting, and exencephaly via impairment of RUNX2 enhancer recruitment and osteoblast differentiation.",
+      "stance": "supports",
+      "source": {
+        "title": "BRD4 binds to active cranial neural crest enhancers to regulate RUNX2 activity during osteoblast differentiation",
+        "authors": [
+          "RE Musa",
+          "KL Lester",
+          "G Quickstad"
+        ],
+        "year": 2024,
+        "journal": "Development",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.biologists.com/dev/article/151/2/dev202110/342399",
+        "quote": "Mice with BRD4 NCC loss of function died at birth with severe facial hypoplasia, cleft palate, mid-facial clefting and exencephaly."
+      },
+      "numbers": [
+        {
+          "metric": "postnatal survival rate of BRD4 NCC KO mice",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "BRD4 gene alterations in humans are characterized in clinical literature reviews as causing non-classic or milder forms of Cornelia de Lange syndrome with broad variability rather than strictly lethal structural malformations.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Non-Classic Cornelia de Lange Syndrome Due to BRD4 Gene Alterations: A Literature Review",
+        "authors": [
+          "F Lonardo",
+          "M Falco",
+          "C Costabile",
+          "P Fontana"
+        ],
+        "year": 2025,
+        "journal": "Children",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2227-9067/12/11/1440",
+        "quote": "variations in several other genes, including BRD4, have been identified as causative factors for non-classic or milder forms of the syndrome."
+      },
+      "numbers": []
+    },
+    {
+      "text": "In the broader CdLS consensus population, structural cleft palate (including submucous cleft palate) is reported in approximately 20% of cases, occurring in postnatal pediatric management contexts rather than being an exclusively fetal finding.",
+      "stance": "neutral",
+      "source": {
+        "title": "Diagnosis and management of Cornelia de Lange syndrome",
+        "authors": [
+          "AD Kline"
+        ],
+        "year": 2018,
+        "journal": "Nature Reviews Genetics",
+        "doi": "10.1038/s41576-018-0031-0",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41576-018-0031-0",
+        "quote": "Cleft palate, including submucous cleft palate, occurs in 20%"
+      },
+      "numbers": [
+        {
+          "metric": "cleft palate prevalence in CdLS",
+          "value": 0.2
+        }
+      ]
+    },
+    {
+      "text": "Standard clinical genetics guidance identifies BRD4 testing within multigene panels for Cornelia de Lange syndrome where cleft palate is listed among manageable manifestations across surviving probands.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cornelia de Lange syndrome",
+        "authors": [
+          "MA Deardorff",
+          "SE Noon",
+          "ID Krantz"
+        ],
+        "year": 2020,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk1104/",
+        "quote": "The diagnosis of CdLS is established in a proband with suggestive clinical features and/or a heterozygous pathogenic variant in BRD4... Standard treatment for... cleft palate, dental anomalies..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Mouse neural crest BRD4 knockout models exhibit 100% perinatal lethality and severe disruptive clefting, whereas clinical cohorts and reviews of human patients with BRD4 mutations often emphasize atypical, milder, or non-classic CdLS presentations.",
+    "The hypothesis posits that cleft palate is disproportionately concentrated in fetal presentations and absent in surviving pediatric/adult BRD4 patients, but standard CdLS diagnostic and management frameworks include cleft palate among surviving individuals across CdLS subtypes."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the exact incidence of cleft palate and severe midface hypoplasia in systematically confirmed human prenatal versus postnatal BRD4 variant carriers?",
+      "rationale": "Clarifying whether human fetuses harboring loss-of-function vs dominant-negative or missense BRD4 variants exhibit higher rates of palate disruption than surviving children requires aggregated international variant registry data.",
+      "promise": 0.85,
+      "est_cost": 30000
+    },
+    {
+      "question_text": "Does heterozygous versus homozygous or tissue-specific ablation of Brd4 differentially replicate the human CdLS6 phenotype without causing obligate perinatal lethality?",
+      "rationale": "The Musa et al. 2024 model utilized conditional homozygous ablation in neural crest cells, which may model an extreme loss-of-function rather than heterozygous germline mutations observed in clinical CdLS6.",
+      "promise": 0.78,
+      "est_cost": 45000
+    }
+  ]
+}

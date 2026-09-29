@@ -1,0 +1,195 @@
+{
+  "hypotheses": [
+    {
+      "text": "Unlike MMDS1-3, which present in neonates or early infants with fatal lactic acidosis, pulmonary hypertension, and cystic leukodystrophy, FDXR-associated MMDS9B typically presents without catastrophic neonatal systemic metabolic collapse and instead manifests as a progressive sensorial neuropathy (auditory neuropathy spectrum disorder and optic atrophy) or as an acute/subacute motor-sensory polyneuropathy that mimics acute inflammatory demyelinating polyneuropathy (Guillain-Barr\u00e9 syndrome).",
+      "rationale": "MMDS1 (NFU1), MMDS2 (BOLA3), and MMDS3 (IBA57) involve late-stage Fe-S cluster maturation and lipoic acid synthase defects, resulting in glycine cleavage dysfunction and pyruvate dehydrogenase deficiency leading to rapid infantile lethality. FDXR, an electron donor upstream in ISC biogenesis, presents phenotypically as a primary sensorineural disorder or post-infectious inflammatory neuropathy mimic, providing a clear clinical discriminator against classical MMDS.",
+      "aspects": [
+        "discriminating",
+        "pooled"
+      ],
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "text": "A review of 44 reported FDXR patients and two newly reported siblings demonstrated that presentation often involves optic and/or auditory neuropathy, ataxia, and sensorimotor peripheral polyneuropathy; patients can present with acute to subacute onset peripheral neuropathy that closely mimics acute inflammatory neuropathy.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy",
+            "authors": [
+              "S Masnada",
+              "R Previtali",
+              "P Erba",
+              "E Beretta"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1007/s10072-023-06790-0",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://doi.org/10.1007/s10072-023-06790-0",
+            "quote": "The most common presentation includes optic and/or auditory neuropathy, variably associated to developmental delay or regression, global hypotonia, pyramidal, cerebellar signs, and seizures. The review of clinical findings in previously described cases from literature reveals also a significant incidence of sensorimotor peripheral polyneuropathy (22.72%) and ataxia (43.18%). To date, 44 patients with FDXR mutations have been reported."
+          },
+          "numbers": [
+            {
+              "metric": "sensorimotor peripheral polyneuropathy prevalence in literature",
+              "value": "22.72%"
+            },
+            {
+              "metric": "ataxia prevalence in literature",
+              "value": "43.18%"
+            },
+            {
+              "metric": "total reviewed patient cohort size",
+              "value": 44
+            }
+          ]
+        },
+        {
+          "text": "Monozygotic twins with homozygous FDXR variant presented with post-infectious acute flaccid quadriparesis mimicking Guillain-Barr\u00e9 syndrome refractory to IVIG and plasmapheresis, rather than metabolic decompensation or early cystic leukodystrophy.",
+          "stance": "supports",
+          "source": {
+            "title": "Homozygous FDXR variant in twin sisters with spastic paraparesis followed by acute progressive flaccid quadriparesis",
+            "authors": [
+              "A Tafakhori",
+              "Z Sarvestani",
+              "A Kariminejad",
+              "H Tajsharghi"
+            ],
+            "year": 2026,
+            "journal": null,
+            "doi": "10.1186/s12883-026-04752-5",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://link.springer.com/article/10.1186/s12883-026-04752-5",
+            "quote": "22-year-old monozygotic twins from a consanguineous Iranian family developed progressive weakness after an upper respiratory infection, initially diagnosed as Guillain-Barr\u00e9 syndrome. Despite IVIG and plasmapheresis, both progressed to flaccid quadriplegia."
+          },
+          "numbers": [
+            {
+              "metric": "age of twins at acute presentation (years)",
+              "value": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In FDXR-associated MMDS9B, auditory neuropathy spectrum disorder (HP:0000407) and optic atrophy (HP:0000648) represent the primary, highly penetrant core features (>80% across general cohorts), while motor involvement such as ataxia (HP:0002066) and sensorimotor polyneuropathy (HP:0009830) are secondary manifestations present in less than half (20-45%) of all affected individuals.",
+      "rationale": "Testing this hierarchy of penetrance allows clinicians to differentiate FDXR from primary cerebellar ataxias and hereditary motor-sensory neuropathies (such as Charcot-Marie-Tooth disease) by checking whether sensorial cranial neuropathies precede or dominate over peripheral and cerebellar deficits.",
+      "aspects": [
+        "pooled",
+        "binned"
+      ],
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "text": "Systematic review of 44 reported individuals with FDXR pathogenic variants revealed sensorimotor peripheral polyneuropathy in only 22.72% (10/44) and ataxia in 43.18% (19/44), while optic and/or auditory neuropathy remained the predominant clinical hallmark.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR-associated disease: a challenging differential diagnosis with inflammatory peripheral neuropathy",
+            "authors": [
+              "S Masnada",
+              "R Previtali",
+              "P Erba",
+              "E Beretta"
+            ],
+            "year": 2023,
+            "journal": null,
+            "doi": "10.1007/s10072-023-06790-0",
+            "pmid": null,
+            "pmc": null,
+            "url": "https://doi.org/10.1007/s10072-023-06790-0",
+            "quote": "The review of clinical findings in previously described cases from literature reveals also a significant incidence of sensorimotor peripheral polyneuropathy (22.72%) and ataxia (43.18%). To date, 44 patients with FDXR mutations have been reported."
+          },
+          "numbers": [
+            {
+              "metric": "sensorimotor peripheral polyneuropathy frequency",
+              "value": "22.72%"
+            },
+            {
+              "metric": "ataxia frequency",
+              "value": "43.18%"
+            }
+          ]
+        },
+        {
+          "text": "In an original cohort of eight subjects from four independent families, all presented with childhood-onset sensorial neuronal defects manifesting specifically as auditory neuropathy and optic atrophy due to FDXR mutations.",
+          "stance": "supports",
+          "source": {
+            "title": "FDXR mutations cause sensorial neuropathies and expand the spectrum of mitochondrial Fe-S-synthesis diseases",
+            "authors": [
+              "A Paul",
+              "A Drecourt",
+              "F Petit",
+              "DD Deguine"
+            ],
+            "year": 2017,
+            "journal": "The American Journal of Human Genetics",
+            "doi": "10.1016/j.ajhg.2017.09.007",
+            "pmid": "28965846",
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30376-2",
+            "quote": "Here, we report on eight subjects from four independent families affected by auditory neuropathy and optic atrophy. Whole-exome sequencing revealed biallelic mutations in FDXR in affected subjects of each family."
+          },
+          "numbers": [
+            {
+              "metric": "affected subjects with auditory neuropathy and optic atrophy",
+              "value": 8
+            },
+            {
+              "metric": "independent families evaluated",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Auditory neuropathy spectrum disorder (ANSD) caused by FDXR variants originates from post-synaptic cochlear neuronal dysfunction rather than pre-synaptic hair-cell loss or strial atrophy, making cochlear implantation uniquely efficacious with adjusted long pulse widths.",
+      "rationale": "Differentiating pre-synaptic from post-synaptic ANSD is critical for clinical decision-making. If FDXR primarily damages the auditory nerve fibers and spiral ganglion post-synaptically, electrophysiological tests (cochlear microphonics/OAE preservation with abnormal ABR and partial ECAP) can distinguish it from other syndromic sensorineural hearing loss etiologies.",
+      "aspects": [
+        "phenotype",
+        "discriminating"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Partial intraoperative electrically evoked compound action potential (ECAP) responses and cochlear FDXR immunohistochemistry localized the defect to a post-synaptic ANSD mechanism, and increasing pulse width during CI mapping resulted in significant auditory rehabilitation improvement over 1 year.",
+          "stance": "supports",
+          "source": {
+            "title": "Novel Variant of FDXR as a Molecular Etiology of Postlingual ...",
+            "authors": [
+              "BJ Kim"
+            ],
+            "year": 2024,
+            "journal": "Clinical and Experimental Otorhinolaryngology",
+            "doi": "10.21053/ceo.2024.00184",
+            "pmid": "39104018",
+            "pmc": "PMC11375174",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11375174/",
+            "quote": "Partial ECAP responses during CI and FDXR expression in the mouse cochlea indicate that FDXR-related ANSD is post-synaptic. As a result of increasing the pulse width during mapping, the patient's CI outcomes showed significant improvement over 1-year post-CI."
+          },
+          "numbers": [
+            {
+              "metric": "follow-up period post-cochlear implantation (years)",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What is the incidence and specificity of post-infectious acute neurological deterioration mimicking Guillain-Barr\u00e9 syndrome or transverse myelitis across all documented FDXR cases?",
+      "rationale": "Multiple case reports describe acute flaccid paraparesis or quadriparesis following infection, which is often misdiagnosed as GBS/CIDP and fails immunomodulation; quantifying this rate will clarify if post-infectious relapse is a distinctive diagnostic red flag for FDXR.",
+      "promise": 0.85,
+      "est_cost": 0.45
+    },
+    {
+      "question_text": "Do biochemical plasma/CSF biomarkers (such as lactate, pyruvate, and glycine) reliably remain normal in non-infantile FDXR cases, further validating the negative discrimination against MMDS1-3?",
+      "rationale": "Confirming whether standard metabolic workups are normal in juvenile/adult FDXR patients will help formalize biochemical absence criteria in diagnostic flowcharts.",
+      "promise": 0.8,
+      "est_cost": 0.4
+    }
+  ],
+  "dead_end": false
+}

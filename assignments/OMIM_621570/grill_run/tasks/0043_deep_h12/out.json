@@ -1,0 +1,97 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that minor upper extremity digital anomalies (such as small hands HP:0004279, fifth-finger clinodactyly HP:0004209, or single transverse palmar creases HP:0000954) occur in >=60% (>=11/18) of MAU2 individuals in the cohort described by Parenti et al., with a 0% prevalence (0/18) of major limb reduction defects. However, the available literature sources in the corpus\u2014while establishing the cohort size of 18 individuals across 15 heterozygous MAU2 variants and noting core features such as short stature and microcephaly\u2014do not provide specific numerator/denominator counts or frequencies confirming that >=60% of individuals exhibit these distal limb anomalies. Under the evaluation rules ('refuted' if the literature gives no support or contradicts outright), the hypothesis cannot be confirmed from the retrieved textual evidence.",
+  "evidence": [
+    {
+      "text": "Parenti et al. describe 18 individuals carrying 15 heterozygous MAU2 variants who display phenotypes ranging from classic to mild CdLS, with short stature and microcephaly as consistent features. However, the abstract and available text do not state specific frequencies for minor upper extremity anomalies (such as small hands or clinodactyly) or limb reduction defects.",
+      "stance": "neutral",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 lead to a new Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12668068",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12668068/",
+        "quote": "We describe 18 individuals carrying 15 heterozygous MAU2 variants and demonstrate pathogenicity through functional analyses... Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as consistent features."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals described",
+          "value": 18
+        },
+        {
+          "metric": "heterozygous MAU2 variants identified",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "The GeneReviews overview for Cornelia de Lange syndrome identifies MAU2 as an established causative gene and notes vertical transmission across five families, but does not provide individual phenotype frequencies or support the >=60% minor limb anomaly frequency specific to MAU2.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+        "authors": [],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+        "quote": "Transmission of a MAU2 pathogenic variant from an affected parent to an affected child has been reported in five families to date [Parenti et al...]"
+      },
+      "numbers": [
+        {
+          "metric": "families with reported parent-to-child transmission",
+          "value": 5
+        }
+      ]
+    },
+    {
+      "text": "Earlier foundational work by Parenti et al. documented a single MAU2 in-frame deletion affecting cohesin loading, without defining multi-patient cohort phenotype frequencies for acral or digital findings.",
+      "stance": "neutral",
+      "source": {
+        "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+        "authors": [
+          "I Parenti",
+          "F Diab",
+          "SR Gil",
+          "E Mulugeta",
+          "V Casa",
+          "R Berutti"
+        ],
+        "year": 2020,
+        "journal": "Cell Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "quote": "Here we report a MAU2 variant causing CdLS, a deletion of seven amino acids that impairs the interaction between MAU2 and the NIPBL N terminus."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts exact quantitative cutoffs (>=60% or >=11/18 for minor upper limb anomalies and 0/18 for limb reduction defects) in the 18-patient MAU2 series, but the available peer-reviewed texts lack the phenotype tables required to corroborate these frequencies."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for small hands (HP:0004279), fifth-finger clinodactyly (HP:0004209), and transverse palmar crease (HP:0000954) across published MAU2 cohorts?",
+      "rationale": "Extracting full supplementary clinical tables from PMC12668068 will allow precise calculation of sensitivity and specificity of minor distal limb findings for CdLS7.",
+      "promise": 0.9,
+      "est_cost": 250
+    },
+    {
+      "question_text": "How reliably does the absence of major limb reduction defects (HP:0009804) differentiate MAU2-related CdLS from classic NIPBL-related CdLS?",
+      "rationale": "Severe limb deficiencies are classic in NIPBL-associated CdLS; demonstrating complete absence in MAU2 cases would establish a useful negative discriminator.",
+      "promise": 0.85,
+      "est_cost": 500
+    }
+  ]
+}

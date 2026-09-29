@@ -1,0 +1,83 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The qualitative phenotypic spectrum asserted in the hypothesis (intellectual disability/developmental delay, hypotonia, and microcephaly) is supported by the seminal discovery paper describing Ramond-Elliott neurodevelopmental syndrome caused by TRA2B variants. However, the exact cohort metrics and denominators asserted in the hypothesis (~15/15, ~14/15 speech impairment, ~12/15 hypotonia, ~10-11/15 microcephaly) conflict with the primary published cohort (Ramond et al., 2023), which reported 12 individuals from 11 unrelated families with 12/12 presenting ID/DD, 10/12 displaying axial or global hypotonia of neonatal/infantile onset, and 10/12 having head circumferences below average/microcephaly.",
+  "evidence": [
+    {
+      "text": "In the discovery cohort characterizing the novel neurodevelopmental syndrome associated with monoallelic TRA2B variants, 12 individuals from 11 unrelated families were recruited. All 12 affected individuals (100%) presented intellectual disability and/or developmental delay. Axial or global hypotonia with neonatal to infancy onset was observed in 10 of 12 individuals (10/12), and head circumference was below average in 10 individuals, including microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Clustered variants in the 5\u2032 coding region of TRA2B cause a distinctive neurodevelopmental syndrome",
+        "authors": [
+          "F Ramond",
+          "C Dalgliesh",
+          "M Grimmel",
+          "O Wechsberg"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S109836002201070X",
+        "quote": "A total of 12 individuals from 11 unrelated families who harbored predicted loss-of-function monoallelic variants, mostly de novo, were recruited... All affected individuals presented intellectual disability and/or developmental delay... Axial or global hypotonia of neonatal to infancy onset was reported in 10 individuals (10/12)... Head circumference was below average in 10 individuals, including microcephaly"
+      },
+      "numbers": [
+        {
+          "metric": "cohort_size",
+          "value": 12
+        },
+        {
+          "metric": "intellectual_disability_or_developmental_delay",
+          "value": "12/12"
+        },
+        {
+          "metric": "hypotonia",
+          "value": "10/12"
+        },
+        {
+          "metric": "below_average_head_circumference_or_microcephaly",
+          "value": "10/12"
+        }
+      ]
+    },
+    {
+      "text": "Clinical panel data for TRA2B in Ramond-Elliott neurodevelopmental syndrome (MIM# 621421) records infantile spasms in 6 of 12 patients (6/12) along with hypotonia and microcephaly.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: TRA2B (Microcephaly)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/138/gene/TRA2B/",
+        "quote": "Ramond-Elliott neurodevelopmental syndrome, MIM# 621421 ... Additional features include infantile spams 6/12, hypotonia"
+      },
+      "numbers": [
+        {
+          "metric": "infantile_spasms",
+          "value": "6/12"
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes a denominator of 15 individuals (~15/15 ID/DD, ~14/15 speech impairment, ~12/15 hypotonia, ~10-11/15 microcephaly), whereas the primary defining cohort (Ramond et al., 2023) evaluated 12 individuals (12/12 ID/DD, 10/12 hypotonia, 10/12 head circumference below average / microcephaly)."
+  ],
+  "confidence": 0.8,
+  "new_directions": [
+    {
+      "question_text": "What are the exact frequencies and severity ratings of expressive vs receptive language impairment across all currently identified TRA2B cases?",
+      "rationale": "The hypothesis posits severe expressive speech impairment in nearly all patients (~14/15), but specific speech impairment subtyping needs systematically tabulated data beyond generalized developmental delay/intellectual disability.",
+      "promise": 0.85,
+      "est_cost": 5000
+    },
+    {
+      "question_text": "Does the electroclinical phenotype (specifically infantile spasms / epileptic spasms) correlate with the exact position of variants in the 5' coding region of TRA2B?",
+      "rationale": "Infantile spasms occur in approximately 50% (6/12) of individuals; evaluating whether variation in Tra2b-3 expression or alternative translation initiation influences seizure susceptibility would clarify clinical phenotypic variability.",
+      "promise": 0.75,
+      "est_cost": 15000
+    }
+  ]
+}

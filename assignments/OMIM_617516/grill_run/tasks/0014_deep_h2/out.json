@@ -1,0 +1,92 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not substantiate the claim that the specific craniofacial constellation of a prominent/broad forehead, high-arched eyebrows, bulbous nasal tip, and thin upper lip vermilion occurs in >80% of affected individuals across cohorts. While general craniofacial dysmorphism and developmental delay are widely reported across cohorts (e.g., 6/6 individuals in Feresin et al., 2025), comprehensive phenotypic evaluations highlight that clinical expressivity of individual features in Stankiewicz-Isidor syndrome is highly variable rather than uniform (Isidor et al., 2022), and specific feature breakdowns in available sources do not meet the >80% threshold across cohorts.",
+  "evidence": [
+    {
+      "text": "In a study of 24 additional unrelated patients with Stankiewicz-Isidor syndrome, the expressivity of most clinical features is described as highly variable rather than uniform across patients.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome: expanding the clinical and molecular phenotype",
+        "authors": [
+          "B Isidor",
+          "F Ebstein",
+          "A Hurst",
+          "M Vincent",
+          "I Bader"
+        ],
+        "year": 2022,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360021041320",
+        "quote": "The expressivity of most clinical features in STISS is highly variable."
+      },
+      "numbers": [
+        {
+          "metric": "evaluated patients",
+          "value": 24
+        }
+      ]
+    },
+    {
+      "text": "All 6 evaluated individuals from two unrelated families presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies, demonstrating complete penetrance for general craniofacial involvement but with notable inter- and intrafamilial clinical variability.",
+      "stance": "neutral",
+      "source": {
+        "title": "Does It Run in Your Family? Inherited Truncating PSMD12 Variants Broaden the Phenotypic Spectrum of Stankiewicz\u2010Isidor Syndrome",
+        "authors": [
+          "A Feresin",
+          "B Spedicati",
+          "S Zampieri"
+        ],
+        "year": 2025,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63953",
+        "pmid": "39641441",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63953",
+        "quote": "Portraying a completely penetrant condition with inter- and intra-familiar clinical variability, all individuals presented with developmental delay, intellectual disability, craniofacial, and skeletal anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "patients with craniofacial anomalies",
+          "value": "6/6"
+        }
+      ]
+    },
+    {
+      "text": "Clinical synopsis lists diverse and variable craniofacial features including broad forehead, broad uvula, cleft palate, dental crowding, and low-hanging columella without reporting an invariant or >80% penetrance for the hypothesized 4-feature dysmorphic facial gestalt.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Stankiewicz-Isidor syndrome (Concept Id: C4479599)",
+        "authors": [],
+        "year": null,
+        "journal": "MedGen",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "http://www.ncbi.nlm.nih.gov/medgen/1375936",
+        "quote": "Clinical features \u00b7 Broad forehead \u00b7 Broad uvula \u00b7 Cleft palate \u00b7 Dental crowding \u00b7 Dental malocclusion \u00b7 Facial asymmetry \u00b7 High palate \u00b7 Low hanging columella"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "While general craniofacial dysmorphism is noted in 100% of some small cohorts (e.g., 6/6 in Feresin et al.), the specific combination of broad forehead, high-arched eyebrows, bulbous nasal tip, and thin upper lip vermilion lacks documented >80% frequency in published literature and conflicts with larger cohort findings emphasizing marked clinical variability."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "What is the exact per-feature frequency of standardized HPO craniofacial terms (e.g., HP:0000337, HP:0002553, HP:0000414, HP:0000219) across all aggregated published PSMD12 variant cases?",
+      "rationale": "Systematic HPO-based meta-analysis across all described cohorts is required to establish whether any single craniofacial sign or combination achieves high discriminatory value.",
+      "promise": 0.85,
+      "est_cost": 2500
+    },
+    {
+      "question_text": "Can automated computer-vision facial phenotyping differentiate Stankiewicz-Isidor syndrome from clinically overlapping proteasomopathies and neurodevelopmental syndromes?",
+      "rationale": "Given the reported variable expressivity of individual features, objective deep-gestalt modeling may identify subtle composite facial signatures where categorical criteria fail.",
+      "promise": 0.78,
+      "est_cost": 12000
+    }
+  ]
+}

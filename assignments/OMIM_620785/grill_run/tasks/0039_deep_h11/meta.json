@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"ACBD6\" \"cirrhosis\" OR \"renal failure\" OR \"pancytopenia\" adult phenotype",
+    "ACBD6 adult clinical phenotype multi-organ failure cirrhosis renal pancytopenia"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+      "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+      "abstract_chars": 3137
+    },
+    {
+      "id": "https://www.academia.edu/download/109876062/42.pdf",
+      "title": "Gut Flora in Autistic Children as Biomarker for Autism in Thi-Qar Province/Iraq",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.academia.edu/download/109876062/42.pdf",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://eldorado.tu-dortmund.de/server/api/core/bitstreams/746388af-6cd7-4b82-a9db-31279cd50b09/content",
+      "title": "ZUR ERLANGUNG DES AKADEMISCHEN GRADES DES DOKTORS DER NATURWISSENSCHAFTEN (DR. RER. NAT.) DER CHEMISCHEN FALKULT\u00c4T\u00a0\u2026",
+      "pmid": null,
+      "doi": null,
+      "url": "https://eldorado.tu-dortmund.de/server/api/core/bitstreams/746388af-6cd7-4b82-a9db-31279cd50b09/content",
+      "abstract_chars": 0
+    },
+    {
+      "id": "31585894",
+      "title": "Extra-cellular vesicles carry proteome of cancer hallmarks",
+      "pmid": "31585894",
+      "doi": "10.2741/4811",
+      "url": "https://hal.science/hal-03007825/",
+      "abstract_chars": 981
+    },
+    {
+      "id": "10.1002/mdc3.70683",
+      "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+      "pmid": null,
+      "doi": "10.1002/mdc3.70683",
+      "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+      "abstract_chars": 1962
+    },
+    {
+      "id": "10.1212/NXG.0000000000200046",
+      "title": "Neurodevelopmental Disorder, Obesity, Pancytopenia ...",
+      "pmid": null,
+      "doi": "10.1212/NXG.0000000000200046",
+      "url": "https://www.neurology.org/doi/10.1212/NXG.0000000000200046",
+      "abstract_chars": 1224
+    },
+    {
+      "id": "PMC10994533",
+      "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10994533/",
+      "abstract_chars": 3137
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=ACBD6",
+      "title": "Activity - Genomics England",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=285&entity=ACBD6",
+      "abstract_chars": 2047
+    },
+    {
+      "id": "https://omim.org/entry/616352",
+      "title": "616352 - ACYL-CoA-BINDING DOMAIN-CONTAINING ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/616352",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.researchgate.net/publication/375592995_Bi-allelic_ACBD6_variants_lead_to_a_neurodevelopmental_syndrome_with_progressive_and_complex_movement_disorders",
+      "title": "(PDF) Bi-allelic ACBD6 variants lead to a ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/publication/375592995_Bi-allelic_ACBD6_variants_lead_to_a_neurodevelopmental_syndrome_with_progressive_and_complex_movement_disorders",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 6667,
+  "output_tokens": 2888,
+  "usd": 0.012,
+  "seconds": 19.2,
+  "ok": true
+}

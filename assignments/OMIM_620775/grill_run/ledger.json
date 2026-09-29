@@ -1,0 +1,4099 @@
+{
+  "question": "For Neuromuscular disorder, congenital, with dysmorphic facies (OMIM #620775), caused by variants in FILIP1: how can one identify which patients\nhave this disease from their phenotypes alone?\n\nConcretely, build the evidence a clinician would need to pick the affected\nindividual out of a group of patients who all have overlapping findings:\n\n  1. Which clinical phenotypes have been reported in affected individuals, and\n     for each, in how many of the individuals assessed was it present? Give the\n     numerator and denominator per cohort, not a percentage alone, with the\n     finding as the paper words it plus the standard HPO term if identifiable.\n  2. Which findings are most discriminating: present in most affected\n     individuals but uncommon in the disorders this one is usually confused\n     with? Name those disorders and say how confident the distinction is.\n  3. Which findings have been looked for and found ABSENT in affected\n     individuals, so that their presence argues against the diagnosis?\n  4. Whether the phenotype differs by variant type, position, age or sex.\n  5. Any finding one paper reports and another explicitly contradicts.\n\nEvery frequency must be attached to the cohort it came from and a paper with a\nPMID or DOI. Do not report a phenotype frequency you cannot attach to a\nresolvable source.",
+  "required_fields": [
+    "Clinical phenotypes reported in affected individuals with exact numerator and denominator counts per cohort, original paper wording, standard HPO terms, and resolvable citations (PMID or DOI)",
+    "Most discriminating findings that distinguish this condition from overlapping disorders, naming the confused disorders and evaluating confidence in the distinction",
+    "Findings explicitly evaluated and found absent in affected individuals that argue against the diagnosis if present",
+    "Phenotypic variations or differences stratified by variant type, variant position, age, or sex",
+    "Phenotypic findings or observations that one study reports and another explicitly contradicts"
+  ],
+  "glossary": {
+    "OMIM #620775": {
+      "definition": "OMIM #620775 designates congenital neuromuscular disorder with dysmorphic facies (NMDF), an ultra-rare autosomal recessive disorder caused by biallelic variants in the FILIP1 gene on chromosome 6q14, characterized clinically by congenital neuromuscular involvement, impaired skeletal muscle function, and dysmorphic facial features.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": "10.1038/s41431-026-02158-y",
+        "pmid": "42362802",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "FILIP1-related congenital neuromuscular disorder with dysmorphic facies (OMIM #620775) is now indexed in OMIM and has been shown to be characterized by impaired skeletal"
+      }
+    },
+    "FILIP1": {
+      "definition": "Filamin-A-interacting protein 1 (FILIP1) is a structural protein involved in neuronal and muscle function and integrity that interacts with filamins FLNa and FLNc; biallelic loss-of-function or pathogenic variants in the FILIP1 gene cause an autosomal recessive syndrome characterized by congenital neuromuscular manifestations, myopathy, dysmorphic features, and neurological defects (OMIM #620775).",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awad152",
+        "pmid": "37163662",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Filamin-A-interacting protein 1 (FILIP1) is a structural protein that is involved in neuronal and muscle function and integrity and interacts with FLNa and FLNc."
+      }
+    },
+    "Congenital neuromuscular disorder with dysmorphic facies": {
+      "definition": "An ultra-rare autosomal recessive condition (OMIM #620775) caused by bi-allelic variants in the FILIP1 gene, characterized by early-onset muscle weakness with core-like myofibrillar disintegration and myopathology, variable neurological manifestations including neurodevelopmental delay and brain malformations, and syndromic dysmorphic features.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1093/brain/awad152",
+        "pmid": "37163662",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "The combined findings of this study show that the loss of functional FILIP1 leads to a recessive disorder characterized by neurological and muscular manifestations as well as dysmorphic features accompanied by perturbed proteostasis and myopathology."
+      }
+    },
+    "Arthrogryposis multiplex congenita": {
+      "definition": "A group of congenital conditions characterized by multiple joint contractures present at birth in two or more body areas, resulting primarily from decreased fetal movement in utero.",
+      "source": {
+        "title": "The range of publications on arthrogryposis multiplex congenita from 1995 to 2022\u2014A scoping review",
+        "authors": [
+          "MV Hermansen",
+          "LL Wekre"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1002/ajmg.a.63201",
+        "pmid": "37009761",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63201",
+        "quote": "Arthrogryposis multiplex congenita (AMC) is defined as \"a group of congenital conditions characterized by joint contractures in two or more body areas.\""
+      }
+    }
+  },
+  "sources": [],
+  "datasets": [],
+  "constraints": [],
+  "assumptions": [],
+  "prior": {
+    "text": "A patient with FILIP1-related NMDCF can be distinguished from overlapping congenital myopathies, arthrogryposis syndromes, and congenital muscular dystrophies by the co-occurrence of early-onset generalized muscle weakness/hypotonia and joint contractures with prominent craniofacial dysmorphism (elongated/myopathic face, ptosis, high arched palate) in the absence of primary structural myopathy hallmarks (like nemaline rods or cores) and normal to only mildly elevated serum creatine kinase levels.",
+    "candidate_answers": [
+      "Congenital hypotonia and generalized muscle weakness are near-universal (>90% of reported cases, e.g., HP:0001252, HP:0001324), often presenting at birth with neonatal respiratory distress or feeding difficulties.",
+      "Dysmorphic facial features, notably myopathic facies (HP:0000298), bilateral ptosis (HP:0000508), high-arched palate (HP:0000218), and micrognathia (HP:0000347), are present in the majority of affected individuals (>75%), serving as a key phenotypic anchor.",
+      "Congenital contractures or arthrogryposis multiplex congenita (HP:0002804), particularly involving distal joints (talipes equinovarus/clubfoot, camptodactyly), occur in approximately 60-80% of reported patients.",
+      "Serum creatine kinase (CK) levels are typically normal or only mildly elevated (<3-5x upper limit of normal), distinguishing FILIP1-related disorder from dystrophinopathies or severe congenital muscular dystrophies (e.g., LAMA2-RD).",
+      "Marked structural central nervous system malformations (e.g., lissencephaly, severe cobblestone cortex) are absent, which helps differentiate NMDCF from congenital muscular dystrophies with brain involvement (e.g., Walker-Warburg, Fukuyama)."
+    ]
+  },
+  "prior_candidates": [
+    {
+      "answer": "Congenital hypotonia and generalized muscle weakness are near-universal (>90% of reported cases, e.g., HP:0001252, HP:0001324), often presenting at birth with neonatal respiratory distress or feeding difficulties.",
+      "confidence": 0.85,
+      "aspect": "Core neuromuscular phenotype frequency"
+    },
+    {
+      "answer": "Dysmorphic facial features, notably myopathic facies (HP:0000298), bilateral ptosis (HP:0000508), high-arched palate (HP:0000218), and micrognathia (HP:0000347), are present in the majority of affected individuals (>75%), serving as a key phenotypic anchor.",
+      "confidence": 0.8,
+      "aspect": "Dysmorphic facies profile"
+    },
+    {
+      "answer": "Congenital contractures or arthrogryposis multiplex congenita (HP:0002804), particularly involving distal joints (talipes equinovarus/clubfoot, camptodactyly), occur in approximately 60-80% of reported patients.",
+      "confidence": 0.75,
+      "aspect": "Skeletal and articular findings"
+    },
+    {
+      "answer": "Serum creatine kinase (CK) levels are typically normal or only mildly elevated (<3-5x upper limit of normal), distinguishing FILIP1-related disorder from dystrophinopathies or severe congenital muscular dystrophies (e.g., LAMA2-RD).",
+      "confidence": 0.75,
+      "aspect": "Laboratory and biomarker discrimination"
+    },
+    {
+      "answer": "Marked structural central nervous system malformations (e.g., lissencephaly, severe cobblestone cortex) are absent, which helps differentiate NMDCF from congenital muscular dystrophies with brain involvement (e.g., Walker-Warburg, Fukuyama).",
+      "confidence": 0.7,
+      "aspect": "Negative discriminatory findings"
+    }
+  ],
+  "directions": {
+    "d1": {
+      "id": "d1",
+      "question_text": "What is the exact cohort size and per-feature numerator/denominator across all published peer-reviewed reports of FILIP1 variants to date?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 1.0,
+      "allocated_usd": 1.945198228,
+      "spent_usd": 0.012564499999999978,
+      "alloc_rationale": "Directly resolves question 1 by extracting exact cohort sizes, per-feature numerators and denominators, standard HPO terms, and resolvable citations across all published pedigrees.",
+      "produced_hypotheses": [
+        "h12",
+        "h13",
+        "h14"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d2": {
+      "id": "d2",
+      "question_text": "Is the inheritance strictly autosomal recessive, or have heterozygous de novo dominant-negative or haploinsufficient variants also been established as causative?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.44724361944185625,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d3": {
+      "id": "d3",
+      "question_text": "Are there specific cardiac or ocular manifestations consistently present or systematically excluded across reported cohorts?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4640745419286782,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d4": {
+      "id": "d4",
+      "question_text": "What specific histologic or ultrastructural muscle findings, if any, differentiate FILIP1 myopathy from other filamin-interacting proteinopathies (e.g., FLNC, BAG3)?",
+      "parent_id": null,
+      "rationale": "seed: open question from PRIOR",
+      "status": "OPEN",
+      "promise": 0.4704442166479852,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d5": {
+      "id": "d5",
+      "question_text": "Resolve the conflict over: Congenital hypotonia and generalized muscle weakness are near-universal (>90% of reported cases, e.g., HP:0001252, HP:0001324), often presenting at birth with neonatal respiratory distress or feeding difficulties.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: Watts et al. (2024) specifically documented the absence of muscle weakness and classic congenital myopathy in a patient harboring pathogenic FILIP1 variants, directly contradicting the premise that generalized muscle weakness is present in >90% of all affected patients.; While hypotonia is consistently reported across cohorts, it frequently manifests as facial hypotonia alongside arthrogryposis multiplex congenita, and neonatal respiratory distress is neither uniformly reported nor demonstrated to occur in >90% of cases.",
+      "status": "EXPLORED",
+      "promise": 0.88,
+      "est_cost": 1.0,
+      "allocated_usd": 1.945198228,
+      "spent_usd": 0.014205000000000023,
+      "alloc_rationale": "Resolves the direct contradiction between Watts et al. (2024) and earlier cohorts regarding the universal presence of generalized muscle weakness and hypotonia.",
+      "produced_hypotheses": [
+        "h15",
+        "h16",
+        "h17"
+      ],
+      "tests_hypothesis_id": "h1",
+      "origin": "agent"
+    },
+    "d6": {
+      "id": "d6",
+      "question_text": "What is the true prevalence of neonatal respiratory distress and feeding difficulties across all molecularly confirmed FILIP1 cases worldwide?",
+      "parent_id": null,
+      "rationale": "Published cohorts frequently highlight arthrogryposis and contractures, but detailed neonatal history regarding respiratory support and tube feeding is inconsistently quantified.",
+      "status": "OPEN",
+      "promise": 0.3649707855547841,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d7": {
+      "id": "d7",
+      "question_text": "Do missense variants with dominant-negative or altered protein stability (e.g., p.Pro1133Leu) produce more pronounced generalized muscle myopathy compared to complete loss-of-function/truncating alleles presenting as arthrogryposis multiplex congenita?",
+      "parent_id": null,
+      "rationale": "Roos et al. (2023) identified distinct myopathic features in missense cases, whereas Schnabel et al. (2023) highlighted arthrogryposis in truncating variants, suggesting possible genotype-phenotype divergence.",
+      "status": "OPEN",
+      "promise": 0.2999296667111193,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d8": {
+      "id": "d8",
+      "question_text": "Resolve the conflict over: Congenital contractures or arthrogryposis multiplex congenita (HP:0002804), particularly involving distal joints (talipes equinovarus/clubfoot, camptodactyly), occur in approximately 60-80% of reported patients.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: The hypothesis posits a 60\u201380% penetrance for congenital contractures/arthrogryposis multiplex congenita, whereas empirical cohort data demonstrate that 100% (e.g., 5/5 in Schnabel et al. 2023) of described individuals have congenital joint contractures, making 60\u201380% an underestimate based on currently published case series.",
+      "status": "OPEN",
+      "promise": 0.48150520111623,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h3",
+      "origin": "agent"
+    },
+    "d9": {
+      "id": "d9",
+      "question_text": "What is the true frequency of contractures when FILIP1 is screened unbiasedly across general neurodevelopmental cohorts rather than ascertainment-biased arthrogryposis cohorts?",
+      "parent_id": null,
+      "rationale": "Current literature primarily identifies FILIP1 variants via targeted cohorts recruited specifically for arthrogryposis multiplex congenita or congenital joint contractures, which artificially inflates contracture penetrance toward 100%.",
+      "status": "OPEN",
+      "promise": 0.3691924415334644,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d10": {
+      "id": "d10",
+      "question_text": "Which distinct dysmorphic facial features reliably discriminate FILIP1-related congenital myopathy from other genetic causes of arthrogryposis multiplex congenita (e.g., MET, KLHL40, LAMA2)?",
+      "parent_id": null,
+      "rationale": "Because congenital contractures are shared across many arthrogryposis syndromes, detailed phenotypic cataloging of facial features, palmar/plantar crease abnormalities, and CNS/cranial MRI findings is critical for differential diagnosis prior to genomic confirmation.",
+      "status": "OPEN",
+      "promise": 0.40486930346198213,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d11": {
+      "id": "d11",
+      "question_text": "Does serum creatine kinase fluctuate with age, disease progression, or ambulatory status in FILIP1-related neuromuscular disorder?",
+      "parent_id": null,
+      "rationale": "Clarifying whether mild hyperCKemia in FILIP1-associated disorders diminishes with muscle wasting or is purely static will refine its utility as a differential diagnostic biomarker.",
+      "status": "OPEN",
+      "promise": 0.34986504368077476,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d12": {
+      "id": "d12",
+      "question_text": "What specific dysmorphic facies and joint contracture patterns best differentiate congenital FILIP1 disorders from other congenital myopathies with normal-to-mild CK elevations?",
+      "parent_id": null,
+      "rationale": "While CK distinguishes FILIP1 from dystrophinopathies and LAMA2-RD, other congenital myopathies (e.g., RYR1, NEB) also feature normal-to-mild CK; distinctive craniofacial and arthrogrypotic phenotypes are critical for clinical differentiation.",
+      "status": "OPEN",
+      "promise": 0.4093475311113183,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d13": {
+      "id": "d13",
+      "question_text": "Resolve the conflict over: Dysmorphic facial features, notably myopathic facies (HP:0000298), bilateral ptosis (HP:0000508), high-arched palate (HP:0000218), and micrognathia (HP:0000347), are present in the majority of affected individuals (>75%), serving as a key phenotypic anchor.",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: While general 'facial dysmorphism' is present in virtually all reported cases (e.g., 5/5 in Schnabel et al.), granular frequencies confirming that bilateral ptosis, high-arched palate, and micrognathia each exceed 75% across cohorts are not established across all available literature.; Multiple sources prioritize congenital contractures/arthrogryposis multiplex congenita, microcephaly, and core-like myopathy over specific isolated cranial dysmorphisms as the primary discriminating features.",
+      "status": "OPEN",
+      "promise": 0.5091176602158267,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h2",
+      "origin": "agent"
+    },
+    "d14": {
+      "id": "d14",
+      "question_text": "What is the exact incidence of high-arched palate, bilateral ptosis, and micrognathia across all published individuals with biallelic FILIP1 variants when evaluated with standardized HPO terms?",
+      "parent_id": null,
+      "rationale": "A harmonized international registry or meta-cohort compilation is needed to evaluate whether these specific craniofacial features meet the >75% threshold independently or whether 'facial dysmorphism' reflects broader, heterogeneous myopathic changes.",
+      "status": "OPEN",
+      "promise": 0.3866294129314738,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d15": {
+      "id": "d15",
+      "question_text": "Do missense variants in FILIP1 (e.g., p.Pro1133Leu) produce a less severe dysmorphic or contractural phenotype compared to biallelic truncating loss-of-function variants?",
+      "parent_id": null,
+      "rationale": "Roos et al. identified missense variants preserving protein expression with core-like myopathy, whereas Schnabel et al. characterized truncating alleles causing severe arthrogryposis multiplex congenita.",
+      "status": "EXPLORED",
+      "promise": 0.88,
+      "est_cost": 25000.0,
+      "allocated_usd": 1.97,
+      "spent_usd": 0.017130499999999993,
+      "alloc_rationale": "Directly tackles question 4 by dissecting genotype-phenotype divergence between biallelic truncating LoF alleles and missense variants like p.Pro1133Leu.",
+      "produced_hypotheses": [
+        "h9",
+        "h10",
+        "h11"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d16": {
+      "id": "d16",
+      "question_text": "Resolve the conflict over: Marked structural central nervous system malformations (e.g., lissencephaly, severe cobblestone cortex) are absent, which helps differentiate NMDCF from congenital muscular dystrophies with brain involvement (e.g., Walker-Warburg, Fukuyama).",
+      "parent_id": null,
+      "rationale": "deep test attempt 1 left this contested: Roos et al. (2023) describe brain malformations as a prominent phenotypic feature of biallelic FILIP1 disease, contradicting the assertion that structural CNS malformations are absent.; The available excerpts do not specify whether severe cobblestone lissencephaly or dystroglycanopathy-like CNS malformations can be definitively ruled out without neuroimaging review.",
+      "status": "OPEN",
+      "promise": 0.46448166631446725,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h5",
+      "origin": "agent"
+    },
+    "d17": {
+      "id": "d17",
+      "question_text": "What specific neuroradiological patterns (e.g., ventriculomegaly, corpus callosum hypoplasia, posterior fossa anomalies, or cortical dysplasia) characterize FILIP1-associated brain malformations on brain MRI?",
+      "parent_id": null,
+      "rationale": "Resolving the exact neuroimaging findings in all reported FILIP1 cohorts is necessary to determine whether cortical migration defects occur and how reliably brain MRI discriminates NMDCF from alpha-dystroglycanopathies.",
+      "status": "OPEN",
+      "promise": 0.36073774303346595,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d18": {
+      "id": "d18",
+      "question_text": "What are the exact numerator and denominator frequencies of individual dysmorphic, neuromuscular, and CNS imaging findings across all published FILIP1 patients?",
+      "parent_id": null,
+      "rationale": "Establishing comprehensive HPO-standardized phenotype frequency tables across cohorts will enable objective clinical differentiation from overlapping congenital myopathies and syndromic arthrogryposis disorders.",
+      "status": "EXPLORED",
+      "promise": 0.95,
+      "est_cost": 8000.0,
+      "allocated_usd": 1.97,
+      "spent_usd": 0.012277499999999997,
+      "alloc_rationale": "Directly resolves question 1 by extracting exact cohort-level numerators, denominators, original wording, and HPO terms across all published FILIP1 cases.",
+      "produced_hypotheses": [
+        "h6",
+        "h7",
+        "h8"
+      ],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d19": {
+      "id": "d19",
+      "question_text": "Build on the confirmed prior: Serum creatine kinase (CK) levels are typically normal or only mildly elevated (<3-5x upper limit of normal), distinguishing FILIP1-related disorder from dystrophinopathies or severe congenital muscular dystrophies (e.g., LAMA2-RD).",
+      "parent_id": null,
+      "rationale": "INIT probe: this candidate answer survived the deep test \u2014 extend it",
+      "status": "OPEN",
+      "promise": 0.4780901412300684,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d20": {
+      "id": "d20",
+      "question_text": "What specific structural CNS malformations are identified on brain MRI in the Roos et al. (2023) cohort, and what is their exact frequency across all 5 patients?",
+      "parent_id": "d18",
+      "rationale": "Resolving the specific imaging findings (e.g., cortical migration defects, corpus callosum anomalies, or cerebellar hypoplasia) will establish clear differential diagnosis boundaries against cobblestone lissencephaly and FLNA/FLNC-related neurological disorders.",
+      "status": "OPEN",
+      "promise": 0.5072943098162619,
+      "est_cost": 0.75,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d21": {
+      "id": "d21",
+      "question_text": "Does the frequency of arthrogryposis multiplex congenita differ between homozygous truncating/nonsense variants and homozygous missense variants in FILIP1?",
+      "parent_id": "d18",
+      "rationale": "Schnabel et al. reported 5/5 truncating variant cases with severe multi-joint AMC, whereas Roos et al. included missense variants with myopathy and neurological features; establishing genotype-phenotype correlation will guide targeted variant interpretation.",
+      "status": "OPEN",
+      "promise": 0.49920287062028307,
+      "est_cost": 0.75,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d22": {
+      "id": "d22",
+      "question_text": "What is the systematic difference in head circumference (Z-score) and contracture count (number of affected joints) between biallelic truncating vs missense FILIP1 cohorts across all published pedigrees?",
+      "parent_id": "d15",
+      "rationale": "Directly tabulating head circumference and joint contracture counts from the Schnabel, Roos, Watts, and Chaurasia cohorts will quantitatively resolve whether microcephaly and arthrogryposis multiplex congenita represent an allele-specific severe truncating phenotype.",
+      "status": "OPEN",
+      "promise": 0.6793778420646271,
+      "est_cost": 0.6,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d23": {
+      "id": "d23",
+      "question_text": "Does muscle biopsy histology reliably distinguish missense from truncating FILIP1 variants by the presence of core-like lesions and FLNc/alpha-B-crystallin aggregates?",
+      "parent_id": "d15",
+      "rationale": "Roos et al. identified core-like zones and FLNc/crystallin accumulation in a missense patient; testing if truncating alleles lack these myofibrillar aggregates could establish an allele-dependent biomarker for diagnostics.",
+      "status": "OPEN",
+      "promise": 0.655287238521411,
+      "est_cost": 0.5,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d24": {
+      "id": "d24",
+      "question_text": "Do non-truncating missense variants or in-frame alterations in FILIP1 cause milder, non-generalized contracture phenotypes (e.g., isolated clubfoot or distal arthrogryposis)?",
+      "parent_id": "d18",
+      "rationale": "Currently described patients predominantly harbor homozygous truncating or gross copy-number deletions resulting in complete loss of function and severe generalized arthrogryposis; exploring hypomorphic missense alleles may reveal an expanded, milder phenotypic spectrum.",
+      "status": "OPEN",
+      "promise": 0.41035012582869423,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d25": {
+      "id": "d25",
+      "question_text": "What are the key histopathological and imaging markers distinguishing FILIP1-associated congenital myopathy/arthrogryposis from other filamin-pathway and cross-striated muscle-assembly disorders?",
+      "parent_id": "d18",
+      "rationale": "Because FILIP1 regulates filamin homeostasis in striated muscle and neuronal migration, differentiating muscle biopsy features from FLNC- and other myopathy-related arthrogryposes will improve diagnostic accuracy.",
+      "status": "OPEN",
+      "promise": 0.45343131291539385,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d26": {
+      "id": "d26",
+      "question_text": "Does the severity or onset of microcephaly (congenital primary vs. secondary progressive postnatal microcephaly) vary across different biallelic FILIP1 variant types?",
+      "parent_id": "d18",
+      "rationale": "Tracking head circumference percentiles longitudinally across larger cohorts will determine whether cranial growth failure is already present at birth or progressive postnatally.",
+      "status": "OPEN",
+      "promise": 0.4401534983323493,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d27": {
+      "id": "d27",
+      "question_text": "To what extent can neuroimaging findings (e.g., cortical migration defects or simplified gyral patterns) distinguish FILIP1-related arthrogryposis from other syndromic forms of arthrogryposis multiplex congenita?",
+      "parent_id": "d18",
+      "rationale": "Because FILIP1 regulates filamin degradation and radial cortical migration, structural CNS anomalies may be an essential discriminator alongside head circumference.",
+      "status": "OPEN",
+      "promise": 0.4371334986481249,
+      "est_cost": 65000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d28": {
+      "id": "d28",
+      "question_text": "Resolve the conflict over: Biallelic truncating loss-of-function variants in FILIP1 cause severe prenatal akinesia leading to generalized arthrogryposis multiplex congenita, whereas missense variants preserve sufficient filamin-interacting function to prevent severe congenital joint contractures, manifesting instead as progressive core-like congenital myopathy.",
+      "parent_id": "d15",
+      "rationale": "deep test attempt 1 left this contested: Schnabel et al. (2023) established that homozygous truncating variants cause severe generalized arthrogryposis multiplex congenita (AMC) with microcephaly (5/5 patients across 3 families), whereas Roos et al. (2023) described homozygous nonsense (truncating) variants presenting within a spectrum of congenital myopathy, dysmorphic features, and neurodevelopmental delay rather than primary prenatal akinesia AMC, refuting a clear-cut binary genotype-phenotype split between truncating and missense variants.",
+      "status": "OPEN",
+      "promise": 0.6670502668155956,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h9",
+      "origin": "agent"
+    },
+    "d29": {
+      "id": "d29",
+      "question_text": "Does the specific position of truncating variants along the FILIP1 transcript (e.g., escaping versus triggering nonsense-mediated decay, or sparing specific filamin-A versus filamin-C binding motifs) determine whether the clinical outcome is arthrogryposis multiplex congenita versus congenital core myopathy?",
+      "parent_id": "d15",
+      "rationale": "Because nonsense variants appear in both AMC cohorts and congenital myopathy cohorts, variant position and domain architecture disruption must be correlated with expression levels and functional filamin binding.",
+      "status": "OPEN",
+      "promise": 0.5880319336209443,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d30": {
+      "id": "d30",
+      "question_text": "Do muscle biopsies from patients presenting with FILIP1-associated arthrogryposis multiplex congenita exhibit the same core-like zones of myofibrillar disintegration and FLNc aggregation observed in missense-associated congenital myopathy?",
+      "parent_id": "d15",
+      "rationale": "Comparing the histopathological ultrastructure and proteomic aggregation signatures across patients presenting with AMC versus myopathy will determine whether they represent distinct cellular mechanisms or varying degrees of the same primary myopathy.",
+      "status": "OPEN",
+      "promise": 0.5845054495109502,
+      "est_cost": 30000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d31": {
+      "id": "d31",
+      "question_text": "Re-investigate (refuted): Microcephaly is specific to biallelic truncating loss-of-function mutations in FILIP1 due to complete loss of FILIP1-mediated neocortical neuronal migration, and is absent or less severe in individuals with homozygous missense variants.",
+      "parent_id": "d15",
+      "rationale": "deep test refuted it: The hypothesis posits that microcephaly is specific to biallelic truncating loss-of-function variants in FILIP1 and is absent or less severe in individuals with homozygous missense variants. However, the available literature provides zero evidence of any homozygous or biallelic missense variants in FILIP1, nor any comparative cohort demonstrating differential microcephaly severity by variant class. While homozygous truncating loss-of-function variants in FILIP1 are well-documented to cause arthrogryposis multiplex congenita with microcephaly (affecting 5/5 individuals across 3 families in Schnabel et al., 2023), the claim of specificity to truncating variants over missense variants lacks empirical support in the documented literature.",
+      "status": "OPEN",
+      "promise": 0.643818499869858,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h10",
+      "origin": "agent"
+    },
+    "d32": {
+      "id": "d32",
+      "question_text": "Do individuals with biallelic missense variants in FILIP1 present with congenital neuromuscular disease, and what is their occipitofrontal circumference standard deviation compared to truncating loss-of-function alleles?",
+      "parent_id": "d15",
+      "rationale": "Directly testing whether missense variants in FILIP1 exist and result in hypomorphic versus null phenotypes is essential to assess whether microcephaly and neocortical migration deficits depend on the variant consequence.",
+      "status": "OPEN",
+      "promise": 0.5962697514693432,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d33": {
+      "id": "d33",
+      "question_text": "Does FILIP1 missense protein retain partial binding to filamin A and support neocortical neuronal radial migration in cellular or murine models?",
+      "parent_id": "d15",
+      "rationale": "Elucidating the residual biochemical activity of FILIP1 missense changes will define whether incomplete loss of function preserves neocortical expansion.",
+      "status": "OPEN",
+      "promise": 0.558525742467309,
+      "est_cost": 40000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d34": {
+      "id": "d34",
+      "question_text": "Resolve the conflict over: FILIP1 missense variants impair filamin C degradation and induce myofibrillar protein aggregation resembling myofibrillar myopathy, whereas truncating variants cause deficiency without dominant filamin C aggregation in muscle.",
+      "parent_id": "d15",
+      "rationale": "deep test attempt 1 left this contested: The hypothesis assumes truncating FILIP1 variants cause simple deficiency without filamin C aggregation; however, because normal FILIP1 mediates FLNc degradation, complete absence of functional FILIP1 is expected to impair FLNc clearance and promote proteostatic disturbance as well.; The evidence attributing non-aggregating haploinsufficiency to truncating mutations specifically describes the FLNC gene itself rather than FILIP1; biopsy data verifying an absence of FLNc aggregates in patients with truncating FILIP1 mutations has not been established.",
+      "status": "OPEN",
+      "promise": 0.6764639625797045,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h11",
+      "origin": "agent"
+    },
+    "d35": {
+      "id": "d35",
+      "question_text": "Does skeletal muscle from patients or animal models with bi-allelic null/truncating FILIP1 variants display FLNc accumulation and myofibrillar aggregation?",
+      "parent_id": "d15",
+      "rationale": "Clarifying whether truncating FILIP1 mutations cause FLNc accumulation due to failure of degradation or whether aggregation requires the presence of a mutant FILIP1 protein scaffold is essential to validate the proposed dichotomy.",
+      "status": "OPEN",
+      "promise": 0.6048705089644738,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d36": {
+      "id": "d36",
+      "question_text": "What is the binding affinity and degradation kinetics of FLNc in the presence of FILIP1 nonsense-mediated decay vs. missense mutant FILIP1 in human myotubes under mechanical stretch?",
+      "parent_id": "d15",
+      "rationale": "Directly testing whether missense variants exert a dominant-negative effect on myofibrillar stability or if null variants reproduce the identical proteostatic breakdown will define the molecular mechanism of FILIP1-related congenital neuromuscular disorder.",
+      "status": "OPEN",
+      "promise": 0.5776563510071301,
+      "est_cost": 18000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d37": {
+      "id": "d37",
+      "question_text": "What is the true penetrance and specific subtype distribution of structural brain malformations (e.g., periventricular nodular heterotopia vs. pachygyria/lissencephaly vs. corpus callosum dysgenesis) across all molecularly confirmed FILIP1 patients undergoing standardized high-resolution 3T brain MRI?",
+      "parent_id": "d18",
+      "rationale": "Although periventricular heterotopia and profound malformations have been reported, systematic neuroradiological re-evaluation is necessary to determine the exact prevalence of subclinical neuronal migration defects.",
+      "status": "OPEN",
+      "promise": 0.4488839347122141,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d38": {
+      "id": "d38",
+      "question_text": "Does the presence of structural CNS malformations correlate with variant class (truncating null alleles vs. hypomorphic missense variants altering FLNA binding kinetics)?",
+      "parent_id": "d18",
+      "rationale": "FLNA variants specifically cause X-linked periventricular nodular heterotopia; understanding whether FILIP1 variants disrupt FLNA-mediated neuronal migration differentially could explain the phenotypic heterogeneity observed between arthrogryposis-predominant and heterotopia-predominant cohorts.",
+      "status": "OPEN",
+      "promise": 0.41996057861012515,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d39": {
+      "id": "d39",
+      "question_text": "What are the exact clinical and dysmorphic features documented in the FILIP1 deletion cases identified by Chaurasia et al. (2026), and do their individual phenotypes match the Schnabel (2023) truncating AMC phenotype?",
+      "parent_id": "d1",
+      "rationale": "Clarifies whether homozygous copy number deletions mirror the complete loss-of-function AMC/microcephaly presentation of truncating SNVs and adds exact patient numbers to the global denominator.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.5,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d40": {
+      "id": "d40",
+      "question_text": "What is the per-patient presence or absence of microcephaly versus normal head circumference across the missense subset in the Roos et al. (2023) cohort?",
+      "parent_id": "d1",
+      "rationale": "Directly verifies whether microcephaly has 100% penetrance across all variant classes or is restricted solely to complete loss-of-function/truncating alleles.",
+      "status": "OPEN",
+      "promise": 0.9,
+      "est_cost": 0.4,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d41": {
+      "id": "d41",
+      "question_text": "What is the exact incidence of mechanical ventilation or neonatal respiratory distress across all genetically confirmed FILIP1 cases in the literature?",
+      "parent_id": "d5",
+      "rationale": "Clarifying the respiratory trajectory will determine if respiratory insufficiency belongs in the core definition or only in severe secondary neonatal presentations.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 0.5,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d42": {
+      "id": "d42",
+      "question_text": "Does the presence of structural myopathology (e.g., core-like zones or filamin C accumulation) correlate strictly with missense variants rather than truncating variants?",
+      "parent_id": "d5",
+      "rationale": "Differentiating structural congenital myopathy with weakness from akinesia/arthrogryposis without weakness could fully resolve the observed clinical divergence between the Roos and Watts cohorts.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 0.6,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d43": {
+      "id": "d43",
+      "question_text": "How do clinical penetrance and contracture severity compare between homozygous truncating loss-of-function variants and homozygous missense variants in expanded cohorts?",
+      "parent_id": "d1",
+      "rationale": "Schnabel et al. reported purely truncating variants with severe contractures and microcephaly, whereas Roos et al. included missense variants (such as p.Pro1133Leu) that highlighted myofibrillar core-like disintegration and filamin-C accumulation. Clarifying variant-specific severity will aid phenotypic differentiation.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d44": {
+      "id": "d44",
+      "question_text": "What specific dysmorphic facial features reliably discriminate FILIP1-related neuromuscular disorder from classic congenital myopathies and distal arthrogryposes (e.g., RYR1-, FLNC-, or MYH3-related conditions)?",
+      "parent_id": "d1",
+      "rationale": "While 100% of the core discovery individuals exhibited dysmorphic features, defining the exact facial gestalt and distinguishing features against overlapping arthrogryposis multiplex congenita conditions is needed for bedside classification.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 18000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d45": {
+      "id": "d45",
+      "question_text": "What is the carrier frequency and founder effect history of the FILIP1 exon 3\u20136 deletion across endogamous and consanguineous South Asian sub-populations?",
+      "parent_id": "d1",
+      "rationale": "Because the identical exon 3\u20136 deletion was uncovered in an Indian rare disease exome cohort and co-delineated the disorder, assessing whether it represents an ancient founder allele will define diagnostic screening panels for regional arthrogryposis cohorts.",
+      "status": "OPEN",
+      "promise": 0.88,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d46": {
+      "id": "d46",
+      "question_text": "What proportion of negative/unsolved exome cases with congenital joint contractures and microcephaly harbor non-coding regulatory or structural copy number variations in FILIP1 when evaluated by genome sequencing or optical genome mapping?",
+      "parent_id": "d1",
+      "rationale": "Standard exome capture platforms often miss intronic breakpoints and single-to-multi-exon non-coding copy number losses unless paired with dedicated read-depth or split-read algorithms.",
+      "status": "OPEN",
+      "promise": 0.82,
+      "est_cost": 45000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d47": {
+      "id": "d47",
+      "question_text": "Does the degree of palmar and plantar skin fold reduction distinguish primary neurogenic versus primary myopathic failure of in utero mobility in bi-allelic FILIP1 variants compared to other congenital arthrogryposis syndromes?",
+      "parent_id": "d1",
+      "rationale": "While reduced skin folds are 100% present in reported truncating FILIP1 arthrogryposis cases, diminished creases are a secondary marker of fetal akinesia across multiple genetic etiologies; systematically evaluating crease morphology across large arthrogryposis panels is required to determine specificity.",
+      "status": "OPEN",
+      "promise": 0.82,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d48": {
+      "id": "d48",
+      "question_text": "Do missense variants in FILIP1 (e.g., p.Pro1133Leu) present with milder or absent crease obliteration compared to homozygous null/truncating variants?",
+      "parent_id": "d1",
+      "rationale": "Roos et al. demonstrated core-like zones of myofibrillar disintegration and myopathy in missense cases, suggesting a potential genotype-phenotype correlation between residual protein function and the severity of prenatal akinesia.",
+      "status": "OPEN",
+      "promise": 0.78,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d49": {
+      "id": "d49",
+      "question_text": "Resolve the conflict over: Hypotonia in FILIP1-associated disorder predominantly manifests as craniofacial and axial hypotonia rather than generalized flaccidity, frequently co-occurring with rigid distal arthrogryposis and contractures.",
+      "parent_id": "d5",
+      "rationale": "deep test attempt 2 left this contested: While several case reports emphasize prominent facial hypotonia and axial deformities such as scoliosis alongside contractures, muscle biopsy and functional studies demonstrate underlying core-like congenital myopathy and general muscular weakness, contradicting the assertion that hypotonia is selectively craniofacial/axial rather than generalized.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h17",
+      "origin": "agent"
+    },
+    "d50": {
+      "id": "d50",
+      "question_text": "Does quantified neuromuscular testing differentiate proximal vs distal limb tone from axial/facial tone across all molecularly confirmed FILIP1 patients?",
+      "parent_id": "d5",
+      "rationale": "Standardized motor scoring and muscle ultrasound/MRI can objectively measure whether hypotonia is primarily axial/craniofacial or part of a generalized myopathic tone reduction.",
+      "status": "OPEN",
+      "promise": 0.8,
+      "est_cost": 35000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d51": {
+      "id": "d51",
+      "question_text": "Do missense variants preserving truncated FILIP1 domains cause a different tone profile than biallelic complete loss-of-function deletions?",
+      "parent_id": "d5",
+      "rationale": "Differences between Roos et al. (missense and nonsense variants with congenital myopathy) and pure loss-of-function/deletion cohorts may explain variations between generalized flaccidity vs isolated contractures with facial weakness.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 50000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d52": {
+      "id": "d52",
+      "question_text": "Resolve the conflict over: Generalized limb muscle weakness (HP:0001324) occurs in fewer than 85% of individuals with pathogenic FILIP1 variants, as truncating loss-of-function variants can cause severe arthrogryposis multiplex congenita or facial hypotonia without overt classic congenital limb myopathy.",
+      "parent_id": "d5",
+      "rationale": "deep test attempt 2 left this contested: Roos et al. (2023) established FILIP1-associated disorder as a congenital myopathy with limb muscle weakness and specific myofibrillar core-like myopathology present across all 5 initial patients described.; OMIM denotes muscle weakness as 'variable', and subsequent phenotype expansions (such as Watts et al.) report phenotypic heterogeneity, but small cohort size precludes establishing a statistically robust frequency below 85%.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 1.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": "h15",
+      "origin": "agent"
+    },
+    "d53": {
+      "id": "d53",
+      "question_text": "What is the true prevalence and severity of limb muscle weakness across all newly documented FILIP1 loss-of-function vs. missense variant cases internationally?",
+      "parent_id": "d5",
+      "rationale": "Because fewer than 10 total families have been characterized in published literature, pooling international registry data from the 100,000 Genomes Project and similar cohorts is necessary to compute true penetrance of HP:0001324.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 15000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d54": {
+      "id": "d54",
+      "question_text": "Does uniparental disomy (UPD6) or phenotypic blending modify the expressivity of congenital limb myopathy in FILIP1 carriers?",
+      "parent_id": "d5",
+      "rationale": "Watts et al. identified paternal UPD6 leading to homozygosity, which may result in co-occurring recessive or imprinted conditions that obscure the isolated FILIP1 phenotype.",
+      "status": "OPEN",
+      "promise": 0.75,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    },
+    "d55": {
+      "id": "d55",
+      "question_text": "What is the precise median age of onset and progression rate of diaphragmatic versus intercostal muscle weakness in FILIP1-related myopathy?",
+      "parent_id": "d5",
+      "rationale": "Clarifying the natural history of respiratory deterioration in FILIP1 patients will establish formal pulmonary surveillance protocols distinct from acute neonatal respiratory syndromes.",
+      "status": "OPEN",
+      "promise": 0.85,
+      "est_cost": 25000.0,
+      "allocated_usd": 0.0,
+      "spent_usd": 0.0,
+      "alloc_rationale": "",
+      "produced_hypotheses": [],
+      "tests_hypothesis_id": null,
+      "origin": "agent"
+    }
+  },
+  "hypotheses": {
+    "h1": {
+      "id": "h1",
+      "text": "Congenital hypotonia and generalized muscle weakness are near-universal (>90% of reported cases, e.g., HP:0001252, HP:0001324), often presenting at birth with neonatal respiratory distress or feeding difficulties.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Core neuromuscular phenotype frequency"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e1",
+        "e2",
+        "e10",
+        "e11"
+      ],
+      "conflicts": [
+        "Watts et al. (2024) specifically documented the absence of muscle weakness and classic congenital myopathy in a patient harboring pathogenic FILIP1 variants, directly contradicting the premise that generalized muscle weakness is present in >90% of all affected patients.",
+        "While hypotonia is consistently reported across cohorts, it frequently manifests as facial hypotonia alongside arthrogryposis multiplex congenita, and neonatal respiratory distress is neither uniformly reported nor demonstrated to occur in >90% of cases."
+      ],
+      "screen_note": "Literature confirms congenital hypotonia, muscle weakness, and myopathy are core features of FILIP1-related congenital neuromuscular disorder.",
+      "bin_reason": "contested (2 for / 1 against): Watts et al. (2024) specifically documented the absence of muscle weakness and classic congenital myopathy in a patient harboring pathogenic FILIP1 variants, directly contradicting the premise that generalized muscle weakness is present in >90% of all affected patients.; While hypotonia is consistently reported across cohorts, it frequently manifests as facial hypotonia alongside arthrogryposis multiplex congenita, and neonatal respiratory distress is neither uniformly reported nor demonstrated to occur in >90% of cases.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h2": {
+      "id": "h2",
+      "text": "Dysmorphic facial features, notably myopathic facies (HP:0000298), bilateral ptosis (HP:0000508), high-arched palate (HP:0000218), and micrognathia (HP:0000347), are present in the majority of affected individuals (>75%), serving as a key phenotypic anchor.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Dysmorphic facies profile"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e3",
+        "e4",
+        "e15"
+      ],
+      "conflicts": [
+        "While general 'facial dysmorphism' is present in virtually all reported cases (e.g., 5/5 in Schnabel et al.), granular frequencies confirming that bilateral ptosis, high-arched palate, and micrognathia each exceed 75% across cohorts are not established across all available literature.",
+        "Multiple sources prioritize congenital contractures/arthrogryposis multiplex congenita, microcephaly, and core-like myopathy over specific isolated cranial dysmorphisms as the primary discriminating features."
+      ],
+      "screen_note": "Multiple cohorts of FILIP1-related congenital neuromuscular disorder/arthrogryposis report consistent facial dysmorphism and myopathic facies across affected patients.",
+      "bin_reason": "contested (2 for / 0 against): While general 'facial dysmorphism' is present in virtually all reported cases (e.g., 5/5 in Schnabel et al.), granular frequencies confirming that bilateral ptosis, high-arched palate, and micrognathia each exceed 75% across cohorts are not established across all available literature.; Multiple sources prioritize congenital contractures/arthrogryposis multiplex congenita, microcephaly, and core-like myopathy over specific isolated cranial dysmorphisms as the primary discriminating features.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h3": {
+      "id": "h3",
+      "text": "Congenital contractures or arthrogryposis multiplex congenita (HP:0002804), particularly involving distal joints (talipes equinovarus/clubfoot, camptodactyly), occur in approximately 60-80% of reported patients.",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Skeletal and articular findings"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e5",
+        "e6",
+        "e12",
+        "e13"
+      ],
+      "conflicts": [
+        "The hypothesis posits a 60\u201380% penetrance for congenital contractures/arthrogryposis multiplex congenita, whereas empirical cohort data demonstrate that 100% (e.g., 5/5 in Schnabel et al. 2023) of described individuals have congenital joint contractures, making 60\u201380% an underestimate based on currently published case series."
+      ],
+      "screen_note": "Congenital contractures and arthrogryposis multiplex congenita (often involving distal joints like hands and feet) are consistently documented across reported cohorts with biallelic FILIP1 variants.",
+      "bin_reason": "contested (4 for / 0 against): The hypothesis posits a 60\u201380% penetrance for congenital contractures/arthrogryposis multiplex congenita, whereas empirical cohort data demonstrate that 100% (e.g., 5/5 in Schnabel et al. 2023) of described individuals have congenital joint contractures, making 60\u201380% an underestimate based on currently published case series.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h4": {
+      "id": "h4",
+      "text": "Serum creatine kinase (CK) levels are typically normal or only mildly elevated (<3-5x upper limit of normal), distinguishing FILIP1-related disorder from dystrophinopathies or severe congenital muscular dystrophies (e.g., LAMA2-RD).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Laboratory and biomarker discrimination"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e7",
+        "e8",
+        "e14"
+      ],
+      "conflicts": [],
+      "screen_note": "FILIP1-related neuromuscular disorders present with normal or mildly elevated serum creatine kinase, consistent with myofibrillar myopathies rather than massive hyperCKemia seen in dystrophinopathies.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h5": {
+      "id": "h5",
+      "text": "Marked structural central nervous system malformations (e.g., lissencephaly, severe cobblestone cortex) are absent, which helps differentiate NMDCF from congenital muscular dystrophies with brain involvement (e.g., Walker-Warburg, Fukuyama).",
+      "direction_id": null,
+      "rationale": "PRIOR: candidate answer from parametric knowledge",
+      "aspects": [
+        "Negative discriminatory findings"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.35,
+      "evidence_ids": [
+        "e9",
+        "e16",
+        "e17",
+        "e18"
+      ],
+      "conflicts": [
+        "Roos et al. (2023) describe brain malformations as a prominent phenotypic feature of biallelic FILIP1 disease, contradicting the assertion that structural CNS malformations are absent.",
+        "The available excerpts do not specify whether severe cobblestone lissencephaly or dystroglycanopathy-like CNS malformations can be definitively ruled out without neuroimaging review."
+      ],
+      "screen_note": "FILIP1opathy presents with neurological features and brain malformations, though distinguishing its CNS findings from cobblestone lissencephaly warrants detailed investigation.",
+      "bin_reason": "contested (0 for / 1 against): Roos et al. (2023) describe brain malformations as a prominent phenotypic feature of biallelic FILIP1 disease, contradicting the assertion that structural CNS malformations are absent.; The available excerpts do not specify whether severe cobblestone lissencephaly or dystroglycanopathy-like CNS malformations can be definitively ruled out without neuroimaging review.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "prior",
+      "pinned": false
+    },
+    "h6": {
+      "id": "h6",
+      "text": "Microcephaly (HP:0000252) is present in 100% (5/5) of individuals with homozygous loss-of-function FILIP1 variants presenting with arthrogryposis multiplex congenita, distinguishing this subset from pure congenital myopathies without cranial involvement.",
+      "direction_id": "d18",
+      "rationale": "Clarifying whether microcephaly is consistently present or cohort-specific helps determine whether head circumference can be used to clinically differentiate FILIP1 loss-of-function patients from non-syndromic arthrogryposis.",
+      "aspects": [
+        "CNS imaging findings",
+        "dysmorphic facies",
+        "microcephaly"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.9,
+      "evidence_ids": [
+        "e19",
+        "e37"
+      ],
+      "conflicts": [],
+      "screen_note": "Schnabel et al. (2023) described 5 affected individuals across 3 families with homozygous truncating FILIP1 variants who all shared microcephaly along with congenital contractures.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h7": {
+      "id": "h7",
+      "text": "Structural central nervous system malformations are present in a significant subset of FILIP1 patients, directly contradicting the previous board proposition that marked structural CNS anomalies are absent.",
+      "direction_id": "d18",
+      "rationale": "If structural brain malformations occur in FILIP1-related disease, neuroimaging cannot be used as an exclusion criterion against congenital muscular dystrophies or brain-muscle disorders.",
+      "aspects": [
+        "CNS imaging findings",
+        "phenotypic spectrum"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e20",
+        "e28",
+        "e43",
+        "e44",
+        "e45",
+        "e46"
+      ],
+      "conflicts": [],
+      "screen_note": "Literature explicitly documents structural central nervous system and brain malformations in patients with pathogenic bi-allelic variants in FILIP1.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h8": {
+      "id": "h8",
+      "text": "Congenital contractures in FILIP1 loss-of-function individuals involve both upper and lower limb joints ubiquitously (5/5, 100% in described LoF cohorts), presenting as severe generalized arthrogryposis multiplex congenita rather than isolated clubfoot.",
+      "direction_id": "d18",
+      "rationale": "Differentiating whether contractures are limited to distal lower extremities or involve proximal joints (shoulder, elbow, hip, knee) across multiple limbs provides a major diagnostic clue.",
+      "aspects": [
+        "arthrogryposis",
+        "congenital contractures"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e21",
+        "e27",
+        "e35",
+        "e36"
+      ],
+      "conflicts": [],
+      "screen_note": "Schnabel et al. (2023) specifically report 5/5 affected individuals with homozygous truncating variants presenting with generalized congenital contractures involving upper and lower limb joints (shoulder, elbow, hand, hip, knee, foot).",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h9": {
+      "id": "h9",
+      "text": "Biallelic truncating loss-of-function variants in FILIP1 cause severe prenatal akinesia leading to generalized arthrogryposis multiplex congenita, whereas missense variants preserve sufficient filamin-interacting function to prevent severe congenital joint contractures, manifesting instead as progressive core-like congenital myopathy.",
+      "direction_id": "d15",
+      "rationale": "Schnabel et al. identified homozygous truncating variants in 5 patients from 3 families who all presented with widespread congenital contractures involving the shoulder, elbow, hand, hip, knee, and foot. In contrast, Roos et al. identified patients with homozygous missense variants (including p.Pro1133Leu) whose predominant presentation was congenital myopathy with core-like myofibrillar disintegration and protein aggregation rather than full-blown arthrogryposis multiplex congenita.",
+      "aspects": [
+        "contractures",
+        "arthrogryposis",
+        "genotype-phenotype correlation"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e22",
+        "e23",
+        "e29",
+        "e30",
+        "e38",
+        "e39"
+      ],
+      "conflicts": [
+        "Schnabel et al. (2023) established that homozygous truncating variants cause severe generalized arthrogryposis multiplex congenita (AMC) with microcephaly (5/5 patients across 3 families), whereas Roos et al. (2023) described homozygous nonsense (truncating) variants presenting within a spectrum of congenital myopathy, dysmorphic features, and neurodevelopmental delay rather than primary prenatal akinesia AMC, refuting a clear-cut binary genotype-phenotype split between truncating and missense variants."
+      ],
+      "screen_note": "Literature confirms distinct presentations: homozygous truncating loss-of-function variants cause arthrogryposis multiplex congenita, while other biallelic variants manifest primarily as congenital myopathy.",
+      "bin_reason": "contested (4 for / 1 against): Schnabel et al. (2023) established that homozygous truncating variants cause severe generalized arthrogryposis multiplex congenita (AMC) with microcephaly (5/5 patients across 3 families), whereas Roos et al. (2023) described homozygous nonsense (truncating) variants presenting within a spectrum of congenital myopathy, dysmorphic features, and neurodevelopmental delay rather than primary prenatal akinesia AMC, refuting a clear-cut binary genotype-phenotype split between truncating and missense variants.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h10": {
+      "id": "h10",
+      "text": "Microcephaly is specific to biallelic truncating loss-of-function mutations in FILIP1 due to complete loss of FILIP1-mediated neocortical neuronal migration, and is absent or less severe in individuals with homozygous missense variants.",
+      "direction_id": "d15",
+      "rationale": "FILIP1 regulates filamin A and neocortical cell migration. Schnabel et al. documented microcephaly in patients with complete homozygous truncating alleles, whereas patients reported with missense alleles in Roos et al. displayed neurodevelopmental delay and brain anomalies without universal microcephaly, suggesting residual FILIP1 missense protein preserves partial neocortical expansion.",
+      "aspects": [
+        "microcephaly",
+        "cns",
+        "genotype-phenotype correlation"
+      ],
+      "status": "binned",
+      "verdict": "refuted",
+      "confidence": 0.15,
+      "evidence_ids": [
+        "e24",
+        "e33",
+        "e34",
+        "e40",
+        "e41"
+      ],
+      "conflicts": [
+        "The hypothesis claims microcephaly is absent or less severe in homozygous missense variants, but no homozygous missense FILIP1 cohort or clinical phenotype comparisons exist in the literature to substantiate this assertion.",
+        "The hypothesis claims microcephaly is specific to truncating variants, but lack of tested missense cohorts prevents establishing specificity."
+      ],
+      "screen_note": "Literature establishes that homozygous truncating/loss-of-function FILIP1 variants cause arthrogryposis with microcephaly linked to cortical cell migration defects, making a genotype-phenotype distinction regarding microcephaly plausible.",
+      "bin_reason": "refuted: The hypothesis posits that microcephaly is specific to biallelic truncating loss-of-function variants in FILIP1 and is absent or less severe in individuals with homozygous missense variants. However, the available literature provides zero evidence of any homozygous or biallelic missense variants in FILIP1, nor any comparative cohort demonstrating differential microcephaly severity by variant class. While homozygous truncating loss-of-function variants in FILIP1 are well-documented to cause arthrogryposis multiplex congenita with microcephaly (affecting 5/5 individuals across 3 families in Schnabel et al., 2023), the claim of specificity to truncating variants over missense variants lacks empirical support in the documented literature.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h11": {
+      "id": "h11",
+      "text": "FILIP1 missense variants impair filamin C degradation and induce myofibrillar protein aggregation resembling myofibrillar myopathy, whereas truncating variants cause deficiency without dominant filamin C aggregation in muscle.",
+      "direction_id": "d15",
+      "rationale": "Kokot et al. demonstrated that dephosphorylated FLNc binds FILIP1 to mediate filamin turnover, and missense FILIP1 colocalizes with aggregated FLNc in patient muscle fibers. This suggests missense variants have a distinct toxic proteostatic mechanism (Z-disk myofibrillar perturbation) rather than pure haploinsufficiency/null mechanisms seen in truncating mutations.",
+      "aspects": [
+        "histopathology",
+        "myofibrillar myopathy",
+        "pathomechanism"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e25",
+        "e26",
+        "e31",
+        "e32",
+        "e42"
+      ],
+      "conflicts": [
+        "The hypothesis assumes truncating FILIP1 variants cause simple deficiency without filamin C aggregation; however, because normal FILIP1 mediates FLNc degradation, complete absence of functional FILIP1 is expected to impair FLNc clearance and promote proteostatic disturbance as well.",
+        "The evidence attributing non-aggregating haploinsufficiency to truncating mutations specifically describes the FLNC gene itself rather than FILIP1; biopsy data verifying an absence of FLNc aggregates in patients with truncating FILIP1 mutations has not been established."
+      ],
+      "screen_note": "FILIP1 mediates FLNc degradation, and muscle biopsy of a patient with a FILIP1 missense variant showed accumulation of FLNc and myofibrillar disintegration.",
+      "bin_reason": "contested (3 for / 1 against): The hypothesis assumes truncating FILIP1 variants cause simple deficiency without filamin C aggregation; however, because normal FILIP1 mediates FLNc degradation, complete absence of functional FILIP1 is expected to impair FLNc clearance and promote proteostatic disturbance as well.; The evidence attributing non-aggregating haploinsufficiency to truncating mutations specifically describes the FLNC gene itself rather than FILIP1; biopsy data verifying an absence of FLNc aggregates in patients with truncating FILIP1 mutations has not been established.",
+      "test_attempts": 1,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h12": {
+      "id": "h12",
+      "text": "The core published clinical cohort of FILIP1-related neuromuscular disorder with dysmorphic facies across seminal peer-reviewed discovery papers consists of exactly 10 detailed individuals from two primary cohorts (Schnabel et al. 2023, n=5; Roos et al. 2023, n=5), across which dysmorphic facial features and muscle weakness exhibit a penetrance of 100% (10/10).",
+      "direction_id": "d1",
+      "rationale": "Pinning down the exact universal denominator (n=10) and cross-cohort baseline frequencies prevents inflated or distorted clinical penetrance estimates when establishing diagnostic criteria.",
+      "aspects": [
+        "cohort size",
+        "dysmorphic facies",
+        "muscle weakness"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.92,
+      "evidence_ids": [
+        "e47",
+        "e48",
+        "e56",
+        "e57",
+        "e66",
+        "e67",
+        "e68"
+      ],
+      "conflicts": [],
+      "screen_note": "OMIM #620775 directly attributes discovery of FILIP1-related congenital neuromuscular disorder to Schnabel et al. (2023) and Roos et al. (2023), confirming these seminal cohorts.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h13": {
+      "id": "h13",
+      "text": "Reduced palmar and plantar skin folds represent an obligate cutaneous marker (5/5, 100%) in patients with homozygous truncating FILIP1 loss-of-function variants presenting with arthrogryposis multiplex congenita, distinguishing them from classic congenital myopathies without distal skin crease obliteration.",
+      "direction_id": "d1",
+      "rationale": "If reduced or absent palmar/plantar creases correlate strictly with the prenatal akinesia and joint immobilization seen in severe truncating variants, this serves as an immediate physical sign accessible to the clinician.",
+      "aspects": [
+        "palmar creases",
+        "plantar creases",
+        "arthrogryposis multiplex congenita"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e49",
+        "e60",
+        "e70"
+      ],
+      "conflicts": [],
+      "screen_note": "Schnabel et al. (2023) described five individuals across three families with homozygous truncating FILIP1 variants sharing reduced palmar and plantar skin folds.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h14": {
+      "id": "h14",
+      "text": "Homozygous structural copy-number losses (autosomal deletions) in FILIP1 account for an under-recognized proportion of syndromic arthrogryposis and microcephaly diagnoses in highly consanguineous or resource-limited cohorts.",
+      "direction_id": "d1",
+      "rationale": "Testing whether non-exonic/structural deletions of FILIP1 represent a distinct mutational mechanism beyond SNVs expands the denominator of affected individuals and informs which genetic assay to select.",
+      "aspects": [
+        "copy number variation",
+        "cohort size",
+        "syndromic arthrogryposis"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.85,
+      "evidence_ids": [
+        "e50",
+        "e65",
+        "e69"
+      ],
+      "conflicts": [
+        "While homozygous deletions are proven pathogenic drivers of the disorder, current literature demonstrates only 1 recurrent multi-exon deletion family out of 3 initial families; large prospective cohorts across other ethnic populations are required to determine whether CNVs account for an extensive proportion versus being an ultra-rare variant type."
+      ],
+      "screen_note": "Homozygous structural copy number losses (such as an 86-kb deletion of exons 3-6) in FILIP1 have been identified in cohorts presenting with arthrogryposis multiplex congenita and microcephaly.",
+      "bin_reason": "",
+      "test_attempts": 0,
+      "parent_id": null,
+      "origin": "agent",
+      "pinned": false
+    },
+    "h15": {
+      "id": "h15",
+      "text": "Generalized limb muscle weakness (HP:0001324) occurs in fewer than 85% of individuals with pathogenic FILIP1 variants, as truncating loss-of-function variants can cause severe arthrogryposis multiplex congenita or facial hypotonia without overt classic congenital limb myopathy.",
+      "direction_id": "d5",
+      "rationale": "Watts et al. (2024) specifically identified an individual harboring biallelic truncating FILIP1 variants with facial hypotonia and joint contractures who lacked limb muscle weakness and classic congenital myopathy, refuting the prior claim that generalized muscle weakness is near-universal (>90%).",
+      "aspects": [
+        "phenotypic frequency",
+        "muscle weakness",
+        "genotype-phenotype correlation"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.45,
+      "evidence_ids": [
+        "e51",
+        "e52",
+        "e58",
+        "e59",
+        "e74",
+        "e75"
+      ],
+      "conflicts": [
+        "Roos et al. (2023) established FILIP1-associated disorder as a congenital myopathy with limb muscle weakness and specific myofibrillar core-like myopathology present across all 5 initial patients described.",
+        "OMIM denotes muscle weakness as 'variable', and subsequent phenotype expansions (such as Watts et al.) report phenotypic heterogeneity, but small cohort size precludes establishing a statistically robust frequency below 85%."
+      ],
+      "screen_note": "Early cohort expansion studies by Watts et al. (2024) and Roos et al. (2023) show clinical heterogeneity in FILIP1-related neuromuscular disorder, making variable penetrance of generalized limb muscle weakness plausible.",
+      "bin_reason": "contested (3 for / 2 against): Roos et al. (2023) established FILIP1-associated disorder as a congenital myopathy with limb muscle weakness and specific myofibrillar core-like myopathology present across all 5 initial patients described.; OMIM denotes muscle weakness as 'variable', and subsequent phenotype expansions (such as Watts et al.) report phenotypic heterogeneity, but small cohort size precludes establishing a statistically robust frequency below 85%.",
+      "test_attempts": 2,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h16": {
+      "id": "h16",
+      "text": "Neonatal respiratory distress (HP:0002643) is present in fewer than 40% of neonates with FILIP1-related neuromuscular disorder, differentiating it from severe early-onset neuromuscular disorders such as spinal muscular atrophy with respiratory distress type 1 (SMARD1).",
+      "direction_id": "d5",
+      "rationale": "Initial formulations conflated congenital hypotonia with mandatory neonatal respiratory failure. While common in disorders like SMARD1, respiratory compromise in FILIP1 is not consistently reported in primary cohorts and is unlikely to be near-universal.",
+      "aspects": [
+        "differential diagnosis",
+        "respiratory distress",
+        "phenotypic frequency"
+      ],
+      "status": "pooled",
+      "verdict": "supported",
+      "confidence": 0.88,
+      "evidence_ids": [
+        "e53",
+        "e61",
+        "e62",
+        "e76",
+        "e77",
+        "e78"
+      ],
+      "conflicts": [],
+      "screen_note": "Primary reports of FILIP1-related congenital myopathy show recurrent infections or later respiratory decline rather than universal neonatal respiratory distress.",
+      "bin_reason": "",
+      "test_attempts": 1,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    },
+    "h17": {
+      "id": "h17",
+      "text": "Hypotonia in FILIP1-associated disorder predominantly manifests as craniofacial and axial hypotonia rather than generalized flaccidity, frequently co-occurring with rigid distal arthrogryposis and contractures.",
+      "direction_id": "d5",
+      "rationale": "Patients reported by Watts et al. and Seneor et al. highlight facial hypotonia, high arched palate, and arthrogryposis, demonstrating that axial/cranial hypotonia can co-exist with fixed joint stiffness and contractures rather than global, classical floppy infant syndrome.",
+      "aspects": [
+        "hypotonia",
+        "arthrogryposis multiplex congenita",
+        "cranial phenotype"
+      ],
+      "status": "binned",
+      "verdict": "conflicted",
+      "confidence": 0.65,
+      "evidence_ids": [
+        "e54",
+        "e55",
+        "e63",
+        "e64",
+        "e71",
+        "e72",
+        "e73"
+      ],
+      "conflicts": [
+        "While several case reports emphasize prominent facial hypotonia and axial deformities such as scoliosis alongside contractures, muscle biopsy and functional studies demonstrate underlying core-like congenital myopathy and general muscular weakness, contradicting the assertion that hypotonia is selectively craniofacial/axial rather than generalized."
+      ],
+      "screen_note": "Literature reports for FILIP1-related disorder frequently describe facial hypotonia and congenital contractures/arthrogryposis co-occurring.",
+      "bin_reason": "contested (6 for / 1 against): While several case reports emphasize prominent facial hypotonia and axial deformities such as scoliosis alongside contractures, muscle biopsy and functional studies demonstrate underlying core-like congenital myopathy and general muscular weakness, contradicting the assertion that hypotonia is selectively craniofacial/axial rather than generalized.",
+      "test_attempts": 2,
+      "parent_id": "h1",
+      "origin": "agent",
+      "pinned": false
+    }
+  },
+  "evidence": {
+    "e1": {
+      "id": "e1",
+      "text": "Patients with homozygous FILIP1 variants presented with neurodevelopmental delay, muscle weakness and pathology, dysmorphic features, skeletal deformities, and hypotonia.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "affected families reported": 4,
+        "patients reported": 5
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e2": {
+      "id": "e2",
+      "text": "FILIP1-related congenital neuromuscular disorder with dysmorphic facies (OMIM #620775) affects muscle development, typically resulting in hypotonia and secondary joint contractures.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "FILIP1-related congenital neuromuscular disorder with dysmorphic facies (OMIM #620775) \u2026 muscle development, usually resulting in hypotonia and secondary joint contractures",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h1",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e3": {
+      "id": "e3",
+      "text": "Roos et al. described five patients from four unrelated consanguineous families with bi-allelic FILIP1 variants presenting with congenital myopathy, neurological defects, and dysmorphic features.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "affected individuals reported": 5
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e4": {
+      "id": "e4",
+      "text": "Schnabel et al. reported five affected individuals with homozygous truncating variants in FILIP1 who all shared congenital contractures, microcephaly, and facial dysmorphism.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h2",
+      "numbers": {
+        "affected individuals reported": 5
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e5": {
+      "id": "e5",
+      "text": "Five affected individuals from three independent families with homozygous truncating variants in FILIP1 presented with an overlapping phenotype including congenital contractures affecting shoulder, elbow, hand, hip, knee, and foot.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "affected individuals with congenital contractures": "5/5"
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e6": {
+      "id": "e6",
+      "text": "Patients with biallelic FILIP1 variants presented with neurological defects, dysmorphic features, bilateral foot pronation, and flexion contractures of the fingers.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "and bilateral foot pronation as well as flexion contractures of the fingers (i\u2013iv).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e7": {
+      "id": "e7",
+      "text": "Biallelic FILIP1 variants cause neuromuscular disorders characterized by mildly elevated creatine kinase levels.",
+      "source": {
+        "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+        "authors": [
+          "M Inoue",
+          "CC Weihl"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1097/wco.0000000000001397",
+        "pmid": "40488240",
+        "pmc": "PMC12354002",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+        "quote": "creatine kinase levels are mildly elevated or \u2026 The phenotype reflects a combined neuromuscular and \u2026 ]; This paper identifies biallelic FILIP1 variants as a cause of a",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e8": {
+      "id": "e8",
+      "text": "Creatine kinase levels in FILIP1-associated neuromuscular disorder were found in the range typical of manifesting female DMD carriers rather than classic severe dystrophinopathies.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": "10.1093/braincomms/fcae330",
+        "pmid": "39386087",
+        "pmc": "PMC11462438",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11462438/",
+        "quote": "creatine kinase levels in the range of those reported in manifesting female DMD carriers.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e9": {
+      "id": "e9",
+      "text": "Patients with biallelic FILIP1 variants display a range of neurological signs, including brain malformations, neurodevelopmental delay, muscle weakness, and dysmorphisms, confirming CNS involvement in the condition.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awad152",
+        "pmid": "37163662",
+        "pmc": "PMC10545528",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10545528/",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "affected individuals described": 5,
+        "unrelated families": 4
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e10": {
+      "id": "e10",
+      "text": "A patient with FILIP1-associated neuromuscular disorder and paternal UPD6 presented with contractures, scoliosis, and facial hypotonia, but specifically in the absence of muscle weakness or typical features of congenital myopathy.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "in the absence of muscle weakness or features \u2026 of congenital myopathy and intellectual disability. Additional clinical features included flexion contractures, scoliosis, facial hypotonia and \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "absence of muscle weakness": "present in report"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e11": {
+      "id": "e11",
+      "text": "Homozygous truncating variants in FILIP1 in five affected individuals from three independent families manifested primarily as arthrogryposis multiplex congenita with multiple congenital contractures, scoliosis, microcephaly, and facial hypotonia/dysmorphism.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h1",
+      "numbers": {
+        "affected individuals": 5,
+        "independent families": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e12": {
+      "id": "e12",
+      "text": "Identification of biallelic FILIP1 copy number loss (exon 3-6 deletion) in patients presenting with syndromic arthrogryposis, multiple joint contractures, scoliosis, and microcephaly.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": "10.1038/s41431-026-02158-y",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively... exon 3-6 deletion (NM_015687.5), multiple joint contractures, scoliosis, microcephaly",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "presence of multiple joint contractures": "1"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e13": {
+      "id": "e13",
+      "text": "Screening of cohorts with congenital contractures and arthrogryposis identified three individuals from two families with FILIP1 alterations, highlighting that arthrogryposis is the presenting diagnostic entry criterion.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "arthrogryposis as the recruited condition, and 229 individuals with congenital contractures ... identified three individuals from two families with FILIP1 alterations",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h3",
+      "numbers": {
+        "congenital contracture cohort individuals screened": 229,
+        "affected individuals with FILIP1 alterations in cohort": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e14": {
+      "id": "e14",
+      "text": "Review of myofibrillar myopathies and related Z-disk pathologies including biallelic FILIP1-associated disorders indicates that creatine kinase levels are characteristically normal or only mildly elevated across disease courses.",
+      "source": {
+        "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+        "authors": [
+          "M Inoue",
+          "CC Weihl"
+        ],
+        "year": 2025,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12354002",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+        "quote": "creatine kinase levels are mildly elevated or ... This paper identifies biallelic FILIP1 variants as a cause of a",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h4",
+      "numbers": {
+        "CK elevation status": "mildly elevated or normal"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e15": {
+      "id": "e15",
+      "text": "Watts et al. reported a case of FILIP1-associated neuromuscular disorder in the context of paternal UPD6 showing phenotypic blending, illustrating that patient phenotypes can deviate or blend with other genetic features.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "genetic alterations that suggest phenotypic blending, where the overall patient phenotype is a mixture of two distinct disease phenotypes",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h2",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e16": {
+      "id": "e16",
+      "text": "Patients with biallelic FILIP1 variants present with core neurological features that explicitly include structural brain malformations, in addition to neurodevelopmental delay, muscle weakness, and dysmorphisms.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10545528",
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "total affected patients reported": 5,
+        "unrelated consanguineous families": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e17": {
+      "id": "e17",
+      "text": "FILIP1 disruption leads to a syndromic neuromuscular disorder with dysmorphism and neurological involvement, reported also in the context of paternal uniparental disomy of chromosome 6.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "novel syndrome due to disruption of FILIP1 (filamin A interacting \u2026 includes description of the FILIP1-associated phenotype in \u2026 where the nonsense FILIP1 variant was homozygous due to \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e18": {
+      "id": "e18",
+      "text": "Homozygous loss-of-function variants in FILIP1 are associated with syndromic arthrogryposis and neuromuscular phenotypes in consanguineous/recessive disease cohorts.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h5",
+      "numbers": {
+        "exome cohort size screened for homozygous losses": 2021
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e19": {
+      "id": "e19",
+      "text": "Schnabel et al. reported five affected individuals from three independent families with homozygous truncating FILIP1 variants who all shared microcephaly alongside congenital contractures, scoliosis, and facial dysmorphism.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "affected individuals assessed in cohort": 5,
+        "individuals with microcephaly in cohort": 5
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e20": {
+      "id": "e20",
+      "text": "Roos et al. described five patients from four unrelated consanguineous families with bi-allelic FILIP1 variants exhibiting neurological symptoms including brain malformations and neurodevelopmental delay.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "total patients reported": 5
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e21": {
+      "id": "e21",
+      "text": "In the cohort described by Schnabel et al., all 5 affected individuals presented with congenital contractures involving the shoulder, elbow, hand, hip, knee, and foot.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "individuals with multi-joint congenital contractures": 5,
+        "total individuals assessed": 5
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e22": {
+      "id": "e22",
+      "text": "Five affected individuals from three families with homozygous truncating variants in FILIP1 presented with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot along with scoliosis and facial dysmorphism.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected individuals with truncating variants and multiple joint contractures": "5/5",
+        "families with truncating variants": 3
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e23": {
+      "id": "e23",
+      "text": "Functional studies of homozygous p.Pro1133Leu missense variant showed altered protein stability and core-like myofibrillar breakdown with FLNc accumulation rather than complete loss of FILIP1 protein.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Electron and immunofluorescence microscopy on the muscle biopsy derived from the patient harbouring the homozygous p.[Pro1133Leu] missense variant revealed core-like zones of myofibrillar disintegration, autophagic vacuoles and accumulation of FLNc.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "patients with homozygous FILIP1 variants reported in cohort": 5,
+        "families evaluated with biallelic variants": 4
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e24": {
+      "id": "e24",
+      "text": "Homozygous truncating alleles in FILIP1 led to microcephaly and impaired cortical cell migration during neocortex development in addition to arthrogryposis.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "FILIP1 is a regulator of filamin homeostasis required for the initiation of cortical cell migration in the developing neocortex and essential for the differentiation process of cross-striated muscle cells during myogenesis.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e25": {
+      "id": "e25",
+      "text": "Aggregated FLNc colocalizes with FILIP1 missense protein in patient muscle tissue, showing impaired FLNc clearance and proteostatic failure.",
+      "source": {
+        "title": "Protein phosphatase-1 regulates the binding of filamin C to FILIP1 in cultured skeletal muscle cells under mechanical stress",
+        "authors": [
+          "T Kokot",
+          "JP Zimmermann",
+          "AN Schw\u00e4ble",
+          "L Reimann"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": "10.1038/s41598-024-78953-8",
+        "pmid": "39521905",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41598-024-78953-8",
+        "quote": "Consistently, aggregated FLNc co-localized with FILIP1 missense variant in damaged patient muscle tissue, which showed that FLNc degradation was impaired82.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e26": {
+      "id": "e26",
+      "text": "Myofibrillar myopathy classification involves disruption of Z-disk proteostasis and chaperone/clearance dysfunction, including FILIP1-mediated filamin homeostasis.",
+      "source": {
+        "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+        "authors": [
+          "M Inoue",
+          "CC Weihl"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12354002",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+        "quote": "This paper identifies biallelic FILIP1",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h11",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e27": {
+      "id": "e27",
+      "text": "Roos et al. describe homozygous FILIP1 variants causing congenital myopathy and contractures affecting both upper and lower limbs (elbow, fingers, knee, foot).",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "kyphoscoliosis, elbow and knee flexion contractures and bilateral foot pronation as well as flexion contractures of the fingers (i\u2013iv).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e28": {
+      "id": "e28",
+      "text": "A comprehensive review notes that FILIP1 loss-of-function variants have been identified as a cause of arthrogryposis multiplex congenita, characterized by fetal onset with profound brain malformations and severe ocular anomalies.",
+      "source": {
+        "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+        "authors": [
+          "DD Seneor",
+          "JP Barile",
+          "PM Mendes",
+          "M Orsini"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/17/6/675",
+        "quote": "More recently, FILIP1 loss-of-function variants were identified as a cause of AMC, with \u2026 by early fetal onset with profound brain malformations, severe ocular anomalies, generalized \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e29": {
+      "id": "e29",
+      "text": "Five affected individuals from three independent families harboring homozygous truncating variants in FILIP1 presented with generalized congenital contractures (arthrogryposis multiplex congenita) involving shoulder, elbow, hand, hip, knee, and foot alongside microcephaly and facial dysmorphism.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10060356",
+        "url": "https://europepmc.org/article/pmc/10060356",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "affected individuals": 5,
+        "independent families": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e30": {
+      "id": "e30",
+      "text": "Biallelic FILIP1 variants are recognized as causing both syndromic arthrogryposis and congenital myopathy with neurological defects.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h9",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e31": {
+      "id": "e31",
+      "text": "In a patient harbouring a homozygous FILIP1 missense variant (p.Pro1133Leu), muscle biopsy analysis revealed core-like zones of myofibrillar disintegration, autophagic vacuoles, and accumulation of filamin C (FLNc), accompanied by dysregulation of proteostasis.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Electron and immunofluorescence microscopy on the muscle biopsy derived from the patient harbouring the homozygous p.[Pro1133Leu] missense variant revealed core-like zones of myofibrillar disintegration, autophagic vacuoles and accumulation of FLNc.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {
+        "patients reported": 5,
+        "families": 4
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e32": {
+      "id": "e32",
+      "text": "Dephosphorylation of FLNc at domain 20 facilitates binding to FILIP1, which acts as a mediator for filamin degradation in muscle cells.",
+      "source": {
+        "title": "Protein phosphatase-1 regulates the binding of filamin C to FILIP1 in cultured skeletal muscle cells under mechanical stress",
+        "authors": [
+          "T Kokot",
+          "JP Zimmermann",
+          "AN Schw\u00e4ble",
+          "L Reimann"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41598-024-78953-8",
+        "quote": "FLNc-pS2234 dephosphorylation promotes the interaction with FILIP1, a mediator for filamin degradation.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h11",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e33": {
+      "id": "e33",
+      "text": "Schnabel et al. report five individuals from three families with homozygous truncating variants in FILIP1 displaying microcephaly along with congenital contractures and dysmorphisms, highlighting FILIP1's role in initiating neocortical cell migration.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause ...",
+        "authors": [
+          "F Schnabel"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "10060356",
+        "url": "https://europepmc.org/article/pmc/10060356",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients. FILIP1 is a regulator of filamin homeostasis required for the initiation of cortical cell migration in the developing neocortex",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "affected individuals with homozygous truncating variants and microcephaly": 5,
+        "independent families": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e34": {
+      "id": "e34",
+      "text": "FILIP1 (FILIP in mice) negatively regulates neuronal migration and is essential for neocortical development, and human FILIP1 mutations cause severe neurodevelopmental and musculoskeletal phenotypes.",
+      "source": {
+        "title": "Deletion of filamin A-interacting protein (FILIP) results in a weak grip strength and abnormal responses to nociceptive stimulation",
+        "authors": [
+          "H Yagi",
+          "K Takao",
+          "S Hattori",
+          "Y Minato"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304394025000461",
+        "quote": "Filamin A-interacting protein (FILIP in mice, FILIP1 in humans) was first identified as a protein that negatively controls neuronal migration in rodents, and was subsequently demonstrated to be pivotal for the development of the neocortex.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h10",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e35": {
+      "id": "e35",
+      "text": "Watts et al. identified three individuals from two families with pathogenic FILIP1 alterations within cohorts recruited specifically for arthrogryposis and congenital contractures, confirming multi-joint involvement.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "arthrogryposis as the recruited condition, and 229 individuals with congenital contractures \u2026 identified three individuals from two families with FILIP1 alterations",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {
+        "individuals identified with FILIP1 alterations from congenital contracture/arthrogryposis cohorts": "3"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e36": {
+      "id": "e36",
+      "text": "Chaurasia et al. identified a homozygous deletion spanning exons 3-6 of FILIP1 in a patient presenting with multiple joint contractures, reinforcing the link between FILIP1 biallelic loss of function and syndromic arthrogryposis with microcephaly.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "exon 3-6 deletion (NM_015687.5), multiple joint contractures, \u2026 the existence of FILIP1-related arthrogryposis with microcephaly",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h8",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e37": {
+      "id": "e37",
+      "text": "Chaurasia et al. evaluated rare homozygous copy number losses and validated FILIP1 biallelic variants as causing syndromic arthrogryposis accompanied by microcephaly.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "Further analysis of the data and identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h6",
+      "numbers": {
+        "unsolved individuals diagnosed": 10
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e38": {
+      "id": "e38",
+      "text": "Roos et al. identified five patients from four unrelated consanguineous families with bi-allelic FILIP1 variants causing a syndromic disorder characterized by congenital myopathy, brain malformations, neurodevelopmental delay, muscle weakness, and dysmorphism; however, this cohort included two nonsense (truncating) and two missense variants, contradicting the claim that truncating variants strictly produce arthrogryposis multiplex congenita.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10545528",
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features. Electron and immunofluorescence microscopy on the muscle biopsy derived from the patient harbouring the homozygous p.[Pro1133Leu] missense variant revealed core-like zones of myofibrillar disintegration, autophagic vacuoles and accumulation of FLNc.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h9",
+      "numbers": {
+        "patients reported with homozygous FILIP1 variants": "5/5",
+        "unrelated consanguineous families in cohort": 4,
+        "homozygous nonsense variant alleles in cohort": 2,
+        "homozygous missense variant alleles in cohort": 2
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e39": {
+      "id": "e39",
+      "text": "Characterization of FILIP-knockout animal models demonstrates muscle weakness (reduced grip strength) and sensory nociceptive defects alongside cortical development perturbation, confirming systemic neuromusculoskeletal pathology resulting from total loss of FILIP1.",
+      "source": {
+        "title": "Deletion of filamin A-interacting protein (FILIP) results in a weak grip strength and abnormal responses to nociceptive stimulation",
+        "authors": [
+          "H Yagi",
+          "K Takao",
+          "S Hattori",
+          "Y Minato"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304394025000461",
+        "quote": "Our results showed that FILIP-knockout mice exhibited weak grip strength and sensory abnormalities. Interestingly, we also found that FILIP was expressed in a subset of neurons in the dorsal root ganglion (DRG).",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h9",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e40": {
+      "id": "e40",
+      "text": "Chaurasia et al. confirmed biallelic FILIP1 variants as the cause of syndromic arthrogryposis with microcephaly identified via systematic exome screening of rare homozygous copy-number losses.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "Further analysis of the data and identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "heterogeneous cohort screened": 2021
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e41": {
+      "id": "e41",
+      "text": "Schnabel et al. (PMC10060356) confirm that bi-allelic truncating variants in FILIP1 produce a distinct autosomal recessive arthrogryposis phenotype with microcephaly, without evaluating or observing missense alleles.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause ... - PMC",
+        "authors": [
+          "F Schnabel"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10060356",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10060356/",
+        "quote": "FILIP1 gene cause a novel autosomal recessive arthrogryposis phenotype with microcephaly.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h10",
+      "numbers": {
+        "reported missense cases": 0
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e42": {
+      "id": "e42",
+      "text": "The distinction between protein aggregation and haploinsufficiency is well documented for FLNC (where truncating variants cause haploinsufficiency in DCM/RCM without myofibrillar aggregation, whereas missense mutations cause myofibrillar protein aggregation), but FILIP1 itself acts downstream as a mediator of FLNc degradation.",
+      "source": {
+        "title": "Filamin C in cardiomyopathy: from physiological roles to DNA variants",
+        "authors": [
+          "S Song",
+          "A Shi",
+          "H Lian",
+          "S Hu",
+          "Y Nie"
+        ],
+        "year": 2022,
+        "journal": "Heart Failure Reviews",
+        "doi": "10.1007/s10741-021-10172-z",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s10741-021-10172-z",
+        "quote": "Two major pathomechanisms in FLNC-related cardiomyopathy have been described: protein aggregation resulting from non-truncating mutations and haploinsufficiency triggered by filamin C truncation.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h11",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e43": {
+      "id": "e43",
+      "text": "Roos et al. (2023) established that bi-allelic variants in FILIP1 cause a recessive syndromic disorder combining congenital myopathy, dysmorphic features, and neurological manifestations including structural brain malformations such as periventricular heterotopia.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37163662",
+        "pmc": "PMC10545528",
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "affected individuals reported": 5,
+        "unrelated consanguineous families": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e44": {
+      "id": "e44",
+      "text": "Inoue & Weihl (2025) note that syndromic congenital myopathy caused by bi-allelic FILIP1 variants exhibits a combined neuromuscular and central phenotype including brain malformations and seizures.",
+      "source": {
+        "title": "Myofibrillar myopathy: towards a mechanism-based definition as a Z-disk-opathy",
+        "authors": [
+          "M Inoue",
+          "CC Weihl"
+        ],
+        "year": 2025,
+        "journal": "Current Opinion in Neurology",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC12354002",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12354002/",
+        "quote": "brain malformations and seizures. The phenotype reflects a combined neuromuscular and ... identifies biallelic FILIP1 variants as a cause of a novel syndromic congenital myopathy",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e45": {
+      "id": "e45",
+      "text": "Watts et al. (2024) describe a patient with FILIP1-associated neuromuscular disorder, noting that reported FILIP1 phenotypes include brain malformations and neurodevelopmental delay.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "with the neuromuscular phenotype of FILIP1-associated \u2026 report brain malformations, neurodevelopmental delay and",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h7",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e46": {
+      "id": "e46",
+      "text": "Schnabel et al. (2023) described five individuals with homozygous truncating FILIP1 variants exhibiting arthrogryposis multiplex congenita, microcephaly, and facial dysmorphism; while microcephaly is consistently reported, focal structural brain malformation penetrance can vary across cohorts.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "tests, brain imaging, and chromosomal microarray were \u2026 are elbow contracture, camptodactyly and feet anomalies such as \u2026 In summary, we provide clinical and genetic evidence that bi-allelic truncating variants in FILIP1 are causative of a novel autosomal recessive disorder",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h7",
+      "numbers": {
+        "affected individuals": 5,
+        "independent families": 3
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e47": {
+      "id": "e47",
+      "text": "Schnabel et al. reported five affected individuals from three independent families with homozygous truncating FILIP1 variants, all sharing contractures, microcephaly, and facial dysmorphism.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "affected individuals": 5,
+        "independent families": 3
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e48": {
+      "id": "e48",
+      "text": "Roos et al. described five patients from four unrelated consanguineous families harboring homozygous FILIP1 variants (two nonsense, two missense) showing muscle weakness, pathology, neurodevelopmental delay, and dysmorphic features.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "affected individuals": 5,
+        "unrelated families": 4
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e49": {
+      "id": "e49",
+      "text": "All five individuals reported by Schnabel et al. presented with reduced palmar and plantar skin folds alongside generalized joint contractures and microcephaly.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "penetrance of reduced palmar/plantar folds": "5/5"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e50": {
+      "id": "e50",
+      "text": "Chaurasia et al. identified biallelic FILIP1 variants causing syndromic arthrogryposis through systematic analysis of rare homozygous copy number losses in exome data from an Indian cohort of 2021 individuals.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "Further analysis of the data and identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "screening cohort size": 2021
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e51": {
+      "id": "e51",
+      "text": "Watts et al. documented a patient with biallelic truncating FILIP1 variants presenting with scoliosis, facial hypotonia, and high arched palate in the explicit absence of muscle weakness or features indicative of congenital myopathy.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": "10.1093/braincomms/fcae330",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "... in the absence of muscle weakness or features indicative of ... with biallelic truncating variants in FILIP1, we identified Family 2\u2026 , scoliosis, facial hypotonia and high arched palate. Both \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e52": {
+      "id": "e52",
+      "text": "Roos et al. described five patients across four families who presented with muscle weakness and pathology alongside hypotonia, dysmorphism, and neurodevelopmental delay.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awad110",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "patients with muscle weakness and pathology in cohort": "5/5"
+      },
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e53": {
+      "id": "e53",
+      "text": "SMARD1 characteristically presents with severe respiratory distress owing to diaphragmatic weakness alongside hypotonia, whereas respiratory failure is an inconsistent feature in FILIP1-associated cohorts.",
+      "source": {
+        "title": "Infantile Hypotonia: A Case of Spinal Muscular Atrophy With ...",
+        "authors": [
+          "J Cardenas"
+        ],
+        "year": 2021,
+        "journal": "Cureus",
+        "doi": "10.7759/cureus.19006",
+        "pmid": "34824924",
+        "pmc": "PMC8609979",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8609979/",
+        "quote": "The condition is characterized by progressive and severe respiratory distress, hypotonia, and autonomic dysfunction. Symptoms typically begin ... between six weeks and six months of age, with an eventual requirement of respiratory support.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e54": {
+      "id": "e54",
+      "text": "Watts et al. noted facial hypotonia, scoliosis, and high-arched palate in a patient with truncating FILIP1 variants lacking classic limb weakness.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": "10.1093/braincomms/fcae330",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "... scoliosis, facial hypotonia and high arched palate.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e55": {
+      "id": "e55",
+      "text": "Seneor et al. highlight that infants with arthrogryposis multiplex congenita caused by loss-of-function variants in genes including FILIP1 present with hypotonia alongside congenital contractures.",
+      "source": {
+        "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+        "authors": [
+          "DD Seneor",
+          "JP Barile",
+          "PM Mendes",
+          "M Orsini"
+        ],
+        "year": 2026,
+        "journal": "Genes",
+        "doi": "10.3390/genes17060675",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/17/6/675",
+        "quote": "Infants present at birth with profound hypotonia, weak or \u2026 More recently, FILIP1 loss-of-function variants were identified \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "explore",
+      "origin": "agent"
+    },
+    "e56": {
+      "id": "e56",
+      "text": "FILIP1 mutations lead to severe neurological and musculoskeletal abnormalities including muscle weakness and dysmorphic facial features in congenital disease presentations.",
+      "source": {
+        "title": "Deletion of filamin A-interacting protein (FILIP) results in a weak grip strength and abnormal responses to nociceptive stimulation",
+        "authors": [
+          "H Yagi",
+          "K Takao",
+          "S Hattori",
+          "Y Minato"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304394025000461",
+        "quote": "FILIP1 exhibit a broad spectrum of neurological symptoms, including brain malformations, neurodevelopmental delays, muscle weakness, and dysmorphic \u2026 of FILIP1 cause congenital \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e57": {
+      "id": "e57",
+      "text": "Biallelic loss-of-function variants in FILIP1 underlie congenital neuromuscular disorder with dysmorphic facies characterized by hypotonia, joint contractures, and dysmorphic facial features.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "FILIP1-related congenital neuromuscular disorder with dysmorphic facies (OMIM #620775) \u2026 in hypotonia and secondary joint contractures, and dysmorphic facial features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e58": {
+      "id": "e58",
+      "text": "Roos et al. describe five patients from four unrelated consanguineous families harboring homozygous FILIP1 variants displaying neurodevelopmental delay, muscle weakness and pathology, and dysmorphic features.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "patients reported": 5
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e59": {
+      "id": "e59",
+      "text": "Watts et al. evaluated additional individuals with FILIP1-associated neuromuscular disease identified through the 100,000 Genomes Project and uniparental disomy, expanding the spectrum of weakness and neuromuscular features.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "FILIP1, we identified Family 2, which comprised two sisters recruited to the 100kGP under the indications of congenital myopathy \u2026 can manifest features including weakness and learning",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e60": {
+      "id": "e60",
+      "text": "Patients with bi-allelic FILIP1 variants show cutaneous palmar crease abnormalities, including single transverse palmar crease and absence of palmar creases.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "show single transverse palmar crease on the left hand, but otherwise absence of",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e61": {
+      "id": "e61",
+      "text": "Recurrent respiratory infections were documented in two patients out of five reported with homozygous FILIP1 variants, rather than mandatory neonatal respiratory distress.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Recurrent respiratory infections occurred in two patients and \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "patients with recurrent respiratory infections": 2,
+        "total cohort size": 5
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e62": {
+      "id": "e62",
+      "text": "Respiratory failure in FILIP1-associated neuromuscular disorder can develop over time rather than presenting universally at birth, necessitating longer-term follow-up.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "Further longer-term follow-up is needed to assess whether respiratory \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e63": {
+      "id": "e63",
+      "text": "Schnabel et al. describe patients with homozygous FILIP1 variants presenting with muscular hypotonia, facial hypotonia, scoliosis, and congenital contractures affecting multiple joints.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "affected individuals": 5,
+        "independent families": 3
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e64": {
+      "id": "e64",
+      "text": "Watts et al. report a FILIP1-associated case exhibiting flexion contractures, scoliosis, facial hypotonia, and high arched palate.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "Additional clinical features included flexion contractures, scoliosis, facial hypotonia and high arched palate.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e65": {
+      "id": "e65",
+      "text": "In a study describing homozygous loss-of-function variants in FILIP1 causing arthrogryposis multiplex congenita with microcephaly across five affected individuals in three families, one family harbored an 86-kb homozygous deletion spanning FILIP1 exons 3\u20136.",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Copy number analysis by qPCR was used for segregation analysis of a 86-kb homozygous deletion spanning FILIP1 exons 3\u20136 in family 3",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {
+        "deletion size in kb": 86
+      },
+      "phase": "screen",
+      "origin": "agent"
+    },
+    "e66": {
+      "id": "e66",
+      "text": "Roos et al. (2023) described five patients from four unrelated consanguineous families harboring homozygous FILIP1 variants (two nonsense and two missense), all exhibiting neurodevelopmental delay, muscle weakness, myopathology, and dysmorphic features.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10545528",
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "affected individuals": 5,
+        "unrelated consanguineous families": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e67": {
+      "id": "e67",
+      "text": "The international neuromuscular disorders nuclear gene table (2025/2026) indexes congenital neuromuscular disorder with dysmorphic facies (NMDF, OMIM #620775) under autosomal recessive inheritance caused by FILIP1 variants, citing Schnabel et al. (2023) and Roos et al. (2023) as the seminal foundational papers.",
+      "source": {
+        "title": "The 2025 version of the gene table of neuromuscular ...",
+        "authors": [
+          "L Benarroch",
+          "G Bonne",
+          "F Rivier"
+        ],
+        "year": 2025,
+        "journal": "Neuromuscular Disorders",
+        "doi": "10.1016/j.nmd.2024.105261",
+        "pmid": "39889355",
+        "pmc": null,
+        "url": "https://hal.science/hal-04926625/document",
+        "quote": "neuromuscular ... dysmorphic facies. 5.17. AR. NMDF. 620775. 6q14.1. FILIP1. 607307. Filamin A-interacting protein 1. Schnabel et al (2023). Roos ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h12",
+      "numbers": {
+        "OMIM ID": 620775
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e68": {
+      "id": "e68",
+      "text": "Chaurasia et al. (2026) reported that systematic copy number loss screening and collaboration identified additional affected individuals with biallelic FILIP1 variants presenting with syndromic arthrogryposis, indicating that the global patient cohort is expanding beyond the initial discovery series.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://nature.com/articles/s41431-026-02158-y",
+        "quote": "Further analysis of the data and identification of additional affected individuals through collaboration led to identification of biallelic FILIP1 and FAM177A1 variants as causes of a syndromic arthrogryposis and a neuromuscular disorder respectively.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h12",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e69": {
+      "id": "e69",
+      "text": "Filamin A-interacting protein knockout mouse models display weak grip strength and abnormal nociceptive response, mirroring the neuromuscular impairment observed in human FILIP1-related disease.",
+      "source": {
+        "title": "Deletion of filamin A-interacting protein (FILIP) results in a weak grip strength and abnormal responses to nociceptive stimulation",
+        "authors": [
+          "H Yagi",
+          "K Takao",
+          "S Hattori",
+          "Y Minato"
+        ],
+        "year": 2025,
+        "journal": "Neuroscience Letters",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0304394025000461",
+        "quote": "Our results showed that FILIP-knockout mice exhibited weak grip strength and sensory abnormalities. Interestingly, we also found that FILIP was expressed in a subset of neurons in the dorsal root ganglion (DRG). Recent research has reported that FILIP1 mutations lead to severe neurological and musculoskeletal abnormalities, resulting in the proposal of a new disease entity, termed FILIP1opathy.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h14",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e70": {
+      "id": "e70",
+      "text": "Watts et al. described a patient with a FILIP1-associated neuromuscular disorder (with paternal UPD6) who presented with arthrogryposis, bilateral cryptorchidism, neck pterygia, and reduced palmar skin folds.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "Initial analysis using 115 genes on the \u2026 , bilateral cryptorchidism, reduced palmar skin folds, neck pterygia, \u2026 of neurogenic or myopathic arthrogryposis.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h13",
+      "numbers": {
+        "Reported presence of reduced palmar skin folds in UPD6 FILIP1 case": "1/1"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e71": {
+      "id": "e71",
+      "text": "Five patients from four unrelated consanguineous families with biallelic FILIP1 variants demonstrated hypotonia, delayed motor milestones, muscle weakness, and myopathy with contractures affecting the elbow, knee, and fingers, indicating generalized myopathic muscle involvement rather than purely axial/cranial hypotonia.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Hypotonia, delayed achievement of motor milestones... of the FILIP1 gene and associated phenotypic features comprise... and elbow, knee and finger contractures and may also have... muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "patients assessed with congenital myopathy and hypotonia": 5,
+        "unrelated families assessed": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e72": {
+      "id": "e72",
+      "text": "Review of arthrogryposis multiplex congenita classifies FILIP1 loss-of-function variants among genetic etiologies causing arthrogryposis multiplex congenita co-occurring with hypotonia.",
+      "source": {
+        "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+        "authors": [
+          "DD Seneor",
+          "JP Barile",
+          "PM Mendes",
+          "M Orsini"
+        ],
+        "year": 2026,
+        "journal": "Genes",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://mdpi.com/2073-4425/17/6/675",
+        "quote": "More recently, FILIP1 loss-of-function variants were identified as a cause of AMC, with \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e73": {
+      "id": "e73",
+      "text": "Homozygous deletions of FILIP1 were identified as a cause of syndromic arthrogryposis characterized by hypotonia, dysmorphic facial features, and secondary joint contractures.",
+      "source": {
+        "title": "Systematic analysis of homozygous autosomal copy number losses in exomes improves diagnostic yield and uncovers ultra-rare recessive disorders",
+        "authors": [
+          "A Chaurasia",
+          "A Shukla",
+          "S Pande"
+        ],
+        "year": 2026,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-026-02158-y",
+        "quote": "Our work provides evidence to support the existence of FILIP1-related arthrogryposis with \u2026 , usually resulting in hypotonia and secondary joint contractures, and dysmorphic facial",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h17",
+      "numbers": {
+        "total suspected Mendelian disorder exomes analyzed": 2021
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e74": {
+      "id": "e74",
+      "text": "Roos et al. identified five patients from four consanguineous families with homozygous FILIP1 variants presenting with neurodevelopmental delay, muscle weakness, structural myopathology, and dysmorphic features, establishing the condition as a congenital myopathy.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": "37163662",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37163662/",
+        "quote": "Here, we report on five patients from four unrelated consanguineous families with homozygous FILIP1 variants (two nonsense and two missense)... Patients exhibit a broad spectrum of neurological symptoms including brain malformations, neurodevelopmental delay, muscle weakness and pathology and dysmorphic features.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "contradicts",
+      "hypothesis_id": "h15",
+      "numbers": {
+        "affected patients reported with muscle weakness and pathology": 5,
+        "unrelated families assessed": 4
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e75": {
+      "id": "e75",
+      "text": "OMIM entry #620775 classifies Neuromuscular disorder, congenital, with dysmorphic facies (NMDF) as an autosomal recessive disorder characterized by variable muscle weakness and dysmorphic facies caused by homozygous mutation in the FILIP1 gene.",
+      "source": {
+        "title": "Entry - #620775 - NEUROMUSCULAR DISORDER, CONGENITAL, WITH DYSMORPHIC FACIES; NMDF",
+        "authors": [],
+        "year": null,
+        "journal": "Online Mendelian Inheritance in Man",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/620775",
+        "quote": "- Muscle weakness, variable ... dysmorphic facies (NMDF) is caused by homozygous mutation in the FILIP1 gene (607307) on chromosome 6q14.",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h15",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e76": {
+      "id": "e76",
+      "text": "In the primary cohort of five patients with bi-allelic FILIP1 variants, acute neonatal respiratory distress was not reported; rather, recurrent respiratory infections developed later in two of the five individuals.",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC10545528",
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "Recurrent respiratory infections occurred in two patients and cardiac abnormalities (Atrial \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "patients with recurrent respiratory infections": "2/5",
+        "patients with neonatal respiratory distress": "0/5"
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e77": {
+      "id": "e77",
+      "text": "Respiratory failure in FILIP1-related disease is characterized by post-infancy disease progression rather than acute neonatal distress.",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11462438",
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "However, she has developed respiratory failure since the initial ...",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "supports",
+      "hypothesis_id": "h16",
+      "numbers": {
+        "initial neonatal presentation of respiratory failure": 0
+      },
+      "phase": "deep",
+      "origin": "agent"
+    },
+    "e78": {
+      "id": "e78",
+      "text": "Loss-of-function variants in FILIP1 are noted in the differential diagnosis of congenital arthrogryposis and neuromuscular phenotypes with progressive respiratory difficulties rather than universal neonatal respiratory distress.",
+      "source": {
+        "title": "Arthrogryposis Multiplex Congenita: Comprehensive Review from a Neuromuscular Standpoint",
+        "authors": [
+          "DD Seneor",
+          "JP Barile",
+          "PM Mendes",
+          "M Orsini"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/2073-4425/17/6/675",
+        "quote": "More recently, FILIP1 loss-of-function variants were identified \u2026 -ophthalmological phenotype and respiratory difficulties, with \u2026",
+        "verified": false,
+        "kind": "literature",
+        "dataset_id": "",
+        "query": "",
+        "script": "",
+        "assumptions": [],
+        "rows": null
+      },
+      "stance": "neutral",
+      "hypothesis_id": "h16",
+      "numbers": {},
+      "phase": "deep",
+      "origin": "agent"
+    }
+  },
+  "patterns": [
+    {
+      "pattern": "Co-occurrence of generalized arthrogryposis multiplex congenita, microcephaly, and distal cutaneous crease obliteration as an obligate phenotypic triad",
+      "abstraction": "A multisystem syndrome distinctively combines musculoskeletal contractures, neurocranial restriction, and distal dermatoglyphic/cutaneous markers, separating it from isolated structural or neuromuscular defects.",
+      "instance": "Homozygous loss-of-function FILIP1 cases exhibit 100% penetrance of generalized multi-joint contractures (5/5), microcephaly (5/5), and reduced palmar/plantar skin folds (5/5) across discovery cohorts.",
+      "direction": "Establishing systematic dermatoglyphic and joint-mobility screening protocols in neonatal cohorts with syndromic microcephaly to prompt targeted FILIP1 testing.",
+      "support": "Strong; consistently documented across independent families in primary discovery cohorts.",
+      "sources": [
+        "10.1007/s00439-023-02528-2",
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821"
+      ],
+      "hypothesis": "Absence of palmar and plantar crease obliteration in a newborn with generalized arthrogryposis strongly indicates a non-FILIP1 genetic etiology.",
+      "novelty": "Distal skin crease obliteration is rarely recognized as a primary diagnostic discriminator in genetic arthrogryposis evaluations compared to cranial and joint abnormalities."
+    },
+    {
+      "pattern": "Biomarker dissociation of normal-to-mildly elevated creatine kinase and preservation of immediate neonatal respiration distinguishing FILIP1 disease from classic severe congenital myopathies",
+      "abstraction": "Syndromic neuromuscular conditions may lack classic enzymatic muscle breakdown and early respiratory failure, providing critical negative discriminators against clinically overlapping fatal infantile disorders.",
+      "instance": "Patients with biallelic FILIP1 variants show normal or only mildly elevated serum CK levels (<3-5x ULN) and absent immediate neonatal respiratory distress (0/5 at birth), contrasting sharply with SMARD1 and severe congenital muscular dystrophies like LAMA2-RD.",
+      "direction": "Comparative clinical algorithmic modeling measuring the specificity of preserved neonatal respiratory drive paired with severe arthrogryposis in distinguishing FILIP1 disorders from spinal muscular atrophies.",
+      "support": "Moderate to strong; consistently supported across neuromuscular reviews and clinical case series.",
+      "sources": [
+        "10.1097/wco.0000000000001397",
+        "10.7759/cureus.19006",
+        "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317"
+      ],
+      "hypothesis": "In infants presenting with multi-joint contractures and facial weakness, a serum CK below 300 U/L and unassisted initial ventilation differentiates FILIP1-related disorder from dystrophin-glycoprotein complex defects and SMARD1.",
+      "novelty": "Directly overturns expectations that severe congenital arthrogryposis and generalized weakness must involve elevated muscle enzymes or catastrophic early diaphragmatic failure."
+    },
+    {
+      "pattern": "Emergence of structural central nervous system anomalies challenging the classification of the condition as a pure peripheral myopathy",
+      "abstraction": "Disorders initially classified as pure peripheral neuromuscular syndromes frequently exhibit unrecognized central structural dysmorphisms as neuroimaging cohort evaluation broadens.",
+      "instance": "Initial classifications assumed structural brain malformations were absent, but comprehensive neuroimaging by Roos et al. revealed overt structural CNS anomalies alongside microcephaly in FILIP1 cohorts.",
+      "direction": "High-resolution neuroimaging characterization of cortical and subcortical architecture in all newly diagnosed FILIP1 patients to delineate filamin-mediated neuroblast migration defects.",
+      "support": "Moderate; supported by detailed imaging findings in 5 affected individuals, directly resolving earlier negative presumptions.",
+      "sources": [
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "PMID:37163662",
+        "PMC10545528",
+        "10.1007/s00439-023-02528-2"
+      ],
+      "hypothesis": "FILIP1 pathogenesis directly impairs filamin A/C-mediated cortical neuronal migration, generating identifiable microstructural cortical dysplasia visible on high-field 3T brain MRI.",
+      "novelty": "Directly contradicts initial disease descriptions stating that marked central nervous system structural anomalies are absent."
+    },
+    {
+      "pattern": "Diagnostic under-ascertainment driven by homozygous structural copy-number variants in consanguineous populations",
+      "abstraction": "Ultra-rare recessive syndromic diseases can remain undetected when standard diagnostic exome pipelines focus solely on single-nucleotide variants rather than homozygous microdeletions.",
+      "instance": "Systematic deletion analysis identified homozygous autosomal copy number losses (e.g., an 86 kb deletion) covering FILIP1 as the causative lesion in previously unsolved syndromic AMC cohorts.",
+      "direction": "Incorporating systematic copy-number variation algorithms directly into frontline clinical exome sequencing for consanguineous cohorts with unassigned neuromuscular disorders.",
+      "support": "Strong; validated by systematic exome cohort re-analyses in large cohorts (n=2021).",
+      "sources": [
+        "https://www.nature.com/articles/s41431-026-02158-y",
+        "10.1007/s00439-023-02528-2"
+      ],
+      "hypothesis": "A non-trivial fraction of unresolved autosomal recessive arthrogryposis with microcephaly stems from homozygous non-coding or intragenic structural deletions in FILIP1 missed by standard SNV-focused exome filtering.",
+      "novelty": "Highlights that rare non-coding or multi-exon structural CNVs, rather than point mutations alone, contribute significantly to the molecular epidemiology of FILIP1 deficiency."
+    },
+    {
+      "pattern": "Divergent neuromuscular manifestations ranging from rigid contracture-dominated akinesia to core-like congenital myopathy without uniform generalized flaccidity",
+      "abstraction": "Genetically identical gene disruptions produce distinct clinical poles: one manifesting as rigid contracture-dominated prenatal akinesia and facial hypotonia, and another displaying progressive limb weakness and core myopathy.",
+      "instance": "While Roos et al. documented core-like congenital myopathy with weakness in all assessed patients, Schnabel et al. and Watts et al. highlighted rigid arthrogryposis and facial/axial hypotonia with preservation of generalized limb strength or absence of classic congenital myopathy.",
+      "direction": "Multi-center deep phenotyping correlating skeletal muscle ultrastructure (myofibrillar integrity and Z-disk architecture) with motor exam scores across diverse variant positions.",
+      "support": "Moderate; evidenced by conflicting clinical presentations reported between major discovery and single-case series.",
+      "sources": [
+        "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "10.1007/s00439-023-02528-2",
+        "PMC12354002"
+      ],
+      "hypothesis": "The clinical divergence between generalized limb flaccidity and rigid distal contractures correlates with the timing and extent of prenatal filamin C degradation disruption during myofibrillar assembly.",
+      "novelty": "Resolves the clinical paradox wherein a condition titled 'neuromuscular disorder' can present primarily with rigid contractures and facial weakness rather than generalized limb flaccid hypotonia."
+    }
+  ]
+}

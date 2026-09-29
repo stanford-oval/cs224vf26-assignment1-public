@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "The hypothesis that reduced or absent palmar and plantar skin folds represent a consistent marker in homozygous truncating FILIP1-related arthrogryposis multiplex congenita is directly corroborated by the literature. In the definitive cohort of five affected individuals across three unrelated families homozygous for truncating loss-of-function FILIP1 alleles (Schnabel et al., 2023), 5/5 (100%) manifested reduced palmar and plantar skin folds alongside generalized congenital contractures and microcephaly. Subsequent reports (Watts et al., 2024; Roos et al., 2023) further confirm that loss of functional FILIP1 perturbs distal crease formation (reduced palmar skin folds or absence of creases with single transverse crease), reflecting severe early embryonic distal akinesia and distinguishing this entity from non-akinesia congenital myopathies lacking distal crease obliteration.",
+  "evidence": [
+    {
+      "text": "Schnabel et al. identified homozygous truncating loss-of-function variants in FILIP1 in five affected individuals from three independent families, all five of whom shared congenital contractures, scoliosis, microcephaly, facial dysmorphism, and reduced palmar and plantar skin folds.",
+      "stance": "supports",
+      "source": {
+        "title": "Homozygous loss-of-function variants in FILIP1 cause autosomal recessive arthrogryposis multiplex congenita with microcephaly",
+        "authors": [
+          "F Schnabel",
+          "E Schuler",
+          "A Al"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": "10.1007/s00439-023-02528-2",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-023-02528-2",
+        "quote": "Here, we report five affected individuals from three independent families sharing an overlapping phenotype with congenital contractures affecting shoulder, elbow, hand, hip, knee and foot as well as scoliosis, reduced palmar and plantar skin folds, microcephaly and facial dysmorphism. Using exome sequencing, we identified homozygous truncating variants in FILIP1 in all patients."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals with reduced palmar and plantar skin folds / total evaluated in cohort",
+          "value": "5/5"
+        },
+        {
+          "metric": "Penetrance of reduced palmar and plantar skin folds in truncating FILIP1 cohort (%)",
+          "value": 100
+        }
+      ]
+    },
+    {
+      "text": "Watts et al. described a patient with a FILIP1-associated neuromuscular disorder (with paternal UPD6) who presented with arthrogryposis, bilateral cryptorchidism, neck pterygia, and reduced palmar skin folds.",
+      "stance": "supports",
+      "source": {
+        "title": "FILIP1-associated neuromuscular disorder and phenotypic blending due to paternal UPD6",
+        "authors": [
+          "LM Watts",
+          "DJ Bunyan",
+          "E Giacopuzzi"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/braincomms/article-abstract/6/5/fcae330/7774821",
+        "quote": "Initial analysis using 115 genes on the \u2026 , bilateral cryptorchidism, reduced palmar skin folds, neck pterygia, \u2026 of neurogenic or myopathic arthrogryposis."
+      },
+      "numbers": [
+        {
+          "metric": "Reported presence of reduced palmar skin folds in UPD6 FILIP1 case",
+          "value": "1/1"
+        }
+      ]
+    },
+    {
+      "text": "Roos et al. identified bi-allelic truncating and missense variants in FILIP1 causing congenital myopathy and dysmorphic features, noting absent palmar creases and single transverse palmar creases.",
+      "stance": "supports",
+      "source": {
+        "title": "Bi-allelic variants of FILIP1 cause congenital myopathy, dysmorphism and neurological defects",
+        "authors": [
+          "A Roos",
+          "PFM van der Ven",
+          "H Alrohaif",
+          "H K\u00f6lbel",
+          "L Heil"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/146/10/4200/7159317",
+        "quote": "D(v and vi) show single transverse palmar crease on the left hand, but otherwise absence of \u2026 In summary, the proteomic signature obtained from skin fibroblasts reflects proteomic \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "Patients described with homozygous FILIP1 variants",
+          "value": 5
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does the degree of palmar and plantar skin fold reduction distinguish primary neurogenic versus primary myopathic failure of in utero mobility in bi-allelic FILIP1 variants compared to other congenital arthrogryposis syndromes?",
+      "rationale": "While reduced skin folds are 100% present in reported truncating FILIP1 arthrogryposis cases, diminished creases are a secondary marker of fetal akinesia across multiple genetic etiologies; systematically evaluating crease morphology across large arthrogryposis panels is required to determine specificity.",
+      "promise": 0.82,
+      "est_cost": 15000
+    },
+    {
+      "question_text": "Do missense variants in FILIP1 (e.g., p.Pro1133Leu) present with milder or absent crease obliteration compared to homozygous null/truncating variants?",
+      "rationale": "Roos et al. demonstrated core-like zones of myofibrillar disintegration and myopathy in missense cases, suggesting a potential genotype-phenotype correlation between residual protein function and the severity of prenatal akinesia.",
+      "promise": 0.78,
+      "est_cost": 25000
+    }
+  ]
+}

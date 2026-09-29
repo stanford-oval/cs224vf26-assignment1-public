@@ -1,0 +1,120 @@
+{
+  "verdict": "refuted",
+  "rationale": "The literature does not support the hypothesis that hypomorphic missense variants in the acyl-CoA binding domain of ACBD6 cause a distinct, slower-progressing phenotype with later-onset dystonia. In the primary disease-defining cohort of 45 individuals from 28 families (Kaiyrzhanov et al., 2024), 18 of the 20 distinct pathogenic variants were loss-of-function (LOF), with only 1 missense and 1 in-frame insertion identified across the entire international cohort. The phenotype across all patients was uniformly characterized by early-onset disease, moderate-to-severe global developmental delay/intellectual disability (100%), expressive language impairment (98%), and early-onset progressive postural deformities (97%) and dystonia (94%). Screening of 1,924 late-onset isolated dystonia patients (Thomsen et al., 2025) failed to establish ACBD6 missense variants as a confirmed cause of late-onset dystonia. Thus, there is currently no empirical evidence for an attenuated or late-onset dystonia phenotype driven by hypomorphic ACBD6 missense alleles.",
+  "evidence": [
+    {
+      "text": "In a study of 45 affected individuals from 28 families with bi-allelic ACBD6 variants, 18 of 20 unique variants were predicted loss-of-function, with only 1 missense and 1 in-frame insertion variant identified. Patients presented with early-onset progressive postural deformities (97%), dystonia (94%), and universal neurodevelopmental impairment (100%), without evidence of an attenuated late-onset dystonia phenotype driven by hypomorphic missense variants.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Bi-allelic ACBD6 variants lead to a neurodevelopmental syndrome with progressive and complex movement disorders",
+        "authors": [
+          "R Kaiyrzhanov",
+          "A Rad",
+          "SJ Lin",
+          "A Bertoli"
+        ],
+        "year": 2024,
+        "journal": "Brain",
+        "doi": "10.1093/brain/awad380",
+        "pmid": "37951597",
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/147/4/1436/7407365",
+        "quote": "Using exome sequencing and extensive international data sharing efforts, we identified 45 affected individuals from 28 unrelated families (consanguinity 93%) with bi-allelic pathogenic, predominantly loss-of-function (18/20) variants in ACBD6... The most conspicuous and common movement disorder was dystonia (94%), frequently leading to early-onset progressive postural deformities (97%)"
+      },
+      "numbers": [
+        {
+          "metric": "Total affected individuals",
+          "value": 45
+        },
+        {
+          "metric": "Loss-of-function variant alleles count",
+          "value": 18
+        },
+        {
+          "metric": "Missense variant alleles count",
+          "value": 1
+        },
+        {
+          "metric": "Global developmental delay / intellectual disability frequency (%)",
+          "value": 100
+        },
+        {
+          "metric": "Early-onset progressive postural deformities frequency (%)",
+          "value": 97
+        },
+        {
+          "metric": "Dystonia frequency (%)",
+          "value": 94
+        }
+      ]
+    },
+    {
+      "text": "In a cohort of 1,924 patients with predominantly late-onset isolated dystonia evaluated by exome sequencing, ACBD6 was evaluated as a candidate gene but was not confirmed to cause late-onset isolated dystonia phenotypes, showing that hypomorphic missense variants have not been established in adult-onset or slower-progression dystonia cohorts.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Genetic diversity and expanded phenotypes in dystonia: insights from large\u2010scale exome sequencing",
+        "authors": [
+          "M Thomsen",
+          "F Ott",
+          "S Loens"
+        ],
+        "year": 2025,
+        "journal": "Annals of Clinical and Translational Neurology",
+        "doi": "10.1002/acn3.70100",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.70100",
+        "quote": "loss- of- function (LoF) variants in genes with good tolerance for such variants (gnomAD pLI- score = 0), missense \u2026 recently proposed genes ATP5F1B, ACBD6, and SPTBN1. However, \u2026"
+      },
+      "numbers": [
+        {
+          "metric": "Dystonia cohort size",
+          "value": 1924
+        }
+      ]
+    },
+    {
+      "text": "Phenotype clustering across 210 monogenic conditions causing hyperkinetic movement disorders in neurodevelopmental syndromes classified recessive ACBD6 within conditions featuring prominent axial dystonia and neurodevelopmental delay rather than an isolated, late-onset hyperkinetic phenotype.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Data\u2010Driven Insights into Hyperkinetic Disorders in Neurodevelopmental Syndromes and Epileptic Encephalopathies",
+        "authors": [
+          "H Morales\u2010Brice\u00f1o",
+          "SS Mohammad"
+        ],
+        "year": 2026,
+        "journal": "Movement Disorders Clinical Practice",
+        "doi": "10.1002/mdc3.70683",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://movementdisorders.onlinelibrary.wiley.com/doi/abs/10.1002/mdc3.70683",
+        "quote": "suggest recessive ACBD6 mutations, where axial dystonia is reported"
+      },
+      "numbers": [
+        {
+          "metric": "Evaluated monogenic conditions",
+          "value": 210
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis assumes a hypomorphic missense class causing late-onset, slower-progression dystonia, but 90% (18/20) of reported alleles are loss-of-function, and the only reported cohort demonstrates early childhood onset across all identified genotypes, including the single missense case.",
+    "Large-scale screening of 1,924 late-onset dystonia cases did not validate ACBD6 missense variants as a cause of late-onset isolated dystonia."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Does residual N-myristoyltransferase-regulating activity in ACBD6 missense mutants alter enzymatic function in vitro compared to complete null alleles?",
+      "rationale": "Functional assays measuring N-myristoylation via YnMyr chemical proteomics can establish whether candidate missense variants preserve partial acyl-CoA binding activity or act as complete loss-of-function alleles.",
+      "promise": 0.8,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Are biallelic ACBD6 missense variants present in unsolved adult-onset or adolescent-onset dystonia registries after deep re-annotation?",
+      "rationale": "Systematic targeted re-analysis of whole-genome/exome datasets from international dystonia consortia can formally confirm or rule out the existence of hypomorphic adult-onset phenotypes.",
+      "promise": 0.7,
+      "est_cost": 35000
+    }
+  ]
+}

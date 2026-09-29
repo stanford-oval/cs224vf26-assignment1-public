@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Popov-Chang\" \"YWHAZ\" \"Ser230\"",
+    "Popov-Chang syndrome YWHAZ variant spectrum Ser230 frequency cohort"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/601288",
+      "title": "Entry - *601288 - TYROSINE 3-MONOOXYGENASE/ ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/601288",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC6465419",
+      "title": "A YWHAZ Variant Associated With Cardiofaciocutaneous ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6465419/",
+      "abstract_chars": 1620
+    },
+    {
+      "id": "https://gene.sfari.org/database/human-gene/YWHAZ",
+      "title": "Gene: YWHAZ -",
+      "pmid": null,
+      "doi": null,
+      "url": "https://gene.sfari.org/database/human-gene/YWHAZ",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://ern-ithaca.eu/our-research-activities/calls-for-collaboration/exploring-the-clinical-heterogeneity-and-molecular-variability-of-ywhaz-related-disorders/",
+      "title": "Exploring the clinical heterogeneity and molecular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://ern-ithaca.eu/our-research-activities/calls-for-collaboration/exploring-the-clinical-heterogeneity-and-molecular-variability-of-ywhaz-related-disorders/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+      "title": "Popov-Chang Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.findzebra.com/details/Oww987X-popov-chang-syndrome?q=",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.3389/fnhum.2025.1589897/full",
+      "title": "OCNDS core features are conserved across variants, with ...",
+      "pmid": null,
+      "doi": "10.3389/fnhum.2025.1589897/full",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2025.1589897/full",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 4083,
+  "output_tokens": 3483,
+  "usd": 0.01249,
+  "seconds": 20.4,
+  "ok": true
+}

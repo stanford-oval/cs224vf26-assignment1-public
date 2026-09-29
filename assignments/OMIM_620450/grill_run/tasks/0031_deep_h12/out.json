@@ -1,0 +1,64 @@
+{
+  "verdict": "refuted",
+  "rationale": "The defining study establishing Intellectual developmental disorder, autosomal dominant 73 (OMIM #620450 / TAF4-related NDD; Janssen et al., 2022) exclusively identifies de novo putative loss-of-function (pLoF / truncating) variants in an initial cohort of eight individuals. There is no empirical literature in the provided evidence base documenting pathogenic missense variants clustering within the TAF4 histone-fold or TAF-homology domains that cause transcriptional pause/escape disruption resulting in phenotypes indistinguishable from truncating alleles.",
+  "evidence": [
+    {
+      "text": "Janssen et al. (2022) report eight individuals with de novo putative loss-of-function (pLoF) variants in TAF4 presenting with a neurodevelopmental disorder (T4NDD) characterized by intellectual disability, abnormal behavior, and facial dysmorphism, establishing haploinsufficiency/loss-of-function rather than domain-clustered missense variants as the etiology.",
+      "stance": "contradicts",
+      "source": {
+        "title": "De novo putative loss-of-function variants in TAF4 are associated with a neuro-developmental disorder",
+        "authors": [
+          "BDE Janssen",
+          "MJH van den Boogaard"
+        ],
+        "year": 2022,
+        "journal": "Human Mutation",
+        "doi": "10.1002/humu.24444",
+        "pmid": null,
+        "pmc": "PMC10087332",
+        "url": "https://doi.org/10.1002/humu.24444",
+        "quote": "We here present a cohort of eight individuals, each carrying de novo putative loss-of-function (pLoF) variants in TAF4 and expressing phenotypes consistent with a neuro-developmental disorder (NDD). Common features include intellectual disability, abnormal behavior, and facial dysmorphisms. We propose TAF4 as a novel dominant disease gene for NDD, and coin this novel disorder 'TAF4-related NDD' (T4NDD)."
+      },
+      "numbers": [
+        {
+          "metric": "cohort size of individuals with de novo putative loss-of-function variants in TAF4",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "Genomics England PanelApp curates TAF4 for intellectual disability under OMIM #620450 based on mouse knockout models and human loss-of-function evidence without establishing pathogenic missense variation in specific structural domains.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Gene: TAF4 (Intellectual disability)",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/TAF4/",
+        "quote": "The mouse knockout shows there is an effect of loss of TAF4 but the phenotype ... Intellectual developmental disorder, autosomal dominant 73, OMIM:620450."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that missense variants clustering in the histone-fold and TAF-homology domains cause disease via transcriptional pause/escape disruption indistinguishable from truncating alleles; however, established cohort reports identify exclusively de novo putative loss-of-function (truncating/splice) mutations in TAF4."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Do rare de novo missense variants in the histone-fold domain or TAF-homology domain of TAF4 destabilize TFIID assembly or alter core promoter recognition in patient cohorts with unexplained neurodevelopmental disorders?",
+      "rationale": "While current diagnostic criteria rely on putative loss-of-function variants, structural missense alterations might act via dominant-negative or hypomorphic mechanisms that remain uncharacterized.",
+      "promise": 0.72,
+      "est_cost": 45000.0
+    },
+    {
+      "question_text": "What is the precise phenotypic breakdown (HPO terms with exact numerators and denominators) across multicenter expanded cohorts of TAF4-related NDD?",
+      "rationale": "Differentiating TAF4-related NDD from other TFIID subunit-associated disorders (TAF-opathies) requires granular clinical delineation beyond initial small-cohort case series.",
+      "promise": 0.85,
+      "est_cost": 30000.0
+    }
+  ]
+}

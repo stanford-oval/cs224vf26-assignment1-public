@@ -1,0 +1,103 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive evaluation of published TBC1D32-related ciliopathy cohorts (including Alsahan-Harris syndrome and related phenotypes) confirms that retinal dystrophy or retinal disease is a hallmark feature in post-neonatal survivors, forming part of the cardinal triad alongside hypopituitarism and facial dysmorphism. In contrast, prenatal presentations typically feature severe life-limiting malformations, structural eye defects (e.g., coloboma, microphthalmia), or fetal demise where retinal degenerative dystrophy is unassessable or clinically non-evident.",
+  "evidence": [
+    {
+      "text": "In a cohort of 7 unpublished probands (4 fetal probands in 3 pedigrees and 3 pediatric probands) evaluated alongside 7 previously published patients, prenatal probands demonstrated severe life-limiting congenital malformations and structural ocular differences, whereas postnatal surviving patients showed retinal abnormalities including retinal dystrophy and reduced visual acuity.",
+      "stance": "supports",
+      "source": {
+        "title": "Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy",
+        "authors": [
+          "SC Harris",
+          "K Chong",
+          "D Chitayat"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63150",
+        "pmid": null,
+        "pmc": "PMC10204718",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63150",
+        "quote": "We describe seven unpublished probands with rare likely pathogenic variants or variants of uncertain significance that segregate with recessive disease in TBC1D32, including four fetal probands in three unrelated pedigrees and three pediatric probands in unrelated pedigrees. We also report clinical comparisons with seven previously published patients... Common findings include ocular differences in the majority... We provide additional data to expand the phenotype correlated with TBC1D32 variants, including a severe prenatal phenotype associated with life-limiting congenital anomalies."
+      },
+      "numbers": [
+        {
+          "metric": "Unpublished probands assessed",
+          "value": 7
+        },
+        {
+          "metric": "Fetal probands in cohort",
+          "value": 4
+        },
+        {
+          "metric": "Pediatric probands in cohort",
+          "value": 3
+        },
+        {
+          "metric": "Previously published comparison patients",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "A clinical review and report of two unrelated patients identified retinal disease, facial dysmorphism, and hypopituitarism as the three major defining clinical features in viable individuals with TBC1D32-related ciliopathy, distinct from severe fetal demise phenotypes.",
+      "stance": "supports",
+      "source": {
+        "title": "Expanding the clinical and molecular spectrum of TBC1D32-related ciliopathy: case reports and literature Review",
+        "authors": [
+          "W Eiumtrakul",
+          "T Tim"
+        ],
+        "year": 2025,
+        "journal": "Journal of Human Genetics",
+        "doi": "10.1038/s10038-025-01371-9",
+        "pmid": "40702307",
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s10038-025-01371-9",
+        "quote": "TBC1D32-related ciliopathy presents with a broad phenotypic spectrum, ranging from isolated retinal diseases to severe multisystemic involvement, including fetal demise. We report two unrelated patients with retinal disease and hypopituitarism... A review of previously reported cases highlighted facial dysmorphism, retinal disease, and hypopituitarism as major clinical features of TBC1D32-related ciliopathy."
+      },
+      "numbers": [
+        {
+          "metric": "New patients reported with retinal disease and hypopituitarism",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "A pediatric case was identified with a novel splicing variant causing facial dysmorphism and growth hormone deficiency, expanding the recognized phenotypic range of surviving patients.",
+      "stance": "neutral",
+      "source": {
+        "title": "Whole-exome sequencing identifies a novel splicing variant within TBC1D32 causing dysmorphic features and growth hormone deficiency",
+        "authors": [
+          "M Gholami",
+          "M Fattahi",
+          "D Rostampour"
+        ],
+        "year": 2025,
+        "journal": "Gene",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2452014425002626",
+        "quote": "Thus, the current study broadens the spectrum of TBC1D32-related phenotypes... Whole-exome sequencing identifies a novel splicing variant within TBC1D32 causing dysmorphic features and growth hormone deficiency."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What is the natural history and earliest age of onset for electroretinographic evidence of rod-cone degeneration in young infants with TBC1D32 variants?",
+      "rationale": "Clarifying the specific postnatal window in which electroretinography detects retinal dystrophy will allow precise discrimination between Alsahan-Harris syndrome and other early-onset orofaciodigital syndromes lacking retinal involvement.",
+      "promise": 0.88,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "Do hypomorphic vs. null biallelic TBC1D32 variants correlate strictly with postnatal survivability and retinal-specific vs. lethal multisystem embryopathy?",
+      "rationale": "Establishing genotype-phenotype correlation will confirm whether truncating alleles predominantly cause lethal fetal presentation with structural dysmorphology, whereas splicing/missense hypomorphs preserve viability allowing progressive retinal dystrophy to manifest.",
+      "promise": 0.82,
+      "est_cost": 45000
+    }
+  ]
+}

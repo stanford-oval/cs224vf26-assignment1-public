@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NFU1\" \"spastic paraplegia\" \"MMDS1\" genotype phenotype correlation",
+    "NFU1 spastic paraplegia 93 MMDS1 phenotype residual activity"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "title": "A genetic mimic of cerebral palsy: Homozygous NFU1 mutation with marked intrafamilial phenotypic variation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0387760420301911",
+      "abstract_chars": 1556
+    },
+    {
+      "id": "10.1002/ajmg.a.70213",
+      "title": "A Case of Multiple Mitochondrial Dysfunctions Syndrome 1 and Review of the Literature",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.70213",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.70213",
+      "abstract_chars": 1837
+    },
+    {
+      "id": "41749354",
+      "title": "Children with suspected hereditary spastic paraplegia clearly benefit from whole exome analysis",
+      "pmid": "41749354",
+      "doi": "10.1186/s40246-026-00935-w",
+      "url": "https://link.springer.com/article/10.1186/s40246-026-00935-w",
+      "abstract_chars": 1890
+    },
+    {
+      "id": "https://www.mdpi.com/2227-9059/9/8/989",
+      "title": "A review of multiple mitochondrial dysfunction syndromes, syndromes associated with defective Fe-S protein maturation",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.mdpi.com/2227-9059/9/8/989",
+      "abstract_chars": 0
+    },
+    {
+      "id": "PMC9727669",
+      "title": "Mitochondrial biology and dysfunction in secondary mitochondrial disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9727669/",
+      "abstract_chars": 1214
+    },
+    {
+      "id": "36645076",
+      "title": "Patient-specific variants of NFU1/NFU-1 disrupt cholinergic ...",
+      "pmid": "36645076",
+      "doi": "10.1242/dmm.049594",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9922734/",
+      "abstract_chars": 1220
+    },
+    {
+      "id": "https://www.researchgate.net/figure/Reported-patients-with-MMDS-type-1_tbl1_353817332",
+      "title": "Reported patients with MMDS type 1.",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.researchgate.net/figure/Reported-patients-with-MMDS-type-1_tbl1_353817332",
+      "abstract_chars": 0
+    },
+    {
+      "id": "10.1002/acn3.51679",
+      "title": "Phenotypic continuum of NFU1\u2010related disorders",
+      "pmid": null,
+      "doi": "10.1002/acn3.51679",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/acn3.51679",
+      "abstract_chars": 0
+    },
+    {
+      "id": "27532773",
+      "title": "Role of Nfu1 and Bol3 in iron-sulfur cluster transfer to mitochondrial clients",
+      "pmid": "27532773",
+      "doi": "10.7554/elife.15991",
+      "url": "https://elifesciences.org/articles/15991",
+      "abstract_chars": 1063
+    },
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "title": "Mitochondrial iron-sulfur cluster biogenesis and neurological disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S1567724921001446",
+      "abstract_chars": 1244
+    }
+  ],
+  "input_tokens": 5234,
+  "output_tokens": 1277,
+  "usd": 0.00645,
+  "seconds": 28.3,
+  "ok": true
+}

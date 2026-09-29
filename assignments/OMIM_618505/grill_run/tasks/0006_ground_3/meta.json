@@ -1,0 +1,65 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"NEDCFSAG\" \"KDM6B\" Stolerman",
+    "NEDCFSAG OMIM 618505 KDM6B syndrome definition"
+  ],
+  "n_hits": 6,
+  "hits": [
+    {
+      "id": "41110445",
+      "title": "The clinical and molecular spectrum of the KDM6B-related neurodevelopmental disorder",
+      "pmid": "41110445",
+      "doi": "10.1016/j.ajhg.2025.10.010",
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00132-5",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/618505",
+      "title": "OMIM:618505",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/618505",
+      "abstract_chars": 0
+    },
+    {
+      "id": "41110445",
+      "title": "The clinical and molecular spectrum of the KDM6B-related ...",
+      "pmid": "41110445",
+      "doi": "10.1016/j.ajhg.2025.10.010",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10257005/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.simonssearchlight.org/gene-guide/kdm6b/",
+      "title": "KDM6B-Related Syndrome",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.simonssearchlight.org/gene-guide/kdm6b/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/stolerman_neurodevelopmental_syndrome",
+      "title": "Stolerman Neurodevelopmental Syndrome (NEDSST)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/stolerman_neurodevelopmental_syndrome",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/618505",
+      "title": "STOLERMAN NEURODEVELOPMENTAL SYNDROME; ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/618505",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 1784,
+  "output_tokens": 2823,
+  "usd": 0.00936,
+  "seconds": 19.3,
+  "ok": true
+}

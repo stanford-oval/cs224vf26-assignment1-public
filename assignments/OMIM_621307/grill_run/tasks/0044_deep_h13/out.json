@@ -1,0 +1,127 @@
+{
+  "verdict": "conflicted",
+  "rationale": "While Alsahan-Harris syndrome (OMIM #621307), caused by biallelic variants in TBC1D32, is characterized by oral-facial-digital defects (including oral frenula, tongue lobulation, and lingual nodules) alongside hypothalamic/pituitary and ciliary anomalies, these orofacial findings do not cleanly distinguish it from the Joubert syndrome spectrum. Classic Joubert syndrome is classically defined by the molar tooth sign, ataxia, and hypotonia without extensive extraneural features; however, the broader Joubert syndrome and related disorders (JSRD) phenotypic spectrum explicitly includes oral frenulae, lobulated tongues, and lingual hamartomas/tumors (historically designated as Joubert syndrome with orofaciodigital features or OFD VI). Thus, using hyperplastic frenula and lingual nodules to differentiate TBC1D32-related syndrome from Joubert-spectrum ciliopathies is confounded by well-documented overlap.",
+  "evidence": [
+    {
+      "text": "Joubert syndrome and related disorders (JSRD) encompass a broad spectrum of extra-CNS anomalies that include oral frenulae and tongue tumors, ocular coloboma, retinal dystrophy, and polydactyly, demonstrating that oral-facial-digital manifestations occur directly within the Joubert spectrum.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical and molecular features of Joubert syndrome ... - PMC",
+        "authors": [
+          "MA Parisi"
+        ],
+        "year": 2009,
+        "journal": "American Journal of Medical Genetics Part C: Seminars in Medical Genetics",
+        "doi": "10.1002/ajmg.c.30229",
+        "pmid": "19876931",
+        "pmc": "PMC2797758",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2797758/",
+        "quote": "In addition, a broad spectrum of other anomalies characterize Joubert syndrome and related disorders (JSRD), and may include retinal dystrophy, ocular coloboma, oral frenulae and tongue tumors, polydactyly, cystic renal disease (including cystic dysplasia or juvenile nephronophthisis), and congenital hepatic fibrosis."
+      },
+      "numbers": [
+        {
+          "metric": "causative genes identified at time of review",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "text": "TBC1D32-associated conditions present with oral, facial, digital, pituitary, and ocular defects, expanding the phenotypic spectrum of complex ciliopathies from pediatric presentations to severe, life-limiting prenatal presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Diagnosis of TBC1D32\u2010associated conditions: Expanding the phenotypic spectrum of a complex ciliopathy",
+        "authors": [
+          "SC Harris",
+          "K Chong",
+          "D Chitayat"
+        ],
+        "year": 2023,
+        "journal": "American Journal of Medical Genetics Part A",
+        "doi": "10.1002/ajmg.a.63150",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63150",
+        "quote": "We describe seven unpublished probands with rare likely pathogenic variants or variants of uncertain significance that segregate with recessive disease in TBC1D32, including four fetal probands in three unrelated pedigrees and three pediatric probands in unrelated pedigrees. We also report clinical comparisons with seven previously published patients."
+      },
+      "numbers": [
+        {
+          "metric": "unpublished probands described",
+          "value": 7
+        },
+        {
+          "metric": "fetal probands",
+          "value": 4
+        },
+        {
+          "metric": "pediatric probands",
+          "value": 3
+        },
+        {
+          "metric": "previously published comparison patients",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Joubert syndrome exhibits extensive genetic and phenotypic heterogeneity, with primary features characterized by the molar tooth sign and distinctive facial dysmorphisms (trapezoid-shaped mouth, prominent forehead, ptosis), but multiorgan involvement varies widely across causal genes.",
+      "stance": "neutral",
+      "source": {
+        "title": "Genotype\u2013phenotype correlates in Joubert syndrome: A review",
+        "authors": [
+          "S Gana"
+        ],
+        "year": 2022,
+        "journal": "American Journal of Medical Genetics Part C: Seminars in Medical Genetics",
+        "doi": "10.1002/ajmg.c.31963",
+        "pmid": "35238134",
+        "pmc": "PMC9314610",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9314610/",
+        "quote": "Joubert syndrome (JS) is a genetically heterogeneous primary ciliopathy characterized by a pathognomonic cerebellar and brainstem malformation, the 'molar tooth sign,' and variable organ involvement. Over 40 causative genes have been identified to date, explaining up to 94% of cases."
+      },
+      "numbers": [
+        {
+          "metric": "causative genes identified",
+          "value": 40
+        },
+        {
+          "metric": "percentage of cases genetically explained",
+          "value": 94
+        }
+      ]
+    },
+    {
+      "text": "TBC1D32 is cataloged with autosomal recessive inheritance manifesting variable oral, facial, digital, pituitary, and eye defects.",
+      "stance": "supports",
+      "source": {
+        "title": "TBC1D32 gene TBC1 Domain Family Member 32",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.genecards.org/card/TBC1D32",
+        "quote": "Autosomal recessive syndrome with variable oral, facial, digital, pituitary, and eye defects. Bone diseases, Ear diseases, Endocrine diseases, Eye diseases"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis posits that oral frenula and lingual hamartomas distinguish Alsahan-Harris syndrome from classic Joubert syndrome, but Parisi (2009) documents that oral frenulae and tongue tumors are established manifestations within Joubert syndrome and related disorders (JSRD/OFD VI spectrum), demonstrating significant overlap rather than a clear diagnostic boundary."
+  ],
+  "confidence": 0.45,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic frequency of endocrine and pituitary developmental defects in TBC1D32 patients compared to individuals with Joubert syndrome and related disorders?",
+      "rationale": "TBC1D32 has specific expression in the developing hypothalamus and pituitary gland; hypothalamic-pituitary axis defects may serve as a more reliable discriminator than oral-facial-digital signs.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Does neuroradiological re-examination of confirmed TBC1D32/Alsahan-Harris cases demonstrate the classic molar tooth sign pathognomonic of Joubert syndrome or distinct cerebellar/midbrain structural findings?",
+      "rationale": "Determining whether TBC1D32 variants cause a true molar tooth sign or non-specific cerebellar vermis hypoplasia will resolve whether it belongs within JSRD or represents a distinct orofaciodigital syndrome class.",
+      "promise": 0.8,
+      "est_cost": 18000
+    }
+  ]
+}

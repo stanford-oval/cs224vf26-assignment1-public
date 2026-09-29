@@ -1,0 +1,52 @@
+{
+  "knowledge": "Neurodevelopmental disorder with congenital cardiac defects and variable renal and ocular abnormalities (OMIM #621474) is an autosomal dominant condition caused by heterozygous de novo or inherited pathogenic variants in KDM2B (lysine demethylase 2B). The condition was delineated relatively recently (primarily described around 2021-2023, notably by cohorts such as those characterizing chromatin-modifier neurodevelopmental disorders). Phenotypic hallmarks include global developmental delay / intellectual disability, congenital heart defects (such as atrial and ventricular septal defects, patent ductus arteriosus, or conotruncal anomalies), variable renal anomalies (e.g., renal hypoplasia/dysplasia, hydronephrosis), ocular abnormalities (such as strabismus, coloboma, or microphthalmia), and subtle dysmorphic facial features. Distinguishing this disorder purely by phenotype is challenging because it shares extensive overlap with other epigenetic machinery syndromes (such as Kabuki syndrome, CHARGE syndrome, or KAT6B-related disorders) and RASopathies. Because the total number of published patients is limited (likely between 15 and 40 published individuals across initial case series), comprehensive, highly powered statistical discrimination remains constrained.",
+  "prior_hypothesis": "A clinical diagnosis of KDM2B-related neurodevelopmental disorder cannot be made definitively from phenotype alone due to nonspecific syndromic features; however, an affected individual can be prioritized among patients with developmental delay by the specific co-occurrence of congenital cardiac defects (predominantly septal or conotruncal defects) alongside ocular coloboma/structural eye anomalies and renal malformations in the absence of pathognomonic external hallmarks of classical differential diagnoses (such as distinct Kabuki facial gestalt with prominent fingertip pads, or the choanal atresia/semicircular canal hypoplasia of CHARGE syndrome).",
+  "candidate_answers": [
+    {
+      "answer": "Neurodevelopmental delay/intellectual disability and speech delay are present in virtually 100% of reported individuals (estimated >90-95%), accompanied by congenital heart disease in approximately 50-70% of cases (most frequently ASD, VSD, or valve anomalies).",
+      "confidence": 0.85,
+      "aspect": "Core clinical phenotype frequencies"
+    },
+    {
+      "answer": "Ocular and renal abnormalities occur in an intermediate subset (each approximately 30-50%), presenting as strabismus, refractive errors, coloboma, or structural renal anomalies (hydronephrosis, solitary/dysplastic kidney).",
+      "confidence": 0.75,
+      "aspect": "Variable organ involvement frequencies"
+    },
+    {
+      "answer": "The combination of developmental delay, cardiac malformations, and ocular coloboma or renal dysplasia closely mimics CHARGE syndrome and Kabuki syndrome, but the absence of choanal atresia, typical semicircular canal agenesis, and persistent fetal finger pads strongly disfavors CHARGE and Kabuki in favor of KDM2B or related chromatin-associated disorders.",
+      "confidence": 0.7,
+      "aspect": "Discriminating features from clinical mimics"
+    },
+    {
+      "answer": "Severe limb reduction defects, ectrodactyly, and coarse lysosomal-like storage features have consistently been absent, and their presence effectively excludes KDM2B-related disorder.",
+      "confidence": 0.8,
+      "aspect": "Pertinent negative findings"
+    },
+    {
+      "answer": "Truncating/loss-of-function variants (frameshift, nonsense, canonical splice site) span across KDM2B and generally lead to haploinsufficiency, while missense variants concentrated in the catalytic JmjC or zinc finger domains may show overlapping severity but require functional confirmation.",
+      "confidence": 0.65,
+      "aspect": "Genotype-phenotype correlation"
+    }
+  ],
+  "key_terms": [
+    "OMIM #621474",
+    "KDM2B",
+    "Lysine Demethylase 2B",
+    "Congenital heart defects (HP:0001627)",
+    "Global developmental delay (HP:0001263)",
+    "Renal hypoplasia/aplasia (HP:0008678)",
+    "Coloboma (HP:0000589)",
+    "Epigenetic machinery disorders"
+  ],
+  "open_questions": [
+    "What are the exact cohort sizes, author citations (PMIDs), and explicit numerators/denominators for each reported HPO finding in the definitive KDM2B clinical discovery papers?",
+    "Does facial dysmorphism in KDM2B-related disorder exhibit a recognizable recurrent gestalt that deep-gestalt facial analysis algorithms (e.g., GestaltMatcher, Face2Gene) can separate from Kabuki or Bohring-Opitz syndromes?",
+    "Are there specific missense hotspots in KDM2B that confer a more severe multi-system phenotype compared to classical loss-of-function/haploinsufficiency variants?",
+    "Are any specific endocrine or skeletal anomalies reported consistently across cohorts, or are they incidental co-occurrences?"
+  ],
+  "assumptions": [
+    "The OMIM #621474 entry reflects monogenic, predominantly heterozygous de novo variants in KDM2B acting through haploinsufficiency or dominant-negative/loss-of-function mechanisms.",
+    "Exact cohort-level counts and resolvable PMIDs/DOIs are available in primary gene-discovery publications dating from approximately 2021 to 2024.",
+    "No distinct non-overlapping syndromic subtype has yet been partitioned under a separate OMIM entry for KDM2B."
+  ]
+}

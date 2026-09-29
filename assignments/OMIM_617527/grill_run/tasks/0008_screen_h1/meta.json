@@ -1,0 +1,57 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"Hall\" \"PLAA\" \"microcephaly\" \"28414162\"",
+    "Hall 2017 PLAA progressive microcephaly PMID 28414162"
+  ],
+  "n_hits": 5,
+  "hits": [
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/medgen/340542",
+      "title": "Progressive microcephaly (Concept Id: C1850456)",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/medgen/340542",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/617527",
+      "title": "Entry - #617527 - NEURODEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/617527",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.malacards.org/card/microcephaly_postnatal_progressive_with_seizures_and_brain_atrophy",
+      "title": "Microcephaly, Postnatal Progressive, with Seizures and ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.malacards.org/card/microcephaly_postnatal_progressive_with_seizures_and_brain_atrophy",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://sequencing.com/education-center/medical/progressive-microcephaly?srsltid=AU7gw4Xa3J80FLv5NsBVZRKeQm9nRomIIwWGDBRxk1aei84Uoscc--QH",
+      "title": "Progressive Microcephaly: SLC1A4 Variants and Diagnosis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://sequencing.com/education-center/medical/progressive-microcephaly?srsltid=AU7gw4Xa3J80FLv5NsBVZRKeQm9nRomIIwWGDBRxk1aei84Uoscc--QH",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.jewishgenetics.org/genetic-disorders/search-genetic-disorders/postnatal-progressive-microcephaly-with-seizures-and-brain-atrophy/",
+      "title": "Postnatal Progressive Microcephaly with Seizures and ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.jewishgenetics.org/genetic-disorders/search-genetic-disorders/postnatal-progressive-microcephaly-with-seizures-and-brain-atrophy/",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 2420,
+  "output_tokens": 1011,
+  "usd": 0.00424,
+  "seconds": 13.9,
+  "ok": true
+}

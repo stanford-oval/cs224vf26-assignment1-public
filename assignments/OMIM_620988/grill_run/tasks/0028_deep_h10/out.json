@@ -1,0 +1,97 @@
+{
+  "verdict": "supported",
+  "rationale": "Calame et al. (2023) established that monoallelic variation in DHX9 causes a phenotypic spectrum spanning intellectual developmental disorder / neurodevelopmental disorders (NDD) to axonal Charcot-Marie-Tooth disease type 2 (CMT2) / distal symmetric polyneuropathy. CMT2-associated variants represent a distinct mechanistic class driving nucleolar accumulation of DHX9. In contrast, paralogous DExD/H-box helicase neurodevelopmental syndromes such as those caused by DHX30 and DDX6 manifest primarily as central neurodevelopmental disorders, intellectual disability, microcephaly, and CNS structural/developmental anomalies without peripheral axonal neuropathy/CMT2. A critical nuance is that peripheral axonal neuropathy is variant-specific within DHX9: it is absent in individuals with pure loss-of-function variants (who exhibit mild NDD) and NLS missense variants (who present with severe NDD without CMT2).",
+  "evidence": [
+    {
+      "text": "Calame et al. (2023) identified 20 individuals with heterozygous de novo missense or loss-of-function DHX9 variants presenting with phenotypes ranging from neurodevelopmental disorders to axonal Charcot-Marie-Tooth disease (CMT2). Genotype-phenotype correlations showed that CMT2-associated missense variants specifically caused aberrant nucleolar DHX9 accumulation, whereas loss-of-function variants caused mild NDD and nuclear localization signal (NLS) missense variants caused severe NDD with abnormal cytoplasmic accumulation.",
+      "stance": "supports",
+      "source": {
+        "title": "Monoallelic variation in DHX9, the gene encoding the DExH-box helicase DHX9, underlies neurodevelopment disorders and Charcot-Marie-Tooth disease",
+        "authors": [
+          "DG Calame",
+          "T Guo",
+          "C Wang",
+          "L Garrett",
+          "A Jolly"
+        ],
+        "year": 2023,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2023.06.013",
+        "pmid": null,
+        "pmc": "PMC10432148",
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(23)00214-8",
+        "quote": "Using exome sequencing and family-based rare-variant analyses, we identified 20 individuals with de novo, ultra-rare, heterozygous missense or loss-of-function (LoF) DHX9 variant alleles. Phenotypes ranged from NDDs to the distal symmetric polyneuropathy axonal Charcot-Marie-Tooth disease (CMT2)... CMT2-associated missense variants caused aberrant nucleolar DHX9 accumulation, a phenomenon previously associated with cellular stress."
+      },
+      "numbers": [
+        {
+          "metric": "total cohort size",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "text": "Paine et al. (2019) reviewed disease-associated DExD/H-box helicase paralogs (including DHX30, DDX3X, DHX37, DHX16, DDX54, and DHX34), delineating phenotypes characterized by central nervous system dysfunction, developmental delay/intellectual disability, vertebral anomalies, and multi-organ dysmorphism, with no report of progressive distal axonal neuropathy or CMT2 in DHX30 cohorts.",
+      "stance": "supports",
+      "source": {
+        "title": "Paralog studies augment gene discovery: DDX and DHX genes",
+        "authors": [
+          "I Paine",
+          "JE Posey",
+          "CM Grochowski"
+        ],
+        "year": 2019,
+        "journal": "The American Journal of Human Genetics",
+        "doi": "10.1016/j.ajhg.2019.06.001",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(19)30226-5",
+        "quote": "Recent studies have elucidated DHX30 and DDX3X as genes for which pathogenic variant alleles are involved in neurodevelopmental disorders... Here we describe 15 unrelated individuals who have DD and/or ID, central nervous system (CNS) dysfunction, vertebral anomalies, and dysmorphic features and were found to have probably damaging variants in DExD/H-box RNA helicase genes."
+      },
+      "numbers": [
+        {
+          "metric": "individuals evaluated across DDX/DHX paralogs",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Reviews of DEAD/DEAH-box RNA helicases (Fiorenzani et al., 2025; Bohnsack et al., 2023) highlight that DDX6 and DHX30 are linked to classical brain developmental syndromes and neurodegenerative/neurodevelopmental mechanisms, lacking the specific peripheral axonal neuropathy/CMT2 phenotype seen with DHX9.",
+      "stance": "supports",
+      "source": {
+        "title": "DEAD/DEAH-box RNA helicases shape the risk of neurodevelopmental disorders",
+        "authors": [
+          "C Fiorenzani",
+          "A Mossa",
+          "S De Rubeis"
+        ],
+        "year": 2025,
+        "journal": "Trends in Genetics",
+        "doi": "10.1016/j.tig.2024.11.006",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/trends/genetics/abstract/S0168-9525(24)00314-7",
+        "quote": "In-depth phenotypic characterization of DHX30 and DHX9 variants is also beginning to emerge. Clinical data for individuals carrying variants in DDX6, EIF4A2, or other helicases point to roles in brain development and NDDs."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "Axonal peripheral neuropathy/CMT2 is not universally present in all individuals with DHX9 pathogenic variants; it is restricted to specific missense alleles that induce nucleolar mislocalization, whereas LoF and NLS variants cause central NDD without neuropathy.",
+    "Because many DHX9, DHX30, and DDX6 patients are evaluated primarily in early childhood, later-onset distal axonal neuropathy cannot be definitively excluded without long-term electrophysiological follow-up into adulthood across all paralogs."
+  ],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "What proportion of adult patients with DHX9-associated neurodevelopmental disorders develop subclinical or late-onset peripheral axonal neuropathy on nerve conduction studies?",
+      "rationale": "Determining whether peripheral neuropathy is strictly private to specific nucleolar-accumulating missense variants or emerges as an age-dependent feature across a broader subset of DHX9 variants will refine its utility as a clinical discriminator.",
+      "promise": 0.85,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Do longitudinal neurophysiological evaluations of DHX30 and DDX6 patients demonstrate complete absence of distal axonal sensorimotor involvement into second and third decades of life?",
+      "rationale": "Systematic EMG/NCS screening in older DHX30 and DDX6 cohorts is required to rule out subclinical peripheral nerve involvement.",
+      "promise": 0.78,
+      "est_cost": 35000
+    }
+  ]
+}

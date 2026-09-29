@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"MAPK8IP3\" \"retrograde transport\" \"lysosome\" axon neurodevelopment",
+    "MAPK8IP3 neurodevelopmental disorder clinical phenotype axonal transport lysosomes"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://www.sciencedirect.com/science/article/pii/S0955067424000619",
+      "title": "Disruptions in axonal lysosome transport and its contribution to neurological disease",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0955067424000619",
+      "abstract_chars": 991
+    },
+    {
+      "id": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+      "abstract_chars": 1362
+    },
+    {
+      "id": "PMC12016931",
+      "title": "A toxic gain-of-function variant in MAPK8IP3 provides insights into JIP3 cellular roles",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12016931/",
+      "abstract_chars": 1334
+    },
+    {
+      "id": "10.1091/mbc.E21-09-0473",
+      "title": "AP-4 regulates neuronal lysosome composition, function, and transport via regulating export of critical lysosome receptor proteins at the trans-Golgi network",
+      "pmid": null,
+      "doi": "10.1091/mbc.E21-09-0473",
+      "url": "https://www.molbiolcell.org/doi/abs/10.1091/mbc.E21-09-0473",
+      "abstract_chars": 1611
+    },
+    {
+      "id": "10.1080/15548627.2023.2236485",
+      "title": "Aging differentially affects axonal autophagosome formation and maturation",
+      "pmid": null,
+      "doi": "10.1080/15548627.2023.2236485",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/15548627.2023.2236485",
+      "abstract_chars": 1962
+    },
+    {
+      "id": "https://www.nature.com/articles/s42003-021-02945-x",
+      "title": "JIP3 links lysosome transport to regulation of multiple ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s42003-021-02945-x",
+      "abstract_chars": 1104
+    },
+    {
+      "id": "10.1101/2020.06.24.169219v2.full-text",
+      "title": "JIP3 links lysosome transport to regulation of multiple ...",
+      "pmid": null,
+      "doi": "10.1101/2020.06.24.169219v2.full-text",
+      "url": "https://www.biorxiv.org/content/10.1101/2020.06.24.169219v2.full-text",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000481780&type2=-26&id2=DOID:0110802",
+      "title": "DISEASES - MAPK8IP3",
+      "pmid": null,
+      "doi": null,
+      "url": "https://diseases.jensenlab.org/Entity?documents=10&type1=9606&id1=ENSP00000481780&type2=-26&id2=DOID:0110802",
+      "abstract_chars": 0
+    },
+    {
+      "id": "37909920",
+      "title": "Axonal transport of autophagosomes is regulated by ...",
+      "pmid": "37909920",
+      "doi": "10.1083/jcb.202301084",
+      "url": "https://rupress.org/jcb/article/222/12/e202301084/276373/Axonal-transport-of-autophagosomes-is-regulated-by",
+      "abstract_chars": 1032
+    },
+    {
+      "id": "10.1002/ajmg.a.63340",
+      "title": "Compound heterozygous variants in MAPK8IP3 were detected in severe congenital hypotonia mimicking lethal spinal muscular atrophy",
+      "pmid": null,
+      "doi": "10.1002/ajmg.a.63340",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/ajmg.a.63340",
+      "abstract_chars": 866
+    }
+  ],
+  "input_tokens": 6098,
+  "output_tokens": 3628,
+  "usd": 0.01393,
+  "seconds": 19.3,
+  "ok": true
+}

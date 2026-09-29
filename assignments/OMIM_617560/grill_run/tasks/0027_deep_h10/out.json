@@ -1,0 +1,147 @@
+{
+  "verdict": "conflicted",
+  "rationale": "Evidence confirms that PLP1 null syndrome manifests with a mild multifocal demyelinating peripheral neuropathy, which distinguishes it from typical SPAX8 presentations where peripheral nerve involvement is primarily categorized as axonal. However, literature examining Charcot-Marie-Tooth and related neuropathies also links NKX6-2 to mixed demyelinating and axonal lesions with reduced nerve conduction velocities, and PLP1 duplications/missense variants do not uniformly present with frank demyelinating neuropathy, making the distinction on nerve conduction studies alone less absolute than hypothesized.",
+  "evidence": [
+    {
+      "text": "PLP1 null variants are associated with mild demyelinating neuropathy, serving as a differential diagnostic criterion from NKX6-2-related hypomyelinating disorders.",
+      "stance": "supports",
+      "source": {
+        "title": "NKX6-2-related disorder",
+        "authors": [
+          "V Chelban",
+          "N Kaya",
+          "F Alkuraya",
+          "H Houlden"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk531509/",
+        "quote": "Null PLP1 variants are assoc w/mild demyelinating neuropathy & reduced levels of N-acetyl aspartate in cerebral white matter."
+      },
+      "numbers": [
+        {
+          "metric": "PLP1 null demyelinating neuropathy association",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Individuals with PLP1 disorders, particularly PLP1 null syndrome, characteristically present with multifocal demyelinating peripheral neuropathy.",
+      "stance": "supports",
+      "source": {
+        "title": "PLP1 disorders",
+        "authors": [
+          "NI Wolf",
+          "RML van Spaendonk",
+          "GM Hobson",
+          "J Kamholz"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://europepmc.org/books/nbk1182/",
+        "quote": "multifocal demyelinating peripheral neuropathy. Those with the PLP1 null syndrome generally ambulate better than those with classic PMD but may progress more rapidly because of"
+      },
+      "numbers": [
+        {
+          "metric": "multifocal demyelinating neuropathy in PLP1 null syndrome",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "NKX6-2 involvement in peripheral nervous system dysfunction is classified under peripheral axonal neuropathy rather than primary demyelinating polyneuropathy.",
+      "stance": "supports",
+      "source": {
+        "title": "Peripheral axonal neuropathy (Concept Id: C1263857)",
+        "authors": [
+          "National Center for Biotechnology Information"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "http://www.ncbi.nlm.nih.gov/medgen/266071",
+        "quote": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary"
+      },
+      "numbers": [
+        {
+          "metric": "classification under axonal neuropathy concept ID C1263857",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "NKX6-2 is cited in inherited neuropathy cohorts presenting with demyelinating and axonal lesions with slightly reduced nerve conduction velocities, challenging the claim that peripheral myelination is entirely conserved or devoid of demyelinating features.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Clinical Variability of Charcot-Marie-Tooth Disease and its ...",
+        "authors": [
+          "R\u012bgas Stradi\u0146a universit\u0101te"
+        ],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://dspace.rsu.lv/bitstreams/5bd76d7e-997f-4177-b2a2-87c9a8cd8483/download",
+        "quote": "demyelinating and axonal lesions, showing slightly reduced nerve conduction ... SLC25A46; NKX6-2; DGAT2; PCYT2; AGTPBP1; GPT2; VRK1; TUBA4A;. BSCL2; MAG"
+      },
+      "numbers": [
+        {
+          "metric": "reduced nerve conduction velocity presence",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Nkx6-2 transcriptional activity is specifically required for CNS myelin paranodes, distinguishing its mechanistic site of action from primary PNS compact myelin genes.",
+      "stance": "supports",
+      "source": {
+        "title": "Organization and maintenance of molecular domains in myelinated axons",
+        "authors": [
+          "ED Buttermore",
+          "CL Thaxton"
+        ],
+        "year": 2013,
+        "journal": "Journal of Neuroscience Research",
+        "doi": "10.1002/jnr.23197",
+        "pmid": "23404451",
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jnr.23197",
+        "quote": "CNS myelin paranodes require Nkx6-2 homeoprotein"
+      },
+      "numbers": [
+        {
+          "metric": "CNS paranodal localization requirement",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Demyelinating peripheral neuropathy in PLP1-related disorders is predominantly restricted to the PLP1 null syndrome and is typically mild and multifocal rather than a generalized frank demyelinating sensorimotor polyneuropathy across all PLP1 genotypes.",
+    "NKX6-2 has been indexed in neuropathy cohorts displaying intermediate or demyelinating features with reduced nerve conduction velocities, contradicting the assertion that peripheral conduction slowing/demyelinating patterns never occur in SPAX8."
+  ],
+  "confidence": 0.58,
+  "new_directions": [
+    {
+      "question_text": "Does electrophysiological evaluation of motor and sensory nerves in confirmed SPAX8 cohorts show uniform preservation of conduction velocities or subclinical intermediate slowing?",
+      "rationale": "Clarifying whether NKX6-2 variants cause true secondary paranodopathies or mixed conduction slowing in peripheral nerves would determine whether electrophysiology can reliably rule out SPAX8.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "What proportion of classic Pelizaeus-Merzbacher disease (PLP1 duplications) versus PMLD1 (GJC2) patients demonstrate demyelinating peripheral nerve conduction profiles compared to PLP1 null syndrome?",
+      "rationale": "If demyelinating neuropathy is absent in classic PMD and PMLD1, using demyelinating neuropathy as a general discriminator against SPAX8 will produce high false-negative rates.",
+      "promise": 0.8,
+      "est_cost": 30000.0
+    }
+  ]
+}

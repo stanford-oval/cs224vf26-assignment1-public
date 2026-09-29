@@ -1,0 +1,125 @@
+{
+  "hypotheses": [
+    {
+      "text": "In the 25-proband discovery cohort of Karayol et al. (2024), congenital structural organ anomalies (including congenital heart defects and renal anomalies) exhibit a penetrance below 20% (<=5/25), contrasting sharply with core neurological signs (hypotonia, motor coordination deficits, and feeding difficulties) which each exceed 60% (>=15/25).",
+      "rationale": "Karayol et al. (2024) specifically delineate global developmental delay, hypotonia, motor coordination problems, and feeding difficulties as primary associations, while explicitly grouping structural organ anomalies, seizures, and connective tissue disease signs as occurring 'to a lesser extent'. Clinicians evaluating suspected MSL2 syndrome need to verify whether the absence of structural cardiac or visceral anomalies argues against the diagnosis or is the expected baseline.",
+      "aspects": [
+        "pooled",
+        "binned"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "Karayol et al. identify 25 individuals with heterozygous de novo MSL2 variants manifesting global developmental delay, intellectual disability, hypotonia, motor coordination problems, feeding difficulties, and gait disturbance, whereas seizures, connective tissue disease signs, and other organ anomalies were reported to a lesser extent.",
+          "stance": "supports",
+          "source": {
+            "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+            "authors": [
+              "R Karayol",
+              "MC Borroto",
+              "S Haghshenas"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11267526",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267526/",
+            "quote": "MSL2 variants were associated with NDD phenotypes including global developmental delay, intellectual disability, hypotonia, and motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size",
+              "value": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Table 1 and Table S2 of Karayol et al. (2024), feeding difficulties in infancy occur in at least 50% (>=13/25) of affected probands and correlate directly with early neonatal truncal hypotonia, whereas sleep disturbance is documented in between 30% and 50% (8/25 to 12/25) of probands.",
+      "rationale": "Differentiating feeding difficulties and sleep disturbances from pure behavioral problems helps clarify early neonatal presentation before cognitive impairment and facial dysmorphisms can be formally evaluated.",
+      "aspects": [
+        "binned"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Feeding difficulties are highlighted among the principal motor/early neurodevelopmental complications in the cohort alongside coordination problems and hypotonia, while sleep disturbance is listed among secondary co-occurring conditions.",
+          "stance": "supports",
+          "source": {
+            "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+            "authors": [
+              "R Karayol",
+              "MC Borroto",
+              "S Haghshenas"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11267526",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267526/",
+            "quote": "motor issues such as coordination problems, feeding difficulties, and gait disturbance. Dysmorphisms and behavioral and/or psychiatric conditions, including autism spectrum disorder, and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+          },
+          "numbers": [
+            {
+              "metric": "proband_count",
+              "value": 25
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Vision problems (including strabismus, refractive errors, or astigmatism) in Karayol et al. (2024) are present in approximately 25% to 45% (6/25 to 11/25) of probands, demonstrating moderate penetrance that distinguishes MSL2 syndrome from classic chromatinopathies that exhibit near-obligate ocular abnormalities.",
+      "rationale": "Several syndromic phenocopies (e.g., Wiedemann-Steiner syndrome or Rubinstein-Taybi syndrome) show higher rates of structural ocular abnormalities (coloboma, severe ptosis, or lacrimal duct obstruction). Establishing the exact frequency and nature of vision problems in MSL2 syndrome will sharpen differential diagnosis.",
+      "aspects": [
+        "binned"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "The discovery report notes vision problems among the secondary phenotypic manifestations observed in affected individuals to a lesser extent than core developmental delays and dysmorphisms.",
+          "stance": "supports",
+          "source": {
+            "title": "MSL2 variants lead to a neurodevelopmental syndrome with lack of coordination, epilepsy, specific dysmorphisms, and a distinct episignature",
+            "authors": [
+              "R Karayol",
+              "MC Borroto",
+              "S Haghshenas"
+            ],
+            "year": 2024,
+            "journal": null,
+            "doi": null,
+            "pmid": null,
+            "pmc": "PMC11267526",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11267526/",
+            "quote": "and to a lesser extent, seizures, connective tissue disease signs, sleep disturbance, vision problems, and other organ anomalies, were observed in affected individuals."
+          },
+          "numbers": [
+            {
+              "metric": "total_individuals",
+              "value": 25
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerators and denominators for individual facial dysmorphic signs (e.g., arched eyebrows, broad forehead, telecanthus, thin vermilion) in Table S2 of Karayol et al. (2024) and Supplementary Table 1 of Luo et al. (2026)?",
+      "rationale": "Luo et al. (2026) report MSL2 disruption data extending across 74 individuals, which can confirm whether individual facial traits maintain consistent penetrance beyond the initial 25-patient discovery cohort.",
+      "promise": 0.88,
+      "est_cost": 0.95
+    },
+    {
+      "question_text": "How do clinical feature penetrance rates in MSL2 syndrome compare head-to-head with related NSL/MSL complex conditions such as PHF20- and MSL3-related neurodevelopmental syndromes?",
+      "rationale": "Dagan et al. (2025) describe homozygous PHF20 deletions causing microcephaly and developmental delay with reduced H4K16ac, offering a direct clinical and epigenetic counterpoint to MSL2 variants that preserve global H4K16ac.",
+      "promise": 0.78,
+      "est_cost": 0.8
+    }
+  ],
+  "dead_end": false
+}

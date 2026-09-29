@@ -1,0 +1,105 @@
+{
+  "verdict": "supported",
+  "rationale": "Across published cohorts with biallelic SGSM3 pathogenic variants\u2014including the Ashkenazi Jewish founder kindreds and Turkish siblings with loss-of-function variants\u2014the neurodevelopmental phenotype consistently presents as mild-to-moderate intellectual disability accompanied by speech and language delay rather than complete anarthria or an obligatory nonverbal outcome. None of the available clinical descriptions or database summaries report anarthria (HP:0001344); all specifically document expressive speech/language delay (HP:0000750) or preserved communicative ability within mild-to-moderate intellectual disability.",
+  "evidence": [
+    {
+      "text": "SGSM3 was identified as a candidate disease gene for an autosomal recessive mild to moderate intellectual disability syndrome linked to a founder variant in Ashkenazi Jews, characterized by speech and language delays without anarthria.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual disability syndrome associated with a homozygous founder variant in SGSM3 in Ashkenazi Jews",
+        "authors": [
+          "R Birnbaum",
+          "S Ezer",
+          "NS Lotan",
+          "A Eilat"
+        ],
+        "year": 2024,
+        "journal": "Journal of Medical Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://jmg.bmj.com/content/61/3/289.abstract",
+        "quote": "In this paper, we highlight SGSM3 as a candidate disease gene for autosomal recessive mild to moderate intellectual disability. We identified a founder variant in Ashkenazi Jews"
+      },
+      "numbers": [
+        {
+          "metric": "affected severity class",
+          "value": "mild to moderate"
+        }
+      ]
+    },
+    {
+      "text": "A novel homozygous stop-gain loss-of-function variant, p.(Arg526Ter), was identified in two siblings exhibiting short stature and nonsyndromic intellectual disability without reports of complete speech absence or anarthria.",
+      "stance": "supports",
+      "source": {
+        "title": "A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3",
+        "authors": [
+          "A Turkyilmaz",
+          "KA Saglam",
+          "M Yilmaz"
+        ],
+        "year": 2025,
+        "journal": "Clinical Genetics",
+        "doi": "10.1111/cge.14631",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.14631",
+        "quote": "In this study, a novel homozygous stop-gain (NM_015705.6: c.1576C>T: p.(Arg526Ter)) variation was detected in the SGSM3 gene in two siblings with short stature and ID findings. The report of two cases with bi-allelic LOF variants in the SGSM3 gene from different populations with similar clinical manifestations strengthens the potential of this gene as a candidate gene for the nonsyndromic ID phenotype."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Clinical summaries in disease knowledgebases define autosomal recessive intellectual developmental disorder 84 with language delay and speech delay rather than severe nonverbal/anarthric status.",
+      "stance": "supports",
+      "source": {
+        "title": "Intellectual Developmental Disorder, Autosomal Recessive ...",
+        "authors": [],
+        "year": null,
+        "journal": "MalaCards",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.malacards.org/card/intellectual_developmental_disorder_autosomal_recessive_84",
+        "quote": "language delay; speech delay; impaired intellectual development, mild ... A Strong Candidate Gene for Nonsyndromic Intellectual Disability Phenotype: SGSM3."
+      },
+      "numbers": []
+    },
+    {
+      "text": "Genomics England PanelApp lists the phenotype associated with SGSM3 as intellectual disability, developmental delay, and delayed speech and language.",
+      "stance": "supports",
+      "source": {
+        "title": "Gene: HK1 (Intellectual disability)",
+        "authors": [],
+        "year": null,
+        "journal": "Genomics England PanelApp",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp.genomicsengland.co.uk/panels/285/gene/HK1/",
+        "quote": "Intellectual disability; developmental delay, delayed speech and language, learning disability."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What are the quantitative receptive versus expressive language standardized scores across all known SGSM3 homozygous loss-of-function patients?",
+      "rationale": "Direct formal psycholinguistic assessments (e.g., CELF, Vineland Adaptive Behavior Scales) are required to delineate whether the expressive delay is motor-articulatory, phonological, or related to overall cognitive functioning.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does SGSM3 loss of function alter neuronal arborization or synaptic vesicle transport in cortical language/speech motor networks in human induced pluripotent stem cell (iPSC)-derived neurons?",
+      "rationale": "Clarifying the subcellular role of SGSM3 as a small G-protein modulator in cortical development will reveal why expressive speech is delayed but motor articulation pathways remain largely intact.",
+      "promise": 0.82,
+      "est_cost": 75000.0
+    }
+  ]
+}

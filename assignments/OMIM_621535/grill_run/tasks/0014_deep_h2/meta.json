@@ -1,0 +1,57 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spinocerebellar ataxia 52\" \"RAB3A\" clinical phenotype",
+    "RAB3A spinocerebellar ataxia 52 OMIM 621535 phenotype clinical presentation"
+  ],
+  "n_hits": 5,
+  "hits": [
+    {
+      "id": "https://omim.org/entry/621535",
+      "title": "Entry - #621535 - SPINOCEREBELLAR ATAXIA 52; SCA52",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://marrvel.org/human/gene/5864",
+      "title": "RAB3A",
+      "pmid": null,
+      "doi": null,
+      "url": "https://marrvel.org/human/gene/5864",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=466&entity=RAB3A",
+      "title": "Activity",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/activity/?panel=466&entity=RAB3A",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/117210",
+      "title": "Entry - #117210 - SPINOCEREBELLAR ATAXIA 31; SCA31",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/117210",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.genecards.org/card/RAB3A",
+      "title": "RAB3A Gene",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.genecards.org/card/RAB3A",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3132,
+  "output_tokens": 2851,
+  "usd": 0.01012,
+  "seconds": 18.2,
+  "ok": true
+}

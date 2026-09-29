@@ -1,0 +1,134 @@
+{
+  "verdict": "refuted",
+  "rationale": "The hypothesis posits that pathogenic missense variants in NAV3 strictly cluster within the conserved AAA ATPase and calponin homology (CH) domains and act via dominant-negative microtubule destabilization. However, published genetic and functional evidence refutes this specific clustering and exclusive mechanism: (1) Pathogenic missense variants have been documented outside the AAA and CH domains, such as p.Ser1681Arg, which localizes to the coiled-coil domain, and biallelic p.Ser1144Pro; (2) The disorder displays both autosomal dominant and autosomal recessive inheritance with biallelic loss-of-function truncating variants (e.g., c.243+1G>T, p.Gln2109Ter, p.Arg2193Ter), demonstrating that complete loss of function is pathogenic; and (3) In vivo zebrafish knockdown models were rescued by wild-type NAV3 mRNA but not mutant transcripts, which is characteristic of loss-of-function rather than an exclusively dominant-negative mechanism.",
+  "evidence": [
+    {
+      "text": "OMIM entry #621182 describes disease-causing variants in NAV3 including a frameshift (c.3621insA) in the microtubule-binding domain and a missense variant (p.Ser1681Arg) located in the coiled-coil domain rather than the AAA ATPase or calponin homology domains.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Entry - #621182 - NEURODEVELOPMENTAL DISORDER WITH POOR OR ABSENT SPEECH, DYSMORPHIC FACIES, AND BEHAVIORAL ABNORMALITIES; NEDSFB",
+        "authors": [
+          "Online Mendelian Inheritance in Man"
+        ],
+        "year": null,
+        "journal": "OMIM",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621182",
+        "quote": "a frameshift (c.3621insA) in the microtubule-binding domain, and a missense (S1681R) at a highly conserved residue in the coiled-coil domain"
+      },
+      "numbers": [
+        {
+          "metric": "OMIM ID",
+          "value": "621182"
+        }
+      ]
+    },
+    {
+      "text": "Multiple consanguineous families segregate neurodevelopmental disorder caused by biallelic loss-of-function NAV3 variants, including homozygous nonsense variants p.Gln2109Ter and p.Arg2193Ter and a splice-site variant c.243+1G>T, confirming an autosomal recessive loss-of-function etiology rather than an exclusively dominant-negative mechanism.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Further evidence of biallelic NAV3 variants associated with recessive neurodevelopmental disorder with dysmorphism, developmental delay, intellectual disability \u2026",
+        "authors": [
+          "N Kakar",
+          "S Mascarenhas",
+          "A Ali",
+          "Azmatullah"
+        ],
+        "year": 2025,
+        "journal": "Human Genetics",
+        "doi": "10.1007/s00439-024-02718-6",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://link.springer.com/article/10.1007/s00439-024-02718-6",
+        "quote": "ES revealed two homozygous nonsense c.6325C > T; p.(Gln2109Ter) and c.6577C > T; p.(Arg2193Ter) and a homozygous splice site (c.243 + 1G > T) variants in the NAV3 (NM_001024383.2)"
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 5
+        },
+        {
+          "metric": "unrelated families",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "A homozygous missense variant (c.3430T>C; p.Ser1144Pro) was identified in a proband with autosomal recessive neurodevelopmental disorder, expanding the pathogenic spectrum to recessive missense changes.",
+      "stance": "contradicts",
+      "source": {
+        "title": "NAV3 Missense Variant in a Homozygous State: Strengthening Links to Neurodevelopmental Disorder",
+        "authors": [
+          "M Umair",
+          "A Ullah",
+          "Najumuddin",
+          "G Zaman"
+        ],
+        "year": 2025,
+        "journal": "Current Medicinal Chemistry",
+        "doi": "10.2174/0109298673367919250626005640",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.benthamdirect.com/content/journals/cmc/10.2174/0109298673367919250626005640",
+        "quote": "A novel biallelic missense variant in the NAV3 (c.3430T>C; p.Ser1144Pro) was detected using WGS and Sanger sequencing."
+      },
+      "numbers": [
+        {
+          "metric": "proband affected",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Overexpression of pathogenic variants in HEK293T and COS7 cells impaired NAV3's capability to stabilize microtubules, and zebrafish nav3 knockdowns displayed microcephaly and neural defects that were rescued by WT mRNA but not mutant transcripts, indicating impaired normal function.",
+      "stance": "supports",
+      "source": {
+        "title": "Variants of NAV3, a neuronal morphogenesis protein, cause intellectual disability, developmental delay, and microcephaly",
+        "authors": [
+          "A Ghaffar",
+          "T Akhter",
+          "P Str\u00f8mme",
+          "D Misceo"
+        ],
+        "year": 2024,
+        "journal": "Communications Biology",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s42003-024-06466-1",
+        "quote": "When overexpressed in HEK293T and COS7 cells, pathogenic variants impaired NAV3 ability to stabilize microtubules. Further, knocking-down nav3 in zebrafish led to severe morphological defects, microcephaly, impaired neuronal growth, and behavioral impairment, which were rescued with co-injection of WT NAV3 mRNA and not by transcripts encoding the pathogenic variants."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals",
+          "value": 11
+        },
+        {
+          "metric": "families",
+          "value": 7
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts pathogenic missense alterations specifically cluster in the AAA ATPase and CH domains, but validated pathogenic missense variants occur in other regions such as the coiled-coil domain (p.Ser1681Arg).",
+    "The hypothesis asserts a dominant-negative microtubule destabilization mechanism, but genetic cohorts establish autosomal recessive inheritance with biallelic loss-of-function and missense variants, and zebrafish rescue assays demonstrate loss of physiological function rather than exclusive dominant-negative action."
+  ],
+  "confidence": 0.15,
+  "new_directions": [
+    {
+      "question_text": "Do monoallelic de novo missense variants in NAV3 act via dominant-negative interference or haploinsufficiency compared to biallelic truncating variants?",
+      "rationale": "Dissecting whether monoallelic variants exert true dominant-negative effects in heterozygous patient-derived iPSC neurons or simply reflect dosage sensitivity will resolve the apparent heterogeneity between dominant and recessive NAV3-related presentations.",
+      "promise": 0.88,
+      "est_cost": 35000
+    },
+    {
+      "question_text": "What are the specific phenotypic discriminators between monoallelic and biallelic NAV3 mutation carriers?",
+      "rationale": "Both de novo heterozygous and biallelic homozygous cases have been published; systematic clinical phenotyping is required to establish whether biallelic individuals have more severe developmental delay or distinct syndromic features.",
+      "promise": 0.82,
+      "est_cost": 15000
+    }
+  ]
+}

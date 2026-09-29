@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"spinocerebellar ataxia 52\" \"RAB3A\" \"cerebellar atrophy\"",
+    "spinocerebellar ataxia 52 RAB3A clinical phenotype MRI features"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://omim.org/clinicalSynopsis/621535",
+      "title": "SPINOCEREBELLAR ATAXIA 52; SCA52 - Clinical Synopsis",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621535",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/117210",
+      "title": "Entry - #117210 - SPINOCEREBELLAR ATAXIA 31; SCA31",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/117210",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/619806",
+      "title": "Entry - #619806 - SPINOCEREBELLAR ATAXIA 49; SCA49",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/619806",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/618093",
+      "title": "Entry - #618093 - SPINOCEREBELLAR ATAXIA 48; SCA48",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/618093",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "title": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/hmg/article-abstract/35/3/ddaf186/8415318",
+      "abstract_chars": 1865
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+      "title": "Expanding the clinical spectrum of RAB3A: from cerebellar ataxia to spastic paraplegia",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/148/11/e96/8175149",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+      "title": "The RAB3A hot spot variant R83W causes spasticity as part of the ataxia-spasticity spectrum",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/149/4/e36/8408500",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "title": "From genes to neuropathology: Integrative perspectives on the spectrum of spinocerebellar ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://search.proquest.com/openview/0aa50d82ac7d4e1bb43aa33a08b43adb/1?pq-origsite=gscholar&cbl=2044862",
+      "abstract_chars": 455
+    },
+    {
+      "id": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+      "title": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism",
+      "pmid": null,
+      "doi": null,
+      "url": "https://academic.oup.com/brain/article-abstract/148/8/2812/8102230",
+      "abstract_chars": 2461
+    },
+    {
+      "id": "PMC6765228",
+      "title": "Neuroradiological Findings in the Spinocerebellar Ataxias",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6765228/",
+      "abstract_chars": 1209
+    }
+  ],
+  "input_tokens": 5236,
+  "output_tokens": 4037,
+  "usd": 0.01473,
+  "seconds": 23.6,
+  "ok": true
+}

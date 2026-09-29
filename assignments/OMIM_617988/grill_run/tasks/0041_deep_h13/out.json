@@ -1,0 +1,89 @@
+{
+  "verdict": "supported",
+  "rationale": "Published clinical summaries of Jaberi-Elahi syndrome indicate that skeletal abnormalities (including scoliosis, kyphoscoliosis, and contractures) occur in 23 of 28 individuals (~82.1%), who predominantly harbor biallelic truncating (nonsense, frameshift, splice-site) variants in GTPBP2. In contrast, Manoochehri et al. (2024) described a 3-year-old patient homozygous for a novel missense variant (p.Leu430Pro) who completely lacked skeletal abnormalities. A potential confounding factor is age-dependent penetrance, as spinal deformities often manifest or worsen after prolonged hypotonia or spasticity.",
+  "evidence": [
+    {
+      "text": "In a systematic review of 28 individuals with Jaberi-Elahi syndrome, 23 of 28 (82.1%) presented with skeletal problems (such as scoliosis and kyphoscoliosis). In contrast, the reported 3-year-old proband homozygous for a novel missense variant (p.Leu430Pro) did not exhibit any skeletal abnormalities.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28). In spite of previous patients, the proband in this study did not exhibit any skeletal abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "prevalence of skeletal problems in reported cohort",
+          "value": "23/28"
+        },
+        {
+          "metric": "prevalence of motor development delay",
+          "value": "26/28"
+        },
+        {
+          "metric": "prevalence of hypotonia",
+          "value": "23/28"
+        }
+      ]
+    },
+    {
+      "text": "Affected siblings with a homozygous splice-site truncating mutation leading to exon 9 deletion presented with severe skeletal manifestations requiring corrective surgery for scoliosis and kyphoscoliosis.",
+      "stance": "supports",
+      "source": {
+        "title": "Identification of mutation in GTPBP2 in patients of a family with neurodegeneration accompanied by iron deposition in the brain",
+        "authors": [
+          "E Jaberi",
+          "M Rohani",
+          "GA Shahidi",
+          "S Nafissi",
+          "E Arefian"
+        ],
+        "year": 2016,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S0197458015005461",
+        "quote": "The affected sons underwent surgery for scoliosis and kyphoscoliosis \u2026 The decreased reflexes in the patients and the skeletal \u2026"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Three unrelated families with homozygous nonsense truncating variants in GTPBP2 (p.Arg144*, p.Gln407*, and p.Arg470*) exhibited motor and cognitive impairment accompanied by a range of muscular and skeletal abnormalities including scoliosis and kyphoscoliosis, though not all individual patients exhibited scoliosis.",
+      "stance": "supports",
+      "source": {
+        "title": "biallelic-inactivating-variants-in-the-gtpbp2-gene-cause-a- ...",
+        "authors": [
+          "AM Bertoli"
+        ],
+        "year": 2018,
+        "journal": null,
+        "doi": "10.1038/s41431-018-0097-3",
+        "pmid": "29449720",
+        "pmc": null,
+        "url": "https://scispace.com/pdf/biallelic-inactivating-variants-in-the-gtpbp2-gene-cause-a-4hztdxf2gs.pdf",
+        "quote": "kyphoscoliosis. Scoliosis. No. Scoliosis ... skeletal abnormalities. The medical record also ..."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "Is the absence of skeletal abnormalities in missense GTPBP2 cases caused by residual protein function or due to young age at evaluation?",
+      "rationale": "Kyphoscoliosis and joint contractures often develop progressively secondary to chronic hypotonia or spasticity; longitudinal assessment of missense variant carriers across older ages is required to determine whether skeletal sparing persists into adolescence and adulthood.",
+      "promise": 0.88,
+      "est_cost": 25000.0
+    }
+  ]
+}

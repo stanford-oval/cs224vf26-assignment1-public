@@ -1,0 +1,47 @@
+{
+  "knowledge": "Alsahan-Harris syndrome (OMIM #621307) is an ultrarare autosomal recessive ciliopathy linked to biallelic pathogenic variants in TBC1D32 (also known as BRP44L or CILK1-associated pathway components). Phenotypically, it falls within the spectrum of oral-facial-digital syndromes (particularly OFD type IX or related phenotypes) and short-rib thoracic dysplasias / Joubert-related disorders. Reported features include midline cranial/pituitary defects (e.g., hypothalamic hamartoma or pituitary hypoplasia leading to endocrine dysfunction), endocrine insufficiencies (growth hormone deficiency, central hypocortisolism), microphthalmia/coloboma or other retinal/ocular defects, postaxial polydactyly, oral frenula, cleft lip/palate or lobed tongue, and structural brain malformations such as cerebellar vermis hypoplasia/dysplasia (molar tooth sign variant) or corpus callosum anomalies.",
+  "prior_hypothesis": "A patient with Alsahan-Harris syndrome can be clinically distinguished from overlapping ciliopathies (such as classic Joubert syndrome, Ellis-van Creveld, Bardet-Biedl, and typical OFD variants) by the triad of oral-facial-digital features (lobulated tongue, oral frenulae, polydactyly), striking congenital hypopituitarism/endocrine deficits associated with structural pituitary/hypothalamic lesions (e.g., pituitary hypoplasia or hamartomas), and visual defects (coloboma/microphthalmia), without the prominent early cystic renal failure characteristic of Meckel-Gruber or nephronophthisis.",
+  "candidate_answers": [
+    {
+      "answer": "Primary distinguishing phenotypes in TBC1D32 cohorts (e.g., Alsahan et al. / Harris et al.) include congenital hypopituitarism/growth hormone deficiency (frequently ~3/3 to 4/5 of reported individuals), postaxial or mesoaxial polydactyly, oral frenula/clefting/lingual nodules, and pituitary/hypothalamic midline defects on MRI.",
+      "confidence": 0.8,
+      "aspect": "Core phenotypic profile and frequencies"
+    },
+    {
+      "answer": "The most discriminating differential diagnosis is classic Joubert syndrome vs. OFD-IX vs. Pallister-Hall syndrome: Alsahan-Harris syndrome is differentiated from Pallister-Hall by the presence of true ciliary oral/retinal involvement and distinct brain morphology, and from classic Joubert syndrome by prominent pituitary endocrinopathy and mesoaxial/postaxial oral-facial involvement.",
+      "confidence": 0.75,
+      "aspect": "Discriminating features against differential diagnoses"
+    },
+    {
+      "answer": "Renal dysplasia/cystic kidney disease and early neonatal lethality from pulmonary hypoplasia (as seen in Meckel-Gruber syndrome) are typically absent or rare in reported Alsahan-Harris syndrome probands, serving as negative discriminators.",
+      "confidence": 0.7,
+      "aspect": "Features found absent"
+    },
+    {
+      "answer": "Loss-of-function null (truncating/frameshift) variants in TBC1D32 correlate with more severe midline developmental defects and early endocrine failure compared to hypomorphic missense variants, which present with milder neurodevelopmental and retinal findings.",
+      "confidence": 0.6,
+      "aspect": "Genotype-phenotype correlations"
+    }
+  ],
+  "key_terms": [
+    "Alsahan-Harris syndrome",
+    "OMIM #621307",
+    "TBC1D32",
+    "Oral-facial-digital syndrome",
+    "Hypopituitarism",
+    "Hypothalamic hamartoma",
+    "Molar tooth sign",
+    "Polydactyly",
+    "Ciliopathy"
+  ],
+  "open_questions": [
+    "What are the exact reported denominators across the published index pedigrees (Alsahan et al., Harris et al., and subsequent single-case/cohort reports) for endocrine abnormalities vs. classic molar tooth sign?",
+    "Does cerebellar vermian hypoplasia meet strict neuroimaging criteria for molar tooth sign across all confirmed TBC1D32 cases, or only a subset?",
+    "Are retinal dystrophy or chorioretinal coloboma consistently present, and do any reported cases have cystic kidney or hepatic fibrocystic manifestations on extended follow-up?"
+  ],
+  "assumptions": [
+    "Alsahan-Harris syndrome designation in OMIM #621307 uniquely refers to the condition caused by biallelic TBC1D32 variants.",
+    "Reported literature includes original index family reports (such as Harris et al. / Alsahan et al. publications describing TBC1D32 ciliopathy phenotypes).",
+    "Phenotypic categorization follows human phenotype ontology (HPO) standards for ciliopathies and oral-facial-digital/Joubert-spectrum disorders."
+  ]
+}

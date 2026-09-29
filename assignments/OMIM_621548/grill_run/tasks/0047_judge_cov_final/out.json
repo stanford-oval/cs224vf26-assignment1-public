@@ -1,0 +1,51 @@
+{
+  "fields": [
+    {
+      "field": "Clinical phenotypes reported in affected individuals with exact counts (numerator and denominator per cohort), the wording from the paper, and the corresponding standard HPO term.",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Most discriminating phenotypes (common in CLN3-related RP101 but rare in differential diagnoses), the names of the disorders it is commonly confused with, and the level of confidence in each distinction.",
+      "covered": true,
+      "contributing_aspects": [
+        "electronegative ERG",
+        "differential diagnosis",
+        "STGD1 vs CLN3",
+        "discriminating_features",
+        "Key discriminating feature"
+      ]
+    },
+    {
+      "field": "Pertinent negative findings (phenotypes explicitly assessed and found absent in affected individuals, which argue against the diagnosis if present).",
+      "covered": true,
+      "contributing_aspects": [
+        "negative_phenotypes",
+        "discriminating_features"
+      ]
+    },
+    {
+      "field": "Phenotypic variations or correlations based on variant type, variant position, age, or sex.",
+      "covered": true,
+      "contributing_aspects": [
+        "phenotypic heterogeneity",
+        "genotype_phenotype_correlation",
+        "Genotype-phenotype correlation",
+        "clinical subtyping",
+        "natural history",
+        "macular atrophy",
+        "maculopathy"
+      ]
+    },
+    {
+      "field": "Contradictory findings where one study reports a phenotype and another explicitly contradicts it.",
+      "covered": false,
+      "contributing_aspects": []
+    },
+    {
+      "field": "Cohort-specific source attribution (PMID or DOI) for every reported phenotype frequency.",
+      "covered": false,
+      "contributing_aspects": []
+    }
+  ]
+}

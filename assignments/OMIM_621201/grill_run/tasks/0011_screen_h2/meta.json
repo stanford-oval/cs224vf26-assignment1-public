@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"GTF3C3\" \"seizures\" \"neurodevelopmental disorder\" OMIM 621201",
+    "GTF3C3 neurodevelopmental disorder seizures phenotype clinical features OMIM 621201"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "10.3389/fgene.2026.1860633/full",
+      "title": "Case report: Characterization of a patient with novel biallelic variants in GTF3C3 and comprehensive review of previously reported cases",
+      "pmid": null,
+      "doi": "10.3389/fgene.2026.1860633/full",
+      "url": "https://www.frontiersin.org/journals/genetics/articles/10.3389/fgene.2026.1860633/full",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/entry/621201?search=prefix%3A%23&highlight=None",
+      "title": "Entry - #621201 - NEURODEVELOPMENTAL DISORDER ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/entry/621201?search=prefix%3A%23&highlight=None",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://omim.org/clinicalSynopsis/621201",
+      "title": "Clinical Synopsis - #621201 - NEURODEVELOPMENTAL ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://omim.org/clinicalSynopsis/621201",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp.genomicsengland.co.uk/panels/entities/GTF3C3",
+      "title": "GTF3C3",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp.genomicsengland.co.uk/panels/entities/GTF3C3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3899890/?new_evidence=true",
+      "title": "VCV003899890.1 - ClinVar - NCBI",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ncbi.nlm.nih.gov/clinvar/variation/3899890/?new_evidence=true",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://panelapp-aus.org/panels/entities/GTF3C3",
+      "title": "GTF3C3",
+      "pmid": null,
+      "doi": null,
+      "url": "https://panelapp-aus.org/panels/entities/GTF3C3",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://iris.uniroma1.it/handle/11573/1759639",
+      "title": "Genetic investigations and implications of genetic diagnosis in childhood onset neurological and neurodevelopmental disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://iris.uniroma1.it/handle/11573/1759639",
+      "abstract_chars": 0
+    },
+    {
+      "id": "38180615",
+      "title": "Clinical characterization and underlying genetic findings in brazilian patients with syndromic microcephaly associated with neurodevelopmental disorders",
+      "pmid": "38180615",
+      "doi": "10.1007/s12035-023-03894-8",
+      "url": "https://link.springer.com/article/10.1007/s12035-023-03894-8",
+      "abstract_chars": 1789
+    },
+    {
+      "id": "https://constellation.uqac.ca/id/eprint/10186/",
+      "title": "Identification of pathogenic genetic variants using whole genome sequencing in patients with epilepsy",
+      "pmid": null,
+      "doi": null,
+      "url": "https://constellation.uqac.ca/id/eprint/10186/",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://s-space.snu.ac.kr/bitstream/10371/194193/1/000000175041.pdf",
+      "title": "Systematic Analysis of Genetic Etiology in Pediatric Neurodevelopmental Disorders",
+      "pmid": null,
+      "doi": null,
+      "url": "https://s-space.snu.ac.kr/bitstream/10371/194193/1/000000175041.pdf",
+      "abstract_chars": 0
+    }
+  ],
+  "input_tokens": 3372,
+  "output_tokens": 1157,
+  "usd": 0.00516,
+  "seconds": 10.0,
+  "ok": true
+}

@@ -1,0 +1,117 @@
+{
+  "verdict": "supported",
+  "rationale": "Peripheral axonal neuropathy presenting with clinically evident distal extremity drop (wrist drop and foot drop) is documented as an expansion of the classic NKX6-2 phenotype, first identified as a novel manifestation by Bereshneh et al. (2020) in two Iranian siblings. Subsequent clinical reviews, including Ganguly et al. (2023), specifically reference this presentation to those two siblings among the broader global cohorts of SPAX8 / hypomyelinating leukodystrophy cases. While generalized or mild peripheral neuropathy features are cited in broader differential discussions (Almatrafi et al., 2020; Sharma et al., 2025), overt distal extremity drop secondary to axonal neuropathy remains restricted to these isolated cases, firmly placing its frequency below 10% of reported NKX6-2 cases.",
+  "evidence": [
+    {
+      "text": "Bereshneh et al. (2020) documented two Iranian siblings carrying a homozygous c.501C>G, p.(Phe167Leu) missense mutation in NKX6-2 presenting with wrist and foot drop due to peripheral axonal neuropathy, explicitly identifying this as a novel clinical finding expanding the phenotype of SPAX8.",
+      "stance": "supports",
+      "source": {
+        "title": "Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8",
+        "authors": [
+          "AH Bereshneh",
+          "S Hosseipour"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S176972121930744X",
+        "quote": "In addition, wrist and foot drop due to peripheral axonal neuropathy were observed in these patients as a new clinical finding and cerebellar white matter involvement in brain Magnetic Resonance Imaging (MRI) as new imaging finding. Therefore, we expanded the manifestations of NKX6-2-related disorders in this manuscript."
+      },
+      "numbers": [
+        {
+          "metric": "affected siblings with wrist and foot drop",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "text": "Ganguly et al. (2023) reviewed movement disorders in hypomyelinating leukodystrophy, noting that NKX6-2-related autosomal recessive spastic ataxia has a wide clinical spectrum, with muscle atrophy, wrist drop, and foot drop due to axonal peripheral neuropathy specifically highlighted in the Iranian siblings.",
+      "stance": "supports",
+      "source": {
+        "title": "Hypomyelinating leukodystrophy and movement disorders",
+        "authors": [
+          "J Ganguly",
+          "J Sinha",
+          "P Basu",
+          "A Pal"
+        ],
+        "year": 2023,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://journals.lww.com/aomd/fulltext/2023/06020/hypomyelinating_leukodystrophy_and_movement.2.aspx",
+        "quote": "NKX6-2 related autosomal recessive spastic ataxia manifests as a wide clinical spectrum, \u2026 atrophy and wrist drop, and foot drop from axonal peripheral neuropathy in Iranian siblings."
+      },
+      "numbers": [
+        {
+          "metric": "documented kindreds with extremity drop",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "Almatrafi et al. (2020) characterized four affected individuals from a consanguineous family with homozygous c.545C>T (p.Ala182Val) variants who presented with progressive spastic ataxia and lower limb weakness without reports of wrist or foot drop.",
+      "stance": "supports",
+      "source": {
+        "title": "A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and \u2026",
+        "authors": [
+          "A Almatrafi",
+          "M Umair",
+          "A Eldardear"
+        ],
+        "year": 2020,
+        "journal": null,
+        "doi": "10.1002/jgm.3196",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jgm.3196",
+        "quote": "All of the affected individuals showed progressive clinical features such as spastic ataxia, lower limb weakness and other mild neurological abnormalities."
+      },
+      "numbers": [
+        {
+          "metric": "affected individuals assessed in cohort",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "text": "Sharma et al. (2025) note in an MRI review of hypomyelinating leukodystrophies that peripheral neuropathy is an associated feature in NKX6-2-related spastic ataxia type 8, but do not describe distal extremity drop as a typical manifestation across cohorts.",
+      "stance": "neutral",
+      "source": {
+        "title": "An algorithmic approach to MR imaging of hypomyelinating leukodystrophies",
+        "authors": [
+          "S Sharma",
+          "S Sundaram",
+          "C Kesavadas"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": "10.1002/jmri.29558",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.29558",
+        "quote": "in the NKX6-2 gene have been identified in patients presenting with spastic ataxia type 8. \u2026 alteration and macular degeneration, peripheral neuropathy, global developmental delay, and"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.92,
+  "new_directions": [
+    {
+      "question_text": "What is the systematic prevalence of electrophysiologically proven subclinical peripheral axonal neuropathy across all published NKX6-2/SPAX8 cases?",
+      "rationale": "While clinically overt wrist and foot drop is rare, subclinical electrophysiological axonal involvement might be underdiagnosed if nerve conduction studies are not systematically performed in all cohorts.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Is the p.(Phe167Leu) missense mutation uniquely associated with a severe peripheral axonal phenotype compared to homeobox domain truncating or other missense variants?",
+      "rationale": "Determining genotype-phenotype correlations could clarify whether axonal degeneration with distal drop is variant-specific rather than a generic end-stage feature of NKX6-2 loss.",
+      "promise": 0.8,
+      "est_cost": 15000
+    }
+  ]
+}

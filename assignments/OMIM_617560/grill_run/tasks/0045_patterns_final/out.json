@@ -1,0 +1,75 @@
+{
+  "patterns": [
+    {
+      "pattern": "Dissociation Between Syndromic Defining Hallmarks and Obligate Neuroimaging Features",
+      "abstraction": "Eponymous or cardinal clinicoradiological features that define a monogenic syndrome often fail to be obligate or universally penetrant across affected kindreds, creating diagnostic blind spots when clinicians treat them as mandatory exclusion criteria.",
+      "instance": "In NKX6-2-related disorder (SPAX8, classified as spastic ataxia with hypomyelinating leukodystrophy), diffuse cerebral hypomyelination (HP:0003429) is absent in several families who present instead with childhood-onset spastic ataxia and isolated cerebellar atrophy (HP:0001272).",
+      "direction": "Perform multi-center neuroimaging re-evaluations across spastic ataxia panels lacking definitive diagnoses to quantify the prevalence of isolated cerebellar atrophy among uncharacterized NKX6-2 biallelic carriers.",
+      "support": "Strongly supported across multiple cohorts ([F2], [F11], [F13], [F15]) showing that affected individuals in the discovery and subsequent cohorts displayed cerebellar atrophy without overt cerebral hypomyelination.",
+      "sources": [
+        "V Chelban et al. (2017) Mutations in nkx6-2 cause progressive spastic-ataxia and ... 10.1016/j.ajhg.2017.05.009",
+        "V Chelban et al. (2020) Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination 10.1111/ene.14082",
+        "V Chelban et al. (2018) NKX6-2-related disorder https://europepmc.org/books/nbk531509/"
+      ],
+      "hypothesis": "Cerebellar Purkinje and granule cell pathways possess differential temporal vulnerability to NKX6-2 loss compared to forebrain oligodendroglial lineages, allowing selective cerebellar degenerative phenotypes in the absence of leukodystrophy.",
+      "novelty": "Counterintuitive to diagnostic paradigms that require central hypomyelination to prompt targeted screening for hypomyelinating leukodystrophy genes."
+    },
+    {
+      "pattern": "Decoupling of Paroxysmal and Oculomotor Neurological Manifestations from Macrostructural White Matter Pathology",
+      "abstraction": "Secondary neurological manifestations such as network hyperexcitability and ocular dysmotility do not correlate with the macrostructural severity of structural white matter disruption.",
+      "instance": "Epilepsy (HP:0001250) in NKX6-2 deficiency occurs in patients without diffuse hypomyelination and is absent in cases with severe hypomyelination, while nystagmus (HP:0000639) remains present regardless of whether leukodystrophy or isolated cerebellar atrophy is observed.",
+      "direction": "Investigate cell-type-specific electrophysiological and GABAergic interneuron functions of NKX6-2 independent of its established roles in myelination and oligodendrocyte differentiation.",
+      "support": "Supported by phenotypic clustering analyses ([F5], [F6], [F15]) demonstrating non-segregation of seizure phenotypes with diffuse hypomyelination.",
+      "sources": [
+        "V Chelban et al. (2020) Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination 10.1111/ene.14082",
+        "C Baldi et al. (2018) Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder 10.1111/cge.13221",
+        "V Chelban et al. (2017) Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination 10.1016/j.ajhg.2017.05.009"
+      ],
+      "hypothesis": "NKX6-2 exerts direct transcriptional regulatory control over inhibitory interneuron development and circuit firing thresholds that operates independently of myelin sheath maintenance.",
+      "novelty": "Challenges the clinical assumption that seizures in leukodystrophies are direct downstream consequences of extensive white matter dysmyelination."
+    },
+    {
+      "pattern": "Failure of Classic Mutation-Type Predictors to Explain Infantile-Onset Versus Childhood-Onset Severity",
+      "abstraction": "Binary genotype-phenotype models classifying truncating mutations as severe and missense mutations as hypomorphic or mild fail to predict clinical trajectories in homeodomain transcription factor disorders.",
+      "instance": "Biallelic missense mutations affecting the NKX6-2 homeodomain (such as p.Phe167Leu) cause severe neonatal-onset disease with developmental arrest and regression, whereas some loss-of-function variants preserve ambulation into late childhood.",
+      "direction": "Assess variant-specific alterations in protein DNA-binding affinity, dominant-negative chromatin trapping, and downstream oligogenic modifiers across early- versus late-onset SPAX8 cohorts.",
+      "support": "Moderate-to-high across consolidated literature ([F16]), where systematic multi-center cohort analyses refuted predictive variant-class models.",
+      "sources": [
+        "C Baldi et al. (2018) Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder 10.1111/cge.13221",
+        "V Chelban et al. (2018) NKX6-2-related disorder https://europepmc.org/books/nbk531509/",
+        "AH Bereshneh et al. (2020) Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8 https://www.sciencedirect.com/science/article/pii/S176972121930744X"
+      ],
+      "hypothesis": "Specific missense variants in the NKX6-2 homeodomain exert dominant-negative or neomorphic disruption of core developmental transcription factor complexes, yielding more severe arrest than complete genetic nulls.",
+      "novelty": "Overturns the conventional assumption that missense substitutions in spastic ataxia genes yield uniformly milder presentations than null alleles."
+    },
+    {
+      "pattern": "Secondary Axonopathy Mimicry in Primary Central Hypomyelinating Disorders",
+      "abstraction": "Central neurodevelopmental and myelinopathies can exhibit low-frequency, motor-predominant peripheral axonal degradation without primary peripheral demyelination, confounding distinction from hereditary motor neuropathies.",
+      "instance": "Under 10% of SPAX8 patients develop clinical peripheral axonal neuropathy (HP:0003477) presenting with distal wrist and foot drop, while nerve conduction velocities fail to show classic generalized demyelination.",
+      "direction": "Conduct longitudinal nerve conduction studies and neuromuscular junction imaging on NKX6-2 animal models to trace whether peripheral axonal dysfunction reflects dying-back axonopathy or paranodal glial signaling disruption.",
+      "support": "Well-supported by cohort case series ([F4], [F7], [F12], [F14]), documenting axonal drop in rare kindreds while ruling out primary generalized sensorimotor demyelinating polyneuropathy.",
+      "sources": [
+        "AH Bereshneh et al. (2020) Expanding the clinical and neuroimaging features of NKX6-2-related hereditary spastic ataxia type 8 PMID:32004679",
+        "A Almatrafi et al. (2020) A homozygous missense variant in the homeobox domain of the NKX6\u20102 results in progressive spastic ataxia type 8 associated with lower limb weakness and \u2026 10.1002/jgm.3196",
+        "V Chelban et al. (2018) NKX6-2-related disorder https://europepmc.org/books/nbk531509/"
+      ],
+      "hypothesis": "NKX6-2 maintains axo-glial junction stability; its deficiency induces secondary length-dependent axonal degeneration in long spinal and peripheral motor tracks rather than Schwann-cell demyelinating polyneuropathy.",
+      "novelty": "Differentiates SPAX8 from PLP1/GJC2-related disorders where peripheral conduction slowing or demyelination typically accompanies central dysmyelination."
+    },
+    {
+      "pattern": "Ascertainment Pipeline Bias Distorting Cognitive Penetrance Profiles",
+      "abstraction": "Specialty-specific intake pipelines create opposing observational artifacts regarding cognitive penetrance, presenting the same disease as an intellectual disability syndrome in some cohorts and a pure motor ataxia in others.",
+      "instance": "Cohorts recruited through developmental/intellectual disability sequencing pipelines report profound intellectual deficiency in NKX6-2 cases, whereas recruitment via spasticity/ataxia adult clinics identifies individuals with normal intellect.",
+      "direction": "Establish disease-wide international natural history registries using standardized neuropsychological batteries across both adult movement disorder and pediatric neurology clinics.",
+      "support": "Supported by discordant literature cohorts ([F8], [F10]) showing contradictory rates of intellectual disability dependent on clinical ascertainment bias.",
+      "sources": [
+        "S Anazi et al. (2017) Expanding the genetic heterogeneity of intellectual disability 10.1007/s00439-017-1843-2",
+        "V Chelban et al. (2020) Genetic and phenotypic characterization of NKX6\u20102\u2010related spastic ataxia and hypomyelination 10.1111/ene.14082",
+        "V Chelban et al. (2017) Mutations in NKX6-2 cause progressive spastic ataxia and hypomyelination https://www.cell.com/ajhg/fulltext/S0002-9297(17)30196-9",
+        "C Baldi et al. (2018) Expanding the clinical and genetic spectra of NKX6\u20102\u2010related disorder 10.1111/cge.13221"
+      ],
+      "hypothesis": "The perceived broad cognitive variance of SPAX8 reflects referral bias superimposed on an age-of-onset spectrum where cognitive deficits are secondary to early developmental disruption rather than intrinsic intellectual regression.",
+      "novelty": "Resolves long-standing contradictions in published literature regarding whether SPAX8 is fundamentally an intellectual disability syndrome or a primary motor-ataxia leukodystrophy."
+    }
+  ]
+}

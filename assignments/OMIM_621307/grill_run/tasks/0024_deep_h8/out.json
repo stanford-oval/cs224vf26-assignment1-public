@@ -1,0 +1,86 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across published cohorts of TBC1D32-related ciliopathy (Alsahan-Harris syndrome, OMIM #621307) confirms that biallelic variants can manifest as severe, life-limiting prenatal conditions (e.g., severe CNS anomalies, agenesis of the corpus callosum, cleft lip/palate, cardiac defects, and fetal demise). However, systematic phenotypic reviews demonstrate that classic Meckel-Gruber syndrome-like diffuse multicystic renal dysplasia is absent; across a cohort analysis of 14 probands (including prenatal cases), renal parenchymal architecture was preserved in 13/14, with only isolated renal hypoplasia noted in a single individual (1/14). Therefore, normal renal parenchyma or the absence of large multicystic dysplastic kidneys serves as a strong negative discriminator against classic Meckel-Gruber syndrome in fetuses with midline and skeletal ciliopathy anomalies.",
+  "evidence": [
+    {
+      "text": "Cohort evaluation of 14 probands with biallelic TBC1D32 variants (including four fetal probands presenting with severe prenatal phenotypes and life-limiting anomalies) documented renal abnormalities in only 1 of 14 individuals (isolated hypoplasia), with an absence of diffuse multicystic renal dysplasia.",
+      "stance": "supports",
+      "source": {
+        "title": "Diagnosis of TBC1D32-associated conditions - PMC - NIH",
+        "authors": [
+          "SC Harris",
+          "K Chong",
+          "D Chitayat"
+        ],
+        "year": 2023,
+        "journal": "Am J Med Genet A",
+        "doi": "10.1002/ajmg.a.63150",
+        "pmid": null,
+        "pmc": "PMC10204718",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10204718/",
+        "quote": "Renal, \u2013, \u2013, \u2013, \u2013, \u2013, \u2013, \u2013, \u2013, \u2013, Hypo-plasia, \u2013, \u2013, \u2013, \u2013, 1/14."
+      },
+      "numbers": [
+        {
+          "metric": "Renal involvement frequency",
+          "value": "1/14"
+        },
+        {
+          "metric": "Multicystic dysplastic kidney frequency",
+          "value": "0/14"
+        }
+      ]
+    },
+    {
+      "text": "Phenotypic delineation of TBC1D32-related ciliopathy demonstrates a spectrum ranging from retinal dystrophy and hypopituitarism to severe multisystemic involvement and fetal demise, without renal cystic dysplasia reported as a primary feature.",
+      "stance": "supports",
+      "source": {
+        "title": "Expanding the clinical and molecular spectrum of TBC1D32-related ciliopathy: case reports and literature Review",
+        "authors": [
+          "W Eiumtrakul",
+          "T Tim"
+        ],
+        "year": 2025,
+        "journal": "Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s10038-025-01371-9",
+        "quote": "TBC1D32-related ciliopathy presents with a broad phenotypic spectrum, ranging from isolated retinal diseases to severe multisystemic involvement, including fetal demise."
+      },
+      "numbers": []
+    },
+    {
+      "text": "The fetal phenotype of Alsahan-Harris syndrome entails severe structural anomalies including cleft lip, ventricular septal defect, agenesis of the corpus callosum, club foot, and sandal gap, while omitting cystic renal dysplasia typical of classic Meckel-Gruber syndrome.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #621307 - ALSAHAN-HARRIS SYNDROME; ALHAS",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/621307",
+        "quote": "the fetal phenotype included cleft lip, ventricular septal defect, agenesis of the corpus callosum, club foot, and a sandal gap."
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Do microcystic changes or subclinical tubular dilation occur on postmortem histopathological examination of fetal kidneys in Alsahan-Harris syndrome?",
+      "rationale": "While macroscopic multicystic dysplastic kidneys are demonstrably absent on prenatal ultrasound and gross pathology, microscopic tubular architectural evaluation has not been exhaustively detailed in all fetal autopsies.",
+      "promise": 0.82,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What molecular mechanism allows TBC1D32 disruption to selectively spare renal ciliary signaling while severely disrupting pituitary and craniofacial morphogenesis?",
+      "rationale": "Clarifying tissue-specific TBC1D32 protein complexes and expression levels during nephrogenesis versus neuroectodermal development could explain the sparing of renal parenchymal architecture in comparison to core Meckel-Gruber syndrome transition zone proteins.",
+      "promise": 0.87,
+      "est_cost": 75000
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "verdict": "conflicted",
+  "rationale": "The literature confirms that seizures and epilepsy (HP:0001250) are a cardinal and recurrent manifestation of biallelic GTF3C3-related neurodevelopmental disorder (OMIM #621201). However, the reported frequency varies substantially across cohorts. While early reports and cohort descriptions identified seizures in approximately 75% of individuals (e.g., 9 affected individuals reported in early plenary data and described across 12 individuals in De Hayr et al.), detailed cohort phenotyping by Abdel-Hamid et al. identified seizures in only half of their patients (2 of 4 individuals, 50%). Therefore, the estimated frequency range of 70\u201390% is an overestimation in some cohorts, demonstrating incomplete penetrance of epilepsy in GTF3C3 deficiency.",
+  "evidence": [
+    {
+      "text": "In a cohort of four individuals from three unrelated families harboring biallelic GTF3C3 variants, seizures were only documented in 50% of the individuals, demonstrating that epilepsy is not present in a 70-90% majority in all cohorts.",
+      "stance": "contradicts",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 encoding a subunit of the TFIIIC2 complex are associated with neurodevelopmental phenotypes in humans and zebrafish",
+        "authors": [
+          "MS Abdel-Hamid"
+        ],
+        "year": 2025,
+        "journal": "Brain Communications",
+        "doi": null,
+        "pmid": null,
+        "pmc": "PMC11878552",
+        "url": "https://academic.oup.com/braincomms/article-abstract/7/1/fcaf055/8002734",
+        "quote": "Seizures were observed in half of the patients. Exome/genome sequencing revealed four different GTF3C3 variants including three missense (p.Cys172Gly, p.Val427Phe and p.Ala509Thr) and one nonsense variant (p.Arg717Ter)."
+      },
+      "numbers": [
+        {
+          "metric": "seizure_frequency_percentage",
+          "value": 50
+        },
+        {
+          "metric": "affected_individuals_with_seizures",
+          "value": "2/4"
+        }
+      ]
+    },
+    {
+      "text": "Characterization of a cohort of 12 individuals from 7 unrelated families with biallelic GTF3C3 missense variants confirmed seizures alongside intellectual disability, motor impairments, and brain anomalies.",
+      "stance": "supports",
+      "source": {
+        "title": "Biallelic variants in GTF3C3 result in an autosomal recessive disorder with intellectual disability",
+        "authors": [
+          "L De Hayr",
+          "LER Blok",
+          "KR Dias",
+          "J Long",
+          "A Begemann"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1098360024001874",
+        "quote": "Twelve affected individuals from 7 unrelated families were identified with homozygous or compound heterozygous missense variants in GTF3C3... The cohort presented with intellectual disability, variable nonfamilial facial features, motor impairments, seizures, and cerebellar/corpus callosum malformations."
+      },
+      "numbers": [
+        {
+          "metric": "cohort_total_patients",
+          "value": 12
+        },
+        {
+          "metric": "unrelated_families",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "An opening plenary session presenting the initial multi-individual GTF3C3 disease cohort documented seizures in 9 affected individuals.",
+      "stance": "supports",
+      "source": {
+        "title": "Plenary Sessions Pl1 Opening Plenary",
+        "authors": [
+          "PLW NEW",
+          "H SESSION"
+        ],
+        "year": 2022,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-023-01337-5",
+        "quote": "The cohort manifests a core neurodevelopmental phenotype... and congenital anomalies, and seizures in nine individuals."
+      },
+      "numbers": [
+        {
+          "metric": "individuals_with_seizures",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "text": "GTF3C3 was identified as a candidate gene for early-onset epileptic encephalopathies in affected siblings presenting with seizures, mild intellectual disability, and dysmorphisms.",
+      "stance": "supports",
+      "source": {
+        "title": "The role of recessive inheritance in early-onset epileptic encephalopathies: a combined whole-exome sequencing and copy number study",
+        "authors": [
+          "SM Papuc",
+          "L Abela",
+          "K Steindl",
+          "A Begemann"
+        ],
+        "year": 2019,
+        "journal": "European Journal of Human Genetics",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.nature.com/articles/s41431-018-0299-8",
+        "quote": "sisters with a phenotype including mild ID, seizures, and dys... consider GTF3C3 as a candidate for neurodevelopmental [disorders]"
+      },
+      "numbers": [
+        {
+          "metric": "affected_sisters",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Abdel-Hamid et al. (2025) reported seizures in exactly 2 of 4 (50%) individuals with biallelic GTF3C3 variants, contradicting the hypothesis that seizures are present in 70-90% of all affected patients.",
+    "While cohorts ascertained via epileptic encephalopathy pipelines present seizures in high proportions (e.g., 9 individuals in the plenary cohort), broader neurodevelopmental cohorts show variable penetrance of epilepsy."
+  ],
+  "confidence": 0.65,
+  "new_directions": [
+    {
+      "question_text": "Does the presence and severity/refractoriness of seizures in GTF3C3-related disorder correlate with specific variant types (e.g., truncating vs. missense) or the degree of RNA polymerase III transcription impairment?",
+      "rationale": "Differences in seizure penetrance between cohorts (50% vs ~75%) may stem from hypomorphic missense variants retaining partial Pol III regulatory activity versus null/truncating variants.",
+      "promise": 0.85,
+      "est_cost": 45000.0
+    },
+    {
+      "question_text": "What is the true lifetime penetrance of epilepsy in GTF3C3 disorder when longitudinal follow-up beyond early childhood is assessed across all international registries?",
+      "rationale": "Patients documented without seizures in early evaluations (such as in Abdel-Hamid et al.) may develop seizures at a later age, which would clarify whether penetrance eventually reaches 70-90%.",
+      "promise": 0.8,
+      "est_cost": 25000.0
+    }
+  ]
+}

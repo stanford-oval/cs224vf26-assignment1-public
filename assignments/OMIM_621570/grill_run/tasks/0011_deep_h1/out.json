@@ -1,0 +1,131 @@
+{
+  "verdict": "supported",
+  "rationale": "Evidence across the primary delineating cohort (Parenti et al., 18 individuals across 15 heterozygous variants) and single-case reports (Parenti et al. 2020; Peng et al. 2024; GeneReviews) confirms that CdLS7 individuals consistently exhibit neurodevelopmental delays/intellectual disability, microcephaly, and postnatal growth failure/short stature as primary cardinal features, along with characteristic CdLS craniofacial features including synophrys, arched eyebrows, long eyelashes, and thin lips. However, expressivity is variable, spanning from classic CdLS craniofacial presentations to milder phenotypes without major structural limb malformations, making genetic testing or episignature profiling required to distinguish CdLS7 definitively from other CdLS subtypes (e.g., NIPBL-related CdLS1) on clinical grounds alone.",
+  "evidence": [
+    {
+      "text": "Parenti et al. characterized 18 individuals with 15 heterozygous MAU2 variants causing Cornelia de Lange syndrome subtype 7, identifying microcephaly and short stature as consistent major features across a spectrum from classic CdLS to milder clinical presentations.",
+      "stance": "supports",
+      "source": {
+        "title": "Pathogenic variants in the cohesin loader subunit MAU2 underlie a distinct Cornelia de Lange Syndrome subtype",
+        "authors": [
+          "I Parenti",
+          "A Hesters",
+          "M Gil"
+        ],
+        "year": 2026,
+        "journal": "Nature Communications",
+        "doi": "10.1038/s41467-026-71177-6",
+        "pmid": null,
+        "pmc": "PMC12668068",
+        "url": "https://www.nature.com/articles/s41467-026-71177-6",
+        "quote": "Affected individuals display a wide range of phenotypes, from classic CdLS to milder presentations, with short stature and microcephaly as major features... Our study establishes MAU2 as a CdLS-associated gene and delineates a MAU2-related chromatinopathy with variable expressivity."
+      },
+      "numbers": [
+        {
+          "metric": "Affected individuals in cohort",
+          "value": 18
+        },
+        {
+          "metric": "Distinct heterozygous MAU2 variants",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "text": "Parenti et al. (2020) identified the first genetic variant in MAU2 (a 7-amino acid in-frame deletion) causing CdLS via disruption of the NIPBL-MAU2 cohesin loader complex interaction.",
+      "stance": "supports",
+      "source": {
+        "title": "MAU2 and NIPBL variants impair the heterodimerization of the cohesin loader subunits and cause Cornelia de Lange syndrome",
+        "authors": [
+          "I Parenti",
+          "F Diab",
+          "SR Gil",
+          "E Mulugeta",
+          "V Casa",
+          "R Berutti"
+        ],
+        "year": 2020,
+        "journal": "Cell Reports",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/cell-reports/fulltext/S2211-1247(20)30600-8",
+        "quote": "Here we report a MAU2 variant causing CdLS, a deletion of seven amino acids that impairs the interaction between MAU2 and the NIPBL N terminus."
+      },
+      "numbers": [
+        {
+          "metric": "In-frame deletion size (amino acids)",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "text": "Peng et al. identified a novel missense variant in MAU2 (c.526C>T, p.Arg176Trp) in a Chinese pediatric patient presenting with characteristic Cornelia de Lange syndrome features including specific facial dysmorphisms and growth retardation.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical study and genetic analysis of Cornelia de Lange syndrome caused by a novel MAU2 gene variant in a Chinese boy",
+        "authors": [
+          "Y Peng",
+          "Y Zhu",
+          "L Wu",
+          "F Deng"
+        ],
+        "year": 2024,
+        "journal": "Molecular Genetics & Genomic Medicine",
+        "doi": "10.1002/mgg3.2318",
+        "pmid": "37962004",
+        "pmc": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/37962004/",
+        "quote": "We detected a novel variant in MAU2 gene, NM_015329, c.526C>T (p.Arg176Trp) in a Chinese patient with CdLS... We investigated a MAU2-CdLS case in a Chinese family, which strengthens the association between MAU2 variants and CdLS phenotypes."
+      },
+      "numbers": [
+        {
+          "metric": "Probands evaluated",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "text": "GeneReviews outlines the cardinal features of Cornelia de Lange syndrome spectrum, which includes MAU2-related disease, as consisting of distinctive facial features (synophrys, arched eyebrows, long eyelashes, short nose, microbrachycephaly), growth failure, and cognitive delays.",
+      "stance": "supports",
+      "source": {
+        "title": "Cornelia de Lange Syndrome - GeneReviews - NCBI - NIH",
+        "authors": [
+          "MA Deardorff"
+        ],
+        "year": 2020,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK1104/",
+        "quote": "Severe (classic) CdLS is characterized by distinctive facial features, growth failure (often prenatal onset; height and weight <5th centile throughout life), hypertrichosis, and limb abnormalities... Craniofacial features include synophrys, highly arched and/or thick eyebrows, long eyelashes, short nose with depressed nasal bridge and anteverted nares, small, widely spaced teeth, and microbrachycephaly."
+      },
+      "numbers": [
+        {
+          "metric": "Mean IQ across CdLS spectrum",
+          "value": 53
+        }
+      ]
+    }
+  ],
+  "conflicts": [
+    "Phenotypic expressivity ranges from classic CdLS presentations to milder non-classic forms, meaning specific dysmorphic facial features and limb anomalies are not uniformly severe across all probands.",
+    "Phenotypic alone cannot distinguish CdLS7 (MAU2) from other molecular subtypes of CdLS (such as CdLS1 due to NIPBL or CdLS subtypes caused by SMC1A, SMC3, RAD21, or HDAC8) due to extensive phenotypic overlap."
+  ],
+  "confidence": 0.85,
+  "new_directions": [
+    {
+      "question_text": "What are the exact numerator/denominator frequencies of specific dysmorphic features (synophrys, arched eyebrows, long eyelashes, microcephaly) in the full Parenti et al. cohort of 18 MAU2 patients?",
+      "rationale": "Determining exact penetrance per HPO term will quantify the sensitivity of each cardinal facial sign specifically in MAU2-deficient patients.",
+      "promise": 0.9,
+      "est_cost": 250
+    },
+    {
+      "question_text": "Can MAU2-specific DNA methylation episignatures reliably differentiate MAU2-related CdLS7 from NIPBL-related CdLS1 in clinical diagnostics?",
+      "rationale": "Parenti et al. described two MAU2-specific episignatures, which may provide molecular discrimination when clinical phenotypes overlap completely.",
+      "promise": 0.95,
+      "est_cost": 1500
+    }
+  ]
+}

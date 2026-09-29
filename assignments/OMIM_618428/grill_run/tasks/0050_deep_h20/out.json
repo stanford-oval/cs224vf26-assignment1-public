@@ -1,0 +1,72 @@
+{
+  "verdict": "refuted",
+  "rationale": "The available literature provided in the context does not support the hypothesis that cardiac disease in individuals with the YWHAZ p.Ser230Trp variant is restricted to mild septal defects or pulmonary stenosis without hypertrophic cardiomyopathy. While GeneReviews confirms that classical cardiofaciocutaneous (CFC) syndrome features hypertrophic cardiomyopathy alongside pulmonary valve dysplasia and septal defects, the provided sources referencing Popov-Chang syndrome (OMIM #618428) and YWHAZ only establish associations with epilepsy, brain malformation, and neurodevelopmental delay without providing cohort-level cardiac phenotyping, numerators, or denominators to substantiate the claim that hypertrophic cardiomyopathy is absent.",
+  "evidence": [
+    {
+      "text": "Cardiofaciocutaneous (CFC) syndrome is characterized by cardiac abnormalities, explicitly including pulmonic stenosis and other valve dysplasias, septal defects, hypertrophic cardiomyopathy, and rhythm disturbances.",
+      "stance": "neutral",
+      "source": {
+        "title": "Cardiofaciocutaneous Syndrome - GeneReviews\u00ae - NCBI Bookshelf",
+        "authors": [],
+        "year": null,
+        "journal": "GeneReviews",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://ncbi.mylolis.com/books/NBK1186/",
+        "quote": "Cardiofaciocutaneous (CFC) syndrome is characterized by cardiac abnormalities (pulmonic stenosis and other valve dysplasias, septal defects, hypertrophic cardiomyopathy, rhythm disturbances), distinctive craniofacial appearance, and cutaneous abnormalities"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Popov-Chang syndrome is noted as being caused by mutations in YWHAZ encoding 14-3-3-zeta adapter protein and associated with brain malformation, but specific congenital cardiac findings or absence of cardiomyopathy are not established in the provided record.",
+      "stance": "neutral",
+      "source": {
+        "title": "KEGG Disease",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.kegg.jp/kegg-bin/search?search_gene=1&display=disease&from=disease&q=dap",
+        "quote": "Popov-Chang syndrome ... brain malformation. It has been reported that mutations in YWHAZ cause this syndrome. YWHAZ encodes an adapter protein, 14-3-3-zeta"
+      },
+      "numbers": []
+    },
+    {
+      "text": "YWHAZ is listed under Popov-Chang syndrome (#618428) in the context of developmental and epileptic encephalopathies without delineation of cardiac phenotypes or differentiation from classical CFC cardiomyopathy rates.",
+      "stance": "neutral",
+      "source": {
+        "title": "Recent advances in epilepsy genomics and genetic testing",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.researchgate.net/publication/339891072_Recent_advances_in_epilepsy_genomics_and_genetic_testing",
+        "quote": "YWHAZ Popov-Chang syndrome #618428"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [
+    "The hypothesis asserts a specific restriction of cardiac findings (pulmonic stenosis/septal defects without HCM) across YWHAZ p.Ser230Trp patients, but the literature in the provided context provides zero cohort data or echocardiographic case reports defining or ruling out cardiomyopathy in Popov-Chang syndrome."
+  ],
+  "confidence": 0.1,
+  "new_directions": [
+    {
+      "question_text": "What is the true prevalence and spectrum of congenital heart defects and cardiomyopathy in all clinically documented individuals harboring pathogenic heterozygous YWHAZ variants?",
+      "rationale": "Direct retrospective or prospective echocardiographic evaluation of published cohorts with YWHAZ variants is necessary to establish whether hypertrophic cardiomyopathy is genuinely absent or simply underreported.",
+      "promise": 0.85,
+      "est_cost": 25000.0
+    },
+    {
+      "question_text": "Does 14-3-3-zeta (YWHAZ) p.Ser230Trp expression in human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) induce cellular hypertrophy or altered signaling relative to BRAF CFC mutations?",
+      "rationale": "Comparative modeling of YWHAZ gain-of-function versus classical CFC-associated BRAF mutations in cardiomyocytes would directly test the mechanistic predisposition to hypertrophic cardiomyopathy.",
+      "promise": 0.75,
+      "est_cost": 60000.0
+    }
+  ]
+}

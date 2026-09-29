@@ -1,0 +1,97 @@
+{
+  "mode": "research",
+  "model": "gemini-3.8-flash",
+  "executor": "direct",
+  "queries": [
+    "\"retinitis pigmentosa\" \"CLN3\" nonsyndromic neurological \"Batten disease\"",
+    "CLN3 retinitis pigmentosa 101 nonsyndromic neurological features juvenile Batten disease"
+  ],
+  "n_hits": 10,
+  "hits": [
+    {
+      "id": "https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2775583",
+      "title": "Retinal Phenotype of Patients With Isolated Retinal Degeneration Due to CLN3 Pathogenic Variants in a French Retinitis Pigmentosa Cohort",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2775583",
+      "abstract_chars": 2695
+    },
+    {
+      "id": "30446867",
+      "title": "Clinical and molecular characterization of non-syndromic retinal dystrophy due to c.175G>A mutation in ceroid lipofuscinosis neuronal 3 (CLN3)",
+      "pmid": "30446867",
+      "doi": "10.1007/s10633-018-9665-7",
+      "url": "https://link.springer.com/article/10.1007/s10633-018-9665-7",
+      "abstract_chars": 1682
+    },
+    {
+      "id": "https://www.nature.com/articles/s42003-021-01682-5",
+      "title": "A human model of Batten disease shows role of CLN3 in phagocytosis at the photoreceptor\u2013RPE interface",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.nature.com/articles/s42003-021-01682-5",
+      "abstract_chars": 1062
+    },
+    {
+      "id": "10.2147/DNND.S111967",
+      "title": "Juvenile neuronal ceroid lipofuscinosis (Batten disease): current insights",
+      "pmid": null,
+      "doi": "10.2147/DNND.S111967",
+      "url": "https://www.tandfonline.com/doi/abs/10.2147/DNND.S111967",
+      "abstract_chars": 1989
+    },
+    {
+      "id": "26748992",
+      "title": "Vision loss in juvenile neuronal ceroid lipofuscinosis (CLN3 disease)",
+      "pmid": "26748992",
+      "doi": "10.1111/nyas.12990",
+      "url": "https://nyaspubs.onlinelibrary.wiley.com/doi/abs/10.1111/nyas.12990",
+      "abstract_chars": 1145
+    },
+    {
+      "id": "PMC7844693",
+      "title": "Retinal Phenotype of Patients With Isolated ... - PMC - NIH",
+      "pmid": null,
+      "doi": null,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7844693/",
+      "abstract_chars": 2695
+    },
+    {
+      "id": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2629120",
+      "title": "Phenotype and Genetic Findings in CLN3-Associated ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2629120",
+      "abstract_chars": 0
+    },
+    {
+      "id": "https://www.ophthalmologyretina.org/article/S2468-6530(19)30629-3/fulltext",
+      "title": "Juvenile Batten Disease (CLN3): Detailed Ocular ...",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.ophthalmologyretina.org/article/S2468-6530(19)30629-3/fulltext",
+      "abstract_chars": 2561
+    },
+    {
+      "id": "26748992",
+      "title": "Vision loss in juvenile neuronal ceroid lipofuscinosis (CLN3 ...",
+      "pmid": "26748992",
+      "doi": "10.1111/nyas.12990",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5025599/",
+      "abstract_chars": 1145
+    },
+    {
+      "id": "31926949",
+      "title": "Juvenile Batten disease (CLN3): detailed ocular phenotype, novel observations, delayed diagnosis, masquerades, and prospects for therapy",
+      "pmid": "31926949",
+      "doi": "10.1016/j.oret.2019.11.005",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2468653019306293",
+      "abstract_chars": 2561
+    }
+  ],
+  "input_tokens": 6822,
+  "output_tokens": 1426,
+  "usd": 0.00769,
+  "seconds": 11.3,
+  "ok": true
+}

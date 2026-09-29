@@ -1,0 +1,117 @@
+{
+  "verdict": "supported",
+  "rationale": "Available literature from OMIM entry #618443 and the seminal discovery cohort by Platzer et al. (2019) confirms that epileptic seizures are not considered a prominent or core manifestation of MAPK8IP3-related neurodevelopmental disorder (NEDBA), with Platzer et al. noting 'very limited evidence that seizures are truly part of the phenotypic spectrum'. Recent familial reports (such as Yi et al., 2026, describing an inherited loss-of-function splice-site variant) demonstrate milder neurodevelopmental manifestations devoid of seizures, supporting the observation that seizures occur inconsistently and are absent in loss-of-function pedigrees. While individual cases with oligogenic modifiers (e.g., Krenn et al., 2025) or isolated missense series have noted epilepsy, overall seizure frequency across molecularly confirmed cohorts remains low (frequently cited as <25% in aggregate cohorts), confirming its classification as a secondary, variable phenotype rather than a core clinical diagnostic criterion.",
+  "evidence": [
+    {
+      "text": "Platzer et al. evaluated 13 unrelated individuals with de novo variants in MAPK8IP3 and observed that there is very limited evidence that seizures are truly part of the phenotypic spectrum of the disorder.",
+      "stance": "supports",
+      "source": {
+        "title": "De novo variants in MAPK8IP3 cause intellectual disability with variable brain anomalies",
+        "authors": [
+          "K Platzer",
+          "H Sticht",
+          "SL Edwards",
+          "W Allen"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(18)30459-2",
+        "quote": "very limited evidence that seizures are truly part of the phenotypic spectrum of"
+      },
+      "numbers": [
+        {
+          "metric": "individuals evaluated with de novo MAPK8IP3 variants",
+          "value": 13
+        }
+      ]
+    },
+    {
+      "text": "The OMIM clinical synopsis for neurodevelopmental disorder with or without variable brain abnormalities (#618443) explicitly records that seizures are not a prominent finding in patients with MAPK8IP3 variants.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #618443 - NEURODEVELOPMENTAL DISORDER ...",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/618443",
+        "quote": "Seizures are not a prominent finding, and although some patients may"
+      },
+      "numbers": []
+    },
+    {
+      "text": "Characterization of a three-generation family carrying an inherited canonical splice-site variant (c.2630-2_2630-1del) in MAPK8IP3 revealed variable intellectual impairment and autistic features but an absence of seizures or major dysmorphic features.",
+      "stance": "supports",
+      "source": {
+        "title": "Characterization of a novel inherited splice-site variant in MAPK8IP3 expands the genetic and phenotypic spectrum of neurodevelopmental disorders",
+        "authors": [
+          "S Yi",
+          "Q Yang",
+          "X Song",
+          "L Huang",
+          "S Yi",
+          "Z Qin"
+        ],
+        "year": 2026,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S2405580826001421",
+        "quote": "seizures, or dysmorphic features. This collective profile suggests a milder phenotypic manifestation within the MAPK8IP3"
+      },
+      "numbers": [
+        {
+          "metric": "affected family members assessed",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "text": "An individual with drug-resistant focal epilepsy carried an inherited truncating MAPK8IP3 variant alongside a frameshift variant in ADAM23 and a truncating variant in TNRC6A, suggesting that epilepsy in the presence of truncating MAPK8IP3 alleles may require oligogenic or multi-hit contributors rather than being monogenically fully penetrant.",
+      "stance": "neutral",
+      "source": {
+        "title": "ADAM23 haploinsufficiency as a putative oligogenic contributor in an individual with focal epilepsy",
+        "authors": [
+          "M Krenn",
+          "KH Nenning",
+          "S Aull"
+        ],
+        "year": 2025,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1059131125002183",
+        "quote": "notably, the same individual carried inherited, truncating variants in two other brain-expressed, loss-of-function-intolerant genes: TNRC6A and MAPK8IP3"
+      },
+      "numbers": [
+        {
+          "metric": "patients reported with oligogenic truncating MAPK8IP3 and focal epilepsy",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.82,
+  "new_directions": [
+    {
+      "question_text": "What is the exact penetrance of electroencephalographic (EEG) epileptiform discharges versus clinical seizures when stratified strictly by MAPK8IP3 variant class (recurrent missense in kinesin/cargo-binding domains vs loss-of-function truncations)?",
+      "rationale": "Discrepancies in clinical seizure reporting may stem from under-recognized subclinical EEG abnormalities or domain-specific gain-of-function/dominant-negative mechanisms versus haploinsufficiency.",
+      "promise": 0.88,
+      "est_cost": 45000
+    },
+    {
+      "question_text": "Does oligogenic burden from other neuronal transport or excitability genes modulate seizure emergence in individuals with loss-of-function MAPK8IP3 variants?",
+      "rationale": "Single-gene truncations in MAPK8IP3 often show mild developmental phenotypes without seizures, whereas patients presenting with epilepsy (e.g., Krenn et al., 2025) carry secondary truncating variants in genes such as ADAM23 or TNRC6A.",
+      "promise": 0.79,
+      "est_cost": 30000
+    }
+  ]
+}

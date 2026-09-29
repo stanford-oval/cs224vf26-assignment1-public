@@ -1,0 +1,152 @@
+{
+  "hypotheses": [
+    {
+      "text": "Speech delay and expressive language impairment (HP:0000750) is the single most sensitive phenotypic marker for FBXO11-related neurodevelopmental disorder, exhibiting penetrance of at least 95% across expanded independent cohorts and consistently outperforming behavioral dysregulation and facial dysmorphism in clinical sensitivity.",
+      "rationale": "Initial cohorts established speech delay in 14/14 individuals. If speech impairment is truly obligatory (or near-obligatory), it should replicate across independent expanded cohorts at frequencies exceeding 90-95%, serving as a required clinical touchstone to prompt FBXO11 sequencing even when classic behavioral or dysmorphic signs are absent.",
+      "aspects": [
+        "speech delay",
+        "phenotypic sensitivity",
+        "clinical discrimination"
+      ],
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "text": "In a cohort of 21 previously unreported individuals with heterozygous pathogenic or likely pathogenic FBXO11 variants, speech delay was documented in 20 out of 21 individuals (95%), while mild intellectual disability was present in 86%, facial dysmorphism in 67%, hypotonia in 62%, and behavioral dysregulation in 62%.",
+          "stance": "supports",
+          "source": {
+            "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+            "authors": [
+              "H Goel",
+              "G Garg",
+              "TS Barakat",
+              "G Barcia",
+              "A Bourgois"
+            ],
+            "year": 2026,
+            "journal": "Research Square",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+            "quote": "Speech delay was observed in 20/21 cases (95%)."
+          },
+          "numbers": [
+            {
+              "metric": "speech delay frequency",
+              "value": "20/21 (95%)"
+            },
+            {
+              "metric": "mild intellectual disability frequency",
+              "value": "86%"
+            },
+            {
+              "metric": "facial dysmorphism frequency",
+              "value": "67%"
+            },
+            {
+              "metric": "behavioral dysregulation frequency",
+              "value": "62%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "True microcephaly (HP:0000252) occurs in approximately 20-25% of individuals with FBXO11-related disorder, directly contradicting the prior proposition that microcephaly is consistently absent or serves as an exclusionary negative discriminator.",
+      "rationale": "Prior pooled assertions suggested microcephaly was consistently absent or rare, with head circumferences described as normal to mildly macrocephalic. Demonstrating that roughly one-quarter of affected individuals have documented microcephaly invalidates using the presence of microcephaly to rule out FBXO11 deficiency.",
+      "aspects": [
+        "negative discriminators",
+        "microcephaly",
+        "head circumference"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "In an expanded multi-center series of 21 individuals with pathogenic FBXO11 variants, microcephaly was explicitly identified in 24% of assessed individuals.",
+          "stance": "supports",
+          "source": {
+            "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+            "authors": [
+              "H Goel",
+              "G Garg",
+              "TS Barakat",
+              "G Barcia",
+              "A Bourgois"
+            ],
+            "year": 2026,
+            "journal": "Research Square",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+            "quote": "Microcephaly occurred in 24%, while seizures were present in 43%."
+          },
+          "numbers": [
+            {
+              "metric": "microcephaly prevalence",
+              "value": "24%"
+            },
+            {
+              "metric": "seizure prevalence",
+              "value": "43%"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Seizures (HP:0001250) represent a core co-occurring neurological complication affecting over 40% of individuals with FBXO11 variants, occurring independently of focal or consistent structural brain MRI malformations.",
+      "rationale": "Early index reports characterized FBXO11 mainly by behavioral anomalies and speech delay, under-appreciating epilepsy. Establishing that seizures occur in >40% without consistent brain imaging correlates confirms that FBXO11 mutations trigger intrinsic epileptogenesis rather than gross cerebral dysgenesis.",
+      "aspects": [
+        "seizures",
+        "epilepsy",
+        "neuroimaging"
+      ],
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "text": "In a 21-patient study, seizures were documented in 43% of cases, and brain imaging abnormalities were found to be nonspecific and not consistently correlated with epilepsy.",
+          "stance": "supports",
+          "source": {
+            "title": "Defining FBXO11-Related Neurodevelopmental Disorder: Clinical, Molecular and Facial Assessment of 21 Patients",
+            "authors": [
+              "H Goel",
+              "G Garg",
+              "TS Barakat",
+              "G Barcia",
+              "A Bourgois"
+            ],
+            "year": 2026,
+            "journal": "Research Square",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.researchsquare.com/article/rs-10148333/latest",
+            "quote": "Microcephaly occurred in 24%, while seizures were present in 43%. Brain imaging abnormalities were nonspecific and did not consistently correlate with epilepsy."
+          },
+          "numbers": [
+            {
+              "metric": "seizure frequency",
+              "value": "43%"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What specific receptive versus expressive language discrepancies and non-verbal communication abilities exist in FBXO11-related disorder compared to other E3-ubiquitin ligase neurodevelopmental syndromes?",
+      "rationale": "Speech delay is 95-100% penetrant in FBXO11, but distinguishing whether comprehension is preserved relative to verbal expression will refine clinical differential diagnosis against syndromes like Angelman (UBE3A).",
+      "promise": 0.85,
+      "est_cost": 0.75
+    },
+    {
+      "question_text": "What specific facial biometric traits identified by computational facial analysis (e.g., GestaltMatcher, PhenoScore) provide objective discrimination of FBXO11 from clinically overlapping chromatin/ubiquitin disorders?",
+      "rationale": "Facial dysmorphism is noted in only ~67% of individuals and is clinically subtle; objective machine-learning facial phenotyping may detect sub-visual discriminative features separating it from ARID1B or KANSL1.",
+      "promise": 0.8,
+      "est_cost": 0.85
+    }
+  ],
+  "dead_end": false
+}

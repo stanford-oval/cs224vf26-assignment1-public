@@ -1,0 +1,90 @@
+{
+  "verdict": "supported",
+  "rationale": "Comprehensive cohort aggregation and systematic literature reviews demonstrate that visual impairment is documented in 18 out of 28 (64.3%) reported patients with Jaberi-Elahi syndrome (OMIM #617988). Because this frequency falls below 70%, visual abnormalities and retinal dysfunction cannot be considered an obligate clinical criterion for establishing the diagnosis, particularly in early childhood where neuro-ophthalmologic signs may either be absent, progressive, or under-evaluated without specialized electrophysiology.",
+  "evidence": [
+    {
+      "text": "A comprehensive literature review of 28 individuals with Jaberi-Elahi syndrome revealed that visual impairment was documented in 18 out of 28 individuals (64.3%), while other manifestations such as motor delay (26/28), sparse hair (26/28), speech disorder (24/28), intellectual disability (23/28), hypotonia (23/28), and skeletal problems (23/28) were more frequent.",
+      "stance": "supports",
+      "source": {
+        "title": "Jaberi-Elahi syndrome: Exploring a novel GTPBP2 mutation and a literature review",
+        "authors": [
+          "J Manoochehri",
+          "A Shiri",
+          "S Khoddam"
+        ],
+        "year": 2024,
+        "journal": null,
+        "doi": null,
+        "pmid": "38852771",
+        "pmc": null,
+        "url": "https://www.sciencedirect.com/science/article/pii/S1769721224000454",
+        "quote": "A large numbers of patients manifest motor development delay (26/28), sparse hair (26/28), and speech disorder (24/28). Moreover, a significant fraction of patients suffer from intellectual disability (23/28), hypotonia (23/28), skeletal problems (23/28), and visual impairment (18/28)."
+      },
+      "numbers": [
+        {
+          "metric": "visual impairment prevalence",
+          "value": "18/28"
+        },
+        {
+          "metric": "motor development delay prevalence",
+          "value": "26/28"
+        },
+        {
+          "metric": "sparse hair prevalence",
+          "value": "26/28"
+        }
+      ]
+    },
+    {
+      "text": "Delineation of GTPBP2-associated syndrome demonstrates that phenotypic features are progressive and age-related, showing that manifestations such as iron accumulation, neuropathy, and specific degenerative changes evolve over time rather than being uniformly present at earliest presentation.",
+      "stance": "supports",
+      "source": {
+        "title": "Clinical delineation of GTPBP2\u2010associated neuro\u2010ectodermal syndrome: Report of two new families and review of the literature",
+        "authors": [
+          "MT Carter",
+          "S Venkateswaran"
+        ],
+        "year": 2019,
+        "journal": null,
+        "doi": "10.1111/cge.13523",
+        "pmid": null,
+        "pmc": null,
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cge.13523",
+        "quote": "Our findings suggest that some aspects of the clinical presentation appear to be age-related; brain iron accumulation may appear only after childhood, and the ectodermal findings and peripheral neuropathy are most prominent in older individuals."
+      },
+      "numbers": []
+    },
+    {
+      "text": "OMIM phenotypic characterization classifies retinal anomalies and visual impairment as variable additional features of Jaberi-Elahi syndrome rather than universal diagnostic prerequisites.",
+      "stance": "supports",
+      "source": {
+        "title": "Entry - #617988 - JABERI-ELAHI SYNDROME; JABELS",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://omim.org/entry/617988",
+        "quote": "Additional features may include retinal anomalies, visual impairment"
+      },
+      "numbers": []
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.88,
+  "new_directions": [
+    {
+      "question_text": "Does routine specialized full-field electroretinography (ffERG) detect subclinical retinal dysfunction in GTPBP2-variant pediatric patients who lack overt visual impairment?",
+      "rationale": "Early index reports identified subclinical photoreceptor and bipolar dysfunction via electrophysiology before overt visual loss was noted, raising the possibility that clinical history alone underestimates ophthalmologic involvement.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "What is the age-dependent cumulative penetrance curve of optic atrophy and retinal degeneration across longitudinal GTPBP2 cohorts?",
+      "rationale": "Clarifying whether visual dysfunction is inherently non-penetrant in a subset of genotypes versus strictly age-dependent would refine surveillance guidelines and prognostic counseling.",
+      "promise": 0.8,
+      "est_cost": 35000
+    }
+  ]
+}

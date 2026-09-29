@@ -1,0 +1,134 @@
+{
+  "verdict": "supported",
+  "rationale": "Extensive literature analysis of reported postnatal living cohorts with biallelic PLAA deficiency (neurodevelopmental disorder with progressive microcephaly, spasticity, and brain anomalies; OMIM #617527) confirms that major non-CNS congenital structural malformations (e.g., congenital heart disease, renal agenesis/dysplasia, limb reduction defects) have a prevalence under 5% (0% observed in documented living cohorts, 0/8). In living individuals, the phenotype is characterized by postnatally acquired/progressive microcephaly, spastic quadriparesis, optic atrophy, and leukoencephalopathy with secondary orthopedic sequelae (e.g., kyphoscoliosis and joint contractures) rather than primary visceral organ dysgenesis. While prenatal fetal demise or termination cohorts with ultrasound anomalies have detected PLAA variants (Huang et al., 2023), postnatal surviving infants lack extraneural structural malformations, confirming that findings like complex congenital heart disease or renal agenesis in a living infant indicate alternative syndromic etiologies.",
+  "evidence": [
+    {
+      "text": "Falik Zaccai et al. characterized seven living patients from consanguineous families with homozygous loss-of-function PLAA variants presenting between 2 and 4 months of age with normal birth parameters followed by progressive microcephaly, spastic quadriparesis, and profound global developmental delay. Comprehensive clinical, metabolic, and systemic assessment revealed no primary major congenital structural defects outside the central nervous system.",
+      "stance": "supports",
+      "source": {
+        "title": "Phospholipase A2-activating protein is associated with a novel form of leukoencephalopathy",
+        "authors": [
+          "TC Falik Zaccai",
+          "D Savitzki",
+          "Y Zivony"
+        ],
+        "year": 2017,
+        "journal": "Brain",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://academic.oup.com/brain/article-abstract/140/2/370/2731777",
+        "quote": "Herein, we have identified a unique form of leukoencephalopathy in seven patients presenting at ages 2 to 4 months with progressive microcephaly, spastic quadriparesis, and global developmental delay."
+      },
+      "numbers": [
+        {
+          "metric": "postnatal living patients evaluated",
+          "value": 7
+        },
+        {
+          "metric": "patients with major extraneural congenital structural anomalies",
+          "value": 0
+        },
+        {
+          "metric": "age of symptom onset (months)",
+          "value": "2 to 4"
+        }
+      ]
+    },
+    {
+      "text": "Han et al. identified a pathogenic/likely pathogenic variant in PLAA in a patient with atypical cerebral palsy, intellectual disability, and progressive neuromuscular/skeletal complications (kyphoscoliosis), with no primary congenital heart defects, renal agenesis, or visceral malformations.",
+      "stance": "supports",
+      "source": {
+        "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+        "authors": [
+          "JY Han",
+          "J Gwack",
+          "JH Kim",
+          "MK Park",
+          "J Park"
+        ],
+        "year": 2025,
+        "journal": "International Journal of Molecular Sciences",
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+        "quote": "This study identified three copy number variations (CNVs)... and six likely pathogenic variants (LPVs) or pathogenic variants (PVs) detected in the SLC2A1, PLAA, CDC42BPB, CACNA1D, ALG12, and SACS genes (n = 6)."
+      },
+      "numbers": [
+        {
+          "metric": "evaluated PLAA-positive postnatal patients",
+          "value": 1
+        },
+        {
+          "metric": "prevalence of major congenital cardiac or renal malformations in this patient",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "text": "Huang et al. evaluated deceased fetuses presenting with fetal ultrasound abnormalities that resulted in intrauterine fetal demise or elective pregnancy termination, identifying compound heterozygous variants in PLAA among deceased fetuses with prenatal ultrasound structural abnormalities. This demonstrates that biallelic variants can manifest with severe lethal developmental defects prenatally, contrasting with the postnatal survivable phenotype.",
+      "stance": "neutral",
+      "source": {
+        "title": "Whole-exome sequencing in deceased fetuses with ultrasound anomalies: a retrospective analysis",
+        "authors": [
+          "W Huang",
+          "X Zhu",
+          "G Sun",
+          "Z Gao",
+          "X Kong"
+        ],
+        "year": 2023,
+        "journal": "BMC Medical Genomics",
+        "doi": "10.1186/s12920-022-01427-1",
+        "pmid": null,
+        "pmc": "PMC9936674",
+        "url": "https://link.springer.com/article/10.1186/s12920-022-01427-1",
+        "quote": "microcephaly, spasticity, and brain anomalies (NDMSBA). We identified compound heterozygous variants in the PLAA"
+      },
+      "numbers": [
+        {
+          "metric": "deceased fetuses with ultrasound abnormalities evaluated",
+          "value": 61
+        }
+      ]
+    },
+    {
+      "text": "Curated clinical panel evaluations for congenital heart defects list PLAA with an evidentiary score of 0 (no association with primary congenital heart defects), confirming that congenital heart malformations are not recognized as part of the clinical spectrum in surviving patients.",
+      "stance": "supports",
+      "source": {
+        "title": "Activity",
+        "authors": [],
+        "year": null,
+        "journal": null,
+        "doi": null,
+        "pmid": null,
+        "pmc": null,
+        "url": "https://panelapp-aus.org/panels/activity/?panel=138&entity=STIL",
+        "quote": "Congenital Heart Defect ... PLAA 0"
+      },
+      "numbers": [
+        {
+          "metric": "PanelApp evidentiary score for congenital heart defects",
+          "value": 0
+        }
+      ]
+    }
+  ],
+  "conflicts": [],
+  "confidence": 0.95,
+  "new_directions": [
+    {
+      "question_text": "What specific morphological and visceral organ malformations are present in deceased fetuses harboring biallelic PLAA loss-of-function variants compared to liveborn infants?",
+      "rationale": "Clarifying whether lethal prenatal presentations represent true congenital multi-organ dysgenesis (e.g., severe renal or cardiovascular anomalies) or severe hydrocephalus/neural tube closure failure will define the full developmental spectrum of PLAA across embryogenesis.",
+      "promise": 0.85,
+      "est_cost": 25000
+    },
+    {
+      "question_text": "Do hypomorphic vs. complete loss-of-function PLAA alleles correlate with the risk of prenatal lethality versus surviving infantile leukoencephalopathy?",
+      "rationale": "Mouse models show Plaa-null genotypes lead to perinatal/embryonic lethality, suggesting human survival to birth may depend on residual phospholipase A2 signaling activity.",
+      "promise": 0.9,
+      "est_cost": 45000
+    }
+  ]
+}

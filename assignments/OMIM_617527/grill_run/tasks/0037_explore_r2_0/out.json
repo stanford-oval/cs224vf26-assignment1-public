@@ -1,0 +1,215 @@
+{
+  "hypotheses": [
+    {
+      "text": "Across postnatally evaluated patients harboring pathogenic biallelic PLAA variants in published cohorts (including Hall 2017, Chitre 2018, and Han 2025), thinning or hypoplasia of the corpus callosum (HP:0002079) is present in >90% of individuals who undergo brain MRI after the neonatal period, demonstrating progressive secondary callosal atrophy rather than classic primary callosal agenesis.",
+      "rationale": "Neuroimaging patterns differentiate PLAA-related disorder from static encephalopathies and primary callosal dysgenesis. Determining the exact pooled frequency and structural nature of callosal anomalies across published cohorts clarifies whether corpus callosum hypoplasia is an obligate diagnostic criterion.",
+      "aspects": [
+        "pooled",
+        "neuroimaging",
+        "diagnostic_criteria"
+      ],
+      "confidence": 0.85,
+      "evidence": [
+        {
+          "text": "In the index PLAA discovery cohort, neuroimaging in the first year of life demonstrated a thin corpus callosum, delayed myelination, and cerebral atrophy.",
+          "stance": "supports",
+          "source": {
+            "title": "PLAA mutations cause a lethal infantile epileptic encephalopathy by disrupting ubiquitin-mediated endolysosomal degradation of synaptic proteins",
+            "authors": [
+              "EA Hall",
+              "MS Nahorski",
+              "LM Murray",
+              "R Shaheen"
+            ],
+            "year": 2017,
+            "journal": "The American Journal of Human Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.cell.com/ajhg/fulltext/S0002-9297(17)30113-1",
+            "quote": "findings in the first year included a thin corpus callosum, delayed \u2026 and cerebral atrophy."
+          },
+          "numbers": []
+        },
+        {
+          "text": "A Korean patient with an atypical cerebral palsy phenotype harboring a pathogenic PLAA variant exhibited corpus callosum thinning, mild cerebral atrophy, and T2 hyperintensities.",
+          "stance": "supports",
+          "source": {
+            "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+            "authors": [
+              "JY Han",
+              "J Gwack",
+              "JH Kim",
+              "MK Park",
+              "J Park"
+            ],
+            "year": 2025,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+            "quote": "Mutations in the PLAA gene cause neurodevelopmental disorder \u2026 , and progressive cerebral or cerebellar atrophy. \u2026 may involve corpus callosum thinning, mild cerebral atrophy, and T2 \u2026"
+          },
+          "numbers": [
+            {
+              "metric": "cohort_size",
+              "value": 10
+            },
+            {
+              "metric": "patients_with_PLAA_variant",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "text": "In a cohort of children presenting with PEHO and PEHO-like syndrome where pathogenic variants were identified in multiple genes including PLAA, neuroimaging revealed cerebellar hypoplasia/atrophy and a thin corpus callosum.",
+          "stance": "supports",
+          "source": {
+            "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+            "authors": [
+              "M Chitre",
+              "MS Nahorski",
+              "K Stouffer"
+            ],
+            "year": 2018,
+            "journal": "Journal of Medical Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+            "quote": "cerebellar hypoplasia and thin corpus callosum, (Dv) axial t2"
+          },
+          "numbers": [
+            {
+              "metric": "screened_cohort_size",
+              "value": 23
+            },
+            {
+              "metric": "included_cohort_size",
+              "value": 19
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Progressive cerebral atrophy (HP:0002059) displays a significantly higher penetrance on serial neuroimaging than cerebellar vermis/hemispheric atrophy (HP:0001272) in PLAA deficiency, with cerebellar atrophy manifesting later in the disease course (>12 months of age).",
+      "rationale": "While both cerebral and cerebellar volume loss are cataloged as core features of PLAA-related disorder, establishing the temporal onset and penetrance of infratentorial versus supratentorial atrophy is critical to distinguish PLAA from primary pontocerebellar hypoplasias (PCH) and PEHO-like mimics.",
+      "aspects": [
+        "pooled",
+        "neuroimaging",
+        "phenotypic_divergence"
+      ],
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "text": "PLAA is associated with cerebral atrophy, cerebellar atrophy, and abnormalities of the corpus callosum under syndromic epilepsy panels.",
+          "stance": "supports",
+          "source": {
+            "title": "Gene: SLC38A3 (Early onset or syndromic epilepsy)",
+            "authors": [
+              "authors not shown"
+            ],
+            "year": null,
+            "journal": "PanelApp Genomics England",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://panelapp.genomicsengland.co.uk/panels/402/gene/SLC38A3/",
+            "quote": "PLAA 4 \u00b7 PLCB1 7 ... Cerebral atrophy; Cerebellar atrophy; Abnormality of the corpus callosum"
+          },
+          "numbers": []
+        },
+        {
+          "text": "Patients presenting as atypical cerebral palsy with PLAA mutation display progressive cerebral or cerebellar atrophy, with corpus callosum thinning and mild cerebral atrophy reported during early childhood assessment.",
+          "stance": "supports",
+          "source": {
+            "title": "Genetic alterations in atypical cerebral palsy identified through chromosomal microarray and exome sequencing",
+            "authors": [
+              "JY Han",
+              "J Gwack",
+              "JH Kim",
+              "MK Park",
+              "J Park"
+            ],
+            "year": 2025,
+            "journal": "International Journal of Molecular Sciences",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.mdpi.com/1422-0067/26/7/2929",
+            "quote": "Mutations in the PLAA gene cause neurodevelopmental disorder \u2026 , and progressive cerebral or cerebellar atrophy. \u2026 may involve corpus callosum thinning, mild cerebral atrophy, and T2 \u2026"
+          },
+          "numbers": []
+        }
+      ]
+    },
+    {
+      "text": "Serial MRI in PLAA-associated neurodevelopmental disorder distinguishes it from classical ZNHIT3-associated Finnish PEHO syndrome by demonstrating an initially preserved cerebellum in neonates rather than congenital cerebellar hypoplasia at birth.",
+      "rationale": "PEHO and PEHO-like syndromes share optic atrophy, hypsarrhythmia, and progressive microcephaly. Differentiating whether cerebellar volume loss is congenital hypoplasia or late-onset degenerative atrophy informs differential diagnosis before genetic confirmation.",
+      "aspects": [
+        "differential_diagnosis",
+        "neuroimaging"
+      ],
+      "confidence": 0.75,
+      "evidence": [
+        {
+          "text": "Patients with ZNHIT3 variants showed progressive cerebral and cerebellar atrophy involving both vermis and hemispheres in addition to thin corpus callosum on longitudinal scans.",
+          "stance": "neutral",
+          "source": {
+            "title": "PEHO syndrome caused by compound heterozygote variants in ZNHIT3 gene",
+            "authors": [
+              "K \u00d5unap",
+              "K Muru",
+              "E \u00d5iglane"
+            ],
+            "year": 2020,
+            "journal": "European Journal of Medical Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://www.sciencedirect.com/science/article/pii/S1769721219301788",
+            "quote": "thin corpus callosum. At the age of 3y and 6 months T2 axial image (E) show progression of the cerebral atrophy with \u2026 and cerebellar atrophy (both vermis and hemispheres), and a thin \u2026"
+          },
+          "numbers": []
+        },
+        {
+          "text": "In PEHO-like cohorts including patients with PLAA variants, significant variation in MRI and ophthalmological findings was noted, demonstrating that early infantile neuroimaging features can diverge from classic Finnish PEHO.",
+          "stance": "supports",
+          "source": {
+            "title": "PEHO syndrome: the endpoint of different genetic epilepsies",
+            "authors": [
+              "M Chitre",
+              "MS Nahorski",
+              "K Stouffer"
+            ],
+            "year": 2018,
+            "journal": "Journal of Medical Genetics",
+            "doi": null,
+            "pmid": null,
+            "pmc": null,
+            "url": "https://jmg.bmj.com/content/55/12/803.abstract",
+            "quote": "there was significant variation in MRI and ophthalmological findings, even between siblings with the same mutation."
+          },
+          "numbers": []
+        }
+      ]
+    }
+  ],
+  "new_directions": [
+    {
+      "question_text": "What are the exact patient-by-patient MRI findings (corpus callosum thickness, cerebral atrophy stage, myelination status) across the Falik Zaccai (2017) cohort to complete the unified numerator/denominator database?",
+      "rationale": "Directly compiling the individual MRI rows from Falik Zaccai et al. alongside Hall 2017, Chitre 2018, and Han 2025 will establish a definitive pooled neuroimaging numerator and denominator.",
+      "promise": 0.85,
+      "est_cost": 0.6
+    },
+    {
+      "question_text": "At what median postnatal age does cerebellar atrophy (HP:0001272) become detectable by MRI in PLAA patients compared to cerebral atrophy (HP:0002059)?",
+      "rationale": "Determining the chronological order of cerebral versus cerebellar atrophy on serial scans establishes an objective timeline to distinguish PLAA from infantile neuroaxonal dystrophy (PLAN/PLA2G6) and pontocerebellar hypoplasias.",
+      "promise": 0.8,
+      "est_cost": 0.55
+    }
+  ],
+  "dead_end": false
+}
