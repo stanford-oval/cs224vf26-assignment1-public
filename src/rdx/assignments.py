@@ -28,10 +28,14 @@ from .cohort import Cohort, Patient
 from .disease import DiseaseBrief
 from .phenopackets import PhenopacketStore, build_phenopacket_cohort
 
-ASSIGNMENTS_DIR = Path("assignments")
-ANSWER_KEY = Path("data/answer_key.csv")
+#: All defaults are anchored to the repository that contains this package, not
+#: to the working directory, so a notebook started from /content on Colab or
+#: from notebook/ locally reads the same files.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+ASSIGNMENTS_DIR = REPO_ROOT / "assignments"
+ANSWER_KEY = REPO_ROOT / "data" / "answer_key.csv"
 #: The one-line-per-directory version: directory, disease, target patient.
-TARGETS_KEY = Path("data/assignment_targets.csv")
+TARGETS_KEY = REPO_ROOT / "data" / "assignment_targets.csv"
 
 #: What the answer key records, one row per patient.
 KEY_COLUMNS = (
@@ -165,8 +169,11 @@ def load_assignment(omim: str, root: Path = ASSIGNMENTS_DIR) -> tuple[dict, Coho
     """The disease brief and the scrubbed cohort for one directory."""
     d = Path(root) / directory_name(omim)
     if not d.exists():
+        have = sorted(p.name for p in Path(root).glob("OMIM_*")) if Path(root).exists() else []
         raise FileNotFoundError(
-            f"{d} does not exist. Build it with\n"
+            f"{d} does not exist. Directories available under {root}: "
+            f"{', '.join(have[:8])}{' ...' if len(have) > 8 else ''}. "
+            f"Set DISEASE to one of them, or build it with\n"
             f"    python3 scripts/make_assignments.py {omim}"
         )
     disease = json.loads((d / "disease.json").read_text())

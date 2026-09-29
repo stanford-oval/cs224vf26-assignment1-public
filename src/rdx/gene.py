@@ -15,7 +15,7 @@ import urllib.request
 from dataclasses import dataclass, field
 from pathlib import Path
 
-CACHE = Path("data/genes.json")
+CACHE = Path(__file__).resolve().parents[2] / "data" / "genes.json"   # repo-anchored, not cwd
 FIELDS = "name,summary,alias,type_of_gene,map_location,entrezgene,genomic_pos"
 URL = "https://mygene.info/v3/query?q=symbol:{sym}&species=human&fields=" + FIELDS
 
